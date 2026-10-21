@@ -1,0 +1,145 @@
+{
+  "id": "u05",
+  "level": "A1",
+  "emoji": "🏠",
+  "title": { "t": "Meine Wohnung", "s": "My home" },
+  "goals": [
+    "Name rooms and furniture in a home",
+    "Say what there is with es gibt + einen / eine / ein",
+    "Ask and answer Wo ist …? with er / sie / es"
+  ],
+
+  "words": [
+    { "id": "w01", "t": "die Wohnung", "pl": "die Wohnungen", "s": "apartment", "emoji": "🏢", "ex": { "t": "Die Wohnung ist groß.", "s": "The apartment is big." } },
+    { "id": "w02", "t": "das Zimmer", "pl": "die Zimmer", "s": "room", "emoji": "", "ex": { "t": "Die Wohnung hat drei Zimmer.", "s": "The apartment has three rooms." } },
+    { "id": "w03", "t": "die Küche", "pl": "die Küchen", "s": "kitchen", "emoji": "🍳", "ex": { "t": "Die Küche ist klein.", "s": "The kitchen is small." } },
+    { "id": "w04", "t": "das Bad", "pl": "die Bäder", "s": "bathroom", "emoji": "🛁", "ex": { "t": "Wo ist das Bad?", "s": "Where is the bathroom?" } },
+    { "id": "w05", "t": "das Schlafzimmer", "pl": "die Schlafzimmer", "s": "bedroom", "emoji": "", "ex": { "t": "Es gibt zwei Schlafzimmer.", "s": "There are two bedrooms." } },
+    { "id": "w06", "t": "das Wohnzimmer", "pl": "die Wohnzimmer", "s": "living room", "emoji": "", "ex": { "t": "Der Fernseher ist im Wohnzimmer.", "s": "The TV is in the living room." } },
+    { "id": "w07", "t": "der Tisch", "pl": "die Tische", "s": "table", "emoji": "", "ex": { "t": "Es gibt einen Tisch in der Küche.", "s": "There is a table in the kitchen." } },
+    { "id": "w08", "t": "der Stuhl", "pl": "die Stühle", "s": "chair", "emoji": "🪑", "ex": { "t": "Wir haben vier Stühle.", "s": "We have four chairs." } },
+    { "id": "w09", "t": "das Bett", "pl": "die Betten", "s": "bed", "emoji": "🛏️", "ex": { "t": "Das Bett ist groß.", "s": "The bed is big." } },
+    { "id": "w10", "t": "das Sofa", "pl": "die Sofas", "s": "sofa; couch", "emoji": "🛋️", "ex": { "t": "Es gibt ein Sofa im Wohnzimmer.", "s": "There is a sofa in the living room." } },
+    { "id": "w11", "t": "der Schrank", "pl": "die Schränke", "s": "closet; cupboard", "emoji": "", "ex": { "t": "Der Schrank ist im Schlafzimmer.", "s": "The closet is in the bedroom." } },
+    { "id": "w12", "t": "die Lampe", "pl": "die Lampen", "s": "lamp", "emoji": "💡", "ex": { "t": "Wo ist die Lampe?", "s": "Where is the lamp?" } },
+    { "id": "w13", "t": "das Fenster", "pl": "die Fenster", "s": "window", "emoji": "🪟", "ex": { "t": "Das Zimmer hat zwei Fenster.", "s": "The room has two windows." } },
+    { "id": "w14", "t": "der Fernseher", "pl": "die Fernseher", "s": "TV (set)", "emoji": "📺", "ex": { "t": "Es gibt keinen Fernseher.", "s": "There is no TV." } }
+  ],
+
+  "phrases": [
+    { "id": "p01", "t": "Komm rein!", "s": "Come in! (informal)" },
+    { "id": "p02", "t": "Hier ist die Küche.", "s": "Here is the kitchen." },
+    { "id": "p03", "t": "Die Wohnung ist groß.", "s": "The apartment is big." },
+    { "id": "p04", "t": "Das Zimmer ist klein.", "s": "The room is small." },
+    { "id": "p05", "t": "Wie schön!", "s": "How nice!" },
+    { "id": "p06", "t": "Wie viele Zimmer hat die Wohnung?", "s": "How many rooms does the apartment have?" },
+    { "id": "p07", "t": "Die Wohnung hat drei Zimmer.", "s": "The apartment has three rooms." },
+    { "id": "p08", "t": "Wo ist die Toilette, bitte?", "s": "Where is the toilet, please?" }
+  ],
+
+  "dialogue": {
+    "title": { "t": "Besuch bei Ali", "s": "Visiting Ali" },
+    "speakers": { "A": { "name": "Ali", "voice": "m" }, "B": { "name": "Anna", "voice": "f" } },
+    "lines": [
+      { "sp": "A", "t": "Hallo, Anna! Komm rein!", "s": "Hi, Anna! Come in!" },
+      { "sp": "B", "t": "Hallo, Ali! Oh, die Wohnung ist schön!", "s": "Hi, Ali! Oh, the apartment is beautiful!" },
+      { "sp": "A", "t": "Danke! Die Wohnung hat vier Zimmer. Hier ist das Wohnzimmer.", "s": "Thanks! The apartment has four rooms. Here is the living room." },
+      { "sp": "B", "t": "Das Wohnzimmer ist groß! Gibt es keinen Fernseher?", "s": "The living room is big! Isn't there a TV?" },
+      { "sp": "A", "t": "Nein, wir haben keinen Fernseher.", "s": "No, we don't have a TV." },
+      { "sp": "B", "t": "Und wo ist die Küche?", "s": "And where is the kitchen?" },
+      { "sp": "A", "t": "Sie ist hier. Die Küche ist klein, aber gut.", "s": "It's here. The kitchen is small, but good." },
+      { "sp": "B", "t": "Wo ist das Bad, bitte?", "s": "Where is the bathroom, please?" },
+      { "sp": "A", "t": "Es ist da.", "s": "It's over there." },
+      { "sp": "B", "t": "Danke! Ich mag die Wohnung!", "s": "Thanks! I like the apartment!" }
+    ]
+  },
+
+  "grammar": [
+    {
+      "id": "g01",
+      "title": { "t": "es gibt + einen, eine, ein", "s": "\"there is / there are\" + accusative" },
+      "explain": "**Es gibt** means *there is* or *there are*. It is always **gibt**, also with plurals: **Es gibt zwei Zimmer.**\nThe noun after **es gibt** is in the **accusative** case. Good news: only der-nouns change! **ein → einen**, **kein → keinen**. Die- and das-nouns stay the same.\nThe same happens after **haben** and **möchte**: Ich habe **einen** Bruder. Ich möchte **einen** Tee.\nTo ask, put **gibt** first: **Gibt es** ein Bad?",
+      "table": [
+        ["der Tisch", "Es gibt einen Tisch.", "Es gibt keinen Tisch."],
+        ["die Lampe", "Es gibt eine Lampe.", "Es gibt keine Lampe."],
+        ["das Bett", "Es gibt ein Bett.", "Es gibt kein Bett."],
+        ["die Stühle", "Es gibt Stühle.", "Es gibt keine Stühle."]
+      ],
+      "examples": [
+        { "t": "Es gibt einen Tisch in der Küche.", "s": "There is a table in the kitchen." },
+        { "t": "Es gibt eine Lampe im Wohnzimmer.", "s": "There is a lamp in the living room." },
+        { "t": "Es gibt zwei Schlafzimmer.", "s": "There are two bedrooms." },
+        { "t": "Es gibt keinen Fernseher.", "s": "There is no TV." },
+        { "t": "Gibt es einen Schrank im Schlafzimmer?", "s": "Is there a closet in the bedroom?" }
+      ],
+      "exercises": [
+        { "type": "choice", "t": "Es gibt ___ Tisch in der Küche.", "options": ["ein", "eine", "einen"], "answer": 2, "s": "There is a table in the kitchen." },
+        { "type": "choice", "t": "Es gibt ___ Lampe im Wohnzimmer.", "options": ["ein", "eine", "einen"], "answer": 1, "s": "There is a lamp in the living room." },
+        { "type": "choice", "t": "Es gibt ___ Sofa im Wohnzimmer.", "options": ["ein", "eine", "einen"], "answer": 0, "s": "There is a sofa in the living room." },
+        { "type": "choice", "t": "Es gibt ___ Fernseher.", "options": ["kein", "keine", "keinen"], "answer": 2, "s": "There is no TV." },
+        { "type": "type", "t": "Ich habe ___ Bruder.", "answer": ["einen"], "s": "I have a brother." },
+        { "type": "type", "t": "Es ___ zwei Zimmer.", "answer": ["gibt"], "s": "There are two rooms." },
+        { "type": "order", "t": "Es gibt keinen Schrank.", "s": "There is no closet." },
+        { "type": "order", "t": "Gibt es ein Bad?", "s": "Is there a bathroom?" }
+      ]
+    },
+    {
+      "id": "g02",
+      "title": { "t": "Wo ist …? – Er, sie, es", "s": "\"Where is …?\" and \"it\"" },
+      "explain": "Ask **Wo ist …?** for one thing and **Wo sind …?** for more than one.\nIn the answer, use **er** for der-nouns, **sie** for die-nouns and **es** for das-nouns – also for things! **der Tisch → er**, **die Lampe → sie**, **das Bett → es**. For plurals, use **sie**.\nUseful answers: **hier** (*here*), **da** (*there*), **im Wohnzimmer**, **im Schlafzimmer**, **im Bad**, **in der Küche**. Learn these as phrases for now (**im** = in dem) – more in Unit 7.",
+      "table": [
+        ["der Tisch", "Wo ist der Tisch?", "Er ist hier."],
+        ["die Lampe", "Wo ist die Lampe?", "Sie ist da."],
+        ["das Sofa", "Wo ist das Sofa?", "Es ist im Wohnzimmer."],
+        ["die Stühle", "Wo sind die Stühle?", "Sie sind in der Küche."]
+      ],
+      "examples": [
+        { "t": "Wo ist das Bad? – Es ist hier.", "s": "Where is the bathroom? – It's here." },
+        { "t": "Wo ist Maryam? – Sie ist in der Küche.", "s": "Where is Maryam? – She is in the kitchen." },
+        { "t": "Wo ist der Fernseher? – Er ist im Wohnzimmer.", "s": "Where is the TV? – It's in the living room." },
+        { "t": "Wo sind die Stühle? – Sie sind in der Küche.", "s": "Where are the chairs? – They are in the kitchen." }
+      ],
+      "exercises": [
+        { "type": "choice", "t": "Wo ___ die Lampe?", "options": ["ist", "sind"], "answer": 0, "s": "Where is the lamp?" },
+        { "type": "choice", "t": "Wo ___ die Stühle?", "options": ["ist", "sind"], "answer": 1, "s": "Where are the chairs?" },
+        { "type": "choice", "t": "Wo ist der Schrank? – ___ ist im Schlafzimmer.", "options": ["Er", "Sie", "Es"], "answer": 0, "s": "Where is the closet? – It's in the bedroom." },
+        { "type": "choice", "t": "Wo ist die Küche? – ___ ist hier.", "options": ["Er", "Sie", "Es"], "answer": 1, "s": "Where is the kitchen? – It's here." },
+        { "type": "type", "t": "Wo ist das Bett? – ___ ist im Schlafzimmer.", "answer": ["es"], "s": "Where is the bed? – It's in the bedroom." },
+        { "type": "type", "t": "Wo ___ Ali? – Er ist in der Küche.", "answer": ["ist"], "s": "Where is Ali? – He is in the kitchen." },
+        { "type": "order", "t": "Der Tisch ist in der Küche.", "s": "The table is in the kitchen." },
+        { "type": "order", "t": "Wo sind die Kinder?", "s": "Where are the children?" }
+      ]
+    }
+  ],
+
+  "reading": {
+    "title": { "t": "Wo ist Mimi?", "s": "Where is Mimi?" },
+    "text": [
+      { "t": "Ich heiße Neda. Wir wohnen in Köln.", "s": "My name is Neda. We live in Cologne." },
+      { "t": "Die Wohnung hat vier Zimmer, eine Küche und ein Bad.", "s": "The apartment has four rooms, a kitchen and a bathroom." },
+      { "t": "Das Wohnzimmer ist groß.", "s": "The living room is big." },
+      { "t": "Es gibt ein Sofa, einen Tisch und vier Stühle.", "s": "There is a sofa, a table and four chairs." },
+      { "t": "Es gibt keinen Fernseher.", "s": "There is no TV." },
+      { "t": "Mein Zimmer ist klein.", "s": "My room is small." },
+      { "t": "Es gibt ein Bett, einen Schrank und eine Lampe.", "s": "There is a bed, a closet and a lamp." },
+      { "t": "Und wo ist die Katze Mimi? Sie ist im Bett!", "s": "And where is Mimi the cat? She is in the bed!" }
+    ],
+    "questions": [
+      { "q": { "t": "Wie viele Zimmer hat die Wohnung?", "s": "How many rooms does the apartment have?" }, "options": ["zwei", "drei", "vier"], "answer": 2 },
+      { "q": { "t": "Was gibt es nicht?", "s": "What isn't there?" }, "options": ["ein Sofa", "einen Tisch", "einen Fernseher"], "answer": 2 },
+      { "q": { "t": "Wie ist Nedas Zimmer?", "s": "What is Neda's room like?" }, "options": ["groß", "klein"], "answer": 1 },
+      { "q": { "t": "Wo ist Mimi?", "s": "Where is Mimi?" }, "options": ["in der Küche", "im Bett", "im Bad"], "answer": 1 }
+    ]
+  },
+
+  "sentences": [
+    { "t": "Die Wohnung ist groß.", "s": "The apartment is big." },
+    { "t": "Es gibt einen Tisch in der Küche.", "s": "There is a table in the kitchen." },
+    { "t": "Wo ist das Bad?", "s": "Where is the bathroom?" },
+    { "t": "Es gibt keinen Fernseher.", "s": "There is no TV." },
+    { "t": "Das Sofa ist im Wohnzimmer.", "s": "The sofa is in the living room." },
+    { "t": "Wo sind die Stühle?", "s": "Where are the chairs?" },
+    { "t": "Die Lampe ist hier.", "s": "The lamp is here." },
+    { "t": "Gibt es ein Bett?", "s": "Is there a bed?" }
+  ]
+}

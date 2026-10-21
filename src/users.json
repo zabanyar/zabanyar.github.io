@@ -1,0 +1,6 @@
+[
+  { "id": "ehsan", "name": "Ehsan", "aliases": ["احسان"] },
+  { "id": "maman", "name": "Maman", "aliases": ["مامان"] },
+  { "id": "baba", "name": "Baba", "aliases": ["بابا"] },
+  { "id": "test", "name": "Test" }
+]

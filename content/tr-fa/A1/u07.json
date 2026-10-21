@@ -1,0 +1,666 @@
+{
+  "id": "u07",
+  "level": "A1",
+  "emoji": "🏙️",
+  "title": {
+    "t": "Şehirde",
+    "s": "در شهر"
+  },
+  "goals": [
+    "بپرسم یک جا کجاست.",
+    "بگویم کجا می‌روم (به مدرسه، به بانک، به خانه…).",
+    "آدرس بپرسم و آدرس بدهم: راست، چپ، مستقیم."
+  ],
+  "words": [
+    {
+      "id": "w01",
+      "t": "şehir",
+      "pl": "şehirler",
+      "s": "شهر",
+      "pr": "شِهیر",
+      "emoji": "🏙️",
+      "ex": {
+        "t": "İstanbul büyük bir şehir.",
+        "s": "استانبول یک شهر بزرگ است."
+      }
+    },
+    {
+      "id": "w02",
+      "t": "okul",
+      "pl": "okullar",
+      "s": "مدرسه",
+      "pr": "اُکول",
+      "emoji": "🏫",
+      "ex": {
+        "t": "Çocuklar okula gidiyor.",
+        "s": "بچه‌ها به مدرسه می‌روند."
+      }
+    },
+    {
+      "id": "w03",
+      "t": "hastane",
+      "pl": "hastaneler",
+      "s": "بیمارستان",
+      "pr": "هاستانِه",
+      "emoji": "🏥",
+      "ex": {
+        "t": "Hastane çok yakın.",
+        "s": "بیمارستان خیلی نزدیک است."
+      }
+    },
+    {
+      "id": "w04",
+      "t": "eczane",
+      "pl": "eczaneler",
+      "s": "داروخانه",
+      "pr": "اِجزانِه",
+      "emoji": "💊",
+      "ex": {
+        "t": "Eczane solda.",
+        "s": "داروخانه سمت چپ است."
+      }
+    },
+    {
+      "id": "w05",
+      "t": "banka",
+      "pl": "bankalar",
+      "s": "بانک",
+      "pr": "بانکا",
+      "emoji": "🏦",
+      "ex": {
+        "t": "Babam bankada çalışıyor.",
+        "s": "پدرم در بانک کار می‌کند."
+      }
+    },
+    {
+      "id": "w06",
+      "t": "market",
+      "pl": "marketler",
+      "s": "سوپرمارکت",
+      "pr": "مارکِت",
+      "emoji": "🛒",
+      "ex": {
+        "t": "Annem markete gidiyor.",
+        "s": "مادرم به سوپرمارکت می‌رود."
+      }
+    },
+    {
+      "id": "w07",
+      "t": "park",
+      "pl": "parklar",
+      "s": "پارک",
+      "pr": "پارک",
+      "emoji": "🌳",
+      "ex": {
+        "t": "Akşam parka gidiyoruz.",
+        "s": "عصر به پارک می‌رویم."
+      }
+    },
+    {
+      "id": "w08",
+      "t": "cami",
+      "pl": "camiler",
+      "s": "مسجد",
+      "pr": "جامی",
+      "emoji": "🕌",
+      "ex": {
+        "t": "Cami çok güzel.",
+        "s": "مسجد خیلی زیباست."
+      }
+    },
+    {
+      "id": "w09",
+      "t": "otobüs",
+      "pl": "otobüsler",
+      "s": "اتوبوس",
+      "pr": "اُتُبوس",
+      "emoji": "🚌",
+      "ex": {
+        "t": "Otobüs geliyor.",
+        "s": "اتوبوس دارد می‌آید."
+      }
+    },
+    {
+      "id": "w10",
+      "t": "durak",
+      "pl": "duraklar",
+      "s": "ایستگاه",
+      "pr": "دوراک",
+      "emoji": "🚏",
+      "ex": {
+        "t": "Durak sağda.",
+        "s": "ایستگاه سمت راست است."
+      }
+    },
+    {
+      "id": "w11",
+      "t": "gitmek",
+      "s": "رفتن",
+      "pr": "گیتمِک",
+      "emoji": "🚶",
+      "ex": {
+        "t": "Ben eve gidiyorum.",
+        "s": "من به خانه می‌روم."
+      }
+    },
+    {
+      "id": "w12",
+      "t": "sağ",
+      "s": "راست",
+      "pr": "ساا",
+      "emoji": "➡️",
+      "ex": {
+        "t": "Sağa dönün.",
+        "s": "به راست بپیچید."
+      }
+    },
+    {
+      "id": "w13",
+      "t": "sol",
+      "s": "چپ",
+      "pr": "سُل",
+      "emoji": "⬅️",
+      "ex": {
+        "t": "Banka solda.",
+        "s": "بانک سمت چپ است."
+      }
+    },
+    {
+      "id": "w14",
+      "t": "düz",
+      "s": "مستقیم",
+      "pr": "دوز",
+      "emoji": "⬆️",
+      "ex": {
+        "t": "Düz gidin.",
+        "s": "مستقیم بروید."
+      }
+    }
+  ],
+  "phrases": [
+    {
+      "id": "p01",
+      "t": "Affedersiniz!",
+      "s": "ببخشید!",
+      "pr": "آفِّدِرسینیز!"
+    },
+    {
+      "id": "p02",
+      "t": "Eczane nerede?",
+      "s": "داروخانه کجاست؟",
+      "pr": "اِجزانِه نِرِدِه؟"
+    },
+    {
+      "id": "p03",
+      "t": "Düz gidin.",
+      "s": "مستقیم بروید.",
+      "pr": "دوز گیدین."
+    },
+    {
+      "id": "p04",
+      "t": "Sağa dönün.",
+      "s": "به راست بپیچید.",
+      "pr": "ساا دُنون."
+    },
+    {
+      "id": "p05",
+      "t": "Sola dönün.",
+      "s": "به چپ بپیچید.",
+      "pr": "سُلا دُنون."
+    },
+    {
+      "id": "p06",
+      "t": "Çok yakın.",
+      "s": "خیلی نزدیک است.",
+      "pr": "چُک یاکِن."
+    },
+    {
+      "id": "p07",
+      "t": "Biraz uzak.",
+      "s": "کمی دور است.",
+      "pr": "بیراز اوزاک."
+    },
+    {
+      "id": "p08",
+      "t": "Nereye gidiyorsun?",
+      "s": "کجا می‌روی؟",
+      "pr": "نِرِیِه گیدیُرسون؟"
+    }
+  ],
+  "dialogue": {
+    "title": {
+      "t": "Eczane nerede?",
+      "s": "داروخانه کجاست؟"
+    },
+    "speakers": {
+      "A": {
+        "name": "Sara",
+        "voice": "f"
+      },
+      "B": {
+        "name": "Mehmet",
+        "voice": "m"
+      }
+    },
+    "lines": [
+      {
+        "sp": "A",
+        "t": "Affedersiniz, eczane nerede?",
+        "s": "ببخشید، داروخانه کجاست؟"
+      },
+      {
+        "sp": "B",
+        "t": "Eczane çok yakın. Düz gidin, sonra sağa dönün.",
+        "s": "داروخانه خیلی نزدیک است. مستقیم بروید، بعد به راست بپیچید."
+      },
+      {
+        "sp": "A",
+        "t": "Düz gidiyorum, sonra sağa dönüyorum. Tamam.",
+        "s": "مستقیم می‌روم، بعد به راست می‌پیچم. باشه."
+      },
+      {
+        "sp": "B",
+        "t": "Evet. Eczane solda.",
+        "s": "بله. داروخانه سمت چپ است."
+      },
+      {
+        "sp": "A",
+        "t": "Teşekkür ederim. Hastane nerede?",
+        "s": "ممنونم. بیمارستان کجاست؟"
+      },
+      {
+        "sp": "B",
+        "t": "Hastane biraz uzak. Otobüse binin.",
+        "s": "بیمارستان کمی دور است. سوار اتوبوس شوید."
+      },
+      {
+        "sp": "A",
+        "t": "Otobüs durağı nerede?",
+        "s": "ایستگاه اتوبوس کجاست؟"
+      },
+      {
+        "sp": "B",
+        "t": "Durak orada, solda.",
+        "s": "ایستگاه آن‌جاست، سمت چپ."
+      },
+      {
+        "sp": "A",
+        "t": "Çok teşekkürler! İyi günler!",
+        "s": "خیلی ممنون! روز خوبی داشته باشید!"
+      },
+      {
+        "sp": "B",
+        "t": "Rica ederim. İyi günler!",
+        "s": "خواهش می‌کنم. روز خوش!"
+      }
+    ]
+  },
+  "grammar": [
+    {
+      "id": "g01",
+      "title": {
+        "t": "Okula gidiyorum: -(y)e / -(y)a",
+        "s": "پسوند «به»: e / a"
+      },
+      "explain": "پسوند **e / a** در ترکی یعنی «به» یا «به سمتِ». مثلاً okul**a** gidiyorum = به مدرسه می‌روم.\nکدام یکی؟ مثل پسوند جمع (هماهنگی دوتایی): اگر آخرین واکه‌ی کلمه **a، ı، o، u** باشد → **a**؛ اگر **e، i، ö، ü** باشد → **e**. مثال: ev → **eve**، park → **parka**.\nاگر کلمه به واکه ختم شود، یک **y** وسط می‌آید: banka → banka**ya**، hastane → hastane**ye**، cami → cami**ye**.\nحواستان باشد: در بعضی کلمه‌ها k آخر قبل از واکه به **ğ** تبدیل می‌شود: durak → **durağa**.\nبرای «به کجا؟» می‌پرسیم **Nereye?** ولی برای «کجاست؟» همان **Nerede?** را می‌گوییم.",
+      "table": [
+        [
+          "ev",
+          "eve"
+        ],
+        [
+          "okul",
+          "okula"
+        ],
+        [
+          "park",
+          "parka"
+        ],
+        [
+          "market",
+          "markete"
+        ],
+        [
+          "banka",
+          "bankaya"
+        ],
+        [
+          "hastane",
+          "hastaneye"
+        ],
+        [
+          "durak",
+          "durağa"
+        ]
+      ],
+      "examples": [
+        {
+          "t": "Ben okula gidiyorum.",
+          "s": "من به مدرسه می‌روم."
+        },
+        {
+          "t": "Annem markete gidiyor.",
+          "s": "مادرم به سوپرمارکت می‌رود."
+        },
+        {
+          "t": "Akşam eve gidiyoruz.",
+          "s": "عصر به خانه می‌رویم."
+        },
+        {
+          "t": "Otobüs hastaneye gidiyor.",
+          "s": "اتوبوس به بیمارستان می‌رود."
+        },
+        {
+          "t": "Nereye gidiyorsun? Parka.",
+          "s": "کجا می‌روی؟ به پارک."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "choice",
+          "t": "Ben her sabah ___ gidiyorum.",
+          "options": [
+            "okule",
+            "okula",
+            "okulda"
+          ],
+          "answer": 1,
+          "s": "من هر صبح به مدرسه می‌روم."
+        },
+        {
+          "type": "choice",
+          "t": "Annem ___ gidiyor.",
+          "options": [
+            "markete",
+            "markata",
+            "markette"
+          ],
+          "answer": 0,
+          "s": "مادرم به سوپرمارکت می‌رود."
+        },
+        {
+          "type": "choice",
+          "t": "Biz ___ gidiyoruz.",
+          "options": [
+            "camie",
+            "camiya",
+            "camiye"
+          ],
+          "answer": 2,
+          "s": "ما به مسجد می‌رویم."
+        },
+        {
+          "type": "type",
+          "t": "Ali ___ gidiyor.",
+          "answer": [
+            "bankaya"
+          ],
+          "s": "علی به بانک می‌رود."
+        },
+        {
+          "type": "type",
+          "t": "Sen ___ gidiyorsun? Parka gidiyorum.",
+          "answer": [
+            "nereye"
+          ],
+          "s": "تو کجا می‌روی؟ به پارک می‌روم."
+        },
+        {
+          "type": "type",
+          "t": "Çocuklar ___ gidiyor.",
+          "answer": [
+            "parka"
+          ],
+          "s": "بچه‌ها به پارک می‌روند."
+        },
+        {
+          "type": "order",
+          "t": "Ben eve gidiyorum.",
+          "s": "من به خانه می‌روم."
+        },
+        {
+          "type": "order",
+          "t": "Reza hastaneye gidiyor.",
+          "s": "رضا به بیمارستان می‌رود."
+        }
+      ]
+    },
+    {
+      "id": "g02",
+      "title": {
+        "t": "Düz gidin, sağa dönün",
+        "s": "آدرس دادن: فعل امر مؤدبانه"
+      },
+      "explain": "برای آدرس دادن به شکل مؤدبانه از فعل امر با **siz** (شما) استفاده می‌کنیم. ساختنش آسان است: ریشه‌ی فعل + **in / ın / un / ün** (هماهنگی چهارتایی).\nمثال: gel → **gelin** (بیایید)، bak → **bakın** (نگاه کنید)، otur → **oturun** (بنشینید)، dön → **dönün** (بپیچید). در gitmek حرف t به d تبدیل می‌شود: **gidin** (بروید).\nبه «به راست / به چپ» دقت کنید: **sağa / sola** همان پسوند «به» است. اما «سمت راست است» با پسوند مکان گفته می‌شود: **sağda / solda**.\n**Düz gidin** یعنی مستقیم بروید.",
+      "table": [
+        [
+          "gitmek",
+          "gidin"
+        ],
+        [
+          "dönmek",
+          "dönün"
+        ],
+        [
+          "gelmek",
+          "gelin"
+        ],
+        [
+          "bakmak",
+          "bakın"
+        ],
+        [
+          "oturmak",
+          "oturun"
+        ]
+      ],
+      "examples": [
+        {
+          "t": "Düz gidin.",
+          "s": "مستقیم بروید."
+        },
+        {
+          "t": "Sonra sağa dönün.",
+          "s": "بعد به راست بپیچید."
+        },
+        {
+          "t": "Banka solda.",
+          "s": "بانک سمت چپ است."
+        },
+        {
+          "t": "Lütfen oturun.",
+          "s": "لطفاً بنشینید."
+        },
+        {
+          "t": "Eczane nerede? Düz gidin, sonra sola dönün.",
+          "s": "داروخانه کجاست؟ مستقیم بروید، بعد به چپ بپیچید."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "choice",
+          "t": "Eczane nerede? Düz ___, sonra sola dönün.",
+          "options": [
+            "gitin",
+            "gidin",
+            "gidün"
+          ],
+          "answer": 1,
+          "s": "داروخانه کجاست؟ مستقیم بروید، بعد به چپ بپیچید."
+        },
+        {
+          "type": "choice",
+          "t": "Banka ___.",
+          "options": [
+            "sağda",
+            "sağa",
+            "sağ"
+          ],
+          "answer": 0,
+          "s": "بانک سمت راست است."
+        },
+        {
+          "type": "choice",
+          "t": "Sonra ___ dönün.",
+          "options": [
+            "solda",
+            "sol",
+            "sola"
+          ],
+          "answer": 2,
+          "s": "بعد به چپ بپیچید."
+        },
+        {
+          "type": "type",
+          "t": "Sağa ___.",
+          "answer": [
+            "dönün"
+          ],
+          "s": "به راست بپیچید."
+        },
+        {
+          "type": "type",
+          "t": "Lütfen ___.",
+          "answer": [
+            "gelin"
+          ],
+          "s": "لطفاً بیایید."
+        },
+        {
+          "type": "order",
+          "t": "Sonra sola dönün.",
+          "s": "بعد به چپ بپیچید."
+        },
+        {
+          "type": "order",
+          "t": "Otobüs durağı solda.",
+          "s": "ایستگاه اتوبوس سمت چپ است."
+        }
+      ]
+    }
+  ],
+  "reading": {
+    "title": {
+      "t": "Şehirde bir gün",
+      "s": "یک روز در شهر"
+    },
+    "text": [
+      {
+        "t": "Saat dokuz. Maryam ve Ali durakta.",
+        "s": "ساعت نه است. مریم و علی در ایستگاه هستند."
+      },
+      {
+        "t": "Otobüs geliyor.",
+        "s": "اتوبوس می‌آید."
+      },
+      {
+        "t": "Önce bankaya gidiyorlar.",
+        "s": "اول به بانک می‌روند."
+      },
+      {
+        "t": "Sonra Maryam eczaneye gidiyor.",
+        "s": "بعد مریم به داروخانه می‌رود."
+      },
+      {
+        "t": "Ali markete gidiyor.",
+        "s": "علی به سوپرمارکت می‌رود."
+      },
+      {
+        "t": "Saat on ikide parka gidiyorlar.",
+        "s": "ساعت دوازده به پارک می‌روند."
+      },
+      {
+        "t": "Park çok güzel ve camiye çok yakın.",
+        "s": "پارک خیلی قشنگ است و به مسجد خیلی نزدیک است."
+      },
+      {
+        "t": "Akşam saat altıda eve gidiyorlar.",
+        "s": "عصر ساعت شش به خانه می‌روند."
+      }
+    ],
+    "questions": [
+      {
+        "q": {
+          "t": "Maryam ve Ali saat dokuzda nerede?",
+          "s": "مریم و علی ساعت نه کجا هستند؟"
+        },
+        "options": [
+          "Parkta",
+          "Durakta",
+          "Bankada"
+        ],
+        "answer": 1
+      },
+      {
+        "q": {
+          "t": "Önce nereye gidiyorlar?",
+          "s": "اول به کجا می‌روند؟"
+        },
+        "options": [
+          "Bankaya",
+          "Eczaneye",
+          "Eve"
+        ],
+        "answer": 0
+      },
+      {
+        "q": {
+          "t": "Kim eczaneye gidiyor?",
+          "s": "چه کسی به داروخانه می‌رود؟"
+        },
+        "options": [
+          "Ali",
+          "Mehmet",
+          "Maryam"
+        ],
+        "answer": 2
+      },
+      {
+        "q": {
+          "t": "Park nereye yakın?",
+          "s": "پارک به کجا نزدیک است؟"
+        },
+        "options": [
+          "Camiye",
+          "Bankaya",
+          "Hastaneye"
+        ],
+        "answer": 0
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "t": "Ben her gün okula gidiyorum.",
+      "s": "من هر روز به مدرسه می‌روم."
+    },
+    {
+      "t": "Babam bankaya gidiyor.",
+      "s": "پدرم به بانک می‌رود."
+    },
+    {
+      "t": "Affedersiniz, hastane nerede?",
+      "s": "ببخشید، بیمارستان کجاست؟"
+    },
+    {
+      "t": "Düz gidin, sonra sola dönün.",
+      "s": "مستقیم بروید، بعد به چپ بپیچید."
+    },
+    {
+      "t": "Eczane sağda.",
+      "s": "داروخانه سمت راست است."
+    },
+    {
+      "t": "Otobüs durağı çok yakın.",
+      "s": "ایستگاه اتوبوس خیلی نزدیک است."
+    },
+    {
+      "t": "Akşam eve gidiyoruz.",
+      "s": "عصر به خانه می‌رویم."
+    },
+    {
+      "t": "Nereye gidiyorsun?",
+      "s": "کجا می‌روی؟"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "name": "zabanyar",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Zabanyar — family language learning (English, German, Turkish)",
+  "scripts": {
+    "build": "python3 tools/build.py",
+    "dev": "wrangler dev --port 8788",
+    "deploy": "wrangler deploy"
+  },
+  "devDependencies": {
+    "wrangler": "^4.0.0"
+  }
+}

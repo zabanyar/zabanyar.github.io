@@ -1,0 +1,141 @@
+{
+  "id": "u02",
+  "level": "A1",
+  "emoji": "🔢",
+  "title": { "t": "Sayılar ve yaş", "s": "عددها و سن" },
+  "goals": [
+    "عددهای ۰ تا ۲۰ را بشمارم و بگویم.",
+    "سن کسی را بپرسم و سن خودم را بگویم.",
+    "کلمه‌ها را با -ler / -lar جمع ببندم."
+  ],
+  "words": [
+    { "id": "w01", "t": "sıfır", "s": "صفر (۰)", "pr": "سِفِر", "emoji": "", "ex": { "t": "Sıfır, bir, iki, üç.", "s": "صفر، یک، دو، سه." } },
+    { "id": "w02", "t": "bir", "s": "یک (۱)", "pr": "بیر", "emoji": "", "ex": { "t": "Bir çay, lütfen.", "s": "یک چای، لطفاً." } },
+    { "id": "w03", "t": "iki", "s": "دو (۲)", "pr": "ایکی", "emoji": "", "ex": { "t": "İki kitap.", "s": "دو کتاب." } },
+    { "id": "w04", "t": "üç", "s": "سه (۳)", "pr": "اوچ", "emoji": "", "ex": { "t": "Üç elma.", "s": "سه سیب." } },
+    { "id": "w05", "t": "dört", "s": "چهار (۴)", "pr": "دُرت", "emoji": "", "ex": { "t": "Dört öğrenci.", "s": "چهار دانش‌آموز." } },
+    { "id": "w06", "t": "beş", "s": "پنج (۵)", "pr": "بِش", "emoji": "", "ex": { "t": "Beş ev.", "s": "پنج خانه." } },
+    { "id": "w07", "t": "altı", "s": "شش (۶)", "pr": "آلتِ", "emoji": "", "ex": { "t": "Ali altı yaşında.", "s": "علی شش ساله است." } },
+    { "id": "w08", "t": "yedi", "s": "هفت (۷)", "pr": "یِدی", "emoji": "", "ex": { "t": "Elif yedi yaşında.", "s": "الیف هفت ساله است." } },
+    { "id": "w09", "t": "sekiz", "s": "هشت (۸)", "pr": "سِکیز", "emoji": "", "ex": { "t": "Sekiz kedi.", "s": "هشت گربه." } },
+    { "id": "w10", "t": "dokuz", "s": "نُه (۹)", "pr": "دُکوز", "emoji": "", "ex": { "t": "Can dokuz yaşında.", "s": "جان نُه ساله است." } },
+    { "id": "w11", "t": "on", "s": "ده (۱۰)", "pr": "اُن", "emoji": "🔟", "ex": { "t": "On öğretmen.", "s": "ده معلم." } },
+    { "id": "w12", "t": "yirmi", "s": "بیست (۲۰)", "pr": "ییرمی", "emoji": "", "ex": { "t": "Ben yirmi yaşındayım.", "s": "من بیست سال دارم." } },
+    { "id": "w13", "t": "yaş", "s": "سن، سال (عمر)", "pr": "یاش", "emoji": "🎂", "ex": { "t": "Kaç yaşındasın?", "s": "چند سالت است؟" } },
+    { "id": "w14", "t": "çocuk", "pl": "çocuklar", "s": "بچه", "pr": "چُجوک", "emoji": "🧒", "ex": { "t": "Bir çocuk ve bir kedi.", "s": "یک بچه و یک گربه." } }
+  ],
+  "phrases": [
+    { "id": "p01", "t": "Kaç yaşındasın?", "s": "چند سالت است؟", "pr": "کاچ یاشِنداسِن؟" },
+    { "id": "p02", "t": "Kaç yaşındasınız?", "s": "شما چند سال دارید؟ (مؤدبانه)", "pr": "کاچ یاشِنداسِنِز؟" },
+    { "id": "p03", "t": "On yaşındayım.", "s": "ده سالم است.", "pr": "اُن یاشِندایِم" },
+    { "id": "p04", "t": "Kaç tane?", "s": "چند تا؟", "pr": "کاچ تانِه؟" },
+    { "id": "p05", "t": "Doğum günün kutlu olsun!", "s": "تولدت مبارک!", "pr": "دُئوم گونون کوتلو اُلسون!" },
+    { "id": "p06", "t": "Çok güzel!", "s": "خیلی قشنگ است!", "pr": "چُک گوزِل!" }
+  ],
+  "dialogue": {
+    "title": { "t": "Parkta", "s": "در پارک" },
+    "speakers": { "A": { "name": "Elif", "voice": "f" }, "B": { "name": "Ali", "voice": "m" } },
+    "lines": [
+      { "sp": "A", "t": "Merhaba! Ben Elif. Adın ne?", "s": "سلام! من الیف هستم. اسمت چیست؟" },
+      { "sp": "B", "t": "Merhaba Elif! Adım Ali.", "s": "سلام الیف! اسمم علی است." },
+      { "sp": "A", "t": "Kaç yaşındasın, Ali?", "s": "چند سالت است، علی؟" },
+      { "sp": "B", "t": "On yaşındayım. Ya sen?", "s": "ده سالم است. تو چطور؟" },
+      { "sp": "A", "t": "Ben yedi yaşındayım.", "s": "من هفت سالم است." },
+      { "sp": "B", "t": "Bak! Kediler!", "s": "نگاه کن! گربه‌ها!" },
+      { "sp": "A", "t": "Kaç tane?", "s": "چند تا؟" },
+      { "sp": "B", "t": "Bir, iki, üç, dört… Dört kedi!", "s": "یک، دو، سه، چهار… چهار گربه!" },
+      { "sp": "A", "t": "Çok güzel!", "s": "خیلی قشنگ است!" }
+    ]
+  },
+  "grammar": [
+    {
+      "id": "g01",
+      "title": { "t": "Sayılar 0–20 ve yaş", "s": "عددهای ۰ تا ۲۰ و گفتنِ سن" },
+      "explain": "عددهای ترکی خیلی منظم‌اند! **sıfır** یعنی صفر (شبیه کلمه‌ی فارسی «صفر»). از ۱۱ تا ۱۹ فقط **on** (ده) را با یک عدد دیگر می‌گوییم: **on bir** = ده و یک = ۱۱، **on iki** = ۱۲ و همین‌طور تا **yirmi** = ۲۰.\nنکته‌ی مهم: بعد از عدد، اسم **جمع بسته نمی‌شود**؛ درست مثل فارسی: **iki kitap** = دو کتاب.\nبرای پرسیدن سن می‌گوییم **Kaç yaşındasın?** (چند سالت است؟) و جواب می‌دهیم **On yaşındayım.** (ده سالم است.) کلمه‌ی **yaşında** یعنی «ساله» و پسوندهای «بودن» درس ۱ به آن می‌چسبند: yaşındayım، yaşındasın، yaşında.\nاگر ترکی آذربایجانی می‌دانید، خیلی از این عددها برایتان آشناست!",
+      "table": [
+        ["1 – bir", "11 – on bir"],
+        ["2 – iki", "12 – on iki"],
+        ["3 – üç", "13 – on üç"],
+        ["4 – dört", "14 – on dört"],
+        ["5 – beş", "15 – on beş"],
+        ["6 – altı", "16 – on altı"],
+        ["7 – yedi", "17 – on yedi"],
+        ["8 – sekiz", "18 – on sekiz"],
+        ["9 – dokuz", "19 – on dokuz"],
+        ["10 – on", "20 – yirmi"]
+      ],
+      "examples": [
+        { "t": "On iki öğrenci.", "s": "دوازده دانش‌آموز." },
+        { "t": "Kaç yaşındasın? — On beş yaşındayım.", "s": "چند سالت است؟ — پانزده سالم است." },
+        { "t": "Elif yedi yaşında.", "s": "الیف هفت ساله است." },
+        { "t": "Biz on sekiz yaşındayız.", "s": "ما هجده ساله هستیم." }
+      ],
+      "exercises": [
+        { "type": "choice", "t": "5 = ___", "options": ["beş", "dört", "altı"], "answer": 0, "s": "پنج" },
+        { "type": "choice", "t": "13 = ___", "options": ["on üç", "üç on", "on iki"], "answer": 0, "s": "سیزده" },
+        { "type": "type", "t": "8 = ___", "answer": ["sekiz"], "s": "هشت" },
+        { "type": "type", "t": "Ben on yaşında___.", "answer": ["yım"], "s": "من ده سالم است." },
+        { "type": "choice", "t": "Sen kaç yaşında___?", "options": ["sın", "sin", "yım"], "answer": 0, "s": "تو چند سالت است؟" },
+        { "type": "choice", "t": "İki ___.", "options": ["kitap", "kitaplar"], "answer": 0, "s": "دو کتاب." },
+        { "type": "order", "t": "Elif yedi yaşında.", "s": "الیف هفت ساله است." }
+      ]
+    },
+    {
+      "id": "g02",
+      "title": { "t": "Çoğul: -ler / -lar", "s": "جمع: -ler / -lar" },
+      "explain": "برای جمع بستن در ترکی پسوند **-ler** یا **-lar** را به آخر اسم اضافه می‌کنیم، مثل «ـها» در فارسی.\nکدام یک؟ به **آخرین حرف صدادارِ** کلمه نگاه کنید:\n**e، i، ö، ü ← -ler**: ev ← **evler**، öğrenci ← **öğrenciler**\n**a، ı، o، u ← -lar**: kitap ← **kitaplar**، çocuk ← **çocuklar**\nیادتان باشد: بعد از عدد جمع نمی‌بندیم: **üç çocuk** = سه بچه.",
+      "table": [
+        ["ev", "evler"],
+        ["öğrenci", "öğrenciler"],
+        ["göz", "gözler"],
+        ["kitap", "kitaplar"],
+        ["kız", "kızlar"],
+        ["okul", "okullar"]
+      ],
+      "examples": [
+        { "t": "Çocuklar on yaşında.", "s": "بچه‌ها ده ساله هستند." },
+        { "t": "Öğretmenler İranlı.", "s": "معلم‌ها ایرانی هستند." },
+        { "t": "Kızlar yedi yaşında.", "s": "دخترها هفت ساله هستند." },
+        { "t": "Öğrenciler Türk.", "s": "دانش‌آموزها ترک هستند." }
+      ],
+      "exercises": [
+        { "type": "choice", "t": "ev → ev___", "options": ["ler", "lar"], "answer": 0, "s": "خانه ← خانه‌ها" },
+        { "type": "choice", "t": "kitap → kitap___", "options": ["ler", "lar"], "answer": 1, "s": "کتاب ← کتاب‌ها" },
+        { "type": "type", "t": "okul → okul___", "answer": ["lar"], "s": "مدرسه ← مدرسه‌ها" },
+        { "type": "type", "t": "öğretmen → öğretmen___", "answer": ["ler"], "s": "معلم ← معلم‌ها" },
+        { "type": "type", "t": "elma → elma___", "answer": ["lar"], "s": "سیب ← سیب‌ها" },
+        { "type": "choice", "t": "Beş ___.", "options": ["çocuk", "çocuklar"], "answer": 0, "s": "پنج بچه." },
+        { "type": "order", "t": "Çocuklar sekiz yaşında.", "s": "بچه‌ها هشت ساله هستند." }
+      ]
+    }
+  ],
+  "reading": {
+    "title": { "t": "Ben Can", "s": "من جان هستم" },
+    "text": [
+      { "t": "Merhaba! Ben Can.", "s": "سلام! من جان هستم." },
+      { "t": "Ben Türküm, Ankaralıyım.", "s": "من ترک هستم، اهل آنکارا هستم." },
+      { "t": "On iki yaşındayım.", "s": "دوازده سالم است." },
+      { "t": "Ben öğrenciyim.", "s": "من دانش‌آموز هستم." },
+      { "t": "Sara ve Reza İranlı.", "s": "سارا و رضا ایرانی هستند." },
+      { "t": "Onlar da öğrenci.", "s": "آن‌ها هم دانش‌آموز هستند." },
+      { "t": "Sara on bir yaşında, Reza on dört yaşında.", "s": "سارا یازده ساله است، رضا چهارده ساله." },
+      { "t": "Öğretmenler Türk.", "s": "معلم‌ها ترک هستند." }
+    ],
+    "questions": [
+      { "q": { "t": "Can kaç yaşında?", "s": "جان چند سال دارد؟" }, "options": ["on iki", "on bir", "on dört"], "answer": 0 },
+      { "q": { "t": "Can nereli?", "s": "جان اهل کجاست؟" }, "options": ["Tahranlı", "Ankaralı", "İzmirli"], "answer": 1 },
+      { "q": { "t": "Reza kaç yaşında?", "s": "رضا چند سال دارد؟" }, "options": ["on bir", "yirmi", "on dört"], "answer": 2 },
+      { "q": { "t": "Sara nereli?", "s": "سارا اهل کجاست؟" }, "options": ["İranlı", "Türk", "Ankaralı"], "answer": 0 }
+    ]
+  },
+  "sentences": [
+    { "t": "Bir, iki, üç, dört, beş.", "s": "یک، دو، سه، چهار، پنج." },
+    { "t": "Kaç yaşındasın?", "s": "چند سالت است؟" },
+    { "t": "Ben yirmi yaşındayım.", "s": "من بیست سال دارم." },
+    { "t": "Mehmet on beş yaşında.", "s": "مهمت پانزده ساله است." },
+    { "t": "Üç elma, iki muz.", "s": "سه سیب، دو موز." },
+    { "t": "Çocuklar on yaşında.", "s": "بچه‌ها ده ساله هستند." },
+    { "t": "Öğrenciler İranlı.", "s": "دانش‌آموزها ایرانی هستند." },
+    { "t": "Doğum günün kutlu olsun!", "s": "تولدت مبارک!" }
+  ]
+}

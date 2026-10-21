@@ -1,0 +1,661 @@
+{
+  "id": "u02",
+  "level": "A1",
+  "emoji": "🔢",
+  "title": {
+    "t": "Numbers and age",
+    "s": "عددها و سن"
+  },
+  "goals": [
+    "عددهای ۰ تا ۲۰ را بشمارم.",
+    "سن کسی را بپرسم و سن خودم را بگویم.",
+    "اسم‌ها را جمع ببندم، مثل cats و books."
+  ],
+  "words": [
+    {
+      "id": "w01",
+      "t": "zero",
+      "s": "صفر",
+      "pr": "زیرو",
+      "emoji": "",
+      "ex": {
+        "t": "Zero, one, two, three!",
+        "s": "صفر، یک، دو، سه!"
+      }
+    },
+    {
+      "id": "w02",
+      "t": "one",
+      "s": "یک",
+      "pr": "وان",
+      "emoji": "",
+      "ex": {
+        "t": "Amir is one year old.",
+        "s": "امیر یک‌ساله است."
+      }
+    },
+    {
+      "id": "w03",
+      "t": "two",
+      "s": "دو",
+      "pr": "تو",
+      "emoji": "",
+      "ex": {
+        "t": "One and one is two.",
+        "s": "یک به‌اضافهٔ یک می‌شود دو."
+      }
+    },
+    {
+      "id": "w04",
+      "t": "three",
+      "s": "سه",
+      "pr": "ثری",
+      "emoji": "",
+      "ex": {
+        "t": "Two and one is three.",
+        "s": "دو به‌اضافهٔ یک می‌شود سه."
+      }
+    },
+    {
+      "id": "w05",
+      "t": "four",
+      "s": "چهار",
+      "pr": "فور",
+      "emoji": "",
+      "ex": {
+        "t": "Two and two is four.",
+        "s": "دو به‌اضافهٔ دو می‌شود چهار."
+      }
+    },
+    {
+      "id": "w06",
+      "t": "five",
+      "s": "پنج",
+      "pr": "فایو",
+      "emoji": "",
+      "ex": {
+        "t": "Maryam is five years old.",
+        "s": "مریم پنج‌ساله است."
+      }
+    },
+    {
+      "id": "w07",
+      "t": "six",
+      "s": "شش",
+      "pr": "سیکس",
+      "emoji": "",
+      "ex": {
+        "t": "Three and three is six.",
+        "s": "سه به‌اضافهٔ سه می‌شود شش."
+      }
+    },
+    {
+      "id": "w08",
+      "t": "seven",
+      "s": "هفت",
+      "pr": "سِوِن",
+      "emoji": "",
+      "ex": {
+        "t": "Tom is seven years old.",
+        "s": "تام هفت‌ساله است."
+      }
+    },
+    {
+      "id": "w09",
+      "t": "eight",
+      "s": "هشت",
+      "pr": "اِیت",
+      "emoji": "",
+      "ex": {
+        "t": "Four and four is eight.",
+        "s": "چهار به‌اضافهٔ چهار می‌شود هشت."
+      }
+    },
+    {
+      "id": "w10",
+      "t": "nine",
+      "s": "نه",
+      "pr": "ناین",
+      "emoji": "",
+      "ex": {
+        "t": "Five and four is nine.",
+        "s": "پنج به‌اضافهٔ چهار می‌شود نه."
+      }
+    },
+    {
+      "id": "w11",
+      "t": "ten",
+      "s": "ده",
+      "pr": "تِن",
+      "emoji": "🔟",
+      "ex": {
+        "t": "Five and five is ten.",
+        "s": "پنج به‌اضافهٔ پنج می‌شود ده."
+      }
+    },
+    {
+      "id": "w12",
+      "t": "year",
+      "pl": "years",
+      "s": "سال",
+      "pr": "ییر",
+      "emoji": "📅",
+      "ex": {
+        "t": "I am twenty years old.",
+        "s": "من بیست سالم است."
+      }
+    },
+    {
+      "id": "w13",
+      "t": "boy",
+      "pl": "boys",
+      "s": "پسر",
+      "pr": "بوی",
+      "emoji": "👦",
+      "ex": {
+        "t": "Tom is a boy. He is seven.",
+        "s": "تام پسر است. او هفت‌ساله است."
+      }
+    },
+    {
+      "id": "w14",
+      "t": "girl",
+      "pl": "girls",
+      "s": "دختر",
+      "pr": "گِرل",
+      "emoji": "👧",
+      "ex": {
+        "t": "Sara is a girl. She is six.",
+        "s": "سارا دختر است. او شش‌ساله است."
+      }
+    }
+  ],
+  "phrases": [
+    {
+      "id": "p01",
+      "t": "How old are you?",
+      "s": "چند سالت است؟",
+      "pr": "هاو اُولد آر یو؟"
+    },
+    {
+      "id": "p02",
+      "t": "I'm … years old.",
+      "s": "… سالم است.",
+      "pr": "آیم … ییرز اُولد."
+    },
+    {
+      "id": "p03",
+      "t": "How many?",
+      "s": "چند تا؟",
+      "pr": "هاو مِنی؟"
+    },
+    {
+      "id": "p04",
+      "t": "What's your phone number?",
+      "s": "شمارهٔ تلفنت چیست؟",
+      "pr": "واتس یور فُون نامبِر؟"
+    },
+    {
+      "id": "p05",
+      "t": "Happy birthday!",
+      "s": "تولدت مبارک!",
+      "pr": "هَپی بِرثدِی!"
+    },
+    {
+      "id": "p06",
+      "t": "It's my birthday!",
+      "s": "امروز تولد من است!",
+      "pr": "ایتس مای بِرثدِی!"
+    },
+    {
+      "id": "p07",
+      "t": "Let's count!",
+      "s": "بیایید بشماریم!",
+      "pr": "لِتس کاونت!"
+    }
+  ],
+  "dialogue": {
+    "title": {
+      "t": "Happy birthday!",
+      "s": "تولدت مبارک!"
+    },
+    "speakers": {
+      "A": {
+        "name": "Emma",
+        "voice": "f"
+      },
+      "B": {
+        "name": "Ali",
+        "voice": "m"
+      }
+    },
+    "lines": [
+      {
+        "sp": "A",
+        "t": "Hi, Ali!",
+        "s": "سلام علی!"
+      },
+      {
+        "sp": "B",
+        "t": "Hi, Emma! How are you?",
+        "s": "سلام اِما! حالت چطور است؟"
+      },
+      {
+        "sp": "A",
+        "t": "I'm fine, thank you. It's my birthday!",
+        "s": "خوبم، ممنون. امروز تولد من است!"
+      },
+      {
+        "sp": "B",
+        "t": "Happy birthday! How old are you?",
+        "s": "تولدت مبارک! چند سالت است؟"
+      },
+      {
+        "sp": "A",
+        "t": "I'm thirteen. And you?",
+        "s": "سیزده سالم است. تو چطور؟"
+      },
+      {
+        "sp": "B",
+        "t": "I'm eleven years old.",
+        "s": "من یازده سالم است."
+      },
+      {
+        "sp": "A",
+        "t": "What's your phone number, Ali?",
+        "s": "علی، شمارهٔ تلفنت چیست؟"
+      },
+      {
+        "sp": "B",
+        "t": "It's five-five-five, one-two-three-four.",
+        "s": "شماره‌ام ۵۵۵۱۲۳۴ است."
+      },
+      {
+        "sp": "A",
+        "t": "Thank you! Goodbye!",
+        "s": "ممنون! خداحافظ!"
+      },
+      {
+        "sp": "B",
+        "t": "Goodbye, Emma!",
+        "s": "خداحافظ، اِما!"
+      }
+    ]
+  },
+  "grammar": [
+    {
+      "id": "g01",
+      "title": {
+        "t": "Numbers 11–20 and age",
+        "s": "عددهای ۱۱ تا ۲۰ و گفتن سن"
+      },
+      "explain": "عددهای ۱۳ تا ۱۹ با **teen** تمام می‌شوند: thir**teen** (۱۳)، four**teen** (۱۴)، six**teen** (۱۶). بخش آخر را کشیده و محکم بگویید: «تین».\nعددهای ۱۱ و ۱۲ شکل خاص دارند: **eleven** و **twelve**. عدد ۲۰ هم **twenty** است.\nبرای پرسیدن سن می‌گوییم: **How old are you?** و جواب می‌دهیم: **I'm** + عدد + **years old**. مثلاً: I'm fifteen years old. کوتاه‌تر هم می‌شود گفت: I'm fifteen.\nدقت کنید: برای یک سال می‌گوییم **one year old**، بدون s.",
+      "table": [
+        [
+          "11",
+          "eleven"
+        ],
+        [
+          "12",
+          "twelve"
+        ],
+        [
+          "13",
+          "thirteen"
+        ],
+        [
+          "14",
+          "fourteen"
+        ],
+        [
+          "15",
+          "fifteen"
+        ],
+        [
+          "16",
+          "sixteen"
+        ],
+        [
+          "17",
+          "seventeen"
+        ],
+        [
+          "18",
+          "eighteen"
+        ],
+        [
+          "19",
+          "nineteen"
+        ],
+        [
+          "20",
+          "twenty"
+        ]
+      ],
+      "examples": [
+        {
+          "t": "How old are you?",
+          "s": "چند سالت است؟"
+        },
+        {
+          "t": "I'm twelve years old.",
+          "s": "دوازده سالم است."
+        },
+        {
+          "t": "Emma is thirteen.",
+          "s": "اِما سیزده‌ساله است."
+        },
+        {
+          "t": "How old is Reza? — He's fourteen.",
+          "s": "رضا چند سالش است؟ — چهارده سالش است."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "choice",
+          "t": "How ___ are you?",
+          "options": [
+            "old",
+            "year",
+            "name"
+          ],
+          "answer": 0,
+          "s": "چند سالت است؟"
+        },
+        {
+          "type": "choice",
+          "t": "I'm sixteen ___ old.",
+          "options": [
+            "year",
+            "years",
+            "yes"
+          ],
+          "answer": 1,
+          "s": "شانزده سالم است."
+        },
+        {
+          "type": "choice",
+          "t": "Amir is one ___ old.",
+          "options": [
+            "year",
+            "years"
+          ],
+          "answer": 0,
+          "s": "امیر یک‌ساله است."
+        },
+        {
+          "type": "type",
+          "t": "ten, eleven, ___, thirteen",
+          "answer": [
+            "twelve"
+          ],
+          "s": "ده، یازده، دوازده، سیزده"
+        },
+        {
+          "type": "choice",
+          "t": "18 = ___",
+          "options": [
+            "eight",
+            "eighteen",
+            "eleven"
+          ],
+          "answer": 1,
+          "s": "۱۸ = هجده"
+        },
+        {
+          "type": "type",
+          "t": "Ten and ten is ___.",
+          "answer": [
+            "twenty"
+          ],
+          "s": "ده به‌اضافهٔ ده می‌شود بیست."
+        },
+        {
+          "type": "order",
+          "t": "How old are you?",
+          "s": "چند سالت است؟"
+        },
+        {
+          "type": "order",
+          "t": "I am twenty years old.",
+          "s": "من بیست سالم است."
+        }
+      ]
+    },
+    {
+      "id": "g02",
+      "title": {
+        "t": "Plural -s",
+        "s": "جمع بستن اسم با -s"
+      },
+      "explain": "وقتی بیشتر از یک چیز داریم، معمولاً به آخر اسم **s** اضافه می‌کنیم: one cat (یک گربه)، two cat**s** (دو گربه).\nدقت کنید: در فارسی بعد از عدد، اسم مفرد می‌ماند (سه کتاب)، اما در انگلیسی **s** لازم است: three book**s**.\nبعد از s، sh، ch و x معمولاً **es** اضافه می‌شود: bus**es**، box**es**.\nچند کلمه جمعِ خاص دارند و باید حفظشان کنیم: child و **children** (بچه‌ها)؛ fish و **fish** (بدون تغییر).",
+      "table": [
+        [
+          "one cat",
+          "two cats"
+        ],
+        [
+          "one book",
+          "three books"
+        ],
+        [
+          "one bus",
+          "two buses"
+        ],
+        [
+          "one box",
+          "four boxes"
+        ],
+        [
+          "one child",
+          "five children"
+        ]
+      ],
+      "examples": [
+        {
+          "t": "One boy and two girls.",
+          "s": "یک پسر و دو دختر."
+        },
+        {
+          "t": "Sara and Neda are students.",
+          "s": "سارا و ندا دانش‌آموز هستند."
+        },
+        {
+          "t": "Ali and Reza are friends.",
+          "s": "علی و رضا با هم دوست هستند."
+        },
+        {
+          "t": "Three cats and four dogs.",
+          "s": "سه گربه و چهار سگ."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "choice",
+          "t": "two ___",
+          "options": [
+            "cat",
+            "cats"
+          ],
+          "answer": 1,
+          "s": "دو گربه"
+        },
+        {
+          "type": "choice",
+          "t": "one ___",
+          "options": [
+            "book",
+            "books"
+          ],
+          "answer": 0,
+          "s": "یک کتاب"
+        },
+        {
+          "type": "choice",
+          "t": "three ___",
+          "options": [
+            "bus",
+            "buses"
+          ],
+          "answer": 1,
+          "s": "سه اتوبوس"
+        },
+        {
+          "type": "choice",
+          "t": "five ___",
+          "options": [
+            "child",
+            "children"
+          ],
+          "answer": 1,
+          "s": "پنج بچه"
+        },
+        {
+          "type": "type",
+          "t": "They are ___.",
+          "answer": [
+            "students"
+          ],
+          "s": "آن‌ها دانشجو هستند."
+        },
+        {
+          "type": "type",
+          "t": "two ___ and one dog",
+          "answer": [
+            "cats"
+          ],
+          "s": "دو گربه و یک سگ"
+        },
+        {
+          "type": "order",
+          "t": "We are students.",
+          "s": "ما دانشجو هستیم."
+        },
+        {
+          "type": "order",
+          "t": "Sara and Neda are girls.",
+          "s": "سارا و ندا دختر هستند."
+        }
+      ]
+    }
+  ],
+  "reading": {
+    "title": {
+      "t": "Hello, I'm Neda!",
+      "s": "سلام، من ندا هستم!"
+    },
+    "text": [
+      {
+        "t": "Hello! My name is Neda.",
+        "s": "سلام! اسم من ندا است."
+      },
+      {
+        "t": "I'm from Iran, and I'm twelve years old.",
+        "s": "من اهل ایران هستم و دوازده سالم است."
+      },
+      {
+        "t": "Emma is my friend.",
+        "s": "اِما دوست من است."
+      },
+      {
+        "t": "She is from America. She is thirteen.",
+        "s": "او اهل آمریکاست. او سیزده سالش است."
+      },
+      {
+        "t": "Ali and Reza are my friends, too.",
+        "s": "علی و رضا هم دوستان من هستند."
+      },
+      {
+        "t": "They are boys.",
+        "s": "آن‌ها پسر هستند."
+      },
+      {
+        "t": "Ali is eleven, and Reza is fourteen.",
+        "s": "علی یازده سالش است و رضا چهارده سالش است."
+      },
+      {
+        "t": "We are students.",
+        "s": "ما دانش‌آموز هستیم."
+      }
+    ],
+    "questions": [
+      {
+        "q": {
+          "t": "How old is Neda?",
+          "s": "ندا چند سالش است؟"
+        },
+        "options": [
+          "twelve",
+          "thirteen",
+          "twenty"
+        ],
+        "answer": 0
+      },
+      {
+        "q": {
+          "t": "Where is Emma from?",
+          "s": "اِما اهل کجاست؟"
+        },
+        "options": [
+          "Iran",
+          "America",
+          "England"
+        ],
+        "answer": 1
+      },
+      {
+        "q": {
+          "t": "How old is Reza?",
+          "s": "رضا چند سالش است؟"
+        },
+        "options": [
+          "eleven",
+          "fourteen",
+          "four"
+        ],
+        "answer": 1
+      },
+      {
+        "q": {
+          "t": "Are Ali and Reza girls?",
+          "s": "آیا علی و رضا دختر هستند؟"
+        },
+        "options": [
+          "Yes, they are.",
+          "No, they aren't."
+        ],
+        "answer": 1
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "t": "I am eighteen years old.",
+      "s": "من هجده سالم است."
+    },
+    {
+      "t": "How old is your friend?",
+      "s": "دوستت چند سالش است؟"
+    },
+    {
+      "t": "She is twenty.",
+      "s": "او بیست سالش است."
+    },
+    {
+      "t": "Ten, eleven, twelve!",
+      "s": "ده، یازده، دوازده!"
+    },
+    {
+      "t": "Two boys and three girls.",
+      "s": "دو پسر و سه دختر."
+    },
+    {
+      "t": "They are students.",
+      "s": "آن‌ها دانشجو هستند."
+    },
+    {
+      "t": "Happy birthday, Amir!",
+      "s": "تولدت مبارک، امیر!"
+    }
+  ]
+}

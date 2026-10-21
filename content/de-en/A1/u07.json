@@ -1,0 +1,152 @@
+{
+  "id": "u07",
+  "level": "A1",
+  "emoji": "🗺️",
+  "title": { "t": "In der Stadt", "s": "In the city" },
+  "goals": [
+    "Name important places in the city",
+    "Ask the way: Wo ist …?",
+    "Understand and give directions: Gehen Sie geradeaus!",
+    "Say where someone is: in der Schule, im Park"
+  ],
+  "words": [
+    { "id": "w01", "t": "die Stadt", "pl": "die Städte", "s": "city; town", "emoji": "🏙️",
+      "ex": { "t": "Die Stadt ist groß.", "s": "The city is big." } },
+    { "id": "w02", "t": "der Bahnhof", "pl": "die Bahnhöfe", "s": "train station", "emoji": "🚉",
+      "ex": { "t": "Wo ist der Bahnhof?", "s": "Where is the train station?" } },
+    { "id": "w03", "t": "die Bank", "pl": "die Banken", "s": "bank", "emoji": "🏦",
+      "ex": { "t": "Die Bank ist hier.", "s": "The bank is here." } },
+    { "id": "w04", "t": "die Apotheke", "pl": "die Apotheken", "s": "pharmacy", "emoji": "💊",
+      "ex": { "t": "Maryam ist in der Apotheke.", "s": "Maryam is at the pharmacy." } },
+    { "id": "w05", "t": "der Supermarkt", "pl": "die Supermärkte", "s": "supermarket", "emoji": "🏪",
+      "ex": { "t": "Ich kaufe im Supermarkt ein.", "s": "I shop at the supermarket." } },
+    { "id": "w06", "t": "das Krankenhaus", "pl": "die Krankenhäuser", "s": "hospital", "emoji": "🏥",
+      "ex": { "t": "Das Krankenhaus ist groß.", "s": "The hospital is big." } },
+    { "id": "w07", "t": "die Schule", "pl": "die Schulen", "s": "school", "emoji": "🏫",
+      "ex": { "t": "Die Kinder sind in der Schule.", "s": "The children are at school." } },
+    { "id": "w08", "t": "der Park", "pl": "die Parks", "s": "park", "emoji": "🌳",
+      "ex": { "t": "Wir sind im Park.", "s": "We are in the park." } },
+    { "id": "w09", "t": "die Haltestelle", "pl": "die Haltestellen", "s": "(bus) stop", "emoji": "🚏",
+      "ex": { "t": "Die Haltestelle ist links.", "s": "The bus stop is on the left." } },
+    { "id": "w10", "t": "die Straße", "pl": "die Straßen", "s": "street", "emoji": "🛣️",
+      "ex": { "t": "Das ist die Goethestraße.", "s": "This is Goethe Street." } },
+    { "id": "w11", "t": "der Bus", "pl": "die Busse", "s": "bus", "emoji": "🚌",
+      "ex": { "t": "Der Bus kommt.", "s": "The bus is coming." } },
+    { "id": "w12", "t": "links", "s": "left; on the left", "emoji": "⬅️",
+      "ex": { "t": "Die Bank ist links.", "s": "The bank is on the left." } },
+    { "id": "w13", "t": "rechts", "s": "right; on the right", "emoji": "➡️",
+      "ex": { "t": "Der Bahnhof ist rechts.", "s": "The train station is on the right." } },
+    { "id": "w14", "t": "geradeaus", "s": "straight ahead", "emoji": "⬆️",
+      "ex": { "t": "Gehen Sie geradeaus!", "s": "Go straight ahead!" } }
+  ],
+  "phrases": [
+    { "id": "p01", "t": "Entschuldigung!", "s": "Excuse me!" },
+    { "id": "p02", "t": "Wo ist der Bahnhof, bitte?", "s": "Where is the train station, please?" },
+    { "id": "p03", "t": "Gehen Sie geradeaus.", "s": "Go straight ahead." },
+    { "id": "p04", "t": "Gehen Sie nach links / nach rechts.", "s": "Go left / go right." },
+    { "id": "p05", "t": "Das ist nicht weit.", "s": "It's not far." },
+    { "id": "p06", "t": "hier / dort", "s": "here / there" },
+    { "id": "p07", "t": "Tut mir leid, ich bin nicht von hier.", "s": "Sorry, I'm not from here." },
+    { "id": "p08", "t": "Vielen Dank!", "s": "Thank you very much!" }
+  ],
+  "dialogue": {
+    "title": { "t": "Wo ist die Apotheke?", "s": "Where is the pharmacy?" },
+    "speakers": { "A": { "name": "Ali", "voice": "m" }, "B": { "name": "Frau Müller", "voice": "f" } },
+    "lines": [
+      { "sp": "A", "t": "Entschuldigung! Wo ist die Apotheke, bitte?", "s": "Excuse me! Where is the pharmacy, please?" },
+      { "sp": "B", "t": "Die Apotheke? Gehen Sie hier geradeaus.", "s": "The pharmacy? Go straight ahead here." },
+      { "sp": "A", "t": "Geradeaus. Und dann?", "s": "Straight ahead. And then?" },
+      { "sp": "B", "t": "Dann gehen Sie nach links. Die Apotheke ist in der Goethestraße.", "s": "Then go left. The pharmacy is on Goethe Street." },
+      { "sp": "A", "t": "Ist das weit?", "s": "Is it far?" },
+      { "sp": "B", "t": "Nein, das ist nicht weit.", "s": "No, it's not far." },
+      { "sp": "A", "t": "Gibt es dort auch einen Supermarkt?", "s": "Is there a supermarket there too?" },
+      { "sp": "B", "t": "Ja, rechts ist ein Supermarkt.", "s": "Yes, there's a supermarket on the right." },
+      { "sp": "A", "t": "Vielen Dank!", "s": "Thank you very much!" },
+      { "sp": "B", "t": "Bitte schön!", "s": "You're welcome!" }
+    ]
+  },
+  "grammar": [
+    {
+      "id": "g01",
+      "title": { "t": "Gehen Sie geradeaus!", "s": "Polite commands (Sie-imperative)" },
+      "explain": "To give directions or polite instructions, use the **Sie-imperative**. It's easy: take the **Sie** form of the verb and put the verb **first**: Sie gehen → **Gehen Sie!**\nAdd **bitte** to sound friendly: **Gehen Sie bitte geradeaus.**\nSeparable verbs work the same way – the prefix goes to the end: **Rufen Sie bitte Frau Müller an!**\nUseful direction words: **geradeaus** (straight ahead), **nach links** (to the left), **nach rechts** (to the right). For *where* something is, just say **links** or **rechts**: **Die Bank ist links.**",
+      "table": [
+        ["Sie gehen …", "Gehen Sie …!"],
+        ["Sie kommen …", "Kommen Sie …!"],
+        ["Sie rufen … an", "Rufen Sie … an!"],
+        ["Sie kaufen … ein", "Kaufen Sie … ein!"]
+      ],
+      "examples": [
+        { "t": "Gehen Sie geradeaus!", "s": "Go straight ahead!" },
+        { "t": "Gehen Sie bitte nach rechts.", "s": "Please go to the right." },
+        { "t": "Gehen Sie hier nach links, dann geradeaus.", "s": "Go left here, then straight ahead." },
+        { "t": "Rufen Sie bitte Frau Müller an.", "s": "Please call Ms. Müller." }
+      ],
+      "exercises": [
+        { "type": "choice", "t": "___ Sie geradeaus!", "options": ["Geht", "Gehen", "Gehst"], "answer": 1, "s": "Go straight ahead!" },
+        { "type": "choice", "t": "Gehen Sie ___ links.", "options": ["im", "um", "nach"], "answer": 2, "s": "Go to the left." },
+        { "type": "type", "t": "Gehen ___ geradeaus!", "answer": ["Sie"], "s": "Go straight ahead!" },
+        { "type": "type", "t": "Rufen Sie bitte Frau Müller ___!", "answer": ["an"], "s": "Please call Ms. Müller!" },
+        { "type": "choice", "t": "Sie kommen. → ___ Sie bitte!", "options": ["Kommen", "Kommt", "Komme"], "answer": 0, "s": "Please come!" },
+        { "type": "order", "t": "Gehen Sie bitte nach rechts.", "s": "Please go to the right." },
+        { "type": "order", "t": "Gehen Sie hier nach links.", "s": "Go left here." }
+      ]
+    },
+    {
+      "id": "g02",
+      "title": { "t": "im Park, in der Stadt", "s": "Where? – in der / im" },
+      "explain": "To say **where** someone or something is, use **in**. After **in**, the article changes:\n**der → im**: der Park → **im Park**\n**das → im**: das Krankenhaus → **im Krankenhaus**\n**die → in der**: die Schule → **in der Schule**\n(**im** is short for *in dem*.) This form is called the **dative**. For now, just learn these patterns.",
+      "table": [
+        ["der Park", "im Park"],
+        ["der Supermarkt", "im Supermarkt"],
+        ["das Krankenhaus", "im Krankenhaus"],
+        ["die Stadt", "in der Stadt"],
+        ["die Apotheke", "in der Apotheke"]
+      ],
+      "examples": [
+        { "t": "Ali ist im Park.", "s": "Ali is in the park." },
+        { "t": "Wir kaufen im Supermarkt ein.", "s": "We shop at the supermarket." },
+        { "t": "Reza arbeitet im Krankenhaus.", "s": "Reza works at the hospital." },
+        { "t": "Ich wohne in der Goethestraße.", "s": "I live on Goethe Street." }
+      ],
+      "exercises": [
+        { "type": "choice", "t": "Sara ist ___ Schule.", "options": ["im", "in der", "in die"], "answer": 1, "s": "Sara is at school." },
+        { "type": "choice", "t": "Wir sind ___ Park.", "options": ["im", "in der", "in"], "answer": 0, "s": "We are in the park." },
+        { "type": "type", "t": "Lukas ist ___ Supermarkt.", "answer": ["im"], "s": "Lukas is at the supermarket." },
+        { "type": "type", "t": "Reza arbeitet ___ Krankenhaus.", "answer": ["im"], "s": "Reza works at the hospital." },
+        { "type": "choice", "t": "Frau Müller ist ___ Bank.", "options": ["im", "in den", "in der"], "answer": 2, "s": "Ms. Müller is at the bank." },
+        { "type": "type", "t": "Maryam ist in ___ Apotheke.", "answer": ["der"], "s": "Maryam is at the pharmacy." },
+        { "type": "order", "t": "Ich wohne in der Goethestraße.", "s": "I live on Goethe Street." }
+      ]
+    }
+  ],
+  "reading": {
+    "title": { "t": "Meine Stadt", "s": "My city" },
+    "text": [
+      { "t": "Ich heiße Eva Müller und ich wohne in Hamburg.", "s": "My name is Eva Müller and I live in Hamburg." },
+      { "t": "Meine Stadt ist groß und schön.", "s": "My city is big and beautiful." },
+      { "t": "Ich wohne in der Goethestraße.", "s": "I live on Goethe Street." },
+      { "t": "Rechts ist ein Supermarkt und links ist eine Apotheke.", "s": "On the right there's a supermarket and on the left there's a pharmacy." },
+      { "t": "Die Haltestelle ist hier und der Bahnhof ist nicht weit.", "s": "The bus stop is here and the train station isn't far." },
+      { "t": "In der Goethestraße gibt es auch ein Restaurant.", "s": "There's also a restaurant on Goethe Street." },
+      { "t": "Ich arbeite im Krankenhaus.", "s": "I work at the hospital." },
+      { "t": "Am Abend bin ich im Park.", "s": "In the evening I'm in the park." }
+    ],
+    "questions": [
+      { "q": { "t": "Wo wohnt Frau Müller?", "s": "Where does Ms. Müller live?" }, "options": ["im Park", "in der Goethestraße", "im Krankenhaus"], "answer": 1 },
+      { "q": { "t": "Was ist links?", "s": "What is on the left?" }, "options": ["ein Supermarkt", "ein Restaurant", "eine Apotheke"], "answer": 2 },
+      { "q": { "t": "Wo arbeitet Frau Müller?", "s": "Where does Ms. Müller work?" }, "options": ["im Krankenhaus", "in der Bank", "in der Apotheke"], "answer": 0 },
+      { "q": { "t": "Wo ist Frau Müller am Abend?", "s": "Where is Ms. Müller in the evening?" }, "options": ["im Supermarkt", "im Park", "in der Schule"], "answer": 1 }
+    ]
+  },
+  "sentences": [
+    { "t": "Entschuldigung, wo ist der Bahnhof?", "s": "Excuse me, where is the train station?" },
+    { "t": "Gehen Sie geradeaus und dann nach rechts.", "s": "Go straight ahead and then to the right." },
+    { "t": "Die Apotheke ist links.", "s": "The pharmacy is on the left." },
+    { "t": "Der Bus kommt um acht Uhr.", "s": "The bus comes at eight o'clock." },
+    { "t": "Ali ist in der Bank.", "s": "Ali is at the bank." },
+    { "t": "Wir essen im Restaurant.", "s": "We eat at the restaurant." },
+    { "t": "Die Haltestelle ist nicht weit.", "s": "The bus stop isn't far." },
+    { "t": "Tut mir leid, ich bin nicht von hier.", "s": "Sorry, I'm not from here." }
+  ]
+}

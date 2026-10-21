@@ -1,0 +1,689 @@
+{
+  "id": "u06",
+  "level": "A1",
+  "emoji": "⏰",
+  "title": {
+    "t": "Benim günüm",
+    "s": "روز من"
+  },
+  "goals": [
+    "بپرسم ساعت چند است و جواب بدهم.",
+    "کارهای روزانه‌ام را به ترکی بگویم.",
+    "فعل‌ها را با زمان حال iyor صرف کنم."
+  ],
+  "words": [
+    {
+      "id": "w01",
+      "t": "saat",
+      "pl": "saatler",
+      "s": "ساعت",
+      "pr": "ساآت",
+      "emoji": "🕐",
+      "ex": {
+        "t": "Saatim masada.",
+        "s": "ساعتم روی میز است."
+      }
+    },
+    {
+      "id": "w02",
+      "t": "sabah",
+      "s": "صبح",
+      "pr": "ساباه",
+      "emoji": "🌅",
+      "ex": {
+        "t": "Sabah çay içiyorum.",
+        "s": "صبح چای می‌نوشم."
+      }
+    },
+    {
+      "id": "w03",
+      "t": "akşam",
+      "s": "عصر، اول شب",
+      "pr": "آکشام",
+      "emoji": "🌆",
+      "ex": {
+        "t": "Akşam televizyon izliyoruz.",
+        "s": "عصر تلویزیون تماشا می‌کنیم."
+      }
+    },
+    {
+      "id": "w04",
+      "t": "gece",
+      "s": "شب",
+      "pr": "گِجِه",
+      "emoji": "🌙",
+      "ex": {
+        "t": "Gece saat on birde uyuyorum.",
+        "s": "شب ساعت یازده می‌خوابم."
+      }
+    },
+    {
+      "id": "w05",
+      "t": "kahvaltı",
+      "s": "صبحانه",
+      "pr": "کاهوالتِ",
+      "emoji": "🍳",
+      "ex": {
+        "t": "Kahvaltıda ekmek ve peynir yiyorum.",
+        "s": "صبحانه نان و پنیر می‌خورم."
+      }
+    },
+    {
+      "id": "w06",
+      "t": "kalkmak",
+      "s": "بیدار شدن، بلند شدن",
+      "pr": "کالکماک",
+      "emoji": "⏰",
+      "ex": {
+        "t": "Ben saat yedide kalkıyorum.",
+        "s": "من ساعت هفت بیدار می‌شوم."
+      }
+    },
+    {
+      "id": "w07",
+      "t": "çalışmak",
+      "s": "کار کردن",
+      "pr": "چالِشماک",
+      "emoji": "💼",
+      "ex": {
+        "t": "Babam bir okulda çalışıyor.",
+        "s": "پدرم در یک مدرسه کار می‌کند."
+      }
+    },
+    {
+      "id": "w08",
+      "t": "yemek yapmak",
+      "s": "غذا درست کردن، آشپزی کردن",
+      "pr": "یِمِک یاپماک",
+      "emoji": "🍲",
+      "ex": {
+        "t": "Annem mutfakta yemek yapıyor.",
+        "s": "مادرم در آشپزخانه غذا درست می‌کند."
+      }
+    },
+    {
+      "id": "w09",
+      "t": "okumak",
+      "s": "خواندن",
+      "pr": "اُکوماک",
+      "emoji": "📖",
+      "ex": {
+        "t": "Sara kitap okuyor.",
+        "s": "سارا کتاب می‌خواند."
+      }
+    },
+    {
+      "id": "w10",
+      "t": "izlemek",
+      "s": "تماشا کردن",
+      "pr": "ایزلِمِک",
+      "emoji": "📺",
+      "ex": {
+        "t": "Çocuklar televizyon izliyor.",
+        "s": "بچه‌ها تلویزیون تماشا می‌کنند."
+      }
+    },
+    {
+      "id": "w11",
+      "t": "uyumak",
+      "s": "خوابیدن",
+      "pr": "اویوماک",
+      "emoji": "😴",
+      "ex": {
+        "t": "Bebek uyuyor.",
+        "s": "نوزاد خوابیده است."
+      }
+    },
+    {
+      "id": "w12",
+      "t": "şimdi",
+      "s": "الان، حالا",
+      "pr": "شیمدی",
+      "emoji": "",
+      "ex": {
+        "t": "Şimdi saat sekiz.",
+        "s": "الان ساعت هشت است."
+      }
+    },
+    {
+      "id": "w13",
+      "t": "sonra",
+      "s": "بعد",
+      "pr": "سُنرا",
+      "emoji": "",
+      "ex": {
+        "t": "Kahvaltı yapıyorum, sonra çalışıyorum.",
+        "s": "صبحانه می‌خورم، بعد کار می‌کنم."
+      }
+    },
+    {
+      "id": "w14",
+      "t": "her gün",
+      "s": "هر روز",
+      "pr": "هِر گون",
+      "emoji": "📅",
+      "ex": {
+        "t": "Her gün çay içiyorum.",
+        "s": "هر روز چای می‌نوشم."
+      }
+    }
+  ],
+  "phrases": [
+    {
+      "id": "p01",
+      "t": "Saat kaç?",
+      "s": "ساعت چند است؟",
+      "pr": "ساآت کاچ؟"
+    },
+    {
+      "id": "p02",
+      "t": "Saat yedi.",
+      "s": "ساعت هفت است.",
+      "pr": "ساآت یِدی."
+    },
+    {
+      "id": "p03",
+      "t": "Saat yedi buçuk.",
+      "s": "ساعت هفت و نیم است.",
+      "pr": "ساآت یِدی بوچوک."
+    },
+    {
+      "id": "p04",
+      "t": "Saat kaçta?",
+      "s": "ساعت چند؟ (در چه ساعتی؟)",
+      "pr": "ساآت کاچتا؟"
+    },
+    {
+      "id": "p05",
+      "t": "Günaydın!",
+      "s": "صبح بخیر!",
+      "pr": "گونایدِن!"
+    },
+    {
+      "id": "p06",
+      "t": "İyi geceler!",
+      "s": "شب بخیر!",
+      "pr": "ای‌یی گِجِلِر!"
+    },
+    {
+      "id": "p07",
+      "t": "Geç kalıyorum!",
+      "s": "دارم دیر می‌کنم!",
+      "pr": "گِچ کالِیُروم!"
+    },
+    {
+      "id": "p08",
+      "t": "Çok erken!",
+      "s": "خیلی زود است!",
+      "pr": "چُک اِرکِن!"
+    }
+  ],
+  "dialogue": {
+    "title": {
+      "t": "Saat kaçta kalkıyorsun?",
+      "s": "ساعت چند بیدار می‌شوی؟"
+    },
+    "speakers": {
+      "A": {
+        "name": "Maryam",
+        "voice": "f"
+      },
+      "B": {
+        "name": "Mehmet",
+        "voice": "m"
+      }
+    },
+    "lines": [
+      {
+        "sp": "A",
+        "t": "Günaydın Mehmet!",
+        "s": "صبح بخیر مهمت!"
+      },
+      {
+        "sp": "B",
+        "t": "Günaydın Maryam! Nasılsın?",
+        "s": "صبح بخیر مریم! حالت چطور است؟"
+      },
+      {
+        "sp": "A",
+        "t": "İyiyim, teşekkürler. Sen her sabah saat kaçta kalkıyorsun?",
+        "s": "خوبم، ممنون. تو هر روز صبح ساعت چند بیدار می‌شوی؟"
+      },
+      {
+        "sp": "B",
+        "t": "Yedide kalkıyorum. Ya sen?",
+        "s": "ساعت هفت بیدار می‌شوم. تو چطور؟"
+      },
+      {
+        "sp": "A",
+        "t": "Ben altıda kalkıyorum ve kahvaltı yapıyorum.",
+        "s": "من ساعت شش بیدار می‌شوم و صبحانه می‌خورم."
+      },
+      {
+        "sp": "B",
+        "t": "Altıda! Çok erken!",
+        "s": "ساعت شش! خیلی زود است!"
+      },
+      {
+        "sp": "A",
+        "t": "Evet, ama gece saat onda uyuyorum.",
+        "s": "بله، ولی شب ساعت ده می‌خوابم."
+      },
+      {
+        "sp": "B",
+        "t": "Şimdi saat kaç?",
+        "s": "الان ساعت چند است؟"
+      },
+      {
+        "sp": "A",
+        "t": "Saat sekiz buçuk.",
+        "s": "ساعت هشت و نیم است."
+      },
+      {
+        "sp": "B",
+        "t": "Eyvah, geç kalıyorum! İyi günler, Maryam!",
+        "s": "وای، دارم دیر می‌کنم! روز خوبی داشته باشی، مریم!"
+      }
+    ]
+  },
+  "grammar": [
+    {
+      "id": "g01",
+      "title": {
+        "t": "Şimdiki zaman: -iyor",
+        "s": "زمان حال با پسوند iyor"
+      },
+      "explain": "برای کارهایی که **الان** یا **هر روز** انجام می‌دهیم، در ترکی از پسوند **iyor** استفاده می‌کنیم؛ درست مثل «می‌…» در فارسی.\nروش ساخت: اول **mek / mak** را از آخر مصدر برمی‌داریم: kalkmak → **kalk**. بعد **ıyor / iyor / uyor / üyor** و در آخر شناسه را اضافه می‌کنیم: kalk**ıyor**um = بیدار می‌شوم.\nهماهنگی واکه‌ها (چهارتایی): بعد از a و ı → **ıyor**؛ بعد از e و i → **iyor**؛ بعد از o و u → **uyor**؛ بعد از ö و ü → **üyor**. مثال: kalkıyor، geliyor، oturuyor، görüyor.\nاگر ریشه به واکه ختم شود فقط **yor** می‌آید: oku → **okuyor**، uyu → **uyuyor**. ولی e یا a آخر عوض می‌شود: izle → **izliyor**، anla → **anlıyor**.\nخبر خوب: خود **yor** هیچ‌وقت تغییر نمی‌کند، پس شناسه‌ها همیشه همین‌اند: **um، sun، (هیچ)، uz، sunuz، lar**.\nچند فعل خاص: gitmek → **gidiyor** (t به d تبدیل می‌شود) و yemek → **yiyor**.",
+      "table": [
+        [
+          "ben",
+          "kalkıyorum",
+          "izliyorum"
+        ],
+        [
+          "sen",
+          "kalkıyorsun",
+          "izliyorsun"
+        ],
+        [
+          "o",
+          "kalkıyor",
+          "izliyor"
+        ],
+        [
+          "biz",
+          "kalkıyoruz",
+          "izliyoruz"
+        ],
+        [
+          "siz",
+          "kalkıyorsunuz",
+          "izliyorsunuz"
+        ],
+        [
+          "onlar",
+          "kalkıyorlar",
+          "izliyorlar"
+        ]
+      ],
+      "examples": [
+        {
+          "t": "Ben her gün çalışıyorum.",
+          "s": "من هر روز کار می‌کنم."
+        },
+        {
+          "t": "Sen şimdi ne yapıyorsun?",
+          "s": "تو الان چه کار می‌کنی؟"
+        },
+        {
+          "t": "Ayşe kitap okuyor.",
+          "s": "آیشه کتاب می‌خواند."
+        },
+        {
+          "t": "Biz akşam televizyon izliyoruz.",
+          "s": "ما عصر تلویزیون تماشا می‌کنیم."
+        },
+        {
+          "t": "Çocuklar saat dokuzda uyuyor.",
+          "s": "بچه‌ها ساعت نه می‌خوابند."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "choice",
+          "t": "Ben her gün saat yedide ___.",
+          "options": [
+            "kalkıyorum",
+            "kalkıyorsun",
+            "kalkıyor"
+          ],
+          "answer": 0,
+          "s": "من هر روز ساعت هفت بیدار می‌شوم."
+        },
+        {
+          "type": "choice",
+          "t": "Ali bir okulda ___.",
+          "options": [
+            "çalışıyorum",
+            "çalışıyor",
+            "çalışıyoruz"
+          ],
+          "answer": 1,
+          "s": "علی در یک مدرسه کار می‌کند."
+        },
+        {
+          "type": "choice",
+          "t": "Biz akşam televizyon ___.",
+          "options": [
+            "izleyoruz",
+            "izliyorlar",
+            "izliyoruz"
+          ],
+          "answer": 2,
+          "s": "ما عصر تلویزیون تماشا می‌کنیم."
+        },
+        {
+          "type": "choice",
+          "t": "Sen kahvaltıda ne ___?",
+          "options": [
+            "yiyorsun",
+            "yiyorum",
+            "yiyor"
+          ],
+          "answer": 0,
+          "s": "تو صبحانه چه می‌خوری؟"
+        },
+        {
+          "type": "type",
+          "t": "Sen şimdi ne ___?",
+          "answer": [
+            "yapıyorsun"
+          ],
+          "s": "تو الان چه کار می‌کنی؟"
+        },
+        {
+          "type": "type",
+          "t": "Biz akşam yemek ___.",
+          "answer": [
+            "yapıyoruz"
+          ],
+          "s": "ما عصر غذا درست می‌کنیم."
+        },
+        {
+          "type": "order",
+          "t": "Ben gece on birde uyuyorum.",
+          "s": "من شب ساعت یازده می‌خوابم."
+        },
+        {
+          "type": "order",
+          "t": "Babam her gün çalışıyor.",
+          "s": "پدرم هر روز کار می‌کند."
+        }
+      ]
+    },
+    {
+      "id": "g02",
+      "title": {
+        "t": "Saat kaç? Saat kaçta?",
+        "s": "ساعت چند است؟ ساعت چند؟"
+      },
+      "explain": "برای پرسیدن ساعت می‌گوییم **Saat kaç?** (ساعت چند است؟). جواب: **Saat** + عدد: Saat yedi = ساعت هفت است. برای «و نیم» کلمه‌ی **buçuk** را بعد از عدد می‌آوریم: Saat yedi buçuk = ساعت هفت و نیم.\nبرای «در چه ساعتی؟» می‌پرسیم **Saat kaçta?** و در جواب به عدد همان پسوند مکان **de / da** را اضافه می‌کنیم که در درس خانه یاد گرفتیم: yedi**de** = ساعت هفت، dokuz**da** = ساعت نه.\nیادتان باشد: بعد از حروف بی‌صدای ç، ş، t، k، p، s، f، h پسوند به **te / ta** تبدیل می‌شود: üç**te**، dört**te**، beş**te**، buçuk**ta**.",
+      "table": [
+        [
+          "1",
+          "saat bir",
+          "birde"
+        ],
+        [
+          "2",
+          "saat iki",
+          "ikide"
+        ],
+        [
+          "3",
+          "saat üç",
+          "üçte"
+        ],
+        [
+          "4",
+          "saat dört",
+          "dörtte"
+        ],
+        [
+          "5",
+          "saat beş",
+          "beşte"
+        ],
+        [
+          "6",
+          "saat altı",
+          "altıda"
+        ],
+        [
+          "7",
+          "saat yedi",
+          "yedide"
+        ],
+        [
+          "8",
+          "saat sekiz",
+          "sekizde"
+        ],
+        [
+          "9",
+          "saat dokuz",
+          "dokuzda"
+        ],
+        [
+          "10",
+          "saat on",
+          "onda"
+        ],
+        [
+          "7:30",
+          "saat yedi buçuk",
+          "yedi buçukta"
+        ]
+      ],
+      "examples": [
+        {
+          "t": "Saat kaç? Saat sekiz.",
+          "s": "ساعت چند است؟ ساعت هشت است."
+        },
+        {
+          "t": "Saat on bir buçuk.",
+          "s": "ساعت یازده و نیم است."
+        },
+        {
+          "t": "Saat kaçta kalkıyorsun? Altıda.",
+          "s": "ساعت چند بیدار می‌شوی؟ ساعت شش."
+        },
+        {
+          "t": "Saat üçte çay içiyoruz.",
+          "s": "ساعت سه چای می‌نوشیم."
+        },
+        {
+          "t": "Babam saat beşte kalkıyor.",
+          "s": "پدرم ساعت پنج بیدار می‌شود."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "choice",
+          "t": "Saat ___? Saat dokuz.",
+          "options": [
+            "nerede",
+            "kaç",
+            "ne"
+          ],
+          "answer": 1,
+          "s": "ساعت چند است؟ ساعت نه است."
+        },
+        {
+          "type": "choice",
+          "t": "Saat ___ çay içiyoruz.",
+          "options": [
+            "üçte",
+            "üçde",
+            "üçta"
+          ],
+          "answer": 0,
+          "s": "ساعت سه چای می‌نوشیم."
+        },
+        {
+          "type": "choice",
+          "t": "Ben saat ___ kalkıyorum.",
+          "options": [
+            "altıde",
+            "altıta",
+            "altıda"
+          ],
+          "answer": 2,
+          "s": "من ساعت شش بیدار می‌شوم."
+        },
+        {
+          "type": "type",
+          "t": "Saat yedi ___.",
+          "answer": [
+            "buçuk"
+          ],
+          "s": "ساعت هفت و نیم است."
+        },
+        {
+          "type": "type",
+          "t": "Ben saat ___ uyuyorum.",
+          "answer": [
+            "onda",
+            "10'da"
+          ],
+          "s": "من ساعت ده می‌خوابم."
+        },
+        {
+          "type": "order",
+          "t": "Saat kaçta kalkıyorsun?",
+          "s": "ساعت چند بیدار می‌شوی؟"
+        }
+      ]
+    }
+  ],
+  "reading": {
+    "title": {
+      "t": "Reza'nın günü",
+      "s": "یک روز رضا"
+    },
+    "text": [
+      {
+        "t": "Merhaba! Benim adım Reza.",
+        "s": "سلام! اسم من رضا است."
+      },
+      {
+        "t": "Her gün saat altı buçukta kalkıyorum.",
+        "s": "هر روز ساعت شش و نیم بیدار می‌شوم."
+      },
+      {
+        "t": "Saat yedide kahvaltı yapıyorum: ekmek ve peynir yiyorum, çay içiyorum.",
+        "s": "ساعت هفت صبحانه می‌خورم: نان و پنیر می‌خورم و چای می‌نوشم."
+      },
+      {
+        "t": "Ben öğretmenim. Bir okulda çalışıyorum.",
+        "s": "من معلم هستم. در یک مدرسه کار می‌کنم."
+      },
+      {
+        "t": "Akşam eşim ve ben yemek yapıyoruz.",
+        "s": "عصر من و همسرم غذا درست می‌کنیم."
+      },
+      {
+        "t": "Çocuklar kitap okuyor.",
+        "s": "بچه‌ها کتاب می‌خوانند."
+      },
+      {
+        "t": "Saat dokuzda hep birlikte televizyon izliyoruz.",
+        "s": "ساعت نه همه با هم تلویزیون تماشا می‌کنیم."
+      },
+      {
+        "t": "Gece saat on birde uyuyorum.",
+        "s": "شب ساعت یازده می‌خوابم."
+      }
+    ],
+    "questions": [
+      {
+        "q": {
+          "t": "Reza saat kaçta kalkıyor?",
+          "s": "رضا ساعت چند بیدار می‌شود؟"
+        },
+        "options": [
+          "Altı buçukta",
+          "Yedide",
+          "On birde"
+        ],
+        "answer": 0
+      },
+      {
+        "q": {
+          "t": "Reza nerede çalışıyor?",
+          "s": "رضا کجا کار می‌کند؟"
+        },
+        "options": [
+          "Evde",
+          "Okulda",
+          "Mutfakta"
+        ],
+        "answer": 1
+      },
+      {
+        "q": {
+          "t": "Saat dokuzda ne yapıyorlar?",
+          "s": "ساعت نه چه کار می‌کنند؟"
+        },
+        "options": [
+          "Uyuyorlar",
+          "Kahvaltı yapıyorlar",
+          "Televizyon izliyorlar"
+        ],
+        "answer": 2
+      },
+      {
+        "q": {
+          "t": "Reza kahvaltıda ne içiyor?",
+          "s": "رضا صبحانه چه می‌نوشد؟"
+        },
+        "options": [
+          "Çay",
+          "Su",
+          "Süt"
+        ],
+        "answer": 0
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "t": "Annem sabah çay içiyor.",
+      "s": "مادرم صبح چای می‌نوشد."
+    },
+    {
+      "t": "Biz akşam yemek yapıyoruz.",
+      "s": "ما عصر غذا درست می‌کنیم."
+    },
+    {
+      "t": "Çocuklar saat dokuzda uyuyor.",
+      "s": "بچه‌ها ساعت نه می‌خوابند."
+    },
+    {
+      "t": "Sen şimdi ne yapıyorsun?",
+      "s": "تو الان چه کار می‌کنی؟"
+    },
+    {
+      "t": "Babam her gün çalışıyor.",
+      "s": "پدرم هر روز کار می‌کند."
+    },
+    {
+      "t": "Saat sekiz buçuk.",
+      "s": "ساعت هشت و نیم است."
+    },
+    {
+      "t": "Ayşe kitap okuyor.",
+      "s": "آیشه کتاب می‌خواند."
+    }
+  ]
+}

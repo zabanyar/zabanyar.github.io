@@ -1,0 +1,944 @@
+{
+ "version": 1,
+ "courses": [
+  {
+   "id": "en-fa",
+   "target": "en",
+   "support": "fa",
+   "dir": "rtl",
+   "name": {
+    "t": "English",
+    "s": "انگلیسی"
+   },
+   "color": "#2f6fdb",
+   "levels": [
+    {
+     "id": "A1",
+     "name": "مبتدی",
+     "units": [
+      {
+       "id": "u00",
+       "title": {
+        "t": "The ABCs",
+        "s": "الفبای انگلیسی",
+        "a": "audio/en-fa/4d53b0bd0821.mp3"
+       },
+       "img": "img/e/1f524.svg",
+       "emoji": "🔤",
+       "goals": [
+        "۲۶ حرف الفبای انگلیسی را بشناسم.",
+        "اسم هر حرف را درست بگویم.",
+        "صداهای مهمی مثل sh، ch و th را بشناسم.",
+        "چند کلمهٔ ساده را بخوانم و بگویم."
+       ],
+       "has": {
+        "letters": true,
+        "sounds": true,
+        "words": true,
+        "phrases": false,
+        "dialogue": false,
+        "grammar": false,
+        "reading": false
+       }
+      },
+      {
+       "id": "u01",
+       "title": {
+        "t": "Hello!",
+        "s": "سلام!",
+        "a": "audio/en-fa/8cea25ffe2c0.mp3"
+       },
+       "img": "img/e/1f44b.svg",
+       "emoji": "👋",
+       "goals": [
+        "سلام و خداحافظی کنم.",
+        "خودم را معرفی کنم و اسم کسی را بپرسم.",
+        "بگویم اهل کجا هستم.",
+        "am، is و are را درست به‌کار ببرم."
+       ],
+       "has": {
+        "letters": false,
+        "sounds": false,
+        "words": true,
+        "phrases": true,
+        "dialogue": true,
+        "grammar": true,
+        "reading": true
+       }
+      },
+      {
+       "id": "u02",
+       "title": {
+        "t": "Numbers and age",
+        "s": "عددها و سن",
+        "a": "audio/en-fa/ebade44673b0.mp3"
+       },
+       "img": "img/e/1f522.svg",
+       "emoji": "🔢",
+       "goals": [
+        "عددهای ۰ تا ۲۰ را بشمارم.",
+        "سن کسی را بپرسم و سن خودم را بگویم.",
+        "اسم‌ها را جمع ببندم، مثل cats و books."
+       ],
+       "has": {
+        "letters": false,
+        "sounds": false,
+        "words": true,
+        "phrases": true,
+        "dialogue": true,
+        "grammar": true,
+        "reading": true
+       }
+      },
+      {
+       "id": "u03",
+       "title": {
+        "t": "My family",
+        "s": "خانوادهٔ من",
+        "a": "audio/en-fa/6ee0d3bedc3a.mp3"
+       },
+       "img": "img/e/1f46a.svg",
+       "emoji": "👪",
+       "goals": [
+        "اعضای خانواده را نام ببرم.",
+        "با my، your، his، her، our و their بگویم چیزی مال کیست.",
+        "با 's مالکیت را نشان بدهم، مثل Sara's brother.",
+        "با have و has بگویم چه کسانی را دارم."
+       ],
+       "has": {
+        "letters": false,
+        "sounds": false,
+        "words": true,
+        "phrases": true,
+        "dialogue": true,
+        "grammar": true,
+        "reading": true
+       }
+      },
+      {
+       "id": "u04",
+       "title": {
+        "t": "Food and drink",
+        "s": "غذا و نوشیدنی",
+        "a": "audio/en-fa/c789f2f86058.mp3"
+       },
+       "img": "img/e/1f37d.svg",
+       "emoji": "🍽️",
+       "goals": [
+        "اسم چند غذا و نوشیدنی را بگویم.",
+        "a، an و some را درست به‌کار ببرم.",
+        "بگویم چه چیزی را دوست دارم و چه چیزی را دوست ندارم.",
+        "مؤدبانه چیزی بخواهم: I'd like …, please."
+       ],
+       "has": {
+        "letters": false,
+        "sounds": false,
+        "words": true,
+        "phrases": true,
+        "dialogue": true,
+        "grammar": true,
+        "reading": true
+       }
+      },
+      {
+       "id": "u05",
+       "title": {
+        "t": "My home",
+        "s": "خانهٔ من",
+        "a": "audio/en-fa/c2646bd9d4cf.mp3"
+       },
+       "img": "img/e/1f3e0.svg",
+       "emoji": "🏠",
+       "goals": [
+        "اتاق‌ها و وسایل خانه را نام ببرم.",
+        "با there is و there are بگویم در خانه چه چیزهایی هست.",
+        "با in، on، under و next to بگویم هر چیز کجاست."
+       ],
+       "has": {
+        "letters": false,
+        "sounds": false,
+        "words": true,
+        "phrases": true,
+        "dialogue": true,
+        "grammar": true,
+        "reading": true
+       }
+      },
+      {
+       "id": "u06",
+       "title": {
+        "t": "My day",
+        "s": "روز من",
+        "a": "audio/en-fa/94a979bbbcd5.mp3"
+       },
+       "img": "img/e/1f556.svg",
+       "emoji": "🕖",
+       "goals": [
+        "می‌توانم کارهای روزانه‌ام را بگویم.",
+        "می‌توانم ساعت را بپرسم و بگویم.",
+        "می‌توانم بگویم دیگران هر روز چه کار می‌کنند."
+       ],
+       "has": {
+        "letters": false,
+        "sounds": false,
+        "words": true,
+        "phrases": true,
+        "dialogue": true,
+        "grammar": true,
+        "reading": true
+       }
+      },
+      {
+       "id": "u07",
+       "title": {
+        "t": "In the city",
+        "s": "در شهر",
+        "a": "audio/en-fa/8bb3ab5c7d06.mp3"
+       },
+       "img": "img/e/1f3d9.svg",
+       "emoji": "🏙️",
+       "goals": [
+        "می‌توانم مکان‌های شهر را نام ببرم.",
+        "می‌توانم بپرسم یک جا کجاست.",
+        "می‌توانم آدرس ساده بدهم: مستقیم بروید، به چپ بپیچید."
+       ],
+       "has": {
+        "letters": false,
+        "sounds": false,
+        "words": true,
+        "phrases": true,
+        "dialogue": true,
+        "grammar": true,
+        "reading": true
+       }
+      },
+      {
+       "id": "u08",
+       "title": {
+        "t": "Shopping and colors",
+        "s": "خرید، لباس و رنگ‌ها",
+        "a": "audio/en-fa/7d25d59c0b0a.mp3"
+       },
+       "img": "img/e/1f6cd.svg",
+       "emoji": "🛍️",
+       "goals": [
+        "می‌توانم لباس‌ها و رنگ‌ها را نام ببرم.",
+        "می‌توانم قیمت چیزی را بپرسم.",
+        "می‌توانم با this / that / these / those به چیزها اشاره کنم."
+       ],
+       "has": {
+        "letters": false,
+        "sounds": false,
+        "words": true,
+        "phrases": true,
+        "dialogue": true,
+        "grammar": true,
+        "reading": true
+       }
+      },
+      {
+       "id": "u09",
+       "title": {
+        "t": "Weather and seasons",
+        "s": "هوا، ماه‌ها و فصل‌ها",
+        "a": "audio/en-fa/6f6792c97163.mp3"
+       },
+       "img": "img/e/1f326.svg",
+       "emoji": "🌦️",
+       "goals": [
+        "می‌توانم دربارهٔ هوا بپرسم و جواب بدهم.",
+        "می‌توانم ماه‌ها و فصل‌ها را بگویم.",
+        "می‌توانم بگویم تولدم در چه ماهی است."
+       ],
+       "has": {
+        "letters": false,
+        "sounds": false,
+        "words": true,
+        "phrases": true,
+        "dialogue": true,
+        "grammar": true,
+        "reading": true
+       }
+      },
+      {
+       "id": "u10",
+       "title": {
+        "t": "Free time",
+        "s": "وقت آزاد و سرگرمی‌ها",
+        "a": "audio/en-fa/06f305b9036e.mp3"
+       },
+       "img": "img/e/26bd.svg",
+       "emoji": "⚽",
+       "goals": [
+        "می‌توانم بگویم چه کارهایی بلدم و چه کارهایی بلد نیستم.",
+        "می‌توانم دربارهٔ سرگرمی‌هایم حرف بزنم.",
+        "می‌توانم سؤال‌های ساده با Can you …? و Do you …? بپرسم."
+       ],
+       "has": {
+        "letters": false,
+        "sounds": false,
+        "words": true,
+        "phrases": true,
+        "dialogue": true,
+        "grammar": true,
+        "reading": true
+       }
+      }
+     ]
+    },
+    {
+     "id": "A2",
+     "name": "مقدماتی",
+     "units": [],
+     "outline": "زمان گذشته، برنامه‌های آینده، سفر، سلامتی، کار، مقایسه"
+    },
+    {
+     "id": "B1",
+     "name": "متوسط",
+     "units": [],
+     "outline": "تجربه‌ها، نظر دادن، داستان، اخبار، متن‌های بلندتر"
+    },
+    {
+     "id": "B2",
+     "name": "فوق متوسط",
+     "units": [],
+     "outline": "بحث و گفت‌وگو، موضوعات انتزاعی، دستور پیشرفته، متن‌های واقعی"
+    },
+    {
+     "id": "C1",
+     "name": "پیشرفته",
+     "units": [],
+     "outline": "روانی کامل، اصطلاحات، سبک نوشتن، زبان حرفه‌ای"
+    }
+   ]
+  },
+  {
+   "id": "de-en",
+   "target": "de",
+   "support": "en",
+   "dir": "ltr",
+   "name": {
+    "t": "Deutsch",
+    "s": "German"
+   },
+   "color": "#d9822b",
+   "levels": [
+    {
+     "id": "A1",
+     "name": "Beginner",
+     "units": [
+      {
+       "id": "u00",
+       "title": {
+        "t": "Das Alphabet",
+        "s": "The alphabet",
+        "a": "audio/de-en/9be6db1ef068.mp3"
+       },
+       "img": "img/e/1f524.svg",
+       "emoji": "🔤",
+       "goals": [
+        "Say the German alphabet and spell your name",
+        "Recognize Ä, Ö, Ü and ß",
+        "Pronounce key German sounds like ei, ie, ch and sch",
+        "Read and say your first German words"
+       ],
+       "has": {
+        "letters": true,
+        "sounds": true,
+        "words": true,
+        "phrases": true,
+        "dialogue": false,
+        "grammar": false,
+        "reading": false
+       }
+      },
+      {
+       "id": "u01",
+       "title": {
+        "t": "Hallo!",
+        "s": "Hello!",
+        "a": "audio/de-en/0ce1112c3622.mp3"
+       },
+       "img": "img/e/1f44b.svg",
+       "emoji": "👋",
+       "goals": [
+        "Greet people and say goodbye",
+        "Say your name and where you are from",
+        "Use sein: ich bin, du bist, er/sie ist, Sie sind",
+        "Know when to say du and when to say Sie"
+       ],
+       "has": {
+        "letters": false,
+        "sounds": false,
+        "words": true,
+        "phrases": true,
+        "dialogue": true,
+        "grammar": true,
+        "reading": true
+       }
+      },
+      {
+       "id": "u02",
+       "title": {
+        "t": "Zahlen und Alter",
+        "s": "Numbers and age",
+        "a": "audio/de-en/1e3378068f96.mp3"
+       },
+       "img": "img/e/1f522.svg",
+       "emoji": "🔢",
+       "goals": [
+        "Count from 0 to 20",
+        "Ask and say how old someone is",
+        "Ask and say where someone lives",
+        "Use regular verb endings: ich wohne, du wohnst, er wohnt"
+       ],
+       "has": {
+        "letters": false,
+        "sounds": false,
+        "words": true,
+        "phrases": true,
+        "dialogue": true,
+        "grammar": true,
+        "reading": true
+       }
+      },
+      {
+       "id": "u03",
+       "title": {
+        "t": "Meine Familie",
+        "s": "My family",
+        "a": "audio/de-en/0c94407b1789.mp3"
+       },
+       "img": "img/e/1f46a.svg",
+       "emoji": "👪",
+       "goals": [
+        "Talk about your family members",
+        "Use der, die, das and mein/meine, dein/deine",
+        "Say what you have with haben"
+       ],
+       "has": {
+        "letters": false,
+        "sounds": false,
+        "words": true,
+        "phrases": true,
+        "dialogue": true,
+        "grammar": true,
+        "reading": true
+       }
+      },
+      {
+       "id": "u04",
+       "title": {
+        "t": "Essen und Trinken",
+        "s": "Food and drink",
+        "a": "audio/de-en/05debed12027.mp3"
+       },
+       "img": "img/e/1f37d.svg",
+       "emoji": "🍽️",
+       "goals": [
+        "Name common foods and drinks",
+        "Use ein/eine and kein/keine",
+        "Order politely with ich möchte",
+        "Say what you like with ich mag"
+       ],
+       "has": {
+        "letters": false,
+        "sounds": false,
+        "words": true,
+        "phrases": true,
+        "dialogue": true,
+        "grammar": true,
+        "reading": true
+       }
+      },
+      {
+       "id": "u05",
+       "title": {
+        "t": "Meine Wohnung",
+        "s": "My home",
+        "a": "audio/de-en/b235859b42dd.mp3"
+       },
+       "img": "img/e/1f3e0.svg",
+       "emoji": "🏠",
+       "goals": [
+        "Name rooms and furniture in a home",
+        "Say what there is with es gibt + einen / eine / ein",
+        "Ask and answer Wo ist …? with er / sie / es"
+       ],
+       "has": {
+        "letters": false,
+        "sounds": false,
+        "words": true,
+        "phrases": true,
+        "dialogue": true,
+        "grammar": true,
+        "reading": true
+       }
+      },
+      {
+       "id": "u06",
+       "title": {
+        "t": "Mein Tag",
+        "s": "My day",
+        "a": "audio/de-en/0f2f06ce51c5.mp3"
+       },
+       "img": "img/e/23f0.svg",
+       "emoji": "⏰",
+       "goals": [
+        "Ask and tell the time (full hours, half hours, quarters)",
+        "Talk about your daily routine",
+        "Use separable verbs like aufstehen and einkaufen",
+        "Put the verb in second position"
+       ],
+       "has": {
+        "letters": false,
+        "sounds": false,
+        "words": true,
+        "phrases": true,
+        "dialogue": true,
+        "grammar": true,
+        "reading": true
+       }
+      },
+      {
+       "id": "u07",
+       "title": {
+        "t": "In der Stadt",
+        "s": "In the city",
+        "a": "audio/de-en/3724e1232edf.mp3"
+       },
+       "img": "img/e/1f5fa.svg",
+       "emoji": "🗺️",
+       "goals": [
+        "Name important places in the city",
+        "Ask the way: Wo ist …?",
+        "Understand and give directions: Gehen Sie geradeaus!",
+        "Say where someone is: in der Schule, im Park"
+       ],
+       "has": {
+        "letters": false,
+        "sounds": false,
+        "words": true,
+        "phrases": true,
+        "dialogue": true,
+        "grammar": true,
+        "reading": true
+       }
+      },
+      {
+       "id": "u08",
+       "title": {
+        "t": "Einkaufen",
+        "s": "Shopping",
+        "a": "audio/de-en/efcbfaf74b43.mp3"
+       },
+       "img": "img/e/1f6cd.svg",
+       "emoji": "🛍️",
+       "goals": [
+        "Name clothes and colors",
+        "Ask for prices: Wie viel kostet …?",
+        "Use the accusative: den / einen",
+        "Point at things with dieser / diese / dieses"
+       ],
+       "has": {
+        "letters": false,
+        "sounds": false,
+        "words": true,
+        "phrases": true,
+        "dialogue": true,
+        "grammar": true,
+        "reading": true
+       }
+      },
+      {
+       "id": "u09",
+       "title": {
+        "t": "Das Wetter",
+        "s": "The weather",
+        "a": "audio/de-en/68507221f8eb.mp3"
+       },
+       "img": "img/e/1f326.svg",
+       "emoji": "🌦️",
+       "goals": [
+        "Talk about the weather: Es ist sonnig. Es regnet.",
+        "Name the months and the four seasons",
+        "Say when: im Juli, im Sommer",
+        "Say when your birthday is"
+       ],
+       "has": {
+        "letters": false,
+        "sounds": false,
+        "words": true,
+        "phrases": true,
+        "dialogue": true,
+        "grammar": true,
+        "reading": true
+       }
+      },
+      {
+       "id": "u10",
+       "title": {
+        "t": "Freizeit",
+        "s": "Free time",
+        "a": "audio/de-en/42b8fe32929a.mp3"
+       },
+       "img": "img/e/26bd.svg",
+       "emoji": "⚽",
+       "goals": [
+        "Talk about your hobbies",
+        "Say what you can and can't do: Ich kann schwimmen.",
+        "Say what you like doing with gern",
+        "Ask and answer yes/no questions"
+       ],
+       "has": {
+        "letters": false,
+        "sounds": false,
+        "words": true,
+        "phrases": true,
+        "dialogue": true,
+        "grammar": true,
+        "reading": true
+       }
+      }
+     ]
+    },
+    {
+     "id": "A2",
+     "name": "Elementary",
+     "units": [],
+     "outline": "Past tense, future plans, travel, health, work, comparisons"
+    },
+    {
+     "id": "B1",
+     "name": "Intermediate",
+     "units": [],
+     "outline": "Experiences, opinions, stories, news, longer texts"
+    },
+    {
+     "id": "B2",
+     "name": "Upper intermediate",
+     "units": [],
+     "outline": "Discussions, abstract topics, complex grammar, authentic texts"
+    },
+    {
+     "id": "C1",
+     "name": "Advanced",
+     "units": [],
+     "outline": "Fluency, idioms, style, professional language"
+    }
+   ]
+  },
+  {
+   "id": "tr-fa",
+   "target": "tr",
+   "support": "fa",
+   "dir": "rtl",
+   "name": {
+    "t": "Türkçe",
+    "s": "ترکی"
+   },
+   "color": "#c2334d",
+   "levels": [
+    {
+     "id": "A1",
+     "name": "مبتدی",
+     "units": [
+      {
+       "id": "u00",
+       "title": {
+        "t": "Alfabe",
+        "s": "الفبا",
+        "a": "audio/tr-fa/b949cd466878.mp3"
+       },
+       "img": "img/e/1f524.svg",
+       "emoji": "🔤",
+       "goals": [
+        "۲۹ حرف الفبای ترکی را بشناسم و بخوانم.",
+        "صداهای ویژه‌ی ترکی مثل ı، ö، ü و ğ را بشناسم.",
+        "بدانم که در ترکی هر حرف خوانده می‌شود.",
+        "با هماهنگی حروف صدادار آشنا شوم."
+       ],
+       "has": {
+        "letters": true,
+        "sounds": true,
+        "words": true,
+        "phrases": false,
+        "dialogue": false,
+        "grammar": false,
+        "reading": false
+       }
+      },
+      {
+       "id": "u01",
+       "title": {
+        "t": "Merhaba!",
+        "s": "سلام!",
+        "a": "audio/tr-fa/0b64969b8f71.mp3"
+       },
+       "img": "img/e/1f44b.svg",
+       "emoji": "👋",
+       "goals": [
+        "به ترکی سلام و خداحافظی کنم.",
+        "خودم را معرفی کنم و اسم کسی را بپرسم.",
+        "بگویم اهل کجا هستم و شغلم چیست.",
+        "پسوندهای «بودن» (-ım، -sın، ...) را درست به کار ببرم."
+       ],
+       "has": {
+        "letters": false,
+        "sounds": false,
+        "words": true,
+        "phrases": true,
+        "dialogue": true,
+        "grammar": true,
+        "reading": true
+       }
+      },
+      {
+       "id": "u02",
+       "title": {
+        "t": "Sayılar ve yaş",
+        "s": "عددها و سن",
+        "a": "audio/tr-fa/8e2a433ad060.mp3"
+       },
+       "img": "img/e/1f522.svg",
+       "emoji": "🔢",
+       "goals": [
+        "عددهای ۰ تا ۲۰ را بشمارم و بگویم.",
+        "سن کسی را بپرسم و سن خودم را بگویم.",
+        "کلمه‌ها را با -ler / -lar جمع ببندم."
+       ],
+       "has": {
+        "letters": false,
+        "sounds": false,
+        "words": true,
+        "phrases": true,
+        "dialogue": true,
+        "grammar": true,
+        "reading": true
+       }
+      },
+      {
+       "id": "u03",
+       "title": {
+        "t": "Ailem",
+        "s": "خانواده‌ی من",
+        "a": "audio/tr-fa/572cc69189bd.mp3"
+       },
+       "img": "img/e/1f46a.svg",
+       "emoji": "👪",
+       "goals": [
+        "اعضای خانواده را به ترکی نام ببرم.",
+        "با پسوندهای مالکیت بگویم «مادرم، مادرت، مادرش» (annem، annen، annesi).",
+        "از benim / senin / onun برای «مالِ من، مالِ تو، مالِ او» استفاده کنم.",
+        "خانواده‌ام را به ترکی معرفی کنم."
+       ],
+       "has": {
+        "letters": false,
+        "sounds": false,
+        "words": true,
+        "phrases": true,
+        "dialogue": true,
+        "grammar": true,
+        "reading": true
+       }
+      },
+      {
+       "id": "u04",
+       "title": {
+        "t": "Yiyecek ve içecek",
+        "s": "خوردنی و نوشیدنی",
+        "a": "audio/tr-fa/b11889b269cb.mp3"
+       },
+       "img": "img/e/1f37d.svg",
+       "emoji": "🍽️",
+       "goals": [
+        "نام خوردنی‌ها و نوشیدنی‌های رایج را بگویم.",
+        "با istiyorum / istemiyorum بگویم چه می‌خواهم و چه نمی‌خواهم.",
+        "با seviyorum / sevmiyorum بگویم چه چیزی را دوست دارم.",
+        "در رستوران مؤدبانه با «… lütfen» سفارش بدهم."
+       ],
+       "has": {
+        "letters": false,
+        "sounds": false,
+        "words": true,
+        "phrases": true,
+        "dialogue": true,
+        "grammar": true,
+        "reading": true
+       }
+      },
+      {
+       "id": "u05",
+       "title": {
+        "t": "Evim",
+        "s": "خانه‌ی من",
+        "a": "audio/tr-fa/3717dc5d1050.mp3"
+       },
+       "img": "img/e/1f3e0.svg",
+       "emoji": "🏠",
+       "goals": [
+        "اتاق‌ها و وسایلِ خانه را نام ببرم.",
+        "با var / yok بگویم چیزی هست یا نیست.",
+        "با پسوندِ -de / -da بگویم چیزی کجاست.",
+        "با nerede? بپرسم چیزی یا کسی کجاست."
+       ],
+       "has": {
+        "letters": false,
+        "sounds": false,
+        "words": true,
+        "phrases": true,
+        "dialogue": true,
+        "grammar": true,
+        "reading": true
+       }
+      },
+      {
+       "id": "u06",
+       "title": {
+        "t": "Benim günüm",
+        "s": "روز من",
+        "a": "audio/tr-fa/c5fdaefee491.mp3"
+       },
+       "img": "img/e/23f0.svg",
+       "emoji": "⏰",
+       "goals": [
+        "بپرسم ساعت چند است و جواب بدهم.",
+        "کارهای روزانه‌ام را به ترکی بگویم.",
+        "فعل‌ها را با زمان حال iyor صرف کنم."
+       ],
+       "has": {
+        "letters": false,
+        "sounds": false,
+        "words": true,
+        "phrases": true,
+        "dialogue": true,
+        "grammar": true,
+        "reading": true
+       }
+      },
+      {
+       "id": "u07",
+       "title": {
+        "t": "Şehirde",
+        "s": "در شهر",
+        "a": "audio/tr-fa/3a27a5fb483a.mp3"
+       },
+       "img": "img/e/1f3d9.svg",
+       "emoji": "🏙️",
+       "goals": [
+        "بپرسم یک جا کجاست.",
+        "بگویم کجا می‌روم (به مدرسه، به بانک، به خانه…).",
+        "آدرس بپرسم و آدرس بدهم: راست، چپ، مستقیم."
+       ],
+       "has": {
+        "letters": false,
+        "sounds": false,
+        "words": true,
+        "phrases": true,
+        "dialogue": true,
+        "grammar": true,
+        "reading": true
+       }
+      },
+      {
+       "id": "u08",
+       "title": {
+        "t": "Alışveriş",
+        "s": "خرید",
+        "a": "audio/tr-fa/60d98da52e75.mp3"
+       },
+       "img": "img/e/1f6cd.svg",
+       "emoji": "🛍️",
+       "goals": [
+        "رنگ‌ها و لباس‌ها را به ترکی بگویم.",
+        "قیمت بپرسم و عددهای بزرگ‌تر تا هزار را بفهمم.",
+        "با bu / şu / o به چیزها اشاره کنم و بگویم «این را می‌خواهم»."
+       ],
+       "has": {
+        "letters": false,
+        "sounds": false,
+        "words": true,
+        "phrases": true,
+        "dialogue": true,
+        "grammar": true,
+        "reading": true
+       }
+      },
+      {
+       "id": "u09",
+       "title": {
+        "t": "Hava ve mevsimler",
+        "s": "هوا و فصل‌ها",
+        "a": "audio/tr-fa/f69a1b23dd48.mp3"
+       },
+       "img": "img/e/1f326.svg",
+       "emoji": "🌦️",
+       "goals": [
+        "بپرسم هوا چطور است و جواب بدهم.",
+        "ماه‌ها و فصل‌ها را به ترکی بگویم.",
+        "بگویم «در ماهِ … / در فصلِ …» چه اتفاقی می‌افتد."
+       ],
+       "has": {
+        "letters": false,
+        "sounds": false,
+        "words": true,
+        "phrases": true,
+        "dialogue": true,
+        "grammar": true,
+        "reading": true
+       }
+      },
+      {
+       "id": "u10",
+       "title": {
+        "t": "Boş zaman",
+        "s": "وقت آزاد",
+        "a": "audio/tr-fa/f7a410cc1823.mp3"
+       },
+       "img": "img/e/1f3a8.svg",
+       "emoji": "🎨",
+       "goals": [
+        "بگویم در وقت آزادم چه کاری را دوست دارم.",
+        "بگویم چه کاری را می‌توانم یا نمی‌توانم انجام بدهم.",
+        "سؤال بله/نه را با mi بپرسم."
+       ],
+       "has": {
+        "letters": false,
+        "sounds": false,
+        "words": true,
+        "phrases": true,
+        "dialogue": true,
+        "grammar": true,
+        "reading": true
+       }
+      }
+     ]
+    },
+    {
+     "id": "A2",
+     "name": "مقدماتی",
+     "units": [],
+     "outline": "زمان گذشته، برنامه‌های آینده، سفر، سلامتی، کار، مقایسه"
+    },
+    {
+     "id": "B1",
+     "name": "متوسط",
+     "units": [],
+     "outline": "تجربه‌ها، نظر دادن، داستان، اخبار، متن‌های بلندتر"
+    },
+    {
+     "id": "B2",
+     "name": "فوق متوسط",
+     "units": [],
+     "outline": "بحث و گفت‌وگو، موضوعات انتزاعی، دستور پیشرفته، متن‌های واقعی"
+    },
+    {
+     "id": "C1",
+     "name": "پیشرفته",
+     "units": [],
+     "outline": "روانی کامل، اصطلاحات، سبک نوشتن، زبان حرفه‌ای"
+    }
+   ]
+  }
+ ]
+}

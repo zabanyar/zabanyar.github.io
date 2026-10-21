@@ -1,0 +1,147 @@
+{
+  "id": "u04",
+  "level": "A1",
+  "emoji": "🍽️",
+  "title": { "t": "Essen und Trinken", "s": "Food and drink" },
+  "goals": [
+    "Name common foods and drinks",
+    "Use ein/eine and kein/keine",
+    "Order politely with ich möchte",
+    "Say what you like with ich mag"
+  ],
+
+  "words": [
+    { "id": "w01", "t": "das Brot", "pl": "die Brote", "s": "bread", "emoji": "🍞", "ex": { "t": "Ich esse Brot mit Käse.", "s": "I eat bread with cheese." } },
+    { "id": "w02", "t": "der Käse", "pl": "die Käse", "s": "cheese", "emoji": "🧀", "ex": { "t": "Magst du Käse?", "s": "Do you like cheese?" } },
+    { "id": "w03", "t": "der Reis", "s": "rice (usually no plural)", "emoji": "🍚", "ex": { "t": "Reis ist lecker!", "s": "Rice is delicious!" } },
+    { "id": "w04", "t": "das Ei", "pl": "die Eier", "s": "egg", "emoji": "🥚", "ex": { "t": "Ich möchte ein Ei.", "s": "I'd like an egg." } },
+    { "id": "w05", "t": "der Apfel", "pl": "die Äpfel", "s": "apple", "emoji": "🍎", "ex": { "t": "Ich mag Äpfel.", "s": "I like apples." } },
+    { "id": "w06", "t": "die Banane", "pl": "die Bananen", "s": "banana", "emoji": "🍌", "ex": { "t": "Möchtest du eine Banane?", "s": "Would you like a banana?" } },
+    { "id": "w07", "t": "das Hähnchen", "pl": "die Hähnchen", "s": "chicken (food)", "emoji": "🍗", "ex": { "t": "Maryam mag Hähnchen.", "s": "Maryam likes chicken." } },
+    { "id": "w08", "t": "der Salat", "pl": "die Salate", "s": "salad", "emoji": "🥗", "ex": { "t": "Der Salat ist gut.", "s": "The salad is good." } },
+    { "id": "w09", "t": "die Suppe", "pl": "die Suppen", "s": "soup", "emoji": "🍲", "ex": { "t": "Möchten Sie eine Suppe?", "s": "Would you like some soup?" } },
+    { "id": "w10", "t": "das Wasser", "s": "water (usually no plural)", "emoji": "💧", "ex": { "t": "Ein Wasser, bitte.", "s": "A water, please." } },
+    { "id": "w11", "t": "der Tee", "pl": "die Tees", "s": "tea", "emoji": "🍵", "ex": { "t": "Wir trinken Tee.", "s": "We drink tea." } },
+    { "id": "w12", "t": "der Kaffee", "pl": "die Kaffees", "s": "coffee", "emoji": "☕", "ex": { "t": "Herr Schmidt trinkt Kaffee.", "s": "Mr. Schmidt drinks coffee." } },
+    { "id": "w13", "t": "die Milch", "s": "milk (no plural)", "emoji": "🥛", "ex": { "t": "Trinkst du Milch?", "s": "Do you drink milk?" } },
+    { "id": "w14", "t": "der Saft", "pl": "die Säfte", "s": "juice", "emoji": "🧃", "ex": { "t": "Der Saft ist lecker.", "s": "The juice is delicious." } }
+  ],
+
+  "phrases": [
+    { "id": "p01", "t": "Ich habe Hunger.", "s": "I'm hungry." },
+    { "id": "p02", "t": "Ich habe Durst.", "s": "I'm thirsty." },
+    { "id": "p03", "t": "Was möchtest du?", "s": "What would you like? (informal)" },
+    { "id": "p04", "t": "Was möchten Sie?", "s": "What would you like? (polite)" },
+    { "id": "p05", "t": "Ich möchte eine Suppe, bitte.", "s": "I'd like some soup, please." },
+    { "id": "p06", "t": "Guten Appetit!", "s": "Enjoy your meal!" },
+    { "id": "p07", "t": "Das ist lecker!", "s": "This is delicious!" },
+    { "id": "p08", "t": "Danke, ich bin satt.", "s": "Thank you, I'm full." }
+  ],
+
+  "dialogue": {
+    "title": { "t": "Im Café", "s": "At the café" },
+    "speakers": { "A": { "name": "Kellner", "voice": "m" }, "B": { "name": "Maryam", "voice": "f" } },
+    "lines": [
+      { "sp": "A", "t": "Guten Tag! Was möchten Sie?", "s": "Hello! What would you like?" },
+      { "sp": "B", "t": "Guten Tag! Ich möchte eine Suppe, bitte.", "s": "Hello! I'd like some soup, please." },
+      { "sp": "A", "t": "Gern. Möchten Sie auch Brot?", "s": "Sure. Would you like some bread, too?" },
+      { "sp": "B", "t": "Ja, bitte. Haben Sie auch Hähnchen?", "s": "Yes, please. Do you have chicken, too?" },
+      { "sp": "A", "t": "Nein, wir haben kein Hähnchen. Aber wir haben Salat.", "s": "No, we don't have chicken. But we have salad." },
+      { "sp": "B", "t": "Nein, danke. Aber ich habe Durst. Ein Wasser, bitte.", "s": "No, thank you. But I'm thirsty. A water, please." },
+      { "sp": "A", "t": "Also: eine Suppe, Brot und ein Wasser?", "s": "So: soup, bread and a water?" },
+      { "sp": "B", "t": "Ja, richtig. Danke!", "s": "Yes, that's right. Thank you!" },
+      { "sp": "A", "t": "Bitte schön. Guten Appetit!", "s": "Here you are. Enjoy your meal!" },
+      { "sp": "B", "t": "Danke! Die Suppe ist lecker!", "s": "Thanks! The soup is delicious!" }
+    ]
+  },
+
+  "grammar": [
+    {
+      "id": "g01",
+      "title": { "t": "ein, eine – kein, keine", "s": "\"a\" and \"no / not a\"" },
+      "explain": "**ein** / **eine** means *a* / *an*. Use **ein** with der- and das-nouns, and **eine** with die-nouns: **ein** Apfel, **eine** Banane, **ein** Ei. In the plural there is no *a*: Äpfel.\nTo say *no* / *not a*, just put a **k** in front: **kein**, **keine**. In the plural, always use **keine**: Wir haben **keine** Äpfel. With things you can't count, use kein/keine as well: Ich habe **keine** Milch.\nTip: after **haben** and **möchte**, a der-noun changes: Ich möchte **einen** Apfel. You'll practice this in Unit 5.",
+      "table": [
+        ["der Apfel", "ein Apfel", "kein Apfel"],
+        ["die Banane", "eine Banane", "keine Banane"],
+        ["das Ei", "ein Ei", "kein Ei"],
+        ["die Äpfel", "Äpfel", "keine Äpfel"]
+      ],
+      "examples": [
+        { "t": "Das ist ein Apfel.", "s": "This is an apple." },
+        { "t": "Das ist eine Banane.", "s": "This is a banana." },
+        { "t": "Das ist kein Ei.", "s": "This is not an egg." },
+        { "t": "Ich habe keine Milch.", "s": "I have no milk." },
+        { "t": "Wir haben keine Äpfel.", "s": "We don't have any apples." }
+      ],
+      "exercises": [
+        { "type": "choice", "t": "Das ist ___ Banane.", "options": ["ein", "eine"], "answer": 1, "s": "This is a banana." },
+        { "type": "choice", "t": "Das ist ___ Ei.", "options": ["ein", "eine"], "answer": 0, "s": "This is an egg." },
+        { "type": "choice", "t": "Ich habe ___ Milch.", "options": ["kein", "keine"], "answer": 1, "s": "I have no milk." },
+        { "type": "choice", "t": "Das ist kein Tee, das ist ___ Kaffee.", "options": ["ein", "eine"], "answer": 0, "s": "This isn't tea, it's a coffee." },
+        { "type": "type", "t": "Das ist ___ Suppe.", "answer": ["eine"], "s": "This is a soup." },
+        { "type": "type", "t": "Wir haben ___ Eier.", "answer": ["keine"], "s": "We have no eggs." },
+        { "type": "order", "t": "Das ist kein Brot.", "s": "This is not bread." },
+        { "type": "order", "t": "Ich möchte eine Banane.", "s": "I'd like a banana." }
+      ]
+    },
+    {
+      "id": "g02",
+      "title": { "t": "ich möchte – ich mag", "s": "\"I'd like\" and \"I like\"" },
+      "explain": "**ich möchte** means *I would like*. It's the polite way to ask for something – in a café, in a shop or at home: **Ich möchte eine Suppe, bitte.**\n**ich mag** means *I like* – in general: **Ich mag Reis.** To say you don't like something, use **kein** / **keine**: Ich mag **keine** Bananen.\nNote: **ich** and **er / sie / es** have the same form, with no **-t**: ich möchte, er möchte – ich mag, sie mag.",
+      "table": [
+        ["ich", "möchte", "mag"],
+        ["du", "möchtest", "magst"],
+        ["er / sie / es", "möchte", "mag"],
+        ["wir", "möchten", "mögen"],
+        ["Sie", "möchten", "mögen"]
+      ],
+      "examples": [
+        { "t": "Ich möchte ein Wasser, bitte.", "s": "I'd like a water, please." },
+        { "t": "Möchtest du Tee?", "s": "Would you like some tea?" },
+        { "t": "Ich mag Reis.", "s": "I like rice." },
+        { "t": "Ali mag keine Bananen.", "s": "Ali doesn't like bananas." },
+        { "t": "Was möchten Sie?", "s": "What would you like?" }
+      ],
+      "exercises": [
+        { "type": "choice", "t": "Ich ___ ein Wasser, bitte.", "options": ["möchte", "möchtest", "möchten"], "answer": 0, "s": "I'd like a water, please." },
+        { "type": "choice", "t": "___ du Tee?", "options": ["Möchtest", "Möchte", "Möchten"], "answer": 0, "s": "Would you like some tea?" },
+        { "type": "choice", "t": "Sara ___ Käse.", "options": ["mag", "magst", "mögen"], "answer": 0, "s": "Sara likes cheese." },
+        { "type": "type", "t": "Was ___ Sie?", "answer": ["möchten"], "s": "What would you like?" },
+        { "type": "type", "t": "Magst du Hähnchen? – Ja, ich ___ Hähnchen.", "answer": ["mag"], "s": "Do you like chicken? – Yes, I like chicken." },
+        { "type": "type", "t": "Lukas ___ eine Suppe.", "answer": ["möchte"], "s": "Lukas would like some soup." },
+        { "type": "order", "t": "Ich mag keine Bananen.", "s": "I don't like bananas." },
+        { "type": "order", "t": "Möchten Sie Tee?", "s": "Would you like some tea? (polite)" }
+      ]
+    }
+  ],
+
+  "reading": {
+    "title": { "t": "Frühstück bei Familie Ahmadi", "s": "Breakfast with the Ahmadi family" },
+    "text": [
+      { "t": "Hallo, ich bin Maryam.", "s": "Hello, I'm Maryam." },
+      { "t": "Wir essen Brot, Käse und Eier zum Frühstück.", "s": "We eat bread, cheese and eggs for breakfast." },
+      { "t": "Ich trinke Tee, und mein Mann Ali trinkt Kaffee.", "s": "I drink tea, and my husband Ali drinks coffee." },
+      { "t": "Neda mag Milch.", "s": "Neda likes milk." },
+      { "t": "Amir mag keine Milch. Er möchte Saft.", "s": "Amir doesn't like milk. He would like juice." },
+      { "t": "Wir haben keine Bananen, aber wir haben Äpfel.", "s": "We don't have any bananas, but we have apples." },
+      { "t": "Guten Appetit!", "s": "Enjoy your meal!" }
+    ],
+    "questions": [
+      { "q": { "t": "Was trinkt Maryam?", "s": "What does Maryam drink?" }, "options": ["Tee", "Kaffee", "Milch"], "answer": 0 },
+      { "q": { "t": "Was trinkt Ali?", "s": "What does Ali drink?" }, "options": ["Tee", "Kaffee", "Saft"], "answer": 1 },
+      { "q": { "t": "Wer mag keine Milch?", "s": "Who doesn't like milk?" }, "options": ["Neda", "Amir", "Ali"], "answer": 1 },
+      { "q": { "t": "Was haben sie nicht?", "s": "What don't they have?" }, "options": ["Äpfel", "Bananen", "Käse"], "answer": 1 }
+    ]
+  },
+
+  "sentences": [
+    { "t": "Ich habe Hunger.", "s": "I'm hungry." },
+    { "t": "Ich möchte ein Wasser, bitte.", "s": "I'd like a water, please." },
+    { "t": "Magst du Reis?", "s": "Do you like rice?" },
+    { "t": "Das ist kein Kaffee.", "s": "This is not coffee." },
+    { "t": "Wir haben keine Milch.", "s": "We have no milk." },
+    { "t": "Was möchten Sie?", "s": "What would you like? (polite)" },
+    { "t": "Die Suppe ist lecker.", "s": "The soup is delicious." },
+    { "t": "Lukas mag Äpfel.", "s": "Lukas likes apples." }
+  ]
+}

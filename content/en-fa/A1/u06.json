@@ -1,0 +1,632 @@
+{
+  "id": "u06",
+  "level": "A1",
+  "emoji": "🕖",
+  "title": {
+    "t": "My day",
+    "s": "روز من"
+  },
+  "goals": [
+    "می‌توانم کارهای روزانه‌ام را بگویم.",
+    "می‌توانم ساعت را بپرسم و بگویم.",
+    "می‌توانم بگویم دیگران هر روز چه کار می‌کنند."
+  ],
+  "words": [
+    {
+      "id": "w01",
+      "t": "get up",
+      "s": "از خواب بلند شدن",
+      "pr": "گِت آپ",
+      "emoji": "⏰",
+      "ex": {
+        "t": "I get up at seven o'clock.",
+        "s": "من ساعت هفت از خواب بلند می‌شوم."
+      }
+    },
+    {
+      "id": "w02",
+      "t": "breakfast",
+      "s": "صبحانه",
+      "pr": "بْرِکفِست",
+      "emoji": "🍳",
+      "ex": {
+        "t": "I have breakfast at half past seven.",
+        "s": "من ساعت هفت و نیم صبحانه می‌خورم."
+      }
+    },
+    {
+      "id": "w03",
+      "t": "lunch",
+      "s": "ناهار",
+      "pr": "لانچ",
+      "emoji": "🍲",
+      "ex": {
+        "t": "We have lunch at one o'clock.",
+        "s": "ما ساعت یک ناهار می‌خوریم."
+      }
+    },
+    {
+      "id": "w04",
+      "t": "dinner",
+      "s": "شام",
+      "pr": "دینِر",
+      "emoji": "🍽️",
+      "ex": {
+        "t": "We have dinner at eight o'clock.",
+        "s": "ما ساعت هشت شام می‌خوریم."
+      }
+    },
+    {
+      "id": "w05",
+      "t": "work",
+      "s": "کار کردن",
+      "pr": "وِرک",
+      "emoji": "💼",
+      "ex": {
+        "t": "Ali works every day.",
+        "s": "علی هر روز کار می‌کند."
+      }
+    },
+    {
+      "id": "w06",
+      "t": "go",
+      "s": "رفتن",
+      "pr": "گو",
+      "emoji": "🚶",
+      "ex": {
+        "t": "I go to work at eight o'clock.",
+        "s": "من ساعت هشت سر کار می‌روم."
+      }
+    },
+    {
+      "id": "w07",
+      "t": "school",
+      "pl": "schools",
+      "s": "مدرسه",
+      "pr": "سْکول",
+      "emoji": "🏫",
+      "ex": {
+        "t": "Neda goes to school.",
+        "s": "ندا به مدرسه می‌رود."
+      }
+    },
+    {
+      "id": "w08",
+      "t": "watch TV",
+      "s": "تلویزیون تماشا کردن",
+      "pr": "واچ تی‌وی",
+      "emoji": "📺",
+      "ex": {
+        "t": "Tom watches TV at night.",
+        "s": "تام شب‌ها تلویزیون تماشا می‌کند."
+      }
+    },
+    {
+      "id": "w09",
+      "t": "sleep",
+      "s": "خوابیدن",
+      "pr": "سْلیپ",
+      "emoji": "😴",
+      "ex": {
+        "t": "The children sleep in the bedroom.",
+        "s": "بچه‌ها در اتاق خواب می‌خوابند."
+      }
+    },
+    {
+      "id": "w10",
+      "t": "go to bed",
+      "s": "به رختخواب رفتن",
+      "pr": "گو تو بِد",
+      "emoji": "🛏️",
+      "ex": {
+        "t": "I go to bed at eleven o'clock.",
+        "s": "من ساعت یازده به رختخواب می‌روم."
+      }
+    },
+    {
+      "id": "w11",
+      "t": "morning",
+      "pl": "mornings",
+      "s": "صبح",
+      "pr": "مورنینگ",
+      "emoji": "🌅",
+      "ex": {
+        "t": "I have tea in the morning.",
+        "s": "من صبح‌ها چای می‌خورم."
+      }
+    },
+    {
+      "id": "w12",
+      "t": "evening",
+      "pl": "evenings",
+      "s": "عصر، سرِ شب",
+      "pr": "ایوْنینگ",
+      "emoji": "🌆",
+      "ex": {
+        "t": "I watch TV in the evening.",
+        "s": "من عصرها تلویزیون تماشا می‌کنم."
+      }
+    },
+    {
+      "id": "w13",
+      "t": "night",
+      "pl": "nights",
+      "s": "شب",
+      "pr": "نایت",
+      "emoji": "🌙",
+      "ex": {
+        "t": "It's ten o'clock at night.",
+        "s": "ساعت ده شب است."
+      }
+    },
+    {
+      "id": "w14",
+      "t": "clock",
+      "pl": "clocks",
+      "s": "ساعت (دیواری)",
+      "pr": "کْلاک",
+      "emoji": "🕰️",
+      "ex": {
+        "t": "There is a clock in the kitchen.",
+        "s": "در آشپزخانه یک ساعت هست."
+      }
+    }
+  ],
+  "phrases": [
+    {
+      "id": "p01",
+      "t": "What time is it?",
+      "s": "ساعت چند است؟",
+      "pr": "وات تایم ایز ایت؟"
+    },
+    {
+      "id": "p02",
+      "t": "It's seven o'clock.",
+      "s": "ساعت هفت است.",
+      "pr": "ایتس سِوِن اُکلاک"
+    },
+    {
+      "id": "p03",
+      "t": "It's half past nine.",
+      "s": "ساعت نه و نیم است.",
+      "pr": "ایتس هَف پَست ناین"
+    },
+    {
+      "id": "p04",
+      "t": "at eight o'clock",
+      "s": "ساعت هشت (برای زمانِ انجام کار)",
+      "pr": "اَت اِیت اُکلاک"
+    },
+    {
+      "id": "p05",
+      "t": "every day",
+      "s": "هر روز",
+      "pr": "اِوْری دِی"
+    },
+    {
+      "id": "p06",
+      "t": "come home",
+      "s": "به خانه آمدن",
+      "pr": "کام هوم"
+    },
+    {
+      "id": "p07",
+      "t": "I'm late!",
+      "s": "دیرم شده!",
+      "pr": "آیم لِیت!"
+    },
+    {
+      "id": "p08",
+      "t": "Good night!",
+      "s": "شب بخیر!",
+      "pr": "گود نایت!"
+    }
+  ],
+  "dialogue": {
+    "title": {
+      "t": "A busy morning",
+      "s": "یک صبح شلوغ"
+    },
+    "speakers": {
+      "A": {
+        "name": "Maryam",
+        "voice": "f"
+      },
+      "B": {
+        "name": "Amir",
+        "voice": "m"
+      }
+    },
+    "lines": [
+      {
+        "sp": "A",
+        "t": "Good morning, Amir! Get up, please.",
+        "s": "صبح بخیر، امیر! لطفاً بلند شو."
+      },
+      {
+        "sp": "B",
+        "t": "Good morning, Mom. What time is it?",
+        "s": "صبح بخیر، مامان. ساعت چند است؟"
+      },
+      {
+        "sp": "A",
+        "t": "It's seven o'clock.",
+        "s": "ساعت هفت است."
+      },
+      {
+        "sp": "B",
+        "t": "Oh no! I'm late!",
+        "s": "وای نه! دیرم شده!"
+      },
+      {
+        "sp": "A",
+        "t": "You aren't late. School is at eight o'clock.",
+        "s": "دیرت نشده. مدرسه ساعت هشت است."
+      },
+      {
+        "sp": "B",
+        "t": "And Dad? Is he at home?",
+        "s": "بابا چی؟ خانه است؟"
+      },
+      {
+        "sp": "A",
+        "t": "No. Dad gets up at six o'clock. He goes to work at half past six.",
+        "s": "نه. بابا ساعت شش بلند می‌شود. او ساعت شش و نیم سر کار می‌رود."
+      },
+      {
+        "sp": "B",
+        "t": "OK. I'd like some tea, please.",
+        "s": "باشه. لطفاً کمی چای می‌خواهم."
+      },
+      {
+        "sp": "A",
+        "t": "Breakfast is on the table.",
+        "s": "صبحانه روی میز است."
+      }
+    ]
+  },
+  "grammar": [
+    {
+      "id": "g01",
+      "title": {
+        "t": "Present simple: I work / she works",
+        "s": "زمان حال ساده"
+      },
+      "explain": "برای کارهایی که هر روز یا همیشه انجام می‌دهیم، از **حال ساده** استفاده می‌کنیم: **I work.** (من کار می‌کنم.)\nبا **he / she / it** (او) به آخر فعل یک **s** اضافه می‌کنیم: **she works**، **he gets up**.\nبعضی فعل‌ها **es** می‌گیرند: **go → goes**، **watch → watches**.\nفعل **have** با he / she می‌شود **has**: **She has breakfast.** (او صبحانه می‌خورد.)",
+      "table": [
+        [
+          "I",
+          "work",
+          "go"
+        ],
+        [
+          "you",
+          "work",
+          "go"
+        ],
+        [
+          "he / she / it",
+          "works",
+          "goes"
+        ],
+        [
+          "we / they",
+          "work",
+          "go"
+        ]
+      ],
+      "examples": [
+        {
+          "t": "I get up at seven o'clock.",
+          "s": "من ساعت هفت از خواب بلند می‌شوم."
+        },
+        {
+          "t": "My sister gets up at eight o'clock.",
+          "s": "خواهرم ساعت هشت از خواب بلند می‌شود."
+        },
+        {
+          "t": "Reza works every day.",
+          "s": "رضا هر روز کار می‌کند."
+        },
+        {
+          "t": "Amir goes to school.",
+          "s": "امیر به مدرسه می‌رود."
+        },
+        {
+          "t": "Tom watches TV in the evening.",
+          "s": "تام عصرها تلویزیون تماشا می‌کند."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "choice",
+          "t": "She ___ every day.",
+          "options": [
+            "work",
+            "works",
+            "is work"
+          ],
+          "answer": 1,
+          "s": "او هر روز کار می‌کند."
+        },
+        {
+          "type": "choice",
+          "t": "I ___ up at seven o'clock.",
+          "options": [
+            "get",
+            "gets",
+            "getting"
+          ],
+          "answer": 0,
+          "s": "من ساعت هفت از خواب بلند می‌شوم."
+        },
+        {
+          "type": "type",
+          "t": "Ali ___ to work at eight o'clock.",
+          "answer": [
+            "goes"
+          ],
+          "s": "علی ساعت هشت سر کار می‌رود."
+        },
+        {
+          "type": "type",
+          "t": "My mother ___ TV in the evening.",
+          "answer": [
+            "watches"
+          ],
+          "s": "مادرم عصرها تلویزیون تماشا می‌کند."
+        },
+        {
+          "type": "choice",
+          "t": "We ___ breakfast at seven o'clock.",
+          "options": [
+            "has",
+            "have"
+          ],
+          "answer": 1,
+          "s": "ما ساعت هفت صبحانه می‌خوریم."
+        },
+        {
+          "type": "order",
+          "t": "He gets up at six o'clock.",
+          "s": "او ساعت شش از خواب بلند می‌شود."
+        },
+        {
+          "type": "type",
+          "t": "Neda ___ lunch at one o'clock.",
+          "answer": [
+            "has",
+            "eats"
+          ],
+          "s": "ندا ساعت یک ناهار می‌خورد."
+        }
+      ]
+    },
+    {
+      "id": "g02",
+      "title": {
+        "t": "What time is it?",
+        "s": "ساعت چند است؟"
+      },
+      "explain": "برای پرسیدن ساعت می‌گوییم: **What time is it?** (ساعت چند است؟)\nبرای ساعت کامل: **It's** + عدد + **o'clock**. مثلاً: **It's seven o'clock.** (ساعت هفت است.)\nبرای «و نیم» می‌گوییم **half past** + عدد: **It's half past seven.** (ساعت هفت و نیم است.)\nبرای گفتن ساعتِ انجام یک کار از **at** استفاده می‌کنیم: **I get up at seven o'clock.**",
+      "table": [
+        [
+          "7:00",
+          "It's seven o'clock."
+        ],
+        [
+          "7:30",
+          "It's half past seven."
+        ],
+        [
+          "at 8:00",
+          "at eight o'clock"
+        ]
+      ],
+      "examples": [
+        {
+          "t": "What time is it? It's nine o'clock.",
+          "s": "ساعت چند است؟ ساعت نه است."
+        },
+        {
+          "t": "It's half past ten.",
+          "s": "ساعت ده و نیم است."
+        },
+        {
+          "t": "I have lunch at one o'clock.",
+          "s": "من ساعت یک ناهار می‌خورم."
+        },
+        {
+          "t": "Sara goes to bed at half past ten.",
+          "s": "سارا ساعت ده و نیم به رختخواب می‌رود."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "choice",
+          "t": "It's seven ___.",
+          "options": [
+            "o'clock",
+            "half",
+            "past"
+          ],
+          "answer": 0,
+          "s": "ساعت هفت است."
+        },
+        {
+          "type": "choice",
+          "t": "It's ___ past four.",
+          "options": [
+            "at",
+            "half",
+            "o'clock"
+          ],
+          "answer": 1,
+          "s": "ساعت چهار و نیم است."
+        },
+        {
+          "type": "choice",
+          "t": "I get up ___ six o'clock.",
+          "options": [
+            "in",
+            "on",
+            "at"
+          ],
+          "answer": 2,
+          "s": "من ساعت شش از خواب بلند می‌شوم."
+        },
+        {
+          "type": "type",
+          "t": "It's half ___ eleven.",
+          "answer": [
+            "past"
+          ],
+          "s": "ساعت یازده و نیم است."
+        },
+        {
+          "type": "order",
+          "t": "What time is it?",
+          "s": "ساعت چند است؟"
+        },
+        {
+          "type": "type",
+          "t": "It's ___ o'clock.",
+          "answer": [
+            "twelve",
+            "12"
+          ],
+          "s": "ساعت دوازده است."
+        },
+        {
+          "type": "order",
+          "t": "It's half past three.",
+          "s": "ساعت سه و نیم است."
+        }
+      ]
+    }
+  ],
+  "reading": {
+    "title": {
+      "t": "Reza's day",
+      "s": "روزِ رضا"
+    },
+    "text": [
+      {
+        "t": "This is Reza. He is from Tehran.",
+        "s": "این رضاست. او اهل تهران است."
+      },
+      {
+        "t": "Reza is a teacher. He works at a school.",
+        "s": "رضا معلم است. او در یک مدرسه کار می‌کند."
+      },
+      {
+        "t": "He gets up at six o'clock every day.",
+        "s": "او هر روز ساعت شش از خواب بلند می‌شود."
+      },
+      {
+        "t": "He has bread, cheese, and tea for breakfast.",
+        "s": "او برای صبحانه نان و پنیر و چای می‌خورد."
+      },
+      {
+        "t": "He goes to work at seven o'clock.",
+        "s": "او ساعت هفت سر کار می‌رود."
+      },
+      {
+        "t": "He comes home at four o'clock.",
+        "s": "او ساعت چهار به خانه می‌آید."
+      },
+      {
+        "t": "In the evening, he watches TV.",
+        "s": "عصرها تلویزیون تماشا می‌کند."
+      },
+      {
+        "t": "He has dinner at eight o'clock and goes to bed at eleven o'clock.",
+        "s": "او ساعت هشت شام می‌خورد و ساعت یازده به رختخواب می‌رود."
+      }
+    ],
+    "questions": [
+      {
+        "q": {
+          "t": "Where is Reza from?",
+          "s": "رضا اهل کجاست؟"
+        },
+        "options": [
+          "Shiraz",
+          "Tehran",
+          "Tabriz"
+        ],
+        "answer": 1
+      },
+      {
+        "q": {
+          "t": "Reza gets up at ___.",
+          "s": "رضا ساعت ... از خواب بلند می‌شود."
+        },
+        "options": [
+          "six o'clock",
+          "seven o'clock",
+          "half past six"
+        ],
+        "answer": 0
+      },
+      {
+        "q": {
+          "t": "Reza is a ___.",
+          "s": "رضا ... است."
+        },
+        "options": [
+          "student",
+          "doctor",
+          "teacher"
+        ],
+        "answer": 2
+      },
+      {
+        "q": {
+          "t": "Reza goes to bed at ___.",
+          "s": "رضا ساعت ... به رختخواب می‌رود."
+        },
+        "options": [
+          "ten o'clock",
+          "eleven o'clock",
+          "twelve o'clock"
+        ],
+        "answer": 1
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "t": "I get up at six o'clock.",
+      "s": "من ساعت شش از خواب بلند می‌شوم."
+    },
+    {
+      "t": "She goes to school every day.",
+      "s": "او هر روز به مدرسه می‌رود."
+    },
+    {
+      "t": "What time is it? It's half past two.",
+      "s": "ساعت چند است؟ ساعت دو و نیم است."
+    },
+    {
+      "t": "My father works every day.",
+      "s": "پدرم هر روز کار می‌کند."
+    },
+    {
+      "t": "We have dinner at eight o'clock.",
+      "s": "ما ساعت هشت شام می‌خوریم."
+    },
+    {
+      "t": "Emma goes to bed at ten o'clock.",
+      "s": "اِما ساعت ده به رختخواب می‌رود."
+    },
+    {
+      "t": "There is a clock in the kitchen.",
+      "s": "در آشپزخانه یک ساعت هست."
+    },
+    {
+      "t": "It's twelve o'clock at night.",
+      "s": "ساعت دوازده شب است."
+    }
+  ]
+}

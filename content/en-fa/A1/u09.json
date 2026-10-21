@@ -1,0 +1,621 @@
+{
+  "id": "u09",
+  "level": "A1",
+  "emoji": "🌦️",
+  "title": {
+    "t": "Weather and seasons",
+    "s": "هوا، ماه‌ها و فصل‌ها"
+  },
+  "goals": [
+    "می‌توانم دربارهٔ هوا بپرسم و جواب بدهم.",
+    "می‌توانم ماه‌ها و فصل‌ها را بگویم.",
+    "می‌توانم بگویم تولدم در چه ماهی است."
+  ],
+  "words": [
+    {
+      "id": "w01",
+      "t": "weather",
+      "s": "هوا (آب و هوا)",
+      "pr": "وِذِر",
+      "emoji": "🌤️",
+      "ex": {
+        "t": "How's the weather in Tehran?",
+        "s": "هوای تهران چطور است؟"
+      }
+    },
+    {
+      "id": "w02",
+      "t": "sunny",
+      "s": "آفتابی",
+      "pr": "سانی",
+      "emoji": "☀️",
+      "ex": {
+        "t": "It's sunny today.",
+        "s": "امروز هوا آفتابی است."
+      }
+    },
+    {
+      "id": "w03",
+      "t": "rain",
+      "s": "باران؛ باران آمدن",
+      "pr": "رِین",
+      "emoji": "🌧️",
+      "ex": {
+        "t": "It's raining. Take your umbrella!",
+        "s": "باران می‌آید. چترت را بردار!"
+      }
+    },
+    {
+      "id": "w04",
+      "t": "snow",
+      "s": "برف؛ برف آمدن",
+      "pr": "سْنو",
+      "emoji": "❄️",
+      "ex": {
+        "t": "It's snowing in Tabriz.",
+        "s": "در تبریز برف می‌آید."
+      }
+    },
+    {
+      "id": "w05",
+      "t": "cloudy",
+      "s": "ابری",
+      "pr": "کْلاودی",
+      "emoji": "☁️",
+      "ex": {
+        "t": "It's cloudy and cold.",
+        "s": "هوا ابری و سرد است."
+      }
+    },
+    {
+      "id": "w06",
+      "t": "windy",
+      "s": "بادی (باد می‌آید)",
+      "pr": "ویندی",
+      "emoji": "🌬️",
+      "ex": {
+        "t": "It's windy today.",
+        "s": "امروز باد می‌آید."
+      }
+    },
+    {
+      "id": "w07",
+      "t": "hot",
+      "s": "گرم، داغ",
+      "pr": "هات",
+      "emoji": "🌡️",
+      "ex": {
+        "t": "In summer, it's very hot in Ahvaz.",
+        "s": "در تابستان، هوای اهواز خیلی گرم است."
+      }
+    },
+    {
+      "id": "w08",
+      "t": "cold",
+      "s": "سرد",
+      "pr": "کُلد",
+      "emoji": "🥶",
+      "ex": {
+        "t": "It's cold in winter.",
+        "s": "زمستان هوا سرد است."
+      }
+    },
+    {
+      "id": "w09",
+      "t": "season",
+      "pl": "seasons",
+      "s": "فصل",
+      "pr": "سیزِن",
+      "emoji": "",
+      "ex": {
+        "t": "There are four seasons in a year.",
+        "s": "سال چهار فصل دارد."
+      }
+    },
+    {
+      "id": "w10",
+      "t": "spring",
+      "s": "بهار",
+      "pr": "سْپْرینگ",
+      "emoji": "🌸",
+      "ex": {
+        "t": "Nowruz is in spring.",
+        "s": "نوروز در بهار است."
+      }
+    },
+    {
+      "id": "w11",
+      "t": "summer",
+      "s": "تابستان",
+      "pr": "سامِر",
+      "emoji": "🏖️",
+      "ex": {
+        "t": "In Iran, summer is hot.",
+        "s": "در ایران تابستان گرم است."
+      }
+    },
+    {
+      "id": "w12",
+      "t": "fall",
+      "s": "پاییز",
+      "pr": "فال",
+      "emoji": "🍂",
+      "ex": {
+        "t": "It's windy in the fall.",
+        "s": "پاییز باد می‌آید."
+      }
+    },
+    {
+      "id": "w13",
+      "t": "winter",
+      "s": "زمستان",
+      "pr": "وینتِر",
+      "emoji": "⛄",
+      "ex": {
+        "t": "It snows in winter.",
+        "s": "زمستان برف می‌بارد."
+      }
+    },
+    {
+      "id": "w14",
+      "t": "month",
+      "pl": "months",
+      "s": "ماه (ماهِ سال)",
+      "pr": "مانث",
+      "emoji": "📅",
+      "ex": {
+        "t": "There are twelve months in a year.",
+        "s": "سال دوازده ماه دارد."
+      }
+    }
+  ],
+  "phrases": [
+    {
+      "id": "p01",
+      "t": "How's the weather?",
+      "s": "هوا چطور است؟",
+      "pr": "هاوز ذِ وِذِر؟"
+    },
+    {
+      "id": "p02",
+      "t": "It's sunny.",
+      "s": "هوا آفتابی است.",
+      "pr": "ایتس سانی"
+    },
+    {
+      "id": "p03",
+      "t": "It's raining.",
+      "s": "باران می‌آید.",
+      "pr": "ایتس رِینینگ"
+    },
+    {
+      "id": "p04",
+      "t": "It's snowing.",
+      "s": "برف می‌آید.",
+      "pr": "ایتس سْنوئینگ"
+    },
+    {
+      "id": "p05",
+      "t": "today",
+      "s": "امروز",
+      "pr": "تودِی"
+    },
+    {
+      "id": "p06",
+      "t": "When is your birthday?",
+      "s": "تولدت کِی است؟",
+      "pr": "وِن ایز یور بِرثدِی؟"
+    },
+    {
+      "id": "p07",
+      "t": "My birthday is in May.",
+      "s": "تولد من در ماه مه است.",
+      "pr": "مای بِرثدِی ایز این مِی"
+    },
+    {
+      "id": "p08",
+      "t": "Take your umbrella!",
+      "s": "چترت را بردار!",
+      "pr": "تِیک یور آمبْرِلا!"
+    }
+  ],
+  "dialogue": {
+    "title": {
+      "t": "A phone call",
+      "s": "یک تماس تلفنی"
+    },
+    "speakers": {
+      "A": {
+        "name": "Emma",
+        "voice": "f"
+      },
+      "B": {
+        "name": "Ali",
+        "voice": "m"
+      }
+    },
+    "lines": [
+      {
+        "sp": "A",
+        "t": "Hi, Ali! How's the weather in Tehran?",
+        "s": "سلام علی! هوای تهران چطور است؟"
+      },
+      {
+        "sp": "B",
+        "t": "Hi, Emma! It's cold, but it's sunny. And in New York?",
+        "s": "سلام اِما! سرد است، ولی آفتابی است. نیویورک چطور؟"
+      },
+      {
+        "sp": "A",
+        "t": "It's very cold and windy here. It's snowing!",
+        "s": "اینجا خیلی سرد است و باد می‌آید. برف هم می‌آید!"
+      },
+      {
+        "sp": "B",
+        "t": "Snow! I like snow.",
+        "s": "برف! من برف دوست دارم."
+      },
+      {
+        "sp": "A",
+        "t": "I don't like winter. I like summer.",
+        "s": "من زمستان را دوست ندارم. تابستان را دوست دارم."
+      },
+      {
+        "sp": "B",
+        "t": "Summer in Tehran is very hot! Come to Tehran in spring.",
+        "s": "تابستانِ تهران خیلی گرم است! بهار به تهران بیا."
+      },
+      {
+        "sp": "A",
+        "t": "In spring? In April?",
+        "s": "بهار؟ در ماه آوریل؟"
+      },
+      {
+        "sp": "B",
+        "t": "Yes, or in March. Nowruz is in March. It's the Iranian New Year.",
+        "s": "بله، یا در ماه مارس. نوروز در ماه مارس است. نوروز سال نوی ایرانی است."
+      },
+      {
+        "sp": "A",
+        "t": "Great! See you in March, Ali!",
+        "s": "عالی! مارس می‌بینمت، علی!"
+      }
+    ]
+  },
+  "grammar": [
+    {
+      "id": "g01",
+      "title": {
+        "t": "It's sunny. / It's raining.",
+        "s": "حرف زدن دربارهٔ هوا"
+      },
+      "explain": "برای حرف زدن دربارهٔ هوا، جمله را با **It's** (= It is) شروع می‌کنیم. اینجا **it** معنای خاصی ندارد، مثل «هوا» در فارسی: **It's sunny.** (هوا آفتابی است.) **It's cold.** (هوا سرد است.)\nدر فارسی می‌گوییم «باران می‌آید»؛ در انگلیسی می‌گوییم **It's raining.** و برای برف: **It's snowing.**\nبرای پرسیدن می‌گوییم: **How's the weather?** (هوا چطور است؟)",
+      "table": [
+        [
+          "It's",
+          "sunny / cloudy / windy"
+        ],
+        [
+          "It's",
+          "hot / cold"
+        ],
+        [
+          "It's",
+          "raining / snowing"
+        ]
+      ],
+      "examples": [
+        {
+          "t": "How's the weather today? It's sunny.",
+          "s": "امروز هوا چطور است؟ آفتابی است."
+        },
+        {
+          "t": "It's raining in Rasht.",
+          "s": "در رشت باران می‌آید."
+        },
+        {
+          "t": "It's cold and windy.",
+          "s": "هوا سرد است و باد می‌آید."
+        },
+        {
+          "t": "It's snowing!",
+          "s": "برف می‌آید!"
+        }
+      ],
+      "exercises": [
+        {
+          "type": "choice",
+          "t": "___ sunny today.",
+          "options": [
+            "Is",
+            "It's",
+            "It"
+          ],
+          "answer": 1,
+          "s": "امروز هوا آفتابی است."
+        },
+        {
+          "type": "choice",
+          "t": "It's ___. Take your umbrella!",
+          "options": [
+            "raining",
+            "sunny",
+            "hot"
+          ],
+          "answer": 0,
+          "s": "باران می‌آید. چترت را بردار!"
+        },
+        {
+          "type": "type",
+          "t": "It's ___ in winter.",
+          "answer": [
+            "cold"
+          ],
+          "s": "زمستان هوا سرد است."
+        },
+        {
+          "type": "choice",
+          "t": "It's ___ in Tabriz.",
+          "options": [
+            "sunny",
+            "snowing",
+            "hot"
+          ],
+          "answer": 1,
+          "s": "در تبریز برف می‌آید."
+        },
+        {
+          "type": "order",
+          "t": "How's the weather in Shiraz?",
+          "s": "هوای شیراز چطور است؟"
+        },
+        {
+          "type": "type",
+          "t": "It's ___ and cold.",
+          "answer": [
+            "cloudy"
+          ],
+          "s": "هوا ابری و سرد است."
+        },
+        {
+          "type": "order",
+          "t": "It's hot in summer.",
+          "s": "تابستان هوا گرم است."
+        }
+      ]
+    },
+    {
+      "id": "g02",
+      "title": {
+        "t": "in May, in summer",
+        "s": "ماه‌ها و فصل‌ها با in"
+      },
+      "explain": "اسم ماه‌ها در انگلیسی همیشه با **حرف بزرگ** شروع می‌شود: **January**، **May**.\nبرای گفتنِ ماه یا فصل از **in** استفاده می‌کنیم: **in May** (در ماه مه)، **in summer** (در تابستان).\nبرای پاییز در انگلیسی آمریکایی معمولاً می‌گوییم **in the fall**.\nنکته: ماه‌های میلادی با ماه‌های شمسی یکی نیستند. مثلاً نوروز در **March** (مارس) است.",
+      "table": [
+        [
+          "spring",
+          "March, April, May"
+        ],
+        [
+          "summer",
+          "June, July, August"
+        ],
+        [
+          "fall",
+          "September, October, November"
+        ],
+        [
+          "winter",
+          "December, January, February"
+        ]
+      ],
+      "examples": [
+        {
+          "t": "Nowruz is in March.",
+          "s": "نوروز در ماه مارس است."
+        },
+        {
+          "t": "My birthday is in July.",
+          "s": "تولد من در ماه ژوئیه است."
+        },
+        {
+          "t": "It's very hot in August.",
+          "s": "در ماه اوت هوا خیلی گرم است."
+        },
+        {
+          "t": "It's cold in January.",
+          "s": "در ماه ژانویه هوا سرد است."
+        },
+        {
+          "t": "We go to the park in spring.",
+          "s": "ما در بهار به پارک می‌رویم."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "choice",
+          "t": "My birthday is ___ June.",
+          "options": [
+            "in",
+            "at",
+            "on"
+          ],
+          "answer": 0,
+          "s": "تولد من در ماه ژوئن است."
+        },
+        {
+          "type": "choice",
+          "t": "Nowruz is in ___.",
+          "options": [
+            "August",
+            "December",
+            "March"
+          ],
+          "answer": 2,
+          "s": "نوروز در ماه مارس است."
+        },
+        {
+          "type": "type",
+          "t": "It's cold ___ winter.",
+          "answer": [
+            "in"
+          ],
+          "s": "زمستان هوا سرد است."
+        },
+        {
+          "type": "choice",
+          "t": "___ is in the fall.",
+          "options": [
+            "July",
+            "October",
+            "April"
+          ],
+          "answer": 1,
+          "s": "اکتبر در پاییز است."
+        },
+        {
+          "type": "order",
+          "t": "My birthday is in May.",
+          "s": "تولد من در ماه مه است."
+        },
+        {
+          "type": "type",
+          "t": "It's hot in ___.",
+          "answer": [
+            "summer",
+            "the summer"
+          ],
+          "s": "در تابستان هوا گرم است."
+        },
+        {
+          "type": "type",
+          "t": "It's windy in the ___.",
+          "answer": [
+            "fall",
+            "autumn"
+          ],
+          "s": "پاییز باد می‌آید."
+        }
+      ]
+    }
+  ],
+  "reading": {
+    "title": {
+      "t": "Seasons in Iran",
+      "s": "فصل‌ها در ایران"
+    },
+    "text": [
+      {
+        "t": "There are four seasons in Iran.",
+        "s": "ایران چهار فصل دارد."
+      },
+      {
+        "t": "Spring is in March, April, and May.",
+        "s": "بهار در ماه‌های مارس، آوریل و مه است."
+      },
+      {
+        "t": "Nowruz is in March. It's the first day of spring.",
+        "s": "نوروز در ماه مارس است. نوروز اولین روز بهار است."
+      },
+      {
+        "t": "In summer, it's very hot in Ahvaz.",
+        "s": "در تابستان، هوای اهواز خیلی گرم است."
+      },
+      {
+        "t": "In the fall, it's cloudy and windy.",
+        "s": "در پاییز هوا ابری است و باد می‌آید."
+      },
+      {
+        "t": "In winter, it's cold. It snows in Tabriz.",
+        "s": "در زمستان هوا سرد است. در تبریز برف می‌بارد."
+      },
+      {
+        "t": "I like spring. It's sunny, but it isn't hot.",
+        "s": "من بهار را دوست دارم. هوا آفتابی است، اما گرم نیست."
+      }
+    ],
+    "questions": [
+      {
+        "q": {
+          "t": "When is Nowruz?",
+          "s": "نوروز کِی است؟"
+        },
+        "options": [
+          "in March",
+          "in July",
+          "in December"
+        ],
+        "answer": 0
+      },
+      {
+        "q": {
+          "t": "How's the weather in Ahvaz in summer?",
+          "s": "در تابستان هوای اهواز چطور است؟"
+        },
+        "options": [
+          "It's cold.",
+          "It's very hot.",
+          "It's snowing."
+        ],
+        "answer": 1
+      },
+      {
+        "q": {
+          "t": "Is it hot in winter?",
+          "s": "آیا زمستان هوا گرم است؟"
+        },
+        "options": [
+          "Yes, it is.",
+          "No, it isn't."
+        ],
+        "answer": 1
+      },
+      {
+        "q": {
+          "t": "How many seasons are there in Iran?",
+          "s": "ایران چند فصل دارد؟"
+        },
+        "options": [
+          "two",
+          "twelve",
+          "four"
+        ],
+        "answer": 2
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "t": "How's the weather today?",
+      "s": "امروز هوا چطور است؟"
+    },
+    {
+      "t": "It's raining in Rasht.",
+      "s": "در رشت باران می‌آید."
+    },
+    {
+      "t": "It's sunny and hot.",
+      "s": "هوا آفتابی و گرم است."
+    },
+    {
+      "t": "My birthday is in April.",
+      "s": "تولد من در ماه آوریل است."
+    },
+    {
+      "t": "It's cold in winter.",
+      "s": "زمستان هوا سرد است."
+    },
+    {
+      "t": "There are twelve months in a year.",
+      "s": "سال دوازده ماه دارد."
+    },
+    {
+      "t": "Nowruz is in spring.",
+      "s": "نوروز در بهار است."
+    },
+    {
+      "t": "It's windy in the fall.",
+      "s": "پاییز باد می‌آید."
+    }
+  ]
+}

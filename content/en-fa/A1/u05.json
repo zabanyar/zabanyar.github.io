@@ -1,0 +1,657 @@
+{
+  "id": "u05",
+  "level": "A1",
+  "emoji": "🏠",
+  "title": {
+    "t": "My home",
+    "s": "خانهٔ من"
+  },
+  "goals": [
+    "اتاق‌ها و وسایل خانه را نام ببرم.",
+    "با there is و there are بگویم در خانه چه چیزهایی هست.",
+    "با in، on، under و next to بگویم هر چیز کجاست."
+  ],
+  "words": [
+    {
+      "id": "w01",
+      "t": "apartment",
+      "pl": "apartments",
+      "s": "آپارتمان",
+      "pr": "اِپارتمِنت",
+      "emoji": "🏢",
+      "ex": {
+        "t": "We have an apartment in Tehran.",
+        "s": "ما در تهران یک آپارتمان داریم."
+      }
+    },
+    {
+      "id": "w02",
+      "t": "room",
+      "pl": "rooms",
+      "s": "اتاق",
+      "pr": "روم",
+      "emoji": "",
+      "ex": {
+        "t": "My apartment has three rooms.",
+        "s": "آپارتمان من سه اتاق دارد."
+      }
+    },
+    {
+      "id": "w03",
+      "t": "kitchen",
+      "pl": "kitchens",
+      "s": "آشپزخانه",
+      "pr": "کیچِن",
+      "emoji": "",
+      "ex": {
+        "t": "My mother is in the kitchen.",
+        "s": "مادرم در آشپزخانه است."
+      }
+    },
+    {
+      "id": "w04",
+      "t": "bedroom",
+      "pl": "bedrooms",
+      "s": "اتاق خواب",
+      "pr": "بِدروم",
+      "emoji": "",
+      "ex": {
+        "t": "There are two bedrooms.",
+        "s": "دو تا اتاق خواب هست."
+      }
+    },
+    {
+      "id": "w05",
+      "t": "bathroom",
+      "pl": "bathrooms",
+      "s": "حمام، دستشویی",
+      "pr": "بَثروم",
+      "emoji": "🛁",
+      "ex": {
+        "t": "The bathroom is next to the bedroom.",
+        "s": "حمام کنار اتاق خواب است."
+      }
+    },
+    {
+      "id": "w06",
+      "t": "living room",
+      "pl": "living rooms",
+      "s": "اتاق نشیمن",
+      "pr": "لیوینگ روم",
+      "emoji": "🛋️",
+      "ex": {
+        "t": "There is a TV in the living room.",
+        "s": "در اتاق نشیمن یک تلویزیون هست."
+      }
+    },
+    {
+      "id": "w07",
+      "t": "table",
+      "pl": "tables",
+      "s": "میز",
+      "pr": "تِیبِل",
+      "emoji": "",
+      "ex": {
+        "t": "The cat is under the table.",
+        "s": "گربه زیر میز است."
+      }
+    },
+    {
+      "id": "w08",
+      "t": "chair",
+      "pl": "chairs",
+      "s": "صندلی",
+      "pr": "چِر",
+      "emoji": "🪑",
+      "ex": {
+        "t": "There are four chairs in the kitchen.",
+        "s": "در آشپزخانه چهار صندلی هست."
+      }
+    },
+    {
+      "id": "w09",
+      "t": "bed",
+      "pl": "beds",
+      "s": "تخت‌خواب",
+      "pr": "بِد",
+      "emoji": "🛏️",
+      "ex": {
+        "t": "My book is on the bed.",
+        "s": "کتابم روی تخت است."
+      }
+    },
+    {
+      "id": "w10",
+      "t": "door",
+      "pl": "doors",
+      "s": "در",
+      "pr": "دُر",
+      "emoji": "🚪",
+      "ex": {
+        "t": "The dog is next to the door.",
+        "s": "سگ کنار در است."
+      }
+    },
+    {
+      "id": "w11",
+      "t": "window",
+      "pl": "windows",
+      "s": "پنجره",
+      "pr": "ویندُو",
+      "emoji": "🪟",
+      "ex": {
+        "t": "There is a plant next to the window.",
+        "s": "کنار پنجره یک گلدان هست."
+      }
+    },
+    {
+      "id": "w12",
+      "t": "TV",
+      "pl": "TVs",
+      "s": "تلویزیون",
+      "pr": "تی‌وی",
+      "emoji": "📺",
+      "ex": {
+        "t": "Is there a TV in your room?",
+        "s": "در اتاقت تلویزیون هست؟"
+      }
+    },
+    {
+      "id": "w13",
+      "t": "fridge",
+      "pl": "fridges",
+      "s": "یخچال",
+      "pr": "فریج",
+      "emoji": "",
+      "ex": {
+        "t": "There is some milk in the fridge.",
+        "s": "در یخچال کمی شیر هست."
+      }
+    },
+    {
+      "id": "w14",
+      "t": "plant",
+      "pl": "plants",
+      "s": "گیاه، گلدان",
+      "pr": "پلَنت",
+      "emoji": "🪴",
+      "ex": {
+        "t": "The plant is on the table.",
+        "s": "گلدان روی میز است."
+      }
+    }
+  ],
+  "phrases": [
+    {
+      "id": "p01",
+      "t": "Welcome to my home!",
+      "s": "به خانهٔ من خوش آمدید!",
+      "pr": "وِلکام تو مای هُوم!"
+    },
+    {
+      "id": "p02",
+      "t": "Come in, please.",
+      "s": "بفرمایید داخل.",
+      "pr": "کام این، پلیز."
+    },
+    {
+      "id": "p03",
+      "t": "Your home is beautiful.",
+      "s": "خانه‌تان خیلی قشنگ است.",
+      "pr": "یور هُوم ایز بیوتیفِل."
+    },
+    {
+      "id": "p04",
+      "t": "Where is …?",
+      "s": "… کجاست؟",
+      "pr": "وِر ایز …؟"
+    },
+    {
+      "id": "p05",
+      "t": "It's in the kitchen.",
+      "s": "در آشپزخانه است.",
+      "pr": "ایتس این ذِ کیچِن."
+    },
+    {
+      "id": "p06",
+      "t": "Excuse me.",
+      "s": "ببخشید.",
+      "pr": "ایکسکیوز می."
+    },
+    {
+      "id": "p07",
+      "t": "Where is the bathroom?",
+      "s": "دستشویی کجاست؟",
+      "pr": "وِر ایز ذِ بَثروم؟"
+    },
+    {
+      "id": "p08",
+      "t": "Sit down, please.",
+      "s": "لطفاً بنشینید.",
+      "pr": "سیت داون، پلیز."
+    }
+  ],
+  "dialogue": {
+    "title": {
+      "t": "Welcome!",
+      "s": "خوش آمدی!"
+    },
+    "speakers": {
+      "A": {
+        "name": "Reza",
+        "voice": "m"
+      },
+      "B": {
+        "name": "Emma",
+        "voice": "f"
+      }
+    },
+    "lines": [
+      {
+        "sp": "A",
+        "t": "Hello, Emma! Welcome to my home!",
+        "s": "سلام اِما! به خانهٔ من خوش آمدی!"
+      },
+      {
+        "sp": "B",
+        "t": "Thank you, Reza! Your home is beautiful.",
+        "s": "ممنون رضا! خانه‌ات خیلی قشنگ است."
+      },
+      {
+        "sp": "A",
+        "t": "Thank you. Come in, please. This is the living room.",
+        "s": "ممنون. بفرما داخل. این اتاق نشیمن است."
+      },
+      {
+        "sp": "B",
+        "t": "Oh, there is a big TV!",
+        "s": "اوه، اینجا یک تلویزیون بزرگ هست!"
+      },
+      {
+        "sp": "A",
+        "t": "Yes! And the kitchen is next to the living room.",
+        "s": "بله! آشپزخانه هم کنار اتاق نشیمن است."
+      },
+      {
+        "sp": "B",
+        "t": "How many bedrooms are there?",
+        "s": "چند تا اتاق خواب هست؟"
+      },
+      {
+        "sp": "A",
+        "t": "There are two bedrooms.",
+        "s": "دو تا اتاق خواب هست."
+      },
+      {
+        "sp": "B",
+        "t": "Excuse me, where is the bathroom?",
+        "s": "ببخشید، دستشویی کجاست؟"
+      },
+      {
+        "sp": "A",
+        "t": "It's next to my bedroom.",
+        "s": "کنار اتاق خواب من است."
+      },
+      {
+        "sp": "B",
+        "t": "Thank you!",
+        "s": "ممنون!"
+      }
+    ]
+  },
+  "grammar": [
+    {
+      "id": "g01",
+      "title": {
+        "t": "there is / there are",
+        "s": "there is و there are: «… هست»"
+      },
+      "explain": "**There is** یعنی «… هست» یا «… وجود دارد» و برای **یک** چیز به‌کار می‌رود: **There is** a table in the kitchen. برای چیزهایی که شمردنی نیستند هم همین را می‌گوییم: There is some milk.\n**There are** برای **چند** چیز (اسم جمع) است: **There are** two bedrooms.\nدر صحبت معمولاً کوتاه می‌گوییم: **There's** a TV.\nبرای سؤال، جای کلمه‌ها عوض می‌شود: **Is there** a fridge? **Are there** two bathrooms? و برای «چند تا؟»: **How many** rooms **are there**?\nدقت کنید: در فارسی معمولاً جا را اول می‌گوییم (در آشپزخانه یک میز هست)، اما در انگلیسی جا معمولاً آخر جمله می‌آید.",
+      "table": [
+        [
+          "There is …",
+          "a TV / an apple / some milk"
+        ],
+        [
+          "There are …",
+          "two beds / some chairs"
+        ],
+        [
+          "Is there …?",
+          "Yes, there is. / No, there isn't."
+        ],
+        [
+          "Are there …?",
+          "Yes, there are. / No, there aren't."
+        ]
+      ],
+      "examples": [
+        {
+          "t": "There is a bed in my room.",
+          "s": "در اتاق من یک تخت هست."
+        },
+        {
+          "t": "There are three chairs in the kitchen.",
+          "s": "در آشپزخانه سه صندلی هست."
+        },
+        {
+          "t": "There's some water in the fridge.",
+          "s": "در یخچال کمی آب هست."
+        },
+        {
+          "t": "Is there a TV in the kitchen? — No, there isn't.",
+          "s": "در آشپزخانه تلویزیون هست؟ — نه، نیست."
+        },
+        {
+          "t": "How many rooms are there? — There are four.",
+          "s": "چند تا اتاق هست؟ — چهار تا."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "choice",
+          "t": "There ___ a table in the kitchen.",
+          "options": [
+            "is",
+            "are"
+          ],
+          "answer": 0,
+          "s": "در آشپزخانه یک میز هست."
+        },
+        {
+          "type": "choice",
+          "t": "There ___ two windows in my room.",
+          "options": [
+            "is",
+            "are"
+          ],
+          "answer": 1,
+          "s": "در اتاق من دو پنجره هست."
+        },
+        {
+          "type": "choice",
+          "t": "There ___ some milk in the fridge.",
+          "options": [
+            "is",
+            "are"
+          ],
+          "answer": 0,
+          "s": "در یخچال کمی شیر هست."
+        },
+        {
+          "type": "choice",
+          "t": "___ there a TV in your room?",
+          "options": [
+            "Is",
+            "Are"
+          ],
+          "answer": 0,
+          "s": "در اتاقت تلویزیون هست؟"
+        },
+        {
+          "type": "type",
+          "t": "There ___ four chairs.",
+          "answer": [
+            "are"
+          ],
+          "s": "چهار صندلی هست."
+        },
+        {
+          "type": "type",
+          "t": "How many bedrooms are ___?",
+          "answer": [
+            "there"
+          ],
+          "s": "چند تا اتاق خواب هست؟"
+        },
+        {
+          "type": "order",
+          "t": "There is a bed in my room.",
+          "s": "در اتاق من یک تخت هست."
+        },
+        {
+          "type": "order",
+          "t": "There are two bathrooms.",
+          "s": "دو تا حمام هست."
+        }
+      ]
+    },
+    {
+      "id": "g02",
+      "title": {
+        "t": "in / on / under / next to",
+        "s": "کجاست؟ در، روی، زیر، کنار"
+      },
+      "explain": "این کلمه‌ها نشان می‌دهند چیزی **کجاست**:\n**in** = در، داخلِ: in the kitchen\n**on** = روی: on the table\n**under** = زیرِ: under the bed\n**next to** = کنارِ: next to the window\nبعد از این کلمه‌ها معمولاً **the** می‌آید. **the** یعنی همان چیزی که هر دو می‌شناسیم: The cat is **under the** table.\nبرای پرسیدن جای چیزی می‌گوییم: **Where is** …? یا کوتاه‌تر: **Where's** …?",
+      "table": [
+        [
+          "in",
+          "in the kitchen"
+        ],
+        [
+          "on",
+          "on the table"
+        ],
+        [
+          "under",
+          "under the bed"
+        ],
+        [
+          "next to",
+          "next to the window"
+        ]
+      ],
+      "examples": [
+        {
+          "t": "The cat is under the table.",
+          "s": "گربه زیر میز است."
+        },
+        {
+          "t": "My book is on the bed.",
+          "s": "کتابم روی تخت است."
+        },
+        {
+          "t": "The TV is in the living room.",
+          "s": "تلویزیون در اتاق نشیمن است."
+        },
+        {
+          "t": "The kitchen is next to the bathroom.",
+          "s": "آشپزخانه کنار حمام است."
+        },
+        {
+          "t": "Where's the dog? — It's under the chair.",
+          "s": "سگ کجاست؟ — زیر صندلی است."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "choice",
+          "t": "The cat is ___ the bed.",
+          "options": [
+            "on",
+            "under",
+            "in"
+          ],
+          "answer": 1,
+          "s": "گربه زیر تخت است."
+        },
+        {
+          "type": "choice",
+          "t": "The plant is ___ the window.",
+          "options": [
+            "next to",
+            "under",
+            "in"
+          ],
+          "answer": 0,
+          "s": "گلدان کنار پنجره است."
+        },
+        {
+          "type": "choice",
+          "t": "My mother is ___ the kitchen.",
+          "options": [
+            "on",
+            "in",
+            "under"
+          ],
+          "answer": 1,
+          "s": "مادرم در آشپزخانه است."
+        },
+        {
+          "type": "type",
+          "t": "The book is ___ the table.",
+          "answer": [
+            "on"
+          ],
+          "s": "کتاب روی میز است."
+        },
+        {
+          "type": "type",
+          "t": "The milk is ___ the fridge.",
+          "answer": [
+            "in"
+          ],
+          "s": "شیر در یخچال است."
+        },
+        {
+          "type": "type",
+          "t": "The chair is ___ to the door.",
+          "answer": [
+            "next"
+          ],
+          "s": "صندلی کنار در است."
+        },
+        {
+          "type": "order",
+          "t": "The dog is under the table.",
+          "s": "سگ زیر میز است."
+        },
+        {
+          "type": "order",
+          "t": "Where is the bathroom?",
+          "s": "دستشویی کجاست؟"
+        }
+      ]
+    }
+  ],
+  "reading": {
+    "title": {
+      "t": "Sara's apartment",
+      "s": "آپارتمان سارا"
+    },
+    "text": [
+      {
+        "t": "Hi! I'm Sara.",
+        "s": "سلام! من سارا هستم."
+      },
+      {
+        "t": "I have an apartment in Tehran.",
+        "s": "من در تهران یک آپارتمان دارم."
+      },
+      {
+        "t": "There are three rooms: a living room, a bedroom, and a kitchen.",
+        "s": "سه تا اتاق هست: یک اتاق نشیمن، یک اتاق خواب و یک آشپزخانه."
+      },
+      {
+        "t": "There is a big window in the living room.",
+        "s": "در اتاق نشیمن یک پنجرهٔ بزرگ هست."
+      },
+      {
+        "t": "My TV is next to the window.",
+        "s": "تلویزیونم کنار پنجره است."
+      },
+      {
+        "t": "There are two chairs in the kitchen.",
+        "s": "در آشپزخانه دو صندلی هست."
+      },
+      {
+        "t": "My cat is under the table.",
+        "s": "گربه‌ام زیر میز است."
+      },
+      {
+        "t": "I like my home!",
+        "s": "من خانه‌ام را دوست دارم!"
+      }
+    ],
+    "questions": [
+      {
+        "q": {
+          "t": "Where is Sara's apartment?",
+          "s": "آپارتمان سارا کجاست؟"
+        },
+        "options": [
+          "In Tehran",
+          "In Shiraz",
+          "In Tabriz"
+        ],
+        "answer": 0
+      },
+      {
+        "q": {
+          "t": "How many rooms are there?",
+          "s": "چند تا اتاق هست؟"
+        },
+        "options": [
+          "two",
+          "three",
+          "four"
+        ],
+        "answer": 1
+      },
+      {
+        "q": {
+          "t": "Where is the TV?",
+          "s": "تلویزیون کجاست؟"
+        },
+        "options": [
+          "next to the window",
+          "under the table",
+          "in the kitchen"
+        ],
+        "answer": 0
+      },
+      {
+        "q": {
+          "t": "Where is the cat?",
+          "s": "گربه کجاست؟"
+        },
+        "options": [
+          "on the bed",
+          "under the table",
+          "next to the door"
+        ],
+        "answer": 1
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "t": "There is a TV in the living room.",
+      "s": "در اتاق نشیمن یک تلویزیون هست."
+    },
+    {
+      "t": "Where is my book?",
+      "s": "کتابم کجاست؟"
+    },
+    {
+      "t": "It's on the table.",
+      "s": "روی میز است."
+    },
+    {
+      "t": "There are two windows in my room.",
+      "s": "در اتاق من دو پنجره هست."
+    },
+    {
+      "t": "The kitchen is next to the living room.",
+      "s": "آشپزخانه کنار اتاق نشیمن است."
+    },
+    {
+      "t": "Welcome to my home!",
+      "s": "به خانهٔ من خوش آمدید!"
+    },
+    {
+      "t": "Is there a fridge in the kitchen?",
+      "s": "در آشپزخانه یخچال هست؟"
+    }
+  ]
+}

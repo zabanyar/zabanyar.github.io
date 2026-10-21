@@ -1,0 +1,673 @@
+{
+  "id": "u09",
+  "level": "A1",
+  "emoji": "🌦️",
+  "title": {
+    "t": "Hava ve mevsimler",
+    "s": "هوا و فصل‌ها"
+  },
+  "goals": [
+    "بپرسم هوا چطور است و جواب بدهم.",
+    "ماه‌ها و فصل‌ها را به ترکی بگویم.",
+    "بگویم «در ماهِ … / در فصلِ …» چه اتفاقی می‌افتد."
+  ],
+  "words": [
+    {
+      "id": "w01",
+      "t": "hava",
+      "s": "هوا",
+      "pr": "هاوا",
+      "emoji": "🌤️",
+      "ex": {
+        "t": "Bugün hava nasıl?",
+        "s": "امروز هوا چطور است؟"
+      }
+    },
+    {
+      "id": "w02",
+      "t": "güneş",
+      "s": "خورشید، آفتاب",
+      "pr": "گونِش",
+      "emoji": "☀️",
+      "ex": {
+        "t": "Bugün güneş var.",
+        "s": "امروز آفتاب هست."
+      }
+    },
+    {
+      "id": "w03",
+      "t": "yağmur",
+      "s": "باران",
+      "pr": "یامور",
+      "emoji": "🌧️",
+      "ex": {
+        "t": "Yağmur yağıyor.",
+        "s": "باران می‌آید."
+      }
+    },
+    {
+      "id": "w04",
+      "t": "kar",
+      "s": "برف",
+      "pr": "کار",
+      "emoji": "❄️",
+      "ex": {
+        "t": "Kar çok güzel!",
+        "s": "برف خیلی قشنگ است!"
+      }
+    },
+    {
+      "id": "w05",
+      "t": "bulut",
+      "pl": "bulutlar",
+      "s": "ابر",
+      "pr": "بولوت",
+      "emoji": "☁️",
+      "ex": {
+        "t": "Bugün çok bulut var.",
+        "s": "امروز ابر زیادی هست."
+      }
+    },
+    {
+      "id": "w06",
+      "t": "rüzgâr",
+      "s": "باد",
+      "pr": "روزگار",
+      "emoji": "🌬️",
+      "ex": {
+        "t": "Bugün çok rüzgâr var.",
+        "s": "امروز خیلی باد می‌آید."
+      }
+    },
+    {
+      "id": "w07",
+      "t": "sıcak",
+      "s": "گرم، داغ",
+      "pr": "سِجاک",
+      "emoji": "🥵",
+      "ex": {
+        "t": "Çay çok sıcak.",
+        "s": "چای خیلی داغ است."
+      }
+    },
+    {
+      "id": "w08",
+      "t": "soğuk",
+      "s": "سرد",
+      "pr": "سُئوک",
+      "emoji": "🥶",
+      "ex": {
+        "t": "Su çok soğuk.",
+        "s": "آب خیلی سرد است."
+      }
+    },
+    {
+      "id": "w09",
+      "t": "mevsim",
+      "pl": "mevsimler",
+      "s": "فصل",
+      "pr": "مِوسیم",
+      "emoji": "",
+      "ex": {
+        "t": "Dört mevsim var: ilkbahar, yaz, sonbahar ve kış.",
+        "s": "چهار فصل داریم: بهار، تابستان، پاییز و زمستان."
+      }
+    },
+    {
+      "id": "w10",
+      "t": "ilkbahar",
+      "s": "بهار",
+      "pr": "ایلکباهار",
+      "emoji": "🌸",
+      "ex": {
+        "t": "İlkbaharda hava güzel.",
+        "s": "بهار هوا خوب است."
+      }
+    },
+    {
+      "id": "w11",
+      "t": "yaz",
+      "s": "تابستان",
+      "pr": "یاز",
+      "emoji": "🏖️",
+      "ex": {
+        "t": "Yazın hava çok sıcak.",
+        "s": "تابستان هوا خیلی گرم است."
+      }
+    },
+    {
+      "id": "w12",
+      "t": "sonbahar",
+      "s": "پاییز",
+      "pr": "سُنباهار",
+      "emoji": "🍂",
+      "ex": {
+        "t": "Sonbaharda yağmur yağıyor.",
+        "s": "پاییز باران می‌آید."
+      }
+    },
+    {
+      "id": "w13",
+      "t": "kış",
+      "s": "زمستان",
+      "pr": "کِش",
+      "emoji": "⛄",
+      "ex": {
+        "t": "Kışın hava çok soğuk.",
+        "s": "زمستان هوا خیلی سرد است."
+      }
+    },
+    {
+      "id": "w14",
+      "t": "ay",
+      "pl": "aylar",
+      "s": "ماه",
+      "pr": "آی",
+      "emoji": "🗓️",
+      "ex": {
+        "t": "Bir yılda on iki ay var.",
+        "s": "یک سال دوازده ماه دارد."
+      }
+    }
+  ],
+  "phrases": [
+    {
+      "id": "p01",
+      "t": "Hava nasıl?",
+      "s": "هوا چطور است؟",
+      "pr": "هاوا ناسِل؟"
+    },
+    {
+      "id": "p02",
+      "t": "Hava çok güzel.",
+      "s": "هوا خیلی خوب است.",
+      "pr": "هاوا چُک گوزِل."
+    },
+    {
+      "id": "p03",
+      "t": "Yağmur yağıyor.",
+      "s": "باران می‌آید.",
+      "pr": "یامور یائِیُر."
+    },
+    {
+      "id": "p04",
+      "t": "Kar yağıyor.",
+      "s": "برف می‌آید.",
+      "pr": "کار یائِیُر."
+    },
+    {
+      "id": "p05",
+      "t": "Çok sıcak!",
+      "s": "خیلی گرم است!",
+      "pr": "چُک سِجاک!"
+    },
+    {
+      "id": "p06",
+      "t": "Çok soğuk!",
+      "s": "خیلی سرد است!",
+      "pr": "چُک سُئوک!"
+    },
+    {
+      "id": "p07",
+      "t": "Doğum günün ne zaman?",
+      "s": "تولدت کی است؟",
+      "pr": "دُئوم گونون نِه زامان؟"
+    },
+    {
+      "id": "p08",
+      "t": "En sevdiğim mevsim yaz.",
+      "s": "فصل مورد علاقه‌ام تابستان است.",
+      "pr": "اِن سِودییم مِوسیم یاز."
+    }
+  ],
+  "dialogue": {
+    "title": {
+      "t": "Telefonda",
+      "s": "پشت تلفن"
+    },
+    "speakers": {
+      "A": {
+        "name": "Ayşe",
+        "voice": "f"
+      },
+      "B": {
+        "name": "Ali",
+        "voice": "m"
+      }
+    },
+    "lines": [
+      {
+        "sp": "A",
+        "t": "Alo, Ali! Nasılsın?",
+        "s": "الو، علی! حالت چطور است؟"
+      },
+      {
+        "sp": "B",
+        "t": "İyiyim Ayşe, teşekkürler. İstanbul'da hava nasıl?",
+        "s": "خوبم آیشه، ممنون. هوای استانبول چطور است؟"
+      },
+      {
+        "sp": "A",
+        "t": "Burada yağmur yağıyor. Hava biraz soğuk. Tahran'da hava nasıl?",
+        "s": "این‌جا باران می‌آید. هوا کمی سرد است. هوای تهران چطور است؟"
+      },
+      {
+        "sp": "B",
+        "t": "Tahran'da hava çok güzel. Güneşli ve sıcak.",
+        "s": "در تهران هوا خیلی خوب است. آفتابی و گرم."
+      },
+      {
+        "sp": "A",
+        "t": "Ne güzel! Ben de Tahran'a gelmek istiyorum.",
+        "s": "چه خوب! من هم می‌خواهم به تهران بیایم."
+      },
+      {
+        "sp": "B",
+        "t": "Gel! Ama yazın Tahran çok sıcak. İlkbaharda gel.",
+        "s": "بیا! ولی تابستان تهران خیلی گرم است. بهار بیا."
+      },
+      {
+        "sp": "A",
+        "t": "Tamam! Nisanda geliyorum.",
+        "s": "باشه! آوریل می‌آیم."
+      },
+      {
+        "sp": "B",
+        "t": "Harika! Nisanda Tahran çok güzel.",
+        "s": "عالی! آوریل تهران خیلی قشنگ است."
+      },
+      {
+        "sp": "A",
+        "t": "Görüşürüz, Ali!",
+        "s": "به امید دیدار، علی!"
+      },
+      {
+        "sp": "B",
+        "t": "Görüşürüz, Ayşe!",
+        "s": "به امید دیدار، آیشه!"
+      }
+    ]
+  },
+  "grammar": [
+    {
+      "id": "g01",
+      "title": {
+        "t": "Hava nasıl? güneşli, bulutlu…",
+        "s": "هوا چطور است؟ پسوند li / lı / lu / lü"
+      },
+      "explain": "برای پرسیدن درباره‌ی هوا می‌گوییم **Hava nasıl?** (هوا چطور است؟). جواب: **Hava** + صفت: Hava **güzel**، Hava **soğuk**، Hava **sıcak**.\nپسوند **li / lı / lu / lü** از اسم، صفت می‌سازد؛ درست مثل «ی» در «آفتابی» و «ابری»: güneş → **güneşli** (آفتابی)، bulut → **bulutlu** (ابری)، rüzgâr → **rüzgârlı** (بادی)، kar → **karlı** (برفی).\nکدام یکی؟ هماهنگی چهارتایی: بعد از e و i → **li**؛ بعد از a و ı → **lı**؛ بعد از o و u → **lu**؛ بعد از ö و ü → **lü**.\nبرای «باران می‌آید / برف می‌آید» فعل **yağmak** را با iyor می‌گوییم: **Yağmur yağıyor**، **Kar yağıyor**.",
+      "table": [
+        [
+          "güneş",
+          "güneşli"
+        ],
+        [
+          "bulut",
+          "bulutlu"
+        ],
+        [
+          "rüzgâr",
+          "rüzgârlı"
+        ],
+        [
+          "kar",
+          "karlı"
+        ],
+        [
+          "yağmur",
+          "yağmurlu"
+        ]
+      ],
+      "examples": [
+        {
+          "t": "Hava nasıl? Hava güneşli.",
+          "s": "هوا چطور است؟ هوا آفتابی است."
+        },
+        {
+          "t": "Bugün hava çok soğuk.",
+          "s": "امروز هوا خیلی سرد است."
+        },
+        {
+          "t": "Yağmur yağıyor.",
+          "s": "باران می‌آید."
+        },
+        {
+          "t": "Hava bulutlu ve rüzgârlı.",
+          "s": "هوا ابری و بادی است."
+        },
+        {
+          "t": "Bugün kar yağıyor.",
+          "s": "امروز برف می‌آید."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "choice",
+          "t": "Bugün hava ___.",
+          "options": [
+            "güneşlı",
+            "güneşli",
+            "güneşlu"
+          ],
+          "answer": 1,
+          "s": "امروز هوا آفتابی است."
+        },
+        {
+          "type": "choice",
+          "t": "Yağmur ___.",
+          "options": [
+            "yağıyorum",
+            "yağıyorsun",
+            "yağıyor"
+          ],
+          "answer": 2,
+          "s": "باران می‌آید."
+        },
+        {
+          "type": "choice",
+          "t": "Hava ___.",
+          "options": [
+            "bulutlu",
+            "bulutlı",
+            "bulutli"
+          ],
+          "answer": 0,
+          "s": "هوا ابری است."
+        },
+        {
+          "type": "type",
+          "t": "Bugün kar ___.",
+          "answer": [
+            "yağıyor"
+          ],
+          "s": "امروز برف می‌آید."
+        },
+        {
+          "type": "type",
+          "t": "Hava çok ___.",
+          "answer": [
+            "sıcak"
+          ],
+          "s": "هوا خیلی گرم است."
+        },
+        {
+          "type": "type",
+          "t": "Hava ___? Hava çok güzel.",
+          "answer": [
+            "nasıl"
+          ],
+          "s": "هوا چطور است؟ هوا خیلی خوب است."
+        },
+        {
+          "type": "order",
+          "t": "Bugün hava çok rüzgârlı.",
+          "s": "امروز هوا خیلی بادی است."
+        }
+      ]
+    },
+    {
+      "id": "g02",
+      "title": {
+        "t": "Temmuzda, yazın",
+        "s": "ماه‌ها و فصل‌ها: «در ژوئیه»، «در تابستان»"
+      },
+      "explain": "ماه‌های ترکی همان ماه‌های میلادی هستند: Ocak (ژانویه)، Şubat (فوریه)، Mart (مارس)، Nisan (آوریل)، Mayıs (مه)، Haziran (ژوئن)، Temmuz (ژوئیه)، Ağustos (اوت)، Eylül (سپتامبر)، Ekim (اکتبر)، Kasım (نوامبر)، Aralık (دسامبر).\nبرای گفتن «در ماهِ …» همان پسوند مکان **de / da** را اضافه می‌کنیم (و بعد از حروف بی‌صدای ç، ş، t، k، p، s، f، h می‌شود **te / ta**): Temmuz**da** (در ژوئیه)، Eylül**de** (در سپتامبر)، Mart**ta** (در مارس).\nفصل‌ها: **ilkbahar** (بهار)، **yaz** (تابستان)، **sonbahar** (پاییز)، **kış** (زمستان). برای بهار و پاییز می‌گوییم **ilkbaharda** و **sonbaharda**؛ ولی برای تابستان و زمستان شکل خاصی داریم: **yazın** (در تابستان) و **kışın** (در زمستان).",
+      "table": [
+        [
+          "Ocak",
+          "Ocakta"
+        ],
+        [
+          "Şubat",
+          "Şubatta"
+        ],
+        [
+          "Mart",
+          "Martta"
+        ],
+        [
+          "Nisan",
+          "Nisanda"
+        ],
+        [
+          "Mayıs",
+          "Mayısta"
+        ],
+        [
+          "Haziran",
+          "Haziranda"
+        ],
+        [
+          "Temmuz",
+          "Temmuzda"
+        ],
+        [
+          "Ağustos",
+          "Ağustosta"
+        ],
+        [
+          "Eylül",
+          "Eylülde"
+        ],
+        [
+          "Ekim",
+          "Ekimde"
+        ],
+        [
+          "Kasım",
+          "Kasımda"
+        ],
+        [
+          "Aralık",
+          "Aralıkta"
+        ]
+      ],
+      "examples": [
+        {
+          "t": "Temmuzda hava çok sıcak.",
+          "s": "در ژوئیه هوا خیلی گرم است."
+        },
+        {
+          "t": "Kışın kar yağıyor.",
+          "s": "زمستان برف می‌آید."
+        },
+        {
+          "t": "İlkbaharda hava güzel.",
+          "s": "بهار هوا خوب است."
+        },
+        {
+          "t": "Benim doğum günüm Eylülde.",
+          "s": "تولد من در سپتامبر است."
+        },
+        {
+          "t": "Yazın denize gidiyoruz.",
+          "s": "تابستان به دریا می‌رویم."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "choice",
+          "t": "___ hava çok soğuk.",
+          "options": [
+            "Kışın",
+            "Kışa",
+            "Kış"
+          ],
+          "answer": 0,
+          "s": "زمستان هوا خیلی سرد است."
+        },
+        {
+          "type": "choice",
+          "t": "Biz ___ İran'a gidiyoruz.",
+          "options": [
+            "Temmuzde",
+            "Temmuzda",
+            "Temmuza"
+          ],
+          "answer": 1,
+          "s": "ما در ژوئیه به ایران می‌رویم."
+        },
+        {
+          "type": "choice",
+          "t": "___ çok yağmur yağıyor.",
+          "options": [
+            "Sonbahara",
+            "Sonbaharın",
+            "Sonbaharda"
+          ],
+          "answer": 2,
+          "s": "پاییز خیلی باران می‌آید."
+        },
+        {
+          "type": "type",
+          "t": "___ kar yağıyor.",
+          "answer": [
+            "Aralıkta"
+          ],
+          "s": "در دسامبر برف می‌آید."
+        },
+        {
+          "type": "type",
+          "t": "___ hava sıcak.",
+          "answer": [
+            "Yazın"
+          ],
+          "s": "تابستان هوا گرم است."
+        },
+        {
+          "type": "type",
+          "t": "Benim doğum günüm ___.",
+          "answer": [
+            "Mayısta"
+          ],
+          "s": "تولد من در ماه مه است."
+        },
+        {
+          "type": "order",
+          "t": "İlkbaharda hava çok güzel.",
+          "s": "بهار هوا خیلی خوب است."
+        }
+      ]
+    }
+  ],
+  "reading": {
+    "title": {
+      "t": "Dört mevsim",
+      "s": "چهار فصل"
+    },
+    "text": [
+      {
+        "t": "Türkiye'de dört mevsim var.",
+        "s": "در ترکیه چهار فصل هست."
+      },
+      {
+        "t": "İlkbaharda hava güzel; bazen yağmur yağıyor.",
+        "s": "بهار هوا خوب است؛ گاهی باران می‌آید."
+      },
+      {
+        "t": "Yazın hava çok sıcak ve güneşli.",
+        "s": "تابستان هوا خیلی گرم و آفتابی است."
+      },
+      {
+        "t": "Temmuzda ve Ağustosta insanlar denize gidiyor.",
+        "s": "در ژوئیه و اوت مردم به دریا می‌روند."
+      },
+      {
+        "t": "Sonbaharda hava bulutlu ve rüzgârlı.",
+        "s": "پاییز هوا ابری و بادی است."
+      },
+      {
+        "t": "Kışın hava soğuk.",
+        "s": "زمستان هوا سرد است."
+      },
+      {
+        "t": "Ocakta ve Şubatta İstanbul'da bazen kar yağıyor.",
+        "s": "در ژانویه و فوریه در استانبول گاهی برف می‌آید."
+      },
+      {
+        "t": "Benim en sevdiğim mevsim ilkbahar.",
+        "s": "فصل مورد علاقه‌ی من بهار است."
+      }
+    ],
+    "questions": [
+      {
+        "q": {
+          "t": "Türkiye'de kaç mevsim var?",
+          "s": "در ترکیه چند فصل هست؟"
+        },
+        "options": [
+          "İki",
+          "Dört",
+          "On iki"
+        ],
+        "answer": 1
+      },
+      {
+        "q": {
+          "t": "Yazın hava nasıl?",
+          "s": "تابستان هوا چطور است؟"
+        },
+        "options": [
+          "Sıcak ve güneşli",
+          "Soğuk ve karlı",
+          "Bulutlu ve rüzgârlı"
+        ],
+        "answer": 0
+      },
+      {
+        "q": {
+          "t": "İnsanlar Temmuzda nereye gidiyor?",
+          "s": "مردم در ژوئیه کجا می‌روند؟"
+        },
+        "options": [
+          "Okula",
+          "Hastaneye",
+          "Denize"
+        ],
+        "answer": 2
+      },
+      {
+        "q": {
+          "t": "İstanbul'da ne zaman kar yağıyor?",
+          "s": "در استانبول کی برف می‌آید؟"
+        },
+        "options": [
+          "Ocakta ve Şubatta",
+          "Temmuzda",
+          "Nisanda"
+        ],
+        "answer": 0
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "t": "Bugün hava çok güzel.",
+      "s": "امروز هوا خیلی خوب است."
+    },
+    {
+      "t": "Yağmur yağıyor, hava soğuk.",
+      "s": "باران می‌آید، هوا سرد است."
+    },
+    {
+      "t": "Kışın kar yağıyor.",
+      "s": "زمستان برف می‌آید."
+    },
+    {
+      "t": "Yazın denize gidiyoruz.",
+      "s": "تابستان به دریا می‌رویم."
+    },
+    {
+      "t": "Benim doğum günüm Martta.",
+      "s": "تولد من در ماه مارس است."
+    },
+    {
+      "t": "Sonbaharda hava bulutlu.",
+      "s": "پاییز هوا ابری است."
+    },
+    {
+      "t": "Hava nasıl? Güneşli ve sıcak.",
+      "s": "هوا چطور است؟ آفتابی و گرم."
+    }
+  ]
+}

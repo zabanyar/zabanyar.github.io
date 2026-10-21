@@ -1,0 +1,623 @@
+{
+  "id": "u07",
+  "level": "A1",
+  "emoji": "🏙️",
+  "title": {
+    "t": "In the city",
+    "s": "در شهر"
+  },
+  "goals": [
+    "می‌توانم مکان‌های شهر را نام ببرم.",
+    "می‌توانم بپرسم یک جا کجاست.",
+    "می‌توانم آدرس ساده بدهم: مستقیم بروید، به چپ بپیچید."
+  ],
+  "words": [
+    {
+      "id": "w01",
+      "t": "city",
+      "pl": "cities",
+      "s": "شهر",
+      "pr": "سیتی",
+      "emoji": "🏙️",
+      "ex": {
+        "t": "Tehran is a big city.",
+        "s": "تهران شهر بزرگی است."
+      }
+    },
+    {
+      "id": "w02",
+      "t": "street",
+      "pl": "streets",
+      "s": "خیابان",
+      "pr": "سْتْریت",
+      "emoji": "🛣️",
+      "ex": {
+        "t": "My house is on Hafez Street.",
+        "s": "خانهٔ من در خیابان حافظ است."
+      }
+    },
+    {
+      "id": "w03",
+      "t": "bank",
+      "pl": "banks",
+      "s": "بانک",
+      "pr": "بَنک",
+      "emoji": "🏦",
+      "ex": {
+        "t": "The bank is next to the park.",
+        "s": "بانک کنار پارک است."
+      }
+    },
+    {
+      "id": "w04",
+      "t": "hospital",
+      "pl": "hospitals",
+      "s": "بیمارستان",
+      "pr": "هاسپیتال",
+      "emoji": "🏥",
+      "ex": {
+        "t": "Maryam works at a hospital.",
+        "s": "مریم در یک بیمارستان کار می‌کند."
+      }
+    },
+    {
+      "id": "w05",
+      "t": "park",
+      "pl": "parks",
+      "s": "پارک",
+      "pr": "پارک",
+      "emoji": "🌳",
+      "ex": {
+        "t": "There is a big park in our city.",
+        "s": "در شهر ما یک پارک بزرگ هست."
+      }
+    },
+    {
+      "id": "w06",
+      "t": "supermarket",
+      "pl": "supermarkets",
+      "s": "سوپرمارکت",
+      "pr": "سوپِرمارکِت",
+      "emoji": "🛒",
+      "ex": {
+        "t": "Is there a supermarket near here?",
+        "s": "این نزدیکی سوپرمارکت هست؟"
+      }
+    },
+    {
+      "id": "w07",
+      "t": "restaurant",
+      "pl": "restaurants",
+      "s": "رستوران",
+      "pr": "رِسْتِرانت",
+      "emoji": "🍴",
+      "ex": {
+        "t": "We have dinner at a restaurant.",
+        "s": "ما در یک رستوران شام می‌خوریم."
+      }
+    },
+    {
+      "id": "w08",
+      "t": "pharmacy",
+      "pl": "pharmacies",
+      "s": "داروخانه",
+      "pr": "فارمِسی",
+      "emoji": "💊",
+      "ex": {
+        "t": "The pharmacy is opposite the hospital.",
+        "s": "داروخانه روبه‌روی بیمارستان است."
+      }
+    },
+    {
+      "id": "w09",
+      "t": "post office",
+      "pl": "post offices",
+      "s": "ادارهٔ پست",
+      "pr": "پوست آفیس",
+      "emoji": "🏤",
+      "ex": {
+        "t": "Where is the post office?",
+        "s": "ادارهٔ پست کجاست؟"
+      }
+    },
+    {
+      "id": "w10",
+      "t": "mosque",
+      "pl": "mosques",
+      "s": "مسجد",
+      "pr": "ماسک",
+      "emoji": "🕌",
+      "ex": {
+        "t": "There is a mosque near my house.",
+        "s": "نزدیک خانه‌ام یک مسجد هست."
+      }
+    },
+    {
+      "id": "w11",
+      "t": "bus stop",
+      "pl": "bus stops",
+      "s": "ایستگاه اتوبوس",
+      "pr": "باس سْتاپ",
+      "emoji": "🚏",
+      "ex": {
+        "t": "The bus stop is next to the bank.",
+        "s": "ایستگاه اتوبوس کنار بانک است."
+      }
+    },
+    {
+      "id": "w12",
+      "t": "train station",
+      "pl": "train stations",
+      "s": "ایستگاه قطار",
+      "pr": "تْرِین سْتِیشِن",
+      "emoji": "🚉",
+      "ex": {
+        "t": "The train station is near the park.",
+        "s": "ایستگاه قطار نزدیک پارک است."
+      }
+    },
+    {
+      "id": "w13",
+      "t": "left",
+      "s": "چپ",
+      "pr": "لِفت",
+      "emoji": "⬅️",
+      "ex": {
+        "t": "Turn left at the bank.",
+        "s": "سرِ بانک به چپ بپیچید."
+      }
+    },
+    {
+      "id": "w14",
+      "t": "right",
+      "s": "راست",
+      "pr": "رایت",
+      "emoji": "➡️",
+      "ex": {
+        "t": "Turn right at the park.",
+        "s": "سرِ پارک به راست بپیچید."
+      }
+    }
+  ],
+  "phrases": [
+    {
+      "id": "p01",
+      "t": "Excuse me.",
+      "s": "ببخشید.",
+      "pr": "اِکسکیوز می"
+    },
+    {
+      "id": "p02",
+      "t": "Where is the bank?",
+      "s": "بانک کجاست؟",
+      "pr": "وِر ایز ذِ بَنک؟"
+    },
+    {
+      "id": "p03",
+      "t": "Is it far?",
+      "s": "دور است؟",
+      "pr": "ایز ایت فار؟"
+    },
+    {
+      "id": "p04",
+      "t": "Go straight.",
+      "s": "مستقیم بروید.",
+      "pr": "گو سْتْرِیت"
+    },
+    {
+      "id": "p05",
+      "t": "Turn left.",
+      "s": "به چپ بپیچید.",
+      "pr": "تِرن لِفت"
+    },
+    {
+      "id": "p06",
+      "t": "Take the first street on the right.",
+      "s": "از اولین خیابانِ سمت راست بروید.",
+      "pr": "تِیک ذِ فِرست سْتْریت آن ذِ رایت"
+    },
+    {
+      "id": "p07",
+      "t": "Thank you very much!",
+      "s": "خیلی ممنون!",
+      "pr": "ثَنک یو وِری ماچ!"
+    },
+    {
+      "id": "p08",
+      "t": "You're welcome.",
+      "s": "خواهش می‌کنم.",
+      "pr": "یور وِلکام"
+    }
+  ],
+  "dialogue": {
+    "title": {
+      "t": "Where is the post office?",
+      "s": "ادارهٔ پست کجاست؟"
+    },
+    "speakers": {
+      "A": {
+        "name": "Sara",
+        "voice": "f"
+      },
+      "B": {
+        "name": "Tom",
+        "voice": "m"
+      }
+    },
+    "lines": [
+      {
+        "sp": "A",
+        "t": "Excuse me. Where is the post office?",
+        "s": "ببخشید. ادارهٔ پست کجاست؟"
+      },
+      {
+        "sp": "B",
+        "t": "The post office? It's near the park.",
+        "s": "ادارهٔ پست؟ نزدیک پارک است."
+      },
+      {
+        "sp": "A",
+        "t": "Is it far?",
+        "s": "دور است؟"
+      },
+      {
+        "sp": "B",
+        "t": "No, it isn't. Go straight and turn left at the bank.",
+        "s": "نه، دور نیست. مستقیم بروید و سرِ بانک به چپ بپیچید."
+      },
+      {
+        "sp": "A",
+        "t": "Turn left at the bank. OK.",
+        "s": "سرِ بانک به چپ. باشه."
+      },
+      {
+        "sp": "B",
+        "t": "The post office is opposite the supermarket.",
+        "s": "ادارهٔ پست روبه‌روی سوپرمارکت است."
+      },
+      {
+        "sp": "A",
+        "t": "And is there a pharmacy near here?",
+        "s": "این نزدیکی داروخانه هم هست؟"
+      },
+      {
+        "sp": "B",
+        "t": "Yes, there is. It's next to the post office.",
+        "s": "بله، هست. کنار ادارهٔ پست است."
+      },
+      {
+        "sp": "A",
+        "t": "Thank you very much!",
+        "s": "خیلی ممنون!"
+      },
+      {
+        "sp": "B",
+        "t": "You're welcome.",
+        "s": "خواهش می‌کنم."
+      }
+    ]
+  },
+  "grammar": [
+    {
+      "id": "g01",
+      "title": {
+        "t": "Go straight. Turn left.",
+        "s": "فعل امری (راهنمایی کردن)"
+      },
+      "explain": "برای آدرس دادن یا خواهش کردن، فعل را **بدون فاعل** و در اول جمله می‌گوییم: **Go straight.** (مستقیم بروید.) **Turn left.** (به چپ بپیچید.)\nدر انگلیسی فعل امری برای «تو» و «شما» یکی است.\nبرای منفی، **Don't** را اول جمله می‌گذاریم: **Don't turn right.** (به راست نپیچید.)\nبا **please** جمله مؤدبانه‌تر می‌شود: **Turn left, please.**",
+      "table": [
+        [
+          "go",
+          "Go straight."
+        ],
+        [
+          "turn",
+          "Turn left. / Turn right."
+        ],
+        [
+          "don't + verb",
+          "Don't turn right."
+        ]
+      ],
+      "examples": [
+        {
+          "t": "Go straight.",
+          "s": "مستقیم بروید."
+        },
+        {
+          "t": "Turn left at the bank.",
+          "s": "سرِ بانک به چپ بپیچید."
+        },
+        {
+          "t": "Turn right, please.",
+          "s": "لطفاً به راست بپیچید."
+        },
+        {
+          "t": "Don't turn left. Go straight.",
+          "s": "به چپ نپیچید. مستقیم بروید."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "choice",
+          "t": "___ straight.",
+          "options": [
+            "Goes",
+            "Go",
+            "Going"
+          ],
+          "answer": 1,
+          "s": "مستقیم بروید."
+        },
+        {
+          "type": "choice",
+          "t": "Turn ___ at the park.",
+          "options": [
+            "right",
+            "straight",
+            "opposite"
+          ],
+          "answer": 0,
+          "s": "سرِ پارک به راست بپیچید."
+        },
+        {
+          "type": "type",
+          "t": "___ left at the hospital.",
+          "answer": [
+            "Turn"
+          ],
+          "s": "سرِ بیمارستان به چپ بپیچید."
+        },
+        {
+          "type": "choice",
+          "t": "___ turn right. Go straight.",
+          "options": [
+            "Not",
+            "No",
+            "Don't"
+          ],
+          "answer": 2,
+          "s": "به راست نپیچید. مستقیم بروید."
+        },
+        {
+          "type": "order",
+          "t": "Go straight and turn left.",
+          "s": "مستقیم بروید و به چپ بپیچید."
+        },
+        {
+          "type": "order",
+          "t": "Turn right at the bank.",
+          "s": "سرِ بانک به راست بپیچید."
+        },
+        {
+          "type": "type",
+          "t": "Go ___ and turn right.",
+          "answer": [
+            "straight"
+          ],
+          "s": "مستقیم بروید و به راست بپیچید."
+        }
+      ]
+    },
+    {
+      "id": "g02",
+      "title": {
+        "t": "Where is …? near / opposite",
+        "s": "… کجاست؟ نزدیکِ / روبه‌رویِ"
+      },
+      "explain": "برای پرسیدن جای یک مکان می‌گوییم: **Where is the bank?** (بانک کجاست؟) مؤدبانه‌تر: **Excuse me, where is …?**\nدر جواب می‌توانیم بگوییم: **It's near the park.** (نزدیک پارک است.) **It's opposite the hospital.** (روبه‌روی بیمارستان است.) **It's next to the bank.** (کنار بانک است.)\n**near** یعنی «نزدیکِ» و **opposite** یعنی «روبه‌رویِ».",
+      "table": [
+        [
+          "near",
+          "It's near the park."
+        ],
+        [
+          "opposite",
+          "It's opposite the bank."
+        ],
+        [
+          "next to",
+          "It's next to the school."
+        ]
+      ],
+      "examples": [
+        {
+          "t": "Where is the post office? It's near the bank.",
+          "s": "ادارهٔ پست کجاست؟ نزدیک بانک است."
+        },
+        {
+          "t": "The pharmacy is opposite the hospital.",
+          "s": "داروخانه روبه‌روی بیمارستان است."
+        },
+        {
+          "t": "The bus stop is next to the park.",
+          "s": "ایستگاه اتوبوس کنار پارک است."
+        },
+        {
+          "t": "Is there a restaurant near here?",
+          "s": "این نزدیکی رستوران هست؟"
+        }
+      ],
+      "exercises": [
+        {
+          "type": "choice",
+          "t": "___ is the bank?",
+          "options": [
+            "Where",
+            "What",
+            "How"
+          ],
+          "answer": 0,
+          "s": "بانک کجاست؟"
+        },
+        {
+          "type": "choice",
+          "t": "The park is ___ the school.",
+          "options": [
+            "near",
+            "opposite",
+            "under"
+          ],
+          "answer": 1,
+          "s": "پارک روبه‌روی مدرسه است."
+        },
+        {
+          "type": "type",
+          "t": "The pharmacy is ___ the bank.",
+          "answer": [
+            "near"
+          ],
+          "s": "داروخانه نزدیک بانک است."
+        },
+        {
+          "type": "choice",
+          "t": "The mosque is next ___ the park.",
+          "options": [
+            "at",
+            "of",
+            "to"
+          ],
+          "answer": 2,
+          "s": "مسجد کنار پارک است."
+        },
+        {
+          "type": "order",
+          "t": "Where is the train station?",
+          "s": "ایستگاه قطار کجاست؟"
+        },
+        {
+          "type": "type",
+          "t": "___ is the post office?",
+          "answer": [
+            "Where"
+          ],
+          "s": "ادارهٔ پست کجاست؟"
+        },
+        {
+          "type": "order",
+          "t": "The bank is opposite the hospital.",
+          "s": "بانک روبه‌روی بیمارستان است."
+        }
+      ]
+    }
+  ],
+  "reading": {
+    "title": {
+      "t": "My street",
+      "s": "خیابان من"
+    },
+    "text": [
+      {
+        "t": "Hello! I am Neda. I am from Shiraz.",
+        "s": "سلام! من ندا هستم. من اهل شیراز هستم."
+      },
+      {
+        "t": "Shiraz is a big city.",
+        "s": "شیراز شهر بزرگی است."
+      },
+      {
+        "t": "My house is on Hafez Street.",
+        "s": "خانهٔ من در خیابان حافظ است."
+      },
+      {
+        "t": "There is a park opposite my house.",
+        "s": "روبه‌روی خانهٔ من یک پارک هست."
+      },
+      {
+        "t": "The supermarket is next to the park.",
+        "s": "سوپرمارکت کنار پارک است."
+      },
+      {
+        "t": "There is a mosque near the supermarket.",
+        "s": "نزدیک سوپرمارکت یک مسجد هست."
+      },
+      {
+        "t": "The bus stop is next to the mosque.",
+        "s": "ایستگاه اتوبوس کنار مسجد است."
+      },
+      {
+        "t": "My school is not near my house.",
+        "s": "مدرسهٔ من نزدیک خانه‌ام نیست."
+      }
+    ],
+    "questions": [
+      {
+        "q": {
+          "t": "Where is Neda from?",
+          "s": "ندا اهل کجاست؟"
+        },
+        "options": [
+          "Shiraz",
+          "Tehran",
+          "Isfahan"
+        ],
+        "answer": 0
+      },
+      {
+        "q": {
+          "t": "What is opposite Neda's house?",
+          "s": "روبه‌روی خانهٔ ندا چه چیزی هست؟"
+        },
+        "options": [
+          "a bank",
+          "a park",
+          "a mosque"
+        ],
+        "answer": 1
+      },
+      {
+        "q": {
+          "t": "Where is the supermarket?",
+          "s": "سوپرمارکت کجاست؟"
+        },
+        "options": [
+          "opposite the school",
+          "near the bank",
+          "next to the park"
+        ],
+        "answer": 2
+      },
+      {
+        "q": {
+          "t": "Is Neda's school near her house?",
+          "s": "آیا مدرسهٔ ندا نزدیک خانه‌اش است؟"
+        },
+        "options": [
+          "Yes, it is.",
+          "No, it isn't."
+        ],
+        "answer": 1
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "t": "Excuse me, where is the hospital?",
+      "s": "ببخشید، بیمارستان کجاست؟"
+    },
+    {
+      "t": "The bank is opposite the park.",
+      "s": "بانک روبه‌روی پارک است."
+    },
+    {
+      "t": "Go straight and turn right.",
+      "s": "مستقیم بروید و به راست بپیچید."
+    },
+    {
+      "t": "The pharmacy is near the train station.",
+      "s": "داروخانه نزدیک ایستگاه قطار است."
+    },
+    {
+      "t": "Don't turn left.",
+      "s": "به چپ نپیچید."
+    },
+    {
+      "t": "Is there a restaurant near here?",
+      "s": "این نزدیکی رستوران هست؟"
+    },
+    {
+      "t": "The bus stop is next to the mosque.",
+      "s": "ایستگاه اتوبوس کنار مسجد است."
+    }
+  ]
+}

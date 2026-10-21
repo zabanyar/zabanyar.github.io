@@ -1,0 +1,146 @@
+{
+  "id": "u03",
+  "level": "A1",
+  "emoji": "👪",
+  "title": { "t": "Meine Familie", "s": "My family" },
+  "goals": [
+    "Talk about your family members",
+    "Use der, die, das and mein/meine, dein/deine",
+    "Say what you have with haben"
+  ],
+
+  "words": [
+    { "id": "w01", "t": "die Familie", "pl": "die Familien", "s": "family", "emoji": "👪", "ex": { "t": "Das ist meine Familie.", "s": "This is my family." } },
+    { "id": "w02", "t": "die Mutter", "pl": "die Mütter", "s": "mother", "emoji": "👩", "ex": { "t": "Meine Mutter heißt Maryam.", "s": "My mother's name is Maryam." } },
+    { "id": "w03", "t": "der Vater", "pl": "die Väter", "s": "father", "emoji": "👨", "ex": { "t": "Mein Vater kommt aus Schiras.", "s": "My father is from Shiraz." } },
+    { "id": "w04", "t": "die Eltern", "s": "parents (plural only)", "emoji": "", "ex": { "t": "Meine Eltern wohnen in Teheran.", "s": "My parents live in Tehran." } },
+    { "id": "w05", "t": "der Bruder", "pl": "die Brüder", "s": "brother", "emoji": "", "ex": { "t": "Mein Bruder ist zwanzig Jahre alt.", "s": "My brother is twenty years old." } },
+    { "id": "w06", "t": "die Schwester", "pl": "die Schwestern", "s": "sister", "emoji": "", "ex": { "t": "Meine Schwester heißt Sara.", "s": "My sister's name is Sara." } },
+    { "id": "w07", "t": "der Sohn", "pl": "die Söhne", "s": "son", "emoji": "👦", "ex": { "t": "Mein Sohn ist zehn Jahre alt.", "s": "My son is ten years old." } },
+    { "id": "w08", "t": "die Tochter", "pl": "die Töchter", "s": "daughter", "emoji": "👧", "ex": { "t": "Meine Tochter lernt Deutsch.", "s": "My daughter is learning German." } },
+    { "id": "w09", "t": "das Kind", "pl": "die Kinder", "s": "child", "emoji": "🧒", "ex": { "t": "Ich habe zwei Kinder.", "s": "I have two children." } },
+    { "id": "w10", "t": "das Baby", "pl": "die Babys", "s": "baby", "emoji": "👶", "ex": { "t": "Das Baby ist ein Jahr alt.", "s": "The baby is one year old." } },
+    { "id": "w11", "t": "die Oma", "pl": "die Omas", "s": "grandma", "emoji": "👵", "ex": { "t": "Meine Oma wohnt in Teheran.", "s": "My grandma lives in Tehran." } },
+    { "id": "w12", "t": "der Opa", "pl": "die Opas", "s": "grandpa", "emoji": "👴", "ex": { "t": "Mein Opa wohnt auch in Teheran.", "s": "My grandpa lives in Tehran, too." } },
+    { "id": "w13", "t": "der Mann", "pl": "die Männer", "s": "man; husband", "emoji": "", "ex": { "t": "Das ist mein Mann, Ali.", "s": "This is my husband, Ali." } },
+    { "id": "w14", "t": "haben", "s": "to have", "emoji": "", "ex": { "t": "Hast du Kinder?", "s": "Do you have children?" } }
+  ],
+
+  "phrases": [
+    { "id": "p01", "t": "Wer ist das?", "s": "Who is that?" },
+    { "id": "p02", "t": "Das ist mein Bruder.", "s": "This is my brother." },
+    { "id": "p03", "t": "Hast du Geschwister?", "s": "Do you have brothers or sisters?" },
+    { "id": "p04", "t": "Ja, ich habe eine Schwester.", "s": "Yes, I have a sister." },
+    { "id": "p05", "t": "Nein, ich bin Einzelkind.", "s": "No, I'm an only child." },
+    { "id": "p06", "t": "Sind Sie verheiratet?", "s": "Are you married? (polite)" },
+    { "id": "p07", "t": "Ja, ich bin verheiratet.", "s": "Yes, I'm married." },
+    { "id": "p08", "t": "Wie heißt deine Mutter?", "s": "What's your mother's name?" }
+  ],
+
+  "dialogue": {
+    "title": { "t": "Das ist meine Familie", "s": "This is my family" },
+    "speakers": { "A": { "name": "Anna", "voice": "f" }, "B": { "name": "Ali", "voice": "m" } },
+    "lines": [
+      { "sp": "A", "t": "Wer ist das, Ali?", "s": "Who is that, Ali?" },
+      { "sp": "B", "t": "Das ist meine Familie. Das ist meine Frau, Maryam.", "s": "This is my family. This is my wife, Maryam." },
+      { "sp": "A", "t": "Und wer ist das?", "s": "And who is that?" },
+      { "sp": "B", "t": "Das ist mein Sohn Amir. Er ist zehn Jahre alt.", "s": "This is my son Amir. He is ten years old." },
+      { "sp": "A", "t": "Hast du auch eine Tochter?", "s": "Do you have a daughter, too?" },
+      { "sp": "B", "t": "Ja, meine Tochter heißt Neda. Sie ist zwölf.", "s": "Yes, my daughter's name is Neda. She is twelve." },
+      { "sp": "A", "t": "Und sind das deine Eltern?", "s": "And are these your parents?" },
+      { "sp": "B", "t": "Ja, das sind meine Eltern. Sie wohnen in Teheran. Hast du Geschwister, Anna?", "s": "Yes, these are my parents. They live in Tehran. Do you have brothers or sisters, Anna?" },
+      { "sp": "A", "t": "Ja, ich habe zwei Brüder. Du hast eine schöne Familie!", "s": "Yes, I have two brothers. You have a lovely family!" },
+      { "sp": "B", "t": "Danke, Anna!", "s": "Thank you, Anna!" }
+    ]
+  },
+
+  "grammar": [
+    {
+      "id": "g01",
+      "title": { "t": "der, die, das – mein, meine", "s": "Articles and \"my\" / \"your\"" },
+      "explain": "Every German noun has a gender: **der** (masculine), **die** (feminine) or **das** (neuter). You often can't guess it, so always learn a noun together with its article: **der Vater**, **die Mutter**, **das Kind**.\nIn the plural, the article is always **die**: **die Kinder**, **die Brüder**.\nFor *my* and *your* (informal), use **mein** / **dein** with der- and das-nouns, and **meine** / **deine** with die-nouns and all plurals.\nThe polite *your* (for **Sie**) is **Ihr** / **Ihre**, with a capital I: **Wie heißt Ihre Tochter?**",
+      "table": [
+        ["der Vater", "mein Vater", "dein Vater"],
+        ["die Mutter", "meine Mutter", "deine Mutter"],
+        ["das Kind", "mein Kind", "dein Kind"],
+        ["die Kinder", "meine Kinder", "deine Kinder"]
+      ],
+      "examples": [
+        { "t": "Das ist mein Vater.", "s": "This is my father." },
+        { "t": "Meine Schwester heißt Sara.", "s": "My sister's name is Sara." },
+        { "t": "Wie heißt dein Bruder?", "s": "What's your brother's name?" },
+        { "t": "Meine Eltern wohnen in Teheran.", "s": "My parents live in Tehran." },
+        { "t": "Wie heißt Ihr Sohn, Frau Müller?", "s": "What's your son's name, Ms. Müller?" }
+      ],
+      "exercises": [
+        { "type": "choice", "t": "___ Mutter heißt Maryam.", "options": ["Mein", "Meine"], "answer": 1, "s": "My mother's name is Maryam." },
+        { "type": "choice", "t": "Das ist ___ Vater.", "options": ["mein", "meine"], "answer": 0, "s": "This is my father." },
+        { "type": "choice", "t": "___ Kind ist sieben Jahre alt.", "options": ["Der", "Die", "Das"], "answer": 2, "s": "The child is seven years old." },
+        { "type": "choice", "t": "___ Schwester wohnt in Köln.", "options": ["Der", "Die", "Das"], "answer": 1, "s": "The sister lives in Cologne." },
+        { "type": "type", "t": "Wie heißt ___ Bruder, Ali?", "answer": ["dein"], "s": "What's your brother's name, Ali?" },
+        { "type": "type", "t": "Das sind ___ Eltern.", "answer": ["meine"], "s": "These are my parents." },
+        { "type": "order", "t": "Das ist meine Tochter.", "s": "This is my daughter." },
+        { "type": "order", "t": "Wie heißt deine Schwester?", "s": "What's your sister's name?" }
+      ]
+    },
+    {
+      "id": "g02",
+      "title": { "t": "haben: ich habe, du hast …", "s": "The verb \"to have\"" },
+      "explain": "**haben** means *to have*. It is almost regular – only **du hast** and **er/sie/es hat** are special.\n**wir** means *we*. With **wir**, the verb looks just like the **Sie** form: **wir haben**, **wir wohnen**, **wir kommen**.\nTip: after **haben**, a der-noun takes **einen**: Ich habe **einen** Bruder. With die- and das-nouns nothing changes: Ich habe **eine** Schwester, ich habe **ein** Kind. You'll learn more about this in Unit 5.",
+      "table": [
+        ["ich", "habe", "Ich habe zwei Kinder."],
+        ["du", "hast", "Hast du Geschwister?"],
+        ["er / sie / es", "hat", "Anna hat zwei Brüder."],
+        ["wir", "haben", "Wir haben ein Baby."],
+        ["Sie", "haben", "Haben Sie Kinder?"]
+      ],
+      "examples": [
+        { "t": "Ich habe zwei Kinder.", "s": "I have two children." },
+        { "t": "Hast du Geschwister?", "s": "Do you have brothers or sisters?" },
+        { "t": "Lukas hat eine Schwester.", "s": "Lukas has a sister." },
+        { "t": "Wir haben ein Baby.", "s": "We have a baby." },
+        { "t": "Haben Sie Kinder, Herr Schmidt?", "s": "Do you have children, Mr. Schmidt?" }
+      ],
+      "exercises": [
+        { "type": "choice", "t": "Ich ___ zwei Brüder.", "options": ["habe", "hast", "hat"], "answer": 0, "s": "I have two brothers." },
+        { "type": "choice", "t": "Lukas ___ eine Schwester.", "options": ["habe", "hast", "hat"], "answer": 2, "s": "Lukas has a sister." },
+        { "type": "choice", "t": "___ du Kinder?", "options": ["Hast", "Hat", "Haben"], "answer": 0, "s": "Do you have children?" },
+        { "type": "type", "t": "Wir ___ drei Kinder.", "answer": ["haben"], "s": "We have three children." },
+        { "type": "type", "t": "Frau Müller ___ zwei Töchter.", "answer": ["hat"], "s": "Ms. Müller has two daughters." },
+        { "type": "order", "t": "Haben Sie Kinder?", "s": "Do you have children? (polite)" },
+        { "type": "order", "t": "Ich habe eine Tochter.", "s": "I have a daughter." }
+      ]
+    }
+  ],
+
+  "reading": {
+    "title": { "t": "Nedas Familie", "s": "Neda's family" },
+    "text": [
+      { "t": "Ich heiße Neda und ich bin zwölf Jahre alt.", "s": "My name is Neda and I'm twelve years old." },
+      { "t": "Das ist meine Familie.", "s": "This is my family." },
+      { "t": "Mein Vater heißt Ali und meine Mutter heißt Maryam.", "s": "My father's name is Ali and my mother's name is Maryam." },
+      { "t": "Mein Bruder heißt Amir. Er ist zehn.", "s": "My brother's name is Amir. He is ten." },
+      { "t": "Wir wohnen in Köln.", "s": "We live in Cologne." },
+      { "t": "Meine Oma und mein Opa wohnen in Teheran.", "s": "My grandma and my grandpa live in Tehran." },
+      { "t": "Wir haben auch eine Katze.", "s": "We also have a cat." },
+      { "t": "Sie heißt Mimi.", "s": "Her name is Mimi." }
+    ],
+    "questions": [
+      { "q": { "t": "Wie alt ist Neda?", "s": "How old is Neda?" }, "options": ["zehn", "zwölf", "sieben"], "answer": 1 },
+      { "q": { "t": "Wer ist Amir?", "s": "Who is Amir?" }, "options": ["Nedas Bruder", "Nedas Vater", "Nedas Opa"], "answer": 0 },
+      { "q": { "t": "Wo wohnen Oma und Opa?", "s": "Where do Grandma and Grandpa live?" }, "options": ["in Köln", "in Teheran", "in Berlin"], "answer": 1 },
+      { "q": { "t": "Wie heißt die Katze?", "s": "What's the cat's name?" }, "options": ["Mimi", "Maryam", "Neda"], "answer": 0 }
+    ]
+  },
+
+  "sentences": [
+    { "t": "Das ist mein Vater.", "s": "This is my father." },
+    { "t": "Meine Mutter heißt Maryam.", "s": "My mother's name is Maryam." },
+    { "t": "Hast du Geschwister?", "s": "Do you have brothers or sisters?" },
+    { "t": "Ich habe zwei Kinder.", "s": "I have two children." },
+    { "t": "Wir wohnen in Köln.", "s": "We live in Cologne." },
+    { "t": "Wie heißt deine Schwester?", "s": "What's your sister's name?" },
+    { "t": "Mein Bruder ist zwanzig Jahre alt.", "s": "My brother is twenty years old." },
+    { "t": "Haben Sie Kinder?", "s": "Do you have children? (polite)" }
+  ]
+}

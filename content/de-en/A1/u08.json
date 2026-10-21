@@ -1,0 +1,154 @@
+{
+  "id": "u08",
+  "level": "A1",
+  "emoji": "🛍️",
+  "title": { "t": "Einkaufen", "s": "Shopping" },
+  "goals": [
+    "Name clothes and colors",
+    "Ask for prices: Wie viel kostet …?",
+    "Use the accusative: den / einen",
+    "Point at things with dieser / diese / dieses"
+  ],
+  "words": [
+    { "id": "w01", "t": "die Hose", "pl": "die Hosen", "s": "pants, trousers", "emoji": "👖",
+      "ex": { "t": "Die Hose ist blau.", "s": "The pants are blue." } },
+    { "id": "w02", "t": "das Hemd", "pl": "die Hemden", "s": "shirt", "emoji": "👔",
+      "ex": { "t": "Das Hemd kostet zwölf Euro.", "s": "The shirt costs twelve euros." } },
+    { "id": "w03", "t": "das Kleid", "pl": "die Kleider", "s": "dress", "emoji": "👗",
+      "ex": { "t": "Das Kleid ist rot.", "s": "The dress is red." } },
+    { "id": "w04", "t": "der Mantel", "pl": "die Mäntel", "s": "coat", "emoji": "🧥",
+      "ex": { "t": "Der Mantel ist teuer.", "s": "The coat is expensive." } },
+    { "id": "w05", "t": "der Schuh", "pl": "die Schuhe", "s": "shoe", "emoji": "👞",
+      "ex": { "t": "Die Schuhe sind schwarz.", "s": "The shoes are black." } },
+    { "id": "w06", "t": "der Schal", "pl": "die Schals", "s": "scarf", "emoji": "🧣",
+      "ex": { "t": "Ich möchte einen Schal.", "s": "I'd like a scarf." } },
+    { "id": "w07", "t": "die Tasche", "pl": "die Taschen", "s": "bag", "emoji": "👜",
+      "ex": { "t": "Die Tasche ist billig.", "s": "The bag is cheap." } },
+    { "id": "w08", "t": "rot", "s": "red", "emoji": "🔴",
+      "ex": { "t": "Mein Mantel ist rot.", "s": "My coat is red." } },
+    { "id": "w09", "t": "blau", "s": "blue", "emoji": "🔵",
+      "ex": { "t": "Mein Schal ist blau.", "s": "My scarf is blue." } },
+    { "id": "w10", "t": "grün", "s": "green", "emoji": "🟢",
+      "ex": { "t": "Der Park ist grün.", "s": "The park is green." } },
+    { "id": "w11", "t": "schwarz", "s": "black", "emoji": "⚫",
+      "ex": { "t": "Die Tasche ist schwarz.", "s": "The bag is black." } },
+    { "id": "w12", "t": "weiß", "s": "white", "emoji": "⚪",
+      "ex": { "t": "Das Hemd ist weiß.", "s": "The shirt is white." } },
+    { "id": "w13", "t": "teuer", "s": "expensive", "emoji": "💰",
+      "ex": { "t": "Das ist zu teuer!", "s": "That's too expensive!" } },
+    { "id": "w14", "t": "billig", "s": "cheap", "emoji": "",
+      "ex": { "t": "Die Schuhe sind billig.", "s": "The shoes are cheap." } }
+  ],
+  "phrases": [
+    { "id": "p01", "t": "Was möchten Sie?", "s": "What would you like?" },
+    { "id": "p02", "t": "Wie viel kostet die Hose?", "s": "How much are the pants?" },
+    { "id": "p03", "t": "Das kostet zwanzig Euro.", "s": "That costs twenty euros." },
+    { "id": "p04", "t": "Welche Farbe?", "s": "What color?" },
+    { "id": "p05", "t": "gelb, braun, grau", "s": "yellow, brown, gray" },
+    { "id": "p06", "t": "Haben Sie das auch in Blau?", "s": "Do you have that in blue too?" },
+    { "id": "p07", "t": "Ich nehme den Schal.", "s": "I'll take the scarf." },
+    { "id": "p08", "t": "Das macht zwölf Euro.", "s": "That comes to twelve euros." }
+  ],
+  "dialogue": {
+    "title": { "t": "Wie viel kostet der Schal?", "s": "How much is the scarf?" },
+    "speakers": { "A": { "name": "Verkäuferin", "voice": "f" }, "B": { "name": "Ali", "voice": "m" } },
+    "lines": [
+      { "sp": "A", "t": "Guten Tag! Was möchten Sie?", "s": "Hello! What would you like?" },
+      { "sp": "B", "t": "Guten Tag! Ich möchte einen Schal.", "s": "Hello! I'd like a scarf." },
+      { "sp": "A", "t": "Welche Farbe möchten Sie?", "s": "What color would you like?" },
+      { "sp": "B", "t": "Blau, bitte. Wie viel kostet dieser Schal?", "s": "Blue, please. How much is this scarf?" },
+      { "sp": "A", "t": "Zwölf Euro.", "s": "Twelve euros." },
+      { "sp": "B", "t": "Das ist billig! Haben Sie auch Taschen?", "s": "That's cheap! Do you have bags too?" },
+      { "sp": "A", "t": "Ja, hier. Diese Tasche kostet zwanzig Euro.", "s": "Yes, here. This bag costs twenty euros." },
+      { "sp": "B", "t": "Hmm, das ist zu teuer. Ich nehme den Schal, bitte.", "s": "Hmm, that's too expensive. I'll take the scarf, please." },
+      { "sp": "A", "t": "Gern! Das macht zwölf Euro.", "s": "Sure! That comes to twelve euros." },
+      { "sp": "B", "t": "Hier, bitte. Vielen Dank!", "s": "Here you are. Thank you very much!" }
+    ]
+  },
+  "grammar": [
+    {
+      "id": "g01",
+      "title": { "t": "Ich nehme den Mantel.", "s": "The accusative: den / einen" },
+      "explain": "In **Ich nehme den Mantel**, the coat is the *object* – the thing you take, buy, want or have. Objects are in the **accusative** case.\nGood news: only **masculine** (der) words change! **der → den**, **ein → einen**, **kein → keinen**. Feminine, neuter and plural words stay the same.\nYou already know this from **Es gibt einen …**. It works the same way with **haben, möchten, kaufen, nehmen**: **Ich kaufe einen Schal.**\nThe table shows: the word → *the* (accusative) → *a* (accusative).\nNote: **nehmen** is irregular: ich nehme, du **nimmst**, er/sie **nimmt**.",
+      "table": [
+        ["der Mantel", "den Mantel", "einen Mantel"],
+        ["die Hose", "die Hose", "eine Hose"],
+        ["das Hemd", "das Hemd", "ein Hemd"],
+        ["die Schuhe", "die Schuhe", "Schuhe"]
+      ],
+      "examples": [
+        { "t": "Ich nehme den Mantel.", "s": "I'll take the coat." },
+        { "t": "Maryam kauft einen Schal.", "s": "Maryam buys a scarf." },
+        { "t": "Ich möchte eine Tasche.", "s": "I'd like a bag." },
+        { "t": "Ali hat keinen Mantel.", "s": "Ali doesn't have a coat." },
+        { "t": "Wir kaufen das Kleid.", "s": "We're buying the dress." }
+      ],
+      "exercises": [
+        { "type": "choice", "t": "Ich nehme ___ Mantel.", "options": ["der", "den", "das"], "answer": 1, "s": "I'll take the coat." },
+        { "type": "choice", "t": "Sara kauft ___ Schal.", "options": ["ein", "eine", "einen"], "answer": 2, "s": "Sara buys a scarf." },
+        { "type": "choice", "t": "Ich möchte ___ Hose.", "options": ["die", "den", "das"], "answer": 0, "s": "I'd like the pants." },
+        { "type": "type", "t": "Lukas hat ___ Mantel.", "answer": ["keinen"], "s": "Lukas doesn't have a coat." },
+        { "type": "type", "t": "Ich kaufe ___ Schal.", "answer": ["einen"], "s": "I'm buying a scarf." },
+        { "type": "choice", "t": "Reza kauft ___ Schuhe.", "options": ["den", "die", "der"], "answer": 1, "s": "Reza buys the shoes." },
+        { "type": "type", "t": "Wir nehmen ___ Hemd.", "answer": ["das"], "s": "We'll take the shirt." },
+        { "type": "order", "t": "Ich nehme den Schal.", "s": "I'll take the scarf." }
+      ]
+    },
+    {
+      "id": "g02",
+      "title": { "t": "Wie viel kostet dieser Mantel?", "s": "this: dieser / diese / dieses" },
+      "explain": "To point at something – *this* coat, *this* bag – use **dieser**. The ending matches the article: **der → dieser**, **die → diese**, **das → dieses**, plural **die → diese**.\nIn the accusative, masculine changes again, just like **den**: **Ich nehme diesen Mantel.**\nTo ask the price, say **Wie viel kostet …?** for one thing and **Wie viel kosten …?** for more than one: **Wie viel kosten diese Schuhe?**\nThe table shows: the word → *this* → *this* (accusative).",
+      "table": [
+        ["der Mantel", "dieser Mantel", "diesen Mantel"],
+        ["die Tasche", "diese Tasche", "diese Tasche"],
+        ["das Kleid", "dieses Kleid", "dieses Kleid"],
+        ["die Schuhe", "diese Schuhe", "diese Schuhe"]
+      ],
+      "examples": [
+        { "t": "Wie viel kostet dieser Schal?", "s": "How much is this scarf?" },
+        { "t": "Diese Tasche ist schwarz.", "s": "This bag is black." },
+        { "t": "Dieses Kleid kostet zwanzig Euro.", "s": "This dress costs twenty euros." },
+        { "t": "Ich nehme diesen Mantel.", "s": "I'll take this coat." },
+        { "t": "Wie viel kosten diese Schuhe?", "s": "How much are these shoes?" }
+      ],
+      "exercises": [
+        { "type": "choice", "t": "___ Hemd ist weiß.", "options": ["Dieser", "Diese", "Dieses"], "answer": 2, "s": "This shirt is white." },
+        { "type": "choice", "t": "Wie viel kostet ___ Tasche?", "options": ["diese", "dieser", "dieses"], "answer": 0, "s": "How much is this bag?" },
+        { "type": "choice", "t": "Ich nehme ___ Schal.", "options": ["dieser", "diesen", "dieses"], "answer": 1, "s": "I'll take this scarf." },
+        { "type": "choice", "t": "Wie viel ___ diese Schuhe?", "options": ["kostet", "kostest", "kosten"], "answer": 2, "s": "How much are these shoes?" },
+        { "type": "type", "t": "___ Mantel ist teuer.", "answer": ["Dieser"], "s": "This coat is expensive." },
+        { "type": "type", "t": "Das Kleid ___ fünfzehn Euro.", "answer": ["kostet"], "s": "The dress costs fifteen euros." },
+        { "type": "order", "t": "Wie viel kostet dieses Kleid?", "s": "How much is this dress?" }
+      ]
+    }
+  ],
+  "reading": {
+    "title": { "t": "Sara kauft ein", "s": "Sara goes shopping" },
+    "text": [
+      { "t": "Sara ist in der Stadt und kauft ein.", "s": "Sara is in town, shopping." },
+      { "t": "Sie möchte ein Kleid und eine Tasche.", "s": "She'd like a dress and a bag." },
+      { "t": "Dieses Kleid ist grün und kostet achtzehn Euro.", "s": "This dress is green and costs eighteen euros." },
+      { "t": "Das ist nicht teuer. Sara nimmt das Kleid.", "s": "That isn't expensive. Sara takes the dress." },
+      { "t": "Die Tasche ist schwarz und kostet zwanzig Euro.", "s": "The bag is black and costs twenty euros." },
+      { "t": "Das ist zu teuer!", "s": "That's too expensive!" },
+      { "t": "Sara kauft keine Tasche, aber sie nimmt einen Schal.", "s": "Sara doesn't buy a bag, but she takes a scarf." },
+      { "t": "Der Schal ist weiß und billig.", "s": "The scarf is white and cheap." }
+    ],
+    "questions": [
+      { "q": { "t": "Welche Farbe hat das Kleid?", "s": "What color is the dress?" }, "options": ["rot", "grün", "schwarz"], "answer": 1 },
+      { "q": { "t": "Wie viel kostet die Tasche?", "s": "How much is the bag?" }, "options": ["achtzehn Euro", "zehn Euro", "zwanzig Euro"], "answer": 2 },
+      { "q": { "t": "Was kauft Sara?", "s": "What does Sara buy?" }, "options": ["ein Kleid und einen Schal", "ein Kleid und eine Tasche", "eine Tasche und einen Schal"], "answer": 0 },
+      { "q": { "t": "Wie ist der Schal?", "s": "What is the scarf like?" }, "options": ["schwarz und teuer", "weiß und billig", "grün und billig"], "answer": 1 }
+    ]
+  },
+  "sentences": [
+    { "t": "Wie viel kostet diese Hose?", "s": "How much are these pants?" },
+    { "t": "Das kostet neun Euro fünfzig.", "s": "That costs nine euros fifty." },
+    { "t": "Ich nehme den Mantel.", "s": "I'll take the coat." },
+    { "t": "Haben Sie das auch in Rot?", "s": "Do you have that in red too?" },
+    { "t": "Maryam kauft einen Schal.", "s": "Maryam buys a scarf." },
+    { "t": "Dieses Hemd ist zu teuer.", "s": "This shirt is too expensive." },
+    { "t": "Ich möchte eine Hose, bitte.", "s": "I'd like a pair of pants, please." },
+    { "t": "Die Schuhe sind weiß.", "s": "The shoes are white." }
+  ]
+}

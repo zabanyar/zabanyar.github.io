@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" rx="112" fill="#14766a"/>
+  <path d="M110 128h196a60 60 0 0 1 60 60v92a60 60 0 0 1-60 60h-86l-70 58v-58h-40a60 60 0 0 1-60-60v-92a60 60 0 0 1 60-60z" fill="#ffffff"/>
+  <path d="M262 214h150a52 52 0 0 1 52 52v76a52 52 0 0 1-52 52h-28v50l-60-50h-62a52 52 0 0 1-52-52v-76a52 52 0 0 1 52-52z" fill="#f2b84b"/>
+  <text x="160" y="250" font-family="Arial, Helvetica, sans-serif" font-size="104" font-weight="700" fill="#14766a" text-anchor="middle">A</text>
+  <text x="337" y="345" font-family="Tahoma, Arial, sans-serif" font-size="96" font-weight="700" fill="#14766a" text-anchor="middle">ب</text>
+</svg>

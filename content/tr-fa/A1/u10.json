@@ -1,0 +1,666 @@
+{
+  "id": "u10",
+  "level": "A1",
+  "emoji": "🎨",
+  "title": {
+    "t": "Boş zaman",
+    "s": "وقت آزاد"
+  },
+  "goals": [
+    "بگویم در وقت آزادم چه کاری را دوست دارم.",
+    "بگویم چه کاری را می‌توانم یا نمی‌توانم انجام بدهم.",
+    "سؤال بله/نه را با mi بپرسم."
+  ],
+  "words": [
+    {
+      "id": "w01",
+      "t": "boş zaman",
+      "s": "وقت آزاد",
+      "pr": "بُش زامان",
+      "emoji": "",
+      "ex": {
+        "t": "Boş zamanımda kitap okuyorum.",
+        "s": "در وقت آزادم کتاب می‌خوانم."
+      }
+    },
+    {
+      "id": "w02",
+      "t": "yüzmek",
+      "s": "شنا کردن",
+      "pr": "یوزمِک",
+      "emoji": "🏊",
+      "ex": {
+        "t": "Yazın denizde yüzüyoruz.",
+        "s": "تابستان در دریا شنا می‌کنیم."
+      }
+    },
+    {
+      "id": "w03",
+      "t": "koşmak",
+      "s": "دویدن",
+      "pr": "کُشماک",
+      "emoji": "🏃",
+      "ex": {
+        "t": "Babam her sabah parkta koşuyor.",
+        "s": "پدرم هر صبح در پارک می‌دود."
+      }
+    },
+    {
+      "id": "w04",
+      "t": "futbol",
+      "s": "فوتبال",
+      "pr": "فوتبُل",
+      "emoji": "⚽",
+      "ex": {
+        "t": "Ali her akşam futbol oynuyor.",
+        "s": "علی هر عصر فوتبال بازی می‌کند."
+      }
+    },
+    {
+      "id": "w05",
+      "t": "oynamak",
+      "s": "بازی کردن",
+      "pr": "اُیناماک",
+      "emoji": "🎲",
+      "ex": {
+        "t": "Çocuklar parkta oynuyor.",
+        "s": "بچه‌ها در پارک بازی می‌کنند."
+      }
+    },
+    {
+      "id": "w06",
+      "t": "resim yapmak",
+      "s": "نقاشی کشیدن",
+      "pr": "رِسیم یاپماک",
+      "emoji": "🎨",
+      "ex": {
+        "t": "Elif resim yapıyor.",
+        "s": "الیف نقاشی می‌کشد."
+      }
+    },
+    {
+      "id": "w07",
+      "t": "müzik",
+      "s": "موسیقی",
+      "pr": "موزیک",
+      "emoji": "🎵",
+      "ex": {
+        "t": "Akşam müzik dinliyorum.",
+        "s": "عصر موسیقی گوش می‌دهم."
+      }
+    },
+    {
+      "id": "w08",
+      "t": "dinlemek",
+      "s": "گوش دادن",
+      "pr": "دینلِمِک",
+      "emoji": "🎧",
+      "ex": {
+        "t": "Lütfen dinleyin!",
+        "s": "لطفاً گوش کنید!"
+      }
+    },
+    {
+      "id": "w09",
+      "t": "şarkı söylemek",
+      "s": "آواز خواندن",
+      "pr": "شارکِ سُیلِمِک",
+      "emoji": "🎤",
+      "ex": {
+        "t": "Sara çok güzel şarkı söylüyor.",
+        "s": "سارا خیلی قشنگ آواز می‌خواند."
+      }
+    },
+    {
+      "id": "w10",
+      "t": "bisiklet",
+      "pl": "bisikletler",
+      "s": "دوچرخه",
+      "pr": "بیسیکلِت",
+      "emoji": "🚲",
+      "ex": {
+        "t": "Ben bisiklete binebilirim.",
+        "s": "من می‌توانم دوچرخه‌سواری کنم."
+      }
+    },
+    {
+      "id": "w11",
+      "t": "gitar",
+      "pl": "gitarlar",
+      "s": "گیتار",
+      "pr": "گیتار",
+      "emoji": "🎸",
+      "ex": {
+        "t": "Maryam gitar çalıyor.",
+        "s": "مریم گیتار می‌زند."
+      }
+    },
+    {
+      "id": "w12",
+      "t": "yürüyüş",
+      "s": "پیاده‌روی",
+      "pr": "یورویوش",
+      "emoji": "🥾",
+      "ex": {
+        "t": "Akşam yürüyüş yapıyoruz.",
+        "s": "عصر پیاده‌روی می‌کنیم."
+      }
+    },
+    {
+      "id": "w13",
+      "t": "sinema",
+      "s": "سینما",
+      "pr": "سینِما",
+      "emoji": "🎬",
+      "ex": {
+        "t": "Sinema çok yakın.",
+        "s": "سینما خیلی نزدیک است."
+      }
+    },
+    {
+      "id": "w14",
+      "t": "satranç",
+      "s": "شطرنج",
+      "pr": "ساترانچ",
+      "emoji": "♟️",
+      "ex": {
+        "t": "Dedem ve ben satranç oynuyoruz.",
+        "s": "من و پدربزرگم شطرنج بازی می‌کنیم."
+      }
+    }
+  ],
+  "phrases": [
+    {
+      "id": "p01",
+      "t": "Boş zamanında ne yapıyorsun?",
+      "s": "در وقت آزادت چه کار می‌کنی؟",
+      "pr": "بُش زامانِندا نِه یاپِیُرسون؟"
+    },
+    {
+      "id": "p02",
+      "t": "Ne yapmayı seversin?",
+      "s": "دوست داری چه کار کنی؟",
+      "pr": "نِه یاپمایِ سِوِرسین؟"
+    },
+    {
+      "id": "p03",
+      "t": "Yüzebilir misin?",
+      "s": "می‌توانی شنا کنی؟",
+      "pr": "یوزِبیلیر میسین؟"
+    },
+    {
+      "id": "p04",
+      "t": "Evet, yüzebilirim.",
+      "s": "بله، می‌توانم شنا کنم.",
+      "pr": "اِوِت، یوزِبیلیریم."
+    },
+    {
+      "id": "p05",
+      "t": "Hayır, yüzemem.",
+      "s": "نه، نمی‌توانم شنا کنم.",
+      "pr": "هایِر، یوزِمِم."
+    },
+    {
+      "id": "p06",
+      "t": "Hobim resim yapmak.",
+      "s": "سرگرمی من نقاشی است.",
+      "pr": "هُبیم رِسیم یاپماک."
+    },
+    {
+      "id": "p07",
+      "t": "Hadi, birlikte oynayalım!",
+      "s": "بیا با هم بازی کنیم!",
+      "pr": "هادی، بیرلیکتِه اُینایالِم!"
+    },
+    {
+      "id": "p08",
+      "t": "Ben de!",
+      "s": "من هم!",
+      "pr": "بِن دِه!"
+    }
+  ],
+  "dialogue": {
+    "title": {
+      "t": "Ne yapmayı seversin?",
+      "s": "دوست داری چه کار کنی؟"
+    },
+    "speakers": {
+      "A": {
+        "name": "Sara",
+        "voice": "f"
+      },
+      "B": {
+        "name": "Ali",
+        "voice": "m"
+      }
+    },
+    "lines": [
+      {
+        "sp": "A",
+        "t": "Ali, boş zamanında ne yapıyorsun?",
+        "s": "علی، در وقت آزادت چه کار می‌کنی؟"
+      },
+      {
+        "sp": "B",
+        "t": "Futbol oynamayı severim. Sen futbol sever misin?",
+        "s": "فوتبال بازی کردن را دوست دارم. تو فوتبال دوست داری؟"
+      },
+      {
+        "sp": "A",
+        "t": "Hayır, sevmem. Ama yüzmeyi çok severim.",
+        "s": "نه، دوست ندارم. ولی شنا کردن را خیلی دوست دارم."
+      },
+      {
+        "sp": "B",
+        "t": "Ben yüzemem. Zor mu?",
+        "s": "من نمی‌توانم شنا کنم. سخت است؟"
+      },
+      {
+        "sp": "A",
+        "t": "Zor değil. Ben sana öğretebilirim!",
+        "s": "سخت نیست. من می‌توانم به تو یاد بدهم!"
+      },
+      {
+        "sp": "B",
+        "t": "Harika! Sen satranç oynayabilir misin?",
+        "s": "عالی! تو می‌توانی شطرنج بازی کنی؟"
+      },
+      {
+        "sp": "A",
+        "t": "Evet, oynayabilirim. Satranç oynamayı da severim.",
+        "s": "بله، می‌توانم. شطرنج بازی کردن را هم دوست دارم."
+      },
+      {
+        "sp": "B",
+        "t": "Ben de! Akşam birlikte oynayalım mı?",
+        "s": "من هم! عصر با هم بازی کنیم؟"
+      },
+      {
+        "sp": "A",
+        "t": "Tamam! Saat yedide?",
+        "s": "باشه! ساعت هفت؟"
+      },
+      {
+        "sp": "B",
+        "t": "Evet, saat yedide!",
+        "s": "بله، ساعت هفت!"
+      }
+    ]
+  },
+  "grammar": [
+    {
+      "id": "g01",
+      "title": {
+        "t": "Yüzebilirim / Yüzemem",
+        "s": "می‌توانم / نمی‌توانم: ebil / abil"
+      },
+      "explain": "برای گفتن «می‌توانم» در ترکی به ریشه‌ی فعل **ebil** یا **abil** و بعد شناسه اضافه می‌کنیم: yüz → **yüzebilirim** (می‌توانم شنا کنم).\nهماهنگی دوتایی: بعد از e، i، ö، ü → **ebil**؛ بعد از a، ı، o، u → **abil**. مثال: koş → **koşabilirim**، çal → **çalabilirim**.\nاگر ریشه به واکه ختم شود، یک **y** وسط می‌آید: oku → **okuyabilirim**، oyna → **oynayabilirim**، söyle → **söyleyebilirim**.\nبرای «نمی‌توانم» از **eme / ama** استفاده می‌کنیم: **yüzemem** (نمی‌توانم شنا کنم)، **koşamam**. شکل منفی برای بقیه‌ی شخص‌ها کمی فرق دارد؛ جدول را ببینید.\nحالا می‌فهمید چرا در درس خرید گفتیم **Bunu alabilir miyim?** = می‌توانم این را بخرم؟",
+      "table": [
+        [
+          "ben",
+          "yüzebilirim",
+          "yüzemem"
+        ],
+        [
+          "sen",
+          "yüzebilirsin",
+          "yüzemezsin"
+        ],
+        [
+          "o",
+          "yüzebilir",
+          "yüzemez"
+        ],
+        [
+          "biz",
+          "yüzebiliriz",
+          "yüzemeyiz"
+        ],
+        [
+          "siz",
+          "yüzebilirsiniz",
+          "yüzemezsiniz"
+        ],
+        [
+          "onlar",
+          "yüzebilirler",
+          "yüzemezler"
+        ]
+      ],
+      "examples": [
+        {
+          "t": "Ben yüzebilirim.",
+          "s": "من می‌توانم شنا کنم."
+        },
+        {
+          "t": "Maryam gitar çalabilir.",
+          "s": "مریم می‌تواند گیتار بزند."
+        },
+        {
+          "t": "Biz bisiklete binebiliriz.",
+          "s": "ما می‌توانیم دوچرخه‌سواری کنیم."
+        },
+        {
+          "t": "Babam şarkı söyleyemez.",
+          "s": "پدرم نمی‌تواند آواز بخواند."
+        },
+        {
+          "t": "Ben satranç oynayamam.",
+          "s": "من نمی‌توانم شطرنج بازی کنم."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "choice",
+          "t": "Ben çok iyi ___.",
+          "options": [
+            "yüzabilirim",
+            "yüzebilirim",
+            "yüzebilir"
+          ],
+          "answer": 1,
+          "s": "من می‌توانم خیلی خوب شنا کنم."
+        },
+        {
+          "type": "choice",
+          "t": "Ali satranç ___.",
+          "options": [
+            "oynayabilir",
+            "oynabilir",
+            "oynayebilir"
+          ],
+          "answer": 0,
+          "s": "علی می‌تواند شطرنج بازی کند."
+        },
+        {
+          "type": "choice",
+          "t": "Ben gitar ___.",
+          "options": [
+            "çalamaz",
+            "çalemem",
+            "çalamam"
+          ],
+          "answer": 2,
+          "s": "من نمی‌توانم گیتار بزنم."
+        },
+        {
+          "type": "type",
+          "t": "Sen de ___.",
+          "answer": [
+            "koşabilirsin"
+          ],
+          "s": "تو هم می‌توانی بدوی."
+        },
+        {
+          "type": "type",
+          "t": "Annem çok güzel resim ___.",
+          "answer": [
+            "yapabilir"
+          ],
+          "s": "مادرم می‌تواند خیلی قشنگ نقاشی بکشد."
+        },
+        {
+          "type": "type",
+          "t": "Ben şarkı ___.",
+          "answer": [
+            "söyleyemem"
+          ],
+          "s": "من نمی‌توانم آواز بخوانم."
+        },
+        {
+          "type": "order",
+          "t": "Biz bisiklete binebiliriz.",
+          "s": "ما می‌توانیم دوچرخه‌سواری کنیم."
+        },
+        {
+          "type": "order",
+          "t": "Ali yüzemez ama koşabilir.",
+          "s": "علی نمی‌تواند شنا کند ولی می‌تواند بدود."
+        }
+      ]
+    },
+    {
+      "id": "g02",
+      "title": {
+        "t": "Okumayı severim + mi?",
+        "s": "«… را دوست دارم» و سؤال با mi"
+      },
+      "explain": "برای گفتن «… کردن را دوست دارم» (به طور کلی) مصدر فعل را با **yi / yı** می‌آوریم و بعد **severim**: okumak → **okumayı severim** (خواندن را دوست دارم)، yüzmek → **yüzmeyi severim**.\nفقط دو شکل داریم: mek → **meyi** و mak → **mayı**.\nصرف sevmek در این حالت: **severim، seversin، sever، severiz، seversiniz، severler**. منفی: **sevmem** (دوست ندارم).\nسؤال بله/نه: کلمه‌ی کوچک **mi** را **جدا** می‌نویسیم و آخر جمله می‌آوریم. با هماهنگی چهارتایی: **mi / mı / mu / mü**. شناسه به mi می‌چسبد: Sever **misin**? (دوست داری؟)، Yüzebilir **misin**? (می‌توانی شنا کنی؟)، Çay istiyor **musun**? (چای می‌خواهی؟)",
+      "table": [
+        [
+          "e / i",
+          "mi",
+          "Güzel mi?"
+        ],
+        [
+          "a / ı",
+          "mı",
+          "Var mı?"
+        ],
+        [
+          "o / u",
+          "mu",
+          "Soğuk mu?"
+        ],
+        [
+          "ö / ü",
+          "mü",
+          "Büyük mü?"
+        ]
+      ],
+      "examples": [
+        {
+          "t": "Kitap okumayı severim.",
+          "s": "کتاب خواندن را دوست دارم."
+        },
+        {
+          "t": "Yüzmeyi sever misin? Evet, çok severim.",
+          "s": "شنا کردن را دوست داری؟ بله، خیلی دوست دارم."
+        },
+        {
+          "t": "Babam futbol oynamayı sever.",
+          "s": "پدرم فوتبال بازی کردن را دوست دارد."
+        },
+        {
+          "t": "Gitar çalabilir misin? Hayır, çalamam.",
+          "s": "می‌توانی گیتار بزنی؟ نه، نمی‌توانم."
+        },
+        {
+          "t": "Hava soğuk mu?",
+          "s": "هوا سرد است؟"
+        }
+      ],
+      "exercises": [
+        {
+          "type": "choice",
+          "t": "Ben müzik ___ severim.",
+          "options": [
+            "dinlemek",
+            "dinlemeyi",
+            "dinlemayı"
+          ],
+          "answer": 1,
+          "s": "من موسیقی گوش دادن را دوست دارم."
+        },
+        {
+          "type": "choice",
+          "t": "Yüzmeyi sever ___?",
+          "options": [
+            "misin",
+            "mısın",
+            "musun"
+          ],
+          "answer": 0,
+          "s": "شنا کردن را دوست داری؟"
+        },
+        {
+          "type": "choice",
+          "t": "Çay istiyor ___?",
+          "options": [
+            "misin",
+            "müsün",
+            "musun"
+          ],
+          "answer": 2,
+          "s": "چای می‌خواهی؟"
+        },
+        {
+          "type": "choice",
+          "t": "Hava soğuk ___?",
+          "options": [
+            "mu",
+            "mı",
+            "mi"
+          ],
+          "answer": 0,
+          "s": "هوا سرد است؟"
+        },
+        {
+          "type": "type",
+          "t": "Satranç oynayabilir ___?",
+          "answer": [
+            "misin"
+          ],
+          "s": "می‌توانی شطرنج بازی کنی؟"
+        },
+        {
+          "type": "type",
+          "t": "Annem yemek ___ sever.",
+          "answer": [
+            "yapmayı"
+          ],
+          "s": "مادرم آشپزی کردن را دوست دارد."
+        },
+        {
+          "type": "order",
+          "t": "Kitap okumayı çok severim.",
+          "s": "کتاب خواندن را خیلی دوست دارم."
+        }
+      ]
+    }
+  ],
+  "reading": {
+    "title": {
+      "t": "Bizim ailede boş zaman",
+      "s": "وقت آزاد در خانواده‌ی ما"
+    },
+    "text": [
+      {
+        "t": "Benim adım Maryam. Ailemde dört kişi var.",
+        "s": "اسم من مریم است. خانواده‌ی ما چهار نفر است."
+      },
+      {
+        "t": "Babam Reza satranç oynamayı çok sever.",
+        "s": "پدرم، رضا، شطرنج بازی کردن را خیلی دوست دارد."
+      },
+      {
+        "t": "Annem resim yapabilir; resimleri çok güzel.",
+        "s": "مادرم می‌تواند نقاشی بکشد؛ نقاشی‌هایش خیلی قشنگ است."
+      },
+      {
+        "t": "Kardeşim Ali futbol oynamayı sever ama yüzemez.",
+        "s": "برادرم علی فوتبال بازی کردن را دوست دارد، ولی نمی‌تواند شنا کند."
+      },
+      {
+        "t": "Ben kitap okumayı ve müzik dinlemeyi severim.",
+        "s": "من کتاب خواندن و موسیقی گوش دادن را دوست دارم."
+      },
+      {
+        "t": "Gitar da çalabilirim.",
+        "s": "گیتار هم می‌توانم بزنم."
+      },
+      {
+        "t": "Hafta sonu hep birlikte parka gidiyoruz ve bisiklete biniyoruz.",
+        "s": "آخر هفته همه با هم به پارک می‌رویم و دوچرخه‌سواری می‌کنیم."
+      },
+      {
+        "t": "Sen boş zamanında ne yapmayı seversin?",
+        "s": "تو در وقت آزادت دوست داری چه کار کنی؟"
+      }
+    ],
+    "questions": [
+      {
+        "q": {
+          "t": "Reza ne yapmayı sever?",
+          "s": "رضا دوست دارد چه کار کند؟"
+        },
+        "options": [
+          "Yüzmeyi",
+          "Satranç oynamayı",
+          "Gitar çalmayı"
+        ],
+        "answer": 1
+      },
+      {
+        "q": {
+          "t": "Ali yüzebilir mi?",
+          "s": "علی می‌تواند شنا کند؟"
+        },
+        "options": [
+          "Evet, yüzebilir.",
+          "Evet, çok sever.",
+          "Hayır, yüzemez."
+        ],
+        "answer": 2
+      },
+      {
+        "q": {
+          "t": "Kim gitar çalabilir?",
+          "s": "چه کسی می‌تواند گیتار بزند؟"
+        },
+        "options": [
+          "Maryam",
+          "Ali",
+          "Reza"
+        ],
+        "answer": 0
+      },
+      {
+        "q": {
+          "t": "Hafta sonu nereye gidiyorlar?",
+          "s": "آخر هفته کجا می‌روند؟"
+        },
+        "options": [
+          "Denize",
+          "Parka",
+          "Sinemaya"
+        ],
+        "answer": 1
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "t": "Ben yüzebilirim ama gitar çalamam.",
+      "s": "من می‌توانم شنا کنم، ولی نمی‌توانم گیتار بزنم."
+    },
+    {
+      "t": "Kitap okumayı severim.",
+      "s": "کتاب خواندن را دوست دارم."
+    },
+    {
+      "t": "Futbol oynamayı sever misin?",
+      "s": "فوتبال بازی کردن را دوست داری؟"
+    },
+    {
+      "t": "Babam her sabah koşuyor.",
+      "s": "پدرم هر صبح می‌دود."
+    },
+    {
+      "t": "Akşam sinemaya gidiyoruz.",
+      "s": "عصر به سینما می‌رویم."
+    },
+    {
+      "t": "Satranç oynayabilir misin?",
+      "s": "می‌توانی شطرنج بازی کنی؟"
+    },
+    {
+      "t": "Çocuklar parkta bisiklete biniyor.",
+      "s": "بچه‌ها در پارک دوچرخه‌سواری می‌کنند."
+    },
+    {
+      "t": "Annem şarkı söylemeyi çok sever.",
+      "s": "مادرم آواز خواندن را خیلی دوست دارد."
+    }
+  ]
+}

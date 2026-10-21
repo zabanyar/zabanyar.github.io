@@ -1,0 +1,671 @@
+{
+  "id": "u03",
+  "level": "A1",
+  "emoji": "👪",
+  "title": {
+    "t": "My family",
+    "s": "خانوادهٔ من"
+  },
+  "goals": [
+    "اعضای خانواده را نام ببرم.",
+    "با my، your، his، her، our و their بگویم چیزی مال کیست.",
+    "با 's مالکیت را نشان بدهم، مثل Sara's brother.",
+    "با have و has بگویم چه کسانی را دارم."
+  ],
+  "words": [
+    {
+      "id": "w01",
+      "t": "family",
+      "pl": "families",
+      "s": "خانواده",
+      "pr": "فَمیلی",
+      "emoji": "👪",
+      "ex": {
+        "t": "This is my family.",
+        "s": "این خانوادهٔ من است."
+      }
+    },
+    {
+      "id": "w02",
+      "t": "mother",
+      "pl": "mothers",
+      "s": "مادر",
+      "pr": "ماذِر",
+      "emoji": "👩",
+      "ex": {
+        "t": "My mother is a teacher.",
+        "s": "مادرم معلم است."
+      }
+    },
+    {
+      "id": "w03",
+      "t": "father",
+      "pl": "fathers",
+      "s": "پدر",
+      "pr": "فاذِر",
+      "emoji": "👨",
+      "ex": {
+        "t": "His father is from Iran.",
+        "s": "پدرش اهل ایران است."
+      }
+    },
+    {
+      "id": "w04",
+      "t": "parents",
+      "s": "پدر و مادر، والدین",
+      "pr": "پِرِنتس",
+      "emoji": "",
+      "ex": {
+        "t": "Our parents are from Shiraz.",
+        "s": "پدر و مادر ما اهل شیراز هستند."
+      }
+    },
+    {
+      "id": "w05",
+      "t": "brother",
+      "pl": "brothers",
+      "s": "برادر",
+      "pr": "براذِر",
+      "emoji": "👦",
+      "ex": {
+        "t": "I have two brothers.",
+        "s": "من دو برادر دارم."
+      }
+    },
+    {
+      "id": "w06",
+      "t": "sister",
+      "pl": "sisters",
+      "s": "خواهر",
+      "pr": "سیستِر",
+      "emoji": "👧",
+      "ex": {
+        "t": "Sara is my sister.",
+        "s": "سارا خواهر من است."
+      }
+    },
+    {
+      "id": "w07",
+      "t": "son",
+      "pl": "sons",
+      "s": "پسر (فرزند)",
+      "pr": "سان",
+      "emoji": "",
+      "ex": {
+        "t": "They have a son.",
+        "s": "آن‌ها یک پسر دارند."
+      }
+    },
+    {
+      "id": "w08",
+      "t": "daughter",
+      "pl": "daughters",
+      "s": "دختر (فرزند)",
+      "pr": "داتِر",
+      "emoji": "",
+      "ex": {
+        "t": "Our daughter is six years old.",
+        "s": "دختر ما شش‌ساله است."
+      }
+    },
+    {
+      "id": "w09",
+      "t": "husband",
+      "pl": "husbands",
+      "s": "شوهر، همسر",
+      "pr": "هازبَند",
+      "emoji": "🤵",
+      "ex": {
+        "t": "Her husband is Reza.",
+        "s": "شوهرِ او رضا است."
+      }
+    },
+    {
+      "id": "w10",
+      "t": "wife",
+      "pl": "wives",
+      "s": "زن، همسر",
+      "pr": "وایف",
+      "emoji": "👰",
+      "ex": {
+        "t": "Ali's wife is a teacher.",
+        "s": "همسرِ علی معلم است."
+      }
+    },
+    {
+      "id": "w11",
+      "t": "grandmother",
+      "pl": "grandmothers",
+      "s": "مادربزرگ",
+      "pr": "گرَندماذِر",
+      "emoji": "👵",
+      "ex": {
+        "t": "My grandmother is from Tabriz.",
+        "s": "مادربزرگم اهل تبریز است."
+      }
+    },
+    {
+      "id": "w12",
+      "t": "grandfather",
+      "pl": "grandfathers",
+      "s": "پدربزرگ",
+      "pr": "گرَندفاذِر",
+      "emoji": "👴",
+      "ex": {
+        "t": "His grandfather is a teacher.",
+        "s": "پدربزرگِ او معلم است."
+      }
+    },
+    {
+      "id": "w13",
+      "t": "baby",
+      "pl": "babies",
+      "s": "نوزاد، بچهٔ کوچک",
+      "pr": "بِیبی",
+      "emoji": "👶",
+      "ex": {
+        "t": "Our baby is one year old.",
+        "s": "بچهٔ ما یک‌ساله است."
+      }
+    },
+    {
+      "id": "w14",
+      "t": "child",
+      "pl": "children",
+      "s": "بچه، فرزند",
+      "pr": "چایلد",
+      "emoji": "🧒",
+      "ex": {
+        "t": "They have two children.",
+        "s": "آن‌ها دو فرزند دارند."
+      }
+    }
+  ],
+  "phrases": [
+    {
+      "id": "p01",
+      "t": "This is my mother.",
+      "s": "این مادر من است.",
+      "pr": "ذیس ایز مای ماذِر."
+    },
+    {
+      "id": "p02",
+      "t": "Who is this?",
+      "s": "این کیست؟",
+      "pr": "هو ایز ذیس؟"
+    },
+    {
+      "id": "p03",
+      "t": "Do you have any brothers or sisters?",
+      "s": "خواهر یا برادر داری؟",
+      "pr": "دو یو هَو اِنی براذِرز اُر سیستِرز؟"
+    },
+    {
+      "id": "p04",
+      "t": "I have one brother and two sisters.",
+      "s": "یک برادر و دو خواهر دارم.",
+      "pr": "آی هَو وان براذِر اَند تو سیستِرز."
+    },
+    {
+      "id": "p05",
+      "t": "How is your family?",
+      "s": "حال خانواده‌ات چطور است؟",
+      "pr": "هاو ایز یور فَمیلی؟"
+    },
+    {
+      "id": "p06",
+      "t": "We are a big family.",
+      "s": "ما خانوادهٔ بزرگی هستیم.",
+      "pr": "وی آر اِ بیگ فَمیلی."
+    },
+    {
+      "id": "p07",
+      "t": "You have a nice family!",
+      "s": "خانوادهٔ خوبی داری!",
+      "pr": "یو هَو اِ نایس فَمیلی!"
+    }
+  ],
+  "dialogue": {
+    "title": {
+      "t": "Who is this?",
+      "s": "این کیست؟"
+    },
+    "speakers": {
+      "A": {
+        "name": "Emma",
+        "voice": "f"
+      },
+      "B": {
+        "name": "Reza",
+        "voice": "m"
+      }
+    },
+    "lines": [
+      {
+        "sp": "A",
+        "t": "Who is this, Reza?",
+        "s": "رضا، این کیست؟"
+      },
+      {
+        "sp": "B",
+        "t": "This is my father. His name is Ali.",
+        "s": "این پدر من است. اسمش علی است."
+      },
+      {
+        "sp": "A",
+        "t": "And who is this?",
+        "s": "این یکی کیست؟"
+      },
+      {
+        "sp": "B",
+        "t": "This is my mother. Her name is Maryam.",
+        "s": "این مادرم است. اسمش مریم است."
+      },
+      {
+        "sp": "A",
+        "t": "Do you have any brothers or sisters?",
+        "s": "خواهر یا برادر داری؟"
+      },
+      {
+        "sp": "B",
+        "t": "Yes, I have one sister. Her name is Neda. She's fifteen.",
+        "s": "بله، یک خواهر دارم. اسمش ندا است. پانزده سالش است."
+      },
+      {
+        "sp": "A",
+        "t": "Is this Neda's cat?",
+        "s": "این گربهٔ ندا است؟"
+      },
+      {
+        "sp": "B",
+        "t": "Yes! The cat's name is Max.",
+        "s": "بله! اسم گربه مَکس است."
+      },
+      {
+        "sp": "A",
+        "t": "You have a nice family!",
+        "s": "خانوادهٔ خوبی داری!"
+      },
+      {
+        "sp": "B",
+        "t": "Thank you, Emma!",
+        "s": "ممنون، اِما!"
+      }
+    ]
+  },
+  "grammar": [
+    {
+      "id": "g01",
+      "title": {
+        "t": "my / your / his / her / our / their",
+        "s": "صفت‌های ملکی: مالِ کیست؟"
+      },
+      "explain": "این کلمه‌ها نشان می‌دهند چیزی **مالِ کیست**. همیشه **قبل از اسم** می‌آیند: **my** mother یعنی «مادرِ من».\n**his** برای مرد است و **her** برای زن. در فارسی برای هر دو می‌گوییم «او»، اما در انگلیسی باید درست انتخاب کنیم: Ali and **his** sister، Sara and **her** sister.\nاین کلمه‌ها برای مفرد و جمع عوض نمی‌شوند: my brother، my brothers.",
+      "table": [
+        [
+          "I",
+          "my"
+        ],
+        [
+          "you",
+          "your"
+        ],
+        [
+          "he",
+          "his"
+        ],
+        [
+          "she",
+          "her"
+        ],
+        [
+          "we",
+          "our"
+        ],
+        [
+          "they",
+          "their"
+        ]
+      ],
+      "examples": [
+        {
+          "t": "My name is Amir.",
+          "s": "اسم من امیر است."
+        },
+        {
+          "t": "What's your name?",
+          "s": "اسمت چیست؟"
+        },
+        {
+          "t": "Reza is from Iran. His wife is from Tabriz.",
+          "s": "رضا اهل ایران است. همسرش اهل تبریز است."
+        },
+        {
+          "t": "Maryam is a teacher. Her son is ten.",
+          "s": "مریم معلم است. پسرش ده سالش است."
+        },
+        {
+          "t": "Our parents are from Shiraz.",
+          "s": "پدر و مادر ما اهل شیراز هستند."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "choice",
+          "t": "Ali is my brother. ___ wife is Maryam.",
+          "options": [
+            "His",
+            "Her",
+            "He"
+          ],
+          "answer": 0,
+          "s": "علی برادر من است. همسرِ او مریم است."
+        },
+        {
+          "type": "choice",
+          "t": "Maryam is a teacher. ___ son is a student.",
+          "options": [
+            "His",
+            "Her",
+            "She"
+          ],
+          "answer": 1,
+          "s": "مریم معلم است. پسرِ او دانشجو است."
+        },
+        {
+          "type": "choice",
+          "t": "We are from Iran. ___ family is big.",
+          "options": [
+            "Our",
+            "We",
+            "They"
+          ],
+          "answer": 0,
+          "s": "ما اهل ایران هستیم. خانوادهٔ ما بزرگ است."
+        },
+        {
+          "type": "choice",
+          "t": "What's ___ name?",
+          "options": [
+            "you",
+            "your",
+            "he"
+          ],
+          "answer": 1,
+          "s": "اسمت چیست؟"
+        },
+        {
+          "type": "type",
+          "t": "I am Tom. ___ name is Tom.",
+          "answer": [
+            "My"
+          ],
+          "s": "من تام هستم. اسم من تام است."
+        },
+        {
+          "type": "type",
+          "t": "They are my parents. ___ names are Ali and Maryam.",
+          "answer": [
+            "Their"
+          ],
+          "s": "آن‌ها پدر و مادر من هستند. اسمشان علی و مریم است."
+        },
+        {
+          "type": "order",
+          "t": "Her brother is a teacher.",
+          "s": "برادرِ او معلم است."
+        },
+        {
+          "type": "order",
+          "t": "This is our family.",
+          "s": "این خانوادهٔ ما است."
+        }
+      ]
+    },
+    {
+      "id": "g02",
+      "title": {
+        "t": "'s and have / has",
+        "s": "مالکیت با 's و فعل «داشتن»"
+      },
+      "explain": "برای گفتن «مالِ کسی» به آخر اسم آن شخص **'s** اضافه می‌کنیم: **Sara's** brother یعنی «برادرِ سارا». ترتیب برعکسِ فارسی است: اول صاحب، بعد چیز.\nدقت کنید: **'s** گاهی شکل کوتاه **is** است: She's = She is.\nفعل «داشتن» در انگلیسی **have** است: I **have** a sister. با **he**، **she** و **it** شکلش **has** می‌شود: She **has** two sons.\nدر انگلیسی بریتانیایی **have got** هم زیاد می‌شنوید (I've got a brother) که همان معنی را دارد.",
+      "table": [
+        [
+          "I",
+          "have"
+        ],
+        [
+          "you",
+          "have"
+        ],
+        [
+          "he / she / it",
+          "has"
+        ],
+        [
+          "we",
+          "have"
+        ],
+        [
+          "they",
+          "have"
+        ]
+      ],
+      "examples": [
+        {
+          "t": "Sara's brother is twenty.",
+          "s": "برادرِ سارا بیست سالش است."
+        },
+        {
+          "t": "Reza's mother is a teacher.",
+          "s": "مادرِ رضا معلم است."
+        },
+        {
+          "t": "I have two sisters.",
+          "s": "من دو خواهر دارم."
+        },
+        {
+          "t": "Ali has a son and a daughter.",
+          "s": "علی یک پسر و یک دختر دارد."
+        },
+        {
+          "t": "We have a big family.",
+          "s": "ما خانوادهٔ بزرگی داریم."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "choice",
+          "t": "She ___ two brothers.",
+          "options": [
+            "have",
+            "has"
+          ],
+          "answer": 1,
+          "s": "او دو برادر دارد."
+        },
+        {
+          "type": "choice",
+          "t": "I ___ a sister.",
+          "options": [
+            "have",
+            "has"
+          ],
+          "answer": 0,
+          "s": "من یک خواهر دارم."
+        },
+        {
+          "type": "choice",
+          "t": "They ___ three children.",
+          "options": [
+            "has",
+            "have"
+          ],
+          "answer": 1,
+          "s": "آن‌ها سه فرزند دارند."
+        },
+        {
+          "type": "type",
+          "t": "Ali ___ a baby.",
+          "answer": [
+            "has"
+          ],
+          "s": "علی یک بچهٔ کوچک دارد."
+        },
+        {
+          "type": "choice",
+          "t": "This is ___ cat.",
+          "options": [
+            "Neda",
+            "Neda's",
+            "Nedas"
+          ],
+          "answer": 1,
+          "s": "این گربهٔ ندا است."
+        },
+        {
+          "type": "type",
+          "t": "___ father is from Tabriz.",
+          "answer": [
+            "Ali's",
+            "Ali’s"
+          ],
+          "s": "پدرِ علی اهل تبریز است."
+        },
+        {
+          "type": "order",
+          "t": "Sara's mother is a teacher.",
+          "s": "مادرِ سارا معلم است."
+        },
+        {
+          "type": "order",
+          "t": "We have two daughters.",
+          "s": "ما دو دختر داریم."
+        }
+      ]
+    }
+  ],
+  "reading": {
+    "title": {
+      "t": "Amir's family",
+      "s": "خانوادهٔ امیر"
+    },
+    "text": [
+      {
+        "t": "Hi! I'm Amir, and this is my family.",
+        "s": "سلام! من امیر هستم و این خانوادهٔ من است."
+      },
+      {
+        "t": "My father's name is Ali.",
+        "s": "اسم پدرم علی است."
+      },
+      {
+        "t": "He is a teacher.",
+        "s": "او معلم است."
+      },
+      {
+        "t": "My mother's name is Maryam.",
+        "s": "اسم مادرم مریم است."
+      },
+      {
+        "t": "She is from Shiraz.",
+        "s": "او اهل شیراز است."
+      },
+      {
+        "t": "I have one sister and one brother.",
+        "s": "من یک خواهر و یک برادر دارم."
+      },
+      {
+        "t": "My sister, Neda, is fifteen.",
+        "s": "خواهرم، ندا، پانزده سالش است."
+      },
+      {
+        "t": "My brother is a baby. He is one year old.",
+        "s": "برادرم نوزاد است. او یک‌ساله است."
+      },
+      {
+        "t": "We are a happy family!",
+        "s": "ما خانوادهٔ شادی هستیم!"
+      }
+    ],
+    "questions": [
+      {
+        "q": {
+          "t": "Who is Ali?",
+          "s": "علی کیست؟"
+        },
+        "options": [
+          "Amir's father",
+          "Amir's brother",
+          "Amir's son"
+        ],
+        "answer": 0
+      },
+      {
+        "q": {
+          "t": "Where is Amir's mother from?",
+          "s": "مادرِ امیر اهل کجاست؟"
+        },
+        "options": [
+          "Tabriz",
+          "Shiraz",
+          "America"
+        ],
+        "answer": 1
+      },
+      {
+        "q": {
+          "t": "How old is Neda?",
+          "s": "ندا چند سالش است؟"
+        },
+        "options": [
+          "five",
+          "fifteen",
+          "one"
+        ],
+        "answer": 1
+      },
+      {
+        "q": {
+          "t": "Is Amir's brother a student?",
+          "s": "آیا برادرِ امیر دانش‌آموز است؟"
+        },
+        "options": [
+          "Yes, he is.",
+          "No, he isn't."
+        ],
+        "answer": 1
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "t": "This is my grandmother.",
+      "s": "این مادربزرگ من است."
+    },
+    {
+      "t": "My father has two brothers.",
+      "s": "پدرم دو برادر دارد."
+    },
+    {
+      "t": "Reza's wife is from Tabriz.",
+      "s": "همسرِ رضا اهل تبریز است."
+    },
+    {
+      "t": "Do you have any sisters?",
+      "s": "خواهر داری؟"
+    },
+    {
+      "t": "Our son is seven years old.",
+      "s": "پسرمان هفت‌ساله است."
+    },
+    {
+      "t": "His parents are teachers.",
+      "s": "پدر و مادرش معلم هستند."
+    },
+    {
+      "t": "Who is this?",
+      "s": "این کیست؟"
+    }
+  ]
+}

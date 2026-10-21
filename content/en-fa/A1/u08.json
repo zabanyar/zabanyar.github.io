@@ -1,0 +1,622 @@
+{
+  "id": "u08",
+  "level": "A1",
+  "emoji": "🛍️",
+  "title": {
+    "t": "Shopping and colors",
+    "s": "خرید، لباس و رنگ‌ها"
+  },
+  "goals": [
+    "می‌توانم لباس‌ها و رنگ‌ها را نام ببرم.",
+    "می‌توانم قیمت چیزی را بپرسم.",
+    "می‌توانم با this / that / these / those به چیزها اشاره کنم."
+  ],
+  "words": [
+    {
+      "id": "w01",
+      "t": "shirt",
+      "pl": "shirts",
+      "s": "پیراهن (مردانه)",
+      "pr": "شِرت",
+      "emoji": "👔",
+      "ex": {
+        "t": "This shirt is blue.",
+        "s": "این پیراهن آبی است."
+      }
+    },
+    {
+      "id": "w02",
+      "t": "T-shirt",
+      "pl": "T-shirts",
+      "s": "تی‌شرت",
+      "pr": "تی‌شِرت",
+      "emoji": "👕",
+      "ex": {
+        "t": "I'd like a white T-shirt, please.",
+        "s": "یک تی‌شرت سفید می‌خواهم، لطفاً."
+      }
+    },
+    {
+      "id": "w03",
+      "t": "pants",
+      "s": "شلوار",
+      "pr": "پَنتس",
+      "emoji": "👖",
+      "ex": {
+        "t": "These pants are black.",
+        "s": "این شلوار مشکی است."
+      }
+    },
+    {
+      "id": "w04",
+      "t": "dress",
+      "pl": "dresses",
+      "s": "پیراهن زنانه، لباس زنانه",
+      "pr": "دْرِس",
+      "emoji": "👗",
+      "ex": {
+        "t": "Maryam's dress is red.",
+        "s": "لباس مریم قرمز است."
+      }
+    },
+    {
+      "id": "w05",
+      "t": "shoe",
+      "pl": "shoes",
+      "s": "کفش",
+      "pr": "شو",
+      "emoji": "👞",
+      "ex": {
+        "t": "I like these shoes.",
+        "s": "من این کفش‌ها را دوست دارم."
+      }
+    },
+    {
+      "id": "w06",
+      "t": "coat",
+      "pl": "coats",
+      "s": "کت، پالتو",
+      "pr": "کوت",
+      "emoji": "🧥",
+      "ex": {
+        "t": "My coat is black.",
+        "s": "کت من مشکی است."
+      }
+    },
+    {
+      "id": "w07",
+      "t": "scarf",
+      "pl": "scarves",
+      "s": "شال‌گردن",
+      "pr": "سْکارف",
+      "emoji": "🧣",
+      "ex": {
+        "t": "My grandmother has a green scarf.",
+        "s": "مادربزرگم یک شال‌گردن سبز دارد."
+      }
+    },
+    {
+      "id": "w08",
+      "t": "bag",
+      "pl": "bags",
+      "s": "کیف",
+      "pr": "بَگ",
+      "emoji": "👜",
+      "ex": {
+        "t": "Is this your bag?",
+        "s": "این کیف توست؟"
+      }
+    },
+    {
+      "id": "w09",
+      "t": "red",
+      "s": "قرمز",
+      "pr": "رِد",
+      "emoji": "🔴",
+      "ex": {
+        "t": "The apple is red.",
+        "s": "سیب قرمز است."
+      }
+    },
+    {
+      "id": "w10",
+      "t": "blue",
+      "s": "آبی",
+      "pr": "بْلو",
+      "emoji": "🔵",
+      "ex": {
+        "t": "Ali's shirt is blue.",
+        "s": "پیراهن علی آبی است."
+      }
+    },
+    {
+      "id": "w11",
+      "t": "green",
+      "s": "سبز",
+      "pr": "گْرین",
+      "emoji": "🟢",
+      "ex": {
+        "t": "I'd like the green bag, please.",
+        "s": "کیف سبز را می‌خواهم، لطفاً."
+      }
+    },
+    {
+      "id": "w12",
+      "t": "black",
+      "s": "سیاه، مشکی",
+      "pr": "بْلَک",
+      "emoji": "⚫",
+      "ex": {
+        "t": "I like black tea.",
+        "s": "من چای سیاه دوست دارم."
+      }
+    },
+    {
+      "id": "w13",
+      "t": "white",
+      "s": "سفید",
+      "pr": "وایت",
+      "emoji": "⚪",
+      "ex": {
+        "t": "Milk is white.",
+        "s": "شیر سفید است."
+      }
+    },
+    {
+      "id": "w14",
+      "t": "yellow",
+      "s": "زرد",
+      "pr": "یِلو",
+      "emoji": "🟡",
+      "ex": {
+        "t": "Bananas are yellow.",
+        "s": "موز زرد است."
+      }
+    }
+  ],
+  "phrases": [
+    {
+      "id": "p01",
+      "t": "How much is it?",
+      "s": "قیمتش چقدر است؟",
+      "pr": "هاو ماچ ایز ایت؟"
+    },
+    {
+      "id": "p02",
+      "t": "How much are they?",
+      "s": "قیمتشان چقدر است؟",
+      "pr": "هاو ماچ آر ذِی؟"
+    },
+    {
+      "id": "p03",
+      "t": "It's ten dollars.",
+      "s": "ده دلار است.",
+      "pr": "ایتس تِن دالِرز"
+    },
+    {
+      "id": "p04",
+      "t": "Can I help you?",
+      "s": "می‌توانم کمکتان کنم؟",
+      "pr": "کَن آی هِلپ یو؟"
+    },
+    {
+      "id": "p05",
+      "t": "I'm just looking.",
+      "s": "فقط نگاه می‌کنم.",
+      "pr": "آیم جاست لوکینگ"
+    },
+    {
+      "id": "p06",
+      "t": "What color is it?",
+      "s": "چه رنگی است؟",
+      "pr": "وات کالِر ایز ایت؟"
+    },
+    {
+      "id": "p07",
+      "t": "It's too big.",
+      "s": "زیادی بزرگ است.",
+      "pr": "ایتس تو بیگ"
+    },
+    {
+      "id": "p08",
+      "t": "Here you are.",
+      "s": "بفرمایید.",
+      "pr": "هیر یو آر"
+    }
+  ],
+  "dialogue": {
+    "title": {
+      "t": "At the clothing store",
+      "s": "در مغازهٔ لباس‌فروشی"
+    },
+    "speakers": {
+      "A": {
+        "name": "Tom",
+        "voice": "m"
+      },
+      "B": {
+        "name": "Neda",
+        "voice": "f"
+      }
+    },
+    "lines": [
+      {
+        "sp": "A",
+        "t": "Hello. Can I help you?",
+        "s": "سلام. می‌توانم کمکتان کنم؟"
+      },
+      {
+        "sp": "B",
+        "t": "Yes, please. How much is this scarf?",
+        "s": "بله، لطفاً. این شال‌گردن چند است؟"
+      },
+      {
+        "sp": "A",
+        "t": "The green scarf? It's five dollars.",
+        "s": "شال‌گردن سبز؟ پنج دلار است."
+      },
+      {
+        "sp": "B",
+        "t": "And that bag?",
+        "s": "آن کیف چطور؟"
+      },
+      {
+        "sp": "A",
+        "t": "The black bag is twenty dollars.",
+        "s": "کیف مشکی بیست دلار است."
+      },
+      {
+        "sp": "B",
+        "t": "Hmm. And how much are those shoes?",
+        "s": "هوم. آن کفش‌ها چند است؟"
+      },
+      {
+        "sp": "A",
+        "t": "These white shoes? They're fifteen dollars.",
+        "s": "این کفش‌های سفید؟ پانزده دلار است."
+      },
+      {
+        "sp": "B",
+        "t": "OK. I'd like the scarf and the shoes, please.",
+        "s": "باشه. شال‌گردن و کفش‌ها را می‌خواهم، لطفاً."
+      },
+      {
+        "sp": "A",
+        "t": "That's twenty dollars, please.",
+        "s": "می‌شود بیست دلار، لطفاً."
+      },
+      {
+        "sp": "B",
+        "t": "Here you are.",
+        "s": "بفرمایید."
+      }
+    ]
+  },
+  "grammar": [
+    {
+      "id": "g01",
+      "title": {
+        "t": "this / that / these / those",
+        "s": "این / آن / این‌ها / آن‌ها"
+      },
+      "explain": "برای چیزی که **نزدیک** ماست، **this** (این) و برای چیزی که **دور** است، **that** (آن) می‌گوییم.\nبرای چند چیز (جمع): **these** (این‌ها) و **those** (آن‌ها).\nبعد از this و that فعل **is** می‌آید: **This shirt is blue.**\nبعد از these و those فعل **are** می‌آید: **These shoes are black.**\nنکته: **pants** (شلوار) در انگلیسی همیشه جمع است: **These pants are black.**",
+      "table": [
+        [
+          "this shirt",
+          "these shirts"
+        ],
+        [
+          "that shirt",
+          "those shirts"
+        ]
+      ],
+      "examples": [
+        {
+          "t": "This bag is red.",
+          "s": "این کیف قرمز است."
+        },
+        {
+          "t": "That coat is black.",
+          "s": "آن کت مشکی است."
+        },
+        {
+          "t": "These shoes are white.",
+          "s": "این کفش‌ها سفید هستند."
+        },
+        {
+          "t": "Those T-shirts are green.",
+          "s": "آن تی‌شرت‌ها سبز هستند."
+        },
+        {
+          "t": "I like these pants.",
+          "s": "من این شلوار را دوست دارم."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "choice",
+          "t": "___ shoes are black.",
+          "options": [
+            "This",
+            "These",
+            "That"
+          ],
+          "answer": 1,
+          "s": "این کفش‌ها مشکی هستند."
+        },
+        {
+          "type": "choice",
+          "t": "___ bag is blue.",
+          "options": [
+            "That",
+            "Those",
+            "These"
+          ],
+          "answer": 0,
+          "s": "آن کیف آبی است."
+        },
+        {
+          "type": "choice",
+          "t": "These shirts ___ white.",
+          "options": [
+            "is",
+            "am",
+            "are"
+          ],
+          "answer": 2,
+          "s": "این پیراهن‌ها سفید هستند."
+        },
+        {
+          "type": "type",
+          "t": "___ coat is red.",
+          "answer": [
+            "This"
+          ],
+          "s": "این کت قرمز است."
+        },
+        {
+          "type": "type",
+          "t": "___ T-shirts are yellow.",
+          "answer": [
+            "Those"
+          ],
+          "s": "آن تی‌شرت‌ها زرد هستند."
+        },
+        {
+          "type": "order",
+          "t": "I like this green scarf.",
+          "s": "من این شال‌گردن سبز را دوست دارم."
+        },
+        {
+          "type": "choice",
+          "t": "Those pants ___ black.",
+          "options": [
+            "are",
+            "is"
+          ],
+          "answer": 0,
+          "s": "آن شلوار مشکی است."
+        }
+      ]
+    },
+    {
+      "id": "g02",
+      "title": {
+        "t": "How much is it? / a red dress",
+        "s": "پرسیدن قیمت و جای رنگ در جمله"
+      },
+      "explain": "برای پرسیدن قیمت یک چیز می‌گوییم: **How much is it?** یا **How much is this shirt?**\nبرای چیزهای جمع: **How much are they?** یا **How much are these shoes?**\nجواب: **It's ten dollars.** / **They're ten dollars.** (ده دلار است.)\nدر انگلیسی **رنگ قبل از اسم** می‌آید، برعکسِ فارسی: **a red dress** (یک لباس قرمز)، **black shoes** (کفش مشکی).\nرنگ‌ها هیچ‌وقت جمع بسته نمی‌شوند: **red shoes** (نه reds shoes).",
+      "table": [
+        [
+          "How much is",
+          "this bag?"
+        ],
+        [
+          "How much are",
+          "these shoes?"
+        ],
+        [
+          "a + color + thing",
+          "a blue shirt"
+        ]
+      ],
+      "examples": [
+        {
+          "t": "How much is this T-shirt? It's twelve dollars.",
+          "s": "این تی‌شرت چند است؟ دوازده دلار است."
+        },
+        {
+          "t": "How much are these shoes? They're twenty dollars.",
+          "s": "این کفش‌ها چند است؟ بیست دلار است."
+        },
+        {
+          "t": "I'd like a white shirt, please.",
+          "s": "یک پیراهن سفید می‌خواهم، لطفاً."
+        },
+        {
+          "t": "Sara has a green bag.",
+          "s": "سارا یک کیف سبز دارد."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "choice",
+          "t": "How much ___ this scarf?",
+          "options": [
+            "is",
+            "are"
+          ],
+          "answer": 0,
+          "s": "این شال‌گردن چند است؟"
+        },
+        {
+          "type": "choice",
+          "t": "How much ___ these pants?",
+          "options": [
+            "is",
+            "are"
+          ],
+          "answer": 1,
+          "s": "این شلوار چند است؟"
+        },
+        {
+          "type": "choice",
+          "t": "I'd like a ___, please.",
+          "options": [
+            "bag red",
+            "red bag",
+            "reds bag"
+          ],
+          "answer": 1,
+          "s": "یک کیف قرمز می‌خواهم، لطفاً."
+        },
+        {
+          "type": "order",
+          "t": "How much is this coat?",
+          "s": "این کت چند است؟"
+        },
+        {
+          "type": "order",
+          "t": "She has a blue dress.",
+          "s": "او یک لباس آبی دارد."
+        },
+        {
+          "type": "type",
+          "t": "How ___ is it?",
+          "answer": [
+            "much"
+          ],
+          "s": "قیمتش چقدر است؟"
+        },
+        {
+          "type": "type",
+          "t": "It's fifteen ___.",
+          "answer": [
+            "dollars"
+          ],
+          "s": "پانزده دلار است."
+        }
+      ]
+    }
+  ],
+  "reading": {
+    "title": {
+      "t": "At the clothing store",
+      "s": "در مغازهٔ لباس‌فروشی"
+    },
+    "text": [
+      {
+        "t": "Maryam and her daughter Neda are at a clothing store.",
+        "s": "مریم و دخترش ندا در یک مغازهٔ لباس‌فروشی هستند."
+      },
+      {
+        "t": "Neda likes red. She would like a red dress.",
+        "s": "ندا رنگ قرمز را دوست دارد. او یک لباس قرمز می‌خواهد."
+      },
+      {
+        "t": "The red dress is eighteen dollars.",
+        "s": "لباس قرمز هجده دلار است."
+      },
+      {
+        "t": "Maryam likes the black coat, but it's too big.",
+        "s": "مریم کت مشکی را دوست دارد، اما زیادی بزرگ است."
+      },
+      {
+        "t": "There are some white T-shirts next to the coats.",
+        "s": "کنار کت‌ها چند تی‌شرت سفید هست."
+      },
+      {
+        "t": "They are six dollars.",
+        "s": "قیمتشان شش دلار است."
+      },
+      {
+        "t": "Maryam would like a white T-shirt for Amir.",
+        "s": "مریم یک تی‌شرت سفید برای امیر می‌خواهد."
+      },
+      {
+        "t": "Amir is her son.",
+        "s": "امیر پسرِ اوست."
+      }
+    ],
+    "questions": [
+      {
+        "q": {
+          "t": "What color is Neda's dress?",
+          "s": "لباس ندا چه رنگی است؟"
+        },
+        "options": [
+          "red",
+          "black",
+          "white"
+        ],
+        "answer": 0
+      },
+      {
+        "q": {
+          "t": "How much is the red dress?",
+          "s": "لباس قرمز چند است؟"
+        },
+        "options": [
+          "eight dollars",
+          "eighteen dollars",
+          "twenty dollars"
+        ],
+        "answer": 1
+      },
+      {
+        "q": {
+          "t": "How much are the white T-shirts?",
+          "s": "تی‌شرت‌های سفید چند است؟"
+        },
+        "options": [
+          "sixteen dollars",
+          "ten dollars",
+          "six dollars"
+        ],
+        "answer": 2
+      },
+      {
+        "q": {
+          "t": "Who is Amir?",
+          "s": "امیر کیست؟"
+        },
+        "options": [
+          "Neda's father",
+          "Maryam's son",
+          "Maryam's brother"
+        ],
+        "answer": 1
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "t": "How much is this bag?",
+      "s": "این کیف چند است؟"
+    },
+    {
+      "t": "These shoes are black.",
+      "s": "این کفش‌ها مشکی هستند."
+    },
+    {
+      "t": "I'd like a blue T-shirt, please.",
+      "s": "یک تی‌شرت آبی می‌خواهم، لطفاً."
+    },
+    {
+      "t": "That coat is too big.",
+      "s": "آن کت زیادی بزرگ است."
+    },
+    {
+      "t": "Those pants are fifteen dollars.",
+      "s": "آن شلوار پانزده دلار است."
+    },
+    {
+      "t": "My sister has a yellow dress.",
+      "s": "خواهرم یک لباس زرد دارد."
+    },
+    {
+      "t": "What color is your scarf?",
+      "s": "شال‌گردنت چه رنگی است؟"
+    }
+  ]
+}

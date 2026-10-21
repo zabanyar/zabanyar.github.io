@@ -1,0 +1,140 @@
+{
+  "id": "u04",
+  "level": "A1",
+  "emoji": "🍽️",
+  "title": { "t": "Yiyecek ve içecek", "s": "خوردنی و نوشیدنی" },
+  "goals": [
+    "نام خوردنی‌ها و نوشیدنی‌های رایج را بگویم.",
+    "با istiyorum / istemiyorum بگویم چه می‌خواهم و چه نمی‌خواهم.",
+    "با seviyorum / sevmiyorum بگویم چه چیزی را دوست دارم.",
+    "در رستوران مؤدبانه با «… lütfen» سفارش بدهم."
+  ],
+  "words": [
+    { "id": "w01", "t": "çay", "s": "چای", "pr": "چای", "emoji": "🫖", "ex": { "t": "Bir çay, lütfen.", "s": "یک چای، لطفاً." } },
+    { "id": "w02", "t": "kahve", "s": "قهوه", "pr": "کاهوِه", "emoji": "☕", "ex": { "t": "Kahve istemiyorum.", "s": "قهوه نمی‌خواهم." } },
+    { "id": "w03", "t": "su", "s": "آب", "pr": "سو", "emoji": "💧", "ex": { "t": "Su istiyorum.", "s": "آب می‌خواهم." } },
+    { "id": "w04", "t": "süt", "s": "شیر (نوشیدنی)", "pr": "سوت", "emoji": "🥛", "ex": { "t": "Çocuklar süt istiyor.", "s": "بچه‌ها شیر می‌خواهند." } },
+    { "id": "w05", "t": "ekmek", "s": "نان", "pr": "اِکمِک", "emoji": "🍞", "ex": { "t": "Ekmek ve peynir, lütfen.", "s": "نان و پنیر، لطفاً." } },
+    { "id": "w06", "t": "peynir", "s": "پنیر", "pr": "پِینیر", "emoji": "🧀", "ex": { "t": "Peyniri çok seviyorum.", "s": "پنیر را خیلی دوست دارم." } },
+    { "id": "w07", "t": "yumurta", "pl": "yumurtalar", "s": "تخم‌مرغ", "pr": "یومورتا", "emoji": "🥚", "ex": { "t": "İki yumurta istiyorum.", "s": "دو تخم‌مرغ می‌خواهم." } },
+    { "id": "w08", "t": "pilav", "s": "پلو", "pr": "پیلاو", "emoji": "🍚", "ex": { "t": "Pilavı çok seviyoruz.", "s": "ما پلو را خیلی دوست داریم." } },
+    { "id": "w09", "t": "tavuk", "s": "مرغ", "pr": "تاووک", "emoji": "🍗", "ex": { "t": "Tavuk ve pilav, lütfen.", "s": "مرغ و پلو، لطفاً." } },
+    { "id": "w10", "t": "meyve", "pl": "meyveler", "s": "میوه", "pr": "مِیوِه", "emoji": "🍉", "ex": { "t": "Elif meyve istiyor.", "s": "الیف میوه می‌خواهد." } },
+    { "id": "w11", "t": "salata", "s": "سالاد", "pr": "سالاتا", "emoji": "🥗", "ex": { "t": "Bir salata, lütfen.", "s": "یک سالاد، لطفاً." } },
+    { "id": "w12", "t": "çorba", "s": "سوپ (شوربا)", "pr": "چُربا", "emoji": "🍲", "ex": { "t": "Çorba çok lezzetli.", "s": "سوپ خیلی خوشمزه است." } },
+    { "id": "w13", "t": "kahvaltı", "s": "صبحانه", "pr": "کاهوالتِ", "emoji": "🍳", "ex": { "t": "Kahvaltıyı çok seviyorum.", "s": "صبحانه را خیلی دوست دارم." } },
+    { "id": "w14", "t": "lütfen", "s": "لطفاً", "pr": "لوتفِن", "emoji": "", "ex": { "t": "Su, lütfen.", "s": "آب، لطفاً." } }
+  ],
+  "phrases": [
+    { "id": "p01", "t": "Hoş geldiniz!", "s": "خوش آمدید!", "pr": "هُش گِلدینیز!" },
+    { "id": "p02", "t": "Buyurun!", "s": "بفرمایید!", "pr": "بویورون!" },
+    { "id": "p03", "t": "Ne istiyorsun?", "s": "چه می‌خواهی؟", "pr": "نِه ایستی‌یُرسون؟" },
+    { "id": "p04", "t": "Bir çay, lütfen.", "s": "یک چای، لطفاً.", "pr": "بیر چای، لوتفِن" },
+    { "id": "p05", "t": "Afiyet olsun!", "s": "نوش جان!", "pr": "آفیِت اُلسون!" },
+    { "id": "p06", "t": "Çok lezzetli!", "s": "خیلی خوشمزه است!", "pr": "چُک لِزِّتلی!" },
+    { "id": "p07", "t": "Hesap, lütfen.", "s": "صورت‌حساب، لطفاً.", "pr": "هِساپ، لوتفِن" },
+    { "id": "p08", "t": "Ellerine sağlık!", "s": "دستت درد نکند!", "pr": "اِلِّرینِه سالِک!" }
+  ],
+  "dialogue": {
+    "title": { "t": "Lokantada", "s": "در رستوران" },
+    "speakers": { "A": { "name": "Sara", "voice": "f" }, "B": { "name": "Mehmet", "voice": "m" } },
+    "lines": [
+      { "sp": "B", "t": "Hoş geldiniz! Buyurun.", "s": "خوش آمدید! بفرمایید." },
+      { "sp": "A", "t": "Merhaba! Bir çay, lütfen.", "s": "سلام! یک چای، لطفاً." },
+      { "sp": "B", "t": "Tabii. Başka bir şey?", "s": "البته. چیز دیگری هم می‌خواهید؟" },
+      { "sp": "A", "t": "Evet, bir çorba ve pilav istiyorum.", "s": "بله، یک سوپ و پلو می‌خواهم." },
+      { "sp": "B", "t": "Peki, su?", "s": "باشه، آب چطور؟" },
+      { "sp": "A", "t": "Hayır, su istemiyorum. Teşekkürler.", "s": "نه، آب نمی‌خواهم. ممنون." },
+      { "sp": "B", "t": "Buyurun!", "s": "بفرمایید!" },
+      { "sp": "A", "t": "Teşekkürler. Çorba çok lezzetli!", "s": "ممنون. سوپ خیلی خوشمزه است!" },
+      { "sp": "B", "t": "Afiyet olsun!", "s": "نوش جان!" },
+      { "sp": "A", "t": "Hesap, lütfen.", "s": "صورت‌حساب، لطفاً." }
+    ]
+  },
+  "grammar": [
+    {
+      "id": "g01",
+      "title": { "t": "istiyorum / istemiyorum", "s": "می‌خواهم / نمی‌خواهم" },
+      "explain": "**istiyorum** یعنی «می‌خواهم». آخرِ آن **-um** است، همان پسوندِ «من» که در درس ۱ دیدیم.\nبرای منفی کردن، **-me-** وسطِ فعل می‌آید: **istemiyorum** = نمی‌خواهم.\nترتیب جمله در ترکی مثل فارسی است: **فعل در آخرِ جمله** می‌آید! **Ben çay istiyorum.** = من چای می‌خواهم.\nبرای سفارشِ مؤدبانه کافی است بگویید: **Bir çay, lütfen.** = یک چای، لطفاً. کلمه‌ی **lütfen** همان «لطفاً»ی فارسی است!",
+      "table": [
+        ["ben", "istiyorum", "istemiyorum"],
+        ["sen", "istiyorsun", "istemiyorsun"],
+        ["o", "istiyor", "istemiyor"],
+        ["biz", "istiyoruz", "istemiyoruz"],
+        ["siz", "istiyorsunuz", "istemiyorsunuz"],
+        ["onlar", "istiyorlar", "istemiyorlar"]
+      ],
+      "examples": [
+        { "t": "Ben çay istiyorum.", "s": "من چای می‌خواهم." },
+        { "t": "Ali kahve istemiyor.", "s": "علی قهوه نمی‌خواهد." },
+        { "t": "Biz su istiyoruz.", "s": "ما آب می‌خواهیم." },
+        { "t": "Bir çorba, lütfen.", "s": "یک سوپ، لطفاً." },
+        { "t": "Çocuklar süt istiyor.", "s": "بچه‌ها شیر می‌خواهند." }
+      ],
+      "exercises": [
+        { "type": "choice", "t": "Ben çay ___.", "options": ["istiyorum", "istiyorsun", "istiyor"], "answer": 0, "s": "من چای می‌خواهم." },
+        { "type": "choice", "t": "Sen ne ___?", "options": ["istiyorum", "istiyorsun", "istiyoruz"], "answer": 1, "s": "تو چه می‌خواهی؟" },
+        { "type": "type", "t": "Ali kahve ___.", "answer": ["istemiyor"], "s": "علی قهوه نمی‌خواهد." },
+        { "type": "choice", "t": "Biz su ___.", "options": ["istiyorlar", "istiyoruz", "istiyorsunuz"], "answer": 1, "s": "ما آب می‌خواهیم." },
+        { "type": "type", "t": "Ben süt ___.", "answer": ["istemiyorum"], "s": "من شیر نمی‌خواهم." },
+        { "type": "order", "t": "Ben bir çay istiyorum.", "s": "من یک چای می‌خواهم." },
+        { "type": "order", "t": "İki çorba, lütfen.", "s": "دو سوپ، لطفاً." }
+      ]
+    },
+    {
+      "id": "g02",
+      "title": { "t": "Çayı seviyorum.", "s": "دوست دارم / دوست ندارم" },
+      "explain": "**seviyorum** یعنی «دوست دارم» و **sevmiyorum** یعنی «دوست ندارم».\nوقتی می‌گوییم چیزی را دوست داریم، به اسم یک پسوندِ کوچک اضافه می‌کنیم: **-ı / -i / -u / -ü** (با هماهنگی حروف صدادار). این پسوند خیلی شبیه «را» در فارسی است!\n**çay ← çayı**، **peynir ← peyniri**، **süt ← sütü**\nاگر اسم با حرف صدادار تمام شود، یک **y** وسط می‌آید: **kahve ← kahveyi**، **kahvaltı ← kahvaltıyı**.\nنکته: **k** آخرِ کلمه این‌جا **ğ** می‌شود: **tavuk ← tavuğu**، **ekmek ← ekmeği**.\nمثال: **Çayı çok seviyorum.** = چای را خیلی دوست دارم.",
+      "table": [
+        ["çay", "çayı", "Çayı seviyorum."],
+        ["peynir", "peyniri", "Peyniri seviyorum."],
+        ["süt", "sütü", "Sütü sevmiyorum."],
+        ["kahve", "kahveyi", "Kahveyi seviyorum."],
+        ["tavuk", "tavuğu", "Tavuğu sevmiyorum."]
+      ],
+      "examples": [
+        { "t": "Pilavı çok seviyorum.", "s": "پلو را خیلی دوست دارم." },
+        { "t": "Reza kahveyi sevmiyor.", "s": "رضا قهوه دوست ندارد." },
+        { "t": "Elif sütü seviyor.", "s": "الیف شیر دوست دارد." },
+        { "t": "Biz çayı çok seviyoruz.", "s": "ما چای را خیلی دوست داریم." }
+      ],
+      "exercises": [
+        { "type": "choice", "t": "Ben çay___ seviyorum.", "options": ["ı", "i", "yı"], "answer": 0, "s": "من چای را دوست دارم." },
+        { "type": "choice", "t": "Kahve___ sevmiyorum.", "options": ["yi", "ı", "i"], "answer": 0, "s": "قهوه دوست ندارم." },
+        { "type": "type", "t": "Peynir___ çok seviyorum.", "answer": ["i"], "s": "پنیر را خیلی دوست دارم." },
+        { "type": "choice", "t": "Elif sütü ___.", "options": ["seviyorum", "seviyor", "seviyoruz"], "answer": 1, "s": "الیف شیر دوست دارد." },
+        { "type": "type", "t": "Ben tavuğu ___.", "answer": ["sevmiyorum"], "s": "من مرغ دوست ندارم." },
+        { "type": "order", "t": "Biz pilavı çok seviyoruz.", "s": "ما پلو را خیلی دوست داریم." }
+      ]
+    }
+  ],
+  "reading": {
+    "title": { "t": "Kahvaltı", "s": "صبحانه" },
+    "text": [
+      { "t": "Merhaba! Ben Ali.", "s": "سلام! من علی هستم." },
+      { "t": "Kahvaltıyı çok seviyorum.", "s": "صبحانه را خیلی دوست دارم." },
+      { "t": "Ben ekmek, peynir ve çay istiyorum.", "s": "من نان، پنیر و چای می‌خواهم." },
+      { "t": "Eşim Maryam yumurtayı çok seviyor.", "s": "همسرم مریم تخم‌مرغ را خیلی دوست دارد." },
+      { "t": "Kızımız Elif süt istiyor.", "s": "دخترمان الیف شیر می‌خواهد." },
+      { "t": "Oğlumuz Can sütü sevmiyor.", "s": "پسرمان جان شیر دوست ندارد." },
+      { "t": "O meyve istiyor.", "s": "او میوه می‌خواهد." },
+      { "t": "Biz çayı çok seviyoruz!", "s": "ما چای را خیلی دوست داریم!" }
+    ],
+    "questions": [
+      { "q": { "t": "Ali ne istiyor?", "s": "علی چه می‌خواهد؟" }, "options": ["ekmek, peynir ve çay", "pilav ve tavuk", "kahve ve süt"], "answer": 0 },
+      { "q": { "t": "Maryam neyi çok seviyor?", "s": "مریم چه چیزی را خیلی دوست دارد؟" }, "options": ["sütü", "yumurtayı", "kahveyi"], "answer": 1 },
+      { "q": { "t": "Elif ne istiyor?", "s": "الیف چه می‌خواهد؟" }, "options": ["süt", "meyve", "kahve"], "answer": 0 },
+      { "q": { "t": "Kim sütü sevmiyor?", "s": "چه کسی شیر دوست ندارد؟" }, "options": ["Elif", "Can", "Maryam"], "answer": 1 }
+    ]
+  },
+  "sentences": [
+    { "t": "Bir çay, lütfen.", "s": "یک چای، لطفاً." },
+    { "t": "Ben kahve istemiyorum.", "s": "من قهوه نمی‌خواهم." },
+    { "t": "Pilavı çok seviyorum.", "s": "پلو را خیلی دوست دارم." },
+    { "t": "Afiyet olsun!", "s": "نوش جان!" },
+    { "t": "Çorba çok lezzetli.", "s": "سوپ خیلی خوشمزه است." },
+    { "t": "Elif süt istiyor.", "s": "الیف شیر می‌خواهد." },
+    { "t": "Hesap, lütfen.", "s": "صورت‌حساب، لطفاً." },
+    { "t": "Babam tavuğu seviyor.", "s": "پدرم مرغ دوست دارد." }
+  ]
+}
