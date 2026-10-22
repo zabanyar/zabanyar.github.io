@@ -310,6 +310,10 @@ async function route() {
   }
 }
 addEventListener("hashchange", route);
+store.onSync(s => {
+  // progress arrived from another device: refresh overview screens (never interrupt a running lesson)
+  if (s === "changed" && !/\/(l\/|review)/.test(location.hash) && !document.querySelector(".player")) route();
+});
 store.onSync(s => { if (s === "unknown") { toast("این اسم در فهرست خانواده نیست · Unknown name · Bilinmeyen ad"); store.logout(); go("#/login"); } });
 route();
 if (store.currentUser()) store.sync();

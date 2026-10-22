@@ -115,10 +115,12 @@ export async function sync() {
     const r = await api("sync", { user: u.id, data: progress() });
     if (r.status === 403) { emit("unknown"); return; }
     if (r.ok && r.data) {
-      const merged = mergeProgress(progress(), r.data);
+      const before = progress();
+      const merged = mergeProgress(before, r.data);
       lsSet(key(), merged);
       if (u.unverified && r.user) lsSet(LS_USER, r.user);
-      emit("ok");
+      const changed = JSON.stringify({ ...merged, updatedAt: 0 }) !== JSON.stringify({ ...mergeProgress(before, null), updatedAt: 0 });
+      emit(changed ? "changed" : "ok");
     }
   } catch { emit("offline"); }
 }
