@@ -1,0 +1,144 @@
+{
+  "id": "u01",
+  "level": "A1",
+  "emoji": "👋",
+  "title": { "t": "سلام!", "pr": "Salâm!", "s": "Merhaba!" },
+  "goals": [
+    "Farsça selamlaşıp vedalaşabilmek.",
+    "Kendimi tanıtıp birinin adını sorabilmek.",
+    "Nereli olduğumu söyleyebilmek.",
+    "Şahıs zamirlerini ve «olmak» fiilini (hastam, hasti, ast…) kullanabilmek."
+  ],
+  "words": [
+    { "id": "w01", "t": "سلام", "pr": "salâm", "s": "merhaba, selam", "emoji": "👋", "ex": { "t": "سلام! من سارا هستم.", "pr": "Salâm! Man Sârâ hastam.", "s": "Merhaba! Ben Sara'yım." } },
+    { "id": "w02", "t": "من", "pr": "man", "s": "ben", "emoji": "", "ex": { "t": "من مهمت هستم.", "pr": "Man Mehmet hastam.", "s": "Ben Mehmet'im." } },
+    { "id": "w03", "t": "تو", "pr": "to", "s": "sen", "emoji": "", "ex": { "t": "تو ایرانی هستی.", "pr": "To İrâni hasti.", "s": "Sen İranlısın." } },
+    { "id": "w04", "t": "او", "pr": "u", "s": "o (kadın ya da erkek)", "emoji": "", "ex": { "t": "او معلم است.", "pr": "U mo'allem ast.", "s": "O öğretmen." } },
+    { "id": "w05", "t": "ما", "pr": "mâ", "s": "biz", "emoji": "", "ex": { "t": "ما ترک هستیم.", "pr": "Mâ Tork hastim.", "s": "Biz Türküz." } },
+    { "id": "w06", "t": "شما", "pr": "şomâ", "s": "siz", "emoji": "", "ex": { "t": "شما اهل کجا هستید؟", "pr": "Şomâ ahl-e kocâ hastid?", "s": "Siz nerelisiniz?" } },
+    { "id": "w07", "t": "آن‌ها", "pr": "ânhâ", "s": "onlar", "emoji": "", "ex": { "t": "آن‌ها ایرانی هستند.", "pr": "Ânhâ İrâni hastand.", "s": "Onlar İranlı." } },
+    { "id": "w08", "t": "اسم", "pr": "esm", "s": "ad, isim", "emoji": "", "ex": { "t": "اسم من علی است.", "pr": "Esm-e man Ali ast.", "s": "Benim adım Ali." } },
+    { "id": "w09", "t": "ایرانی", "pr": "İrâni", "s": "İranlı", "emoji": "", "ex": { "t": "من ایرانی هستم.", "pr": "Man İrâni hastam.", "s": "Ben İranlıyım." } },
+    { "id": "w10", "t": "اهل", "pr": "ahl", "s": "…li, …lı (bir yerden olan)", "emoji": "", "ex": { "t": "من اهل تهران هستم.", "pr": "Man ahl-e Tehrân hastam.", "s": "Ben Tahranlıyım." } },
+    { "id": "w11", "t": "ترکیه", "pr": "Torkiye", "s": "Türkiye", "emoji": "", "ex": { "t": "من اهل ترکیه هستم.", "pr": "Man ahl-e Torkiye hastam.", "s": "Ben Türkiyeliyim." } },
+    { "id": "w12", "t": "معلم", "pl": "معلم‌ها", "pr": "mo'allem", "s": "öğretmen", "emoji": "", "ex": { "t": "آیشه معلم است.", "pr": "Âyşe mo'allem ast.", "s": "Ayşe öğretmen." } },
+    { "id": "w13", "t": "دانشجو", "pl": "دانشجوها", "pr": "dâneşcu", "s": "(üniversite) öğrenci", "emoji": "🎓", "ex": { "t": "مریم دانشجو است.", "pr": "Maryam dâneşcu ast.", "s": "Maryam öğrenci." } },
+    { "id": "w14", "t": "خوب", "pr": "xub", "s": "iyi", "emoji": "👍", "ex": { "t": "من خوبم.", "pr": "Man xubam.", "s": "Ben iyiyim." } }
+  ],
+  "phrases": [
+    { "id": "p01", "t": "صبح بخیر!", "pr": "Sobh bexeyr!", "s": "Günaydın!" },
+    { "id": "p02", "t": "حال شما چطور است؟", "pr": "Hâl-e şomâ çetor ast?", "s": "Nasılsınız?" },
+    { "id": "p03", "t": "خوبم، ممنون.", "pr": "Xubam, mamnun.", "s": "İyiyim, teşekkürler." },
+    { "id": "p04", "t": "اسم شما چیست؟", "pr": "Esm-e şomâ çist?", "s": "Adınız ne?" },
+    { "id": "p05", "t": "اهل کجا هستید؟", "pr": "Ahl-e kocâ hastid?", "s": "Nerelisiniz?" },
+    { "id": "p06", "t": "خوشبختم!", "pr": "Xoşbaxtam!", "s": "Memnun oldum! (tanışınca)" },
+    { "id": "p07", "t": "ممنون!", "pr": "Mamnun!", "s": "Teşekkürler!" },
+    { "id": "p08", "t": "خداحافظ!", "pr": "Xodâhâfez!", "s": "Hoşça kal! / Güle güle!" }
+  ],
+  "dialogue": {
+    "title": { "t": "آشنایی", "pr": "Âşenâyi", "s": "Tanışma" },
+    "speakers": { "A": { "name": "Sara", "voice": "f" }, "B": { "name": "Mehmet", "voice": "m" } },
+    "lines": [
+      { "sp": "A", "t": "سلام!", "pr": "Salâm!", "s": "Merhaba!" },
+      { "sp": "B", "t": "سلام! حال شما چطور است؟", "pr": "Salâm! Hâl-e şomâ çetor ast?", "s": "Merhaba! Nasılsınız?" },
+      { "sp": "A", "t": "خوبم، ممنون. شما چطورید؟", "pr": "Xubam, mamnun. Şomâ çetorid?", "s": "İyiyim, teşekkürler. Siz nasılsınız?" },
+      { "sp": "B", "t": "من هم خوبم. اسم شما چیست؟", "pr": "Man ham xubam. Esm-e şomâ çist?", "s": "Ben de iyiyim. Adınız ne?" },
+      { "sp": "A", "t": "اسم من سارا است. و شما؟", "pr": "Esm-e man Sârâ ast. Va şomâ?", "s": "Benim adım Sara. Ya siz?" },
+      { "sp": "B", "t": "من مهمت هستم. اهل کجا هستید؟", "pr": "Man Mehmet hastam. Ahl-e kocâ hastid?", "s": "Ben Mehmet'im. Nerelisiniz?" },
+      { "sp": "A", "t": "من ایرانی هستم، اهل تهران. شما اهل کجا هستید؟", "pr": "Man İrâni hastam, ahl-e Tehrân. Şomâ ahl-e kocâ hastid?", "s": "Ben İranlıyım, Tahranlıyım. Siz nerelisiniz?" },
+      { "sp": "B", "t": "من ترک هستم، اهل استانبول.", "pr": "Man Tork hastam, ahl-e Estânbol.", "s": "Ben Türküm, İstanbulluyum." },
+      { "sp": "A", "t": "خوشبختم!", "pr": "Xoşbaxtam!", "s": "Memnun oldum!" },
+      { "sp": "B", "t": "من هم خوشبختم. خداحافظ!", "pr": "Man ham xoşbaxtam. Xodâhâfez!", "s": "Ben de memnun oldum. Hoşça kalın!" }
+    ]
+  },
+  "grammar": [
+    {
+      "id": "g01",
+      "title": { "t": "من هستم، تو هستی", "pr": "man hastam, to hasti", "s": "Şahıs zamirleri ve «olmak» fiili" },
+      "explain": "Farsça cümle yapısı Türkçeye çok benzer: **fiil sonda** gelir! **Man İrâni hastam.** = Ben İranlıyım.\n«Olmak» fiili **hastam, hasti, ast…** şeklindedir. Türkçedeki **-ım, -sın** ekleri gibi düşünün, ama ayrı bir kelime olarak yazılır.\nİyi haber: Farsçada **ünlü uyumu yoktur**, ekler hep aynıdır. **Cinsiyet de yoktur**: **u** (او) Türkçedeki 'o' gibi hem kadın hem erkek için kullanılır.\n**şomâ** (siz) Türkçedeki gibi hem çoğul hem de kibar 'siz' anlamındadır. Zamir çoğu zaman düşer: **İrâni hastam.** = İranlıyım.",
+      "table": [
+        ["من هستم", "man hastam", "ben …-ım"],
+        ["تو هستی", "to hasti", "sen …-sın"],
+        ["او است", "u ast", "o …(dır)"],
+        ["ما هستیم", "mâ hastim", "biz …-ız"],
+        ["شما هستید", "şomâ hastid", "siz …-sınız"],
+        ["آن‌ها هستند", "ânhâ hastand", "onlar …-lar"]
+      ],
+      "examples": [
+        { "t": "من دانشجو هستم.", "pr": "Man dâneşcu hastam.", "s": "Ben öğrenciyim." },
+        { "t": "تو ایرانی هستی.", "pr": "To İrâni hasti.", "s": "Sen İranlısın." },
+        { "t": "او معلم است.", "pr": "U mo'allem ast.", "s": "O öğretmen." },
+        { "t": "ما ترک هستیم.", "pr": "Mâ Tork hastim.", "s": "Biz Türküz." },
+        { "t": "آن‌ها اهل شیراز هستند.", "pr": "Ânhâ ahl-e Şirâz hastand.", "s": "Onlar Şirazlı." }
+      ],
+      "exercises": [
+        { "type": "choice", "t": "من دانشجو ___.", "options": ["هستم", "هستی", "هستند"], "answer": 0, "pr": "Man dâneşcu hastam.", "s": "Ben öğrenciyim." },
+        { "type": "choice", "t": "تو ایرانی ___.", "options": ["هستیم", "هستی", "است"], "answer": 1, "pr": "To İrâni hasti.", "s": "Sen İranlısın." },
+        { "type": "choice", "t": "___ معلم هستیم.", "options": ["ما", "من", "آن‌ها"], "answer": 0, "pr": "Mâ mo'allem hastim.", "s": "Biz öğretmeniz." },
+        { "type": "type", "t": "او دانشجو ___.", "answer": ["است"], "pr": "U dâneşcu ast.", "s": "O öğrenci." },
+        { "type": "type", "t": "شما اهل کجا ___؟", "answer": ["هستید"], "pr": "Şomâ ahl-e kocâ hastid?", "s": "Siz nerelisiniz?" },
+        { "type": "choice", "t": "آن‌ها ترک ___.", "options": ["هستند", "هستید", "هستم"], "answer": 0, "pr": "Ânhâ Tork hastand.", "s": "Onlar Türk." },
+        { "type": "order", "t": "من اهل ترکیه هستم.", "pr": "Man ahl-e Torkiye hastam.", "s": "Ben Türkiyeliyim." },
+        { "type": "order", "t": "آیشه و مریم دانشجو هستند.", "pr": "Âyşe va Maryam dâneşcu hastand.", "s": "Ayşe ve Maryam öğrenci." }
+      ]
+    },
+    {
+      "id": "g02",
+      "title": { "t": "خوبم، خوبی، خوب است", "pr": "xubam, xubi, xub ast", "s": "Kısa ekler ve «اسم من… / اهل…»" },
+      "explain": "Konuşmada **hastam, hasti…** çoğu zaman kısalır ve kelimeye **ek** olarak yapışır, tıpkı Türkçe gibi: **xub hastam → xubam** (iyiyim), **xubi** (iyisin), **xubim** (iyiyiz), **xubid** (iyisiniz), **xuband** (iyiler). 'O' için **ast** kalır: **xub ast**. Ünlüyle biten kelimeden sonra **ast** bazen **-st** olur: **kocâ + ast = kocâst** (nerede?).\nAd söylemek için: **Esm-e man Sârâ ast.** = Benim adım Sara. (Aradaki **-e** sesine 3. ünitede bakacağız.)\nNereli olduğunu söylemek için **ahl-e** (…li) kullanılır: **Man ahl-e Tehrân hastam.** = Ben Tahranlıyım.\nDikkat, sahte arkadaş: **mamnun** Farsçada çoğunlukla 'teşekkürler, minnettarım' anlamındadır; 'memnun oldum' ise **xoşbaxtam** ile söylenir!",
+      "table": [
+        ["خوبم", "xubam", "iyiyim"],
+        ["خوبی", "xubi", "iyisin"],
+        ["خوب است", "xub ast", "iyi"],
+        ["خوبیم", "xubim", "iyiyiz"],
+        ["خوبید", "xubid", "iyisiniz"],
+        ["خوبند", "xuband", "iyiler"]
+      ],
+      "examples": [
+        { "t": "خوبم، ممنون.", "pr": "Xubam, mamnun.", "s": "İyiyim, teşekkürler." },
+        { "t": "اسم من سارا است.", "pr": "Esm-e man Sârâ ast.", "s": "Benim adım Sara." },
+        { "t": "من اهل استانبول هستم.", "pr": "Man ahl-e Estânbol hastam.", "s": "Ben İstanbulluyum." },
+        { "t": "رضا اهل کجاست؟", "pr": "Rezâ ahl-e kocâst?", "s": "Reza nereli?" }
+      ],
+      "exercises": [
+        { "type": "choice", "t": "من خوب___.", "options": ["م", "ی", "ند"], "answer": 0, "pr": "Man xubam.", "s": "Ben iyiyim." },
+        { "type": "choice", "t": "تو خوب___؟", "options": ["یم", "ی", "م"], "answer": 1, "pr": "To xubi?", "s": "Sen iyi misin?" },
+        { "type": "type", "t": "ما خوب___.", "answer": ["یم"], "pr": "Mâ xubim.", "s": "Biz iyiyiz." },
+        { "type": "choice", "t": "اسم من رضا ___.", "options": ["هستم", "است", "هستی"], "answer": 1, "pr": "Esm-e man Rezâ ast.", "s": "Benim adım Reza." },
+        { "type": "choice", "t": "شما اهل ___ هستید؟", "options": ["کجا", "اسم", "من"], "answer": 0, "pr": "Şomâ ahl-e kocâ hastid?", "s": "Siz nerelisiniz?" },
+        { "type": "type", "t": "من ___ تهران هستم.", "answer": ["اهل"], "pr": "Man ahl-e Tehrân hastam.", "s": "Ben Tahranlıyım." },
+        { "type": "order", "t": "اسم من سارا است.", "pr": "Esm-e man Sârâ ast.", "s": "Benim adım Sara." },
+        { "type": "order", "t": "شما اهل کجا هستید؟", "pr": "Şomâ ahl-e kocâ hastid?", "s": "Siz nerelisiniz?" }
+      ]
+    }
+  ],
+  "reading": {
+    "title": { "t": "سلام! من رضا هستم.", "pr": "Salâm! Man Rezâ hastam.", "s": "Merhaba! Ben Reza." },
+    "text": [
+      { "t": "سلام! اسم من رضا است.", "pr": "Salâm! Esm-e man Rezâ ast.", "s": "Merhaba! Benim adım Reza." },
+      { "t": "من ایرانی هستم، اهل شیراز.", "pr": "Man İrâni hastam, ahl-e Şirâz.", "s": "Ben İranlıyım, Şirazlıyım." },
+      { "t": "من معلم هستم.", "pr": "Man mo'allem hastam.", "s": "Ben öğretmenim." },
+      { "t": "مریم هم ایرانی است.", "pr": "Maryam ham İrâni ast.", "s": "Maryam da İranlı." },
+      { "t": "او اهل تهران است.", "pr": "U ahl-e Tehrân ast.", "s": "O Tahranlı." },
+      { "t": "او دانشجو است.", "pr": "U dâneşcu ast.", "s": "O öğrenci." },
+      { "t": "الیف ترک است، اهل ازمیر.", "pr": "Elif Tork ast, ahl-e Ezmir.", "s": "Elif Türk, İzmirli." },
+      { "t": "الیف هم دانشجو است.", "pr": "Elif ham dâneşcu ast.", "s": "Elif de öğrenci." }
+    ],
+    "questions": [
+      { "q": { "t": "رضا اهل کجاست؟", "pr": "Rezâ ahl-e kocâst?", "s": "Reza nereli?" }, "options": ["شیراز", "تهران", "ازمیر"], "answer": 0 },
+      { "q": { "t": "چه کسی معلم است؟", "pr": "Çe kasi mo'allem ast?", "s": "Kim öğretmen?" }, "options": ["مریم", "رضا", "الیف"], "answer": 1 },
+      { "q": { "t": "الیف اهل کجاست؟", "pr": "Elif ahl-e kocâst?", "s": "Elif nereli?" }, "options": ["تهران", "ازمیر", "شیراز"], "answer": 1 },
+      { "q": { "t": "مریم اهل کجاست؟", "pr": "Maryam ahl-e kocâst?", "s": "Maryam nereli?" }, "options": ["شیراز", "ازمیر", "تهران"], "answer": 2 }
+    ]
+  },
+  "sentences": [
+    { "t": "سلام، اسم من علی است.", "pr": "Salâm, esm-e man Ali ast.", "s": "Merhaba, benim adım Ali." },
+    { "t": "من اهل ترکیه هستم.", "pr": "Man ahl-e Torkiye hastam.", "s": "Ben Türkiyeliyim." },
+    { "t": "خوبم، ممنون.", "pr": "Xubam, mamnun.", "s": "İyiyim, teşekkürler." },
+    { "t": "آیشه ترک است، مهمت هم ترک است.", "pr": "Âyşe Tork ast, Mehmet ham Tork ast.", "s": "Ayşe Türk, Mehmet de Türk." },
+    { "t": "ما دانشجو هستیم.", "pr": "Mâ dâneşcu hastim.", "s": "Biz öğrenciyiz." },
+    { "t": "شما اهل کجا هستید؟", "pr": "Şomâ ahl-e kocâ hastid?", "s": "Siz nerelisiniz?" },
+    { "t": "خوشبختم، الیف!", "pr": "Xoşbaxtam, Elif!", "s": "Memnun oldum, Elif!" },
+    { "t": "او معلم است.", "pr": "U mo'allem ast.", "s": "O öğretmen." }
+  ]
+}

@@ -1,11 +1,12 @@
 {
- "version": 1,
+ "version": 2,
  "courses": [
   {
    "id": "en-fa",
    "target": "en",
    "support": "fa",
    "dir": "rtl",
+   "tdir": "ltr",
    "name": {
     "t": "English",
     "s": "انگلیسی"
@@ -317,6 +318,7 @@
    "target": "de",
    "support": "en",
    "dir": "ltr",
+   "tdir": "ltr",
    "name": {
     "t": "Deutsch",
     "s": "German"
@@ -617,14 +619,514 @@
     {
      "id": "B2",
      "name": "Upper intermediate",
-     "units": [],
-     "outline": "Discussions, abstract topics, complex grammar, authentic texts"
+     "units": [
+      {
+       "id": "u01",
+       "title": {
+        "t": "Arbeitswelt im Wandel",
+        "s": "The changing world of work",
+        "a": "audio/de-en/6e7e573ae5b9.mp3"
+       },
+       "img": "img/e/1f4bc.svg",
+       "emoji": "💼",
+       "goals": [
+        "Talk about changes in the world of work, e.g. working from home",
+        "Understand job ads and discuss applications and interviews",
+        "Use the passive with modal verbs (muss erledigt werden)",
+        "Replace the passive with sich lassen, -bar and sein + zu + infinitive"
+       ],
+       "has": {
+        "letters": false,
+        "sounds": false,
+        "words": true,
+        "phrases": true,
+        "dialogue": true,
+        "grammar": true,
+        "reading": true
+       }
+      },
+      {
+       "id": "u02",
+       "title": {
+        "t": "Wohnen und Nachbarschaft",
+        "s": "Housing and neighborhood",
+        "a": "audio/de-en/b4c3fc71bd3b.mp3"
+       },
+       "img": "img/e/1f3d8.svg",
+       "emoji": "🏘️",
+       "goals": [
+        "Talk about renting, neighbors and life in the city vs. the country",
+        "Ask about house rules and make a polite complaint",
+        "Use relative clauses with prepositions and wo(r)-",
+        "Use the genitive relative pronouns dessen and deren"
+       ],
+       "has": {
+        "letters": false,
+        "sounds": false,
+        "words": true,
+        "phrases": true,
+        "dialogue": true,
+        "grammar": true,
+        "reading": true
+       }
+      },
+      {
+       "id": "u03",
+       "title": {
+        "t": "Gesundheit und Ernährung",
+        "s": "Health and nutrition",
+        "a": "audio/de-en/2f29a91435b4.mp3"
+       },
+       "img": "img/e/1f966.svg",
+       "emoji": "🥦",
+       "goals": [
+        "Talk about health, diet and going to the doctor in Germany",
+        "Express regret and criticism about the past",
+        "Form the past subjunctive (hätte / wäre + participle)",
+        "Make unreal conditions and wishes (Wenn ich doch …!)"
+       ],
+       "has": {
+        "letters": false,
+        "sounds": false,
+        "words": true,
+        "phrases": true,
+        "dialogue": true,
+        "grammar": true,
+        "reading": true
+       }
+      },
+      {
+       "id": "u04",
+       "title": {
+        "t": "Medien und digitale Welt",
+        "s": "Media and the digital world",
+        "a": "audio/de-en/fb4fa546014f.mp3"
+       },
+       "img": "img/e/1f4f1.svg",
+       "emoji": "📱",
+       "goals": [
+        "Talk about news, social media and fake news",
+        "Report what other people said, as in news reports",
+        "Use Konjunktiv I for indirect speech",
+        "Use Konjunktiv II and würde as replacement forms"
+       ],
+       "has": {
+        "letters": false,
+        "sounds": false,
+        "words": true,
+        "phrases": true,
+        "dialogue": true,
+        "grammar": true,
+        "reading": true
+       }
+      },
+      {
+       "id": "u05",
+       "title": {
+        "t": "Umwelt und Klima",
+        "s": "Environment and climate",
+        "a": "audio/de-en/f95a2c4ade77.mp3"
+       },
+       "img": "img/e/1f331.svg",
+       "emoji": "🌱",
+       "goals": [
+        "Talk about the environment, climate change and sustainable living",
+        "Give arguments for and against in a discussion",
+        "Link ideas with two-part connectors (sowohl … als auch, weder … noch …)",
+        "Use je … desto / umso to show how things depend on each other"
+       ],
+       "has": {
+        "letters": false,
+        "sounds": false,
+        "words": true,
+        "phrases": true,
+        "dialogue": true,
+        "grammar": true,
+        "reading": true
+       }
+      },
+      {
+       "id": "u06",
+       "title": {
+        "t": "Lernen ein Leben lang",
+        "s": "Lifelong learning",
+        "a": "audio/de-en/49b9c7753f92.mp3"
+       },
+       "img": "img/e/1f393.svg",
+       "emoji": "🎓",
+       "goals": [
+        "Talk about education, further training and the recognition of qualifications",
+        "Turn verbs into nouns (das Lernen, die Entscheidung) to sound more formal",
+        "Use genitive prepositions like wegen, trotz, während and innerhalb",
+        "Discuss the pros and cons of lifelong learning"
+       ],
+       "has": {
+        "letters": false,
+        "sounds": false,
+        "words": true,
+        "phrases": true,
+        "dialogue": true,
+        "grammar": true,
+        "reading": true
+       }
+      },
+      {
+       "id": "u07",
+       "title": {
+        "t": "Unterwegs in Deutschland",
+        "s": "On the move in Germany",
+        "a": "audio/de-en/dec32cb0c8ba.mp3"
+       },
+       "img": "img/e/1f686.svg",
+       "emoji": "🚆",
+       "goals": [
+        "Talk about public transportation, commuting and travel",
+        "Deal with delays, missed connections and compensation at the station",
+        "Use participles as adjectives (die steigenden Preise, der verspätete Zug)",
+        "Connect events in time with nachdem, bevor, sobald, seitdem and bis"
+       ],
+       "has": {
+        "letters": false,
+        "sounds": false,
+        "words": true,
+        "phrases": true,
+        "dialogue": true,
+        "grammar": true,
+        "reading": true
+       }
+      },
+      {
+       "id": "u08",
+       "title": {
+        "t": "Miteinander leben",
+        "s": "Living together",
+        "a": "audio/de-en/b8bd4cf9c3e5.mp3"
+       },
+       "img": "img/e/1f91d.svg",
+       "emoji": "🤝",
+       "goals": [
+        "Talk about integration, diversity and life as a newcomer in Germany",
+        "Use verbs, nouns and adjectives with their fixed prepositions correctly",
+        "Use darauf, daran, darüber … to refer to things and to introduce dass-clauses and infinitives",
+        "Share experiences and agree or disagree in a discussion"
+       ],
+       "has": {
+        "letters": false,
+        "sounds": false,
+        "words": true,
+        "phrases": true,
+        "dialogue": true,
+        "grammar": true,
+        "reading": true
+       }
+      },
+      {
+       "id": "u09",
+       "title": {
+        "t": "Kaufen, sparen, reparieren",
+        "s": "Buying, saving, repairing",
+        "a": "audio/de-en/e901b5389d98.mp3"
+       },
+       "img": "img/e/1f4b6.svg",
+       "emoji": "💶",
+       "goals": [
+        "Talk about money, consumption and sustainable shopping",
+        "Use Futur I and II for the future and for assumptions",
+        "Say how sure you are with muss, müsste, dürfte, könnte and kann nicht",
+        "Weigh up arguments and reach a compromise"
+       ],
+       "has": {
+        "letters": false,
+        "sounds": false,
+        "words": true,
+        "phrases": true,
+        "dialogue": true,
+        "grammar": true,
+        "reading": true
+       }
+      },
+      {
+       "id": "u10",
+       "title": {
+        "t": "Freizeit mit Sinn",
+        "s": "Free time with a purpose",
+        "a": "audio/de-en/03c7cfbda557.mp3"
+       },
+       "img": "img/e/1f3ad.svg",
+       "emoji": "🎭",
+       "goals": [
+        "Talk about culture, leisure activities and volunteering",
+        "Express purpose and alternatives with um … zu, ohne … zu, statt … zu and damit / ohne dass / statt dass",
+        "Use modal verbs in the perfect tense (hat arbeiten müssen)",
+        "Invite someone and describe your own commitment"
+       ],
+       "has": {
+        "letters": false,
+        "sounds": false,
+        "words": true,
+        "phrases": true,
+        "dialogue": true,
+        "grammar": true,
+        "reading": true
+       }
+      }
+     ]
     },
     {
      "id": "C1",
      "name": "Advanced",
-     "units": [],
-     "outline": "Fluency, idioms, style, professional language"
+     "units": [
+      {
+       "id": "u01",
+       "title": {
+        "t": "Wissenschaft und Forschung",
+        "s": "Science and research",
+        "a": "audio/de-en/6928291aef67.mp3"
+       },
+       "img": "img/e/1f52c.svg",
+       "emoji": "🔬",
+       "goals": [
+        "Understand and discuss research findings, methods and the state of research",
+        "Turn verbal clauses into compact nominal style – and back again",
+        "Use Funktionsverbgefüge such as in Frage stellen and Kritik üben in formal speech and writing",
+        "Follow a radio interview about the reproducibility crisis in science"
+       ],
+       "has": {
+        "letters": false,
+        "sounds": false,
+        "words": true,
+        "phrases": true,
+        "dialogue": true,
+        "grammar": true,
+        "reading": true
+       }
+      },
+      {
+       "id": "u02",
+       "title": {
+        "t": "Karriere und Arbeit 4.0",
+        "s": "Careers and Work 4.0",
+        "a": "audio/de-en/93d4f76c251f.mp3"
+       },
+       "img": "img/e/1f4bc.svg",
+       "emoji": "💼",
+       "goals": [
+        "Discuss the future of work: home office, automation and the skills shortage",
+        "Understand and build extended participial attributes (die im letzten Jahr eingeführte Regel)",
+        "Convert participial attributes into relative clauses and back",
+        "Argue for and against in a debate on the four-day week"
+       ],
+       "has": {
+        "letters": false,
+        "sounds": false,
+        "words": true,
+        "phrases": true,
+        "dialogue": true,
+        "grammar": true,
+        "reading": true
+       }
+      },
+      {
+       "id": "u03",
+       "title": {
+        "t": "Sprache und Kommunikation",
+        "s": "Language and communication",
+        "a": "audio/de-en/7e5b0c4e1037.mp3"
+       },
+       "img": "img/e/1f4ac.svg",
+       "emoji": "💬",
+       "goals": [
+        "Talk about multilingualism, communication styles and language change",
+        "Use modal particles (ja, doch, eben, halt, wohl, mal) to sound natural in conversation",
+        "Structure arguments with formal connectors such as folglich, hingegen and indessen",
+        "Clarify, follow up and resolve misunderstandings"
+       ],
+       "has": {
+        "letters": false,
+        "sounds": false,
+        "words": true,
+        "phrases": true,
+        "dialogue": true,
+        "grammar": true,
+        "reading": true
+       }
+      },
+      {
+       "id": "u04",
+       "title": {
+        "t": "Politik und Gesellschaft",
+        "s": "Politics and society",
+        "a": "audio/de-en/674875f857b2.mp3"
+       },
+       "img": "img/e/1f5f3.svg",
+       "emoji": "🗳️",
+       "goals": [
+        "Discuss political institutions, elections, participation and social cohesion",
+        "Use the Zustandspassiv and passive alternatives such as erfolgen, gelten als, auf Kritik stoßen",
+        "Form subjectless passive sentences and impersonal constructions (Es wird diskutiert …)",
+        "Take a position and hold your ground in a political debate"
+       ],
+       "has": {
+        "letters": false,
+        "sounds": false,
+        "words": true,
+        "phrases": true,
+        "dialogue": true,
+        "grammar": true,
+        "reading": true
+       }
+      },
+      {
+       "id": "u05",
+       "title": {
+        "t": "Psychologie und Wohlbefinden",
+        "s": "Psychology and well-being",
+        "a": "audio/de-en/443620cf62a2.mp3"
+       },
+       "img": "img/e/1f9e0.svg",
+       "emoji": "🧠",
+       "goals": [
+        "Talk about stress, mental health and well-being in a nuanced way",
+        "Use modal verbs subjectively (soll, will, muss, dürfte, kann nicht) – also in the past",
+        "Express degrees of certainty and distance with words such as zweifellos, vermutlich, angeblich",
+        "Show empathy and give cautious advice"
+       ],
+       "has": {
+        "letters": false,
+        "sounds": false,
+        "words": true,
+        "phrases": true,
+        "dialogue": true,
+        "grammar": true,
+        "reading": true
+       }
+      },
+      {
+       "id": "u06",
+       "title": {
+        "t": "Mensch und Maschine",
+        "s": "Human and machine",
+        "a": "audio/de-en/d7056c76fe2b.mp3"
+       },
+       "img": "img/e/1f916.svg",
+       "emoji": "🤖",
+       "goals": [
+        "Discuss the opportunities and risks of AI with precise, formal vocabulary",
+        "Report statements and claims accurately with Konjunktiv I and II, including the past",
+        "Describe appearances and false impressions with als ob, als wenn and als + verb",
+        "Follow a radio interview and a feature article on artificial intelligence"
+       ],
+       "has": {
+        "letters": false,
+        "sounds": false,
+        "words": true,
+        "phrases": true,
+        "dialogue": true,
+        "grammar": true,
+        "reading": true
+       }
+      },
+      {
+       "id": "u07",
+       "title": {
+        "t": "Medizin und Moral",
+        "s": "Medicine and ethics",
+        "a": "audio/de-en/7ba2e372b8ad.mp3"
+       },
+       "img": "img/e/1fa7a.svg",
+       "emoji": "🩺",
+       "goals": [
+        "Discuss the German healthcare system and medical-ethical questions in detail",
+        "Concede a point and still argue against it with zwar … aber, obgleich, nichtsdestotrotz, selbst wenn",
+        "Restrict and contrast statements precisely with insofern … als, während, wohingegen, hingegen",
+        "Understand a radio debate and an opinion piece on health policy"
+       ],
+       "has": {
+        "letters": false,
+        "sounds": false,
+        "words": true,
+        "phrases": true,
+        "dialogue": true,
+        "grammar": true,
+        "reading": true
+       }
+      },
+      {
+       "id": "u08",
+       "title": {
+        "t": "Die Kunst der Interpretation",
+        "s": "The art of interpretation",
+        "a": "audio/de-en/4519815daa82.mp3"
+       },
+       "img": "img/e/1f3a8.svg",
+       "emoji": "🎨",
+       "goals": [
+        "Describe, interpret and evaluate works of art, literature and theater",
+        "Link sentences elegantly with dies, jener, Letzterer, derartig and pronominal adverbs",
+        "Emphasize information through word order, the Vorfeld, the Nachfeld and cleft sentences",
+        "Understand a culture-radio interview and a literary review"
+       ],
+       "has": {
+        "letters": false,
+        "sounds": false,
+        "words": true,
+        "phrases": true,
+        "dialogue": true,
+        "grammar": true,
+        "reading": true
+       }
+      },
+      {
+       "id": "u09",
+       "title": {
+        "t": "Die vernetzte Weltwirtschaft",
+        "s": "The interconnected global economy",
+        "a": "audio/de-en/2200cf6cf544.mp3"
+       },
+       "img": "img/e/1f30d.svg",
+       "emoji": "🌍",
+       "goals": [
+        "Discuss globalization, trade and supply chains with precise economic vocabulary",
+        "Use formal genitive prepositions such as angesichts, hinsichtlich, infolge, zwecks, mittels",
+        "Convert subordinate clauses into nominal prepositional phrases and back",
+        "Understand an expert interview and a business report on the future of globalization"
+       ],
+       "has": {
+        "letters": false,
+        "sounds": false,
+        "words": true,
+        "phrases": true,
+        "dialogue": true,
+        "grammar": true,
+        "reading": true
+       }
+      },
+      {
+       "id": "u10",
+       "title": {
+        "t": "Präsentieren und überzeugen",
+        "s": "Presenting and persuading",
+        "a": "audio/de-en/2ad40ff983c8.mp3"
+       },
+       "img": "img/e/1f3a4.svg",
+       "emoji": "🎤",
+       "goals": [
+        "Give a clearly structured presentation with introduction, transitions and conclusion",
+        "Take a stance, concede points and counter arguments in a C1 exam discussion",
+        "Use the Konjunktiv II for politeness, hypotheses and cautious distance",
+        "Analyze and write a well-structured Stellungnahme (position statement)"
+       ],
+       "has": {
+        "letters": false,
+        "sounds": false,
+        "words": true,
+        "phrases": true,
+        "dialogue": true,
+        "grammar": true,
+        "reading": true
+       }
+      }
+     ]
     }
    ]
   },
@@ -633,6 +1135,7 @@
    "target": "tr",
    "support": "fa",
    "dir": "rtl",
+   "tdir": "ltr",
    "name": {
     "t": "Türkçe",
     "s": "ترکی"
@@ -937,6 +1440,331 @@
      "name": "پیشرفته",
      "units": [],
      "outline": "روانی کامل، اصطلاحات، سبک نوشتن، زبان حرفه‌ای"
+    }
+   ]
+  },
+  {
+   "id": "fa-tr",
+   "target": "fa",
+   "support": "tr",
+   "dir": "ltr",
+   "tdir": "rtl",
+   "name": {
+    "t": "فارسی",
+    "s": "Farsça"
+   },
+   "color": "#7a4fc4",
+   "levels": [
+    {
+     "id": "A1",
+     "name": "Başlangıç",
+     "units": [
+      {
+       "id": "u00",
+       "title": {
+        "t": "الفبای فارسی",
+        "pr": "alefbâ-ye fârsi",
+        "s": "Fars alfabesi",
+        "a": "audio/fa-tr/60fb420d03da.mp3"
+       },
+       "img": "img/e/1f524.svg",
+       "emoji": "🔤",
+       "goals": [
+        "Fars alfabesinin 32 harfini tanıyabilmek.",
+        "Farsçanın sağdan sola yazıldığını ve kısa ünlülerin yazılmadığını bilmek.",
+        "Türkçede olmayan sesleri (x, ğ/ق) doğru söyleyebilmek.",
+        "İlk basit kelimeleri okuyabilmek."
+       ],
+       "has": {
+        "letters": true,
+        "sounds": true,
+        "words": true,
+        "phrases": false,
+        "dialogue": false,
+        "grammar": false,
+        "reading": false
+       }
+      },
+      {
+       "id": "u01",
+       "title": {
+        "t": "سلام!",
+        "pr": "Salâm!",
+        "s": "Merhaba!",
+        "a": "audio/fa-tr/0200ca0731e5.mp3"
+       },
+       "img": "img/e/1f44b.svg",
+       "emoji": "👋",
+       "goals": [
+        "Farsça selamlaşıp vedalaşabilmek.",
+        "Kendimi tanıtıp birinin adını sorabilmek.",
+        "Nereli olduğumu söyleyebilmek.",
+        "Şahıs zamirlerini ve «olmak» fiilini (hastam, hasti, ast…) kullanabilmek."
+       ],
+       "has": {
+        "letters": false,
+        "sounds": false,
+        "words": true,
+        "phrases": true,
+        "dialogue": true,
+        "grammar": true,
+        "reading": true
+       }
+      },
+      {
+       "id": "u02",
+       "title": {
+        "t": "عددها و سن",
+        "pr": "Adadhâ va sen",
+        "s": "Sayılar ve yaş",
+        "a": "audio/fa-tr/a2f1cde8729a.mp3"
+       },
+       "img": "img/e/1f522.svg",
+       "emoji": "🔢",
+       "goals": [
+        "0'dan 20'ye kadar sayabilmek.",
+        "Fars rakamlarını (۰–۹) okuyabilmek.",
+        "Yaş sorup söyleyebilmek.",
+        "Çoğul eklerini (-hâ / -ân) kullanabilmek."
+       ],
+       "has": {
+        "letters": false,
+        "sounds": false,
+        "words": true,
+        "phrases": true,
+        "dialogue": true,
+        "grammar": true,
+        "reading": true
+       }
+      },
+      {
+       "id": "u03",
+       "title": {
+        "t": "خانواده‌ی من",
+        "pr": "Xânevâde-ye man",
+        "s": "Ailem",
+        "a": "audio/fa-tr/806423d56af1.mp3"
+       },
+       "img": "img/e/1f46a.svg",
+       "emoji": "👪",
+       "goals": [
+        "Aile üyelerini Farsça söyleyebilmek.",
+        "Ezafe (-e) ile «Ali'nin annesi, büyük ev» diyebilmek.",
+        "İyelik eklerini (-am, -at, -aş) kullanabilmek.",
+        "«dâştan» (sahip olmak) fiiliyle «…im var / yok» diyebilmek."
+       ],
+       "has": {
+        "letters": false,
+        "sounds": false,
+        "words": true,
+        "phrases": true,
+        "dialogue": true,
+        "grammar": true,
+        "reading": true
+       }
+      },
+      {
+       "id": "u04",
+       "title": {
+        "t": "غذا و نوشیدنی",
+        "pr": "Ğazâ va nuşidani",
+        "s": "Yiyecek ve içecek",
+        "a": "audio/fa-tr/4f6f02a80b1a.mp3"
+       },
+       "img": "img/e/1f37d.svg",
+       "emoji": "🍽️",
+       "goals": [
+        "Yiyecek ve içecekleri Farsça söyleyebilmek.",
+        "Bir şey isteyip sipariş verebilmek: «Yek çây, lotfan.»",
+        "Sevdiğim ve sevmediğim şeyleri söyleyebilmek.",
+        "Belirli nesne işareti «râ» (را) ile tanışmak."
+       ],
+       "has": {
+        "letters": false,
+        "sounds": false,
+        "words": true,
+        "phrases": true,
+        "dialogue": true,
+        "grammar": true,
+        "reading": true
+       }
+      },
+      {
+       "id": "u05",
+       "title": {
+        "t": "خانه‌ی من",
+        "pr": "Xâne-ye man",
+        "s": "Evim",
+        "a": "audio/fa-tr/9ca753c83368.mp3"
+       },
+       "img": "img/e/1f3e0.svg",
+       "emoji": "🏠",
+       "goals": [
+        "Evdeki odaları ve eşyaları söyleyebilmek.",
+        "«hast / nist» ile bir şeyin var ya da yok olduğunu söyleyebilmek.",
+        "Yer edatlarını (dar, ru-ye, zir-e, kenâr-e) kullanabilmek.",
+        "«… kocâst?» ile bir şeyin yerini sorabilmek."
+       ],
+       "has": {
+        "letters": false,
+        "sounds": false,
+        "words": true,
+        "phrases": true,
+        "dialogue": true,
+        "grammar": true,
+        "reading": true
+       }
+      },
+      {
+       "id": "u06",
+       "title": {
+        "t": "زندگی روزانه و ساعت",
+        "s": "Günlük hayat ve saat",
+        "pr": "Zendegi-ye ruzâne va sâ'at",
+        "a": "audio/fa-tr/23e4beba3fc5.mp3"
+       },
+       "img": "img/e/23f0.svg",
+       "emoji": "⏰",
+       "goals": [
+        "Saatin kaç olduğunu sorup söyleyebilirim.",
+        "Günlük işlerimi Farsça anlatabilirim.",
+        "Fiilleri şimdiki/geniş zamanda (mi- ile) çekebilirim."
+       ],
+       "has": {
+        "letters": false,
+        "sounds": false,
+        "words": true,
+        "phrases": true,
+        "dialogue": true,
+        "grammar": true,
+        "reading": true
+       }
+      },
+      {
+       "id": "u07",
+       "title": {
+        "t": "در شهر",
+        "s": "Şehirde",
+        "pr": "Dar şahr",
+        "a": "audio/fa-tr/3bd98a1a6ad9.mp3"
+       },
+       "img": "img/e/1f3d9.svg",
+       "emoji": "🏙️",
+       "goals": [
+        "Şehirde bir yerin nerede olduğunu sorabilirim.",
+        "Basit bir yol tarifini anlayıp verebilirim.",
+        "\"be\" ile nereye gittiğimi söyleyebilirim."
+       ],
+       "has": {
+        "letters": false,
+        "sounds": false,
+        "words": true,
+        "phrases": true,
+        "dialogue": true,
+        "grammar": true,
+        "reading": true
+       }
+      },
+      {
+       "id": "u08",
+       "title": {
+        "t": "خرید و رنگ‌ها",
+        "s": "Alışveriş ve renkler",
+        "pr": "Xarid va ranghâ",
+        "a": "audio/fa-tr/2f6336ca62ce.mp3"
+       },
+       "img": "img/e/1f6cd.svg",
+       "emoji": "🛍️",
+       "goals": [
+        "Fiyat sorabilir ve fiyatları tomanla söyleyebilirim.",
+        "Renkleri söyleyip eşyaları tarif edebilirim.",
+        "\"in\" (bu) ve \"ân\" (şu/o) kelimelerini kullanabilirim."
+       ],
+       "has": {
+        "letters": false,
+        "sounds": false,
+        "words": true,
+        "phrases": true,
+        "dialogue": true,
+        "grammar": true,
+        "reading": true
+       }
+      },
+      {
+       "id": "u09",
+       "title": {
+        "t": "هوا، ماه‌ها و فصل‌ها",
+        "s": "Hava, aylar ve mevsimler",
+        "pr": "Havâ, mâhhâ va faslhâ",
+        "a": "audio/fa-tr/3d771576465a.mp3"
+       },
+       "img": "img/e/1f326.svg",
+       "emoji": "🌦️",
+       "goals": [
+        "Havanın nasıl olduğunu sorup anlatabilirim.",
+        "Dört mevsimi ve İran takvimindeki 12 ayı söyleyebilirim.",
+        "Nevruz hakkında birkaç basit cümle kurabilirim."
+       ],
+       "has": {
+        "letters": false,
+        "sounds": false,
+        "words": true,
+        "phrases": true,
+        "dialogue": true,
+        "grammar": true,
+        "reading": true
+       }
+      },
+      {
+       "id": "u10",
+       "title": {
+        "t": "وقت آزاد و سرگرمی‌ها",
+        "s": "Boş zaman ve hobiler",
+        "pr": "Vağt-e âzâd va sargarmihâ",
+        "a": "audio/fa-tr/97e378509bc3.mp3"
+       },
+       "img": "img/e/26bd.svg",
+       "emoji": "⚽",
+       "goals": [
+        "Hobilerimi ve sevdiğim etkinlikleri söyleyebilirim.",
+        "Neyi yapabildiğimi ve yapamadığımı söyleyebilirim (mitavânam).",
+        "Evet/hayır soruları sorup cevaplayabilirim."
+       ],
+       "has": {
+        "letters": false,
+        "sounds": false,
+        "words": true,
+        "phrases": true,
+        "dialogue": true,
+        "grammar": true,
+        "reading": true
+       }
+      }
+     ]
+    },
+    {
+     "id": "A2",
+     "name": "Temel",
+     "units": [],
+     "outline": "Geçmiş zaman, gelecek planları, seyahat, sağlık, iş, karşılaştırma"
+    },
+    {
+     "id": "B1",
+     "name": "Orta",
+     "units": [],
+     "outline": "Deneyimler, fikir bildirme, hikâyeler, haberler"
+    },
+    {
+     "id": "B2",
+     "name": "Orta üstü",
+     "units": [],
+     "outline": "Tartışma, soyut konular, ileri dilbilgisi, gerçek metinler"
+    },
+    {
+     "id": "C1",
+     "name": "İleri",
+     "units": [],
+     "outline": "Akıcılık, deyimler, üslup, profesyonel dil"
     }
    ]
   }

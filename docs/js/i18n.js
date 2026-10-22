@@ -40,7 +40,7 @@ const S = {
     credits: "درباره و منابع", quit: "خروج از تمرین؟", yes: "بله", no: "نه",
     plural: "جمع", example: "مثال", skip: "رد کردن", listenAgain: "دوباره گوش کنید",
     learned: "یاد گرفته‌اید", of: "از", unitsDone: "درس کامل شده",
-    home: "خانه", cantListen: "الان نمی‌توانم گوش کنم",
+    home: "خانه", cantListen: "الان نمی‌توانم گوش کنم", explainedIn: "توضیحات به فارسی", keyboard: "صفحه‌کلید",
   },
   en: {
     appName: "Zabanyar",
@@ -82,12 +82,55 @@ const S = {
     credits: "About & credits", quit: "Leave this lesson?", yes: "Yes", no: "No",
     plural: "plural", example: "Example", skip: "Skip", listenAgain: "Listen again",
     learned: "learned", of: "of", unitsDone: "units done",
-    home: "Home", cantListen: "Can't listen now",
+    home: "Home", cantListen: "Can't listen now", explainedIn: "Explained in English", keyboard: "Keyboard",
+  },
+  tr: {
+    appName: "Zabanyar",
+    tagline: "Birlikte, evde dil öğrenin",
+    enterName: "Adınızı yazın",
+    namePh: "örnek: ayse",
+    enter: "Giriş",
+    unknownName: "Bu ad aile listesinde yok. Ehsan'a sorun.",
+    offlineLogin: "Şu an internet yok — senkronizasyon olmadan giriş yaptınız.",
+    hello: "Merhaba",
+    chooseCourse: "Hangi dili öğreniyorsunuz?",
+    streak: "gün üst üste",
+    xp: "puan",
+    words: "kelime",
+    continue: "Devam",
+    start: "Başla",
+    levels: "Seviyeler",
+    unit: "Ünite",
+    soon: "Yakında",
+    lessons: "Dersler",
+    goals: "Bu ünitede öğrenecekleriniz",
+    L_letters: "Alfabe", L_sounds: "Sesler", L_words: "Kelimeler", L_phrases: "İfadeler ve diyalog",
+    L_grammar: "Dilbilgisi", L_reading: "Okuma ve dinleme", L_test: "Ünite testi",
+    D_letters: "Harfler ve okunuşları", D_sounds: "Önemli sesler", D_words: "Resimli ve sesli yeni kelimeler", D_phrases: "Kullanışlı ifadeler ve bir konuşma",
+    D_grammar: "Basit açıklama ve alıştırma", D_reading: "Kısa bir metin ve sorular", D_test: "Hepsi bir arada — tacı kazanın",
+    check: "Kontrol et", next: "İleri", gotIt: "Anladım", great: "Aferin!", correct: "Doğru!", wrongAns: "Doğru cevap:",
+    listen: "Dinleyin", slow: "Yavaş",
+    q_pic: "Hangi resim?", q_word: "Bu nedir?", q_meaning: "Anlamı ne?", q_listen: "Dinleyin ve seçin",
+    q_match: "Eşleri bulun", q_order: "Cümleyi kurun", q_type: "Yazın", q_fill: "Boşluğu doldurun",
+    q_read: "Soruyu cevaplayın", q_listenMeaning: "Ne duydunuz?", q_typeHeard: "Duyduğunuzu yazın",
+    tapToHear: "Dinlemek için bir cümleye dokunun", showTr: "Çeviriyi göster", hideTr: "Çeviriyi gizle", playAll: "Hepsini çal",
+    lessonDone: "Ders tamamlandı!", score: "Puanınız", again: "Tekrar", backToUnit: "Üniteye dön", nextLesson: "Sonraki ders",
+    review: "Kelime tekrarı", reviewDesc: "Tekrar zamanı gelen kelimeler", nothingToReview: "Şu an tekrar edilecek bir şey yok. Aferin! 🌟",
+    wordbank: "Kelime defteri", settings: "Ayarlar", switchUser: "Kullanıcı değiştir", logout: "Çıkış",
+    offline: "İnternetsiz kullanım", offlineDesc: "Bu dilin tüm derslerini, resimlerini ve seslerini bu cihaza kaydedin; internet olmadan da çalışsın.",
+    download: "İnternetsiz kullanım için kaydet", downloading: "Kaydediliyor…", downloaded: "Kaydedildi ✓",
+    synced: "İlerlemeniz kaydedildi", syncOff: "Çevrimdışı — sonra senkronize edilecek",
+    install: "Ana ekrana ekle", installHint: "Tarayıcı menüsünden «Ana ekrana ekle»yi seçin.",
+    credits: "Hakkında ve kaynaklar", quit: "Bu dersten çıkılsın mı?", yes: "Evet", no: "Hayır",
+    plural: "çoğul", example: "Örnek", skip: "Geç", listenAgain: "Tekrar dinle",
+    learned: "öğrenildi", of: "/", unitsDone: "ünite tamamlandı",
+    home: "Ana sayfa", cantListen: "Şu an dinleyemiyorum", explainedIn: "Türkçe açıklamalı", keyboard: "Klavye",
   },
 };
 let lang = "fa";
 export function setLang(l) { lang = S[l] ? l : "fa"; }
 export function getLang() { return lang; }
 export function t(key) { return (S[lang] && S[lang][key]) || S.en[key] || key; }
-export function both(key) { return `${S.fa[key]} · ${S.en[key]}`; }
+export function both(key) { return `${S.fa[key]} · ${S.en[key]} · ${S.tr[key]}`; }
+export function all3(key) { return [S.fa[key], S.en[key], S.tr[key]]; }
 export function num(n) { return lang === "fa" ? new Intl.NumberFormat("fa-IR").format(n) : String(n); }

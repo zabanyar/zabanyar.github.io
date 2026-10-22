@@ -9,6 +9,7 @@ VOICES = {
     "en_f": "en_US-lessac-high", "en_m": "en_US-ryan-high",
     "de_f": "de_DE-kerstin-low", "de_m": "de_DE-thorsten-high",
     "tr_f": "tr_TR-dfki-medium", "tr_m": "tr_TR-fahrettin-medium",
+    "fa_f": "fa_IR-amir-medium", "fa_m": "fa_IR-gyro-medium",
 }
 engines = {}
 
@@ -28,8 +29,7 @@ def main():
     tmp = tempfile.mkdtemp()
     for i, (f, j) in enumerate(sorted(todo, key=lambda x: x[1]["voice"])):
         text = j["text"]
-        words = len(text.split())
-        speed = 0.8 if words <= 2 else 0.9
+        speed = j.get("speed") or (0.8 if len(text.split()) <= 2 else 0.9)
         a = engine(j["voice"]).generate(text, sid=0, speed=speed)
         wav = os.path.join(tmp, "x.wav")
         sf.write(wav, a.samples, a.sample_rate)

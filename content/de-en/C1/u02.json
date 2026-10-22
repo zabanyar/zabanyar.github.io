@@ -1,0 +1,168 @@
+{
+  "id": "u02",
+  "level": "C1",
+  "emoji": "💼",
+  "title": { "t": "Karriere und Arbeit 4.0", "s": "Careers and Work 4.0" },
+  "goals": [
+    "Discuss the future of work: home office, automation and the skills shortage",
+    "Understand and build extended participial attributes (die im letzten Jahr eingeführte Regel)",
+    "Convert participial attributes into relative clauses and back",
+    "Argue for and against in a debate on the four-day week"
+  ],
+  "words": [
+    { "id": "w01", "t": "die Digitalisierung", "s": "digitalization", "emoji": "💻",
+      "ex": { "t": "Die Digitalisierung verändert nahezu alle Berufsfelder.", "s": "Digitalization is changing almost every occupational field." } },
+    { "id": "w02", "t": "die Fachkraft", "pl": "die Fachkräfte", "s": "skilled worker, qualified employee", "emoji": "",
+      "ex": { "t": "In vielen Branchen werden händeringend Fachkräfte gesucht.", "s": "In many industries, skilled workers are desperately sought." } },
+    { "id": "w03", "t": "der Fachkräftemangel", "s": "shortage of skilled workers", "emoji": "",
+      "ex": { "t": "Der Fachkräftemangel bremst das Wachstum vieler mittelständischer Unternehmen.", "s": "The shortage of skilled workers is slowing the growth of many medium-sized companies." } },
+    { "id": "w04", "t": "die Weiterbildung", "pl": "die Weiterbildungen", "s": "further training, continuing education", "emoji": "",
+      "ex": { "t": "Das Unternehmen übernimmt die Kosten für die Weiterbildung.", "s": "The company covers the cost of the further training." } },
+    { "id": "w05", "t": "die Vereinbarkeit von Familie und Beruf", "s": "work–family balance (being able to combine family and career)", "emoji": "",
+      "ex": { "t": "Flexible Arbeitszeiten verbessern die Vereinbarkeit von Familie und Beruf.", "s": "Flexible working hours make it easier to combine family and career." } },
+    { "id": "w06", "t": "die Führungskraft", "pl": "die Führungskräfte", "s": "manager, executive", "emoji": "",
+      "ex": { "t": "Führungskräfte müssen lernen, Teams auf Distanz zu leiten.", "s": "Managers have to learn to lead teams remotely." } },
+    { "id": "w07", "t": "die Arbeitsverdichtung", "s": "work intensification (more work in the same time)", "emoji": "",
+      "ex": { "t": "Viele Beschäftigte klagen über zunehmende Arbeitsverdichtung.", "s": "Many employees complain about increasing work intensification." } },
+    { "id": "w08", "t": "befristet", "s": "fixed-term, temporary (contract)", "emoji": "",
+      "ex": { "t": "Ihr Vertrag ist zunächst auf zwei Jahre befristet.", "s": "Her contract is initially limited to two years." } },
+    { "id": "w09", "t": "kündigen", "s": "to resign, hand in one's notice; jemandem kündigen = to dismiss sb", "emoji": "",
+      "ex": { "t": "Nach zehn Jahren hat er gekündigt, um sich beruflich neu zu orientieren.", "s": "After ten years he resigned in order to find a new career direction." } },
+    { "id": "w10", "t": "sich selbstständig machen", "s": "to become self-employed, set up one's own business", "emoji": "",
+      "ex": { "t": "Viele Designerinnen machen sich nach einigen Berufsjahren selbstständig.", "s": "Many designers go freelance after a few years in the job." } },
+    { "id": "w11", "t": "die Kompetenz", "pl": "die Kompetenzen", "s": "competence, skill", "emoji": "",
+      "ex": { "t": "Digitale Kompetenzen gelten heute als Schlüsselqualifikation.", "s": "Digital skills are now regarded as a key qualification." } },
+    { "id": "w12", "t": "jemanden einarbeiten", "s": "to train sb in, onboard sb", "emoji": "",
+      "ex": { "t": "Die neue Kollegin wird von Herrn Berger eingearbeitet.", "s": "The new colleague is being trained in by Mr. Berger." } },
+    { "id": "w13", "t": "die Stellenausschreibung", "pl": "die Stellenausschreibungen", "s": "job advertisement, vacancy notice", "emoji": "",
+      "ex": { "t": "Laut Stellenausschreibung sind sehr gute Englischkenntnisse erforderlich.", "s": "According to the job ad, a very good command of English is required." } },
+    { "id": "w14", "t": "das Vorstellungsgespräch", "pl": "die Vorstellungsgespräche", "s": "job interview", "emoji": "🤝",
+      "ex": { "t": "Im Vorstellungsgespräch wurde sie nach ihren Gehaltsvorstellungen gefragt.", "s": "In the job interview she was asked about her salary expectations." } },
+    { "id": "w15", "t": "ersetzen durch + A", "s": "to replace with / by", "emoji": "",
+      "ex": { "t": "Routinetätigkeiten werden zunehmend durch Software ersetzt.", "s": "Routine tasks are increasingly being replaced by software." } },
+    { "id": "w16", "t": "die Gehaltsverhandlung", "pl": "die Gehaltsverhandlungen", "s": "salary negotiation", "emoji": "💰",
+      "ex": { "t": "Auf die Gehaltsverhandlung sollte man sich gründlich vorbereiten.", "s": "You should prepare thoroughly for the salary negotiation." } }
+  ],
+  "phrases": [
+    { "id": "p01", "t": "Einerseits …, andererseits …", "s": "On the one hand …, on the other hand …" },
+    { "id": "p02", "t": "Ein gewichtiges Argument dafür ist, dass …", "s": "A weighty argument in favor of this is that …" },
+    { "id": "p03", "t": "Das hat zweifellos Vorteile, birgt aber auch Risiken.", "s": "That undoubtedly has advantages, but it also carries risks." },
+    { "id": "p04", "t": "Ich gebe zu bedenken, dass …", "s": "I would ask you to bear in mind that …" },
+    { "id": "p05", "t": "Unterm Strich …", "s": "All things considered … / The bottom line is …" },
+    { "id": "p06", "t": "Ich sehe das etwas differenzierter.", "s": "I take a somewhat more nuanced view." },
+    { "id": "p07", "t": "Das steht und fällt mit …", "s": "That stands or falls with …" },
+    { "id": "p08", "t": "Das ist leichter gesagt als getan.", "s": "That's easier said than done." }
+  ],
+  "dialogue": {
+    "title": { "t": "Streitgespräch: Die Vier-Tage-Woche", "s": "Debate: the four-day week" },
+    "speakers": { "A": { "name": "Lena Hoffmann", "voice": "f" }, "B": { "name": "Jonas Berger", "voice": "m" } },
+    "lines": [
+      { "sp": "A", "t": "Herr Berger, die in Großbritannien durchgeführten Pilotprojekte zur Vier-Tage-Woche zeigen erstaunlich positive Ergebnisse. Warum sind Sie trotzdem skeptisch?", "s": "Mr. Berger, the four-day-week pilot projects carried out in the UK show surprisingly positive results. Why are you still skeptical?" },
+      { "sp": "B", "t": "Weil sich diese Ergebnisse nicht ohne Weiteres auf jede Branche übertragen lassen. In einem Pflegeheim oder einem Handwerksbetrieb sieht die Lage ganz anders aus.", "s": "Because these results can't simply be transferred to every industry. In a care home or a skilled trades business, the situation looks quite different." },
+      { "sp": "A", "t": "Das bestreite ich gar nicht. Aber gerade in Branchen mit akutem Fachkräftemangel könnte eine kürzere Woche ein entscheidender Wettbewerbsvorteil sein.", "s": "I don't dispute that at all. But precisely in industries with an acute shortage of skilled workers, a shorter week could be a decisive competitive advantage." },
+      { "sp": "B", "t": "Mag sein. Nur: Wer soll die liegen gebliebene Arbeit erledigen? Die ohnehin schon überlasteten Teams?", "s": "Maybe. But who's supposed to do the work that's been left undone? The teams that are already overloaded anyway?" },
+      { "sp": "A", "t": "Die Studien zeigen ja gerade, dass die Produktivität nicht sinkt. Ausgeruhte Beschäftigte arbeiten konzentrierter und fallen seltener krankheitsbedingt aus.", "s": "But the studies show precisely that productivity doesn't fall. Well-rested employees work with more focus and are less often off sick." },
+      { "sp": "B", "t": "Das mag für Bürojobs gelten. Eine Pflegekraft kann ihre Patienten aber nicht in vier statt fünf Tagen versorgen.", "s": "That may be true of office jobs. But a nurse can't look after her patients in four days instead of five." },
+      { "sp": "A", "t": "Deshalb plädiere ich auch nicht für ein starres Modell, sondern für flexible, auf den jeweiligen Betrieb zugeschnittene Lösungen.", "s": "That's why I'm not arguing for a rigid model, but for flexible solutions tailored to each individual company." },
+      { "sp": "B", "t": "Da kommen wir uns schon näher. Unterm Strich steht und fällt alles mit einer guten Arbeitsorganisation.", "s": "Now we're getting closer. All things considered, everything stands or falls with good work organization." },
+      { "sp": "A", "t": "Und mit der Bereitschaft der Führungskräfte, eingefahrene Strukturen zu hinterfragen.", "s": "And with managers' willingness to question entrenched structures." },
+      { "sp": "B", "t": "Da haben Sie recht – das ist allerdings leichter gesagt als getan.", "s": "You're right there – although that's easier said than done." }
+    ]
+  },
+  "grammar": [
+    {
+      "id": "g01",
+      "title": { "t": "Erweiterte Partizipialattribute", "s": "Extended participial attributes" },
+      "explain": "In formal written German, a whole relative clause can be squeezed **between the article and the noun**: **die im letzten Jahr eingeführte Regel** = the rule (that was) introduced last year. Structure: **article + extensions + participle with adjective ending + noun**.\n**Partizip I** (infinitive + **-d**) is active and simultaneous: **die ständig steigenden Preise** = prices that are constantly rising.\n**Partizip II** of transitive verbs is passive: **die eingeführte Regel** = the rule that was introduced. With verbs that form the perfect with **sein**, it is active and completed: **der gestern angekommene Zug** = the train that arrived yesterday.\n**zu + Partizip I** expresses necessity or possibility (like **sein + zu + Infinitiv**): **die noch zu klärenden Fragen** = the questions that still have to be clarified.\nReading strategy: if an article is followed by something that is not the noun, jump ahead to the noun, then read the participle, then the extensions: **die [im letzten Jahr] eingeführte → Regel**.\nStyle: typical of the press, academic and legal texts. In speech, use relative clauses instead, and avoid more than one long attribute per sentence.",
+      "table": [
+        ["Partizip I", "die steigenden Mieten", "Mieten, die steigen"],
+        ["Partizip II (Passiv)", "die eingeführte Regel", "die Regel, die eingeführt wurde"],
+        ["Partizip II (sein-Verben)", "der eingetroffene Bewerber", "der Bewerber, der eingetroffen ist"],
+        ["zu + Partizip I", "die zu lösende Aufgabe", "die Aufgabe, die gelöst werden muss"]
+      ],
+      "examples": [
+        { "t": "Die im letzten Jahr eingeführte Homeoffice-Regel hat sich bewährt.", "s": "The home-office rule introduced last year has proved its worth." },
+        { "t": "Die seit Jahren steigende Zahl befristeter Verträge bereitet den Gewerkschaften Sorge.", "s": "The number of fixed-term contracts, which has been rising for years, is worrying the unions." },
+        { "t": "Der vor Kurzem eingestellte Mitarbeiter wird noch eingearbeitet.", "s": "The recently hired employee is still being trained in." },
+        { "t": "Die bis Freitag zu erledigenden Aufgaben stehen auf der Liste.", "s": "The tasks to be completed by Friday are on the list." },
+        { "t": "Viele von der Automatisierung betroffene Beschäftigte bilden sich weiter.", "s": "Many employees affected by automation are undergoing further training." }
+      ],
+      "exercises": [
+        { "type": "choice", "t": "Die ständig ___ Preise belasten viele Haushalte.", "options": ["steigenden", "steigende", "steigend"], "answer": 0, "s": "The constantly rising prices are a burden on many households." },
+        { "type": "choice", "t": "Die im Mai ___ Regelung gilt für alle Abteilungen.", "options": ["einführende", "eingeführte", "eingeführten"], "answer": 1, "s": "The regulation introduced in May applies to all departments." },
+        { "type": "type", "t": "Der gestern ___ Zug hatte drei Stunden Verspätung.", "answer": ["angekommene", "eingetroffene"], "s": "The train that arrived yesterday was three hours late." },
+        { "type": "type", "t": "Die noch zu ___ Fragen besprechen wir morgen.", "answer": ["klärenden"], "s": "We'll discuss the questions that still need to be clarified tomorrow." },
+        { "type": "choice", "t": "die zu prüfenden Unterlagen = die Unterlagen, die ___", "options": ["geprüft werden müssen", "geprüft worden sind", "gerade prüfen"], "answer": 0, "s": "the documents to be checked = the documents that must be checked" },
+        { "type": "choice", "t": "Der von allen ___ Vorschlag wurde schließlich abgelehnt.", "options": ["kritisierende", "kritisiert", "kritisierte"], "answer": 2, "s": "The proposal criticized by everyone was eventually rejected." },
+        { "type": "order", "t": "Die neu eingestellte Kollegin arbeitet im Vertrieb.", "s": "The newly hired colleague works in sales." },
+        { "type": "order", "t": "Die ständig steigenden Mieten belasten viele Familien.", "s": "The constantly rising rents are a burden on many families." }
+      ]
+    },
+    {
+      "id": "g02",
+      "title": { "t": "Partizipialattribut ↔ Relativsatz", "s": "Converting participial attributes and relative clauses" },
+      "explain": "**Attribute → relative clause:**\n1. The noun becomes the antecedent; the relative pronoun agrees with it in gender and number and takes its case from its function in the clause.\n2. **Partizip I** → active verb (simultaneous): **die steigenden Preise → die Preise, die steigen**.\n3. **Partizip II** of a transitive verb → passive: **die eingeführte Regel → die Regel, die eingeführt wurde / worden ist**. With **sein**-verbs → active perfect: **der angekommene Zug → der Zug, der angekommen ist**.\n4. **zu + Partizip I** → passive with **müssen / können** or **sein + zu + Infinitiv**: **die zu lösende Aufgabe → die Aufgabe, die gelöst werden muss / die zu lösen ist**.\n5. All extensions move into the relative clause in the same order; the verb goes to the end.\n**Relative clause → attribute:** delete the relative pronoun and the auxiliary, put the participle with the correct adjective ending directly before the noun, and place everything else between the article and the participle. A passive agent stays **von + D**: **der Vorschlag, der von allen kritisiert wurde → der von allen kritisierte Vorschlag**.\nNote: only relative clauses built around a verb with a usable participle can be converted – **die Firma, deren Chef …** cannot.",
+      "table": [
+        ["die von der Firma angebotene Weiterbildung", "die Weiterbildung, die von der Firma angeboten wird"],
+        ["der seit Jahren wachsende Markt", "der Markt, der seit Jahren wächst"],
+        ["die schnell zu treffende Entscheidung", "die Entscheidung, die schnell getroffen werden muss"],
+        ["die vor Kurzem gegründete Firma", "die Firma, die vor Kurzem gegründet worden ist"]
+      ],
+      "examples": [
+        { "t": "Die von der Firma angebotene Weiterbildung ist kostenlos.", "s": "The training offered by the company is free of charge." },
+        { "t": "Die Weiterbildung, die von der Firma angeboten wird, ist kostenlos.", "s": "The training that is offered by the company is free of charge." },
+        { "t": "Die bis Ende des Jahres zu besetzende Stelle ist befristet.", "s": "The position to be filled by the end of the year is fixed-term." },
+        { "t": "Die Stelle, die bis Ende des Jahres besetzt werden muss, ist befristet.", "s": "The position that has to be filled by the end of the year is fixed-term." }
+      ],
+      "exercises": [
+        { "type": "choice", "t": "die vor Kurzem gegründete Firma = die Firma, die vor Kurzem ___", "options": ["gegründet worden ist", "gegründet hat", "gründet"], "answer": 0, "s": "the recently founded company = the company that was founded recently" },
+        { "type": "choice", "t": "der seit Jahren wachsende Markt = der Markt, der seit Jahren ___", "options": ["gewachsen wird", "wächst", "gewachsen worden ist"], "answer": 1, "s": "the market that has been growing for years" },
+        { "type": "type", "t": "die Aufgabe, die gelöst werden muss = die zu ___ Aufgabe", "answer": ["lösende"], "s": "the task that has to be solved = the task to be solved" },
+        { "type": "type", "t": "die Kollegin, die gestern eingestellt wurde = die gestern ___ Kollegin", "answer": ["eingestellte"], "s": "the colleague who was hired yesterday" },
+        { "type": "choice", "t": "Der Bewerber, ___ wir eingeladen haben, hat abgesagt.", "options": ["der", "den", "dem"], "answer": 1, "s": "The applicant whom we invited has canceled. (= der von uns eingeladene Bewerber)" },
+        { "type": "choice", "t": "die von der Umstrukturierung ___ Mitarbeitenden", "options": ["betreffenden", "betroffene", "betroffenen"], "answer": 2, "s": "the employees affected by the restructuring (= die Mitarbeitenden, die von der Umstrukturierung betroffen sind)" },
+        { "type": "order", "t": "Der Vertrag, den sie unterschrieben hat, ist befristet.", "s": "The contract she signed is fixed-term." },
+        { "type": "order", "t": "Das von uns entwickelte Programm spart viel Zeit.", "s": "The program we developed saves a lot of time." }
+      ]
+    }
+  ],
+  "reading": {
+    "title": { "t": "Arbeit 4.0: Zwischen Freiheit und Dauererreichbarkeit", "s": "Work 4.0: between freedom and being constantly available" },
+    "text": [
+      { "t": "Noch vor wenigen Jahren galt das Homeoffice in vielen deutschen Unternehmen als Privileg, das man sich erst verdienen musste.", "s": "Only a few years ago, working from home was regarded in many German companies as a privilege that first had to be earned." },
+      { "t": "Heute ist das ortsunabhängige Arbeiten für Millionen Beschäftigte selbstverständlich geworden.", "s": "Today, location-independent work has become a matter of course for millions of employees." },
+      { "t": "Die damit verbundenen Vorteile liegen auf der Hand: Pendelzeiten entfallen, und Familie und Beruf lassen sich besser vereinbaren.", "s": "The associated advantages are obvious: commuting time disappears, and family and career are easier to combine." },
+      { "t": "Doch die neu gewonnene Freiheit hat ihren Preis.", "s": "But the newly won freedom comes at a price." },
+      { "t": "Arbeitspsychologen beobachten eine zunehmende Entgrenzung von Arbeit und Freizeit: Wer zu Hause arbeitet, beantwortet E-Mails oft auch spätabends oder am Wochenende.", "s": "Occupational psychologists observe that the line between work and leisure is increasingly blurring: people who work from home often answer emails late at night or on weekends." },
+      { "t": "Hinzu kommt, dass viele Führungskräfte ihre Teams nach wie vor an der Anwesenheit statt an den Ergebnissen messen.", "s": "In addition, many managers still judge their teams by their presence rather than by their results." },
+      { "t": "Gleichzeitig verändert die Automatisierung ganze Berufsbilder.", "s": "At the same time, automation is changing entire occupational profiles." },
+      { "t": "Manchen Prognosen zufolge könnte in den kommenden Jahren ein erheblicher Teil der heute ausgeübten Tätigkeiten von Software übernommen werden.", "s": "According to some forecasts, a considerable proportion of the tasks performed today could be taken over by software in the coming years." },
+      { "t": "Daraus folgt jedoch nicht zwangsläufig ein Verlust von Arbeitsplätzen.", "s": "However, this does not necessarily mean a loss of jobs." },
+      { "t": "Entscheidend ist vielmehr, ob Unternehmen und Beschäftigte rechtzeitig in Weiterbildung investieren.", "s": "What is crucial, rather, is whether companies and employees invest in further training in good time." },
+      { "t": "Lebenslanges Lernen, lange eine wohlklingende Floskel in Sonntagsreden, wird damit zur Notwendigkeit.", "s": "Lifelong learning, long a fine-sounding cliché in lofty speeches, thus becomes a necessity." },
+      { "t": "Die Arbeitswelt von morgen wird flexibler sein – gerechter aber nur dann, wenn niemand auf der Strecke bleibt.", "s": "The working world of tomorrow will be more flexible – but fairer only if nobody falls by the wayside." }
+    ],
+    "questions": [
+      { "q": { "t": "Wie wurde das Homeoffice früher in vielen Unternehmen gesehen?", "s": "How was working from home seen in many companies in the past?" },
+        "options": ["als Privileg", "als Pflicht", "als Gesundheitsrisiko"], "answer": 0 },
+      { "q": { "t": "Was versteht der Text unter „Entgrenzung“?", "s": "What does the text mean by 'Entgrenzung'?" },
+        "options": ["dass man im Ausland arbeitet", "dass Arbeit und Freizeit verschwimmen", "dass Pendelzeiten länger werden"], "answer": 1 },
+      { "q": { "t": "Woran messen viele Führungskräfte ihre Teams laut Text noch immer?", "s": "According to the text, what do many managers still judge their teams by?" },
+        "options": ["an den Ergebnissen", "an der Kreativität", "an der Anwesenheit"], "answer": 2 },
+      { "q": { "t": "Was ist laut Text entscheidend für die Zukunft der Arbeitsplätze?", "s": "According to the text, what is crucial for the future of jobs?" },
+        "options": ["rechtzeitige Weiterbildung", "weniger Software", "längere Arbeitszeiten"], "answer": 0 },
+      { "q": { "t": "Was bedeutet „auf der Strecke bleiben“?", "s": "What does 'auf der Strecke bleiben' mean?" },
+        "options": ["eine Reise unterbrechen", "scheitern oder zurückgelassen werden", "pünktlich ankommen"], "answer": 1 }
+    ]
+  },
+  "sentences": [
+    { "t": "Sie hat sich auf die ausgeschriebene Stelle beworben.", "s": "She applied for the advertised position." },
+    { "t": "Der Vertrag wurde um ein weiteres Jahr verlängert.", "s": "The contract was extended by another year." },
+    { "t": "Ich würde gern noch einmal auf das Gehalt zurückkommen.", "s": "I'd like to come back to the salary once more." },
+    { "t": "Die Einarbeitung neuer Kollegen dauert etwa drei Monate.", "s": "Onboarding new colleagues takes about three months." },
+    { "t": "Viele Beschäftigte wünschen sich mehr Flexibilität.", "s": "Many employees would like more flexibility." },
+    { "t": "Unser Team arbeitet überwiegend von zu Hause aus.", "s": "Our team works mostly from home." },
+    { "t": "Die neu geschaffene Stelle soll intern besetzt werden.", "s": "The newly created position is to be filled internally." },
+    { "t": "Er hat gekündigt und sich selbstständig gemacht.", "s": "He quit his job and went into business for himself." }
+  ]
+}

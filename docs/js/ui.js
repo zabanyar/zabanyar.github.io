@@ -17,10 +17,13 @@ export function h(tag, attrs = {}, ...kids) {
 }
 export const $ = (s, r = document) => r.querySelector(s);
 
-let ctx = { target: "en" };
-export function setTarget(lang) { ctx.target = lang; }
-// Text in the language being learned: isolated, left-to-right, correct lang for fonts & screen readers.
-export function T(text, cls = "") { return h("span", { class: "tgt " + cls, lang: ctx.target, dir: "ltr" }, text); }
+let ctx = { target: "en", tdir: "ltr" };
+export function setTarget(lang, tdir = "ltr") { ctx.target = lang; ctx.tdir = tdir; }
+export function tdir() { return ctx.tdir; }
+// Text in the language being learned: isolated, in its own direction, correct lang for fonts & screen readers.
+export function T(text, cls = "") { return h("span", { class: "tgt " + cls, lang: ctx.target, dir: ctx.tdir }, text); }
+// Transliteration / pronunciation hint
+export function PR(text) { return text ? h("div", { class: "pr", dir: "ltr" }, text) : null; }
 
 export function pic(src, emoji, cls = "pic", size) {
   if (src) return h("img", { class: cls, src, alt: "", loading: "lazy", width: size, height: size, draggable: "false" });
@@ -68,11 +71,16 @@ export function sample(a, n) { return shuffle(a).slice(0, n); }
 // tiny markdown: **bold**, \n paragraphs
 export function md(text) {
   const esc = s => s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
-  return esc(text).split(/\n+/).map(p => "<p>" + p.replace(/\*\*(.+?)\*\*/g, "<b><bdi>$1</bdi></b>") + "</p>").join("");
+  return esc(text).split(/\n+/).map(p => "<p>" + p.replace(/\*\*(.+?)\*\*/g, "<b><bdi>$1</bdi></b>").replace(/(^|[^*])\*([^*\n]+?)\*(?!\*)/g, "$1<i>$2</i>") + "</p>").join("");
 }
 
 export function normalize(s, lang) {
-  let x = (s || "").trim().replace(/[.,!?¿¡;:"“”„«»'’]/g, "").replace(/\s+/g, " ");
+  let x = (s || "").trim().replace(/[.,!?¿¡;:"“”„«»'’؟،؛]/g, "").replace(/\s+/g, " ");
+  if (lang === "fa") {
+    // Arabic → Persian letters, drop short-vowel marks and tatweel, ignore half-spaces/spaces between word parts
+    x = x.replace(/ي/g, "ی").replace(/ى/g, "ی").replace(/ك/g, "ک").replace(/[\u064B-\u065F\u0670\u0640]/g, "").replace(/[\u200c\s]/g, "");
+    return x;
+  }
   x = lang === "tr" ? x.toLocaleLowerCase("tr") : lang === "de" ? x.toLocaleLowerCase("de") : x.toLowerCase();
   return x;
 }

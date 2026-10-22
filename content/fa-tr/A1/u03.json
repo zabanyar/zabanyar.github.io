@@ -1,0 +1,139 @@
+{
+  "id": "u03",
+  "level": "A1",
+  "emoji": "👪",
+  "title": { "t": "خانواده‌ی من", "pr": "Xânevâde-ye man", "s": "Ailem" },
+  "goals": [
+    "Aile üyelerini Farsça söyleyebilmek.",
+    "Ezafe (-e) ile «Ali'nin annesi, büyük ev» diyebilmek.",
+    "İyelik eklerini (-am, -at, -aş) kullanabilmek.",
+    "«dâştan» (sahip olmak) fiiliyle «…im var / yok» diyebilmek."
+  ],
+  "words": [
+    { "id": "w01", "t": "خانواده", "pl": "خانواده‌ها", "pr": "xânevâde", "s": "aile", "emoji": "👪", "ex": { "t": "خانواده‌ی من بزرگ است.", "pr": "Xânevâde-ye man bozorg ast.", "s": "Ailem kalabalık." } },
+    { "id": "w02", "t": "مادر", "pl": "مادرها", "pr": "mâdar", "s": "anne", "emoji": "👩", "ex": { "t": "مادرم معلم است.", "pr": "Mâdaram mo'allem ast.", "s": "Annem öğretmen." } },
+    { "id": "w03", "t": "پدر", "pl": "پدرها", "pr": "pedar", "s": "baba", "emoji": "👨", "ex": { "t": "پدرم دکتر است.", "pr": "Pedaram doktor ast.", "s": "Babam doktor." } },
+    { "id": "w04", "t": "برادر", "pl": "برادرها", "pr": "barâdar", "s": "erkek kardeş, ağabey", "emoji": "👦", "ex": { "t": "من یک برادر دارم.", "pr": "Man yek barâdar dâram.", "s": "Bir erkek kardeşim var." } },
+    { "id": "w05", "t": "خواهر", "pl": "خواهرها", "pr": "xâhar", "s": "kız kardeş, abla", "emoji": "👧", "ex": { "t": "خواهرم دانشجو است.", "pr": "Xâharam dâneşcu ast.", "s": "Kız kardeşim öğrenci." } },
+    { "id": "w06", "t": "پسر", "pl": "پسرها", "pr": "pesar", "s": "oğul; erkek çocuk", "emoji": "", "ex": { "t": "آن‌ها یک پسر دارند.", "pr": "Ânhâ yek pesar dârand.", "s": "Onların bir oğlu var." } },
+    { "id": "w07", "t": "دختر", "pl": "دخترها", "pr": "doxtar", "s": "kız; kız evlat", "emoji": "", "ex": { "t": "دختر من هشت سال دارد.", "pr": "Doxtar-e man haşt sâl dârad.", "s": "Kızım sekiz yaşında." } },
+    { "id": "w08", "t": "بچه", "pl": "بچه‌ها", "pr": "baççe", "s": "çocuk", "emoji": "🧒", "ex": { "t": "آن‌ها دو بچه دارند.", "pr": "Ânhâ do baççe dârand.", "s": "Onların iki çocuğu var." } },
+    { "id": "w09", "t": "پدربزرگ", "pr": "pedarbozorg", "s": "dede, büyükbaba", "emoji": "👴", "ex": { "t": "پدربزرگم اهل تبریز است.", "pr": "Pedarbozorgam ahl-e Tabriz ast.", "s": "Dedem Tebrizli." } },
+    { "id": "w10", "t": "مادربزرگ", "pr": "mâdarbozorg", "s": "nine, büyükanne", "emoji": "👵", "ex": { "t": "مادربزرگم خیلی مهربان است.", "pr": "Mâdarbozorgam xeyli mehrabân ast.", "s": "Ninem çok sevecen." } },
+    { "id": "w11", "t": "همسر", "pr": "hamsar", "s": "eş", "emoji": "💑", "ex": { "t": "همسرم ترک است.", "pr": "Hamsaram Tork ast.", "s": "Eşim Türk." } },
+    { "id": "w12", "t": "بزرگ", "pr": "bozorg", "s": "büyük", "emoji": "", "ex": { "t": "خانه‌ی ما بزرگ است.", "pr": "Xâne-ye mâ bozorg ast.", "s": "Bizim evimiz büyük." } },
+    { "id": "w13", "t": "کوچک", "pr": "kuçak", "s": "küçük", "emoji": "", "ex": { "t": "برادرم کوچک است.", "pr": "Barâdaram kuçak ast.", "s": "Erkek kardeşim küçük." } },
+    { "id": "w14", "t": "مهربان", "pr": "mehrabân", "s": "sevecen, iyi kalpli", "emoji": "", "ex": { "t": "پدرم مهربان است.", "pr": "Pedaram mehrabân ast.", "s": "Babam sevecen biri." } }
+  ],
+  "phrases": [
+    { "id": "p01", "t": "این مادر من است.", "pr": "İn mâdar-e man ast.", "s": "Bu benim annem." },
+    { "id": "p02", "t": "خواهر یا برادر دارید؟", "pr": "Xâhar yâ barâdar dârid?", "s": "Kardeşiniz var mı?" },
+    { "id": "p03", "t": "بله، یک خواهر دارم.", "pr": "Bale, yek xâhar dâram.", "s": "Evet, bir kız kardeşim var." },
+    { "id": "p04", "t": "نه، ندارم.", "pr": "Na, nadâram.", "s": "Hayır, yok." },
+    { "id": "p05", "t": "اسم پدرت چیست؟", "pr": "Esm-e pedarat çist?", "s": "Babanın adı ne?" },
+    { "id": "p06", "t": "چه خانواده‌ی خوبی!", "pr": "Çe xânevâde-ye xubi!", "s": "Ne güzel bir aile!" }
+  ],
+  "dialogue": {
+    "title": { "t": "عکس خانواده", "pr": "Aks-e xânevâde", "s": "Aile fotoğrafı" },
+    "speakers": { "A": { "name": "Ayşe", "voice": "f" }, "B": { "name": "Amir", "voice": "m" } },
+    "lines": [
+      { "sp": "A", "t": "امیر، این عکس خانواده‌ی توست؟", "pr": "Amir, in aks-e xânevâde-ye tost?", "s": "Amir, bu senin ailenin fotoğrafı mı?" },
+      { "sp": "B", "t": "بله. این پدرم است و این هم مادرم.", "pr": "Bale. İn pedaram ast va in ham mâdaram.", "s": "Evet. Bu babam, bu da annem." },
+      { "sp": "A", "t": "مادرت خیلی جوان است!", "pr": "Mâdarat xeyli cavân ast!", "s": "Annen çok genç!" },
+      { "sp": "B", "t": "بله! این هم خواهرم، ندا. او دانشجو است.", "pr": "Bale! İn ham xâharam, Nedâ. U dâneşcu ast.", "s": "Evet! Bu da kız kardeşim Neda. O öğrenci." },
+      { "sp": "A", "t": "برادر هم داری؟", "pr": "Barâdar ham dâri?", "s": "Erkek kardeşin de var mı?" },
+      { "sp": "B", "t": "بله، یک برادر کوچک دارم. اسمش رضا است.", "pr": "Bale, yek barâdar-e kuçak dâram. Esmaş Rezâ ast.", "s": "Evet, küçük bir erkek kardeşim var. Adı Reza." },
+      { "sp": "A", "t": "رضا چند سال دارد؟", "pr": "Rezâ çand sâl dârad?", "s": "Reza kaç yaşında?" },
+      { "sp": "B", "t": "ده سال دارد. تو خواهر و برادر داری؟", "pr": "Dah sâl dârad. To xâhar va barâdar dâri?", "s": "On yaşında. Senin kardeşlerin var mı?" },
+      { "sp": "A", "t": "نه، ندارم. ولی یک خانواده‌ی بزرگ دارم!", "pr": "Na, nadâram. Vali yek xânevâde-ye bozorg dâram!", "s": "Hayır, yok. Ama kalabalık bir ailem var!" }
+    ]
+  },
+  "grammar": [
+    {
+      "id": "g01",
+      "title": { "t": "مادر من، خانه‌ی بزرگ", "pr": "mâdar-e man, xâne-ye bozorg", "s": "Ezafe: -e bağı" },
+      "explain": "Farsçada iki ismi ya da bir isimle sıfatı bağlamak için araya **-e** sesi girer. Buna **ezafe** denir. Türkçedeki **izafet** kelimesiyle aynı kökten (Arapça 'ekleme') gelir! Osmanlıcadaki **Bâb-ı Âli** gibi tamlamaları hatırlayın: bu aslında Farsça ezafedir.\nSıra Türkçenin **tersidir**: önce sahip olunan şey, sonra sahibi: **ketâb-e man** = benim kitabım, **mâdar-e Ali** = Ali'nin annesi.\nSıfat da ismin **arkasından** gelir: **xâne-ye bozorg** = büyük ev.\nEzafe genelde **yazılmaz**, sadece söylenir! Kelime **â** ya da **u** ile bitiyorsa **-ye** olur ve **ی** yazılır: **دانشجوی ایرانی** (dâneşcu-ye İrâni). Sessiz **ه** ile bitiyorsa **ـه‌ی** yazılır: **خانه‌ی من** (xâne-ye man).",
+      "table": [
+        ["کتاب من", "ketâb-e man", "benim kitabım"],
+        ["مادر علی", "mâdar-e Ali", "Ali'nin annesi"],
+        ["خانه‌ی بزرگ", "xâne-ye bozorg", "büyük ev"],
+        ["دانشجوی ایرانی", "dâneşcu-ye İrâni", "İranlı öğrenci"],
+        ["برادر کوچک من", "barâdar-e kuçak-e man", "benim küçük kardeşim"]
+      ],
+      "examples": [
+        { "t": "این کتاب من است.", "pr": "İn ketâb-e man ast.", "s": "Bu benim kitabım." },
+        { "t": "مادر علی معلم است.", "pr": "Mâdar-e Ali mo'allem ast.", "s": "Ali'nin annesi öğretmen." },
+        { "t": "خانه‌ی ما بزرگ است.", "pr": "Xâne-ye mâ bozorg ast.", "s": "Bizim evimiz büyük." },
+        { "t": "او یک دانشجوی ترک است.", "pr": "U yek dâneşcu-ye Tork ast.", "s": "O, Türk bir öğrenci." }
+      ],
+      "exercises": [
+        { "type": "choice", "t": "این ___ است.", "options": ["من کتاب", "کتاب من", "کتاب‌ها من"], "answer": 1, "pr": "İn ketâb-e man ast.", "s": "Bu benim kitabım." },
+        { "type": "choice", "t": "او یک ___ است.", "options": ["دانشجوی ایرانی", "ایرانی دانشجو", "دانشجو ایرانی‌ها"], "answer": 0, "pr": "U yek dâneşcu-ye İrâni ast.", "s": "O, İranlı bir öğrenci." },
+        { "type": "choice", "t": "___ علی دکتر است.", "options": ["پدرها", "پدر", "است"], "answer": 1, "pr": "Pedar-e Ali doktor ast.", "s": "Ali'nin babası doktor." },
+        { "type": "type", "t": "خانه‌ی ___ بزرگ است.", "answer": ["ما"], "pr": "Xâne-ye mâ bozorg ast.", "s": "Bizim evimiz büyük." },
+        { "type": "type", "t": "برادر ___ کوچک است.", "answer": ["من"], "pr": "Barâdar-e man kuçak ast.", "s": "Benim kardeşim küçük." },
+        { "type": "order", "t": "این خانه‌ی بزرگ من است.", "pr": "İn xâne-ye bozorg-e man ast.", "s": "Bu benim büyük evim." },
+        { "type": "order", "t": "مادر مریم معلم است.", "pr": "Mâdar-e Maryam mo'allem ast.", "s": "Maryam'ın annesi öğretmen." }
+      ]
+    },
+    {
+      "id": "g02",
+      "title": { "t": "مادرم، خواهر دارم", "pr": "mâdaram, xâhar dâram", "s": "İyelik ekleri ve «dâştan» (sahip olmak)" },
+      "explain": "Türkçedeki gibi Farsçada da iyelik bir **ek** ile söylenebilir: **-am** (benim), **-at** (senin), **-aş** (onun), **-emân** (bizim), **-etân** (sizin), **-eşân** (onların).\n**mâdar → mâdaram** (annem), **mâdarat** (annen), **mâdaraş** (annesi). Ünlü uyumu yok, ekler hep aynı! **Mâdaram** ile **mâdar-e man** aynı anlamdadır.\nTürkçe '…im **var**' der; Farsça ise **dâştan** (sahip olmak) fiilini kullanır: **Yek xâhar dâram.** = Bir kız kardeşim var. Kişi ekleri tanıdık: **dâram, dâri, dârad, dârim, dârid, dârand**.\nOlumsuz için başa **na-** gelir: **nadâram** = (bende) yok. **Barâdar nadâram.** = Erkek kardeşim yok.",
+      "table": [
+        ["مادرم", "mâdaram", "annem"],
+        ["مادرت", "mâdarat", "annen"],
+        ["مادرش", "mâdaraş", "annesi"],
+        ["مادرمان", "mâdaremân", "annemiz"],
+        ["مادرتان", "mâdaretân", "anneniz"],
+        ["مادرشان", "mâdareşân", "anneleri"]
+      ],
+      "examples": [
+        { "t": "مادرم معلم است.", "pr": "Mâdaram mo'allem ast.", "s": "Annem öğretmen." },
+        { "t": "اسمت چیست؟", "pr": "Esmat çist?", "s": "Adın ne?" },
+        { "t": "من دو برادر دارم.", "pr": "Man do barâdar dâram.", "s": "İki erkek kardeşim var." },
+        { "t": "او بچه ندارد.", "pr": "U baççe nadârad.", "s": "Onun çocuğu yok." },
+        { "t": "خواهرش دانشجو است.", "pr": "Xâharaş dâneşcu ast.", "s": "Onun kız kardeşi öğrenci." }
+      ],
+      "exercises": [
+        { "type": "choice", "t": "من یک خواهر ___.", "options": ["دارم", "داری", "دارد"], "answer": 0, "pr": "Man yek xâhar dâram.", "s": "Bir kız kardeşim var." },
+        { "type": "choice", "t": "تو برادر ___؟", "options": ["دارند", "داری", "داریم"], "answer": 1, "pr": "To barâdar dâri?", "s": "Erkek kardeşin var mı?" },
+        { "type": "choice", "t": "من سارا هستم. اسم___ سارا است.", "options": ["ت", "ش", "م"], "answer": 2, "pr": "Man Sârâ hastam. Esmam Sârâ ast.", "s": "Ben Sara'yım. Adım Sara." },
+        { "type": "type", "t": "پدر___ دکتر است.", "answer": ["ش"], "pr": "Pedaraş doktor ast.", "s": "Babası doktor." },
+        { "type": "type", "t": "ما دو بچه ___.", "answer": ["داریم"], "pr": "Mâ do baççe dârim.", "s": "İki çocuğumuz var." },
+        { "type": "choice", "t": "نه، من برادر ___.", "options": ["ندارم", "ندارد", "نداری"], "answer": 0, "pr": "Na, man barâdar nadâram.", "s": "Hayır, erkek kardeşim yok." },
+        { "type": "order", "t": "آن‌ها یک دختر دارند.", "pr": "Ânhâ yek doxtar dârand.", "s": "Onların bir kızı var." },
+        { "type": "order", "t": "اسم خواهرم ندا است.", "pr": "Esm-e xâharam Nedâ ast.", "s": "Kız kardeşimin adı Neda." }
+      ]
+    }
+  ],
+  "reading": {
+    "title": { "t": "خانواده‌ی مریم", "pr": "Xânevâde-ye Maryam", "s": "Maryam'ın ailesi" },
+    "text": [
+      { "t": "سلام! من مریم هستم.", "pr": "Salâm! Man Maryam hastam.", "s": "Merhaba! Ben Maryam." },
+      { "t": "خانواده‌ی من بزرگ است.", "pr": "Xânevâde-ye man bozorg ast.", "s": "Ailem kalabalık." },
+      { "t": "پدرم دکتر است و مادرم معلم است.", "pr": "Pedaram doktor ast va mâdaram mo'allem ast.", "s": "Babam doktor, annem öğretmen." },
+      { "t": "من دو برادر و یک خواهر دارم.", "pr": "Man do barâdar va yek xâhar dâram.", "s": "İki erkek kardeşim ve bir kız kardeşim var." },
+      { "t": "خواهرم سارا دانشجو است.", "pr": "Xâharam Sârâ dâneşcu ast.", "s": "Kız kardeşim Sara öğrenci." },
+      { "t": "برادرهایم کوچک هستند.", "pr": "Barâdarhâyam kuçak hastand.", "s": "Erkek kardeşlerim küçük." },
+      { "t": "علی هشت سال دارد و رضا شش سال دارد.", "pr": "Ali haşt sâl dârad va Rezâ şeş sâl dârad.", "s": "Ali sekiz yaşında, Reza altı yaşında." },
+      { "t": "مادربزرگم خیلی مهربان است.", "pr": "Mâdarbozorgam xeyli mehrabân ast.", "s": "Ninem çok sevecen." }
+    ],
+    "questions": [
+      { "q": { "t": "پدر مریم چه‌کاره است؟", "pr": "Pedar-e Maryam çekâre ast?", "s": "Maryam'ın babası ne iş yapıyor?" }, "options": ["دکتر", "معلم", "دانشجو"], "answer": 0 },
+      { "q": { "t": "مریم چند برادر دارد؟", "pr": "Maryam çand barâdar dârad?", "s": "Maryam'ın kaç erkek kardeşi var?" }, "options": ["یک", "دو", "سه"], "answer": 1 },
+      { "q": { "t": "اسم خواهر مریم چیست؟", "pr": "Esm-e xâhar-e Maryam çist?", "s": "Maryam'ın kız kardeşinin adı ne?" }, "options": ["ندا", "سارا", "آیشه"], "answer": 1 },
+      { "q": { "t": "رضا چند سال دارد؟", "pr": "Rezâ çand sâl dârad?", "s": "Reza kaç yaşında?" }, "options": ["هشت", "شش", "ده"], "answer": 1 }
+    ]
+  },
+  "sentences": [
+    { "t": "این مادر من است.", "pr": "İn mâdar-e man ast.", "s": "Bu benim annem." },
+    { "t": "من یک برادر دارم.", "pr": "Man yek barâdar dâram.", "s": "Bir erkek kardeşim var." },
+    { "t": "خواهرم دانشجو است.", "pr": "Xâharam dâneşcu ast.", "s": "Kız kardeşim öğrenci." },
+    { "t": "اسم پدرت چیست؟", "pr": "Esm-e pedarat çist?", "s": "Babanın adı ne?" },
+    { "t": "خانه‌ی ما بزرگ است.", "pr": "Xâne-ye mâ bozorg ast.", "s": "Bizim evimiz büyük." },
+    { "t": "آن‌ها دو بچه دارند.", "pr": "Ânhâ do baççe dârand.", "s": "Onların iki çocuğu var." },
+    { "t": "نه، من خواهر ندارم.", "pr": "Na, man xâhar nadâram.", "s": "Hayır, kız kardeşim yok." },
+    { "t": "پدربزرگم اهل تبریز است.", "pr": "Pedarbozorgam ahl-e Tabriz ast.", "s": "Dedem Tebrizli." }
+  ]
+}

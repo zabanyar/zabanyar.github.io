@@ -211,3 +211,14 @@ h2 { font-size: 1.25rem; margin: 22px 0 10px; }
 
 @media (min-width: 560px) { .options.grid2.pics { grid-template-columns: repeat(4, 1fr); } }
 @media (max-width: 380px) { body { font-size: 17px; } .wordcard .t { font-size: 1.8rem; } }
+
+/* transliteration + Persian on-screen keyboard */
+.pr { color: var(--muted); font-size: .95rem; font-style: italic; }
+.wordcard .pr { font-size: 1.05rem; }
+[lang="fa"].tgt { font-family: "Vazirmatn", system-ui, sans-serif; }
+.fakb { display: grid; grid-template-columns: repeat(11, 1fr); gap: 5px; }
+.fakb button { height: 46px; border-radius: 10px; border: 2px solid var(--line); background: var(--surface); font-size: 1.25rem; font-family: "Vazirmatn", sans-serif; padding: 0; box-shadow: 0 2px 0 var(--line); }
+.fakb button:active { transform: translateY(2px); box-shadow: none; }
+.fakb .wide { grid-column: span 3; font-size: 1rem; }
+@media (max-width: 400px) { .fakb { grid-template-columns: repeat(8, 1fr); } .fakb .wide { grid-column: span 2; } }
+.course .lvls { display: inline-block; font-size: .8rem; font-weight: 800; color: var(--c, var(--brand)); background: var(--surface-2); border-radius: 999px; padding: 0 8px; margin-inline-start: 6px; }

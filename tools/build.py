@@ -8,37 +8,39 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 CONTENT = os.path.join(ROOT, "content")
 DOCS = os.path.join(ROOT, "docs")
 FLUENT = "/home/claude/vendor/package/icons/flat"
-TWEMOJI = "/home/claude/vendor/package"  # @twemoji/svg extracted (codepoint names) — overwritten check below
 TWEMOJI_DIR = "/home/claude/vendor/twemoji"
 
+# dir = direction of the UI (support language); tdir = direction of the language being learned
 COURSES = {
-    "en-fa": {"target": "en", "support": "fa", "dir": "rtl",
-              "name": {"t": "English", "s": "انگلیسی"}, "voices": {"f": "en_f", "m": "en_m"}, "default": "f",
-              "color": "#2f6fdb"},
-    "de-en": {"target": "de", "support": "en", "dir": "ltr",
-              "name": {"t": "Deutsch", "s": "German"}, "voices": {"f": "de_f", "m": "de_m"}, "default": "m",
-              "color": "#d9822b"},
-    "tr-fa": {"target": "tr", "support": "fa", "dir": "rtl",
-              "name": {"t": "Türkçe", "s": "ترکی"}, "voices": {"f": "tr_f", "m": "tr_m"}, "default": "f",
-              "color": "#c2334d"},
+    "en-fa": {"target": "en", "support": "fa", "dir": "rtl", "tdir": "ltr",
+              "name": {"t": "English", "s": "انگلیسی"}, "voices": {"f": "en_f", "m": "en_m"}, "default": "f", "color": "#2f6fdb"},
+    "de-en": {"target": "de", "support": "en", "dir": "ltr", "tdir": "ltr",
+              "name": {"t": "Deutsch", "s": "German"}, "voices": {"f": "de_f", "m": "de_m"}, "default": "m", "color": "#d9822b"},
+    "tr-fa": {"target": "tr", "support": "fa", "dir": "rtl", "tdir": "ltr",
+              "name": {"t": "Türkçe", "s": "ترکی"}, "voices": {"f": "tr_f", "m": "tr_m"}, "default": "f", "color": "#c2334d"},
+    "fa-tr": {"target": "fa", "support": "tr", "dir": "ltr", "tdir": "rtl",
+              "name": {"t": "فارسی", "s": "Farsça"}, "voices": {"f": "fa_f", "m": "fa_m"}, "default": "f", "color": "#7a4fc4"},
 }
-LEVELS = [
-    ("A1", {"fa": "مبتدی", "en": "Beginner"}),
-    ("A2", {"fa": "مقدماتی", "en": "Elementary"}),
-    ("B1", {"fa": "متوسط", "en": "Intermediate"}),
-    ("B2", {"fa": "فوق متوسط", "en": "Upper intermediate"}),
-    ("C1", {"fa": "پیشرفته", "en": "Advanced"}),
-]
+LEVELS = ["A1", "A2", "B1", "B2", "C1"]
+LEVEL_NAME = {
+    "fa": {"A1": "مبتدی", "A2": "مقدماتی", "B1": "متوسط", "B2": "فوق متوسط", "C1": "پیشرفته"},
+    "en": {"A1": "Beginner", "A2": "Elementary", "B1": "Intermediate", "B2": "Upper intermediate", "C1": "Advanced"},
+    "tr": {"A1": "Başlangıç", "A2": "Temel", "B1": "Orta", "B2": "Orta üstü", "C1": "İleri"},
+}
 LEVEL_OUTLINE = {
-    "A2": {"fa": "زمان گذشته، برنامه‌های آینده، سفر، سلامتی، کار، مقایسه", "en": "Past tense, future plans, travel, health, work, comparisons"},
-    "B1": {"fa": "تجربه‌ها، نظر دادن، داستان، اخبار، متن‌های بلندتر", "en": "Experiences, opinions, stories, news, longer texts"},
-    "B2": {"fa": "بحث و گفت‌وگو، موضوعات انتزاعی، دستور پیشرفته، متن‌های واقعی", "en": "Discussions, abstract topics, complex grammar, authentic texts"},
-    "C1": {"fa": "روانی کامل، اصطلاحات، سبک نوشتن، زبان حرفه‌ای", "en": "Fluency, idioms, style, professional language"},
+    "fa": {"A2": "زمان گذشته، برنامه‌های آینده، سفر، سلامتی، کار، مقایسه", "B1": "تجربه‌ها، نظر دادن، داستان، اخبار، متن‌های بلندتر",
+           "B2": "بحث و گفت‌وگو، موضوعات انتزاعی، دستور پیشرفته، متن‌های واقعی", "C1": "روانی کامل، اصطلاحات، سبک نوشتن، زبان حرفه‌ای"},
+    "en": {"A2": "Past tense, future plans, travel, health, work, comparisons", "B1": "Experiences, opinions, stories, news, longer texts",
+           "B2": "Discussions, abstract topics, complex grammar, authentic texts", "C1": "Fluency, idioms, style, professional language"},
+    "tr": {"A2": "Geçmiş zaman, gelecek planları, seyahat, sağlık, iş, karşılaştırma", "B1": "Deneyimler, fikir bildirme, hikâyeler, haberler",
+           "B2": "Tartışma, soyut konular, ileri dilbilgisi, gerçek metinler", "C1": "Akıcılık, deyimler, üslup, profesyonel dil"},
 }
+SPEED = {"A1": (0.8, 0.9), "A2": (0.85, 0.92), "B1": (0.9, 0.95), "B2": (0.92, 1.0), "C1": (0.95, 1.0)}  # (≤2 words, sentences)
 
-jobs = {}          # file -> {text, voice}
+jobs = {}          # file -> {text, voice, speed}
 images = {}        # emoji -> relative path
 missing_img = set()
+LEVEL = "A1"
 
 
 def akey(course, voice, text):
@@ -48,11 +50,13 @@ def akey(course, voice, text):
 
 def speakable(text):
     t = text.replace("___", "…")
-    t = re.sub(r"\s+", " ", t).strip()
-    return t
+    t = re.sub(r"\s*\([^)]*\)", "", t)                     # grammar hints in brackets: "(über + A)"
+    t = re.sub(r"\s*\+\s*(A|D|G|Akk|Dat|Gen|Akk\.|Dat\.|Gen\.)\b\.?", "", t)  # "+ D"
+    t = t.replace("jdn.", "jemanden").replace("jdm.", "jemandem").replace("etw.", "etwas").replace("sth.", "something")
+    return re.sub(r"\s+", " ", t).strip(" /")
 
 
-def add_audio(course, obj, voice=None, text=None):
+def add_audio(course, obj, voice=None, text=None, key="a"):
     c = COURSES[course]
     v = c["voices"][voice or c["default"]]
     text = text if text is not None else obj.get("t")
@@ -60,8 +64,10 @@ def add_audio(course, obj, voice=None, text=None):
         return
     text = speakable(text)
     f = akey(course, v, text)
-    jobs[f] = {"text": text, "voice": v}
-    obj["a"] = f
+    sp = SPEED[LEVEL][0 if len(text.split()) <= 2 else 1]
+    if f not in jobs:
+        jobs[f] = {"text": text, "voice": v, "speed": sp}
+    obj[key] = f
 
 
 def emoji_img(e):
@@ -85,8 +91,7 @@ def emoji_img(e):
             if os.path.exists(p):
                 src = p
         if not src:
-            missing_img.add(e)
-            images[e] = None
+            missing_img.add(e); images[e] = None
             return None
         os.makedirs(os.path.dirname(out), exist_ok=True)
         shutil.copy(src, out)
@@ -105,23 +110,24 @@ def fill_gap(x):
 
 def process_unit(course, u):
     c = COURSES[course]
+    u["level"] = LEVEL
     u["img"] = emoji_img(u.get("emoji"))
     add_audio(course, u["title"])
     for l in u.get("letters", []):
         letter = l["t"].split()[0]
-        add_audio(course, l, text=letter.lower() if course != "de-en" else letter)
+        add_audio(course, l, text=letter.lower() if course in ("en-fa", "tr-fa") else letter)
         if l.get("ex"):
             l["ex"]["img"] = emoji_img(l["ex"].get("emoji"))
             add_audio(course, l["ex"])
     for s in u.get("sounds", []):
         for ex in s.get("ex", []):
             add_audio(course, ex)
+            if ex.get("emoji"): ex["img"] = emoji_img(ex["emoji"])
     for w in u.get("words", []):
         w["img"] = emoji_img(w.get("emoji"))
         add_audio(course, w)
         if w.get("pl"):
-            w["pla"] = akey(course, c["voices"][c["default"]], speakable(w["pl"]))
-            jobs[w["pla"]] = {"text": speakable(w["pl"]), "voice": c["voices"][c["default"]]}
+            add_audio(course, w, text=w["pl"], key="pla")
         if w.get("ex"):
             add_audio(course, w["ex"])
     for p in u.get("phrases", []):
@@ -162,33 +168,34 @@ def files_in(obj, acc):
 
 
 def main():
-    index = {"version": 1, "courses": []}
+    global LEVEL
+    index = {"version": 2, "courses": []}
     for course, meta in COURSES.items():
-        units = []
-        offline = set()
-        for fn in sorted(glob.glob(os.path.join(CONTENT, course, "A1", "u*.json"))):
-            u = json.load(open(fn, encoding="utf-8"))
-            u = process_unit(course, u)
-            out = os.path.join(DOCS, "data", course, "A1", os.path.basename(fn))
-            os.makedirs(os.path.dirname(out), exist_ok=True)
-            json.dump(u, open(out, "w", encoding="utf-8"), ensure_ascii=False, separators=(",", ":"))
-            offline.add(f"data/{course}/A1/{os.path.basename(fn)}")
-            files_in(u, offline)
-            units.append({"id": u["id"], "title": u["title"], "img": u.get("img"), "emoji": u.get("emoji"),
-                          "goals": u.get("goals", []),
-                          "has": {k: bool(u.get(k)) for k in ("letters", "sounds", "words", "phrases", "dialogue", "grammar", "reading")}})
-        levels = []
-        for lid, lname in LEVELS:
-            lv = {"id": lid, "name": lname[meta["support"]], "units": units if lid == "A1" else []}
-            if lid != "A1":
-                lv["outline"] = LEVEL_OUTLINE[lid][meta["support"]]
+        sup = meta["support"]
+        offline = set(); levels = []
+        for lid in LEVELS:
+            LEVEL = lid
+            units = []
+            for fn in sorted(glob.glob(os.path.join(CONTENT, course, lid, "u*.json"))):
+                u = process_unit(course, json.load(open(fn, encoding="utf-8")))
+                out = os.path.join(DOCS, "data", course, lid, os.path.basename(fn))
+                os.makedirs(os.path.dirname(out), exist_ok=True)
+                json.dump(u, open(out, "w", encoding="utf-8"), ensure_ascii=False, separators=(",", ":"))
+                offline.add(f"data/{course}/{lid}/{os.path.basename(fn)}")
+                files_in(u, offline)
+                units.append({"id": u["id"], "title": u["title"], "img": u.get("img"), "emoji": u.get("emoji"), "goals": u.get("goals", []),
+                              "has": {k: bool(u.get(k)) for k in ("letters", "sounds", "words", "phrases", "dialogue", "grammar", "reading")}})
+            lv = {"id": lid, "name": LEVEL_NAME[sup][lid], "units": units}
+            if not units:
+                lv["outline"] = LEVEL_OUTLINE[sup].get(lid, "")
             levels.append(lv)
         offline.discard(None)
         json.dump(sorted(offline), open(os.path.join(DOCS, "data", course, "files.json"), "w"), indent=0)
-        index["courses"].append({"id": course, **{k: meta[k] for k in ("target", "support", "dir", "name", "color")}, "levels": levels})
+        index["courses"].append({"id": course, **{k: meta[k] for k in ("target", "support", "dir", "tdir", "name", "color")}, "levels": levels})
     json.dump(index, open(os.path.join(DOCS, "data", "courses.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
     json.dump(jobs, open(os.path.join(ROOT, "tools", "tts_jobs.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=0)
-    print(f"units built; audio jobs: {len(jobs)}; images: {len([v for v in images.values() if v])}; missing images: {''.join(sorted(missing_img))}")
+    n = sum(len(l["units"]) for c in index["courses"] for l in c["levels"])
+    print(f"{n} units built; audio jobs: {len(jobs)}; images: {len([v for v in images.values() if v])}; missing images: {''.join(sorted(missing_img))}")
 
 
 if __name__ == "__main__":

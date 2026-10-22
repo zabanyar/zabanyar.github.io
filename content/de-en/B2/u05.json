@@ -1,0 +1,166 @@
+{
+  "id": "u05",
+  "level": "B2",
+  "emoji": "🌱",
+  "title": { "t": "Umwelt und Klima", "s": "Environment and climate" },
+  "goals": [
+    "Talk about the environment, climate change and sustainable living",
+    "Give arguments for and against in a discussion",
+    "Link ideas with two-part connectors (sowohl … als auch, weder … noch …)",
+    "Use je … desto / umso to show how things depend on each other"
+  ],
+  "words": [
+    { "id": "w01", "t": "der Klimawandel", "s": "climate change", "emoji": "🌍",
+      "ex": { "t": "Der Klimawandel betrifft uns alle.", "s": "Climate change affects all of us." } },
+    { "id": "w02", "t": "die Erderwärmung", "s": "global warming", "emoji": "",
+      "ex": { "t": "Die Erderwärmung führt zu immer mehr Hitzewellen.", "s": "Global warming is leading to more and more heat waves." } },
+    { "id": "w03", "t": "die Umwelt schützen", "s": "to protect the environment", "emoji": "",
+      "ex": { "t": "Jeder kann im Alltag etwas tun, um die Umwelt zu schützen.", "s": "Everyone can do something in everyday life to protect the environment." } },
+    { "id": "w04", "t": "umweltfreundlich", "s": "environmentally friendly", "emoji": "",
+      "ex": { "t": "Das Fahrrad ist eines der umweltfreundlichsten Verkehrsmittel.", "s": "The bicycle is one of the most environmentally friendly means of transportation." } },
+    { "id": "w05", "t": "nachhaltig", "s": "sustainable", "emoji": "",
+      "ex": { "t": "Ich versuche, möglichst nachhaltig einzukaufen.", "s": "I try to shop as sustainably as possible." } },
+    { "id": "w06", "t": "der Ausstoß", "s": "emissions, output; der CO₂-Ausstoß = CO₂ emissions", "emoji": "",
+      "ex": { "t": "Der Verkehr verursacht einen großen Teil des CO₂-Ausstoßes.", "s": "Traffic causes a large share of CO₂ emissions." } },
+    { "id": "w07", "t": "die erneuerbaren Energien", "s": "renewable energy (plural)", "emoji": "",
+      "ex": { "t": "Deutschland setzt immer stärker auf erneuerbare Energien.", "s": "Germany is relying more and more on renewable energy." } },
+    { "id": "w08", "t": "der Verbrauch", "s": "consumption", "emoji": "",
+      "ex": { "t": "Unser Stromverbrauch ist im letzten Jahr deutlich gesunken.", "s": "Our electricity consumption dropped considerably last year." } },
+    { "id": "w09", "t": "verschwenden", "s": "to waste", "emoji": "",
+      "ex": { "t": "In vielen Haushalten werden zu viele Lebensmittel verschwendet.", "s": "Too much food is wasted in many households." } },
+    { "id": "w10", "t": "die Mülltrennung", "s": "waste separation, sorting garbage", "emoji": "♻️",
+      "ex": { "t": "Bei der Mülltrennung unterscheidet man Papier, Verpackungen, Glas, Bio- und Restmüll.", "s": "When sorting garbage, you separate paper, packaging, glass, organic and other waste." } },
+    { "id": "w11", "t": "die Ressource", "pl": "die Ressourcen", "s": "resource", "emoji": "",
+      "ex": { "t": "Wasser ist eine wertvolle Ressource.", "s": "Water is a valuable resource." } },
+    { "id": "w12", "t": "die Folge", "pl": "die Folgen", "s": "consequence", "emoji": "",
+      "ex": { "t": "Die Folgen des Klimawandels sind schon heute spürbar.", "s": "The consequences of climate change can already be felt today." } },
+    { "id": "w13", "t": "die Hitzewelle", "pl": "die Hitzewellen", "s": "heat wave", "emoji": "🌡️",
+      "ex": { "t": "Während der Hitzewelle stiegen die Temperaturen auf fast 40 Grad.", "s": "During the heat wave, temperatures rose to almost 40 degrees Celsius." } },
+    { "id": "w14", "t": "das Hochwasser", "pl": "die Hochwasser", "s": "flood", "emoji": "",
+      "ex": { "t": "Nach dem starken Regen gab es in vielen Dörfern Hochwasser.", "s": "After the heavy rain, many villages were flooded." } },
+    { "id": "w15", "t": "Maßnahmen ergreifen", "s": "to take measures", "emoji": "",
+      "ex": { "t": "Die Stadt hat Maßnahmen gegen die Hitze ergriffen.", "s": "The city has taken measures against the heat." } },
+    { "id": "w16", "t": "sich einsetzen (für + A)", "s": "to campaign for, stand up for", "emoji": "",
+      "ex": { "t": "Neda setzt sich in ihrer Freizeit für den Naturschutz ein.", "s": "In her free time, Neda campaigns for nature conservation." } }
+  ],
+  "phrases": [
+    { "id": "p01", "t": "Ich bin der Ansicht, dass …", "s": "I'm of the opinion that …" },
+    { "id": "p02", "t": "Dafür spricht, dass …", "s": "One argument in favor is that …" },
+    { "id": "p03", "t": "Dagegen spricht, dass …", "s": "One argument against is that …" },
+    { "id": "p04", "t": "Das ist ein wichtiger Punkt, aber …", "s": "That's an important point, but …" },
+    { "id": "p05", "t": "Da gebe ich dir recht.", "s": "I agree with you on that." },
+    { "id": "p06", "t": "Das lässt sich nicht verallgemeinern.", "s": "You can't generalize about that." },
+    { "id": "p07", "t": "Jeder Einzelne kann einen Beitrag leisten.", "s": "Every individual can make a contribution." },
+    { "id": "p08", "t": "Abschließend möchte ich sagen, dass …", "s": "Finally, I'd like to say that …" }
+  ],
+  "dialogue": {
+    "title": { "t": "Was kann ich als Einzelner tun?", "s": "What can I do as an individual?" },
+    "speakers": { "A": { "name": "Lena", "voice": "f" }, "B": { "name": "Jonas", "voice": "m" } },
+    "lines": [
+      { "sp": "A", "t": "Herzlich willkommen zu unserer Sendung „Umwelt aktuell“! Heute bei mir im Studio ist der Klimaforscher Jonas Weber.", "s": "Welcome to our program 'Environment Today'! In the studio with me today is the climate researcher Jonas Weber." },
+      { "sp": "B", "t": "Guten Tag, ich freue mich, dass ich hier sein darf.", "s": "Hello, I'm glad to be here." },
+      { "sp": "A", "t": "Herr Weber, viele Hörer fragen sich: Was kann ich als Einzelner überhaupt gegen den Klimawandel tun?", "s": "Mr. Weber, many listeners wonder: what can I as an individual actually do about climate change?" },
+      { "sp": "B", "t": "Eine ganze Menge! Entscheidend sind vor allem drei Bereiche: Verkehr, Ernährung und Heizen.", "s": "Quite a lot! Three areas are especially important: transportation, diet and heating." },
+      { "sp": "A", "t": "Fangen wir mit dem Verkehr an. Muss ich jetzt ganz auf mein Auto verzichten?", "s": "Let's start with transportation. Do I have to give up my car completely now?" },
+      { "sp": "B", "t": "Nicht unbedingt. Aber je öfter Sie das Auto stehen lassen, desto besser ist es für das Klima. Kurze Strecken kann man entweder mit dem Rad oder zu Fuß zurücklegen.", "s": "Not necessarily. But the more often you leave the car at home, the better it is for the climate. You can cover short distances either by bike or on foot." },
+      { "sp": "A", "t": "Und was ist mit der Ernährung?", "s": "And what about diet?" },
+      { "sp": "B", "t": "Da hilft es schon, weniger Fleisch zu essen und regional und saisonal einzukaufen. Regionale Produkte sind zwar manchmal teurer, aber sie haben kürzere Transportwege.", "s": "It already helps to eat less meat and to buy local and seasonal food. Local products are sometimes more expensive, it's true, but they have shorter transportation routes." },
+      { "sp": "A", "t": "Viele Hörer sagen aber: Was bringt das schon, wenn die Politik nichts tut?", "s": "But many listeners say: what's the point if politicians don't do anything?" },
+      { "sp": "B", "t": "Das ist ein wichtiger Punkt. Aber es reicht weder, nur auf die Politik zu warten, noch alles dem Einzelnen zu überlassen. Wir brauchen beides.", "s": "That's an important point. But it's neither enough to just wait for politicians nor to leave everything to the individual. We need both." },
+      { "sp": "A", "t": "Herr Weber, vielen Dank für das Gespräch!", "s": "Mr. Weber, thank you very much for talking to us!" },
+      { "sp": "B", "t": "Ich danke Ihnen.", "s": "Thank you." }
+    ]
+  },
+  "grammar": [
+    {
+      "id": "g01",
+      "title": { "t": "sowohl … als auch, weder … noch", "s": "Two-part connectors" },
+      "explain": "Two-part connectors link words, phrases or whole clauses.\n**sowohl … als auch** = both … and: **Wir sparen sowohl Strom als auch Wasser.** If it joins two subjects, the verb is plural: **Sowohl Ali als auch Neda fahren Rad.**\n**nicht nur … sondern auch** = not only … but also: **Das ist nicht nur gesund, sondern auch günstig.**\n**weder … noch** = neither … nor. It already contains the negation, so don't add *nicht* or *kein*: **Ich habe weder ein Auto noch einen Führerschein.**\n**entweder … oder** = either … or: **Wir fahren entweder mit dem Zug oder mit dem Bus.**\n**zwar … aber** = admittedly / it's true … but – first a concession, then the contrast: **Das Elektroauto ist zwar teuer, aber sparsam.**\nWord order with whole clauses: **oder**, **aber** and **sondern** don't change the word order (position 0). **Entweder** can stand in position 0 or 1: **Entweder wir fahren … / Entweder fahren wir …**. **Zwar** usually stands in the middle of the clause, but it can also come first: **Zwar ist es teuer, aber …**. **Noch** at the start of a clause is followed directly by the verb: **Er hat weder angerufen, noch hat er geschrieben.**",
+      "table": [
+        ["sowohl … als auch", "Wir trennen sowohl Papier als auch Glas."],
+        ["nicht nur … sondern auch", "Das spart nicht nur Geld, sondern auch Energie."],
+        ["weder … noch", "Ich habe weder ein Auto noch einen Führerschein."],
+        ["entweder … oder", "Wir fahren entweder mit dem Zug oder mit dem Bus."],
+        ["zwar … aber", "Das Elektroauto ist zwar teuer, aber sparsam."]
+      ],
+      "examples": [
+        { "t": "Mülltrennung ist sowohl in der Stadt als auch auf dem Land selbstverständlich.", "s": "Sorting waste is a matter of course both in the city and in the country." },
+        { "t": "Weder die Regierung noch die Industrie hat bisher genug getan.", "s": "Neither the government nor industry has done enough so far." },
+        { "t": "Entweder wir reduzieren unseren Verbrauch, oder die Preise steigen weiter.", "s": "Either we reduce our consumption, or prices will keep rising." },
+        { "t": "Die Solaranlage war zwar teuer, aber sie hat sich nach acht Jahren bezahlt gemacht.", "s": "The solar panels were expensive, it's true, but they paid for themselves after eight years." },
+        { "t": "Radfahren ist nicht nur gesund, sondern schont auch die Umwelt.", "s": "Cycling isn't only healthy, it's also good for the environment." }
+      ],
+      "exercises": [
+        { "type": "choice", "t": "Wir trennen ___ Papier als auch Glas.", "options": ["weder", "sowohl", "entweder"], "answer": 1, "s": "We separate both paper and glass." },
+        { "type": "choice", "t": "Ich habe weder Zeit ___ Lust.", "options": ["noch", "oder", "aber"], "answer": 0, "s": "I have neither the time nor the desire." },
+        { "type": "choice", "t": "Elektroautos sind zwar umweltfreundlich, ___ noch ziemlich teuer.", "options": ["sondern", "noch", "aber"], "answer": 2, "s": "Electric cars are environmentally friendly, it's true, but still quite expensive." },
+        { "type": "type", "t": "Du kannst ___ mit dem Bus oder mit dem Fahrrad fahren.", "answer": ["entweder"], "s": "You can go either by bus or by bike." },
+        { "type": "type", "t": "Das spart nicht nur Strom, ___ auch Geld.", "answer": ["sondern"], "s": "That saves not only electricity but also money." },
+        { "type": "choice", "t": "Weder mein Mann ___ ich fahren gern Auto.", "options": ["oder", "noch", "als auch"], "answer": 1, "s": "Neither my husband nor I like driving." },
+        { "type": "order", "t": "Ich esse weder Fleisch noch Fisch.", "s": "I eat neither meat nor fish." },
+        { "type": "order", "t": "Das ist zwar teuer, aber nachhaltig.", "s": "It's expensive, it's true, but sustainable." }
+      ]
+    },
+    {
+      "id": "g02",
+      "title": { "t": "Je mehr, desto besser.", "s": "je … desto / umso" },
+      "explain": "**je … desto / umso** + comparative means *the … the …*: **Je mehr Menschen Rad fahren, desto sauberer ist die Luft.**\nThe **je** part is a subordinate clause: **je + comparative** (often with a noun) comes first, the conjugated verb goes to the **end**.\nThe **desto / umso** part is the main clause: **desto / umso + comparative** first, then **immediately the verb**, then the subject: **…, desto sauberer ist die Luft.**\n**desto** and **umso** mean the same. The order of the clauses can be reversed: **Die Luft ist umso sauberer, je weniger Autos fahren.**\nShort forms without verbs are common: **Je früher, desto besser.** On its own, **umso** is the usual choice: **Umso besser!** (All the better!)",
+      "table": [
+        ["Je wärmer es wird,", "desto mehr Strom brauchen die Klimaanlagen."],
+        ["Je früher wir handeln,", "umso geringer sind die Kosten."],
+        ["Je mehr wir recyceln,", "desto weniger Müll entsteht."]
+      ],
+      "examples": [
+        { "t": "Je länger wir warten, desto teurer wird der Klimaschutz.", "s": "The longer we wait, the more expensive climate protection becomes." },
+        { "t": "Je weniger Fleisch man isst, desto kleiner ist der eigene CO₂-Fußabdruck.", "s": "The less meat you eat, the smaller your carbon footprint." },
+        { "t": "Die Lage wird umso schwieriger, je länger die Trockenheit dauert.", "s": "The situation gets more difficult the longer the drought lasts." },
+        { "t": "Je heißer der Sommer, desto größer die Gefahr von Waldbränden.", "s": "The hotter the summer, the greater the risk of forest fires." },
+        { "t": "Je früher, desto besser.", "s": "The sooner, the better." }
+      ],
+      "exercises": [
+        { "type": "choice", "t": "Je mehr Bäume wir pflanzen, ___ besser ist die Luft.", "options": ["als", "desto", "dann"], "answer": 1, "s": "The more trees we plant, the better the air." },
+        { "type": "choice", "t": "Je wärmer es wird, ___.", "options": ["desto mehr Wasser trinken wir", "desto wir trinken mehr Wasser", "desto mehr Wasser wir trinken"], "answer": 0, "s": "The warmer it gets, the more water we drink." },
+        { "type": "type", "t": "Je früher wir handeln, ___ geringer sind die Schäden.", "answer": ["desto", "umso"], "s": "The sooner we act, the smaller the damage." },
+        { "type": "type", "t": "___ länger ich darüber nachdenke, desto unsicherer werde ich.", "answer": ["Je"], "s": "The longer I think about it, the less sure I become." },
+        { "type": "choice", "t": "Je ___ wir Auto fahren, desto sauberer ist die Luft.", "options": ["wenig", "am wenigsten", "weniger"], "answer": 2, "s": "The less we drive, the cleaner the air." },
+        { "type": "type", "t": "Je mehr man recycelt, desto ___ Müll entsteht.", "answer": ["weniger"], "s": "The more you recycle, the less waste is produced." },
+        { "type": "order", "t": "Je früher, desto besser.", "s": "The sooner, the better." },
+        { "type": "order", "t": "Je mehr wir sparen, desto besser.", "s": "The more we save, the better." }
+      ]
+    }
+  ],
+  "reading": {
+    "title": { "t": "Reparieren statt wegwerfen", "s": "Repair instead of throwing away" },
+    "text": [
+      { "t": "Jeden ersten Samstag im Monat ist im Nachbarschaftszentrum am Rand der Kasseler Innenstadt viel los.", "s": "On the first Saturday of every month, the community center on the edge of downtown Kassel is very busy." },
+      { "t": "Dann findet dort das „Repair-Café“ statt, das von einer Gruppe Ehrenamtlicher organisiert wird.", "s": "That's when the 'Repair Café' takes place there, organized by a group of volunteers." },
+      { "t": "Die Besucher bringen sowohl kaputte Toaster und Lampen als auch Fahrräder oder Kleidung mit.", "s": "Visitors bring along broken toasters and lamps as well as bikes or clothes." },
+      { "t": "Gemeinsam mit den Helferinnen und Helfern versuchen sie, die Gegenstände wieder in Ordnung zu bringen.", "s": "Together with the volunteers, they try to get the items working again." },
+      { "t": "„Viele Geräte sind zwar alt, aber oft fehlt nur eine Kleinigkeit“, erklärt Reza Amini, der als Elektriker arbeitet und seit drei Jahren dabei ist.", "s": "'Many devices are old, it's true, but often only a small thing is missing,' explains Reza Amini, who works as an electrician and has been involved for three years." },
+      { "t": "Seiner Meinung nach ist es weder sinnvoll noch nachhaltig, wegen eines kleinen Defekts gleich ein neues Gerät zu kaufen.", "s": "In his opinion, it's neither sensible nor sustainable to buy a new device right away because of a small defect." },
+      { "t": "Denn je länger man Geräte nutzt, desto weniger Ressourcen werden für die Herstellung neuer Produkte verbraucht.", "s": "After all, the longer you use devices, the fewer resources are used to manufacture new products." },
+      { "t": "Im letzten Jahr konnten auf diese Weise über 600 Gegenstände vor dem Müll gerettet werden.", "s": "Last year, more than 600 items were saved from the trash this way." },
+      { "t": "Das Angebot ist kostenlos, Spenden sind jedoch willkommen.", "s": "The service is free, but donations are welcome." },
+      { "t": "Für viele Besucher geht es nicht nur ums Reparieren, sondern auch um die Gemeinschaft.", "s": "For many visitors, it's not only about repairing things but also about community." },
+      { "t": "Bei Tee und selbst gebackenem Kuchen kommt man schnell ins Gespräch.", "s": "Over tea and homemade cake, people quickly get talking." },
+      { "t": "„Je mehr Leute mitmachen, umso besser“, sagt Reza und lacht.", "s": "'The more people join in, the better,' says Reza with a laugh." }
+    ],
+    "questions": [
+      { "q": { "t": "Wann findet das Repair-Café statt?", "s": "When does the Repair Café take place?" }, "options": ["jeden Samstag", "jeden ersten Samstag im Monat", "einmal im Jahr"], "answer": 1 },
+      { "q": { "t": "Wer organisiert das Repair-Café?", "s": "Who organizes the Repair Café?" }, "options": ["die Stadt Kassel", "ein Elektrogeschäft", "eine Gruppe Ehrenamtlicher"], "answer": 2 },
+      { "q": { "t": "Warum ist Reparieren gut für die Umwelt?", "s": "Why is repairing good for the environment?" }, "options": ["Weil weniger Ressourcen für neue Produkte verbraucht werden.", "Weil alte Geräte weniger Strom verbrauchen.", "Weil man dabei Geld verdient."], "answer": 0 },
+      { "q": { "t": "Was kostet eine Reparatur im Repair-Café?", "s": "How much does a repair at the Repair Café cost?" }, "options": ["zehn Euro pro Gerät", "Sie ist kostenlos.", "Das hängt vom Gerät ab."], "answer": 1 },
+      { "q": { "t": "Worum geht es vielen Besuchern außer dem Reparieren?", "s": "What else matters to many visitors besides repairing?" }, "options": ["um die Gemeinschaft", "ums Einkaufen", "um neue Geräte"], "answer": 0 }
+    ]
+  },
+  "sentences": [
+    { "t": "Wir müssen dringend etwas gegen den Klimawandel tun.", "s": "We urgently need to do something about climate change." },
+    { "t": "Ich fahre sowohl im Sommer als auch im Winter mit dem Rad.", "s": "I ride my bike in both summer and winter." },
+    { "t": "Der Sommer war nicht nur heiß, sondern auch extrem trocken.", "s": "The summer was not only hot but also extremely dry." },
+    { "t": "Je weniger wir verschwenden, desto mehr sparen wir.", "s": "The less we waste, the more we save." },
+    { "t": "In Deutschland wird der Müll sorgfältig getrennt.", "s": "In Germany, garbage is carefully sorted." },
+    { "t": "Bio ist zwar teurer, aber es lohnt sich.", "s": "Organic food is more expensive, it's true, but it's worth it." },
+    { "t": "Die Folgen der Hitzewelle waren deutlich spürbar.", "s": "The effects of the heat wave were clearly noticeable." },
+    { "t": "Jeder Einzelne kann einen Beitrag zum Klimaschutz leisten.", "s": "Every individual can contribute to protecting the climate." }
+  ]
+}

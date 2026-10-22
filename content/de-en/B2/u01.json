@@ -1,0 +1,164 @@
+{
+  "id": "u01",
+  "level": "B2",
+  "emoji": "💼",
+  "title": { "t": "Arbeitswelt im Wandel", "s": "The changing world of work" },
+  "goals": [
+    "Talk about changes in the world of work, e.g. working from home",
+    "Understand job ads and discuss applications and interviews",
+    "Use the passive with modal verbs (muss erledigt werden)",
+    "Replace the passive with sich lassen, -bar and sein + zu + infinitive"
+  ],
+  "words": [
+    { "id": "w01", "t": "die Bewerbung", "pl": "die Bewerbungen", "s": "application (for a job)", "emoji": "",
+      "ex": { "t": "Ich habe meine Bewerbung gestern per E-Mail abgeschickt.", "s": "I sent off my application by email yesterday." } },
+    { "id": "w02", "t": "sich bewerben (um + A / bei + D)", "s": "to apply (for a job / to a company)", "emoji": "",
+      "ex": { "t": "Maryam bewirbt sich um eine Stelle bei der Stadt München.", "s": "Maryam is applying for a job with the City of Munich." } },
+    { "id": "w03", "t": "die Stelle", "pl": "die Stellen", "s": "position, job; eine Stelle ausschreiben / besetzen = to advertise / fill a position", "emoji": "",
+      "ex": { "t": "Die Stelle wurde im Internet ausgeschrieben.", "s": "The position was advertised online." } },
+    { "id": "w04", "t": "der Lebenslauf", "pl": "die Lebensläufe", "s": "CV, résumé", "emoji": "📄",
+      "ex": { "t": "In Deutschland ist ein tabellarischer Lebenslauf üblich.", "s": "In Germany, a CV in table form is standard." } },
+    { "id": "w05", "t": "das Vorstellungsgespräch", "pl": "die Vorstellungsgespräche", "s": "job interview", "emoji": "",
+      "ex": { "t": "Ich bin zu einem Vorstellungsgespräch eingeladen worden.", "s": "I've been invited to a job interview." } },
+    { "id": "w06", "t": "die Voraussetzung", "pl": "die Voraussetzungen", "s": "requirement, prerequisite", "emoji": "",
+      "ex": { "t": "Gute Deutschkenntnisse sind eine wichtige Voraussetzung für diese Stelle.", "s": "A good knowledge of German is an important requirement for this position." } },
+    { "id": "w07", "t": "die Fachkraft", "pl": "die Fachkräfte", "s": "skilled worker, specialist", "emoji": "",
+      "ex": { "t": "In der Pflege werden dringend Fachkräfte gesucht.", "s": "Skilled workers are urgently needed in nursing and care." } },
+    { "id": "w08", "t": "der Arbeitgeber", "pl": "die Arbeitgeber", "s": "employer", "emoji": "",
+      "ex": { "t": "Mein Arbeitgeber bezahlt mir einen Sprachkurs.", "s": "My employer is paying for a language course for me." } },
+    { "id": "w09", "t": "das Homeoffice", "s": "working from home; home office", "emoji": "",
+      "ex": { "t": "Ich arbeite zweimal pro Woche im Homeoffice.", "s": "I work from home twice a week." } },
+    { "id": "w10", "t": "die Arbeitszeit", "pl": "die Arbeitszeiten", "s": "working hours", "emoji": "",
+      "ex": { "t": "Meine Arbeitszeit beträgt 38 Stunden pro Woche.", "s": "My working hours amount to 38 hours a week." } },
+    { "id": "w11", "t": "die Weiterbildung", "pl": "die Weiterbildungen", "s": "further training, professional development", "emoji": "",
+      "ex": { "t": "Die Firma bietet regelmäßig Weiterbildungen an.", "s": "The company regularly offers training courses." } },
+    { "id": "w12", "t": "kündigen", "s": "to quit, hand in one's notice; jemandem kündigen = to dismiss sb", "emoji": "",
+      "ex": { "t": "Lena hat gekündigt, weil sie eine bessere Stelle gefunden hat.", "s": "Lena quit because she found a better job." } },
+    { "id": "w13", "t": "Erfahrungen sammeln", "s": "to gain experience", "emoji": "",
+      "ex": { "t": "Während des Praktikums konnte ich viele Erfahrungen sammeln.", "s": "During the internship I was able to gain a lot of experience." } },
+    { "id": "w14", "t": "eine Frist einhalten", "s": "to meet a deadline", "emoji": "",
+      "ex": { "t": "Bitte halten Sie die Frist unbedingt ein.", "s": "Please make sure you meet the deadline." } },
+    { "id": "w15", "t": "die Vereinbarkeit von Familie und Beruf", "s": "balancing family and work", "emoji": "",
+      "ex": { "t": "Für viele Eltern ist die Vereinbarkeit von Familie und Beruf schwierig.", "s": "For many parents, balancing family and work is difficult." } },
+    { "id": "w16", "t": "flexibel", "s": "flexible", "emoji": "",
+      "ex": { "t": "Im neuen Job kann ich meine Arbeitszeit flexibel gestalten.", "s": "In my new job I can arrange my working hours flexibly." } }
+  ],
+  "phrases": [
+    { "id": "p01", "t": "Ein großer Vorteil ist, dass …", "s": "A big advantage is that …" },
+    { "id": "p02", "t": "Ein Nachteil besteht darin, dass …", "s": "One disadvantage is that …" },
+    { "id": "p03", "t": "Einerseits …, andererseits …", "s": "On the one hand …, on the other hand …" },
+    { "id": "p04", "t": "Das hängt davon ab, ob …", "s": "That depends on whether …" },
+    { "id": "p05", "t": "Da stimme ich dir zu.", "s": "I agree with you there." },
+    { "id": "p06", "t": "Das sehe ich etwas anders.", "s": "I see that a little differently." },
+    { "id": "p07", "t": "Hiermit bewerbe ich mich um die Stelle als …", "s": "I am hereby applying for the position of … (cover letter)" },
+    { "id": "p08", "t": "Über eine Einladung zu einem persönlichen Gespräch freue ich mich sehr.", "s": "I would be very happy to be invited to an interview. (cover letter)" }
+  ],
+  "dialogue": {
+    "title": { "t": "Neue Regeln fürs Homeoffice", "s": "New rules for working from home" },
+    "speakers": { "A": { "name": "Neda", "voice": "f" }, "B": { "name": "Jonas", "voice": "m" } },
+    "lines": [
+      { "sp": "A", "t": "Hast du die Mail von der Personalabteilung gelesen? Die Regeln fürs Homeoffice sollen geändert werden.", "s": "Have you read the email from HR? The rules for working from home are going to be changed." },
+      { "sp": "B", "t": "Ja, gerade eben. Ab Oktober müssen mindestens drei Präsenztage pro Woche eingehalten werden.", "s": "Yes, just now. From October, we have to be in the office at least three days a week." },
+      { "sp": "A", "t": "Das finde ich schade. Zu Hause kann ich mich viel besser konzentrieren.", "s": "I think that's a pity. I can concentrate much better at home." },
+      { "sp": "B", "t": "Das verstehe ich. Andererseits lassen sich manche Probleme im Büro schneller lösen.", "s": "I understand. On the other hand, some problems can be solved faster in the office." },
+      { "sp": "A", "t": "Stimmt schon. Aber für mich geht es um die Vereinbarkeit von Familie und Beruf. Meine Tochter muss jeden Tag um drei von der Kita abgeholt werden.", "s": "That's true. But for me it's about balancing family and work. My daughter has to be picked up from daycare at three every day." },
+      { "sp": "B", "t": "Hast du schon mit Frau Becker darüber gesprochen? Vielleicht lässt sich eine Lösung finden.", "s": "Have you talked to Ms. Becker about it yet? Maybe a solution can be found." },
+      { "sp": "A", "t": "Noch nicht. Aber laut der Mail können Ausnahmen beantragt werden.", "s": "Not yet. But according to the email, exceptions can be requested." },
+      { "sp": "B", "t": "Na also! Steht da auch, bis wann der Antrag einzureichen ist?", "s": "There you go! Does it also say by when the request has to be submitted?" },
+      { "sp": "A", "t": "Ja, bis zum 15. September. Ich setze mich heute Abend dran – die Frist will ich auf keinen Fall verpassen.", "s": "Yes, by September 15. I'll get on it tonight – I definitely don't want to miss the deadline." },
+      { "sp": "B", "t": "Gute Idee. Wenn du willst, lese ich ihn vorher noch mal durch.", "s": "Good idea. If you like, I'll read it through before you send it." }
+    ]
+  },
+  "grammar": [
+    {
+      "id": "g01",
+      "title": { "t": "Das muss erledigt werden.", "s": "The passive with modal verbs" },
+      "explain": "Use the passive with a modal verb to say what **must**, **can**, **should** or **may** be done, without saying who does it. The modal verb is conjugated and stands in position 2; at the end of the clause comes the **past participle + werden** (the passive infinitive): **Die Mail muss heute beantwortet werden.**\nIn a subordinate clause the modal verb moves to the very end: **…, weil die Mail heute beantwortet werden muss.**\nFor the past, use the Präteritum of the modal verb: **Die Mail musste beantwortet werden.** (The Perfekt – *hat beantwortet werden müssen* – is correct but rare.)\nTo name the person who does the action, use **von + dative**: **Der Vertrag muss vom Chef unterschrieben werden.** For a means or cause, **durch + accusative** is also used.\nNote: **wollen** is practically never used this way – use **sollen** instead: **Das Büro soll renoviert werden.**",
+      "table": [
+        ["Präsens", "Die Mail muss beantwortet werden."],
+        ["Präteritum", "Die Mail musste beantwortet werden."],
+        ["Nebensatz", "…, weil die Mail beantwortet werden muss."],
+        ["mit Agens", "Die Mail muss von Herrn Wagner beantwortet werden."]
+      ],
+      "examples": [
+        { "t": "Die Bewerbung muss bis zum 15. Mai eingereicht werden.", "s": "The application must be submitted by May 15." },
+        { "t": "Im Homeoffice können viele Aufgaben genauso gut erledigt werden.", "s": "Many tasks can be done just as well when working from home." },
+        { "t": "Der Vertrag sollte vor der Unterschrift genau gelesen werden.", "s": "The contract should be read carefully before it is signed." },
+        { "t": "Früher mussten neue Mitarbeiter drei Monate lang eingearbeitet werden.", "s": "In the past, new employees had to be trained for three months." },
+        { "t": "Frau Becker sagt, dass das Problem sofort gelöst werden muss.", "s": "Ms. Becker says that the problem must be solved immediately." }
+      ],
+      "exercises": [
+        { "type": "choice", "t": "Die Unterlagen müssen bis Freitag ___.", "options": ["geschickt werden", "werden geschickt", "geschickt worden"], "answer": 0, "s": "The documents must be sent by Friday." },
+        { "type": "choice", "t": "Ich glaube, dass der Antrag noch unterschrieben werden ___.", "options": ["müssen", "muss", "hat"], "answer": 1, "s": "I think the application still has to be signed." },
+        { "type": "type", "t": "Diese Aufgabe kann auch im Homeoffice erledigt ___.", "answer": ["werden"], "s": "This task can also be done from home." },
+        { "type": "choice", "t": "Das Problem ___ zum Glück schnell gelöst werden.", "options": ["wurde", "konnten", "konnte"], "answer": 2, "s": "Fortunately, the problem could be solved quickly." },
+        { "type": "type", "t": "Früher ___ alle Formulare per Post geschickt werden.", "answer": ["mussten"], "s": "In the past, all forms had to be sent by mail." },
+        { "type": "type", "t": "Die Stelle soll bis Ende Juni neu ___ werden.", "answer": ["besetzt", "vergeben"], "s": "The position is to be filled by the end of June." },
+        { "type": "order", "t": "Die Bewerbung muss online eingereicht werden.", "s": "The application must be submitted online." },
+        { "type": "order", "t": "Dieses Formular kann nicht geändert werden.", "s": "This form cannot be changed." }
+      ]
+    },
+    {
+      "id": "g02",
+      "title": { "t": "Das lässt sich lösen.", "s": "Alternatives to the passive: sich lassen, -bar, sein + zu" },
+      "explain": "Instead of the passive with **können** or **müssen**, German often uses one of three alternatives. They are very common, especially in written German.\n1. **sich lassen + infinitive** = *can be done*: **Das Problem lässt sich lösen.** (= kann gelöst werden). Negated: **lässt sich nicht …** = can't be done.\n2. **Adjectives ending in -bar** (from verbs with an accusative object) = *can be done*: **lösbar, machbar, erreichbar**. With **un-** they mean *cannot be done*: **unlösbar, unvermeidbar**. Not every verb forms a -bar adjective, and a few use **-lich** instead: **verständlich, erhältlich**.\n3. **sein + zu + infinitive** = *can* OR *must be done* – the context decides: **Der Antrag ist bis Montag einzureichen.** (must) / **Das ist kaum zu glauben.** (can). With separable verbs, **zu** goes between prefix and verb: **einzureichen, abzugeben**.",
+      "table": [
+        ["Das kann geändert werden.", "Das lässt sich ändern.", "können"],
+        ["Das kann nicht gelesen werden.", "Das ist nicht lesbar.", "können"],
+        ["Das kann leicht erklärt werden.", "Das ist leicht zu erklären.", "können"],
+        ["Das muss bezahlt werden.", "Das ist zu bezahlen.", "müssen"]
+      ],
+      "examples": [
+        { "t": "Der Termin lässt sich leider nicht verschieben.", "s": "Unfortunately, the appointment can't be postponed." },
+        { "t": "Die Kosten für die Weiterbildung sind von der Steuer absetzbar.", "s": "The cost of the training course is tax-deductible." },
+        { "t": "Die Unterlagen sind bis zum 30. April einzureichen.", "s": "The documents must be submitted by April 30." },
+        { "t": "Seine Handschrift ist kaum zu lesen.", "s": "His handwriting is barely legible." },
+        { "t": "Mit einem guten Plan lässt sich vieles erreichen.", "s": "With a good plan, a lot can be achieved." }
+      ],
+      "exercises": [
+        { "type": "choice", "t": "Das Problem ___ sich leicht lösen.", "options": ["ist", "lässt", "wird"], "answer": 1, "s": "The problem can be solved easily." },
+        { "type": "choice", "t": "Die Schrift ist so klein, sie ist kaum ___.", "options": ["lesbar", "lesend", "leslich"], "answer": 0, "s": "The writing is so small that it's hardly legible." },
+        { "type": "type", "t": "Der Antrag ist bis Freitag ___.", "answer": ["einzureichen", "abzugeben", "zu stellen", "abzuschicken"], "s": "The application must be submitted by Friday." },
+        { "type": "choice", "t": "Die Miete ist am Monatsanfang ___.", "options": ["zahlen", "gezahlt zu", "zu zahlen"], "answer": 2, "s": "The rent must be paid at the beginning of the month." },
+        { "type": "type", "t": "Der Fehler ist leider nicht ___ vermeiden.", "answer": ["zu"], "s": "Unfortunately, the mistake can't be avoided." },
+        { "type": "choice", "t": "Diese Aufgabe ist in zwei Stunden ___.", "options": ["machlich", "machbar", "machend"], "answer": 1, "s": "This task can be done in two hours." },
+        { "type": "order", "t": "Der Termin lässt sich nicht verschieben.", "s": "The appointment can't be postponed." },
+        { "type": "order", "t": "Das ist kaum zu glauben.", "s": "That's hard to believe." }
+      ]
+    }
+  ],
+  "reading": {
+    "title": { "t": "Zurück ins Büro?", "s": "Back to the office?" },
+    "text": [
+      { "t": "Seit der Corona-Pandemie arbeiten in Deutschland deutlich mehr Menschen im Homeoffice als früher.", "s": "Since the COVID pandemic, considerably more people in Germany work from home than before." },
+      { "t": "Laut Umfragen arbeitet etwa jeder vierte Beschäftigte zumindest teilweise von zu Hause aus.", "s": "According to surveys, about one in four employees works from home at least part of the time." },
+      { "t": "Viele schätzen die gewonnene Zeit: Der lange Arbeitsweg fällt weg, und Familie und Beruf lassen sich leichter vereinbaren.", "s": "Many appreciate the time they gain: there's no long commute, and family and work are easier to combine." },
+      { "t": "Auch für Arbeitgeber hat das Modell Vorteile, denn teure Büroflächen können eingespart werden.", "s": "The model also has advantages for employers, since expensive office space can be saved." },
+      { "t": "Doch nicht alle sind begeistert.", "s": "But not everyone is enthusiastic." },
+      { "t": "Manche Führungskräfte befürchten, dass der Austausch im Team leidet und neue Kollegen schlechter eingearbeitet werden können.", "s": "Some managers fear that communication within the team suffers and that new colleagues can't be trained as well." },
+      { "t": "Deshalb haben einige große Unternehmen ihre Regeln inzwischen wieder verschärft.", "s": "That's why some large companies have tightened their rules again." },
+      { "t": "Dort sind nun drei oder sogar vier Präsenztage pro Woche vorgeschrieben.", "s": "There, three or even four days a week in the office are now mandatory." },
+      { "t": "Experten raten zu einem Mittelweg: Aufgaben, die viel Konzentration erfordern, lassen sich gut zu Hause erledigen, Besprechungen finden dagegen besser im Büro statt.", "s": "Experts recommend a middle way: tasks that require a lot of concentration can be done well at home, whereas meetings are better held in the office." },
+      { "t": "Wichtig ist außerdem, dass klare Absprachen getroffen werden.", "s": "It's also important that clear agreements are made." },
+      { "t": "Wann muss man erreichbar sein, und welche Aufgaben sind bis wann zu erledigen?", "s": "When do you have to be available, and which tasks have to be done by when?" },
+      { "t": "Fest steht: Für viele Fachkräfte ist flexibles Arbeiten inzwischen ein wichtiges Kriterium bei der Wahl des Arbeitgebers.", "s": "One thing is certain: for many skilled workers, flexible working is now an important criterion when choosing an employer." }
+    ],
+    "questions": [
+      { "q": { "t": "Was schätzen viele Beschäftigte am Homeoffice?", "s": "What do many employees appreciate about working from home?" }, "options": ["Sie verdienen mehr Geld.", "Sie haben weniger Aufgaben.", "Der lange Arbeitsweg fällt weg."], "answer": 2 },
+      { "q": { "t": "Welchen Vorteil hat das Homeoffice für Arbeitgeber?", "s": "What advantage does working from home have for employers?" }, "options": ["Die Mitarbeiter arbeiten länger.", "Sie brauchen weniger Büroflächen.", "Sie zahlen weniger Steuern."], "answer": 1 },
+      { "q": { "t": "Was befürchten manche Führungskräfte?", "s": "What are some managers afraid of?" }, "options": ["Dass der Austausch im Team leidet.", "Dass die Büros zu klein sind.", "Dass viele Mitarbeiter kündigen."], "answer": 0 },
+      { "q": { "t": "Was empfehlen Experten?", "s": "What do experts recommend?" }, "options": ["nur noch Arbeit im Büro", "eine Mischung aus Büro und Homeoffice", "nur noch Arbeit zu Hause"], "answer": 1 },
+      { "q": { "t": "Was ist für viele Fachkräfte bei der Wahl des Arbeitgebers wichtig?", "s": "What is important to many skilled workers when choosing an employer?" }, "options": ["ein großes Büro", "lange Besprechungen", "flexibles Arbeiten"], "answer": 2 }
+    ]
+  },
+  "sentences": [
+    { "t": "Die Stelle muss so schnell wie möglich besetzt werden.", "s": "The position must be filled as quickly as possible." },
+    { "t": "Ich bewerbe mich um eine Stelle als Ingenieurin.", "s": "I'm applying for a job as an engineer." },
+    { "t": "Im Vorstellungsgespräch wurde ich nach meinen Stärken gefragt.", "s": "In the interview I was asked about my strengths." },
+    { "t": "Viele Aufgaben lassen sich auch von zu Hause aus erledigen.", "s": "Many tasks can also be done from home." },
+    { "t": "Die Frist ist unbedingt einzuhalten.", "s": "The deadline must be met without fail." },
+    { "t": "Herr Wagner hat letzte Woche gekündigt.", "s": "Mr. Wagner handed in his notice last week." },
+    { "t": "Durch die Weiterbildung konnte Reza wertvolle Erfahrungen sammeln.", "s": "Through the training course, Reza was able to gain valuable experience." },
+    { "t": "Ein Nachteil besteht darin, dass man weniger Kontakt zu Kollegen hat.", "s": "One disadvantage is that you have less contact with colleagues." }
+  ]
+}

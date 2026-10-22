@@ -1,0 +1,171 @@
+{
+  "id": "u06",
+  "level": "B2",
+  "emoji": "🎓",
+  "title": { "t": "Lernen ein Leben lang", "s": "Lifelong learning" },
+  "goals": [
+    "Talk about education, further training and the recognition of qualifications",
+    "Turn verbs into nouns (das Lernen, die Entscheidung) to sound more formal",
+    "Use genitive prepositions like wegen, trotz, während and innerhalb",
+    "Discuss the pros and cons of lifelong learning"
+  ],
+  "words": [
+    { "id": "w01", "t": "die Weiterbildung", "pl": "die Weiterbildungen", "s": "further training, continuing education", "emoji": "",
+      "ex": { "t": "Die Firma bezahlt jedem Mitarbeiter eine Weiterbildung pro Jahr.", "s": "The company pays for one training course per year for every employee." } },
+    { "id": "w02", "t": "die Volkshochschule", "pl": "die Volkshochschulen", "s": "adult education center (VHS)", "emoji": "🏫",
+      "ex": { "t": "An der Volkshochschule kann man fast alles lernen – von Spanisch bis zur Steuererklärung.", "s": "At the adult education center you can learn almost anything – from Spanish to doing your tax return." } },
+    { "id": "w03", "t": "der Abschluss", "pl": "die Abschlüsse", "s": "degree, qualification; completion", "emoji": "🎓",
+      "ex": { "t": "Ohne Abschluss ist es schwer, eine gute Stelle zu finden.", "s": "Without a qualification it's hard to find a good job." } },
+    { "id": "w04", "t": "das Zeugnis", "pl": "die Zeugnisse", "s": "certificate; school report; job reference", "emoji": "📜",
+      "ex": { "t": "Bitte legen Sie Ihrer Bewerbung alle Zeugnisse bei.", "s": "Please enclose all your certificates with your application." } },
+    { "id": "w05", "t": "die Anerkennung", "s": "recognition (e.g. of a foreign degree); appreciation", "emoji": "",
+      "ex": { "t": "Die Anerkennung ihres iranischen Diploms hat acht Monate gedauert.", "s": "The recognition of her Iranian degree took eight months." } },
+    { "id": "w06", "t": "die Voraussetzung", "pl": "die Voraussetzungen", "s": "requirement, prerequisite", "emoji": "",
+      "ex": { "t": "Gute Deutschkenntnisse sind eine wichtige Voraussetzung für das Studium.", "s": "Good German skills are an important prerequisite for studying at university." } },
+    { "id": "w07", "t": "die Kenntnisse", "s": "knowledge, skills (usually plural)", "emoji": "",
+      "ex": { "t": "Sie hat sehr gute Kenntnisse in Statistik.", "s": "She has a very good knowledge of statistics." } },
+    { "id": "w08", "t": "die Fähigkeit", "pl": "die Fähigkeiten", "s": "ability, skill", "emoji": "",
+      "ex": { "t": "Die Fähigkeit, selbstständig zu lernen, wird immer wichtiger.", "s": "The ability to learn independently is becoming more and more important." } },
+    { "id": "w09", "t": "sich weiterbilden", "s": "to do further training, to develop one's skills", "emoji": "",
+      "ex": { "t": "Herr Wagner bildet sich regelmäßig online weiter.", "s": "Mr. Wagner regularly does further training online." } },
+    { "id": "w10", "t": "sich etwas aneignen", "s": "to acquire (knowledge, a skill) – sich is dative here", "emoji": "",
+      "ex": { "t": "Die meisten Computerkenntnisse habe ich mir selbst angeeignet.", "s": "I acquired most of my computer skills by myself." } },
+    { "id": "w11", "t": "teilnehmen an + D", "s": "to take part in, to attend", "emoji": "",
+      "ex": { "t": "Maryam nimmt an einem Kurs für Projektmanagement teil.", "s": "Maryam is taking a course in project management." } },
+    { "id": "w12", "t": "eine Prüfung bestehen", "s": "to pass an exam (eine Prüfung machen / ablegen = to take an exam)", "emoji": "",
+      "ex": { "t": "Ali hat die Prüfung beim ersten Versuch bestanden.", "s": "Ali passed the exam on the first try." } },
+    { "id": "w13", "t": "Kenntnisse auffrischen", "s": "to brush up on one's knowledge", "emoji": "",
+      "ex": { "t": "Vor dem Urlaub möchte ich meine Spanischkenntnisse auffrischen.", "s": "Before the vacation I'd like to brush up on my Spanish." } },
+    { "id": "w14", "t": "berufsbegleitend", "s": "alongside one's job, part-time (of studies or training)", "emoji": "",
+      "ex": { "t": "Neda macht berufsbegleitend einen Master.", "s": "Neda is doing a master's degree while working." } },
+    { "id": "w15", "t": "lebenslang", "s": "lifelong", "emoji": "",
+      "ex": { "t": "Lebenslanges Lernen hält auch das Gehirn fit.", "s": "Lifelong learning also keeps the brain fit." } },
+    { "id": "w16", "t": "der zweite Bildungsweg", "s": "second-chance education (getting school qualifications as an adult)", "emoji": "",
+      "ex": { "t": "Lena hat ihr Abitur auf dem zweiten Bildungsweg nachgeholt.", "s": "Lena got her Abitur later as an adult, through second-chance education." } }
+  ],
+  "phrases": [
+    { "id": "p01", "t": "Meiner Meinung nach …", "s": "In my opinion …" },
+    { "id": "p02", "t": "Ein wichtiger Vorteil ist, dass …", "s": "An important advantage is that …" },
+    { "id": "p03", "t": "Dagegen spricht, dass …", "s": "An argument against this is that …" },
+    { "id": "p04", "t": "Ich bin da anderer Meinung.", "s": "I see that differently." },
+    { "id": "p05", "t": "Das hängt davon ab, ob …", "s": "That depends on whether …" },
+    { "id": "p06", "t": "Aus eigener Erfahrung kann ich sagen, dass …", "s": "From my own experience I can say that …" },
+    { "id": "p07", "t": "Da hast du völlig recht.", "s": "You're absolutely right about that." },
+    { "id": "p08", "t": "Zusammenfassend lässt sich sagen, dass …", "s": "To sum up, one can say that …" }
+  ],
+  "dialogue": {
+    "title": { "t": "Eine Weiterbildung neben dem Job?", "s": "Further training alongside work?" },
+    "speakers": { "A": { "name": "Maryam", "voice": "f" }, "B": { "name": "Jonas", "voice": "m" } },
+    "lines": [
+      { "sp": "A", "t": "Jonas, hast du kurz Zeit? Ich überlege, mich weiterzubilden.", "s": "Jonas, do you have a minute? I'm thinking about doing some further training." },
+      { "sp": "B", "t": "Klar. Woran denkst du denn?", "s": "Sure. What do you have in mind?" },
+      { "sp": "A", "t": "An einen berufsbegleitenden Kurs in Projektmanagement. Er findet zweimal pro Woche abends statt.", "s": "A part-time course in project management. It takes place two evenings a week." },
+      { "sp": "B", "t": "Klingt gut. Aber ist das neben der Arbeit nicht zu anstrengend?", "s": "Sounds good. But isn't that too exhausting on top of work?" },
+      { "sp": "A", "t": "Bestimmt ein bisschen. Aber wegen der neuen Projekte in unserer Abteilung brauche ich diese Kenntnisse unbedingt.", "s": "A bit, I'm sure. But because of the new projects in our department I really need these skills." },
+      { "sp": "B", "t": "Verstehe. Übernimmt die Firma die Kosten?", "s": "I see. Is the company paying for it?" },
+      { "sp": "A", "t": "Zum Teil. Voraussetzung ist allerdings, dass ich am Ende die Prüfung bestehe.", "s": "Partly. The condition, though, is that I pass the exam at the end." },
+      { "sp": "B", "t": "Das ist fair. Und wie lange dauert der Kurs?", "s": "That's fair. And how long does the course last?" },
+      { "sp": "A", "t": "Sechs Monate. Während des Kurses darf ich freitags früher gehen.", "s": "Six months. During the course I'm allowed to leave earlier on Fridays." },
+      { "sp": "B", "t": "Super. Ich habe vor zwei Jahren auch eine Fortbildung gemacht. Trotz des Stresses hat es sich wirklich gelohnt.", "s": "Great. I did a training course two years ago, too. Despite the stress, it was really worth it." },
+      { "sp": "A", "t": "Das beruhigt mich. Dann melde ich mich gleich heute an.", "s": "That's reassuring. Then I'll sign up today." },
+      { "sp": "B", "t": "Viel Erfolg! Und wenn du Fragen hast, sprich mich einfach an.", "s": "Good luck! And if you have any questions, just ask me." }
+    ]
+  },
+  "grammar": [
+    {
+      "id": "g01",
+      "title": { "t": "Das Lernen, die Entscheidung, der Abschluss", "s": "Turning verbs into nouns (nominalization)" },
+      "explain": "Nominalization means turning a verb into a noun. It's typical of written and formal German (reports, news, official letters), so you need it at B2.\n**1. The infinitive as a noun:** capitalize it and use **das**: **lernen → das Lernen**, **lesen → das Lesen**. It names the activity itself and is very common after **beim** (while …) and **zum** (for …): **beim Lernen, zum Entspannen**. An object can become part of a compound: **Vokabeln lernen → das Vokabellernen**.\n**2. Derived nouns:** many verbs have their own noun. Learn them with the article, but use these patterns:\n• **-ung** → always **die**: **entscheiden → die Entscheidung**, **vorbereiten → die Vorbereitung**\n• the bare stem, often with a vowel change → usually **der**: **besuchen → der Besuch**, **abschließen → der Abschluss**, **anfangen → der Anfang**\n• **-t / -ft** → usually **die**: **ankommen → die Ankunft**, **fahren → die Fahrt**\n• **-nis** → **das** or **die**: **ergeben → das Ergebnis**, but **erlauben → die Erlaubnis**\nWhen you nominalize, the object of the verb usually becomes a **genitive**: **den Kurs abschließen → der Abschluss des Kurses**.",
+      "table": [
+        ["lernen", "das Lernen", "Infinitiv → das"],
+        ["vorbereiten", "die Vorbereitung", "-ung → die"],
+        ["besuchen", "der Besuch", "Stamm → meist der"],
+        ["abschließen", "der Abschluss", "Stamm mit Vokalwechsel"],
+        ["ankommen", "die Ankunft", "-t / -ft → meist die"],
+        ["ergeben", "das Ergebnis", "-nis → das / die"]
+      ],
+      "examples": [
+        { "t": "Beim Lernen höre ich gern leise Musik.", "s": "I like listening to quiet music while I study." },
+        { "t": "Die Entscheidung für ein Studium ist mir nicht leichtgefallen.", "s": "The decision to go to university wasn't easy for me." },
+        { "t": "Nach dem Abschluss der Ausbildung hat Ali sofort eine Stelle gefunden.", "s": "After completing his vocational training, Ali found a job straight away." },
+        { "t": "Die Anmeldung zum Kurs ist bis Freitag möglich.", "s": "You can register for the course until Friday." },
+        { "t": "Regelmäßiges Wiederholen ist der Schlüssel zum Erfolg.", "s": "Regular review is the key to success." }
+      ],
+      "exercises": [
+        { "type": "choice", "t": "Zum ___ brauche ich absolute Ruhe.", "options": ["lesen", "Lesen", "Lesung"], "answer": 1, "s": "I need complete silence for reading." },
+        { "type": "choice", "t": "Die ___ auf die Prüfung hat drei Monate gedauert.", "options": ["Vorbereiten", "Vorbereitung", "Vorbereitete"], "answer": 1, "s": "Preparing for the exam took three months." },
+        { "type": "type", "t": "Nach dem ___ des Kurses bekommt man ein Zertifikat.", "answer": ["Abschluss"], "s": "After completing the course you get a certificate. (abschließen)" },
+        { "type": "type", "t": "Die ___ für die Kurse beginnt am 1. September.", "answer": ["Anmeldung"], "s": "Registration for the courses starts on September 1. (anmelden)" },
+        { "type": "choice", "t": "Ich habe eine wichtige ___ getroffen.", "options": ["Entschluss", "Entscheiden", "Entscheidung"], "answer": 2, "s": "I've made an important decision." },
+        { "type": "type", "t": "Der ___ des Deutschkurses ist kostenlos.", "answer": ["Besuch"], "s": "Attending the German course is free of charge. (besuchen)" },
+        { "type": "order", "t": "Beim Lernen mache ich regelmäßig Pausen.", "s": "When I study, I take regular breaks." },
+        { "type": "order", "t": "Nach dem Studium möchte Neda in Berlin arbeiten.", "s": "After her studies Neda would like to work in Berlin." }
+      ]
+    },
+    {
+      "id": "g02",
+      "title": { "t": "wegen, trotz, während, aufgrund, innerhalb", "s": "Prepositions with the genitive" },
+      "explain": "Some prepositions take the **genitive**. The most important ones at B2 are **wegen** (because of), **trotz** (despite), **während** (during), **aufgrund** (due to), **innerhalb** (within), **außerhalb** (outside of) and **statt / anstatt** (instead of).\nGenitive forms: masculine and neuter nouns take **des / eines / meines** and add **-s** or **-es** to the noun (**des Kurses, eines Jahres**). Feminine and plural nouns take **der / einer / meiner** (**der Prüfung, der Kosten**). An adjective after the article ends in **-en**: **wegen des schlechten Wetters**.\nIn everyday speech you'll often hear **wegen** and **trotz** with the dative (**wegen dem Wetter**), but in writing and in exams, use the genitive.\nWhen the genitive can't be seen (a plural noun without an article), use **von + dative**: **innerhalb von zwei Wochen**, **aufgrund von Problemen**.\nDon't confuse the preposition **trotz** with the adverb **trotzdem** (nevertheless): **Trotz des Regens gingen wir raus.** = **Es regnete. Trotzdem gingen wir raus.**",
+      "table": [
+        ["wegen", "wegen der hohen Kursgebühren"],
+        ["trotz", "trotz des Zeitmangels"],
+        ["während", "während des Studiums"],
+        ["aufgrund", "aufgrund ihrer guten Noten"],
+        ["innerhalb", "innerhalb eines Jahres"],
+        ["außerhalb", "außerhalb der Arbeitszeit"],
+        ["statt / anstatt", "statt eines Präsenzkurses"]
+      ],
+      "examples": [
+        { "t": "Wegen der hohen Gebühren hat Reza einen Online-Kurs gewählt.", "s": "Because of the high fees, Reza chose an online course." },
+        { "t": "Trotz ihres Vollzeitjobs studiert Neda an einer Fernuniversität.", "s": "Despite her full-time job, Neda is studying at a distance-learning university." },
+        { "t": "Während des Praktikums hat Lena sehr viel gelernt.", "s": "During the internship Lena learned a great deal." },
+        { "t": "Aufgrund seiner guten Noten bekam Ali ein Stipendium.", "s": "Due to his good grades, Ali was awarded a scholarship." },
+        { "t": "Die Unterlagen müssen innerhalb von zwei Wochen eingereicht werden.", "s": "The documents must be submitted within two weeks." }
+      ],
+      "exercises": [
+        { "type": "choice", "t": "Wegen ___ Streiks fiel der Unterricht aus.", "options": ["dem", "des", "der"], "answer": 1, "s": "Because of the strike, classes were canceled." },
+        { "type": "choice", "t": "Trotz ___ Müdigkeit ging Maryam zum Kurs.", "options": ["ihrer", "ihre", "ihrem"], "answer": 0, "s": "Despite her tiredness, Maryam went to class." },
+        { "type": "type", "t": "Während ___ Semesters arbeitet Jonas in einem Café.", "answer": ["des"], "s": "During the semester Jonas works in a café." },
+        { "type": "type", "t": "Innerhalb ___ Woche bekommen Sie eine Antwort.", "answer": ["einer"], "s": "You will receive an answer within a week." },
+        { "type": "choice", "t": "Es regnete stark. ___ des Regens fuhr Ali mit dem Fahrrad zur Uni.", "options": ["Wegen", "Statt", "Trotz"], "answer": 2, "s": "It was raining heavily. Despite the rain, Ali cycled to university." },
+        { "type": "choice", "t": "Der Kurs findet ___ der Arbeitszeit statt, nämlich abends um sieben.", "options": ["innerhalb", "außerhalb", "aufgrund"], "answer": 1, "s": "The course takes place outside working hours, at seven in the evening." },
+        { "type": "type", "t": "Wegen ___ Krankheit konnte Herr Wagner nicht an der Prüfung teilnehmen.", "answer": ["seiner"], "s": "Because of his illness, Mr. Wagner couldn't take the exam." },
+        { "type": "order", "t": "Während des Studiums hat Neda viel gearbeitet.", "s": "During her studies Neda worked a lot." }
+      ]
+    }
+  ],
+  "reading": {
+    "title": { "t": "Lernen hört nie auf", "s": "Learning never stops" },
+    "text": [
+      { "t": "Lernen hört nach der Schule nicht auf – das zeigt die wachsende Zahl von Erwachsenen, die sich in ihrer Freizeit weiterbilden.", "s": "Learning doesn't stop after school – as the growing number of adults who do further training in their free time shows." },
+      { "t": "Volkshochschulen, Online-Plattformen und Hochschulen bieten zahlreiche Kurse an, viele davon auch berufsbegleitend.", "s": "Adult education centers, online platforms and universities offer numerous courses, many of them part-time alongside a job." },
+      { "t": "Einer der Teilnehmer ist Herr Wagner, 58 Jahre alt und Buchhalter in einem mittelgroßen Unternehmen.", "s": "One of the participants is Mr. Wagner, 58, an accountant at a medium-sized company." },
+      { "t": "Aufgrund der zunehmenden Digitalisierung in seiner Branche hat er sich vor einem Jahr für einen Kurs in Datenanalyse angemeldet.", "s": "Due to increasing digitalization in his industry, he signed up for a course in data analysis a year ago." },
+      { "t": "„Am Anfang war das Lernen nach der Arbeit anstrengend“, erzählt er, „aber inzwischen macht es mir richtig Spaß.“", "s": "“At first, studying after work was exhausting,” he says, “but now I really enjoy it.”" },
+      { "t": "Auch Neda, eine 34-jährige Ingenieurin aus dem Iran, nutzt die Weiterbildungsangebote.", "s": "Neda, a 34-year-old engineer from Iran, also takes advantage of the training on offer." },
+      { "t": "Sie lebt seit drei Jahren in Deutschland und musste zunächst auf die Anerkennung ihres Abschlusses warten.", "s": "She has been living in Germany for three years and first had to wait for her degree to be recognized." },
+      { "t": "Während des Anerkennungsverfahrens besuchte sie einen Deutschkurs und bereitete sich auf die C1-Prüfung vor.", "s": "During the recognition process she attended a German course and prepared for the C1 exam." },
+      { "t": "Heute arbeitet sie in einem Planungsbüro und macht berufsbegleitend eine Fortbildung im Bereich Energietechnik.", "s": "Today she works at an engineering firm and is doing a part-time training course in energy technology." },
+      { "t": "Experten betonen, dass die Bereitschaft zum lebenslangen Lernen auf dem Arbeitsmarkt immer wichtiger wird.", "s": "Experts emphasize that a willingness to keep learning throughout life is becoming more and more important on the job market." },
+      { "t": "Trotz aller Vorteile gibt es aber auch Probleme: Viele Berufstätige haben kaum Zeit, und gute Kurse sind oft teuer.", "s": "Despite all the advantages, there are problems too: many working people have hardly any time, and good courses are often expensive." },
+      { "t": "Manche Arbeitgeber übernehmen deshalb einen Teil der Kosten oder stellen ihre Mitarbeiter für Kurse frei.", "s": "That's why some employers cover part of the costs or give their staff time off for courses." }
+    ],
+    "questions": [
+      { "q": { "t": "Warum hat sich Herr Wagner für einen Kurs angemeldet?", "s": "Why did Mr. Wagner sign up for a course?" }, "options": ["wegen der Digitalisierung in seiner Branche", "weil er seine Stelle verloren hat", "weil sein Chef es verlangt hat"], "answer": 0 },
+      { "q": { "t": "Wie findet Herr Wagner das Lernen heute?", "s": "How does Mr. Wagner feel about studying now?" }, "options": ["Es ist ihm zu anstrengend.", "Es macht ihm Spaß.", "Es ist langweilig."], "answer": 1 },
+      { "q": { "t": "Worauf musste Neda zuerst warten?", "s": "What did Neda have to wait for first?" }, "options": ["auf einen Platz im Deutschkurs", "auf ein Visum", "auf die Anerkennung ihres Abschlusses"], "answer": 2 },
+      { "q": { "t": "Was macht Neda heute?", "s": "What does Neda do today?" }, "options": ["Sie studiert in Vollzeit.", "Sie arbeitet und bildet sich nebenbei weiter.", "Sie unterrichtet an einer Volkshochschule."], "answer": 1 },
+      { "q": { "t": "Welches Problem nennt der Text?", "s": "Which problem does the text mention?" }, "options": ["Viele Berufstätige haben wenig Zeit, und Kurse sind oft teuer.", "Es gibt zu wenige Kurse.", "Die Kurse sind zu leicht."], "answer": 0 }
+    ]
+  },
+  "sentences": [
+    { "t": "Die Anerkennung ausländischer Abschlüsse dauert oft mehrere Monate.", "s": "The recognition of foreign qualifications often takes several months." },
+    { "t": "Wegen des Streiks fällt der Unterricht heute aus.", "s": "Because of the strike, there are no classes today." },
+    { "t": "Beim Lernen hilft mir eine feste Routine.", "s": "A fixed routine helps me when I study." },
+    { "t": "Ich möchte meine Englischkenntnisse auffrischen.", "s": "I'd like to brush up on my English." },
+    { "t": "Innerhalb eines Jahres hat Ali die B2-Prüfung bestanden.", "s": "Within a year Ali passed the B2 exam." },
+    { "t": "Während der Elternzeit hat Maryam einen Online-Kurs gemacht.", "s": "During her parental leave Maryam took an online course." },
+    { "t": "Nach dem Abschluss ihres Studiums hat Lena noch eine Ausbildung gemacht.", "s": "After finishing her degree, Lena also completed a vocational training program." },
+    { "t": "Lebenslanges Lernen ist heute wichtiger denn je.", "s": "Lifelong learning is more important today than ever." }
+  ]
+}

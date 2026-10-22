@@ -1,0 +1,748 @@
+{
+  "id": "u09",
+  "level": "A1",
+  "emoji": "🌦️",
+  "title": {
+    "t": "هوا، ماه‌ها و فصل‌ها",
+    "s": "Hava, aylar ve mevsimler",
+    "pr": "Havâ, mâhhâ va faslhâ"
+  },
+  "goals": [
+    "Havanın nasıl olduğunu sorup anlatabilirim.",
+    "Dört mevsimi ve İran takvimindeki 12 ayı söyleyebilirim.",
+    "Nevruz hakkında birkaç basit cümle kurabilirim."
+  ],
+  "words": [
+    {
+      "id": "w01",
+      "t": "هوا",
+      "s": "hava",
+      "pr": "havâ",
+      "emoji": "🌤️",
+      "ex": {
+        "t": "امروز هوا خوب است.",
+        "s": "Bugün hava güzel.",
+        "pr": "Emruz havâ xub ast."
+      }
+    },
+    {
+      "id": "w02",
+      "t": "آفتابی",
+      "s": "güneşli",
+      "pr": "âftâbi",
+      "emoji": "☀️",
+      "ex": {
+        "t": "امروز هوا آفتابی است.",
+        "s": "Bugün hava güneşli.",
+        "pr": "Emruz havâ âftâbi ast."
+      }
+    },
+    {
+      "id": "w03",
+      "t": "باران",
+      "s": "yağmur",
+      "pr": "bârân",
+      "emoji": "🌧️",
+      "ex": {
+        "t": "باران می‌آید.",
+        "s": "Yağmur yağıyor.",
+        "pr": "Bârân miâyad."
+      }
+    },
+    {
+      "id": "w04",
+      "t": "برف",
+      "s": "kar",
+      "pr": "barf",
+      "emoji": "❄️",
+      "ex": {
+        "t": "در زمستان برف می‌آید.",
+        "s": "Kışın kar yağar.",
+        "pr": "Dar zemestân barf miâyad."
+      }
+    },
+    {
+      "id": "w05",
+      "t": "گرم",
+      "s": "sıcak",
+      "pr": "garm",
+      "emoji": "🌡️",
+      "ex": {
+        "t": "تابستان هوا گرم است.",
+        "s": "Yazın hava sıcak.",
+        "pr": "Tâbestân havâ garm ast."
+      }
+    },
+    {
+      "id": "w06",
+      "t": "سرد",
+      "s": "soğuk",
+      "pr": "sard",
+      "emoji": "🥶",
+      "ex": {
+        "t": "امروز هوا خیلی سرد است.",
+        "s": "Bugün hava çok soğuk.",
+        "pr": "Emruz havâ xeyli sard ast."
+      }
+    },
+    {
+      "id": "w07",
+      "t": "ابری",
+      "s": "bulutlu",
+      "pr": "abri",
+      "emoji": "☁️",
+      "ex": {
+        "t": "امروز هوا ابری است.",
+        "s": "Bugün hava bulutlu.",
+        "pr": "Emruz havâ abri ast."
+      }
+    },
+    {
+      "id": "w08",
+      "t": "بهار",
+      "s": "ilkbahar",
+      "pr": "bahâr",
+      "emoji": "🌸",
+      "ex": {
+        "t": "بهار فصل گل است.",
+        "s": "İlkbahar çiçek mevsimidir.",
+        "pr": "Bahâr fasl-e gol ast."
+      }
+    },
+    {
+      "id": "w09",
+      "t": "تابستان",
+      "s": "yaz",
+      "pr": "tâbestân",
+      "emoji": "🏖️",
+      "ex": {
+        "t": "تابستان به دریا می‌رویم.",
+        "s": "Yazın denize gidiyoruz.",
+        "pr": "Tâbestân be daryâ miravim."
+      }
+    },
+    {
+      "id": "w10",
+      "t": "پاییز",
+      "s": "sonbahar",
+      "pr": "pâyiz",
+      "emoji": "🍂",
+      "ex": {
+        "t": "پاییز برگ‌ها زرد می‌شوند.",
+        "s": "Sonbaharda yapraklar sararır.",
+        "pr": "Pâyiz barghâ zard mişavand."
+      }
+    },
+    {
+      "id": "w11",
+      "t": "زمستان",
+      "s": "kış",
+      "pr": "zemestân",
+      "emoji": "⛄",
+      "ex": {
+        "t": "من زمستان را دوست دارم.",
+        "s": "Kışı severim.",
+        "pr": "Man zemestân râ dust dâram."
+      }
+    },
+    {
+      "id": "w12",
+      "t": "فصل",
+      "s": "mevsim",
+      "pr": "fasl",
+      "emoji": "",
+      "ex": {
+        "t": "سال چهار فصل دارد.",
+        "s": "Yılın dört mevsimi var.",
+        "pr": "Sâl çahâr fasl dârad."
+      }
+    },
+    {
+      "id": "w13",
+      "t": "ماه",
+      "s": "ay",
+      "pr": "mâh",
+      "emoji": "🗓️",
+      "ex": {
+        "t": "سال دوازده ماه دارد.",
+        "s": "Yılın on iki ayı var.",
+        "pr": "Sâl davâzdah mâh dârad."
+      }
+    },
+    {
+      "id": "w14",
+      "t": "نوروز",
+      "s": "Nevruz (İran'da yılbaşı)",
+      "pr": "nowruz",
+      "emoji": "🌱",
+      "ex": {
+        "t": "نوروز جشن سال نو است.",
+        "s": "Nevruz yeni yıl bayramıdır.",
+        "pr": "Nowruz caşn-e sâl-e now ast."
+      }
+    }
+  ],
+  "phrases": [
+    {
+      "id": "p01",
+      "t": "هوا چطور است؟",
+      "s": "Hava nasıl?",
+      "pr": "Havâ çetor ast?"
+    },
+    {
+      "id": "p02",
+      "t": "هوا خیلی خوب است!",
+      "s": "Hava çok güzel!",
+      "pr": "Havâ xeyli xub ast!"
+    },
+    {
+      "id": "p03",
+      "t": "باران می‌آید.",
+      "s": "Yağmur yağıyor.",
+      "pr": "Bârân miâyad."
+    },
+    {
+      "id": "p04",
+      "t": "برف می‌آید.",
+      "s": "Kar yağıyor.",
+      "pr": "Barf miâyad."
+    },
+    {
+      "id": "p05",
+      "t": "خیلی سرد است!",
+      "s": "Çok soğuk!",
+      "pr": "Xeyli sard ast!"
+    },
+    {
+      "id": "p06",
+      "t": "نوروز مبارک!",
+      "s": "Nevruzunuz kutlu olsun!",
+      "pr": "Nowruz mobârak!"
+    },
+    {
+      "id": "p07",
+      "t": "سال نو مبارک!",
+      "s": "Yeni yılınız kutlu olsun!",
+      "pr": "Sâl-e no mobârak!"
+    },
+    {
+      "id": "p08",
+      "t": "کدام فصل را دوست داری؟",
+      "s": "Hangi mevsimi seversin?",
+      "pr": "Kodâm fasl râ dust dâri?"
+    }
+  ],
+  "dialogue": {
+    "title": {
+      "t": "هوای تهران چطور است؟",
+      "s": "Tahran'da hava nasıl?",
+      "pr": "Havâ-ye Tehrân çetor ast?"
+    },
+    "speakers": {
+      "A": {
+        "name": "Sara",
+        "voice": "f"
+      },
+      "B": {
+        "name": "Emre",
+        "voice": "m"
+      }
+    },
+    "lines": [
+      {
+        "sp": "B",
+        "t": "سلام سارا! هوای تهران چطور است؟",
+        "s": "Merhaba Sara! Tahran'da hava nasıl?",
+        "pr": "Salâm Sârâ! Havâ-ye Tehrân çetor ast?"
+      },
+      {
+        "sp": "A",
+        "t": "سلام امره! امروز هوا آفتابی و گرم است.",
+        "s": "Merhaba Emre! Bugün hava güneşli ve sıcak.",
+        "pr": "Salâm Emre! Emruz havâ âftâbi va garm ast."
+      },
+      {
+        "sp": "B",
+        "t": "خوش به حالت! در استانبول باران می‌آید.",
+        "s": "Ne mutlu sana! İstanbul'da yağmur yağıyor.",
+        "pr": "Xoş be hâlat! Dar Estânbol bârân miâyad."
+      },
+      {
+        "sp": "A",
+        "t": "هوا سرد است؟",
+        "s": "Hava soğuk mu?",
+        "pr": "Havâ sard ast?"
+      },
+      {
+        "sp": "B",
+        "t": "نه خیلی، ولی ابری است.",
+        "s": "Çok değil, ama bulutlu.",
+        "pr": "Na xeyli, vali abri ast."
+      },
+      {
+        "sp": "A",
+        "t": "تهران در بهار خیلی قشنگ است. کی به ایران می‌آیی؟",
+        "s": "Tahran ilkbaharda çok güzel. İran'a ne zaman geliyorsun?",
+        "pr": "Tehrân dar bahâr xeyli ğaşang ast. Key be İrân miâyi?"
+      },
+      {
+        "sp": "B",
+        "t": "در فروردین، برای نوروز!",
+        "s": "Farvardin'de, Nevruz için!",
+        "pr": "Dar farvardin, barâye nowruz!"
+      },
+      {
+        "sp": "A",
+        "t": "عالی است! نوروز در ایران خیلی شاد است.",
+        "s": "Harika! İran'da Nevruz çok neşeli geçer.",
+        "pr": "Âli ast! Nowruz dar İrân xeyli şâd ast."
+      },
+      {
+        "sp": "B",
+        "t": "پس تا فروردین!",
+        "s": "O zaman Farvardin'de görüşürüz!",
+        "pr": "Pas tâ farvardin!"
+      },
+      {
+        "sp": "A",
+        "t": "خداحافظ!",
+        "s": "Hoşça kal!",
+        "pr": "Xodâhâfez!"
+      }
+    ]
+  },
+  "grammar": [
+    {
+      "id": "g01",
+      "title": {
+        "t": "هوا آفتابی است. باران می‌آید.",
+        "s": "Havayı anlatmak",
+        "pr": "Havâ âftâbi ast. Bârân miâyad."
+      },
+      "explain": "Havayı anlatmanın iki yolu var.\n1) **havâ** + sıfat + **ast**: Havâ **garm** ast = Hava sıcak. Havâ **sard / abri / âftâbi** ast. Türkçedeki *hava* kelimesiyle aynı!\n2) Yağmur ve kar için Farslar **\"gelmek\"** fiilini kullanır: **bârân miâyad** = yağmur yağıyor (kelimesi kelimesine: yağmur geliyor), **barf miâyad** = kar yağıyor. Olumsuz: **bârân nemiâyad** = yağmur yağmıyor.\n**-i** eki isimden sıfat yapar, Türkçedeki **-li** gibi: **âftâb** (güneş) → **âftâbi** (güneşli), **abr** (bulut) → **abri** (bulutlu).\nSoru: **Havâ çetor ast?** = Hava nasıl?",
+      "table": [
+        [
+          "هوا آفتابی است.",
+          "Havâ âftâbi ast.",
+          "☀️"
+        ],
+        [
+          "هوا ابری است.",
+          "Havâ abri ast.",
+          "☁️"
+        ],
+        [
+          "باران می‌آید.",
+          "Bârân miâyad.",
+          "🌧️"
+        ],
+        [
+          "برف می‌آید.",
+          "Barf miâyad.",
+          "❄️"
+        ],
+        [
+          "هوا گرم است.",
+          "Havâ garm ast.",
+          "🌡️"
+        ],
+        [
+          "هوا سرد است.",
+          "Havâ sard ast.",
+          "🥶"
+        ]
+      ],
+      "examples": [
+        {
+          "t": "هوا چطور است؟ هوا ابری است.",
+          "s": "Hava nasıl? Hava bulutlu.",
+          "pr": "Havâ çetor ast? Havâ abri ast."
+        },
+        {
+          "t": "در تبریز زمستان برف می‌آید.",
+          "s": "Tebriz'de kışın kar yağar.",
+          "pr": "Dar Tabriz zemestân barf miâyad."
+        },
+        {
+          "t": "امروز باران می‌آید.",
+          "s": "Bugün yağmur yağıyor.",
+          "pr": "Emruz bârân miâyad."
+        },
+        {
+          "t": "تابستان در شیراز هوا خیلی گرم است.",
+          "s": "Şiraz'da yazın hava çok sıcak.",
+          "pr": "Tâbestân dar Şirâz havâ xeyli garm ast."
+        },
+        {
+          "t": "باران نمی‌آید.",
+          "s": "Yağmur yağmıyor.",
+          "pr": "Bârân nemiâyad."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "choice",
+          "t": "امروز هوا ___ است.",
+          "options": [
+            "آفتابی",
+            "باران",
+            "برف"
+          ],
+          "answer": 0,
+          "s": "Bugün hava güneşli.",
+          "pr": "Emruz havâ âftâbi ast."
+        },
+        {
+          "type": "choice",
+          "t": "باران ___.",
+          "options": [
+            "است",
+            "می‌آید",
+            "هستم"
+          ],
+          "answer": 1,
+          "s": "Yağmur yağıyor.",
+          "pr": "Bârân miâyad."
+        },
+        {
+          "type": "choice",
+          "t": "زمستان هوا ___ است.",
+          "options": [
+            "گرم",
+            "آفتابی",
+            "سرد"
+          ],
+          "answer": 2,
+          "s": "Kışın hava soğuk.",
+          "pr": "Zemestân havâ sard ast."
+        },
+        {
+          "type": "choice",
+          "t": "هوا ___ است؟",
+          "options": [
+            "چطور",
+            "کجا",
+            "چند"
+          ],
+          "answer": 0,
+          "s": "Hava nasıl?",
+          "pr": "Havâ çetor ast?"
+        },
+        {
+          "type": "type",
+          "t": "برف ___.",
+          "answer": [
+            "می‌آید",
+            "میآید"
+          ],
+          "s": "Kar yağıyor.",
+          "pr": "Barf miâyad."
+        },
+        {
+          "type": "type",
+          "t": "هوا ___ است.",
+          "answer": [
+            "ابری"
+          ],
+          "s": "Hava bulutlu.",
+          "pr": "Havâ abri ast."
+        },
+        {
+          "type": "order",
+          "t": "امروز هوا خیلی سرد است.",
+          "s": "Bugün hava çok soğuk.",
+          "pr": "Emruz havâ xeyli sard ast."
+        },
+        {
+          "type": "order",
+          "t": "در تبریز برف می‌آید.",
+          "s": "Tebriz'de kar yağıyor.",
+          "pr": "Dar Tabriz barf miâyad."
+        }
+      ]
+    },
+    {
+      "id": "g02",
+      "title": {
+        "t": "فصل‌ها و ماه‌ها",
+        "s": "Mevsimler, İran ayları ve Nevruz",
+        "pr": "faslhâ va mâhhâ"
+      },
+      "explain": "İran'da resmî takvim **güneş takvimi**dir. Yıl, ilkbaharın ilk günü (20–21 Mart) **Nowruz** (Nevruz) ile başlar: **avval-e farvardin** = 1 Farvardin.\nHer mevsimin üç ayı var. **Bahâr**: farvardin, ordibeheşt, xordâd. **Tâbestân**: tir, mordâd, şahrivar. **Pâyiz**: mehr, âbân, âzar. **Zemestân**: dey, bahman, esfand. İlk altı ay 31 gün, sonraki beş ay 30 gün, esfand ise 29 (artık yılda 30) gündür.\nNevruz'da aileler **haftsin** sofrası kurar: \"s\" sesiyle başlayan yedi şey (sabze, sib, sir, sekke, sonbol…). Büyükler çocuklara **eydi** (bayram harçlığı) verir. 13 Farvardin'de (**sizdah bedar**) herkes pikniğe, doğaya çıkar.\n\"… ayında\" demek için **dar** kullanılır: **dar mehr** = Mehr ayında. Mevsimlerde edat çoğu zaman düşer: **zemestân barf miâyad** = kışın kar yağar.",
+      "table": [
+        [
+          "بهار",
+          "فروردین، اردیبهشت، خرداد",
+          "bahâr: farvardin, ordibeheşt, xordâd"
+        ],
+        [
+          "تابستان",
+          "تیر، مرداد، شهریور",
+          "tâbestân: tir, mordâd, şahrivar"
+        ],
+        [
+          "پاییز",
+          "مهر، آبان، آذر",
+          "pâyiz: mehr, âbân, âzar"
+        ],
+        [
+          "زمستان",
+          "دی، بهمن، اسفند",
+          "zemestân: dey, bahman, esfand"
+        ]
+      ],
+      "examples": [
+        {
+          "t": "نوروز اول فروردین است.",
+          "s": "Nevruz 1 Farvardin'de.",
+          "pr": "Nowruz avval-e farvardin ast."
+        },
+        {
+          "t": "مدرسه‌ها در مهر باز می‌شوند.",
+          "s": "Okullar Mehr ayında açılır.",
+          "pr": "Madresehâ dar mehr bâz mişavand."
+        },
+        {
+          "t": "تولد من در آبان است.",
+          "s": "Doğum günüm Âbân ayında.",
+          "pr": "Tavallod-e man dar âbân ast."
+        },
+        {
+          "t": "دی و بهمن ماه‌های سرد هستند.",
+          "s": "Dey ve Bahman soğuk aylardır.",
+          "pr": "Dey va bahman mâhhâ-ye sard hastand."
+        },
+        {
+          "t": "در نوروز به خانه‌ی پدربزرگ می‌رویم.",
+          "s": "Nevruz'da büyükbabamın evine gideriz.",
+          "pr": "Dar nowruz be xâne-ye pedarbozorg miravim."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "choice",
+          "t": "نوروز اول ___ است.",
+          "options": [
+            "فروردین",
+            "مهر",
+            "دی"
+          ],
+          "answer": 0,
+          "s": "Nevruz 1 Farvardin'de.",
+          "pr": "Nowruz avval-e farvardin ast."
+        },
+        {
+          "type": "choice",
+          "t": "مهر در ___ است.",
+          "options": [
+            "بهار",
+            "پاییز",
+            "تابستان"
+          ],
+          "answer": 1,
+          "s": "Mehr ayı sonbahardadır.",
+          "pr": "Mehr dar pâyiz ast."
+        },
+        {
+          "type": "choice",
+          "t": "سال چهار ___ دارد.",
+          "options": [
+            "ماه",
+            "روز",
+            "فصل"
+          ],
+          "answer": 2,
+          "s": "Yılın dört mevsimi var.",
+          "pr": "Sâl çahâr fasl dârad."
+        },
+        {
+          "type": "choice",
+          "t": "دی و بهمن ماه‌های ___ هستند.",
+          "options": [
+            "سرد",
+            "گرم",
+            "سبز"
+          ],
+          "answer": 0,
+          "s": "Dey ve Bahman soğuk aylardır.",
+          "pr": "Dey va bahman mâhhâ-ye sard hastand."
+        },
+        {
+          "type": "type",
+          "t": "تابستان هوا ___ است.",
+          "answer": [
+            "گرم"
+          ],
+          "s": "Yazın hava sıcak.",
+          "pr": "Tâbestân havâ garm ast."
+        },
+        {
+          "type": "type",
+          "t": "___ مبارک!",
+          "answer": [
+            "نوروز"
+          ],
+          "s": "Nevruzunuz kutlu olsun!",
+          "pr": "Nowruz mobârak!"
+        },
+        {
+          "type": "order",
+          "t": "نوروز اول فروردین است.",
+          "s": "Nevruz 1 Farvardin'de.",
+          "pr": "Nowruz avval-e farvardin ast."
+        },
+        {
+          "type": "order",
+          "t": "من بهار را دوست دارم.",
+          "s": "Ben ilkbaharı severim.",
+          "pr": "Man bahâr râ dust dâram."
+        }
+      ]
+    }
+  ],
+  "reading": {
+    "title": {
+      "t": "نوروز در خانه‌ی ما",
+      "s": "Bizim evde Nevruz",
+      "pr": "Nowruz dar xâne-ye mâ"
+    },
+    "text": [
+      {
+        "t": "من مریم هستم و در شیراز زندگی می‌کنم.",
+        "s": "Ben Maryam, Şiraz'da yaşıyorum.",
+        "pr": "Man Maryam hastam va dar Şirâz zendegi mikonam."
+      },
+      {
+        "t": "من بهار را خیلی دوست دارم.",
+        "s": "İlkbaharı çok severim.",
+        "pr": "Man bahâr râ xeyli dust dâram."
+      },
+      {
+        "t": "در بهار هوا نه سرد است، نه گرم.",
+        "s": "İlkbaharda hava ne soğuk ne sıcak.",
+        "pr": "Dar bahâr havâ na sard ast, na garm."
+      },
+      {
+        "t": "نوروز اول فروردین است.",
+        "s": "Nevruz 1 Farvardin'de.",
+        "pr": "Nowruz avval-e farvardin ast."
+      },
+      {
+        "t": "ما سفره‌ی هفت‌سین می‌چینیم.",
+        "s": "Haft-sin sofrasını kuruyoruz.",
+        "pr": "Mâ sofre-ye haftsin miçinim."
+      },
+      {
+        "t": "بچه‌ها از پدربزرگ عیدی می‌گیرند.",
+        "s": "Çocuklar büyükbabadan bayram harçlığı alıyor.",
+        "pr": "Baççehâ az pedarbozorg eydi migirand."
+      },
+      {
+        "t": "سیزده فروردین همه به پارک می‌روند.",
+        "s": "13 Farvardin'de herkes parka gidiyor.",
+        "pr": "Sizdah-e farvardin hame be pârk miravand."
+      },
+      {
+        "t": "گاهی باران می‌آید، ولی ما خوشحال هستیم.",
+        "s": "Bazen yağmur yağıyor ama biz mutluyuz.",
+        "pr": "Gâhi bârân miâyad, vali mâ xoşhâl hastim."
+      }
+    ],
+    "questions": [
+      {
+        "q": {
+          "t": "مریم کدام فصل را دوست دارد؟",
+          "s": "Maryam hangi mevsimi seviyor?",
+          "pr": "Maryam kodâm fasl râ dust dârad?"
+        },
+        "options": [
+          "زمستان",
+          "بهار",
+          "تابستان"
+        ],
+        "answer": 1
+      },
+      {
+        "q": {
+          "t": "نوروز کی است؟",
+          "s": "Nevruz ne zaman?",
+          "pr": "Nowruz key ast?"
+        },
+        "options": [
+          "اول فروردین",
+          "اول مهر",
+          "سیزده فروردین"
+        ],
+        "answer": 0
+      },
+      {
+        "q": {
+          "t": "بچه‌ها از پدربزرگ چه می‌گیرند؟",
+          "s": "Çocuklar büyükbabadan ne alıyor?",
+          "pr": "Baççehâ az pedarbozorg çe migirand?"
+        },
+        "options": [
+          "کیف",
+          "کتاب",
+          "عیدی"
+        ],
+        "answer": 2
+      },
+      {
+        "q": {
+          "t": "سیزده فروردین همه کجا می‌روند؟",
+          "s": "13 Farvardin'de herkes nereye gidiyor?",
+          "pr": "Sizdah-e farvardin hame kocâ miravand?"
+        },
+        "options": [
+          "به مدرسه",
+          "به پارک",
+          "به بانک"
+        ],
+        "answer": 1
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "t": "هوا چطور است؟",
+      "s": "Hava nasıl?",
+      "pr": "Havâ çetor ast?"
+    },
+    {
+      "t": "امروز هوا ابری است.",
+      "s": "Bugün hava bulutlu.",
+      "pr": "Emruz havâ abri ast."
+    },
+    {
+      "t": "در زمستان برف می‌آید.",
+      "s": "Kışın kar yağar.",
+      "pr": "Dar zemestân barf miâyad."
+    },
+    {
+      "t": "تابستان هوا خیلی گرم است.",
+      "s": "Yazın hava çok sıcak.",
+      "pr": "Tâbestân havâ xeyli garm ast."
+    },
+    {
+      "t": "مدرسه‌ها اول مهر باز می‌شوند.",
+      "s": "Okullar 1 Mehr'de açılır.",
+      "pr": "Madresehâ avval-e mehr bâz mişavand."
+    },
+    {
+      "t": "نوروز مبارک!",
+      "s": "Nevruzunuz kutlu olsun!",
+      "pr": "Nowruz mobârak!"
+    },
+    {
+      "t": "من پاییز را دوست دارم.",
+      "s": "Sonbaharı severim.",
+      "pr": "Man pâyiz râ dust dâram."
+    },
+    {
+      "t": "اسفند آخرین ماه سال است.",
+      "s": "Esfand yılın son ayıdır.",
+      "pr": "Esfand âxarin mâh-e sâl ast."
+    }
+  ]
+}

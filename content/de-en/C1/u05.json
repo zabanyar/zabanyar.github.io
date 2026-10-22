@@ -1,0 +1,172 @@
+{
+  "id": "u05",
+  "level": "C1",
+  "emoji": "🧠",
+  "title": { "t": "Psychologie und Wohlbefinden", "s": "Psychology and well-being" },
+  "goals": [
+    "Talk about stress, mental health and well-being in a nuanced way",
+    "Use modal verbs subjectively (soll, will, muss, dürfte, kann nicht) – also in the past",
+    "Express degrees of certainty and distance with words such as zweifellos, vermutlich, angeblich",
+    "Show empathy and give cautious advice"
+  ],
+  "words": [
+    { "id": "w01", "t": "das Wohlbefinden", "s": "well-being", "emoji": "",
+      "ex": { "t": "Regelmäßige Bewegung steigert nachweislich das Wohlbefinden.", "s": "Regular exercise has been shown to increase well-being." } },
+    { "id": "w02", "t": "die Resilienz", "s": "resilience", "emoji": "",
+      "ex": { "t": "Resilienz lässt sich bis zu einem gewissen Grad trainieren.", "s": "Resilience can be trained to a certain degree." } },
+    { "id": "w03", "t": "der Leistungsdruck", "s": "pressure to perform", "emoji": "",
+      "ex": { "t": "Schon in der Schule leiden viele Kinder unter Leistungsdruck.", "s": "Many children already suffer from pressure to perform at school." } },
+    { "id": "w04", "t": "das Burn-out", "pl": "die Burn-outs", "s": "burnout", "emoji": "",
+      "ex": { "t": "Nach Monaten der Überlastung erlitt sie ein Burn-out.", "s": "After months of overwork she suffered burnout." } },
+    { "id": "w05", "t": "die Achtsamkeit", "s": "mindfulness", "emoji": "🧘",
+      "ex": { "t": "Achtsamkeit bedeutet, bewusst im Hier und Jetzt zu leben.", "s": "Mindfulness means living consciously in the here and now." } },
+    { "id": "w06", "t": "die Einsamkeit", "s": "loneliness", "emoji": "",
+      "ex": { "t": "Einsamkeit gilt inzwischen als ernst zu nehmendes Gesundheitsrisiko.", "s": "Loneliness is now regarded as a serious health risk." } },
+    { "id": "w07", "t": "die Selbstwirksamkeit", "s": "self-efficacy (belief in one's ability to cope)", "emoji": "",
+      "ex": { "t": "Menschen mit hoher Selbstwirksamkeit gehen Probleme aktiver an.", "s": "People with high self-efficacy tackle problems more actively." } },
+    { "id": "w08", "t": "sich erholen von + D", "s": "to recover from", "emoji": "",
+      "ex": { "t": "Am Wochenende gelingt es mir kaum noch, mich von der Arbeit zu erholen.", "s": "On weekends I hardly manage to recover from work anymore." } },
+    { "id": "w09", "t": "bewältigen", "s": "to cope with, manage, overcome", "emoji": "",
+      "ex": { "t": "Jeder bewältigt Krisen auf seine eigene Weise.", "s": "Everyone copes with crises in their own way." } },
+    { "id": "w10", "t": "überfordert", "s": "overwhelmed, out of one's depth", "emoji": "",
+      "ex": { "t": "Mit drei Projekten gleichzeitig fühlt er sich völlig überfordert.", "s": "With three projects at once, he feels completely overwhelmed." } },
+    { "id": "w11", "t": "die Psychotherapie", "pl": "die Psychotherapien", "s": "psychotherapy", "emoji": "",
+      "ex": { "t": "Die Kosten einer Psychotherapie übernimmt in der Regel die Krankenkasse.", "s": "The cost of psychotherapy is usually covered by health insurance." } },
+    { "id": "w12", "t": "das Grübeln", "s": "brooding, rumination", "emoji": "",
+      "ex": { "t": "Nachts hält mich das Grübeln oft vom Schlafen ab.", "s": "At night, brooding often keeps me from sleeping." } },
+    { "id": "w13", "t": "die Gelassenheit", "s": "composure, calmness, equanimity", "emoji": "",
+      "ex": { "t": "Mit den Jahren kommt oft eine gewisse Gelassenheit.", "s": "Over the years, a certain composure often comes." } },
+    { "id": "w14", "t": "abschalten", "s": "to switch off, unwind", "emoji": "",
+      "ex": { "t": "Beim Joggen kann ich am besten abschalten.", "s": "I can unwind best when I'm jogging." } },
+    { "id": "w15", "t": "der Schlafmangel", "s": "lack of sleep, sleep deprivation", "emoji": "😴",
+      "ex": { "t": "Chronischer Schlafmangel beeinträchtigt die Konzentration.", "s": "Chronic lack of sleep impairs concentration." } },
+    { "id": "w16", "t": "die Zufriedenheit", "s": "contentment, satisfaction", "emoji": "😊",
+      "ex": { "t": "Zufriedenheit hängt weniger vom Einkommen ab, als viele glauben.", "s": "Contentment depends less on income than many people think." } }
+  ],
+  "phrases": [
+    { "id": "p01", "t": "Es steht außer Frage, dass …", "s": "It is beyond question that …" },
+    { "id": "p02", "t": "Ich wage zu bezweifeln, dass …", "s": "I venture to doubt that …" },
+    { "id": "p03", "t": "Das ist nicht von der Hand zu weisen.", "s": "That can't be dismissed. / There's something in that." },
+    { "id": "p04", "t": "Allem Anschein nach …", "s": "To all appearances …" },
+    { "id": "p05", "t": "Das kann ich gut nachvollziehen.", "s": "I can really understand that." },
+    { "id": "p06", "t": "Es spricht einiges dafür, dass …", "s": "There is a good deal to suggest that …" },
+    { "id": "p07", "t": "Das sollte man nicht auf die leichte Schulter nehmen.", "s": "You shouldn't take that lightly." },
+    { "id": "p08", "t": "Mir ist alles über den Kopf gewachsen.", "s": "Everything got on top of me." }
+  ],
+  "dialogue": {
+    "title": { "t": "Radiosprechstunde: Wenn der Akku leer ist", "s": "Radio advice hour: when your battery is empty" },
+    "speakers": { "A": { "name": "Lena Hoffmann", "voice": "f" }, "B": { "name": "Dr. Amir Sadeghi", "voice": "m" } },
+    "lines": [
+      { "sp": "A", "t": "Herr Dr. Sadeghi, Burn-out soll inzwischen eine regelrechte Volkskrankheit sein. Stimmt das?", "s": "Dr. Sadeghi, burnout is said to have become a real widespread disease. Is that true?" },
+      { "sp": "B", "t": "Der Begriff wird zweifellos inflationär verwendet. Medizinisch gesehen ist Burn-out übrigens keine eigenständige Krankheit, sondern ein Syndrom, das auf chronischen Stress am Arbeitsplatz zurückgeführt wird.", "s": "The term is undoubtedly overused. Medically speaking, by the way, burnout is not a disease in its own right but a syndrome attributed to chronic stress at work." },
+      { "sp": "A", "t": "Trotzdem melden die Krankenkassen immer mehr Fehltage wegen psychischer Erkrankungen.", "s": "Nevertheless, health insurers are reporting more and more sick days due to mental illness." },
+      { "sp": "B", "t": "Das dürfte mehrere Ursachen haben. Zum einen ist die Arbeitsverdichtung real, zum anderen sprechen Menschen heute offener über ihre Probleme – und das ist ja durchaus eine gute Nachricht.", "s": "That probably has several causes. On the one hand, work intensification is real; on the other, people talk more openly about their problems today – which is actually good news." },
+      { "sp": "A", "t": "Ein Hörer schreibt uns, er habe bereits alles versucht: Yoga, Meditation, Achtsamkeits-Apps. Geholfen habe nichts.", "s": "A listener writes to us that he has already tried everything: yoga, meditation, mindfulness apps. Nothing has helped." },
+      { "sp": "B", "t": "Das kann ich gut nachvollziehen. Solche Methoden können durchaus entlasten, aber sie müssen scheitern, wenn die eigentliche Ursache in den Arbeitsbedingungen liegt.", "s": "I can really understand that. Methods like these can certainly bring relief, but they are bound to fail if the real cause lies in the working conditions." },
+      { "sp": "A", "t": "Woran erkenne ich denn, dass ich professionelle Hilfe brauche?", "s": "So how do I know that I need professional help?" },
+      { "sp": "B", "t": "Wenn Schlafstörungen, Grübeln und Erschöpfung über Wochen anhalten und selbst der Urlaub keine Erholung mehr bringt, sollte man das keinesfalls auf die leichte Schulter nehmen.", "s": "If sleep problems, brooding and exhaustion last for weeks and even a vacation no longer brings any recovery, you should by no means take it lightly." },
+      { "sp": "A", "t": "Und dann? Auf einen Therapieplatz wartet man angeblich monatelang.", "s": "And then? Supposedly you have to wait months for a place in therapy." },
+      { "sp": "B", "t": "Leider ist das oft so. Ein guter erster Schritt ist aber in jedem Fall der Weg zur Hausärztin oder zum Hausarzt – dort lässt sich einschätzen, wie dringend die Lage ist.", "s": "Unfortunately, that's often the case. But a good first step is always to see your family doctor – they can assess how urgent the situation is." }
+    ]
+  },
+  "grammar": [
+    {
+      "id": "g01",
+      "title": { "t": "Subjektiver Gebrauch der Modalverben", "s": "Modal verbs used subjectively" },
+      "explain": "Modal verbs have an **objective** meaning (ability, obligation, permission, wish) and a **subjective** one: the speaker comments on how likely a statement is, or reports someone else's claim.\n**muss** – near-certain conclusion: **Er muss krank sein.** (I'm almost sure.)\n**dürfte** (Konjunktiv II) – cautious, well-founded assumption, 'probably': **Das dürfte stimmen.**\n**kann / könnte** – possibility: **Das könnte stimmen.** **kann nicht** – impossibility: **Das kann nicht sein.**\n**soll** – hearsay, the claim comes from others: **Der Film soll gut sein.** (= people say / it is reported)\n**will** – the subject claims something about him- or herself, and the speaker has doubts: **Er will nichts gewusst haben.** (= he claims he knew nothing)\n**Past:** the modal verb stays in the present; the main verb takes the **perfect infinitive** (Partizip II + **haben/sein**): **Sie soll lange in Teheran gelebt haben.** · **Er muss den Zug verpasst haben.** Compare the objective past: **Sie hat lange arbeiten müssen.** (She had to work for a long time.)\nScale of certainty: **muss > dürfte > kann / könnte**; **kann nicht** = impossible.",
+      "table": [
+        ["muss", "Er muss krank sein.", "fast sicher"],
+        ["dürfte", "Das dürfte stimmen.", "wahrscheinlich"],
+        ["kann / könnte", "Das könnte stimmen.", "möglich"],
+        ["kann nicht", "Das kann nicht sein.", "unmöglich"],
+        ["soll", "Er soll reich sein.", "man sagt"],
+        ["will", "Er will es gesehen haben.", "er behauptet"]
+      ],
+      "examples": [
+        { "t": "Burn-out soll in bestimmten Branchen besonders verbreitet sein.", "s": "Burnout is said to be particularly widespread in certain industries." },
+        { "t": "Er will das Projekt ganz allein geleitet haben.", "s": "He claims to have led the project all on his own." },
+        { "t": "Bei diesem Verkehr dürfte sie sich verspäten.", "s": "With this traffic, she'll probably be late." },
+        { "t": "Sie muss die Nachricht schon gelesen haben – sie hat sofort reagiert.", "s": "She must have read the message already – she reacted immediately." },
+        { "t": "Das kann nicht stimmen, die Zahlen widersprechen sich.", "s": "That can't be right – the figures contradict each other." }
+      ],
+      "exercises": [
+        { "type": "choice", "t": "Ich habe ihn nicht selbst gesehen, aber der Film ___ sehr gut sein.", "options": ["soll", "will", "muss"], "answer": 0, "s": "I haven't seen it myself, but the film is said to be very good." },
+        { "type": "choice", "t": "Er ___ von dem Fehler nichts gewusst haben, aber das glaubt ihm keiner.", "options": ["soll", "will", "dürfte"], "answer": 1, "s": "He claims not to have known anything about the mistake, but nobody believes him." },
+        { "type": "choice", "t": "Bei ihr brennt noch Licht, sie ___ also zu Hause sein.", "options": ["will", "soll", "muss"], "answer": 2, "s": "Her light is still on, so she must be at home." },
+        { "type": "type", "t": "Sie soll früher in Teheran ___ haben.", "answer": ["gelebt", "gewohnt"], "s": "She is said to have lived in Tehran in the past." },
+        { "type": "choice", "t": "Das ___ nicht sein – ich habe die Tür doch abgeschlossen!", "options": ["kann", "soll", "dürfte"], "answer": 0, "s": "That can't be – I locked the door!" },
+        { "type": "type", "t": "Er will den Bericht schon gestern abgeschickt ___.", "answer": ["haben"], "s": "He claims to have sent the report yesterday." },
+        { "type": "choice", "t": "Die Studie ___ inzwischen veröffentlicht worden sein, aber ganz sicher bin ich mir nicht.", "options": ["will", "dürfte", "muss"], "answer": 1, "s": "The study has probably been published by now, but I'm not completely sure." },
+        { "type": "order", "t": "Der Minister soll zurückgetreten sein.", "s": "The minister is said to have resigned." }
+      ]
+    },
+    {
+      "id": "g02",
+      "title": { "t": "Gewissheit und Vermutung: zweifellos, vermutlich, angeblich", "s": "Expressing certainty, probability and distance" },
+      "explain": "Besides modal verbs, German uses **modal adverbs** to rate how probable a statement is. They stand in position 1 or in the middle field: **Vermutlich ist er krank.** / **Er ist vermutlich krank.**\n**Certain:** **zweifellos, zweifelsohne, ohne Frage, unbestreitbar**. Note: **bestimmt, sicher, sicherlich** sound certain but express the speaker's strong *conviction*, not proven fact: **Er hat das sicher vergessen.** ≈ I'm pretty sure he forgot.\n**Probable:** **wahrscheinlich, vermutlich, wohl, aller Wahrscheinlichkeit nach**.\n**Possible:** **vielleicht, möglicherweise, eventuell, unter Umständen**.\n**Unlikely:** **kaum, wohl kaum, schwerlich**.\n**Distance / hearsay:** **angeblich** = allegedly (someone claims it, the truth is open); **vermeintlich** = supposedly, usually implying it is *false*: **der vermeintliche Experte** (who isn't one); **mutmaßlich** = suspected (official, police and legal language): **der mutmaßliche Täter**.\nEquivalents: **Er ist vermutlich krank. ≈ Er dürfte krank sein.** · **Er ist angeblich reich. ≈ Er soll reich sein.**\nNominal and verbal alternatives for formal speech: **Es besteht kein Zweifel daran, dass …** · **Es ist anzunehmen, dass …** · **Ich gehe davon aus, dass …**",
+      "table": [
+        ["sicher", "zweifellos, zweifelsohne, ohne Frage"],
+        ["wahrscheinlich", "vermutlich, aller Wahrscheinlichkeit nach"],
+        ["möglich", "möglicherweise, eventuell, unter Umständen"],
+        ["unwahrscheinlich", "kaum, wohl kaum, schwerlich"],
+        ["Distanz", "angeblich, vermeintlich, mutmaßlich"]
+      ],
+      "examples": [
+        { "t": "Chronischer Stress ist zweifellos ein Risikofaktor für viele Erkrankungen.", "s": "Chronic stress is undoubtedly a risk factor for many illnesses." },
+        { "t": "Die Wartezeiten werden sich aller Wahrscheinlichkeit nach weiter verlängern.", "s": "Waiting times will in all likelihood get even longer." },
+        { "t": "Das angeblich revolutionäre Programm hat kaum Wirkung gezeigt.", "s": "The allegedly revolutionary program has had hardly any effect." },
+        { "t": "Der vermeintliche Experte hatte nie Psychologie studiert.", "s": "The supposed expert had never studied psychology." },
+        { "t": "Möglicherweise hängt die Erschöpfung mit dem Schlafmangel zusammen.", "s": "The exhaustion may be connected with the lack of sleep." }
+      ],
+      "exercises": [
+        { "type": "choice", "t": "Der ___ Täter wurde gestern festgenommen.", "options": ["mutmaßliche", "zweifellose", "vermutlich"], "answer": 0, "s": "The suspected perpetrator was arrested yesterday." },
+        { "type": "choice", "t": "Der ___ Wunderheiler entpuppte sich als Betrüger.", "options": ["wahrscheinlich", "vermeintliche", "zweifellose"], "answer": 1, "s": "The supposed miracle healer turned out to be a fraud." },
+        { "type": "type", "t": "Er ist ___ krank – jedenfalls behauptet er das.", "answer": ["angeblich", "vorgeblich"], "s": "He is allegedly ill – at least that's what he claims." },
+        { "type": "choice", "t": "Er dürfte schon zu Hause sein. = Er ist ___ schon zu Hause.", "options": ["angeblich", "kaum", "vermutlich"], "answer": 2, "s": "He's probably already home." },
+        { "type": "choice", "t": "Bei diesem Wetter wird das Konzert ___ stattfinden – die Bühne steht unter Wasser.", "options": ["zweifellos", "kaum", "bestimmt"], "answer": 1, "s": "In this weather the concert will hardly go ahead – the stage is under water." },
+        { "type": "type", "t": "Es besteht kein ___ daran, dass Schlaf für die Gesundheit wichtig ist.", "answer": ["Zweifel"], "s": "There is no doubt that sleep is important for health." },
+        { "type": "order", "t": "Vermutlich hängt das mit dem Stress zusammen.", "s": "That's probably connected with the stress." },
+        { "type": "order", "t": "Der Bericht ist angeblich schon fertig.", "s": "The report is supposedly finished already." }
+      ]
+    }
+  ],
+  "reading": {
+    "title": { "t": "Was uns wirklich zufrieden macht", "s": "What really makes us content" },
+    "text": [
+      { "t": "Kaum ein Thema hat in den vergangenen Jahren einen derartigen Boom erlebt wie das Streben nach Glück.", "s": "Hardly any topic has enjoyed such a boom in recent years as the pursuit of happiness." },
+      { "t": "Ratgeber versprechen inneren Frieden in sieben Schritten, Apps erinnern uns per Push-Nachricht an die tägliche Dankbarkeitsübung.", "s": "Self-help books promise inner peace in seven steps; apps remind us of our daily gratitude exercise by push notification." },
+      { "t": "Doch was weiß die Wissenschaft tatsächlich darüber, was Menschen zufrieden macht?", "s": "But what does science actually know about what makes people content?" },
+      { "t": "Eine der längsten Langzeitstudien der Welt, die seit 1938 an der Harvard University durchgeführt wird, kommt zu einem bemerkenswert schlichten Ergebnis.", "s": "One of the longest-running longitudinal studies in the world, conducted at Harvard University since 1938, comes to a remarkably simple conclusion." },
+      { "t": "Nicht Geld oder Ruhm, sondern die Qualität unserer Beziehungen entscheidet maßgeblich darüber, wie glücklich und gesund wir alt werden.", "s": "It is not money or fame but the quality of our relationships that largely determines how happily and healthily we grow old." },
+      { "t": "Einsamkeit hingegen wirkt sich einigen Studien zufolge ähnlich schädlich auf die Gesundheit aus wie Rauchen.", "s": "Loneliness, by contrast, is according to some studies about as harmful to health as smoking." },
+      { "t": "Auch das Einkommen spielt eine Rolle, allerdings eine kleinere, als vielfach angenommen wird.", "s": "Income plays a role too, but a smaller one than is widely assumed." },
+      { "t": "Ab einem gewissen Wohlstandsniveau steigert zusätzliches Geld die Zufriedenheit vermutlich nur noch geringfügig.", "s": "Above a certain level of prosperity, additional money probably increases contentment only slightly." },
+      { "t": "Bemerkenswert ist zudem, dass Menschen, die sich ehrenamtlich engagieren, im Durchschnitt zufriedener sind.", "s": "It is also remarkable that people who do voluntary work are on average more content." },
+      { "t": "Ob das Engagement Ursache oder Folge der Zufriedenheit ist, lässt sich jedoch nicht eindeutig sagen.", "s": "Whether volunteering is the cause or the consequence of contentment, however, cannot be said with certainty." },
+      { "t": "Skeptisch zeigen sich Psychologinnen und Psychologen gegenüber dem Versprechen, Glück lasse sich auf Knopfdruck herstellen.", "s": "Psychologists are skeptical of the promise that happiness can be produced at the push of a button." },
+      { "t": "Wer ständig nach dem perfekten Glück strebe, so der Tenor, werde zwangsläufig enttäuscht – Zufriedenheit sei eher ein Nebenprodukt eines sinnerfüllten Lebens.", "s": "Anyone who constantly strives for perfect happiness, the general view goes, is bound to be disappointed – contentment is more a by-product of a meaningful life." }
+    ],
+    "questions": [
+      { "q": { "t": "Seit wann läuft die erwähnte Harvard-Studie?", "s": "Since when has the Harvard study mentioned been running?" },
+        "options": ["seit 1938", "seit 1983", "seit 2008"], "answer": 0 },
+      { "q": { "t": "Was ist laut der Studie besonders wichtig für ein glückliches Leben?", "s": "According to the study, what is especially important for a happy life?" },
+        "options": ["ein hohes Einkommen", "gute Beziehungen", "beruflicher Erfolg"], "answer": 1 },
+      { "q": { "t": "Womit wird Einsamkeit im Text verglichen?", "s": "What is loneliness compared with in the text?" },
+        "options": ["mit Schlafmangel", "mit Leistungsdruck", "mit Rauchen"], "answer": 2 },
+      { "q": { "t": "Was ist beim Zusammenhang von Ehrenamt und Zufriedenheit unklar?", "s": "What is unclear about the link between volunteering and contentment?" },
+        "options": ["was Ursache und was Folge ist", "ob Ehrenamtliche Geld verdienen", "wie viele Menschen sich engagieren"], "answer": 0 },
+      { "q": { "t": "Wie stehen Psychologen zu Glücksversprechen „auf Knopfdruck“?", "s": "What is psychologists' attitude to promises of happiness 'at the push of a button'?" },
+        "options": ["begeistert", "skeptisch", "gleichgültig"], "answer": 1 }
+    ]
+  },
+  "sentences": [
+    { "t": "Ich bin in letzter Zeit ziemlich gestresst.", "s": "I've been pretty stressed lately." },
+    { "t": "Du solltest dir unbedingt eine Auszeit gönnen.", "s": "You really should treat yourself to a break." },
+    { "t": "Sie hat gelernt, auch einmal Nein zu sagen.", "s": "She has learned to say no sometimes." },
+    { "t": "Er soll schon seit Wochen krankgeschrieben sein.", "s": "He is said to have been on sick leave for weeks." },
+    { "t": "Bewegung an der frischen Luft wirkt sich positiv auf die Stimmung aus.", "s": "Exercise in the fresh air has a positive effect on your mood." },
+    { "t": "Das dürfte an der Zeitumstellung liegen.", "s": "That's probably due to the clocks changing." },
+    { "t": "Zweifellos ist ausreichender Schlaf die beste Medizin.", "s": "Without doubt, enough sleep is the best medicine." },
+    { "t": "Nach dem Urlaub fühle ich mich wie neugeboren.", "s": "After the vacation I feel like a new person." }
+  ]
+}

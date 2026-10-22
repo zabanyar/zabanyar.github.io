@@ -1,0 +1,168 @@
+{
+  "id": "u09",
+  "level": "B2",
+  "emoji": "💶",
+  "title": { "t": "Kaufen, sparen, reparieren", "s": "Buying, saving, repairing" },
+  "goals": [
+    "Talk about money, consumption and sustainable shopping",
+    "Use Futur I and II for the future and for assumptions",
+    "Say how sure you are with muss, müsste, dürfte, könnte and kann nicht",
+    "Weigh up arguments and reach a compromise"
+  ],
+  "words": [
+    { "id": "w01", "t": "der Verbraucher", "pl": "die Verbraucher", "s": "consumer", "emoji": "",
+      "ex": { "t": "Verbraucher sollten vor dem Kauf immer die Preise vergleichen.", "s": "Consumers should always compare prices before buying." } },
+    { "id": "w02", "t": "das Angebot", "pl": "die Angebote", "s": "offer, special offer; supply", "emoji": "",
+      "ex": { "t": "Im Supermarkt gibt es diese Woche viele Angebote.", "s": "There are lots of special offers at the supermarket this week." } },
+    { "id": "w03", "t": "die Nachfrage", "s": "demand", "emoji": "",
+      "ex": { "t": "Die Nachfrage nach E-Bikes ist stark gestiegen.", "s": "Demand for e-bikes has risen sharply." } },
+    { "id": "w04", "t": "die Inflation", "s": "inflation", "emoji": "",
+      "ex": { "t": "Wegen der Inflation können sich viele Familien weniger leisten.", "s": "Because of inflation, many families can afford less." } },
+    { "id": "w05", "t": "das Einkommen", "pl": "die Einkommen", "s": "income", "emoji": "",
+      "ex": { "t": "Sie geben ein Drittel ihres Einkommens für die Miete aus.", "s": "They spend a third of their income on rent." } },
+    { "id": "w06", "t": "die Ausgaben", "s": "expenses, spending (plural)", "emoji": "",
+      "ex": { "t": "Wir tragen alle Ausgaben in eine App ein, um den Überblick zu behalten.", "s": "We enter all our expenses in an app to keep track of them." } },
+    { "id": "w07", "t": "sparen", "s": "to save (money)", "emoji": "💰",
+      "ex": { "t": "Wir sparen jeden Monat 200 Euro für den Urlaub.", "s": "We save 200 euros a month for our vacation." } },
+    { "id": "w08", "t": "sich etwas leisten können", "s": "to be able to afford something", "emoji": "",
+      "ex": { "t": "Ein neues Auto können wir uns im Moment nicht leisten.", "s": "We can't afford a new car at the moment." } },
+    { "id": "w09", "t": "das Schnäppchen", "pl": "die Schnäppchen", "s": "bargain", "emoji": "",
+      "ex": { "t": "Die Jacke war ein echtes Schnäppchen: nur 20 Euro!", "s": "The jacket was a real bargain: only 20 euros!" } },
+    { "id": "w10", "t": "die Quittung", "pl": "die Quittungen", "s": "receipt", "emoji": "🧾",
+      "ex": { "t": "Ohne Quittung können wir die Ware leider nicht umtauschen.", "s": "Unfortunately, we can't exchange the item without a receipt." } },
+    { "id": "w11", "t": "reklamieren", "s": "to return a faulty product and complain", "emoji": "",
+      "ex": { "t": "Der Toaster war defekt, also habe ich ihn im Geschäft reklamiert.", "s": "The toaster was faulty, so I took it back to the store and complained." } },
+    { "id": "w12", "t": "die Garantie", "pl": "die Garantien", "s": "warranty, guarantee", "emoji": "",
+      "ex": { "t": "Auf das Gerät gibt es zwei Jahre Garantie.", "s": "The appliance comes with a two-year warranty." } },
+    { "id": "w13", "t": "in Raten zahlen", "s": "to pay in installments", "emoji": "",
+      "ex": { "t": "Den Laptop haben wir in zwölf Raten bezahlt.", "s": "We paid for the laptop in twelve installments." } },
+    { "id": "w14", "t": "nachhaltig", "s": "sustainable", "emoji": "",
+      "ex": { "t": "Nachhaltig einzukaufen heißt oft, weniger zu kaufen.", "s": "Shopping sustainably often means buying less." } },
+    { "id": "w15", "t": "der Konsum", "s": "consumption", "emoji": "",
+      "ex": { "t": "Unser Konsum hat direkte Folgen für die Umwelt.", "s": "Our consumption has a direct impact on the environment." } },
+    { "id": "w16", "t": "der Secondhandladen", "pl": "die Secondhandläden", "s": "second-hand store, thrift store", "emoji": "",
+      "ex": { "t": "Neda kauft ihre Kleidung am liebsten im Secondhandladen.", "s": "Neda prefers to buy her clothes at the second-hand store." } }
+  ],
+  "phrases": [
+    { "id": "p01", "t": "Ich gehe davon aus, dass …", "s": "I assume that …" },
+    { "id": "p02", "t": "Es spricht einiges dafür, dass …", "s": "There's a lot to suggest that …" },
+    { "id": "p03", "t": "Ich bezweifle, dass …", "s": "I doubt that …" },
+    { "id": "p04", "t": "Das ist ein gutes Argument, aber …", "s": "That's a good point, but …" },
+    { "id": "p05", "t": "Auf lange Sicht …", "s": "In the long run …" },
+    { "id": "p06", "t": "Das lohnt sich (nicht).", "s": "It's (not) worth it." },
+    { "id": "p07", "t": "Das Preis-Leistungs-Verhältnis stimmt.", "s": "It's good value for money." },
+    { "id": "p08", "t": "Wer billig kauft, kauft zweimal.", "s": "Buy cheap, buy twice. (saying)" }
+  ],
+  "dialogue": {
+    "title": { "t": "Reparieren oder neu kaufen?", "s": "Repair or buy new?" },
+    "speakers": { "A": { "name": "Maryam", "voice": "f" }, "B": { "name": "Ali", "voice": "m" } },
+    "lines": [
+      { "sp": "A", "t": "Ali, die Waschmaschine macht schon wieder so komische Geräusche.", "s": "Ali, the washing machine is making strange noises again." },
+      { "sp": "B", "t": "Oh nein. Das dürfte wieder die Pumpe sein.", "s": "Oh no. It's probably the pump again." },
+      { "sp": "A", "t": "Die Pumpe? Die kann doch nicht schon wieder kaputt sein! Die wurde doch erst letztes Jahr repariert.", "s": "The pump? It can't be broken again already! It was only repaired last year." },
+      { "sp": "B", "t": "Leider kann das durchaus sein. Vielleicht war das Ersatzteil nicht besonders gut.", "s": "Unfortunately, that's quite possible. Maybe the spare part wasn't very good." },
+      { "sp": "A", "t": "Sollen wir nicht einfach eine neue kaufen? Die alte wird bestimmt bald ganz den Geist aufgeben.", "s": "Shouldn't we just buy a new one? The old one is bound to give up the ghost completely soon." },
+      { "sp": "B", "t": "Moment. Sie ist erst sechs Jahre alt. Eine Reparatur müsste deutlich günstiger sein als ein neues Gerät.", "s": "Hold on. It's only six years old. A repair should be a lot cheaper than a new machine." },
+      { "sp": "A", "t": "Na ja, neue Geräte verbrauchen weniger Strom und Wasser. Auf lange Sicht werden wir dadurch Geld sparen.", "s": "Well, new appliances use less electricity and water. In the long run, that will save us money." },
+      { "sp": "B", "t": "Das ist ein gutes Argument. Ich rufe gleich beim Reparaturservice an und frage nach einem Kostenvoranschlag.", "s": "That's a good point. I'll call the repair service right away and ask for a quote." },
+      { "sp": "A", "t": "Die werden um diese Zeit schon geschlossen haben. Es ist gleich sieben.", "s": "They'll have closed by now. It's almost seven." },
+      { "sp": "B", "t": "Stimmt. Dann schreibe ich ihnen eine E-Mail. Bis morgen Mittag werden sie sicher geantwortet haben.", "s": "True. Then I'll send them an email. They're sure to have replied by tomorrow lunchtime." },
+      { "sp": "A", "t": "Gut. Und wenn die Reparatur mehr als 250 Euro kostet, kaufen wir eine neue.", "s": "Okay. And if the repair costs more than 250 euros, we'll buy a new one." },
+      { "sp": "B", "t": "Einverstanden. Das ist ein fairer Kompromiss.", "s": "Agreed. That's a fair compromise." }
+    ]
+  },
+  "grammar": [
+    {
+      "id": "g01",
+      "title": { "t": "Es wird regnen. Er wird es vergessen haben.", "s": "Futur I and Futur II" },
+      "explain": "**Futur I** = **werden** + infinitive: **Ich werde dich anrufen.** It's used for:\n**1. the future**, especially predictions, promises and plans. Often the present tense with a time expression is enough (**Morgen regnet es.**); Futur I sounds more definite or formal: **Die Preise werden weiter steigen.**\n**2. an assumption about the present**, usually with **wohl, sicher, bestimmt** or **wahrscheinlich**: **Ali wird wohl im Stau stehen.** (= He's probably stuck in traffic.)\n**Futur II** = **werden** + Partizip II + **haben / sein**. It's used for:\n**1. something that will be completed by a point in the future**: **Bis Freitag werde ich den Bericht geschrieben haben.** In everyday German the Perfekt often replaces it: **Bis Freitag habe ich den Bericht geschrieben.**\n**2. an assumption about the past**: **Sie wird den Bus verpasst haben.** (= She has probably missed the bus.)\nIn a subordinate clause, the form of **werden** goes to the very end: **…, dass die Preise steigen werden.** / **…, dass er es vergessen haben wird.**",
+      "table": [
+        ["Futur I", "Die Preise werden steigen.", "Zukunft"],
+        ["Futur I + wohl", "Er wird wohl noch arbeiten.", "Vermutung über jetzt"],
+        ["Futur II + haben", "Bis Mai werden wir den Kredit abbezahlt haben.", "in der Zukunft abgeschlossen"],
+        ["Futur II + sein", "Sie wird schon nach Hause gegangen sein.", "Vermutung über die Vergangenheit"]
+      ],
+      "examples": [
+        { "t": "Experten glauben, dass die Mieten weiter steigen werden.", "s": "Experts believe that rents will continue to rise." },
+        { "t": "Ali ist noch nicht da. Er wird wohl im Stau stehen.", "s": "Ali isn't here yet. He's probably stuck in traffic." },
+        { "t": "Bis Ende des Jahres werden wir genug für den Urlaub gespart haben.", "s": "By the end of the year we'll have saved enough for our vacation." },
+        { "t": "Das Paket ist nicht angekommen. Der Händler wird es an die falsche Adresse geschickt haben.", "s": "The package hasn't arrived. The seller has probably sent it to the wrong address." },
+        { "t": "Lena hat so gute Laune. Sie wird die Gehaltserhöhung bekommen haben.", "s": "Lena is in such a good mood. She must have gotten the raise." }
+      ],
+      "exercises": [
+        { "type": "choice", "t": "Nächstes Jahr ___ die Energiepreise wahrscheinlich wieder sinken.", "options": ["werden", "wird", "worden"], "answer": 0, "s": "Next year energy prices will probably go down again." },
+        { "type": "choice", "t": "Reza geht nicht ans Telefon. Er ___ wohl noch in einer Besprechung sein.", "options": ["ist", "wird", "werden"], "answer": 1, "s": "Reza isn't answering the phone. He's probably still in a meeting." },
+        { "type": "type", "t": "Bis morgen werde ich die Rechnung bezahlt ___.", "answer": ["haben"], "s": "By tomorrow I'll have paid the bill." },
+        { "type": "type", "t": "Neda ist nicht gekommen. Sie wird den Termin vergessen ___.", "answer": ["haben"], "s": "Neda didn't come. She has probably forgotten the appointment." },
+        { "type": "choice", "t": "Der Zug ist weg. Er wird schon abgefahren ___.", "options": ["haben", "sein", "werden"], "answer": 1, "s": "The train is gone. It has probably already left." },
+        { "type": "choice", "t": "Ich glaube, dass die Inflation bald zurückgehen ___.", "options": ["wird", "werden", "worden"], "answer": 0, "s": "I think inflation will go down soon." },
+        { "type": "type", "t": "Bis 2030 ___ wir den Kredit abbezahlt haben.", "answer": ["werden"], "s": "By 2030 we'll have paid off the loan." },
+        { "type": "order", "t": "Die Preise werden wohl weiter steigen.", "s": "Prices will probably keep rising." }
+      ]
+    },
+    {
+      "id": "g02",
+      "title": { "t": "Das müsste reichen. Das kann nicht sein.", "s": "Assumptions with modal verbs" },
+      "explain": "Modal verbs can also show **how sure you are** about something:\n• **muss** – almost certain, based on clear evidence: **Es klingelt. Das muss der Paketbote sein.**\n• **kann nicht** – almost certainly **not**: **Das kann nicht stimmen.** Careful: **muss nicht** does NOT mean this – it means *doesn't have to be*.\n• **müsste** – very likely, that's what I'd expect: **Das Paket müsste morgen ankommen.**\n• **dürfte** – probably (a cautious estimate): **Das dürfte teuer werden.** In this meaning only the form **dürfte** is used.\n• **kann / könnte** – possible: **Das könnte ein Fehler sein.**\nFor assumptions about the **past**, use the modal + **Partizip II + haben / sein**: **Er muss den Bus verpasst haben.** / **Sie könnte schon gegangen sein.**\nAdverbs express the same ideas: **sicher, bestimmt** (≈ muss), **wahrscheinlich** (≈ dürfte), **vielleicht** (≈ könnte).",
+      "table": [
+        ["muss", "fast sicher", "Das muss der Postbote sein."],
+        ["müsste", "sehr wahrscheinlich", "Die Lieferung müsste morgen kommen."],
+        ["dürfte", "wahrscheinlich", "Das dürfte teuer werden."],
+        ["kann / könnte", "möglich", "Das könnte ein Fehler sein."],
+        ["kann nicht", "fast sicher nicht", "Das kann nicht stimmen."]
+      ],
+      "examples": [
+        { "t": "Es klingelt. Das muss der Paketbote sein.", "s": "The doorbell is ringing. That must be the delivery man." },
+        { "t": "Ein Laptop für 99 Euro? Das kann nicht stimmen.", "s": "A laptop for 99 euros? That can't be right." },
+        { "t": "Die Rückerstattung müsste in drei bis fünf Werktagen auf Ihrem Konto sein.", "s": "The refund should be in your account within three to five working days." },
+        { "t": "Die Reparatur dürfte etwa 150 Euro kosten.", "s": "The repair will probably cost about 150 euros." },
+        { "t": "Neda ist nicht im Büro. Sie könnte schon nach Hause gegangen sein.", "s": "Neda isn't in the office. She might have gone home already." }
+      ],
+      "exercises": [
+        { "type": "choice", "t": "Der Laden ist ganz dunkel. Er ___ schon geschlossen haben.", "options": ["muss", "darf", "will"], "answer": 0, "s": "It's completely dark in the store. It must have closed already." },
+        { "type": "choice", "t": "Ein neues Smartphone für 20 Euro? Das ___ seriös sein.", "options": ["muss", "kann nicht", "müsste"], "answer": 1, "s": "A new smartphone for 20 euros? That can't be a genuine offer." },
+        { "type": "type", "t": "Die Lieferung ___ morgen ankommen.", "answer": ["müsste", "muesste", "dürfte", "duerfte"], "s": "The delivery should arrive tomorrow. (very likely)" },
+        { "type": "type", "t": "Er hat den ganzen Tag nichts gegessen. Er ___ großen Hunger haben.", "answer": ["muss"], "s": "He hasn't eaten anything all day. He must be really hungry." },
+        { "type": "choice", "t": "Ali ist noch nicht da. Er ___ den Bus verpasst haben.", "options": ["darf", "könnte", "möchte"], "answer": 1, "s": "Ali isn't here yet. He might have missed the bus." },
+        { "type": "type", "t": "Neda ist nicht gekommen. Sie ___ krank geworden sein.", "answer": ["könnte", "koennte", "kann"], "s": "Neda didn't come. She might have gotten sick." },
+        { "type": "choice", "t": "Das ___ nicht Maryam gewesen sein – sie ist doch im Urlaub.", "options": ["kann", "darf", "möchte"], "answer": 0, "s": "That can't have been Maryam – she's on vacation, after all." },
+        { "type": "order", "t": "Das dürfte ziemlich teuer werden.", "s": "That's probably going to be quite expensive." }
+      ]
+    }
+  ],
+  "reading": {
+    "title": { "t": "Reparieren statt wegwerfen", "s": "Repair instead of throwing away" },
+    "text": [
+      { "t": "Ein Toaster, der nicht mehr heiß wird, ein Laptop mit schwachem Akku, eine Jacke mit kaputtem Reißverschluss – früher landeten solche Dinge oft sofort im Müll.", "s": "A toaster that no longer heats up, a laptop with a weak battery, a jacket with a broken zipper – in the past, things like these often went straight into the trash." },
+      { "t": "Doch immer mehr Verbraucher in Deutschland entscheiden sich bewusst gegen einen Neukauf.", "s": "But more and more consumers in Germany are making a conscious decision not to buy new." },
+      { "t": "In Repair-Cafés helfen Ehrenamtliche dabei, Geräte und Kleidung kostenlos zu reparieren.", "s": "In repair cafés, volunteers help people repair appliances and clothes free of charge." },
+      { "t": "Inzwischen gibt es in Deutschland mehr als tausend solcher Initiativen.", "s": "There are now more than a thousand such initiatives in Germany." },
+      { "t": "Herr Wagner, der in einem Repair-Café in Köln mitarbeitet, ist zufrieden: „Mehr als die Hälfte der Geräte bringen wir wieder zum Laufen.“", "s": "Mr. Wagner, who helps out at a repair café in Cologne, is pleased: “We get more than half of the appliances working again.”" },
+      { "t": "Die Gründe für diesen Trend sind vielfältig.", "s": "There are many reasons for this trend." },
+      { "t": "Wegen der gestiegenen Preise müssen viele Haushalte genauer rechnen.", "s": "Because of higher prices, many households have to watch their budgets more closely." },
+      { "t": "Gleichzeitig wächst das Bewusstsein dafür, dass die Herstellung neuer Produkte Rohstoffe und Energie verbraucht.", "s": "At the same time, there is growing awareness that manufacturing new products uses up raw materials and energy." },
+      { "t": "Auch die Politik reagiert: In einigen Bundesländern übernimmt ein sogenannter Reparaturbonus einen Teil der Reparaturkosten.", "s": "Politicians are responding, too: in some federal states, a so-called repair bonus covers part of the repair costs." },
+      { "t": "Kritiker geben allerdings zu bedenken, dass viele Geräte so gebaut sind, dass man sie kaum öffnen kann.", "s": "Critics point out, however, that many appliances are built in such a way that they can hardly be opened." },
+      { "t": "Außerdem sind Ersatzteile oft teuer oder gar nicht erhältlich.", "s": "In addition, spare parts are often expensive or not available at all." },
+      { "t": "Experten gehen davon aus, dass das Thema in Zukunft weiter an Bedeutung gewinnen wird.", "s": "Experts assume that the issue will become even more important in the future." },
+      { "t": "Eine neue EU-Richtlinie zum „Recht auf Reparatur“ dürfte die Situation für Verbraucher in den nächsten Jahren verbessern.", "s": "A new EU directive on the “right to repair” is likely to improve the situation for consumers in the coming years." }
+    ],
+    "questions": [
+      { "q": { "t": "Was passiert in Repair-Cafés?", "s": "What happens in repair cafés?" }, "options": ["Man kauft gebrauchte Geräte.", "Ehrenamtliche helfen kostenlos beim Reparieren.", "Man bekommt neue Geräte zum halben Preis."], "answer": 1 },
+      { "q": { "t": "Wie viele Geräte kann man laut Herrn Wagner reparieren?", "s": "According to Mr. Wagner, how many appliances can be repaired?" }, "options": ["etwa ein Drittel", "fast alle", "mehr als die Hälfte"], "answer": 2 },
+      { "q": { "t": "Welcher Grund für den Trend wird genannt?", "s": "Which reason for the trend is mentioned?" }, "options": ["die gestiegenen Preise", "neue Pflichten für Hersteller", "mehr Freizeit"], "answer": 0 },
+      { "q": { "t": "Was kritisieren Kritiker?", "s": "What do critics criticize?" }, "options": ["Repair-Cafés sind zu teuer.", "Viele Geräte lassen sich schwer öffnen, und Ersatzteile fehlen oft.", "Der Reparaturbonus ist zu hoch."], "answer": 1 },
+      { "q": { "t": "Was erwarten Experten?", "s": "What do experts expect?" }, "options": ["Das Thema wird wichtiger werden.", "Das Thema wird an Bedeutung verlieren.", "Repair-Cafés werden bald schließen."], "answer": 0 }
+    ]
+  },
+  "sentences": [
+    { "t": "Viele Verbraucher achten heute stärker auf Nachhaltigkeit.", "s": "Many consumers pay more attention to sustainability today." },
+    { "t": "Ein Urlaub ist dieses Jahr leider nicht drin.", "s": "Unfortunately, a vacation isn't in the budget this year." },
+    { "t": "Das Paket müsste eigentlich schon da sein.", "s": "The package should really be here by now." },
+    { "t": "Bis Dezember werden wir genug Geld gespart haben.", "s": "By December we'll have saved enough money." },
+    { "t": "Das Angebot klingt zu gut, um wahr zu sein.", "s": "The offer sounds too good to be true." },
+    { "t": "Bitte heben Sie die Quittung gut auf.", "s": "Please keep the receipt in a safe place." },
+    { "t": "Die Nachfrage bestimmt den Preis.", "s": "Demand determines the price." },
+    { "t": "Er wird sein Portemonnaie wohl im Büro vergessen haben.", "s": "He has probably left his wallet at the office." }
+  ]
+}

@@ -1,0 +1,140 @@
+{
+  "id": "u05",
+  "level": "A1",
+  "emoji": "🏠",
+  "title": { "t": "خانه‌ی من", "pr": "Xâne-ye man", "s": "Evim" },
+  "goals": [
+    "Evdeki odaları ve eşyaları söyleyebilmek.",
+    "«hast / nist» ile bir şeyin var ya da yok olduğunu söyleyebilmek.",
+    "Yer edatlarını (dar, ru-ye, zir-e, kenâr-e) kullanabilmek.",
+    "«… kocâst?» ile bir şeyin yerini sorabilmek."
+  ],
+  "words": [
+    { "id": "w01", "t": "خانه", "pl": "خانه‌ها", "pr": "xâne", "s": "ev", "emoji": "🏠", "ex": { "t": "خانه‌ی ما کوچک است.", "pr": "Xâne-ye mâ kuçak ast.", "s": "Bizim evimiz küçük." } },
+    { "id": "w02", "t": "اتاق", "pl": "اتاق‌ها", "pr": "otâğ", "s": "oda", "emoji": "", "ex": { "t": "خانه‌ی ما سه اتاق دارد.", "pr": "Xâne-ye mâ se otâğ dârad.", "s": "Evimizde üç oda var." } },
+    { "id": "w03", "t": "آشپزخانه", "pr": "âşpazxâne", "s": "mutfak", "emoji": "🍳", "ex": { "t": "مادرم در آشپزخانه است.", "pr": "Mâdaram dar âşpazxâne ast.", "s": "Annem mutfakta." } },
+    { "id": "w04", "t": "حمام", "pr": "hammâm", "s": "banyo", "emoji": "🛁", "ex": { "t": "حمام کجاست؟", "pr": "Hammâm kocâst?", "s": "Banyo nerede?" } },
+    { "id": "w05", "t": "در", "pl": "درها", "pr": "dar", "s": "kapı", "emoji": "🚪", "ex": { "t": "در بزرگ است.", "pr": "Dar bozorg ast.", "s": "Kapı büyük." } },
+    { "id": "w06", "t": "پنجره", "pl": "پنجره‌ها", "pr": "pancere", "s": "pencere", "emoji": "🪟", "ex": { "t": "پنجره بزرگ است.", "pr": "Pancere bozorg ast.", "s": "Pencere büyük." } },
+    { "id": "w07", "t": "میز", "pl": "میزها", "pr": "miz", "s": "masa", "emoji": "", "ex": { "t": "میز در آشپزخانه است.", "pr": "Miz dar âşpazxâne ast.", "s": "Masa mutfakta." } },
+    { "id": "w08", "t": "صندلی", "pl": "صندلی‌ها", "pr": "sandali", "s": "sandalye", "emoji": "🪑", "ex": { "t": "گربه زیر صندلی است.", "pr": "Gorbe zir-e sandali ast.", "s": "Kedi sandalyenin altında." } },
+    { "id": "w09", "t": "تخت", "pr": "taxt", "s": "yatak", "emoji": "🛏️", "ex": { "t": "تخت در اتاق من است.", "pr": "Taxt dar otâğ-e man ast.", "s": "Yatak benim odamda." } },
+    { "id": "w10", "t": "گربه", "pl": "گربه‌ها", "pr": "gorbe", "s": "kedi", "emoji": "🐈", "ex": { "t": "گربه کجاست؟", "pr": "Gorbe kocâst?", "s": "Kedi nerede?" } },
+    { "id": "w11", "t": "یخچال", "pr": "yaxçâl", "s": "buzdolabı", "emoji": "", "ex": { "t": "شیر در یخچال است.", "pr": "Şir dar yaxçâl ast.", "s": "Süt buzdolabında." } },
+    { "id": "w12", "t": "کلید", "pr": "kelid", "s": "anahtar", "emoji": "🔑", "ex": { "t": "کلید روی میز است.", "pr": "Kelid ru-ye miz ast.", "s": "Anahtar masanın üstünde." } },
+    { "id": "w13", "t": "فرش", "pr": "farş", "s": "halı", "emoji": "", "ex": { "t": "فرش ما ایرانی است.", "pr": "Farş-e mâ İrâni ast.", "s": "Halımız İran halısı." } },
+    { "id": "w14", "t": "کجا", "pr": "kocâ", "s": "nere, nerede", "emoji": "", "ex": { "t": "مادرت کجاست؟", "pr": "Mâdarat kocâst?", "s": "Annen nerede?" } }
+  ],
+  "phrases": [
+    { "id": "p01", "t": "خوش آمدید!", "pr": "Xoş âmadid!", "s": "Hoş geldiniz!" },
+    { "id": "p02", "t": "بفرمایید تو!", "pr": "Befarmâyid tu!", "s": "Buyurun, içeri girin!" },
+    { "id": "p03", "t": "خانه‌ی شما خیلی قشنگ است!", "pr": "Xâne-ye şomâ xeyli ğaşang ast!", "s": "Eviniz çok güzel!" },
+    { "id": "p04", "t": "ببخشید، دستشویی کجاست؟", "pr": "Bebaxşid, dastşuyi kocâst?", "s": "Affedersiniz, tuvalet nerede?" },
+    { "id": "p05", "t": "اینجاست.", "pr": "İncâst.", "s": "Burada." },
+    { "id": "p06", "t": "آنجاست.", "pr": "Âncâst.", "s": "Orada." },
+    { "id": "p07", "t": "خانه‌ی خودتان است.", "pr": "Xâne-ye xodetân ast.", "s": "Kendi eviniz sayılır." }
+  ],
+  "dialogue": {
+    "title": { "t": "در خانه‌ی امیر", "pr": "Dar xâne-ye Amir", "s": "Amir'in evinde" },
+    "speakers": { "A": { "name": "Amir", "voice": "m" }, "B": { "name": "Elif", "voice": "f" } },
+    "lines": [
+      { "sp": "A", "t": "سلام الیف! خوش آمدی! بفرما تو!", "pr": "Salâm Elif! Xoş âmadi! Befarmâ tu!", "s": "Merhaba Elif! Hoş geldin! Buyur, gir!" },
+      { "sp": "B", "t": "سلام امیر! ممنون. خانه‌ی تو خیلی قشنگ است!", "pr": "Salâm Amir! Mamnun. Xâne-ye to xeyli ğaşang ast!", "s": "Merhaba Amir! Teşekkürler. Evin çok güzel!" },
+      { "sp": "A", "t": "ممنون! این آشپزخانه است و آن اتاق من است.", "pr": "Mamnun! İn âşpazxâne ast va ân otâğ-e man ast.", "s": "Teşekkürler! Burası mutfak, şurası da benim odam." },
+      { "sp": "B", "t": "این فرش ایرانی است؟", "pr": "İn farş İrâni ast?", "s": "Bu halı İran halısı mı?" },
+      { "sp": "A", "t": "بله، فرش مادربزرگم است.", "pr": "Bale, farş-e mâdarbozorgam ast.", "s": "Evet, ninemin halısı." },
+      { "sp": "B", "t": "گربه‌ات کجاست؟", "pr": "Gorbeat kocâst?", "s": "Kedin nerede?" },
+      { "sp": "A", "t": "زیر تخت است!", "pr": "Zir-e taxt ast!", "s": "Yatağın altında!" },
+      { "sp": "B", "t": "ببخشید، دستشویی کجاست؟", "pr": "Bebaxşid, dastşuyi kocâst?", "s": "Affedersin, tuvalet nerede?" },
+      { "sp": "A", "t": "آنجاست، کنار آشپزخانه.", "pr": "Âncâst, kenâr-e âşpazxâne.", "s": "Şurada, mutfağın yanında." },
+      { "sp": "B", "t": "ممنون!", "pr": "Mamnun!", "s": "Teşekkürler!" }
+    ]
+  },
+  "grammar": [
+    {
+      "id": "g01",
+      "title": { "t": "هست، نیست", "pr": "hast, nist", "s": "Var ve yok: «hast / nist»" },
+      "explain": "Türkçedeki **var** ve **yok** için Farsçada **hast** (var) ve **nist** (yok) kullanılır: **Dar xâne yek gorbe hast.** = Evde bir kedi var. **Şir nist.** = Süt yok.\nSoru için sadece sesi yükseltin: **Çây hast?** = Çay var mı?\n**nist** aynı zamanda **değil** demektir. «Olmak» fiilinin olumsuzu böyle çekilir: **nistam** (değilim), **nisti**, **nist**, **nistim**, **nistid**, **nistand**.\n**Man İrâni nistam, Tork hastam.** = İranlı değilim, Türküm.",
+      "table": [
+        ["هست", "hast", "var"],
+        ["نیست", "nist", "yok / değil"],
+        ["نیستم", "nistam", "değilim"],
+        ["نیستی", "nisti", "değilsin"],
+        ["نیستیم", "nistim", "değiliz"],
+        ["نیستید", "nistid", "değilsiniz"],
+        ["نیستند", "nistand", "değiller"]
+      ],
+      "examples": [
+        { "t": "در خانه یک گربه هست.", "pr": "Dar xâne yek gorbe hast.", "s": "Evde bir kedi var." },
+        { "t": "چای هست؟ — بله، هست.", "pr": "Çây hast? — Bale, hast.", "s": "Çay var mı? — Evet, var." },
+        { "t": "شیر نیست.", "pr": "Şir nist.", "s": "Süt yok." },
+        { "t": "من ایرانی نیستم، ترک هستم.", "pr": "Man İrâni nistam, Tork hastam.", "s": "Ben İranlı değilim, Türküm." },
+        { "t": "آشپزخانه کوچک نیست.", "pr": "Âşpazxâne kuçak nist.", "s": "Mutfak küçük değil." }
+      ],
+      "exercises": [
+        { "type": "choice", "t": "در یخچال شیر ___.", "options": ["هستم", "هست", "هستی"], "answer": 1, "pr": "Dar yaxçâl şir hast.", "s": "Buzdolabında süt var." },
+        { "type": "choice", "t": "ببخشید، قهوه ___. چای می‌خواهید؟", "options": ["نیست", "نیستم", "نیستیم"], "answer": 0, "pr": "Bebaxşid, ğahve nist. Çây mixâhid?", "s": "Kusura bakmayın, kahve yok. Çay ister misiniz?" },
+        { "type": "choice", "t": "من دانشجو ___، معلم هستم.", "options": ["نیست", "نیستند", "نیستم"], "answer": 2, "pr": "Man dâneşcu nistam, mo'allem hastam.", "s": "Ben öğrenci değilim, öğretmenim." },
+        { "type": "type", "t": "او ایرانی ___.", "answer": ["نیست"], "pr": "U İrâni nist.", "s": "O İranlı değil." },
+        { "type": "type", "t": "ما ترک ___.", "answer": ["نیستیم"], "pr": "Mâ Tork nistim.", "s": "Biz Türk değiliz." },
+        { "type": "order", "t": "در اتاق یک تخت هست.", "pr": "Dar otâğ yek taxt hast.", "s": "Odada bir yatak var." },
+        { "type": "order", "t": "حمام کوچک نیست.", "pr": "Hammâm kuçak nist.", "s": "Banyo küçük değil." }
+      ]
+    },
+    {
+      "id": "g02",
+      "title": { "t": "در، روی، زیر، کنار", "pr": "dar, ru-ye, zir-e, kenâr-e", "s": "Yer edatları: -de, üstünde, altında, yanında" },
+      "explain": "Türkçede yer bildirmek için kelimenin **sonuna ek** getiririz: ev**de**, masanın **üstünde**. Farsçada ise küçük bir kelime ismin **önüne** gelir: **dar xâne** = evde.\n**dar** = -de / -da, içinde · **ru-ye** = üstünde · **zir-e** = altında · **kenâr-e** = yanında.\n**ru, zir, kenâr** aslında isimdir ('üst, alt, yan'), bu yüzden arkalarından **ezafe** (-e / -ye) gelir: **zir-e miz** = masanın altı(nda).\nYer sormak için: **… kocâst?** = … nerede? (kocâ + ast). Cevap: **incâst** (burada), **âncâst** (orada).\nDikkat: **در** hem 'dar' = -de, hem de 'dar' = kapı demektir!",
+      "table": [
+        ["در اتاق", "dar otâğ", "odada"],
+        ["روی میز", "ru-ye miz", "masanın üstünde"],
+        ["زیر صندلی", "zir-e sandali", "sandalyenin altında"],
+        ["کنار پنجره", "kenâr-e pancere", "pencerenin yanında"]
+      ],
+      "examples": [
+        { "t": "کتاب روی میز است.", "pr": "Ketâb ru-ye miz ast.", "s": "Kitap masanın üstünde." },
+        { "t": "گربه زیر تخت است.", "pr": "Gorbe zir-e taxt ast.", "s": "Kedi yatağın altında." },
+        { "t": "صندلی کنار پنجره است.", "pr": "Sandali kenâr-e pancere ast.", "s": "Sandalye pencerenin yanında." },
+        { "t": "کلید کجاست؟ — در آشپزخانه است.", "pr": "Kelid kocâst? — Dar âşpazxâne ast.", "s": "Anahtar nerede? — Mutfakta." }
+      ],
+      "exercises": [
+        { "type": "choice", "t": "کتاب ___ میز است.", "options": ["زیر", "روی", "کنار"], "answer": 1, "pr": "Ketâb ru-ye miz ast.", "s": "Kitap masanın üstünde." },
+        { "type": "choice", "t": "گربه ___ صندلی است.", "options": ["زیر", "روی", "در"], "answer": 0, "pr": "Gorbe zir-e sandali ast.", "s": "Kedi sandalyenin altında." },
+        { "type": "choice", "t": "مادرم ___ آشپزخانه است.", "options": ["روی", "زیر", "در"], "answer": 2, "pr": "Mâdaram dar âşpazxâne ast.", "s": "Annem mutfakta." },
+        { "type": "type", "t": "کلید ___؟", "answer": ["کجاست", "کجا است"], "pr": "Kelid kocâst?", "s": "Anahtar nerede?" },
+        { "type": "type", "t": "میز ___ پنجره است.", "answer": ["کنار"], "pr": "Miz kenâr-e pancere ast.", "s": "Masa pencerenin yanında." },
+        { "type": "order", "t": "کلید روی میز است.", "pr": "Kelid ru-ye miz ast.", "s": "Anahtar masanın üstünde." },
+        { "type": "order", "t": "یخچال در آشپزخانه است.", "pr": "Yaxçâl dar âşpazxâne ast.", "s": "Buzdolabı mutfakta." }
+      ]
+    }
+  ],
+  "reading": {
+    "title": { "t": "خانه‌ی امیر", "pr": "Xâne-ye Amir", "s": "Amir'in evi" },
+    "text": [
+      { "t": "این خانه‌ی امیر است.", "pr": "İn xâne-ye Amir ast.", "s": "Bu, Amir'in evi." },
+      { "t": "خانه‌ی او کوچک است، ولی خیلی قشنگ است.", "pr": "Xâne-ye u kuçak ast, vali xeyli ğaşang ast.", "s": "Onun evi küçük ama çok güzel." },
+      { "t": "خانه دو اتاق، یک آشپزخانه و یک حمام دارد.", "pr": "Xâne do otâğ, yek âşpazxâne va yek hammâm dârad.", "s": "Evde iki oda, bir mutfak ve bir banyo var." },
+      { "t": "در اتاق امیر یک تخت و یک میز هست.", "pr": "Dar otâğ-e Amir yek taxt va yek miz hast.", "s": "Amir'in odasında bir yatak ve bir masa var." },
+      { "t": "کتاب‌های او روی میز هستند.", "pr": "Ketâbhâ-ye u ru-ye miz hastand.", "s": "Kitapları masanın üstünde." },
+      { "t": "یک فرش ایرانی زیر میز است.", "pr": "Yek farş-e İrâni zir-e miz ast.", "s": "Masanın altında bir İran halısı var." },
+      { "t": "گربه‌ی امیر کجاست؟", "pr": "Gorbe-ye Amir kocâst?", "s": "Amir'in kedisi nerede?" },
+      { "t": "او روی تخت است!", "pr": "U ru-ye taxt ast!", "s": "Yatağın üstünde!" }
+    ],
+    "questions": [
+      { "q": { "t": "خانه‌ی امیر چند اتاق دارد؟", "pr": "Xâne-ye Amir çand otâğ dârad?", "s": "Amir'in evinde kaç oda var?" }, "options": ["دو", "سه", "یک"], "answer": 0 },
+      { "q": { "t": "کتاب‌های امیر کجا هستند؟", "pr": "Ketâbhâ-ye Amir kocâ hastand?", "s": "Amir'in kitapları nerede?" }, "options": ["زیر تخت", "روی میز", "در آشپزخانه"], "answer": 1 },
+      { "q": { "t": "زیر میز چه هست؟", "pr": "Zir-e miz çe hast?", "s": "Masanın altında ne var?" }, "options": ["گربه", "کتاب", "فرش"], "answer": 2 },
+      { "q": { "t": "گربه کجاست؟", "pr": "Gorbe kocâst?", "s": "Kedi nerede?" }, "options": ["روی تخت", "در حمام", "زیر میز"], "answer": 0 }
+    ]
+  },
+  "sentences": [
+    { "t": "خانه‌ی ما کوچک است.", "pr": "Xâne-ye mâ kuçak ast.", "s": "Bizim evimiz küçük." },
+    { "t": "آشپزخانه کجاست؟", "pr": "Âşpazxâne kocâst?", "s": "Mutfak nerede?" },
+    { "t": "کتاب روی میز است.", "pr": "Ketâb ru-ye miz ast.", "s": "Kitap masanın üstünde." },
+    { "t": "گربه زیر صندلی است.", "pr": "Gorbe zir-e sandali ast.", "s": "Kedi sandalyenin altında." },
+    { "t": "در یخچال شیر نیست.", "pr": "Dar yaxçâl şir nist.", "s": "Buzdolabında süt yok." },
+    { "t": "خوش آمدید! بفرمایید تو!", "pr": "Xoş âmadid! Befarmâyid tu!", "s": "Hoş geldiniz! Buyurun, içeri girin!" },
+    { "t": "کلید کنار پنجره است.", "pr": "Kelid kenâr-e pancere ast.", "s": "Anahtar pencerenin yanında." },
+    { "t": "من در اتاقم هستم.", "pr": "Man dar otâğam hastam.", "s": "Ben odamdayım." }
+  ]
+}

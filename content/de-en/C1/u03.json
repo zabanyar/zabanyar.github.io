@@ -1,0 +1,168 @@
+{
+  "id": "u03",
+  "level": "C1",
+  "emoji": "💬",
+  "title": { "t": "Sprache und Kommunikation", "s": "Language and communication" },
+  "goals": [
+    "Talk about multilingualism, communication styles and language change",
+    "Use modal particles (ja, doch, eben, halt, wohl, mal) to sound natural in conversation",
+    "Structure arguments with formal connectors such as folglich, hingegen and indessen",
+    "Clarify, follow up and resolve misunderstandings"
+  ],
+  "words": [
+    { "id": "w01", "t": "die Mehrsprachigkeit", "s": "multilingualism", "emoji": "",
+      "ex": { "t": "Mehrsprachigkeit gilt heute eher als Ressource denn als Hindernis.", "s": "Multilingualism is now seen as a resource rather than an obstacle." } },
+    { "id": "w02", "t": "die Muttersprache", "pl": "die Muttersprachen", "s": "mother tongue, native language", "emoji": "",
+      "ex": { "t": "Ihre Muttersprache ist Persisch, aber inzwischen träumt sie auf Deutsch.", "s": "Her mother tongue is Persian, but by now she dreams in German." } },
+    { "id": "w03", "t": "der Akzent", "pl": "die Akzente", "s": "accent", "emoji": "",
+      "ex": { "t": "Man hört ihm kaum einen Akzent an.", "s": "You can hardly hear any accent when he speaks." } },
+    { "id": "w04", "t": "das Missverständnis", "pl": "die Missverständnisse", "s": "misunderstanding", "emoji": "",
+      "ex": { "t": "Das Ganze beruht auf einem Missverständnis.", "s": "The whole thing is based on a misunderstanding." } },
+    { "id": "w05", "t": "die Ausdrucksweise", "pl": "die Ausdrucksweisen", "s": "way of expressing oneself, style of speech", "emoji": "",
+      "ex": { "t": "Seine gewählte Ausdrucksweise wirkt manchmal etwas steif.", "s": "His refined way of speaking sometimes seems a little stiff." } },
+    { "id": "w06", "t": "die Umgangssprache", "s": "colloquial language, everyday speech", "emoji": "",
+      "ex": { "t": "In der Umgangssprache werden viele Endungen verschluckt.", "s": "In colloquial speech, many endings are swallowed." } },
+    { "id": "w07", "t": "der Tonfall", "s": "tone of voice", "emoji": "",
+      "ex": { "t": "Nicht was er sagte, sondern sein Tonfall hat mich gekränkt.", "s": "It wasn't what he said but his tone that hurt me." } },
+    { "id": "w08", "t": "sich verständigen", "s": "to communicate, make oneself understood", "emoji": "",
+      "ex": { "t": "Anfangs haben wir uns mit Händen und Füßen verständigt.", "s": "At first we communicated with gestures and whatever we could." } },
+    { "id": "w09", "t": "etwas auf den Punkt bringen", "s": "to get to the heart of sth, put sth in a nutshell", "emoji": "",
+      "ex": { "t": "Können Sie Ihr Anliegen kurz auf den Punkt bringen?", "s": "Could you briefly sum up what your concern is?" } },
+    { "id": "w10", "t": "zwischen den Zeilen lesen", "s": "to read between the lines", "emoji": "",
+      "ex": { "t": "Um Arbeitszeugnisse richtig zu verstehen, muss man zwischen den Zeilen lesen können.", "s": "To understand German job references properly, you have to be able to read between the lines." } },
+    { "id": "w11", "t": "die Höflichkeitsform", "pl": "die Höflichkeitsformen", "s": "polite form of address", "emoji": "",
+      "ex": { "t": "Im Berufsleben ist die Höflichkeitsform noch weit verbreitet.", "s": "In professional life, the polite form of address is still widespread." } },
+    { "id": "w12", "t": "duzen / siezen", "s": "to address sb as du / as Sie", "emoji": "",
+      "ex": { "t": "In unserem Start-up duzen sich alle, sogar die Geschäftsführerin.", "s": "In our start-up everyone is on first-name terms, even the managing director." } },
+    { "id": "w13", "t": "die Körpersprache", "s": "body language", "emoji": "",
+      "ex": { "t": "Ihre Körpersprache verriet, dass sie nervös war.", "s": "Her body language gave away that she was nervous." } },
+    { "id": "w14", "t": "mehrdeutig", "s": "ambiguous (opposite: eindeutig)", "emoji": "",
+      "ex": { "t": "Die Formulierung ist mehrdeutig und sollte präzisiert werden.", "s": "The wording is ambiguous and should be made more precise." } },
+    { "id": "w15", "t": "der Fauxpas", "pl": "die Fauxpas", "s": "faux pas, social blunder", "emoji": "",
+      "ex": { "t": "Eine Professorin ungefragt zu duzen, gilt als Fauxpas.", "s": "Addressing a professor as du without being invited to is considered a faux pas." } }
+  ],
+  "phrases": [
+    { "id": "p01", "t": "Wenn ich Sie richtig verstanden habe, …", "s": "If I've understood you correctly, …" },
+    { "id": "p02", "t": "Worauf wollen Sie hinaus?", "s": "What are you getting at?" },
+    { "id": "p03", "t": "So war das nicht gemeint.", "s": "That's not how it was meant." },
+    { "id": "p04", "t": "Lassen Sie mich das kurz präzisieren.", "s": "Let me clarify that briefly." },
+    { "id": "p05", "t": "Das ist Ansichtssache.", "s": "That's a matter of opinion." },
+    { "id": "p06", "t": "Da muss ich Ihnen widersprechen.", "s": "I have to disagree with you there." },
+    { "id": "p07", "t": "Mit anderen Worten: …", "s": "In other words: …" },
+    { "id": "p08", "t": "Da hake ich noch einmal nach: …", "s": "Let me follow up on that: …" }
+  ],
+  "dialogue": {
+    "title": { "t": "Direkt oder diplomatisch?", "s": "Direct or diplomatic?" },
+    "speakers": { "A": { "name": "Maryam", "voice": "f" }, "B": { "name": "Reza", "voice": "m" } },
+    "lines": [
+      { "sp": "A", "t": "Weißt du, was mir heute passiert ist? Meine Kollegin hat in der Besprechung einfach gesagt: „Das ist doch falsch.“ Vor allen Leuten!", "s": "Do you know what happened to me today? In the meeting my colleague simply said: 'But that's wrong.' In front of everyone!" },
+      { "sp": "B", "t": "Na ja, so sind die Deutschen halt. Sie sagen eben, was sie denken. Persönlich gemeint ist das meistens nicht.", "s": "Well, that's just how Germans are. They simply say what they think. It's usually not meant personally." },
+      { "sp": "A", "t": "Das weiß ich ja. Aber bei uns würde man so etwas viel diplomatischer formulieren, eher zwischen den Zeilen.", "s": "I know that. But back home people would put something like that much more diplomatically, more between the lines." },
+      { "sp": "B", "t": "Stimmt. Wir reden oft um den heißen Brei herum, die Deutschen kommen direkt auf den Punkt. Beides hat seine Vor- und Nachteile.", "s": "True. We often beat around the bush; Germans get straight to the point. Both have their pros and cons." },
+      { "sp": "A", "t": "Ob sie das wohl absichtlich so scharf gesagt hat?", "s": "I wonder whether she said it so sharply on purpose." },
+      { "sp": "B", "t": "Das glaube ich kaum. Sprich sie doch morgen mal darauf an – ganz entspannt, beim Kaffee.", "s": "I hardly think so. Why don't you bring it up with her tomorrow – quite casually, over coffee." },
+      { "sp": "A", "t": "Du hast wohl recht. Was mir übrigens auch auffällt: Hier werden Sachfragen strikt von der Beziehungsebene getrennt.", "s": "You're probably right. Something else I've noticed, by the way: here factual issues are kept strictly separate from personal relationships." },
+      { "sp": "B", "t": "Eben! Deshalb kann man nach einer hitzigen Diskussion in der Sitzung trotzdem zusammen Mittag essen gehen.", "s": "Exactly! That's why you can still go out for lunch together after a heated discussion in the meeting." },
+      { "sp": "A", "t": "Daran muss ich mich wohl erst noch gewöhnen.", "s": "I'll probably still have to get used to that." },
+      { "sp": "B", "t": "Gib dir halt Zeit. Ich habe auch Jahre gebraucht.", "s": "Just give yourself time. It took me years, too." }
+    ]
+  },
+  "grammar": [
+    {
+      "id": "g01",
+      "title": { "t": "Modalpartikeln: ja, doch, eben, halt, wohl, mal", "s": "Modal particles" },
+      "explain": "Modal particles are small, **unstressed** words that do not change the factual content of a sentence but signal the speaker's attitude: shared knowledge, surprise, impatience, resignation, a softened request. They are typical of spoken German – using them well is one of the clearest signs of C1-level fluency.\n**Position:** never in position 1; they stand in the middle field after the finite verb, usually after unstressed pronouns and before the new information: **Ich habe es dir doch gestern gesagt.**\n**ja** – 'as we both know': **Das weiß ich ja.** Also surprise: **Das ist ja interessant!**\n**doch** – reminder or mild reproach: **Das habe ich dir doch gesagt!** In imperatives, an encouraging or impatient push: **Komm doch mit!**\n**eben / halt** – resignation, 'that's just the way it is': **So ist das eben.** **halt** is more colloquial and more common in southern Germany and Austria. **Eben!** on its own means 'Exactly!'.\n**wohl** – assumption, 'probably': **Er ist wohl krank.** In questions it expresses wondering: **Ob sie wohl kommt?**\n**mal** – softens requests (from **einmal**): **Kannst du mal kurz helfen?** It often combines with doch: **Ruf sie doch mal an!**\nCareful: a **stressed** DOCH answering a negative question (**Doch, ich komme!**) is not a modal particle; a stressed JA in an imperative is a warning: **Komm JA nicht zu spät!**",
+      "table": [
+        ["ja", "bekanntes Wissen; Überraschung", "Sie kennen das ja."],
+        ["doch", "Erinnerung; Vorwurf; Aufforderung", "Setz dich doch!"],
+        ["eben / halt", "Resignation, unveränderliche Tatsache", "Das ist halt so."],
+        ["wohl", "Vermutung", "Sie hat wohl verschlafen."],
+        ["mal", "Abschwächung einer Bitte", "Schau mal!"]
+      ],
+      "examples": [
+        { "t": "Sie kennen das Problem ja aus eigener Erfahrung.", "s": "You know the problem from your own experience, after all." },
+        { "t": "Ruf sie doch mal an und frag nach!", "s": "Why don't you just give her a call and ask?" },
+        { "t": "Ich kann es nicht ändern – das ist eben so.", "s": "I can't change it – that's just the way it is." },
+        { "t": "Der Zug hat wohl wieder Verspätung.", "s": "The train is probably late again." },
+        { "t": "Das habe ich dir doch schon dreimal erklärt!", "s": "But I've already explained that to you three times!" }
+      ],
+      "exercises": [
+        { "type": "choice", "t": "Komm ___ herein, die Tür ist offen!", "options": ["doch", "wohl", "eben"], "answer": 0, "s": "Do come in, the door is open!" },
+        { "type": "choice", "t": "Er geht nicht ans Telefon. Er ist ___ schon im Urlaub.", "options": ["mal", "wohl", "denn"], "answer": 1, "s": "He isn't answering the phone. He's probably already on vacation." },
+        { "type": "type", "t": "Kannst du bitte ___ kurz das Fenster zumachen?", "answer": ["mal", "eben"], "s": "Could you just close the window for a moment, please?" },
+        { "type": "choice", "t": "Wir haben den Zug verpasst. Da kann man nichts machen – das ist ___ so.", "options": ["halt", "mal", "denn"], "answer": 0, "s": "We missed the train. Nothing to be done – that's just the way it is." },
+        { "type": "choice", "t": "Du weißt ___, dass ich montags immer lange arbeite.", "options": ["mal", "ja", "denn"], "answer": 1, "s": "You know that I always work late on Mondays, after all." },
+        { "type": "type", "t": "Ein Fauxpas? – ___! Genau das meine ich.", "answer": ["Eben", "Genau", "Richtig", "Stimmt"], "s": "A faux pas? – Exactly! That's precisely what I mean." },
+        { "type": "order", "t": "Ruf sie doch mal an!", "s": "Why don't you give her a call!" },
+        { "type": "order", "t": "Das habe ich dir doch gesagt!", "s": "But I told you that!" }
+      ]
+    },
+    {
+      "id": "g02",
+      "title": { "t": "Argumentative Konnektoren: folglich, demzufolge, hingegen, indessen", "s": "Connectors for argumentation" },
+      "explain": "Connecting adverbs link two main clauses logically and are typical of written argumentation. Unlike conjunctions such as **aber, denn, und** (position 0, no inversion), they are **sentence elements**: in position 1 they trigger inversion – **Folglich muss die Methode überprüft werden.** They can also stand in the middle field: **Die Methode muss folglich überprüft werden.**\n**Consequence:** **folglich, demzufolge, somit, infolgedessen** – more formal than **deshalb, daher, also**. (Note: German **also** means 'so, therefore', not 'also'!) **demnach** means 'accordingly' or 'according to this'.\n**Contrast:** **hingegen, dagegen, demgegenüber** compare two things or people. **hingegen** often follows the element being contrasted: **Die Älteren lesen Zeitung, die Jüngeren hingegen informieren sich online.**\n**Restriction:** **allerdings, jedoch** ('however'); **indessen / indes** is very formal and means either 'however' or 'meanwhile'. **jedoch** is special: like **aber**, it can also link words and phrases (**einfach, jedoch wirkungsvoll**); between clauses it normally triggers inversion (**…, jedoch fehlen die Mittel.**).\nRegister: in conversation, **deshalb, also, dagegen, aber** sound natural; **folglich, demzufolge, indessen** belong to presentations, essays and the C1 writing exam.",
+      "table": [
+        ["Folge", "folglich, demzufolge, somit, infolgedessen", "Folglich ist die Studie wertlos."],
+        ["Gegensatz", "hingegen, dagegen, demgegenüber", "Ihre Schwester hingegen widerspricht."],
+        ["Einschränkung", "allerdings, jedoch, indessen", "Allerdings fehlen noch Daten."]
+      ],
+      "examples": [
+        { "t": "Die Stichprobe war sehr klein; folglich sind die Ergebnisse kaum verallgemeinerbar.", "s": "The sample was very small; consequently, the results can hardly be generalized." },
+        { "t": "Im Norden sagt man eher „eben“, im Süden hingegen „halt“.", "s": "In the north people tend to say 'eben', whereas in the south they say 'halt'." },
+        { "t": "Der Antrag ging zu spät ein. Demzufolge konnte er nicht berücksichtigt werden.", "s": "The application arrived too late. Accordingly, it could not be considered." },
+        { "t": "Die Regierung kündigte Reformen an; geschehen ist indessen wenig.", "s": "The government announced reforms; little has happened, however." },
+        { "t": "Das Konzept klingt überzeugend, allerdings ist es teuer.", "s": "The concept sounds convincing; it is expensive, though." }
+      ],
+      "exercises": [
+        { "type": "choice", "t": "Die Daten waren unvollständig. ___ musste die Studie wiederholt werden.", "options": ["Folglich", "Hingegen", "Obwohl"], "answer": 0, "s": "The data were incomplete. Consequently, the study had to be repeated." },
+        { "type": "choice", "t": "Ältere Menschen telefonieren lieber; Jüngere ___ schreiben Nachrichten.", "options": ["folglich", "hingegen", "weil"], "answer": 1, "s": "Older people prefer phoning; younger people, by contrast, send messages." },
+        { "type": "choice", "t": "Der Zug fiel aus. Folglich ___ zu spät.", "options": ["kamen wir", "wir kamen", "wir sind gekommen"], "answer": 0, "s": "The train was canceled. Consequently, we were late." },
+        { "type": "type", "t": "Er spricht vier Sprachen; seine Schwester ___ spricht nur Deutsch.", "answer": ["hingegen", "dagegen", "demgegenüber", "jedoch", "aber", "allerdings", "indessen"], "s": "He speaks four languages; his sister, on the other hand, speaks only German." },
+        { "type": "choice", "t": "Das Angebot ist gut, ___ ist es befristet.", "options": ["aber", "allerdings", "obwohl"], "answer": 1, "s": "The offer is good; however, it is only valid for a limited time." },
+        { "type": "type", "t": "Die Frist ist abgelaufen. ___ kann Ihr Antrag nicht mehr berücksichtigt werden.", "answer": ["Folglich", "Demzufolge", "Demnach", "Somit", "Infolgedessen", "Deshalb", "Deswegen", "Daher", "Darum", "Also"], "s": "The deadline has passed. Consequently, your application can no longer be considered." },
+        { "type": "order", "t": "Folglich müssen wir die Methode überdenken.", "s": "Consequently, we need to rethink the method." },
+        { "type": "order", "t": "Die Kosten sind somit deutlich gestiegen.", "s": "Costs have thus risen significantly." }
+      ]
+    }
+  ],
+  "reading": {
+    "title": { "t": "Denglisch: Sprachverfall oder Sprachwandel?", "s": "Denglisch: language decline or language change?" },
+    "text": [
+      { "t": "„Ich schicke dir nach dem Meeting ein kurzes Update, dann können wir die Deadline checken.“", "s": "'I'll send you a quick update after the meeting, then we can check the deadline.'" },
+      { "t": "Sätze wie dieser sind in vielen deutschen Büros längst Alltag.", "s": "Sentences like this have long been part of everyday life in many German offices." },
+      { "t": "Sprachpuristen sehen darin einen Beleg für den Verfall der deutschen Sprache und fordern, Anglizismen konsequent durch deutsche Wörter zu ersetzen.", "s": "Language purists see this as proof that the German language is in decline and demand that Anglicisms be consistently replaced with German words." },
+      { "t": "Sprachwissenschaftlerinnen und Sprachwissenschaftler hingegen sehen die Entwicklung weitaus gelassener.", "s": "Linguists, by contrast, take a far more relaxed view of the development." },
+      { "t": "Sprachen hätten schon immer Wörter aus anderen Sprachen übernommen, argumentieren sie – das Deutsche etwa zahlreiche Begriffe aus dem Lateinischen und Französischen.", "s": "Languages have always borrowed words from other languages, they argue – German, for example, took numerous terms from Latin and French." },
+      { "t": "Wörter wie „Fenster“, „Mauer“ oder „Büro“ empfindet heute niemand mehr als fremd.", "s": "Nobody today perceives words such as 'Fenster' (window), 'Mauer' (wall) or 'Büro' (office) as foreign." },
+      { "t": "Zudem zeigen Korpusanalysen, dass Anglizismen nur einen geringen Anteil am Gesamtwortschatz ausmachen.", "s": "Moreover, corpus analyses show that Anglicisms make up only a small proportion of the overall vocabulary." },
+      { "t": "Folglich könne von einer Bedrohung der deutschen Sprache keine Rede sein.", "s": "Consequently, they say, there can be no question of a threat to the German language." },
+      { "t": "Interessanter als die Frage nach dem Verfall ist ohnehin, wie eine Sprache fremde Wörter verarbeitet.", "s": "In any case, more interesting than the question of decline is how a language processes foreign words." },
+      { "t": "Diese werden nämlich nicht unverändert übernommen, sondern an das deutsche System angepasst.", "s": "They are not adopted unchanged, you see, but adapted to the German system." },
+      { "t": "Englische Verben erhalten deutsche Endungen, wie in „gechillt“ oder „gegoogelt“, und Substantive bekommen ein grammatisches Geschlecht – die E-Mail, der Laptop, das Meeting.", "s": "English verbs acquire German endings, as in 'gechillt' or 'gegoogelt', and nouns are given a grammatical gender – die E-Mail, der Laptop, das Meeting." },
+      { "t": "Problematisch wird es allerdings dort, wo Fachjargon gezielt eingesetzt wird, um Kompetenz vorzutäuschen oder andere auszugrenzen.", "s": "It does become problematic, however, where jargon is used deliberately to feign competence or to exclude others." },
+      { "t": "Gute Kommunikation, darin sind sich beide Seiten einig, zeichnet sich vor allem durch Verständlichkeit aus.", "s": "Good communication – on this both sides agree – is characterized above all by being easy to understand." }
+    ],
+    "questions": [
+      { "q": { "t": "Wie bewerten Sprachpuristen die vielen Anglizismen?", "s": "How do language purists view the many Anglicisms?" },
+        "options": ["als Zeichen des Sprachverfalls", "als natürliche Entwicklung", "als Bereicherung"], "answer": 0 },
+      { "q": { "t": "Welches Argument nennen die Sprachwissenschaftler?", "s": "Which argument do the linguists put forward?" },
+        "options": ["Anglizismen sind schwer auszusprechen.", "Sprachen haben schon immer Wörter entlehnt.", "Deutsche Wörter sind präziser."], "answer": 1 },
+      { "q": { "t": "Was zeigen Korpusanalysen?", "s": "What do corpus analyses show?" },
+        "options": ["dass Anglizismen den Wortschatz dominieren", "dass vor allem Jugendliche Anglizismen benutzen", "dass Anglizismen nur einen kleinen Teil des Wortschatzes ausmachen"], "answer": 2 },
+      { "q": { "t": "Was passiert laut Text mit englischen Wörtern im Deutschen?", "s": "According to the text, what happens to English words in German?" },
+        "options": ["Sie werden grammatisch angepasst.", "Sie bleiben unverändert.", "Sie verschwinden nach kurzer Zeit."], "answer": 0 },
+      { "q": { "t": "Wann wird Fachjargon laut Text problematisch?", "s": "According to the text, when does jargon become problematic?" },
+        "options": ["wenn er in Büros verwendet wird", "wenn er andere ausgrenzen soll", "wenn er aus dem Englischen stammt"], "answer": 1 }
+    ]
+  },
+  "sentences": [
+    { "t": "Das ist doch nicht dein Ernst!", "s": "You can't be serious!" },
+    { "t": "Können Sie das bitte etwas genauer erläutern?", "s": "Could you explain that in a little more detail, please?" },
+    { "t": "Er redet gern um den heißen Brei herum.", "s": "He likes to beat around the bush." },
+    { "t": "Wir sollten uns auf eine gemeinsame Terminologie einigen.", "s": "We should agree on a common terminology." },
+    { "t": "Ihr Deutsch ist nahezu akzentfrei.", "s": "Her German is almost accent-free." },
+    { "t": "Das hat sie bestimmt nicht böse gemeint.", "s": "I'm sure she didn't mean any harm." },
+    { "t": "Missverständnisse lassen sich durch Nachfragen oft vermeiden.", "s": "Misunderstandings can often be avoided by asking." },
+    { "t": "Na ja, so ist das halt.", "s": "Oh well, that's just the way it is." }
+  ]
+}

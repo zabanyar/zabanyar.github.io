@@ -1,0 +1,762 @@
+{
+  "id": "u08",
+  "level": "A1",
+  "emoji": "🛍️",
+  "title": {
+    "t": "خرید و رنگ‌ها",
+    "s": "Alışveriş ve renkler",
+    "pr": "Xarid va ranghâ"
+  },
+  "goals": [
+    "Fiyat sorabilir ve fiyatları tomanla söyleyebilirim.",
+    "Renkleri söyleyip eşyaları tarif edebilirim.",
+    "\"in\" (bu) ve \"ân\" (şu/o) kelimelerini kullanabilirim."
+  ],
+  "words": [
+    {
+      "id": "w01",
+      "t": "پیراهن",
+      "s": "gömlek; elbise",
+      "pr": "pirâhan",
+      "emoji": "👕",
+      "ex": {
+        "t": "این پیراهن قرمز است.",
+        "s": "Bu gömlek kırmızı.",
+        "pr": "İn pirâhan ğermez ast."
+      }
+    },
+    {
+      "id": "w02",
+      "t": "کفش",
+      "s": "ayakkabı",
+      "pr": "kafş",
+      "emoji": "👟",
+      "ex": {
+        "t": "کفش من سفید است.",
+        "s": "Ayakkabım beyaz.",
+        "pr": "Kafş-e man sefid ast."
+      }
+    },
+    {
+      "id": "w03",
+      "t": "کیف",
+      "s": "çanta",
+      "pr": "kif",
+      "emoji": "👜",
+      "ex": {
+        "t": "من یک کیف سیاه دارم.",
+        "s": "Siyah bir çantam var.",
+        "pr": "Man yek kif-e siyâh dâram."
+      }
+    },
+    {
+      "id": "w04",
+      "t": "هزار",
+      "s": "bin",
+      "pr": "hezâr",
+      "emoji": "",
+      "ex": {
+        "t": "این کتاب صد هزار تومان است.",
+        "s": "Bu kitap yüz bin toman. (sad = yüz, hezâr = bin)",
+        "pr": "İn ketâb sad hezâr tomân ast."
+      }
+    },
+    {
+      "id": "w05",
+      "t": "تومان",
+      "s": "toman (İran para birimi)",
+      "pr": "tomân",
+      "emoji": "💵",
+      "ex": {
+        "t": "نان ده هزار تومان است.",
+        "s": "Ekmek on bin toman.",
+        "pr": "Nân dah hezâr tomân ast."
+      }
+    },
+    {
+      "id": "w06",
+      "t": "گران",
+      "s": "pahalı",
+      "pr": "gerân",
+      "emoji": "💰",
+      "ex": {
+        "t": "این کفش خیلی گران است!",
+        "s": "Bu ayakkabı çok pahalı!",
+        "pr": "İn kafş xeyli gerân ast!"
+      }
+    },
+    {
+      "id": "w07",
+      "t": "ارزان",
+      "s": "ucuz",
+      "pr": "arzân",
+      "emoji": "",
+      "ex": {
+        "t": "این کیف ارزان است.",
+        "s": "Bu çanta ucuz.",
+        "pr": "İn kif arzân ast."
+      }
+    },
+    {
+      "id": "w08",
+      "t": "قرمز",
+      "s": "kırmızı",
+      "pr": "ğermez",
+      "emoji": "🔴",
+      "ex": {
+        "t": "سیب قرمز است.",
+        "s": "Elma kırmızı.",
+        "pr": "Sib ğermez ast."
+      }
+    },
+    {
+      "id": "w09",
+      "t": "آبی",
+      "s": "mavi",
+      "pr": "âbi",
+      "emoji": "🔵",
+      "ex": {
+        "t": "آسمان آبی است.",
+        "s": "Gökyüzü mavi.",
+        "pr": "Âsemân âbi ast."
+      }
+    },
+    {
+      "id": "w10",
+      "t": "سبز",
+      "s": "yeşil",
+      "pr": "sabz",
+      "emoji": "🟢",
+      "ex": {
+        "t": "من پیراهن سبز دوست دارم.",
+        "s": "Yeşil gömlekleri severim.",
+        "pr": "Man pirâhan-e sabz dust dâram."
+      }
+    },
+    {
+      "id": "w11",
+      "t": "زرد",
+      "s": "sarı",
+      "pr": "zard",
+      "emoji": "🟡",
+      "ex": {
+        "t": "لیمو زرد است.",
+        "s": "Limon sarı.",
+        "pr": "Limu zard ast."
+      }
+    },
+    {
+      "id": "w12",
+      "t": "سیاه",
+      "s": "siyah",
+      "pr": "siyâh",
+      "emoji": "⚫",
+      "ex": {
+        "t": "گربه‌ی من سیاه است.",
+        "s": "Kedim siyah.",
+        "pr": "Gorbe-ye man siyâh ast."
+      }
+    },
+    {
+      "id": "w13",
+      "t": "سفید",
+      "s": "beyaz",
+      "pr": "sefid",
+      "emoji": "⚪",
+      "ex": {
+        "t": "برف سفید است.",
+        "s": "Kar beyaz.",
+        "pr": "Barf sefid ast."
+      }
+    },
+    {
+      "id": "w14",
+      "t": "فروشگاه",
+      "s": "mağaza",
+      "pr": "foruşgâh",
+      "emoji": "🏬",
+      "ex": {
+        "t": "این فروشگاه خیلی بزرگ است.",
+        "s": "Bu mağaza çok büyük.",
+        "pr": "İn foruşgâh xeyli bozorg ast."
+      }
+    }
+  ],
+  "phrases": [
+    {
+      "id": "p01",
+      "t": "این چند است؟",
+      "s": "Bu ne kadar?",
+      "pr": "İn çand ast?"
+    },
+    {
+      "id": "p02",
+      "t": "قیمتش چند است؟",
+      "s": "Fiyatı ne kadar?",
+      "pr": "Ğeymataş çand ast?"
+    },
+    {
+      "id": "p03",
+      "t": "خیلی گران است!",
+      "s": "Çok pahalı!",
+      "pr": "Xeyli gerân ast!"
+    },
+    {
+      "id": "p04",
+      "t": "تخفیف می‌دهید؟",
+      "s": "İndirim yapar mısınız?",
+      "pr": "Taxfif midahid?"
+    },
+    {
+      "id": "p05",
+      "t": "این را می‌خواهم.",
+      "s": "Bunu istiyorum.",
+      "pr": "İn râ mixâham."
+    },
+    {
+      "id": "p06",
+      "t": "رنگ دیگری هم دارید؟",
+      "s": "Başka renk de var mı?",
+      "pr": "Rang-e digari ham dârid?"
+    },
+    {
+      "id": "p07",
+      "t": "بفرمایید.",
+      "s": "Buyurun.",
+      "pr": "Befarmâyid."
+    },
+    {
+      "id": "p08",
+      "t": "چه رنگی دوست دارید؟",
+      "s": "Hangi rengi seversiniz?",
+      "pr": "Çe rangi dust dârid?"
+    }
+  ],
+  "dialogue": {
+    "title": {
+      "t": "در فروشگاه لباس",
+      "s": "Giyim mağazasında",
+      "pr": "Dar foruşgâh-e lebâs"
+    },
+    "speakers": {
+      "A": {
+        "name": "Ayşe",
+        "voice": "f"
+      },
+      "B": {
+        "name": "Amir",
+        "voice": "m"
+      }
+    },
+    "lines": [
+      {
+        "sp": "B",
+        "t": "سلام، بفرمایید!",
+        "s": "Merhaba, buyurun!",
+        "pr": "Salâm, befarmâyid!"
+      },
+      {
+        "sp": "A",
+        "t": "سلام. این پیراهن آبی چند است؟",
+        "s": "Merhaba. Bu mavi gömlek ne kadar?",
+        "pr": "Salâm. İn pirâhan-e âbi çand ast?"
+      },
+      {
+        "sp": "B",
+        "t": "یک میلیون تومان.",
+        "s": "Bir milyon toman. (milyun = milyon)",
+        "pr": "Yek milyun tomân."
+      },
+      {
+        "sp": "A",
+        "t": "وای، خیلی گران است! تخفیف می‌دهید؟",
+        "s": "Of, çok pahalı! İndirim yapar mısınız?",
+        "pr": "Vây, xeyli gerân ast! Taxfif midahid?"
+      },
+      {
+        "sp": "B",
+        "t": "نه، ببخشید. ولی آن پیراهن سبز ارزان است.",
+        "s": "Hayır, kusura bakmayın. Ama şu yeşil gömlek ucuz.",
+        "pr": "Na, bebaxşid. Vali ân pirâhan-e sabz arzân ast."
+      },
+      {
+        "sp": "A",
+        "t": "قیمتش چند است؟",
+        "s": "Fiyatı ne kadar?",
+        "pr": "Ğeymataş çand ast?"
+      },
+      {
+        "sp": "B",
+        "t": "پانصد هزار تومان.",
+        "s": "Beş yüz bin toman. (pânsad = beş yüz)",
+        "pr": "Pânsad hezâr tomân."
+      },
+      {
+        "sp": "A",
+        "t": "خوب است. رنگ دیگری هم دارید؟",
+        "s": "Güzel. Başka renk de var mı?",
+        "pr": "Xub ast. Rang-e digari ham dârid?"
+      },
+      {
+        "sp": "B",
+        "t": "بله، سفید و سیاه هم داریم.",
+        "s": "Evet, beyaz ve siyah da var.",
+        "pr": "Bale, sefid va siyâh ham dârim."
+      },
+      {
+        "sp": "A",
+        "t": "پس پیراهن سفید را می‌خواهم.",
+        "s": "O zaman beyaz gömleği istiyorum.",
+        "pr": "Pas pirâhan-e sefid râ mixâham."
+      }
+    ]
+  },
+  "grammar": [
+    {
+      "id": "g01",
+      "title": {
+        "t": "این پیراهن قرمز",
+        "s": "\"in / ân\" ve renkler (ezafe ile)",
+        "pr": "in pirâhan-e ğermez"
+      },
+      "explain": "**in** = bu, **ân** = şu / o. Türkçedeki gibi ismin önüne gelir ve hiç değişmez: **in ketâb** (bu kitap), **in ketâbhâ** (bu kitaplar).\nRenkler (ve bütün sıfatlar) Türkçenin tersine ismin **arkasına** gelir ve araya **ezafe** (**-e**) girer: **pirâhan-e ğermez** = kırmızı gömlek. Kelime ünlüyle bitiyorsa **-ye** olur: **xâne-ye sefid** = beyaz ev. Ezafe yazıda genellikle görünmez, ama söylenir!\nSıfat yüklem olunca ezafe yoktur: **pirâhan-e ğermez** (kırmızı gömlek) ↔ **pirâhan ğermez ast** (gömlek kırmızı).\nTanıdık kelimeler: **rang** = renk (Türkçeye Farsçadan geçmiş), **ğermez** = kırmızı (aynı kökten), **âbi** = mavi (**âb** = su).",
+      "table": [
+        [
+          "قرمز",
+          "ğermez",
+          "🔴"
+        ],
+        [
+          "آبی",
+          "âbi",
+          "🔵"
+        ],
+        [
+          "سبز",
+          "sabz",
+          "🟢"
+        ],
+        [
+          "زرد",
+          "zard",
+          "🟡"
+        ],
+        [
+          "نارنجی",
+          "nârenci",
+          "🟠"
+        ],
+        [
+          "قهوه‌ای",
+          "ğahve'i",
+          "🟤"
+        ],
+        [
+          "سیاه",
+          "siyâh",
+          "⚫"
+        ],
+        [
+          "سفید",
+          "sefid",
+          "⚪"
+        ]
+      ],
+      "examples": [
+        {
+          "t": "این پیراهن قرمز است.",
+          "s": "Bu gömlek kırmızı.",
+          "pr": "İn pirâhan ğermez ast."
+        },
+        {
+          "t": "آن کیف سیاه گران است.",
+          "s": "Şu siyah çanta pahalı.",
+          "pr": "Ân kif-e siyâh gerân ast."
+        },
+        {
+          "t": "من کفش سفید می‌خواهم.",
+          "s": "Beyaz ayakkabı istiyorum.",
+          "pr": "Man kafş-e sefid mixâham."
+        },
+        {
+          "t": "خانه‌ی سفید بزرگ است.",
+          "s": "Beyaz ev büyük.",
+          "pr": "Xâne-ye sefid bozorg ast."
+        },
+        {
+          "t": "علی یک ماشین قرمز دارد.",
+          "s": "Ali'nin kırmızı bir arabası var.",
+          "pr": "Ali yek mâşin-e ğermez dârad."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "choice",
+          "t": "من یک پیراهن ___ می‌خواهم.",
+          "options": [
+            "آبی",
+            "قرمز",
+            "زرد"
+          ],
+          "answer": 0,
+          "s": "Mavi bir gömlek istiyorum.",
+          "pr": "Man yek pirâhan-e âbi mixâham."
+        },
+        {
+          "type": "choice",
+          "t": "___ کیف سیاه است و آن کیف سفید است.",
+          "options": [
+            "این",
+            "آن",
+            "چند"
+          ],
+          "answer": 0,
+          "s": "Bu çanta siyah, şu çanta beyaz.",
+          "pr": "İn kif siyâh ast va ân kif sefid ast."
+        },
+        {
+          "type": "choice",
+          "t": "من ___ دارم.",
+          "options": [
+            "سیاه کیف",
+            "کیف سیاه",
+            "کیف سیاه است"
+          ],
+          "answer": 1,
+          "s": "Siyah bir çantam var.",
+          "pr": "Man kif-e siyâh dâram."
+        },
+        {
+          "type": "choice",
+          "t": "برف ___ است.",
+          "options": [
+            "سیاه",
+            "سبز",
+            "سفید"
+          ],
+          "answer": 2,
+          "s": "Kar beyaz.",
+          "pr": "Barf sefid ast."
+        },
+        {
+          "type": "type",
+          "t": "آسمان ___ است.",
+          "answer": [
+            "آبی"
+          ],
+          "s": "Gökyüzü mavi.",
+          "pr": "Âsemân âbi ast."
+        },
+        {
+          "type": "type",
+          "t": "___ پیراهن خیلی گران است.",
+          "answer": [
+            "این"
+          ],
+          "s": "Bu gömlek çok pahalı.",
+          "pr": "İn pirâhan xeyli gerân ast."
+        },
+        {
+          "type": "order",
+          "t": "این پیراهن قرمز است.",
+          "s": "Bu gömlek kırmızı.",
+          "pr": "İn pirâhan ğermez ast."
+        },
+        {
+          "type": "order",
+          "t": "من کفش سفید می‌خواهم.",
+          "s": "Beyaz ayakkabı istiyorum.",
+          "pr": "Man kafş-e sefid mixâham."
+        }
+      ]
+    },
+    {
+      "id": "g02",
+      "title": {
+        "t": "قیمتش چند است؟",
+        "s": "Fiyat sormak ve toman",
+        "pr": "Ğeymataş çand ast?"
+      },
+      "explain": "Fiyat sormanın en kolay yolu: **… çand ast?** = … ne kadar? **İn çand ast?** = Bu ne kadar?\nBir başka yol: **Ğeymataş çand ast?** = Fiyatı ne kadar? Sondaki **-aş** \"onun\" anlamındaki iyelik ekidir, Türkçedeki *fiyat-ı* gibi.\nİran'da fiyatlar konuşurken genellikle **toman** ile söylenir (1 toman = 10 riyal). Etiketlerde bazen riyal yazar, dikkat!\nBüyük sayılar: **sad** = yüz, **hezâr** = bin, **milyun** = milyon. Sıralama Türkçedeki gibidir: **dah hezâr** = on bin, **sad hezâr** = yüz bin. **pânsad** (beş yüz) özel bir kelimedir.",
+      "table": [
+        [
+          "۱۰۰",
+          "صد",
+          "sad"
+        ],
+        [
+          "۵۰۰",
+          "پانصد",
+          "pânsad"
+        ],
+        [
+          "۱٬۰۰۰",
+          "هزار",
+          "hezâr"
+        ],
+        [
+          "۱۰٬۰۰۰",
+          "ده هزار",
+          "dah hezâr"
+        ],
+        [
+          "۱۰۰٬۰۰۰",
+          "صد هزار",
+          "sad hezâr"
+        ],
+        [
+          "۱٬۰۰۰٬۰۰۰",
+          "یک میلیون",
+          "yek milyun"
+        ]
+      ],
+      "examples": [
+        {
+          "t": "این کیف چند است؟",
+          "s": "Bu çanta ne kadar?",
+          "pr": "İn kif çand ast?"
+        },
+        {
+          "t": "قیمتش صد هزار تومان است.",
+          "s": "Fiyatı yüz bin toman.",
+          "pr": "Ğeymataş sad hezâr tomân ast."
+        },
+        {
+          "t": "این کفش یک میلیون تومان است.",
+          "s": "Bu ayakkabı bir milyon toman.",
+          "pr": "İn kafş yek milyun tomân ast."
+        },
+        {
+          "t": "خیلی گران است! تخفیف می‌دهید؟",
+          "s": "Çok pahalı! İndirim yapar mısınız?",
+          "pr": "Xeyli gerân ast! Taxfif midahid?"
+        },
+        {
+          "t": "آن کتاب ارزان است: بیست هزار تومان.",
+          "s": "Şu kitap ucuz: yirmi bin toman.",
+          "pr": "Ân ketâb arzân ast: bist hezâr tomân."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "choice",
+          "t": "این پیراهن ___ است؟",
+          "options": [
+            "چند",
+            "هستم",
+            "به"
+          ],
+          "answer": 0,
+          "s": "Bu gömlek ne kadar?",
+          "pr": "İn pirâhan çand ast?"
+        },
+        {
+          "type": "choice",
+          "t": "قیمتش صد ___ تومان است.",
+          "options": [
+            "چند",
+            "هزار",
+            "است"
+          ],
+          "answer": 1,
+          "s": "Fiyatı yüz bin toman.",
+          "pr": "Ğeymataş sad hezâr tomân ast."
+        },
+        {
+          "type": "choice",
+          "t": "این کیف خیلی ___ است!",
+          "options": [
+            "ارزان",
+            "آبی",
+            "گران"
+          ],
+          "answer": 2,
+          "s": "Bu çanta çok pahalı!",
+          "pr": "İn kif xeyli gerân ast!"
+        },
+        {
+          "type": "choice",
+          "t": "این کتاب ارزان است: ___ هزار تومان.",
+          "options": [
+            "پنج",
+            "پانصد",
+            "صد"
+          ],
+          "answer": 0,
+          "s": "Bu kitap ucuz: beş bin toman.",
+          "pr": "İn ketâb arzân ast: panc hezâr tomân."
+        },
+        {
+          "type": "type",
+          "t": "این ___ است؟",
+          "answer": [
+            "چند"
+          ],
+          "s": "Bu ne kadar?",
+          "pr": "İn çand ast?"
+        },
+        {
+          "type": "type",
+          "t": "قیمتش ده هزار ___ است.",
+          "answer": [
+            "تومان"
+          ],
+          "s": "Fiyatı on bin toman.",
+          "pr": "Ğeymataş dah hezâr tomân ast."
+        },
+        {
+          "type": "order",
+          "t": "قیمتش چند است؟",
+          "s": "Fiyatı ne kadar?",
+          "pr": "Ğeymataş çand ast?"
+        },
+        {
+          "type": "order",
+          "t": "این کفش خیلی گران است.",
+          "s": "Bu ayakkabı çok pahalı.",
+          "pr": "İn kafş xeyli gerân ast."
+        }
+      ]
+    }
+  ],
+  "reading": {
+    "title": {
+      "t": "در بازار",
+      "s": "Çarşıda",
+      "pr": "Dar bâzâr"
+    },
+    "text": [
+      {
+        "t": "امروز ندا و مادرش به بازار می‌روند.",
+        "s": "Bugün Neda ve annesi çarşıya gidiyor.",
+        "pr": "Emruz Nedâ va mâdaraş be bâzâr miravand."
+      },
+      {
+        "t": "ندا یک کیف قرمز می‌خواهد.",
+        "s": "Neda kırmızı bir çanta istiyor.",
+        "pr": "Nedâ yek kif-e ğermez mixâhad."
+      },
+      {
+        "t": "کیف قرمز خیلی قشنگ است، ولی گران است.",
+        "s": "Kırmızı çanta çok güzel ama pahalı.",
+        "pr": "Kif-e ğermez xeyli ğaşang ast, vali gerân ast."
+      },
+      {
+        "t": "قیمتش یک میلیون تومان است!",
+        "s": "Fiyatı bir milyon toman!",
+        "pr": "Ğeymataş yek milyun tomân ast!"
+      },
+      {
+        "t": "مادرش می‌گوید: «تخفیف می‌دهید؟»",
+        "s": "Annesi \"İndirim yapar mısınız?\" diye soruyor.",
+        "pr": "Mâdaraş miguyad: \"Taxfif midahid?\""
+      },
+      {
+        "t": "فروشنده می‌گوید: «نه، ولی کیف سیاه ارزان است.»",
+        "s": "Satıcı \"Hayır, ama siyah çanta ucuz.\" diyor.",
+        "pr": "Foruşande miguyad: \"Na, vali kif-e siyâh arzân ast.\""
+      },
+      {
+        "t": "کیف سیاه پانصد هزار تومان است.",
+        "s": "Siyah çanta beş yüz bin toman.",
+        "pr": "Kif-e siyâh pânsad hezâr tomân ast."
+      },
+      {
+        "t": "ندا کیف سیاه را می‌خرد.",
+        "s": "Neda siyah çantayı alıyor.",
+        "pr": "Nedâ kif-e siyâh râ mixarad."
+      }
+    ],
+    "questions": [
+      {
+        "q": {
+          "t": "ندا و مادرش کجا می‌روند؟",
+          "s": "Neda ve annesi nereye gidiyor?",
+          "pr": "Nedâ va mâdaraş kocâ miravand?"
+        },
+        "options": [
+          "به بازار",
+          "به مدرسه",
+          "به بانک"
+        ],
+        "answer": 0
+      },
+      {
+        "q": {
+          "t": "کیف قرمز چند است؟",
+          "s": "Kırmızı çanta ne kadar?",
+          "pr": "Kif-e ğermez çand ast?"
+        },
+        "options": [
+          "پانصد هزار تومان",
+          "یک میلیون تومان",
+          "ده هزار تومان"
+        ],
+        "answer": 1
+      },
+      {
+        "q": {
+          "t": "کدام کیف ارزان است؟",
+          "s": "Hangi çanta ucuz?",
+          "pr": "Kodâm kif arzân ast?"
+        },
+        "options": [
+          "کیف قرمز",
+          "کیف آبی",
+          "کیف سیاه"
+        ],
+        "answer": 2
+      },
+      {
+        "q": {
+          "t": "ندا کدام کیف را می‌خرد؟",
+          "s": "Neda hangi çantayı alıyor?",
+          "pr": "Nedâ kodâm kif râ mixarad?"
+        },
+        "options": [
+          "سیاه",
+          "قرمز",
+          "سفید"
+        ],
+        "answer": 0
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "t": "این چند است؟",
+      "s": "Bu ne kadar?",
+      "pr": "İn çand ast?"
+    },
+    {
+      "t": "آن پیراهن آبی خیلی قشنگ است.",
+      "s": "Şu mavi gömlek çok güzel.",
+      "pr": "Ân pirâhan-e âbi xeyli ğaşang ast."
+    },
+    {
+      "t": "قیمتش پانصد هزار تومان است.",
+      "s": "Fiyatı beş yüz bin toman.",
+      "pr": "Ğeymataş pânsad hezâr tomân ast."
+    },
+    {
+      "t": "من کفش سیاه می‌خواهم.",
+      "s": "Siyah ayakkabı istiyorum.",
+      "pr": "Man kafş-e siyâh mixâham."
+    },
+    {
+      "t": "خیلی گران است! تخفیف می‌دهید؟",
+      "s": "Çok pahalı! İndirim yapar mısınız?",
+      "pr": "Xeyli gerân ast! Taxfif midahid?"
+    },
+    {
+      "t": "این کیف ارزان است.",
+      "s": "Bu çanta ucuz.",
+      "pr": "İn kif arzân ast."
+    },
+    {
+      "t": "رنگ دیگری هم دارید؟",
+      "s": "Başka renk de var mı?",
+      "pr": "Rang-e digari ham dârid?"
+    }
+  ]
+}
