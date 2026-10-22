@@ -1,12 +1,19 @@
 // Zabanyar API worker: name-only family login + progress sync. Everything else is served from ./docs (static assets).
-import USERS from "./users.json";
+// The family name list is NOT in the repository: it lives in the Worker secret USERS (Cloudflare dashboard →
+// Workers & Pages → learn → Settings → Variables and secrets), as JSON: [{"id":"maman","name":"Maman","aliases":["مامان"]}, …]
+let cache = { raw: null, list: [] };
+function usersFrom(env) {
+  const raw = env.USERS || "[]";
+  if (raw !== cache.raw) { try { cache = { raw, list: JSON.parse(raw) }; } catch { cache = { raw, list: [] }; } }
+  return cache.list;
+}
 
 const ALLOWED_ORIGINS = ["https://zabanyar.github.io", "https://zabanyar.dpdns.org", "https://learn.zabanyar.workers.dev", "http://localhost:8788"];
 
 function norm(s) { return String(s || "").trim().toLowerCase().normalize("NFC").replace(/\s+/g, " "); }
-function findUser(name) {
+function findUser(env, name) {
   const n = norm(name);
-  return USERS.find(u => norm(u.id) === n || norm(u.name) === n || (u.aliases || []).some(a => norm(a) === n)) || null;
+  return usersFrom(env).find(u => norm(u.id) === n || norm(u.name) === n || (u.aliases || []).some(a => norm(a) === n)) || null;
 }
 function cors(req) {
   const o = req.headers.get("origin");
@@ -40,12 +47,12 @@ async function api(req, env, path) {
   try { body = await req.json(); } catch {}
   if (path === "ping") return json(req, { ok: true, t: Date.now() });
   if (path === "login") {
-    const u = findUser(body.name);
+    const u = findUser(env, body.name);
     if (!u) return json(req, { ok: false, error: "unknown" }, 403);
     return json(req, { ok: true, user: { id: u.id, name: u.name } });
   }
   if (path === "sync") {
-    const u = findUser(body.user);
+    const u = findUser(env, body.user);
     if (!u) return json(req, { ok: false, error: "unknown" }, 403);
     if (!env.PROGRESS) return json(req, { ok: false, error: "no storage" }, 503);
     const raw = JSON.stringify(body.data || {});

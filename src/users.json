@@ -1,9 +1,0 @@
-[
-  { "id": "ehsan", "name": "Ehsan", "aliases": ["احسان"] },
-  { "id": "maman", "name": "Maman", "aliases": ["مامان"] },
-  { "id": "baba", "name": "Baba", "aliases": ["بابا"] },
-  { "id": "nazi", "name": "Nazi", "aliases": ["نازی"] },
-  { "id": "atrin", "name": "Atrin", "aliases": ["آترین", "اترین"] },
-  { "id": "amir", "name": "Amir", "aliases": ["امیر"] },
-  { "id": "test", "name": "Test" }
-]

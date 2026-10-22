@@ -8,11 +8,13 @@ A family language-learning website: **English** (explained in Persian, A1), **Ge
 - Backup (GitHub Pages): https://zabanyar.github.io — the progress sync still goes through Cloudflare; if it is unreachable, progress is kept on the device and synced later.
 
 ## Add or remove a family member
-Edit [`src/users.json`](src/users.json) on GitHub (pencil icon → Commit). Each person:
+The name list is kept out of this public repository. It is the Worker secret **USERS** in Cloudflare:
+dash.cloudflare.com → Workers & Pages → **learn** → Settings → Variables and secrets → USERS → edit. Value (JSON):
 ```json
-{ "id": "maryam", "name": "Maryam", "aliases": ["مریم"] }
+[{ "id": "maryam", "name": "Maryam", "aliases": ["مریم"] }, …]
 ```
-`id` is what they type to log in (not case-sensitive); `aliases` are other spellings that also work. Cloudflare redeploys automatically after the commit (about a minute).
+`id` is what they type to log in (not case-sensitive); `aliases` are other spellings that also work. Saving deploys immediately.
+For local testing, put a `USERS=[…]` line in `.dev.vars` (ignored by git).
 
 ## How it is built
 - `content/<course>/<level>/uNN.json` — lesson content (see `content/SCHEMA.md`, `content/CURRICULUM.md`, `content/CURRICULUM_DE_B2_C1.md`, `content/CURRICULUM_FA_TR.md`). Validate with `python3 tools/validate.py content/*/A1/*.json`.
