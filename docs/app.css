@@ -222,3 +222,8 @@ h2 { font-size: 1.25rem; margin: 22px 0 10px; }
 .fakb .wide { grid-column: span 3; font-size: 1rem; }
 @media (max-width: 400px) { .fakb { grid-template-columns: repeat(8, 1fr); } .fakb .wide { grid-column: span 2; } }
 .course .lvls { display: inline-block; font-size: .8rem; font-weight: 800; color: var(--c, var(--brand)); background: var(--surface-2); border-radius: 999px; padding: 0 8px; margin-inline-start: 6px; }
+.letters.all { grid-template-columns: repeat(auto-fill, minmax(64px, 1fr)); }
+.letters.all .letter { font-size: 1.5rem; }
+.forms { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; text-align: center; }
+.forms b { display: block; font-size: 2.2rem; font-family: "Vazirmatn", sans-serif; line-height: 1.6; background: var(--surface-2); border-radius: 12px; }
+.forms small { color: var(--muted); }

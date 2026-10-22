@@ -65,6 +65,7 @@ export function buildLesson(course, unit, lid, target) {
   const S = [];
   if (lid === "letters") {
     const L = unit.letters;
+    S.push({ type: "alphabet", letters: L });
     for (let i = 0; i < L.length; i += 8) {
       const grp = L.slice(i, i + 8);
       S.push({ type: "letters", letters: grp });
@@ -248,6 +249,12 @@ export function runLesson(root, steps, { target, onExit, onDone, title }) {
     R(el, step);
   }
 
+  function letterDetail(l) {
+    return h("div", { class: "card stack" },
+      l.forms ? h("div", { class: "forms", dir: "rtl" }, l.forms.map((f, k) => h("div", {}, h("b", { lang: "fa" }, f), h("small", {}, [t("f_iso"), t("f_ini"), t("f_med"), t("f_fin")][k])))) : null,
+      l.pr ? h("div", { class: "pr", dir: "ltr" }, l.pr) : null,
+      l.ex ? h("div", { class: "row" }, pic(l.ex.img, l.ex.emoji, "pic", 64), h("div", { style: { flex: 1 } }, h("div", { style: { fontSize: "1.5rem", fontWeight: 800 } }, T(l.ex.t)), l.ex.pr ? h("div", { class: "muted", dir: "ltr" }, l.ex.pr) : null, h("div", {}, l.ex.s)), sayBtn(l.ex.a)) : null);
+  }
   const RENDER = {
     card(el, { word: w, srs }) {
       if (srs) srsSeen(srs);
@@ -273,7 +280,7 @@ export function runLesson(root, steps, { target, onExit, onDone, title }) {
       continueBar(t("next"));
     },
     letters(el, { letters }) {
-      el.append(h("div", { class: "prompt" }, t("tapToHear")));
+      el.append(h("div", { class: "prompt" }, t("tapLetter")));
       const grid = h("div", { class: "letters", dir: tdir() });
       for (const l of letters) {
         const b = h("button", { class: "letter", type: "button" }, h("div", {}, T(l.t), l.pr ? h("small", {}, l.pr) : null));
@@ -281,8 +288,20 @@ export function runLesson(root, steps, { target, onExit, onDone, title }) {
         grid.append(b);
       }
       const shown = h("div", {});
-      const exView = l => l.ex ? h("div", { class: "card row" }, pic(l.ex.img, l.ex.emoji, "pic", 64), h("div", { style: { flex: 1 } }, h("div", { style: { fontSize: "1.5rem", fontWeight: 800 } }, T(l.ex.t)), l.ex.pr ? h("div", { class: "muted" }, l.ex.pr) : null, h("div", {}, l.ex.s)), sayBtn(l.ex.a)) : "";
+      const exView = l => letterDetail(l);
+      const _old = l => l.ex ? h("div", { class: "card row" }, pic(l.ex.img, l.ex.emoji, "pic", 64), h("div", { style: { flex: 1 } }, h("div", { style: { fontSize: "1.5rem", fontWeight: 800 } }, T(l.ex.t)), l.ex.pr ? h("div", { class: "muted" }, l.ex.pr) : null, h("div", {}, l.ex.s)), sayBtn(l.ex.a)) : "";
       el.append(grid, shown);
+      continueBar(t("next"));
+    },
+    alphabet(el, { letters }) {
+      el.append(h("div", { class: "prompt" }, "🔤 " + t("L_letters") + " — " + num(letters.length)), h("div", { class: "muted small" }, t("tapLetter")));
+      const detail = h("div", {});
+      const grid = h("div", { class: "letters all", dir: tdir() }, letters.map(l => {
+        const b = h("button", { class: "letter", type: "button" }, h("div", {}, T(l.t), l.pr ? h("small", { dir: "ltr" }, l.pr.split(/[—-]/)[0].trim()) : null));
+        b.addEventListener("click", async () => { detail.replaceChildren(letterDetail(l)); detail.scrollIntoView({ block: "nearest", behavior: "smooth" }); await play(l.a); if (l.ex?.a) play(l.ex.a); });
+        return b;
+      }));
+      el.append(grid, detail);
       continueBar(t("next"));
     },
     sound(el, { sound: s }) {

@@ -13,13 +13,13 @@ TWEMOJI_DIR = "/home/claude/vendor/twemoji"
 # dir = direction of the UI (support language); tdir = direction of the language being learned
 COURSES = {
     "en-fa": {"target": "en", "support": "fa", "dir": "rtl", "tdir": "ltr",
-              "name": {"t": "English", "s": "انگلیسی"}, "voices": {"f": "en_f", "m": "en_m"}, "default": "f", "color": "#2f6fdb"},
+              "name": {"t": "English", "s": "انگلیسی"}, "voices": {"f": "en_f", "m": "en_m"}, "vv": "2", "default": "f", "color": "#2f6fdb"},
     "de-en": {"target": "de", "support": "en", "dir": "ltr", "tdir": "ltr",
               "name": {"t": "Deutsch", "s": "German"}, "voices": {"f": "de_f", "m": "de_m"}, "default": "m", "color": "#d9822b"},
     "tr-fa": {"target": "tr", "support": "fa", "dir": "rtl", "tdir": "ltr",
               "name": {"t": "Türkçe", "s": "ترکی"}, "voices": {"f": "tr_f", "m": "tr_m"}, "default": "f", "color": "#c2334d"},
     "fa-tr": {"target": "fa", "support": "tr", "dir": "ltr", "tdir": "rtl",
-              "name": {"t": "فارسی", "s": "Farsça"}, "voices": {"f": "fa_f", "m": "fa_m"}, "default": "f", "color": "#7a4fc4"},
+              "name": {"t": "فارسی", "s": "Farsça"}, "voices": {"f": "fa_f", "m": "fa_m"}, "vv": "2", "default": "m", "color": "#7a4fc4"},
 }
 LEVELS = ["A1", "A2", "B1", "B2", "C1"]
 LEVEL_NAME = {
@@ -44,7 +44,8 @@ LEVEL = "A1"
 
 
 def akey(course, voice, text):
-    h = hashlib.sha1(f"{voice}|{text}".encode("utf-8")).hexdigest()[:12]
+    vv = COURSES[course].get("vv")   # voice-set version: changing a course's voices gives new file names
+    h = hashlib.sha1((f"{voice}|{text}" if not vv else f"{voice}@{vv}|{text}").encode("utf-8")).hexdigest()[:12]
     return f"audio/{course}/{h}.mp3"
 
 
@@ -99,6 +100,18 @@ def emoji_img(e):
     return rel
 
 
+FA_LETTER_NAMES = {"ا": "اَلِف", "ب": "بِه", "پ": "پِه", "ت": "تِه", "ث": "ثِه", "ج": "جیم", "چ": "چِه", "ح": "حِه", "خ": "خِه", "د": "دال",
+    "ذ": "ذال", "ر": "رِه", "ز": "زِه", "ژ": "ژِه", "س": "سین", "ش": "شین", "ص": "صاد", "ض": "ضاد", "ط": "طا", "ظ": "ظا", "ع": "عِین",
+    "غ": "غِین", "ف": "فِه", "ق": "قاف", "ک": "کاف", "گ": "گاف", "ل": "لام", "م": "میم", "ن": "نون", "و": "واو", "ه": "هِه", "ی": "یِه"}
+FA_NONJOIN = set("اآدذرزژو")
+ZWJ = "\u200d"
+def fa_forms(ch):
+    """isolated, initial, medial, final — built with zero-width joiners so the font shapes them"""
+    if ch in FA_NONJOIN:
+        return [ch, ch, ZWJ + ch, ZWJ + ch]
+    return [ch, ch + ZWJ, ZWJ + ch + ZWJ, ZWJ + ch]
+
+
 def fill_gap(x):
     t = x["t"]
     if x["type"] == "choice":
@@ -115,7 +128,12 @@ def process_unit(course, u):
     add_audio(course, u["title"])
     for l in u.get("letters", []):
         letter = l["t"].split()[0]
-        add_audio(course, l, text=letter.lower() if course in ("en-fa", "tr-fa") else letter)
+        if course == "fa-tr":
+            # a lone letter is unpronounceable for TTS — speak the letter's name instead
+            l["forms"] = fa_forms(letter)
+            add_audio(course, l, text=FA_LETTER_NAMES.get(letter, letter))
+        else:
+            add_audio(course, l, text=letter.lower() if course in ("en-fa", "tr-fa") else letter)
         if l.get("ex"):
             l["ex"]["img"] = emoji_img(l["ex"].get("emoji"))
             add_audio(course, l["ex"])

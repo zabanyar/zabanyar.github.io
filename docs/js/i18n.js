@@ -40,7 +40,7 @@ const S = {
     credits: "درباره و منابع", quit: "خروج از تمرین؟", yes: "بله", no: "نه",
     plural: "جمع", example: "مثال", skip: "رد کردن", listenAgain: "دوباره گوش کنید",
     learned: "یاد گرفته‌اید", of: "از", unitsDone: "درس کامل شده",
-    home: "خانه", cantListen: "الان نمی‌توانم گوش کنم", explainedIn: "توضیحات به فارسی", keyboard: "صفحه‌کلید",
+    home: "خانه", cantListen: "الان نمی‌توانم گوش کنم", explainedIn: "توضیحات به فارسی", tapLetter: "برای شنیدن روی هر حرف بزنید", f_iso: "تنها", f_ini: "اول", f_med: "وسط", f_fin: "آخر", keyboard: "صفحه‌کلید",
   },
   en: {
     appName: "Zabanyar",
@@ -82,7 +82,7 @@ const S = {
     credits: "About & credits", quit: "Leave this lesson?", yes: "Yes", no: "No",
     plural: "plural", example: "Example", skip: "Skip", listenAgain: "Listen again",
     learned: "learned", of: "of", unitsDone: "units done",
-    home: "Home", cantListen: "Can't listen now", explainedIn: "Explained in English", keyboard: "Keyboard",
+    home: "Home", cantListen: "Can't listen now", explainedIn: "Explained in English", tapLetter: "Tap a letter to hear it", f_iso: "alone", f_ini: "start", f_med: "middle", f_fin: "end", keyboard: "Keyboard",
   },
   tr: {
     appName: "Zabanyar",
@@ -124,7 +124,7 @@ const S = {
     credits: "Hakkında ve kaynaklar", quit: "Bu dersten çıkılsın mı?", yes: "Evet", no: "Hayır",
     plural: "çoğul", example: "Örnek", skip: "Geç", listenAgain: "Tekrar dinle",
     learned: "öğrenildi", of: "/", unitsDone: "ünite tamamlandı",
-    home: "Ana sayfa", cantListen: "Şu an dinleyemiyorum", explainedIn: "Türkçe açıklamalı", keyboard: "Klavye",
+    home: "Ana sayfa", cantListen: "Şu an dinleyemiyorum", explainedIn: "Türkçe açıklamalı", tapLetter: "Dinlemek için bir harfe dokunun", f_iso: "tek", f_ini: "başta", f_med: "ortada", f_fin: "sonda", keyboard: "Klavye",
   },
 };
 let lang = "fa";
