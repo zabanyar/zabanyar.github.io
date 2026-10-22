@@ -68,7 +68,7 @@ export function sample(a, n) { return shuffle(a).slice(0, n); }
 // tiny markdown: **bold**, \n paragraphs
 export function md(text) {
   const esc = s => s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
-  return esc(text).split(/\n+/).map(p => "<p>" + p.replace(/\*\*(.+?)\*\*/g, "<b>$1</b>") + "</p>").join("");
+  return esc(text).split(/\n+/).map(p => "<p>" + p.replace(/\*\*(.+?)\*\*/g, "<b><bdi>$1</bdi></b>") + "</p>").join("");
 }
 
 export function normalize(s, lang) {

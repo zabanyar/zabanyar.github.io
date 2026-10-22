@@ -1,5 +1,5 @@
 // Zabanyar service worker: app shell precache + cache-first content (lessons, audio, pictures).
-const VERSION = "zy-shell-2026-10-21a";
+const VERSION = "zy-shell-2026-10-22a";
 const CONTENT = "zy-content-v1";
 const SHELL = [
   "./", "index.html", "app.css", "manifest.webmanifest",
@@ -18,18 +18,22 @@ self.addEventListener("fetch", e => {
   if (req.method !== "GET") return;
   const url = new URL(req.url);
   if (url.origin !== location.origin || url.pathname.includes("/api/")) return;
-  const isContent = /\/(audio|img|data)\//.test(url.pathname) && !url.pathname.endsWith("courses.json");
+  const isContent = /\/(audio|img)\//.test(url.pathname);   // file names are content hashes / fixed pictures
   if (isContent) {
-    // cache-first: lesson files, audio and pictures never change for a given name
+    // cache-first: audio and pictures never change for a given name
     e.respondWith(caches.match(req, { ignoreSearch: true }).then(hit => hit || fetch(req).then(res => {
       if (res.ok) { const copy = res.clone(); caches.open(CONTENT).then(c => c.put(req, copy)); }
       return res;
     })));
     return;
   }
-  // app shell & course index: network first (fresh when online), cache when offline
-  e.respondWith(fetch(req).then(res => {
-    if (res.ok) { const copy = res.clone(); caches.open(VERSION).then(c => c.put(req, copy)); }
+  // app shell + lesson data: network first (fresh when online), cache when offline
+  const isData = url.pathname.includes("/data/");
+  const net = fetch(req).then(res => {
+    if (res.ok) { const copy = res.clone(); caches.open(isData ? CONTENT : VERSION).then(c => c.put(req, copy)); }
     return res;
-  }).catch(() => caches.match(req, { ignoreSearch: true }).then(hit => hit || caches.match("index.html"))));
+  });
+  // on slow connections, answer from cache after 4 s (the network copy still refreshes the cache)
+  const slow = new Promise(r => setTimeout(r, 4000)).then(() => caches.match(req, { ignoreSearch: true })).then(hit => hit || net);
+  e.respondWith(Promise.race([net, slow]).catch(() => caches.match(req, { ignoreSearch: true }).then(hit => hit || caches.match("index.html"))));
 });

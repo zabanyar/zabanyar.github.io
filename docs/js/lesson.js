@@ -290,7 +290,7 @@ export function runLesson(root, steps, { target, onExit, onDone, title }) {
         h("h2", { style: { margin: 0 } }, "🧩 ", T(g.title.t)),
         h("div", { class: "muted" }, g.title.s),
         h("div", { class: "explain", html: md(g.explain) }),
-        g.table ? h("table", { class: "gtable" }, g.table.map(r => h("tr", {}, r.map(c => h("td", {}, T(c)))))) : null,
+        g.table ? h("table", { class: "gtable", dir: "ltr" }, g.table.map(r => h("tr", {}, r.map(c => h("td", {}, T(c)))))) : null,
         h("div", { class: "list" }, (g.examples || []).map(e => h("div", { class: "example" }, sayBtn(e.a, { small: true }), h("div", { class: "tx" }, h("div", {}, T(e.t)), h("div", { class: "tr" }, e.s)))))));
       continueBar(t("gotIt"));
     },
