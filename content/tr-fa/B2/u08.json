@@ -1,0 +1,698 @@
+{
+  "id": "u08",
+  "level": "B2",
+  "emoji": "🎨",
+  "title": {
+    "t": "Sanat ve edebiyat",
+    "s": "هنر و ادبیات"
+  },
+  "goals": [
+    "درباره‌ی کتاب، فیلم، تئاتر و نقاشی صحبت کنم و نقد کوتاهی بگویم.",
+    "با قیدهای فعلی -(y)arak، -(y)ıp و -casına جمله‌ها را به هم وصل کنم.",
+    "تفاوت -dığında، -(y)ınca و -dığı zaman را بدانم و درست به کار ببرم.",
+    "یک متن زندگی‌نامه‌ای درباره‌ی یک شاعر را بفهمم."
+  ],
+  "words": [
+    {
+      "id": "w01",
+      "t": "eser",
+      "pl": "eserler",
+      "s": "اثر (هنری یا ادبی)",
+      "pr": "اِسِر",
+      "emoji": "",
+      "ex": {
+        "t": "Orhan Pamuk'un eserleri altmıştan fazla dile çevrildi.",
+        "s": "آثار اورهان پاموک به بیش از شصت زبان ترجمه شده است."
+      }
+    },
+    {
+      "id": "w02",
+      "t": "roman",
+      "pl": "romanlar",
+      "s": "رمان",
+      "pr": "رُمان",
+      "emoji": "📖",
+      "ex": {
+        "t": "Bu romanı bir solukta okudum.",
+        "s": "این رمان را یک‌نفس خواندم."
+      }
+    },
+    {
+      "id": "w03",
+      "t": "şiir",
+      "pl": "şiirler",
+      "s": "شعر",
+      "pr": "شیئیر",
+      "emoji": "",
+      "ex": {
+        "t": "Babam her akşam Hafız'dan bir şiir okur.",
+        "s": "پدرم هر شب یک شعر از حافظ می‌خواند."
+      }
+    },
+    {
+      "id": "w04",
+      "t": "şair",
+      "pl": "şairler",
+      "s": "شاعر",
+      "pr": "شائیر",
+      "emoji": "",
+      "ex": {
+        "t": "Yunus Emre, Türk edebiyatının en sevilen şairlerinden biridir.",
+        "s": "یونس امره یکی از محبوب‌ترین شاعران ادبیات ترکی است."
+      }
+    },
+    {
+      "id": "w05",
+      "t": "yazar",
+      "pl": "yazarlar",
+      "s": "نویسنده",
+      "pr": "یازار",
+      "emoji": "✍️",
+      "ex": {
+        "t": "En sevdiğin yazar kim?",
+        "s": "نویسنده‌ی محبوبت کیست؟"
+      }
+    },
+    {
+      "id": "w06",
+      "t": "ressam",
+      "pl": "ressamlar",
+      "s": "نقاش",
+      "pr": "رِسّام",
+      "emoji": "🎨",
+      "ex": {
+        "t": "Ressam bu tabloyu iki yılda bitirmiş.",
+        "s": "نقاش این تابلو را در دو سال تمام کرده است."
+      }
+    },
+    {
+      "id": "w07",
+      "t": "tablo",
+      "pl": "tablolar",
+      "s": "تابلوی نقاشی",
+      "pr": "تابلُ",
+      "emoji": "🖼️",
+      "ex": {
+        "t": "Müzedeki en ünlü tablonun önünde uzun bir kuyruk vardı.",
+        "s": "جلوی مشهورترین تابلوی موزه صف درازی بود."
+      }
+    },
+    {
+      "id": "w08",
+      "t": "sergi",
+      "pl": "sergiler",
+      "s": "نمایشگاه",
+      "pr": "سِرگی",
+      "emoji": "",
+      "ex": {
+        "t": "Hafta sonu bir fotoğraf sergisine gittik.",
+        "s": "آخر هفته به یک نمایشگاه عکس رفتیم."
+      }
+    },
+    {
+      "id": "w09",
+      "t": "sahne",
+      "pl": "sahneler",
+      "s": "صحنه",
+      "pr": "ساهنِه",
+      "emoji": "🎭",
+      "ex": {
+        "t": "Oyuncular sahneye çıkınca salon sessizleşti.",
+        "s": "همین که بازیگران روی صحنه آمدند، سالن ساکت شد."
+      }
+    },
+    {
+      "id": "w10",
+      "t": "yönetmen",
+      "pl": "yönetmenler",
+      "s": "کارگردان",
+      "pr": "یُنِتمِن",
+      "emoji": "🎬",
+      "ex": {
+        "t": "Nuri Bilge Ceylan ödüllü bir yönetmendir.",
+        "s": "نوری بیلگه جیلان کارگردانی برنده‌ی جایزه است."
+      }
+    },
+    {
+      "id": "w11",
+      "t": "eleştiri",
+      "pl": "eleştiriler",
+      "s": "نقد؛ انتقاد",
+      "pr": "اِلِشتیری",
+      "emoji": "",
+      "ex": {
+        "t": "Film, eleştirmenlerden olumlu eleştiriler aldı.",
+        "s": "فیلم از منتقدان نقدهای مثبتی گرفت."
+      }
+    },
+    {
+      "id": "w12",
+      "t": "etkilenmek",
+      "s": "تحت تأثیر قرار گرفتن",
+      "pr": "اِتکیلِنمِک",
+      "emoji": "",
+      "ex": {
+        "t": "Bu filmden çok etkilendim.",
+        "s": "خیلی تحت تأثیر این فیلم قرار گرفتم."
+      }
+    },
+    {
+      "id": "w13",
+      "t": "ilham",
+      "s": "الهام",
+      "pr": "ایلهام",
+      "emoji": "",
+      "ex": {
+        "t": "Şair, ilhamını doğadan alıyor.",
+        "s": "شاعر الهامش را از طبیعت می‌گیرد."
+      }
+    },
+    {
+      "id": "w14",
+      "t": "çevirmen",
+      "pl": "çevirmenler",
+      "s": "مترجم",
+      "pr": "چِویرمِن",
+      "emoji": "",
+      "ex": {
+        "t": "İyi bir çevirmen, şiirin ruhunu da aktarır.",
+        "s": "یک مترجم خوب روح شعر را هم منتقل می‌کند."
+      }
+    },
+    {
+      "id": "w15",
+      "t": "edebiyat",
+      "s": "ادبیات",
+      "pr": "اِدِبیات",
+      "emoji": "📚",
+      "ex": {
+        "t": "Fars edebiyatı bütün dünyada tanınıyor.",
+        "s": "ادبیات فارسی در سراسر جهان شناخته‌شده است."
+      }
+    }
+  ],
+  "phrases": [
+    {
+      "id": "p01",
+      "t": "Bu kitabı herkese tavsiye ederim.",
+      "s": "این کتاب را به همه توصیه می‌کنم."
+    },
+    {
+      "id": "p02",
+      "t": "Beni en çok etkileyen sahne…",
+      "s": "صحنه‌ای که بیشتر از همه مرا تحت تأثیر قرار داد…"
+    },
+    {
+      "id": "p03",
+      "t": "Açıkçası beklediğim kadar iyi değildi.",
+      "s": "راستش آن‌قدر که انتظار داشتم خوب نبود."
+    },
+    {
+      "id": "p04",
+      "t": "Konusu biraz ağır ama çok etkileyici.",
+      "s": "موضوعش کمی سنگین است، اما خیلی تأثیرگذار است."
+    },
+    {
+      "id": "p05",
+      "t": "Sakın sonunu söyleme!",
+      "s": "مبادا آخرش را بگویی!"
+    },
+    {
+      "id": "p06",
+      "t": "Bir solukta okudum.",
+      "s": "یک‌نفس خواندمش."
+    },
+    {
+      "id": "p07",
+      "t": "Bence oyunculuk harikaydı.",
+      "s": "به نظرم بازیگری فوق‌العاده بود."
+    },
+    {
+      "id": "p08",
+      "t": "Zevkler ve renkler tartışılmaz.",
+      "s": "سلیقه‌ها جای بحث ندارد. (تحت‌اللفظی: سلیقه‌ها و رنگ‌ها بحث‌کردنی نیستند)"
+    }
+  ],
+  "dialogue": {
+    "title": {
+      "t": "Kitap mı, film mi?",
+      "s": "کتاب یا فیلم؟"
+    },
+    "speakers": {
+      "A": {
+        "name": "Elif",
+        "voice": "f"
+      },
+      "B": {
+        "name": "Reza",
+        "voice": "m"
+      }
+    },
+    "lines": [
+      {
+        "sp": "A",
+        "t": "Reza, önerdiğin romanı bitirdim. Gerçekten bir solukta okudum!",
+        "s": "رضا، رمانی را که پیشنهاد داده بودی تمام کردم. واقعاً یک‌نفس خواندمش!"
+      },
+      {
+        "sp": "B",
+        "t": "Sevindim! Hangi bölüm seni en çok etkiledi?",
+        "s": "خوشحال شدم! کدام بخش بیشتر از همه تو را تحت تأثیر قرار داد؟"
+      },
+      {
+        "sp": "A",
+        "t": "Kahramanın mektubu okuyunca evden koşarak çıktığı sahne. Ağlayarak okudum.",
+        "s": "صحنه‌ای که قهرمان داستان با خواندن نامه دوان‌دوان از خانه بیرون می‌رود. با گریه خواندمش."
+      },
+      {
+        "sp": "B",
+        "t": "Ben de o bölümü ilk okuduğumda çok etkilenmiştim.",
+        "s": "من هم اولین بار که آن بخش را خواندم، خیلی تحت تأثیر قرار گرفته بودم."
+      },
+      {
+        "sp": "A",
+        "t": "Yazar her şeyi sanki kendisi yaşamışçasına anlatıyor.",
+        "s": "نویسنده همه‌چیز را طوری تعریف می‌کند که انگار خودش تجربه‌اش کرده است."
+      },
+      {
+        "sp": "B",
+        "t": "Çünkü roman kısmen kendi hayatına dayanıyor. Filmini de izledin mi?",
+        "s": "چون رمان تا حدی بر اساس زندگی خود اوست. فیلمش را هم دیدی؟"
+      },
+      {
+        "sp": "A",
+        "t": "Henüz izlemedim. Yönetmen kitaba sadık kalmış mı?",
+        "s": "هنوز ندیده‌ام. کارگردان به کتاب وفادار مانده است؟"
+      },
+      {
+        "sp": "B",
+        "t": "Açıkçası pek değil. Bazı sahneleri çıkarıp sonunu da değiştirmişler.",
+        "s": "راستش نه چندان. بعضی صحنه‌ها را حذف کرده‌اند و پایانش را هم عوض کرده‌اند."
+      },
+      {
+        "sp": "A",
+        "t": "Eyvah! Bence sonunu değiştirmek büyük bir hata.",
+        "s": "ای وای! به نظر من عوض کردن پایان اشتباه بزرگی است."
+      },
+      {
+        "sp": "B",
+        "t": "Yine de oyunculuk harikaydı. Filmi izleyince ne düşündüğünü mutlaka söyle.",
+        "s": "با این حال بازیگری فوق‌العاده بود. فیلم را که دیدی، حتماً بگو نظرت چیست."
+      },
+      {
+        "sp": "A",
+        "t": "Söz! Hafta sonu çay demleyip keyifle izleyeceğim.",
+        "s": "قول می‌دهم! آخر هفته چای دم می‌کنم و با حوصله تماشایش می‌کنم."
+      }
+    ]
+  },
+  "grammar": [
+    {
+      "id": "g01",
+      "title": {
+        "t": "Zarf-fiiller: -(y)arak, -(y)ıp, -casına",
+        "s": "قیدهای فعلی: -(y)arak، -(y)ıp و -casına"
+      },
+      "explain": "قید فعلی (zarf-fiil) دو بخش جمله را بدون «و» یا «که» به هم وصل می‌کند. معمولاً فاعل هر دو بخش یکی است و زمان و شخص را فقط **فعل آخر** نشان می‌دهد.\n**-(y)arak / -(y)erek**: «با … کردن، در حالی که…»؛ **شیوه** یا **وسیله‌ی** انجام کار را نشان می‌دهد: Koş**arak** geldi = دوان‌دوان آمد. Dizi izle**yerek** Türkçe öğrendim = با دیدن سریال ترکی یاد گرفتم.\n**-(y)ıp / -(y)ip / -(y)up / -(y)üp**: دو کار **پشت سر هم** را وصل می‌کند؛ تقریباً یعنی «… کرد و …»: Eve gel**ip** yemek yedik = به خانه آمدیم و غذا خوردیم. منفی: **-mayıp / -meyip** (… نکرد و …).\n**-casına / -cesine** (پس از حرف بی‌واک: **-çasına / -çesine**): «گویی، انگار که»؛ ادبی‌تر است و معمولاً پس از **-mış** یا **-(ı)r** می‌آید: Hiçbir şey ol**mamışçasına** konuştu = طوری حرف زد که انگار هیچ اتفاقی نیفتاده است. **delicesine** (دیوانه‌وار) هم از همین پسوند است.\nتوجه: در چند فعل مثل gitmek و etmek، t آخر ریشه پیش از واکه d می‌شود: git → **gidip**، **giderek**؛ et → **edip** (ولی: bitip، atıp).",
+      "table": [
+        [
+          "-(y)arak / -(y)erek",
+          "koşarak, bakarak",
+          "gülerek, izleyerek"
+        ],
+        [
+          "-(y)ıp / -(y)ip / -(y)up / -(y)üp",
+          "kalkıp, okuyup",
+          "gidip, görüp"
+        ],
+        [
+          "-casına / -cesine",
+          "yaşamışçasına, bilircesine",
+          "kaçarcasına, delicesine"
+        ]
+      ],
+      "examples": [
+        {
+          "t": "Çocuklar bahçede bağırarak oynuyordu.",
+          "s": "بچه‌ها در حیاط با داد و فریاد بازی می‌کردند."
+        },
+        {
+          "t": "Kitabı alıp hemen okumaya başladım.",
+          "s": "کتاب را خریدم و فوراً شروع به خواندنش کردم."
+        },
+        {
+          "t": "Şair, aşkı doğayı anlatarak ifade eder.",
+          "s": "شاعر عشق را با توصیف طبیعت بیان می‌کند."
+        },
+        {
+          "t": "Sabah erken kalkıp parkta yürüyüş yaptık.",
+          "s": "صبح زود بیدار شدیم و در پارک پیاده‌روی کردیم."
+        },
+        {
+          "t": "Beni yıllardır tanıyormuşçasına konuştu.",
+          "s": "طوری با من حرف زد که انگار سال‌هاست مرا می‌شناسد."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "choice",
+          "t": "Öğretmen sınıfa ___ girdi.",
+          "options": [
+            "gülümseyerak",
+            "gülümseyerek",
+            "gülümseyarak"
+          ],
+          "answer": 1,
+          "s": "معلم با لبخند وارد کلاس شد."
+        },
+        {
+          "type": "choice",
+          "t": "Markete ___ ekmek aldım.",
+          "options": [
+            "gidip",
+            "gitip",
+            "gidıp"
+          ],
+          "answer": 0,
+          "s": "به فروشگاه رفتم و نان خریدم."
+        },
+        {
+          "type": "choice",
+          "t": "Sanki her şeyi ___ konuşuyor.",
+          "options": [
+            "biliyormuşcasına",
+            "bilerekçesine",
+            "biliyormuşçasına"
+          ],
+          "answer": 2,
+          "s": "طوری حرف می‌زند که انگار همه‌چیز را می‌داند."
+        },
+        {
+          "type": "type",
+          "t": "Bu romanı ___ okudum.",
+          "answer": [
+            "ağlayarak"
+          ],
+          "s": "این رمان را با گریه خواندم."
+        },
+        {
+          "type": "type",
+          "t": "Kapıyı ___ içeri girdi.",
+          "answer": [
+            "çalıp",
+            "çalarak"
+          ],
+          "s": "در زد و وارد شد."
+        },
+        {
+          "type": "type",
+          "t": "Akşam yemeğini ___ televizyon izledik.",
+          "answer": [
+            "yiyip",
+            "yiyerek"
+          ],
+          "s": "شام را خوردیم و تلویزیون تماشا کردیم."
+        },
+        {
+          "type": "order",
+          "t": "Kitabı alıp hemen okumaya başladım.",
+          "s": "کتاب را خریدم و فوراً شروع به خواندنش کردم."
+        },
+        {
+          "type": "order",
+          "t": "Çocuklar bahçede gülerek oynuyordu.",
+          "s": "بچه‌ها در حیاط با خنده بازی می‌کردند."
+        }
+      ]
+    },
+    {
+      "id": "g02",
+      "title": {
+        "t": "-dığında, -(y)ınca, -dığı zaman",
+        "s": "سه شکل «وقتی که»"
+      },
+      "explain": "هر سه ساخت را در فارسی معمولاً «وقتی (که)…» ترجمه می‌کنیم، اما رنگ معنایی‌شان کمی فرق دارد.\n**-dığında / -dığı zaman** (ریشه + -dık + پسوند ملکی): «در زمانی که»؛ خنثی‌ترین شکل است و برای **همزمانی** دو رویداد بسیار مناسب است: Eve gel**diğimde** annem uyuyordu = وقتی به خانه رسیدم، مادرم خواب بود. پسوند ملکی فاعل را نشان می‌دهد: gel**diğimde**، gel**diğinde**، gel**diğimiz zaman**. -dığında در نوشتار رایج‌تر است و -dığı zaman کمی گفتاری‌تر. برای آینده: **-(y)acağı zaman**.\n**-(y)ınca / -(y)ince / -(y)unca / -(y)ünce**: «همین که، پس از اینکه»؛ تأکیدش بر این است که کار دوم **بعد از** کار اول یا **در نتیجه‌ی** آن رخ می‌دهد: Yağmur yağ**ınca** sokaklar boşaldı = همین که باران آمد، خیابان‌ها خالی شد. پسوند ملکی **نمی‌گیرد** و برای همه‌ی اشخاص یکسان است: Sen gel**ince** başlarız.\nبرای کارهای تکراری («هر وقت که») هر دو ممکن است: Canım sıkıl**dığında** / sıkıl**ınca** şiir okurum.",
+      "table": [
+        [
+          "ben",
+          "geldiğimde",
+          "gelince"
+        ],
+        [
+          "sen",
+          "geldiğinde",
+          "gelince"
+        ],
+        [
+          "o",
+          "geldiğinde",
+          "gelince"
+        ],
+        [
+          "biz",
+          "geldiğimizde",
+          "gelince"
+        ],
+        [
+          "siz",
+          "geldiğinizde",
+          "gelince"
+        ],
+        [
+          "onlar",
+          "geldiklerinde",
+          "gelince"
+        ]
+      ],
+      "examples": [
+        {
+          "t": "Küçükken Hafız'ın şiirlerini okuduğumda pek bir şey anlamazdım.",
+          "s": "بچه که بودم، وقتی شعرهای حافظ را می‌خواندم، چیز زیادی نمی‌فهمیدم."
+        },
+        {
+          "t": "Perde açılınca salonda derin bir sessizlik oldu.",
+          "s": "همین که پرده کنار رفت، سکوتی عمیق در سالن حاکم شد."
+        },
+        {
+          "t": "İstanbul'a geldiğiniz zaman mutlaka bu sergiyi görün.",
+          "s": "وقتی به استانبول آمدید، حتماً این نمایشگاه را ببینید."
+        },
+        {
+          "t": "Yazar kitabını bitirince uzun bir tatile çıktı.",
+          "s": "نویسنده همین که کتابش را تمام کرد، به یک سفر طولانی رفت."
+        },
+        {
+          "t": "Müzeye vardığımızda kapılar kapanmıştı.",
+          "s": "وقتی به موزه رسیدیم، درها بسته شده بود."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "choice",
+          "t": "Ben eve ___ herkes uyuyordu.",
+          "options": [
+            "geldiğinde",
+            "geldiğimde",
+            "gelincem"
+          ],
+          "answer": 1,
+          "s": "وقتی به خانه رسیدم، همه خواب بودند."
+        },
+        {
+          "type": "choice",
+          "t": "Biz sinemaya ___ film başlamıştı.",
+          "options": [
+            "vardığımızda",
+            "vardığında",
+            "varıncamız"
+          ],
+          "answer": 0,
+          "s": "وقتی به سینما رسیدیم، فیلم شروع شده بود."
+        },
+        {
+          "type": "choice",
+          "t": "Konser ___ herkes ayağa kalkıp alkışladı.",
+          "options": [
+            "bitincesi",
+            "bitiğinde",
+            "bitince"
+          ],
+          "answer": 2,
+          "s": "همین که کنسرت تمام شد، همه بلند شدند و دست زدند."
+        },
+        {
+          "type": "type",
+          "t": "Telefon ___ hemen açtım.",
+          "answer": [
+            "çalınca",
+            "çaldığında",
+            "çaldığı zaman"
+          ],
+          "s": "همین که تلفن زنگ زد، فوراً جواب دادم."
+        },
+        {
+          "type": "type",
+          "t": "Sen ___ yemeğe başlarız.",
+          "answer": [
+            "gelince",
+            "geldiğinde",
+            "geldiğin zaman"
+          ],
+          "s": "وقتی تو آمدی، غذا خوردن را شروع می‌کنیم."
+        },
+        {
+          "type": "type",
+          "t": "Onlar Türkiye'ye ___ bize haber versinler.",
+          "answer": [
+            "geldiklerinde",
+            "gelince",
+            "geldikleri zaman"
+          ],
+          "s": "وقتی به ترکیه آمدند، به ما خبر بدهند."
+        },
+        {
+          "type": "order",
+          "t": "Müzeye vardığımızda kapılar kapanmıştı.",
+          "s": "وقتی به موزه رسیدیم، درها بسته شده بود."
+        },
+        {
+          "type": "order",
+          "t": "Perde açılınca salon sessizleşti.",
+          "s": "همین که پرده کنار رفت، سالن ساکت شد."
+        }
+      ]
+    }
+  ],
+  "reading": {
+    "title": {
+      "t": "Belh'ten Konya'ya: Mevlânâ",
+      "s": "از بلخ تا قونیه: مولانا"
+    },
+    "text": [
+      {
+        "t": "Mevlânâ Celâleddin Rûmî, 1207 yılında bugünkü Afganistan'daki Belh şehrinde doğdu.",
+        "s": "مولانا جلال‌الدین رومی در سال ۱۲۰۷ میلادی در شهر بلخ، در افغانستانِ امروزی، به دنیا آمد."
+      },
+      {
+        "t": "O daha küçük bir çocukken ailesi Belh'ten ayrılıp uzun bir yolculuğa çıktı.",
+        "s": "هنوز کودک بود که خانواده‌اش بلخ را ترک کردند و راهی سفری طولانی شدند."
+      },
+      {
+        "t": "Aile, Nişabur ve Bağdat'tan geçerek sonunda Konya'ya yerleşti.",
+        "s": "خانواده با گذر از نیشابور و بغداد سرانجام در قونیه ساکن شد."
+      },
+      {
+        "t": "Babası ölünce genç Mevlânâ onun yerine ders vermeye başladı.",
+        "s": "پس از درگذشت پدرش، مولانای جوان به جای او شروع به درس دادن کرد."
+      },
+      {
+        "t": "1244'te Şems-i Tebrizî ile tanıştığında hayatı tamamen değişti.",
+        "s": "در سال ۱۲۴۴، وقتی با شمس تبریزی آشنا شد، زندگی‌اش به‌کلی دگرگون شد."
+      },
+      {
+        "t": "Şems'in ortadan kaybolması onu derinden sarstı ve şiirlerine ilham verdi.",
+        "s": "ناپدید شدن شمس او را عمیقاً تکان داد و الهام‌بخش شعرهایش شد."
+      },
+      {
+        "t": "En ünlü eseri Mesnevî, yaklaşık yirmi beş bin beyitten oluşur ve Farsça yazılmıştır.",
+        "s": "مشهورترین اثرش، مثنوی، از حدود بیست‌وپنج هزار بیت تشکیل شده و به فارسی سروده شده است."
+      },
+      {
+        "t": "Mevlânâ, insan sevgisini ve hoşgörüyü anlatarak her dilden okura ulaştı.",
+        "s": "مولانا با سخن گفتن از عشق به انسان و مدارا، به خوانندگانی از هر زبان رسید."
+      },
+      {
+        "t": "Eserleri bugün onlarca dile çevrilmiş olup dünyanın her yerinde okunmaktadır.",
+        "s": "آثارش امروز به ده‌ها زبان ترجمه شده و در سراسر جهان خوانده می‌شود."
+      },
+      {
+        "t": "Konya'daki türbesini her yıl milyonlarca kişi ziyaret ediyor.",
+        "s": "هر سال میلیون‌ها نفر از آرامگاهش در قونیه دیدن می‌کنند."
+      }
+    ],
+    "questions": [
+      {
+        "q": {
+          "t": "Mevlânâ nerede doğdu?",
+          "s": "مولانا کجا به دنیا آمد؟"
+        },
+        "options": [
+          "Konya'da",
+          "Belh'te",
+          "Tebriz'de"
+        ],
+        "answer": 1
+      },
+      {
+        "q": {
+          "t": "Mevlânâ'nın hayatı ne zaman tamamen değişti?",
+          "s": "زندگی مولانا کی به‌کلی دگرگون شد؟"
+        },
+        "options": [
+          "Şems-i Tebrizî ile tanıştığında",
+          "Bağdat'a gittiğinde",
+          "Mesnevî'yi bitirince"
+        ],
+        "answer": 0
+      },
+      {
+        "q": {
+          "t": "Mesnevî hangi dilde yazılmıştır?",
+          "s": "مثنوی به چه زبانی سروده شده است؟"
+        },
+        "options": [
+          "Türkçe",
+          "Arapça",
+          "Farsça"
+        ],
+        "answer": 2
+      },
+      {
+        "q": {
+          "t": "Babası ölünce Mevlânâ ne yaptı?",
+          "s": "پس از درگذشت پدرش، مولانا چه کرد؟"
+        },
+        "options": [
+          "Konya'dan ayrıldı",
+          "Onun yerine ders vermeye başladı",
+          "Uzun bir yolculuğa çıktı"
+        ],
+        "answer": 1
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "t": "Bu romanı okuyunca yazarın diğer kitaplarını da merak ettim.",
+      "s": "این رمان را که خواندم، کنجکاو کتاب‌های دیگر نویسنده هم شدم."
+    },
+    {
+      "t": "Sergiyi gezip müzenin kafesinde dinlendik.",
+      "s": "نمایشگاه را گشتیم و در کافه‌ی موزه استراحت کردیم."
+    },
+    {
+      "t": "Şair, şiirlerini Farsça yazarak ün kazandı.",
+      "s": "شاعر با سرودن شعرهایش به فارسی به شهرت رسید."
+    },
+    {
+      "t": "Oyuncular sahneye çıktığında herkes alkışladı.",
+      "s": "وقتی بازیگران روی صحنه آمدند، همه دست زدند."
+    },
+    {
+      "t": "Bu tabloya her baktığımda yeni bir ayrıntı görüyorum.",
+      "s": "هر بار که به این تابلو نگاه می‌کنم، جزئیات تازه‌ای می‌بینم."
+    },
+    {
+      "t": "İyi bir çeviri, okuru başka bir dünyaya götürür.",
+      "s": "یک ترجمه‌ی خوب خواننده را به دنیای دیگری می‌برد."
+    },
+    {
+      "t": "Film, kitabın sonunu değiştirdiği için eleştirildi.",
+      "s": "فیلم به این دلیل که پایان کتاب را تغییر داده بود، نقد شد."
+    },
+    {
+      "t": "Yazar, sanki kendi hayatını anlatırcasına yazıyor.",
+      "s": "نویسنده طوری می‌نویسد که انگار زندگی خودش را روایت می‌کند."
+    }
+  ]
+}

@@ -1,0 +1,700 @@
+{
+  "id": "u10",
+  "level": "B2",
+  "emoji": "🧿",
+  "title": {
+    "t": "Deyimler ve atasözleri",
+    "s": "اصطلاحات و ضرب‌المثل‌ها"
+  },
+  "goals": [
+    "معنا، معنای تحت‌اللفظی و کاربرد اصطلاحات پرکاربرد ترکی را بدانم و معادل فارسی‌شان را بشناسم.",
+    "چند ضرب‌المثل ترکی را در موقعیت مناسب به کار ببرم.",
+    "صفت‌های تأکیدی (bembeyaz، masmavi) و تکرارها (yavaş yavaş، eş dost) را بفهمم و به کار ببرم."
+  ],
+  "words": [
+    {
+      "id": "w01",
+      "t": "göz atmak",
+      "s": "نگاهی گذرا انداختن، سرسری خواندن. تحت‌اللفظی: «چشم انداختن». معادل فارسی: «نگاهی انداختن»، «سَرَکی کشیدن».",
+      "pr": "گُز آتماک",
+      "emoji": "👀",
+      "ex": {
+        "t": "Toplantıdan önce rapora kısaca göz attım.",
+        "s": "پیش از جلسه نگاه کوتاهی به گزارش انداختم."
+      }
+    },
+    {
+      "id": "w02",
+      "t": "ağzı kulaklarına varmak",
+      "s": "از خوشحالی سر از پا نشناختن، لبخند پهنی زدن. تحت‌اللفظی: «دهانش به گوش‌هایش رسیدن». معادل فارسی: «نیشش تا بناگوش باز شدن».",
+      "pr": "آازِ کولاکلارِنا وارماک",
+      "emoji": "😁",
+      "ex": {
+        "t": "Sınavı kazandığını duyunca ağzı kulaklarına vardı.",
+        "s": "وقتی شنید در آزمون قبول شده، نیشش تا بناگوش باز شد."
+      }
+    },
+    {
+      "id": "w03",
+      "t": "kulak vermek",
+      "s": "با دقت گوش دادن، به حرف یا نصیحت کسی توجه کردن. تحت‌اللفظی: «گوش دادن». معادل فارسی: «گوش سپردن»، «به حرف کسی گوش کردن».",
+      "pr": "کولاک وِرمِک",
+      "emoji": "👂",
+      "ex": {
+        "t": "Büyüklerin sözüne kulak vermek gerekir.",
+        "s": "باید به حرف بزرگ‌ترها گوش سپرد."
+      }
+    },
+    {
+      "id": "w04",
+      "t": "eli açık",
+      "s": "دست‌ودل‌باز، سخاوتمند. تحت‌اللفظی: «دستش باز». معادل فارسی: «دست‌ودل‌باز»، «دست‌ودلش باز است».",
+      "pr": "اِلی آچِک",
+      "emoji": "🤲",
+      "ex": {
+        "t": "Dedem çok eli açık biriydi; kimseyi eli boş göndermezdi.",
+        "s": "پدربزرگم آدم خیلی دست‌ودل‌بازی بود؛ هیچ‌کس را دست خالی برنمی‌گرداند."
+      }
+    },
+    {
+      "id": "w05",
+      "t": "burnu büyük",
+      "s": "مغرور، خودپسند (منفی). تحت‌اللفظی: «دماغش بزرگ». معادل فارسی: «دماغش باد دارد»، «از دماغ فیل افتاده».",
+      "pr": "بورنو بویوک",
+      "emoji": "👃",
+      "ex": {
+        "t": "Yeni müdür biraz burnu büyük ama işini iyi biliyor.",
+        "s": "مدیر جدید کمی مغرور است، اما کارش را خوب بلد است."
+      }
+    },
+    {
+      "id": "w06",
+      "t": "gözden düşmek",
+      "s": "اعتبار و محبوبیت خود را نزد کسی از دست دادن. تحت‌اللفظی و معادل فارسی، تقریباً کلمه‌به‌کلمه: «از چشم افتادن».",
+      "pr": "گُزدِن دوشمِک",
+      "emoji": "",
+      "ex": {
+        "t": "Yalan söylediği için patronunun gözünden düştü.",
+        "s": "چون دروغ گفت، از چشم رئیسش افتاد."
+      }
+    },
+    {
+      "id": "w07",
+      "t": "etekleri zil çalmak",
+      "s": "از خوشحالی و ذوق در پوست خود نگنجیدن. تحت‌اللفظی: «زنگوله‌های دامنش به صدا درآمدن» (مثل رقصیدن از شادی). معادل فارسی: «توی دلش قند آب شدن»، «از خوشحالی بال درآوردن».",
+      "pr": "اِتِکلِری زیل چالماک",
+      "emoji": "🔔",
+      "ex": {
+        "t": "Tatile çıkacağımızı duyunca çocukların etekleri zil çalıyor.",
+        "s": "بچه‌ها از وقتی شنیده‌اند قرار است به سفر برویم، توی دلشان قند آب می‌شود."
+      }
+    },
+    {
+      "id": "w08",
+      "t": "kafa patlatmak",
+      "s": "برای حل یک مسئله خیلی فکر کردن. تحت‌اللفظی: «سر ترکاندن». معادل فارسی: «مغز خود را خسته کردن»، «با مسئله‌ای کلنجار رفتن».",
+      "pr": "کافا پاتلاتماک",
+      "emoji": "🤯",
+      "ex": {
+        "t": "Bu matematik problemi üzerinde saatlerce kafa patlattık.",
+        "s": "ساعت‌ها با این مسئله‌ی ریاضی کلنجار رفتیم."
+      }
+    },
+    {
+      "id": "w09",
+      "t": "içi rahat etmek",
+      "s": "خیال کسی آسوده شدن. تحت‌اللفظی: «درونش آسوده شدن». معادل فارسی: «خیالش راحت شدن».",
+      "pr": "ایچی راهات اِتمِک",
+      "emoji": "😌",
+      "ex": {
+        "t": "Annem eve vardığımızı öğrenince içi rahat etti.",
+        "s": "مادرم وقتی فهمید به خانه رسیده‌ایم، خیالش راحت شد."
+      }
+    },
+    {
+      "id": "w10",
+      "t": "dili tutulmak",
+      "s": "از تعجب، ترس یا هیجان نتوانستن حرف زدن. تحت‌اللفظی و معادل فارسی، تقریباً کلمه‌به‌کلمه: «زبانش بند آمدن».",
+      "pr": "دیلی توتولماک",
+      "emoji": "😶",
+      "ex": {
+        "t": "Sürprizi görünce dilim tutuldu.",
+        "s": "سورپرایز را که دیدم، زبانم بند آمد."
+      }
+    },
+    {
+      "id": "w11",
+      "t": "gözü tutmak",
+      "s": "از چیزی یا کسی خوش آمدن، به دل نشستن. تحت‌اللفظی: «چشم کسی را گرفتن». معادل فارسی: «چشم کسی را گرفتن»، «به دل کسی نشستن».",
+      "pr": "گُزو توتماک",
+      "emoji": "",
+      "ex": {
+        "t": "Vitrindeki mavi elbise gözümü tuttu.",
+        "s": "لباس آبیِ پشت ویترین چشمم را گرفت."
+      }
+    },
+    {
+      "id": "w12",
+      "t": "kulağına küpe olmak",
+      "s": "درس عبرتی شدن که هرگز فراموش نشود. تحت‌اللفظی: «گوشواره‌ی گوشش شدن». معادل فارسی: «آویزه‌ی گوش شدن».",
+      "pr": "کولاانا کوپِه اُلماک",
+      "emoji": "",
+      "ex": {
+        "t": "Bu olay kulağıma küpe oldu; artık kimseye kolayca güvenmiyorum.",
+        "s": "این ماجرا آویزه‌ی گوشم شد؛ دیگر به کسی راحت اعتماد نمی‌کنم."
+      }
+    },
+    {
+      "id": "w13",
+      "t": "pireyi deve yapmak",
+      "s": "موضوع کوچکی را خیلی بزرگ جلوه دادن. تحت‌اللفظی: «کک را شتر کردن». معادل فارسی: «از کاه کوه ساختن».",
+      "pr": "پیرِیی دِوِه یاپماک",
+      "emoji": "🐪",
+      "ex": {
+        "t": "Bu kadar küçük bir sorun için pireyi deve yapma!",
+        "s": "برای مشکلی به این کوچکی از کاه کوه نساز!"
+      }
+    },
+    {
+      "id": "w14",
+      "t": "ağzında bakla ıslanmamak",
+      "s": "رازدار نبودن، هر چیزی را فوراً به دیگران گفتن. تحت‌اللفظی: «باقلا در دهانش خیس نمی‌شود» (یعنی آن‌قدر زود حرف را بیرون می‌دهد). معادل فارسی: «دهن‌لق بودن»، «حرف در دهانش بند نمی‌شود».",
+      "pr": "آازِندا باکلا اِسلانماماک",
+      "emoji": "",
+      "ex": {
+        "t": "Ona sır verme, ağzında bakla ıslanmaz.",
+        "s": "به او راز نگو، دهن‌لق است."
+      }
+    },
+    {
+      "id": "w15",
+      "t": "göz yummak",
+      "s": "عمداً نادیده گرفتن، چشم‌پوشی کردن. تحت‌اللفظی: «چشم بستن». معادل فارسی: «چشم‌پوشی کردن»، «چشم روی چیزی بستن».",
+      "pr": "گُز یومّاک",
+      "emoji": "🙈",
+      "ex": {
+        "t": "Öğretmen küçük hatalarına göz yumdu.",
+        "s": "معلم از اشتباه‌های کوچکش چشم‌پوشی کرد."
+      }
+    }
+  ],
+  "phrases": [
+    {
+      "id": "p01",
+      "t": "Damlaya damlaya göl olur.",
+      "s": "پس‌انداز یا تلاش کم‌کم، به نتیجه‌ی بزرگ می‌رسد. تحت‌اللفظی: «قطره‌قطره دریاچه می‌شود». معادل فارسی: «قطره‌قطره جمع گردد، وانگهی دریا شود»."
+    },
+    {
+      "id": "p02",
+      "t": "Ayağını yorganına göre uzat.",
+      "s": "به اندازه‌ی توان و درآمدت خرج کن. تحت‌اللفظی: «پایت را به اندازه‌ی لحافت دراز کن». معادل فارسی: «پایت را به اندازه‌ی گلیمت دراز کن»."
+    },
+    {
+      "id": "p03",
+      "t": "Bir elin nesi var, iki elin sesi var.",
+      "s": "کار با همکاری پیش می‌رود. تحت‌اللفظی: «یک دست چه دارد؟ دو دست صدا دارد». معادل فارسی: «یک دست صدا ندارد»."
+    },
+    {
+      "id": "p04",
+      "t": "Sabreden derviş muradına ermiş.",
+      "s": "کسی که صبر کند، به خواسته‌اش می‌رسد. تحت‌اللفظی: «درویشی که صبر کرد، به مرادش رسید». معادل فارسی: «گر صبر کنی، ز غوره حلوا سازی»."
+    },
+    {
+      "id": "p05",
+      "t": "Ak akçe kara gün içindir.",
+      "s": "باید برای روزهای سخت پول کنار گذاشت. تحت‌اللفظی و معادل فارسی، تقریباً یکسان: «پول سفید برای روز سیاه است»."
+    },
+    {
+      "id": "p06",
+      "t": "Üzüm üzüme baka baka kararır.",
+      "s": "آدم از همنشینش رنگ می‌گیرد. تحت‌اللفظی: «انگور با نگاه کردن به انگور سیاه می‌شود». معادل فارسی: «خربزه از خربزه رنگ می‌گیرد»؛ «پسر نوح با بدان بنشست، خاندان نبوتش گم شد»."
+    },
+    {
+      "id": "p07",
+      "t": "Dost kara günde belli olur.",
+      "s": "دوست واقعی در روز سختی شناخته می‌شود. تحت‌اللفظی: «دوست در روز سیاه معلوم می‌شود». معادل فارسی: «دوست آن باشد که گیرد دست دوست / در پریشان‌حالی و درماندگی»."
+    },
+    {
+      "id": "p08",
+      "t": "Gülü seven dikenine katlanır.",
+      "s": "هر چیز خوبی سختی‌هایی هم دارد که باید تحمل کرد. تحت‌اللفظی: «کسی که گل را دوست دارد، خارش را تحمل می‌کند». معادل فارسی: «هر که طاووس خواهد، جور هندوستان کشد»."
+    }
+  ],
+  "dialogue": {
+    "title": {
+      "t": "Bir müjde",
+      "s": "یک خبر خوش"
+    },
+    "speakers": {
+      "A": {
+        "name": "Ayşe",
+        "voice": "f"
+      },
+      "B": {
+        "name": "Ali",
+        "voice": "m"
+      }
+    },
+    "lines": [
+      {
+        "sp": "A",
+        "t": "Ali, ağzın kulaklarına varmış! Ne oldu?",
+        "s": "علی، نیشت تا بناگوش باز است! چه شده؟"
+      },
+      {
+        "sp": "B",
+        "t": "Sorma! Aylardır kafa patlattığım projeyi sonunda bitirdim.",
+        "s": "نپرس! پروژه‌ای را که ماه‌ها با آن کلنجار می‌رفتم، بالاخره تمام کردم."
+      },
+      {
+        "sp": "A",
+        "t": "Tebrikler! Sabreden derviş muradına ermiş, değil mi?",
+        "s": "تبریک! به قول معروف: گر صبر کنی، ز غوره حلوا سازی."
+      },
+      {
+        "sp": "B",
+        "t": "Aynen öyle. Patron da çok memnun; bana ikramiye bile verdi.",
+        "s": "دقیقاً. رئیس هم خیلی راضی است؛ حتی به من پاداش هم داد."
+      },
+      {
+        "sp": "A",
+        "t": "Harika! Peki bu parayla ne yapacaksın? Sakın yine hepsini harcama.",
+        "s": "عالی! خب، با این پول چه می‌کنی؟ مبادا باز همه‌اش را خرج کنی."
+      },
+      {
+        "sp": "B",
+        "t": "Bir araba gözümü tuttu ama biraz pahalı.",
+        "s": "یک ماشین چشمم را گرفته، اما کمی گران است."
+      },
+      {
+        "sp": "A",
+        "t": "Ayağını yorganına göre uzat derler. Ak akçe kara gün içindir.",
+        "s": "می‌گویند پایت را به اندازه‌ی گلیمت دراز کن. پول سفید برای روز سیاه است."
+      },
+      {
+        "sp": "B",
+        "t": "Haklısın, sözlerini kulağıma küpe ederim. Parayı yavaş yavaş biriktireceğim.",
+        "s": "حق با توست، حرف‌هایت را آویزه‌ی گوشم می‌کنم. پول را کم‌کم پس‌انداز می‌کنم."
+      },
+      {
+        "sp": "A",
+        "t": "Aferin! Damlaya damlaya göl olur.",
+        "s": "آفرین! قطره‌قطره جمع گردد، وانگهی دریا شود."
+      },
+      {
+        "sp": "B",
+        "t": "Ama bu akşam eş dostu yemeğe çağırıp kutlama yapacağım. Sen de gel!",
+        "s": "ولی امشب دوست و آشنا را به شام دعوت می‌کنم و جشن می‌گیرم. تو هم بیا!"
+      },
+      {
+        "sp": "A",
+        "t": "Seve seve gelirim. Tatlıyı da ben getiririm.",
+        "s": "با کمال میل می‌آیم. دسر را هم من می‌آورم."
+      }
+    ]
+  },
+  "grammar": [
+    {
+      "id": "g01",
+      "title": {
+        "t": "Sık kullanılan deyimler",
+        "s": "اصطلاحات پرکاربرد"
+      },
+      "explain": "**deyim** (اصطلاح) گروهی از کلمه‌هاست که معنایش از کنار هم گذاشتن معنای تک‌تک کلمه‌ها به دست نمی‌آید؛ مثل «از کاه کوه ساختن» در فارسی. **atasözü** (ضرب‌المثل) اما یک جمله‌ی کامل و حکمت‌آمیز است: Damlaya damlaya göl olur.\nچند نکته‌ی دستوری برای به کار بردن اصطلاح‌ها:\n۱. فعل اصطلاح صرف می‌شود، ولی بقیه‌ی اجزا ثابت می‌مانند: göz at**tım**، göz at**ar mısın?**، göz at**mak** istiyorum.\n۲. بسیاری از اصطلاح‌ها **پسوند ملکی** دارند که باید با فاعل هماهنگ شود: ağz**ım** kulaklar**ıma** vardı (من)، ağz**ı** kulaklar**ına** vardı (او)؛ dil**im** tutuldu، dil**in** tutuldu.\n۳. حالتِ مفعول هر اصطلاح ثابت است و باید همراهش حفظ شود: bir şey**e** göz atmak، birinin söz**üne** kulak vermek، bir şey**e** göz yummak، birinin göz**ünden** düşmek.\nبسیاری از اصطلاح‌های ترکی، مثل فارسی، با اعضای بدن ساخته می‌شوند (göz، kulak، el، dil، ağız، burun) و برخی تقریباً کلمه‌به‌کلمه معادل فارسی دارند: **gözden düşmek** = از چشم افتادن، **dili tutulmak** = زبان بند آمدن.",
+      "table": [
+        [
+          "ben",
+          "ağzım kulaklarıma vardı",
+          "dilim tutuldu"
+        ],
+        [
+          "sen",
+          "ağzın kulaklarına vardı",
+          "dilin tutuldu"
+        ],
+        [
+          "o",
+          "ağzı kulaklarına vardı",
+          "dili tutuldu"
+        ],
+        [
+          "biz",
+          "ağzımız kulaklarımıza vardı",
+          "dilimiz tutuldu"
+        ],
+        [
+          "siz",
+          "ağzınız kulaklarınıza vardı",
+          "diliniz tutuldu"
+        ],
+        [
+          "onlar",
+          "ağızları kulaklarına vardı",
+          "dilleri tutuldu"
+        ]
+      ],
+      "examples": [
+        {
+          "t": "Sabah gazeteye şöyle bir göz attım.",
+          "s": "صبح نگاهی سرسری به روزنامه انداختم."
+        },
+        {
+          "t": "Hediyeyi görünce ağzı kulaklarına vardı.",
+          "s": "هدیه را که دید، نیشش تا بناگوش باز شد."
+        },
+        {
+          "t": "Babamın öğütlerine kulak vermedim, şimdi pişmanım.",
+          "s": "به نصیحت‌های پدرم گوش نکردم، حالا پشیمانم."
+        },
+        {
+          "t": "Haberi duyunca hepimizin dili tutuldu.",
+          "s": "خبر را که شنیدیم، زبان همه‌مان بند آمد."
+        },
+        {
+          "t": "Bu kadar küçük bir şey için pireyi deve yapıyorsun.",
+          "s": "برای چیزی به این کوچکی از کاه کوه می‌سازی."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "choice",
+          "t": "Toplantıdan önce raporlara kısaca bir ___ attım.",
+          "options": [
+            "kulak",
+            "göz",
+            "el"
+          ],
+          "answer": 1,
+          "s": "پیش از جلسه نگاه کوتاهی به گزارش‌ها انداختم."
+        },
+        {
+          "type": "choice",
+          "t": "Maaşına zam yapıldığını duyunca ___ kulaklarına vardı.",
+          "options": [
+            "ağzı",
+            "gözü",
+            "dili"
+          ],
+          "answer": 0,
+          "s": "وقتی شنید حقوقش زیاد شده، نیشش تا بناگوش باز شد."
+        },
+        {
+          "type": "choice",
+          "t": "Küçük bir tartışmayı büyütme, ___ deve yapma!",
+          "options": [
+            "fili",
+            "kediyi",
+            "pireyi"
+          ],
+          "answer": 2,
+          "s": "یک بحث کوچک را بزرگ نکن، از کاه کوه نساز!"
+        },
+        {
+          "type": "choice",
+          "t": "Ona sır verme; ağzında ___ ıslanmaz.",
+          "options": [
+            "bakla",
+            "ekmek",
+            "su"
+          ],
+          "answer": 0,
+          "s": "به او راز نگو؛ دهن‌لق است."
+        },
+        {
+          "type": "type",
+          "t": "Sürprizi görünce ___ tutuldu, hiçbir şey söyleyemedim.",
+          "answer": [
+            "dilim"
+          ],
+          "s": "سورپرایز را که دیدم، زبانم بند آمد و نتوانستم چیزی بگویم."
+        },
+        {
+          "type": "type",
+          "t": "Yalan söyleyince arkadaşlarının ___ düştü.",
+          "answer": [
+            "gözünden"
+          ],
+          "s": "وقتی دروغ گفت، از چشم دوستانش افتاد."
+        },
+        {
+          "type": "type",
+          "t": "Öğretmen çocuğun küçük hatasına göz ___.",
+          "answer": [
+            "yumdu"
+          ],
+          "s": "معلم از اشتباه کوچک بچه چشم‌پوشی کرد."
+        },
+        {
+          "type": "order",
+          "t": "Büyüklerin sözüne kulak vermek gerekir.",
+          "s": "باید به حرف بزرگ‌ترها گوش سپرد."
+        }
+      ]
+    },
+    {
+      "id": "g02",
+      "title": {
+        "t": "Pekiştirme ve ikilemeler",
+        "s": "صفت‌های تأکیدی (bembeyaz) و تکرارها (yavaş yavaş)"
+      },
+      "explain": "**pekiştirme** (تأکید): برای شدت دادن به یک صفت، **هجای اول** آن را با یکی از حرف‌های **m، p، r، s** می‌بندیم و پیش از صفت می‌آوریم: **be**yaz → **bem**beyaz (سفیدِ سفید)، **ma**vi → **mas**mavi، **ka**ra → **kap**kara، **te**miz → **ter**temiz، **ye**ni → **yep**yeni، **bo**ş → **bom**boş. اگر صفت با واکه شروع شود، فقط همان واکه + p می‌آید: **a**çık → **ap**açık، **u**zun → **up**uzun. گاهی یک واکه‌ی اضافه هم می‌آید: **sapa**sağlam.\nکدام حرف؟ قاعده‌ی کاملاً دقیقی ندارد؛ این شکل‌ها را باید مثل واژه‌ی تازه حفظ کرد. معنایش مثل «سفیدِ سفید» یا «کاملاً سفید» در فارسی است.\n**ikileme** (تکرار): دو کلمه‌ی یکسان، هم‌معنا یا نزدیک کنار هم می‌آیند و معنا را قوی‌تر یا عام‌تر می‌کنند؛ درست مثل «کم‌کم»، «دوست و آشنا» یا «تک‌تک» در فارسی: **yavaş yavaş** (آرام‌آرام، کم‌کم)، **seve seve** (با کمال میل)، **güle güle** (با خنده؛ و نیز «به سلامت»)، **eş dost** (دوست و آشنا)، **çoluk çocuk** (زن و بچه، خانواده)، **ufak tefek** (خرده‌ریز، ریزه‌میزه). با **m** هم ساخته می‌شود، دقیقاً مثل فارسی: **kitap mitap** = «کتاب‌متاب».",
+      "table": [
+        [
+          "beyaz",
+          "bembeyaz"
+        ],
+        [
+          "mavi",
+          "masmavi"
+        ],
+        [
+          "kara",
+          "kapkara"
+        ],
+        [
+          "temiz",
+          "tertemiz"
+        ],
+        [
+          "yeni",
+          "yepyeni"
+        ],
+        [
+          "boş",
+          "bomboş"
+        ],
+        [
+          "açık",
+          "apaçık"
+        ]
+      ],
+      "examples": [
+        {
+          "t": "Kar yağınca bütün şehir bembeyaz oldu.",
+          "s": "برف که بارید، تمام شهر سفیدِ سفید شد."
+        },
+        {
+          "t": "Bayramdan önce ev tertemiz oldu.",
+          "s": "پیش از عید، خانه تمیزِ تمیز شد."
+        },
+        {
+          "t": "Hasta yavaş yavaş iyileşiyor.",
+          "s": "بیمار کم‌کم بهتر می‌شود."
+        },
+        {
+          "t": "Bayramda bütün eş dost bize geldi.",
+          "s": "عید همه‌ی دوست و آشنا به خانه‌ی ما آمدند."
+        },
+        {
+          "t": "Gökyüzü masmavi, deniz pırıl pırıl.",
+          "s": "آسمان آبیِ آبی است و دریا برق می‌زند."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "choice",
+          "t": "Kar yağdı, her yer ___ oldu.",
+          "options": [
+            "besbeyaz",
+            "bembeyaz",
+            "bepbeyaz"
+          ],
+          "answer": 1,
+          "s": "برف بارید و همه‌جا سفیدِ سفید شد."
+        },
+        {
+          "type": "choice",
+          "t": "Deniz bugün ___.",
+          "options": [
+            "masmavi",
+            "mammavi",
+            "mapmavi"
+          ],
+          "answer": 0,
+          "s": "دریا امروز آبیِ آبی است."
+        },
+        {
+          "type": "choice",
+          "t": "Odanı topladın mı? Evet, oda ___ oldu.",
+          "options": [
+            "temtemiz",
+            "tetemiz",
+            "tertemiz"
+          ],
+          "answer": 2,
+          "s": "اتاقت را جمع کردی؟ بله، اتاق تمیزِ تمیز شد."
+        },
+        {
+          "type": "type",
+          "t": "Davetinize ___ gelirim.",
+          "answer": [
+            "seve seve"
+          ],
+          "s": "با کمال میل به دعوتتان می‌آیم."
+        },
+        {
+          "type": "type",
+          "t": "Hasta ___ iyileşiyor.",
+          "answer": [
+            "yavaş yavaş",
+            "azar azar",
+            "gitgide",
+            "günden güne",
+            "gittikçe"
+          ],
+          "s": "بیمار کم‌کم بهتر می‌شود."
+        },
+        {
+          "type": "type",
+          "t": "Bu araba ___; daha hiç kullanılmamış.",
+          "answer": [
+            "yepyeni"
+          ],
+          "s": "این ماشین نوِ نو است؛ هنوز اصلاً استفاده نشده."
+        },
+        {
+          "type": "order",
+          "t": "Bayramda bütün eş dost bize geldi.",
+          "s": "عید همه‌ی دوست و آشنا به خانه‌ی ما آمدند."
+        },
+        {
+          "type": "order",
+          "t": "Kar yağınca şehir bembeyaz oldu.",
+          "s": "برف که بارید، شهر سفیدِ سفید شد."
+        }
+      ]
+    }
+  ],
+  "reading": {
+    "title": {
+      "t": "Atasözleri: ortak bir hazine",
+      "s": "ضرب‌المثل‌ها: گنجینه‌ای مشترک"
+    },
+    "text": [
+      {
+        "t": "Türkçe ve Farsça yüzyıllardır yan yana yaşamış iki dildir.",
+        "s": "ترکی و فارسی دو زبانی‌اند که قرن‌ها در کنار هم زیسته‌اند."
+      },
+      {
+        "t": "Bu yüzden iki dilde birbirine çok benzeyen pek çok deyim ve atasözü vardır.",
+        "s": "به همین دلیل، در این دو زبان اصطلاح‌ها و ضرب‌المثل‌های بسیاری هست که خیلی به هم شبیه‌اند."
+      },
+      {
+        "t": "Örneğin “Ayağını yorganına göre uzat” atasözünün Farsçasında “yorgan” yerine “kilim” kelimesi geçer.",
+        "s": "مثلاً در شکل فارسی ضرب‌المثل «پایت را به اندازه‌ی لحافت دراز کن»، به جای «لحاف» کلمه‌ی «گلیم» می‌آید."
+      },
+      {
+        "t": "“Gözden düşmek” ve “dili tutulmak” gibi deyimler ise neredeyse kelimesi kelimesine aynıdır.",
+        "s": "و اصطلاح‌هایی مثل «از چشم افتادن» و «زبان بند آمدن» تقریباً کلمه‌به‌کلمه یکی هستند."
+      },
+      {
+        "t": "Atasözleri, bir toplumun yüzyıllar boyunca biriktirdiği deneyimleri kısa ve akılda kalıcı bir biçimde aktarır.",
+        "s": "ضرب‌المثل‌ها تجربه‌هایی را که یک جامعه در طول قرن‌ها اندوخته است، کوتاه و ماندگار منتقل می‌کنند."
+      },
+      {
+        "t": "Büyükannelerimiz öğüt verirken uzun uzun konuşmaz, tek bir atasözüyle her şeyi anlatırlardı.",
+        "s": "مادربزرگ‌هایمان وقتی نصیحت می‌کردند، زیاد حرف نمی‌زدند و با یک ضرب‌المثل همه‌چیز را می‌گفتند."
+      },
+      {
+        "t": "Ancak deyimleri öğrenmek kolay değildir, çünkü anlamları kelimelerden tahmin edilemez.",
+        "s": "اما یاد گرفتن اصطلاح‌ها آسان نیست، چون معنایشان را نمی‌توان از روی کلمه‌ها حدس زد."
+      },
+      {
+        "t": "“Etekleri zil çalmak” deyimini ilk duyduğumda ben de bir türlü anlam verememiştim.",
+        "s": "اولین بار که اصطلاح «زنگوله‌های دامنش به صدا درآمدن» را شنیدم، من هم به هیچ وجه نتوانسته بودم معنایش را بفهمم."
+      },
+      {
+        "t": "Uzmanlar, deyimleri tek tek ezberlemek yerine onları gerçek metinlerde ve konuşmalarda görmeyi öneriyor.",
+        "s": "کارشناسان پیشنهاد می‌کنند به جای حفظ کردن تک‌تک اصطلاح‌ها، آن‌ها را در متن‌ها و گفت‌وگوهای واقعی ببینیم."
+      },
+      {
+        "t": "Unutmayın: Damlaya damlaya göl olur; her gün bir deyim öğrenirseniz bir yılda yüzlerce deyim bilirsiniz.",
+        "s": "فراموش نکنید: قطره‌قطره جمع گردد، وانگهی دریا شود؛ اگر هر روز یک اصطلاح یاد بگیرید، در یک سال صدها اصطلاح بلد خواهید بود."
+      }
+    ],
+    "questions": [
+      {
+        "q": {
+          "t": "Türkçe ve Farsçada neden birbirine benzeyen birçok atasözü var?",
+          "s": "چرا در ترکی و فارسی ضرب‌المثل‌های شبیه به هم زیادی هست؟"
+        },
+        "options": [
+          "İki dil yüzyıllardır yan yana yaşadığı için",
+          "İki dilin alfabesi aynı olduğu için",
+          "Atasözleri yeni olduğu için"
+        ],
+        "answer": 0
+      },
+      {
+        "q": {
+          "t": "Farsçadaki atasözünde “yorgan” yerine hangi kelime geçer?",
+          "s": "در ضرب‌المثل فارسی به جای «لحاف» کدام کلمه می‌آید؟"
+        },
+        "options": [
+          "Halı",
+          "Kilim",
+          "Yatak"
+        ],
+        "answer": 1
+      },
+      {
+        "q": {
+          "t": "Deyimleri öğrenmek neden zordur?",
+          "s": "چرا یاد گرفتن اصطلاح‌ها دشوار است؟"
+        },
+        "options": [
+          "Çok uzun oldukları için",
+          "Anlamları kelimelerden tahmin edilemediği için",
+          "Sadece eski metinlerde geçtikleri için"
+        ],
+        "answer": 1
+      },
+      {
+        "q": {
+          "t": "Uzmanlar ne öneriyor?",
+          "s": "کارشناسان چه پیشنهادی می‌کنند؟"
+        },
+        "options": [
+          "Deyimleri tek tek ezberlemeyi",
+          "Deyimleri hiç kullanmamayı",
+          "Deyimleri gerçek metinlerde ve konuşmalarda görmeyi"
+        ],
+        "answer": 2
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "t": "Bu haberi duyunca ağzım kulaklarıma vardı.",
+      "s": "این خبر را که شنیدم، نیشم تا بناگوش باز شد."
+    },
+    {
+      "t": "Raporuma bir göz atar mısın?",
+      "s": "ممکن است نگاهی به گزارشم بیندازی؟"
+    },
+    {
+      "t": "Ayağını yorganına göre uzatmayı öğrenmelisin.",
+      "s": "باید یاد بگیری پایت را به اندازه‌ی گلیمت دراز کنی."
+    },
+    {
+      "t": "Bir elin nesi var, iki elin sesi var.",
+      "s": "یک دست صدا ندارد."
+    },
+    {
+      "t": "Çocuklar bahçede güle oynaya vakit geçirdi.",
+      "s": "بچه‌ها در حیاط با خنده و بازی وقت گذراندند."
+    },
+    {
+      "t": "Yaz gelince deniz masmavi olur.",
+      "s": "تابستان که می‌آید، دریا آبیِ آبی می‌شود."
+    },
+    {
+      "t": "Dost kara günde belli olur.",
+      "s": "دوست در روز سختی شناخته می‌شود."
+    },
+    {
+      "t": "Bayramı eş dostla birlikte kutladık.",
+      "s": "عید را با دوست و آشنا جشن گرفتیم."
+    }
+  ]
+}

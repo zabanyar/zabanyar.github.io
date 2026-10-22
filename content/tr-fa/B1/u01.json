@@ -1,0 +1,698 @@
+{
+  "id": "u01",
+  "level": "B1",
+  "emoji": "🕰️",
+  "title": {
+    "t": "Geçmiş anılar",
+    "s": "خاطرات گذشته"
+  },
+  "goals": [
+    "درباره‌ی کودکی، خاطرات و اتفاق‌های گذشته‌ام صحبت کنم.",
+    "با گذشته‌ی ساده‌ی -dı جمله‌ی مثبت، منفی و سؤالی بسازم.",
+    "با -mış خبری را که شنیده‌ام یا چیزی را که تازه فهمیده‌ام بیان کنم."
+  ],
+  "words": [
+    {
+      "id": "w01",
+      "t": "anı",
+      "pl": "anılar",
+      "s": "خاطره",
+      "pr": "آنِ",
+      "emoji": "💭",
+      "ex": {
+        "t": "Bu fotoğraf bana güzel bir anıyı hatırlatıyor.",
+        "s": "این عکس یک خاطره‌ی خوب را به یادم می‌آورد."
+      }
+    },
+    {
+      "id": "w02",
+      "t": "çocukluk",
+      "s": "کودکی",
+      "pr": "چُجوکلوک",
+      "emoji": "🧒",
+      "ex": {
+        "t": "Çocukluğum Tebriz'de geçti.",
+        "s": "کودکی‌ام در تبریز گذشت."
+      }
+    },
+    {
+      "id": "w03",
+      "t": "hatırlamak",
+      "s": "به یاد آوردن",
+      "pr": "هاتِرلاماک",
+      "emoji": "",
+      "ex": {
+        "t": "O günü çok iyi hatırlıyorum.",
+        "s": "آن روز را خیلی خوب به یاد دارم."
+      }
+    },
+    {
+      "id": "w04",
+      "t": "unutmak",
+      "s": "فراموش کردن",
+      "pr": "اونوتماک",
+      "emoji": "",
+      "ex": {
+        "t": "Anahtarlarımı evde unuttum.",
+        "s": "کلیدهایم را در خانه جا گذاشتم."
+      }
+    },
+    {
+      "id": "w05",
+      "t": "mahalle",
+      "pl": "mahalleler",
+      "s": "محله",
+      "pr": "ماهالِّه",
+      "emoji": "🏘️",
+      "ex": {
+        "t": "Eski mahallemiz çok sessizdi.",
+        "s": "محله‌ی قدیمی‌مان خیلی آرام بود."
+      }
+    },
+    {
+      "id": "w06",
+      "t": "komşu",
+      "pl": "komşular",
+      "s": "همسایه",
+      "pr": "کُمشو",
+      "emoji": "",
+      "ex": {
+        "t": "Dün komşumuz bize çorba getirdi.",
+        "s": "دیروز همسایه‌مان برایمان سوپ آورد."
+      }
+    },
+    {
+      "id": "w07",
+      "t": "fotoğraf",
+      "pl": "fotoğraflar",
+      "s": "عکس",
+      "pr": "فُتُراف",
+      "emoji": "📷",
+      "ex": {
+        "t": "Tatilde çok fotoğraf çektik.",
+        "s": "در تعطیلات خیلی عکس گرفتیم."
+      }
+    },
+    {
+      "id": "w08",
+      "t": "doğum günü",
+      "s": "تولد (روز تولد)",
+      "pr": "دُئوم گونو",
+      "emoji": "🎂",
+      "ex": {
+        "t": "Geçen hafta doğum günümü kutladık.",
+        "s": "هفته‌ی گذشته تولدم را جشن گرفتیم."
+      }
+    },
+    {
+      "id": "w09",
+      "t": "taşınmak",
+      "s": "نقل مکان کردن، اسباب‌کشی کردن",
+      "pr": "تاشِنماک",
+      "emoji": "📦",
+      "ex": {
+        "t": "2015'te İstanbul'a taşındık.",
+        "s": "سال ۲۰۱۵ به استانبول نقل مکان کردیم."
+      }
+    },
+    {
+      "id": "w10",
+      "t": "büyümek",
+      "s": "بزرگ شدن",
+      "pr": "بویومِک",
+      "emoji": "",
+      "ex": {
+        "t": "Ben küçük bir köyde büyüdüm.",
+        "s": "من در یک روستای کوچک بزرگ شدم."
+      }
+    },
+    {
+      "id": "w11",
+      "t": "köy",
+      "pl": "köyler",
+      "s": "روستا",
+      "pr": "کُی",
+      "emoji": "🏡",
+      "ex": {
+        "t": "Dedemin evi bir köyde.",
+        "s": "خانه‌ی پدربزرگم در یک روستاست."
+      }
+    },
+    {
+      "id": "w12",
+      "t": "eskiden",
+      "s": "قبلاً، در گذشته",
+      "pr": "اِسکیدِن",
+      "emoji": "",
+      "ex": {
+        "t": "Eskiden burada bir park vardı.",
+        "s": "قبلاً این‌جا یک پارک بود."
+      }
+    },
+    {
+      "id": "w13",
+      "t": "önce",
+      "s": "پیش، قبل",
+      "pr": "اُنجِه",
+      "emoji": "",
+      "ex": {
+        "t": "Üç yıl önce Türkiye'ye geldik.",
+        "s": "سه سال پیش به ترکیه آمدیم."
+      }
+    },
+    {
+      "id": "w14",
+      "t": "geçen yıl",
+      "s": "سال گذشته، پارسال",
+      "pr": "گِچِن یِل",
+      "emoji": "📅",
+      "ex": {
+        "t": "Geçen yıl Türkçe öğrenmeye başladım.",
+        "s": "پارسال یادگیری ترکی را شروع کردم."
+      }
+    },
+    {
+      "id": "w15",
+      "t": "şaşırmak",
+      "s": "تعجب کردن",
+      "pr": "شاشِرماک",
+      "emoji": "😮",
+      "ex": {
+        "t": "Bu habere çok şaşırdım.",
+        "s": "از این خبر خیلی تعجب کردم."
+      }
+    }
+  ],
+  "phrases": [
+    {
+      "id": "p01",
+      "t": "Hatırlıyor musun?",
+      "s": "یادت می‌آید؟"
+    },
+    {
+      "id": "p02",
+      "t": "Ne güzel günlerdi!",
+      "s": "چه روزهای خوبی بود!"
+    },
+    {
+      "id": "p03",
+      "t": "Çok uzun zaman önceydi.",
+      "s": "خیلی وقت پیش بود."
+    },
+    {
+      "id": "p04",
+      "t": "Şimdi aklıma geldi.",
+      "s": "حالا یادم آمد."
+    },
+    {
+      "id": "p05",
+      "t": "O günü hiç unutmadım.",
+      "s": "آن روز را هیچ‌وقت فراموش نکردم."
+    },
+    {
+      "id": "p06",
+      "t": "Duydun mu?",
+      "s": "شنیدی؟"
+    },
+    {
+      "id": "p07",
+      "t": "Haberin var mı?",
+      "s": "خبر داری؟"
+    },
+    {
+      "id": "p08",
+      "t": "Vay, inanamıyorum!",
+      "s": "وای، باورم نمی‌شود!"
+    }
+  ],
+  "dialogue": {
+    "title": {
+      "t": "Eski fotoğraflar",
+      "s": "عکس‌های قدیمی"
+    },
+    "speakers": {
+      "A": {
+        "name": "Maryam",
+        "voice": "f"
+      },
+      "B": {
+        "name": "Reza",
+        "voice": "m"
+      }
+    },
+    "lines": [
+      {
+        "sp": "A",
+        "t": "Reza, bak! Dolapta eski fotoğraflarımızı buldum.",
+        "s": "رضا، ببین! توی کمد عکس‌های قدیمی‌مان را پیدا کردم."
+      },
+      {
+        "sp": "B",
+        "t": "Aa, ne güzel! Bu fotoğrafı nerede çektik?",
+        "s": "اِ، چه قشنگ! این عکس را کجا گرفتیم؟"
+      },
+      {
+        "sp": "A",
+        "t": "Hatırlamıyor musun? Tebriz'de, dedemin bahçesinde. Sen beş yaşındaydın.",
+        "s": "یادت نمی‌آید؟ در تبریز، توی باغ پدربزرگ. تو پنج سالت بود."
+      },
+      {
+        "sp": "B",
+        "t": "Evet, şimdi hatırladım! O yaz bütün gün bahçede oynadık.",
+        "s": "آره، حالا یادم آمد! آن تابستان تمام روز توی باغ بازی کردیم."
+      },
+      {
+        "sp": "A",
+        "t": "Peki, bu çocuğu tanıdın mı?",
+        "s": "خب، این بچه را شناختی؟"
+      },
+      {
+        "sp": "B",
+        "t": "Tabii, komşumuzun oğlu Amir. Çok iyi arkadaştık.",
+        "s": "معلوم است، امیر، پسر همسایه‌مان. با هم خیلی دوست بودیم."
+      },
+      {
+        "sp": "A",
+        "t": "Biliyor musun? Annem dün anlattı: Amir mühendis olmuş ve Almanya'ya taşınmış.",
+        "s": "می‌دانی؟ مامان دیروز تعریف کرد: ظاهراً امیر مهندس شده و به آلمان رفته."
+      },
+      {
+        "sp": "B",
+        "t": "Gerçekten mi? Hiç duymadım. Çok şaşırdım!",
+        "s": "واقعاً؟ اصلاً نشنیده بودم. خیلی تعجب کردم!"
+      },
+      {
+        "sp": "A",
+        "t": "Evlenmiş de. Geçen ay bir oğlu olmuş.",
+        "s": "ازدواج هم کرده. گویا ماه گذشته صاحب یک پسر شده."
+      },
+      {
+        "sp": "B",
+        "t": "Vay, ne kadar zaman geçmiş! Ona hemen bir mesaj yazalım.",
+        "s": "وای، چقدر زمان گذشته! بیا همین الان برایش یک پیام بنویسیم."
+      }
+    ]
+  },
+  "grammar": [
+    {
+      "id": "g01",
+      "title": {
+        "t": "Dün ne yaptın? -dı / -madı / -dı mı?",
+        "s": "گذشته‌ی ساده با -dı: مثبت، منفی، سؤالی"
+      },
+      "explain": "گذشته‌ی **-dı** برای کاری است که در گذشته انجام شده و گوینده **خودش شاهدش بوده** یا از آن مطمئن است؛ مثل گذشته‌ی ساده در فارسی (رفتم، دیدم).\nساخت: ریشه‌ی فعل + **-dı / -di / -du / -dü** (هماهنگی چهارتایی) + شناسه: **-m، -n، —، -k، -nız، -lar**. بعد از حروف بی‌واک **ç، f، h، k، p، s، ş، t** حرف d به **t** تبدیل می‌شود: git → **gittim**، konuş → **konuştuk**، yap → **yaptın**.\nمنفی: ریشه + **-ma / -me** + -dı: gel**me**dim (نیامدم)، yap**ma**dık (نکردیم). دقت کنید: git**me**dim، چون بعد از -me دیگر d به t تبدیل نمی‌شود.\nسؤالی: **mı / mi / mu / mü** بعد از شناسه و جدا نوشته می‌شود: Geldin **mi**? Gittiniz **mi**? (برعکسِ زمان حال که mı قبل از شناسه می‌آید: geliyor **mu**sun?)\nاسم و صفت هم گذشته دارند: öğrenci**ydim** (دانشجو بودم)، evde**ydik** (خانه بودیم)، mutlu**ydu** (خوشحال بود).",
+      "table": [
+        [
+          "ben",
+          "gittim",
+          "gitmedim"
+        ],
+        [
+          "sen",
+          "gittin",
+          "gitmedin"
+        ],
+        [
+          "o",
+          "gitti",
+          "gitmedi"
+        ],
+        [
+          "biz",
+          "gittik",
+          "gitmedik"
+        ],
+        [
+          "siz",
+          "gittiniz",
+          "gitmediniz"
+        ],
+        [
+          "onlar",
+          "gittiler",
+          "gitmediler"
+        ]
+      ],
+      "examples": [
+        {
+          "t": "Dün akşam annemi aradım.",
+          "s": "دیشب به مادرم زنگ زدم."
+        },
+        {
+          "t": "Geçen hafta sinemaya gitmedik.",
+          "s": "هفته‌ی گذشته سینما نرفتیم."
+        },
+        {
+          "t": "Kahvaltı yaptın mı?",
+          "s": "صبحانه خوردی؟"
+        },
+        {
+          "t": "Eskiden çok utangaçtım.",
+          "s": "قبلاً خیلی خجالتی بودم."
+        },
+        {
+          "t": "Tatilde neler yaptınız?",
+          "s": "در تعطیلات چه کارهایی کردید؟"
+        }
+      ],
+      "exercises": [
+        {
+          "type": "choice",
+          "t": "Dün gece erken ___.",
+          "options": [
+            "yattım",
+            "yatdım",
+            "yatım"
+          ],
+          "answer": 0,
+          "s": "دیشب زود خوابیدم."
+        },
+        {
+          "type": "choice",
+          "t": "Geçen yıl ailemle İzmir'e ___.",
+          "options": [
+            "gittik",
+            "gitdik",
+            "gittük"
+          ],
+          "answer": 0,
+          "s": "پارسال با خانواده‌ام به ازمیر رفتیم."
+        },
+        {
+          "type": "choice",
+          "t": "Ödevini bitirdin ___?",
+          "options": [
+            "mi",
+            "mı",
+            "mu"
+          ],
+          "answer": 0,
+          "s": "تکلیفت را تمام کردی؟"
+        },
+        {
+          "type": "type",
+          "t": "Ben o filmi ___. Nasıldı?",
+          "answer": [
+            "görmedim",
+            "izlemedim"
+          ],
+          "s": "من آن فیلم را ندیدم. چطور بود؟"
+        },
+        {
+          "type": "type",
+          "t": "Dün çok ___, çünkü bütün gün çalıştım.",
+          "answer": [
+            "yoruldum"
+          ],
+          "s": "دیروز خیلی خسته شدم، چون تمام روز کار کردم."
+        },
+        {
+          "type": "type",
+          "t": "Siz geçen hafta nereye ___?",
+          "answer": [
+            "gittiniz"
+          ],
+          "s": "شما هفته‌ی گذشته کجا رفتید؟"
+        },
+        {
+          "type": "order",
+          "t": "Geçen yaz dedemi ziyaret ettik.",
+          "s": "تابستان گذشته به دیدن پدربزرگم رفتیم."
+        },
+        {
+          "type": "order",
+          "t": "Dün akşam neden telefonu açmadın?",
+          "s": "دیشب چرا تلفن را جواب ندادی؟"
+        }
+      ]
+    },
+    {
+      "id": "g02",
+      "title": {
+        "t": "Amir evlenmiş! -mış / -miş / -muş / -müş",
+        "s": "گذشته‌ی شنیداری و «تازه فهمیدم»: -mış"
+      },
+      "explain": "پسوند **-mış / -miş / -muş / -müş** هم برای گذشته است، اما گوینده کار را **خودش ندیده**: یا آن را از کسی **شنیده**، یا **تازه متوجه** نتیجه‌اش شده است.\nمقایسه کنید: Ali dün **geldi**. (خودم دیدم که آمد) ↔ Ali dün **gelmiş**. (به من گفتند / تازه فهمیدم که آمده است).\nدر فارسی معمولاً با ماضی نقلی و کلمه‌هایی مثل «ظاهراً، گویا، می‌گویند» ترجمه می‌شود: Amir evlen**miş**. = ظاهراً امیر ازدواج کرده.\nبرای تعجب و کشف ناگهانی هم به کار می‌رود: Vay, çok büyü**müşsün**! = وای، چقدر بزرگ شده‌ای!\nشناسه‌ها: **-ım، -sın، —، -ız، -sınız، -lar**. منفی: **-mamış / -memiş**: gel**memiş** (ظاهراً نیامده). سؤالی: mı بعد از -mış و **قبل از شناسه** می‌آید: Gelmiş **mi**? Gelmiş **mi**sin?",
+      "table": [
+        [
+          "ben",
+          "gelmişim",
+          "gelmemişim"
+        ],
+        [
+          "sen",
+          "gelmişsin",
+          "gelmemişsin"
+        ],
+        [
+          "o",
+          "gelmiş",
+          "gelmemiş"
+        ],
+        [
+          "biz",
+          "gelmişiz",
+          "gelmemişiz"
+        ],
+        [
+          "siz",
+          "gelmişsiniz",
+          "gelmemişsiniz"
+        ],
+        [
+          "onlar",
+          "gelmişler",
+          "gelmemişler"
+        ]
+      ],
+      "examples": [
+        {
+          "t": "Komşumuz başka bir şehre taşınmış.",
+          "s": "ظاهراً همسایه‌مان به شهر دیگری نقل مکان کرده."
+        },
+        {
+          "t": "Gece kar yağmış, her yer beyaz.",
+          "s": "شب برف آمده، همه‌جا سفید است."
+        },
+        {
+          "t": "Eyvah, anahtarımı evde unutmuşum!",
+          "s": "ای وای، (تازه فهمیدم) کلیدم را در خانه جا گذاشته‌ام!"
+        },
+        {
+          "t": "Mehmet dün işe gelmemiş.",
+          "s": "ظاهراً محمد دیروز سر کار نیامده."
+        },
+        {
+          "t": "Ne güzel bir yemek yapmışsın!",
+          "s": "چه غذای خوبی درست کرده‌ای!"
+        }
+      ],
+      "exercises": [
+        {
+          "type": "choice",
+          "t": "Duydun mu? Emre yeni bir iş ___.",
+          "options": [
+            "bulmuş",
+            "bulmuşum",
+            "bulmuşsun"
+          ],
+          "answer": 0,
+          "s": "شنیدی؟ ظاهراً امره یک کار جدید پیدا کرده."
+        },
+        {
+          "type": "choice",
+          "t": "Pencereden baktım: gece yağmur ___.",
+          "options": [
+            "yağmış",
+            "yağmışım",
+            "yağdım"
+          ],
+          "answer": 0,
+          "s": "از پنجره نگاه کردم: شب باران آمده."
+        },
+        {
+          "type": "choice",
+          "t": "Ayşe bugün okula ___, hastaymış.",
+          "options": [
+            "gelmemiş",
+            "gelmemişim",
+            "gelmedim"
+          ],
+          "answer": 0,
+          "s": "ظاهراً عایشه امروز به مدرسه نیامده، گویا مریض است."
+        },
+        {
+          "type": "type",
+          "t": "Ben görmedim ama komşular anlattı: dün gece sokakta bir kaza ___.",
+          "answer": [
+            "olmuş"
+          ],
+          "s": "من ندیدم، ولی همسایه‌ها تعریف کردند: ظاهراً دیشب توی کوچه تصادفی شده."
+        },
+        {
+          "type": "type",
+          "t": "Duydun mu? Zeynep ve Can geçen ay ___.",
+          "answer": [
+            "evlenmişler",
+            "evlenmiş"
+          ],
+          "s": "شنیدی؟ ظاهراً زینب و جان ماه گذشته ازدواج کرده‌اند."
+        },
+        {
+          "type": "type",
+          "t": "Ali'yi aradım ama açmadı. Galiba mesajımı ___.",
+          "answer": [
+            "görmemiş"
+          ],
+          "s": "به علی زنگ زدم، ولی جواب نداد. گویا پیامم را ندیده."
+        },
+        {
+          "type": "order",
+          "t": "Ayşe yeni bir ev almış.",
+          "s": "ظاهراً عایشه یک خانه‌ی جدید خریده."
+        },
+        {
+          "type": "order",
+          "t": "Vay, çok güzel bir resim yapmışsın!",
+          "s": "وای، چه نقاشی قشنگی کشیده‌ای!"
+        }
+      ]
+    }
+  ],
+  "reading": {
+    "title": {
+      "t": "Çocukluk anılarım",
+      "s": "خاطرات کودکی‌ام"
+    },
+    "text": [
+      {
+        "t": "Ben Neda. Tebriz'de doğdum ve çocukluğum orada geçti.",
+        "s": "من ندا هستم. در تبریز به دنیا آمدم و کودکی‌ام همان‌جا گذشت."
+      },
+      {
+        "t": "Evimiz eski bir mahalledeydi ve büyük bir bahçesi vardı.",
+        "s": "خانه‌مان در یک محله‌ی قدیمی بود و یک حیاط بزرگ داشت."
+      },
+      {
+        "t": "Dokuz yaşımda babam bana bir bisiklet aldı.",
+        "s": "نُه ساله بودم که پدرم برایم یک دوچرخه خرید."
+      },
+      {
+        "t": "O gün çok mutluydum ve bütün gün sokakta bisiklete bindim.",
+        "s": "آن روز خیلی خوشحال بودم و تمام روز توی کوچه دوچرخه‌سواری کردم."
+      },
+      {
+        "t": "On iki yaşımda ailemle Tahran'a taşındık.",
+        "s": "دوازده ساله بودم که با خانواده‌ام به تهران نقل مکان کردیم."
+      },
+      {
+        "t": "Yeni okulumda başta hiç arkadaşım yoktu ve eski mahallemi çok özledim.",
+        "s": "در مدرسه‌ی جدیدم اوایل هیچ دوستی نداشتم و دلم برای محله‌ی قدیمی‌ام خیلی تنگ شد."
+      },
+      {
+        "t": "Geçen ay Tebriz'e gittim ve eski evimizi görmek istedim.",
+        "s": "ماه گذشته به تبریز رفتم و خواستم خانه‌ی قدیمی‌مان را ببینم."
+      },
+      {
+        "t": "Ama ev yokmuş! Yerine büyük bir apartman yapmışlar.",
+        "s": "اما دیدم خانه دیگر نیست! به‌جایش یک ساختمان آپارتمانی بزرگ ساخته‌اند."
+      },
+      {
+        "t": "Sokakta eski komşumuz Sara Hanım'la karşılaştım.",
+        "s": "توی کوچه به همسایه‌ی قدیمی‌مان، سارا خانم، برخوردم."
+      },
+      {
+        "t": "Bana mahallenin haberlerini anlattı: bakkal Ali Amca emekli olmuş, çocukları da Almanya'ya gitmiş.",
+        "s": "خبرهای محله را برایم تعریف کرد: ظاهراً علی‌آقای بقال بازنشسته شده و بچه‌هایش هم به آلمان رفته‌اند."
+      },
+      {
+        "t": "Her şey değişmiş ama anılarım hâlâ benimle.",
+        "s": "همه‌چیز عوض شده، اما خاطراتم هنوز با من است."
+      }
+    ],
+    "questions": [
+      {
+        "q": {
+          "t": "Neda nerede doğdu?",
+          "s": "ندا کجا به دنیا آمد؟"
+        },
+        "options": [
+          "Tahran'da",
+          "Tebriz'de",
+          "İstanbul'da"
+        ],
+        "answer": 1
+      },
+      {
+        "q": {
+          "t": "Babası ona ne aldı?",
+          "s": "پدرش برایش چه خرید؟"
+        },
+        "options": [
+          "Bir bisiklet",
+          "Bir kitap",
+          "Bir fotoğraf makinesi"
+        ],
+        "answer": 0
+      },
+      {
+        "q": {
+          "t": "Eski evin yerinde şimdi ne var?",
+          "s": "حالا جای خانه‌ی قدیمی چه چیزی هست؟"
+        },
+        "options": [
+          "Bir park",
+          "Bir apartman",
+          "Bir okul"
+        ],
+        "answer": 1
+      },
+      {
+        "q": {
+          "t": "Bakkal Ali Amca'ya ne olmuş?",
+          "s": "برای علی‌آقای بقال چه اتفاقی افتاده؟"
+        },
+        "options": [
+          "Emekli olmuş",
+          "Tahran'a taşınmış",
+          "Bir dükkân daha açmış"
+        ],
+        "answer": 0
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "t": "Çocukluğum küçük bir köyde geçti.",
+      "s": "کودکی‌ام در یک روستای کوچک گذشت."
+    },
+    {
+      "t": "Dün akşam eski bir arkadaşımı aradım.",
+      "s": "دیشب به یکی از دوستان قدیمی‌ام زنگ زدم."
+    },
+    {
+      "t": "Bu fotoğrafı on yıl önce çektik.",
+      "s": "این عکس را ده سال پیش گرفتیم."
+    },
+    {
+      "t": "Geçen hafta hiç dışarı çıkmadım.",
+      "s": "هفته‌ی گذشته اصلاً بیرون نرفتم."
+    },
+    {
+      "t": "Sınavın nasıl geçti?",
+      "s": "امتحانت چطور گذشت؟"
+    },
+    {
+      "t": "Duydun mu? Emre yeni bir araba almış.",
+      "s": "شنیدی؟ ظاهراً امره یک ماشین جدید خریده."
+    },
+    {
+      "t": "Vay, saat çok geç olmuş!",
+      "s": "وای، چقدر دیر شده!"
+    },
+    {
+      "t": "O günü hiç unutmadım.",
+      "s": "آن روز را هیچ‌وقت فراموش نکردم."
+    }
+  ]
+}

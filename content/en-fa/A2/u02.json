@@ -1,0 +1,698 @@
+{
+  "id": "u02",
+  "level": "A2",
+  "emoji": "✈️",
+  "title": {
+    "t": "Holidays and travel",
+    "s": "تعطیلات و سفر"
+  },
+  "goals": [
+    "می‌توانم دربارهٔ سفری که رفته‌ام صحبت کنم و سؤال بپرسم.",
+    "می‌توانم با didn't جمله‌های منفی در گذشته بسازم.",
+    "می‌توانم با be going to دربارهٔ برنامه‌های سفرم حرف بزنم.",
+    "می‌توانم واژه‌های اصلی فرودگاه، هتل و سفر را به کار ببرم."
+  ],
+  "words": [
+    {
+      "id": "w01",
+      "t": "vacation",
+      "pl": "vacations",
+      "s": "تعطیلات، سفرِ تفریحی",
+      "pr": "وِیکِیشِن",
+      "emoji": "🌴",
+      "ex": {
+        "t": "We went on vacation to Kish last summer.",
+        "s": "تابستان گذشته برای تعطیلات به کیش رفتیم."
+      }
+    },
+    {
+      "id": "w02",
+      "t": "trip",
+      "pl": "trips",
+      "s": "سفر",
+      "pr": "تْریپ",
+      "emoji": "🗺️",
+      "ex": {
+        "t": "Our trip to Isfahan was wonderful.",
+        "s": "سفرمان به اصفهان فوق‌العاده بود."
+      }
+    },
+    {
+      "id": "w03",
+      "t": "travel",
+      "s": "سفر کردن",
+      "pr": "تْرَوِل",
+      "emoji": "",
+      "ex": {
+        "t": "We traveled to Mashhad by train.",
+        "s": "ما با قطار به مشهد سفر کردیم."
+      }
+    },
+    {
+      "id": "w04",
+      "t": "suitcase",
+      "pl": "suitcases",
+      "s": "چمدان",
+      "pr": "سوتکِیس",
+      "emoji": "🧳",
+      "ex": {
+        "t": "My suitcase is very heavy.",
+        "s": "چمدانم خیلی سنگین است."
+      }
+    },
+    {
+      "id": "w05",
+      "t": "passport",
+      "pl": "passports",
+      "s": "گذرنامه، پاسپورت",
+      "pr": "پَسپورت",
+      "emoji": "",
+      "ex": {
+        "t": "Don't forget your passport!",
+        "s": "پاسپورتت را فراموش نکن!"
+      }
+    },
+    {
+      "id": "w06",
+      "t": "ticket",
+      "pl": "tickets",
+      "s": "بلیت",
+      "pr": "تیکِت",
+      "emoji": "🎫",
+      "ex": {
+        "t": "I bought the train tickets online.",
+        "s": "بلیت‌های قطار را اینترنتی خریدم."
+      }
+    },
+    {
+      "id": "w07",
+      "t": "airport",
+      "pl": "airports",
+      "s": "فرودگاه",
+      "pr": "اِرپورت",
+      "emoji": "🛫",
+      "ex": {
+        "t": "We arrived at the airport at six o'clock.",
+        "s": "ساعت شش به فرودگاه رسیدیم."
+      }
+    },
+    {
+      "id": "w08",
+      "t": "flight",
+      "pl": "flights",
+      "s": "پرواز",
+      "pr": "فْلایت",
+      "emoji": "✈️",
+      "ex": {
+        "t": "Our flight was two hours late.",
+        "s": "پروازمان دو ساعت تأخیر داشت."
+      }
+    },
+    {
+      "id": "w09",
+      "t": "hotel",
+      "pl": "hotels",
+      "s": "هتل",
+      "pr": "هُوتِل",
+      "emoji": "🏨",
+      "ex": {
+        "t": "Our hotel was near the beach.",
+        "s": "هتل ما نزدیک ساحل بود."
+      }
+    },
+    {
+      "id": "w10",
+      "t": "beach",
+      "pl": "beaches",
+      "s": "ساحل",
+      "pr": "بیچ",
+      "emoji": "🏖️",
+      "ex": {
+        "t": "The children played on the beach all day.",
+        "s": "بچه‌ها تمام روز در ساحل بازی کردند."
+      }
+    },
+    {
+      "id": "w11",
+      "t": "take photos",
+      "s": "عکس گرفتن",
+      "pr": "تِیک فُوتُوز",
+      "emoji": "📸",
+      "ex": {
+        "t": "We took a lot of photos in Shiraz.",
+        "s": "در شیراز کلی عکس گرفتیم."
+      }
+    },
+    {
+      "id": "w12",
+      "t": "pack",
+      "s": "(چمدان یا وسایل را) بستن",
+      "pr": "پَک",
+      "emoji": "",
+      "ex": {
+        "t": "Did you pack your suitcase?",
+        "s": "چمدانت را بستی؟"
+      }
+    },
+    {
+      "id": "w13",
+      "t": "go sightseeing",
+      "s": "به دیدن جاهای دیدنی رفتن",
+      "pr": "گو سایت‌سیئینگ",
+      "emoji": "",
+      "ex": {
+        "t": "We went sightseeing in Isfahan.",
+        "s": "در اصفهان به دیدن جاهای دیدنی رفتیم."
+      }
+    },
+    {
+      "id": "w14",
+      "t": "abroad",
+      "s": "خارج از کشور",
+      "pr": "اِبْراد",
+      "emoji": "🌍",
+      "ex": {
+        "t": "My cousin lives abroad.",
+        "s": "دخترخاله‌ام خارج از کشور زندگی می‌کند."
+      }
+    },
+    {
+      "id": "w15",
+      "t": "tourist",
+      "pl": "tourists",
+      "s": "گردشگر، توریست",
+      "pr": "توریست",
+      "emoji": "",
+      "ex": {
+        "t": "Many tourists visit Isfahan every year.",
+        "s": "هر سال گردشگران زیادی از اصفهان دیدن می‌کنند."
+      }
+    }
+  ],
+  "phrases": [
+    {
+      "id": "p01",
+      "t": "Have a nice trip!",
+      "s": "سفر بخیر! / خوش بگذرد!",
+      "pr": "هَو اِ نایس تْریپ!"
+    },
+    {
+      "id": "p02",
+      "t": "Where did you go?",
+      "s": "کجا رفتی؟",
+      "pr": "وِر دید یو گو؟"
+    },
+    {
+      "id": "p03",
+      "t": "How long did you stay?",
+      "s": "چه مدت ماندی؟",
+      "pr": "هاو لانگ دید یو سْتِی؟"
+    },
+    {
+      "id": "p04",
+      "t": "Did you have a good time?",
+      "s": "خوش گذشت؟",
+      "pr": "دید یو هَو اِ گود تایم؟"
+    },
+    {
+      "id": "p05",
+      "t": "It was amazing!",
+      "s": "فوق‌العاده بود!",
+      "pr": "ایت واز اِمِیزینگ!"
+    },
+    {
+      "id": "p06",
+      "t": "by train / by plane",
+      "s": "با قطار / با هواپیما",
+      "pr": "بای تْرِین / بای پْلِین"
+    },
+    {
+      "id": "p07",
+      "t": "What are you going to do?",
+      "s": "می‌خواهی چه کار کنی؟",
+      "pr": "وات آر یو گُوئینگ تو دو؟"
+    },
+    {
+      "id": "p08",
+      "t": "I can't wait!",
+      "s": "بی‌صبرانه منتظرم!",
+      "pr": "آی کَنت وِیت!"
+    }
+  ],
+  "dialogue": {
+    "title": {
+      "t": "Back from vacation",
+      "s": "برگشتن از تعطیلات"
+    },
+    "speakers": {
+      "A": {
+        "name": "Lisa",
+        "voice": "f"
+      },
+      "B": {
+        "name": "Ali",
+        "voice": "m"
+      }
+    },
+    "lines": [
+      {
+        "sp": "A",
+        "t": "Welcome back, Ali! Did you have a good time?",
+        "s": "خوش برگشتی، علی! خوش گذشت؟"
+      },
+      {
+        "sp": "B",
+        "t": "Yes, thanks! It was amazing.",
+        "s": "بله، ممنون! فوق‌العاده بود."
+      },
+      {
+        "sp": "A",
+        "t": "Where did you go?",
+        "s": "کجا رفتید؟"
+      },
+      {
+        "sp": "B",
+        "t": "We went to Isfahan with my family. We traveled by train.",
+        "s": "با خانواده‌ام به اصفهان رفتیم. با قطار سفر کردیم."
+      },
+      {
+        "sp": "A",
+        "t": "How long did you stay?",
+        "s": "چه مدت ماندید؟"
+      },
+      {
+        "sp": "B",
+        "t": "Five days. We stayed in a small hotel near the main square.",
+        "s": "پنج روز. در یک هتل کوچک نزدیک میدان اصلی ماندیم."
+      },
+      {
+        "sp": "A",
+        "t": "Did you go sightseeing?",
+        "s": "به دیدن جاهای دیدنی رفتید؟"
+      },
+      {
+        "sp": "B",
+        "t": "Of course. We saw the old bridges and took a lot of photos. But we didn't visit the museums. We didn't have time.",
+        "s": "البته. پل‌های قدیمی را دیدیم و کلی عکس گرفتیم. اما به موزه‌ها نرفتیم. وقت نداشتیم."
+      },
+      {
+        "sp": "A",
+        "t": "Sounds wonderful!",
+        "s": "چه عالی!"
+      },
+      {
+        "sp": "B",
+        "t": "What about you? Are you going to travel this summer?",
+        "s": "تو چطور؟ این تابستان می‌خواهی سفر بروی؟"
+      },
+      {
+        "sp": "A",
+        "t": "Yes! I'm going to visit my sister in Canada. I'm going to fly there in July.",
+        "s": "بله! قرار است به دیدن خواهرم در کانادا بروم. ماه ژوئیه با هواپیما می‌روم آن‌جا."
+      },
+      {
+        "sp": "B",
+        "t": "Have a nice trip!",
+        "s": "سفر بخیر!"
+      }
+    ]
+  },
+  "grammar": [
+    {
+      "id": "g01",
+      "title": {
+        "t": "Past simple: Did you…? / I didn't…",
+        "s": "سؤال و منفی در گذشتهٔ ساده"
+      },
+      "explain": "برای منفی کردن گذشتهٔ ساده از **didn't** (= did not) + **شکل سادهٔ فعل** استفاده می‌کنیم: **I didn't go.** (نرفتم.) دقت کنید: بعد از didn't فعل دیگر گذشته نیست، پس **I didn't went** غلط است.\nبرای سؤال، **Did** را اول جمله می‌گذاریم و فعل باز هم ساده است: **Did you go?** (رفتی؟)\nجواب کوتاه: **Yes, I did. / No, I didn't.**\nبا کلمه‌های پرسشی: **Where did you go?** (کجا رفتی؟) **What did you buy?** (چه خریدی؟)\nتوجه: با **was / were** از did استفاده نمی‌کنیم: **Were you tired?** (خسته بودی؟)",
+      "table": [
+        [
+          "+",
+          "I went to Shiraz."
+        ],
+        [
+          "−",
+          "I didn't go to Shiraz."
+        ],
+        [
+          "?",
+          "Did you go to Shiraz?"
+        ],
+        [
+          "Yes / No",
+          "Yes, I did. / No, I didn't."
+        ]
+      ],
+      "examples": [
+        {
+          "t": "We didn't stay in a hotel.",
+          "s": "ما در هتل نماندیم."
+        },
+        {
+          "t": "Did you take a lot of photos? Yes, I did.",
+          "s": "زیاد عکس گرفتی؟ بله، گرفتم."
+        },
+        {
+          "t": "Where did you go last summer?",
+          "s": "تابستان گذشته کجا رفتید؟"
+        },
+        {
+          "t": "She didn't buy a new suitcase.",
+          "s": "او چمدان نو نخرید."
+        },
+        {
+          "t": "How long did they stay in Mashhad?",
+          "s": "آن‌ها چه مدت در مشهد ماندند؟"
+        }
+      ],
+      "exercises": [
+        {
+          "type": "choice",
+          "t": "I ___ go to the beach yesterday.",
+          "options": [
+            "didn't",
+            "wasn't",
+            "don't"
+          ],
+          "answer": 0,
+          "s": "دیروز به ساحل نرفتم."
+        },
+        {
+          "type": "choice",
+          "t": "___ you buy the tickets yesterday?",
+          "options": [
+            "Did",
+            "Were",
+            "Are"
+          ],
+          "answer": 0,
+          "s": "دیروز بلیت‌ها را خریدی؟"
+        },
+        {
+          "type": "choice",
+          "t": "Did you see the old bridges? Yes, I ___.",
+          "options": [
+            "did",
+            "saw",
+            "was"
+          ],
+          "answer": 0,
+          "s": "پل‌های قدیمی را دیدی؟ بله، دیدم."
+        },
+        {
+          "type": "type",
+          "t": "Tom went to London, but he didn't ___ the museums.",
+          "answer": [
+            "visit",
+            "see"
+          ],
+          "s": "تام به لندن رفت، اما از موزه‌ها دیدن نکرد."
+        },
+        {
+          "type": "type",
+          "t": "Where ___ you stay in Shiraz?",
+          "answer": [
+            "did"
+          ],
+          "s": "در شیراز کجا ماندید؟"
+        },
+        {
+          "type": "type",
+          "t": "___ Neda take a lot of photos? No, she didn't.",
+          "answer": [
+            "Did"
+          ],
+          "s": "ندا زیاد عکس گرفت؟ نه، نگرفت."
+        },
+        {
+          "type": "choice",
+          "t": "Were you tired after the flight? No, I ___.",
+          "options": [
+            "didn't",
+            "wasn't",
+            "weren't"
+          ],
+          "answer": 1,
+          "s": "بعد از پرواز خسته بودی؟ نه، نبودم."
+        },
+        {
+          "type": "order",
+          "t": "We didn't visit the museum.",
+          "s": "ما به موزه نرفتیم."
+        }
+      ]
+    },
+    {
+      "id": "g02",
+      "title": {
+        "t": "be going to for plans",
+        "s": "be going to برای برنامه‌های آینده"
+      },
+      "explain": "برای برنامه‌ها و تصمیم‌هایی که **از قبل** گرفته‌ایم از **be going to + فعل ساده** استفاده می‌کنیم: **I'm going to visit my sister.** (قرار است به دیدن خواهرم بروم.)\n**be** باید با فاعل جور باشد: **I'm / you're / he's / she's / we're / they're going to**.\nمنفی: **I'm not going to…** / **She isn't going to…** (قرار نیست…)\nسؤال: **Are you going to travel this summer?** – **Yes, I am. / No, I'm not.**\nکلمه‌های زمانیِ رایج: **tomorrow**، **tonight**، **next week**، **next summer**، **this weekend**.",
+      "table": [
+        [
+          "I",
+          "am ('m)",
+          "going to travel"
+        ],
+        [
+          "he / she / it",
+          "is ('s)",
+          "going to travel"
+        ],
+        [
+          "you / we / they",
+          "are ('re)",
+          "going to travel"
+        ]
+      ],
+      "examples": [
+        {
+          "t": "I'm going to pack my suitcase tonight.",
+          "s": "امشب می‌خواهم چمدانم را ببندم."
+        },
+        {
+          "t": "We're going to stay in a hotel near the beach.",
+          "s": "قرار است در هتلی نزدیک ساحل بمانیم."
+        },
+        {
+          "t": "Reza isn't going to travel this summer.",
+          "s": "رضا قرار نیست این تابستان سفر برود."
+        },
+        {
+          "t": "Are you going to visit your parents next week?",
+          "s": "هفتهٔ بعد می‌خواهی به دیدن پدر و مادرت بروی؟"
+        },
+        {
+          "t": "They're going to take the train to Tabriz.",
+          "s": "آن‌ها قرار است با قطار به تبریز بروند."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "choice",
+          "t": "We ___ going to fly to Istanbul next month.",
+          "options": [
+            "is",
+            "are",
+            "am"
+          ],
+          "answer": 1,
+          "s": "قرار است ماه بعد با هواپیما به استانبول برویم."
+        },
+        {
+          "type": "choice",
+          "t": "I'm going to ___ my cousins in Tabriz.",
+          "options": [
+            "visit",
+            "visited",
+            "visiting"
+          ],
+          "answer": 0,
+          "s": "قرار است به دیدن دخترخاله‌هایم در تبریز بروم."
+        },
+        {
+          "type": "type",
+          "t": "She ___ going to stay at home this weekend.",
+          "answer": [
+            "is"
+          ],
+          "s": "او قرار است این آخر هفته خانه بماند."
+        },
+        {
+          "type": "type",
+          "t": "Are you going to take the bus? No, I'm ___.",
+          "answer": [
+            "not"
+          ],
+          "s": "می‌خواهی با اتوبوس بروی؟ نه، نمی‌خواهم."
+        },
+        {
+          "type": "choice",
+          "t": "They ___ going to travel this summer. They don't have time.",
+          "options": [
+            "aren't",
+            "isn't",
+            "don't"
+          ],
+          "answer": 0,
+          "s": "آن‌ها قرار نیست این تابستان سفر بروند. وقت ندارند."
+        },
+        {
+          "type": "type",
+          "t": "What ___ you going to do tomorrow?",
+          "answer": [
+            "are"
+          ],
+          "s": "فردا می‌خواهی چه کار کنی؟"
+        },
+        {
+          "type": "order",
+          "t": "We're going to stay with our friends.",
+          "s": "قرار است پیش دوستانمان بمانیم."
+        },
+        {
+          "type": "order",
+          "t": "Is he going to buy the tickets?",
+          "s": "قرار است او بلیت‌ها را بخرد؟"
+        }
+      ]
+    }
+  ],
+  "reading": {
+    "title": {
+      "t": "Emma's vacation plans",
+      "s": "برنامهٔ تعطیلات اِما"
+    },
+    "text": [
+      {
+        "t": "Hi, Sara! How are you?",
+        "s": "سلام، سارا! حالت چطور است؟"
+      },
+      {
+        "t": "Last summer, I didn't travel because I was very busy at work.",
+        "s": "تابستان گذشته سفر نرفتم، چون سر کار خیلی سرم شلوغ بود."
+      },
+      {
+        "t": "But this year, I'm going to visit Iran with my brother Tom!",
+        "s": "اما امسال قرار است با برادرم تام به ایران بیایم!"
+      },
+      {
+        "t": "We're going to fly to Tehran in June.",
+        "s": "قرار است ژوئن با هواپیما به تهران بیاییم."
+      },
+      {
+        "t": "We're going to stay in Tehran for three days.",
+        "s": "قرار است سه روز در تهران بمانیم."
+      },
+      {
+        "t": "Then we're going to take the train to Isfahan.",
+        "s": "بعد قرار است با قطار به اصفهان برویم."
+      },
+      {
+        "t": "Tom wants to see the old bridges and take a lot of photos.",
+        "s": "تام می‌خواهد پل‌های قدیمی را ببیند و کلی عکس بگیرد."
+      },
+      {
+        "t": "I'm going to buy a beautiful carpet for my mother.",
+        "s": "من می‌خواهم برای مادرم یک فرش زیبا بخرم."
+      },
+      {
+        "t": "We don't want to stay in a hotel in Tehran.",
+        "s": "نمی‌خواهیم در تهران در هتل بمانیم."
+      },
+      {
+        "t": "Can we stay with your family?",
+        "s": "می‌توانیم پیش خانواده‌ات بمانیم؟"
+      },
+      {
+        "t": "I can't wait to see you! Love, Emma",
+        "s": "بی‌صبرانه منتظر دیدنت هستم! قربانت، اِما"
+      }
+    ],
+    "questions": [
+      {
+        "q": {
+          "t": "Why didn't Emma travel last summer?",
+          "s": "چرا اِما تابستان گذشته سفر نرفت؟"
+        },
+        "options": [
+          "She was busy at work.",
+          "She didn't have a passport.",
+          "She was sick."
+        ],
+        "answer": 0
+      },
+      {
+        "q": {
+          "t": "Who is going to travel with Emma?",
+          "s": "چه کسی قرار است با اِما سفر کند؟"
+        },
+        "options": [
+          "her mother",
+          "her sister",
+          "her brother"
+        ],
+        "answer": 2
+      },
+      {
+        "q": {
+          "t": "How are they going to travel to Isfahan?",
+          "s": "آن‌ها قرار است چطور به اصفهان بروند؟"
+        },
+        "options": [
+          "by plane",
+          "by train",
+          "by car"
+        ],
+        "answer": 1
+      },
+      {
+        "q": {
+          "t": "What is Emma going to buy for her mother?",
+          "s": "اِما قرار است برای مادرش چه بخرد؟"
+        },
+        "options": [
+          "a carpet",
+          "a suitcase",
+          "a map"
+        ],
+        "answer": 0
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "t": "We didn't take a lot of photos.",
+      "s": "ما عکس زیادی نگرفتیم."
+    },
+    {
+      "t": "Did you go sightseeing in Shiraz?",
+      "s": "در شیراز به دیدن جاهای دیدنی رفتید؟"
+    },
+    {
+      "t": "Are you going to travel by bus or by train?",
+      "s": "می‌خواهی با اتوبوس سفر کنی یا با قطار؟"
+    },
+    {
+      "t": "The hotel room was small but clean.",
+      "s": "اتاق هتل کوچک اما تمیز بود."
+    },
+    {
+      "t": "Where did you stay in Mashhad?",
+      "s": "در مشهد کجا ماندید؟"
+    },
+    {
+      "t": "They're going to travel abroad next year.",
+      "s": "آن‌ها قرار است سال بعد به خارج از کشور سفر کنند."
+    },
+    {
+      "t": "Don't forget your passport and tickets!",
+      "s": "پاسپورت و بلیت‌هایت را فراموش نکن!"
+    },
+    {
+      "t": "My parents didn't fly. They went by car.",
+      "s": "پدر و مادرم با هواپیما نرفتند. با ماشین رفتند."
+    }
+  ]
+}

@@ -1,0 +1,679 @@
+{
+  "id": "u02",
+  "level": "B2",
+  "emoji": "🌍",
+  "title": {
+    "t": "Çevre ve iklim",
+    "s": "محیط زیست و اقلیم"
+  },
+  "goals": [
+    "درباره‌ی مشکلات محیط زیست مثل آلودگی، خشکسالی و گرمایش جهانی صحبت کنم.",
+    "با حروف ربط دوتایی (hem…hem، ne…ne، ya…ya، gerek…gerek) جمله‌های دقیق‌تر بسازم.",
+    "با ise، oysa و halbuki دو وضعیت را مقایسه کنم یا تضاد را نشان دهم.",
+    "در یک بحث، موافقت یا مخالفتم را مؤدبانه بیان کنم."
+  ],
+  "words": [
+    {
+      "id": "w01",
+      "t": "çevre",
+      "s": "محیط زیست؛ اطراف",
+      "pr": "چِورِه",
+      "emoji": "🌿",
+      "ex": {
+        "t": "Plastik poşetler çevreye büyük zarar veriyor.",
+        "s": "کیسه‌های پلاستیکی آسیب زیادی به محیط زیست می‌زنند."
+      }
+    },
+    {
+      "id": "w02",
+      "t": "iklim",
+      "pl": "iklimler",
+      "s": "اقلیم؛ آب‌وهوا",
+      "pr": "ایکلیم",
+      "emoji": "🌍",
+      "ex": {
+        "t": "Akdeniz iklimi yazın sıcak ve kuru, kışın ılık ve yağışlıdır.",
+        "s": "اقلیم مدیترانه‌ای تابستان‌ها گرم و خشک و زمستان‌ها معتدل و بارانی است."
+      }
+    },
+    {
+      "id": "w03",
+      "t": "küresel ısınma",
+      "s": "گرمایش جهانی",
+      "pr": "کورِسِل اِسِنما",
+      "emoji": "🌡️",
+      "ex": {
+        "t": "Küresel ısınma yüzünden buzullar hızla eriyor.",
+        "s": "به دلیل گرمایش جهانی، یخچال‌های طبیعی به‌سرعت آب می‌شوند."
+      }
+    },
+    {
+      "id": "w04",
+      "t": "kirlilik",
+      "s": "آلودگی",
+      "pr": "کیرلیلیک",
+      "emoji": "🏭",
+      "ex": {
+        "t": "Tahran'da kışın hava kirliliği çok artıyor.",
+        "s": "در تهران زمستان‌ها آلودگی هوا خیلی زیاد می‌شود."
+      }
+    },
+    {
+      "id": "w05",
+      "t": "sera gazı",
+      "pl": "sera gazları",
+      "s": "گاز گلخانه‌ای",
+      "pr": "سِرا گازِ",
+      "emoji": "",
+      "ex": {
+        "t": "Fabrikalar her yıl tonlarca sera gazı salıyor.",
+        "s": "کارخانه‌ها هر سال تن‌ها گاز گلخانه‌ای منتشر می‌کنند."
+      }
+    },
+    {
+      "id": "w06",
+      "t": "yenilenebilir enerji",
+      "s": "انرژی تجدیدپذیر",
+      "pr": "یِنیلِنِبیلیر اِنِرژی",
+      "emoji": "☀️",
+      "ex": {
+        "t": "Türkiye'de güneş ve rüzgâr gibi yenilenebilir enerji kaynakları yaygınlaşıyor.",
+        "s": "در ترکیه منابع انرژی تجدیدپذیر مثل خورشید و باد رایج‌تر می‌شوند."
+      }
+    },
+    {
+      "id": "w07",
+      "t": "geri dönüşüm",
+      "s": "بازیافت",
+      "pr": "گِری دُنوشوم",
+      "emoji": "♻️",
+      "ex": {
+        "t": "Bizim apartmanda kâğıt ve plastik için ayrı geri dönüşüm kutuları var.",
+        "s": "در ساختمان ما برای کاغذ و پلاستیک سطل‌های بازیافت جداگانه هست."
+      }
+    },
+    {
+      "id": "w08",
+      "t": "atık",
+      "pl": "atıklar",
+      "s": "پسماند؛ زباله",
+      "pr": "آتِک",
+      "emoji": "🗑️",
+      "ex": {
+        "t": "Evsel atıkların büyük kısmı geri dönüştürülebilir.",
+        "s": "بخش بزرگی از پسماندهای خانگی قابل بازیافت است."
+      }
+    },
+    {
+      "id": "w09",
+      "t": "kuraklık",
+      "s": "خشکسالی",
+      "pr": "کوراکلِک",
+      "emoji": "🏜️",
+      "ex": {
+        "t": "Bu yıl yaşanan kuraklık çiftçileri zor durumda bıraktı.",
+        "s": "خشکسالی امسال کشاورزان را در وضعیت سختی قرار داد."
+      }
+    },
+    {
+      "id": "w10",
+      "t": "orman yangını",
+      "pl": "orman yangınları",
+      "s": "آتش‌سوزی جنگل",
+      "pr": "اُرمان یانگِنِ",
+      "emoji": "🔥",
+      "ex": {
+        "t": "Yazın Ege kıyılarında sık sık orman yangınları çıkıyor.",
+        "s": "تابستان‌ها در سواحل اژه بارها آتش‌سوزی جنگل رخ می‌دهد."
+      }
+    },
+    {
+      "id": "w11",
+      "t": "sel",
+      "pl": "seller",
+      "s": "سیل",
+      "pr": "سِل",
+      "emoji": "🌊",
+      "ex": {
+        "t": "Şiddetli yağmurlar Karadeniz'de sele neden oldu.",
+        "s": "باران‌های شدید در منطقه‌ی دریای سیاه باعث سیل شد."
+      }
+    },
+    {
+      "id": "w12",
+      "t": "tüketmek",
+      "s": "مصرف کردن",
+      "pr": "توکِتمِک",
+      "emoji": "",
+      "ex": {
+        "t": "Klimalar yazın çok fazla elektrik tüketiyor.",
+        "s": "کولرها تابستان‌ها برق خیلی زیادی مصرف می‌کنند."
+      }
+    },
+    {
+      "id": "w13",
+      "t": "israf etmek",
+      "s": "هدر دادن؛ اسراف کردن",
+      "pr": "ایسراف اِتمِک",
+      "emoji": "",
+      "ex": {
+        "t": "Dişlerimizi fırçalarken suyu israf etmemeliyiz.",
+        "s": "موقع مسواک زدن نباید آب را هدر بدهیم."
+      }
+    },
+    {
+      "id": "w14",
+      "t": "sürdürülebilir",
+      "s": "پایدار",
+      "pr": "سوردورولِبیلیر",
+      "emoji": "",
+      "ex": {
+        "t": "Sürdürülebilir bir gelecek için tüketim alışkanlıklarımızı değiştirmeliyiz.",
+        "s": "برای آینده‌ای پایدار باید عادت‌های مصرفمان را تغییر دهیم."
+      }
+    },
+    {
+      "id": "w15",
+      "t": "önlem",
+      "pl": "önlemler",
+      "s": "اقدام پیشگیرانه؛ تدبیر",
+      "pr": "اُنلِم",
+      "emoji": "",
+      "ex": {
+        "t": "Hükümet, kuraklığa karşı yeni önlemler aldı.",
+        "s": "دولت برای مقابله با خشکسالی تدابیر تازه‌ای اتخاذ کرد."
+      }
+    }
+  ],
+  "phrases": [
+    {
+      "id": "p01",
+      "t": "Bana kalırsa…",
+      "s": "اگر از من بپرسی…؛ به نظر من…"
+    },
+    {
+      "id": "p02",
+      "t": "Bu konuda sana katılıyorum.",
+      "s": "در این مورد با تو موافقم."
+    },
+    {
+      "id": "p03",
+      "t": "Pek emin değilim, çünkü…",
+      "s": "زیاد مطمئن نیستم، چون…"
+    },
+    {
+      "id": "p04",
+      "t": "Bir yandan haklısın, öte yandan…",
+      "s": "از یک طرف حق با توست، از طرف دیگر…"
+    },
+    {
+      "id": "p05",
+      "t": "Sorun şu ki…",
+      "s": "مشکل این است که…"
+    },
+    {
+      "id": "p06",
+      "t": "Herkes üzerine düşeni yapmalı.",
+      "s": "هر کس باید سهم خودش را انجام دهد."
+    },
+    {
+      "id": "p07",
+      "t": "İş işten geçmeden önlem almalıyız.",
+      "s": "باید پیش از آنکه کار از کار بگذرد، اقدام کنیم."
+    },
+    {
+      "id": "p08",
+      "t": "Damlaya damlaya göl olur.",
+      "s": "قطره‌قطره جمع گردد، وانگهی دریا شود."
+    }
+  ],
+  "dialogue": {
+    "title": {
+      "t": "Arabayla mı, metroyla mı?",
+      "s": "با ماشین یا با مترو؟"
+    },
+    "speakers": {
+      "A": {
+        "name": "Neda",
+        "voice": "f"
+      },
+      "B": {
+        "name": "Can",
+        "voice": "m"
+      }
+    },
+    "lines": [
+      {
+        "sp": "A",
+        "t": "Can, yine mi arabayla geldin? Oysa ofisin hemen önünde metro durağı var.",
+        "s": "جان، باز هم با ماشین آمدی؟ در حالی که درست جلوی دفتر ایستگاه مترو هست."
+      },
+      {
+        "sp": "B",
+        "t": "Biliyorum ama sabahları metro hem çok kalabalık hem de havasız oluyor.",
+        "s": "می‌دانم، ولی مترو صبح‌ها هم خیلی شلوغ است و هم هوایش خفه است."
+      },
+      {
+        "sp": "A",
+        "t": "Peki arabayla gelince ne kazanıyorsun? Ne zamandan ne de paradan tasarruf ediyorsun.",
+        "s": "خب با ماشین آمدن چه فایده‌ای دارد؟ نه در وقت صرفه‌جویی می‌کنی، نه در پول."
+      },
+      {
+        "sp": "B",
+        "t": "Haklısın, trafikte en az bir saat kaybediyorum. Üstelik benzin de çok pahalandı.",
+        "s": "حق با توست، دست‌کم یک ساعت در ترافیک تلف می‌کنم. تازه بنزین هم خیلی گران شده."
+      },
+      {
+        "sp": "A",
+        "t": "Bir de çevre meselesi var tabii. Şehirdeki hava kirliliğinin büyük kısmı trafikten kaynaklanıyor.",
+        "s": "البته مسئله‌ی محیط زیست هم هست. بخش بزرگی از آلودگی هوای شهر از ترافیک است."
+      },
+      {
+        "sp": "B",
+        "t": "Sen ne yapıyorsun peki? Her gün metroyla mı geliyorsun?",
+        "s": "خودت چه می‌کنی؟ هر روز با مترو می‌آیی؟"
+      },
+      {
+        "sp": "A",
+        "t": "Ya metroyla ya da bisikletle geliyorum. Hava güzelse bisikleti tercih ediyorum.",
+        "s": "یا با مترو می‌آیم یا با دوچرخه. اگر هوا خوب باشد، دوچرخه را ترجیح می‌دهم."
+      },
+      {
+        "sp": "B",
+        "t": "Ben ise bisiklete binmeyi hiç bilmiyorum!",
+        "s": "من اما اصلاً دوچرخه‌سواری بلد نیستم!"
+      },
+      {
+        "sp": "A",
+        "t": "O zaman haftada iki gün metroyu dene. Damlaya damlaya göl olur.",
+        "s": "پس هفته‌ای دو روز مترو را امتحان کن. قطره‌قطره جمع گردد، وانگهی دریا شود."
+      },
+      {
+        "sp": "B",
+        "t": "Tamam, söz veriyorum. Gerek benim için gerekse şehir için iyi bir karar olur.",
+        "s": "باشه، قول می‌دهم. هم برای خودم و هم برای شهر تصمیم خوبی است."
+      }
+    ]
+  },
+  "grammar": [
+    {
+      "id": "g01",
+      "title": {
+        "t": "hem… hem de / ne… ne de / ya… ya da",
+        "s": "حروف ربط دوتایی: هم… هم، نه… نه، یا… یا"
+      },
+      "explain": "این حروف ربط دوتایی، درست مثل فارسی، دو جزء هم‌ارز (دو اسم، دو صفت یا دو جمله) را به هم وصل می‌کنند:\n**hem … hem (de)** = «هم … هم»: Bu ev **hem** büyük **hem de** ucuz.\n**ne … ne (de)** = «نه … نه»: **Ne** çay **ne de** kahve içerim. نکته‌ی مهم: معنای منفی را خود ne…ne می‌دهد، پس فعل **مثبت** می‌ماند (içerim، نه içmem)؛ مثل فارسی: «نه چای می‌خورم نه قهوه». در نوشتار معیار، منفی کردن فعل با ne…ne غلط به حساب می‌آید.\n**ya … ya (da)** = «یا … یا»: **Ya** bu akşam **ya da** yarın ararım.\n**gerek … gerek(se)** = «چه … چه / هم … و هم». رسمی است و بیشتر در نوشتار، اخبار و سخنرانی می‌آید: **Gerek** öğrenciler **gerekse** öğretmenler bu karardan memnun.\n**de / da** در جزء دوم اختیاری است، ولی بسیار رایج است و جمله را روان‌تر می‌کند. یادتان باشد de/da جدا نوشته می‌شود.",
+      "table": [
+        [
+          "hem … hem de",
+          "Hem çalışıyor hem de okuyor."
+        ],
+        [
+          "ne … ne de",
+          "Ne arıyor ne de mesaj atıyor."
+        ],
+        [
+          "ya … ya da",
+          "Ya otobüsle ya da metroyla gideriz."
+        ],
+        [
+          "gerek … gerekse",
+          "Gerek kadınlar gerekse erkekler katıldı."
+        ]
+      ],
+      "examples": [
+        {
+          "t": "Geri dönüşüm hem çevreyi korur hem de ekonomiye katkı sağlar.",
+          "s": "بازیافت هم از محیط زیست محافظت می‌کند و هم به اقتصاد کمک می‌کند."
+        },
+        {
+          "t": "Bu yaz ne yağmur yağdı ne de barajlarda yeterince su kaldı.",
+          "s": "امسال تابستان نه باران بارید و نه آب کافی در سدها ماند."
+        },
+        {
+          "t": "Ya tüketim alışkanlıklarımızı değiştireceğiz ya da bedelini çocuklarımız ödeyecek.",
+          "s": "یا عادت‌های مصرفمان را تغییر می‌دهیم یا تاوانش را بچه‌هایمان می‌پردازند."
+        },
+        {
+          "t": "Gerek hükümet gerekse vatandaşlar bu konuda sorumluluk almalı.",
+          "s": "چه دولت و چه شهروندان باید در این زمینه مسئولیت بپذیرند."
+        },
+        {
+          "t": "Toplantıya ne Mehmet geldi ne de Elif.",
+          "s": "نه مهمت به جلسه آمد نه الیف."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "choice",
+          "t": "Bu yıl ___ kar yağdı ne de yağmur.",
+          "options": [
+            "hem",
+            "ne",
+            "ya"
+          ],
+          "answer": 1,
+          "s": "امسال نه برف بارید نه باران."
+        },
+        {
+          "type": "choice",
+          "t": "Ne arıyor ne de mesaj ___.",
+          "options": [
+            "atıyor",
+            "atmıyor",
+            "atmıyorlar"
+          ],
+          "answer": 0,
+          "s": "نه زنگ می‌زند و نه پیام می‌دهد."
+        },
+        {
+          "type": "choice",
+          "t": "Hafta sonu ___ sinemaya ya da tiyatroya gidelim.",
+          "options": [
+            "ne",
+            "hem",
+            "ya"
+          ],
+          "answer": 2,
+          "s": "آخر هفته یا برویم سینما یا تئاتر."
+        },
+        {
+          "type": "choice",
+          "t": "___ öğrenciler gerekse öğretmenler kampanyaya katıldı.",
+          "options": [
+            "Gerek",
+            "Hem",
+            "Ne"
+          ],
+          "answer": 0,
+          "s": "چه دانش‌آموزان و چه معلمان در کارزار شرکت کردند."
+        },
+        {
+          "type": "type",
+          "t": "Bisiklet ___ ucuz hem de sağlıklı bir ulaşım aracı.",
+          "answer": [
+            "hem"
+          ],
+          "s": "دوچرخه وسیله‌ی نقلیه‌ای هم ارزان و هم سالم است."
+        },
+        {
+          "type": "type",
+          "t": "Ya şimdi karar vereceğiz ya ___ fırsatı kaçıracağız.",
+          "answer": [
+            "da"
+          ],
+          "s": "یا همین حالا تصمیم می‌گیریم یا فرصت را از دست می‌دهیم."
+        },
+        {
+          "type": "order",
+          "t": "Ne elektrik var ne de su.",
+          "s": "نه برق هست نه آب."
+        },
+        {
+          "type": "order",
+          "t": "Hem çalışıyor hem de üniversitede okuyor.",
+          "s": "هم کار می‌کند و هم در دانشگاه درس می‌خواند."
+        }
+      ]
+    },
+    {
+      "id": "g02",
+      "title": {
+        "t": "Ben ise… / Oysa… / Halbuki…",
+        "s": "مقایسه و تضاد: ise، oysa، halbuki"
+      },
+      "explain": "**ise** دو چیز را کنار هم می‌گذارد و مقایسه می‌کند؛ معنایش «اما / در مقابل» است. درست بعد از کلمه‌ای می‌آید که می‌خواهیم با قبلی مقایسه‌اش کنیم: Kardeşim doktor, ben **ise** öğretmenim. = برادرم پزشک است، اما من معلمم.\nشکل پسوندی آن هم بسیار رایج است: **-(y)sa / -(y)se**: Ben**se**، Ankara**'ysa**، şimdi**yse**.\n**oysa (ki)** و **halbuki** یعنی «در حالی که / حال آنکه». جمله‌ی دوم واقعیتی را می‌گوید که با جمله‌ی اول (یا با انتظار ما) در تضاد است، و اغلب کمی گلایه یا تعجب در آن هست: Bana kızdı, **oysa** hiçbir şey yapmamıştım. = از دستم عصبانی شد، در حالی که هیچ کاری نکرده بودم.\n**halbuki** محاوره‌ای‌تر است و **oysa** کمی ادبی‌تر؛ معنایشان تقریباً یکی است. معمولاً اول جمله‌ی دوم می‌آیند.\nفرق اصلی: **ise** فقط دو موضوع را خنثی مقایسه می‌کند، اما **oysa / halbuki** می‌گویند «انتظار چیز دیگری بود».",
+      "table": [
+        [
+          "ise",
+          "İstanbul kalabalık, Ankara ise daha sakin."
+        ],
+        [
+          "-(y)sa / -(y)se",
+          "İstanbul kalabalık, Ankara'ysa daha sakin."
+        ],
+        [
+          "oysa",
+          "Toplantı iki saat sürdü, oysa yarım saat sürecekti."
+        ],
+        [
+          "halbuki",
+          "Bana kızdı, halbuki hiçbir şey yapmamıştım."
+        ]
+      ],
+      "examples": [
+        {
+          "t": "Kuzey bölgeleri bol yağış alıyor, güney ise kuraklıkla mücadele ediyor.",
+          "s": "مناطق شمالی بارندگی زیادی دارند، اما جنوب با خشکسالی دست‌وپنجه نرم می‌کند."
+        },
+        {
+          "t": "Herkes iklim değişikliğinden şikâyet ediyor, oysa çok az kişi alışkanlıklarını değiştiriyor.",
+          "s": "همه از تغییرات اقلیمی شکایت می‌کنند، در حالی که فقط عده‌ی کمی عادت‌هایشان را تغییر می‌دهند."
+        },
+        {
+          "t": "Plastik şişeleri çöpe atıyorsun, halbuki geri dönüşüm kutusu hemen yanında.",
+          "s": "بطری‌های پلاستیکی را در سطل زباله می‌اندازی، در حالی که سطل بازیافت درست کنارش است."
+        },
+        {
+          "t": "Ben et yemeyi azalttım, eşimse tamamen vejetaryen oldu.",
+          "s": "من گوشت خوردن را کم کردم، اما همسرم کاملاً گیاه‌خوار شد."
+        },
+        {
+          "t": "Bu nehir eskiden tertemizdi; şimdi ise içinde balık bile yaşamıyor.",
+          "s": "این رودخانه قبلاً خیلی تمیز بود؛ اما حالا حتی ماهی هم در آن زندگی نمی‌کند."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "choice",
+          "t": "Benim odam çok düzenli, kardeşiminki ___ her zaman dağınık.",
+          "options": [
+            "ise",
+            "oysa ki",
+            "ya da"
+          ],
+          "answer": 0,
+          "s": "اتاق من خیلی مرتب است، اما اتاق برادرم همیشه به‌هم‌ریخته است."
+        },
+        {
+          "type": "choice",
+          "t": "Bana hiç yardım etmedi, ___ ben ona her zaman yardım ediyorum.",
+          "options": [
+            "ise",
+            "oysa",
+            "hem"
+          ],
+          "answer": 1,
+          "s": "اصلاً به من کمک نکرد، در حالی که من همیشه به او کمک می‌کنم."
+        },
+        {
+          "type": "choice",
+          "t": "Ben çayı şekersiz içerim, eşim___ çok şekerli sever.",
+          "options": [
+            "sa",
+            "ysa",
+            "se"
+          ],
+          "answer": 2,
+          "s": "من چای را بی‌شکر می‌خورم، اما همسرم خیلی شیرین دوست دارد."
+        },
+        {
+          "type": "type",
+          "t": "Hiç çalışmadığını söylüyor, ___ her akşam kütüphanede.",
+          "answer": [
+            "oysa",
+            "halbuki",
+            "oysaki",
+            "oysa ki"
+          ],
+          "s": "می‌گوید اصلاً درس نخوانده، در حالی که هر شب در کتابخانه است."
+        },
+        {
+          "type": "type",
+          "t": "Annem kahve sever, babam ___ sadece çay içer.",
+          "answer": [
+            "ise"
+          ],
+          "s": "مادرم قهوه دوست دارد، اما پدرم فقط چای می‌خورد."
+        },
+        {
+          "type": "type",
+          "t": "Neden bu kadar geç kaldın? ___ saat beşte burada olacaktın!",
+          "answer": [
+            "halbuki",
+            "oysa",
+            "oysaki",
+            "oysa ki"
+          ],
+          "s": "چرا این‌قدر دیر کردی؟ قرار بود ساعت پنج این‌جا باشی!"
+        },
+        {
+          "type": "order",
+          "t": "Kışlar soğuk, yazlar ise çok sıcak.",
+          "s": "زمستان‌ها سرد است، اما تابستان‌ها خیلی گرم."
+        },
+        {
+          "type": "order",
+          "t": "Herkes gitti, halbuki film bitmemişti.",
+          "s": "همه رفتند، در حالی که فیلم تمام نشده بود."
+        }
+      ]
+    }
+  ],
+  "reading": {
+    "title": {
+      "t": "Suyun değerini bilmek",
+      "s": "قدر آب را دانستن"
+    },
+    "text": [
+      {
+        "t": "Çocukken suyun hiç bitmeyeceğini sanırdık.",
+        "s": "وقتی بچه بودیم، خیال می‌کردیم آب هیچ‌وقت تمام نمی‌شود."
+      },
+      {
+        "t": "Oysa bugün hem Türkiye hem de İran ciddi bir su sorunuyla karşı karşıya.",
+        "s": "اما امروز هم ترکیه و هم ایران با مشکل جدی آب روبه‌رو هستند."
+      },
+      {
+        "t": "Uzmanlara göre Türkiye su zengini bir ülke değil, su sıkıntısı çeken bir ülke.",
+        "s": "به گفته‌ی کارشناسان، ترکیه کشوری پرآب نیست، بلکه کشوری است که با کم‌آبی دست‌وپنجه نرم می‌کند."
+      },
+      {
+        "t": "Son yıllarda yağışlar azaldı, sıcaklıklar ise rekor kırdı.",
+        "s": "در سال‌های اخیر بارندگی کم شده، اما دما رکورد زده است."
+      },
+      {
+        "t": "Birçok şehirde barajlardaki su seviyesi kritik düzeye geriledi.",
+        "s": "در بسیاری از شهرها سطح آب سدها تا حد بحرانی پایین آمد."
+      },
+      {
+        "t": "Ancak sorunun tek nedeni kuraklık değil.",
+        "s": "اما تنها دلیل این مشکل خشکسالی نیست."
+      },
+      {
+        "t": "Suyun yaklaşık dörtte üçü tarımda kullanılıyor ve bunun önemli bir kısmı eski sulama yöntemleri yüzünden israf ediliyor.",
+        "s": "حدود سه‌چهارم آب در کشاورزی مصرف می‌شود و بخش مهمی از آن به دلیل روش‌های قدیمی آبیاری هدر می‌رود."
+      },
+      {
+        "t": "Gerek devlet gerekse vatandaşlar acilen önlem almalı.",
+        "s": "چه دولت و چه شهروندان باید هرچه زودتر دست به کار شوند."
+      },
+      {
+        "t": "Çiftçiler damla sulamaya geçebilir, biz ise evde daha az su tüketebiliriz.",
+        "s": "کشاورزان می‌توانند به آبیاری قطره‌ای روی بیاورند و ما نیز می‌توانیم در خانه آب کمتری مصرف کنیم."
+      },
+      {
+        "t": "Kısa duş almak, musluğu açık bırakmamak ya da bulaşık makinesini tam doluyken çalıştırmak küçük ama etkili adımlardır.",
+        "s": "دوش کوتاه گرفتن، باز نگذاشتن شیر آب یا روشن کردن ماشین ظرفشویی فقط وقتی کاملاً پر است، قدم‌هایی کوچک اما مؤثرند."
+      },
+      {
+        "t": "Unutmayalım: Ya bugün suyu koruyacağız ya da yarın susuz kalacağız.",
+        "s": "فراموش نکنیم: یا امروز از آب محافظت می‌کنیم یا فردا بی‌آب می‌مانیم."
+      }
+    ],
+    "questions": [
+      {
+        "q": {
+          "t": "Uzmanlara göre Türkiye nasıl bir ülke?",
+          "s": "به گفته‌ی کارشناسان، ترکیه چه جور کشوری است؟"
+        },
+        "options": [
+          "Su zengini bir ülke",
+          "Su sıkıntısı çeken bir ülke",
+          "Yağışı çok bol bir ülke"
+        ],
+        "answer": 1
+      },
+      {
+        "q": {
+          "t": "Suyun büyük kısmı nerede kullanılıyor?",
+          "s": "بیشتر آب در کجا مصرف می‌شود؟"
+        },
+        "options": [
+          "Evlerde",
+          "Fabrikalarda",
+          "Tarımda"
+        ],
+        "answer": 2
+      },
+      {
+        "q": {
+          "t": "Yazara göre sorunun tek nedeni kuraklık mı?",
+          "s": "به نظر نویسنده، تنها دلیل مشکل خشکسالی است؟"
+        },
+        "options": [
+          "Evet, tek neden kuraklık.",
+          "Hayır, suyun israf edilmesi de önemli bir neden.",
+          "Hayır, tek neden nüfus artışı."
+        ],
+        "answer": 1
+      },
+      {
+        "q": {
+          "t": "Yazar evde ne yapmayı öneriyor?",
+          "s": "نویسنده پیشنهاد می‌کند در خانه چه کار کنیم؟"
+        },
+        "options": [
+          "Kısa duş almayı",
+          "Bahçeyi her gün sulamayı",
+          "Hiç bulaşık yıkamamayı"
+        ],
+        "answer": 0
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "t": "Geri dönüşüm hem kolay hem de çok faydalı.",
+      "s": "بازیافت هم آسان است و هم خیلی مفید."
+    },
+    {
+      "t": "Bu şehirde ne temiz hava var ne de yeşil alan.",
+      "s": "در این شهر نه هوای پاک هست نه فضای سبز."
+    },
+    {
+      "t": "Ya toplu taşımayı kullanacağız ya da trafik bitmeyecek.",
+      "s": "یا از حمل‌ونقل عمومی استفاده می‌کنیم یا ترافیک تمام نمی‌شود."
+    },
+    {
+      "t": "Gerek gençler gerekse yaşlılar kampanyayı destekledi.",
+      "s": "چه جوانان و چه سالمندان از کارزار حمایت کردند."
+    },
+    {
+      "t": "Kuzeyde sel var, güneyde ise kuraklık.",
+      "s": "در شمال سیل آمده، اما در جنوب خشکسالی است."
+    },
+    {
+      "t": "Suyu israf ediyorsun, oysa barajlar neredeyse boş.",
+      "s": "آب را هدر می‌دهی، در حالی که سدها تقریباً خالی‌اند."
+    },
+    {
+      "t": "Plastik poşet kullanmayı tamamen bıraktım.",
+      "s": "استفاده از کیسه‌ی پلاستیکی را کاملاً کنار گذاشتم."
+    },
+    {
+      "t": "Halbuki bu sorunu yıllar önce çözebilirdik.",
+      "s": "حال آنکه می‌توانستیم این مشکل را سال‌ها پیش حل کنیم."
+    }
+  ]
+}

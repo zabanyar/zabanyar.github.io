@@ -1,0 +1,698 @@
+{
+  "id": "u05",
+  "level": "A2",
+  "emoji": "⚖️",
+  "title": {
+    "t": "Comparing things",
+    "s": "مقایسه کردن"
+  },
+  "goals": [
+    "می‌توانم دو چیز یا دو نفر را با هم مقایسه کنم.",
+    "می‌توانم بگویم چیزی در یک گروه «بهترین» یا «ارزان‌ترین» است.",
+    "می‌توانم هنگام خرید نظرم را بگویم و یکی را انتخاب کنم."
+  ],
+  "words": [
+    {
+      "id": "w01",
+      "t": "cheap",
+      "s": "ارزان",
+      "pr": "چیپ",
+      "emoji": "",
+      "ex": {
+        "t": "This bag is cheap. It's only ten dollars.",
+        "s": "این کیف ارزان است. فقط ده دلار است."
+      }
+    },
+    {
+      "id": "w02",
+      "t": "expensive",
+      "s": "گران",
+      "pr": "ایکسْپِنسیو",
+      "emoji": "",
+      "ex": {
+        "t": "Houses in Tehran are very expensive.",
+        "s": "خانه در تهران خیلی گران است."
+      }
+    },
+    {
+      "id": "w03",
+      "t": "fast",
+      "s": "سریع، تند",
+      "pr": "فَست",
+      "emoji": "🐇",
+      "ex": {
+        "t": "This train is very fast.",
+        "s": "این قطار خیلی سریع است."
+      }
+    },
+    {
+      "id": "w04",
+      "t": "slow",
+      "s": "آهسته، کُند",
+      "pr": "سْلُو",
+      "emoji": "🐢",
+      "ex": {
+        "t": "My old computer is very slow.",
+        "s": "کامپیوتر قدیمی‌ام خیلی کند است."
+      }
+    },
+    {
+      "id": "w05",
+      "t": "heavy",
+      "s": "سنگین",
+      "pr": "هِوی",
+      "emoji": "",
+      "ex": {
+        "t": "Be careful! This box is heavy.",
+        "s": "مراقب باش! این جعبه سنگین است."
+      }
+    },
+    {
+      "id": "w06",
+      "t": "light",
+      "s": "سبک",
+      "pr": "لایت",
+      "emoji": "🪶",
+      "ex": {
+        "t": "My new bike is very light.",
+        "s": "دوچرخهٔ جدیدم خیلی سبک است."
+      }
+    },
+    {
+      "id": "w07",
+      "t": "comfortable",
+      "s": "راحت",
+      "pr": "کامفِرتِبِل",
+      "emoji": "🛋️",
+      "ex": {
+        "t": "These shoes are very comfortable.",
+        "s": "این کفش‌ها خیلی راحت‌اند."
+      }
+    },
+    {
+      "id": "w08",
+      "t": "modern",
+      "s": "مدرن، امروزی",
+      "pr": "مادِرن",
+      "emoji": "",
+      "ex": {
+        "t": "They live in a modern apartment.",
+        "s": "آن‌ها در یک آپارتمان مدرن زندگی می‌کنند."
+      }
+    },
+    {
+      "id": "w09",
+      "t": "old-fashioned",
+      "s": "قدیمی، از مُد افتاده",
+      "pr": "اُولد فَشِند",
+      "emoji": "",
+      "ex": {
+        "t": "My grandmother's kitchen is old-fashioned, but I love it.",
+        "s": "آشپزخانهٔ مادربزرگم قدیمی است، اما عاشقش هستم."
+      }
+    },
+    {
+      "id": "w10",
+      "t": "quiet",
+      "s": "ساکت، آرام",
+      "pr": "کوایِت",
+      "emoji": "🤫",
+      "ex": {
+        "t": "Our street is very quiet at night.",
+        "s": "خیابان ما شب‌ها خیلی آرام است."
+      }
+    },
+    {
+      "id": "w11",
+      "t": "noisy",
+      "s": "پرسروصدا، شلوغ",
+      "pr": "نویزی",
+      "emoji": "📢",
+      "ex": {
+        "t": "The city center is very noisy.",
+        "s": "مرکز شهر خیلی پرسروصداست."
+      }
+    },
+    {
+      "id": "w12",
+      "t": "safe",
+      "s": "امن",
+      "pr": "سِیف",
+      "emoji": "",
+      "ex": {
+        "t": "This park is safe for children.",
+        "s": "این پارک برای بچه‌ها امن است."
+      }
+    },
+    {
+      "id": "w13",
+      "t": "dangerous",
+      "s": "خطرناک",
+      "pr": "دِینجِرِس",
+      "emoji": "⚠️",
+      "ex": {
+        "t": "This road is dangerous at night.",
+        "s": "این جاده شب‌ها خطرناک است."
+      }
+    },
+    {
+      "id": "w14",
+      "t": "popular",
+      "s": "محبوب، پرطرفدار",
+      "pr": "پاپیولِر",
+      "emoji": "",
+      "ex": {
+        "t": "Soccer is very popular in Iran.",
+        "s": "فوتبال در ایران خیلی محبوب است."
+      }
+    },
+    {
+      "id": "w15",
+      "t": "price",
+      "pl": "prices",
+      "s": "قیمت",
+      "pr": "پْرایس",
+      "emoji": "🏷️",
+      "ex": {
+        "t": "What's the price of this carpet?",
+        "s": "قیمت این فرش چند است؟"
+      }
+    }
+  ],
+  "phrases": [
+    {
+      "id": "p01",
+      "t": "Which one is better?",
+      "s": "کدام بهتر است؟",
+      "pr": "ویچ وان ایز بِتِر؟"
+    },
+    {
+      "id": "p02",
+      "t": "I think this one is nicer.",
+      "s": "به نظرم این یکی قشنگ‌تر است.",
+      "pr": "آی ثینک ذیس وان ایز نایسِر."
+    },
+    {
+      "id": "p03",
+      "t": "It's much cheaper.",
+      "s": "خیلی ارزان‌تر است.",
+      "pr": "ایتس ماچ چیپِر."
+    },
+    {
+      "id": "p04",
+      "t": "It's the best!",
+      "s": "بهترین است!",
+      "pr": "ایتس ذِ بِست!"
+    },
+    {
+      "id": "p05",
+      "t": "What's the difference?",
+      "s": "فرقشان چیست؟",
+      "pr": "واتس ذِ دیفْرِنس؟"
+    },
+    {
+      "id": "p06",
+      "t": "I prefer the blue one.",
+      "s": "آبی را ترجیح می‌دهم.",
+      "pr": "آی پْریفِر ذِ بْلو وان."
+    },
+    {
+      "id": "p07",
+      "t": "In my opinion, …",
+      "s": "به نظر من، …",
+      "pr": "این مای اِپینیِن، …"
+    },
+    {
+      "id": "p08",
+      "t": "I agree. / I don't agree.",
+      "s": "موافقم. / موافق نیستم.",
+      "pr": "آی اِگْری. / آی دُونت اِگْری."
+    }
+  ],
+  "dialogue": {
+    "title": {
+      "t": "A new sofa",
+      "s": "یک مبل جدید"
+    },
+    "speakers": {
+      "A": {
+        "name": "Maryam",
+        "voice": "f"
+      },
+      "B": {
+        "name": "Reza",
+        "voice": "m"
+      }
+    },
+    "lines": [
+      {
+        "sp": "A",
+        "t": "Reza, look at these two sofas. Which one is better?",
+        "s": "رضا، این دو تا مبل را ببین. کدام بهتر است؟"
+      },
+      {
+        "sp": "B",
+        "t": "I like the gray one. It's bigger than the brown one.",
+        "s": "من طوسی را دوست دارم. از قهوه‌ای بزرگ‌تر است."
+      },
+      {
+        "sp": "A",
+        "t": "Yes, but the brown one is more comfortable. Sit on it!",
+        "s": "آره، اما قهوه‌ای راحت‌تر است. رویش بنشین!"
+      },
+      {
+        "sp": "B",
+        "t": "Hmm, you're right. It's very comfortable. What's the price?",
+        "s": "اوم، حق با توست. خیلی راحت است. قیمتش چند است؟"
+      },
+      {
+        "sp": "A",
+        "t": "It's nine hundred dollars. The gray one is more expensive.",
+        "s": "نهصد دلار است. طوسی گران‌تر است."
+      },
+      {
+        "sp": "B",
+        "t": "Nine hundred dollars is still a lot of money.",
+        "s": "نهصد دلار باز هم پول زیادی است."
+      },
+      {
+        "sp": "A",
+        "t": "I know, but it's the best sofa in the store. And it's much nicer than our old sofa!",
+        "s": "می‌دانم، اما بهترین مبل این فروشگاه است. تازه خیلی قشنگ‌تر از مبل قدیمی ماست!"
+      },
+      {
+        "sp": "B",
+        "t": "That's true. Our old sofa is the most uncomfortable sofa in the world!",
+        "s": "درست است. مبل قدیمی ما ناراحت‌ترین مبل دنیاست!"
+      },
+      {
+        "sp": "A",
+        "t": "Ha! So, the brown one?",
+        "s": "ها! پس قهوه‌ای؟"
+      },
+      {
+        "sp": "B",
+        "t": "OK, I agree. Let's buy the brown one.",
+        "s": "باشه، موافقم. قهوه‌ای را بخریم."
+      }
+    ]
+  },
+  "grammar": [
+    {
+      "id": "g01",
+      "title": {
+        "t": "Comparatives: cheaper, more expensive, better",
+        "s": "صفت تفضیلی (ـتر)"
+      },
+      "explain": "برای مقایسهٔ دو چیز از **صفت تفضیلی + than** استفاده می‌کنیم؛ مثل «ـتر از» در فارسی: **Tehran is bigger than Shiraz.** (تهران از شیراز بزرگ‌تر است.)\n**صفت‌های کوتاه** (یک‌بخشی) **er-** می‌گیرند: **cheap → cheaper**، **fast → faster**. اگر به **e** ختم شوند فقط **r** می‌گیرند: **nice → nicer**. اگر به یک مصوت کوتاه و یک صامت ختم شوند، صامت آخر دو تا می‌شود: **big → bigger**، **hot → hotter**.\nصفت‌های دوبخشی که به **y** ختم می‌شوند: **y → ier**: **heavy → heavier**، **easy → easier**.\n**صفت‌های بلند** (بیشتر صفت‌های دوبخشی و صفت‌های سه‌بخشی به بالا) با **more** می‌آیند: **more expensive**، **more comfortable**.\n**بی‌قاعده‌ها**: **good → better**، **bad → worse**.\nبرای تأکید **much** می‌گوییم: **much cheaper** (خیلی ارزان‌تر).",
+      "table": [
+        [
+          "cheap",
+          "cheaper"
+        ],
+        [
+          "big",
+          "bigger"
+        ],
+        [
+          "heavy",
+          "heavier"
+        ],
+        [
+          "expensive",
+          "more expensive"
+        ],
+        [
+          "good / bad",
+          "better / worse"
+        ]
+      ],
+      "examples": [
+        {
+          "t": "A train is faster than a bus.",
+          "s": "قطار از اتوبوس سریع‌تر است."
+        },
+        {
+          "t": "My new phone is lighter than my old phone.",
+          "s": "گوشی جدیدم از گوشی قدیمی‌ام سبک‌تر است."
+        },
+        {
+          "t": "This sofa is more comfortable than that one.",
+          "s": "این مبل از آن یکی راحت‌تر است."
+        },
+        {
+          "t": "The weather today is worse than yesterday.",
+          "s": "هوای امروز از دیروز بدتر است."
+        },
+        {
+          "t": "In summer, Kish is much hotter than Tabriz.",
+          "s": "در تابستان، کیش خیلی گرم‌تر از تبریز است."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "choice",
+          "t": "A car is ___ than a bike.",
+          "options": [
+            "fast",
+            "faster",
+            "more fast"
+          ],
+          "answer": 1,
+          "s": "ماشین از دوچرخه سریع‌تر است."
+        },
+        {
+          "type": "choice",
+          "t": "This hotel is ___ than the other one.",
+          "options": [
+            "expensiver",
+            "more expensive",
+            "most expensive"
+          ],
+          "answer": 1,
+          "s": "این هتل از آن یکی گران‌تر است."
+        },
+        {
+          "type": "type",
+          "t": "My brother is ___ than me. He's very tall.",
+          "answer": [
+            "taller"
+          ],
+          "s": "برادرم از من قدبلندتر است. خیلی قدبلند است."
+        },
+        {
+          "type": "type",
+          "t": "Today is ___ than yesterday. It's 38 degrees!",
+          "answer": [
+            "hotter",
+            "warmer"
+          ],
+          "s": "امروز از دیروز گرم‌تر است. ۳۸ درجه است!"
+        },
+        {
+          "type": "choice",
+          "t": "My English is ___ than last year.",
+          "options": [
+            "good",
+            "better",
+            "gooder"
+          ],
+          "answer": 1,
+          "s": "انگلیسی‌ام از پارسال بهتر است."
+        },
+        {
+          "type": "type",
+          "t": "This bag is ___ than that one. It's only five dollars.",
+          "answer": [
+            "cheaper"
+          ],
+          "s": "این کیف از آن یکی ارزان‌تر است. فقط پنج دلار است."
+        },
+        {
+          "type": "choice",
+          "t": "Isfahan is smaller ___ Tehran.",
+          "options": [
+            "that",
+            "then",
+            "than"
+          ],
+          "answer": 2,
+          "s": "اصفهان از تهران کوچک‌تر است."
+        },
+        {
+          "type": "order",
+          "t": "The red car is cheaper than the blue one.",
+          "s": "ماشین قرمز از ماشین آبی ارزان‌تر است."
+        }
+      ]
+    },
+    {
+      "id": "g02",
+      "title": {
+        "t": "Superlatives: the biggest, the most popular",
+        "s": "صفت عالی (ـترین)"
+      },
+      "explain": "برای مقایسهٔ یک چیز با **همهٔ** چیزهای یک گروه از **صفت عالی** استفاده می‌کنیم؛ مثل «ـترین» در فارسی. قبل از صفت عالی همیشه **the** می‌آید.\n**صفت‌های کوتاه**: **the + صفت + est**: **cheap → the cheapest**، **big → the biggest**، **heavy → the heaviest**.\n**صفت‌های بلند**: **the most + صفت**: **the most expensive**، **the most popular**.\n**بی‌قاعده‌ها**: **good → the best**، **bad → the worst**.\nبرای گفتن «در یک جا یا گروه» معمولاً از **in** استفاده می‌کنیم: **the biggest city in Iran** (بزرگ‌ترین شهر ایران).\nمثل فارسی، صفت عالی **قبل از اسم** می‌آید: **the best student** (بهترین دانش‌آموز).",
+      "table": [
+        [
+          "cheap",
+          "cheaper",
+          "the cheapest"
+        ],
+        [
+          "big",
+          "bigger",
+          "the biggest"
+        ],
+        [
+          "heavy",
+          "heavier",
+          "the heaviest"
+        ],
+        [
+          "popular",
+          "more popular",
+          "the most popular"
+        ],
+        [
+          "good / bad",
+          "better / worse",
+          "the best / the worst"
+        ]
+      ],
+      "examples": [
+        {
+          "t": "Tehran is the biggest city in Iran.",
+          "s": "تهران بزرگ‌ترین شهر ایران است."
+        },
+        {
+          "t": "This is the most comfortable chair in the house.",
+          "s": "این راحت‌ترین صندلی خانه است."
+        },
+        {
+          "t": "Soccer is the most popular sport in Iran.",
+          "s": "فوتبال محبوب‌ترین ورزش ایران است."
+        },
+        {
+          "t": "My mother is the best cook in our family.",
+          "s": "مادرم بهترین آشپز خانوادهٔ ماست."
+        },
+        {
+          "t": "That was the worst movie of the year.",
+          "s": "آن بدترین فیلم سال بود."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "choice",
+          "t": "Damavand is the ___ mountain in Iran.",
+          "options": [
+            "higher",
+            "highest",
+            "most high"
+          ],
+          "answer": 1,
+          "s": "دماوند بلندترین کوه ایران است."
+        },
+        {
+          "type": "choice",
+          "t": "This is the ___ expensive phone in the store.",
+          "options": [
+            "more",
+            "most",
+            "much"
+          ],
+          "answer": 1,
+          "s": "این گران‌ترین گوشی فروشگاه است."
+        },
+        {
+          "type": "type",
+          "t": "Ali is the ___ student in our class. He always gets 20.",
+          "answer": [
+            "best"
+          ],
+          "s": "علی بهترین دانش‌آموز کلاس ماست. همیشه بیست می‌گیرد."
+        },
+        {
+          "type": "type",
+          "t": "January is the ___ month of the year in Tabriz.",
+          "answer": [
+            "coldest"
+          ],
+          "s": "ژانویه سردترین ماه سال در تبریز است."
+        },
+        {
+          "type": "choice",
+          "t": "It was the ___ day of my life!",
+          "options": [
+            "happiest",
+            "happier",
+            "happy"
+          ],
+          "answer": 0,
+          "s": "شادترین روز زندگی‌ام بود!"
+        },
+        {
+          "type": "type",
+          "t": "This is the ___ popular restaurant in our city.",
+          "answer": [
+            "most"
+          ],
+          "s": "این محبوب‌ترین رستوران شهر ماست."
+        },
+        {
+          "type": "choice",
+          "t": "This is the ___ hotel in the city. Nobody likes it.",
+          "options": [
+            "worst",
+            "worse",
+            "baddest"
+          ],
+          "answer": 0,
+          "s": "این بدترین هتل شهر است. هیچ‌کس دوستش ندارد."
+        },
+        {
+          "type": "order",
+          "t": "Which is the most expensive car?",
+          "s": "گران‌ترین ماشین کدام است؟"
+        }
+      ]
+    }
+  ],
+  "reading": {
+    "title": {
+      "t": "A new phone for Grandma",
+      "s": "یک گوشی جدید برای مادربزرگ"
+    },
+    "text": [
+      {
+        "t": "My grandmother wanted a new phone, so last week we went to a phone store.",
+        "s": "مادربزرگم یک گوشی جدید می‌خواست، برای همین هفتهٔ گذشته به یک فروشگاه موبایل رفتیم."
+      },
+      {
+        "t": "The salesperson showed us three phones: the Nova, the Star, and the Mini.",
+        "s": "فروشنده سه گوشی به ما نشان داد: نوا، استار و مینی."
+      },
+      {
+        "t": "The Nova is the most expensive phone. It costs six hundred dollars.",
+        "s": "نوا گران‌ترین گوشی است. ششصد دلار قیمت دارد."
+      },
+      {
+        "t": "It's also the fastest, and it has the best camera.",
+        "s": "سریع‌ترین هم هست و بهترین دوربین را دارد."
+      },
+      {
+        "t": "The Star is cheaper than the Nova, but its screen is bigger.",
+        "s": "استار از نوا ارزان‌تر است، اما صفحه‌اش بزرگ‌تر است."
+      },
+      {
+        "t": "It costs four hundred dollars, but it's heavier than the other phones.",
+        "s": "چهارصد دلار قیمت دارد، اما از گوشی‌های دیگر سنگین‌تر است."
+      },
+      {
+        "t": "The Mini is the cheapest and the lightest phone.",
+        "s": "مینی ارزان‌ترین و سبک‌ترین گوشی است."
+      },
+      {
+        "t": "It's slower than the Nova, and its camera isn't very good.",
+        "s": "از نوا کندتر است و دوربینش خیلی خوب نیست."
+      },
+      {
+        "t": "My grandmother doesn't take a lot of photos. She only calls her children.",
+        "s": "مادربزرگم زیاد عکس نمی‌گیرد. فقط به بچه‌هایش زنگ می‌زند."
+      },
+      {
+        "t": "\"For me, the cheapest phone is the best phone!\" she said.",
+        "s": "گفت: «برای من ارزان‌ترین گوشی بهترین گوشی است!»"
+      },
+      {
+        "t": "So we bought the Mini.",
+        "s": "پس مینی را خریدیم."
+      }
+    ],
+    "questions": [
+      {
+        "q": {
+          "t": "Which phone is the most expensive?",
+          "s": "کدام گوشی از همه گران‌تر است؟"
+        },
+        "options": [
+          "the Nova",
+          "the Star",
+          "the Mini"
+        ],
+        "answer": 0
+      },
+      {
+        "q": {
+          "t": "The Star is ___ than the other phones.",
+          "s": "استار از گوشی‌های دیگر ... است."
+        },
+        "options": [
+          "lighter",
+          "heavier",
+          "faster"
+        ],
+        "answer": 1
+      },
+      {
+        "q": {
+          "t": "How much is the Star?",
+          "s": "قیمت استار چقدر است؟"
+        },
+        "options": [
+          "two hundred dollars",
+          "four hundred dollars",
+          "six hundred dollars"
+        ],
+        "answer": 1
+      },
+      {
+        "q": {
+          "t": "Which phone did they buy?",
+          "s": "کدام گوشی را خریدند؟"
+        },
+        "options": [
+          "the Nova",
+          "the Star",
+          "the Mini"
+        ],
+        "answer": 2
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "t": "A plane is faster than a train.",
+      "s": "هواپیما از قطار سریع‌تر است."
+    },
+    {
+      "t": "This apartment is bigger and more modern.",
+      "s": "این آپارتمان بزرگ‌تر و مدرن‌تر است."
+    },
+    {
+      "t": "My new job is better than my old job.",
+      "s": "کار جدیدم از کار قبلی‌ام بهتر است."
+    },
+    {
+      "t": "Which is the cheapest hotel in the city?",
+      "s": "ارزان‌ترین هتل شهر کدام است؟"
+    },
+    {
+      "t": "Our street is quieter than the city center.",
+      "s": "خیابان ما از مرکز شهر آرام‌تر است."
+    },
+    {
+      "t": "This is the most comfortable sofa in the store.",
+      "s": "این راحت‌ترین مبل فروشگاه است."
+    },
+    {
+      "t": "The weather in Kish is hotter than in Tabriz.",
+      "s": "هوای کیش از تبریز گرم‌تر است."
+    },
+    {
+      "t": "It was the best day of my life!",
+      "s": "بهترین روز زندگی‌ام بود!"
+    }
+  ]
+}

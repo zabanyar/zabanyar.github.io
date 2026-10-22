@@ -1,0 +1,708 @@
+{
+  "id": "u09",
+  "level": "A2",
+  "emoji": "🏘️",
+  "title": {
+    "t": "My neighborhood",
+    "s": "محله‌ی من"
+  },
+  "goals": [
+    "می‌توانم شهر و محله‌ام را توصیف کنم.",
+    "می‌توانم با across، along، past، through و … مسیر حرکت را توضیح بدهم.",
+    "می‌توانم با there was / there were بگویم در گذشته چه چیزهایی وجود داشت.",
+    "می‌توانم آدرس بپرسم و مسیر را برای کسی توضیح بدهم."
+  ],
+  "words": [
+    {
+      "id": "w01",
+      "t": "neighborhood",
+      "pl": "neighborhoods",
+      "s": "محله",
+      "pr": "نِیبِرهود",
+      "emoji": "🏘️",
+      "ex": {
+        "t": "I live in a quiet neighborhood.",
+        "s": "من در یک محله‌ی آرام زندگی می‌کنم."
+      }
+    },
+    {
+      "id": "w02",
+      "t": "neighbor",
+      "pl": "neighbors",
+      "s": "همسایه",
+      "pr": "نِیبِر",
+      "emoji": "",
+      "ex": {
+        "t": "Our neighbors are very friendly.",
+        "s": "همسایه‌هایمان خیلی خونگرم‌اند."
+      }
+    },
+    {
+      "id": "w03",
+      "t": "bridge",
+      "pl": "bridges",
+      "s": "پل",
+      "pr": "بْریج",
+      "emoji": "🌉",
+      "ex": {
+        "t": "Walk across the bridge and turn left.",
+        "s": "از روی پل رد شو و به چپ بپیچ."
+      }
+    },
+    {
+      "id": "w04",
+      "t": "river",
+      "pl": "rivers",
+      "s": "رودخانه",
+      "pr": "ریوِر",
+      "emoji": "",
+      "ex": {
+        "t": "There's a small river near our house.",
+        "s": "نزدیک خانه‌ی ما یک رودخانه‌ی کوچک هست."
+      }
+    },
+    {
+      "id": "w05",
+      "t": "square",
+      "pl": "squares",
+      "s": "میدان",
+      "pr": "سْکوِر",
+      "emoji": "",
+      "ex": {
+        "t": "The library is in the main square.",
+        "s": "کتابخانه در میدان اصلی است."
+      }
+    },
+    {
+      "id": "w06",
+      "t": "corner",
+      "pl": "corners",
+      "s": "نبش، گوشه",
+      "pr": "کورنِر",
+      "emoji": "",
+      "ex": {
+        "t": "The bakery is on the corner.",
+        "s": "نانوایی سرِ نبش است."
+      }
+    },
+    {
+      "id": "w07",
+      "t": "traffic lights",
+      "s": "چراغ راهنمایی",
+      "pr": "تْرَفیک لایتس",
+      "emoji": "🚦",
+      "ex": {
+        "t": "Turn right at the traffic lights.",
+        "s": "سرِ چراغ راهنمایی به راست بپیچ."
+      }
+    },
+    {
+      "id": "w08",
+      "t": "library",
+      "pl": "libraries",
+      "s": "کتابخانه",
+      "pr": "لایبْرِری",
+      "emoji": "📚",
+      "ex": {
+        "t": "I borrow books from the library.",
+        "s": "من از کتابخانه کتاب امانت می‌گیرم."
+      }
+    },
+    {
+      "id": "w09",
+      "t": "bakery",
+      "pl": "bakeries",
+      "s": "نانوایی",
+      "pr": "بِیکِری",
+      "emoji": "🥖",
+      "ex": {
+        "t": "I buy fresh bread from the bakery every morning.",
+        "s": "هر روز صبح از نانوایی نان تازه می‌خرم."
+      }
+    },
+    {
+      "id": "w10",
+      "t": "market",
+      "pl": "markets",
+      "s": "بازار",
+      "pr": "مارکِت",
+      "emoji": "",
+      "ex": {
+        "t": "Fruit is cheap at the market.",
+        "s": "میوه در بازار ارزان است."
+      }
+    },
+    {
+      "id": "w11",
+      "t": "building",
+      "pl": "buildings",
+      "s": "ساختمان",
+      "pr": "بیلدینگ",
+      "emoji": "🏢",
+      "ex": {
+        "t": "We live in a tall building.",
+        "s": "ما در یک ساختمان بلند زندگی می‌کنیم."
+      }
+    },
+    {
+      "id": "w12",
+      "t": "sidewalk",
+      "pl": "sidewalks",
+      "s": "پیاده‌رو",
+      "pr": "سایدواک",
+      "emoji": "",
+      "ex": {
+        "t": "Children, please walk on the sidewalk!",
+        "s": "بچه‌ها، لطفاً در پیاده‌رو راه بروید!"
+      }
+    },
+    {
+      "id": "w13",
+      "t": "quiet",
+      "s": "آرام، ساکت",
+      "pr": "کوایِت",
+      "emoji": "",
+      "ex": {
+        "t": "The streets are quiet at night.",
+        "s": "خیابان‌ها شب‌ها آرام‌اند."
+      }
+    },
+    {
+      "id": "w14",
+      "t": "noisy",
+      "s": "پرسروصدا",
+      "pr": "نویزی",
+      "emoji": "",
+      "ex": {
+        "t": "Our street is very noisy in the morning.",
+        "s": "خیابان ما صبح‌ها خیلی پرسروصداست."
+      }
+    },
+    {
+      "id": "w15",
+      "t": "crowded",
+      "s": "شلوغ (پر از آدم)",
+      "pr": "کْراودِد",
+      "emoji": "",
+      "ex": {
+        "t": "The bus is always crowded at eight o'clock.",
+        "s": "اتوبوس ساعت هشت همیشه شلوغ است."
+      }
+    },
+    {
+      "id": "w16",
+      "t": "cross",
+      "s": "رد شدن از، عبور کردن از",
+      "pr": "کْراس",
+      "emoji": "",
+      "ex": {
+        "t": "Be careful when you cross the street.",
+        "s": "وقتی از خیابان رد می‌شوی، مراقب باش."
+      }
+    }
+  ],
+  "phrases": [
+    {
+      "id": "p01",
+      "t": "Excuse me, how do I get to the library?",
+      "s": "ببخشید، چطور به کتابخانه بروم؟",
+      "pr": "ایکسکیوز می، هاو دو آی گِت تو ذِ لایبْرِری؟"
+    },
+    {
+      "id": "p02",
+      "t": "Is there a bakery near here?",
+      "s": "این نزدیکی‌ها نانوایی هست؟",
+      "pr": "ایز ذِر اِ بِیکِری نیر هیر؟"
+    },
+    {
+      "id": "p03",
+      "t": "It's about five minutes on foot.",
+      "s": "پیاده حدود پنج دقیقه راه است.",
+      "pr": "ایتس اِباوت فایو مینِتس آن فوت."
+    },
+    {
+      "id": "p04",
+      "t": "It's just around the corner.",
+      "s": "همین نزدیکی است. (همین بغل است.)",
+      "pr": "ایتس جاست اِراوند ذِ کورنِر."
+    },
+    {
+      "id": "p05",
+      "t": "You can't miss it.",
+      "s": "حتماً پیدایش می‌کنید.",
+      "pr": "یو کَنت میس ایت."
+    },
+    {
+      "id": "p06",
+      "t": "I'm new here.",
+      "s": "من این‌جا تازه‌واردم.",
+      "pr": "آیم نو هیر."
+    },
+    {
+      "id": "p07",
+      "t": "What's your neighborhood like?",
+      "s": "محله‌تان چطور جایی است؟",
+      "pr": "واتس یور نِیبِرهود لایک؟"
+    },
+    {
+      "id": "p08",
+      "t": "It has changed a lot.",
+      "s": "خیلی تغییر کرده است.",
+      "pr": "ایت هَز چِینجد اِ لات."
+    }
+  ],
+  "dialogue": {
+    "title": {
+      "t": "A new neighbor",
+      "s": "یک همسایه‌ی جدید"
+    },
+    "speakers": {
+      "A": {
+        "name": "Lisa",
+        "voice": "f"
+      },
+      "B": {
+        "name": "Reza",
+        "voice": "m"
+      }
+    },
+    "lines": [
+      {
+        "sp": "A",
+        "t": "Excuse me. I'm new here. Is there a bakery near here?",
+        "s": "ببخشید. من این‌جا تازه‌واردم. این نزدیکی‌ها نانوایی هست؟"
+      },
+      {
+        "sp": "B",
+        "t": "Yes, there's a good one near the river. Hi, I'm Reza. I live next door.",
+        "s": "بله، یک نانوایی خوب نزدیک رودخانه هست. سلام، من رضا هستم. خانه‌ی بغلی زندگی می‌کنم."
+      },
+      {
+        "sp": "A",
+        "t": "Nice to meet you! I'm Lisa. How do I get there?",
+        "s": "از آشنایی‌تان خوشوقتم! من لیزا هستم. چطور به آن‌جا بروم؟"
+      },
+      {
+        "sp": "B",
+        "t": "Go along this street and walk past the library.",
+        "s": "این خیابان را مستقیم بروید و از جلوی کتابخانه رد شوید."
+      },
+      {
+        "sp": "A",
+        "t": "OK. And then?",
+        "s": "باشه. بعد چی؟"
+      },
+      {
+        "sp": "B",
+        "t": "Then go across the bridge. The bakery is on the corner.",
+        "s": "بعد از روی پل رد شوید. نانوایی سرِ نبش است."
+      },
+      {
+        "sp": "A",
+        "t": "Great. Is the neighborhood always this quiet?",
+        "s": "عالی است. محله همیشه این‌قدر آرام است؟"
+      },
+      {
+        "sp": "B",
+        "t": "Now it is. Ten years ago, there was a big market here, and there were a lot of cars.",
+        "s": "حالا بله. ده سال پیش این‌جا یک بازار بزرگ بود و ماشین‌های زیادی رفت‌وآمد می‌کردند."
+      },
+      {
+        "sp": "A",
+        "t": "Really? Where's the market now?",
+        "s": "واقعاً؟ الان بازار کجاست؟"
+      },
+      {
+        "sp": "B",
+        "t": "It's near the main square. You can walk through the park to get there.",
+        "s": "نزدیک میدان اصلی است. می‌توانید از وسط پارک بروید."
+      },
+      {
+        "sp": "A",
+        "t": "Thanks so much, Reza. See you around!",
+        "s": "خیلی ممنون، رضا. به امید دیدار!"
+      }
+    ]
+  },
+  "grammar": [
+    {
+      "id": "g01",
+      "title": {
+        "t": "Prepositions of movement: across, along, past, through",
+        "s": "حرف‌های اضافه‌ی حرکت"
+      },
+      "explain": "این حرف‌های اضافه **جهت حرکت** را نشان می‌دهند و معمولاً بعد از فعل‌هایی مثل **go، walk، run، drive** می‌آیند:\n**across** = از این طرفِ چیزی به آن طرفش: **walk across the street / the bridge** (از خیابان / از روی پل رد شدن).\n**along** = در امتدادِ، به موازاتِ: **walk along the river** (کنار رودخانه قدم زدن).\n**past** = از کنارِ / از جلوی چیزی رد شدن: **go past the bank**.\n**through** = از میانِ، از داخلِ چیزی که دورتادورمان است: **walk through the park / the tunnel**.\n**into** = به داخلِ، **out of** = به بیرونِ: **go into the store**، **come out of the station**. **up / down** = بالا / پایین: **go up the stairs**.",
+      "table": [
+        [
+          "across",
+          "walk across the bridge"
+        ],
+        [
+          "along",
+          "walk along the river"
+        ],
+        [
+          "past",
+          "go past the library"
+        ],
+        [
+          "through",
+          "go through the park"
+        ],
+        [
+          "into / out of",
+          "go into / come out of the building"
+        ],
+        [
+          "up / down",
+          "go up / down the stairs"
+        ]
+      ],
+      "examples": [
+        {
+          "t": "Walk across the street at the traffic lights.",
+          "s": "سرِ چراغ راهنمایی از خیابان رد شو."
+        },
+        {
+          "t": "We walked along the river after dinner.",
+          "s": "بعد از شام کنار رودخانه قدم زدیم."
+        },
+        {
+          "t": "Go past the bakery and turn right.",
+          "s": "از جلوی نانوایی رد شو و به راست بپیچ."
+        },
+        {
+          "t": "The bus goes through the city center.",
+          "s": "اتوبوس از مرکز شهر می‌گذرد."
+        },
+        {
+          "t": "A cat ran out of the building.",
+          "s": "یک گربه از ساختمان بیرون دوید."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "choice",
+          "t": "Walk ___ the bridge to the other side of the river.",
+          "options": [
+            "across",
+            "into",
+            "up"
+          ],
+          "answer": 0,
+          "s": "از روی پل به آن طرف رودخانه برو."
+        },
+        {
+          "type": "choice",
+          "t": "Go ___ the bank. The bakery is next to it.",
+          "options": [
+            "past",
+            "through",
+            "into"
+          ],
+          "answer": 0,
+          "s": "از جلوی بانک رد شو. نانوایی کنارش است."
+        },
+        {
+          "type": "choice",
+          "t": "The train goes ___ a long tunnel.",
+          "options": [
+            "through",
+            "up",
+            "out"
+          ],
+          "answer": 0,
+          "s": "قطار از یک تونل طولانی می‌گذرد."
+        },
+        {
+          "type": "choice",
+          "t": "She walked ___ the store and bought some milk.",
+          "options": [
+            "into",
+            "out of",
+            "up"
+          ],
+          "answer": 0,
+          "s": "او وارد فروشگاه شد و کمی شیر خرید."
+        },
+        {
+          "type": "type",
+          "t": "We walked ___ the river. It was beautiful.",
+          "answer": [
+            "along",
+            "by",
+            "beside",
+            "next to"
+          ],
+          "s": "کنار رودخانه قدم زدیم. خیلی زیبا بود."
+        },
+        {
+          "type": "type",
+          "t": "Go ___ the stairs to the second floor.",
+          "answer": [
+            "up"
+          ],
+          "s": "از پله‌ها به طبقه‌ی دوم بالا برو."
+        },
+        {
+          "type": "order",
+          "t": "Walk across the street at the lights.",
+          "s": "سرِ چراغ از خیابان رد شو."
+        },
+        {
+          "type": "order",
+          "t": "The bus goes past my house.",
+          "s": "اتوبوس از جلوی خانه‌ی من رد می‌شود."
+        }
+      ]
+    },
+    {
+      "id": "g02",
+      "title": {
+        "t": "there was / there were",
+        "s": "there was / there were (… بود)"
+      },
+      "explain": "**there was / there were** گذشته‌ی **there is / there are** است و یعنی «… بود، … وجود داشت».\nبا اسم **مفرد** و اسم **غیرقابل‌شمارش** **there was** می‌آید: **There was a cinema here.** / **There was a lot of traffic.**\nبا اسم **جمع** **there were** می‌آید: **There were many trees.**\nمنفی: **there wasn't / there weren't** (معمولاً با **any** برای اسم جمع و غیرقابل‌شمارش): **There weren't any stores.**\nسؤال: **Was there …? / Were there …?** و جواب کوتاه: **Yes, there was. / No, there weren't.**",
+      "table": [
+        [
+          "There was a market.",
+          "There were two parks."
+        ],
+        [
+          "There wasn't a bank.",
+          "There weren't any stores."
+        ],
+        [
+          "Was there a library?",
+          "Were there any trees?"
+        ]
+      ],
+      "examples": [
+        {
+          "t": "There was a big tree in front of our house.",
+          "s": "جلوی خانه‌ی ما یک درخت بزرگ بود."
+        },
+        {
+          "t": "There were a lot of people at the market yesterday.",
+          "s": "دیروز آدم‌های زیادی در بازار بودند."
+        },
+        {
+          "t": "There wasn't any traffic this morning.",
+          "s": "امروز صبح اصلاً ترافیک نبود."
+        },
+        {
+          "t": "Were there any good stores in your old neighborhood?",
+          "s": "در محله‌ی قبلی‌تان مغازه‌ی خوبی بود؟"
+        },
+        {
+          "t": "Was there a library in your town? – Yes, there was.",
+          "s": "در شهرتان کتابخانه بود؟ – بله، بود."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "choice",
+          "t": "There ___ a small bakery on the corner.",
+          "options": [
+            "was",
+            "were"
+          ],
+          "answer": 0,
+          "s": "سرِ نبش یک نانوایی کوچک بود."
+        },
+        {
+          "type": "choice",
+          "t": "There ___ many cars here twenty years ago.",
+          "options": [
+            "wasn't",
+            "weren't",
+            "isn't"
+          ],
+          "answer": 1,
+          "s": "بیست سال پیش این‌جا ماشین زیادی نبود."
+        },
+        {
+          "type": "choice",
+          "t": "___ there any people in the park?",
+          "options": [
+            "Was",
+            "Were",
+            "Did"
+          ],
+          "answer": 1,
+          "s": "کسی در پارک بود؟"
+        },
+        {
+          "type": "choice",
+          "t": "There ___ a lot of noise last night.",
+          "options": [
+            "was",
+            "were",
+            "are"
+          ],
+          "answer": 0,
+          "s": "دیشب خیلی سروصدا بود."
+        },
+        {
+          "type": "type",
+          "t": "Was there a bank in the square? – No, there ___.",
+          "answer": [
+            "wasn't",
+            "was not"
+          ],
+          "s": "در میدان بانک بود؟ – نه، نبود."
+        },
+        {
+          "type": "type",
+          "t": "There ___ two parks in my old neighborhood.",
+          "answer": [
+            "were"
+          ],
+          "s": "در محله‌ی قبلی من دو تا پارک بود."
+        },
+        {
+          "type": "order",
+          "t": "There wasn't a library in our town.",
+          "s": "در شهر ما کتابخانه نبود."
+        },
+        {
+          "type": "order",
+          "t": "Were there any stores near your house?",
+          "s": "نزدیک خانه‌تان مغازه بود؟"
+        }
+      ]
+    }
+  ],
+  "reading": {
+    "title": {
+      "t": "My neighborhood: then and now",
+      "s": "محله‌ی من: آن موقع و حالا"
+    },
+    "text": [
+      {
+        "t": "I grew up in a small neighborhood in Isfahan.",
+        "s": "من در یک محله‌ی کوچک در اصفهان بزرگ شدم."
+      },
+      {
+        "t": "Thirty years ago, it was very quiet.",
+        "s": "سی سال پیش، آن‌جا خیلی آرام بود."
+      },
+      {
+        "t": "There was only one street, and there weren't many cars.",
+        "s": "فقط یک خیابان بود و ماشین زیادی نبود."
+      },
+      {
+        "t": "There was a small bakery on the corner, and I bought bread there every morning.",
+        "s": "سرِ نبش یک نانوایی کوچک بود و من هر روز صبح از آن‌جا نان می‌خریدم."
+      },
+      {
+        "t": "I walked to school every day, along the river and across an old bridge.",
+        "s": "هر روز پیاده به مدرسه می‌رفتم؛ کنار رودخانه و از روی یک پل قدیمی."
+      },
+      {
+        "t": "Now my neighborhood is very different.",
+        "s": "حالا محله‌ام خیلی فرق کرده است."
+      },
+      {
+        "t": "There are tall buildings, a big shopping mall, and a lot of traffic.",
+        "s": "ساختمان‌های بلند، یک مرکز خرید بزرگ و ترافیک زیاد هست."
+      },
+      {
+        "t": "The streets are crowded and noisy.",
+        "s": "خیابان‌ها شلوغ و پرسروصدا هستند."
+      },
+      {
+        "t": "The old bakery is still there, but the bridge isn't.",
+        "s": "نانوایی قدیمی هنوز سر جایش است، ولی پل دیگر نیست."
+      },
+      {
+        "t": "I miss the old days, but I still love my neighborhood.",
+        "s": "دلم برای روزهای قدیم تنگ شده، ولی هنوز محله‌ام را دوست دارم."
+      }
+    ],
+    "questions": [
+      {
+        "q": {
+          "t": "Where did the writer grow up?",
+          "s": "نویسنده کجا بزرگ شد؟"
+        },
+        "options": [
+          "In Tehran",
+          "In Isfahan",
+          "In Shiraz"
+        ],
+        "answer": 1
+      },
+      {
+        "q": {
+          "t": "How many streets were there thirty years ago?",
+          "s": "سی سال پیش چند خیابان بود؟"
+        },
+        "options": [
+          "Only one",
+          "Two",
+          "A lot"
+        ],
+        "answer": 0
+      },
+      {
+        "q": {
+          "t": "How did the writer get to school?",
+          "s": "نویسنده چطور به مدرسه می‌رفت؟"
+        },
+        "options": [
+          "On foot",
+          "By bus",
+          "By car"
+        ],
+        "answer": 0
+      },
+      {
+        "q": {
+          "t": "What is still there today?",
+          "s": "چه چیزی امروز هنوز آن‌جاست؟"
+        },
+        "options": [
+          "The old bridge",
+          "The old bakery",
+          "The quiet streets"
+        ],
+        "answer": 1
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "t": "Walk past the library and turn left.",
+      "s": "از جلوی کتابخانه رد شو و به چپ بپیچ."
+    },
+    {
+      "t": "There were a lot of people in the square.",
+      "s": "در میدان آدم‌های زیادی بودند."
+    },
+    {
+      "t": "Our new neighbors are very friendly.",
+      "s": "همسایه‌های جدیدمان خیلی خونگرم‌اند."
+    },
+    {
+      "t": "Go through the park. It's faster.",
+      "s": "از وسط پارک برو. سریع‌تر است."
+    },
+    {
+      "t": "Was there a bakery near your old house?",
+      "s": "نزدیک خانه‌ی قبلی‌ات نانوایی بود؟"
+    },
+    {
+      "t": "The streets downtown are always crowded.",
+      "s": "خیابان‌های مرکز شهر همیشه شلوغ‌اند."
+    },
+    {
+      "t": "There weren't any traffic lights on our street.",
+      "s": "در خیابان ما هیچ چراغ راهنمایی‌ای نبود."
+    },
+    {
+      "t": "Cross the street at the corner.",
+      "s": "سرِ نبش از خیابان رد شو."
+    }
+  ]
+}

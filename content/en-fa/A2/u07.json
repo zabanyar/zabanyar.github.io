@@ -1,0 +1,678 @@
+{
+  "id": "u07",
+  "level": "A2",
+  "emoji": "💰",
+  "title": {
+    "t": "Shopping and money",
+    "s": "خرید و پول"
+  },
+  "goals": [
+    "می‌توانم در فروشگاه چیزی بخرم، قیمت بپرسم و پرداخت کنم.",
+    "می‌توانم با will پیشنهاد کمک بدهم و همان لحظه تصمیم بگیرم.",
+    "می‌توانم با too و enough بگویم چیزی مناسب نیست.",
+    "می‌توانم درباره‌ی سایز، پرو کردن و پس دادن جنس صحبت کنم."
+  ],
+  "words": [
+    {
+      "id": "w01",
+      "t": "money",
+      "s": "پول",
+      "pr": "مانی",
+      "emoji": "💰",
+      "ex": {
+        "t": "I don't have much money this month.",
+        "s": "این ماه پول زیادی ندارم."
+      }
+    },
+    {
+      "id": "w02",
+      "t": "cash",
+      "s": "پول نقد",
+      "pr": "کَش",
+      "emoji": "💵",
+      "ex": {
+        "t": "Do you want to pay in cash?",
+        "s": "می‌خواهید نقد پرداخت کنید؟"
+      }
+    },
+    {
+      "id": "w03",
+      "t": "credit card",
+      "pl": "credit cards",
+      "s": "کارت اعتباری",
+      "pr": "کْرِدیت کارد",
+      "emoji": "💳",
+      "ex": {
+        "t": "Can I pay by credit card?",
+        "s": "می‌توانم با کارت اعتباری پرداخت کنم؟"
+      }
+    },
+    {
+      "id": "w04",
+      "t": "price",
+      "pl": "prices",
+      "s": "قیمت",
+      "pr": "پْرایس",
+      "emoji": "🏷️",
+      "ex": {
+        "t": "The price of this jacket is eighty dollars.",
+        "s": "قیمت این کاپشن هشتاد دلار است."
+      }
+    },
+    {
+      "id": "w05",
+      "t": "cheap",
+      "s": "ارزان",
+      "pr": "چیپ",
+      "emoji": "",
+      "ex": {
+        "t": "These shoes are cheap, but they're very nice.",
+        "s": "این کفش‌ها ارزان‌اند، ولی خیلی قشنگ‌اند."
+      }
+    },
+    {
+      "id": "w06",
+      "t": "expensive",
+      "s": "گران",
+      "pr": "ایکسْپِنسیو",
+      "emoji": "",
+      "ex": {
+        "t": "This restaurant is very expensive.",
+        "s": "این رستوران خیلی گران است."
+      }
+    },
+    {
+      "id": "w07",
+      "t": "size",
+      "pl": "sizes",
+      "s": "سایز، اندازه",
+      "pr": "سایز",
+      "emoji": "",
+      "ex": {
+        "t": "What size are you?",
+        "s": "سایز شما چند است؟"
+      }
+    },
+    {
+      "id": "w08",
+      "t": "try on",
+      "s": "پرو کردن (لباس یا کفش)",
+      "pr": "تْرای آن",
+      "emoji": "",
+      "ex": {
+        "t": "Can I try on this dress?",
+        "s": "می‌توانم این لباس را پرو کنم؟"
+      }
+    },
+    {
+      "id": "w09",
+      "t": "receipt",
+      "pl": "receipts",
+      "s": "رسید، فاکتور خرید",
+      "pr": "ریسیت",
+      "emoji": "🧾",
+      "ex": {
+        "t": "Please keep the receipt.",
+        "s": "لطفاً رسید را نگه دارید."
+      }
+    },
+    {
+      "id": "w10",
+      "t": "sale",
+      "pl": "sales",
+      "s": "حراج",
+      "pr": "سِیل",
+      "emoji": "",
+      "ex": {
+        "t": "These coats are on sale this week.",
+        "s": "این پالتوها این هفته حراج‌اند."
+      }
+    },
+    {
+      "id": "w11",
+      "t": "customer",
+      "pl": "customers",
+      "s": "مشتری",
+      "pr": "کاسْتِمِر",
+      "emoji": "",
+      "ex": {
+        "t": "There are a lot of customers in the store today.",
+        "s": "امروز مشتری‌های زیادی در فروشگاه هستند."
+      }
+    },
+    {
+      "id": "w12",
+      "t": "store",
+      "pl": "stores",
+      "s": "فروشگاه، مغازه",
+      "pr": "سْتُر",
+      "emoji": "🏪",
+      "ex": {
+        "t": "The store opens at nine o'clock.",
+        "s": "فروشگاه ساعت نه باز می‌شود."
+      }
+    },
+    {
+      "id": "w13",
+      "t": "pay",
+      "s": "پرداختن، پول دادن",
+      "pr": "پِی",
+      "emoji": "",
+      "ex": {
+        "t": "I paid twenty dollars for this book.",
+        "s": "برای این کتاب بیست دلار پول دادم."
+      }
+    },
+    {
+      "id": "w14",
+      "t": "spend",
+      "s": "خرج کردن",
+      "pr": "سْپِند",
+      "emoji": "",
+      "ex": {
+        "t": "We spent a lot of money on our vacation.",
+        "s": "در تعطیلاتمان پول زیادی خرج کردیم."
+      }
+    },
+    {
+      "id": "w15",
+      "t": "change",
+      "s": "بقیه‌ی پول؛ پول خرد",
+      "pr": "چِینج",
+      "emoji": "🪙",
+      "ex": {
+        "t": "Here's your change.",
+        "s": "بفرمایید، این هم بقیه‌ی پولتان."
+      }
+    }
+  ],
+  "phrases": [
+    {
+      "id": "p01",
+      "t": "I'm looking for a jacket.",
+      "s": "دنبال یک کاپشن می‌گردم.",
+      "pr": "آیم لوکینگ فور اِ جَکِت."
+    },
+    {
+      "id": "p02",
+      "t": "Do you have this in a bigger size?",
+      "s": "این را در سایز بزرگ‌تر دارید؟",
+      "pr": "دو یو هَو ذیس این اِ بیگِر سایز؟"
+    },
+    {
+      "id": "p03",
+      "t": "Where are the fitting rooms?",
+      "s": "اتاق پرو کجاست؟",
+      "pr": "وِر آر ذِ فیتینگ رومز؟"
+    },
+    {
+      "id": "p04",
+      "t": "It doesn't fit.",
+      "s": "اندازه‌ام نیست.",
+      "pr": "ایت دازِنت فیت."
+    },
+    {
+      "id": "p05",
+      "t": "I'll take it.",
+      "s": "همین را برمی‌دارم. (می‌خرمش.)",
+      "pr": "آیل تِیک ایت."
+    },
+    {
+      "id": "p06",
+      "t": "How would you like to pay?",
+      "s": "چطور پرداخت می‌کنید؟",
+      "pr": "هاو وود یو لایک تو پِی؟"
+    },
+    {
+      "id": "p07",
+      "t": "Cash or card?",
+      "s": "نقد یا کارت؟",
+      "pr": "کَش اُر کارد؟"
+    },
+    {
+      "id": "p08",
+      "t": "Can I get a refund?",
+      "s": "می‌توانم پولم را پس بگیرم؟",
+      "pr": "کَن آی گِت اِ ریفاند؟"
+    }
+  ],
+  "dialogue": {
+    "title": {
+      "t": "A new jacket",
+      "s": "یک کاپشن نو"
+    },
+    "speakers": {
+      "A": {
+        "name": "Emma",
+        "voice": "f"
+      },
+      "B": {
+        "name": "Ali",
+        "voice": "m"
+      }
+    },
+    "lines": [
+      {
+        "sp": "A",
+        "t": "Hello! Can I help you?",
+        "s": "سلام! کمکتان کنم؟"
+      },
+      {
+        "sp": "B",
+        "t": "Yes, please. I'm looking for a winter jacket.",
+        "s": "بله، لطفاً. دنبال یک کاپشن زمستانی می‌گردم."
+      },
+      {
+        "sp": "A",
+        "t": "These jackets are on sale this week. What size are you?",
+        "s": "این کاپشن‌ها این هفته حراج‌اند. سایزتان چند است؟"
+      },
+      {
+        "sp": "B",
+        "t": "Medium, I think. Can I try this one on?",
+        "s": "فکر کنم مدیوم. می‌توانم این یکی را پرو کنم؟"
+      },
+      {
+        "sp": "A",
+        "t": "Of course. The fitting rooms are over there.",
+        "s": "البته. اتاق پرو آن‌جاست."
+      },
+      {
+        "sp": "B",
+        "t": "Hmm, it's too small. It isn't big enough for me.",
+        "s": "اوم، زیادی کوچک است. برای من به اندازه‌ی کافی بزرگ نیست."
+      },
+      {
+        "sp": "A",
+        "t": "No problem. I'll get you a large.",
+        "s": "مشکلی نیست. برایتان سایز لارج می‌آورم."
+      },
+      {
+        "sp": "B",
+        "t": "Thanks. This one fits well. How much is it?",
+        "s": "ممنون. این یکی اندازه است. قیمتش چند است؟"
+      },
+      {
+        "sp": "A",
+        "t": "It was ninety dollars, but now it's only sixty.",
+        "s": "قیمتش نود دلار بود، ولی الان فقط شصت دلار است."
+      },
+      {
+        "sp": "B",
+        "t": "Great, I'll take it. Can I pay by card?",
+        "s": "عالی است، همین را برمی‌دارم. می‌توانم با کارت پرداخت کنم؟"
+      },
+      {
+        "sp": "A",
+        "t": "Sure. Here's your receipt. Have a nice day!",
+        "s": "حتماً. این هم رسیدتان. روز خوبی داشته باشید!"
+      }
+    ]
+  },
+  "grammar": [
+    {
+      "id": "g01",
+      "title": {
+        "t": "will for offers and decisions: I'll take it.",
+        "s": "will برای پیشنهاد کمک و تصمیم فوری"
+      },
+      "explain": "وقتی **همان لحظه‌ی صحبت** تصمیمی می‌گیریم، از **will** استفاده می‌کنیم: **This jacket is nice. I'll take it.** (این کاپشن قشنگ است. همین را برمی‌دارم.)\nبرای **پیشنهاد کمک** هم will به کار می‌رود: **The bags are heavy. I'll carry them for you.** (کیسه‌ها سنگین‌اند. من برایت می‌آورمشان.)\nساختار: فاعل + **will** + شکل ساده‌ی فعل (بدون to). شکل کوتاه: **I'll، you'll، we'll**. منفی: **won't** (= will not).\nبرای پیشنهاد کمک به شکل سؤال می‌گوییم **Shall I …?**: **Shall I open the window?** (پنجره را باز کنم؟)\nتوجه: برای برنامه‌ای که **از قبل** تصمیمش را گرفته‌ایم، **be going to** به کار می‌رود، نه will.",
+      "table": [
+        [
+          "decision",
+          "I'll take the blue one."
+        ],
+        [
+          "offer",
+          "I'll help you."
+        ],
+        [
+          "negative",
+          "I won't buy it."
+        ],
+        [
+          "question",
+          "Shall I carry your bag?"
+        ]
+      ],
+      "examples": [
+        {
+          "t": "It's cold in here. I'll close the window.",
+          "s": "این‌جا سرد است. پنجره را می‌بندم."
+        },
+        {
+          "t": "This shirt is cheap. I'll buy two.",
+          "s": "این پیراهن ارزان است. دو تا می‌خرم."
+        },
+        {
+          "t": "You look tired. I'll make dinner tonight.",
+          "s": "خسته به نظر می‌رسی. امشب من شام درست می‌کنم."
+        },
+        {
+          "t": "I don't have any cash. – Don't worry, I'll pay.",
+          "s": "پول نقد ندارم. – نگران نباش، من حساب می‌کنم."
+        },
+        {
+          "t": "The phone is ringing. I'll answer it.",
+          "s": "تلفن زنگ می‌زند. من جواب می‌دهم."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "choice",
+          "t": "This bag is really nice. I ___ it.",
+          "options": [
+            "will take",
+            "take",
+            "took"
+          ],
+          "answer": 0,
+          "s": "این کیف واقعاً قشنگ است. همین را برمی‌دارم."
+        },
+        {
+          "type": "choice",
+          "t": "The box is heavy. I ___ you.",
+          "options": [
+            "help",
+            "will help",
+            "helped"
+          ],
+          "answer": 1,
+          "s": "جعبه سنگین است. کمکت می‌کنم."
+        },
+        {
+          "type": "choice",
+          "t": "Shall I ___ the window?",
+          "options": [
+            "open",
+            "opening",
+            "to open"
+          ],
+          "answer": 0,
+          "s": "پنجره را باز کنم؟"
+        },
+        {
+          "type": "choice",
+          "t": "It's late. I ___ call a taxi for you.",
+          "options": [
+            "am",
+            "will",
+            "going"
+          ],
+          "answer": 1,
+          "s": "دیر است. برایت تاکسی می‌گیرم."
+        },
+        {
+          "type": "type",
+          "t": "It's very expensive. I ___ buy it.",
+          "answer": [
+            "won't",
+            "will not",
+            "can't",
+            "cannot",
+            "am not going to"
+          ],
+          "s": "خیلی گران است. نمی‌خرمش."
+        },
+        {
+          "type": "order",
+          "t": "I'll pay by credit card.",
+          "s": "با کارت اعتباری پرداخت می‌کنم."
+        },
+        {
+          "type": "order",
+          "t": "I'll carry the bags for you.",
+          "s": "من کیسه‌ها را برایت می‌آورم."
+        }
+      ]
+    },
+    {
+      "id": "g02",
+      "title": {
+        "t": "too / enough",
+        "s": "too (زیادی) و enough (به اندازه‌ی کافی)"
+      },
+      "explain": "**too** + صفت یعنی «زیادی، بیش از حد» و معنای **منفی** دارد: **It's too expensive.** (زیادی گران است؛ نمی‌خرمش.)\n**enough** یعنی «به اندازه‌ی کافی». **enough** **بعد از صفت** می‌آید: **big enough** (به اندازه‌ی کافی بزرگ)، ولی **قبل از اسم** می‌آید: **enough money** (پول کافی).\nدقت کنید: **too** با **very** فرق دارد. **very expensive** یعنی «خیلی گران» (شاید باز هم بخرم)، ولی **too expensive** یعنی آن‌قدر گران که نمی‌خرم.\nبرای گفتن این‌که برای چه کسی، از **for** استفاده می‌کنیم: **These shoes are too small for me.**",
+      "table": [
+        [
+          "too + adjective",
+          "too big, too expensive"
+        ],
+        [
+          "adjective + enough",
+          "big enough, cheap enough"
+        ],
+        [
+          "enough + noun",
+          "enough money, enough time"
+        ]
+      ],
+      "examples": [
+        {
+          "t": "These shoes are too small for me.",
+          "s": "این کفش‌ها برای من زیادی کوچک‌اند."
+        },
+        {
+          "t": "This coat isn't warm enough for winter.",
+          "s": "این پالتو برای زمستان به اندازه‌ی کافی گرم نیست."
+        },
+        {
+          "t": "I don't have enough money for a new phone.",
+          "s": "برای یک گوشی جدید پول کافی ندارم."
+        },
+        {
+          "t": "The store is too far. Let's take the bus.",
+          "s": "فروشگاه زیادی دور است. بیا با اتوبوس برویم."
+        },
+        {
+          "t": "Is this bag big enough for your books?",
+          "s": "این کیف برای کتاب‌هایت به اندازه‌ی کافی بزرگ است؟"
+        }
+      ],
+      "exercises": [
+        {
+          "type": "choice",
+          "t": "This jacket is ___ big. I need a smaller size.",
+          "options": [
+            "too",
+            "enough",
+            "very much"
+          ],
+          "answer": 0,
+          "s": "این کاپشن زیادی بزرگ است. سایز کوچک‌تر لازم دارم."
+        },
+        {
+          "type": "choice",
+          "t": "We don't have ___ time.",
+          "options": [
+            "enough",
+            "too",
+            "very"
+          ],
+          "answer": 0,
+          "s": "وقت کافی نداریم."
+        },
+        {
+          "type": "choice",
+          "t": "This dress isn't ___ for the party.",
+          "options": [
+            "enough nice",
+            "nice enough",
+            "nice too"
+          ],
+          "answer": 1,
+          "s": "این لباس برای مهمانی به اندازه‌ی کافی شیک نیست."
+        },
+        {
+          "type": "choice",
+          "t": "Are you old ___ to drive?",
+          "options": [
+            "too",
+            "enough",
+            "very"
+          ],
+          "answer": 1,
+          "s": "سنّت برای رانندگی کافی است؟"
+        },
+        {
+          "type": "type",
+          "t": "These pants are ___ long. I need a shorter pair.",
+          "answer": [
+            "too"
+          ],
+          "s": "این شلوار زیادی بلند است. یک شلوار کوتاه‌تر لازم دارم."
+        },
+        {
+          "type": "type",
+          "t": "I have ___ money for a new phone. I'll buy it today.",
+          "answer": [
+            "enough"
+          ],
+          "s": "برای یک گوشی جدید پول کافی دارم. امروز می‌خرمش."
+        },
+        {
+          "type": "order",
+          "t": "This bag isn't big enough.",
+          "s": "این کیف به اندازه‌ی کافی بزرگ نیست."
+        },
+        {
+          "type": "order",
+          "t": "The shoes are too small for me.",
+          "s": "کفش‌ها برای من زیادی کوچک‌اند."
+        }
+      ]
+    }
+  ],
+  "reading": {
+    "title": {
+      "t": "New shoes for Reza",
+      "s": "کفش نو برای رضا"
+    },
+    "text": [
+      {
+        "t": "Last Saturday, Reza went to the mall with his wife, Maryam.",
+        "s": "شنبه‌ی گذشته رضا با همسرش، مریم، به مرکز خرید رفت."
+      },
+      {
+        "t": "He needed new shoes for work.",
+        "s": "او برای سر کار کفش نو لازم داشت."
+      },
+      {
+        "t": "In the first store, he found a nice pair of black shoes.",
+        "s": "در فروشگاه اول یک جفت کفش مشکی قشنگ پیدا کرد."
+      },
+      {
+        "t": "But they were too expensive: two hundred dollars!",
+        "s": "ولی زیادی گران بودند: دویست دلار!"
+      },
+      {
+        "t": "In the second store, the shoes were cheap, but they weren't comfortable enough.",
+        "s": "در فروشگاه دوم کفش‌ها ارزان بودند، ولی به اندازه‌ی کافی راحت نبودند."
+      },
+      {
+        "t": "Then Maryam saw a sale in a small store near the café.",
+        "s": "بعد مریم در یک مغازه‌ی کوچک نزدیک کافه حراج دید."
+      },
+      {
+        "t": "Reza tried on a pair of brown shoes.",
+        "s": "رضا یک جفت کفش قهوه‌ای پرو کرد."
+      },
+      {
+        "t": "They were the right size, and the price was only sixty dollars.",
+        "s": "سایزش درست بود و قیمتش فقط شصت دلار بود."
+      },
+      {
+        "t": "\"I'll take them!\" he said.",
+        "s": "گفت: «همین‌ها را برمی‌دارم!»"
+      },
+      {
+        "t": "He paid by card, and then they had lunch together.",
+        "s": "با کارت پرداخت کرد و بعد با هم ناهار خوردند."
+      }
+    ],
+    "questions": [
+      {
+        "q": {
+          "t": "What did Reza need?",
+          "s": "رضا چه چیزی لازم داشت؟"
+        },
+        "options": [
+          "A jacket",
+          "New shoes",
+          "A scarf"
+        ],
+        "answer": 1
+      },
+      {
+        "q": {
+          "t": "Why didn't he buy the black shoes?",
+          "s": "چرا کفش‌های مشکی را نخرید؟"
+        },
+        "options": [
+          "They were too small.",
+          "They were too expensive.",
+          "They weren't comfortable."
+        ],
+        "answer": 1
+      },
+      {
+        "q": {
+          "t": "What was the problem with the shoes in the second store?",
+          "s": "کفش‌های فروشگاه دوم چه مشکلی داشتند؟"
+        },
+        "options": [
+          "They weren't comfortable enough.",
+          "They were too expensive.",
+          "They were the wrong color."
+        ],
+        "answer": 0
+      },
+      {
+        "q": {
+          "t": "How did Reza pay?",
+          "s": "رضا چطور پرداخت کرد؟"
+        },
+        "options": [
+          "In cash",
+          "By card",
+          "Maryam paid."
+        ],
+        "answer": 1
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "t": "I'll take the blue one.",
+      "s": "آبی را برمی‌دارم."
+    },
+    {
+      "t": "This coat is too expensive for me.",
+      "s": "این پالتو برای من زیادی گران است."
+    },
+    {
+      "t": "Do you have enough money?",
+      "s": "پول کافی داری؟"
+    },
+    {
+      "t": "Can I try on these shoes, please?",
+      "s": "می‌توانم لطفاً این کفش‌ها را پرو کنم؟"
+    },
+    {
+      "t": "These jeans aren't long enough.",
+      "s": "این شلوار جین به اندازه‌ی کافی بلند نیست."
+    },
+    {
+      "t": "Don't worry, I'll pay for lunch.",
+      "s": "نگران نباش، ناهار را من حساب می‌کنم."
+    },
+    {
+      "t": "We spent too much money last weekend.",
+      "s": "آخر هفته‌ی گذشته زیادی پول خرج کردیم."
+    },
+    {
+      "t": "Here's your change and your receipt.",
+      "s": "بفرمایید، این هم بقیه‌ی پول و رسیدتان."
+    }
+  ]
+}

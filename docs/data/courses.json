@@ -290,14 +290,510 @@
     {
      "id": "A2",
      "name": "مقدماتی",
-     "units": [],
-     "outline": "زمان گذشته، برنامه‌های آینده، سفر، سلامتی، کار، مقایسه"
+     "units": [
+      {
+       "id": "u01",
+       "title": {
+        "t": "My weekend",
+        "s": "آخر هفتهٔ من",
+        "a": "audio/en-fa/e12f15343e4a.mp3"
+       },
+       "img": "img/e/1f9fa.svg",
+       "emoji": "🧺",
+       "goals": [
+        "می‌توانم دربارهٔ آخر هفته‌ام و کارهایی که کردم صحبت کنم.",
+        "می‌توانم با was و were بگویم کجا بودم و چطور بود.",
+        "می‌توانم گذشتهٔ فعل‌های باقاعده و بی‌قاعدهٔ رایج را به کار ببرم.",
+        "می‌توانم از دیگران بپرسم آخر هفته‌شان چطور گذشت."
+       ],
+       "has": {
+        "letters": false,
+        "sounds": false,
+        "words": true,
+        "phrases": true,
+        "dialogue": true,
+        "grammar": true,
+        "reading": true
+       }
+      },
+      {
+       "id": "u02",
+       "title": {
+        "t": "Holidays and travel",
+        "s": "تعطیلات و سفر",
+        "a": "audio/en-fa/43a41b00d7c3.mp3"
+       },
+       "img": "img/e/2708.svg",
+       "emoji": "✈️",
+       "goals": [
+        "می‌توانم دربارهٔ سفری که رفته‌ام صحبت کنم و سؤال بپرسم.",
+        "می‌توانم با didn't جمله‌های منفی در گذشته بسازم.",
+        "می‌توانم با be going to دربارهٔ برنامه‌های سفرم حرف بزنم.",
+        "می‌توانم واژه‌های اصلی فرودگاه، هتل و سفر را به کار ببرم."
+       ],
+       "has": {
+        "letters": false,
+        "sounds": false,
+        "words": true,
+        "phrases": true,
+        "dialogue": true,
+        "grammar": true,
+        "reading": true
+       }
+      },
+      {
+       "id": "u03",
+       "title": {
+        "t": "Health and the body",
+        "s": "سلامتی و بدن",
+        "a": "audio/en-fa/632ce7bd768d.mp3"
+       },
+       "img": "img/e/1fa7a.svg",
+       "emoji": "🩺",
+       "goals": [
+        "می‌توانم اعضای اصلی بدن و بیماری‌های رایج را نام ببرم.",
+        "می‌توانم به پزشک بگویم چه مشکلی دارم.",
+        "می‌توانم با should و shouldn't توصیه کنم.",
+        "می‌توانم با have to و don't have to دربارهٔ اجبار و «لازم نبودن» حرف بزنم."
+       ],
+       "has": {
+        "letters": false,
+        "sounds": false,
+        "words": true,
+        "phrases": true,
+        "dialogue": true,
+        "grammar": true,
+        "reading": true
+       }
+      },
+      {
+       "id": "u04",
+       "title": {
+        "t": "Jobs and work",
+        "s": "شغل و کار",
+        "a": "audio/en-fa/dd73c11af847.mp3"
+       },
+       "img": "img/e/1f4bc.svg",
+       "emoji": "💼",
+       "goals": [
+        "می‌توانم دربارهٔ شغل خودم و دیگران صحبت کنم.",
+        "می‌توانم فرق کارهای همیشگی و کارهایی را که الان در جریان‌اند بگویم.",
+        "می‌توانم قرارها و برنامه‌های قطعیِ روزهای آینده‌ام را بگویم."
+       ],
+       "has": {
+        "letters": false,
+        "sounds": false,
+        "words": true,
+        "phrases": true,
+        "dialogue": true,
+        "grammar": true,
+        "reading": true
+       }
+      },
+      {
+       "id": "u05",
+       "title": {
+        "t": "Comparing things",
+        "s": "مقایسه کردن",
+        "a": "audio/en-fa/3119691252dc.mp3"
+       },
+       "img": "img/e/2696.svg",
+       "emoji": "⚖️",
+       "goals": [
+        "می‌توانم دو چیز یا دو نفر را با هم مقایسه کنم.",
+        "می‌توانم بگویم چیزی در یک گروه «بهترین» یا «ارزان‌ترین» است.",
+        "می‌توانم هنگام خرید نظرم را بگویم و یکی را انتخاب کنم."
+       ],
+       "has": {
+        "letters": false,
+        "sounds": false,
+        "words": true,
+        "phrases": true,
+        "dialogue": true,
+        "grammar": true,
+        "reading": true
+       }
+      },
+      {
+       "id": "u06",
+       "title": {
+        "t": "Food and cooking",
+        "s": "غذا و آشپزی",
+        "a": "audio/en-fa/51c5782cdf1c.mp3"
+       },
+       "img": "img/e/1f958.svg",
+       "emoji": "🥘",
+       "goals": [
+        "می‌توانم درباره‌ی مواد غذایی و آشپزی صحبت کنم.",
+        "می‌توانم اسم‌های قابل‌شمارش و غیرقابل‌شمارش را با some و any به کار ببرم.",
+        "می‌توانم با How much و How many درباره‌ی مقدار و تعداد سؤال کنم.",
+        "می‌توانم یک دستور پخت ساده را بفهمم و توضیح بدهم."
+       ],
+       "has": {
+        "letters": false,
+        "sounds": false,
+        "words": true,
+        "phrases": true,
+        "dialogue": true,
+        "grammar": true,
+        "reading": true
+       }
+      },
+      {
+       "id": "u07",
+       "title": {
+        "t": "Shopping and money",
+        "s": "خرید و پول",
+        "a": "audio/en-fa/3d8ac1e722fa.mp3"
+       },
+       "img": "img/e/1f4b0.svg",
+       "emoji": "💰",
+       "goals": [
+        "می‌توانم در فروشگاه چیزی بخرم، قیمت بپرسم و پرداخت کنم.",
+        "می‌توانم با will پیشنهاد کمک بدهم و همان لحظه تصمیم بگیرم.",
+        "می‌توانم با too و enough بگویم چیزی مناسب نیست.",
+        "می‌توانم درباره‌ی سایز، پرو کردن و پس دادن جنس صحبت کنم."
+       ],
+       "has": {
+        "letters": false,
+        "sounds": false,
+        "words": true,
+        "phrases": true,
+        "dialogue": true,
+        "grammar": true,
+        "reading": true
+       }
+      },
+      {
+       "id": "u08",
+       "title": {
+        "t": "Phones and the internet",
+        "s": "گوشی و اینترنت",
+        "a": "audio/en-fa/be22be5a80d7.mp3"
+       },
+       "img": "img/e/1f4f1.svg",
+       "emoji": "📱",
+       "goals": [
+        "می‌توانم درباره‌ی گوشی، اپلیکیشن‌ها و اینترنت صحبت کنم.",
+        "می‌توانم با present perfect و ever / never درباره‌ی تجربه‌هایم سؤال کنم و جواب بدهم.",
+        "می‌توانم با just / already / yet بگویم چه کاری انجام شده یا هنوز انجام نشده است.",
+        "می‌توانم مشکل‌های ساده‌ی گوشی و اینترنت را توضیح بدهم."
+       ],
+       "has": {
+        "letters": false,
+        "sounds": false,
+        "words": true,
+        "phrases": true,
+        "dialogue": true,
+        "grammar": true,
+        "reading": true
+       }
+      },
+      {
+       "id": "u09",
+       "title": {
+        "t": "My neighborhood",
+        "s": "محله‌ی من",
+        "a": "audio/en-fa/d4bec1a268b7.mp3"
+       },
+       "img": "img/e/1f3d8.svg",
+       "emoji": "🏘️",
+       "goals": [
+        "می‌توانم شهر و محله‌ام را توصیف کنم.",
+        "می‌توانم با across، along، past، through و … مسیر حرکت را توضیح بدهم.",
+        "می‌توانم با there was / there were بگویم در گذشته چه چیزهایی وجود داشت.",
+        "می‌توانم آدرس بپرسم و مسیر را برای کسی توضیح بدهم."
+       ],
+       "has": {
+        "letters": false,
+        "sounds": false,
+        "words": true,
+        "phrases": true,
+        "dialogue": true,
+        "grammar": true,
+        "reading": true
+       }
+      },
+      {
+       "id": "u10",
+       "title": {
+        "t": "Celebrations and invitations",
+        "s": "جشن‌ها و دعوت‌ها",
+        "a": "audio/en-fa/547be58790a7.mp3"
+       },
+       "img": "img/e/1f389.svg",
+       "emoji": "🎉",
+       "goals": [
+        "می‌توانم کسی را دعوت کنم و دعوت را بپذیرم یا مؤدبانه رد کنم.",
+        "می‌توانم درباره‌ی جشن‌ها و مناسبت‌هایی مثل نوروز، تولد و عروسی صحبت کنم.",
+        "می‌توانم تفاوت will و be going to را برای آینده بفهمم و درست به کار ببرم.",
+        "می‌توانم یک دعوت‌نامه‌ی ساده را بخوانم و بفهمم."
+       ],
+       "has": {
+        "letters": false,
+        "sounds": false,
+        "words": true,
+        "phrases": true,
+        "dialogue": true,
+        "grammar": true,
+        "reading": true
+       }
+      }
+     ]
     },
     {
      "id": "B1",
      "name": "متوسط",
-     "units": [],
-     "outline": "تجربه‌ها، نظر دادن، داستان، اخبار، متن‌های بلندتر"
+     "units": [
+      {
+       "id": "u01",
+       "title": {
+        "t": "Life experiences",
+        "s": "تجربه‌های زندگی",
+        "a": "audio/en-fa/3f3466231a31.mp3"
+       },
+       "img": "img/e/1f9d7.svg",
+       "emoji": "🧗",
+       "goals": [
+        "می‌توانم درباره‌ی تجربه‌های زندگی‌ام صحبت کنم و از دیگران بپرسم «تا حالا …؟».",
+        "می‌توانم فرق حال کامل و گذشته‌ی ساده را تشخیص بدهم و درست به کار ببرم.",
+        "می‌توانم با for و since بگویم کاری از چه زمانی یا چه مدت است که ادامه دارد.",
+        "می‌توانم یک متن وبلاگی درباره‌ی زندگی در خارج از کشور را بفهمم."
+       ],
+       "has": {
+        "letters": false,
+        "sounds": false,
+        "words": true,
+        "phrases": true,
+        "dialogue": true,
+        "grammar": true,
+        "reading": true
+       }
+      },
+      {
+       "id": "u02",
+       "title": {
+        "t": "Stories and memories",
+        "s": "داستان‌ها و خاطره‌ها",
+        "a": "audio/en-fa/9ff10223a6a9.mp3"
+       },
+       "img": "img/e/1f4d6.svg",
+       "emoji": "📖",
+       "goals": [
+        "می‌توانم یک خاطره یا داستان از گذشته را به ترتیب تعریف کنم.",
+        "می‌توانم با گذشته‌ی استمراری و گذشته‌ی ساده بگویم چه کاری در جریان بود و چه اتفاقی افتاد.",
+        "می‌توانم با used to درباره‌ی عادت‌ها و وضعیت‌های قدیمی صحبت کنم."
+       ],
+       "has": {
+        "letters": false,
+        "sounds": false,
+        "words": true,
+        "phrases": true,
+        "dialogue": true,
+        "grammar": true,
+        "reading": true
+       }
+      },
+      {
+       "id": "u03",
+       "title": {
+        "t": "Work and careers",
+        "s": "کار و مسیر شغلی",
+        "a": "audio/en-fa/0e57f968d2b7.mp3"
+       },
+       "img": "img/e/1f4bc.svg",
+       "emoji": "💼",
+       "goals": [
+        "می‌توانم درباره‌ی شغل، مهارت‌ها و برنامه‌های کاری‌ام صحبت کنم.",
+        "می‌توانم با شرطی نوع اول درباره‌ی نتیجه‌های ممکن در آینده حرف بزنم.",
+        "می‌توانم با when و as soon as و until درباره‌ی ترتیب کارها در آینده صحبت کنم.",
+        "می‌توانم در یک مصاحبه‌ی کاری ساده سؤال بپرسم و جواب بدهم."
+       ],
+       "has": {
+        "letters": false,
+        "sounds": false,
+        "words": true,
+        "phrases": true,
+        "dialogue": true,
+        "grammar": true,
+        "reading": true
+       }
+      },
+      {
+       "id": "u04",
+       "title": {
+        "t": "Healthy living",
+        "s": "زندگی سالم",
+        "a": "audio/en-fa/d22ec6fd0304.mp3"
+       },
+       "img": "img/e/1f957.svg",
+       "emoji": "🥗",
+       "goals": [
+        "می‌توانم درباره‌ی عادت‌های سالم و ناسالم صحبت کنم.",
+        "می‌توانم با must و have to و mustn't و don't have to الزام، ممنوعیت و «لازم نبودن» را بیان کنم.",
+        "می‌توانم با should و ought to و had better به کسی توصیه و هشدار بدهم."
+       ],
+       "has": {
+        "letters": false,
+        "sounds": false,
+        "words": true,
+        "phrases": true,
+        "dialogue": true,
+        "grammar": true,
+        "reading": true
+       }
+      },
+      {
+       "id": "u05",
+       "title": {
+        "t": "The environment",
+        "s": "محیط زیست",
+        "a": "audio/en-fa/e72460ca529e.mp3"
+       },
+       "img": "img/e/1f30d.svg",
+       "emoji": "🌍",
+       "goals": [
+        "می‌توانم درباره‌ی مشکلات محیط زیست و راه‌حل‌هایشان صحبت کنم.",
+        "می‌توانم با مجهولِ حال ساده بگویم کارها معمولاً چطور انجام می‌شوند.",
+        "می‌توانم با مجهولِ گذشته‌ی ساده درباره‌ی رویدادها و تاریخچه‌ی چیزها صحبت کنم.",
+        "می‌توانم نظرم را بگویم و با نظر دیگران موافقت یا مخالفت کنم."
+       ],
+       "has": {
+        "letters": false,
+        "sounds": false,
+        "words": true,
+        "phrases": true,
+        "dialogue": true,
+        "grammar": true,
+        "reading": true
+       }
+      },
+      {
+       "id": "u06",
+       "title": {
+        "t": "News and media",
+        "s": "اخبار و رسانه‌ها",
+        "a": "audio/en-fa/84d13ebdee37.mp3"
+       },
+       "img": "img/e/1f4f0.svg",
+       "emoji": "📰",
+       "goals": [
+        "می‌توانم درباره‌ی اخبار، روزنامه‌ها و شبکه‌های اجتماعی صحبت کنم.",
+        "می‌توانم حرف دیگران را با said و told غیرمستقیم نقل کنم.",
+        "می‌توانم سؤال‌های دیگران را غیرمستقیم نقل کنم (He asked if…).",
+        "می‌توانم درباره‌ی درست یا جعلی بودن یک خبر نظر بدهم."
+       ],
+       "has": {
+        "letters": false,
+        "sounds": false,
+        "words": true,
+        "phrases": true,
+        "dialogue": true,
+        "grammar": true,
+        "reading": true
+       }
+      },
+      {
+       "id": "u07",
+       "title": {
+        "t": "Travel problems",
+        "s": "مشکلات سفر",
+        "a": "audio/en-fa/b88f428da234.mp3"
+       },
+       "img": "img/e/1f9f3.svg",
+       "emoji": "🧳",
+       "goals": [
+        "می‌توانم درباره‌ی مشکلات سفر مثل تأخیر پرواز و گم شدن چمدان صحبت کنم.",
+        "می‌توانم در فرودگاه یا هتل مشکلم را توضیح بدهم، کمک بخواهم و شکایت کنم.",
+        "می‌توانم با If I had… / If I were… درباره‌ی موقعیت‌های خیالی حرف بزنم.",
+        "می‌توانم با I wish… آرزوهایم را درباره‌ی زمان حال بگویم."
+       ],
+       "has": {
+        "letters": false,
+        "sounds": false,
+        "words": true,
+        "phrases": true,
+        "dialogue": true,
+        "grammar": true,
+        "reading": true
+       }
+      },
+      {
+       "id": "u08",
+       "title": {
+        "t": "People and relationships",
+        "s": "آدم‌ها و رابطه‌ها",
+        "a": "audio/en-fa/4ef03baa4dbf.mp3"
+       },
+       "img": "img/e/1f91d.svg",
+       "emoji": "🤝",
+       "goals": [
+        "می‌توانم شخصیت آدم‌ها را توصیف کنم و درباره‌ی دوستان و خانواده‌ام حرف بزنم.",
+        "می‌توانم درباره‌ی دعوا، قهر و آشتی و رابطه‌های خوب صحبت کنم.",
+        "می‌توانم با who / which / that / where دقیق بگویم منظورم کدام آدم، چیز یا جاست.",
+        "می‌توانم با جمله‌واره‌های بین دو ویرگول اطلاعات اضافه بدهم."
+       ],
+       "has": {
+        "letters": false,
+        "sounds": false,
+        "words": true,
+        "phrases": true,
+        "dialogue": true,
+        "grammar": true,
+        "reading": true
+       }
+      },
+      {
+       "id": "u09",
+       "title": {
+        "t": "Learning and education",
+        "s": "یادگیری و آموزش",
+        "a": "audio/en-fa/9c2adae34934.mp3"
+       },
+       "img": "img/e/1f393.svg",
+       "emoji": "🎓",
+       "goals": [
+        "می‌توانم درباره‌ی درس، امتحان، نمره و روش‌های یادگیری صحبت کنم.",
+        "می‌توانم درست انتخاب کنم که بعد از یک فعل، شکل -ing بیاید یا to + فعل.",
+        "می‌توانم بعد از حرف اضافه شکل -ing را به کار ببرم (interested in learning).",
+        "می‌توانم درباره‌ی برنامه‌ها و هدف‌های تحصیلی‌ام حرف بزنم."
+       ],
+       "has": {
+        "letters": false,
+        "sounds": false,
+        "words": true,
+        "phrases": true,
+        "dialogue": true,
+        "grammar": true,
+        "reading": true
+       }
+      },
+      {
+       "id": "u10",
+       "title": {
+        "t": "The future and technology",
+        "s": "آینده و فناوری",
+        "a": "audio/en-fa/a28e848dace9.mp3"
+       },
+       "img": "img/e/1f916.svg",
+       "emoji": "🤖",
+       "goals": [
+        "می‌توانم درباره‌ی فناوری و زندگی در آینده پیش‌بینی کنم.",
+        "می‌توانم میزان اطمینانم را با will، might، may و be likely to نشان دهم.",
+        "می‌توانم فعل‌های عبارتی رایج مثل find out، give up و set up را به کار ببرم.",
+        "می‌توانم درباره‌ی مزایا و معایب فناوری نظر بدهم."
+       ],
+       "has": {
+        "letters": false,
+        "sounds": false,
+        "words": true,
+        "phrases": true,
+        "dialogue": true,
+        "grammar": true,
+        "reading": true
+       }
+      }
+     ]
     },
     {
      "id": "B2",
@@ -1426,14 +1922,508 @@
     {
      "id": "B1",
      "name": "متوسط",
-     "units": [],
-     "outline": "تجربه‌ها، نظر دادن، داستان، اخبار، متن‌های بلندتر"
+     "units": [
+      {
+       "id": "u01",
+       "title": {
+        "t": "Geçmiş anılar",
+        "s": "خاطرات گذشته",
+        "a": "audio/tr-fa/ab3874ee8958.mp3"
+       },
+       "img": "img/e/1f570.svg",
+       "emoji": "🕰️",
+       "goals": [
+        "درباره‌ی کودکی، خاطرات و اتفاق‌های گذشته‌ام صحبت کنم.",
+        "با گذشته‌ی ساده‌ی -dı جمله‌ی مثبت، منفی و سؤالی بسازم.",
+        "با -mış خبری را که شنیده‌ام یا چیزی را که تازه فهمیده‌ام بیان کنم."
+       ],
+       "has": {
+        "letters": false,
+        "sounds": false,
+        "words": true,
+        "phrases": true,
+        "dialogue": true,
+        "grammar": true,
+        "reading": true
+       }
+      },
+      {
+       "id": "u02",
+       "title": {
+        "t": "Şehir ve ulaşım",
+        "s": "شهر و حمل‌ونقل",
+        "a": "audio/tr-fa/0b8ce544ed72.mp3"
+       },
+       "img": "img/e/1f687.svg",
+       "emoji": "🚇",
+       "goals": [
+        "درباره‌ی وسایل حمل‌ونقل شهری و رفت‌وآمد روزانه صحبت کنم.",
+        "با زمان آینده (-acak / -ecek) درباره‌ی برنامه‌ها و تصمیم‌هایم حرف بزنم.",
+        "با -(y)ınca و -ken بگویم دو کار پشت سر هم یا هم‌زمان اتفاق می‌افتند."
+       ],
+       "has": {
+        "letters": false,
+        "sounds": false,
+        "words": true,
+        "phrases": true,
+        "dialogue": true,
+        "grammar": true,
+        "reading": true
+       }
+      },
+      {
+       "id": "u03",
+       "title": {
+        "t": "İş hayatı",
+        "s": "زندگی کاری",
+        "a": "audio/tr-fa/64b9b58aa599.mp3"
+       },
+       "img": "img/e/1f4bc.svg",
+       "emoji": "💼",
+       "goals": [
+        "درباره‌ی شغل، محل کار و کارهای روزانه‌ام صحبت کنم.",
+        "با زمان گسترده (-ır / -ar، منفی -maz / -mez) عادت‌ها، حقیقت‌های کلی و درخواست‌های مؤدبانه را بیان کنم.",
+        "با -mak zorunda olmak و -mak gerekmek بگویم چه کاری اجباری یا لازم است."
+       ],
+       "has": {
+        "letters": false,
+        "sounds": false,
+        "words": true,
+        "phrases": true,
+        "dialogue": true,
+        "grammar": true,
+        "reading": true
+       }
+      },
+      {
+       "id": "u04",
+       "title": {
+        "t": "Sağlık",
+        "s": "سلامت",
+        "a": "audio/tr-fa/76f4b3c1b3cf.mp3"
+       },
+       "img": "img/e/1fa7a.svg",
+       "emoji": "🩺",
+       "goals": [
+        "علائم بیماری‌ام را توضیح دهم و با پزشک یا داروساز صحبت کنم.",
+        "با -malı / -meli توصیه کنم و بگویم چه کاری باید (یا نباید) کرد.",
+        "با جمله‌ی شرطی -sa / -se درباره‌ی موقعیت‌های واقعی و نتیجه‌هایشان حرف بزنم."
+       ],
+       "has": {
+        "letters": false,
+        "sounds": false,
+        "words": true,
+        "phrases": true,
+        "dialogue": true,
+        "grammar": true,
+        "reading": true
+       }
+      },
+      {
+       "id": "u05",
+       "title": {
+        "t": "Tatil ve seyahat",
+        "s": "تعطیلات و سفر",
+        "a": "audio/tr-fa/1b5721c44d9e.mp3"
+       },
+       "img": "img/e/1f9f3.svg",
+       "emoji": "🧳",
+       "goals": [
+        "درباره‌ی برنامه‌ی سفر، رزرو هتل و جاهای دیدنی صحبت کنم.",
+        "با -mak için هدف کارهایم را بگویم.",
+        "با -dıktan sonra و -madan önce ترتیب کارها را بیان کنم.",
+        "یک سفر را در یک متن کوتاه تعریف کنم."
+       ],
+       "has": {
+        "letters": false,
+        "sounds": false,
+        "words": true,
+        "phrases": true,
+        "dialogue": true,
+        "grammar": true,
+        "reading": true
+       }
+      },
+      {
+       "id": "u06",
+       "title": {
+        "t": "Alışveriş ve tüketim",
+        "s": "خرید و مصرف",
+        "a": "audio/tr-fa/982e5b234655.mp3"
+       },
+       "img": "img/e/1f6cd.svg",
+       "emoji": "🛍️",
+       "goals": [
+        "قیمت و کیفیت دو جنس را با هم مقایسه کنم.",
+        "بگویم کدام از همه ارزان‌تر، بهتر یا گران‌تر است.",
+        "با «kadar»، «gibi» و پسوند ‎-ca / -ce‎ شباهت، برابری و نظرم را بیان کنم.",
+        "در فروشگاه درباره‌ی تخفیف، سایز، پرداخت و پس دادن جنس صحبت کنم."
+       ],
+       "has": {
+        "letters": false,
+        "sounds": false,
+        "words": true,
+        "phrases": true,
+        "dialogue": true,
+        "grammar": true,
+        "reading": true
+       }
+      },
+      {
+       "id": "u07",
+       "title": {
+        "t": "Teknoloji ve iletişim",
+        "s": "فناوری و ارتباطات",
+        "a": "audio/tr-fa/62f48dd26240.mp3"
+       },
+       "img": "img/e/1f4f1.svg",
+       "emoji": "📱",
+       "goals": [
+        "درباره‌ی گوشی، اینترنت و پیام‌رسان‌ها صحبت کنم.",
+        "بگویم کاری را به کسی دیگر سپرده‌ام: Telefonumu tamir ettirdim.",
+        "بگویم در گذشته چه کاری را توانستم یا نتوانستم انجام بدهم: gelebildim / gelemedim.",
+        "یک مشکل فنی را برای تعمیرکار توضیح بدهم."
+       ],
+       "has": {
+        "letters": false,
+        "sounds": false,
+        "words": true,
+        "phrases": true,
+        "dialogue": true,
+        "grammar": true,
+        "reading": true
+       }
+      },
+      {
+       "id": "u08",
+       "title": {
+        "t": "Aile ve ilişkiler",
+        "s": "خانواده و روابط",
+        "a": "audio/tr-fa/449ad08aa816.mp3"
+       },
+       "img": "img/e/1f46a.svg",
+       "emoji": "👪",
+       "goals": [
+        "اعضای خانواده‌ی بزرگ و نسبت‌های فامیلی را نام ببرم.",
+        "آدم‌ها را با جمله‌ی وصفی معرفی کنم: gelen adam، yanımda oturan kız.",
+        "درباره‌ی چیزهایی که انجام داده‌ام یا انجام خواهم داد بگویم: okuduğum kitap، gideceğimiz yer.",
+        "درباره‌ی رابطه‌ها، ازدواج و دورهمی‌های خانوادگی صحبت کنم."
+       ],
+       "has": {
+        "letters": false,
+        "sounds": false,
+        "words": true,
+        "phrases": true,
+        "dialogue": true,
+        "grammar": true,
+        "reading": true
+       }
+      },
+      {
+       "id": "u09",
+       "title": {
+        "t": "Kültür ve gelenekler",
+        "s": "فرهنگ و آداب و رسوم",
+        "a": "audio/tr-fa/e07956460ea9.mp3"
+       },
+       "img": "img/e/1f9ff.svg",
+       "emoji": "🧿",
+       "goals": [
+        "درباره‌ی رسم‌ها و جشن‌های ترکیه و ایران صحبت کنم.",
+        "با فعل مجهول بگویم کاری معمولاً چطور انجام می‌شود: Bayramda tatlı yenir.",
+        "فعل‌های بازتابی و دوطرفه را بشناسم و به کار ببرم: yıkanmak، giyinmek، görüşmek، tanışmak.",
+        "رسم‌های دو کشور را با هم مقایسه کنم."
+       ],
+       "has": {
+        "letters": false,
+        "sounds": false,
+        "words": true,
+        "phrases": true,
+        "dialogue": true,
+        "grammar": true,
+        "reading": true
+       }
+      },
+      {
+       "id": "u10",
+       "title": {
+        "t": "Gelecek planları ve dilekler",
+        "s": "برنامه‌های آینده و آرزوها",
+        "a": "audio/tr-fa/b32398000ea8.mp3"
+       },
+       "img": "img/e/1f320.svg",
+       "emoji": "🌠",
+       "goals": [
+        "درباره‌ی برنامه‌ها، هدف‌ها و رؤیاهایم برای آینده صحبت کنم.",
+        "با «keşke» آرزو یا حسرتم را بیان کنم: Keşke daha çok zamanım olsa.",
+        "جمله‌ی شرطی بسازم: Erken gelirsen beni görürsün.",
+        "با ‎-abilir‎ امکان و احتمال را بیان کنم: Yarın yağmur yağabilir."
+       ],
+       "has": {
+        "letters": false,
+        "sounds": false,
+        "words": true,
+        "phrases": true,
+        "dialogue": true,
+        "grammar": true,
+        "reading": true
+       }
+      }
+     ]
     },
     {
      "id": "B2",
      "name": "فوق متوسط",
-     "units": [],
-     "outline": "بحث و گفت‌وگو، موضوعات انتزاعی، دستور پیشرفته، متن‌های واقعی"
+     "units": [
+      {
+       "id": "u01",
+       "title": {
+        "t": "Medya ve haberler",
+        "s": "رسانه و اخبار",
+        "a": "audio/tr-fa/bb5b4d634702.mp3"
+       },
+       "img": "img/e/1f4f0.svg",
+       "emoji": "📰",
+       "goals": [
+        "حرف‌ها و خبرهای دیگران را به‌صورت غیرمستقیم نقل کنم (-dığını söyledi، diye).",
+        "با پسوند -mış خبری را که شنیده‌ام از چیزی که خودم دیده‌ام جدا کنم.",
+        "زبان خبرهای تلویزیون، روزنامه و شبکه‌های اجتماعی را بفهمم.",
+        "درباره‌ی اعتبار یک خبر و منبع آن نظر بدهم."
+       ],
+       "has": {
+        "letters": false,
+        "sounds": false,
+        "words": true,
+        "phrases": true,
+        "dialogue": true,
+        "grammar": true,
+        "reading": true
+       }
+      },
+      {
+       "id": "u02",
+       "title": {
+        "t": "Çevre ve iklim",
+        "s": "محیط زیست و اقلیم",
+        "a": "audio/tr-fa/75936a40a411.mp3"
+       },
+       "img": "img/e/1f30d.svg",
+       "emoji": "🌍",
+       "goals": [
+        "درباره‌ی مشکلات محیط زیست مثل آلودگی، خشکسالی و گرمایش جهانی صحبت کنم.",
+        "با حروف ربط دوتایی (hem…hem، ne…ne، ya…ya، gerek…gerek) جمله‌های دقیق‌تر بسازم.",
+        "با ise، oysa و halbuki دو وضعیت را مقایسه کنم یا تضاد را نشان دهم.",
+        "در یک بحث، موافقت یا مخالفتم را مؤدبانه بیان کنم."
+       ],
+       "has": {
+        "letters": false,
+        "sounds": false,
+        "words": true,
+        "phrases": true,
+        "dialogue": true,
+        "grammar": true,
+        "reading": true
+       }
+      },
+      {
+       "id": "u03",
+       "title": {
+        "t": "Eğitim",
+        "s": "آموزش و تحصیل",
+        "a": "audio/tr-fa/fef3ffaa7fca.mp3"
+       },
+       "img": "img/e/1f393.svg",
+       "emoji": "🎓",
+       "goals": [
+        "درباره‌ی نظام آموزشی، امتحان‌ها، بورسیه و تحصیلات دانشگاهی صحبت کنم.",
+        "با پسوند -dıkça بگویم «هرچه بیشتر…، بیشتر…» یا «هر بار که…».",
+        "با -dığı için، -dığı halde و -dığı sürece دلیل، تضاد و شرط را بیان کنم.",
+        "درباره‌ی روش‌های یادگیری (حفظ کردن یا فهمیدن) نظرم را بگویم."
+       ],
+       "has": {
+        "letters": false,
+        "sounds": false,
+        "words": true,
+        "phrases": true,
+        "dialogue": true,
+        "grammar": true,
+        "reading": true
+       }
+      },
+      {
+       "id": "u04",
+       "title": {
+        "t": "Ekonomi ve iş dünyası",
+        "s": "اقتصاد و دنیای کسب‌وکار",
+        "a": "audio/tr-fa/6386ba12a7fd.mp3"
+       },
+       "img": "img/e/1f4bc.svg",
+       "emoji": "💼",
+       "goals": [
+        "درباره‌ی تورم، قیمت‌ها، حقوق و وضعیت اقتصادی صحبت کنم.",
+        "با -mış olmalı، -(y)abilir و -acak gibi حدس بزنم و احتمال را بیان کنم.",
+        "با -sa bile و -sa da بگویم «حتی اگر…» و «با اینکه…».",
+        "یک خبر اقتصادی کوتاه درباره‌ی یک کسب‌وکار را بفهمم."
+       ],
+       "has": {
+        "letters": false,
+        "sounds": false,
+        "words": true,
+        "phrases": true,
+        "dialogue": true,
+        "grammar": true,
+        "reading": true
+       }
+      },
+      {
+       "id": "u05",
+       "title": {
+        "t": "Sağlık sistemi",
+        "s": "نظام سلامت",
+        "a": "audio/tr-fa/fb77e91e475b.mp3"
+       },
+       "img": "img/e/1f3e5.svg",
+       "emoji": "🏥",
+       "goals": [
+        "در بیمارستان و درمانگاه وقت بگیرم، مشکلم را توضیح دهم و درباره‌ی بیمه و درمان سؤال کنم.",
+        "با -saydı و -mış olsaydı درباره‌ی چیزهایی حرف بزنم که اتفاق نیفتاده‌اند (اگر… بودم، … می‌کردم).",
+        "با -mış gibi و -(ı)yormuş gibi بگویم «انگار که…» و «وانمود کرد که…».",
+        "تجربه‌ی خودم از نظام سلامت را تعریف کنم و با کشور دیگری مقایسه کنم."
+       ],
+       "has": {
+        "letters": false,
+        "sounds": false,
+        "words": true,
+        "phrases": true,
+        "dialogue": true,
+        "grammar": true,
+        "reading": true
+       }
+      },
+      {
+       "id": "u06",
+       "title": {
+        "t": "Göç ve toplum",
+        "s": "مهاجرت و جامعه",
+        "a": "audio/tr-fa/b9803628b99a.mp3"
+       },
+       "img": "img/e/1f9f3.svg",
+       "emoji": "🧳",
+       "goals": [
+        "درباره‌ی مهاجرت، دلایل و پیامدهای آن صحبت کنم و نظرم را بگویم.",
+        "با اسم‌مصدرهای -ma، -ış و -mak جمله‌های پیچیده‌تر بسازم.",
+        "با -masına rağmen تضاد را بیان کنم («با این‌که…»).",
+        "یک متن روایی درباره‌ی زندگی یک خانواده‌ی مهاجر را بفهمم."
+       ],
+       "has": {
+        "letters": false,
+        "sounds": false,
+        "words": true,
+        "phrases": true,
+        "dialogue": true,
+        "grammar": true,
+        "reading": true
+       }
+      },
+      {
+       "id": "u07",
+       "title": {
+        "t": "Bilim ve teknoloji",
+        "s": "علم و فناوری",
+        "a": "audio/tr-fa/5b6fb33339b6.mp3"
+       },
+       "img": "img/e/1f52c.svg",
+       "emoji": "🔬",
+       "goals": [
+        "درباره‌ی پیشرفت‌های علمی و فناوری صحبت کنم و خبرهای علمی را بفهمم.",
+        "با ساخت سببیِ مجهول (yaptırıldı، geliştirildi) بگویم کاری به سفارش کسی و به دست دیگری انجام شده است.",
+        "زبان رسمی و نوشتاری را با -makta / -mektedir تشخیص بدهم و به کار ببرم."
+       ],
+       "has": {
+        "letters": false,
+        "sounds": false,
+        "words": true,
+        "phrases": true,
+        "dialogue": true,
+        "grammar": true,
+        "reading": true
+       }
+      },
+      {
+       "id": "u08",
+       "title": {
+        "t": "Sanat ve edebiyat",
+        "s": "هنر و ادبیات",
+        "a": "audio/tr-fa/c9c1ab27e03b.mp3"
+       },
+       "img": "img/e/1f3a8.svg",
+       "emoji": "🎨",
+       "goals": [
+        "درباره‌ی کتاب، فیلم، تئاتر و نقاشی صحبت کنم و نقد کوتاهی بگویم.",
+        "با قیدهای فعلی -(y)arak، -(y)ıp و -casına جمله‌ها را به هم وصل کنم.",
+        "تفاوت -dığında، -(y)ınca و -dığı zaman را بدانم و درست به کار ببرم.",
+        "یک متن زندگی‌نامه‌ای درباره‌ی یک شاعر را بفهمم."
+       ],
+       "has": {
+        "letters": false,
+        "sounds": false,
+        "words": true,
+        "phrases": true,
+        "dialogue": true,
+        "grammar": true,
+        "reading": true
+       }
+      },
+      {
+       "id": "u09",
+       "title": {
+        "t": "Resmî yazışma ve kibarlık",
+        "s": "نامه‌نگاری رسمی و ادب",
+        "a": "audio/tr-fa/be6ba7217a9a.mp3"
+       },
+       "img": "img/e/2709.svg",
+       "emoji": "✉️",
+       "goals": [
+        "یک ایمیل یا نامه‌ی رسمی به ترکی بنویسم: خطاب، درخواست و پایان مؤدبانه.",
+        "درخواست‌هایم را با -(y)abilir misiniz، rica etmek و -sanız / -sam مؤدبانه بیان کنم.",
+        "با -mak üzere بگویم کاری در آستانه‌ی انجام است یا به چه منظوری انجام می‌شود.",
+        "در یک تماس تلفنی رسمی اطلاعات بگیرم و بدهم."
+       ],
+       "has": {
+        "letters": false,
+        "sounds": false,
+        "words": true,
+        "phrases": true,
+        "dialogue": true,
+        "grammar": true,
+        "reading": true
+       }
+      },
+      {
+       "id": "u10",
+       "title": {
+        "t": "Deyimler ve atasözleri",
+        "s": "اصطلاحات و ضرب‌المثل‌ها",
+        "a": "audio/tr-fa/4319d1fbf4b1.mp3"
+       },
+       "img": "img/e/1f9ff.svg",
+       "emoji": "🧿",
+       "goals": [
+        "معنا، معنای تحت‌اللفظی و کاربرد اصطلاحات پرکاربرد ترکی را بدانم و معادل فارسی‌شان را بشناسم.",
+        "چند ضرب‌المثل ترکی را در موقعیت مناسب به کار ببرم.",
+        "صفت‌های تأکیدی (bembeyaz، masmavi) و تکرارها (yavaş yavaş، eş dost) را بفهمم و به کار ببرم."
+       ],
+       "has": {
+        "letters": false,
+        "sounds": false,
+        "words": true,
+        "phrases": true,
+        "dialogue": true,
+        "grammar": true,
+        "reading": true
+       }
+      }
+     ]
     },
     {
      "id": "C1",

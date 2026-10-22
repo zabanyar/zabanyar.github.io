@@ -1,0 +1,696 @@
+{
+  "id": "u03",
+  "level": "B2",
+  "emoji": "🎓",
+  "title": {
+    "t": "Eğitim",
+    "s": "آموزش و تحصیل"
+  },
+  "goals": [
+    "درباره‌ی نظام آموزشی، امتحان‌ها، بورسیه و تحصیلات دانشگاهی صحبت کنم.",
+    "با پسوند -dıkça بگویم «هرچه بیشتر…، بیشتر…» یا «هر بار که…».",
+    "با -dığı için، -dığı halde و -dığı sürece دلیل، تضاد و شرط را بیان کنم.",
+    "درباره‌ی روش‌های یادگیری (حفظ کردن یا فهمیدن) نظرم را بگویم."
+  ],
+  "words": [
+    {
+      "id": "w01",
+      "t": "eğitim",
+      "s": "آموزش؛ تحصیل",
+      "pr": "اِئیتیم",
+      "emoji": "🎓",
+      "ex": {
+        "t": "Türkiye'de zorunlu eğitim on iki yıl sürüyor.",
+        "s": "در ترکیه آموزش اجباری دوازده سال طول می‌کشد."
+      }
+    },
+    {
+      "id": "w02",
+      "t": "müfredat",
+      "s": "برنامه‌ی درسی",
+      "pr": "موفرِدات",
+      "emoji": "",
+      "ex": {
+        "t": "Bakanlık bu yıl müfredatta önemli değişiklikler yaptı.",
+        "s": "وزارتخانه امسال تغییرات مهمی در برنامه‌ی درسی داد."
+      }
+    },
+    {
+      "id": "w03",
+      "t": "sınav",
+      "pl": "sınavlar",
+      "s": "امتحان؛ آزمون",
+      "pr": "سِناو",
+      "emoji": "📝",
+      "ex": {
+        "t": "Üniversite sınavına iki ay kaldı.",
+        "s": "دو ماه به کنکور مانده است."
+      }
+    },
+    {
+      "id": "w04",
+      "t": "burs",
+      "pl": "burslar",
+      "s": "بورسیه",
+      "pr": "بورس",
+      "emoji": "",
+      "ex": {
+        "t": "Maryam yüksek lisans için tam burs kazandı.",
+        "s": "مریم برای کارشناسی ارشد بورسیه‌ی کامل گرفت."
+      }
+    },
+    {
+      "id": "w05",
+      "t": "not ortalaması",
+      "s": "معدل",
+      "pr": "نُت اُرتالاماسِ",
+      "emoji": "",
+      "ex": {
+        "t": "Bu bursa başvurmak için not ortalamanızın en az 3,0 olması gerekiyor.",
+        "s": "برای درخواست این بورسیه، معدلتان باید دست‌کم ۳٫۰ باشد."
+      }
+    },
+    {
+      "id": "w06",
+      "t": "mezun olmak",
+      "s": "فارغ‌التحصیل شدن",
+      "pr": "مِزون اُلماک",
+      "emoji": "",
+      "ex": {
+        "t": "Ablam geçen yıl tıp fakültesinden mezun oldu.",
+        "s": "خواهرم پارسال از دانشکده‌ی پزشکی فارغ‌التحصیل شد."
+      }
+    },
+    {
+      "id": "w07",
+      "t": "başvuru",
+      "pl": "başvurular",
+      "s": "درخواست؛ ثبت‌نام",
+      "pr": "باشوورو",
+      "emoji": "",
+      "ex": {
+        "t": "Başvurular ayın on beşinde sona eriyor.",
+        "s": "مهلت ثبت‌نام پانزدهم ماه تمام می‌شود."
+      }
+    },
+    {
+      "id": "w08",
+      "t": "yüksek lisans",
+      "s": "کارشناسی ارشد",
+      "pr": "یوکسِک لیسانس",
+      "emoji": "",
+      "ex": {
+        "t": "Yüksek lisansımı Ankara'da yapmak istiyorum.",
+        "s": "می‌خواهم کارشناسی ارشدم را در آنکارا بخوانم."
+      }
+    },
+    {
+      "id": "w09",
+      "t": "uzaktan eğitim",
+      "s": "آموزش از راه دور",
+      "pr": "اوزاکتان اِئیتیم",
+      "emoji": "💻",
+      "ex": {
+        "t": "Pandemi döneminde okullar uzaktan eğitime geçti.",
+        "s": "در دوران همه‌گیری، مدرسه‌ها به آموزش از راه دور روی آوردند."
+      }
+    },
+    {
+      "id": "w10",
+      "t": "ezberlemek",
+      "s": "حفظ کردن",
+      "pr": "اِزبِرلِمِک",
+      "emoji": "",
+      "ex": {
+        "t": "Sadece ezberlemek yetmez, konuyu anlamak gerekir.",
+        "s": "فقط حفظ کردن کافی نیست، باید موضوع را فهمید."
+      }
+    },
+    {
+      "id": "w11",
+      "t": "devamsızlık",
+      "s": "غیبت (در کلاس)",
+      "pr": "دِوامسِزلِک",
+      "emoji": "",
+      "ex": {
+        "t": "Devamsızlık sınırını aşan öğrenciler sınıfta kalıyor.",
+        "s": "دانش‌آموزانی که بیش از حد مجاز غیبت کنند، مردود می‌شوند."
+      }
+    },
+    {
+      "id": "w12",
+      "t": "öğretim üyesi",
+      "pl": "öğretim üyeleri",
+      "s": "عضو هیئت علمی",
+      "pr": "اُرِتیم اویِسی",
+      "emoji": "",
+      "ex": {
+        "t": "Bölümümüzde yirmi öğretim üyesi var.",
+        "s": "گروه ما بیست عضو هیئت علمی دارد."
+      }
+    },
+    {
+      "id": "w13",
+      "t": "özel ders",
+      "pl": "özel dersler",
+      "s": "کلاس خصوصی",
+      "pr": "اُزِل دِرس",
+      "emoji": "",
+      "ex": {
+        "t": "Kızım matematikten özel ders alıyor.",
+        "s": "دخترم ریاضی را با معلم خصوصی کار می‌کند."
+      }
+    },
+    {
+      "id": "w14",
+      "t": "yurt",
+      "pl": "yurtlar",
+      "s": "خوابگاه",
+      "pr": "یورت",
+      "emoji": "",
+      "ex": {
+        "t": "İlk yıl üniversitenin yurdunda kaldım.",
+        "s": "سال اول در خوابگاه دانشگاه ماندم."
+      }
+    },
+    {
+      "id": "w15",
+      "t": "ders çalışmak",
+      "s": "درس خواندن",
+      "pr": "دِرس چالِشماک",
+      "emoji": "📚",
+      "ex": {
+        "t": "Sınavdan önce her gün kütüphanede ders çalışıyorum.",
+        "s": "قبل از امتحان هر روز در کتابخانه درس می‌خوانم."
+      }
+    }
+  ],
+  "phrases": [
+    {
+      "id": "p01",
+      "t": "Sınavın nasıl geçti?",
+      "s": "امتحانت چطور بود؟"
+    },
+    {
+      "id": "p02",
+      "t": "Elimden geleni yaptım.",
+      "s": "هر کاری از دستم برمی‌آمد کردم."
+    },
+    {
+      "id": "p03",
+      "t": "Kolay gelsin!",
+      "s": "خسته نباشی! (به کسی که مشغول کار است)"
+    },
+    {
+      "id": "p04",
+      "t": "Bol şans!",
+      "s": "موفق باشی!"
+    },
+    {
+      "id": "p05",
+      "t": "Önemli olan anlamak, ezberlemek değil.",
+      "s": "مهم فهمیدن است، نه حفظ کردن."
+    },
+    {
+      "id": "p06",
+      "t": "Kafam çok karışık.",
+      "s": "ذهنم خیلی درگیر و آشفته است."
+    },
+    {
+      "id": "p07",
+      "t": "Bu işin püf noktası ne?",
+      "s": "نکته‌ی کلیدیِ این کار چیست؟"
+    },
+    {
+      "id": "p08",
+      "t": "Ne kadar çok çalışırsan o kadar başarılı olursun.",
+      "s": "هرچه بیشتر تلاش کنی، موفق‌تر می‌شوی."
+    }
+  ],
+  "dialogue": {
+    "title": {
+      "t": "Burs başvurusu",
+      "s": "درخواست بورسیه"
+    },
+    "speakers": {
+      "A": {
+        "name": "Zeynep",
+        "voice": "f"
+      },
+      "B": {
+        "name": "Amir",
+        "voice": "m"
+      }
+    },
+    "lines": [
+      {
+        "sp": "A",
+        "t": "Merhaba Amir, kolay gelsin. Son zamanlarda seni kütüphanede çok sık görüyorum.",
+        "s": "سلام امیر، خسته نباشی. این اواخر خیلی زیاد در کتابخانه می‌بینمت."
+      },
+      {
+        "sp": "B",
+        "t": "Merhaba hocam. Türkiye Burslarına başvuracağım için hazırlanıyorum.",
+        "s": "سلام استاد. چون می‌خواهم برای بورسیه‌ی دولت ترکیه درخواست بدهم، دارم آماده می‌شوم."
+      },
+      {
+        "sp": "A",
+        "t": "Harika! Yüksek lisans için mi?",
+        "s": "عالی! برای کارشناسی ارشد؟"
+      },
+      {
+        "sp": "B",
+        "t": "Evet. Ama not ortalamam yüksek olduğu halde çok endişeliyim. Çok fazla başvuru oluyor.",
+        "s": "بله. ولی با اینکه معدلم بالاست، خیلی نگرانم. خیلی‌ها درخواست می‌دهند."
+      },
+      {
+        "sp": "A",
+        "t": "Endişelenme. Notların bu kadar iyi olduğu sürece şansın yüksek. Niyet mektubun hazır mı?",
+        "s": "نگران نباش. تا وقتی نمره‌هایت این‌قدر خوب است، شانست زیاد است. انگیزه‌نامه‌ات آماده است؟"
+      },
+      {
+        "sp": "B",
+        "t": "Yazmaya başladım ama yazdıkça daha çok şey eklemek istiyorum.",
+        "s": "شروع به نوشتن کرده‌ام، ولی هرچه بیشتر می‌نویسم، می‌خواهم چیزهای بیشتری اضافه کنم."
+      },
+      {
+        "sp": "A",
+        "t": "Bu çok normal. Önemli olan kısa ve net olmak. Tekrar okudukça neyin fazla olduğunu görürsün.",
+        "s": "این کاملاً طبیعی است. مهم این است که کوتاه و روشن باشد. هرچه بیشتر بازخوانی‌اش کنی، می‌بینی چه چیزی اضافه است."
+      },
+      {
+        "sp": "B",
+        "t": "Peki mülakat için ne önerirsiniz? Sizce Türkçem yeterli mi?",
+        "s": "خب برای مصاحبه چه پیشنهادی دارید؟ به نظرتان ترکی‌ام کافی است؟"
+      },
+      {
+        "sp": "A",
+        "t": "Türkçen gayet iyi. Konuştukça daha da rahatlayacaksın. Arkadaşlarınla pratik yapmaya devam et.",
+        "s": "ترکی‌ات خیلی خوب است. هرچه بیشتر صحبت کنی، راحت‌تر می‌شوی. به تمرین با دوستانت ادامه بده."
+      },
+      {
+        "sp": "B",
+        "t": "Çok teşekkür ederim hocam. Elimden geleni yapacağım.",
+        "s": "خیلی ممنونم استاد. هر کاری از دستم بربیاید می‌کنم."
+      },
+      {
+        "sp": "A",
+        "t": "Bol şans! Sonucu mutlaka bana da haber ver.",
+        "s": "موفق باشی! حتماً نتیجه را به من هم خبر بده."
+      }
+    ]
+  },
+  "grammar": [
+    {
+      "id": "g01",
+      "title": {
+        "t": "Okudukça öğreniyorum.",
+        "s": "«هرچه بیشتر…» و «هر بار که…»: پسوند -dıkça"
+      },
+      "explain": "پسوند **-dıkça** به ریشه‌ی فعل می‌چسبد. هماهنگی واکه‌ای آن چهارتایی است و بعد از صامت‌های بی‌واک (ç، f، h، k، p، s، ş، t) حرف d به **t** تبدیل می‌شود: **-dıkça / -dikçe / -dukça / -dükçe / -tıkça / -tikçe / -tukça / -tükçe**.\nدو معنای اصلی دارد:\n۱) **«هرچه بیشتر…، (بیشتر)…»**: دو چیز با هم زیاد یا کم می‌شوند. **Okudukça öğreniyorum.** = هرچه بیشتر می‌خوانم، بیشتر یاد می‌گیرم. اغلب در جمله‌ی دوم **daha** می‌آید: Konuştukça **daha** rahat oluyorsun.\n۲) **«هر بار که / هر وقت که»**: **Bu şarkıyı dinledikçe çocukluğum aklıma gelir.** = هر بار این آهنگ را گوش می‌دهم، یاد بچگی‌ام می‌افتم.\n-dıkça پسوند شخص نمی‌گیرد؛ فاعل را از ضمیر یا خود جمله می‌فهمیم: Ben çalıştıkça… / Çocuklar büyüdükçe…\nشکل منفی **-madıkça** یعنی «تا وقتی که … نکنی / مگر اینکه»: **Çalışmadıkça başarılı olamazsın.** = تا درس نخوانی، موفق نمی‌شوی.\nبه کلمه‌ی پرکاربرد **gittikçe** هم دقت کنید که معنایش «روزبه‌روز / به‌تدریج» است: Hava **gittikçe** ısınıyor.\nهمین معنا را با شرط هم می‌توان گفت: **Ne kadar çok okursan o kadar çok öğrenirsin.**",
+      "table": [
+        [
+          "okumak",
+          "okudukça"
+        ],
+        [
+          "gelmek",
+          "geldikçe"
+        ],
+        [
+          "konuşmak",
+          "konuştukça"
+        ],
+        [
+          "görmek",
+          "gördükçe"
+        ],
+        [
+          "büyümek",
+          "büyüdükçe"
+        ],
+        [
+          "gitmek",
+          "gittikçe"
+        ],
+        [
+          "anlamamak",
+          "anlamadıkça"
+        ]
+      ],
+      "examples": [
+        {
+          "t": "Kitap okudukça kelime hazinen genişler.",
+          "s": "هرچه بیشتر کتاب بخوانی، دایره‌ی لغاتت گسترده‌تر می‌شود."
+        },
+        {
+          "t": "Ders çalıştıkça konuları daha iyi anlıyorum.",
+          "s": "هرچه بیشتر درس می‌خوانم، مطالب را بهتر می‌فهمم."
+        },
+        {
+          "t": "Bu fotoğrafa baktıkça üniversite yıllarımı hatırlıyorum.",
+          "s": "هر بار به این عکس نگاه می‌کنم، سال‌های دانشگاهم یادم می‌آید."
+        },
+        {
+          "t": "Çocuklar büyüdükçe eğitim masrafları da artıyor.",
+          "s": "هرچه بچه‌ها بزرگ‌تر می‌شوند، هزینه‌های تحصیل هم بیشتر می‌شود."
+        },
+        {
+          "t": "Düzenli tekrar yapmadıkça kelimeleri unutursun.",
+          "s": "تا مرتب مرور نکنی، کلمه‌ها را فراموش می‌کنی."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "choice",
+          "t": "Türkçe ___ daha çok seviyorum.",
+          "options": [
+            "öğrendıkça",
+            "öğrendikçe",
+            "öğrentikçe"
+          ],
+          "answer": 1,
+          "s": "هرچه بیشتر ترکی یاد می‌گیرم، بیشتر دوستش دارم."
+        },
+        {
+          "type": "choice",
+          "t": "Hava ___ soğuyor; artık mont giymeden dışarı çıkamıyorum.",
+          "options": [
+            "gittikçe",
+            "gidince",
+            "gittiği için"
+          ],
+          "answer": 0,
+          "s": "هوا روزبه‌روز سردتر می‌شود؛ دیگر نمی‌توانم بدون کاپشن بیرون بروم."
+        },
+        {
+          "type": "choice",
+          "t": "Bu konuyu ___ sınavda başarılı olamazsın.",
+          "options": [
+            "anladıkça",
+            "anlamadıkçe",
+            "anlamadıkça"
+          ],
+          "answer": 2,
+          "s": "تا این موضوع را نفهمی، در امتحان موفق نمی‌شوی."
+        },
+        {
+          "type": "type",
+          "t": "Türkçe ___ daha rahat oluyorsun.",
+          "answer": [
+            "konuştukça"
+          ],
+          "s": "هرچه بیشتر ترکی حرف بزنی، راحت‌تر می‌شوی."
+        },
+        {
+          "type": "type",
+          "t": "Bu şarkıyı ___ annemi hatırlıyorum.",
+          "answer": [
+            "dinledikçe",
+            "duydukça"
+          ],
+          "s": "هر بار این آهنگ را می‌شنوم، یاد مادرم می‌افتم."
+        },
+        {
+          "type": "type",
+          "t": "Çocuklar ___ ihtiyaçları da değişiyor.",
+          "answer": [
+            "büyüdükçe"
+          ],
+          "s": "هرچه بچه‌ها بزرگ‌تر می‌شوند، نیازهایشان هم تغییر می‌کند."
+        },
+        {
+          "type": "order",
+          "t": "Okudukça daha çok şey öğreniyorum.",
+          "s": "هرچه بیشتر می‌خوانم، چیزهای بیشتری یاد می‌گیرم."
+        },
+        {
+          "type": "order",
+          "t": "Şehir büyüdükçe trafik de artıyor.",
+          "s": "هرچه شهر بزرگ‌تر می‌شود، ترافیک هم بیشتر می‌شود."
+        }
+      ]
+    },
+    {
+      "id": "g02",
+      "title": {
+        "t": "-dığı için / -dığı halde / -dığı sürece",
+        "s": "چون / با اینکه / تا وقتی که"
+      },
+      "explain": "این سه ساخت از صفت‌فعل **-dık** + **پسوند ملکی** درست می‌شوند (همان ساختی که در geldiğini söyledi دیدیم) و بعد یک کلمه‌ی ربط می‌آید:\n**-dığı için** = «چون / به این دلیل که»: Hasta **olduğum için** gelemedim. = چون مریض بودم، نتوانستم بیایم. برای آینده **-(y)acağı için**: Yarın sınavım **olacağı için** erken yatıyorum.\n**-dığı halde** = «با اینکه» (نتیجه برخلاف انتظار است): Çok **çalıştığı halde** sınavı geçemedi. = با اینکه خیلی درس خواند، امتحان را قبول نشد.\n**-dığı sürece** = «تا وقتی که / به شرط اینکه»: Düzenli **çalıştığın sürece** başarılı olursun. = تا وقتی مرتب درس بخوانی، موفق می‌شوی.\nپسوند ملکی با فاعل جمله‌ی فرعی هماهنگ است: olduğ**um**، olduğ**un**، olduğ**u**، olduğ**umuz**، olduğ**unuz**، olduk**ları**.\nنکته: برخلاف -dığını söyledi، در این ساخت‌ها فاعلِ اسمی معمولاً پسوند اضافه **نمی‌گیرد**: **Hava** soğuk olduğu için dışarı çıkmadık. (نه Havanın…)",
+      "table": [
+        [
+          "-dığı için",
+          "Yorgun olduğum için erken yattım."
+        ],
+        [
+          "-(y)acağı için",
+          "Erken kalkacağım için erken yatıyorum."
+        ],
+        [
+          "-dığı halde",
+          "Yorgun olduğum halde çalışmaya devam ettim."
+        ],
+        [
+          "-dığı sürece",
+          "Kurallara uyduğun sürece sorun yok."
+        ]
+      ],
+      "examples": [
+        {
+          "t": "Burs kazandığı için okul ücreti ödemiyor.",
+          "s": "چون بورسیه گرفته، شهریه نمی‌پردازد."
+        },
+        {
+          "t": "Emre çok zeki olduğu halde derslerine hiç önem vermiyor.",
+          "s": "امره با اینکه خیلی باهوش است، اصلاً به درس‌هایش اهمیت نمی‌دهد."
+        },
+        {
+          "t": "Devamsızlık sınırını aşmadığın sürece sınava girebilirsin.",
+          "s": "تا وقتی بیش از حد مجاز غیبت نکنی، می‌توانی در امتحان شرکت کنی."
+        },
+        {
+          "t": "Yağmur yağdığı için okul gezisi ertelendi.",
+          "s": "چون باران می‌بارید، اردوی مدرسه عقب افتاد."
+        },
+        {
+          "t": "Yarın erken kalkacağım için şimdi yatmam lazım.",
+          "s": "چون فردا باید زود بیدار شوم، الان باید بخوابم."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "choice",
+          "t": "Çok ___ sınavı geçemedi.",
+          "options": [
+            "çalıştığı için",
+            "çalıştığı halde",
+            "çalıştığı sürece"
+          ],
+          "answer": 1,
+          "s": "با اینکه خیلی درس خوانده بود، امتحان را قبول نشد."
+        },
+        {
+          "type": "choice",
+          "t": "Hasta ___ okula gidemedim.",
+          "options": [
+            "olduğum için",
+            "olduğum halde",
+            "olduğum sürece"
+          ],
+          "answer": 0,
+          "s": "چون مریض بودم، نتوانستم به مدرسه بروم."
+        },
+        {
+          "type": "choice",
+          "t": "Kurallara ___ burada kalabilirsin.",
+          "options": [
+            "uyduğun halde",
+            "uymadığın için",
+            "uyduğun sürece"
+          ],
+          "answer": 2,
+          "s": "تا وقتی به قوانین پایبند باشی، می‌توانی این‌جا بمانی."
+        },
+        {
+          "type": "choice",
+          "t": "Biz geç ___ toplantı bizsiz başladı.",
+          "options": [
+            "kaldığımız için",
+            "kaldığı için",
+            "kaldığınız için"
+          ],
+          "answer": 0,
+          "s": "چون ما دیر کردیم، جلسه بدون ما شروع شد."
+        },
+        {
+          "type": "type",
+          "t": "Elif üç yıldır Almanya'da ___ halde hâlâ Almanca konuşamıyor.",
+          "answer": [
+            "yaşadığı",
+            "oturduğu"
+          ],
+          "s": "الیف با اینکه سه سال است در آلمان زندگی می‌کند، هنوز نمی‌تواند آلمانی حرف بزند."
+        },
+        {
+          "type": "type",
+          "t": "Burs ___ için ailesinden para istemiyor.",
+          "answer": [
+            "aldığı",
+            "kazandığı"
+          ],
+          "s": "چون بورسیه می‌گیرد، از خانواده‌اش پول نمی‌خواهد."
+        },
+        {
+          "type": "type",
+          "t": "Düzenli ders ___ sürece başarılı olursun.",
+          "answer": [
+            "çalıştığın"
+          ],
+          "s": "تا وقتی مرتب درس بخوانی، موفق می‌شوی."
+        },
+        {
+          "type": "order",
+          "t": "Yağmur yağdığı için evde kaldık.",
+          "s": "چون باران می‌بارید، در خانه ماندیم."
+        }
+      ]
+    }
+  ],
+  "reading": {
+    "title": {
+      "t": "Ezber mi, anlamak mı?",
+      "s": "حفظ کردن یا فهمیدن؟"
+    },
+    "text": [
+      {
+        "t": "Yirmi yıldır lise öğretmeniyim ve her yıl aynı soruyla karşılaşıyorum: “Hocam, bu sınavda çıkacak mı?”",
+        "s": "بیست سال است معلم دبیرستانم و هر سال با یک سؤال تکراری روبه‌رو می‌شوم: «خانم، این توی امتحان می‌آید؟»"
+      },
+      {
+        "t": "Öğrenciler sınav odaklı bir sistemde büyüdükleri için konuları anlamak yerine ezberlemeyi tercih ediyor.",
+        "s": "دانش‌آموزان چون در نظامی امتحان‌محور بزرگ شده‌اند، به‌جای فهمیدن مطالب، حفظ کردن را ترجیح می‌دهند."
+      },
+      {
+        "t": "Onları suçlayamam; ben de öğrenciyken aynısını yapıyordum.",
+        "s": "نمی‌توانم سرزنششان کنم؛ من هم وقتی دانش‌آموز بودم، همین کار را می‌کردم."
+      },
+      {
+        "t": "Ancak ezberlenen bilgi, kullanılmadığı sürece birkaç hafta içinde unutuluyor.",
+        "s": "اما اطلاعاتی که حفظ می‌شود، تا وقتی به کار نرود، ظرف چند هفته فراموش می‌شود."
+      },
+      {
+        "t": "Bir konuyu gerçekten anladığımızda ise onu başka konularla ilişkilendirebiliyoruz.",
+        "s": "اما وقتی موضوعی را واقعاً می‌فهمیم، می‌توانیم آن را به موضوع‌های دیگر ربط دهیم."
+      },
+      {
+        "t": "Bu yüzden derslerimde öğrencilerime sık sık “Neden?” diye soruyorum.",
+        "s": "به همین دلیل در کلاس‌هایم مدام از شاگردانم می‌پرسم: «چرا؟»"
+      },
+      {
+        "t": "İlk başta bu soru onları rahatsız ediyor, çünkü doğru cevabı ezberledikleri halde nedenini açıklayamıyorlar.",
+        "s": "اول کار این سؤال کلافه‌شان می‌کند، چون با اینکه جواب درست را حفظ کرده‌اند، نمی‌توانند دلیلش را توضیح دهند."
+      },
+      {
+        "t": "Ama ben soru sordukça onların merakı artıyor ve derse daha aktif katılıyorlar.",
+        "s": "اما هرچه بیشتر سؤال می‌کنم، کنجکاوی‌شان بیشتر می‌شود و فعال‌تر در کلاس شرکت می‌کنند."
+      },
+      {
+        "t": "Geçen yıl bir öğrencim, matematiği hiç sevmediği halde üniversitede mühendislik okumaya karar verdi.",
+        "s": "پارسال یکی از شاگردانم با اینکه اصلاً ریاضی را دوست نداشت، تصمیم گرفت در دانشگاه مهندسی بخواند."
+      },
+      {
+        "t": "Bana, problemlerin mantığını anladıkça matematiği sevmeye başladığını söyledi.",
+        "s": "به من گفت که هرچه منطق مسئله‌ها را بیشتر فهمیده، کم‌کم به ریاضی علاقه‌مند شده است."
+      },
+      {
+        "t": "Bence iyi eğitim, öğrenciye ne düşüneceğini değil, nasıl düşüneceğini öğretir.",
+        "s": "به نظر من آموزش خوب به دانش‌آموز یاد می‌دهد چطور فکر کند، نه اینکه به چه فکر کند."
+      }
+    ],
+    "questions": [
+      {
+        "q": {
+          "t": "Yazar ne iş yapıyor?",
+          "s": "نویسنده چه کاره است؟"
+        },
+        "options": [
+          "Lise öğretmeni",
+          "Üniversite öğrencisi",
+          "Mühendis"
+        ],
+        "answer": 0
+      },
+      {
+        "q": {
+          "t": "Yazara göre öğrenciler neden ezberlemeyi tercih ediyor?",
+          "s": "به نظر نویسنده، چرا دانش‌آموزان حفظ کردن را ترجیح می‌دهند؟"
+        },
+        "options": [
+          "Ezber daha eğlenceli olduğu için",
+          "Sınav odaklı bir sistemde büyüdükleri için",
+          "Öğretmenleri böyle istediği için"
+        ],
+        "answer": 1
+      },
+      {
+        "q": {
+          "t": "Yazar derslerinde öğrencilere sık sık ne soruyor?",
+          "s": "نویسنده در کلاس‌هایش مدام از دانش‌آموزان چه می‌پرسد؟"
+        },
+        "options": [
+          "“Neden?”",
+          "“Sınavda çıkacak mı?”",
+          "“Ödevini yaptın mı?”"
+        ],
+        "answer": 0
+      },
+      {
+        "q": {
+          "t": "Yazarın öğrencisi üniversitede ne okumaya karar verdi?",
+          "s": "شاگرد نویسنده تصمیم گرفت در دانشگاه چه رشته‌ای بخواند؟"
+        },
+        "options": [
+          "Tıp",
+          "Mühendislik",
+          "Öğretmenlik"
+        ],
+        "answer": 1
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "t": "Okudukça daha çok merak ediyorum.",
+      "s": "هرچه بیشتر می‌خوانم، کنجکاوتر می‌شوم."
+    },
+    {
+      "t": "Sınav yaklaştıkça heyecanım artıyor.",
+      "s": "هرچه امتحان نزدیک‌تر می‌شود، دلشوره‌ام بیشتر می‌شود."
+    },
+    {
+      "t": "Burs kazandığım için çok mutluyum.",
+      "s": "چون بورسیه گرفته‌ام، خیلی خوشحالم."
+    },
+    {
+      "t": "Yorgun olduğu halde ödevini bitirdi.",
+      "s": "با اینکه خسته بود، تکلیفش را تمام کرد."
+    },
+    {
+      "t": "Kurallara uyduğunuz sürece sorun yok.",
+      "s": "تا وقتی به قوانین پایبند باشید، مشکلی نیست."
+    },
+    {
+      "t": "Yüksek lisans için yurt dışına gitmek istiyorum.",
+      "s": "می‌خواهم برای کارشناسی ارشد به خارج از کشور بروم."
+    },
+    {
+      "t": "Uzaktan eğitim herkes için uygun değil.",
+      "s": "آموزش از راه دور برای همه مناسب نیست."
+    },
+    {
+      "t": "Hava gittikçe soğuyor.",
+      "s": "هوا روزبه‌روز سردتر می‌شود."
+    }
+  ]
+}

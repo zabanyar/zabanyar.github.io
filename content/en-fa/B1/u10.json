@@ -1,0 +1,698 @@
+{
+  "id": "u10",
+  "level": "B1",
+  "emoji": "🤖",
+  "title": {
+    "t": "The future and technology",
+    "s": "آینده و فناوری"
+  },
+  "goals": [
+    "می‌توانم درباره‌ی فناوری و زندگی در آینده پیش‌بینی کنم.",
+    "می‌توانم میزان اطمینانم را با will، might، may و be likely to نشان دهم.",
+    "می‌توانم فعل‌های عبارتی رایج مثل find out، give up و set up را به کار ببرم.",
+    "می‌توانم درباره‌ی مزایا و معایب فناوری نظر بدهم."
+  ],
+  "words": [
+    {
+      "id": "w01",
+      "t": "artificial intelligence",
+      "s": "هوش مصنوعی (به‌اختصار AI)",
+      "pr": "آرتیفیشِل اینتِلیجِنس",
+      "emoji": "",
+      "ex": {
+        "t": "Artificial intelligence can already translate texts in seconds.",
+        "s": "هوش مصنوعی همین حالا هم می‌تواند متن‌ها را در چند ثانیه ترجمه کند."
+      }
+    },
+    {
+      "id": "w02",
+      "t": "robot",
+      "pl": "robots",
+      "s": "ربات",
+      "pr": "روبات",
+      "emoji": "🤖",
+      "ex": {
+        "t": "This robot can clean the whole house.",
+        "s": "این ربات می‌تواند کل خانه را تمیز کند."
+      }
+    },
+    {
+      "id": "w03",
+      "t": "device",
+      "pl": "devices",
+      "s": "دستگاه، وسیله‌ی الکترونیکی",
+      "pr": "دیوایس",
+      "emoji": "📱",
+      "ex": {
+        "t": "How many devices do you have at home?",
+        "s": "در خانه چند دستگاه الکترونیکی دارید؟"
+      }
+    },
+    {
+      "id": "w04",
+      "t": "app",
+      "pl": "apps",
+      "s": "اپ، برنامه‌ی کاربردی",
+      "pr": "اَپ",
+      "emoji": "",
+      "ex": {
+        "t": "I use an app to learn new words.",
+        "s": "برای یاد گرفتن کلمه‌های جدید از یک اپ استفاده می‌کنم."
+      }
+    },
+    {
+      "id": "w05",
+      "t": "download",
+      "s": "دانلود کردن، بارگیری کردن",
+      "pr": "دائونلود",
+      "emoji": "📥",
+      "ex": {
+        "t": "You can download the app for free.",
+        "s": "می‌توانی این اپ را رایگان دانلود کنی."
+      }
+    },
+    {
+      "id": "w06",
+      "t": "update",
+      "pl": "updates",
+      "s": "به‌روزرسانی؛ به‌روز کردن",
+      "pr": "آپدِیت",
+      "emoji": "🔄",
+      "ex": {
+        "t": "The app stopped working after the last update.",
+        "s": "اپ بعد از آخرین به‌روزرسانی از کار افتاد."
+      }
+    },
+    {
+      "id": "w07",
+      "t": "electric car",
+      "pl": "electric cars",
+      "s": "خودروی برقی",
+      "pr": "ایلِکتْریک کار",
+      "emoji": "🚗",
+      "ex": {
+        "t": "Electric cars are becoming cheaper every year.",
+        "s": "خودروهای برقی هر سال ارزان‌تر می‌شوند."
+      }
+    },
+    {
+      "id": "w08",
+      "t": "invention",
+      "pl": "inventions",
+      "s": "اختراع",
+      "pr": "اینوِنشِن",
+      "emoji": "💡",
+      "ex": {
+        "t": "The smartphone is one of the most important inventions of our time.",
+        "s": "گوشی هوشمند یکی از مهم‌ترین اختراع‌های دوران ماست."
+      }
+    },
+    {
+      "id": "w09",
+      "t": "replace",
+      "s": "جایگزین کردن، جای ... را گرفتن",
+      "pr": "ریپْلِیس",
+      "emoji": "",
+      "ex": {
+        "t": "Will robots replace teachers one day?",
+        "s": "آیا روزی ربات‌ها جای معلم‌ها را می‌گیرند؟"
+      }
+    },
+    {
+      "id": "w10",
+      "t": "online",
+      "s": "آنلاین، اینترنتی",
+      "pr": "آن‌لاین",
+      "emoji": "🌐",
+      "ex": {
+        "t": "More and more people work online.",
+        "s": "آدم‌های بیشتر و بیشتری به‌صورت آنلاین کار می‌کنند."
+      }
+    },
+    {
+      "id": "w11",
+      "t": "password",
+      "pl": "passwords",
+      "s": "رمز عبور",
+      "pr": "پَسوِرد",
+      "emoji": "🔑",
+      "ex": {
+        "t": "Never share your password with anyone.",
+        "s": "هیچ‌وقت رمز عبورت را به کسی نده."
+      }
+    },
+    {
+      "id": "w12",
+      "t": "battery",
+      "pl": "batteries",
+      "s": "باتری",
+      "pr": "بَتِری",
+      "emoji": "🔋",
+      "ex": {
+        "t": "My battery is almost dead.",
+        "s": "باتری‌ام تقریباً تمام شده."
+      }
+    },
+    {
+      "id": "w13",
+      "t": "smart home",
+      "pl": "smart homes",
+      "s": "خانه‌ی هوشمند",
+      "pr": "سْمارت هوم",
+      "emoji": "🏠",
+      "ex": {
+        "t": "In a smart home, you can turn on the lights with your voice.",
+        "s": "در خانه‌ی هوشمند می‌توانی چراغ‌ها را با صدایت روشن کنی."
+      }
+    },
+    {
+      "id": "w14",
+      "t": "in the future",
+      "s": "در آینده",
+      "pr": "این ذِ فیوچِر",
+      "emoji": "🔮",
+      "ex": {
+        "t": "In the future, people might live on Mars.",
+        "s": "شاید در آینده آدم‌ها روی مریخ زندگی کنند."
+      }
+    },
+    {
+      "id": "w15",
+      "t": "probably",
+      "s": "احتمالاً",
+      "pr": "پْرابابْلی",
+      "emoji": "",
+      "ex": {
+        "t": "It will probably rain this weekend.",
+        "s": "احتمالاً این آخر هفته باران می‌بارد."
+      }
+    }
+  ],
+  "phrases": [
+    {
+      "id": "p01",
+      "t": "In my opinion, …",
+      "s": "به نظر من، ...",
+      "pr": "این مای اِپینیِن، …"
+    },
+    {
+      "id": "p02",
+      "t": "I doubt it.",
+      "s": "بعید می‌دانم.",
+      "pr": "آی دائوت ایت"
+    },
+    {
+      "id": "p03",
+      "t": "There's a good chance that…",
+      "s": "احتمال زیادی هست که...",
+      "pr": "ذِرز اِ گود چَنس ذَت…"
+    },
+    {
+      "id": "p04",
+      "t": "It's hard to say.",
+      "s": "نمی‌شود با قطعیت گفت.",
+      "pr": "ایتس هارد تو سِی"
+    },
+    {
+      "id": "p05",
+      "t": "On the one hand…, on the other hand…",
+      "s": "از یک طرف...، از طرف دیگر...",
+      "pr": "آن ذِ وان هَند…، آن ذی آذِر هَند…"
+    },
+    {
+      "id": "p06",
+      "t": "I'm sure it will happen.",
+      "s": "مطمئنم که این اتفاق می‌افتد.",
+      "pr": "آیم شور ایت ویل هَپِن"
+    },
+    {
+      "id": "p07",
+      "t": "Who knows?",
+      "s": "کسی چه می‌داند؟",
+      "pr": "هو نوز؟"
+    },
+    {
+      "id": "p08",
+      "t": "That sounds a bit scary.",
+      "s": "کمی ترسناک به نظر می‌رسد.",
+      "pr": "ذَت سائوندز اِ بیت سْکِری"
+    }
+  ],
+  "dialogue": {
+    "title": {
+      "t": "Robots at home?",
+      "s": "ربات در خانه؟"
+    },
+    "speakers": {
+      "A": {
+        "name": "Emma",
+        "voice": "f"
+      },
+      "B": {
+        "name": "Amir",
+        "voice": "m"
+      }
+    },
+    "lines": [
+      {
+        "sp": "A",
+        "t": "Have you seen this article? It says robots will do most of our housework by 2040.",
+        "s": "این مقاله را دیده‌ای؟ نوشته تا سال ۲۰۴۰ ربات‌ها بیشترِ کارهای خانه‌ی ما را انجام خواهند داد."
+      },
+      {
+        "sp": "B",
+        "t": "I doubt it. Robots are still very expensive. But prices might come down.",
+        "s": "بعید می‌دانم. ربات‌ها هنوز خیلی گران‌اند. ولی شاید قیمت‌ها پایین بیاید."
+      },
+      {
+        "sp": "A",
+        "t": "My brother has just set up a smart home system. He controls everything with his phone.",
+        "s": "برادرم تازه یک سیستم خانه‌ی هوشمند راه انداخته. همه‌چیز را با گوشی‌اش کنترل می‌کند."
+      },
+      {
+        "sp": "B",
+        "t": "That sounds a bit scary. What if someone found out his password?",
+        "s": "کمی ترسناک به نظر می‌رسد. اگر کسی رمزش را بفهمد چه؟"
+      },
+      {
+        "sp": "A",
+        "t": "He's very careful. Anyway, do you think AI will replace teachers?",
+        "s": "او خیلی مراقب است. به هر حال، فکر می‌کنی هوش مصنوعی جای معلم‌ها را بگیرد؟"
+      },
+      {
+        "sp": "B",
+        "t": "It's hard to say. AI may help teachers, but it's unlikely to replace them.",
+        "s": "نمی‌شود با قطعیت گفت. هوش مصنوعی ممکن است به معلم‌ها کمک کند، اما بعید است جایشان را بگیرد."
+      },
+      {
+        "sp": "A",
+        "t": "I agree. Children need real people. What about you? Will you buy an electric car?",
+        "s": "موافقم. بچه‌ها به آدم‌های واقعی نیاز دارند. تو چطور؟ خودروی برقی می‌خری؟"
+      },
+      {
+        "sp": "B",
+        "t": "Probably. My old car keeps breaking down, so I'm going to look into it next year.",
+        "s": "احتمالاً. ماشین قدیمی‌ام مدام خراب می‌شود، برای همین سال بعد می‌خواهم درباره‌اش تحقیق کنم."
+      },
+      {
+        "sp": "A",
+        "t": "Good idea. They're likely to get cheaper soon.",
+        "s": "فکر خوبی است. احتمالاً به‌زودی ارزان‌تر می‌شوند."
+      },
+      {
+        "sp": "B",
+        "t": "Let's hope so! Who knows what the world will look like in twenty years?",
+        "s": "امیدوارم! کسی چه می‌داند دنیا بیست سال دیگر چه شکلی خواهد بود؟"
+      }
+    ]
+  },
+  "grammar": [
+    {
+      "id": "g01",
+      "title": {
+        "t": "Predictions: will, might, may, be likely to",
+        "s": "پیش‌بینی: will، might، may و be likely to"
+      },
+      "explain": "برای پیش‌بینی آینده، بسته به اینکه چقدر **مطمئن** هستیم، از ساختارهای مختلفی استفاده می‌کنیم:\n**will / won't** = مطمئن هستیم: **AI will change our lives.** با **probably** (احتمالاً) و **definitely** (قطعاً) می‌توان آن را دقیق‌تر کرد. ترتیب را دقت کنید: **will probably** اما **probably won't**.\n**be likely to** = احتمالش زیاد است: **It's likely to rain tomorrow.** (احتمالاً فردا باران می‌آید.) منفی: **be unlikely to** (بعید است).\n**may / might** = شاید (مطمئن نیستیم): **We might move to a bigger house.** (شاید به خانه‌ی بزرگ‌تری برویم.) بعد از may / might **شکل ساده‌ی فعل** می‌آید، بدون to و بدون s: **She might come.** (نه She mights come / might to come). منفی: **may not / might not**.\nبرای **سؤال** درباره‌ی احتمال، معمولاً از **will** یا **be likely to** استفاده می‌کنیم، نه may: **Do you think robots will…?** / **Is it likely to…?**",
+      "table": [
+        [
+          "very sure",
+          "will / won't",
+          "AI will change our lives."
+        ],
+        [
+          "quite sure",
+          "will probably / be likely to",
+          "Cars are likely to get cheaper."
+        ],
+        [
+          "not sure",
+          "may / might",
+          "We might live on Mars one day."
+        ],
+        [
+          "probably not",
+          "probably won't / be unlikely to",
+          "Robots are unlikely to replace doctors."
+        ]
+      ],
+      "examples": [
+        {
+          "t": "I think we'll all have electric cars in twenty years.",
+          "s": "فکر می‌کنم بیست سال دیگر همه‌ی ما خودروی برقی خواهیم داشت."
+        },
+        {
+          "t": "It might rain this afternoon, so take an umbrella.",
+          "s": "شاید امروز بعدازظهر باران ببارد؛ پس چتر بردار."
+        },
+        {
+          "t": "The new phone is likely to be very expensive.",
+          "s": "احتمالاً گوشی جدید خیلی گران خواهد بود."
+        },
+        {
+          "t": "I may not have time to call you tonight.",
+          "s": "شاید امشب وقت نکنم به تو زنگ بزنم."
+        },
+        {
+          "t": "Robots probably won't replace nurses.",
+          "s": "ربات‌ها احتمالاً جای پرستارها را نمی‌گیرند."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "choice",
+          "t": "Take a jacket. It ___ get cold tonight.",
+          "options": [
+            "might",
+            "will to",
+            "is likely"
+          ],
+          "answer": 0,
+          "s": "ژاکت بردار. شاید امشب هوا سرد شود."
+        },
+        {
+          "type": "choice",
+          "t": "Robots are likely ___ more jobs in the future.",
+          "options": [
+            "do",
+            "to do",
+            "doing"
+          ],
+          "answer": 1,
+          "s": "احتمالاً ربات‌ها در آینده کارهای بیشتری انجام خواهند داد."
+        },
+        {
+          "type": "choice",
+          "t": "I'm not sure, but we ___ go to Shiraz next week.",
+          "options": [
+            "will definitely",
+            "might",
+            "are certain to"
+          ],
+          "answer": 1,
+          "s": "مطمئن نیستم، اما شاید هفته‌ی آینده به شیراز برویم."
+        },
+        {
+          "type": "type",
+          "t": "Prices ___ probably go up next year.",
+          "answer": [
+            "will"
+          ],
+          "s": "احتمالاً سال آینده قیمت‌ها بالا می‌رود."
+        },
+        {
+          "type": "type",
+          "t": "She ___ not come to the meeting. She's very busy.",
+          "answer": [
+            "may",
+            "might"
+          ],
+          "s": "شاید او به جلسه نیاید. خیلی سرش شلوغ است."
+        },
+        {
+          "type": "choice",
+          "t": "He probably ___ win the game. He isn't a very good player.",
+          "options": [
+            "won't",
+            "will",
+            "might"
+          ],
+          "answer": 0,
+          "s": "او احتمالاً بازی را نمی‌برد. بازیکن خیلی خوبی نیست."
+        },
+        {
+          "type": "order",
+          "t": "Electric cars are likely to get cheaper.",
+          "s": "احتمالاً خودروهای برقی ارزان‌تر می‌شوند."
+        },
+        {
+          "type": "type",
+          "t": "It's ___ to snow in Tehran in August.",
+          "answer": [
+            "unlikely"
+          ],
+          "s": "بعید است مرداد در تهران برف ببارد."
+        }
+      ]
+    },
+    {
+      "id": "g02",
+      "title": {
+        "t": "Common phrasal verbs",
+        "s": "فعل‌های عبارتی رایج"
+      },
+      "explain": "**فعل عبارتی** (phrasal verb) از یک فعل + یک کلمه‌ی کوچک مثل **up، out، off، on، down، for** ساخته می‌شود و معمولاً **معنای تازه‌ای** دارد که از تک‌تک کلمه‌ها حدس زده نمی‌شود: **give** (دادن) + **up** ← **give up** (دست کشیدن، ترک کردن). فارسی هم فعل‌های مرکب مشابهی دارد، مثل «از پسِ کاری برآمدن».\nفعل‌های پرکاربرد: **find out** (فهمیدن، پی بردن)، **give up** (دست کشیدن، ترک کردن)، **set up** (راه‌اندازی کردن)، **turn on / off** (روشن / خاموش کردن)، **look for** (دنبالِ ... گشتن)، **run out of** (تمام شدنِ چیزی)، **break down** (خراب شدن).\n**جای مفعول:** در بسیاری از این فعل‌ها، مفعولِ **اسمی** می‌تواند وسط یا آخر بیاید: **turn the TV off** / **turn off the TV**. اما اگر مفعول **ضمیر** باشد (it، them، him…)، حتماً **وسط** می‌آید: **turn it off** (نه turn off it).\nبعضی فعل‌ها هیچ‌وقت جدا نمی‌شوند: **look for it** (نه look it for).",
+      "table": [
+        [
+          "find out",
+          "I found out the truth."
+        ],
+        [
+          "give up",
+          "Don't give up!"
+        ],
+        [
+          "set up",
+          "We set up a new website."
+        ],
+        [
+          "turn off",
+          "Turn it off, please."
+        ],
+        [
+          "run out of",
+          "We've run out of milk."
+        ]
+      ],
+      "examples": [
+        {
+          "t": "I found out that my flight was canceled.",
+          "s": "فهمیدم که پروازم لغو شده است."
+        },
+        {
+          "t": "My father gave up smoking ten years ago.",
+          "s": "پدرم ده سال پیش سیگار را ترک کرد."
+        },
+        {
+          "t": "Can you help me set up my new laptop?",
+          "s": "می‌توانی در راه‌اندازی لپ‌تاپ جدیدم کمکم کنی؟"
+        },
+        {
+          "t": "My phone has run out of battery.",
+          "s": "شارژ گوشی‌ام تمام شده است."
+        },
+        {
+          "t": "Please turn off your phones during the lesson.",
+          "s": "لطفاً در طول درس گوشی‌هایتان را خاموش کنید."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "choice",
+          "t": "Learning to code is hard, but don't ___ up!",
+          "options": [
+            "give",
+            "find",
+            "set"
+          ],
+          "answer": 0,
+          "s": "یاد گرفتن برنامه‌نویسی سخت است، اما دست نکش!"
+        },
+        {
+          "type": "choice",
+          "t": "I need to find ___ what time the store opens.",
+          "options": [
+            "up",
+            "out",
+            "off"
+          ],
+          "answer": 1,
+          "s": "باید بفهمم مغازه چه ساعتی باز می‌شود."
+        },
+        {
+          "type": "type",
+          "t": "It took us two hours to set ___ the new printer.",
+          "answer": [
+            "up"
+          ],
+          "s": "راه‌اندازی چاپگر جدید دو ساعت از ما وقت گرفت."
+        },
+        {
+          "type": "choice",
+          "t": "The TV is too loud. Can you turn ___ down?",
+          "options": [
+            "it",
+            "off",
+            "on"
+          ],
+          "answer": 0,
+          "s": "صدای تلویزیون خیلی بلند است. می‌توانی کمش کنی؟"
+        },
+        {
+          "type": "type",
+          "t": "We've run ___ of coffee. Can you buy some?",
+          "answer": [
+            "out"
+          ],
+          "s": "قهوه‌مان تمام شده. می‌توانی کمی بخری؟"
+        },
+        {
+          "type": "choice",
+          "t": "I'm looking ___ my keys. Have you seen them?",
+          "options": [
+            "after",
+            "for",
+            "up"
+          ],
+          "answer": 1,
+          "s": "دنبال کلیدهایم می‌گردم. آن‌ها را دیده‌ای؟"
+        },
+        {
+          "type": "order",
+          "t": "Please turn it off before you leave.",
+          "s": "لطفاً قبل از رفتن خاموشش کن."
+        },
+        {
+          "type": "type",
+          "t": "Our car broke ___ on the way to work.",
+          "answer": [
+            "down"
+          ],
+          "s": "ماشینمان در راه محل کار خراب شد."
+        }
+      ]
+    }
+  ],
+  "reading": {
+    "title": {
+      "t": "What will life be like in 2050?",
+      "s": "زندگی در سال ۲۰۵۰ چگونه خواهد بود؟"
+    },
+    "text": [
+      {
+        "t": "Experts have made many predictions about how technology will change our lives by 2050.",
+        "s": "کارشناسان پیش‌بینی‌های زیادی کرده‌اند درباره‌ی اینکه فناوری تا سال ۲۰۵۰ زندگی ما را چگونه تغییر خواهد داد."
+      },
+      {
+        "t": "Most of them agree that electric cars will replace gasoline cars in many countries.",
+        "s": "بیشترشان قبول دارند که در بسیاری از کشورها خودروهای برقی جای خودروهای بنزینی را خواهند گرفت."
+      },
+      {
+        "t": "Many people are likely to work from home, so cities might become quieter.",
+        "s": "احتمالاً بسیاری از مردم از خانه کار خواهند کرد؛ برای همین شاید شهرها آرام‌تر شوند."
+      },
+      {
+        "t": "In smart homes, your fridge may find out which foods you have run out of and order them for you.",
+        "s": "در خانه‌های هوشمند، شاید یخچالتان بفهمد چه خوراکی‌هایی تمام شده و آن‌ها را برایتان سفارش دهد."
+      },
+      {
+        "t": "Doctors will probably use AI to find diseases earlier.",
+        "s": "پزشکان احتمالاً از هوش مصنوعی برای تشخیص زودتر بیماری‌ها استفاده خواهند کرد."
+      },
+      {
+        "t": "However, robots are unlikely to replace nurses, because patients need human care.",
+        "s": "با این حال، بعید است ربات‌ها جای پرستاران را بگیرند، چون بیماران به مراقبت انسانی نیاز دارند."
+      },
+      {
+        "t": "Not everyone is excited about these changes.",
+        "s": "همه از این تغییرات هیجان‌زده نیستند."
+      },
+      {
+        "t": "Some experts are worried that people might spend even more time looking at screens.",
+        "s": "برخی کارشناسان نگران‌اند که مردم باز هم زمان بیشتری را صرف نگاه کردن به صفحه‌نمایش‌ها کنند."
+      },
+      {
+        "t": "Others say that many jobs may disappear, and workers will need to learn new skills.",
+        "s": "برخی دیگر می‌گویند بسیاری از شغل‌ها ممکن است از بین بروند و کارکنان باید مهارت‌های جدیدی یاد بگیرند."
+      },
+      {
+        "t": "One thing is certain: we can't stop technology, but we can decide how to use it.",
+        "s": "یک چیز قطعی است: نمی‌توانیم جلوی فناوری را بگیریم، اما می‌توانیم تصمیم بگیریم چطور از آن استفاده کنیم."
+      }
+    ],
+    "questions": [
+      {
+        "q": {
+          "t": "What will replace gasoline cars in many countries?",
+          "s": "در بسیاری از کشورها چه چیزی جای خودروهای بنزینی را می‌گیرد؟"
+        },
+        "options": [
+          "electric cars",
+          "robots",
+          "trains"
+        ],
+        "answer": 0
+      },
+      {
+        "q": {
+          "t": "Why might cities become quieter?",
+          "s": "چرا شاید شهرها آرام‌تر شوند؟"
+        },
+        "options": [
+          "Fewer people will have cars.",
+          "Many people will work from home.",
+          "Robots will do the shopping."
+        ],
+        "answer": 1
+      },
+      {
+        "q": {
+          "t": "Why are robots unlikely to replace nurses?",
+          "s": "چرا بعید است ربات‌ها جای پرستاران را بگیرند؟"
+        },
+        "options": [
+          "They are too expensive.",
+          "Patients need human care.",
+          "Doctors don't like them."
+        ],
+        "answer": 1
+      },
+      {
+        "q": {
+          "t": "What are some experts worried about?",
+          "s": "برخی کارشناسان نگران چه چیزی هستند؟"
+        },
+        "options": [
+          "People might spend more time looking at screens.",
+          "Electric cars might be dangerous.",
+          "Smart homes might be too cold."
+        ],
+        "answer": 0
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "t": "Robots might do our housework in the future.",
+      "s": "شاید در آینده ربات‌ها کارهای خانه‌ی ما را انجام دهند."
+    },
+    {
+      "t": "I've just found out that I passed my test.",
+      "s": "همین الان فهمیدم که در امتحانم قبول شده‌ام."
+    },
+    {
+      "t": "Don't forget to update your apps.",
+      "s": "یادت نرود اپ‌هایت را به‌روز کنی."
+    },
+    {
+      "t": "My brother set up his own online business.",
+      "s": "برادرم کسب‌وکار اینترنتی خودش را راه انداخت."
+    },
+    {
+      "t": "Prices are likely to go up next year.",
+      "s": "احتمالاً سال آینده قیمت‌ها بالا می‌رود."
+    },
+    {
+      "t": "I'll probably buy a new laptop soon.",
+      "s": "احتمالاً به‌زودی یک لپ‌تاپ جدید می‌خرم."
+    },
+    {
+      "t": "My phone always runs out of battery by the evening.",
+      "s": "شارژ گوشی‌ام همیشه تا عصر تمام می‌شود."
+    },
+    {
+      "t": "Never give up on your dreams.",
+      "s": "هیچ‌وقت از رؤیاهایت دست نکش."
+    }
+  ]
+}

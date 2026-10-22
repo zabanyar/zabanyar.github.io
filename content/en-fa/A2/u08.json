@@ -1,0 +1,691 @@
+{
+  "id": "u08",
+  "level": "A2",
+  "emoji": "📱",
+  "title": {
+    "t": "Phones and the internet",
+    "s": "گوشی و اینترنت"
+  },
+  "goals": [
+    "می‌توانم درباره‌ی گوشی، اپلیکیشن‌ها و اینترنت صحبت کنم.",
+    "می‌توانم با present perfect و ever / never درباره‌ی تجربه‌هایم سؤال کنم و جواب بدهم.",
+    "می‌توانم با just / already / yet بگویم چه کاری انجام شده یا هنوز انجام نشده است.",
+    "می‌توانم مشکل‌های ساده‌ی گوشی و اینترنت را توضیح بدهم."
+  ],
+  "words": [
+    {
+      "id": "w01",
+      "t": "smartphone",
+      "pl": "smartphones",
+      "s": "گوشی هوشمند",
+      "pr": "سْمارتفُون",
+      "emoji": "📱",
+      "ex": {
+        "t": "My grandmother has a new smartphone.",
+        "s": "مادربزرگم یک گوشی هوشمند جدید دارد."
+      }
+    },
+    {
+      "id": "w02",
+      "t": "app",
+      "pl": "apps",
+      "s": "اپلیکیشن، برنامه",
+      "pr": "اَپ",
+      "emoji": "",
+      "ex": {
+        "t": "This app is great for learning English.",
+        "s": "این اپلیکیشن برای یادگیری انگلیسی عالی است."
+      }
+    },
+    {
+      "id": "w03",
+      "t": "website",
+      "pl": "websites",
+      "s": "وب‌سایت",
+      "pr": "وِبسایت",
+      "emoji": "🌐",
+      "ex": {
+        "t": "You can buy tickets on this website.",
+        "s": "می‌توانید از این وب‌سایت بلیت بخرید."
+      }
+    },
+    {
+      "id": "w04",
+      "t": "password",
+      "pl": "passwords",
+      "s": "رمز عبور",
+      "pr": "پَسوِرد",
+      "emoji": "🔑",
+      "ex": {
+        "t": "Don't tell anyone your password.",
+        "s": "رمز عبورت را به هیچ‌کس نگو."
+      }
+    },
+    {
+      "id": "w05",
+      "t": "email",
+      "pl": "emails",
+      "s": "ایمیل",
+      "pr": "ایمِیل",
+      "emoji": "📧",
+      "ex": {
+        "t": "I got an email from my boss this morning.",
+        "s": "امروز صبح یک ایمیل از رئیسم گرفتم."
+      }
+    },
+    {
+      "id": "w06",
+      "t": "message",
+      "pl": "messages",
+      "s": "پیام",
+      "pr": "مِسیج",
+      "emoji": "💬",
+      "ex": {
+        "t": "Send me a message when you arrive.",
+        "s": "وقتی رسیدی، به من پیام بده."
+      }
+    },
+    {
+      "id": "w07",
+      "t": "download",
+      "s": "دانلود کردن",
+      "pr": "داونلُود",
+      "emoji": "",
+      "ex": {
+        "t": "You can download the app for free.",
+        "s": "می‌توانی اپلیکیشن را رایگان دانلود کنی."
+      }
+    },
+    {
+      "id": "w08",
+      "t": "send",
+      "s": "فرستادن",
+      "pr": "سِند",
+      "emoji": "",
+      "ex": {
+        "t": "I sent the photos to my sister.",
+        "s": "عکس‌ها را برای خواهرم فرستادم."
+      }
+    },
+    {
+      "id": "w09",
+      "t": "charge",
+      "s": "شارژ کردن",
+      "pr": "چارج",
+      "emoji": "🔌",
+      "ex": {
+        "t": "I have to charge my phone.",
+        "s": "باید گوشی‌ام را شارژ کنم."
+      }
+    },
+    {
+      "id": "w10",
+      "t": "battery",
+      "pl": "batteries",
+      "s": "باتری",
+      "pr": "بَتِری",
+      "emoji": "🔋",
+      "ex": {
+        "t": "My phone battery is low.",
+        "s": "باتری گوشی‌ام کم است."
+      }
+    },
+    {
+      "id": "w11",
+      "t": "screen",
+      "pl": "screens",
+      "s": "صفحه‌ی نمایش",
+      "pr": "سْکْرین",
+      "emoji": "",
+      "ex": {
+        "t": "The screen on my phone is broken.",
+        "s": "صفحه‌ی گوشی‌ام شکسته است."
+      }
+    },
+    {
+      "id": "w12",
+      "t": "online",
+      "s": "آنلاین، اینترنتی",
+      "pr": "آنلاین",
+      "emoji": "",
+      "ex": {
+        "t": "I often buy clothes online.",
+        "s": "من اغلب لباس‌هایم را آنلاین می‌خرم."
+      }
+    },
+    {
+      "id": "w13",
+      "t": "video call",
+      "pl": "video calls",
+      "s": "تماس تصویری",
+      "pr": "ویدیو کال",
+      "emoji": "",
+      "ex": {
+        "t": "We have a video call with Grandpa every Sunday.",
+        "s": "ما هر یکشنبه با پدربزرگ تماس تصویری می‌گیریم."
+      }
+    },
+    {
+      "id": "w14",
+      "t": "take a photo",
+      "s": "عکس گرفتن",
+      "pr": "تِیک اِ فُوتو",
+      "emoji": "📷",
+      "ex": {
+        "t": "Can you take a photo of us, please?",
+        "s": "می‌شود لطفاً از ما یک عکس بگیرید؟"
+      }
+    },
+    {
+      "id": "w15",
+      "t": "Wi-Fi",
+      "s": "وای‌فای",
+      "pr": "وای‌فای",
+      "emoji": "📶",
+      "ex": {
+        "t": "What's the Wi-Fi password?",
+        "s": "رمز وای‌فای چیست؟"
+      }
+    }
+  ],
+  "phrases": [
+    {
+      "id": "p01",
+      "t": "Can you hear me?",
+      "s": "صدایم را می‌شنوی؟",
+      "pr": "کَن یو هیر می؟"
+    },
+    {
+      "id": "p02",
+      "t": "My battery is dying.",
+      "s": "شارژ گوشی‌ام دارد تمام می‌شود.",
+      "pr": "مای بَتِری ایز دایینگ."
+    },
+    {
+      "id": "p03",
+      "t": "I'll call you back.",
+      "s": "بعداً بهت زنگ می‌زنم.",
+      "pr": "آیل کال یو بَک."
+    },
+    {
+      "id": "p04",
+      "t": "The internet is really slow.",
+      "s": "اینترنت خیلی کُند است.",
+      "pr": "ذِ اینتِرنِت ایز ریلی سْلُو."
+    },
+    {
+      "id": "p05",
+      "t": "Text me when you get there.",
+      "s": "وقتی رسیدی، بهم پیام بده.",
+      "pr": "تِکست میْ وِن یو گِت ذِر."
+    },
+    {
+      "id": "p06",
+      "t": "Have you seen my message?",
+      "s": "پیامم را دیده‌ای؟",
+      "pr": "هَو یو سین مای مِسیج؟"
+    },
+    {
+      "id": "p07",
+      "t": "I can't connect to the Wi-Fi.",
+      "s": "نمی‌توانم به وای‌فای وصل شوم.",
+      "pr": "آی کَنت کِنِکت تو ذِ وای‌فای."
+    },
+    {
+      "id": "p08",
+      "t": "Sorry, you're breaking up.",
+      "s": "ببخشید، صدایت قطع و وصل می‌شود.",
+      "pr": "ساری، یور بْرِیکینگ آپ."
+    }
+  ],
+  "dialogue": {
+    "title": {
+      "t": "A new phone",
+      "s": "یک گوشی جدید"
+    },
+    "speakers": {
+      "A": {
+        "name": "Neda",
+        "voice": "f"
+      },
+      "B": {
+        "name": "Amir",
+        "voice": "m"
+      }
+    },
+    "lines": [
+      {
+        "sp": "A",
+        "t": "Amir, have you seen my new phone?",
+        "s": "امیر، گوشی جدیدم را دیده‌ای؟"
+      },
+      {
+        "sp": "B",
+        "t": "No, I haven't. Wow, the screen is really big!",
+        "s": "نه، ندیده‌ام. وای، صفحه‌اش خیلی بزرگ است!"
+      },
+      {
+        "sp": "A",
+        "t": "I've just bought it. But I haven't downloaded any apps yet.",
+        "s": "تازه خریدمش. ولی هنوز هیچ اپلیکیشنی دانلود نکرده‌ام."
+      },
+      {
+        "sp": "B",
+        "t": "Have you ever made a video call?",
+        "s": "تا حالا تماس تصویری گرفته‌ای؟"
+      },
+      {
+        "sp": "A",
+        "t": "No, never. I'd like to call my parents in Shiraz.",
+        "s": "نه، هیچ‌وقت. دوست دارم با پدر و مادرم در شیراز تماس بگیرم."
+      },
+      {
+        "sp": "B",
+        "t": "It's easy. I'll show you. First, connect to the Wi-Fi.",
+        "s": "آسان است. نشانت می‌دهم. اول به وای‌فای وصل شو."
+      },
+      {
+        "sp": "A",
+        "t": "I've already done that.",
+        "s": "این کار را قبلاً انجام داده‌ام."
+      },
+      {
+        "sp": "B",
+        "t": "Great. Now download this app and choose a password.",
+        "s": "عالی است. حالا این اپلیکیشن را دانلود کن و یک رمز عبور انتخاب کن."
+      },
+      {
+        "sp": "A",
+        "t": "OK… Done! Oh, my mother has just sent me a message!",
+        "s": "باشه… تمام شد! اِ، مادرم همین الان برایم پیام فرستاده!"
+      },
+      {
+        "sp": "B",
+        "t": "Call her now. You can see her face on the screen.",
+        "s": "همین الان به او زنگ بزن. می‌توانی صورتش را روی صفحه ببینی."
+      },
+      {
+        "sp": "A",
+        "t": "Thank you, Amir! You're a great teacher.",
+        "s": "ممنون، امیر! تو معلم خیلی خوبی هستی."
+      }
+    ]
+  },
+  "grammar": [
+    {
+      "id": "g01",
+      "title": {
+        "t": "Present perfect with ever / never",
+        "s": "حال کامل با ever (تا حالا) و never (هرگز)"
+      },
+      "explain": "زمان **حال کامل** (present perfect) را با **have / has** + **اسم مفعول** (past participle) می‌سازیم: **I have seen**، **she has visited**. شکل کوتاه: **I've، she's**؛ منفی: **haven't / hasn't**.\nاسم مفعولِ فعل‌های باقاعده مثل گذشته‌ی ساده با **-ed** است: **visit → visited**. فعل‌های بی‌قاعده شکل خودشان را دارند: **see → seen**، **eat → eaten**، **buy → bought**، **make → made**. برای تجربه‌ی «رفتن به جایی» می‌گوییم **been**: **I've been to London.**\nبرای پرسیدن درباره‌ی **تجربه در طول زندگی** از **ever** (تا حالا) استفاده می‌کنیم: **Have you ever used this app?**\nبرای گفتن این‌که هیچ‌وقت آن تجربه را نداشته‌ایم، **never** (هرگز) می‌آوریم. never خودش منفی است، پس با **have** می‌آید، نه haven't: **I have never been to London.**\nاین ساختار شبیه ماضی نقلی فارسی است («تا حالا رفته‌ای؟»)، ولی با زمان مشخص گذشته (مثل **yesterday** یا **last year**) به کار نمی‌رود.",
+      "table": [
+        [
+          "I / you / we / they",
+          "have ('ve) used",
+          "haven't used"
+        ],
+        [
+          "he / she / it",
+          "has ('s) used",
+          "hasn't used"
+        ],
+        [
+          "Have you ever used …?",
+          "Yes, I have.",
+          "No, I haven't."
+        ]
+      ],
+      "examples": [
+        {
+          "t": "Have you ever made a video call?",
+          "s": "تا حالا تماس تصویری گرفته‌ای؟"
+        },
+        {
+          "t": "I've never bought clothes online.",
+          "s": "من هیچ‌وقت لباس آنلاین نخریده‌ام."
+        },
+        {
+          "t": "My father has never used a computer.",
+          "s": "پدرم هرگز با کامپیوتر کار نکرده است."
+        },
+        {
+          "t": "Have you ever been to Canada? – Yes, I have.",
+          "s": "تا حالا کانادا رفته‌ای؟ – بله، رفته‌ام."
+        },
+        {
+          "t": "Sara has seen this video three times.",
+          "s": "سارا این ویدیو را سه بار دیده است."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "choice",
+          "t": "Have you ever ___ this app?",
+          "options": [
+            "use",
+            "used",
+            "using"
+          ],
+          "answer": 1,
+          "s": "تا حالا از این اپلیکیشن استفاده کرده‌ای؟"
+        },
+        {
+          "type": "choice",
+          "t": "I have ___ been to Paris.",
+          "options": [
+            "ever",
+            "never",
+            "yet"
+          ],
+          "answer": 1,
+          "s": "من هرگز به پاریس نرفته‌ام."
+        },
+        {
+          "type": "choice",
+          "t": "___ your sister ever sent an email?",
+          "options": [
+            "Have",
+            "Has",
+            "Did"
+          ],
+          "answer": 1,
+          "s": "خواهرت تا حالا ایمیل فرستاده است؟"
+        },
+        {
+          "type": "choice",
+          "t": "Have you ever eaten sushi? – No, I ___.",
+          "options": [
+            "haven't",
+            "didn't",
+            "don't"
+          ],
+          "answer": 0,
+          "s": "تا حالا سوشی خورده‌ای؟ – نه، نخورده‌ام."
+        },
+        {
+          "type": "type",
+          "t": "I have never ___ a video call.",
+          "answer": [
+            "made",
+            "had"
+          ],
+          "s": "من هرگز تماس تصویری نگرفته‌ام."
+        },
+        {
+          "type": "type",
+          "t": "Has Tom ever ___ Persian food?",
+          "answer": [
+            "eaten",
+            "tried",
+            "had"
+          ],
+          "s": "تام تا حالا غذای ایرانی خورده است؟"
+        },
+        {
+          "type": "order",
+          "t": "Have you ever lost your phone?",
+          "s": "تا حالا گوشی‌ات را گم کرده‌ای؟"
+        },
+        {
+          "type": "order",
+          "t": "My mother has never used this app.",
+          "s": "مادرم هرگز از این اپلیکیشن استفاده نکرده است."
+        }
+      ]
+    },
+    {
+      "id": "g02",
+      "title": {
+        "t": "Present perfect with just / already / yet",
+        "s": "حال کامل با just و already و yet"
+      },
+      "explain": "**just** یعنی «همین الان، تازه». بین **have / has** و اسم مفعول می‌آید: **I've just sent the email.** (همین الان ایمیل را فرستادم.)\n**already** یعنی «قبلاً، دیگر» (زودتر از آن‌چه انتظار می‌رفت). جای آن هم بین have / has و اسم مفعول است: **She has already downloaded the app.** (او دیگر اپلیکیشن را دانلود کرده است.)\n**yet** در جمله‌های **منفی** و **سؤالی** می‌آید و جایش **آخر جمله** است: **I haven't charged my phone yet.** (هنوز گوشی‌ام را شارژ نکرده‌ام.) / **Have you called him yet?** (به او زنگ زده‌ای؟)\nدر فارسی برای just معمولاً گذشته‌ی ساده می‌گوییم («همین الان فرستادم»). در انگلیسی آمریکایی هم گاهی گذشته‌ی ساده می‌شنوید (**I just sent it.**)، ولی در این درس present perfect را تمرین می‌کنیم.",
+      "table": [
+        [
+          "just",
+          "I've just sent it."
+        ],
+        [
+          "already",
+          "I've already sent it."
+        ],
+        [
+          "yet",
+          "I haven't sent it yet."
+        ],
+        [
+          "yet?",
+          "Have you sent it yet?"
+        ]
+      ],
+      "examples": [
+        {
+          "t": "I've just read your message.",
+          "s": "همین الان پیامت را خواندم."
+        },
+        {
+          "t": "Ali has already bought a new phone.",
+          "s": "علی دیگر گوشی جدیدش را خریده است."
+        },
+        {
+          "t": "We haven't watched the video yet.",
+          "s": "ما هنوز ویدیو را تماشا نکرده‌ایم."
+        },
+        {
+          "t": "Have you charged your phone yet?",
+          "s": "گوشی‌ات را شارژ کرده‌ای؟"
+        },
+        {
+          "t": "The movie has just started.",
+          "s": "فیلم تازه شروع شده است."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "choice",
+          "t": "I haven't read your email ___.",
+          "options": [
+            "just",
+            "already",
+            "yet"
+          ],
+          "answer": 2,
+          "s": "هنوز ایمیلت را نخوانده‌ام."
+        },
+        {
+          "type": "choice",
+          "t": "The bus has ___ left. We're late!",
+          "options": [
+            "yet",
+            "just",
+            "ever"
+          ],
+          "answer": 1,
+          "s": "اتوبوس همین الان رفت. دیرمان شده!"
+        },
+        {
+          "type": "choice",
+          "t": "Have you downloaded the app ___?",
+          "options": [
+            "yet",
+            "just",
+            "never"
+          ],
+          "answer": 0,
+          "s": "اپلیکیشن را دانلود کرده‌ای؟"
+        },
+        {
+          "type": "choice",
+          "t": "Don't buy any milk. I've ___ bought some.",
+          "options": [
+            "yet",
+            "already",
+            "ever"
+          ],
+          "answer": 1,
+          "s": "شیر نخر. خودم قبلاً خریده‌ام."
+        },
+        {
+          "type": "type",
+          "t": "We haven't had lunch ___.",
+          "answer": [
+            "yet"
+          ],
+          "s": "هنوز ناهار نخورده‌ایم."
+        },
+        {
+          "type": "type",
+          "t": "My phone is OK now. I've ___ charged it.",
+          "answer": [
+            "just",
+            "already"
+          ],
+          "s": "گوشی‌ام الان مشکلی ندارد. تازه شارژش کرده‌ام."
+        },
+        {
+          "type": "order",
+          "t": "I've just sent you a message.",
+          "s": "همین الان برایت پیام فرستادم."
+        },
+        {
+          "type": "order",
+          "t": "Has Reza called you yet?",
+          "s": "رضا به تو زنگ زده است؟"
+        }
+      ]
+    }
+  ],
+  "reading": {
+    "title": {
+      "t": "My grandmother's first smartphone",
+      "s": "اولین گوشی هوشمند مادربزرگم"
+    },
+    "text": [
+      {
+        "t": "My grandmother is seventy-five years old, and she has never used a computer.",
+        "s": "مادربزرگم هفتاد و پنج سال دارد و هرگز با کامپیوتر کار نکرده است."
+      },
+      {
+        "t": "Last month, my father bought her a smartphone.",
+        "s": "ماه گذشته پدرم برایش یک گوشی هوشمند خرید."
+      },
+      {
+        "t": "At first, she didn't like it. \"The screen is too small,\" she said.",
+        "s": "اول از آن خوشش نیامد. گفت: «صفحه‌اش زیادی کوچک است.»"
+      },
+      {
+        "t": "So I made the letters bigger and showed her some easy apps.",
+        "s": "برای همین حروف را بزرگ‌تر کردم و چند اپلیکیشن ساده نشانش دادم."
+      },
+      {
+        "t": "Now she loves her phone!",
+        "s": "حالا عاشق گوشی‌اش است!"
+      },
+      {
+        "t": "She has already learned to send messages and take photos.",
+        "s": "او دیگر فرستادن پیام و عکس گرفتن را یاد گرفته است."
+      },
+      {
+        "t": "She has made three video calls with her sister in Canada.",
+        "s": "سه بار با خواهرش در کانادا تماس تصویری گرفته است."
+      },
+      {
+        "t": "Yesterday, she sent me a funny video.",
+        "s": "دیروز یک ویدیوی خنده‌دار برایم فرستاد."
+      },
+      {
+        "t": "But she hasn't learned to use email yet.",
+        "s": "ولی هنوز کار با ایمیل را یاد نگرفته است."
+      },
+      {
+        "t": "That's our next lesson!",
+        "s": "این درس بعدی ماست!"
+      }
+    ],
+    "questions": [
+      {
+        "q": {
+          "t": "Who bought the smartphone?",
+          "s": "چه کسی گوشی هوشمند را خرید؟"
+        },
+        "options": [
+          "The grandmother",
+          "The writer's father",
+          "The writer"
+        ],
+        "answer": 1
+      },
+      {
+        "q": {
+          "t": "Why didn't the grandmother like the phone at first?",
+          "s": "چرا مادربزرگ اول از گوشی خوشش نیامد؟"
+        },
+        "options": [
+          "It was too expensive.",
+          "The screen was too small.",
+          "It was too heavy."
+        ],
+        "answer": 1
+      },
+      {
+        "q": {
+          "t": "Where does her sister live?",
+          "s": "خواهرش کجا زندگی می‌کند؟"
+        },
+        "options": [
+          "In Canada",
+          "In Iran",
+          "In England"
+        ],
+        "answer": 0
+      },
+      {
+        "q": {
+          "t": "What hasn't she learned yet?",
+          "s": "او هنوز چه چیزی را یاد نگرفته است؟"
+        },
+        "options": [
+          "Taking photos",
+          "Sending messages",
+          "Using email"
+        ],
+        "answer": 2
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "t": "Have you ever forgotten your password?",
+      "s": "تا حالا رمز عبورت را فراموش کرده‌ای؟"
+    },
+    {
+      "t": "I've never bought a phone online.",
+      "s": "هیچ‌وقت گوشی را آنلاین نخریده‌ام."
+    },
+    {
+      "t": "She has just sent me a photo.",
+      "s": "او همین الان برایم یک عکس فرستاد."
+    },
+    {
+      "t": "We haven't paid the internet bill yet.",
+      "s": "هنوز قبض اینترنت را پرداخت نکرده‌ایم."
+    },
+    {
+      "t": "My battery is low. Can I charge my phone here?",
+      "s": "شارژ گوشی‌ام کم است. می‌توانم این‌جا شارژش کنم؟"
+    },
+    {
+      "t": "Have you finished your work yet?",
+      "s": "کارت را تمام کرده‌ای؟"
+    },
+    {
+      "t": "The Wi-Fi isn't working again.",
+      "s": "وای‌فای باز هم کار نمی‌کند."
+    },
+    {
+      "t": "I've already downloaded the new app.",
+      "s": "اپلیکیشن جدید را قبلاً دانلود کرده‌ام."
+    }
+  ]
+}

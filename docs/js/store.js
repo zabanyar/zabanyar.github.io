@@ -13,20 +13,21 @@ function lsSet(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch
 export function today() { const d = new Date(); return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`; }
 
 async function api(path, body) {
-  const bases = apiBase !== null ? [apiBase, ...API_BASES.filter(b => b !== apiBase)] : API_BASES;
-  let lastErr;
-  for (const b of bases) {
+  // Try the last working server first; if it doesn't answer quickly, ask all servers at once and take the first answer.
+  const one = async (b, ms) => {
+    const ctl = new AbortController(); const tm = setTimeout(() => ctl.abort(), ms);
     try {
-      const ctl = new AbortController(); const tm = setTimeout(() => ctl.abort(), 8000);
       const r = await fetch(b + "/api/" + path, { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify(body), signal: ctl.signal });
-      clearTimeout(tm);
-      if (r.status === 404 && b === "") throw new Error("no api here");
-      const j = await r.json().catch(() => ({}));
+      const j = await r.json().catch(() => null);
+      // only a real Zabanyar answer counts (filter pages, proxies and static hosts don't send {ok: …})
+      if (!j || typeof j.ok !== "boolean") throw new Error("not the zabanyar api");
       apiBase = b;
       return { status: r.status, ...j };
-    } catch (e) { lastErr = e; }
-  }
-  throw lastErr || new Error("offline");
+    } finally { clearTimeout(tm); }
+  };
+  if (apiBase !== null) { try { return await one(apiBase, 4000); } catch {} }
+  try { return await Promise.any(API_BASES.map(b => one(b, 6000))); }
+  catch { throw new Error("offline"); }
 }
 
 // ---------- session ----------

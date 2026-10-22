@@ -1,0 +1,681 @@
+{
+  "id": "u01",
+  "level": "A2",
+  "emoji": "🧺",
+  "title": {
+    "t": "My weekend",
+    "s": "آخر هفتهٔ من"
+  },
+  "goals": [
+    "می‌توانم دربارهٔ آخر هفته‌ام و کارهایی که کردم صحبت کنم.",
+    "می‌توانم با was و were بگویم کجا بودم و چطور بود.",
+    "می‌توانم گذشتهٔ فعل‌های باقاعده و بی‌قاعدهٔ رایج را به کار ببرم.",
+    "می‌توانم از دیگران بپرسم آخر هفته‌شان چطور گذشت."
+  ],
+  "words": [
+    {
+      "id": "w01",
+      "t": "weekend",
+      "pl": "weekends",
+      "s": "آخر هفته",
+      "pr": "ویکِند",
+      "emoji": "🗓️",
+      "ex": {
+        "t": "I was at home last weekend.",
+        "s": "آخر هفتهٔ گذشته خانه بودم."
+      }
+    },
+    {
+      "id": "w02",
+      "t": "yesterday",
+      "s": "دیروز",
+      "pr": "یِستِردِی",
+      "emoji": "",
+      "ex": {
+        "t": "I was very busy yesterday.",
+        "s": "دیروز سرم خیلی شلوغ بود."
+      }
+    },
+    {
+      "id": "w03",
+      "t": "last night",
+      "s": "دیشب",
+      "pr": "لَست نایت",
+      "emoji": "🌙",
+      "ex": {
+        "t": "We watched a movie last night.",
+        "s": "ما دیشب یک فیلم دیدیم."
+      }
+    },
+    {
+      "id": "w04",
+      "t": "visit",
+      "s": "دیدن کردن، به دیدنِ کسی رفتن",
+      "pr": "ویزیت",
+      "emoji": "",
+      "ex": {
+        "t": "We visited my grandmother on Friday.",
+        "s": "جمعه به دیدن مادربزرگم رفتیم."
+      }
+    },
+    {
+      "id": "w05",
+      "t": "relative",
+      "pl": "relatives",
+      "s": "فامیل، خویشاوند",
+      "pr": "رِلِتیو",
+      "emoji": "",
+      "ex": {
+        "t": "On Thursday, our relatives came to our house.",
+        "s": "پنجشنبه فامیل‌هایمان به خانهٔ ما آمدند."
+      }
+    },
+    {
+      "id": "w06",
+      "t": "picnic",
+      "pl": "picnics",
+      "s": "پیک‌نیک",
+      "pr": "پیکنیک",
+      "emoji": "🧺",
+      "ex": {
+        "t": "We had a picnic in the park.",
+        "s": "ما در پارک پیک‌نیک کردیم."
+      }
+    },
+    {
+      "id": "w07",
+      "t": "movie",
+      "pl": "movies",
+      "s": "فیلم (سینمایی)",
+      "pr": "مووی",
+      "emoji": "🎬",
+      "ex": {
+        "t": "The movie was very good.",
+        "s": "فیلم خیلی خوب بود."
+      }
+    },
+    {
+      "id": "w08",
+      "t": "museum",
+      "pl": "museums",
+      "s": "موزه",
+      "pr": "میوزیئِم",
+      "emoji": "🏛️",
+      "ex": {
+        "t": "Lisa went to the museum with her friends.",
+        "s": "لیزا با دوستانش به موزه رفت."
+      }
+    },
+    {
+      "id": "w09",
+      "t": "clean the house",
+      "s": "خانه را تمیز کردن",
+      "pr": "کْلین ذِ هاوس",
+      "emoji": "🧹",
+      "ex": {
+        "t": "I cleaned the house on Saturday morning.",
+        "s": "شنبه صبح خانه را تمیز کردم."
+      }
+    },
+    {
+      "id": "w10",
+      "t": "do the shopping",
+      "s": "خرید کردن (خریدِ خانه)",
+      "pr": "دو ذِ شاپینگ",
+      "emoji": "🛒",
+      "ex": {
+        "t": "My husband did the shopping yesterday.",
+        "s": "شوهرم دیروز خرید کرد."
+      }
+    },
+    {
+      "id": "w11",
+      "t": "stay at home",
+      "s": "در خانه ماندن",
+      "pr": "سْتِی اَت هُوم",
+      "emoji": "🏠",
+      "ex": {
+        "t": "It was cold, so we stayed at home.",
+        "s": "هوا سرد بود، برای همین در خانه ماندیم."
+      }
+    },
+    {
+      "id": "w12",
+      "t": "go for a walk",
+      "s": "قدم زدن، به پیاده‌روی رفتن",
+      "pr": "گو فُر اِ واک",
+      "emoji": "🚶",
+      "ex": {
+        "t": "We went for a walk after dinner.",
+        "s": "بعد از شام رفتیم قدم بزنیم."
+      }
+    },
+    {
+      "id": "w13",
+      "t": "tired",
+      "s": "خسته",
+      "pr": "تایِرد",
+      "emoji": "😩",
+      "ex": {
+        "t": "I was very tired on Sunday evening.",
+        "s": "یکشنبه عصر خیلی خسته بودم."
+      }
+    },
+    {
+      "id": "w14",
+      "t": "relaxing",
+      "s": "آرامش‌بخش، آرام",
+      "pr": "ریلَکسینگ",
+      "emoji": "😌",
+      "ex": {
+        "t": "It was a relaxing weekend.",
+        "s": "آخر هفتهٔ آرامی بود."
+      }
+    },
+    {
+      "id": "w15",
+      "t": "fun",
+      "s": "سرگرم‌کننده، باحال؛ خوش‌گذرانی",
+      "pr": "فان",
+      "emoji": "🎉",
+      "ex": {
+        "t": "The picnic was a lot of fun.",
+        "s": "پیک‌نیک خیلی خوش گذشت."
+      }
+    }
+  ],
+  "phrases": [
+    {
+      "id": "p01",
+      "t": "How was your weekend?",
+      "s": "آخر هفته‌ات چطور بود؟",
+      "pr": "هاو واز یور ویکِند؟"
+    },
+    {
+      "id": "p02",
+      "t": "It was great!",
+      "s": "عالی بود!",
+      "pr": "ایت واز گرِیت!"
+    },
+    {
+      "id": "p03",
+      "t": "It was OK.",
+      "s": "بد نبود. / معمولی بود.",
+      "pr": "ایت واز اُوکِی."
+    },
+    {
+      "id": "p04",
+      "t": "What did you do?",
+      "s": "چه کار کردی؟",
+      "pr": "وات دید یو دو؟"
+    },
+    {
+      "id": "p05",
+      "t": "Nothing special.",
+      "s": "کار خاصی نکردم. / چیز خاصی نبود.",
+      "pr": "ناثینگ سْپِشِل."
+    },
+    {
+      "id": "p06",
+      "t": "I had a great time.",
+      "s": "خیلی خوش گذشت.",
+      "pr": "آی هَد اِ گرِیت تایم."
+    },
+    {
+      "id": "p07",
+      "t": "Sounds fun!",
+      "s": "چه خوب! به نظر می‌رسد خوش گذشته!",
+      "pr": "ساوندز فان!"
+    },
+    {
+      "id": "p08",
+      "t": "What about you?",
+      "s": "تو چطور؟",
+      "pr": "وات اِباوت یو؟"
+    }
+  ],
+  "dialogue": {
+    "title": {
+      "t": "Monday morning at work",
+      "s": "دوشنبه صبح سر کار"
+    },
+    "speakers": {
+      "A": {
+        "name": "Emma",
+        "voice": "f"
+      },
+      "B": {
+        "name": "Reza",
+        "voice": "m"
+      }
+    },
+    "lines": [
+      {
+        "sp": "A",
+        "t": "Hi, Reza! How was your weekend?",
+        "s": "سلام، رضا! آخر هفته‌ات چطور بود؟"
+      },
+      {
+        "sp": "B",
+        "t": "Hi, Emma! It was great, thanks. What about you?",
+        "s": "سلام، اِما! عالی بود، ممنون. تو چطور؟"
+      },
+      {
+        "sp": "A",
+        "t": "It was OK. I was at home on Saturday. I cleaned the house and did the shopping.",
+        "s": "بد نبود. شنبه خانه بودم. خانه را تمیز کردم و خرید کردم."
+      },
+      {
+        "sp": "B",
+        "t": "That sounds busy!",
+        "s": "چه روز شلوغی!"
+      },
+      {
+        "sp": "A",
+        "t": "Yes, it was. But on Sunday, I went to the museum with my sister. What did you do?",
+        "s": "آره، شلوغ بود. اما یکشنبه با خواهرم به موزه رفتم. تو چه کار کردی؟"
+      },
+      {
+        "sp": "B",
+        "t": "We visited my aunt. We had a picnic in her garden.",
+        "s": "ما به دیدن خاله‌ام رفتیم. در باغش پیک‌نیک کردیم."
+      },
+      {
+        "sp": "A",
+        "t": "A picnic? Was the weather nice?",
+        "s": "پیک‌نیک؟ هوا خوب بود؟"
+      },
+      {
+        "sp": "B",
+        "t": "Yes, it was sunny and warm. My children played soccer all afternoon.",
+        "s": "بله، آفتابی و گرم بود. بچه‌هایم تمام بعدازظهر فوتبال بازی کردند."
+      },
+      {
+        "sp": "A",
+        "t": "Sounds fun!",
+        "s": "چه خوب، حتماً خوش گذشته!"
+      },
+      {
+        "sp": "B",
+        "t": "It was. But I was very tired last night. I went to bed at nine o'clock!",
+        "s": "خوش گذشت. اما دیشب خیلی خسته بودم. ساعت نه خوابیدم!"
+      },
+      {
+        "sp": "A",
+        "t": "Me too! And now it's Monday again.",
+        "s": "من هم همین‌طور! و حالا دوباره دوشنبه است."
+      }
+    ]
+  },
+  "grammar": [
+    {
+      "id": "g01",
+      "title": {
+        "t": "Past simple of be: was / were",
+        "s": "گذشتهٔ فعل «بودن»: was / were"
+      },
+      "explain": "**was** و **were** گذشتهٔ فعل **be** هستند (بودم، بودی، بود…).\nبا **I / he / she / it** از **was** و با **you / we / they** از **were** استفاده می‌کنیم: **I was at home.** (من خانه بودم.) **They were tired.** (آن‌ها خسته بودند.)\nمنفی: **wasn't** (= was not) و **weren't** (= were not): **It wasn't cold.** (هوا سرد نبود.)\nسؤال: فعل را به اول جمله می‌آوریم: **Were you at home?** – **Yes, I was. / No, I wasn't.**\nکلمه‌های زمانیِ رایج: **yesterday**، **last night**، **last weekend**، **on Saturday**.",
+      "table": [
+        [
+          "I / he / she / it",
+          "was",
+          "wasn't"
+        ],
+        [
+          "you / we / they",
+          "were",
+          "weren't"
+        ]
+      ],
+      "examples": [
+        {
+          "t": "I was at home yesterday.",
+          "s": "دیروز خانه بودم."
+        },
+        {
+          "t": "The weather was beautiful on Friday.",
+          "s": "جمعه هوا خیلی خوب بود."
+        },
+        {
+          "t": "We were very tired last night.",
+          "s": "ما دیشب خیلی خسته بودیم."
+        },
+        {
+          "t": "The museum wasn't open on Monday.",
+          "s": "موزه دوشنبه باز نبود."
+        },
+        {
+          "t": "Were you at the park? No, I wasn't.",
+          "s": "پارک بودی؟ نه، نبودم."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "choice",
+          "t": "I ___ at home last weekend.",
+          "options": [
+            "was",
+            "were",
+            "am"
+          ],
+          "answer": 0,
+          "s": "آخر هفتهٔ گذشته خانه بودم."
+        },
+        {
+          "type": "choice",
+          "t": "My parents ___ in Shiraz last week.",
+          "options": [
+            "was",
+            "were",
+            "is"
+          ],
+          "answer": 1,
+          "s": "پدر و مادرم هفتهٔ گذشته شیراز بودند."
+        },
+        {
+          "type": "type",
+          "t": "The weather ___ sunny yesterday.",
+          "answer": [
+            "was"
+          ],
+          "s": "دیروز هوا آفتابی بود."
+        },
+        {
+          "type": "type",
+          "t": "We ___ at the museum on Saturday.",
+          "answer": [
+            "were"
+          ],
+          "s": "ما شنبه در موزه بودیم."
+        },
+        {
+          "type": "choice",
+          "t": "It ___ cold, so we went to the park.",
+          "options": [
+            "weren't",
+            "wasn't",
+            "isn't"
+          ],
+          "answer": 1,
+          "s": "هوا سرد نبود، برای همین به پارک رفتیم."
+        },
+        {
+          "type": "type",
+          "t": "___ you tired last night? Yes, I was.",
+          "answer": [
+            "Were"
+          ],
+          "s": "دیشب خسته بودی؟ بله، بودم."
+        },
+        {
+          "type": "order",
+          "t": "Were your children at school yesterday?",
+          "s": "بچه‌هایت دیروز مدرسه بودند؟"
+        },
+        {
+          "type": "order",
+          "t": "The picnic was a lot of fun.",
+          "s": "پیک‌نیک خیلی خوش گذشت."
+        }
+      ]
+    },
+    {
+      "id": "g02",
+      "title": {
+        "t": "Past simple: visited, went, saw, bought",
+        "s": "گذشتهٔ ساده: فعل‌های باقاعده و بی‌قاعده"
+      },
+      "explain": "برای کارهایی که در گذشته انجام شده و تمام شده‌اند از **گذشتهٔ ساده** استفاده می‌کنیم.\n**فعل‌های باقاعده** در آخر **ed-** می‌گیرند: **watch → watched**، **visit → visited**. اگر فعل به **e** ختم شود فقط **d** می‌گیرد: **live → lived**. در **study → studied** حرف **y** به **ied** تبدیل می‌شود.\n**ed-** سه جور تلفظ می‌شود: «ت» در **watched** (واچت)، «د» در **stayed** (سْتِید) و «ید» در **visited** (ویزیتید).\n**فعل‌های بی‌قاعده** شکل مخصوص دارند و باید حفظشان کرد: **go → went**، **see → saw**، **buy → bought**، **have → had**، **do → did**، **eat → ate**.\nخبر خوب: در گذشتهٔ ساده فعل برای همهٔ اشخاص یکی است و **s** نمی‌گیرد: **I went / she went**.",
+      "table": [
+        [
+          "watch",
+          "watched"
+        ],
+        [
+          "visit",
+          "visited"
+        ],
+        [
+          "go",
+          "went"
+        ],
+        [
+          "see",
+          "saw"
+        ],
+        [
+          "buy",
+          "bought"
+        ],
+        [
+          "have",
+          "had"
+        ]
+      ],
+      "examples": [
+        {
+          "t": "We watched a movie last night.",
+          "s": "ما دیشب یک فیلم دیدیم."
+        },
+        {
+          "t": "My sister visited us on Friday.",
+          "s": "خواهرم جمعه به دیدن ما آمد."
+        },
+        {
+          "t": "I went to the park with my children.",
+          "s": "با بچه‌هایم به پارک رفتم."
+        },
+        {
+          "t": "Ali bought some fruit at the market.",
+          "s": "علی از بازار کمی میوه خرید."
+        },
+        {
+          "t": "We saw our friends at the museum.",
+          "s": "ما دوستانمان را در موزه دیدیم."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "choice",
+          "t": "Yesterday I ___ to the supermarket.",
+          "options": [
+            "go",
+            "went",
+            "goed"
+          ],
+          "answer": 1,
+          "s": "دیروز به سوپرمارکت رفتم."
+        },
+        {
+          "type": "choice",
+          "t": "We ___ a movie last night.",
+          "options": [
+            "watched",
+            "watch",
+            "watches"
+          ],
+          "answer": 0,
+          "s": "ما دیشب یک فیلم دیدیم."
+        },
+        {
+          "type": "type",
+          "t": "Neda ___ a new dress on Saturday.",
+          "answer": [
+            "bought"
+          ],
+          "s": "ندا شنبه یک لباس نو خرید."
+        },
+        {
+          "type": "type",
+          "t": "They ___ their grandparents last weekend.",
+          "answer": [
+            "visited",
+            "saw"
+          ],
+          "s": "آن‌ها آخر هفتهٔ گذشته به دیدن پدربزرگ و مادربزرگشان رفتند."
+        },
+        {
+          "type": "choice",
+          "t": "I ___ Tom at the park yesterday.",
+          "options": [
+            "see",
+            "seed",
+            "saw"
+          ],
+          "answer": 2,
+          "s": "دیروز تام را در پارک دیدم."
+        },
+        {
+          "type": "type",
+          "t": "Last Friday, we ___ a picnic in the garden.",
+          "answer": [
+            "had"
+          ],
+          "s": "جمعهٔ گذشته در باغ پیک‌نیک کردیم."
+        },
+        {
+          "type": "order",
+          "t": "I cleaned the house on Saturday.",
+          "s": "شنبه خانه را تمیز کردم."
+        },
+        {
+          "type": "order",
+          "t": "We went for a walk after dinner.",
+          "s": "بعد از شام رفتیم قدم بزنیم."
+        }
+      ]
+    }
+  ],
+  "reading": {
+    "title": {
+      "t": "Maryam's weekend",
+      "s": "آخر هفتهٔ مریم"
+    },
+    "text": [
+      {
+        "t": "My name is Maryam, and last weekend was very nice.",
+        "s": "اسم من مریم است و آخر هفتهٔ گذشته خیلی خوب بود."
+      },
+      {
+        "t": "On Thursday evening, my husband and I visited my parents.",
+        "s": "پنجشنبه عصر، من و همسرم به دیدن پدر و مادرم رفتیم."
+      },
+      {
+        "t": "My mother cooked a delicious dinner for us.",
+        "s": "مادرم برایمان یک شام خوشمزه پخت."
+      },
+      {
+        "t": "On Friday morning, the weather was sunny and warm.",
+        "s": "جمعه صبح هوا آفتابی و گرم بود."
+      },
+      {
+        "t": "We went to the mountains with our children.",
+        "s": "ما با بچه‌هایمان به کوه رفتیم."
+      },
+      {
+        "t": "We walked for two hours and had lunch next to a river.",
+        "s": "دو ساعت پیاده‌روی کردیم و کنار یک رودخانه ناهار خوردیم."
+      },
+      {
+        "t": "My son saw a big bird in a tree.",
+        "s": "پسرم یک پرندهٔ بزرگ روی یک درخت دید."
+      },
+      {
+        "t": "In the afternoon, we were very tired, so we stayed at home.",
+        "s": "بعدازظهر خیلی خسته بودیم، برای همین در خانه ماندیم."
+      },
+      {
+        "t": "I read a book, and the children watched a movie.",
+        "s": "من کتاب خواندم و بچه‌ها فیلم دیدند."
+      },
+      {
+        "t": "It was a busy weekend, but it was a lot of fun.",
+        "s": "آخر هفتهٔ شلوغی بود، اما خیلی خوش گذشت."
+      }
+    ],
+    "questions": [
+      {
+        "q": {
+          "t": "On Thursday evening, Maryam visited ___.",
+          "s": "مریم پنجشنبه عصر به دیدن ... رفت."
+        },
+        "options": [
+          "her friends",
+          "her parents",
+          "her sister"
+        ],
+        "answer": 1
+      },
+      {
+        "q": {
+          "t": "On Friday morning, the weather was ___.",
+          "s": "جمعه صبح هوا ... بود."
+        },
+        "options": [
+          "cold and rainy",
+          "sunny and warm",
+          "windy and cloudy"
+        ],
+        "answer": 1
+      },
+      {
+        "q": {
+          "t": "Where did they have lunch?",
+          "s": "آن‌ها کجا ناهار خوردند؟"
+        },
+        "options": [
+          "at home",
+          "in a restaurant",
+          "next to a river"
+        ],
+        "answer": 2
+      },
+      {
+        "q": {
+          "t": "What did the children do in the afternoon?",
+          "s": "بچه‌ها بعدازظهر چه کار کردند؟"
+        },
+        "options": [
+          "They watched a movie.",
+          "They read a book.",
+          "They played soccer."
+        ],
+        "answer": 0
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "t": "I was at home all day yesterday.",
+      "s": "دیروز تمام روز خانه بودم."
+    },
+    {
+      "t": "We had a picnic in the park on Friday.",
+      "s": "جمعه در پارک پیک‌نیک کردیم."
+    },
+    {
+      "t": "My brother bought a new car last month.",
+      "s": "برادرم ماه گذشته یک ماشین نو خرید."
+    },
+    {
+      "t": "The museum was closed on Monday.",
+      "s": "موزه دوشنبه تعطیل بود."
+    },
+    {
+      "t": "Lisa and Tom visited their grandmother.",
+      "s": "لیزا و تام به دیدن مادربزرگشان رفتند."
+    },
+    {
+      "t": "I cleaned the kitchen and did the shopping.",
+      "s": "آشپزخانه را تمیز کردم و خرید کردم."
+    },
+    {
+      "t": "It was a very relaxing weekend.",
+      "s": "آخر هفتهٔ خیلی آرامی بود."
+    },
+    {
+      "t": "Jack saw a good movie last night.",
+      "s": "جک دیشب یک فیلم خوب دید."
+    }
+  ]
+}

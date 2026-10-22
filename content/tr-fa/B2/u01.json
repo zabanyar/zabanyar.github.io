@@ -1,0 +1,707 @@
+{
+  "id": "u01",
+  "level": "B2",
+  "emoji": "📰",
+  "title": {
+    "t": "Medya ve haberler",
+    "s": "رسانه و اخبار"
+  },
+  "goals": [
+    "حرف‌ها و خبرهای دیگران را به‌صورت غیرمستقیم نقل کنم (-dığını söyledi، diye).",
+    "با پسوند -mış خبری را که شنیده‌ام از چیزی که خودم دیده‌ام جدا کنم.",
+    "زبان خبرهای تلویزیون، روزنامه و شبکه‌های اجتماعی را بفهمم.",
+    "درباره‌ی اعتبار یک خبر و منبع آن نظر بدهم."
+  ],
+  "words": [
+    {
+      "id": "w01",
+      "t": "haber",
+      "pl": "haberler",
+      "s": "خبر",
+      "pr": "هابِر",
+      "emoji": "📰",
+      "ex": {
+        "t": "Bu haberi sabah gazetede okudum.",
+        "s": "این خبر را صبح در روزنامه خواندم."
+      }
+    },
+    {
+      "id": "w02",
+      "t": "gazete",
+      "pl": "gazeteler",
+      "s": "روزنامه",
+      "pr": "گازِتِه",
+      "emoji": "🗞️",
+      "ex": {
+        "t": "Babam her sabah iki gazete okur.",
+        "s": "پدرم هر روز صبح دو روزنامه می‌خواند."
+      }
+    },
+    {
+      "id": "w03",
+      "t": "gazeteci",
+      "pl": "gazeteciler",
+      "s": "روزنامه‌نگار",
+      "pr": "گازِتِجی",
+      "emoji": "",
+      "ex": {
+        "t": "Gazeteci olmak çocukluk hayalimdi.",
+        "s": "روزنامه‌نگار شدن آرزوی دوران کودکی‌ام بود."
+      }
+    },
+    {
+      "id": "w04",
+      "t": "muhabir",
+      "pl": "muhabirler",
+      "s": "خبرنگار",
+      "pr": "موهابیر",
+      "emoji": "🎙️",
+      "ex": {
+        "t": "Muhabirimiz olay yerinden bildiriyor.",
+        "s": "خبرنگار ما از محل حادثه گزارش می‌دهد."
+      }
+    },
+    {
+      "id": "w05",
+      "t": "manşet",
+      "pl": "manşetler",
+      "s": "تیتر اول (روزنامه)",
+      "pr": "مانشِت",
+      "emoji": "",
+      "ex": {
+        "t": "Seçim sonuçları bütün gazetelerin manşetindeydi.",
+        "s": "نتایج انتخابات تیتر اول همه‌ی روزنامه‌ها بود."
+      }
+    },
+    {
+      "id": "w06",
+      "t": "gündem",
+      "s": "موضوع روز؛ دستور کار",
+      "pr": "گوندِم",
+      "emoji": "",
+      "ex": {
+        "t": "Enflasyon uzun zamandır ülkenin gündeminde.",
+        "s": "تورم مدت‌هاست موضوع اصلی روز در کشور است."
+      }
+    },
+    {
+      "id": "w07",
+      "t": "kaynak",
+      "pl": "kaynaklar",
+      "s": "منبع",
+      "pr": "کایناک",
+      "emoji": "",
+      "ex": {
+        "t": "Bu bilginin kaynağı belli değil.",
+        "s": "منبع این اطلاعات معلوم نیست."
+      }
+    },
+    {
+      "id": "w08",
+      "t": "iddia",
+      "pl": "iddialar",
+      "s": "ادعا",
+      "pr": "ایدّیا",
+      "emoji": "",
+      "ex": {
+        "t": "Bakanlık bu iddiaları kabul etmedi.",
+        "s": "وزارتخانه این ادعاها را نپذیرفت."
+      }
+    },
+    {
+      "id": "w09",
+      "t": "açıklama",
+      "pl": "açıklamalar",
+      "s": "بیانیه؛ توضیح",
+      "pr": "آچِکلاما",
+      "emoji": "",
+      "ex": {
+        "t": "Belediye konuyla ilgili bir açıklama yaptı.",
+        "s": "شهرداری درباره‌ی این موضوع بیانیه‌ای داد."
+      }
+    },
+    {
+      "id": "w10",
+      "t": "yalanlamak",
+      "s": "تکذیب کردن",
+      "pr": "یالانلاماک",
+      "emoji": "",
+      "ex": {
+        "t": "Şirket, kapanacağı yönündeki haberleri yalanladı.",
+        "s": "شرکت خبرهای مربوط به تعطیل شدنش را تکذیب کرد."
+      }
+    },
+    {
+      "id": "w11",
+      "t": "yayınlamak",
+      "s": "منتشر کردن؛ پخش کردن",
+      "pr": "یایِنلاماک",
+      "emoji": "📡",
+      "ex": {
+        "t": "Kanal, belgeseli dün akşam yayınladı.",
+        "s": "شبکه مستند را دیشب پخش کرد."
+      }
+    },
+    {
+      "id": "w12",
+      "t": "röportaj",
+      "pl": "röportajlar",
+      "s": "مصاحبه",
+      "pr": "رُپُرتاژ",
+      "emoji": "🎤",
+      "ex": {
+        "t": "Gazeteci, bakanla uzun bir röportaj yaptı.",
+        "s": "روزنامه‌نگار با وزیر مصاحبه‌ی مفصلی انجام داد."
+      }
+    },
+    {
+      "id": "w13",
+      "t": "sosyal medya",
+      "s": "شبکه‌های اجتماعی",
+      "pr": "سُسیال مِدیا",
+      "emoji": "📱",
+      "ex": {
+        "t": "Gençler haberleri çoğunlukla sosyal medyadan takip ediyor.",
+        "s": "جوان‌ها اخبار را بیشتر از شبکه‌های اجتماعی دنبال می‌کنند."
+      }
+    },
+    {
+      "id": "w14",
+      "t": "yalan haber",
+      "pl": "yalan haberler",
+      "s": "خبر جعلی",
+      "pr": "یالان هابِر",
+      "emoji": "",
+      "ex": {
+        "t": "Yalan haberler çok hızlı yayılıyor.",
+        "s": "خبرهای جعلی خیلی سریع پخش می‌شوند."
+      }
+    },
+    {
+      "id": "w15",
+      "t": "tarafsız",
+      "s": "بی‌طرف",
+      "pr": "تارافسِز",
+      "emoji": "⚖️",
+      "ex": {
+        "t": "İyi bir gazeteci tarafsız olmalı.",
+        "s": "یک روزنامه‌نگار خوب باید بی‌طرف باشد."
+      }
+    },
+    {
+      "id": "w16",
+      "t": "takip etmek",
+      "s": "دنبال کردن",
+      "pr": "تاکیپ اِتمِک",
+      "emoji": "",
+      "ex": {
+        "t": "Hangi haber sitelerini takip ediyorsun?",
+        "s": "کدام سایت‌های خبری را دنبال می‌کنی؟"
+      }
+    }
+  ],
+  "phrases": [
+    {
+      "id": "p01",
+      "t": "Son dakika!",
+      "s": "خبر فوری!"
+    },
+    {
+      "id": "p02",
+      "t": "Duyduğuma göre…",
+      "s": "تا جایی که شنیده‌ام…"
+    },
+    {
+      "id": "p03",
+      "t": "Söylentilere göre…",
+      "s": "طبق شایعات…"
+    },
+    {
+      "id": "p04",
+      "t": "Kulağıma çalındı ki…",
+      "s": "به گوشم خورده که…"
+    },
+    {
+      "id": "p05",
+      "t": "Bu haberin kaynağı ne?",
+      "s": "منبع این خبر چیست؟"
+    },
+    {
+      "id": "p06",
+      "t": "Önce haberi teyit etmek lazım.",
+      "s": "اول باید درستیِ خبر را بررسی کرد."
+    },
+    {
+      "id": "p07",
+      "t": "Açıkçası bana pek inandırıcı gelmedi.",
+      "s": "راستش به نظرم زیاد قانع‌کننده نیامد."
+    },
+    {
+      "id": "p08",
+      "t": "Bu konuda ne düşünüyorsun?",
+      "s": "در این مورد چه فکر می‌کنی؟"
+    }
+  ],
+  "dialogue": {
+    "title": {
+      "t": "Bu haber doğru mu?",
+      "s": "این خبر درست است؟"
+    },
+    "speakers": {
+      "A": {
+        "name": "Elif",
+        "voice": "f"
+      },
+      "B": {
+        "name": "Reza",
+        "voice": "m"
+      }
+    },
+    "lines": [
+      {
+        "sp": "A",
+        "t": "Reza, haberi duydun mu? Belediye mahalledeki parkı kapatıp yerine alışveriş merkezi yapacakmış.",
+        "s": "رضا، خبر را شنیدی؟ می‌گویند شهرداری قرار است پارک محله را ببندد و جایش مرکز خرید بسازد."
+      },
+      {
+        "sp": "B",
+        "t": "Ciddi misin? Nereden duydun?",
+        "s": "جدی می‌گویی؟ از کجا شنیدی؟"
+      },
+      {
+        "sp": "A",
+        "t": "Sosyal medyada herkes paylaşıyor. Bir arkadaşım da belediyede çalışan birinin bunu doğruladığını söyledi.",
+        "s": "در شبکه‌های اجتماعی همه دارند منتشرش می‌کنند. یکی از دوستانم هم گفت که یکی از کارمندان شهرداری این را تأیید کرده."
+      },
+      {
+        "sp": "B",
+        "t": "Bence acele etme. Sosyal medyada her gün böyle bir sürü yalan haber çıkıyor.",
+        "s": "به نظرم عجله نکن. در شبکه‌های اجتماعی هر روز کلی خبر جعلی از این دست درمی‌آید."
+      },
+      {
+        "sp": "A",
+        "t": "Haklısın, ama haberin kaynağı bir gazeteymiş.",
+        "s": "حق با توست، ولی ظاهراً منبع خبر یک روزنامه است."
+      },
+      {
+        "sp": "B",
+        "t": "Hangi gazete? Dur bir bakayım… Aa, belediye sabah bir açıklama yapmış.",
+        "s": "کدام روزنامه؟ صبر کن ببینم… اِ، شهرداری صبح بیانیه‌ای داده."
+      },
+      {
+        "sp": "A",
+        "t": "Ne diyor?",
+        "s": "چه می‌گوید؟"
+      },
+      {
+        "sp": "B",
+        "t": "Parkın kapanmayacağını, sadece yenileneceğini söylüyor. Haberi de kesinlikle yalanlıyor.",
+        "s": "می‌گوید پارک بسته نمی‌شود و فقط بازسازی می‌شود. خبر را هم قاطعانه تکذیب می‌کند."
+      },
+      {
+        "sp": "A",
+        "t": "Demek ki boşuna telaşlanmışım. Paylaşımımı hemen sileyim.",
+        "s": "پس معلوم شد بی‌خودی نگران شده بودم. بگذار همین الان پستم را پاک کنم."
+      },
+      {
+        "sp": "B",
+        "t": "Bence de. Bir haberi paylaşmadan önce mutlaka kaynağını kontrol etmek lazım.",
+        "s": "من هم همین فکر را می‌کنم. قبل از منتشر کردن هر خبری حتماً باید منبعش را بررسی کرد."
+      }
+    ]
+  },
+  "grammar": [
+    {
+      "id": "g01",
+      "title": {
+        "t": "Geleceğini söyledi. / “Geliyorum” diye aradı.",
+        "s": "نقل قول غیرمستقیم: -dığını söyledi و diye"
+      },
+      "explain": "در ترکی برای نقل حرف دیگران دو راه اصلی داریم.\n۱) **ساخت اسمی**: جمله‌ی نقل‌شده به اسم‌فعل تبدیل می‌شود و قبل از فعل‌هایی مثل **söylemek، belirtmek، açıklamak، bildirmek، iddia etmek** می‌آید. برای حال و گذشته **-dığını** و برای آینده **-(y)acağını** به کار می‌رود: «Yorgunum.» ← **Yorgun olduğunu söyledi.**؛ «Yarın gelirim.» ← **Yarın geleceğini söyledi.** منفی: **gelmediğini**، **gelmeyeceğini**.\nپسوند ملکی فاعل را نشان می‌دهد: geldiğ**imi** (که من آمدم)، geldiğ**ini** (که تو / او آمد)، geldiğ**imizi**، geldik**lerini**. اگر فاعل جمله‌ی نقل‌شده اسم باشد، پسوند اضافه می‌گیرد: Toplantı**nın** iptal edildiğini açıkladı.\nبرای سؤال‌ها: «Saat kaç?» ← **Saatin kaç olduğunu sordu.**\n۲) **diye**: خود جمله تقریباً همان‌طور که گفته شده می‌آید و بعدش **diye** + فعل: **“Geç kalacağım” diye aradı.** = زنگ زد و گفت «دیر می‌کنم». diye با فعل‌هایی مثل sormak، bağırmak، yazmak، mesaj atmak هم می‌آید. با فعل التزامی معنای «برای اینکه» می‌دهد: **Geç kalmayayım diye taksiye bindim.** = برای اینکه دیر نکنم، تاکسی گرفتم.\nدر فارسی هر دو را معمولاً با «که» می‌گوییم: «گفت که خسته است».",
+      "table": [
+        [
+          "“Yorgunum.”",
+          "Yorgun olduğunu söyledi."
+        ],
+        [
+          "“Toplantı iptal edildi.”",
+          "Toplantının iptal edildiğini açıkladı."
+        ],
+        [
+          "“Yarın gelirim.”",
+          "Yarın geleceğini söyledi."
+        ],
+        [
+          "“Gelmeyeceğim.”",
+          "Gelmeyeceğini belirtti."
+        ],
+        [
+          "“Saat kaç?”",
+          "Saatin kaç olduğunu sordu."
+        ],
+        [
+          "“Yardım edin!”",
+          "“Yardım edin!” diye bağırdı."
+        ]
+      ],
+      "examples": [
+        {
+          "t": "Bakan, vergilerin artmayacağını açıkladı.",
+          "s": "وزیر اعلام کرد که مالیات‌ها افزایش نمی‌یابد."
+        },
+        {
+          "t": "Zeynep bu habere hiç inanmadığını söyledi.",
+          "s": "زینب گفت که اصلاً این خبر را باور نمی‌کند."
+        },
+        {
+          "t": "Muhabir, yangının gece yarısı başladığını bildirdi.",
+          "s": "خبرنگار گزارش داد که آتش‌سوزی نیمه‌شب شروع شده است."
+        },
+        {
+          "t": "Annem “Yemek hazır!” diye seslendi.",
+          "s": "مادرم صدا زد: «غذا حاضر است!»"
+        },
+        {
+          "t": "Ali, toplantıya gelip gelmeyeceğimi sordu.",
+          "s": "علی پرسید که به جلسه می‌آیم یا نه."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "choice",
+          "t": "Mehmet yarın İzmir'e ___ söyledi.",
+          "options": [
+            "gideceğini",
+            "gittiğini",
+            "gidecek"
+          ],
+          "answer": 0,
+          "s": "مهمت گفت که فردا به ازمیر می‌رود."
+        },
+        {
+          "type": "choice",
+          "t": "Bakanlık, iddiaların doğru ___ açıkladı.",
+          "options": [
+            "olmamasını",
+            "olmadığını",
+            "olmayacak"
+          ],
+          "answer": 1,
+          "s": "وزارتخانه اعلام کرد که ادعاها درست نیستند."
+        },
+        {
+          "type": "choice",
+          "t": "Elif bana “Neredesin?” ___ mesaj attı.",
+          "options": [
+            "dediğini",
+            "olduğunu",
+            "diye"
+          ],
+          "answer": 2,
+          "s": "الیف به من پیام داد: «کجایی؟»"
+        },
+        {
+          "type": "type",
+          "t": "Doktor, babamın durumunun iyi ___ söyledi.",
+          "answer": [
+            "olduğunu"
+          ],
+          "s": "دکتر گفت که حال پدرم خوب است."
+        },
+        {
+          "type": "type",
+          "t": "Ayşe hafta sonu bize ___ söyledi.",
+          "answer": [
+            "gelmeyeceğini"
+          ],
+          "s": "عایشه گفت که آخر هفته پیش ما نمی‌آید."
+        },
+        {
+          "type": "type",
+          "t": "Geç ___ diye taksiye bindim.",
+          "answer": [
+            "kalmayayım"
+          ],
+          "s": "برای اینکه دیر نکنم، تاکسی گرفتم."
+        },
+        {
+          "type": "order",
+          "t": "Gazeteci haberin yanlış olduğunu yazdı.",
+          "s": "روزنامه‌نگار نوشت که خبر اشتباه است."
+        },
+        {
+          "type": "order",
+          "t": "Annem eve geç geleceğini söyledi.",
+          "s": "مادرم گفت که دیر به خانه می‌آید."
+        }
+      ]
+    },
+    {
+      "id": "g02",
+      "title": {
+        "t": "Dün gece deprem olmuş!",
+        "s": "-mış برای خبرِ شنیده‌شده و زبان خبر"
+      },
+      "explain": "پسوند **-mış / -miş / -muş / -müş** فقط برای ماضی نقلی نیست؛ وقتی چیزی را **خودمان ندیده‌ایم** و از دیگران شنیده یا جایی خوانده‌ایم، از آن استفاده می‌کنیم. معنایش نزدیک به «ظاهراً / می‌گویند / گویا» است.\nمقایسه کنید: **Ahmet dün geldi.** (خودم دیدم یا مطمئنم) ← **Ahmet dün gelmiş.** (شنیده‌ام که دیروز آمده). در فارسی هم ماضی نقلی گاهی همین حس را دارد: «می‌گویند دیروز آمده».\n**-mış** به زمان‌های دیگر هم اضافه می‌شود: **geliyormuş** (ظاهراً دارد می‌آید)، **gelecekmiş** (می‌گویند قرار است بیاید)، **gelirmiş** (گویا می‌آمده / می‌آید)؛ و به اسم و صفت: **hastaymış** (گویا مریض است)، **doğruymuş** (معلوم شد درست است).\nدر زبان رسمی اخبار بیشتر از **-dı** و ساخت‌هایی مثل **-dığı bildirildi / -dığı öğrenildi / -dığı iddia edildi** استفاده می‌شود تا منبع خبر روشن باشد. اما وقتی در گفت‌وگوی روزمره خبری را نقل می‌کنیم، **-mış** بسیار رایج است: Haberlerde söylediler, benzine zam gelecekmiş.\n**-mış** معنای «تازه فهمیدم / تعجب» هم دارد: **Sen ne güzel şarkı söylüyormuşsun!** = چه قشنگ آواز می‌خوانی! (نمی‌دانستم).",
+      "table": [
+        [
+          "Kesin bilgi",
+          "Duyulan bilgi"
+        ],
+        [
+          "Deprem oldu.",
+          "Deprem olmuş."
+        ],
+        [
+          "Yağmur yağıyor.",
+          "Yağmur yağıyormuş."
+        ],
+        [
+          "Benzine zam gelecek.",
+          "Benzine zam gelecekmiş."
+        ],
+        [
+          "Bakan hasta.",
+          "Bakan hastaymış."
+        ],
+        [
+          "Haber doğru.",
+          "Haber doğruymuş."
+        ]
+      ],
+      "examples": [
+        {
+          "t": "Dün gece İzmir'de 4,5 büyüklüğünde bir deprem olmuş.",
+          "s": "گویا دیشب در ازمیر زلزله‌ای به بزرگی ۴٫۵ ریشتر آمده."
+        },
+        {
+          "t": "Haberlere göre köprü yarın trafiğe kapatılacakmış.",
+          "s": "طبق اخبار، گویا پل فردا به روی ترافیک بسته می‌شود."
+        },
+        {
+          "t": "Komşumuz Emre yeni bir işe başlamış.",
+          "s": "ظاهراً همسایه‌مان امره کار تازه‌ای را شروع کرده."
+        },
+        {
+          "t": "Bu restoran eskiden çok ünlüymüş.",
+          "s": "می‌گویند این رستوران قبلاً خیلی معروف بوده."
+        },
+        {
+          "t": "Aa, sen Farsça da biliyormuşsun!",
+          "s": "اِ، تو فارسی هم بلدی! (نمی‌دانستم)"
+        }
+      ],
+      "exercises": [
+        {
+          "type": "choice",
+          "t": "Duyduğuma göre dün akşam stadyumda kavga ___.",
+          "options": [
+            "çıkacakmış",
+            "çıkmış",
+            "çıkıyormuş"
+          ],
+          "answer": 1,
+          "s": "تا جایی که شنیده‌ام، دیشب در ورزشگاه دعوا شده."
+        },
+        {
+          "type": "choice",
+          "t": "Haberlere göre yarın İstanbul'a kar ___.",
+          "options": [
+            "yağmış",
+            "yağıyordu",
+            "yağacakmış"
+          ],
+          "answer": 2,
+          "s": "طبق اخبار، گویا فردا در استانبول برف می‌بارد."
+        },
+        {
+          "type": "choice",
+          "t": "Zeynep'i aradım; meğer çok ___.",
+          "options": [
+            "hastaymış",
+            "hastamış",
+            "hastayımış"
+          ],
+          "answer": 0,
+          "s": "به زینب زنگ زدم؛ معلوم شد خیلی مریض است."
+        },
+        {
+          "type": "type",
+          "t": "Ali'yi gördün mü? Galiba yeni bir araba ___.",
+          "answer": [
+            "almış"
+          ],
+          "s": "علی را دیدی؟ انگار ماشین تازه‌ای خریده."
+        },
+        {
+          "type": "type",
+          "t": "Komşular söylüyor: Bu binada eskiden ünlü bir şair ___.",
+          "answer": [
+            "yaşıyormuş",
+            "yaşarmış",
+            "yaşamış",
+            "oturuyormuş",
+            "otururmuş",
+            "oturmuş"
+          ],
+          "s": "همسایه‌ها می‌گویند: گویا قبلاً یک شاعر معروف در این ساختمان زندگی می‌کرده."
+        },
+        {
+          "type": "type",
+          "t": "Aa, sen ne güzel yemek ___!",
+          "answer": [
+            "yapıyormuşsun",
+            "yaparmışsın"
+          ],
+          "s": "اِ، تو چه غذای خوبی درست می‌کنی! (نمی‌دانستم)"
+        },
+        {
+          "type": "order",
+          "t": "Gazeteye göre benzine yine zam gelmiş.",
+          "s": "طبق روزنامه، ظاهراً باز بنزین گران شده."
+        },
+        {
+          "type": "order",
+          "t": "Duyduğuma göre Mehmet işinden istifa etmiş.",
+          "s": "تا جایی که شنیده‌ام، مهمت از کارش استعفا داده."
+        }
+      ]
+    }
+  ],
+  "reading": {
+    "title": {
+      "t": "Bir haberi paylaşmadan önce",
+      "s": "پیش از اینکه خبری را منتشر کنید"
+    },
+    "text": [
+      {
+        "t": "Geçen hafta sosyal medyada şaşırtıcı bir haber yayıldı.",
+        "s": "هفته‌ی گذشته خبر عجیبی در شبکه‌های اجتماعی پخش شد."
+      },
+      {
+        "t": "Habere göre, İstanbul'daki bütün okullar bir ay boyunca kapanacakmış.",
+        "s": "طبق این خبر، گویا قرار بود همه‌ی مدرسه‌های استانبول یک ماه تعطیل شوند."
+      },
+      {
+        "t": "Birkaç saat içinde binlerce kişi haberi paylaştı ve veliler okulları aramaya başladı.",
+        "s": "در عرض چند ساعت هزاران نفر خبر را منتشر کردند و والدین شروع کردند به تماس گرفتن با مدرسه‌ها."
+      },
+      {
+        "t": "Ancak Millî Eğitim Bakanlığı akşam bir açıklama yaptı.",
+        "s": "اما وزارت آموزش و پرورش عصر بیانیه‌ای صادر کرد."
+      },
+      {
+        "t": "Bakanlık, böyle bir kararın alınmadığını ve haberin tamamen yalan olduğunu belirtti.",
+        "s": "وزارتخانه اعلام کرد که چنین تصمیمی گرفته نشده و خبر کاملاً دروغ است."
+      },
+      {
+        "t": "Peki bu yalan haber nereden çıkmıştı?",
+        "s": "خب، این خبر جعلی از کجا درآمده بود؟"
+      },
+      {
+        "t": "Konuyu araştıran gazeteciler, haberin kaynağının sahte bir hesap olduğunu ortaya çıkardılar.",
+        "s": "روزنامه‌نگارانی که موضوع را بررسی کردند، فاش کردند که منبع خبر یک حساب جعلی بوده است."
+      },
+      {
+        "t": "Uzmanlar, yalan haberlerin doğru haberlerden çok daha hızlı yayıldığını söylüyor.",
+        "s": "کارشناسان می‌گویند خبرهای جعلی خیلی سریع‌تر از خبرهای درست پخش می‌شوند."
+      },
+      {
+        "t": "Bu yüzden bir haberi paylaşmadan önce kaynağını kontrol etmemizi tavsiye ediyorlar.",
+        "s": "به همین دلیل توصیه می‌کنند پیش از منتشر کردن هر خبر، منبعش را بررسی کنیم."
+      },
+      {
+        "t": "Haber güvenilir bir gazetede ya da resmî bir sitede yoksa dikkatli olmak gerekir.",
+        "s": "اگر خبر در یک روزنامه‌ی معتبر یا یک سایت رسمی نیامده باشد، باید محتاط بود."
+      },
+      {
+        "t": "Unutmayın: Tek bir tıklama, bir yalanın binlerce kişiye ulaşmasına neden olabilir.",
+        "s": "فراموش نکنید: فقط یک کلیک می‌تواند باعث شود یک دروغ به هزاران نفر برسد."
+      }
+    ],
+    "questions": [
+      {
+        "q": {
+          "t": "Sosyal medyadaki habere göre ne olacakmış?",
+          "s": "طبق خبرِ شبکه‌های اجتماعی، قرار بود چه اتفاقی بیفتد؟"
+        },
+        "options": [
+          "Okullar bir ay kapanacakmış.",
+          "Sınavlar ertelenecekmiş.",
+          "Yeni okullar açılacakmış."
+        ],
+        "answer": 0
+      },
+      {
+        "q": {
+          "t": "Bakanlık açıklamasında ne söyledi?",
+          "s": "وزارتخانه در بیانیه‌اش چه گفت؟"
+        },
+        "options": [
+          "Kararın yarın açıklanacağını",
+          "Haberin yalan olduğunu",
+          "Okulların erken kapanacağını"
+        ],
+        "answer": 1
+      },
+      {
+        "q": {
+          "t": "Haberin kaynağı neydi?",
+          "s": "منبع خبر چه بود؟"
+        },
+        "options": [
+          "Bir gazete",
+          "Bakanlığın sitesi",
+          "Sahte bir hesap"
+        ],
+        "answer": 2
+      },
+      {
+        "q": {
+          "t": "Uzmanlar ne tavsiye ediyor?",
+          "s": "کارشناسان چه توصیه‌ای می‌کنند؟"
+        },
+        "options": [
+          "Sosyal medyayı hiç kullanmamayı",
+          "Paylaşmadan önce kaynağı kontrol etmeyi",
+          "Sadece televizyon izlemeyi"
+        ],
+        "answer": 1
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "t": "Bakan, istifa etmeyeceğini açıkladı.",
+      "s": "وزیر اعلام کرد که استعفا نمی‌دهد."
+    },
+    {
+      "t": "Muhabir, yolların kar yüzünden kapandığını bildirdi.",
+      "s": "خبرنگار گزارش داد که جاده‌ها به خاطر برف بسته شده‌اند."
+    },
+    {
+      "t": "Duyduğuma göre yeni bir film çekiyormuş.",
+      "s": "تا جایی که شنیده‌ام، دارد فیلم تازه‌ای می‌سازد."
+    },
+    {
+      "t": "Haberlere göre köprü yarın açılacakmış.",
+      "s": "طبق اخبار، گویا پل فردا افتتاح می‌شود."
+    },
+    {
+      "t": "Bu haberin kaynağı güvenilir değil.",
+      "s": "منبع این خبر قابل اعتماد نیست."
+    },
+    {
+      "t": "Reza “Hemen geliyorum” diye telefonu kapattı.",
+      "s": "رضا گفت «الان می‌آیم» و تلفن را قطع کرد."
+    },
+    {
+      "t": "Sosyal medyada her şeye inanmamak lazım.",
+      "s": "نباید هر چیزی را که در شبکه‌های اجتماعی می‌بینیم باور کرد."
+    },
+    {
+      "t": "Şirket, iddiaları kesinlikle yalanladı.",
+      "s": "شرکت ادعاها را قاطعانه تکذیب کرد."
+    }
+  ]
+}

@@ -1,0 +1,715 @@
+{
+  "id": "u07",
+  "level": "B1",
+  "emoji": "📱",
+  "title": {
+    "t": "Teknoloji ve iletişim",
+    "s": "فناوری و ارتباطات"
+  },
+  "goals": [
+    "درباره‌ی گوشی، اینترنت و پیام‌رسان‌ها صحبت کنم.",
+    "بگویم کاری را به کسی دیگر سپرده‌ام: Telefonumu tamir ettirdim.",
+    "بگویم در گذشته چه کاری را توانستم یا نتوانستم انجام بدهم: gelebildim / gelemedim.",
+    "یک مشکل فنی را برای تعمیرکار توضیح بدهم."
+  ],
+  "words": [
+    {
+      "id": "w01",
+      "t": "akıllı telefon",
+      "pl": "akıllı telefonlar",
+      "s": "گوشی هوشمند",
+      "pr": "آکِلِّ تِلِفُن",
+      "emoji": "📱",
+      "ex": {
+        "t": "Akıllı telefonumu her gece şarj ediyorum.",
+        "s": "گوشی هوشمندم را هر شب شارژ می‌کنم."
+      }
+    },
+    {
+      "id": "w02",
+      "t": "şarj etmek",
+      "s": "شارژ کردن",
+      "pr": "شارژ اِتمِک",
+      "emoji": "🔋",
+      "ex": {
+        "t": "Telefonu şarj etmeyi unuttum.",
+        "s": "یادم رفت گوشی را شارژ کنم."
+      }
+    },
+    {
+      "id": "w03",
+      "t": "ekran",
+      "pl": "ekranlar",
+      "s": "صفحه‌نمایش",
+      "pr": "اِکران",
+      "emoji": "",
+      "ex": {
+        "t": "Telefonumun ekranı kırıldı.",
+        "s": "صفحه‌ی گوشی‌ام شکست."
+      }
+    },
+    {
+      "id": "w04",
+      "t": "şifre",
+      "pl": "şifreler",
+      "s": "رمز",
+      "pr": "شیفرِه",
+      "emoji": "🔑",
+      "ex": {
+        "t": "Bilgisayarımın şifresini unuttum.",
+        "s": "رمز کامپیوترم را فراموش کردم."
+      }
+    },
+    {
+      "id": "w05",
+      "t": "mesaj",
+      "pl": "mesajlar",
+      "s": "پیام",
+      "pr": "مِساژ",
+      "emoji": "💬",
+      "ex": {
+        "t": "Sana bir mesaj gönderdim.",
+        "s": "یک پیام برایت فرستادم."
+      }
+    },
+    {
+      "id": "w06",
+      "t": "göndermek",
+      "s": "فرستادن",
+      "pr": "گُندِرمِک",
+      "emoji": "📤",
+      "ex": {
+        "t": "Fotoğrafları e-postayla gönderdim.",
+        "s": "عکس‌ها را با ایمیل فرستادم."
+      }
+    },
+    {
+      "id": "w07",
+      "t": "indirmek",
+      "s": "دانلود کردن؛ پایین آوردن",
+      "pr": "ایندیرمِک",
+      "emoji": "📥",
+      "ex": {
+        "t": "Yeni bir uygulama indirdim.",
+        "s": "یک اپلیکیشن جدید دانلود کردم."
+      }
+    },
+    {
+      "id": "w08",
+      "t": "uygulama",
+      "pl": "uygulamalar",
+      "s": "اپلیکیشن، برنامه",
+      "pr": "اویگولاما",
+      "emoji": "",
+      "ex": {
+        "t": "Bu uygulamayla Türkçe öğreniyorum.",
+        "s": "با این اپلیکیشن ترکی یاد می‌گیرم."
+      }
+    },
+    {
+      "id": "w09",
+      "t": "bağlantı",
+      "pl": "bağlantılar",
+      "s": "اتصال؛ لینک",
+      "pr": "باالانتِ",
+      "emoji": "🔗",
+      "ex": {
+        "t": "İnternet bağlantısı çok yavaş.",
+        "s": "اتصال اینترنت خیلی کند است."
+      }
+    },
+    {
+      "id": "w10",
+      "t": "görüntülü arama",
+      "s": "تماس تصویری",
+      "pr": "گُرونتولو آراما",
+      "emoji": "📹",
+      "ex": {
+        "t": "Akşamları ailemle görüntülü arama yapıyoruz.",
+        "s": "عصرها با خانواده‌ام تماس تصویری می‌گیریم."
+      }
+    },
+    {
+      "id": "w11",
+      "t": "bozulmak",
+      "s": "خراب شدن",
+      "pr": "بُزولماک",
+      "emoji": "",
+      "ex": {
+        "t": "Bilgisayarım dün bozuldu.",
+        "s": "کامپیوترم دیروز خراب شد."
+      }
+    },
+    {
+      "id": "w12",
+      "t": "tamir etmek",
+      "s": "تعمیر کردن",
+      "pr": "تامیر اِتمِک",
+      "emoji": "🔧",
+      "ex": {
+        "t": "Babam eski radyoyu tamir etti.",
+        "s": "پدرم رادیوی قدیمی را تعمیر کرد."
+      }
+    },
+    {
+      "id": "w13",
+      "t": "tamirci",
+      "pl": "tamirciler",
+      "s": "تعمیرکار",
+      "pr": "تامیرجی",
+      "emoji": "",
+      "ex": {
+        "t": "Telefonumu tamirciye götürdüm.",
+        "s": "گوشی‌ام را پیش تعمیرکار بردم."
+      }
+    },
+    {
+      "id": "w14",
+      "t": "bilgisayar",
+      "pl": "bilgisayarlar",
+      "s": "کامپیوتر، رایانه",
+      "pr": "بیلگیسایار",
+      "emoji": "💻",
+      "ex": {
+        "t": "Oğlum bilgisayarda ödev yapıyor.",
+        "s": "پسرم دارد با کامپیوتر تکلیفش را انجام می‌دهد."
+      }
+    },
+    {
+      "id": "w15",
+      "t": "sosyal medya",
+      "s": "شبکه‌های اجتماعی",
+      "pr": "سُسیال مِدیا",
+      "emoji": "",
+      "ex": {
+        "t": "Sosyal medyada çok vakit geçiriyoruz.",
+        "s": "وقت زیادی را در شبکه‌های اجتماعی می‌گذرانیم."
+      }
+    }
+  ],
+  "phrases": [
+    {
+      "id": "p01",
+      "t": "Şarjım bitti.",
+      "s": "شارژم تمام شد."
+    },
+    {
+      "id": "p02",
+      "t": "Seni duyamıyorum, ses gidip geliyor.",
+      "s": "صدایت را نمی‌شنوم، صدا قطع و وصل می‌شود."
+    },
+    {
+      "id": "p03",
+      "t": "Sonra ararım, tamam mı?",
+      "s": "بعداً زنگ می‌زنم، باشه؟"
+    },
+    {
+      "id": "p04",
+      "t": "Bana bir mesaj at.",
+      "s": "یک پیام برایم بفرست."
+    },
+    {
+      "id": "p05",
+      "t": "Burada internet çekmiyor.",
+      "s": "این‌جا اینترنت آنتن نمی‌دهد."
+    },
+    {
+      "id": "p06",
+      "t": "Telefonum dondu.",
+      "s": "گوشی‌ام هنگ کرد."
+    },
+    {
+      "id": "p07",
+      "t": "Ne kadar sürer?",
+      "s": "چقدر طول می‌کشد؟"
+    },
+    {
+      "id": "p08",
+      "t": "Garantisi var mı?",
+      "s": "گارانتی دارد؟"
+    }
+  ],
+  "dialogue": {
+    "title": {
+      "t": "Telefon tamircisinde",
+      "s": "در تعمیرگاه موبایل"
+    },
+    "speakers": {
+      "A": {
+        "name": "Neda",
+        "voice": "f"
+      },
+      "B": {
+        "name": "Can",
+        "voice": "m"
+      }
+    },
+    "lines": [
+      {
+        "sp": "A",
+        "t": "Merhaba. Telefonum dün yere düştü ve ekranı kırıldı.",
+        "s": "سلام. گوشی‌ام دیروز افتاد زمین و صفحه‌اش شکست."
+      },
+      {
+        "sp": "B",
+        "t": "Geçmiş olsun. Bir bakabilir miyim?",
+        "s": "ای بابا، بد شد. می‌توانم نگاهی بیندازم؟"
+      },
+      {
+        "sp": "A",
+        "t": "Tabii. Ekran dokunmaya cevap vermiyor; dün akşam annemi bile arayamadım.",
+        "s": "حتماً. صفحه به لمس جواب نمی‌دهد؛ دیشب حتی نتوانستم به مادرم زنگ بزنم."
+      },
+      {
+        "sp": "B",
+        "t": "Evet, ekranı değiştirmek gerekiyor. Fotoğraflarınızı yedekleyebildiniz mi?",
+        "s": "بله، باید صفحه را عوض کرد. توانستید از عکس‌هایتان نسخه‌ی پشتیبان بگیرید؟"
+      },
+      {
+        "sp": "A",
+        "t": "Hayır, yedekleyemedim. Fotoğraflar silinir mi?",
+        "s": "نه، نتوانستم. عکس‌ها پاک می‌شوند؟"
+      },
+      {
+        "sp": "B",
+        "t": "Merak etmeyin, silinmez. Ekranı değiştirince her şey yerinde olacak.",
+        "s": "نگران نباشید، پاک نمی‌شوند. وقتی صفحه را عوض کنیم، همه‌چیز سر جایش می‌ماند."
+      },
+      {
+        "sp": "A",
+        "t": "Ne kadar sürer?",
+        "s": "چقدر طول می‌کشد؟"
+      },
+      {
+        "sp": "B",
+        "t": "Parçayı bugün getirtiyorum; yarın öğlene kadar hazır olur.",
+        "s": "امروز سفارش می‌دهم قطعه را بیاورند؛ تا فردا ظهر آماده می‌شود."
+      },
+      {
+        "sp": "A",
+        "t": "Peki, fiyatı ne kadar?",
+        "s": "خب، قیمتش چقدر است؟"
+      },
+      {
+        "sp": "B",
+        "t": "Üç bin beş yüz lira. Altı ay garantisi var.",
+        "s": "سه هزار و پانصد لیر. شش ماه گارانتی دارد."
+      },
+      {
+        "sp": "A",
+        "t": "Tamam, değiştirelim. Yarın eşimi gönderirim, telefonu o alır.",
+        "s": "باشه، عوضش کنیم. فردا همسرم را می‌فرستم، او گوشی را می‌گیرد."
+      },
+      {
+        "sp": "B",
+        "t": "Olur. Adınızı ve telefon numaranızı alabilir miyim?",
+        "s": "باشه. می‌توانم اسم و شماره‌ی تلفنتان را داشته باشم؟"
+      }
+    ]
+  },
+  "grammar": [
+    {
+      "id": "g01",
+      "title": {
+        "t": "Telefonumu tamir ettirdim: ettirgen çatı",
+        "s": "فعل سببی: «دادم تعمیرش کنند»"
+      },
+      "explain": "وقتی کاری را خودمان انجام نمی‌دهیم و **کسی دیگر را وادار می‌کنیم یا کار را به کسی می‌سپاریم**، در ترکی از فعل سببی (ettirgen) استفاده می‌کنیم. در فارسی معمولاً می‌گوییم «دادم … کنند» یا از فعل‌هایی مثل «نشاندن، خوراندن، خواباندن» استفاده می‌کنیم.\nپسوندهای اصلی (بعد از ریشه‌ی فعل):\n• **-t**: بعد از ریشه‌های چندهجایی که به واکه یا **l / r** ختم می‌شوند: oku → oku**t**mak (وادار به خواندن کردن)، bekle → bekle**t**mek (منتظر گذاشتن)، otur → otur**t**mak (نشاندن).\n• **-dır / -dir / -dur / -dür** (بعد از صامت بی‌واک: **-tır / -tir / -tur / -tür**): yap → yap**tır**mak، yaz → yaz**dır**mak (نویساندن؛ پرینت گرفتن)، tamir et → tamir et**tir**mek، değiş → değiş**tir**mek (عوض کردن).\n• **-ır / -ir / -ur / -ür** یا **-ar / -er**: فقط در چند فعل یک‌هجایی پرکاربرد: piş → piş**ir**mek (پختن)، düş → düş**ür**mek (انداختن)، bit → bit**ir**mek (تمام کردن)، çık → çık**ar**mak (بیرون آوردن).\nکسی که کار را انجام می‌دهد معمولاً پسوند **-(y)a / -(y)e** می‌گیرد: Duvarı usta**ya** boyattım = دادم استادکار دیوار را رنگ کند.",
+      "table": [
+        [
+          "yapmak",
+          "yaptırmak"
+        ],
+        [
+          "tamir etmek",
+          "tamir ettirmek"
+        ],
+        [
+          "yazmak",
+          "yazdırmak"
+        ],
+        [
+          "değişmek",
+          "değiştirmek"
+        ],
+        [
+          "okumak",
+          "okutmak"
+        ],
+        [
+          "beklemek",
+          "bekletmek"
+        ],
+        [
+          "pişmek",
+          "pişirmek"
+        ],
+        [
+          "düşmek",
+          "düşürmek"
+        ]
+      ],
+      "examples": [
+        {
+          "t": "Bilgisayarımı tamir ettirdim.",
+          "s": "کامپیوترم را دادم تعمیر کردند."
+        },
+        {
+          "t": "Öğretmen öğrencilere yeni bir metin okuttu.",
+          "s": "معلم از دانش‌آموزها خواست یک متن جدید بخوانند."
+        },
+        {
+          "t": "Bu belgeyi yazdırabilir misiniz?",
+          "s": "می‌توانید از این سند پرینت بگیرید؟"
+        },
+        {
+          "t": "Annem yemeği pişirdi, ben de masayı hazırladım.",
+          "s": "مادرم غذا را پخت، من هم میز را چیدم."
+        },
+        {
+          "t": "Bizi yarım saat beklettiler.",
+          "s": "ما را نیم ساعت منتظر گذاشتند."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "choice",
+          "t": "Ben bu duvarı boyamadım, ustaya ___.",
+          "options": [
+            "boyattım",
+            "boyadım",
+            "boyandım"
+          ],
+          "answer": 0,
+          "s": "من این دیوار را رنگ نزدم، دادم استادکار رنگش کند."
+        },
+        {
+          "type": "choice",
+          "t": "Bilgisayarım bozuldu; yarın tamir ___.",
+          "options": [
+            "ettireceğim",
+            "edileceğim",
+            "olacağım"
+          ],
+          "answer": 0,
+          "s": "کامپیوترم خراب شد؛ فردا می‌دهم تعمیرش کنند."
+        },
+        {
+          "type": "choice",
+          "t": "Garson çok yavaştı; bizi yarım saat ___.",
+          "options": [
+            "bekletti",
+            "bekledik",
+            "beklendi"
+          ],
+          "answer": 0,
+          "s": "گارسون خیلی کند بود؛ ما را نیم ساعت منتظر گذاشت."
+        },
+        {
+          "type": "type",
+          "t": "Bu cümleyi ben yazmadım, kızıma ___.",
+          "answer": [
+            "yazdırdım"
+          ],
+          "s": "این جمله را من ننوشتم، دادم دخترم بنویسد."
+        },
+        {
+          "type": "type",
+          "t": "Annem pilavı ___, ben de salatayı yaptım.",
+          "answer": [
+            "pişirdi"
+          ],
+          "s": "مادرم پلو را پخت، من هم سالاد را درست کردم."
+        },
+        {
+          "type": "type",
+          "t": "Telefonumu yere ___ ve ekranı kırıldı.",
+          "answer": [
+            "düşürdüm"
+          ],
+          "s": "گوشی‌ام را انداختم زمین و صفحه‌اش شکست."
+        },
+        {
+          "type": "order",
+          "t": "Dün arabamı benzinlikte yıkattım.",
+          "s": "دیروز دادم ماشینم را در پمپ‌بنزین بشویند."
+        },
+        {
+          "type": "order",
+          "t": "Ekranı yeni bir ekranla değiştirdiler.",
+          "s": "صفحه را با یک صفحه‌ی نو عوض کردند."
+        }
+      ]
+    },
+    {
+      "id": "g02",
+      "title": {
+        "t": "Gelebildim, gelemedim",
+        "s": "توانستن و نتوانستن در گذشته: ‎-ebildi / -emedi"
+      },
+      "explain": "در ترکی برای «توانستن» فعل جداگانه نداریم؛ پسوند **-(y)abil / -(y)ebil** به ریشه‌ی فعل می‌چسبد و بعد زمان و شناسه می‌آید: gel**ebil**dim = توانستم بیایم، yap**abil**dik = توانستیم انجام بدهیم، oku**yabil**di = توانست بخواند.\nشکل منفی کوتاه و خاص است: **-(y)ama / -(y)eme** + زمان: gel**eme**dim = نتوانستم بیایم، ara**yama**dım = نتوانستم زنگ بزنم. (حواستان باشد: gelebilmedim غلط است!)\nسؤال: gel**ebil**din mi? = توانستی بیایی؟ / gel**eme**din mi? = نتوانستی بیایی؟\nبرای توانایی همیشگی در گذشته (مثل «می‌توانستم» در فارسی) **-abiliyordum** و منفی‌اش **-amıyordum** را به کار می‌بریم: Çocukken çok hızlı koş**abiliyordum** = بچه که بودم خیلی تند می‌توانستم بدوم.\nهمین الگو در زمان حال هم هست: **duyamıyorum** = نمی‌توانم بشنوم، **bulamıyorum** = پیدا نمی‌کنم.",
+      "table": [
+        [
+          "gelmek",
+          "gelebildim",
+          "gelemedim"
+        ],
+        [
+          "yapmak",
+          "yapabildin",
+          "yapamadın"
+        ],
+        [
+          "aramak",
+          "arayabildi",
+          "arayamadı"
+        ],
+        [
+          "bulmak",
+          "bulabildik",
+          "bulamadık"
+        ],
+        [
+          "görmek",
+          "görebildiniz",
+          "göremediniz"
+        ],
+        [
+          "anlamak",
+          "anlayabildiler",
+          "anlayamadılar"
+        ]
+      ],
+      "examples": [
+        {
+          "t": "Dün internet çok yavaştı, filmi indiremedim.",
+          "s": "دیروز اینترنت خیلی کند بود، نتوانستم فیلم را دانلود کنم."
+        },
+        {
+          "t": "Sonunda şifremi hatırlayabildim.",
+          "s": "بالاخره توانستم رمزم را به یاد بیاورم."
+        },
+        {
+          "t": "Toplantıya bağlanabildin mi?",
+          "s": "توانستی به جلسه وصل شوی؟"
+        },
+        {
+          "t": "Ses çok kötüydü, seni duyamadım.",
+          "s": "صدا خیلی بد بود، نتوانستم صدایت را بشنوم."
+        },
+        {
+          "t": "Çocukken bilgisayar kullanamıyordum, ama şimdi kullanabiliyorum.",
+          "s": "بچه که بودم نمی‌توانستم با کامپیوتر کار کنم، ولی الان می‌توانم."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "choice",
+          "t": "Dün çok yorgundum, ödevimi ___.",
+          "options": [
+            "bitiremedim",
+            "bitirebilmedim",
+            "bitiremiyorum"
+          ],
+          "answer": 0,
+          "s": "دیروز خیلی خسته بودم، نتوانستم تکلیفم را تمام کنم."
+        },
+        {
+          "type": "choice",
+          "t": "Şifreni hatırlayabildin mi? Evet, sonunda ___.",
+          "options": [
+            "hatırlayabildim",
+            "hatırlayamadım",
+            "hatırlayabilmedim"
+          ],
+          "answer": 0,
+          "s": "توانستی رمزت را به یاد بیاوری؟ بله، بالاخره توانستم."
+        },
+        {
+          "type": "choice",
+          "t": "Telefonumun şarjı bitti, o yüzden seni ___.",
+          "options": [
+            "arayamadım",
+            "arayabildim",
+            "arayabilmedim"
+          ],
+          "answer": 0,
+          "s": "شارژ گوشی‌ام تمام شد، برای همین نتوانستم به تو زنگ بزنم."
+        },
+        {
+          "type": "type",
+          "t": "Ses çok kötüydü, seni hiç ___.",
+          "answer": [
+            "duyamadım"
+          ],
+          "s": "صدا خیلی بد بود، اصلاً نتوانستم صدایت را بشنوم."
+        },
+        {
+          "type": "type",
+          "t": "İnternet geldi ve sonunda e-postamı ___.",
+          "answer": [
+            "gönderebildim",
+            "yollayabildim",
+            "atabildim"
+          ],
+          "s": "اینترنت وصل شد و بالاخره توانستم ایمیلم را بفرستم."
+        },
+        {
+          "type": "type",
+          "t": "Çocukken çok hızlı ___, ama şimdi koşamıyorum.",
+          "answer": [
+            "koşabiliyordum",
+            "koşabilirdim"
+          ],
+          "s": "بچه که بودم خیلی تند می‌توانستم بدوم، ولی الان نمی‌توانم."
+        },
+        {
+          "type": "order",
+          "t": "Dün akşam annemi arayamadım.",
+          "s": "دیشب نتوانستم به مادرم زنگ بزنم."
+        },
+        {
+          "type": "order",
+          "t": "Sonunda yeni uygulamayı indirebildik.",
+          "s": "بالاخره توانستیم اپلیکیشن جدید را دانلود کنیم."
+        }
+      ]
+    }
+  ],
+  "reading": {
+    "title": {
+      "t": "Telefonsuz bir hafta",
+      "s": "یک هفته بدون گوشی"
+    },
+    "text": [
+      {
+        "t": "Geçen ay telefonum bozuldu ve bir hafta telefonsuz kaldım.",
+        "s": "ماه گذشته گوشی‌ام خراب شد و یک هفته بدون گوشی ماندم."
+      },
+      {
+        "t": "Telefonu tamirciye götürdüm, ama tamircide parça yoktu ve parçayı Ankara'dan getirtti.",
+        "s": "گوشی را پیش تعمیرکار بردم، ولی تعمیرکار قطعه‌اش را نداشت و سفارش داد آن را از آنکارا بیاورند."
+      },
+      {
+        "t": "İlk iki gün çok zordu.",
+        "s": "دو روز اول خیلی سخت بود."
+      },
+      {
+        "t": "Arkadaşlarıma mesaj gönderemedim ve sosyal medyaya giremedim.",
+        "s": "نتوانستم برای دوستانم پیام بفرستم و نتوانستم وارد شبکه‌های اجتماعی شوم."
+      },
+      {
+        "t": "Telefon olmayınca alarm da yoktu; bu yüzden bir gün işe geç kaldım.",
+        "s": "وقتی گوشی نبود، زنگ ساعت هم نبود؛ برای همین یک روز دیر سر کار رسیدم."
+      },
+      {
+        "t": "Sonra basit bir çalar saat aldım ve bu sorunu çözebildim.",
+        "s": "بعد یک ساعت زنگ‌دار ساده خریدم و توانستم این مشکل را حل کنم."
+      },
+      {
+        "t": "Üçüncü günden sonra kendimi daha sakin hissetmeye başladım.",
+        "s": "از روز سوم به بعد کم‌کم احساس آرامش بیشتری کردم."
+      },
+      {
+        "t": "Akşamları kitap okuyabildim, oğluma satranç öğrettim ve erken uyuyabildim.",
+        "s": "عصرها توانستم کتاب بخوانم، به پسرم شطرنج یاد دادم و توانستم زود بخوابم."
+      },
+      {
+        "t": "Bir hafta sonra telefonumu geri aldım; yeni ekranıyla yeni gibiydi.",
+        "s": "یک هفته بعد گوشی‌ام را پس گرفتم؛ با صفحه‌ی جدیدش مثل نو شده بود."
+      },
+      {
+        "t": "Ama artık akşam saat dokuzdan sonra telefonumu kapatıyorum.",
+        "s": "اما حالا دیگر بعد از ساعت نه شب گوشی‌ام را خاموش می‌کنم."
+      },
+      {
+        "t": "Bence herkes bunu bir kez denemeli!",
+        "s": "به نظر من همه باید یک بار این را امتحان کنند!"
+      }
+    ],
+    "questions": [
+      {
+        "q": {
+          "t": "Telefonun parçası nereden geldi?",
+          "s": "قطعه‌ی گوشی از کجا آمد؟"
+        },
+        "options": [
+          "İstanbul'dan",
+          "Ankara'dan",
+          "İzmir'den"
+        ],
+        "answer": 1
+      },
+      {
+        "q": {
+          "t": "Yazar ilk günlerde ne yapamadı?",
+          "s": "نویسنده در روزهای اول چه کاری را نتوانست انجام بدهد؟"
+        },
+        "options": [
+          "Kitap okuyamadı",
+          "Arkadaşlarına mesaj gönderemedi",
+          "Erken uyuyamadı"
+        ],
+        "answer": 1
+      },
+      {
+        "q": {
+          "t": "Yazar alarm sorununu nasıl çözdü?",
+          "s": "نویسنده مشکل زنگ ساعت را چطور حل کرد؟"
+        },
+        "options": [
+          "Bir çalar saat aldı",
+          "Annesini aradı",
+          "Bilgisayar kullandı"
+        ],
+        "answer": 0
+      },
+      {
+        "q": {
+          "t": "Yazar şimdi akşamları ne yapıyor?",
+          "s": "نویسنده حالا عصرها چه کار می‌کند؟"
+        },
+        "options": [
+          "Saat dokuzdan sonra telefonunu kapatıyor",
+          "Sosyal medyada daha çok vakit geçiriyor",
+          "Oğluyla görüntülü arama yapıyor"
+        ],
+        "answer": 0
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "t": "Geçen hafta saatimin pilini değiştirttim.",
+      "s": "هفته‌ی پیش دادم باتری ساعتم را عوض کردند."
+    },
+    {
+      "t": "Dün seni aradım ama sana ulaşamadım.",
+      "s": "دیروز به تو زنگ زدم، ولی نتوانستم با تو تماس بگیرم."
+    },
+    {
+      "t": "İnternet bağlantısı koptu, toplantıya katılamadım.",
+      "s": "اینترنت قطع شد، نتوانستم در جلسه شرکت کنم."
+    },
+    {
+      "t": "Bu fotoğrafları bana gönderebilir misin?",
+      "s": "می‌توانی این عکس‌ها را برایم بفرستی؟"
+    },
+    {
+      "t": "Annem sonunda yeni telefonunu kullanmayı öğrenebildi.",
+      "s": "مادرم بالاخره توانست کار با گوشی جدیدش را یاد بگیرد."
+    },
+    {
+      "t": "Öğretmen bize her hafta bir kitap okutuyor.",
+      "s": "معلم هر هفته از ما می‌خواهد یک کتاب بخوانیم."
+    },
+    {
+      "t": "Burada internet çekmiyor, sonra ararım.",
+      "s": "این‌جا اینترنت آنتن نمی‌دهد، بعداً زنگ می‌زنم."
+    },
+    {
+      "t": "Şifremi unuttum, hesabıma giremiyorum.",
+      "s": "رمزم را فراموش کرده‌ام، نمی‌توانم وارد حسابم شوم."
+    }
+  ]
+}

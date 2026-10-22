@@ -1,0 +1,706 @@
+{
+  "id": "u06",
+  "level": "B2",
+  "emoji": "🧳",
+  "title": {
+    "t": "Göç ve toplum",
+    "s": "مهاجرت و جامعه"
+  },
+  "goals": [
+    "درباره‌ی مهاجرت، دلایل و پیامدهای آن صحبت کنم و نظرم را بگویم.",
+    "با اسم‌مصدرهای -ma، -ış و -mak جمله‌های پیچیده‌تر بسازم.",
+    "با -masına rağmen تضاد را بیان کنم («با این‌که…»).",
+    "یک متن روایی درباره‌ی زندگی یک خانواده‌ی مهاجر را بفهمم."
+  ],
+  "words": [
+    {
+      "id": "w01",
+      "t": "göç",
+      "s": "مهاجرت؛ کوچ",
+      "pr": "گُچ",
+      "emoji": "",
+      "ex": {
+        "t": "Köyden kente göç son yıllarda hızlandı.",
+        "s": "مهاجرت از روستا به شهر در سال‌های اخیر شتاب گرفت."
+      }
+    },
+    {
+      "id": "w02",
+      "t": "göçmen",
+      "pl": "göçmenler",
+      "s": "مهاجر",
+      "pr": "گُچمِن",
+      "emoji": "",
+      "ex": {
+        "t": "Bu mahallede farklı ülkelerden gelen göçmenler yaşıyor.",
+        "s": "در این محله مهاجرانی از کشورهای مختلف زندگی می‌کنند."
+      }
+    },
+    {
+      "id": "w03",
+      "t": "göç etmek",
+      "s": "مهاجرت کردن",
+      "pr": "گُچ اِتمِک",
+      "emoji": "🧳",
+      "ex": {
+        "t": "Ailesi otuz yıl önce Almanya'ya göç etmiş.",
+        "s": "خانواده‌اش سی سال پیش به آلمان مهاجرت کرده است."
+      }
+    },
+    {
+      "id": "w04",
+      "t": "yurt dışı",
+      "s": "خارج از کشور",
+      "pr": "یورت دِشِ",
+      "emoji": "✈️",
+      "ex": {
+        "t": "Gençlerin çoğu yurt dışında çalışmak istiyor.",
+        "s": "بیشتر جوان‌ها می‌خواهند در خارج از کشور کار کنند."
+      }
+    },
+    {
+      "id": "w05",
+      "t": "vatandaşlık",
+      "s": "تابعیت؛ شهروندی",
+      "pr": "واتانداشلِک",
+      "emoji": "",
+      "ex": {
+        "t": "Beş yıl sonra vatandaşlığa başvurabilirsiniz.",
+        "s": "پس از پنج سال می‌توانید برای تابعیت درخواست بدهید."
+      }
+    },
+    {
+      "id": "w06",
+      "t": "oturma izni",
+      "s": "اجازه‌ی اقامت",
+      "pr": "اُتورما ایزنی",
+      "emoji": "🪪",
+      "ex": {
+        "t": "Oturma iznim gelecek ay bitiyor.",
+        "s": "اجازه‌ی اقامتم ماه آینده تمام می‌شود."
+      }
+    },
+    {
+      "id": "w07",
+      "t": "uyum sağlamak",
+      "s": "سازگار شدن؛ خو گرفتن",
+      "pr": "اویوم ساالاماک",
+      "emoji": "",
+      "ex": {
+        "t": "Yeni bir kültüre uyum sağlamak zaman alır.",
+        "s": "سازگار شدن با یک فرهنگ تازه زمان می‌برد."
+      }
+    },
+    {
+      "id": "w08",
+      "t": "önyargı",
+      "pl": "önyargılar",
+      "s": "پیش‌داوری",
+      "pr": "اُنیارگِ",
+      "emoji": "",
+      "ex": {
+        "t": "Önyargılarımızı bir kenara bırakmalıyız.",
+        "s": "باید پیش‌داوری‌هایمان را کنار بگذاریم."
+      }
+    },
+    {
+      "id": "w09",
+      "t": "hasret",
+      "s": "دلتنگی؛ اشتیاق (برای وطن یا کسی)",
+      "pr": "هاسرِت",
+      "emoji": "",
+      "ex": {
+        "t": "Yıllardır memleket hasreti çekiyor.",
+        "s": "سال‌هاست که در حسرت و دلتنگی زادگاهش است."
+      }
+    },
+    {
+      "id": "w10",
+      "t": "memleket",
+      "pl": "memleketler",
+      "s": "زادگاه؛ وطن",
+      "pr": "مِملِکِت",
+      "emoji": "🏡",
+      "ex": {
+        "t": "Her yaz memleketime gidip ailemi ziyaret ediyorum.",
+        "s": "هر تابستان به زادگاهم می‌روم و به خانواده‌ام سر می‌زنم."
+      }
+    },
+    {
+      "id": "w11",
+      "t": "iş gücü",
+      "s": "نیروی کار",
+      "pr": "ایش گوجو",
+      "emoji": "",
+      "ex": {
+        "t": "Birçok ülke yabancı iş gücüne ihtiyaç duyuyor.",
+        "s": "بسیاری از کشورها به نیروی کار خارجی نیاز دارند."
+      }
+    },
+    {
+      "id": "w12",
+      "t": "sığınmacı",
+      "pl": "sığınmacılar",
+      "s": "پناهجو",
+      "pr": "سِئِنماجِ",
+      "emoji": "",
+      "ex": {
+        "t": "Savaştan kaçan sığınmacılar sınırda bekliyor.",
+        "s": "پناهجویانی که از جنگ گریخته‌اند، در مرز منتظرند."
+      }
+    },
+    {
+      "id": "w13",
+      "t": "ayrımcılık",
+      "s": "تبعیض",
+      "pr": "آیرِمجِلِک",
+      "emoji": "",
+      "ex": {
+        "t": "Ayrımcılığa karşı hep birlikte mücadele etmeliyiz.",
+        "s": "همه باید با هم با تبعیض مبارزه کنیم."
+      }
+    },
+    {
+      "id": "w14",
+      "t": "çok kültürlü",
+      "s": "چندفرهنگی",
+      "pr": "چُک کولتورلو",
+      "emoji": "🌍",
+      "ex": {
+        "t": "İstanbul çok kültürlü bir şehirdir.",
+        "s": "استانبول شهری چندفرهنگی است."
+      }
+    },
+    {
+      "id": "w15",
+      "t": "zorluk",
+      "pl": "zorluklar",
+      "s": "دشواری؛ سختی",
+      "pr": "زُرلوک",
+      "emoji": "",
+      "ex": {
+        "t": "Dil öğrenmek, göçmenlerin karşılaştığı en büyük zorluklardan biridir.",
+        "s": "یادگرفتن زبان یکی از بزرگ‌ترین دشواری‌هایی است که مهاجران با آن روبه‌رو می‌شوند."
+      }
+    }
+  ],
+  "phrases": [
+    {
+      "id": "p01",
+      "t": "Bu konuda ne düşünüyorsun?",
+      "s": "نظرت در این باره چیست؟"
+    },
+    {
+      "id": "p02",
+      "t": "Bence bu konuda haklısın.",
+      "s": "به نظرم در این مورد حق با توست."
+    },
+    {
+      "id": "p03",
+      "t": "Bir yandan zor, öte yandan çok öğretici.",
+      "s": "از یک طرف سخت است، از طرف دیگر خیلی آموزنده است."
+    },
+    {
+      "id": "p04",
+      "t": "Açıkçası ben pek emin değilim.",
+      "s": "راستش من چندان مطمئن نیستم."
+    },
+    {
+      "id": "p05",
+      "t": "Şunu da unutmamak lazım…",
+      "s": "این را هم نباید فراموش کرد که…"
+    },
+    {
+      "id": "p06",
+      "t": "Kolay değil ama insan zamanla alışıyor.",
+      "s": "آسان نیست، ولی آدم کم‌کم عادت می‌کند."
+    },
+    {
+      "id": "p07",
+      "t": "Memleketimi çok özlüyorum.",
+      "s": "دلم برای وطنم خیلی تنگ شده است."
+    },
+    {
+      "id": "p08",
+      "t": "Her şeye rağmen burada mutluyum.",
+      "s": "با وجود همه‌چیز، این‌جا خوشحالم."
+    }
+  ],
+  "dialogue": {
+    "title": {
+      "t": "Yeni bir hayat",
+      "s": "زندگی تازه"
+    },
+    "speakers": {
+      "A": {
+        "name": "Neda",
+        "voice": "f"
+      },
+      "B": {
+        "name": "Emre",
+        "voice": "m"
+      }
+    },
+    "lines": [
+      {
+        "sp": "B",
+        "t": "Neda, İstanbul'a geleli ne kadar oldu?",
+        "s": "ندا، چند وقت است که به استانبول آمده‌ای؟"
+      },
+      {
+        "sp": "A",
+        "t": "Üç yıl oldu. Gelmeye karar vermek benim için hiç kolay olmadı.",
+        "s": "سه سال شده. تصمیم گرفتن برای آمدن اصلاً برایم آسان نبود."
+      },
+      {
+        "sp": "B",
+        "t": "Neden? Burada iş bulman zor muydu?",
+        "s": "چرا؟ کار پیدا کردن این‌جا برایت سخت بود؟"
+      },
+      {
+        "sp": "A",
+        "t": "Hayır, iş bulmam kolay oldu ama ailemden ayrılmak çok zordu.",
+        "s": "نه، کار پیدا کردنم آسان بود، اما جدا شدن از خانواده‌ام خیلی سخت بود."
+      },
+      {
+        "sp": "B",
+        "t": "Anlıyorum. Ağabeyim de on yıl önce Almanya'ya göç etti.",
+        "s": "می‌فهمم. برادر بزرگم هم ده سال پیش به آلمان مهاجرت کرد."
+      },
+      {
+        "sp": "A",
+        "t": "Peki, oraya uyum sağlayabildi mi?",
+        "s": "خب، توانست آن‌جا خودش را جا بیندازد؟"
+      },
+      {
+        "sp": "B",
+        "t": "Almancayı iyi bilmesine rağmen ilk yıllarda çok zorlandı.",
+        "s": "با اینکه آلمانی را خوب بلد بود، سال‌های اول خیلی سختی کشید."
+      },
+      {
+        "sp": "A",
+        "t": "Dil tek başına yetmiyor. İnsanların bakışı ve önyargılar da önemli.",
+        "s": "زبان به‌تنهایی کافی نیست. نگاه مردم و پیش‌داوری‌ها هم مهم است."
+      },
+      {
+        "sp": "B",
+        "t": "Kesinlikle. Sen burada kendini yabancı hissediyor musun?",
+        "s": "کاملاً. تو این‌جا احساس غریبی می‌کنی؟"
+      },
+      {
+        "sp": "A",
+        "t": "Bazen. Ama komşularımın bu kadar sıcak davranması bana çok iyi geliyor.",
+        "s": "گاهی. اما اینکه همسایه‌هایم این‌قدر گرم رفتار می‌کنند، حالم را خیلی خوب می‌کند."
+      },
+      {
+        "sp": "B",
+        "t": "Memleketini özlüyor musun?",
+        "s": "دلت برای وطنت تنگ می‌شود؟"
+      },
+      {
+        "sp": "A",
+        "t": "Çok özlüyorum. Yine de her şeye rağmen burada mutluyum.",
+        "s": "خیلی. با این حال، با وجود همه‌چیز این‌جا خوشحالم."
+      }
+    ]
+  },
+  "grammar": [
+    {
+      "id": "g01",
+      "title": {
+        "t": "İsim-fiiller: -ma, -ış, -mak",
+        "s": "اسم‌مصدرها: -ma، -ış و -mak"
+      },
+      "explain": "اسم‌مصدر (isim-fiil) فعل را به اسم تبدیل می‌کند؛ مثل «رفتن»، «آمدن» یا «نگاه» در فارسی. ترکی سه پسوند اصلی دارد.\n**-mak / -mek**: همان شکل مصدری است و معمولاً پسوند ملکی نمی‌گیرد؛ به خودِ عمل به‌طور کلی اشاره می‌کند: **Dil öğrenmek** zordur. با حالت «به» شکل **-maya / -meye** می‌گیرد: **Gitmeye** karar verdim. با حالت مفعولی: **-mayı / -meyi**: Yüzmeyi seviyorum.\n**-ma / -me**: عمل را همراه با «کننده‌ی کار» نشان می‌دهد و پسوند ملکی و حالت می‌گیرد: **gelmen** (آمدنِ تو)، **ailemden ayrılmam** (جدا شدن من از خانواده‌ام). در فارسی معمولاً با «اینکه…» یا «که…» ترجمه می‌شود: Gelme**ni** istiyorum = می‌خواهم (که) بیایی. منفی آن **-mama / -meme** است: gelme**men** (نیامدنِ تو).\n**-ış / -iş / -uş / -üş**: بیشتر بر «شیوه یا خودِ رخداد» تأکید دارد و بسیاری از این کلمه‌ها اسم مستقل شده‌اند: **bakış** (نگاه)، **giriş** (ورود)، **yürüyüş** (پیاده‌روی)، **anlayış** (درک). Türkiye'ye **gelişimiz** = آمدنِ ما به ترکیه.",
+      "table": [
+        [
+          "-mak / -mek",
+          "-ma / -me + iyelik",
+          "-ış / -iş / -uş / -üş"
+        ],
+        [
+          "gitmek",
+          "gitmem, gitmen, gitmesi",
+          "gidiş"
+        ],
+        [
+          "gelmek",
+          "gelmem, gelmen, gelmesi",
+          "geliş"
+        ],
+        [
+          "bakmak",
+          "bakmam, bakman, bakması",
+          "bakış"
+        ],
+        [
+          "anlamak",
+          "anlamam, anlaman, anlaması",
+          "anlayış"
+        ],
+        [
+          "yürümek",
+          "yürümem, yürümen, yürümesi",
+          "yürüyüş"
+        ]
+      ],
+      "examples": [
+        {
+          "t": "Yeni bir dil öğrenmek sabır ister.",
+          "s": "یادگرفتن یک زبان تازه صبر می‌خواهد."
+        },
+        {
+          "t": "Annem İran'a dönmemi istiyor.",
+          "s": "مادرم می‌خواهد که به ایران برگردم."
+        },
+        {
+          "t": "Bu kadar erken gelmenize çok sevindim.",
+          "s": "خیلی خوشحال شدم که این‌قدر زود آمدید."
+        },
+        {
+          "t": "Türkiye'ye gelişimizin üzerinden beş yıl geçti.",
+          "s": "پنج سال از آمدن ما به ترکیه گذشته است."
+        },
+        {
+          "t": "Onun bakışından kızgın olduğunu anladım.",
+          "s": "از نگاهش فهمیدم که عصبانی است."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "choice",
+          "t": "Doktor her gün yarım saat ___ öneriyor.",
+          "options": [
+            "yürümemi",
+            "yürümek",
+            "yürüdüm"
+          ],
+          "answer": 0,
+          "s": "دکتر پیشنهاد می‌کند که هر روز نیم ساعت پیاده‌روی کنم."
+        },
+        {
+          "type": "choice",
+          "t": "Ali yurt dışına ___ karar verdi.",
+          "options": [
+            "gitmesi",
+            "gitmeye",
+            "gitmek"
+          ],
+          "answer": 1,
+          "s": "علی تصمیم گرفت به خارج از کشور برود."
+        },
+        {
+          "type": "choice",
+          "t": "Bu şehirde ___ çok zor.",
+          "options": [
+            "ev bulmaya",
+            "ev bulmayı",
+            "ev bulmak"
+          ],
+          "answer": 2,
+          "s": "پیدا کردن خانه در این شهر خیلی سخت است."
+        },
+        {
+          "type": "type",
+          "t": "Babam benim doktor ___ istiyor.",
+          "answer": [
+            "olmamı"
+          ],
+          "s": "پدرم می‌خواهد که من پزشک شوم."
+        },
+        {
+          "type": "type",
+          "t": "Senin bize ___ çok sevindik.",
+          "answer": [
+            "gelmene",
+            "gelişine"
+          ],
+          "s": "خیلی خوشحال شدیم که پیش ما آمدی."
+        },
+        {
+          "type": "type",
+          "t": "Sabah erken ___ alışkın değilim.",
+          "answer": [
+            "kalkmaya"
+          ],
+          "s": "به زود بیدار شدن عادت ندارم."
+        },
+        {
+          "type": "order",
+          "t": "Yeni bir kültüre uyum sağlamak zaman alır.",
+          "s": "سازگار شدن با یک فرهنگ تازه زمان می‌برد."
+        },
+        {
+          "type": "order",
+          "t": "Annem İran'a dönmemi istiyor.",
+          "s": "مادرم می‌خواهد که به ایران برگردم."
+        }
+      ]
+    },
+    {
+      "id": "g02",
+      "title": {
+        "t": "-masına rağmen / -mesine karşın",
+        "s": "با اینکه… / با وجودِ…"
+      },
+      "explain": "برای بیان تضاد («با اینکه… / با وجود اینکه…») جمله‌ی اول را به اسم‌مصدر تبدیل می‌کنیم: ریشه‌ی فعل + **-ma / -me** + پسوند ملکی + **-(n)a / -(n)e** + **rağmen**.\nمثال: Çok çalış**masına rağmen** sınavı geçemedi = با اینکه خیلی درس خواند، نتوانست در امتحان قبول شود.\nزمانِ جمله را فقط فعل اصلی نشان می‌دهد؛ پس bilme**me** rağmen می‌تواند «با اینکه بلدم» یا «با اینکه بلد بودم» باشد. برای تأکید بر گذشته‌ی کامل‌شده: **-mış olmasına rağmen**.\n**karşın** دقیقاً همین معنا را دارد ولی رسمی‌تر و نوشتاری‌تر است: Yağmur yağ**masına karşın** maç oynandı.\nمنفی: **-mamasına / -memesine rağmen**: Hiç ders çalış**mamasına** rağmen geçti.\nبا اسم هم می‌آید: **her şeye rağmen** (با وجود همه‌چیز)، **yağmura rağmen** (با وجود باران).\nمعنایش به **-dığı halde** (درس ۳) نزدیک است.",
+      "table": [
+        [
+          "ben",
+          "çalışmama rağmen",
+          "gelmeme karşın"
+        ],
+        [
+          "sen",
+          "çalışmana rağmen",
+          "gelmene karşın"
+        ],
+        [
+          "o",
+          "çalışmasına rağmen",
+          "gelmesine karşın"
+        ],
+        [
+          "biz",
+          "çalışmamıza rağmen",
+          "gelmemize karşın"
+        ],
+        [
+          "siz",
+          "çalışmanıza rağmen",
+          "gelmenize karşın"
+        ],
+        [
+          "onlar",
+          "çalışmalarına rağmen",
+          "gelmelerine karşın"
+        ]
+      ],
+      "examples": [
+        {
+          "t": "Yağmur yağmasına rağmen maça gittik.",
+          "s": "با اینکه باران می‌بارید، به تماشای مسابقه رفتیم."
+        },
+        {
+          "t": "Türkçeyi iyi bilmeme rağmen bazen zorlanıyorum.",
+          "s": "با اینکه ترکی را خوب بلدم، گاهی به زحمت می‌افتم."
+        },
+        {
+          "t": "Göçmenler birçok zorlukla karşılaşmalarına karşın yeni bir hayat kurdular.",
+          "s": "مهاجران با وجود روبه‌رو شدن با دشواری‌های فراوان، زندگی تازه‌ای ساختند."
+        },
+        {
+          "t": "Erken yola çıkmamıza rağmen toplantıya geç kaldık.",
+          "s": "با اینکه زود راه افتادیم، به جلسه دیر رسیدیم."
+        },
+        {
+          "t": "Her şeye rağmen umudumu kaybetmedim.",
+          "s": "با وجود همه‌چیز، امیدم را از دست ندادم."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "choice",
+          "t": "Hasta ___ işe gitti.",
+          "options": [
+            "olmaya rağmen",
+            "olmasına rağmen",
+            "olması rağmen"
+          ],
+          "answer": 1,
+          "s": "با اینکه بیمار بود، سر کار رفت."
+        },
+        {
+          "type": "choice",
+          "t": "Çok ___ rağmen otobüsü kaçırdık.",
+          "options": [
+            "koşmamıza",
+            "koşmamız",
+            "koştuk"
+          ],
+          "answer": 0,
+          "s": "با اینکه خیلی دویدیم، به اتوبوس نرسیدیم."
+        },
+        {
+          "type": "choice",
+          "t": "Ev pahalı ___ onu satın aldılar.",
+          "options": [
+            "olmasına göre",
+            "olmasına için",
+            "olmasına karşın"
+          ],
+          "answer": 2,
+          "s": "با اینکه خانه گران بود، آن را خریدند."
+        },
+        {
+          "type": "type",
+          "t": "Sen yorgun ___ rağmen bize yardım ettin.",
+          "answer": [
+            "olmana"
+          ],
+          "s": "با اینکه خسته بودی، به ما کمک کردی."
+        },
+        {
+          "type": "type",
+          "t": "Onlar Türkçe ___ rağmen çok iyi anlaştık.",
+          "answer": [
+            "bilmemelerine",
+            "bilmemesine"
+          ],
+          "s": "با اینکه آن‌ها ترکی بلد نبودند، خیلی خوب با هم کنار آمدیم."
+        },
+        {
+          "type": "type",
+          "t": "Soğuğa ___ çocuklar dışarıda oynuyordu.",
+          "answer": [
+            "rağmen",
+            "karşın"
+          ],
+          "s": "با وجود سرما، بچه‌ها بیرون بازی می‌کردند."
+        },
+        {
+          "type": "order",
+          "t": "Yağmur yağmasına rağmen parkta yürüdük.",
+          "s": "با اینکه باران می‌بارید، در پارک قدم زدیم."
+        },
+        {
+          "type": "order",
+          "t": "Her şeye rağmen burada çok mutluyum.",
+          "s": "با وجود همه‌چیز، این‌جا خیلی خوشحالم."
+        }
+      ]
+    }
+  ],
+  "reading": {
+    "title": {
+      "t": "İki memleket arasında",
+      "s": "میان دو وطن"
+    },
+    "text": [
+      {
+        "t": "Merhaba, ben Maryam; altı yıl önce eşim ve iki çocuğumla İzmir'e yerleştik.",
+        "s": "سلام، من مریم هستم؛ شش سال پیش با همسر و دو فرزندم در ازمیر ساکن شدیم."
+      },
+      {
+        "t": "Göç etme kararını vermek hayatımın en zor anlarından biriydi.",
+        "s": "گرفتن تصمیم مهاجرت یکی از سخت‌ترین لحظه‌های زندگی‌ام بود."
+      },
+      {
+        "t": "İlk aylarda Türkçe bilmememiz her şeyi zorlaştırıyordu.",
+        "s": "در ماه‌های اول، ترکی بلد نبودنمان همه‌چیز را سخت‌تر می‌کرد."
+      },
+      {
+        "t": "Doktordan randevu almak ya da kira sözleşmesi imzalamak bile büyük bir sorundu.",
+        "s": "حتی گرفتن وقت دکتر یا امضای قرارداد اجاره هم مشکل بزرگی بود."
+      },
+      {
+        "t": "Eşim mühendis olmasına rağmen ilk yıl bir kafede çalışmak zorunda kaldı.",
+        "s": "همسرم با اینکه مهندس است، سال اول مجبور شد در یک کافه کار کند."
+      },
+      {
+        "t": "Çocuklarım ise okula başladıktan birkaç ay sonra Türkçeyi bizden daha iyi konuşuyordu.",
+        "s": "اما بچه‌هایم چند ماه پس از شروع مدرسه، ترکی را از ما بهتر حرف می‌زدند."
+      },
+      {
+        "t": "Komşularımızın sıcak davranışı ve yardımları uyum sağlamamızı kolaylaştırdı.",
+        "s": "رفتار گرم و کمک‌های همسایه‌هایمان سازگار شدنمان را آسان‌تر کرد."
+      },
+      {
+        "t": "Elbette zaman zaman önyargılarla da karşılaştık.",
+        "s": "البته گاهی با پیش‌داوری‌ها هم روبه‌رو شدیم."
+      },
+      {
+        "t": "Şimdi oturma iznimiz var ve eşim kendi mesleğinde çalışıyor.",
+        "s": "حالا اجازه‌ی اقامت داریم و همسرم در رشته‌ی خودش کار می‌کند."
+      },
+      {
+        "t": "Memleket hasreti hiç bitmiyor ama burada kendimizi artık yabancı hissetmiyoruz.",
+        "s": "دلتنگی برای وطن هیچ‌وقت تمام نمی‌شود، اما دیگر این‌جا احساس غریبی نمی‌کنیم."
+      }
+    ],
+    "questions": [
+      {
+        "q": {
+          "t": "Maryam'ın ailesi kaç yıl önce İzmir'e yerleşti?",
+          "s": "خانواده‌ی مریم چند سال پیش در ازمیر ساکن شدند؟"
+        },
+        "options": [
+          "Altı yıl önce",
+          "Üç yıl önce",
+          "On yıl önce"
+        ],
+        "answer": 0
+      },
+      {
+        "q": {
+          "t": "İlk aylarda her şeyi zorlaştıran neydi?",
+          "s": "در ماه‌های اول چه چیزی همه‌چیز را سخت می‌کرد؟"
+        },
+        "options": [
+          "Komşularının davranışı",
+          "Türkçe bilmemeleri",
+          "Çocukların okulu"
+        ],
+        "answer": 1
+      },
+      {
+        "q": {
+          "t": "Maryam'ın eşi ilk yıl nerede çalıştı?",
+          "s": "همسر مریم سال اول کجا کار کرد؟"
+        },
+        "options": [
+          "Bir hastanede",
+          "Bir okulda",
+          "Bir kafede"
+        ],
+        "answer": 2
+      },
+      {
+        "q": {
+          "t": "Uyum sağlamalarını ne kolaylaştırdı?",
+          "s": "چه چیزی سازگار شدنشان را آسان‌تر کرد؟"
+        },
+        "options": [
+          "Komşularının davranışı ve yardımları",
+          "Oturma izni",
+          "Eşinin mesleği"
+        ],
+        "answer": 0
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "t": "Göç etmek kolay bir karar değildir.",
+      "s": "مهاجرت کردن تصمیم آسانی نیست."
+    },
+    {
+      "t": "Yeni bir ülkede iş bulmak zaman alır.",
+      "s": "پیدا کردن کار در کشوری تازه زمان می‌برد."
+    },
+    {
+      "t": "Çocukların dili bu kadar çabuk öğrenmesi beni şaşırttı.",
+      "s": "اینکه بچه‌ها زبان را این‌قدر زود یاد گرفتند، مرا شگفت‌زده کرد."
+    },
+    {
+      "t": "Pahalı olmasına rağmen bu mahallede oturmak istiyoruz.",
+      "s": "با اینکه گران است، می‌خواهیم در این محله زندگی کنیم."
+    },
+    {
+      "t": "Önyargılar insanları birbirinden uzaklaştırır.",
+      "s": "پیش‌داوری‌ها آدم‌ها را از هم دور می‌کند."
+    },
+    {
+      "t": "Memleket hasreti insanın içini yakar.",
+      "s": "دلتنگی وطن دل آدم را می‌سوزاند."
+    },
+    {
+      "t": "Her şeye rağmen burada kendimi evimde hissediyorum.",
+      "s": "با وجود همه‌چیز، این‌جا احساس می‌کنم در خانه‌ی خودم هستم."
+    },
+    {
+      "t": "Ayrımcılığa karşı hep birlikte durmalıyız.",
+      "s": "همه باید با هم در برابر تبعیض بایستیم."
+    }
+  ]
+}

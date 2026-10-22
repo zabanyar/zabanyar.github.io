@@ -1,0 +1,709 @@
+{
+  "id": "u05",
+  "level": "B1",
+  "emoji": "🧳",
+  "title": {
+    "t": "Tatil ve seyahat",
+    "s": "تعطیلات و سفر"
+  },
+  "goals": [
+    "درباره‌ی برنامه‌ی سفر، رزرو هتل و جاهای دیدنی صحبت کنم.",
+    "با -mak için هدف کارهایم را بگویم.",
+    "با -dıktan sonra و -madan önce ترتیب کارها را بیان کنم.",
+    "یک سفر را در یک متن کوتاه تعریف کنم."
+  ],
+  "words": [
+    {
+      "id": "w01",
+      "t": "seyahat",
+      "s": "سفر",
+      "pr": "سِیاهات",
+      "emoji": "🗺️",
+      "ex": {
+        "t": "Seyahat etmeyi çok severim.",
+        "s": "من سفر کردن را خیلی دوست دارم."
+      }
+    },
+    {
+      "id": "w02",
+      "t": "rezervasyon",
+      "s": "رزرو",
+      "pr": "رِزِرواسیُن",
+      "emoji": "",
+      "ex": {
+        "t": "Otelde iki gecelik rezervasyon yaptık.",
+        "s": "در هتل برای دو شب رزرو کردیم."
+      }
+    },
+    {
+      "id": "w03",
+      "t": "bavul",
+      "pl": "bavullar",
+      "s": "چمدان",
+      "pr": "باوول",
+      "emoji": "🧳",
+      "ex": {
+        "t": "Bavulumu dün akşam hazırladım.",
+        "s": "چمدانم را دیشب آماده کردم."
+      }
+    },
+    {
+      "id": "w04",
+      "t": "pasaport",
+      "s": "گذرنامه",
+      "pr": "پاساپُرت",
+      "emoji": "🛂",
+      "ex": {
+        "t": "Pasaportunu unutma!",
+        "s": "گذرنامه‌ات را فراموش نکن!"
+      }
+    },
+    {
+      "id": "w05",
+      "t": "uçak",
+      "pl": "uçaklar",
+      "s": "هواپیما",
+      "pr": "اوچاک",
+      "emoji": "✈️",
+      "ex": {
+        "t": "Uçağımız iki saat rötar yaptı.",
+        "s": "پرواز ما دو ساعت تأخیر داشت."
+      }
+    },
+    {
+      "id": "w06",
+      "t": "havalimanı",
+      "pl": "havalimanları",
+      "s": "فرودگاه",
+      "pr": "هاوالیمانِ",
+      "emoji": "🛫",
+      "ex": {
+        "t": "Havalimanına erken gitmeliyiz.",
+        "s": "باید زود به فرودگاه برویم."
+      }
+    },
+    {
+      "id": "w07",
+      "t": "konaklamak",
+      "s": "اقامت کردن",
+      "pr": "کُناکلاماک",
+      "emoji": "🏨",
+      "ex": {
+        "t": "Bu sefer küçük bir pansiyonda konakladık.",
+        "s": "این بار در یک مسافرخانه‌ی کوچک اقامت کردیم."
+      }
+    },
+    {
+      "id": "w08",
+      "t": "manzara",
+      "s": "منظره",
+      "pr": "مانزارا",
+      "emoji": "🏞️",
+      "ex": {
+        "t": "Odamızın manzarası harikaydı.",
+        "s": "منظره‌ی اتاقمان فوق‌العاده بود."
+      }
+    },
+    {
+      "id": "w09",
+      "t": "tarihî",
+      "s": "تاریخی",
+      "pr": "تاریهی",
+      "emoji": "🏛️",
+      "ex": {
+        "t": "İstanbul'da birçok tarihî yer var.",
+        "s": "در استانبول جاهای تاریخی زیادی هست."
+      }
+    },
+    {
+      "id": "w10",
+      "t": "gezmek",
+      "s": "گشتن، دیدن (جاهای دیدنی)",
+      "pr": "گِزمِک",
+      "emoji": "",
+      "ex": {
+        "t": "Hafta sonu eski şehri gezdik.",
+        "s": "آخر هفته شهر قدیمی را گشتیم."
+      }
+    },
+    {
+      "id": "w11",
+      "t": "rehber",
+      "pl": "rehberler",
+      "s": "راهنما (ی تور)",
+      "pr": "رِهبِر",
+      "emoji": "",
+      "ex": {
+        "t": "Rehberimiz bize şehrin tarihini anlattı.",
+        "s": "راهنمایمان تاریخ شهر را برایمان تعریف کرد."
+      }
+    },
+    {
+      "id": "w12",
+      "t": "hediyelik eşya",
+      "s": "سوغاتی",
+      "pr": "هِدیِلیک اِشیا",
+      "emoji": "🎁",
+      "ex": {
+        "t": "Çarşıdan biraz hediyelik eşya aldık.",
+        "s": "از بازار کمی سوغاتی خریدیم."
+      }
+    },
+    {
+      "id": "w13",
+      "t": "sahil",
+      "s": "ساحل",
+      "pr": "ساهیل",
+      "emoji": "🏖️",
+      "ex": {
+        "t": "Akşamları sahilde yürüyüş yaptık.",
+        "s": "عصرها در ساحل پیاده‌روی کردیم."
+      }
+    },
+    {
+      "id": "w14",
+      "t": "vize",
+      "s": "ویزا، روادید",
+      "pr": "ویزِه",
+      "emoji": "",
+      "ex": {
+        "t": "İranlıların Türkiye'ye gitmek için vizeye ihtiyacı yok.",
+        "s": "ایرانی‌ها برای رفتن به ترکیه به ویزا نیازی ندارند."
+      }
+    },
+    {
+      "id": "w15",
+      "t": "iptal etmek",
+      "s": "لغو کردن",
+      "pr": "ایپتال اِتمِک",
+      "emoji": "",
+      "ex": {
+        "t": "Kötü hava yüzünden uçuşumuzu iptal ettiler.",
+        "s": "به خاطر هوای بد پروازمان را لغو کردند."
+      }
+    },
+    {
+      "id": "w16",
+      "t": "dönüş",
+      "s": "برگشت",
+      "pr": "دُنوش",
+      "emoji": "",
+      "ex": {
+        "t": "Dönüş biletini de aldın mı?",
+        "s": "بلیت برگشت را هم خریدی؟"
+      }
+    }
+  ],
+  "phrases": [
+    {
+      "id": "p01",
+      "t": "Boş odanız var mı?",
+      "s": "اتاق خالی دارید؟"
+    },
+    {
+      "id": "p02",
+      "t": "İki kişilik bir oda ayırtmak istiyorum.",
+      "s": "می‌خواهم یک اتاق دونفره رزرو کنم."
+    },
+    {
+      "id": "p03",
+      "t": "Kahvaltı dahil mi?",
+      "s": "صبحانه هم شامل قیمت است؟"
+    },
+    {
+      "id": "p04",
+      "t": "Saat kaçta çıkış yapmamız gerekiyor?",
+      "s": "ساعت چند باید اتاق را تحویل بدهیم؟"
+    },
+    {
+      "id": "p05",
+      "t": "Fotoğrafımızı çeker misiniz?",
+      "s": "ممکن است از ما عکس بگیرید؟"
+    },
+    {
+      "id": "p06",
+      "t": "Nereleri gezmemizi önerirsiniz?",
+      "s": "پیشنهاد می‌کنید کجاها را ببینیم؟"
+    },
+    {
+      "id": "p07",
+      "t": "Tatil nasıl geçti?",
+      "s": "تعطیلات چطور گذشت؟"
+    },
+    {
+      "id": "p08",
+      "t": "İyi yolculuklar!",
+      "s": "سفر به خیر!"
+    }
+  ],
+  "dialogue": {
+    "title": {
+      "t": "Otel resepsiyonunda",
+      "s": "در پذیرش هتل"
+    },
+    "speakers": {
+      "A": {
+        "name": "Zeynep",
+        "voice": "f"
+      },
+      "B": {
+        "name": "Ali",
+        "voice": "m"
+      }
+    },
+    "lines": [
+      {
+        "sp": "A",
+        "t": "İyi akşamlar, hoş geldiniz! Nasıl yardımcı olabilirim?",
+        "s": "عصر بخیر، خوش آمدید! چه کمکی از دستم برمی‌آید؟"
+      },
+      {
+        "sp": "B",
+        "t": "İyi akşamlar. Ali Karimi adına üç gecelik bir rezervasyon var.",
+        "s": "عصر بخیر. یک رزرو سه‌شبه به نام علی کریمی داریم."
+      },
+      {
+        "sp": "A",
+        "t": "Bir saniye… Evet, deniz manzaralı iki kişilik oda. Pasaportlarınızı alabilir miyim?",
+        "s": "یک لحظه… بله، اتاق دونفره‌ی رو به دریا. می‌توانم گذرنامه‌هایتان را بگیرم؟"
+      },
+      {
+        "sp": "B",
+        "t": "Tabii, buyurun. Kahvaltı dahil mi?",
+        "s": "البته، بفرمایید. صبحانه هم شامل قیمت است؟"
+      },
+      {
+        "sp": "A",
+        "t": "Evet, kahvaltı yedi ile on arasında, restoranda.",
+        "s": "بله، صبحانه بین ساعت هفت و ده، در رستوران سرو می‌شود."
+      },
+      {
+        "sp": "B",
+        "t": "Yarın şehri gezmek için bir rehber istiyoruz. Bize yardım eder misiniz?",
+        "s": "فردا برای گشتن در شهر یک راهنما می‌خواهیم. ممکن است کمکمان کنید؟"
+      },
+      {
+        "sp": "A",
+        "t": "Elbette. Kahvaltı yaptıktan sonra resepsiyona gelin; rehberimiz sizi saat onda burada bekleyecek.",
+        "s": "حتماً. بعد از اینکه صبحانه خوردید، به پذیرش بیایید؛ راهنمای ما ساعت ده این‌جا منتظرتان خواهد بود."
+      },
+      {
+        "sp": "B",
+        "t": "Harika. Kaleiçi'ne buradan yürüyerek gidebilir miyiz?",
+        "s": "عالی است. از این‌جا می‌توانیم پیاده به کاله‌ایچی برویم؟"
+      },
+      {
+        "sp": "A",
+        "t": "Evet, on beş dakika sürer. Ama çıkmadan önce şapkalarınızı almayı unutmayın, öğlen güneş çok yakıcı.",
+        "s": "بله، پانزده دقیقه طول می‌کشد. ولی قبل از بیرون رفتن یادتان نرود کلاه‌هایتان را بردارید، ظهر آفتاب خیلی سوزان است."
+      },
+      {
+        "sp": "B",
+        "t": "Teşekkürler. Çıkış saati kaçta?",
+        "s": "ممنون. ساعت تحویل اتاق چند است؟"
+      },
+      {
+        "sp": "A",
+        "t": "Saat on ikide. Odanız 305, asansör sağda. İyi tatiller!",
+        "s": "ساعت دوازده. اتاقتان ۳۰۵ است، آسانسور سمت راست است. تعطیلات خوبی داشته باشید!"
+      }
+    ]
+  },
+  "grammar": [
+    {
+      "id": "g01",
+      "title": {
+        "t": "Denizi görmek için… -mak / -mek için",
+        "s": "بیان هدف: «برای…، برای اینکه…»"
+      },
+      "explain": "برای گفتن **هدف** («برای…، برای اینکه…») مصدر فعل (**-mak / -mek**) + **için** می‌آید: Türkçe öğren**mek için** kursa gidiyorum. = برای یاد گرفتن ترکی به کلاس می‌روم.\nمصدر **شناسه نمی‌گیرد**؛ فاعل و زمان را فعل اصلی جمله نشان می‌دهد: Denizi gör**mek için** Antalya'ya gittik. = برای دیدن دریا به آنتالیا رفتیم.\nمنفی: **-mamak / -memek için** («برای اینکه… نشود»): Geç kal**mamak için** taksiye bindim. = برای اینکه دیر نکنم، سوار تاکسی شدم.\n**için** بعد از اسم هم می‌آید: tatil **için** (برای تعطیلات)، iş **için**، senin **için** (برای تو). برای پرسیدن هدف: **Ne için?** یا **Neden?**\nدر فارسی بعد از «برای اینکه» فعل التزامی با شناسه می‌آید (برای اینکه **ببینیم**)، اما در ترکی همیشه همان مصدر ساده است (**görmek için**).",
+      "table": [
+        [
+          "görmek",
+          "görmek için",
+          "görmemek için"
+        ],
+        [
+          "almak",
+          "almak için",
+          "almamak için"
+        ],
+        [
+          "kaçırmak",
+          "kaçırmak için",
+          "kaçırmamak için"
+        ],
+        [
+          "yorulmak",
+          "yorulmak için",
+          "yorulmamak için"
+        ],
+        [
+          "beklemek",
+          "beklemek için",
+          "beklememek için"
+        ]
+      ],
+      "examples": [
+        {
+          "t": "Boğaz'ı görmek için vapura bindik.",
+          "s": "برای دیدن بسفر سوار کشتی شدیم."
+        },
+        {
+          "t": "Ucuz bilet bulmak için erken rezervasyon yapmalısınız.",
+          "s": "برای پیدا کردن بلیت ارزان باید زود رزرو کنید."
+        },
+        {
+          "t": "Uçağı kaçırmamak için sabah beşte kalktık.",
+          "s": "برای اینکه پرواز را از دست ندهیم، ساعت پنج صبح بیدار شدیم."
+        },
+        {
+          "t": "Bu yaz dinlenmek için köye gideceğiz.",
+          "s": "این تابستان برای استراحت به روستا می‌رویم."
+        },
+        {
+          "t": "Bu hediyeyi senin için aldım.",
+          "s": "این هدیه را برای تو خریدم."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "choice",
+          "t": "Döviz bozdurmak ___ bankaya gittim.",
+          "options": [
+            "için",
+            "gibi",
+            "kadar"
+          ],
+          "answer": 0,
+          "s": "برای تبدیل ارز به بانک رفتم."
+        },
+        {
+          "type": "choice",
+          "t": "Geç ___ için taksiye bindik.",
+          "options": [
+            "kalmamak",
+            "kalmamaya",
+            "kalmadan"
+          ],
+          "answer": 0,
+          "s": "برای اینکه دیر نکنیم، سوار تاکسی شدیم."
+        },
+        {
+          "type": "choice",
+          "t": "Denizde ___ için Antalya'ya gidiyoruz.",
+          "options": [
+            "yüzmek",
+            "yüzüyoruz",
+            "yüzdük"
+          ],
+          "answer": 0,
+          "s": "برای شنا کردن در دریا به آنتالیا می‌رویم."
+        },
+        {
+          "type": "type",
+          "t": "Otelde oda ___ için internete baktım.",
+          "answer": [
+            "ayırtmak",
+            "ayırmak"
+          ],
+          "s": "برای رزرو اتاق در هتل، در اینترنت گشتم."
+        },
+        {
+          "type": "type",
+          "t": "Yeni insanlarla tanışmak ___ seyahat etmeyi seviyorum.",
+          "answer": [
+            "için"
+          ],
+          "s": "برای آشنا شدن با آدم‌های جدید، سفر کردن را دوست دارم."
+        },
+        {
+          "type": "type",
+          "t": "Pasaportumu ___ için hemen çantama koydum.",
+          "answer": [
+            "unutmamak"
+          ],
+          "s": "برای اینکه گذرنامه‌ام را فراموش نکنم، فوراً آن را در کیفم گذاشتم."
+        },
+        {
+          "type": "order",
+          "t": "Türkçe öğrenmek için her gün çalışıyorum.",
+          "s": "برای یاد گرفتن ترکی هر روز درس می‌خوانم."
+        },
+        {
+          "type": "order",
+          "t": "Bilet almak için havalimanına erken gittik.",
+          "s": "برای خریدن بلیت زود به فرودگاه رفتیم."
+        }
+      ]
+    },
+    {
+      "id": "g02",
+      "title": {
+        "t": "Kahvaltı yaptıktan sonra / Yola çıkmadan önce",
+        "s": "«بعد از اینکه…» و «قبل از اینکه…»"
+      },
+      "explain": "**-dıktan sonra** یعنی «بعد از اینکه…»: ریشه + **-dık / -dik / -duk / -dük** (هماهنگی چهارتایی) + **-tan / -ten sonra**: Kahvaltı yap**tıktan sonra** denize gittik. = بعد از اینکه صبحانه خوردیم، به دریا رفتیم.\nبعد از **ç، f، h، k، p، s، ş، t** حرف d به **t** تبدیل می‌شود: yap**tık**tan، iç**tik**ten، yerleş**tik**ten؛ اما: gel**dik**ten، oku**duk**tan، gör**dük**ten.\n**-madan / -meden önce** یعنی «قبل از اینکه…»: Yola çık**madan önce** bavulları kontrol et. = قبل از اینکه راه بیفتی، چمدان‌ها را بررسی کن. توجه: این **-ma** منفی نیست و معنی جمله مثبت است!\nهر دو ساخت **شناسه نمی‌گیرند**؛ زمان و شخص را فعل آخر جمله نشان می‌دهد. با اسم: yemek**ten sonra** (بعد از غذا)، tatil**den önce** (قبل از تعطیلات).\n**-madan** به‌تنهایی (بدون önce) یعنی «بدون اینکه…»: Kahvaltı yap**madan** çıktım. = بدون صبحانه بیرون رفتم.",
+      "table": [
+        [
+          "yapmak",
+          "yaptıktan sonra",
+          "yapmadan önce"
+        ],
+        [
+          "gelmek",
+          "geldikten sonra",
+          "gelmeden önce"
+        ],
+        [
+          "okumak",
+          "okuduktan sonra",
+          "okumadan önce"
+        ],
+        [
+          "görmek",
+          "gördükten sonra",
+          "görmeden önce"
+        ],
+        [
+          "içmek",
+          "içtikten sonra",
+          "içmeden önce"
+        ],
+        [
+          "çıkmak",
+          "çıktıktan sonra",
+          "çıkmadan önce"
+        ]
+      ],
+      "examples": [
+        {
+          "t": "Otele yerleştikten sonra sahile indik.",
+          "s": "بعد از اینکه در هتل مستقر شدیم، به ساحل رفتیم."
+        },
+        {
+          "t": "Yola çıkmadan önce bütün belgeleri kontrol ettim.",
+          "s": "قبل از راه افتادن همه‌ی مدارک را بررسی کردم."
+        },
+        {
+          "t": "Müzeyi gezdikten sonra bir kafede çay içtik.",
+          "s": "بعد از دیدن موزه، در یک کافه چای خوردیم."
+        },
+        {
+          "t": "Uçağa binmeden önce annemi aradım.",
+          "s": "قبل از سوار شدن به هواپیما به مادرم زنگ زدم."
+        },
+        {
+          "t": "Akşam yemeğinden sonra sahilde yürüdük.",
+          "s": "بعد از شام در ساحل قدم زدیم."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "choice",
+          "t": "Kahvaltı ___ sonra müzeye gittik.",
+          "options": [
+            "yaptıktan",
+            "yapdıktan",
+            "yaptıkten"
+          ],
+          "answer": 0,
+          "s": "بعد از اینکه صبحانه خوردیم، به موزه رفتیم."
+        },
+        {
+          "type": "choice",
+          "t": "Yemek ___ önce ellerini yıka.",
+          "options": [
+            "yemeden",
+            "yememeden",
+            "yedikten"
+          ],
+          "answer": 0,
+          "s": "قبل از غذا خوردن دست‌هایت را بشوی."
+        },
+        {
+          "type": "choice",
+          "t": "Otele ___ sonra hemen uyudum.",
+          "options": [
+            "vardıktan",
+            "vardıkten",
+            "varmadan"
+          ],
+          "answer": 0,
+          "s": "بعد از رسیدن به هتل فوراً خوابیدم."
+        },
+        {
+          "type": "type",
+          "t": "Bavulları ___ sonra taksi çağırdık.",
+          "answer": [
+            "hazırladıktan"
+          ],
+          "s": "بعد از اینکه چمدان‌ها را آماده کردیم، تاکسی خبر کردیم."
+        },
+        {
+          "type": "type",
+          "t": "Evden ___ önce bütün ışıkları kapattım.",
+          "answer": [
+            "çıkmadan"
+          ],
+          "s": "قبل از بیرون رفتن از خانه، همه‌ی چراغ‌ها را خاموش کردم."
+        },
+        {
+          "type": "type",
+          "t": "Türkiye'ye ___ önce biraz Türkçe öğrendim.",
+          "answer": [
+            "gelmeden",
+            "gitmeden"
+          ],
+          "s": "قبل از آمدن به ترکیه کمی ترکی یاد گرفتم."
+        },
+        {
+          "type": "order",
+          "t": "Kahvaltıdan sonra sahilde yürüyüş yaptık.",
+          "s": "بعد از صبحانه در ساحل پیاده‌روی کردیم."
+        },
+        {
+          "type": "order",
+          "t": "Yola çıkmadan önce bavulları kontrol et.",
+          "s": "قبل از راه افتادن، چمدان‌ها را بررسی کن."
+        }
+      ]
+    }
+  ],
+  "reading": {
+    "title": {
+      "t": "Kapadokya tatilimiz",
+      "s": "سفر ما به کاپادوکیه"
+    },
+    "text": [
+      {
+        "t": "Merhaba, ben Maryam! Geçen bahar ailemle beş günlüğüne Kapadokya'ya gittik.",
+        "s": "سلام، من مریم هستم! بهار گذشته با خانواده‌ام برای پنج روز به کاپادوکیه رفتیم."
+      },
+      {
+        "t": "Ucuz bilet bulmak için iki ay önce rezervasyon yaptık.",
+        "s": "برای پیدا کردن بلیت ارزان، دو ماه قبل رزرو کردیم."
+      },
+      {
+        "t": "Kayseri Havalimanı'na indikten sonra otobüsle Göreme'ye geçtik.",
+        "s": "بعد از فرود در فرودگاه قیصریه، با اتوبوس به گورمه رفتیم."
+      },
+      {
+        "t": "Bir mağara otelde konakladık; odamız kayanın içindeydi!",
+        "s": "در یک هتل غاری اقامت کردیم؛ اتاقمان داخل صخره بود!"
+      },
+      {
+        "t": "Ertesi sabah balonları görmek için saat beşte kalktık.",
+        "s": "صبح روز بعد برای دیدن بالن‌ها ساعت پنج بیدار شدیم."
+      },
+      {
+        "t": "Güneş doğmadan önce yüzlerce balon gökyüzüne yükseldi; manzara inanılmazdı.",
+        "s": "قبل از طلوع خورشید صدها بالن به آسمان رفتند؛ منظره باورنکردنی بود."
+      },
+      {
+        "t": "Kahvaltı yaptıktan sonra bir rehberle vadileri ve yer altı şehrini gezdik.",
+        "s": "بعد از صبحانه، با یک راهنما دره‌ها و شهر زیرزمینی را گشتیم."
+      },
+      {
+        "t": "Rehberimiz anlattı: insanlar binlerce yıl önce bu şehirlerde saklanmışlar.",
+        "s": "راهنمایمان تعریف کرد: گویا مردم هزاران سال پیش در این شهرها پنهان می‌شدند."
+      },
+      {
+        "t": "Son gün Avanos'ta çömlek yapmayı denedik.",
+        "s": "روز آخر در آوانوس سفالگری را امتحان کردیم."
+      },
+      {
+        "t": "Dönmeden önce çarşıdan hediyelik eşya aldık.",
+        "s": "قبل از برگشتن از بازار سوغاتی خریدیم."
+      },
+      {
+        "t": "Bu tatili hiç unutmayacağız!",
+        "s": "این سفر را هیچ‌وقت فراموش نخواهیم کرد!"
+      }
+    ],
+    "questions": [
+      {
+        "q": {
+          "t": "Maryam ve ailesi Kapadokya'da kaç gün kaldı?",
+          "s": "مریم و خانواده‌اش چند روز در کاپادوکیه ماندند؟"
+        },
+        "options": [
+          "Üç gün",
+          "Beş gün",
+          "Bir hafta"
+        ],
+        "answer": 1
+      },
+      {
+        "q": {
+          "t": "Neden iki ay önce rezervasyon yaptılar?",
+          "s": "چرا دو ماه قبل رزرو کردند؟"
+        },
+        "options": [
+          "Ucuz bilet bulmak için",
+          "Balonları görmek için",
+          "Rehber bulmak için"
+        ],
+        "answer": 0
+      },
+      {
+        "q": {
+          "t": "Balonları ne zaman gördüler?",
+          "s": "بالن‌ها را کی دیدند؟"
+        },
+        "options": [
+          "Akşam yemeğinden sonra",
+          "Güneş doğmadan önce",
+          "Öğlen"
+        ],
+        "answer": 1
+      },
+      {
+        "q": {
+          "t": "Dönmeden önce ne yaptılar?",
+          "s": "قبل از برگشتن چه کار کردند؟"
+        },
+        "options": [
+          "Çömlek yaptılar",
+          "Yer altı şehrini gezdiler",
+          "Hediyelik eşya aldılar"
+        ],
+        "answer": 2
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "t": "Tatil için iki haftalık izin aldım.",
+      "s": "برای تعطیلات دو هفته مرخصی گرفتم."
+    },
+    {
+      "t": "Uçağı kaçırmamak için erken çıktık.",
+      "s": "برای اینکه پرواز را از دست ندهیم، زود راه افتادیم."
+    },
+    {
+      "t": "Müzeyi gezdikten sonra yemek yedik.",
+      "s": "بعد از دیدن موزه غذا خوردیم."
+    },
+    {
+      "t": "Yola çıkmadan önce pasaportunu kontrol et.",
+      "s": "قبل از راه افتادن گذرنامه‌ات را بررسی کن."
+    },
+    {
+      "t": "Deniz manzaralı bir oda istiyoruz.",
+      "s": "یک اتاق رو به دریا می‌خواهیم."
+    },
+    {
+      "t": "Dönüş uçağımız akşam yedide kalkacak.",
+      "s": "پرواز برگشت ما ساعت هفت عصر حرکت می‌کند."
+    },
+    {
+      "t": "Bu fotoğrafı Kapadokya'da çektik.",
+      "s": "این عکس را در کاپادوکیه گرفتیم."
+    },
+    {
+      "t": "Kahvaltı yapmadan çıkmayın!",
+      "s": "بدون صبحانه بیرون نروید!"
+    }
+  ]
+}

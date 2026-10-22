@@ -1,0 +1,721 @@
+{
+  "id": "u06",
+  "level": "B1",
+  "emoji": "🛍️",
+  "title": {
+    "t": "Alışveriş ve tüketim",
+    "s": "خرید و مصرف"
+  },
+  "goals": [
+    "قیمت و کیفیت دو جنس را با هم مقایسه کنم.",
+    "بگویم کدام از همه ارزان‌تر، بهتر یا گران‌تر است.",
+    "با «kadar»، «gibi» و پسوند ‎-ca / -ce‎ شباهت، برابری و نظرم را بیان کنم.",
+    "در فروشگاه درباره‌ی تخفیف، سایز، پرداخت و پس دادن جنس صحبت کنم."
+  ],
+  "words": [
+    {
+      "id": "w01",
+      "t": "indirim",
+      "pl": "indirimler",
+      "s": "تخفیف، حراج",
+      "pr": "ایندیریم",
+      "emoji": "🏷️",
+      "ex": {
+        "t": "Bu mağazada büyük bir indirim var.",
+        "s": "در این فروشگاه تخفیف بزرگی هست."
+      }
+    },
+    {
+      "id": "w02",
+      "t": "fiyat",
+      "pl": "fiyatlar",
+      "s": "قیمت",
+      "pr": "فیات",
+      "emoji": "💰",
+      "ex": {
+        "t": "Fiyatlar geçen yıldan daha yüksek.",
+        "s": "قیمت‌ها از پارسال بالاترند."
+      }
+    },
+    {
+      "id": "w03",
+      "t": "mağaza",
+      "pl": "mağazalar",
+      "s": "فروشگاه، مغازه",
+      "pr": "ماازا",
+      "emoji": "🏬",
+      "ex": {
+        "t": "Mağaza dün çok kalabalıktı.",
+        "s": "فروشگاه دیروز خیلی شلوغ بود."
+      }
+    },
+    {
+      "id": "w04",
+      "t": "müşteri",
+      "pl": "müşteriler",
+      "s": "مشتری",
+      "pr": "موشتِری",
+      "emoji": "",
+      "ex": {
+        "t": "Müşteriler kasada sıra bekliyor.",
+        "s": "مشتری‌ها جلوی صندوق در صف منتظرند."
+      }
+    },
+    {
+      "id": "w05",
+      "t": "fiş",
+      "pl": "fişler",
+      "s": "رسید خرید، فیش",
+      "pr": "فیش",
+      "emoji": "🧾",
+      "ex": {
+        "t": "Lütfen fişi saklayın.",
+        "s": "لطفاً رسید را نگه دارید."
+      }
+    },
+    {
+      "id": "w06",
+      "t": "kalite",
+      "s": "کیفیت",
+      "pr": "کالیتِه",
+      "emoji": "",
+      "ex": {
+        "t": "Bu ayakkabının kalitesi çok iyi.",
+        "s": "کیفیت این کفش خیلی خوب است."
+      }
+    },
+    {
+      "id": "w07",
+      "t": "uygun",
+      "s": "مناسب (قیمت)",
+      "pr": "اویگون",
+      "emoji": "",
+      "ex": {
+        "t": "Bu ceketin fiyatı çok uygun.",
+        "s": "قیمت این کت خیلی مناسب است."
+      }
+    },
+    {
+      "id": "w08",
+      "t": "beden",
+      "pl": "bedenler",
+      "s": "سایز لباس",
+      "pr": "بِدِن",
+      "emoji": "👕",
+      "ex": {
+        "t": "Bu gömleğin bir büyük bedeni var mı?",
+        "s": "از این پیراهن یک سایز بزرگ‌تر دارید؟"
+      }
+    },
+    {
+      "id": "w09",
+      "t": "denemek",
+      "s": "امتحان کردن، پرو کردن",
+      "pr": "دِنِمِک",
+      "emoji": "",
+      "ex": {
+        "t": "Bu ceketi denemek istiyorum.",
+        "s": "می‌خواهم این کت را پرو کنم."
+      }
+    },
+    {
+      "id": "w10",
+      "t": "iade etmek",
+      "s": "پس دادن (جنس خریده‌شده)",
+      "pr": "ایادِه اِتمِک",
+      "emoji": "",
+      "ex": {
+        "t": "Ayakkabıyı ertesi gün iade ettim.",
+        "s": "کفش را روز بعد پس دادم."
+      }
+    },
+    {
+      "id": "w11",
+      "t": "ürün",
+      "pl": "ürünler",
+      "s": "محصول، کالا",
+      "pr": "اورون",
+      "emoji": "📦",
+      "ex": {
+        "t": "Bu markette yerli ürünler daha ucuz.",
+        "s": "در این سوپرمارکت محصولات داخلی ارزان‌ترند."
+      }
+    },
+    {
+      "id": "w12",
+      "t": "kredi kartı",
+      "pl": "kredi kartları",
+      "s": "کارت اعتباری، کارت بانکی",
+      "pr": "کرِدی کارتِ",
+      "emoji": "💳",
+      "ex": {
+        "t": "Kredi kartıyla ödedim.",
+        "s": "با کارت بانکی پرداخت کردم."
+      }
+    },
+    {
+      "id": "w13",
+      "t": "ödemek",
+      "s": "پرداختن، پول دادن",
+      "pr": "اُدِمِک",
+      "emoji": "",
+      "ex": {
+        "t": "Nakit mi ödeyeceksiniz, kartla mı?",
+        "s": "نقد پرداخت می‌کنید یا با کارت؟"
+      }
+    },
+    {
+      "id": "w14",
+      "t": "nakit",
+      "s": "نقد، پول نقد",
+      "pr": "ناکیت",
+      "emoji": "💵",
+      "ex": {
+        "t": "Yanımda nakit para yok.",
+        "s": "همراهم پول نقد ندارم."
+      }
+    },
+    {
+      "id": "w15",
+      "t": "tüketim",
+      "s": "مصرف",
+      "pr": "توکِتیم",
+      "emoji": "",
+      "ex": {
+        "t": "Plastik tüketimi her yıl artıyor.",
+        "s": "مصرف پلاستیک هر سال بیشتر می‌شود."
+      }
+    },
+    {
+      "id": "w16",
+      "t": "ihtiyaç",
+      "pl": "ihtiyaçlar",
+      "s": "نیاز",
+      "pr": "ایهتیاچ",
+      "emoji": "",
+      "ex": {
+        "t": "Buna gerçekten ihtiyacın var mı?",
+        "s": "واقعاً به این نیاز داری؟"
+      }
+    }
+  ],
+  "phrases": [
+    {
+      "id": "p01",
+      "t": "Sadece bakıyorum, teşekkürler.",
+      "s": "فقط دارم نگاه می‌کنم، ممنون."
+    },
+    {
+      "id": "p02",
+      "t": "Bunun daha ucuzu var mı?",
+      "s": "ارزان‌ترش را دارید؟"
+    },
+    {
+      "id": "p03",
+      "t": "Başka rengi var mı?",
+      "s": "رنگ دیگری هم دارد؟"
+    },
+    {
+      "id": "p04",
+      "t": "Bunu deneyebilir miyim?",
+      "s": "می‌توانم این را پرو کنم؟"
+    },
+    {
+      "id": "p05",
+      "t": "Deneme kabini nerede?",
+      "s": "اتاق پرو کجاست؟"
+    },
+    {
+      "id": "p06",
+      "t": "Bana biraz dar geldi.",
+      "s": "برایم کمی تنگ است."
+    },
+    {
+      "id": "p07",
+      "t": "Kartla ödeyebilir miyim?",
+      "s": "می‌توانم با کارت پرداخت کنم؟"
+    },
+    {
+      "id": "p08",
+      "t": "Fiyat-performans açısından en iyisi bu.",
+      "s": "از نظر قیمت نسبت به کیفیت، این از همه بهتر است."
+    }
+  ],
+  "dialogue": {
+    "title": {
+      "t": "Mağazada",
+      "s": "در فروشگاه"
+    },
+    "speakers": {
+      "A": {
+        "name": "Maryam",
+        "voice": "f"
+      },
+      "B": {
+        "name": "Emre",
+        "voice": "m"
+      }
+    },
+    "lines": [
+      {
+        "sp": "A",
+        "t": "Merhaba, kışlık bir mont arıyorum.",
+        "s": "سلام، دنبال یک کاپشن زمستانی می‌گردم."
+      },
+      {
+        "sp": "B",
+        "t": "Hoş geldiniz. Bu siyah modele bakın. Mağazadaki en sıcak mont bu.",
+        "s": "خوش آمدید. به این مدل مشکی نگاه کنید. گرم‌ترین کاپشن فروشگاه همین است."
+      },
+      {
+        "sp": "A",
+        "t": "Güzel, ama biraz pahalı. Bundan daha ucuz bir model var mı?",
+        "s": "قشنگ است، ولی کمی گران است. مدلی ارزان‌تر از این دارید؟"
+      },
+      {
+        "sp": "B",
+        "t": "Şu lacivert mont daha ucuz. O da siyah mont kadar sıcak.",
+        "s": "آن کاپشن سرمه‌ای ارزان‌تر است. آن هم به اندازه‌ی کاپشن مشکی گرم است."
+      },
+      {
+        "sp": "A",
+        "t": "Gerçekten mi? Kalitesi de aynı mı?",
+        "s": "واقعاً؟ کیفیتش هم همان است؟"
+      },
+      {
+        "sp": "B",
+        "t": "Evet, aynı markanın ürünü. Sadece rengi farklı ve şu an yüzde yirmi indirimde.",
+        "s": "بله، محصول همان برند است. فقط رنگش فرق دارد و الان بیست درصد تخفیف دارد."
+      },
+      {
+        "sp": "A",
+        "t": "Harika! Bunu deneyebilir miyim? Bedenim M.",
+        "s": "عالی! می‌توانم این را پرو کنم؟ سایزم M است."
+      },
+      {
+        "sp": "B",
+        "t": "Tabii, deneme kabini sağda.",
+        "s": "حتماً، اتاق پرو سمت راست است."
+      },
+      {
+        "sp": "A",
+        "t": "Biraz dar geldi. Bir büyük bedeni var mı?",
+        "s": "کمی تنگ است. یک سایز بزرگ‌ترش را دارید؟"
+      },
+      {
+        "sp": "B",
+        "t": "Var, buyurun. Bu L beden; tam size göre.",
+        "s": "بله، بفرمایید. این سایز L است؛ درست اندازه‌ی شماست."
+      },
+      {
+        "sp": "A",
+        "t": "Evet, bu çok rahat. Kartla ödeyebilir miyim?",
+        "s": "بله، این خیلی راحت است. می‌توانم با کارت پرداخت کنم؟"
+      },
+      {
+        "sp": "B",
+        "t": "Tabii. Fişinizi saklayın; iki hafta içinde iade edebilirsiniz.",
+        "s": "البته. رسیدتان را نگه دارید؛ تا دو هفته می‌توانید پسش بدهید."
+      }
+    ]
+  },
+  "grammar": [
+    {
+      "id": "g01",
+      "title": {
+        "t": "Daha ucuz, en ucuz, o kadar ucuz",
+        "s": "مقایسه: «-تر»، «-ترین» و «به اندازه‌ی»"
+      },
+      "explain": "در ترکی خودِ صفت تغییر نمی‌کند؛ برای «-تر» کلمه‌ی **daha** را قبل از صفت می‌گذاریم: **daha ucuz** = ارزان‌تر، **daha güzel** = زیباتر.\nچیزی که با آن مقایسه می‌کنیم پسوند «از» می‌گیرد: **-dan / -den / -tan / -ten**. مثال: Bu çanta o çanta**dan** daha ucuz = این کیف از آن کیف ارزان‌تر است. وقتی ‎-dan‎ در جمله باشد، **daha** را می‌شود حذف کرد: Ali Reza**'dan** uzun.\nبرای «-ترین» کلمه‌ی **en** را قبل از صفت می‌گذاریم: **en ucuz** = ارزان‌ترین. «از همه» هم می‌شود **hepsinden**: Bu hepsinden pahalı.\nبرای برابری از **kadar** (به اندازه‌ی) استفاده می‌کنیم: Bu mont o mont **kadar** sıcak = این کاپشن به اندازه‌ی آن کاپشن گرم است. ضمیرها قبل از kadar حالت ملکی می‌گیرند: **benim kadar**، **senin kadar**، **onun kadar**، **bizim kadar**، **sizin kadar**.\nدقت کنید: «بهتر» می‌شود **daha iyi** و «بیشتر / کمتر» می‌شود **daha çok / daha az**.",
+      "table": [
+        [
+          "ucuz",
+          "daha ucuz",
+          "en ucuz"
+        ],
+        [
+          "güzel",
+          "daha güzel",
+          "en güzel"
+        ],
+        [
+          "iyi",
+          "daha iyi",
+          "en iyi"
+        ],
+        [
+          "az",
+          "daha az",
+          "en az"
+        ],
+        [
+          "ev → evden",
+          "okul → okuldan",
+          "market → marketten"
+        ],
+        [
+          "ben → benim kadar",
+          "sen → senin kadar",
+          "o → onun kadar"
+        ]
+      ],
+      "examples": [
+        {
+          "t": "Bu mağaza o mağazadan daha ucuz.",
+          "s": "این فروشگاه از آن فروشگاه ارزان‌تر است."
+        },
+        {
+          "t": "Pazardaki meyveler marketten daha taze.",
+          "s": "میوه‌های بازار هفتگی از سوپرمارکت تازه‌ترند."
+        },
+        {
+          "t": "Bu, mağazadaki en pahalı telefon.",
+          "s": "این گران‌ترین گوشیِ فروشگاه است."
+        },
+        {
+          "t": "Yeni ayakkabılarım eskileri kadar rahat değil.",
+          "s": "کفش‌های جدیدم به اندازه‌ی کفش‌های قبلی‌ام راحت نیستند."
+        },
+        {
+          "t": "Eşim benim kadar çok alışveriş yapmaz.",
+          "s": "همسرم به اندازه‌ی من خرید نمی‌کند."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "choice",
+          "t": "Bu çanta ___ daha ucuz.",
+          "options": [
+            "şu çantadan",
+            "şu çantada",
+            "şu çantaya"
+          ],
+          "answer": 0,
+          "s": "این کیف از آن کیف ارزان‌تر است."
+        },
+        {
+          "type": "choice",
+          "t": "Bu, şehirdeki ___ büyük alışveriş merkezi.",
+          "options": [
+            "daha",
+            "en",
+            "kadar"
+          ],
+          "answer": 1,
+          "s": "این بزرگ‌ترین مرکز خرید شهر است."
+        },
+        {
+          "type": "choice",
+          "t": "Bu telefon o telefon ___ pahalı değil.",
+          "options": [
+            "kadar",
+            "en",
+            "daha"
+          ],
+          "answer": 0,
+          "s": "این گوشی به اندازه‌ی آن گوشی گران نیست."
+        },
+        {
+          "type": "choice",
+          "t": "Ali ___ kadar uzun değil.",
+          "options": [
+            "ben",
+            "benim",
+            "bana"
+          ],
+          "answer": 1,
+          "s": "قد علی به اندازه‌ی من بلند نیست."
+        },
+        {
+          "type": "type",
+          "t": "Market ___ daha pahalı.",
+          "answer": [
+            "pazardan"
+          ],
+          "s": "سوپرمارکت از بازار هفتگی گران‌تر است."
+        },
+        {
+          "type": "type",
+          "t": "Bu, dükkândaki ___ iyi kumaş.",
+          "answer": [
+            "en"
+          ],
+          "s": "این بهترین پارچه‌ی مغازه است."
+        },
+        {
+          "type": "type",
+          "t": "Pazardaki sebzeler marketten ___ taze.",
+          "answer": [
+            "daha"
+          ],
+          "s": "سبزی‌های بازار هفتگی از سوپرمارکت تازه‌ترند."
+        },
+        {
+          "type": "order",
+          "t": "Bu ayakkabı ötekinden daha rahat.",
+          "s": "این کفش از آن یکی راحت‌تر است."
+        }
+      ]
+    },
+    {
+      "id": "g02",
+      "title": {
+        "t": "Bence, saatlerce, kolayca ve gibi",
+        "s": "پسوند ‎-ca / -ce‎ و کلمه‌ی «gibi» (مثلِ)"
+      },
+      "explain": "پسوند **-ca / -ce** (بعد از صامت‌های بی‌واک: **-ça / -çe**) چند کاربرد مهم دارد:\n۱. «به نظرِ»: **bence** = به نظر من، **sence** = به نظر تو، **bizce** = به نظر ما، **sizce** = به نظر شما. مثال: Bence bu ceket daha şık.\n۲. «به شیوه‌ی …»؛ مثل پسوند «-انه» در فارسی از اسم و صفت، قید یا صفت می‌سازد: **çocukça** = بچگانه، **kardeşçe** = برادرانه، **kolayca** = به‌آسانی، **sessizce** = بی‌صدا، **yavaşça** = آهسته.\n۳. بعد از اسم‌های جمعِ زمان و عدد، مقدار زیاد را نشان می‌دهد: **saatlerce** = ساعت‌ها، **yıllarca** = سال‌ها، **binlerce** = هزاران.\nکلمه‌ی **gibi** یعنی «مثلِ، مانندِ» و بعد از اسم می‌آید: **annem gibi** = مثل مادرم. ضمیرهای ben، sen، o، biz، siz و همچنین bu / şu قبل از gibi حالت ملکی می‌گیرند: **benim gibi**، **senin gibi**، **onun gibi**، **bizim gibi**، **sizin gibi**، **bunun gibi**؛ اما می‌گوییم **onlar gibi**.\nفرق **gibi** و **kadar**: gibi شباهت را نشان می‌دهد (Bu çanta seninki gibi = این کیف مثل مال توست) و kadar اندازه و درجه را (Bu çanta seninki kadar büyük = این کیف به بزرگیِ مال توست).",
+      "table": [
+        [
+          "ben → bence",
+          "çocuk → çocukça",
+          "saat → saatlerce"
+        ],
+        [
+          "sen → sence",
+          "kolay → kolayca",
+          "yıl → yıllarca"
+        ],
+        [
+          "siz → sizce",
+          "sessiz → sessizce",
+          "bin → binlerce"
+        ],
+        [
+          "ben → benim gibi",
+          "sen → senin gibi",
+          "onlar → onlar gibi"
+        ]
+      ],
+      "examples": [
+        {
+          "t": "Sizce hangisi daha güzel?",
+          "s": "به نظر شما کدام قشنگ‌تر است؟"
+        },
+        {
+          "t": "Bence bu indirim gerçek değil.",
+          "s": "به نظر من این تخفیف واقعی نیست."
+        },
+        {
+          "t": "Bayramdan önce mağazalarda saatlerce dolaştık.",
+          "s": "قبل از عید ساعت‌ها در فروشگاه‌ها گشتیم."
+        },
+        {
+          "t": "Ben de annem gibi pazardan alışveriş yapmayı seviyorum.",
+          "s": "من هم مثل مادرم دوست دارم از بازار هفتگی خرید کنم."
+        },
+        {
+          "t": "Bu elbise seninki gibi, ama rengi farklı.",
+          "s": "این لباس مثل مال توست، ولی رنگش فرق دارد."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "choice",
+          "t": "___ bu mont çok pahalı. Sen ne düşünüyorsun?",
+          "options": [
+            "Bence",
+            "Bende",
+            "Benim"
+          ],
+          "answer": 0,
+          "s": "به نظر من این کاپشن خیلی گران است. تو چه فکر می‌کنی؟"
+        },
+        {
+          "type": "choice",
+          "t": "Bu çanta ___ gibi kahverengi.",
+          "options": [
+            "seninki",
+            "seninkine",
+            "seninkinde"
+          ],
+          "answer": 0,
+          "s": "این کیف مثل مال تو قهوه‌ای است."
+        },
+        {
+          "type": "choice",
+          "t": "Ben de ___ gibi indirimleri bekliyorum.",
+          "options": [
+            "sen",
+            "senin",
+            "sana"
+          ],
+          "answer": 1,
+          "s": "من هم مثل تو منتظر حراج‌ها هستم."
+        },
+        {
+          "type": "choice",
+          "t": "Bayram alışverişi için ___ sırada bekledik.",
+          "options": [
+            "saatlerce",
+            "saatlik",
+            "saatçe"
+          ],
+          "answer": 0,
+          "s": "برای خرید عید ساعت‌ها در صف ماندیم."
+        },
+        {
+          "type": "type",
+          "t": "___ hangi renk daha güzel?",
+          "answer": [
+            "Sizce"
+          ],
+          "s": "به نظر شما کدام رنگ قشنگ‌تر است؟"
+        },
+        {
+          "type": "type",
+          "t": "Bebek uyuyor, kapıyı ___ kapat.",
+          "answer": [
+            "sessizce",
+            "yavaşça"
+          ],
+          "s": "بچه خواب است، در را بی‌صدا ببند."
+        },
+        {
+          "type": "type",
+          "t": "Onlar da ___ gibi pazardan alışveriş yapıyor.",
+          "answer": [
+            "bizim"
+          ],
+          "s": "آن‌ها هم مثل ما از بازار هفتگی خرید می‌کنند."
+        },
+        {
+          "type": "order",
+          "t": "Bence bu ceket daha şık.",
+          "s": "به نظر من این کت شیک‌تر است."
+        }
+      ]
+    }
+  ],
+  "reading": {
+    "title": {
+      "t": "Pazar mı, market mi?",
+      "s": "بازار هفتگی یا سوپرمارکت؟"
+    },
+    "text": [
+      {
+        "t": "Merhaba arkadaşlar! Bugün sizinle pazar ve market alışverişini karşılaştırmak istiyorum.",
+        "s": "سلام دوستان! امروز می‌خواهم خرید از بازار هفتگی و سوپرمارکت را با شما مقایسه کنم."
+      },
+      {
+        "t": "Ben de annem gibi her cumartesi mahalle pazarına giderim.",
+        "s": "من هم مثل مادرم هر شنبه به بازار هفتگی محله می‌روم."
+      },
+      {
+        "t": "Bence pazardaki meyve ve sebzeler marketten çok daha taze.",
+        "s": "به نظر من میوه و سبزیِ بازار هفتگی خیلی تازه‌تر از سوپرمارکت است."
+      },
+      {
+        "t": "Fiyatlar da genellikle daha uygun; özellikle akşamüstü pazarcılar fiyatları düşürüyor.",
+        "s": "قیمت‌ها هم معمولاً مناسب‌ترند؛ به‌خصوص نزدیک غروب، فروشنده‌ها قیمت‌ها را پایین می‌آورند."
+      },
+      {
+        "t": "Ama pazar her zaman market kadar rahat değil.",
+        "s": "اما بازار هفتگی همیشه به اندازه‌ی سوپرمارکت راحت نیست."
+      },
+      {
+        "t": "Kışın hava soğuk oluyor ve bazen saatlerce kalabalıkta dolaşıyorsunuz.",
+        "s": "زمستان هوا سرد است و گاهی ساعت‌ها در شلوغی می‌گردید."
+      },
+      {
+        "t": "Ayrıca pazarda her tezgâhta kartla ödemek mümkün değil; nakit para gerekiyor.",
+        "s": "علاوه بر این، در بازار هفتگی پای همه‌ی بساط‌ها نمی‌شود با کارت پرداخت کرد؛ پول نقد لازم است."
+      },
+      {
+        "t": "Market ise her gün açık ve alışveriş orada çok daha hızlı.",
+        "s": "سوپرمارکت اما هر روز باز است و خرید آن‌جا خیلی سریع‌تر است."
+      },
+      {
+        "t": "Bence en akıllıca yol, bir ihtiyaç listesi yapmak ve gereksiz şeyler almamak.",
+        "s": "به نظر من عاقلانه‌ترین راه این است که فهرستی از نیازهایمان بنویسیم و چیزهای غیرضروری نخریم."
+      },
+      {
+        "t": "Siz alışverişi nereden yapmayı tercih ediyorsunuz? Yorumlara yazın!",
+        "s": "شما ترجیح می‌دهید از کجا خرید کنید؟ در بخش نظرها بنویسید!"
+      }
+    ],
+    "questions": [
+      {
+        "q": {
+          "t": "Yazar her cumartesi nereye gidiyor?",
+          "s": "نویسنده هر شنبه کجا می‌رود؟"
+        },
+        "options": [
+          "Mahalle pazarına",
+          "Alışveriş merkezine",
+          "Markete"
+        ],
+        "answer": 0
+      },
+      {
+        "q": {
+          "t": "Yazara göre pazardaki meyveler nasıl?",
+          "s": "به نظر نویسنده میوه‌های بازار هفتگی چطورند؟"
+        },
+        "options": [
+          "Marketten daha pahalı",
+          "Marketten daha taze",
+          "Market kadar taze"
+        ],
+        "answer": 1
+      },
+      {
+        "q": {
+          "t": "Pazarda ödeme için ne gerekiyor?",
+          "s": "در بازار هفتگی برای پرداخت چه چیزی لازم است؟"
+        },
+        "options": [
+          "Kredi kartı",
+          "Fiş",
+          "Nakit para"
+        ],
+        "answer": 2
+      },
+      {
+        "q": {
+          "t": "Yazara göre en akıllıca yol hangisi?",
+          "s": "به نظر نویسنده عاقلانه‌ترین راه کدام است؟"
+        },
+        "options": [
+          "Her gün markete gitmek",
+          "Bir ihtiyaç listesi yapmak",
+          "Sadece indirimde alışveriş yapmak"
+        ],
+        "answer": 1
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "t": "Bu mağaza ötekinden daha ucuz.",
+      "s": "این فروشگاه از آن یکی ارزان‌تر است."
+    },
+    {
+      "t": "Sizce hangi telefon daha iyi?",
+      "s": "به نظر شما کدام گوشی بهتر است؟"
+    },
+    {
+      "t": "Bu, dükkândaki en güzel halı.",
+      "s": "این قشنگ‌ترین فرشِ مغازه است."
+    },
+    {
+      "t": "Kızım da benim kadar uzun oldu.",
+      "s": "دخترم هم هم‌قد من شده است."
+    },
+    {
+      "t": "İndirim günlerinde mağazalar çok kalabalık oluyor.",
+      "s": "روزهای حراج فروشگاه‌ها خیلی شلوغ می‌شوند."
+    },
+    {
+      "t": "Bu ceket bana biraz dar geldi.",
+      "s": "این کت برایم کمی تنگ است."
+    },
+    {
+      "t": "Ali babası gibi çok sakin.",
+      "s": "علی مثل پدرش خیلی آرام است."
+    },
+    {
+      "t": "Fişinizi saklarsanız ürünü iade edebilirsiniz.",
+      "s": "اگر رسیدتان را نگه دارید، می‌توانید کالا را پس بدهید."
+    }
+  ]
+}

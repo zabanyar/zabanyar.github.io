@@ -1,0 +1,679 @@
+{
+  "id": "u03",
+  "level": "A2",
+  "emoji": "🩺",
+  "title": {
+    "t": "Health and the body",
+    "s": "سلامتی و بدن"
+  },
+  "goals": [
+    "می‌توانم اعضای اصلی بدن و بیماری‌های رایج را نام ببرم.",
+    "می‌توانم به پزشک بگویم چه مشکلی دارم.",
+    "می‌توانم با should و shouldn't توصیه کنم.",
+    "می‌توانم با have to و don't have to دربارهٔ اجبار و «لازم نبودن» حرف بزنم."
+  ],
+  "words": [
+    {
+      "id": "w01",
+      "t": "head",
+      "pl": "heads",
+      "s": "سر",
+      "pr": "هِد",
+      "emoji": "",
+      "ex": {
+        "t": "My head hurts.",
+        "s": "سرم درد می‌کند."
+      }
+    },
+    {
+      "id": "w02",
+      "t": "back",
+      "pl": "backs",
+      "s": "کمر، پشت",
+      "pr": "بَک",
+      "emoji": "",
+      "ex": {
+        "t": "My back hurts after a long day at work.",
+        "s": "بعد از یک روز طولانیِ کاری کمرم درد می‌کند."
+      }
+    },
+    {
+      "id": "w03",
+      "t": "stomach",
+      "pl": "stomachs",
+      "s": "معده، شکم",
+      "pr": "سْتامِک",
+      "emoji": "",
+      "ex": {
+        "t": "I ate very fast, and now my stomach hurts.",
+        "s": "خیلی تند غذا خوردم و حالا معده‌ام درد می‌کند."
+      }
+    },
+    {
+      "id": "w04",
+      "t": "tooth",
+      "pl": "teeth",
+      "s": "دندان",
+      "pr": "توث",
+      "emoji": "🦷",
+      "ex": {
+        "t": "Brush your teeth twice a day.",
+        "s": "روزی دو بار دندان‌هایت را مسواک بزن."
+      }
+    },
+    {
+      "id": "w05",
+      "t": "arm",
+      "pl": "arms",
+      "s": "بازو، دست",
+      "pr": "آرم",
+      "emoji": "💪",
+      "ex": {
+        "t": "Tom broke his arm last year.",
+        "s": "پارسال دست تام شکست."
+      }
+    },
+    {
+      "id": "w06",
+      "t": "leg",
+      "pl": "legs",
+      "s": "پا",
+      "pr": "لِگ",
+      "emoji": "🦵",
+      "ex": {
+        "t": "My leg hurts. I can't play soccer today.",
+        "s": "پایم درد می‌کند. امروز نمی‌توانم فوتبال بازی کنم."
+      }
+    },
+    {
+      "id": "w07",
+      "t": "headache",
+      "pl": "headaches",
+      "s": "سردرد",
+      "pr": "هِدِیک",
+      "emoji": "🤕",
+      "ex": {
+        "t": "Loud music gives me a headache.",
+        "s": "با موسیقی بلند سردرد می‌گیرم."
+      }
+    },
+    {
+      "id": "w08",
+      "t": "fever",
+      "s": "تب",
+      "pr": "فیوِر",
+      "emoji": "🤒",
+      "ex": {
+        "t": "My daughter has a fever.",
+        "s": "دخترم تب دارد."
+      }
+    },
+    {
+      "id": "w09",
+      "t": "a cold",
+      "s": "سرماخوردگی",
+      "pr": "اِ کُولد",
+      "emoji": "🤧",
+      "ex": {
+        "t": "Neda has a cold.",
+        "s": "ندا سرما خورده است."
+      }
+    },
+    {
+      "id": "w10",
+      "t": "cough",
+      "s": "سرفه؛ سرفه کردن",
+      "pr": "کاف",
+      "emoji": "😷",
+      "ex": {
+        "t": "My father has a bad cough.",
+        "s": "پدرم سرفهٔ بدی دارد."
+      }
+    },
+    {
+      "id": "w11",
+      "t": "sick",
+      "s": "مریض، بیمار",
+      "pr": "سیک",
+      "emoji": "",
+      "ex": {
+        "t": "Ali was sick yesterday, so he stayed at home.",
+        "s": "علی دیروز مریض بود، برای همین در خانه ماند."
+      }
+    },
+    {
+      "id": "w12",
+      "t": "medicine",
+      "s": "دارو",
+      "pr": "مِدِسِن",
+      "emoji": "💊",
+      "ex": {
+        "t": "Take this medicine three times a day.",
+        "s": "این دارو را روزی سه بار بخور."
+      }
+    },
+    {
+      "id": "w13",
+      "t": "doctor",
+      "pl": "doctors",
+      "s": "پزشک، دکتر",
+      "pr": "داکتِر",
+      "emoji": "🩺",
+      "ex": {
+        "t": "I have an appointment with the doctor at five o'clock.",
+        "s": "ساعت پنج پیش دکتر وقت دارم."
+      }
+    },
+    {
+      "id": "w14",
+      "t": "rest",
+      "s": "استراحت کردن",
+      "pr": "رِست",
+      "emoji": "🛌",
+      "ex": {
+        "t": "After lunch, my grandmother rests for an hour.",
+        "s": "مادربزرگم بعد از ناهار یک ساعت استراحت می‌کند."
+      }
+    },
+    {
+      "id": "w15",
+      "t": "exercise",
+      "s": "ورزش کردن",
+      "pr": "اِکسِرسایز",
+      "emoji": "🏋️",
+      "ex": {
+        "t": "I exercise three times a week.",
+        "s": "هفته‌ای سه بار ورزش می‌کنم."
+      }
+    }
+  ],
+  "phrases": [
+    {
+      "id": "p01",
+      "t": "What's the matter?",
+      "s": "چه شده؟ / مشکل چیست؟",
+      "pr": "واتس ذِ مَتِر؟"
+    },
+    {
+      "id": "p02",
+      "t": "I don't feel well.",
+      "s": "حالم خوب نیست.",
+      "pr": "آی دُونت فیل وِل."
+    },
+    {
+      "id": "p03",
+      "t": "My … hurts.",
+      "s": "… درد می‌کند. (مثلاً My back hurts. = کمرم درد می‌کند.)",
+      "pr": "مای … هِرتس."
+    },
+    {
+      "id": "p04",
+      "t": "I have a headache.",
+      "s": "سرم درد می‌کند. / سردرد دارم.",
+      "pr": "آی هَو اِ هِدِیک."
+    },
+    {
+      "id": "p05",
+      "t": "You should see a doctor.",
+      "s": "بهتر است پیش دکتر بروی.",
+      "pr": "یو شود سی اِ داکتِر."
+    },
+    {
+      "id": "p06",
+      "t": "I'd like to make an appointment.",
+      "s": "می‌خواهم وقت بگیرم.",
+      "pr": "آید لایک تو مِیک اَن اِپوینتمِنت."
+    },
+    {
+      "id": "p07",
+      "t": "I hope you feel better soon.",
+      "s": "امیدوارم زود حالت بهتر شود.",
+      "pr": "آی هُوپ یو فیل بِتِر سون."
+    },
+    {
+      "id": "p08",
+      "t": "Get well soon!",
+      "s": "زود خوب شوی! / بلا به دور!",
+      "pr": "گِت وِل سون!"
+    }
+  ],
+  "dialogue": {
+    "title": {
+      "t": "At the doctor's",
+      "s": "در مطب دکتر"
+    },
+    "speakers": {
+      "A": {
+        "name": "Dr. Neda",
+        "voice": "f"
+      },
+      "B": {
+        "name": "Amir",
+        "voice": "m"
+      }
+    },
+    "lines": [
+      {
+        "sp": "A",
+        "t": "Good morning, Amir. Please sit down. What's the matter?",
+        "s": "صبح بخیر، امیر. لطفاً بنشینید. چه مشکلی دارید؟"
+      },
+      {
+        "sp": "B",
+        "t": "I don't feel well, doctor. I have a headache and a bad cough.",
+        "s": "حالم خوب نیست، خانم دکتر. سرم درد می‌کند و سرفهٔ بدی دارم."
+      },
+      {
+        "sp": "A",
+        "t": "When did it start?",
+        "s": "از کی شروع شد؟"
+      },
+      {
+        "sp": "B",
+        "t": "Three days ago. I also had a fever last night.",
+        "s": "سه روز پیش. دیشب هم تب داشتم."
+      },
+      {
+        "sp": "A",
+        "t": "OK. Open your mouth, please. Hmm, you have a bad cold.",
+        "s": "بسیار خب. لطفاً دهانتان را باز کنید. اوم، سرماخوردگی بدی دارید."
+      },
+      {
+        "sp": "B",
+        "t": "Do I have to take any medicine?",
+        "s": "باید دارویی بخورم؟"
+      },
+      {
+        "sp": "A",
+        "t": "Yes. You have to take this medicine three times a day, after meals.",
+        "s": "بله. باید این دارو را روزی سه بار، بعد از غذا بخورید."
+      },
+      {
+        "sp": "B",
+        "t": "Do I have to stay at home?",
+        "s": "باید در خانه بمانم؟"
+      },
+      {
+        "sp": "A",
+        "t": "Yes, you should rest for two or three days. And you should drink a lot of water and hot tea.",
+        "s": "بله، بهتر است دو سه روز استراحت کنید. و بهتر است زیاد آب و چای داغ بنوشید."
+      },
+      {
+        "sp": "B",
+        "t": "Can I go to the gym?",
+        "s": "می‌توانم باشگاه بروم؟"
+      },
+      {
+        "sp": "A",
+        "t": "No, you shouldn't exercise this week. I hope you feel better soon!",
+        "s": "نه، این هفته بهتر است ورزش نکنید. امیدوارم زود حالتان بهتر شود!"
+      },
+      {
+        "sp": "B",
+        "t": "Thank you, doctor. Goodbye.",
+        "s": "ممنون، خانم دکتر. خداحافظ."
+      }
+    ]
+  },
+  "grammar": [
+    {
+      "id": "g01",
+      "title": {
+        "t": "should / shouldn't",
+        "s": "توصیه کردن با should"
+      },
+      "explain": "برای **توصیه** و **نصیحت** از **should** (بهتر است، باید) و برای منفی از **shouldn't** (بهتر نیست، نباید) استفاده می‌کنیم.\nبعد از should همیشه **شکل سادهٔ فعل** می‌آید: **You should rest.** (بهتر است استراحت کنی.) پس **should to rest** و **should rests** غلط‌اند.\nshould برای همهٔ اشخاص یک شکل دارد: **I should**، **he should**، **they should**.\nسؤال: should را اول جمله می‌آوریم: **Should I see a doctor?** (باید بروم دکتر؟)\nshould مثل «بهتر است» در فارسی است؛ یعنی پیشنهاد و نظر ماست، نه اجبار و قانون.",
+      "table": [
+        [
+          "You should",
+          "drink a lot of water."
+        ],
+        [
+          "You shouldn't",
+          "eat a lot of sugar."
+        ],
+        [
+          "Should I",
+          "see a doctor?"
+        ]
+      ],
+      "examples": [
+        {
+          "t": "You should see a doctor.",
+          "s": "بهتر است پیش دکتر بروی."
+        },
+        {
+          "t": "You should drink a lot of water.",
+          "s": "بهتر است زیاد آب بنوشی."
+        },
+        {
+          "t": "Children shouldn't eat a lot of candy.",
+          "s": "بچه‌ها نباید زیاد آب‌نبات بخورند."
+        },
+        {
+          "t": "He shouldn't go to work today. He has a fever.",
+          "s": "بهتر است امروز سر کار نرود. تب دارد."
+        },
+        {
+          "t": "Should I take this medicine after dinner?",
+          "s": "باید این دارو را بعد از شام بخورم؟"
+        }
+      ],
+      "exercises": [
+        {
+          "type": "choice",
+          "t": "You have a fever. You ___ stay in bed.",
+          "options": [
+            "should",
+            "shouldn't",
+            "don't"
+          ],
+          "answer": 0,
+          "s": "تب داری. بهتر است در رختخواب بمانی."
+        },
+        {
+          "type": "choice",
+          "t": "Your eyes are tired. You ___ watch TV all night.",
+          "options": [
+            "should",
+            "shouldn't",
+            "aren't"
+          ],
+          "answer": 1,
+          "s": "چشم‌هایت خسته‌اند. نباید تمام شب تلویزیون تماشا کنی."
+        },
+        {
+          "type": "choice",
+          "t": "She should ___ more vegetables.",
+          "options": [
+            "eat",
+            "eats",
+            "to eat"
+          ],
+          "answer": 0,
+          "s": "او بهتر است سبزیجات بیشتری بخورد."
+        },
+        {
+          "type": "type",
+          "t": "I have a terrible headache. ___ I take some medicine?",
+          "answer": [
+            "Should"
+          ],
+          "s": "سردرد خیلی بدی دارم. باید دارو بخورم؟"
+        },
+        {
+          "type": "type",
+          "t": "You ___ go to bed late. You need a lot of sleep.",
+          "answer": [
+            "shouldn't",
+            "should not"
+          ],
+          "s": "نباید دیر بخوابی. به خواب زیادی نیاز داری."
+        },
+        {
+          "type": "type",
+          "t": "Tom's back hurts. He ___ carry heavy bags.",
+          "answer": [
+            "shouldn't",
+            "should not"
+          ],
+          "s": "کمر تام درد می‌کند. نباید کیسه‌های سنگین بلند کند."
+        },
+        {
+          "type": "order",
+          "t": "You should rest for two days.",
+          "s": "بهتر است دو روز استراحت کنی."
+        },
+        {
+          "type": "order",
+          "t": "He shouldn't eat a lot of sugar.",
+          "s": "او نباید زیاد شکر بخورد."
+        }
+      ]
+    },
+    {
+      "id": "g02",
+      "title": {
+        "t": "have to / don't have to",
+        "s": "اجبار و «لازم نبودن»"
+      },
+      "explain": "**have to** یعنی «مجبور بودن، باید»؛ یعنی کاری لازم است یا قانون و دستور است: **I have to take this medicine.** (باید این دارو را بخورم.)\nبا **he / she / it** می‌شود **has to**: **She has to go to the hospital.**\n**don't have to / doesn't have to** یعنی «**لازم نیست**»، نه «نباید»: **You don't have to come tomorrow.** (لازم نیست فردا بیایی.)\nسؤال: **Do you have to…? / Does he have to…?**\nفرق مهم: **should** = توصیه (بهتر است)؛ **have to** = اجبار و ضرورت (چاره‌ای نیست). در صحبت سریع، have to معمولاً «هَف تو» تلفظ می‌شود.",
+      "table": [
+        [
+          "I / you / we / they",
+          "have to",
+          "don't have to"
+        ],
+        [
+          "he / she / it",
+          "has to",
+          "doesn't have to"
+        ]
+      ],
+      "examples": [
+        {
+          "t": "I have to take this medicine twice a day.",
+          "s": "باید این دارو را روزی دو بار بخورم."
+        },
+        {
+          "t": "My father has to see the doctor every month.",
+          "s": "پدرم باید هر ماه پیش دکتر برود."
+        },
+        {
+          "t": "You don't have to stay in bed.",
+          "s": "لازم نیست در رختخواب بمانی."
+        },
+        {
+          "t": "Does she have to go to the hospital?",
+          "s": "او باید به بیمارستان برود؟"
+        },
+        {
+          "t": "We don't have to get up early on Friday.",
+          "s": "ما جمعه‌ها لازم نیست زود بیدار شویم."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "choice",
+          "t": "Reza ___ to work on Saturday.",
+          "options": [
+            "have",
+            "has",
+            "having"
+          ],
+          "answer": 1,
+          "s": "رضا شنبه باید کار کند."
+        },
+        {
+          "type": "choice",
+          "t": "It's Friday. I ___ go to work today.",
+          "options": [
+            "don't have to",
+            "has to",
+            "doesn't have to"
+          ],
+          "answer": 0,
+          "s": "جمعه است. امروز لازم نیست سر کار بروم."
+        },
+        {
+          "type": "choice",
+          "t": "You ___ to see a doctor. It's only a small cold.",
+          "options": [
+            "don't have",
+            "doesn't have",
+            "have"
+          ],
+          "answer": 0,
+          "s": "لازم نیست پیش دکتر بروی. فقط یک سرماخوردگی کوچک است."
+        },
+        {
+          "type": "type",
+          "t": "___ you have to take the medicine every day?",
+          "answer": [
+            "Do"
+          ],
+          "s": "باید هر روز دارو را بخوری؟"
+        },
+        {
+          "type": "type",
+          "t": "My mother ___ to take her medicine after breakfast.",
+          "answer": [
+            "has"
+          ],
+          "s": "مادرم باید داروهایش را بعد از صبحانه بخورد."
+        },
+        {
+          "type": "type",
+          "t": "Children ___ have to pay at this museum. It's free.",
+          "answer": [
+            "don't",
+            "do not"
+          ],
+          "s": "بچه‌ها لازم نیست در این موزه پول بدهند. مجانی است."
+        },
+        {
+          "type": "order",
+          "t": "Does he have to stay in bed?",
+          "s": "او باید در رختخواب بماند؟"
+        },
+        {
+          "type": "order",
+          "t": "We have to get up early tomorrow.",
+          "s": "فردا باید زود بیدار شویم."
+        }
+      ]
+    }
+  ],
+  "reading": {
+    "title": {
+      "t": "A new start for Ali",
+      "s": "یک شروع تازه برای علی"
+    },
+    "text": [
+      {
+        "t": "Ali is forty-five years old, and he works in an office.",
+        "s": "علی چهل و پنج سال دارد و در یک اداره کار می‌کند."
+      },
+      {
+        "t": "He sits at his computer for nine hours every day.",
+        "s": "او هر روز نُه ساعت پشت کامپیوترش می‌نشیند."
+      },
+      {
+        "t": "Last month, his back hurt a lot, so he went to the doctor.",
+        "s": "ماه گذشته کمرش خیلی درد می‌کرد، برای همین پیش دکتر رفت."
+      },
+      {
+        "t": "The doctor gave him some advice.",
+        "s": "دکتر چند توصیه به او کرد."
+      },
+      {
+        "t": "He should walk for thirty minutes every day.",
+        "s": "بهتر است هر روز سی دقیقه پیاده‌روی کند."
+      },
+      {
+        "t": "He shouldn't sit for a long time without a break.",
+        "s": "بهتر است مدت طولانی بدون استراحت ننشیند."
+      },
+      {
+        "t": "He doesn't have to take any medicine, but he has to do some easy exercises every morning.",
+        "s": "لازم نیست دارو بخورد، اما باید هر روز صبح چند حرکت ورزشی ساده انجام دهد."
+      },
+      {
+        "t": "Now Ali gets up early and walks to work.",
+        "s": "حالا علی زود بیدار می‌شود و پیاده سر کار می‌رود."
+      },
+      {
+        "t": "At lunchtime, he doesn't eat fast food. He eats salad and fruit.",
+        "s": "سر ناهار فست‌فود نمی‌خورد. سالاد و میوه می‌خورد."
+      },
+      {
+        "t": "His back doesn't hurt now, and he feels great!",
+        "s": "حالا کمرش درد نمی‌کند و حالش عالی است!"
+      }
+    ],
+    "questions": [
+      {
+        "q": {
+          "t": "Why did Ali go to the doctor?",
+          "s": "چرا علی پیش دکتر رفت؟"
+        },
+        "options": [
+          "He had a fever.",
+          "His back hurt.",
+          "He had a headache."
+        ],
+        "answer": 1
+      },
+      {
+        "q": {
+          "t": "How long should Ali walk every day?",
+          "s": "علی هر روز چقدر باید پیاده‌روی کند؟"
+        },
+        "options": [
+          "thirty minutes",
+          "nine hours",
+          "two hours"
+        ],
+        "answer": 0
+      },
+      {
+        "q": {
+          "t": "Does Ali have to take medicine?",
+          "s": "آیا علی باید دارو بخورد؟"
+        },
+        "options": [
+          "Yes, he does.",
+          "No, he doesn't.",
+          "Yes, every morning."
+        ],
+        "answer": 1
+      },
+      {
+        "q": {
+          "t": "What does Ali eat at lunchtime now?",
+          "s": "علی حالا سر ناهار چه می‌خورد؟"
+        },
+        "options": [
+          "fast food",
+          "rice and chicken",
+          "salad and fruit"
+        ],
+        "answer": 2
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "t": "I don't feel well today.",
+      "s": "امروز حالم خوب نیست."
+    },
+    {
+      "t": "You should go to bed early tonight.",
+      "s": "بهتر است امشب زود بخوابی."
+    },
+    {
+      "t": "Where does it hurt?",
+      "s": "کجایت درد می‌کند؟"
+    },
+    {
+      "t": "You don't have to come to work tomorrow.",
+      "s": "لازم نیست فردا سر کار بیایی."
+    },
+    {
+      "t": "She has to take her medicine after meals.",
+      "s": "او باید داروهایش را بعد از غذا بخورد."
+    },
+    {
+      "t": "I have a terrible headache.",
+      "s": "سردرد خیلی بدی دارم."
+    },
+    {
+      "t": "Drink some hot tea with honey.",
+      "s": "کمی چای داغ با عسل بنوش."
+    },
+    {
+      "t": "Do you have to go to the hospital?",
+      "s": "باید به بیمارستان بروی؟"
+    }
+  ]
+}

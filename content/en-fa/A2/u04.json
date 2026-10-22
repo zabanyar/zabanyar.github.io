@@ -1,0 +1,687 @@
+{
+  "id": "u04",
+  "level": "A2",
+  "emoji": "💼",
+  "title": {
+    "t": "Jobs and work",
+    "s": "شغل و کار"
+  },
+  "goals": [
+    "می‌توانم دربارهٔ شغل خودم و دیگران صحبت کنم.",
+    "می‌توانم فرق کارهای همیشگی و کارهایی را که الان در جریان‌اند بگویم.",
+    "می‌توانم قرارها و برنامه‌های قطعیِ روزهای آینده‌ام را بگویم."
+  ],
+  "words": [
+    {
+      "id": "w01",
+      "t": "job",
+      "pl": "jobs",
+      "s": "شغل، کار",
+      "pr": "جاب",
+      "emoji": "💼",
+      "ex": {
+        "t": "My brother has a new job.",
+        "s": "برادرم یک کار جدید دارد."
+      }
+    },
+    {
+      "id": "w02",
+      "t": "engineer",
+      "pl": "engineers",
+      "s": "مهندس",
+      "pr": "اِنجِنیر",
+      "emoji": "",
+      "ex": {
+        "t": "Maryam is an engineer. She works on roads and bridges.",
+        "s": "مریم مهندس است. روی جاده‌ها و پل‌ها کار می‌کند."
+      }
+    },
+    {
+      "id": "w03",
+      "t": "nurse",
+      "pl": "nurses",
+      "s": "پرستار",
+      "pr": "نِرس",
+      "emoji": "",
+      "ex": {
+        "t": "My aunt is a nurse at a children's hospital.",
+        "s": "خاله‌ام در یک بیمارستان کودکان پرستار است."
+      }
+    },
+    {
+      "id": "w04",
+      "t": "driver",
+      "pl": "drivers",
+      "s": "راننده",
+      "pr": "دْرایوِر",
+      "emoji": "🚕",
+      "ex": {
+        "t": "He is a taxi driver in Tehran.",
+        "s": "او در تهران رانندهٔ تاکسی است."
+      }
+    },
+    {
+      "id": "w05",
+      "t": "farmer",
+      "pl": "farmers",
+      "s": "کشاورز",
+      "pr": "فارمِر",
+      "emoji": "🚜",
+      "ex": {
+        "t": "My grandfather was a farmer in a small village.",
+        "s": "پدربزرگم در یک روستای کوچک کشاورز بود."
+      }
+    },
+    {
+      "id": "w06",
+      "t": "dentist",
+      "pl": "dentists",
+      "s": "دندان‌پزشک",
+      "pr": "دِنتیست",
+      "emoji": "🦷",
+      "ex": {
+        "t": "Our dentist is very kind.",
+        "s": "دندان‌پزشک ما خیلی مهربان است."
+      }
+    },
+    {
+      "id": "w07",
+      "t": "police officer",
+      "pl": "police officers",
+      "s": "مأمور پلیس",
+      "pr": "پِلیس آفیسِر",
+      "emoji": "👮",
+      "ex": {
+        "t": "The police officer helped us.",
+        "s": "مأمور پلیس به ما کمک کرد."
+      }
+    },
+    {
+      "id": "w08",
+      "t": "office",
+      "pl": "offices",
+      "s": "دفتر کار، اداره",
+      "pr": "آفیس",
+      "emoji": "🏢",
+      "ex": {
+        "t": "I work in an office in the city center.",
+        "s": "در دفتری در مرکز شهر کار می‌کنم."
+      }
+    },
+    {
+      "id": "w09",
+      "t": "company",
+      "pl": "companies",
+      "s": "شرکت",
+      "pr": "کامپِنی",
+      "emoji": "",
+      "ex": {
+        "t": "Tom works for a big company.",
+        "s": "تام در یک شرکت بزرگ کار می‌کند."
+      }
+    },
+    {
+      "id": "w10",
+      "t": "boss",
+      "pl": "bosses",
+      "s": "رئیس",
+      "pr": "باس",
+      "emoji": "",
+      "ex": {
+        "t": "My boss is very friendly.",
+        "s": "رئیسم خیلی خوش‌برخورد است."
+      }
+    },
+    {
+      "id": "w11",
+      "t": "colleague",
+      "pl": "colleagues",
+      "s": "همکار",
+      "pr": "کالیگ",
+      "emoji": "",
+      "ex": {
+        "t": "I have lunch with my colleagues every day.",
+        "s": "هر روز با همکارانم ناهار می‌خورم."
+      }
+    },
+    {
+      "id": "w12",
+      "t": "meeting",
+      "pl": "meetings",
+      "s": "جلسه",
+      "pr": "میتینگ",
+      "emoji": "",
+      "ex": {
+        "t": "The meeting starts at ten o'clock.",
+        "s": "جلسه ساعت ده شروع می‌شود."
+      }
+    },
+    {
+      "id": "w13",
+      "t": "earn money",
+      "s": "پول درآوردن، درآمد داشتن",
+      "pr": "اِرن مانی",
+      "emoji": "💰",
+      "ex": {
+        "t": "He works hard and earns good money.",
+        "s": "او سخت کار می‌کند و درآمد خوبی دارد."
+      }
+    },
+    {
+      "id": "w14",
+      "t": "part-time",
+      "s": "پاره‌وقت",
+      "pr": "پارت‌تایم",
+      "emoji": "",
+      "ex": {
+        "t": "Neda has a part-time job at a bookstore.",
+        "s": "ندا در یک کتاب‌فروشی کار پاره‌وقت دارد."
+      }
+    },
+    {
+      "id": "w15",
+      "t": "work from home",
+      "s": "از خانه کار کردن، دورکاری کردن",
+      "pr": "وِرک فرام هُوم",
+      "emoji": "🏠",
+      "ex": {
+        "t": "On Mondays, I work from home.",
+        "s": "دوشنبه‌ها از خانه کار می‌کنم."
+      }
+    }
+  ],
+  "phrases": [
+    {
+      "id": "p01",
+      "t": "What do you do?",
+      "s": "شغلت چیست؟ / چه‌کاره‌ای؟",
+      "pr": "وات دو یو دو؟"
+    },
+    {
+      "id": "p02",
+      "t": "I work as a nurse.",
+      "s": "پرستارم. / به‌عنوان پرستار کار می‌کنم.",
+      "pr": "آی وِرک اَز اِ نِرس."
+    },
+    {
+      "id": "p03",
+      "t": "How's work?",
+      "s": "کار چطور است؟ / کار و بار چطور است؟",
+      "pr": "هاوز وِرک؟"
+    },
+    {
+      "id": "p04",
+      "t": "I'm busy right now.",
+      "s": "الان سرم شلوغ است.",
+      "pr": "آیم بیزی رایت ناو."
+    },
+    {
+      "id": "p05",
+      "t": "I'm working on a new project.",
+      "s": "دارم روی یک پروژهٔ جدید کار می‌کنم.",
+      "pr": "آیم وِرکینگ آن اِ نیو پْراجِکت."
+    },
+    {
+      "id": "p06",
+      "t": "Are you free on Thursday?",
+      "s": "پنجشنبه وقتت آزاد است؟",
+      "pr": "آر یو فْری آن ثِرزدِی؟"
+    },
+    {
+      "id": "p07",
+      "t": "Let's meet on Saturday.",
+      "s": "بیا شنبه همدیگر را ببینیم.",
+      "pr": "لِتس میت آن سَتِردِی."
+    },
+    {
+      "id": "p08",
+      "t": "I love my job.",
+      "s": "شغلم را خیلی دوست دارم.",
+      "pr": "آی لاو مای جاب."
+    }
+  ],
+  "dialogue": {
+    "title": {
+      "t": "A phone call",
+      "s": "یک تماس تلفنی"
+    },
+    "speakers": {
+      "A": {
+        "name": "Sara",
+        "voice": "f"
+      },
+      "B": {
+        "name": "Jack",
+        "voice": "m"
+      }
+    },
+    "lines": [
+      {
+        "sp": "A",
+        "t": "Hi, Jack! What are you doing?",
+        "s": "سلام، جک! چه کار می‌کنی؟"
+      },
+      {
+        "sp": "B",
+        "t": "Hi, Sara! I'm sitting in a café. I'm waiting for a colleague.",
+        "s": "سلام، سارا! توی یک کافه نشسته‌ام. منتظر یکی از همکارانم هستم."
+      },
+      {
+        "sp": "A",
+        "t": "Are you still working at the bank?",
+        "s": "هنوز در بانک کار می‌کنی؟"
+      },
+      {
+        "sp": "B",
+        "t": "No, I'm not. I work for a computer company now. What about you? How's work?",
+        "s": "نه. الان در یک شرکت کامپیوتری کار می‌کنم. تو چطور؟ کار چطور است؟"
+      },
+      {
+        "sp": "A",
+        "t": "Busy! I'm a nurse, and this month I'm working at night.",
+        "s": "شلوغ! من پرستارم و این ماه شب‌کارم."
+      },
+      {
+        "sp": "B",
+        "t": "Oh, that's hard. Do you like it?",
+        "s": "اوه، سخت است. دوستش داری؟"
+      },
+      {
+        "sp": "A",
+        "t": "Yes, I love my job. But I'm always tired!",
+        "s": "بله، شغلم را خیلی دوست دارم. اما همیشه خسته‌ام!"
+      },
+      {
+        "sp": "B",
+        "t": "Are you free this weekend? We're having dinner at Ali's house on Friday.",
+        "s": "این آخر هفته وقتت آزاد است؟ جمعه خانهٔ علی شام می‌خوریم."
+      },
+      {
+        "sp": "A",
+        "t": "Sorry, I'm working on Friday. But I'm not doing anything on Saturday.",
+        "s": "متأسفم، جمعه سر کارم. اما شنبه کاری ندارم."
+      },
+      {
+        "sp": "B",
+        "t": "OK, let's meet on Saturday afternoon.",
+        "s": "باشه، بیا شنبه بعدازظهر همدیگر را ببینیم."
+      },
+      {
+        "sp": "A",
+        "t": "Great! See you on Saturday.",
+        "s": "عالی! شنبه می‌بینمت."
+      }
+    ]
+  },
+  "grammar": [
+    {
+      "id": "g01",
+      "title": {
+        "t": "Present continuous vs. present simple",
+        "s": "حال استمراری یا حال ساده؟"
+      },
+      "explain": "**حال ساده** (I work) برای کارهای همیشگی، عادت‌ها و حقیقت‌هاست: **Sara works at a hospital.** (سارا در بیمارستان کار می‌کند.)\n**حال استمراری** (am / is / are + فعل با **ing-**) برای کاری است که **همین الان** یا **این روزها** در جریان است: **She is working now.** (الان دارد کار می‌کند.) در فارسی «دارم کار می‌کنم» تقریباً همین معنا را دارد.\nکلمه‌های همراه حال ساده: **every day**، **usually**، **always**، **often**، **never**.\nکلمه‌های همراه حال استمراری: **now**، **right now**، **at the moment**، **today**، **this week**.\nبعضی فعل‌ها مثل **like**، **love**، **want** و **know** معمولاً استمراری نمی‌شوند: **I want a coffee.** (نه I'm wanting a coffee.)",
+      "table": [
+        [
+          "present simple",
+          "I work every day.",
+          "She doesn't work on Fridays."
+        ],
+        [
+          "present continuous",
+          "I'm working now.",
+          "She isn't working today."
+        ]
+      ],
+      "examples": [
+        {
+          "t": "Reza is a driver. He drives a taxi every day.",
+          "s": "رضا راننده است. او هر روز رانندگی تاکسی می‌کند."
+        },
+        {
+          "t": "Right now, he is driving to the airport.",
+          "s": "الان دارد به سمت فرودگاه می‌رود."
+        },
+        {
+          "t": "I usually work in an office, but this week I'm working from home.",
+          "s": "معمولاً در دفتر کار می‌کنم، اما این هفته از خانه کار می‌کنم."
+        },
+        {
+          "t": "What are you doing? I'm writing an email.",
+          "s": "داری چه کار می‌کنی؟ دارم یک ایمیل می‌نویسم."
+        },
+        {
+          "t": "Nurses often work at night.",
+          "s": "پرستارها اغلب شب‌ها کار می‌کنند."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "choice",
+          "t": "Be quiet, please. The baby ___.",
+          "options": [
+            "sleeps",
+            "is sleeping",
+            "sleep"
+          ],
+          "answer": 1,
+          "s": "لطفاً ساکت باشید. بچه خوابیده است."
+        },
+        {
+          "type": "choice",
+          "t": "We ___ to work by bus every day.",
+          "options": [
+            "go",
+            "are going",
+            "goes"
+          ],
+          "answer": 0,
+          "s": "ما هر روز با اتوبوس سر کار می‌رویم."
+        },
+        {
+          "type": "choice",
+          "t": "Look! Jack ___ a new car.",
+          "options": [
+            "drives",
+            "is driving",
+            "drive"
+          ],
+          "answer": 1,
+          "s": "نگاه کن! جک دارد با یک ماشین نو رانندگی می‌کند."
+        },
+        {
+          "type": "type",
+          "t": "I can't talk now. I ___ dinner.",
+          "answer": [
+            "am cooking",
+            "am making"
+          ],
+          "s": "الان نمی‌توانم صحبت کنم. دارم شام درست می‌کنم."
+        },
+        {
+          "type": "type",
+          "t": "Neda ___ English at a school. She's a teacher.",
+          "answer": [
+            "teaches"
+          ],
+          "s": "ندا در یک مدرسه انگلیسی درس می‌دهد. او معلم است."
+        },
+        {
+          "type": "type",
+          "t": "What ___ you doing at the moment?",
+          "answer": [
+            "are"
+          ],
+          "s": "الان داری چه کار می‌کنی؟"
+        },
+        {
+          "type": "choice",
+          "t": "I ___ my job. It's very interesting.",
+          "options": [
+            "love",
+            "am loving",
+            "loving"
+          ],
+          "answer": 0,
+          "s": "شغلم را خیلی دوست دارم. خیلی جالب است."
+        },
+        {
+          "type": "order",
+          "t": "She is working from home today.",
+          "s": "او امروز از خانه کار می‌کند."
+        }
+      ]
+    },
+    {
+      "id": "g02",
+      "title": {
+        "t": "Present continuous for future arrangements",
+        "s": "حال استمراری برای قرارهای آینده"
+      },
+      "explain": "از حال استمراری برای **قرارها و برنامه‌های قطعیِ آینده** هم استفاده می‌کنیم؛ یعنی کارهایی که زمان و جایشان معلوم است و مثلاً در تقویممان نوشته‌ایم: **I'm meeting my boss tomorrow.** (فردا با رئیسم قرار دارم.)\nدر این حالت معمولاً یک **کلمهٔ زمانیِ آینده** در جمله هست: **tomorrow**، **tonight**، **on Monday**، **next week**، **at three o'clock**.\nبدون کلمهٔ زمانی، جمله معنای «الان» می‌دهد: **I'm working.** (الان دارم کار می‌کنم.) اما **I'm working on Friday.** یعنی «جمعه سر کارم».\nبرای پرسیدن برنامهٔ کسی می‌گوییم: **What are you doing this weekend?** (این آخر هفته چه کار می‌کنی؟)\nفارسی هم همین‌طور است: می‌گوییم «فردا می‌روم» و از زمان حال برای آینده استفاده می‌کنیم. **be going to** (درس ۲) بیشتر برای قصد و تصمیم است و حال استمراری برای قرارِ قطعی.",
+      "table": [
+        [
+          "Monday",
+          "I'm meeting my boss at ten."
+        ],
+        [
+          "Tuesday",
+          "We're having a meeting at two."
+        ],
+        [
+          "Friday",
+          "I'm not working."
+        ]
+      ],
+      "examples": [
+        {
+          "t": "I'm having lunch with my colleagues tomorrow.",
+          "s": "فردا با همکارانم ناهار می‌خورم."
+        },
+        {
+          "t": "We're flying to Mashhad on Thursday.",
+          "s": "پنجشنبه با هواپیما به مشهد می‌رویم."
+        },
+        {
+          "t": "What are you doing this weekend?",
+          "s": "این آخر هفته چه کار می‌کنی؟"
+        },
+        {
+          "t": "Tom isn't working next Monday.",
+          "s": "تام دوشنبهٔ آینده سر کار نمی‌رود."
+        },
+        {
+          "t": "She's starting her new job next week.",
+          "s": "او هفتهٔ بعد کار جدیدش را شروع می‌کند."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "choice",
+          "t": "I ___ the dentist tomorrow at four o'clock.",
+          "options": [
+            "see",
+            "am seeing",
+            "saw"
+          ],
+          "answer": 1,
+          "s": "فردا ساعت چهار پیش دندان‌پزشک می‌روم."
+        },
+        {
+          "type": "choice",
+          "t": "What ___ you doing on Friday evening?",
+          "options": [
+            "are",
+            "do",
+            "is"
+          ],
+          "answer": 0,
+          "s": "جمعه عصر چه کار می‌کنی؟"
+        },
+        {
+          "type": "type",
+          "t": "We ___ having a meeting next Tuesday.",
+          "answer": [
+            "are"
+          ],
+          "s": "سه‌شنبهٔ آینده جلسه داریم."
+        },
+        {
+          "type": "type",
+          "t": "Ali ___ working tomorrow. It's a holiday.",
+          "answer": [
+            "isn't",
+            "is not"
+          ],
+          "s": "علی فردا سر کار نمی‌رود. تعطیل است."
+        },
+        {
+          "type": "choice",
+          "t": "My sister ___ married next month!",
+          "options": [
+            "is getting",
+            "get",
+            "getting"
+          ],
+          "answer": 0,
+          "s": "خواهرم ماه بعد ازدواج می‌کند!"
+        },
+        {
+          "type": "type",
+          "t": "They ___ to Isfahan by train on Saturday.",
+          "answer": [
+            "are going",
+            "are traveling"
+          ],
+          "s": "آن‌ها شنبه با قطار به اصفهان می‌روند."
+        },
+        {
+          "type": "order",
+          "t": "I'm meeting my boss at ten.",
+          "s": "ساعت ده با رئیسم قرار دارم."
+        },
+        {
+          "type": "order",
+          "t": "Are you working this weekend?",
+          "s": "این آخر هفته سر کار می‌روی؟"
+        }
+      ]
+    }
+  ],
+  "reading": {
+    "title": {
+      "t": "Neda's new job",
+      "s": "کار جدید ندا"
+    },
+    "text": [
+      {
+        "t": "Neda is a dentist from Shiraz.",
+        "s": "ندا دندان‌پزشکی اهل شیراز است."
+      },
+      {
+        "t": "For five years, she worked at a small clinic near her home.",
+        "s": "او پنج سال در یک درمانگاه کوچک نزدیک خانه‌اش کار کرد."
+      },
+      {
+        "t": "She liked her colleagues, but she didn't earn a lot of money.",
+        "s": "همکارانش را دوست داشت، اما درآمد زیادی نداشت."
+      },
+      {
+        "t": "Now she has a new job at a big hospital in Tehran.",
+        "s": "حالا در یک بیمارستان بزرگ در تهران کار جدیدی دارد."
+      },
+      {
+        "t": "This week, she is packing her things and saying goodbye to her friends.",
+        "s": "این هفته دارد وسایلش را جمع می‌کند و با دوستانش خداحافظی می‌کند."
+      },
+      {
+        "t": "She is moving to Tehran on Thursday.",
+        "s": "او پنجشنبه به تهران اسباب‌کشی می‌کند."
+      },
+      {
+        "t": "Her brother Amir lives there, and he is meeting her at the airport.",
+        "s": "برادرش امیر آن‌جا زندگی می‌کند و در فرودگاه به استقبالش می‌آید."
+      },
+      {
+        "t": "She is starting work on Saturday morning.",
+        "s": "او شنبه صبح کارش را شروع می‌کند."
+      },
+      {
+        "t": "In her new job, she works from Saturday to Wednesday.",
+        "s": "در کار جدیدش از شنبه تا چهارشنبه کار می‌کند."
+      },
+      {
+        "t": "She doesn't have to work on Thursdays and Fridays.",
+        "s": "پنجشنبه‌ها و جمعه‌ها لازم نیست کار کند."
+      },
+      {
+        "t": "Neda is a little nervous, but she is very happy.",
+        "s": "ندا کمی نگران است، اما خیلی خوشحال است."
+      }
+    ],
+    "questions": [
+      {
+        "q": {
+          "t": "What is Neda's job?",
+          "s": "شغل ندا چیست؟"
+        },
+        "options": [
+          "She's a nurse.",
+          "She's a dentist.",
+          "She's an engineer."
+        ],
+        "answer": 1
+      },
+      {
+        "q": {
+          "t": "When is Neda moving to Tehran?",
+          "s": "ندا کی به تهران اسباب‌کشی می‌کند؟"
+        },
+        "options": [
+          "on Thursday",
+          "on Saturday",
+          "next month"
+        ],
+        "answer": 0
+      },
+      {
+        "q": {
+          "t": "Who is meeting her at the airport?",
+          "s": "چه کسی در فرودگاه به استقبالش می‌آید؟"
+        },
+        "options": [
+          "her boss",
+          "her colleague",
+          "her brother"
+        ],
+        "answer": 2
+      },
+      {
+        "q": {
+          "t": "Which days does Neda work in her new job?",
+          "s": "ندا در کار جدیدش چه روزهایی کار می‌کند؟"
+        },
+        "options": [
+          "from Saturday to Wednesday",
+          "every day",
+          "on Thursdays and Fridays"
+        ],
+        "answer": 0
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "t": "My sister works as an engineer.",
+      "s": "خواهرم مهندس است."
+    },
+    {
+      "t": "What are you doing right now?",
+      "s": "الان داری چه کار می‌کنی؟"
+    },
+    {
+      "t": "I usually take the bus to work.",
+      "s": "معمولاً با اتوبوس سر کار می‌روم."
+    },
+    {
+      "t": "Today I'm working from home.",
+      "s": "امروز از خانه کار می‌کنم."
+    },
+    {
+      "t": "We're having a meeting at three o'clock.",
+      "s": "ساعت سه جلسه داریم."
+    },
+    {
+      "t": "Lisa is starting a part-time job next week.",
+      "s": "لیزا هفتهٔ بعد یک کار پاره‌وقت را شروع می‌کند."
+    },
+    {
+      "t": "Taxi drivers often work very long hours.",
+      "s": "راننده‌های تاکسی اغلب ساعت‌های خیلی طولانی کار می‌کنند."
+    },
+    {
+      "t": "I'm not working on Friday.",
+      "s": "جمعه سر کار نمی‌روم."
+    }
+  ]
+}
