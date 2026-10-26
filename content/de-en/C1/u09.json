@@ -2,7 +2,10 @@
   "id": "u09",
   "level": "C1",
   "emoji": "🌍",
-  "title": { "t": "Die vernetzte Weltwirtschaft", "s": "The interconnected global economy" },
+  "title": {
+    "t": "Die vernetzte Weltwirtschaft",
+    "s": "The interconnected global economy"
+  },
   "goals": [
     "Discuss globalization, trade and supply chains with precise economic vocabulary",
     "Use formal genitive prepositions such as angesichts, hinsichtlich, infolge, zwecks, mittels",
@@ -10,166 +13,710 @@
     "Understand an expert interview and a business report on the future of globalization"
   ],
   "words": [
-    { "id": "w01", "t": "die Lieferkette", "pl": "die Lieferketten", "s": "supply chain", "emoji": "",
-      "ex": { "t": "Die Pandemie hat gezeigt, wie anfällig globale Lieferketten sind.", "s": "The pandemic showed how vulnerable global supply chains are." } },
-    { "id": "w02", "t": "der Standort", "pl": "die Standorte", "s": "(business) location", "emoji": "",
-      "ex": { "t": "Deutschland muss als Wirtschaftsstandort attraktiv bleiben.", "s": "Germany must remain attractive as a business location." } },
-    { "id": "w03", "t": "die Abhängigkeit (von + D)", "pl": "die Abhängigkeiten", "s": "dependence (on)", "emoji": "",
-      "ex": { "t": "Europa will seine Abhängigkeit von einzelnen Rohstofflieferanten verringern.", "s": "Europe wants to reduce its dependence on individual suppliers of raw materials." } },
-    { "id": "w04", "t": "der Zoll", "pl": "die Zölle", "s": "tariff, customs duty", "emoji": "",
-      "ex": { "t": "Höhere Zölle verteuern importierte Waren.", "s": "Higher tariffs make imported goods more expensive." } },
-    { "id": "w05", "t": "die Wettbewerbsfähigkeit", "s": "competitiveness", "emoji": "",
-      "ex": { "t": "Hohe Energiepreise beeinträchtigen die Wettbewerbsfähigkeit der Industrie.", "s": "High energy prices impair the competitiveness of industry." } },
-    { "id": "w06", "t": "die Verlagerung", "pl": "die Verlagerungen", "s": "relocation, shift (e.g. of production)", "emoji": "",
-      "ex": { "t": "Die Verlagerung der Produktion ins Ausland hat viele Arbeitsplätze gekostet.", "s": "Relocating production abroad has cost many jobs." } },
-    { "id": "w07", "t": "der Rohstoff", "pl": "die Rohstoffe", "s": "raw material, commodity", "emoji": "",
-      "ex": { "t": "Seltene Erden zählen zu den begehrtesten Rohstoffen der Welt.", "s": "Rare earths are among the most sought-after raw materials in the world." } },
-    { "id": "w08", "t": "das Wirtschaftswachstum", "s": "economic growth", "emoji": "📈",
-      "ex": { "t": "Das Wirtschaftswachstum fiel schwächer aus als prognostiziert.", "s": "Economic growth turned out weaker than forecast." } },
-    { "id": "w09", "t": "die Ungleichheit", "pl": "die Ungleichheiten", "s": "inequality", "emoji": "",
-      "ex": { "t": "In vielen Ländern hat die Ungleichheit trotz steigenden Wohlstands zugenommen.", "s": "In many countries inequality has increased despite rising prosperity." } },
-    { "id": "w10", "t": "der Verbraucher / die Verbraucherin", "pl": "die Verbraucher / die Verbraucherinnen", "s": "consumer", "emoji": "",
-      "ex": { "t": "Am Ende tragen die Verbraucher die höheren Kosten.", "s": "In the end, it is consumers who bear the higher costs." } },
-    { "id": "w11", "t": "der Handel", "s": "trade, commerce", "emoji": "",
-      "ex": { "t": "Der freie Handel hat Millionen Menschen aus der Armut geholfen.", "s": "Free trade has helped millions of people out of poverty." } },
-    { "id": "w12", "t": "etw. ankurbeln", "s": "to boost sth., to stimulate sth.", "emoji": "",
-      "ex": { "t": "Die Regierung will die Konjunktur mit gezielten Investitionen ankurbeln.", "s": "The government wants to boost the economy with targeted investment." } },
-    { "id": "w13", "t": "von etw. (D) profitieren", "s": "to benefit from sth.", "emoji": "",
-      "ex": { "t": "Nicht alle Regionen profitieren gleichermaßen vom Freihandel.", "s": "Not all regions benefit equally from free trade." } },
-    { "id": "w14", "t": "sich auf etw. (Akk.) auswirken", "s": "to have an effect on sth.", "emoji": "",
-      "ex": { "t": "Der Konflikt wirkt sich unmittelbar auf die Energiepreise aus.", "s": "The conflict has a direct effect on energy prices." } },
-    { "id": "w15", "t": "krisenfest", "s": "crisis-proof, resilient", "emoji": "",
-      "ex": { "t": "Viele Unternehmen wollen ihre Lieferketten krisenfester gestalten.", "s": "Many companies want to make their supply chains more resilient." } },
-    { "id": "w16", "t": "nachhaltig", "s": "sustainable; lasting", "emoji": "",
-      "ex": { "t": "Nachhaltiges Wirtschaften erfordert ein grundlegendes Umdenken.", "s": "Sustainable business requires a fundamental rethink." } }
+    {
+      "id": "w01",
+      "t": "die Lieferkette",
+      "pl": "die Lieferketten",
+      "s": "supply chain",
+      "emoji": "",
+      "ex": {
+        "t": "Die Pandemie hat gezeigt, wie anfällig globale Lieferketten sind.",
+        "s": "The pandemic showed how vulnerable global supply chains are."
+      }
+    },
+    {
+      "id": "w02",
+      "t": "der Standort",
+      "pl": "die Standorte",
+      "s": "(business) location",
+      "emoji": "",
+      "ex": {
+        "t": "Deutschland muss als Wirtschaftsstandort attraktiv bleiben.",
+        "s": "Germany must remain attractive as a business location."
+      }
+    },
+    {
+      "id": "w03",
+      "t": "die Abhängigkeit (von + D)",
+      "pl": "die Abhängigkeiten",
+      "s": "dependence (on)",
+      "emoji": "",
+      "ex": {
+        "t": "Europa will seine Abhängigkeit von einzelnen Rohstofflieferanten verringern.",
+        "s": "Europe wants to reduce its dependence on individual suppliers of raw materials."
+      }
+    },
+    {
+      "id": "w04",
+      "t": "der Zoll",
+      "pl": "die Zölle",
+      "s": "tariff, customs duty",
+      "emoji": "",
+      "ex": {
+        "t": "Höhere Zölle verteuern importierte Waren.",
+        "s": "Higher tariffs make imported goods more expensive."
+      }
+    },
+    {
+      "id": "w05",
+      "t": "die Wettbewerbsfähigkeit",
+      "s": "competitiveness",
+      "emoji": "",
+      "ex": {
+        "t": "Hohe Energiepreise beeinträchtigen die Wettbewerbsfähigkeit der Industrie.",
+        "s": "High energy prices impair the competitiveness of industry."
+      }
+    },
+    {
+      "id": "w06",
+      "t": "die Verlagerung",
+      "pl": "die Verlagerungen",
+      "s": "relocation, shift (e.g. of production)",
+      "emoji": "",
+      "ex": {
+        "t": "Die Verlagerung der Produktion ins Ausland hat viele Arbeitsplätze gekostet.",
+        "s": "Relocating production abroad has cost many jobs."
+      }
+    },
+    {
+      "id": "w07",
+      "t": "der Rohstoff",
+      "pl": "die Rohstoffe",
+      "s": "raw material, commodity",
+      "emoji": "",
+      "ex": {
+        "t": "Seltene Erden zählen zu den begehrtesten Rohstoffen der Welt.",
+        "s": "Rare earths are among the most sought-after raw materials in the world."
+      }
+    },
+    {
+      "id": "w08",
+      "t": "das Wirtschaftswachstum",
+      "s": "economic growth",
+      "emoji": "📈",
+      "ex": {
+        "t": "Das Wirtschaftswachstum fiel schwächer aus als prognostiziert.",
+        "s": "Economic growth turned out weaker than forecast."
+      }
+    },
+    {
+      "id": "w09",
+      "t": "die Ungleichheit",
+      "pl": "die Ungleichheiten",
+      "s": "inequality",
+      "emoji": "",
+      "ex": {
+        "t": "In vielen Ländern hat die Ungleichheit trotz steigenden Wohlstands zugenommen.",
+        "s": "In many countries inequality has increased despite rising prosperity."
+      }
+    },
+    {
+      "id": "w10",
+      "t": "der Verbraucher / die Verbraucherin",
+      "pl": "die Verbraucher / die Verbraucherinnen",
+      "s": "consumer",
+      "emoji": "",
+      "ex": {
+        "t": "Am Ende tragen die Verbraucher die höheren Kosten.",
+        "s": "In the end, it is consumers who bear the higher costs."
+      }
+    },
+    {
+      "id": "w11",
+      "t": "der Handel",
+      "s": "trade, commerce",
+      "emoji": "",
+      "ex": {
+        "t": "Der freie Handel hat Millionen Menschen aus der Armut geholfen.",
+        "s": "Free trade has helped millions of people out of poverty."
+      }
+    },
+    {
+      "id": "w12",
+      "t": "etw. ankurbeln",
+      "s": "to boost sth., to stimulate sth.",
+      "emoji": "",
+      "ex": {
+        "t": "Die Regierung will die Konjunktur mit gezielten Investitionen ankurbeln.",
+        "s": "The government wants to boost the economy with targeted investment."
+      }
+    },
+    {
+      "id": "w13",
+      "t": "von etw. (D) profitieren",
+      "s": "to benefit from sth.",
+      "emoji": "",
+      "ex": {
+        "t": "Nicht alle Regionen profitieren gleichermaßen vom Freihandel.",
+        "s": "Not all regions benefit equally from free trade."
+      }
+    },
+    {
+      "id": "w14",
+      "t": "sich auf etw. (Akk.) auswirken",
+      "s": "to have an effect on sth.",
+      "emoji": "",
+      "ex": {
+        "t": "Der Konflikt wirkt sich unmittelbar auf die Energiepreise aus.",
+        "s": "The conflict has a direct effect on energy prices."
+      }
+    },
+    {
+      "id": "w15",
+      "t": "krisenfest",
+      "s": "crisis-proof, resilient",
+      "emoji": "",
+      "ex": {
+        "t": "Viele Unternehmen wollen ihre Lieferketten krisenfester gestalten.",
+        "s": "Many companies want to make their supply chains more resilient."
+      }
+    },
+    {
+      "id": "w16",
+      "t": "nachhaltig",
+      "s": "sustainable; lasting",
+      "emoji": "",
+      "ex": {
+        "t": "Nachhaltiges Wirtschaften erfordert ein grundlegendes Umdenken.",
+        "s": "Sustainable business requires a fundamental rethink."
+      }
+    }
   ],
   "phrases": [
-    { "id": "p01", "t": "Die Zahlen sprechen für sich.", "s": "The figures speak for themselves." },
-    { "id": "p02", "t": "Es ist ein offenes Geheimnis, dass …", "s": "It's an open secret that …" },
-    { "id": "p03", "t": "Unterm Strich …", "s": "At the end of the day … / On balance …" },
-    { "id": "p04", "t": "Daraus lässt sich ableiten, dass …", "s": "From this we can conclude that …" },
-    { "id": "p05", "t": "Das hat weitreichende Folgen für …", "s": "That has far-reaching consequences for …" },
-    { "id": "p06", "t": "Die Globalisierung hat auch ihre Schattenseiten.", "s": "Globalization also has its downsides." },
-    { "id": "p07", "t": "Wir sitzen alle im selben Boot.", "s": "We're all in the same boat." },
-    { "id": "p08", "t": "Was … betrifft, …", "s": "As far as … is concerned, …" }
+    {
+      "id": "p01",
+      "t": "Die Zahlen sprechen für sich.",
+      "s": "The figures speak for themselves."
+    },
+    {
+      "id": "p02",
+      "t": "Es ist ein offenes Geheimnis, dass …",
+      "s": "It's an open secret that …"
+    },
+    {
+      "id": "p03",
+      "t": "Unterm Strich …",
+      "s": "At the end of the day … / On balance …"
+    },
+    {
+      "id": "p04",
+      "t": "Daraus lässt sich ableiten, dass …",
+      "s": "From this we can conclude that …"
+    },
+    {
+      "id": "p05",
+      "t": "Das hat weitreichende Folgen für …",
+      "s": "That has far-reaching consequences for …"
+    },
+    {
+      "id": "p06",
+      "t": "Die Globalisierung hat auch ihre Schattenseiten.",
+      "s": "Globalization also has its downsides."
+    },
+    {
+      "id": "p07",
+      "t": "Wir sitzen alle im selben Boot.",
+      "s": "We're all in the same boat."
+    },
+    {
+      "id": "p08",
+      "t": "Was … betrifft, …",
+      "s": "As far as … is concerned, …"
+    }
   ],
   "dialogue": {
-    "title": { "t": "Wirtschaftsmagazin: Ist die Globalisierung am Ende?", "s": "Business magazine: Is globalization over?" },
-    "speakers": { "A": { "name": "Lena Hoffmann", "voice": "f" }, "B": { "name": "Jonas Berger", "voice": "m" } },
+    "title": {
+      "t": "Wirtschaftsmagazin: Ist die Globalisierung am Ende?",
+      "s": "Business magazine: Is globalization over?"
+    },
+    "speakers": {
+      "A": {
+        "name": "Lena Hoffmann",
+        "voice": "f"
+      },
+      "B": {
+        "name": "Jonas Berger",
+        "voice": "m"
+      }
+    },
     "lines": [
-      { "sp": "A", "t": "Herr Berger, angesichts zunehmender Handelskonflikte sprechen manche bereits vom Ende der Globalisierung. Zu Recht?", "s": "Mr. Berger, in view of increasing trade conflicts, some are already talking about the end of globalization. Rightly so?" },
-      { "sp": "B", "t": "Das halte ich für übertrieben. Wir erleben keinen Rückzug, sondern eher eine Neuordnung der Globalisierung.", "s": "I think that's an exaggeration. We are not seeing a retreat, but rather a reorganization of globalization." },
-      { "sp": "A", "t": "Was meinen Sie damit konkret?", "s": "What exactly do you mean by that?" },
-      { "sp": "B", "t": "Infolge der Pandemie haben viele Unternehmen erkannt, wie verwundbar ihre Lieferketten sind. Seitdem setzen sie verstärkt auf mehrere Zulieferer statt auf einen einzigen.", "s": "As a result of the pandemic, many companies realized how vulnerable their supply chains are. Since then they have increasingly relied on several suppliers instead of a single one." },
-      { "sp": "A", "t": "Hinsichtlich der Kosten ist das doch ein Nachteil, oder?", "s": "But in terms of costs, that's a disadvantage, isn't it?" },
-      { "sp": "B", "t": "Kurzfristig ja. Unterm Strich zahlt sich die größere Sicherheit aber meist aus – das hat die Chipkrise eindrucksvoll gezeigt.", "s": "In the short term, yes. But on balance the greater security usually pays off – the chip crisis demonstrated that impressively." },
-      { "sp": "A", "t": "Und welche Rolle spielt die Politik dabei?", "s": "And what role do politicians play in this?" },
-      { "sp": "B", "t": "Sie versucht, mittels gezielter Subventionen Schlüsselindustrien nach Europa zurückzuholen. Ob das gelingt, bleibt abzuwarten.", "s": "They are trying to bring key industries back to Europe by means of targeted subsidies. Whether that will succeed remains to be seen." },
-      { "sp": "A", "t": "Kritiker befürchten, dass dadurch ein teurer Subventionswettlauf entsteht.", "s": "Critics fear that this will trigger an expensive subsidy race." },
-      { "sp": "B", "t": "Diese Gefahr besteht durchaus. Für einen fairen Wettbewerb wären deshalb klare internationale Regeln nötig.", "s": "That danger certainly exists. Clear international rules would therefore be needed for fair competition." },
-      { "sp": "A", "t": "Herr Berger, vielen Dank für Ihre Einschätzung.", "s": "Mr. Berger, thank you very much for your assessment." }
+      {
+        "sp": "A",
+        "t": "Herr Berger, angesichts zunehmender Handelskonflikte sprechen manche bereits vom Ende der Globalisierung. Zu Recht?",
+        "s": "Mr. Berger, in view of increasing trade conflicts, some are already talking about the end of globalization. Rightly so?"
+      },
+      {
+        "sp": "B",
+        "t": "Das halte ich für übertrieben. Wir erleben keinen Rückzug, sondern eher eine Neuordnung der Globalisierung.",
+        "s": "I think that's an exaggeration. We are not seeing a retreat, but rather a reorganization of globalization."
+      },
+      {
+        "sp": "A",
+        "t": "Was meinen Sie damit konkret?",
+        "s": "What exactly do you mean by that?"
+      },
+      {
+        "sp": "B",
+        "t": "Infolge der Pandemie haben viele Unternehmen erkannt, wie verwundbar ihre Lieferketten sind. Seitdem setzen sie verstärkt auf mehrere Zulieferer statt auf einen einzigen.",
+        "s": "As a result of the pandemic, many companies realized how vulnerable their supply chains are. Since then they have increasingly relied on several suppliers instead of a single one."
+      },
+      {
+        "sp": "A",
+        "t": "Hinsichtlich der Kosten ist das doch ein Nachteil, oder?",
+        "s": "But in terms of costs, that's a disadvantage, isn't it?"
+      },
+      {
+        "sp": "B",
+        "t": "Kurzfristig ja. Unterm Strich zahlt sich die größere Sicherheit aber meist aus – das hat die Chipkrise eindrucksvoll gezeigt.",
+        "s": "In the short term, yes. But on balance the greater security usually pays off – the chip crisis demonstrated that impressively."
+      },
+      {
+        "sp": "A",
+        "t": "Und welche Rolle spielt die Politik dabei?",
+        "s": "And what role do politicians play in this?"
+      },
+      {
+        "sp": "B",
+        "t": "Sie versucht, mittels gezielter Subventionen Schlüsselindustrien nach Europa zurückzuholen. Ob das gelingt, bleibt abzuwarten.",
+        "s": "They are trying to bring key industries back to Europe by means of targeted subsidies. Whether that will succeed remains to be seen."
+      },
+      {
+        "sp": "A",
+        "t": "Kritiker befürchten, dass dadurch ein teurer Subventionswettlauf entsteht.",
+        "s": "Critics fear that this will trigger an expensive subsidy race."
+      },
+      {
+        "sp": "B",
+        "t": "Diese Gefahr besteht durchaus. Für einen fairen Wettbewerb wären deshalb klare internationale Regeln nötig.",
+        "s": "That danger certainly exists. Clear international rules would therefore be needed for fair competition."
+      },
+      {
+        "sp": "A",
+        "t": "Herr Berger, vielen Dank für Ihre Einschätzung.",
+        "s": "Mr. Berger, thank you very much for your assessment."
+      }
     ]
   },
   "grammar": [
     {
       "id": "g01",
-      "title": { "t": "angesichts, infolge, hinsichtlich …", "s": "Formal prepositions with the genitive" },
+      "title": {
+        "t": "angesichts, infolge, hinsichtlich …",
+        "s": "Formal prepositions with the genitive"
+      },
       "explain": "Formal written German (news, reports, academic texts) uses a set of **prepositions with the genitive** that sound precise and compact. Most of them are too stiff for everyday conversation, but they are essential for C1 reading, writing and presentations.\n**angesichts** (in view of), **aufgrund** (due to), **infolge** (as a result of), **hinsichtlich / bezüglich** (with regard to), **zwecks** (for the purpose of – bureaucratic, usually with a noun without article: *zwecks Prüfung*), **mittels / mithilfe** (by means of), **seitens** (on the part of), **anlässlich** (on the occasion of), **ungeachtet** (regardless of), **zugunsten / zulasten** (in favor of / at the expense of).\nIf the genitive is not visible – typically a plural noun without article or adjective – use **von + dative** instead: *infolge **von** Unwettern*.\nDon't confuse **infolge** (+ genitive, *as a result of*) with **zufolge** (+ dative, usually placed **after** the noun: *dem Bericht zufolge* = *according to the report*).\nIn conversation, simpler alternatives usually sound more natural: **wegen** instead of *aufgrund/infolge*, **durch** or **mit** instead of *mittels*, **was … betrifft** instead of *hinsichtlich*.",
       "table": [
-        ["angesichts", "angesichts steigender Preise"],
-        ["infolge", "infolge des Streiks"],
-        ["hinsichtlich", "hinsichtlich der Kosten"],
-        ["zwecks", "zwecks Überprüfung"],
-        ["mittels", "mittels eines Algorithmus"],
-        ["seitens", "seitens der Regierung"]
+        [
+          "angesichts",
+          "angesichts steigender Preise"
+        ],
+        [
+          "infolge",
+          "infolge des Streiks"
+        ],
+        [
+          "hinsichtlich",
+          "hinsichtlich der Kosten"
+        ],
+        [
+          "zwecks",
+          "zwecks Überprüfung"
+        ],
+        [
+          "mittels",
+          "mittels eines Algorithmus"
+        ],
+        [
+          "seitens",
+          "seitens der Regierung"
+        ]
       ],
       "examples": [
-        { "t": "Angesichts der hohen Inflation halten sich die Verbraucher zurück.", "s": "In view of high inflation, consumers are holding back." },
-        { "t": "Infolge des Streiks standen die Bänder drei Tage lang still.", "s": "As a result of the strike, the production lines stood still for three days." },
-        { "t": "Hinsichtlich der Klimaziele besteht dringender Handlungsbedarf.", "s": "With regard to the climate targets, there is an urgent need for action." },
-        { "t": "Die Daten werden mittels eines speziellen Verfahrens ausgewertet.", "s": "The data are analyzed by means of a special procedure." },
-        { "t": "Seitens der Gewerkschaften wurde scharfe Kritik laut.", "s": "Sharp criticism was voiced by the unions." }
+        {
+          "t": "Angesichts der hohen Inflation halten sich die Verbraucher zurück.",
+          "s": "In view of high inflation, consumers are holding back."
+        },
+        {
+          "t": "Infolge des Streiks standen die Bänder drei Tage lang still.",
+          "s": "As a result of the strike, the production lines stood still for three days."
+        },
+        {
+          "t": "Hinsichtlich der Klimaziele besteht dringender Handlungsbedarf.",
+          "s": "With regard to the climate targets, there is an urgent need for action."
+        },
+        {
+          "t": "Die Daten werden mittels eines speziellen Verfahrens ausgewertet.",
+          "s": "The data are analyzed by means of a special procedure."
+        },
+        {
+          "t": "Seitens der Gewerkschaften wurde scharfe Kritik laut.",
+          "s": "Sharp criticism was voiced by the unions."
+        }
       ],
       "exercises": [
-        { "type": "choice", "t": "___ der angespannten Lage verschob der Konzern seine Investitionen.", "options": ["Zwecks", "Angesichts", "Seitens"], "answer": 1, "s": "In view of the tense situation, the group postponed its investments." },
-        { "type": "choice", "t": "Infolge ___ Zölle stiegen die Preise für Importwaren.", "options": ["den höheren", "die höheren", "der höheren"], "answer": 2, "s": "As a result of the higher tariffs, prices for imported goods rose." },
-        { "type": "choice", "t": "Der Antrag wird ___ Prüfung an die zuständige Behörde weitergeleitet.", "options": ["zwecks", "infolge", "angesichts"], "answer": 0, "s": "The application is forwarded to the competent authority for examination." },
-        { "type": "choice", "t": "Die Maschinen werden ___ einer App gesteuert.", "options": ["seitens", "hinsichtlich", "mittels"], "answer": 2, "s": "The machines are controlled by means of an app." },
-        { "type": "type", "t": "Seitens ___ Unternehmens gab es keine Stellungnahme.", "answer": ["des"], "s": "There was no statement from the company." },
-        { "type": "type", "t": "Dem Bericht ___ ist die Exportquote gesunken.", "answer": ["zufolge", "nach", "gemäß", "gemaess"], "s": "According to the report, the export ratio has fallen." },
-        { "type": "order", "t": "Angesichts der Krise sparen viele Haushalte.", "s": "In view of the crisis, many households are saving." },
-        { "type": "order", "t": "Infolge des Streiks fielen viele Züge aus.", "s": "As a result of the strike, many trains were canceled." }
+        {
+          "type": "choice",
+          "t": "___ der angespannten Lage verschob der Konzern seine Investitionen.",
+          "options": [
+            "Zwecks",
+            "Angesichts",
+            "Seitens"
+          ],
+          "answer": 1,
+          "s": "In view of the tense situation, the group postponed its investments."
+        },
+        {
+          "type": "choice",
+          "t": "Infolge ___ Zölle stiegen die Preise für Importwaren.",
+          "options": [
+            "den höheren",
+            "die höheren",
+            "der höheren"
+          ],
+          "answer": 2,
+          "s": "As a result of the higher tariffs, prices for imported goods rose."
+        },
+        {
+          "type": "choice",
+          "t": "Der Antrag wird ___ Prüfung an die zuständige Behörde weitergeleitet.",
+          "options": [
+            "zwecks",
+            "infolge",
+            "angesichts"
+          ],
+          "answer": 0,
+          "s": "The application is forwarded to the competent authority for examination."
+        },
+        {
+          "type": "choice",
+          "t": "Die Maschinen werden ___ einer App gesteuert.",
+          "options": [
+            "seitens",
+            "hinsichtlich",
+            "mittels"
+          ],
+          "answer": 2,
+          "s": "The machines are controlled by means of an app."
+        },
+        {
+          "type": "type",
+          "t": "Seitens ___ Unternehmens gab es keine Stellungnahme.",
+          "answer": [
+            "des"
+          ],
+          "s": "There was no statement from the company."
+        },
+        {
+          "type": "type",
+          "t": "Dem Bericht ___ ist die Exportquote gesunken.",
+          "answer": [
+            "zufolge",
+            "nach",
+            "gemäß",
+            "gemaess"
+          ],
+          "s": "According to the report, the export ratio has fallen."
+        },
+        {
+          "type": "order",
+          "t": "Angesichts der Krise sparen viele Haushalte.",
+          "s": "In view of the crisis, many households are saving."
+        },
+        {
+          "type": "order",
+          "t": "Infolge des Streiks fielen viele Züge aus.",
+          "s": "As a result of the strike, many trains were canceled."
+        }
       ]
     },
     {
       "id": "g02",
-      "title": { "t": "Weil die Preise steigen → wegen steigender Preise", "s": "Nominal prepositional phrases ↔ subordinate clauses" },
+      "title": {
+        "t": "Weil die Preise steigen → wegen steigender Preise",
+        "s": "Nominal prepositional phrases ↔ subordinate clauses"
+      },
       "explain": "Formal written German often compresses a subordinate clause into a **prepositional phrase with a noun** (Nominalstil); spoken German prefers the clause (Verbalstil). At C1 you should be able to switch in both directions.\nTypical pairs: **weil/da → wegen, aufgrund** · **obwohl → trotz** · **wenn/falls → bei** (negative: *wenn … nicht* → **ohne**) · **nachdem → nach** · **bevor → vor** · **während → während** · **seit(dem) → seit** · **indem / dadurch, dass → durch** · **um … zu / damit → zu(r/m), für**.\nHow to transform: the verb becomes a noun (often **-ung** or a nominalized infinitive: *senken → die Senkung*); the subject becomes a **genitive** or a **durch-/von-phrase**; the object becomes a **genitive attribute**; adverbs become **adjectives**: *Die Regierung senkt die Steuern schnell.* → ***die schnelle Senkung der Steuern durch die Regierung***.\nWatch the adjective endings: after a preposition without article, the adjective takes the strong ending: **bei sinkender Nachfrage, trotz intensiver Verhandlungen, wegen steigender Preise**.",
       "table": [
-        ["Weil die Kosten steigen, …", "Wegen der steigenden Kosten …"],
-        ["Obwohl die Lage unsicher ist, …", "Trotz der unsicheren Lage …"],
-        ["Wenn die Nachfrage sinkt, …", "Bei sinkender Nachfrage …"],
-        ["Nachdem der Vertrag unterzeichnet worden war, …", "Nach der Unterzeichnung des Vertrags …"],
-        ["Indem man die Produktion verlagert, …", "Durch die Verlagerung der Produktion …"],
-        ["Damit die Versorgung gesichert wird, …", "Zur Sicherung der Versorgung …"]
+        [
+          "Weil die Kosten steigen, …",
+          "Wegen der steigenden Kosten …"
+        ],
+        [
+          "Obwohl die Lage unsicher ist, …",
+          "Trotz der unsicheren Lage …"
+        ],
+        [
+          "Wenn die Nachfrage sinkt, …",
+          "Bei sinkender Nachfrage …"
+        ],
+        [
+          "Nachdem der Vertrag unterzeichnet worden war, …",
+          "Nach der Unterzeichnung des Vertrags …"
+        ],
+        [
+          "Indem man die Produktion verlagert, …",
+          "Durch die Verlagerung der Produktion …"
+        ],
+        [
+          "Damit die Versorgung gesichert wird, …",
+          "Zur Sicherung der Versorgung …"
+        ]
       ],
       "examples": [
-        { "t": "Bei anhaltender Inflation dürften die Zinsen weiter steigen.", "s": "If inflation persists, interest rates are likely to rise further." },
-        { "t": "Trotz intensiver Verhandlungen kam keine Einigung zustande.", "s": "Despite intensive negotiations, no agreement was reached." },
-        { "t": "Nach Abschluss der Gespräche gaben beide Seiten eine Erklärung ab.", "s": "After the talks had ended, both sides issued a statement." },
-        { "t": "Durch die Senkung der Energiepreise soll die Industrie entlastet werden.", "s": "By lowering energy prices, the aim is to relieve the burden on industry." },
-        { "t": "Zur Stärkung der heimischen Produktion wurden Milliarden investiert.", "s": "Billions were invested to strengthen domestic production." }
+        {
+          "t": "Bei anhaltender Inflation dürften die Zinsen weiter steigen.",
+          "s": "If inflation persists, interest rates are likely to rise further."
+        },
+        {
+          "t": "Trotz intensiver Verhandlungen kam keine Einigung zustande.",
+          "s": "Despite intensive negotiations, no agreement was reached."
+        },
+        {
+          "t": "Nach Abschluss der Gespräche gaben beide Seiten eine Erklärung ab.",
+          "s": "After the talks had ended, both sides issued a statement."
+        },
+        {
+          "t": "Durch die Senkung der Energiepreise soll die Industrie entlastet werden.",
+          "s": "By lowering energy prices, the aim is to relieve the burden on industry."
+        },
+        {
+          "t": "Zur Stärkung der heimischen Produktion wurden Milliarden investiert.",
+          "s": "Billions were invested to strengthen domestic production."
+        }
       ],
       "exercises": [
-        { "type": "choice", "t": "Bei ___ Nachfrage geraten die Preise unter Druck.", "options": ["sinkenden", "sinkender", "sinkende"], "answer": 1, "s": "When demand falls, prices come under pressure." },
-        { "type": "choice", "t": "___ der großen Proteste wurde das Abkommen unterzeichnet.", "options": ["Trotz", "Durch", "Seit"], "answer": 0, "s": "Although the protests were large, the agreement was signed." },
-        { "type": "choice", "t": "___ eine Senkung der Steuern soll die Wirtschaft angekurbelt werden.", "options": ["Mit", "Durch", "Bei"], "answer": 1, "s": "The economy is to be boosted by lowering taxes." },
-        { "type": "choice", "t": "___ der Unterzeichnung des Vertrags begann die Produktion.", "options": ["Bis", "Ohne", "Nach"], "answer": 2, "s": "After the contract had been signed, production began." },
-        { "type": "type", "t": "___ Sicherung der Versorgung legt der Staat Reserven an.", "answer": ["zur"], "s": "In order to secure supplies, the state is building up reserves." },
-        { "type": "type", "t": "Aufgrund der ___ Energiepreise produzieren viele Firmen weniger.", "answer": ["gestiegenen", "steigenden", "hohen", "höheren", "hoeheren"], "s": "Because energy prices have risen, many firms are producing less." },
-        { "type": "order", "t": "Bei steigender Nachfrage steigen auch die Preise.", "s": "When demand rises, prices rise too." },
-        { "type": "order", "t": "Trotz aller Bemühungen scheiterten die Verhandlungen.", "s": "Despite all efforts, the negotiations failed." }
+        {
+          "type": "choice",
+          "t": "Bei ___ Nachfrage geraten die Preise unter Druck.",
+          "options": [
+            "sinkenden",
+            "sinkender",
+            "sinkende"
+          ],
+          "answer": 1,
+          "s": "When demand falls, prices come under pressure."
+        },
+        {
+          "type": "choice",
+          "t": "___ der großen Proteste wurde das Abkommen unterzeichnet.",
+          "options": [
+            "Trotz",
+            "Durch",
+            "Seit"
+          ],
+          "answer": 0,
+          "s": "Although the protests were large, the agreement was signed."
+        },
+        {
+          "type": "choice",
+          "t": "___ eine Senkung der Steuern soll die Wirtschaft angekurbelt werden.",
+          "options": [
+            "Mit",
+            "Durch",
+            "Bei"
+          ],
+          "answer": 1,
+          "s": "The economy is to be boosted by lowering taxes."
+        },
+        {
+          "type": "choice",
+          "t": "___ der Unterzeichnung des Vertrags begann die Produktion.",
+          "options": [
+            "Bis",
+            "Ohne",
+            "Nach"
+          ],
+          "answer": 2,
+          "s": "After the contract had been signed, production began."
+        },
+        {
+          "type": "type",
+          "t": "___ Sicherung der Versorgung legt der Staat Reserven an.",
+          "answer": [
+            "zur",
+            "für die"
+          ],
+          "s": "In order to secure supplies, the state is building up reserves."
+        },
+        {
+          "type": "type",
+          "t": "Aufgrund der ___ Energiepreise produzieren viele Firmen weniger.",
+          "answer": [
+            "gestiegenen",
+            "steigenden",
+            "hohen",
+            "höheren",
+            "hoeheren"
+          ],
+          "s": "Because energy prices have risen, many firms are producing less."
+        },
+        {
+          "type": "order",
+          "t": "Bei steigender Nachfrage steigen auch die Preise.",
+          "s": "When demand rises, prices rise too."
+        },
+        {
+          "type": "order",
+          "t": "Trotz aller Bemühungen scheiterten die Verhandlungen.",
+          "s": "Despite all efforts, the negotiations failed."
+        }
       ]
     }
   ],
   "reading": {
-    "title": { "t": "Abschied von der Hyperglobalisierung?", "s": "Farewell to hyperglobalization?" },
+    "title": {
+      "t": "Abschied von der Hyperglobalisierung?",
+      "s": "Farewell to hyperglobalization?"
+    },
     "text": [
-      { "t": "Jahrzehntelang galt die Globalisierung als Garant für Wohlstand und sinkende Preise.", "s": "For decades, globalization was regarded as a guarantee of prosperity and falling prices." },
-      { "t": "Unternehmen verlagerten ihre Produktion dorthin, wo sie am günstigsten war, und optimierten ihre Lieferketten bis ins kleinste Detail.", "s": "Companies moved their production to wherever it was cheapest and optimized their supply chains down to the smallest detail." },
-      { "t": "Infolge der Pandemie und mehrerer geopolitischer Krisen hat dieses Modell jedoch tiefe Risse bekommen.", "s": "As a result of the pandemic and several geopolitical crises, however, this model has developed deep cracks." },
-      { "t": "Als im Jahr 2021 ein einziges Containerschiff den Suezkanal blockierte, wurde schlagartig deutlich, wie verwundbar der Welthandel ist.", "s": "When a single container ship blocked the Suez Canal in 2021, it suddenly became clear how vulnerable world trade is." },
-      { "t": "Angesichts solcher Erfahrungen setzen viele Konzerne heute auf Resilienz statt auf maximale Effizienz.", "s": "In view of such experiences, many corporations today focus on resilience rather than maximum efficiency." },
-      { "t": "Hinter diesem Schlagwort verbirgt sich die Strategie, Bezugsquellen breiter zu streuen und wichtige Vorprodukte in größerer Menge vorzuhalten.", "s": "Behind this buzzword lies the strategy of diversifying sources of supply and keeping larger stocks of important intermediate products." },
-      { "t": "Ökonomen sprechen in diesem Zusammenhang von „Friendshoring“, also der Verlagerung von Produktion in politisch befreundete Staaten.", "s": "In this context, economists speak of “friendshoring”, i.e. the relocation of production to politically friendly countries." },
-      { "t": "Zur Sicherung der eigenen Versorgung fördern sowohl die USA als auch die EU die Ansiedlung von Chipfabriken mit Milliardensummen.", "s": "To secure their own supply, both the USA and the EU are subsidizing the establishment of chip factories with billions." },
-      { "t": "Kritiker warnen allerdings vor einem kostspieligen Subventionswettlauf, der vor allem zulasten der Steuerzahler gehe.", "s": "Critics, however, warn of a costly subsidy race that, they say, will mainly be at the expense of taxpayers." },
-      { "t": "Zudem dürften die höheren Produktionskosten langfristig an die Verbraucher weitergegeben werden.", "s": "In addition, the higher production costs are likely to be passed on to consumers in the long term." },
-      { "t": "Für ärmere Länder, die von ihrer Einbindung in den Welthandel stark profitiert haben, birgt diese Entwicklung erhebliche Risiken.", "s": "For poorer countries that have benefited greatly from their integration into world trade, this development carries considerable risks." },
-      { "t": "Von einem Ende der Globalisierung kann dennoch keine Rede sein: Der weltweite Warenhandel bewegt sich nach wie vor auf hohem Niveau.", "s": "Nevertheless, there can be no talk of an end to globalization: global trade in goods is still at a high level." },
-      { "t": "Was sich verändert, ist weniger ihr Umfang als vielmehr ihre Logik.", "s": "What is changing is not so much its scale as its logic." }
+      {
+        "t": "Jahrzehntelang galt die Globalisierung als Garant für Wohlstand und sinkende Preise.",
+        "s": "For decades, globalization was regarded as a guarantee of prosperity and falling prices."
+      },
+      {
+        "t": "Unternehmen verlagerten ihre Produktion dorthin, wo sie am günstigsten war, und optimierten ihre Lieferketten bis ins kleinste Detail.",
+        "s": "Companies moved their production to wherever it was cheapest and optimized their supply chains down to the smallest detail."
+      },
+      {
+        "t": "Infolge der Pandemie und mehrerer geopolitischer Krisen hat dieses Modell jedoch tiefe Risse bekommen.",
+        "s": "As a result of the pandemic and several geopolitical crises, however, this model has developed deep cracks."
+      },
+      {
+        "t": "Als im Jahr 2021 ein einziges Containerschiff den Suezkanal blockierte, wurde schlagartig deutlich, wie verwundbar der Welthandel ist.",
+        "s": "When a single container ship blocked the Suez Canal in 2021, it suddenly became clear how vulnerable world trade is."
+      },
+      {
+        "t": "Angesichts solcher Erfahrungen setzen viele Konzerne heute auf Resilienz statt auf maximale Effizienz.",
+        "s": "In view of such experiences, many corporations today focus on resilience rather than maximum efficiency."
+      },
+      {
+        "t": "Hinter diesem Schlagwort verbirgt sich die Strategie, Bezugsquellen breiter zu streuen und wichtige Vorprodukte in größerer Menge vorzuhalten.",
+        "s": "Behind this buzzword lies the strategy of diversifying sources of supply and keeping larger stocks of important intermediate products."
+      },
+      {
+        "t": "Ökonomen sprechen in diesem Zusammenhang von „Friendshoring“, also der Verlagerung von Produktion in politisch befreundete Staaten.",
+        "s": "In this context, economists speak of “friendshoring”, i.e. the relocation of production to politically friendly countries."
+      },
+      {
+        "t": "Zur Sicherung der eigenen Versorgung fördern sowohl die USA als auch die EU die Ansiedlung von Chipfabriken mit Milliardensummen.",
+        "s": "To secure their own supply, both the USA and the EU are subsidizing the establishment of chip factories with billions."
+      },
+      {
+        "t": "Kritiker warnen allerdings vor einem kostspieligen Subventionswettlauf, der vor allem zulasten der Steuerzahler gehe.",
+        "s": "Critics, however, warn of a costly subsidy race that, they say, will mainly be at the expense of taxpayers."
+      },
+      {
+        "t": "Zudem dürften die höheren Produktionskosten langfristig an die Verbraucher weitergegeben werden.",
+        "s": "In addition, the higher production costs are likely to be passed on to consumers in the long term."
+      },
+      {
+        "t": "Für ärmere Länder, die von ihrer Einbindung in den Welthandel stark profitiert haben, birgt diese Entwicklung erhebliche Risiken.",
+        "s": "For poorer countries that have benefited greatly from their integration into world trade, this development carries considerable risks."
+      },
+      {
+        "t": "Von einem Ende der Globalisierung kann dennoch keine Rede sein: Der weltweite Warenhandel bewegt sich nach wie vor auf hohem Niveau.",
+        "s": "Nevertheless, there can be no talk of an end to globalization: global trade in goods is still at a high level."
+      },
+      {
+        "t": "Was sich verändert, ist weniger ihr Umfang als vielmehr ihre Logik.",
+        "s": "What is changing is not so much its scale as its logic."
+      }
     ],
     "questions": [
-      { "q": { "t": "Wofür stand die Globalisierung lange Zeit?", "s": "What did globalization stand for for a long time?" },
-        "options": ["für Wohlstand und sinkende Preise", "für steigende Zölle", "für sichere Arbeitsplätze in Europa"], "answer": 0 },
-      { "q": { "t": "Was zeigte die Blockade des Suezkanals?", "s": "What did the blockage of the Suez Canal show?" },
-        "options": ["dass Containerschiffe zu groß gebaut werden", "wie anfällig der Welthandel ist", "dass der Kanal dringend erweitert werden muss"], "answer": 1 },
-      { "q": { "t": "Was versteht man unter „Friendshoring“?", "s": "What is meant by “friendshoring”?" },
-        "options": ["die Rückverlagerung der gesamten Produktion ins Inland", "Handel ausschließlich mit Nachbarländern", "die Verlagerung von Produktion in politisch befreundete Staaten"], "answer": 2 },
-      { "q": { "t": "Wovor warnen Kritiker?", "s": "What do critics warn of?" },
-        "options": ["vor einem teuren Subventionswettlauf", "vor zu niedrigen Steuern", "vor dem Ende des Containerhandels"], "answer": 0 },
-      { "q": { "t": "Zu welchem Fazit kommt der Text?", "s": "What conclusion does the text reach?" },
-        "options": ["Die Globalisierung ist am Ende.", "Die Globalisierung verändert vor allem ihre Logik, nicht ihren Umfang.", "Der Welthandel ist stark eingebrochen."], "answer": 1 }
+      {
+        "q": {
+          "t": "Wofür stand die Globalisierung lange Zeit?",
+          "s": "What did globalization stand for for a long time?"
+        },
+        "options": [
+          "für Wohlstand und sinkende Preise",
+          "für steigende Zölle",
+          "für sichere Arbeitsplätze in Europa"
+        ],
+        "answer": 0
+      },
+      {
+        "q": {
+          "t": "Was zeigte die Blockade des Suezkanals?",
+          "s": "What did the blockage of the Suez Canal show?"
+        },
+        "options": [
+          "dass Containerschiffe zu groß gebaut werden",
+          "wie anfällig der Welthandel ist",
+          "dass der Kanal dringend erweitert werden muss"
+        ],
+        "answer": 1
+      },
+      {
+        "q": {
+          "t": "Was versteht man unter „Friendshoring“?",
+          "s": "What is meant by “friendshoring”?"
+        },
+        "options": [
+          "die Rückverlagerung der gesamten Produktion ins Inland",
+          "Handel ausschließlich mit Nachbarländern",
+          "die Verlagerung von Produktion in politisch befreundete Staaten"
+        ],
+        "answer": 2
+      },
+      {
+        "q": {
+          "t": "Wovor warnen Kritiker?",
+          "s": "What do critics warn of?"
+        },
+        "options": [
+          "vor einem teuren Subventionswettlauf",
+          "vor zu niedrigen Steuern",
+          "vor dem Ende des Containerhandels"
+        ],
+        "answer": 0
+      },
+      {
+        "q": {
+          "t": "Zu welchem Fazit kommt der Text?",
+          "s": "What conclusion does the text reach?"
+        },
+        "options": [
+          "Die Globalisierung ist am Ende.",
+          "Die Globalisierung verändert vor allem ihre Logik, nicht ihren Umfang.",
+          "Der Welthandel ist stark eingebrochen."
+        ],
+        "answer": 1
+      }
     ]
   },
   "sentences": [
-    { "t": "Angesichts der Krise halten sich viele Unternehmen mit Investitionen zurück.", "s": "In view of the crisis, many companies are holding back on investment." },
-    { "t": "Infolge der Zölle sind viele Waren teurer geworden.", "s": "As a result of the tariffs, many goods have become more expensive." },
-    { "t": "Die Globalisierung hat Gewinner und Verlierer hervorgebracht.", "s": "Globalization has produced winners and losers." },
-    { "t": "Bei sinkender Nachfrage drohen Entlassungen.", "s": "If demand falls, there is a risk of redundancies." },
-    { "t": "Unterm Strich hat sich die Investition gelohnt.", "s": "On balance, the investment paid off." },
-    { "t": "Europa will unabhängiger von einzelnen Lieferanten werden.", "s": "Europe wants to become less dependent on individual suppliers." },
-    { "t": "Zur Sicherung der Versorgung wurden Reserven angelegt.", "s": "Reserves were built up to secure supplies." },
-    { "t": "Hinsichtlich der Folgen herrscht unter Ökonomen Uneinigkeit.", "s": "Economists disagree about the consequences." }
+    {
+      "t": "Angesichts der Krise halten sich viele Unternehmen mit Investitionen zurück.",
+      "s": "In view of the crisis, many companies are holding back on investment."
+    },
+    {
+      "t": "Infolge der Zölle sind viele Waren teurer geworden.",
+      "s": "As a result of the tariffs, many goods have become more expensive."
+    },
+    {
+      "t": "Die Globalisierung hat Gewinner und Verlierer hervorgebracht.",
+      "s": "Globalization has produced winners and losers."
+    },
+    {
+      "t": "Bei sinkender Nachfrage drohen Entlassungen.",
+      "s": "If demand falls, there is a risk of redundancies."
+    },
+    {
+      "t": "Unterm Strich hat sich die Investition gelohnt.",
+      "s": "On balance, the investment paid off."
+    },
+    {
+      "t": "Europa will unabhängiger von einzelnen Lieferanten werden.",
+      "s": "Europe wants to become less dependent on individual suppliers."
+    },
+    {
+      "t": "Zur Sicherung der Versorgung wurden Reserven angelegt.",
+      "s": "Reserves were built up to secure supplies."
+    },
+    {
+      "t": "Hinsichtlich der Folgen herrscht unter Ökonomen Uneinigkeit.",
+      "s": "Economists disagree about the consequences."
+    }
   ]
 }

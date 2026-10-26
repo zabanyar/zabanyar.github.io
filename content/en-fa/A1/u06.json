@@ -71,7 +71,7 @@
       "id": "w06",
       "t": "go",
       "s": "رفتن",
-      "pr": "گو",
+      "pr": "گُو",
       "emoji": "🚶",
       "ex": {
         "t": "I go to work at eight o'clock.",
@@ -116,7 +116,7 @@
       "id": "w10",
       "t": "go to bed",
       "s": "به رختخواب رفتن",
-      "pr": "گو تو بِد",
+      "pr": "گُو تو بِد",
       "emoji": "🛏️",
       "ex": {
         "t": "I go to bed at eleven o'clock.",
@@ -128,7 +128,7 @@
       "t": "morning",
       "pl": "mornings",
       "s": "صبح",
-      "pr": "مورنینگ",
+      "pr": "مُرنینگ",
       "emoji": "🌅",
       "ex": {
         "t": "I have tea in the morning.",
@@ -207,7 +207,7 @@
       "id": "p06",
       "t": "come home",
       "s": "به خانه آمدن",
-      "pr": "کام هوم"
+      "pr": "کام هُوم"
     },
     {
       "id": "p07",

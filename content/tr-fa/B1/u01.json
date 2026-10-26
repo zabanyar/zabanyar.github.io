@@ -394,7 +394,8 @@
           "t": "Ben o filmi ___. Nasıldı?",
           "answer": [
             "görmedim",
-            "izlemedim"
+            "izlemedim",
+            "seyretmedim"
           ],
           "s": "من آن فیلم را ندیدم. چطور بود؟"
         },
@@ -422,7 +423,11 @@
         {
           "type": "order",
           "t": "Dün akşam neden telefonu açmadın?",
-          "s": "دیشب چرا تلفن را جواب ندادی؟"
+          "s": "دیشب چرا تلفن را جواب ندادی؟",
+          "alts": [
+            "Dün akşam telefonu neden açmadın?",
+            "Telefonu dün akşam neden açmadın?"
+          ]
         }
       ]
     },
@@ -542,7 +547,8 @@
           "type": "type",
           "t": "Ali'yi aradım ama açmadı. Galiba mesajımı ___.",
           "answer": [
-            "görmemiş"
+            "görmemiş",
+            "okumamış"
           ],
           "s": "به علی زنگ زدم، ولی جواب نداد. گویا پیامم را ندیده."
         },

@@ -417,7 +417,8 @@
           "type": "type",
           "t": "Annem pilavı ___, ben de salatayı yaptım.",
           "answer": [
-            "pişirdi"
+            "pişirdi",
+            "yaptı"
           ],
           "s": "مادرم پلو را پخت، من هم سالاد را درست کردم."
         },
@@ -432,7 +433,11 @@
         {
           "type": "order",
           "t": "Dün arabamı benzinlikte yıkattım.",
-          "s": "دیروز دادم ماشینم را در پمپ‌بنزین بشویند."
+          "s": "دیروز دادم ماشینم را در پمپ‌بنزین بشویند.",
+          "alts": [
+            "Dün benzinlikte arabamı yıkattım.",
+            "Arabamı dün benzinlikte yıkattım."
+          ]
         },
         {
           "type": "order",

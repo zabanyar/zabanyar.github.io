@@ -117,7 +117,7 @@
       "id": "w10",
       "t": "cut down",
       "s": "قطع کردن (درخت)",
-      "pr": "کات دَوْن",
+      "pr": "کات داون",
       "emoji": "🌲",
       "ex": {
         "t": "Thousands of trees are cut down every day.",
@@ -151,7 +151,7 @@
       "t": "solar panel",
       "pl": "solar panels",
       "s": "پنل خورشیدی",
-      "pr": "سولِر پَنِل",
+      "pr": "سُولِر پَنِل",
       "emoji": "☀️",
       "ex": {
         "t": "Solar panels were put on the roof of our school.",
@@ -175,7 +175,7 @@
       "t": "drought",
       "pl": "droughts",
       "s": "خشکسالی",
-      "pr": "دْرَوت",
+      "pr": "دْراوت",
       "emoji": "🏜️",
       "ex": {
         "t": "Many farmers lost their crops because of the drought.",
@@ -194,13 +194,13 @@
       "id": "p02",
       "t": "I totally agree.",
       "s": "کاملاً موافقم.",
-      "pr": "آی توتِلی اِگْری"
+      "pr": "آی تُوتِلی اِگْری"
     },
     {
       "id": "p03",
       "t": "I'm not sure about that.",
       "s": "درباره‌اش مطمئن نیستم.",
-      "pr": "آیم نات شور اِبَوت دَت"
+      "pr": "آیم نات شور اِباوت ذَت"
     },
     {
       "id": "p04",
@@ -218,13 +218,13 @@
       "id": "p06",
       "t": "We need to do something about …",
       "s": "باید برای … کاری بکنیم.",
-      "pr": "وی نید تو دو سامثینگ اِبَوت"
+      "pr": "وی نید تو دو سامثینگ اِباوت"
     },
     {
       "id": "p07",
       "t": "The problem is that …",
       "s": "مشکل این است که …",
-      "pr": "دِ پْرابلِم ایز دَت"
+      "pr": "ذِ پْرابلِم ایز ذَت"
     },
     {
       "id": "p08",

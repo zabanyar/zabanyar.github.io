@@ -65,7 +65,7 @@
       "t": "passport",
       "pl": "passports",
       "s": "گذرنامه، پاسپورت",
-      "pr": "پَسپورت",
+      "pr": "پَسپُرت",
       "emoji": "",
       "ex": {
         "t": "Don't forget your passport!",
@@ -158,7 +158,7 @@
       "id": "w13",
       "t": "go sightseeing",
       "s": "به دیدن جاهای دیدنی رفتن",
-      "pr": "گو سایت‌سیئینگ",
+      "pr": "گُو سایت‌سیئینگ",
       "emoji": "",
       "ex": {
         "t": "We went sightseeing in Isfahan.",

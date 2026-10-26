@@ -411,55 +411,55 @@
         "t": "Temmuzda, yazın",
         "s": "ماه‌ها و فصل‌ها: «در ژوئیه»، «در تابستان»"
       },
-      "explain": "ماه‌های ترکی همان ماه‌های میلادی هستند: Ocak (ژانویه)، Şubat (فوریه)، Mart (مارس)، Nisan (آوریل)، Mayıs (مه)، Haziran (ژوئن)، Temmuz (ژوئیه)، Ağustos (اوت)، Eylül (سپتامبر)، Ekim (اکتبر)، Kasım (نوامبر)، Aralık (دسامبر).\nبرای گفتن «در ماهِ …» همان پسوند مکان **de / da** را اضافه می‌کنیم (و بعد از حروف بی‌صدای ç، ş، t، k، p، s، f، h می‌شود **te / ta**): Temmuz**da** (در ژوئیه)، Eylül**de** (در سپتامبر)، Mart**ta** (در مارس).\nفصل‌ها: **ilkbahar** (بهار)، **yaz** (تابستان)، **sonbahar** (پاییز)، **kış** (زمستان). برای بهار و پاییز می‌گوییم **ilkbaharda** و **sonbaharda**؛ ولی برای تابستان و زمستان شکل خاصی داریم: **yazın** (در تابستان) و **kışın** (در زمستان).",
+      "explain": "ماه‌های ترکی همان ماه‌های میلادی هستند و وسطِ جمله با حرف کوچک نوشته می‌شوند (مگر در تاریخ دقیق، مثل 19 Mayıs): ocak (ژانویه)، şubat (فوریه)، mart (مارس)، nisan (آوریل)، mayıs (مه)، haziran (ژوئن)، temmuz (ژوئیه)، ağustos (اوت)، eylül (سپتامبر)، ekim (اکتبر)، kasım (نوامبر)، aralık (دسامبر).\nبرای گفتن «در ماهِ …» همان پسوند مکان **de / da** را اضافه می‌کنیم (و بعد از حروف بی‌صدای ç، ş، t، k، p، s، f، h می‌شود **te / ta**): temmuz**da** (در ژوئیه)، eylül**de** (در سپتامبر)، mart**ta** (در مارس).\nفصل‌ها: **ilkbahar** (بهار)، **yaz** (تابستان)، **sonbahar** (پاییز)، **kış** (زمستان). برای بهار و پاییز می‌گوییم **ilkbaharda** و **sonbaharda**؛ ولی برای تابستان و زمستان شکل خاصی داریم: **yazın** (در تابستان) و **kışın** (در زمستان).",
       "table": [
         [
-          "Ocak",
-          "Ocakta"
+          "ocak",
+          "ocakta"
         ],
         [
-          "Şubat",
-          "Şubatta"
+          "şubat",
+          "şubatta"
         ],
         [
-          "Mart",
-          "Martta"
+          "mart",
+          "martta"
         ],
         [
-          "Nisan",
-          "Nisanda"
+          "nisan",
+          "nisanda"
         ],
         [
-          "Mayıs",
-          "Mayısta"
+          "mayıs",
+          "mayısta"
         ],
         [
-          "Haziran",
-          "Haziranda"
+          "haziran",
+          "haziranda"
         ],
         [
-          "Temmuz",
-          "Temmuzda"
+          "temmuz",
+          "temmuzda"
         ],
         [
-          "Ağustos",
-          "Ağustosta"
+          "ağustos",
+          "ağustosta"
         ],
         [
-          "Eylül",
-          "Eylülde"
+          "eylül",
+          "eylülde"
         ],
         [
-          "Ekim",
-          "Ekimde"
+          "ekim",
+          "ekimde"
         ],
         [
-          "Kasım",
-          "Kasımda"
+          "kasım",
+          "kasımda"
         ],
         [
-          "Aralık",
-          "Aralıkta"
+          "aralık",
+          "aralıkta"
         ]
       ],
       "examples": [
@@ -476,7 +476,7 @@
           "s": "بهار هوا خوب است."
         },
         {
-          "t": "Benim doğum günüm Eylülde.",
+          "t": "Benim doğum günüm eylülde.",
           "s": "تولد من در سپتامبر است."
         },
         {
@@ -500,9 +500,9 @@
           "type": "choice",
           "t": "Biz ___ İran'a gidiyoruz.",
           "options": [
-            "Temmuzde",
-            "Temmuzda",
-            "Temmuza"
+            "temmuzde",
+            "temmuzda",
+            "temmuza"
           ],
           "answer": 1,
           "s": "ما در ژوئیه به ایران می‌رویم."
@@ -538,7 +538,7 @@
           "type": "type",
           "t": "Benim doğum günüm ___.",
           "answer": [
-            "Mayısta"
+            "mayısta"
           ],
           "s": "تولد من در ماه مه است."
         },
@@ -569,7 +569,7 @@
         "s": "تابستان هوا خیلی گرم و آفتابی است."
       },
       {
-        "t": "Temmuzda ve Ağustosta insanlar denize gidiyor.",
+        "t": "Temmuzda ve ağustosta insanlar denize gidiyor.",
         "s": "در ژوئیه و اوت مردم به دریا می‌روند."
       },
       {
@@ -581,7 +581,7 @@
         "s": "زمستان هوا سرد است."
       },
       {
-        "t": "Ocakta ve Şubatta İstanbul'da bazen kar yağıyor.",
+        "t": "Ocakta ve şubatta İstanbul'da bazen kar yağıyor.",
         "s": "در ژانویه و فوریه در استانبول گاهی برف می‌آید."
       },
       {
@@ -616,7 +616,7 @@
       },
       {
         "q": {
-          "t": "İnsanlar Temmuzda nereye gidiyor?",
+          "t": "İnsanlar temmuzda nereye gidiyor?",
           "s": "مردم در ژوئیه کجا می‌روند؟"
         },
         "options": [
@@ -632,7 +632,7 @@
           "s": "در استانبول کی برف می‌آید؟"
         },
         "options": [
-          "Ocakta ve Şubatta",
+          "Ocakta ve şubatta",
           "Temmuzda",
           "Nisanda"
         ],
@@ -658,7 +658,7 @@
       "s": "تابستان به دریا می‌رویم."
     },
     {
-      "t": "Benim doğum günüm Martta.",
+      "t": "Benim doğum günüm martta.",
       "s": "تولد من در ماه مارس است."
     },
     {

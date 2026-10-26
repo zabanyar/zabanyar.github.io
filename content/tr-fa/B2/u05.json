@@ -309,7 +309,7 @@
         "t": "Bilseydim söylerdim.",
         "s": "شرط غیرواقعی: -saydı و -mış olsaydı"
       },
-      "explain": "وقتی درباره‌ی چیزی حرف می‌زنیم که **واقعی نیست یا اتفاق نیفتاده**، از شرط غیرواقعی استفاده می‌کنیم. فعل جمله‌ی اصلی معمولاً با **-(ı)rdı / -(a)rdı** می‌آید: gelirdim، alırdık، olmazdı.\n**-sa … -ırdı**: فرض درباره‌ی حال یا آینده: Param **olsa** bu evi **alırdım**. = اگر پول داشتم، این خانه را می‌خریدم (ولی ندارم).\n**-saydı / -seydi** (= -sa + idi): غیرواقعی درباره‌ی **گذشته**: Erken **gelseydin** treni **kaçırmazdık**. = اگر زود آمده بودی، قطار را از دست نمی‌دادیم.\n**-mış olsaydı**: تمام‌شدن کار در گذشته را پررنگ‌تر می‌کند و در زبان رسمی رایج است: Hastalık erken **teşhis edilmiş olsaydı** tedavi daha kolay **olurdu**. جمله‌ی اصلی هم می‌تواند **-mış olurdu** باشد: Biraz daha bekleseydik doktor **gitmiş olurdu**.\nپسوندهای شخص: gelse**ydim**، gelse**ydin**، gelse**ydi**، gelse**ydik**، gelse**ydiniz**، gelse**ydiler**.\nبا **keşke** برای حسرت هم به کار می‌رود: **Keşke** daha önce **gitseydim**. = کاش زودتر رفته بودم.\nدر فارسی این ساخت‌ها معمولاً با «اگر … بودم / کرده بودم، … می‌کردم» ترجمه می‌شوند.",
+      "explain": "وقتی درباره‌ی چیزی حرف می‌زنیم که **واقعی نیست یا اتفاق نیفتاده**، از شرط غیرواقعی استفاده می‌کنیم. فعل جمله‌ی اصلی معمولاً با **-(ı)rdı / -(a)rdı** می‌آید: gelirdim، alırdık، olmazdı.\n**-sa … -ırdı**: فرض درباره‌ی حال یا آینده: Param **olsa** bu evi **alırdım**. = اگر پول داشتم، این خانه را می‌خریدم (ولی ندارم).\n**-saydı / -seydi** (= -sa + idi): غیرواقعی درباره‌ی **گذشته**: Erken **gelseydin** treni **kaçırmazdık**. = اگر زود آمده بودی، قطار را از دست نمی‌دادیم. در عمل **-saydı** برای حالِ غیرواقعی هم بسیار رایج است: Sigortam **olsaydı** bu kadar para ödemezdim. = اگر بیمه داشتم، این‌قدر پول نمی‌دادم.\n**-mış olsaydı**: تمام‌شدن کار در گذشته را پررنگ‌تر می‌کند و در زبان رسمی رایج است: Hastalık erken **teşhis edilmiş olsaydı** tedavi daha kolay **olurdu**. جمله‌ی اصلی هم می‌تواند **-mış olurdu** باشد: Biraz daha bekleseydik doktor **gitmiş olurdu**.\nپسوندهای شخص: gelse**ydim**، gelse**ydin**، gelse**ydi**، gelse**ydik**، gelse**ydiniz**، gelse**ydiler**.\nبا **keşke** برای حسرت هم به کار می‌رود: **Keşke** daha önce **gitseydim**. = کاش زودتر رفته بودم.\nدر فارسی این ساخت‌ها معمولاً با «اگر … بودم / کرده بودم، … می‌کردم» ترجمه می‌شوند.",
       "table": [
         [
           "-sa … -ırdı",
@@ -432,7 +432,10 @@
         {
           "type": "order",
           "t": "Keşke daha önce doktora gitseydim.",
-          "s": "کاش زودتر پیش دکتر رفته بودم."
+          "s": "کاش زودتر پیش دکتر رفته بودم.",
+          "alts": [
+            "Keşke doktora daha önce gitseydim."
+          ]
         }
       ]
     },

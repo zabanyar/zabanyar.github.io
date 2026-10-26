@@ -17,7 +17,7 @@
       "id": "w01",
       "t": "get along with",
       "s": "با کسی رابطه‌ی خوبی داشتن، کنار آمدن",
-      "pr": "گِت اَلانگ ویذ",
+      "pr": "گِت اِلانگ ویذ",
       "emoji": "",
       "ex": {
         "t": "I get along well with all my neighbors.",
@@ -28,7 +28,7 @@
       "id": "w02",
       "t": "get to know",
       "s": "(به‌تدریج) آشنا شدن با، شناختن",
-      "pr": "گِت تو نو",
+      "pr": "گِت تو نُو",
       "emoji": "",
       "ex": {
         "t": "It takes time to get to know new colleagues.",
@@ -39,7 +39,7 @@
       "id": "w03",
       "t": "close",
       "s": "صمیمی، نزدیک",
-      "pr": "کْلوس",
+      "pr": "کْلُوس",
       "emoji": "",
       "ex": {
         "t": "Maryam and I have been close friends since school.",
@@ -108,7 +108,7 @@
       "id": "w09",
       "t": "fall out with",
       "s": "قهر کردن با، رابطه را به هم زدن",
-      "pr": "فال آئوت ویذ",
+      "pr": "فال آوت ویذ",
       "emoji": "",
       "ex": {
         "t": "She fell out with her best friend over a silly joke.",
@@ -187,13 +187,13 @@
       "id": "p01",
       "t": "We're really close.",
       "s": "خیلی با هم صمیمی هستیم.",
-      "pr": "ویر ریلی کْلوس"
+      "pr": "ویر ریلی کْلُوس"
     },
     {
       "id": "p02",
       "t": "We've known each other for years.",
       "s": "سال‌هاست همدیگر را می‌شناسیم.",
-      "pr": "ویو نون ایچ آذِر فور ییرز"
+      "pr": "ویو نُون ایچ آذِر فُر ییرز"
     },
     {
       "id": "p03",
@@ -205,13 +205,13 @@
       "id": "p04",
       "t": "We don't see eye to eye on…",
       "s": "درباره‌ی ... هم‌نظر نیستیم.",
-      "pr": "وی دونت سی آی تو آی آن…"
+      "pr": "وی دُونت سی آی تو آی آن…"
     },
     {
       "id": "p05",
       "t": "I can always count on him.",
       "s": "همیشه می‌توانم رویش حساب کنم.",
-      "pr": "آی کَن آل‌وِیز کائونت آن هیم"
+      "pr": "آی کَن آل‌وِیز کاونت آن هیم"
     },
     {
       "id": "p06",

@@ -3,6 +3,7 @@
 offline file lists and the TTS job list (tools/tts_jobs.json). Usage: python3 tools/build.py"""
 import json, hashlib, os, re, shutil, glob
 import emoji as emojilib
+from num2words import num2words
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 CONTENT = os.path.join(ROOT, "content")
@@ -49,11 +50,86 @@ def akey(course, voice, text):
     return f"audio/{course}/{h}.mp3"
 
 
-def speakable(text):
+TR_ONES = ["", "bir", "iki", "üç", "dört", "beş", "altı", "yedi", "sekiz", "dokuz"]
+TR_TENS = ["", "on", "yirmi", "otuz", "kırk", "elli", "altmış", "yetmiş", "seksen", "doksan"]
+def tr_num(n):
+    """Turkish number words WITH spaces (voices read long glued words badly)"""
+    if n == 0: return "sıfır"
+    out = []
+    for size, name in ((10**9, "milyar"), (10**6, "milyon"), (1000, "bin")):
+        if n >= size:
+            q, n = divmod(n, size)
+            out += ([] if (q == 1 and size == 1000) else [tr_num(q)]) + [name]
+    if n >= 100:
+        q, n = divmod(n, 100); out += ([] if q == 1 else [TR_ONES[q]]) + ["yüz"]
+    if n >= 10: out.append(TR_TENS[n // 10]); n %= 10
+    if n: out.append(TR_ONES[n])
+    return " ".join(out)
+TR_ORD = {"bir": "birinci", "iki": "ikinci", "üç": "üçüncü", "dört": "dördüncü", "beş": "beşinci", "altı": "altıncı", "yedi": "yedinci",
+          "sekiz": "sekizinci", "dokuz": "dokuzuncu", "on": "onuncu", "yirmi": "yirminci", "otuz": "otuzuncu", "kırk": "kırkıncı",
+          "elli": "ellinci", "altmış": "altmışıncı", "yetmiş": "yetmişinci", "seksen": "sekseninci", "doksan": "doksanıncı",
+          "yüz": "yüzüncü", "bin": "bininci", "milyon": "milyonuncu", "milyar": "milyarıncı", "sıfır": "sıfırıncı"}
+def tr_ord(n):
+    w = tr_num(n).split(); w[-1] = TR_ORD[w[-1]]; return " ".join(w)
+
+DE_MONTHS = "Januar|Februar|März|April|Mai|Juni|Juli|August|September|Oktober|November|Dezember|Jahrhundert|Stock|Klasse"
+def de_num(n, year=False):
+    if year and 1100 <= n <= 1999: return num2words(n, lang="de", to="year")
+    return num2words(n, lang="de")
+
+def numbers(t, lang):
+    """write numbers as words for the Piper voices (German, Turkish, Persian); Kokoro (English) reads digits well"""
+    if lang == "de":
+        t = re.sub(r"\b\d{1,3}(?:[ .]\d{3})+\b", lambda m: de_num(int(m.group(0).replace(".", "").replace(" ", ""))), t)   # 1.200 / 200 000
+        def clock(m):
+            h, mi = int(m.group(1)), int(m.group(2))
+            return f"{de_num(h)} Uhr" + (f" {de_num(mi)}" if mi else "")
+        t = re.sub(r"\b(\d{1,2}):(\d\d)(?: Uhr)?", clock, t)
+        def ordinal(m):
+            w = num2words(int(m.group(2)), lang="de", to="ordinal")
+            return m.group(1) + (w + "n" if m.group(1).strip().lower() in ("am", "zum", "vom", "beim", "im", "dem") else w) + " "
+        t = re.sub(r"(\b\w+ )(\d{1,2})\. (?=" + DE_MONTHS + ")", ordinal, t)
+        t = re.sub(r"\b(\d+)\.(\d+)\b", lambda m: f"{de_num(int(m.group(1)))} Punkt {de_num(int(m.group(2)))}", t)       # 4.0
+        t = re.sub(r"\b(\d+),(\d+)\b", lambda m: f"{de_num(int(m.group(1)))} Komma {' '.join(de_num(int(c)) for c in m.group(2))}", t)
+        t = re.sub(r"\b([ABC])(\d)\b", lambda m: {"A": "A", "B": "Be", "C": "Ze"}[m.group(1)] + " " + de_num(int(m.group(2))), t)   # C1, A3
+        t = re.sub(r"\b(\d+)\b", lambda m: de_num(int(m.group(1)), year=True), t)
+    elif lang == "tr":
+        t = re.sub(r"\b(\d{1,3})(?:\.(\d{3}))+\b", lambda m: m.group(0).replace(".", ""), t)
+        t = re.sub(r"\b(\d{1,2}):(\d\d)\b", lambda m: tr_num(int(m.group(1))) + (" " + tr_num(int(m.group(2))) if int(m.group(2)) else ""), t)
+        t = re.sub(r"\b(\d+)\. (?=[a-zçğıöşü])", lambda m: tr_ord(int(m.group(1))) + " ", t)
+        t = re.sub(r"\b(\d+),(\d+)\b", lambda m: f"{tr_num(int(m.group(1)))} virgül {' '.join(tr_num(int(c)) for c in m.group(2))}", t)
+        t = re.sub(r"\b([ABC])([12])\b", lambda m: {"A": "a", "B": "be", "C": "ce"}[m.group(1)] + " " + tr_num(int(m.group(2))), t)
+        t = re.sub(r"\b(\d+)['’](?=\w)", lambda m: tr_num(int(m.group(1))), t)                               # 1961'de -> ... birde
+        t = re.sub(r"\b(\d+)\b", lambda m: tr_num(int(m.group(1))), t)
+    elif lang == "fa":
+        t = t.translate(str.maketrans("۰۱۲۳۴۵۶۷۸۹", "0123456789"))
+        t = re.sub(r"\d+", lambda m: num2words(int(m.group(0)), lang="fa"), t)
+    return t
+
+CONJ = {"en": " or ", "de": " oder ", "tr": " veya ", "fa": " یا "}
+ABBR = {"en": [("Dr.", "Doctor"), ("Mr.", "Mister"), ("Mrs.", "Missus"), ("Si-o-se-pol", "See-oh-seh pol")],
+        "de": [("Prof. Dr.", "Professor Doktor"), ("Dr.", "Doktor"), ("Prof.", "Professor"), ("z. B.", "zum Beispiel"), ("z.B.", "zum Beispiel"),
+               ("usw.", "und so weiter"), ("bzw.", "beziehungsweise"), ("CO₂", "C O zwei")],
+        "tr": [("Prof. Dr.", "Profesör Doktor"), ("Dr.", "Doktor"), ("Prof.", "Profesör"), ("Bedenim M.", "Bedenim em."), ("Bu L beden", "Bu el beden")],
+        "fa": []}
+
+def speakable(text, lang="en"):
+    """the text the voice reads: no grammar notation, symbols, abbreviations or (except English) digits"""
     t = text.replace("___", "…")
     t = re.sub(r"\s*\([^)]*\)", "", t)                     # grammar hints in brackets: "(über + A)"
     t = re.sub(r"\s*\+\s*(A|D|G|Akk|Dat|Gen|Akk\.|Dat\.|Gen\.)\b\.?", "", t)  # "+ D"
     t = t.replace("jdn.", "jemanden").replace("jdm.", "jemandem").replace("etw.", "etwas").replace("sth.", "something")
+    for a, b in ABBR.get(lang, []):
+        t = t.replace(a, b)
+    # "18 = eighteen", "۱۵: پانزده": the word after a bare number is what should be heard
+    m = re.fullmatch(r"\s*[\d۰-۹]+\s*(?:=|:(?![\d۰-۹]))\s*(.+)", t)
+    if m: t = m.group(1)
+    t = re.sub(r"\s*(=|→|·)\s*", ". ", t)                    # "A = B", "ev → evler"
+    t = re.sub(r"\s+/\s+", ", ", t)                          # "Yes, I do. / No, I don't."
+    t = re.sub(r"(?<=\w)/(?=\w)", lambda m: CONJ.get(lang, ", "), t)   # jemanden/etwas
+    t = numbers(t, lang)
+    t = re.sub(r"([.?!][\"”»])\.", r"\1", t)
+    t = re.sub(r"\.\s*\.", ".", t).replace("?.", "?").replace("!.", "!").replace(",.", ".").replace(".,", ".").replace("?,", "?").replace("!,", "!")
     return re.sub(r"\s+", " ", t).strip(" /")
 
 
@@ -63,7 +139,7 @@ def add_audio(course, obj, voice=None, text=None, key="a"):
     text = text if text is not None else obj.get("t")
     if not text:
         return
-    text = speakable(text)
+    text = speakable(text, c["target"])
     f = akey(course, v, text)
     sp = SPEED[LEVEL][0 if len(text.split()) <= 2 else 1]
     if f not in jobs:

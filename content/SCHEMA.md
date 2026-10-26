@@ -8,7 +8,7 @@ Courses:
 - `tr-fa` — learn **Turkish**, support language **Persian**
 
 Field naming: `t` = text in the TARGET language (what the learner studies; gets audio).
-`s` = translation / explanation in the SUPPORT language. `pr` = pronunciation hint written in the
+`s` = translation / explanation in the SUPPORT language. `order` exercises may have `alts`: other correct word orders (same tiles), also accepted. `pr` = pronunciation hint written in the
 support language's script (Persian script for en-fa and tr-fa; omit for de-en unless really useful).
 
 ```jsonc

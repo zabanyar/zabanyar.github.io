@@ -74,7 +74,7 @@
       "t": "potato",
       "pl": "potatoes",
       "s": "سیب‌زمینی",
-      "pr": "پِتِیتو",
+      "pr": "پِتِیتُو",
       "emoji": "🥔",
       "ex": {
         "t": "I need three potatoes for this recipe.",
@@ -86,7 +86,7 @@
       "t": "tomato",
       "pl": "tomatoes",
       "s": "گوجه‌فرنگی",
-      "pr": "تِمِیتو",
+      "pr": "تِمِیتُو",
       "emoji": "🍅",
       "ex": {
         "t": "Are there any tomatoes in the fridge?",
@@ -190,7 +190,7 @@
       "id": "p01",
       "t": "What's for dinner?",
       "s": "شام چی داریم؟",
-      "pr": "واتس فور دینِر؟"
+      "pr": "واتس فُر دینِر؟"
     },
     {
       "id": "p02",

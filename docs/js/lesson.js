@@ -43,7 +43,7 @@ function mcFrom(item, pool, kind, srsId) {
   if (kind === "listenMeaning") { step.label = t("q_listenMeaning"); step.prompt = { a: item.a, autoplay: true, big: true }; step.options = opts.map(o => ({ s: o.s })); step.reveal = item.t; step.revealS = item.s; }
   return step;
 }
-function orderStep(item) { return { type: "order", t: item.t, s: item.s, a: item.a, revealPr: item.pr, label: t("q_order") }; }
+function orderStep(item) { return { type: "order", t: item.t, alts: item.alts, s: item.s, a: item.a, revealPr: item.pr, label: t("q_order") }; }
 function typeWordStep(w, srsId) {
   const base = w.t.replace(/\s*\([^)]*\)/g, "").replace(/\s*\+\s*[ADG]\b\.?/g, "").trim();
   const answers = [w.t, base];
@@ -54,7 +54,7 @@ function dictationStep(item) { return { type: "type", label: t("q_typeHeard"), p
 function grammarEx(x) {
   if (x.type === "choice") return { type: "mc", label: t("q_fill"), prompt: { gap: x.t, s: x.s }, options: x.options.map(o => ({ t: o })), answer: x.answer, a: x.a, reveal: x.full, revealPr: x.pr };
   if (x.type === "type") return { type: "type", label: t("q_fill"), prompt: { gap: x.t, s: x.s }, answers: x.answer.map(ans => x.t.replace("___", ans)).concat(x.answer), reveal: x.full, revealPr: x.pr, a: x.a, gapMode: true };
-  return { type: "order", t: x.t, s: x.s, a: x.a, revealPr: x.pr, label: t("q_order") };
+  return { type: "order", t: x.t, alts: x.alts, s: x.s, a: x.a, revealPr: x.pr, label: t("q_order") };
 }
 const short = s => s.t.split(/\s+/).length <= 8;
 const typeable = w => w.t.length <= 16 && !/[()+\/…]/.test(w.t);
@@ -420,7 +420,8 @@ export function runLesson(root, steps, { target, onExit, onDone, title }) {
       el.append(ans, bank);
       cb.onCheck(() => {
         const got = picked.map(o => o.w).join(" ");
-        const ok = normalize(got, target) === normalize(step.t, target);
+        // free word order (Turkish, Persian …): some sentences have other correct orders, listed in "alts"
+        const ok = [step.t, ...(step.alts || [])].some(x => normalize(got, target) === normalize(x, target));
         step.reveal = step.t; feedback(ok, step);
       });
     },

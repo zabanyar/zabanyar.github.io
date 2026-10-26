@@ -39,7 +39,7 @@
       "id": "w03",
       "t": "grow up",
       "s": "بزرگ شدن",
-      "pr": "گْرو آپ",
+      "pr": "گْرُو آپ",
       "emoji": "",
       "ex": {
         "t": "My husband grew up in Kermanshah.",
@@ -72,7 +72,7 @@
       "id": "w06",
       "t": "tell a story",
       "s": "داستان تعریف کردن، قصه گفتن",
-      "pr": "تِل اِ سْتوری",
+      "pr": "تِل اِ سْتُری",
       "emoji": "📖",
       "ex": {
         "t": "My grandfather used to tell us a story every night.",
@@ -118,7 +118,7 @@
       "t": "storm",
       "pl": "storms",
       "s": "طوفان",
-      "pr": "سْتورم",
+      "pr": "سْتُرم",
       "emoji": "⛈️",
       "ex": {
         "t": "There was a terrible storm last night.",
@@ -218,13 +218,13 @@
       "id": "p06",
       "t": "In the end, …",
       "s": "در آخر، …",
-      "pr": "این دِ اِند"
+      "pr": "این ذِ اِند"
     },
     {
       "id": "p07",
       "t": "That reminds me of …",
       "s": "این مرا یاد … می‌اندازد.",
-      "pr": "دَت ریمایندز مِی آو"
+      "pr": "ذَت ریمایندز میْ آو"
     },
     {
       "id": "p08",

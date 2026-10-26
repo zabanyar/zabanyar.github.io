@@ -558,7 +558,10 @@
         {
           "type": "order",
           "t": "Gazeteye göre benzine yine zam gelmiş.",
-          "s": "طبق روزنامه، ظاهراً باز بنزین گران شده."
+          "s": "طبق روزنامه، ظاهراً باز بنزین گران شده.",
+          "alts": [
+            "Gazeteye göre yine benzine zam gelmiş."
+          ]
         },
         {
           "type": "order",

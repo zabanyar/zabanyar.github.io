@@ -2,7 +2,10 @@
   "id": "u03",
   "level": "A1",
   "emoji": "👪",
-  "title": { "t": "Ailem", "s": "خانواده‌ی من" },
+  "title": {
+    "t": "Ailem",
+    "s": "خانواده‌ی من"
+  },
   "goals": [
     "اعضای خانواده را به ترکی نام ببرم.",
     "با پسوندهای مالکیت بگویم «مادرم، مادرت، مادرش» (annem، annen، annesi).",
@@ -10,132 +13,638 @@
     "خانواده‌ام را به ترکی معرفی کنم."
   ],
   "words": [
-    { "id": "w01", "t": "aile", "pl": "aileler", "s": "خانواده", "pr": "آئیلِه", "emoji": "👪", "ex": { "t": "Bu benim ailem.", "s": "این خانواده‌ی من است." } },
-    { "id": "w02", "t": "anne", "s": "مادر", "pr": "آنِّه", "emoji": "👩", "ex": { "t": "Annem öğretmen.", "s": "مادرم معلم است." } },
-    { "id": "w03", "t": "baba", "s": "پدر", "pr": "بابا", "emoji": "👨", "ex": { "t": "Babam doktor.", "s": "پدرم دکتر است." } },
-    { "id": "w04", "t": "kız kardeş", "s": "خواهر", "pr": "کِز کاردِش", "emoji": "", "ex": { "t": "Kız kardeşim on yaşında.", "s": "خواهرم ده ساله است." } },
-    { "id": "w05", "t": "erkek kardeş", "s": "برادر", "pr": "اِرکِک کاردِش", "emoji": "", "ex": { "t": "Erkek kardeşin kaç yaşında?", "s": "برادرت چند سال دارد؟" } },
-    { "id": "w06", "t": "dede", "s": "پدربزرگ", "pr": "دِدِه", "emoji": "👴", "ex": { "t": "Dedem Tebrizli.", "s": "پدربزرگم تبریزی است." } },
-    { "id": "w07", "t": "büyükanne", "s": "مادربزرگ", "pr": "بویوک‌آنِّه", "emoji": "👵", "ex": { "t": "Büyükannem Şirazlı.", "s": "مادربزرگم شیرازی است." } },
-    { "id": "w08", "t": "eş", "s": "همسر", "pr": "اِش", "emoji": "💍", "ex": { "t": "Eşim Maryam.", "s": "همسرم مریم است." } },
-    { "id": "w09", "t": "kız", "pl": "kızlar", "s": "دختر", "pr": "کِز", "emoji": "👧", "ex": { "t": "Kızım Elif, sekiz yaşında.", "s": "دخترم الیف است، هشت ساله است." } },
-    { "id": "w10", "t": "oğul", "s": "پسر (فرزند)", "pr": "اُول", "emoji": "👦", "ex": { "t": "Oğlum Can.", "s": "پسرم جان است." } },
-    { "id": "w11", "t": "amca", "s": "عمو", "pr": "آمجا", "emoji": "", "ex": { "t": "Amcam İstanbullu.", "s": "عمویم استانبولی است." } },
-    { "id": "w12", "t": "dayı", "s": "دایی", "pr": "دایِ", "emoji": "", "ex": { "t": "Dayın nereli?", "s": "دایی‌ات اهل کجاست؟" } },
-    { "id": "w13", "t": "arkadaş", "pl": "arkadaşlar", "s": "دوست", "pr": "آرکاداش", "emoji": "🤝", "ex": { "t": "Ayşe benim arkadaşım.", "s": "آیشه دوستِ من است." } },
-    { "id": "w14", "t": "bu", "s": "این", "pr": "بو", "emoji": "👉", "ex": { "t": "Bu kim? — Bu benim babam.", "s": "این کیست؟ — این پدرِ من است." } }
+    {
+      "id": "w01",
+      "t": "aile",
+      "pl": "aileler",
+      "s": "خانواده",
+      "pr": "آئیلِه",
+      "emoji": "👪",
+      "ex": {
+        "t": "Bu benim ailem.",
+        "s": "این خانواده‌ی من است."
+      }
+    },
+    {
+      "id": "w02",
+      "t": "anne",
+      "s": "مادر",
+      "pr": "آنِّه",
+      "emoji": "👩",
+      "ex": {
+        "t": "Annem öğretmen.",
+        "s": "مادرم معلم است."
+      }
+    },
+    {
+      "id": "w03",
+      "t": "baba",
+      "s": "پدر",
+      "pr": "بابا",
+      "emoji": "👨",
+      "ex": {
+        "t": "Babam doktor.",
+        "s": "پدرم دکتر است."
+      }
+    },
+    {
+      "id": "w04",
+      "t": "kız kardeş",
+      "s": "خواهر",
+      "pr": "کِز کاردِش",
+      "emoji": "",
+      "ex": {
+        "t": "Kız kardeşim on yaşında.",
+        "s": "خواهرم ده ساله است."
+      }
+    },
+    {
+      "id": "w05",
+      "t": "erkek kardeş",
+      "s": "برادر",
+      "pr": "اِرکِک کاردِش",
+      "emoji": "",
+      "ex": {
+        "t": "Erkek kardeşin kaç yaşında?",
+        "s": "برادرت چند سال دارد؟"
+      }
+    },
+    {
+      "id": "w06",
+      "t": "dede",
+      "s": "پدربزرگ",
+      "pr": "دِدِه",
+      "emoji": "👴",
+      "ex": {
+        "t": "Dedem Tebrizli.",
+        "s": "پدربزرگم تبریزی است."
+      }
+    },
+    {
+      "id": "w07",
+      "t": "büyükanne",
+      "s": "مادربزرگ",
+      "pr": "بویوک‌آنِّه",
+      "emoji": "👵",
+      "ex": {
+        "t": "Büyükannem Şirazlı.",
+        "s": "مادربزرگم شیرازی است."
+      }
+    },
+    {
+      "id": "w08",
+      "t": "eş",
+      "s": "همسر",
+      "pr": "اِش",
+      "emoji": "💍",
+      "ex": {
+        "t": "Eşim Maryam.",
+        "s": "همسرم مریم است."
+      }
+    },
+    {
+      "id": "w09",
+      "t": "kız",
+      "pl": "kızlar",
+      "s": "دختر",
+      "pr": "کِز",
+      "emoji": "👧",
+      "ex": {
+        "t": "Kızım Elif, sekiz yaşında.",
+        "s": "دخترم الیف است، هشت ساله است."
+      }
+    },
+    {
+      "id": "w10",
+      "t": "oğul",
+      "s": "پسر (فرزند)",
+      "pr": "اُئول",
+      "emoji": "👦",
+      "ex": {
+        "t": "Oğlum Can.",
+        "s": "پسرم جان است."
+      }
+    },
+    {
+      "id": "w11",
+      "t": "amca",
+      "s": "عمو",
+      "pr": "آمجا",
+      "emoji": "",
+      "ex": {
+        "t": "Amcam İstanbullu.",
+        "s": "عمویم استانبولی است."
+      }
+    },
+    {
+      "id": "w12",
+      "t": "dayı",
+      "s": "دایی",
+      "pr": "دایِ",
+      "emoji": "",
+      "ex": {
+        "t": "Dayın nereli?",
+        "s": "دایی‌ات اهل کجاست؟"
+      }
+    },
+    {
+      "id": "w13",
+      "t": "arkadaş",
+      "pl": "arkadaşlar",
+      "s": "دوست",
+      "pr": "آرکاداش",
+      "emoji": "🤝",
+      "ex": {
+        "t": "Ayşe benim arkadaşım.",
+        "s": "آیشه دوستِ من است."
+      }
+    },
+    {
+      "id": "w14",
+      "t": "bu",
+      "s": "این",
+      "pr": "بو",
+      "emoji": "👉",
+      "ex": {
+        "t": "Bu kim? — Bu benim babam.",
+        "s": "این کیست؟ — این پدرِ من است."
+      }
+    }
   ],
   "phrases": [
-    { "id": "p01", "t": "Bu kim?", "s": "این کیست؟", "pr": "بو کیم؟" },
-    { "id": "p02", "t": "Bu benim annem.", "s": "این مادرِ من است.", "pr": "بو بِنیم آنِّم" },
-    { "id": "p03", "t": "Senin adın ne?", "s": "اسمِ تو چیست؟", "pr": "سِنین آدِن نِه؟" },
-    { "id": "p04", "t": "Kardeşin var mı?", "s": "خواهر یا برادر داری؟", "pr": "کاردِشین وار مِ؟" },
-    { "id": "p05", "t": "Evet, bir kardeşim var.", "s": "بله، یک خواهر یا برادر دارم.", "pr": "اِوِت، بیر کاردِشیم وار" },
-    { "id": "p06", "t": "Ailen nasıl?", "s": "خانواده‌ات چطورند؟", "pr": "آئیلِن ناسِل؟" },
-    { "id": "p07", "t": "Ne güzel bir aile!", "s": "چه خانواده‌ی خوبی!", "pr": "نِه گوزِل بیر آئیلِه!" }
+    {
+      "id": "p01",
+      "t": "Bu kim?",
+      "s": "این کیست؟",
+      "pr": "بو کیم؟"
+    },
+    {
+      "id": "p02",
+      "t": "Bu benim annem.",
+      "s": "این مادرِ من است.",
+      "pr": "بو بِنیم آنِّم"
+    },
+    {
+      "id": "p03",
+      "t": "Senin adın ne?",
+      "s": "اسمِ تو چیست؟",
+      "pr": "سِنین آدِن نِه؟"
+    },
+    {
+      "id": "p04",
+      "t": "Kardeşin var mı?",
+      "s": "خواهر یا برادر داری؟",
+      "pr": "کاردِشین وار مِ؟"
+    },
+    {
+      "id": "p05",
+      "t": "Evet, bir kardeşim var.",
+      "s": "بله، یک خواهر یا برادر دارم.",
+      "pr": "اِوِت، بیر کاردِشیم وار"
+    },
+    {
+      "id": "p06",
+      "t": "Ailen nasıl?",
+      "s": "خانواده‌ات چطورند؟",
+      "pr": "آئیلِن ناسِل؟"
+    },
+    {
+      "id": "p07",
+      "t": "Ne güzel bir aile!",
+      "s": "چه خانواده‌ی خوبی!",
+      "pr": "نِه گوزِل بیر آئیلِه!"
+    }
   ],
   "dialogue": {
-    "title": { "t": "Aile fotoğrafı", "s": "عکسِ خانوادگی" },
-    "speakers": { "A": { "name": "Ayşe", "voice": "f" }, "B": { "name": "Reza", "voice": "m" } },
+    "title": {
+      "t": "Aile fotoğrafı",
+      "s": "عکسِ خانوادگی"
+    },
+    "speakers": {
+      "A": {
+        "name": "Ayşe",
+        "voice": "f"
+      },
+      "B": {
+        "name": "Reza",
+        "voice": "m"
+      }
+    },
     "lines": [
-      { "sp": "A", "t": "Bu kim, Reza?", "s": "این کیست، رضا؟" },
-      { "sp": "B", "t": "Bu benim annem. Adı Neda.", "s": "این مادرِ من است. اسمش نداست." },
-      { "sp": "A", "t": "Annen çok güzel! Peki bu kim?", "s": "مادرت خیلی زیباست! خب، این کیست؟" },
-      { "sp": "B", "t": "Bu babam. O doktor.", "s": "این پدرم است. او دکتر است." },
-      { "sp": "A", "t": "Kardeşin var mı?", "s": "خواهر یا برادر داری؟" },
-      { "sp": "B", "t": "Evet, bir kız kardeşim var. Adı Sara.", "s": "بله، یک خواهر دارم. اسمش ساراست." },
-      { "sp": "A", "t": "Sara kaç yaşında?", "s": "سارا چند سال دارد؟" },
-      { "sp": "B", "t": "On iki yaşında. O öğrenci.", "s": "دوازده سال دارد. او دانش‌آموز است." },
-      { "sp": "A", "t": "Ne güzel bir aile!", "s": "چه خانواده‌ی خوبی!" },
-      { "sp": "B", "t": "Teşekkürler, Ayşe!", "s": "ممنون، آیشه!" }
+      {
+        "sp": "A",
+        "t": "Bu kim, Reza?",
+        "s": "این کیست، رضا؟"
+      },
+      {
+        "sp": "B",
+        "t": "Bu benim annem. Adı Neda.",
+        "s": "این مادرِ من است. اسمش نداست."
+      },
+      {
+        "sp": "A",
+        "t": "Annen çok güzel! Peki bu kim?",
+        "s": "مادرت خیلی زیباست! خب، این کیست؟"
+      },
+      {
+        "sp": "B",
+        "t": "Bu babam. O doktor.",
+        "s": "این پدرم است. او دکتر است."
+      },
+      {
+        "sp": "A",
+        "t": "Kardeşin var mı?",
+        "s": "خواهر یا برادر داری؟"
+      },
+      {
+        "sp": "B",
+        "t": "Evet, bir kız kardeşim var. Adı Sara.",
+        "s": "بله، یک خواهر دارم. اسمش ساراست."
+      },
+      {
+        "sp": "A",
+        "t": "Sara kaç yaşında?",
+        "s": "سارا چند سال دارد؟"
+      },
+      {
+        "sp": "B",
+        "t": "On iki yaşında. O öğrenci.",
+        "s": "دوازده سال دارد. او دانش‌آموز است."
+      },
+      {
+        "sp": "A",
+        "t": "Ne güzel bir aile!",
+        "s": "چه خانواده‌ی خوبی!"
+      },
+      {
+        "sp": "B",
+        "t": "Teşekkürler, Ayşe!",
+        "s": "ممنون، آیشه!"
+      }
     ]
   },
   "grammar": [
     {
       "id": "g01",
-      "title": { "t": "Annem, annen, annesi", "s": "پسوندهای مالکیت: مادرم، مادرت، مادرش" },
+      "title": {
+        "t": "Annem, annen, annesi",
+        "s": "پسوندهای مالکیت: مادرم، مادرت، مادرش"
+      },
       "explain": "خبر خوب: ترکی هم برای «ـَم، ـَت، ـَش» پسوند دارد، درست مثل فارسی!\n**annem** = مادرم، **annen** = مادرت، **annesi** = مادرش.\nاگر کلمه با **حرف صدادار** تمام شود: **-m، -n، -sı / -si / -su / -sü** (anne ← annem، annen، annesi).\nاگر با **حرف بی‌صدا** تمام شود، اول یک حرف صدادار می‌آید: **-ım / -im / -um / -üm** (kardeş ← kardeşim، kardeşin، kardeşi).\nحرف صدادار باز هم از آخرین حرف صدادارِ کلمه پیروی می‌کند: **baba ← babam**، **okul ← okulum**.\nدو نکته‌ی کوچک: **kitap ← kitabım** (p به b تبدیل می‌شود) و **oğul ← oğlum** (یک حرف صدادار می‌افتد).\nکلمه‌های آشنا: **dayı** = دایی و **aile** = عائله (خانواده)!",
       "table": [
-        ["-(ı)m", "annem", "kardeşim"],
-        ["-(ı)n", "annen", "kardeşin"],
-        ["-(s)ı", "annesi", "kardeşi"],
-        ["-(ı)mız", "annemiz", "kardeşimiz"],
-        ["-(ı)nız", "anneniz", "kardeşiniz"],
-        ["-ları / -leri", "anneleri", "kardeşleri"]
+        [
+          "-(ı)m",
+          "annem",
+          "kardeşim"
+        ],
+        [
+          "-(ı)n",
+          "annen",
+          "kardeşin"
+        ],
+        [
+          "-(s)ı",
+          "annesi",
+          "kardeşi"
+        ],
+        [
+          "-(ı)mız",
+          "annemiz",
+          "kardeşimiz"
+        ],
+        [
+          "-(ı)nız",
+          "anneniz",
+          "kardeşiniz"
+        ],
+        [
+          "-ları / -leri",
+          "anneleri",
+          "kardeşleri"
+        ]
       ],
       "examples": [
-        { "t": "Annem Tahranlı.", "s": "مادرم تهرانی است." },
-        { "t": "Baban kaç yaşında?", "s": "پدرت چند سال دارد؟" },
-        { "t": "Kız kardeşi on yaşında.", "s": "خواهرش ده ساله است." },
-        { "t": "Arkadaşımız Türk.", "s": "دوستمان ترک است." },
-        { "t": "Oğlum öğrenci.", "s": "پسرم دانش‌آموز است." }
+        {
+          "t": "Annem Tahranlı.",
+          "s": "مادرم تهرانی است."
+        },
+        {
+          "t": "Baban kaç yaşında?",
+          "s": "پدرت چند سال دارد؟"
+        },
+        {
+          "t": "Kız kardeşi on yaşında.",
+          "s": "خواهرش ده ساله است."
+        },
+        {
+          "t": "Arkadaşımız Türk.",
+          "s": "دوستمان ترک است."
+        },
+        {
+          "t": "Oğlum öğrenci.",
+          "s": "پسرم دانش‌آموز است."
+        }
       ],
       "exercises": [
-        { "type": "choice", "t": "Anne___ öğretmen.", "options": ["m", "n", "si"], "answer": 0, "s": "مادرم معلم است." },
-        { "type": "choice", "t": "Kardeş___ kaç yaşında?", "options": ["im", "in", "i"], "answer": 1, "s": "برادرت چند سال دارد؟" },
-        { "type": "type", "t": "Baba___ doktor.", "answer": ["sı"], "s": "پدرش دکتر است." },
-        { "type": "type", "t": "Arkadaş___ İranlı.", "answer": ["ım"], "s": "دوستم ایرانی است." },
-        { "type": "choice", "t": "Okul___ çok güzel.", "options": ["umuz", "ımız", "imiz"], "answer": 0, "s": "مدرسه‌مان خیلی قشنگ است." },
-        { "type": "type", "t": "Bu benim kitab___.", "answer": ["ım"], "s": "این کتابِ من است." },
-        { "type": "order", "t": "Kız kardeşim yedi yaşında.", "s": "خواهرم هفت ساله است." }
+        {
+          "type": "choice",
+          "t": "Anne___ öğretmen.",
+          "options": [
+            "m",
+            "n",
+            "si"
+          ],
+          "answer": 0,
+          "s": "مادرم معلم است."
+        },
+        {
+          "type": "choice",
+          "t": "Kardeş___ kaç yaşında?",
+          "options": [
+            "im",
+            "in",
+            "i"
+          ],
+          "answer": 1,
+          "s": "برادرت چند سال دارد؟"
+        },
+        {
+          "type": "type",
+          "t": "Baba___ doktor.",
+          "answer": [
+            "sı"
+          ],
+          "s": "پدرش دکتر است."
+        },
+        {
+          "type": "type",
+          "t": "Arkadaş___ İranlı.",
+          "answer": [
+            "ım"
+          ],
+          "s": "دوستم ایرانی است."
+        },
+        {
+          "type": "choice",
+          "t": "Okul___ çok güzel.",
+          "options": [
+            "umuz",
+            "ımız",
+            "imiz"
+          ],
+          "answer": 0,
+          "s": "مدرسه‌مان خیلی قشنگ است."
+        },
+        {
+          "type": "type",
+          "t": "Bu benim kitab___.",
+          "answer": [
+            "ım"
+          ],
+          "s": "این کتابِ من است."
+        },
+        {
+          "type": "order",
+          "t": "Kız kardeşim yedi yaşında.",
+          "s": "خواهرم هفت ساله است."
+        }
       ]
     },
     {
       "id": "g02",
-      "title": { "t": "benim, senin, onun", "s": "مالِ من، مالِ تو، مالِ او" },
+      "title": {
+        "t": "benim, senin, onun",
+        "s": "مالِ من، مالِ تو، مالِ او"
+      },
       "explain": "**benim** یعنی «مالِ من» و **senin** یعنی «مالِ تو». این کلمه‌ها **قبل از** اسم می‌آیند، ولی پسوند مالکیت هم باید سرِ جایش بماند:\n**benim annem** = مادرِ من، **senin baban** = پدرِ تو، **onun kızı** = دخترِ او.\nمعمولاً می‌توانیم benim و senin را نگوییم، چون پسوند خودش همه چیز را می‌گوید: **Annem öğretmen.**\nوقتی می‌خواهیم تأکید کنیم، آن‌ها را می‌گوییم: **Bu benim kitabım.** = این کتابِ من است (نه کتابِ کسِ دیگر).",
       "table": [
-        ["ben → benim", "benim babam"],
-        ["sen → senin", "senin baban"],
-        ["o → onun", "onun babası"],
-        ["biz → bizim", "bizim babamız"],
-        ["siz → sizin", "sizin babanız"],
-        ["onlar → onların", "onların babaları"]
+        [
+          "ben → benim",
+          "benim babam"
+        ],
+        [
+          "sen → senin",
+          "senin baban"
+        ],
+        [
+          "o → onun",
+          "onun babası"
+        ],
+        [
+          "biz → bizim",
+          "bizim babamız"
+        ],
+        [
+          "siz → sizin",
+          "sizin babanız"
+        ],
+        [
+          "onlar → onların",
+          "onların babaları"
+        ]
       ],
       "examples": [
-        { "t": "Benim adım Maryam.", "s": "اسمِ من مریم است." },
-        { "t": "Senin adın ne?", "s": "اسمِ تو چیست؟" },
-        { "t": "Onun babası doktor.", "s": "پدرِ او دکتر است." },
-        { "t": "Bizim ailemiz büyük.", "s": "خانواده‌ی ما بزرگ است." },
-        { "t": "Sizin eviniz çok güzel.", "s": "خانه‌ی شما خیلی قشنگ است." }
+        {
+          "t": "Benim adım Maryam.",
+          "s": "اسمِ من مریم است."
+        },
+        {
+          "t": "Senin adın ne?",
+          "s": "اسمِ تو چیست؟"
+        },
+        {
+          "t": "Onun babası doktor.",
+          "s": "پدرِ او دکتر است."
+        },
+        {
+          "t": "Bizim ailemiz büyük.",
+          "s": "خانواده‌ی ما بزرگ است."
+        },
+        {
+          "t": "Sizin eviniz çok güzel.",
+          "s": "خانه‌ی شما خیلی قشنگ است."
+        }
       ],
       "exercises": [
-        { "type": "choice", "t": "___ annem Şirazlı.", "options": ["Benim", "Senin", "Onun"], "answer": 0, "s": "مادرِ من شیرازی است." },
-        { "type": "choice", "t": "Senin ___ ne?", "options": ["adım", "adın", "adı"], "answer": 1, "s": "اسمِ تو چیست؟" },
-        { "type": "choice", "t": "Onun ___ on yaşında.", "options": ["kızı", "kızım", "kızın"], "answer": 0, "s": "دخترِ او ده ساله است." },
-        { "type": "type", "t": "___ ailemiz büyük.", "answer": ["bizim"], "s": "خانواده‌ی ما بزرگ است." },
-        { "type": "type", "t": "___ babanız nereli?", "answer": ["sizin"], "s": "پدرِ شما اهل کجاست؟" },
-        { "type": "order", "t": "Bu benim arkadaşım Ayşe.", "s": "این دوستِ من آیشه است." }
+        {
+          "type": "choice",
+          "t": "___ annem Şirazlı.",
+          "options": [
+            "Benim",
+            "Senin",
+            "Onun"
+          ],
+          "answer": 0,
+          "s": "مادرِ من شیرازی است."
+        },
+        {
+          "type": "choice",
+          "t": "Senin ___ ne?",
+          "options": [
+            "adım",
+            "adın",
+            "adı"
+          ],
+          "answer": 1,
+          "s": "اسمِ تو چیست؟"
+        },
+        {
+          "type": "choice",
+          "t": "Onun ___ on yaşında.",
+          "options": [
+            "kızı",
+            "kızım",
+            "kızın"
+          ],
+          "answer": 0,
+          "s": "دخترِ او ده ساله است."
+        },
+        {
+          "type": "type",
+          "t": "___ ailemiz büyük.",
+          "answer": [
+            "bizim"
+          ],
+          "s": "خانواده‌ی ما بزرگ است."
+        },
+        {
+          "type": "type",
+          "t": "___ babanız nereli?",
+          "answer": [
+            "sizin"
+          ],
+          "s": "پدرِ شما اهل کجاست؟"
+        },
+        {
+          "type": "order",
+          "t": "Bu benim arkadaşım Ayşe.",
+          "s": "این دوستِ من آیشه است."
+        }
       ]
     }
   ],
   "reading": {
-    "title": { "t": "Maryam'ın ailesi", "s": "خانواده‌ی مریم" },
+    "title": {
+      "t": "Maryam'ın ailesi",
+      "s": "خانواده‌ی مریم"
+    },
     "text": [
-      { "t": "Merhaba! Benim adım Maryam.", "s": "سلام! اسمِ من مریم است." },
-      { "t": "Bu benim ailem.", "s": "این خانواده‌ی من است." },
-      { "t": "Eşim Ali. O öğretmen.", "s": "همسرم علی است. او معلم است." },
-      { "t": "Kızımız Elif, sekiz yaşında.", "s": "دخترمان الیف است، هشت ساله است." },
-      { "t": "Oğlumuz Can, beş yaşında.", "s": "پسرمان جان است، پنج ساله است." },
-      { "t": "Annem ve babam Tebrizli.", "s": "مادر و پدرم تبریزی هستند." },
-      { "t": "Dayım doktor.", "s": "دایی‌ام دکتر است." },
-      { "t": "Ailemiz büyük.", "s": "خانواده‌ی ما بزرگ است." }
+      {
+        "t": "Merhaba! Benim adım Maryam.",
+        "s": "سلام! اسمِ من مریم است."
+      },
+      {
+        "t": "Bu benim ailem.",
+        "s": "این خانواده‌ی من است."
+      },
+      {
+        "t": "Eşim Ali. O öğretmen.",
+        "s": "همسرم علی است. او معلم است."
+      },
+      {
+        "t": "Kızımız Elif, sekiz yaşında.",
+        "s": "دخترمان الیف است، هشت ساله است."
+      },
+      {
+        "t": "Oğlumuz Can, beş yaşında.",
+        "s": "پسرمان جان است، پنج ساله است."
+      },
+      {
+        "t": "Annem ve babam Tebrizli.",
+        "s": "مادر و پدرم تبریزی هستند."
+      },
+      {
+        "t": "Dayım doktor.",
+        "s": "دایی‌ام دکتر است."
+      },
+      {
+        "t": "Ailemiz büyük.",
+        "s": "خانواده‌ی ما بزرگ است."
+      }
     ],
     "questions": [
-      { "q": { "t": "Maryam'ın eşi kim?", "s": "همسرِ مریم کیست؟" }, "options": ["Ali", "Can", "Reza"], "answer": 0 },
-      { "q": { "t": "Elif kaç yaşında?", "s": "الیف چند سال دارد؟" }, "options": ["beş", "sekiz", "on"], "answer": 1 },
-      { "q": { "t": "Kim öğretmen?", "s": "چه کسی معلم است؟" }, "options": ["Can", "Ali", "Elif"], "answer": 1 },
-      { "q": { "t": "Maryam'ın annesi nereli?", "s": "مادرِ مریم اهل کجاست؟" }, "options": ["Tebrizli", "İstanbullu", "Şirazlı"], "answer": 0 }
+      {
+        "q": {
+          "t": "Maryam'ın eşi kim?",
+          "s": "همسرِ مریم کیست؟"
+        },
+        "options": [
+          "Ali",
+          "Can",
+          "Reza"
+        ],
+        "answer": 0
+      },
+      {
+        "q": {
+          "t": "Elif kaç yaşında?",
+          "s": "الیف چند سال دارد؟"
+        },
+        "options": [
+          "beş",
+          "sekiz",
+          "on"
+        ],
+        "answer": 1
+      },
+      {
+        "q": {
+          "t": "Kim öğretmen?",
+          "s": "چه کسی معلم است؟"
+        },
+        "options": [
+          "Can",
+          "Ali",
+          "Elif"
+        ],
+        "answer": 1
+      },
+      {
+        "q": {
+          "t": "Maryam'ın annesi nereli?",
+          "s": "مادرِ مریم اهل کجاست؟"
+        },
+        "options": [
+          "Tebrizli",
+          "İstanbullu",
+          "Şirazlı"
+        ],
+        "answer": 0
+      }
     ]
   },
   "sentences": [
-    { "t": "Bu benim babam.", "s": "این پدرِ من است." },
-    { "t": "Annen nereli?", "s": "مادرت اهل کجاست؟" },
-    { "t": "Kız kardeşim on beş yaşında.", "s": "خواهرم پانزده ساله است." },
-    { "t": "Dedem ve büyükannem Şirazlı.", "s": "پدربزرگ و مادربزرگم شیرازی هستند." },
-    { "t": "Onun oğlu öğrenci.", "s": "پسرِ او دانش‌آموز است." },
-    { "t": "Bizim ailemiz büyük.", "s": "خانواده‌ی ما بزرگ است." },
-    { "t": "Arkadaşım Mehmet Türk.", "s": "دوستم مهمت ترک است." },
-    { "t": "Senin adın ne?", "s": "اسمِ تو چیست؟" }
+    {
+      "t": "Bu benim babam.",
+      "s": "این پدرِ من است."
+    },
+    {
+      "t": "Annen nereli?",
+      "s": "مادرت اهل کجاست؟"
+    },
+    {
+      "t": "Kız kardeşim on beş yaşında.",
+      "s": "خواهرم پانزده ساله است."
+    },
+    {
+      "t": "Dedem ve büyükannem Şirazlı.",
+      "s": "پدربزرگ و مادربزرگم شیرازی هستند."
+    },
+    {
+      "t": "Onun oğlu öğrenci.",
+      "s": "پسرِ او دانش‌آموز است."
+    },
+    {
+      "t": "Bizim ailemiz büyük.",
+      "s": "خانواده‌ی ما بزرگ است."
+    },
+    {
+      "t": "Arkadaşım Mehmet Türk.",
+      "s": "دوستم مهمت ترک است."
+    },
+    {
+      "t": "Senin adın ne?",
+      "s": "اسمِ تو چیست؟"
+    }
   ]
 }

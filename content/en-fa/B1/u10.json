@@ -29,7 +29,7 @@
       "t": "robot",
       "pl": "robots",
       "s": "ربات",
-      "pr": "روبات",
+      "pr": "رُوبات",
       "emoji": "🤖",
       "ex": {
         "t": "This robot can clean the whole house.",
@@ -64,7 +64,7 @@
       "id": "w05",
       "t": "download",
       "s": "دانلود کردن، بارگیری کردن",
-      "pr": "دائونلود",
+      "pr": "داونلُود",
       "emoji": "📥",
       "ex": {
         "t": "You can download the app for free.",
@@ -158,7 +158,7 @@
       "t": "smart home",
       "pl": "smart homes",
       "s": "خانه‌ی هوشمند",
-      "pr": "سْمارت هوم",
+      "pr": "سْمارت هُوم",
       "emoji": "🏠",
       "ex": {
         "t": "In a smart home, you can turn on the lights with your voice.",
@@ -180,7 +180,7 @@
       "id": "w15",
       "t": "probably",
       "s": "احتمالاً",
-      "pr": "پْرابابْلی",
+      "pr": "پْرابِبْلی",
       "emoji": "",
       "ex": {
         "t": "It will probably rain this weekend.",
@@ -199,7 +199,7 @@
       "id": "p02",
       "t": "I doubt it.",
       "s": "بعید می‌دانم.",
-      "pr": "آی دائوت ایت"
+      "pr": "آی داوت ایت"
     },
     {
       "id": "p03",
@@ -229,13 +229,13 @@
       "id": "p07",
       "t": "Who knows?",
       "s": "کسی چه می‌داند؟",
-      "pr": "هو نوز؟"
+      "pr": "هو نُوز؟"
     },
     {
       "id": "p08",
       "t": "That sounds a bit scary.",
       "s": "کمی ترسناک به نظر می‌رسد.",
-      "pr": "ذَت سائوندز اِ بیت سْکِری"
+      "pr": "ذَت ساوندز اِ بیت سْکِری"
     }
   ],
   "dialogue": {

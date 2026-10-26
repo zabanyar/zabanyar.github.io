@@ -2,7 +2,10 @@
   "id": "u06",
   "level": "A1",
   "emoji": "⏰",
-  "title": { "t": "Mein Tag", "s": "My day" },
+  "title": {
+    "t": "Mein Tag",
+    "s": "My day"
+  },
   "goals": [
     "Ask and tell the time (full hours, half hours, quarters)",
     "Talk about your daily routine",
@@ -10,146 +13,621 @@
     "Put the verb in second position"
   ],
   "words": [
-    { "id": "w01", "t": "die Uhr", "pl": "die Uhren", "s": "clock; watch", "emoji": "🕒",
-      "ex": { "t": "Das ist meine Uhr.", "s": "This is my watch." } },
-    { "id": "w02", "t": "der Morgen", "pl": "die Morgen", "s": "morning", "emoji": "🌅",
-      "ex": { "t": "Guten Morgen, Mama!", "s": "Good morning, Mom!" } },
-    { "id": "w03", "t": "der Abend", "pl": "die Abende", "s": "evening", "emoji": "🌆",
-      "ex": { "t": "Guten Abend, Frau Müller!", "s": "Good evening, Ms. Müller!" } },
-    { "id": "w04", "t": "das Mittagessen", "pl": "die Mittagessen", "s": "lunch", "emoji": "🍽️",
-      "ex": { "t": "Das Mittagessen ist um zwölf Uhr.", "s": "Lunch is at twelve o'clock." } },
-    { "id": "w05", "t": "aufstehen", "s": "to get up", "emoji": "⏰",
-      "ex": { "t": "Ich stehe um sechs Uhr auf.", "s": "I get up at six o'clock." } },
-    { "id": "w06", "t": "frühstücken", "s": "to have breakfast", "emoji": "🍳",
-      "ex": { "t": "Wir frühstücken um sieben Uhr.", "s": "We have breakfast at seven o'clock." } },
-    { "id": "w07", "t": "arbeiten", "s": "to work", "emoji": "💼",
-      "ex": { "t": "Mein Vater arbeitet jeden Tag.", "s": "My father works every day." } },
-    { "id": "w08", "t": "einkaufen", "s": "to go shopping", "emoji": "🛒",
-      "ex": { "t": "Am Abend kaufe ich ein.", "s": "In the evening I go shopping." } },
-    { "id": "w09", "t": "anrufen", "s": "to call (on the phone)", "emoji": "📞",
-      "ex": { "t": "Ich rufe meine Mutter an.", "s": "I call my mother." } },
-    { "id": "w10", "t": "fernsehen", "s": "to watch TV", "emoji": "📺",
-      "ex": { "t": "Am Abend sehen wir fern.", "s": "In the evening we watch TV." } },
-    { "id": "w11", "t": "schlafen", "s": "to sleep", "emoji": "😴",
-      "ex": { "t": "Um elf Uhr schlafe ich.", "s": "I go to sleep at eleven o'clock." } },
-    { "id": "w12", "t": "halb", "s": "half (halb acht = 7:30)", "emoji": "🕢",
-      "ex": { "t": "Es ist halb acht.", "s": "It's seven thirty." } },
-    { "id": "w13", "t": "spät", "s": "late", "emoji": "",
-      "ex": { "t": "Oh, es ist spät!", "s": "Oh, it's late!" } },
-    { "id": "w14", "t": "dann", "s": "then", "emoji": "",
-      "ex": { "t": "Ich stehe auf. Dann frühstücke ich.", "s": "I get up. Then I have breakfast." } }
+    {
+      "id": "w01",
+      "t": "die Uhr",
+      "pl": "die Uhren",
+      "s": "clock; watch",
+      "emoji": "🕒",
+      "ex": {
+        "t": "Das ist meine Uhr.",
+        "s": "This is my watch."
+      }
+    },
+    {
+      "id": "w02",
+      "t": "der Morgen",
+      "pl": "die Morgen",
+      "s": "morning",
+      "emoji": "🌅",
+      "ex": {
+        "t": "Guten Morgen, Mama!",
+        "s": "Good morning, Mom!"
+      }
+    },
+    {
+      "id": "w03",
+      "t": "der Abend",
+      "pl": "die Abende",
+      "s": "evening",
+      "emoji": "🌆",
+      "ex": {
+        "t": "Guten Abend, Frau Müller!",
+        "s": "Good evening, Ms. Müller!"
+      }
+    },
+    {
+      "id": "w04",
+      "t": "das Mittagessen",
+      "pl": "die Mittagessen",
+      "s": "lunch",
+      "emoji": "🍽️",
+      "ex": {
+        "t": "Das Mittagessen ist um zwölf Uhr.",
+        "s": "Lunch is at twelve o'clock."
+      }
+    },
+    {
+      "id": "w05",
+      "t": "aufstehen",
+      "s": "to get up",
+      "emoji": "⏰",
+      "ex": {
+        "t": "Ich stehe um sechs Uhr auf.",
+        "s": "I get up at six o'clock."
+      }
+    },
+    {
+      "id": "w06",
+      "t": "frühstücken",
+      "s": "to have breakfast",
+      "emoji": "🍳",
+      "ex": {
+        "t": "Wir frühstücken um sieben Uhr.",
+        "s": "We have breakfast at seven o'clock."
+      }
+    },
+    {
+      "id": "w07",
+      "t": "arbeiten",
+      "s": "to work",
+      "emoji": "💼",
+      "ex": {
+        "t": "Mein Vater arbeitet jeden Tag.",
+        "s": "My father works every day."
+      }
+    },
+    {
+      "id": "w08",
+      "t": "einkaufen",
+      "s": "to go shopping",
+      "emoji": "🛒",
+      "ex": {
+        "t": "Am Abend kaufe ich ein.",
+        "s": "In the evening I go shopping."
+      }
+    },
+    {
+      "id": "w09",
+      "t": "anrufen",
+      "s": "to call (on the phone)",
+      "emoji": "📞",
+      "ex": {
+        "t": "Ich rufe meine Mutter an.",
+        "s": "I call my mother."
+      }
+    },
+    {
+      "id": "w10",
+      "t": "fernsehen",
+      "s": "to watch TV",
+      "emoji": "📺",
+      "ex": {
+        "t": "Am Abend sehen wir fern.",
+        "s": "In the evening we watch TV."
+      }
+    },
+    {
+      "id": "w11",
+      "t": "schlafen",
+      "s": "to sleep",
+      "emoji": "😴",
+      "ex": {
+        "t": "Um elf Uhr schlafe ich.",
+        "s": "I go to sleep at eleven o'clock."
+      }
+    },
+    {
+      "id": "w12",
+      "t": "halb",
+      "s": "half (halb acht = 7:30)",
+      "emoji": "🕢",
+      "ex": {
+        "t": "Es ist halb acht.",
+        "s": "It's seven thirty."
+      }
+    },
+    {
+      "id": "w13",
+      "t": "spät",
+      "s": "late",
+      "emoji": "",
+      "ex": {
+        "t": "Oh, es ist spät!",
+        "s": "Oh, it's late!"
+      }
+    },
+    {
+      "id": "w14",
+      "t": "dann",
+      "s": "then",
+      "emoji": "",
+      "ex": {
+        "t": "Ich stehe auf. Dann frühstücke ich.",
+        "s": "I get up. Then I have breakfast."
+      }
+    }
   ],
   "phrases": [
-    { "id": "p01", "t": "Wie spät ist es?", "s": "What time is it?" },
-    { "id": "p02", "t": "Es ist sieben Uhr.", "s": "It's seven o'clock." },
-    { "id": "p03", "t": "Wann stehst du auf?", "s": "When do you get up?" },
-    { "id": "p04", "t": "um acht Uhr", "s": "at eight o'clock" },
-    { "id": "p05", "t": "am Morgen / am Abend", "s": "in the morning / in the evening" },
-    { "id": "p06", "t": "jeden Tag", "s": "every day" },
-    { "id": "p07", "t": "Viertel nach drei", "s": "a quarter past three" },
-    { "id": "p08", "t": "von acht bis vier Uhr", "s": "from eight to four o'clock" }
+    {
+      "id": "p01",
+      "t": "Wie spät ist es?",
+      "s": "What time is it?"
+    },
+    {
+      "id": "p02",
+      "t": "Es ist sieben Uhr.",
+      "s": "It's seven o'clock."
+    },
+    {
+      "id": "p03",
+      "t": "Wann stehst du auf?",
+      "s": "When do you get up?"
+    },
+    {
+      "id": "p04",
+      "t": "um acht Uhr",
+      "s": "at eight o'clock"
+    },
+    {
+      "id": "p05",
+      "t": "am Morgen / am Abend",
+      "s": "in the morning / in the evening"
+    },
+    {
+      "id": "p06",
+      "t": "jeden Tag",
+      "s": "every day"
+    },
+    {
+      "id": "p07",
+      "t": "Viertel nach drei",
+      "s": "a quarter past three"
+    },
+    {
+      "id": "p08",
+      "t": "von acht bis vier Uhr",
+      "s": "from eight to four o'clock"
+    }
   ],
   "dialogue": {
-    "title": { "t": "Wann stehst du auf?", "s": "When do you get up?" },
-    "speakers": { "A": { "name": "Anna", "voice": "f" }, "B": { "name": "Reza", "voice": "m" } },
+    "title": {
+      "t": "Wann stehst du auf?",
+      "s": "When do you get up?"
+    },
+    "speakers": {
+      "A": {
+        "name": "Anna",
+        "voice": "f"
+      },
+      "B": {
+        "name": "Reza",
+        "voice": "m"
+      }
+    },
     "lines": [
-      { "sp": "A", "t": "Guten Morgen, Reza! Wie spät ist es?", "s": "Good morning, Reza! What time is it?" },
-      { "sp": "B", "t": "Guten Morgen, Anna! Es ist halb acht.", "s": "Good morning, Anna! It's seven thirty." },
-      { "sp": "A", "t": "Wann stehst du auf?", "s": "When do you get up?" },
-      { "sp": "B", "t": "Ich stehe um sechs Uhr auf. Dann frühstücke ich.", "s": "I get up at six o'clock. Then I have breakfast." },
-      { "sp": "A", "t": "Und wann arbeitest du?", "s": "And when do you work?" },
-      { "sp": "B", "t": "Ich arbeite von acht bis vier Uhr. Und du?", "s": "I work from eight to four o'clock. And you?" },
-      { "sp": "A", "t": "Ich arbeite am Morgen. Am Abend kaufe ich ein.", "s": "I work in the morning. In the evening I go shopping." },
-      { "sp": "B", "t": "Am Abend sehe ich fern. Oh, es ist spät! Tschüss, Anna!", "s": "In the evening I watch TV. Oh, it's late! Bye, Anna!" }
+      {
+        "sp": "A",
+        "t": "Guten Morgen, Reza! Wie spät ist es?",
+        "s": "Good morning, Reza! What time is it?"
+      },
+      {
+        "sp": "B",
+        "t": "Guten Morgen, Anna! Es ist halb acht.",
+        "s": "Good morning, Anna! It's seven thirty."
+      },
+      {
+        "sp": "A",
+        "t": "Wann stehst du auf?",
+        "s": "When do you get up?"
+      },
+      {
+        "sp": "B",
+        "t": "Ich stehe um sechs Uhr auf. Dann frühstücke ich.",
+        "s": "I get up at six o'clock. Then I have breakfast."
+      },
+      {
+        "sp": "A",
+        "t": "Und wann arbeitest du?",
+        "s": "And when do you work?"
+      },
+      {
+        "sp": "B",
+        "t": "Ich arbeite von acht bis vier Uhr. Und du?",
+        "s": "I work from eight to four o'clock. And you?"
+      },
+      {
+        "sp": "A",
+        "t": "Ich arbeite am Morgen. Am Abend kaufe ich ein.",
+        "s": "I work in the morning. In the evening I go shopping."
+      },
+      {
+        "sp": "B",
+        "t": "Am Abend sehe ich fern. Oh, es ist spät! Tschüss, Anna!",
+        "s": "In the evening I watch TV. Oh, it's late! Bye, Anna!"
+      }
     ]
   },
   "grammar": [
     {
       "id": "g01",
-      "title": { "t": "Wie spät ist es?", "s": "Telling the time" },
-      "explain": "To ask the time, say **Wie spät ist es?** or **Wie viel Uhr ist es?** The answer starts with **Es ist …**\nFull hours are easy: **Es ist sieben Uhr.** (7:00)\nHalf hours are tricky! German looks *forward* to the next hour: **halb acht** means \"half way to eight\" = **7:30**, not 8:30.\nQuarters: **Viertel nach drei** (3:15) and **Viertel vor vier** (3:45).\nTo say *at* a time, use **um**: **um sieben Uhr** (at seven o'clock).",
+      "title": {
+        "t": "Wie spät ist es?",
+        "s": "Telling the time"
+      },
+      "explain": "To ask the time, say **Wie spät ist es?** or **Wie viel Uhr ist es?** The answer starts with **Es ist …**\nFull hours are easy: **Es ist sieben Uhr.** (7:00)\nHalf hours are tricky! German looks *forward* to the next hour: **halb acht** means \"halfway to eight\" = **7:30**, not 8:30.\nQuarters: **Viertel nach drei** (3:15) and **Viertel vor vier** (3:45).\nTo say *at* a time, use **um**: **um sieben Uhr** (at seven o'clock).",
       "table": [
-        ["7:00", "Es ist sieben Uhr."],
-        ["7:30", "Es ist halb acht."],
-        ["3:15", "Es ist Viertel nach drei."],
-        ["3:45", "Es ist Viertel vor vier."],
-        ["12:00", "Es ist zwölf Uhr."]
+        [
+          "7:00",
+          "Es ist sieben Uhr."
+        ],
+        [
+          "7:30",
+          "Es ist halb acht."
+        ],
+        [
+          "3:15",
+          "Es ist Viertel nach drei."
+        ],
+        [
+          "3:45",
+          "Es ist Viertel vor vier."
+        ],
+        [
+          "12:00",
+          "Es ist zwölf Uhr."
+        ]
       ],
       "examples": [
-        { "t": "Es ist neun Uhr.", "s": "It's nine o'clock." },
-        { "t": "Es ist halb elf.", "s": "It's ten thirty." },
-        { "t": "Es ist Viertel nach zwei.", "s": "It's a quarter past two." },
-        { "t": "Wir essen um halb eins.", "s": "We eat at twelve thirty." }
+        {
+          "t": "Es ist neun Uhr.",
+          "s": "It's nine o'clock."
+        },
+        {
+          "t": "Es ist halb elf.",
+          "s": "It's ten thirty."
+        },
+        {
+          "t": "Es ist Viertel nach zwei.",
+          "s": "It's a quarter past two."
+        },
+        {
+          "t": "Wir essen um halb eins.",
+          "s": "We eat at twelve thirty."
+        }
       ],
       "exercises": [
-        { "type": "choice", "t": "7:30 – Es ist ___.", "options": ["halb sieben", "halb acht", "sieben Uhr"], "answer": 1, "s": "It's seven thirty." },
-        { "type": "choice", "t": "3:15 – Es ist ___ nach drei.", "options": ["halb", "Uhr", "Viertel"], "answer": 2, "s": "It's a quarter past three." },
-        { "type": "choice", "t": "Wir frühstücken ___ sieben Uhr.", "options": ["um", "am", "es"], "answer": 0, "s": "We have breakfast at seven o'clock." },
-        { "type": "type", "t": "Wie ___ ist es?", "answer": ["spät", "spaet"], "s": "What time is it?" },
-        { "type": "type", "t": "8:00 – Es ist acht ___.", "answer": ["Uhr"], "s": "It's eight o'clock." },
-        { "type": "choice", "t": "4:30 – Es ist ___.", "options": ["halb vier", "vier Uhr", "halb fünf"], "answer": 2, "s": "It's four thirty." },
-        { "type": "order", "t": "Es ist halb neun.", "s": "It's eight thirty." },
-        { "type": "order", "t": "Wie spät ist es?", "s": "What time is it?" }
+        {
+          "type": "choice",
+          "t": "7:30 – Es ist ___.",
+          "options": [
+            "halb sieben",
+            "halb acht",
+            "sieben Uhr"
+          ],
+          "answer": 1,
+          "s": "It's seven thirty."
+        },
+        {
+          "type": "choice",
+          "t": "3:15 – Es ist ___ nach drei.",
+          "options": [
+            "halb",
+            "Uhr",
+            "Viertel"
+          ],
+          "answer": 2,
+          "s": "It's a quarter past three."
+        },
+        {
+          "type": "choice",
+          "t": "Wir frühstücken ___ sieben Uhr.",
+          "options": [
+            "um",
+            "am",
+            "es"
+          ],
+          "answer": 0,
+          "s": "We have breakfast at seven o'clock."
+        },
+        {
+          "type": "type",
+          "t": "Wie ___ ist es?",
+          "answer": [
+            "spät",
+            "spaet"
+          ],
+          "s": "What time is it?"
+        },
+        {
+          "type": "type",
+          "t": "8:00 – Es ist acht ___.",
+          "answer": [
+            "Uhr"
+          ],
+          "s": "It's eight o'clock."
+        },
+        {
+          "type": "choice",
+          "t": "4:30 – Es ist ___.",
+          "options": [
+            "halb vier",
+            "vier Uhr",
+            "halb fünf"
+          ],
+          "answer": 2,
+          "s": "It's four thirty."
+        },
+        {
+          "type": "order",
+          "t": "Es ist halb neun.",
+          "s": "It's eight thirty."
+        },
+        {
+          "type": "order",
+          "t": "Wie spät ist es?",
+          "s": "What time is it?"
+        }
       ]
     },
     {
       "id": "g02",
-      "title": { "t": "Ich stehe um sechs Uhr auf.", "s": "Separable verbs & the verb in 2nd position" },
+      "title": {
+        "t": "Ich stehe um sechs Uhr auf.",
+        "s": "Separable verbs & the verb in 2nd position"
+      },
       "explain": "Some German verbs have a small front part (a prefix) that **separates**: **auf|stehen**, **ein|kaufen**, **an|rufen**, **fern|sehen**.\nIn a sentence, the main part of the verb gets the normal ending and the prefix jumps to the **end**: **Ich stehe um sechs Uhr auf.**\nAnother key rule: in a German statement the verb is always the **second element**. If you start with a time, the subject moves behind the verb: **Um sechs Uhr stehe ich auf.** / **Am Abend sehen wir fern.**\nWatch out: a few verbs change their vowel with du and er/sie: **du siehst fern, er sieht fern**; **du schläfst, sie schläft**. And **arbeiten** adds an **e**: **du arbeitest, er arbeitet**.",
       "table": [
-        ["ich", "stehe … auf"],
-        ["du", "stehst … auf"],
-        ["er / sie / es", "steht … auf"],
-        ["wir", "stehen … auf"],
-        ["ihr", "steht … auf"],
-        ["sie / Sie", "stehen … auf"]
+        [
+          "ich",
+          "stehe … auf"
+        ],
+        [
+          "du",
+          "stehst … auf"
+        ],
+        [
+          "er / sie / es",
+          "steht … auf"
+        ],
+        [
+          "wir",
+          "stehen … auf"
+        ],
+        [
+          "ihr",
+          "steht … auf"
+        ],
+        [
+          "sie / Sie",
+          "stehen … auf"
+        ]
       ],
       "examples": [
-        { "t": "Ich rufe meine Schwester an.", "s": "I call my sister." },
-        { "t": "Wann stehst du auf?", "s": "When do you get up?" },
-        { "t": "Um sieben Uhr frühstücken wir.", "s": "At seven o'clock we have breakfast." },
-        { "t": "Am Abend kauft Ali ein.", "s": "In the evening Ali goes shopping." },
-        { "t": "Lukas sieht am Abend fern.", "s": "Lukas watches TV in the evening." }
+        {
+          "t": "Ich rufe meine Schwester an.",
+          "s": "I call my sister."
+        },
+        {
+          "t": "Wann stehst du auf?",
+          "s": "When do you get up?"
+        },
+        {
+          "t": "Um sieben Uhr frühstücken wir.",
+          "s": "At seven o'clock we have breakfast."
+        },
+        {
+          "t": "Am Abend kauft Ali ein.",
+          "s": "In the evening Ali goes shopping."
+        },
+        {
+          "t": "Lukas sieht am Abend fern.",
+          "s": "Lukas watches TV in the evening."
+        }
       ],
       "exercises": [
-        { "type": "choice", "t": "Ich ___ um sechs Uhr auf.", "options": ["stehen", "stehe", "aufstehe"], "answer": 1, "s": "I get up at six o'clock." },
-        { "type": "choice", "t": "Am Abend ___ wir fern.", "options": ["sehen", "sieht", "fernsehen"], "answer": 0, "s": "In the evening we watch TV." },
-        { "type": "type", "t": "Sara ruft Ali ___.", "answer": ["an"], "s": "Sara calls Ali." },
-        { "type": "type", "t": "Ich kaufe am Abend ___.", "answer": ["ein"], "s": "I go shopping in the evening." },
-        { "type": "choice", "t": "Um sieben Uhr ___.", "options": ["ich frühstücke", "frühstücken ich", "frühstücke ich"], "answer": 2, "s": "At seven o'clock I have breakfast." },
-        { "type": "type", "t": "Wann ___ du auf?", "answer": ["stehst"], "s": "When do you get up?" },
-        { "type": "order", "t": "Ich stehe um sechs Uhr auf.", "s": "I get up at six o'clock." },
-        { "type": "order", "t": "Am Abend sehen wir fern.", "s": "In the evening we watch TV." }
+        {
+          "type": "choice",
+          "t": "Ich ___ um sechs Uhr auf.",
+          "options": [
+            "stehen",
+            "stehe",
+            "aufstehe"
+          ],
+          "answer": 1,
+          "s": "I get up at six o'clock."
+        },
+        {
+          "type": "choice",
+          "t": "Am Abend ___ wir fern.",
+          "options": [
+            "sehen",
+            "sieht",
+            "fernsehen"
+          ],
+          "answer": 0,
+          "s": "In the evening we watch TV."
+        },
+        {
+          "type": "type",
+          "t": "Sara ruft Ali ___.",
+          "answer": [
+            "an"
+          ],
+          "s": "Sara calls Ali."
+        },
+        {
+          "type": "type",
+          "t": "Ich kaufe am Abend ___.",
+          "answer": [
+            "ein"
+          ],
+          "s": "I go shopping in the evening."
+        },
+        {
+          "type": "choice",
+          "t": "Um sieben Uhr ___.",
+          "options": [
+            "ich frühstücke",
+            "frühstücken ich",
+            "frühstücke ich"
+          ],
+          "answer": 2,
+          "s": "At seven o'clock I have breakfast."
+        },
+        {
+          "type": "type",
+          "t": "Wann ___ du auf?",
+          "answer": [
+            "stehst"
+          ],
+          "s": "When do you get up?"
+        },
+        {
+          "type": "order",
+          "t": "Ich stehe um sechs Uhr auf.",
+          "s": "I get up at six o'clock."
+        },
+        {
+          "type": "order",
+          "t": "Am Abend sehen wir fern.",
+          "s": "In the evening we watch TV."
+        }
       ]
     }
   ],
   "reading": {
-    "title": { "t": "Maryams Tag", "s": "Maryam's day" },
+    "title": {
+      "t": "Maryams Tag",
+      "s": "Maryam's day"
+    },
     "text": [
-      { "t": "Hallo! Ich heiße Maryam.", "s": "Hello! My name is Maryam." },
-      { "t": "Ich stehe jeden Tag um halb sieben auf.", "s": "I get up at six thirty every day." },
-      { "t": "Um sieben Uhr frühstücken Ali und ich.", "s": "At seven o'clock Ali and I have breakfast." },
-      { "t": "Wir essen Brot und Käse. Ich trinke Tee.", "s": "We eat bread and cheese. I drink tea." },
-      { "t": "Dann arbeite ich von acht bis zwei Uhr.", "s": "Then I work from eight to two o'clock." },
-      { "t": "Am Abend kaufe ich ein.", "s": "In the evening I go shopping." },
-      { "t": "Dann rufe ich meine Schwester an.", "s": "Then I call my sister." },
-      { "t": "Um zehn Uhr schlafe ich. Gute Nacht!", "s": "I go to sleep at ten o'clock. Good night!" }
+      {
+        "t": "Hallo! Ich heiße Maryam.",
+        "s": "Hello! My name is Maryam."
+      },
+      {
+        "t": "Ich stehe jeden Tag um halb sieben auf.",
+        "s": "I get up at six thirty every day."
+      },
+      {
+        "t": "Um sieben Uhr frühstücken Ali und ich.",
+        "s": "At seven o'clock Ali and I have breakfast."
+      },
+      {
+        "t": "Wir essen Brot und Käse. Ich trinke Tee.",
+        "s": "We eat bread and cheese. I drink tea."
+      },
+      {
+        "t": "Dann arbeite ich von acht bis zwei Uhr.",
+        "s": "Then I work from eight to two o'clock."
+      },
+      {
+        "t": "Am Abend kaufe ich ein.",
+        "s": "In the evening I go shopping."
+      },
+      {
+        "t": "Dann rufe ich meine Schwester an.",
+        "s": "Then I call my sister."
+      },
+      {
+        "t": "Um zehn Uhr schlafe ich. Gute Nacht!",
+        "s": "I go to sleep at ten o'clock. Good night!"
+      }
     ],
     "questions": [
-      { "q": { "t": "Wann steht Maryam auf?", "s": "When does Maryam get up?" }, "options": ["um sieben Uhr", "um halb sieben", "um halb acht"], "answer": 1 },
-      { "q": { "t": "Was trinkt Maryam?", "s": "What does Maryam drink?" }, "options": ["Tee", "Kaffee", "Milch"], "answer": 0 },
-      { "q": { "t": "Was macht Maryam am Abend?", "s": "What does Maryam do in the evening?" }, "options": ["Sie arbeitet.", "Sie frühstückt.", "Sie kauft ein."], "answer": 2 },
-      { "q": { "t": "Wann schläft Maryam?", "s": "When does Maryam go to sleep?" }, "options": ["um zwei Uhr", "um zehn Uhr", "um acht Uhr"], "answer": 1 }
+      {
+        "q": {
+          "t": "Wann steht Maryam auf?",
+          "s": "When does Maryam get up?"
+        },
+        "options": [
+          "um sieben Uhr",
+          "um halb sieben",
+          "um halb acht"
+        ],
+        "answer": 1
+      },
+      {
+        "q": {
+          "t": "Was trinkt Maryam?",
+          "s": "What does Maryam drink?"
+        },
+        "options": [
+          "Tee",
+          "Kaffee",
+          "Milch"
+        ],
+        "answer": 0
+      },
+      {
+        "q": {
+          "t": "Was macht Maryam am Abend?",
+          "s": "What does Maryam do in the evening?"
+        },
+        "options": [
+          "Sie arbeitet.",
+          "Sie frühstückt.",
+          "Sie kauft ein."
+        ],
+        "answer": 2
+      },
+      {
+        "q": {
+          "t": "Wann schläft Maryam?",
+          "s": "When does Maryam go to sleep?"
+        },
+        "options": [
+          "um zwei Uhr",
+          "um zehn Uhr",
+          "um acht Uhr"
+        ],
+        "answer": 1
+      }
     ]
   },
   "sentences": [
-    { "t": "Es ist Viertel nach sieben.", "s": "It's a quarter past seven." },
-    { "t": "Ich stehe um sieben Uhr auf.", "s": "I get up at seven o'clock." },
-    { "t": "Am Morgen trinke ich Tee.", "s": "In the morning I drink tea." },
-    { "t": "Herr Schmidt arbeitet jeden Tag.", "s": "Mr. Schmidt works every day." },
-    { "t": "Das Mittagessen ist um halb eins.", "s": "Lunch is at twelve thirty." },
-    { "t": "Am Abend ruft Ali Sara an.", "s": "In the evening Ali calls Sara." },
-    { "t": "Wir sehen am Abend fern.", "s": "We watch TV in the evening." },
-    { "t": "Gute Nacht, Sara!", "s": "Good night, Sara!" }
+    {
+      "t": "Es ist Viertel nach sieben.",
+      "s": "It's a quarter past seven."
+    },
+    {
+      "t": "Ich stehe um sieben Uhr auf.",
+      "s": "I get up at seven o'clock."
+    },
+    {
+      "t": "Am Morgen trinke ich Tee.",
+      "s": "In the morning I drink tea."
+    },
+    {
+      "t": "Herr Schmidt arbeitet jeden Tag.",
+      "s": "Mr. Schmidt works every day."
+    },
+    {
+      "t": "Das Mittagessen ist um halb eins.",
+      "s": "Lunch is at twelve thirty."
+    },
+    {
+      "t": "Am Abend ruft Ali Sara an.",
+      "s": "In the evening Ali calls Sara."
+    },
+    {
+      "t": "Wir sehen am Abend fern.",
+      "s": "We watch TV in the evening."
+    },
+    {
+      "t": "Gute Nacht, Sara!",
+      "s": "Good night, Sara!"
+    }
   ]
 }

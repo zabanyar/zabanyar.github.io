@@ -219,7 +219,7 @@
       "id": "p05",
       "t": "I'm working on a new project.",
       "s": "دارم روی یک پروژهٔ جدید کار می‌کنم.",
-      "pr": "آیم وِرکینگ آن اِ نیو پْراجِکت."
+      "pr": "آیم وِرکینگ آن اِ نو پْراجِکت."
     },
     {
       "id": "p06",
@@ -394,7 +394,8 @@
           "t": "I can't talk now. I ___ dinner.",
           "answer": [
             "am cooking",
-            "am making"
+            "am making",
+            "am preparing"
           ],
           "s": "الان نمی‌توانم صحبت کنم. دارم شام درست می‌کنم."
         },
@@ -480,7 +481,7 @@
           "type": "choice",
           "t": "I ___ the dentist tomorrow at four o'clock.",
           "options": [
-            "see",
+            "sees",
             "am seeing",
             "saw"
           ],

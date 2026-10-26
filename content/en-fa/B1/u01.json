@@ -30,7 +30,7 @@
       "t": "adventure",
       "pl": "adventures",
       "s": "ماجراجویی، ماجرا",
-      "pr": "اَدْوِنچِر",
+      "pr": "اِدْوِنچِر",
       "emoji": "🗺️",
       "ex": {
         "t": "Our trip to the desert was a real adventure.",
@@ -41,7 +41,7 @@
       "id": "w03",
       "t": "go abroad",
       "s": "به خارج از کشور رفتن",
-      "pr": "گو اَبْراد",
+      "pr": "گُو اِبْراد",
       "emoji": "✈️",
       "ex": {
         "t": "Many students want to go abroad after college.",
@@ -52,7 +52,7 @@
       "id": "w04",
       "t": "achieve",
       "s": "به دست آوردن، رسیدن به (هدف)",
-      "pr": "اَچیو",
+      "pr": "اِچیو",
       "emoji": "🎯",
       "ex": {
         "t": "She has achieved all her goals this year.",
@@ -97,7 +97,7 @@
       "id": "w08",
       "t": "pass an exam",
       "s": "در امتحان قبول شدن",
-      "pr": "پَس اَن ایگْزَم",
+      "pr": "پَس اِن ایگْزَم",
       "emoji": "📝",
       "ex": {
         "t": "Ali passed all his exams last year.",
@@ -182,7 +182,7 @@
       "id": "p02",
       "t": "I've never done that before.",
       "s": "تا حالا هیچ‌وقت این کار را نکرده‌ام.",
-      "pr": "آیو نِوِر دان دَت بیفور"
+      "pr": "آیو نِوِر دان ذَت بیفُر"
     },
     {
       "id": "p03",
@@ -194,7 +194,7 @@
       "id": "p04",
       "t": "It was the best day of my life.",
       "s": "بهترین روز زندگی‌ام بود.",
-      "pr": "ایت واز دِ بِست دِی آو مای لایف"
+      "pr": "ایت واز ذِ بِست دِی آو مای لایف"
     },
     {
       "id": "p05",
@@ -212,7 +212,7 @@
       "id": "p07",
       "t": "How did it go?",
       "s": "چطور پیش رفت؟ / چطور شد؟",
-      "pr": "هاو دید ایت گو؟"
+      "pr": "هاو دید ایت گُو؟"
     },
     {
       "id": "p08",
@@ -671,7 +671,7 @@
     },
     {
       "t": "My son has just passed his driving test.",
-      "s": "پسرم همین تازگی در امتحان رانندگی قبول شده است."
+      "s": "پسرم تازه در امتحان رانندگی قبول شده است."
     },
     {
       "t": "I haven't seen her since last summer.",

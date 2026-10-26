@@ -2,7 +2,11 @@
   "id": "u02",
   "level": "A1",
   "emoji": "🔢",
-  "title": { "t": "عددها و سن", "pr": "Adadhâ va sen", "s": "Sayılar ve yaş" },
+  "title": {
+    "t": "عددها و سن",
+    "pr": "Adadhâ va sen",
+    "s": "Sayılar ve yaş"
+  },
   "goals": [
     "0'dan 20'ye kadar sayabilmek.",
     "Fars rakamlarını (۰–۹) okuyabilmek.",
@@ -10,134 +14,730 @@
     "Çoğul eklerini (-hâ / -ân) kullanabilmek."
   ],
   "words": [
-    { "id": "w01", "t": "صفر", "pr": "sefr", "s": "sıfır", "emoji": "", "ex": { "t": "صفر، یک، دو، سه!", "pr": "Sefr, yek, do, se!", "s": "Sıfır, bir, iki, üç!" } },
-    { "id": "w02", "t": "یک", "pr": "yek", "s": "bir", "emoji": "☝️", "ex": { "t": "یک چای، لطفاً.", "pr": "Yek çây, lotfan.", "s": "Bir çay, lütfen." } },
-    { "id": "w03", "t": "دو", "pr": "do", "s": "iki", "emoji": "✌️", "ex": { "t": "دو سیب، لطفاً.", "pr": "Do sib, lotfan.", "s": "İki elma, lütfen." } },
-    { "id": "w04", "t": "سه", "pr": "se", "s": "üç", "emoji": "", "ex": { "t": "سه چای، لطفاً.", "pr": "Se çây, lotfan.", "s": "Üç çay, lütfen." } },
-    { "id": "w05", "t": "چهار", "pr": "çahâr", "s": "dört", "emoji": "", "ex": { "t": "او چهار سال دارد.", "pr": "U çahâr sâl dârad.", "s": "O dört yaşında." } },
-    { "id": "w06", "t": "پنج", "pr": "panc", "s": "beş", "emoji": "", "ex": { "t": "پنج نان، لطفاً.", "pr": "Panc nân, lotfan.", "s": "Beş ekmek, lütfen." } },
-    { "id": "w07", "t": "شش", "pr": "şeş", "s": "altı", "emoji": "", "ex": { "t": "مریم شش سال دارد.", "pr": "Maryam şeş sâl dârad.", "s": "Maryam altı yaşında." } },
-    { "id": "w08", "t": "هفت", "pr": "haft", "s": "yedi", "emoji": "", "ex": { "t": "علی هفت سال دارد.", "pr": "Ali haft sâl dârad.", "s": "Ali yedi yaşında." } },
-    { "id": "w09", "t": "هشت", "pr": "haşt", "s": "sekiz", "emoji": "", "ex": { "t": "هشت سیب، لطفاً.", "pr": "Haşt sib, lotfan.", "s": "Sekiz elma, lütfen." } },
-    { "id": "w10", "t": "نه", "pr": "noh", "s": "dokuz", "emoji": "", "ex": { "t": "امیر نه سال دارد.", "pr": "Amir noh sâl dârad.", "s": "Amir dokuz yaşında." } },
-    { "id": "w11", "t": "ده", "pr": "dah", "s": "on", "emoji": "🔟", "ex": { "t": "من ده کتاب دارم.", "pr": "Man dah ketâb dâram.", "s": "On kitabım var." } },
-    { "id": "w12", "t": "بیست", "pr": "bist", "s": "yirmi", "emoji": "", "ex": { "t": "من بیست سال دارم.", "pr": "Man bist sâl dâram.", "s": "Ben yirmi yaşındayım." } },
-    { "id": "w13", "t": "سال", "pl": "سال‌ها", "pr": "sâl", "s": "yıl; yaş", "emoji": "📅", "ex": { "t": "شما چند سال دارید؟", "pr": "Şomâ çand sâl dârid?", "s": "Kaç yaşındasınız?" } },
-    { "id": "w14", "t": "چند", "pr": "çand", "s": "kaç", "emoji": "❓", "ex": { "t": "چند سیب؟", "pr": "Çand sib?", "s": "Kaç elma?" } }
+    {
+      "id": "w01",
+      "t": "صفر",
+      "pr": "sefr",
+      "s": "sıfır",
+      "emoji": "",
+      "ex": {
+        "t": "صفر، یک، دو، سه!",
+        "pr": "Sefr, yek, do, se!",
+        "s": "Sıfır, bir, iki, üç!"
+      }
+    },
+    {
+      "id": "w02",
+      "t": "یک",
+      "pr": "yek",
+      "s": "bir",
+      "emoji": "☝️",
+      "ex": {
+        "t": "یک چای، لطفاً.",
+        "pr": "Yek çây, lotfan.",
+        "s": "Bir çay, lütfen."
+      }
+    },
+    {
+      "id": "w03",
+      "t": "دو",
+      "pr": "do",
+      "s": "iki",
+      "emoji": "✌️",
+      "ex": {
+        "t": "دو سیب، لطفاً.",
+        "pr": "Do sib, lotfan.",
+        "s": "İki elma, lütfen."
+      }
+    },
+    {
+      "id": "w04",
+      "t": "سه",
+      "pr": "se",
+      "s": "üç",
+      "emoji": "",
+      "ex": {
+        "t": "سه چای، لطفاً.",
+        "pr": "Se çây, lotfan.",
+        "s": "Üç çay, lütfen."
+      }
+    },
+    {
+      "id": "w05",
+      "t": "چهار",
+      "pr": "çahâr",
+      "s": "dört",
+      "emoji": "",
+      "ex": {
+        "t": "او چهار سال دارد.",
+        "pr": "U çahâr sâl dârad.",
+        "s": "O dört yaşında."
+      }
+    },
+    {
+      "id": "w06",
+      "t": "پنج",
+      "pr": "panc",
+      "s": "beş",
+      "emoji": "",
+      "ex": {
+        "t": "پنج نان، لطفاً.",
+        "pr": "Panc nân, lotfan.",
+        "s": "Beş ekmek, lütfen."
+      }
+    },
+    {
+      "id": "w07",
+      "t": "شش",
+      "pr": "şeş",
+      "s": "altı",
+      "emoji": "",
+      "ex": {
+        "t": "مریم شش سال دارد.",
+        "pr": "Maryam şeş sâl dârad.",
+        "s": "Maryam altı yaşında."
+      }
+    },
+    {
+      "id": "w08",
+      "t": "هفت",
+      "pr": "haft",
+      "s": "yedi",
+      "emoji": "",
+      "ex": {
+        "t": "علی هفت سال دارد.",
+        "pr": "Ali haft sâl dârad.",
+        "s": "Ali yedi yaşında."
+      }
+    },
+    {
+      "id": "w09",
+      "t": "هشت",
+      "pr": "haşt",
+      "s": "sekiz",
+      "emoji": "",
+      "ex": {
+        "t": "هشت سیب، لطفاً.",
+        "pr": "Haşt sib, lotfan.",
+        "s": "Sekiz elma, lütfen."
+      }
+    },
+    {
+      "id": "w10",
+      "t": "نه",
+      "pr": "noh",
+      "s": "dokuz",
+      "emoji": "",
+      "ex": {
+        "t": "امیر نه سال دارد.",
+        "pr": "Amir noh sâl dârad.",
+        "s": "Amir dokuz yaşında."
+      }
+    },
+    {
+      "id": "w11",
+      "t": "ده",
+      "pr": "dah",
+      "s": "on",
+      "emoji": "🔟",
+      "ex": {
+        "t": "من ده کتاب دارم.",
+        "pr": "Man dah ketâb dâram.",
+        "s": "On kitabım var."
+      }
+    },
+    {
+      "id": "w12",
+      "t": "بیست",
+      "pr": "bist",
+      "s": "yirmi",
+      "emoji": "",
+      "ex": {
+        "t": "من بیست سال دارم.",
+        "pr": "Man bist sâl dâram.",
+        "s": "Ben yirmi yaşındayım."
+      }
+    },
+    {
+      "id": "w13",
+      "t": "سال",
+      "pl": "سال‌ها",
+      "pr": "sâl",
+      "s": "yıl; yaş",
+      "emoji": "📅",
+      "ex": {
+        "t": "شما چند سال دارید؟",
+        "pr": "Şomâ çand sâl dârid?",
+        "s": "Kaç yaşındasınız?"
+      }
+    },
+    {
+      "id": "w14",
+      "t": "چند",
+      "pr": "çand",
+      "s": "kaç",
+      "emoji": "❓",
+      "ex": {
+        "t": "چند سیب؟",
+        "pr": "Çand sib?",
+        "s": "Kaç elma?"
+      }
+    }
   ],
   "phrases": [
-    { "id": "p01", "t": "چند سال دارید؟", "pr": "Çand sâl dârid?", "s": "Kaç yaşındasınız?" },
-    { "id": "p02", "t": "چند سال داری؟", "pr": "Çand sâl dâri?", "s": "Kaç yaşındasın?" },
-    { "id": "p03", "t": "بیست سال دارم.", "pr": "Bist sâl dâram.", "s": "Yirmi yaşındayım." },
-    { "id": "p04", "t": "شماره‌ی تلفن شما چند است؟", "pr": "Şomâre-ye telefon-e şomâ çand ast?", "s": "Telefon numaranız kaç?" },
-    { "id": "p05", "t": "چند تا؟", "pr": "Çand tâ?", "s": "Kaç tane?" },
-    { "id": "p06", "t": "یک لحظه، لطفاً.", "pr": "Yek lahze, lotfan.", "s": "Bir dakika, lütfen." },
-    { "id": "p07", "t": "دوباره، لطفاً.", "pr": "Dobâre, lotfan.", "s": "Tekrar, lütfen." },
-    { "id": "p08", "t": "درست است!", "pr": "Dorost ast!", "s": "Doğru!" }
+    {
+      "id": "p01",
+      "t": "چند سال دارید؟",
+      "pr": "Çand sâl dârid?",
+      "s": "Kaç yaşındasınız?"
+    },
+    {
+      "id": "p02",
+      "t": "چند سال داری؟",
+      "pr": "Çand sâl dâri?",
+      "s": "Kaç yaşındasın?"
+    },
+    {
+      "id": "p03",
+      "t": "بیست سال دارم.",
+      "pr": "Bist sâl dâram.",
+      "s": "Yirmi yaşındayım."
+    },
+    {
+      "id": "p04",
+      "t": "شماره‌ی تلفن شما چند است؟",
+      "pr": "Şomâre-ye telefon-e şomâ çand ast?",
+      "s": "Telefon numaranız kaç?"
+    },
+    {
+      "id": "p05",
+      "t": "چند تا؟",
+      "pr": "Çand tâ?",
+      "s": "Kaç tane?"
+    },
+    {
+      "id": "p06",
+      "t": "یک لحظه، لطفاً.",
+      "pr": "Yek lahze, lotfan.",
+      "s": "Bir dakika, lütfen."
+    },
+    {
+      "id": "p07",
+      "t": "دوباره، لطفاً.",
+      "pr": "Dobâre, lotfan.",
+      "s": "Tekrar, lütfen."
+    },
+    {
+      "id": "p08",
+      "t": "درست است!",
+      "pr": "Dorost ast!",
+      "s": "Doğru!"
+    }
   ],
   "dialogue": {
-    "title": { "t": "شماره‌ی تلفن", "pr": "Şomâre-ye telefon", "s": "Telefon numarası" },
-    "speakers": { "A": { "name": "Neda", "voice": "f" }, "B": { "name": "Emre", "voice": "m" } },
+    "title": {
+      "t": "شماره‌ی تلفن",
+      "pr": "Şomâre-ye telefon",
+      "s": "Telefon numarası"
+    },
+    "speakers": {
+      "A": {
+        "name": "Neda",
+        "voice": "f"
+      },
+      "B": {
+        "name": "Emre",
+        "voice": "m"
+      }
+    },
     "lines": [
-      { "sp": "A", "t": "سلام امره! چند سال داری؟", "pr": "Salâm Emre! Çand sâl dâri?", "s": "Merhaba Emre! Kaç yaşındasın?" },
-      { "sp": "B", "t": "سلام ندا! بیست سال دارم. تو چند سال داری؟", "pr": "Salâm Nedâ! Bist sâl dâram. To çand sâl dâri?", "s": "Merhaba Neda! Yirmi yaşındayım. Sen kaç yaşındasın?" },
-      { "sp": "A", "t": "من هجده سال دارم.", "pr": "Man hecdah sâl dâram.", "s": "Ben on sekiz yaşındayım." },
-      { "sp": "B", "t": "شماره‌ی تلفن تو چند است؟", "pr": "Şomâre-ye telefon-e to çand ast?", "s": "Telefon numaran kaç?" },
-      { "sp": "A", "t": "دو، دو، سه، چهار، پنج، شش، هفت، هشت.", "pr": "Do, do, se, çahâr, panc, şeş, haft, haşt.", "s": "İki, iki, üç, dört, beş, altı, yedi, sekiz." },
-      { "sp": "B", "t": "یک لحظه… دوباره، لطفاً.", "pr": "Yek lahze… Dobâre, lotfan.", "s": "Bir dakika… Tekrar, lütfen." },
-      { "sp": "A", "t": "دو، دو، سه، چهار، پنج، شش، هفت، هشت.", "pr": "Do, do, se, çahâr, panc, şeş, haft, haşt.", "s": "İki, iki, üç, dört, beş, altı, yedi, sekiz." },
-      { "sp": "B", "t": "درست است. ممنون، ندا!", "pr": "Dorost ast. Mamnun, Nedâ!", "s": "Tamam, doğru. Teşekkürler, Neda!" },
-      { "sp": "A", "t": "خواهش می‌کنم!", "pr": "Xâheş mikonam!", "s": "Rica ederim!" }
+      {
+        "sp": "A",
+        "t": "سلام امره! چند سال داری؟",
+        "pr": "Salâm Emre! Çand sâl dâri?",
+        "s": "Merhaba Emre! Kaç yaşındasın?"
+      },
+      {
+        "sp": "B",
+        "t": "سلام ندا! بیست سال دارم. تو چند سال داری؟",
+        "pr": "Salâm Nedâ! Bist sâl dâram. To çand sâl dâri?",
+        "s": "Merhaba Neda! Yirmi yaşındayım. Sen kaç yaşındasın?"
+      },
+      {
+        "sp": "A",
+        "t": "من هجده سال دارم.",
+        "pr": "Man hecdah sâl dâram.",
+        "s": "Ben on sekiz yaşındayım."
+      },
+      {
+        "sp": "B",
+        "t": "شماره‌ی تلفن تو چند است؟",
+        "pr": "Şomâre-ye telefon-e to çand ast?",
+        "s": "Telefon numaran kaç?"
+      },
+      {
+        "sp": "A",
+        "t": "دو، دو، سه، چهار، پنج، شش، هفت، هشت.",
+        "pr": "Do, do, se, çahâr, panc, şeş, haft, haşt.",
+        "s": "İki, iki, üç, dört, beş, altı, yedi, sekiz."
+      },
+      {
+        "sp": "B",
+        "t": "یک لحظه… دوباره، لطفاً.",
+        "pr": "Yek lahze… Dobâre, lotfan.",
+        "s": "Bir dakika… Tekrar, lütfen."
+      },
+      {
+        "sp": "A",
+        "t": "دو، دو، سه، چهار، پنج، شش، هفت، هشت.",
+        "pr": "Do, do, se, çahâr, panc, şeş, haft, haşt.",
+        "s": "İki, iki, üç, dört, beş, altı, yedi, sekiz."
+      },
+      {
+        "sp": "B",
+        "t": "درست است. ممنون، ندا!",
+        "pr": "Dorost ast. Mamnun, Nedâ!",
+        "s": "Tamam, doğru. Teşekkürler, Neda!"
+      },
+      {
+        "sp": "A",
+        "t": "خواهش می‌کنم!",
+        "pr": "Xâheş mikonam!",
+        "s": "Rica ederim!"
+      }
     ]
   },
   "grammar": [
     {
       "id": "g01",
-      "title": { "t": "عددها از صفر تا بیست", "pr": "adadhâ az sefr tâ bist", "s": "0–20 arası sayılar ve yaş" },
+      "title": {
+        "t": "عددها از صفر تا بیست",
+        "pr": "adadhâ az sefr tâ bist",
+        "s": "0–20 arası sayılar ve yaş"
+      },
       "explain": "Farsçada rakamların kendi şekilleri vardır: **۰ ۱ ۲ ۳ ۴ ۵ ۶ ۷ ۸ ۹**. Dikkat: **۰** (sıfır) küçük bir nokta, **۵** (beş) ise sıfıra benzer! Sayılar, yazı sağdan sola olsa bile **soldan sağa** yazılır: **۲۰** = 20.\n11–19 arası sayılar **-dah** ile biter: **yâzdah** (11), **davâzdah** (12) … **nuzdah** (19).\nTıpkı Türkçedeki gibi sayıdan sonra isim **tekil** kalır: **do sib** = iki elma (iki elmalar değil!). Türkçedeki 'tane' gibi **tâ** da eklenebilir: **se tâ çây** = üç tane çay.\nYaş söylerken Farsçada kelimesi kelimesine '… yılım var' denir: **Bist sâl dâram.** = Yirmi yaşındayım. Soru: **Çand sâl dârid?** = Kaç yaşındasınız?\nDikkat: **نه** hem **noh** (dokuz) hem **na** (hayır) olabilir; **سن** (sen) ise Farsçada 'yaş' demektir!",
       "table": [
-        ["۱۱ یازده", "yâzdah", "on bir"],
-        ["۱۲ دوازده", "davâzdah", "on iki"],
-        ["۱۳ سیزده", "sizdah", "on üç"],
-        ["۱۴ چهارده", "çahârdah", "on dört"],
-        ["۱۵ پانزده", "pânzdah", "on beş"],
-        ["۱۶ شانزده", "şânzdah", "on altı"],
-        ["۱۷ هفده", "hefdah", "on yedi"],
-        ["۱۸ هجده", "hecdah", "on sekiz"],
-        ["۱۹ نوزده", "nuzdah", "on dokuz"],
-        ["۲۰ بیست", "bist", "yirmi"]
+        [
+          "۱۱ یازده",
+          "yâzdah",
+          "on bir"
+        ],
+        [
+          "۱۲ دوازده",
+          "davâzdah",
+          "on iki"
+        ],
+        [
+          "۱۳ سیزده",
+          "sizdah",
+          "on üç"
+        ],
+        [
+          "۱۴ چهارده",
+          "çahârdah",
+          "on dört"
+        ],
+        [
+          "۱۵ پانزده",
+          "pânzdah",
+          "on beş"
+        ],
+        [
+          "۱۶ شانزده",
+          "şânzdah",
+          "on altı"
+        ],
+        [
+          "۱۷ هفده",
+          "hefdah",
+          "on yedi"
+        ],
+        [
+          "۱۸ هجده",
+          "hecdah",
+          "on sekiz"
+        ],
+        [
+          "۱۹ نوزده",
+          "nuzdah",
+          "on dokuz"
+        ],
+        [
+          "۲۰ بیست",
+          "bist",
+          "yirmi"
+        ]
       ],
       "examples": [
-        { "t": "یازده، دوازده، سیزده.", "pr": "Yâzdah, davâzdah, sizdah.", "s": "On bir, on iki, on üç." },
-        { "t": "دو سیب، لطفاً.", "pr": "Do sib, lotfan.", "s": "İki elma, lütfen." },
-        { "t": "سه تا چای، لطفاً.", "pr": "Se tâ çây, lotfan.", "s": "Üç tane çay, lütfen." },
-        { "t": "من پانزده سال دارم.", "pr": "Man pânzdah sâl dâram.", "s": "Ben on beş yaşındayım." },
-        { "t": "هفده، هجده، نوزده، بیست!", "pr": "Hefdah, hecdah, nuzdah, bist!", "s": "On yedi, on sekiz, on dokuz, yirmi!" }
+        {
+          "t": "یازده، دوازده، سیزده.",
+          "pr": "Yâzdah, davâzdah, sizdah.",
+          "s": "On bir, on iki, on üç."
+        },
+        {
+          "t": "دو سیب، لطفاً.",
+          "pr": "Do sib, lotfan.",
+          "s": "İki elma, lütfen."
+        },
+        {
+          "t": "سه تا چای، لطفاً.",
+          "pr": "Se tâ çây, lotfan.",
+          "s": "Üç tane çay, lütfen."
+        },
+        {
+          "t": "من پانزده سال دارم.",
+          "pr": "Man pânzdah sâl dâram.",
+          "s": "Ben on beş yaşındayım."
+        },
+        {
+          "t": "هفده، هجده، نوزده، بیست!",
+          "pr": "Hefdah, hecdah, nuzdah, bist!",
+          "s": "On yedi, on sekiz, on dokuz, yirmi!"
+        }
       ],
       "exercises": [
-        { "type": "choice", "t": "پنج و پنج می‌شود ___.", "options": ["ده", "نه", "هشت"], "answer": 0, "pr": "Panc va panc mişavad dah.", "s": "Beş ve beş, on eder." },
-        { "type": "choice", "t": "یازده، دوازده، ___", "options": ["سه", "سیزده", "شش"], "answer": 1, "pr": "Yâzdah, davâzdah, sizdah", "s": "On bir, on iki, on üç" },
-        { "type": "type", "t": "هفت، هشت، ___، ده", "answer": ["نه"], "pr": "Haft, haşt, noh, dah", "s": "Yedi, sekiz, dokuz, on" },
-        { "type": "choice", "t": "دو ___، لطفاً.", "options": ["چای", "چای‌ها", "چایان"], "answer": 0, "pr": "Do çây, lotfan.", "s": "İki çay, lütfen." },
-        { "type": "type", "t": "من ___ سال دارم.", "answer": ["بیست"], "pr": "Man bist sâl dâram.", "s": "Ben yirmi yaşındayım." },
-        { "type": "choice", "t": "۱۵: ___", "options": ["پنج", "پانزده", "پنجاه"], "answer": 1, "pr": "Pânzdah", "s": "15 = on beş" },
-        { "type": "order", "t": "من نوزده سال دارم.", "pr": "Man nuzdah sâl dâram.", "s": "Ben on dokuz yaşındayım." }
+        {
+          "type": "choice",
+          "t": "پنج و پنج می‌شود ___.",
+          "options": [
+            "ده",
+            "نه",
+            "هشت"
+          ],
+          "answer": 0,
+          "pr": "Panc va panc mişavad dah.",
+          "s": "Beş ve beş, on eder."
+        },
+        {
+          "type": "choice",
+          "t": "یازده، دوازده، ___",
+          "options": [
+            "سه",
+            "سیزده",
+            "شش"
+          ],
+          "answer": 1,
+          "pr": "Yâzdah, davâzdah, sizdah",
+          "s": "On bir, on iki, on üç"
+        },
+        {
+          "type": "type",
+          "t": "هفت، هشت، ___، ده",
+          "answer": [
+            "نه"
+          ],
+          "pr": "Haft, haşt, noh, dah",
+          "s": "Yedi, sekiz, dokuz, on"
+        },
+        {
+          "type": "choice",
+          "t": "دو ___، لطفاً.",
+          "options": [
+            "چای",
+            "چای‌ها",
+            "چایان"
+          ],
+          "answer": 0,
+          "pr": "Do çây, lotfan.",
+          "s": "İki çay, lütfen."
+        },
+        {
+          "type": "type",
+          "t": "من ___ سال دارم.",
+          "answer": [
+            "بیست"
+          ],
+          "pr": "Man bist sâl dâram.",
+          "s": "Ben yirmi yaşındayım."
+        },
+        {
+          "type": "choice",
+          "t": "۱۵: ___",
+          "options": [
+            "پنج",
+            "پانزده",
+            "پنجاه"
+          ],
+          "answer": 1,
+          "pr": "Pânzdah",
+          "s": "15 = on beş"
+        },
+        {
+          "type": "order",
+          "t": "من نوزده سال دارم.",
+          "pr": "Man nuzdah sâl dâram.",
+          "s": "Ben on dokuz yaşındayım."
+        }
       ]
     },
     {
       "id": "g02",
-      "title": { "t": "کتاب‌ها، دانشجویان", "pr": "ketâbhâ, dâneşcuyân", "s": "Çoğul: -hâ ve -ân" },
+      "title": {
+        "t": "کتاب‌ها، دانشجویان",
+        "pr": "ketâbhâ, dâneşcuyân",
+        "s": "Çoğul: -hâ ve -ân"
+      },
       "explain": "Türkçedeki **-lar / -ler** ekinin Farsça karşılığı **-hâ**'dır (ها). Ünlü uyumu olmadığı için **her zaman -hâ**: **ketâb → ketâbhâ** (kitaplar), **sib → sibhâ** (elmalar).\nYazıda **ها** genelde yarım boşlukla ayrılır: **کتاب‌ها**.\nİnsanlar ve canlılar için daha resmî bir ek de vardır: **-ân** (ان): **dâneşcuyân** (öğrenciler), **mo'allemân** (öğretmenler). Konuşmada **-hâ** her yerde kullanılabilir.\nUnutmayın: sayıdan sonra çoğul eki **gelmez**: **do ketâb** (iki kitap). Ayrıca 'onlar öğrenci' derken isim tekil kalır: **Ânhâ dâneşcu hastand.**",
       "table": [
-        ["کتاب ← کتاب‌ها", "ketâb → ketâbhâ", "kitap → kitaplar"],
-        ["سیب ← سیب‌ها", "sib → sibhâ", "elma → elmalar"],
-        ["خانه ← خانه‌ها", "xâne → xânehâ", "ev → evler"],
-        ["دانشجو ← دانشجوها / دانشجویان", "dâneşcuhâ / dâneşcuyân", "öğrenciler"],
-        ["معلم ← معلم‌ها / معلمان", "mo'allemhâ / mo'allemân", "öğretmenler"]
+        [
+          "کتاب ← کتاب‌ها",
+          "ketâb → ketâbhâ",
+          "kitap → kitaplar"
+        ],
+        [
+          "سیب ← سیب‌ها",
+          "sib → sibhâ",
+          "elma → elmalar"
+        ],
+        [
+          "خانه ← خانه‌ها",
+          "xâne → xânehâ",
+          "ev → evler"
+        ],
+        [
+          "دانشجو ← دانشجوها / دانشجویان",
+          "dâneşcu → dâneşcuhâ / dâneşcuyân",
+          "öğrenci → öğrenciler"
+        ],
+        [
+          "معلم ← معلم‌ها / معلمان",
+          "mo'allem → mo'allemhâ / mo'allemân",
+          "öğretmen → öğretmenler"
+        ]
       ],
       "examples": [
-        { "t": "کتاب‌ها خوب هستند.", "pr": "Ketâbhâ xub hastand.", "s": "Kitaplar iyi." },
-        { "t": "معلم‌ها ایرانی هستند.", "pr": "Mo'allemhâ İrâni hastand.", "s": "Öğretmenler İranlı." },
-        { "t": "دانشجویان ترک هستند.", "pr": "Dâneşcuyân Tork hastand.", "s": "Öğrenciler Türk." },
-        { "t": "سه سیب و دو نان.", "pr": "Se sib va do nân.", "s": "Üç elma ve iki ekmek." }
+        {
+          "t": "کتاب‌ها خوب هستند.",
+          "pr": "Ketâbhâ xub hastand.",
+          "s": "Kitaplar iyi."
+        },
+        {
+          "t": "معلم‌ها ایرانی هستند.",
+          "pr": "Mo'allemhâ İrâni hastand.",
+          "s": "Öğretmenler İranlı."
+        },
+        {
+          "t": "دانشجویان ترک هستند.",
+          "pr": "Dâneşcuyân Tork hastand.",
+          "s": "Öğrenciler Türk."
+        },
+        {
+          "t": "سه سیب و دو نان.",
+          "pr": "Se sib va do nân.",
+          "s": "Üç elma ve iki ekmek."
+        }
       ],
       "exercises": [
-        { "type": "choice", "t": "این ___ خوب هستند.", "options": ["کتاب‌ها", "کتاب", "کتابان"], "answer": 0, "pr": "İn ketâbhâ xub hastand.", "s": "Bu kitaplar iyi." },
-        { "type": "choice", "t": "سه ___، لطفاً.", "options": ["سیب‌ها", "سیب", "سیبان"], "answer": 1, "pr": "Se sib, lotfan.", "s": "Üç elma, lütfen." },
-        { "type": "type", "t": "این ___ ایرانی هستند.", "answer": ["دانشجوها", "دانشجویان"], "pr": "İn dâneşcuhâ İrâni hastand.", "s": "Bu öğrenciler İranlı." },
-        { "type": "type", "t": "___ ترک هستند.", "answer": ["معلم‌ها", "معلمها", "معلمان"], "pr": "Mo'allemhâ Tork hastand.", "s": "Öğretmenler Türk." },
-        { "type": "choice", "t": "آن‌ها دانشجو ___.", "options": ["هستیم", "است", "هستند"], "answer": 2, "pr": "Ânhâ dâneşcu hastand.", "s": "Onlar öğrenci." },
-        { "type": "order", "t": "کتاب‌ها خوب هستند.", "pr": "Ketâbhâ xub hastand.", "s": "Kitaplar iyi." },
-        { "type": "order", "t": "مریم و علی دانشجو هستند.", "pr": "Maryam va Ali dâneşcu hastand.", "s": "Maryam ve Ali öğrenci." }
+        {
+          "type": "choice",
+          "t": "این ___ خوب هستند.",
+          "options": [
+            "کتاب‌ها",
+            "کتاب",
+            "کتابان"
+          ],
+          "answer": 0,
+          "pr": "İn ketâbhâ xub hastand.",
+          "s": "Bu kitaplar iyi."
+        },
+        {
+          "type": "choice",
+          "t": "سه ___، لطفاً.",
+          "options": [
+            "سیب‌ها",
+            "سیب",
+            "سیبان"
+          ],
+          "answer": 1,
+          "pr": "Se sib, lotfan.",
+          "s": "Üç elma, lütfen."
+        },
+        {
+          "type": "type",
+          "t": "این ___ ایرانی هستند.",
+          "answer": [
+            "دانشجوها",
+            "دانشجویان"
+          ],
+          "pr": "İn dâneşcuhâ İrâni hastand.",
+          "s": "Bu öğrenciler İranlı."
+        },
+        {
+          "type": "type",
+          "t": "___ ترک هستند.",
+          "answer": [
+            "معلم‌ها",
+            "معلمها",
+            "معلمان"
+          ],
+          "pr": "Mo'allemhâ Tork hastand.",
+          "s": "Öğretmenler Türk."
+        },
+        {
+          "type": "choice",
+          "t": "آن‌ها دانشجو ___.",
+          "options": [
+            "هستیم",
+            "است",
+            "هستند"
+          ],
+          "answer": 2,
+          "pr": "Ânhâ dâneşcu hastand.",
+          "s": "Onlar öğrenci."
+        },
+        {
+          "type": "order",
+          "t": "کتاب‌ها خوب هستند.",
+          "pr": "Ketâbhâ xub hastand.",
+          "s": "Kitaplar iyi."
+        },
+        {
+          "type": "order",
+          "t": "مریم و علی دانشجو هستند.",
+          "pr": "Maryam va Ali dâneşcu hastand.",
+          "s": "Maryam ve Ali öğrenci."
+        }
       ]
     }
   ],
   "reading": {
-    "title": { "t": "کلاس فارسی", "pr": "Kelâs-e fârsi", "s": "Farsça sınıfı" },
+    "title": {
+      "t": "کلاس فارسی",
+      "pr": "Kelâs-e fârsi",
+      "s": "Farsça sınıfı"
+    },
     "text": [
-      { "t": "این کلاس فارسی است.", "pr": "İn kelâs-e fârsi ast.", "s": "Burası Farsça sınıfı." },
-      { "t": "کلاس دوازده دانشجو دارد.", "pr": "Kelâs davâzdah dâneşcu dârad.", "s": "Sınıfta on iki öğrenci var." },
-      { "t": "هفت دانشجو ترک هستند و پنج دانشجو ایرانی هستند.", "pr": "Haft dâneşcu Tork hastand va panc dâneşcu İrâni hastand.", "s": "Yedi öğrenci Türk, beş öğrenci İranlı." },
-      { "t": "الیف هجده سال دارد.", "pr": "Elif hecdah sâl dârad.", "s": "Elif on sekiz yaşında." },
-      { "t": "امره نوزده سال دارد.", "pr": "Emre nuzdah sâl dârad.", "s": "Emre on dokuz yaşında." },
-      { "t": "ندا ایرانی است. او بیست سال دارد.", "pr": "Nedâ İrâni ast. U bist sâl dârad.", "s": "Neda İranlı. O yirmi yaşında." },
-      { "t": "کتاب‌ها خوب هستند.", "pr": "Ketâbhâ xub hastand.", "s": "Kitaplar iyi." }
+      {
+        "t": "این کلاس فارسی است.",
+        "pr": "İn kelâs-e fârsi ast.",
+        "s": "Burası Farsça sınıfı."
+      },
+      {
+        "t": "کلاس دوازده دانشجو دارد.",
+        "pr": "Kelâs davâzdah dâneşcu dârad.",
+        "s": "Sınıfta on iki öğrenci var."
+      },
+      {
+        "t": "هفت دانشجو ترک هستند و پنج دانشجو ایرانی هستند.",
+        "pr": "Haft dâneşcu Tork hastand va panc dâneşcu İrâni hastand.",
+        "s": "Yedi öğrenci Türk, beş öğrenci İranlı."
+      },
+      {
+        "t": "الیف هجده سال دارد.",
+        "pr": "Elif hecdah sâl dârad.",
+        "s": "Elif on sekiz yaşında."
+      },
+      {
+        "t": "امره نوزده سال دارد.",
+        "pr": "Emre nuzdah sâl dârad.",
+        "s": "Emre on dokuz yaşında."
+      },
+      {
+        "t": "ندا ایرانی است. او بیست سال دارد.",
+        "pr": "Nedâ İrâni ast. U bist sâl dârad.",
+        "s": "Neda İranlı. O yirmi yaşında."
+      },
+      {
+        "t": "کتاب‌ها خوب هستند.",
+        "pr": "Ketâbhâ xub hastand.",
+        "s": "Kitaplar iyi."
+      }
     ],
     "questions": [
-      { "q": { "t": "کلاس چند دانشجو دارد؟", "pr": "Kelâs çand dâneşcu dârad?", "s": "Sınıfta kaç öğrenci var?" }, "options": ["دوازده", "هفت", "پنج"], "answer": 0 },
-      { "q": { "t": "چند دانشجو ایرانی هستند؟", "pr": "Çand dâneşcu İrâni hastand?", "s": "Kaç öğrenci İranlı?" }, "options": ["هفت", "پنج", "دوازده"], "answer": 1 },
-      { "q": { "t": "الیف چند سال دارد؟", "pr": "Elif çand sâl dârad?", "s": "Elif kaç yaşında?" }, "options": ["نوزده", "بیست", "هجده"], "answer": 2 },
-      { "q": { "t": "چه کسی بیست سال دارد؟", "pr": "Çe kasi bist sâl dârad?", "s": "Kim yirmi yaşında?" }, "options": ["امره", "ندا", "الیف"], "answer": 1 }
+      {
+        "q": {
+          "t": "کلاس چند دانشجو دارد؟",
+          "pr": "Kelâs çand dâneşcu dârad?",
+          "s": "Sınıfta kaç öğrenci var?"
+        },
+        "options": [
+          "دوازده",
+          "هفت",
+          "پنج"
+        ],
+        "answer": 0
+      },
+      {
+        "q": {
+          "t": "چند دانشجو ایرانی هستند؟",
+          "pr": "Çand dâneşcu İrâni hastand?",
+          "s": "Kaç öğrenci İranlı?"
+        },
+        "options": [
+          "هفت",
+          "پنج",
+          "دوازده"
+        ],
+        "answer": 1
+      },
+      {
+        "q": {
+          "t": "الیف چند سال دارد؟",
+          "pr": "Elif çand sâl dârad?",
+          "s": "Elif kaç yaşında?"
+        },
+        "options": [
+          "نوزده",
+          "بیست",
+          "هجده"
+        ],
+        "answer": 2
+      },
+      {
+        "q": {
+          "t": "چه کسی بیست سال دارد؟",
+          "pr": "Çe kasi bist sâl dârad?",
+          "s": "Kim yirmi yaşında?"
+        },
+        "options": [
+          "امره",
+          "ندا",
+          "الیف"
+        ],
+        "answer": 1
+      }
     ]
   },
   "sentences": [
-    { "t": "من بیست سال دارم.", "pr": "Man bist sâl dâram.", "s": "Ben yirmi yaşındayım." },
-    { "t": "شما چند سال دارید؟", "pr": "Şomâ çand sâl dârid?", "s": "Siz kaç yaşındasınız?" },
-    { "t": "دو چای، لطفاً.", "pr": "Do çây, lotfan.", "s": "İki çay, lütfen." },
-    { "t": "سه تا سیب، لطفاً.", "pr": "Se tâ sib, lotfan.", "s": "Üç tane elma, lütfen." },
-    { "t": "کتاب‌ها خوب هستند.", "pr": "Ketâbhâ xub hastand.", "s": "Kitaplar iyi." },
-    { "t": "یک، دو، سه، چهار، پنج.", "pr": "Yek, do, se, çahâr, panc.", "s": "Bir, iki, üç, dört, beş." },
-    { "t": "شماره‌ی تلفن شما چند است؟", "pr": "Şomâre-ye telefon-e şomâ çand ast?", "s": "Telefon numaranız kaç?" },
-    { "t": "دوباره، لطفاً.", "pr": "Dobâre, lotfan.", "s": "Tekrar, lütfen." }
+    {
+      "t": "من بیست سال دارم.",
+      "pr": "Man bist sâl dâram.",
+      "s": "Ben yirmi yaşındayım."
+    },
+    {
+      "t": "شما چند سال دارید؟",
+      "pr": "Şomâ çand sâl dârid?",
+      "s": "Siz kaç yaşındasınız?"
+    },
+    {
+      "t": "دو چای، لطفاً.",
+      "pr": "Do çây, lotfan.",
+      "s": "İki çay, lütfen."
+    },
+    {
+      "t": "سه تا سیب، لطفاً.",
+      "pr": "Se tâ sib, lotfan.",
+      "s": "Üç tane elma, lütfen."
+    },
+    {
+      "t": "کتاب‌ها خوب هستند.",
+      "pr": "Ketâbhâ xub hastand.",
+      "s": "Kitaplar iyi."
+    },
+    {
+      "t": "یک، دو، سه، چهار، پنج.",
+      "pr": "Yek, do, se, çahâr, panc.",
+      "s": "Bir, iki, üç, dört, beş."
+    },
+    {
+      "t": "شماره‌ی تلفن شما چند است؟",
+      "pr": "Şomâre-ye telefon-e şomâ çand ast?",
+      "s": "Telefon numaranız kaç?"
+    },
+    {
+      "t": "دوباره، لطفاً.",
+      "pr": "Dobâre, lotfan.",
+      "s": "Tekrar, lütfen."
+    }
   ]
 }

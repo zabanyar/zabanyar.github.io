@@ -143,7 +143,7 @@
       "t": "binmek",
       "s": "سوار شدن",
       "pr": "بینمِک",
-      "emoji": "🚌",
+      "emoji": "",
       "ex": {
         "t": "Otobüse bindim ama yanlış otobüsmüş.",
         "s": "سوار اتوبوس شدم، ولی معلوم شد اتوبوس اشتباهی بوده."
@@ -543,7 +543,9 @@
           "t": "Eve ___ sana mesaj atacağım.",
           "answer": [
             "varınca",
-            "gelince"
+            "gelince",
+            "dönünce",
+            "gidince"
           ],
           "s": "وقتی به خانه رسیدم، به تو پیام می‌دهم."
         },

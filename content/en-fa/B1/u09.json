@@ -87,7 +87,7 @@
       "t": "course",
       "pl": "courses",
       "s": "دوره‌ی آموزشی، کلاس",
-      "pr": "کورس",
+      "pr": "کُرس",
       "emoji": "",
       "ex": {
         "t": "I'm doing an online course in photography.",
@@ -109,7 +109,7 @@
       "id": "w09",
       "t": "memorize",
       "s": "حفظ کردن، از بر کردن",
-      "pr": "مِمورایز",
+      "pr": "مِمِرایز",
       "emoji": "🧠",
       "ex": {
         "t": "Actors have to memorize a lot of lines.",
@@ -154,7 +154,7 @@
       "id": "w13",
       "t": "homework",
       "s": "تکلیف، مشق (غیرقابل‌شمارش)",
-      "pr": "هوم‌وِرک",
+      "pr": "هُوم‌وِرک",
       "emoji": "📚",
       "ex": {
         "t": "Our teacher gives us a lot of homework.",
@@ -189,7 +189,7 @@
       "id": "p01",
       "t": "I'm thinking of taking a course in…",
       "s": "دارم به گذراندن یک دوره‌ی ... فکر می‌کنم.",
-      "pr": "آیم ثینکینگ آو تِیکینگ اِ کورس این…"
+      "pr": "آیم ثینکینگ آو تِیکینگ اِ کُرس این…"
     },
     {
       "id": "p02",
@@ -231,7 +231,7 @@
       "id": "p08",
       "t": "I'm looking forward to it.",
       "s": "مشتاقانه منتظرش هستم.",
-      "pr": "آیم لوکینگ فوروِرد تو ایت"
+      "pr": "آیم لوکینگ فُروِرد تو ایت"
     }
   ],
   "dialogue": {

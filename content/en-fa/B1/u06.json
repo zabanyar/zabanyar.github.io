@@ -42,7 +42,7 @@
       "t": "journalist",
       "pl": "journalists",
       "s": "روزنامه‌نگار، خبرنگار",
-      "pr": "جِرنالیست",
+      "pr": "جِرنِلیست",
       "emoji": "",
       "ex": {
         "t": "The journalist interviewed people in the street.",
@@ -76,7 +76,7 @@
       "id": "w06",
       "t": "social media",
       "s": "شبکه‌های اجتماعی",
-      "pr": "سوشِل میدیا",
+      "pr": "سُوشِل میدیا",
       "emoji": "📱",
       "ex": {
         "t": "Many young people get their news from social media.",
@@ -99,7 +99,7 @@
       "t": "source",
       "pl": "sources",
       "s": "منبع",
-      "pr": "سورس",
+      "pr": "سُرس",
       "emoji": "",
       "ex": {
         "t": "Always check the source of a story before you share it.",
@@ -121,7 +121,7 @@
       "id": "w10",
       "t": "announce",
       "s": "اعلام کردن",
-      "pr": "اِنائونس",
+      "pr": "اِناونس",
       "emoji": "📢",
       "ex": {
         "t": "The government announced a new law yesterday.",
@@ -132,7 +132,7 @@
       "id": "w11",
       "t": "report",
       "s": "گزارش دادن، خبر دادن",
-      "pr": "ریپورت",
+      "pr": "ریپُرت",
       "emoji": "",
       "ex": {
         "t": "The newspaper reported that the fire had started at night.",
@@ -177,7 +177,7 @@
       "id": "w15",
       "t": "go viral",
       "s": "وایرال شدن، دست‌به‌دست شدن در فضای مجازی",
-      "pr": "گو وایرِل",
+      "pr": "گُو وایرِل",
       "emoji": "",
       "ex": {
         "t": "Her cooking video went viral in two days.",
@@ -190,13 +190,13 @@
       "id": "p01",
       "t": "Did you hear about…?",
       "s": "درباره‌ی ... شنیدی؟",
-      "pr": "دید یو هیر اِبائوت…؟"
+      "pr": "دید یو هیر اِباوت…؟"
     },
     {
       "id": "p02",
       "t": "According to the news, …",
       "s": "طبق اخبار، ... / به گفته‌ی اخبار، ...",
-      "pr": "اِکوردینگ تو ذِ نوز، …"
+      "pr": "اِکُردینگ تو ذِ نوز، …"
     },
     {
       "id": "p03",
@@ -208,7 +208,7 @@
       "id": "p04",
       "t": "It's all over the news.",
       "s": "همه‌ی اخبار پر از این خبر است.",
-      "pr": "ایتس آل اوِر ذِ نوز"
+      "pr": "ایتس آل اُوِر ذِ نوز"
     },
     {
       "id": "p05",
@@ -232,7 +232,7 @@
       "id": "p08",
       "t": "Let me check.",
       "s": "بگذار بررسی کنم.",
-      "pr": "لِت مِی چِک"
+      "pr": "لِت میْ چِک"
     }
   ],
   "dialogue": {

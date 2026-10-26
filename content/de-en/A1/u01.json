@@ -2,143 +2,617 @@
   "id": "u01",
   "level": "A1",
   "emoji": "👋",
-  "title": { "t": "Hallo!", "s": "Hello!" },
+  "title": {
+    "t": "Hallo!",
+    "s": "Hello!"
+  },
   "goals": [
     "Greet people and say goodbye",
     "Say your name and where you are from",
     "Use sein: ich bin, du bist, er/sie ist, Sie sind",
     "Know when to say du and when to say Sie"
   ],
-
   "words": [
-    { "id": "w01", "t": "der Name", "pl": "die Namen", "s": "name", "emoji": "📛", "ex": { "t": "Mein Name ist Reza.", "s": "My name is Reza." } },
-    { "id": "w02", "t": "die Frau", "pl": "die Frauen", "s": "woman; Ms. / Mrs.", "emoji": "👩", "ex": { "t": "Frau Müller kommt aus Hamburg.", "s": "Ms. Müller is from Hamburg." } },
-    { "id": "w03", "t": "der Herr", "pl": "die Herren", "s": "gentleman; Mr.", "emoji": "", "ex": { "t": "Guten Tag, Herr Schmidt!", "s": "Hello, Mr. Schmidt!" } },
-    { "id": "w04", "t": "sein", "s": "to be", "emoji": "", "ex": { "t": "Ich bin Sara.", "s": "I'm Sara." } },
-    { "id": "w05", "t": "heißen", "s": "to be called", "emoji": "", "ex": { "t": "Ich heiße Ali.", "s": "My name is Ali." } },
-    { "id": "w06", "t": "kommen", "s": "to come", "emoji": "", "ex": { "t": "Ich komme aus dem Iran.", "s": "I'm from Iran." } },
-    { "id": "w07", "t": "aus", "s": "from; out of", "emoji": "", "ex": { "t": "Lukas kommt aus Berlin.", "s": "Lukas is from Berlin." } },
-    { "id": "w08", "t": "woher", "s": "where … from", "emoji": "", "ex": { "t": "Woher kommen Sie?", "s": "Where are you from?" } },
-    { "id": "w09", "t": "wer", "s": "who", "emoji": "", "ex": { "t": "Wer ist das?", "s": "Who is that?" } },
-    { "id": "w10", "t": "wie", "s": "how", "emoji": "", "ex": { "t": "Wie heißt du?", "s": "What's your name?" } },
-    { "id": "w11", "t": "Deutschland", "s": "Germany", "emoji": "", "ex": { "t": "Anna kommt aus Deutschland.", "s": "Anna is from Germany." } },
-    { "id": "w12", "t": "der Iran", "s": "Iran", "emoji": "", "ex": { "t": "Maryam ist aus dem Iran.", "s": "Maryam is from Iran." } },
-    { "id": "w13", "t": "gut", "s": "good; well", "emoji": "👍", "ex": { "t": "Danke, gut!", "s": "Fine, thanks!" } },
-    { "id": "w14", "t": "auch", "s": "also; too", "emoji": "", "ex": { "t": "Ich komme auch aus dem Iran.", "s": "I'm from Iran, too." } }
+    {
+      "id": "w01",
+      "t": "der Name",
+      "pl": "die Namen",
+      "s": "name",
+      "emoji": "📛",
+      "ex": {
+        "t": "Mein Name ist Reza.",
+        "s": "My name is Reza."
+      }
+    },
+    {
+      "id": "w02",
+      "t": "die Frau",
+      "pl": "die Frauen",
+      "s": "woman; Ms. / Mrs.",
+      "emoji": "👩",
+      "ex": {
+        "t": "Frau Müller kommt aus Hamburg.",
+        "s": "Ms. Müller is from Hamburg."
+      }
+    },
+    {
+      "id": "w03",
+      "t": "der Herr",
+      "pl": "die Herren",
+      "s": "gentleman; Mr.",
+      "emoji": "",
+      "ex": {
+        "t": "Guten Tag, Herr Schmidt!",
+        "s": "Hello, Mr. Schmidt!"
+      }
+    },
+    {
+      "id": "w04",
+      "t": "sein",
+      "s": "to be",
+      "emoji": "",
+      "ex": {
+        "t": "Ich bin Sara.",
+        "s": "I'm Sara."
+      }
+    },
+    {
+      "id": "w05",
+      "t": "heißen",
+      "s": "to be called",
+      "emoji": "",
+      "ex": {
+        "t": "Ich heiße Ali.",
+        "s": "My name is Ali."
+      }
+    },
+    {
+      "id": "w06",
+      "t": "kommen",
+      "s": "to come",
+      "emoji": "",
+      "ex": {
+        "t": "Ich komme aus dem Iran.",
+        "s": "I'm from Iran."
+      }
+    },
+    {
+      "id": "w07",
+      "t": "aus",
+      "s": "from; out of",
+      "emoji": "",
+      "ex": {
+        "t": "Lukas kommt aus Berlin.",
+        "s": "Lukas is from Berlin."
+      }
+    },
+    {
+      "id": "w08",
+      "t": "woher",
+      "s": "where … from",
+      "emoji": "",
+      "ex": {
+        "t": "Woher kommen Sie?",
+        "s": "Where are you from?"
+      }
+    },
+    {
+      "id": "w09",
+      "t": "wer",
+      "s": "who",
+      "emoji": "",
+      "ex": {
+        "t": "Wer ist das?",
+        "s": "Who is that?"
+      }
+    },
+    {
+      "id": "w10",
+      "t": "wie",
+      "s": "how",
+      "emoji": "",
+      "ex": {
+        "t": "Wie heißt du?",
+        "s": "What's your name?"
+      }
+    },
+    {
+      "id": "w11",
+      "t": "Deutschland",
+      "s": "Germany",
+      "emoji": "",
+      "ex": {
+        "t": "Anna kommt aus Deutschland.",
+        "s": "Anna is from Germany."
+      }
+    },
+    {
+      "id": "w12",
+      "t": "der Iran",
+      "s": "Iran",
+      "emoji": "",
+      "ex": {
+        "t": "Maryam ist aus dem Iran.",
+        "s": "Maryam is from Iran."
+      }
+    },
+    {
+      "id": "w13",
+      "t": "gut",
+      "s": "good; well",
+      "emoji": "👍",
+      "ex": {
+        "t": "Danke, gut!",
+        "s": "Fine, thanks!"
+      }
+    },
+    {
+      "id": "w14",
+      "t": "auch",
+      "s": "also; too",
+      "emoji": "",
+      "ex": {
+        "t": "Ich komme auch aus dem Iran.",
+        "s": "I'm from Iran, too."
+      }
+    }
   ],
-
   "phrases": [
-    { "id": "p01", "t": "Guten Morgen!", "s": "Good morning!" },
-    { "id": "p02", "t": "Guten Tag!", "s": "Hello! / Good day! (polite)" },
-    { "id": "p03", "t": "Wie geht es Ihnen?", "s": "How are you? (polite)" },
-    { "id": "p04", "t": "Wie geht's?", "s": "How are you? / How's it going? (informal)" },
-    { "id": "p05", "t": "Danke, gut. Und dir?", "s": "Fine, thanks. And you? (informal)" },
-    { "id": "p06", "t": "Freut mich!", "s": "Nice to meet you!" },
-    { "id": "p07", "t": "Auf Wiedersehen!", "s": "Goodbye! (polite)" },
-    { "id": "p08", "t": "Tschüss!", "s": "Bye! (informal)" }
+    {
+      "id": "p01",
+      "t": "Guten Morgen!",
+      "s": "Good morning!"
+    },
+    {
+      "id": "p02",
+      "t": "Guten Tag!",
+      "s": "Hello! / Good day! (polite)"
+    },
+    {
+      "id": "p03",
+      "t": "Wie geht es Ihnen?",
+      "s": "How are you? (polite)"
+    },
+    {
+      "id": "p04",
+      "t": "Wie geht's?",
+      "s": "How are you? / How's it going? (informal)"
+    },
+    {
+      "id": "p05",
+      "t": "Danke, gut. Und dir?",
+      "s": "Fine, thanks. And you? (informal)"
+    },
+    {
+      "id": "p06",
+      "t": "Freut mich!",
+      "s": "Nice to meet you!"
+    },
+    {
+      "id": "p07",
+      "t": "Auf Wiedersehen!",
+      "s": "Goodbye! (polite)"
+    },
+    {
+      "id": "p08",
+      "t": "Tschüss!",
+      "s": "Bye! (informal)"
+    }
   ],
-
   "dialogue": {
-    "title": { "t": "Im Deutschkurs", "s": "In German class" },
-    "speakers": { "A": { "name": "Frau Müller", "voice": "f" }, "B": { "name": "Reza", "voice": "m" } },
+    "title": {
+      "t": "Im Deutschkurs",
+      "s": "In German class"
+    },
+    "speakers": {
+      "A": {
+        "name": "Frau Müller",
+        "voice": "f"
+      },
+      "B": {
+        "name": "Reza",
+        "voice": "m"
+      }
+    },
     "lines": [
-      { "sp": "A", "t": "Guten Tag! Ich bin Eva Müller. Wie heißen Sie?", "s": "Hello! I'm Eva Müller. What's your name?" },
-      { "sp": "B", "t": "Guten Tag, Frau Müller! Ich heiße Reza Ahmadi.", "s": "Hello, Ms. Müller! My name is Reza Ahmadi." },
-      { "sp": "A", "t": "Freut mich, Herr Ahmadi. Woher kommen Sie?", "s": "Nice to meet you, Mr. Ahmadi. Where are you from?" },
-      { "sp": "B", "t": "Ich komme aus dem Iran. Und Sie?", "s": "I'm from Iran. And you?" },
-      { "sp": "A", "t": "Ich komme aus Deutschland, aus Hamburg.", "s": "I'm from Germany, from Hamburg." },
-      { "sp": "B", "t": "Wie geht es Ihnen, Frau Müller?", "s": "How are you, Ms. Müller?" },
-      { "sp": "A", "t": "Danke, gut. Und Ihnen?", "s": "Fine, thanks. And you?" },
-      { "sp": "B", "t": "Auch gut, danke.", "s": "Fine too, thanks." },
-      { "sp": "A", "t": "Auf Wiedersehen, Herr Ahmadi!", "s": "Goodbye, Mr. Ahmadi!" },
-      { "sp": "B", "t": "Auf Wiedersehen!", "s": "Goodbye!" }
+      {
+        "sp": "A",
+        "t": "Guten Tag! Ich bin Eva Müller. Wie heißen Sie?",
+        "s": "Hello! I'm Eva Müller. What's your name?"
+      },
+      {
+        "sp": "B",
+        "t": "Guten Tag, Frau Müller! Ich heiße Reza Ahmadi.",
+        "s": "Hello, Ms. Müller! My name is Reza Ahmadi."
+      },
+      {
+        "sp": "A",
+        "t": "Freut mich, Herr Ahmadi. Woher kommen Sie?",
+        "s": "Nice to meet you, Mr. Ahmadi. Where are you from?"
+      },
+      {
+        "sp": "B",
+        "t": "Ich komme aus dem Iran. Und Sie?",
+        "s": "I'm from Iran. And you?"
+      },
+      {
+        "sp": "A",
+        "t": "Ich komme aus Deutschland, aus Hamburg.",
+        "s": "I'm from Germany, from Hamburg."
+      },
+      {
+        "sp": "B",
+        "t": "Wie geht es Ihnen, Frau Müller?",
+        "s": "How are you, Ms. Müller?"
+      },
+      {
+        "sp": "A",
+        "t": "Danke, gut. Und Ihnen?",
+        "s": "Fine, thanks. And you?"
+      },
+      {
+        "sp": "B",
+        "t": "Auch gut, danke.",
+        "s": "Fine too, thanks."
+      },
+      {
+        "sp": "A",
+        "t": "Auf Wiedersehen, Herr Ahmadi!",
+        "s": "Goodbye, Mr. Ahmadi!"
+      },
+      {
+        "sp": "B",
+        "t": "Auf Wiedersehen!",
+        "s": "Goodbye!"
+      }
     ]
   },
-
   "grammar": [
     {
       "id": "g01",
-      "title": { "t": "sein: ich bin, du bist …", "s": "The verb \"to be\"" },
+      "title": {
+        "t": "sein: ich bin, du bist …",
+        "s": "The verb \"to be\""
+      },
       "explain": "The verb **sein** means *to be*. It is irregular, so just learn the forms by heart.\nUse **ich bin** for yourself, **du bist** for a friend or a child, and **er ist** / **sie ist** for another person (er = he, sie = she, es = it).\n**Sie sind** is the polite *you* for adults you don't know well. Polite **Sie** always starts with a capital S.\nWith **sein** you can say who you are and where you are from: **Ich bin Sara. Ich bin aus dem Iran.**",
       "table": [
-        ["ich", "bin", "Ich bin Sara."],
-        ["du", "bist", "Du bist Lukas."],
-        ["er / sie / es", "ist", "Er ist aus Berlin."],
-        ["Sie", "sind", "Sind Sie Frau Müller?"]
+        [
+          "ich",
+          "bin",
+          "Ich bin Sara."
+        ],
+        [
+          "du",
+          "bist",
+          "Du bist Lukas."
+        ],
+        [
+          "er / sie / es",
+          "ist",
+          "Er ist aus Berlin."
+        ],
+        [
+          "Sie",
+          "sind",
+          "Sind Sie Frau Müller?"
+        ]
       ],
       "examples": [
-        { "t": "Ich bin Reza.", "s": "I'm Reza." },
-        { "t": "Du bist Anna.", "s": "You are Anna." },
-        { "t": "Das ist Maryam. Sie ist aus dem Iran.", "s": "This is Maryam. She is from Iran." },
-        { "t": "Sind Sie Herr Schmidt?", "s": "Are you Mr. Schmidt?" }
+        {
+          "t": "Ich bin Reza.",
+          "s": "I'm Reza."
+        },
+        {
+          "t": "Du bist Anna.",
+          "s": "You are Anna."
+        },
+        {
+          "t": "Das ist Maryam. Sie ist aus dem Iran.",
+          "s": "This is Maryam. She is from Iran."
+        },
+        {
+          "t": "Sind Sie Herr Schmidt?",
+          "s": "Are you Mr. Schmidt?"
+        }
       ],
       "exercises": [
-        { "type": "choice", "t": "Ich ___ Sara.", "options": ["bin", "bist", "ist"], "answer": 0, "s": "I'm Sara." },
-        { "type": "choice", "t": "Lukas ___ aus Deutschland.", "options": ["bist", "ist", "sind"], "answer": 1, "s": "Lukas is from Germany." },
-        { "type": "choice", "t": "Frau Müller, ___ Sie aus Hamburg?", "options": ["sind", "ist", "bist"], "answer": 0, "s": "Ms. Müller, are you from Hamburg?" },
-        { "type": "type", "t": "Du ___ Ali.", "answer": ["bist"], "s": "You are Ali." },
-        { "type": "type", "t": "Das ___ Maryam.", "answer": ["ist"], "s": "This is Maryam." },
-        { "type": "order", "t": "Ich bin aus dem Iran.", "s": "I'm from Iran." },
-        { "type": "order", "t": "Sind Sie Herr Schmidt?", "s": "Are you Mr. Schmidt?" }
+        {
+          "type": "choice",
+          "t": "Ich ___ Sara.",
+          "options": [
+            "bin",
+            "bist",
+            "ist"
+          ],
+          "answer": 0,
+          "s": "I'm Sara."
+        },
+        {
+          "type": "choice",
+          "t": "Lukas ___ aus Deutschland.",
+          "options": [
+            "bist",
+            "ist",
+            "sind"
+          ],
+          "answer": 1,
+          "s": "Lukas is from Germany."
+        },
+        {
+          "type": "choice",
+          "t": "Frau Müller, ___ Sie aus Hamburg?",
+          "options": [
+            "sind",
+            "ist",
+            "bist"
+          ],
+          "answer": 0,
+          "s": "Ms. Müller, are you from Hamburg?"
+        },
+        {
+          "type": "type",
+          "t": "Du ___ Ali.",
+          "answer": [
+            "bist"
+          ],
+          "s": "You are Ali."
+        },
+        {
+          "type": "type",
+          "t": "Das ___ Maryam.",
+          "answer": [
+            "ist"
+          ],
+          "s": "This is Maryam."
+        },
+        {
+          "type": "order",
+          "t": "Ich bin aus dem Iran.",
+          "s": "I'm from Iran."
+        },
+        {
+          "type": "order",
+          "t": "Sind Sie Herr Schmidt?",
+          "s": "Are you Mr. Schmidt?"
+        }
       ]
     },
     {
       "id": "g02",
-      "title": { "t": "heißen, kommen – du oder Sie?", "s": "heißen, kommen – du or Sie?" },
+      "title": {
+        "t": "heißen, kommen – du oder Sie?",
+        "s": "heißen, kommen – du or Sie?"
+      },
       "explain": "To say your name, use **ich heiße** (from heißen, *to be called*). To ask someone's name: **Wie heißt du?** (informal) or **Wie heißen Sie?** (polite).\nGerman has two words for *you*. Use **du** with family, friends and children. Use **Sie** with adults you don't know, at work, in offices, and with **Frau** / **Herr** + family name.\nTo ask where someone is from: **Woher kommst du?** / **Woher kommen Sie?** – **Ich komme aus Deutschland.** Most countries have no article, but a few do: **aus dem Iran**, **aus der Türkei**. Just learn these as fixed phrases.\nIn a question with a question word (**wie**, **woher**, **wer**), the verb comes second: **Woher kommen Sie?**",
       "table": [
-        ["ich", "heiße", "komme"],
-        ["du", "heißt", "kommst"],
-        ["er / sie / es", "heißt", "kommt"],
-        ["Sie", "heißen", "kommen"]
+        [
+          "ich",
+          "heiße",
+          "komme"
+        ],
+        [
+          "du",
+          "heißt",
+          "kommst"
+        ],
+        [
+          "er / sie / es",
+          "heißt",
+          "kommt"
+        ],
+        [
+          "Sie",
+          "heißen",
+          "kommen"
+        ]
       ],
       "examples": [
-        { "t": "Wie heißt du? – Ich heiße Amir.", "s": "What's your name? – My name is Amir." },
-        { "t": "Wie heißen Sie? – Ich heiße Eva Müller.", "s": "What's your name? – My name is Eva Müller." },
-        { "t": "Woher kommst du? – Ich komme aus dem Iran.", "s": "Where are you from? – I'm from Iran." },
-        { "t": "Woher kommen Sie, Herr Schmidt?", "s": "Where are you from, Mr. Schmidt?" },
-        { "t": "Lukas kommt aus Berlin.", "s": "Lukas is from Berlin." }
+        {
+          "t": "Wie heißt du? – Ich heiße Amir.",
+          "s": "What's your name? – My name is Amir."
+        },
+        {
+          "t": "Wie heißen Sie? – Ich heiße Eva Müller.",
+          "s": "What's your name? – My name is Eva Müller."
+        },
+        {
+          "t": "Woher kommst du? – Ich komme aus dem Iran.",
+          "s": "Where are you from? – I'm from Iran."
+        },
+        {
+          "t": "Woher kommen Sie, Herr Schmidt?",
+          "s": "Where are you from, Mr. Schmidt?"
+        },
+        {
+          "t": "Lukas kommt aus Berlin.",
+          "s": "Lukas is from Berlin."
+        }
       ],
       "exercises": [
-        { "type": "choice", "t": "Wie ___ Sie?", "options": ["heißen", "heißt", "heiße"], "answer": 0, "s": "What's your name? (polite)" },
-        { "type": "choice", "t": "Woher ___ du?", "options": ["kommst", "kommen", "komme"], "answer": 0, "s": "Where are you from?" },
-        { "type": "choice", "t": "Herr Schmidt, woher ___ Sie?", "options": ["kommst", "kommen", "kommt"], "answer": 1, "s": "Mr. Schmidt, where are you from?" },
-        { "type": "choice", "t": "Guten Tag, Frau Müller! Wie geht es ___?", "options": ["dir", "Ihnen"], "answer": 1, "s": "Hello, Ms. Müller! How are you?" },
-        { "type": "type", "t": "Wie ___ du?", "answer": ["heißt"], "s": "What's your name?" },
-        { "type": "type", "t": "Lukas ___ aus Deutschland.", "answer": ["kommt", "ist"], "s": "Lukas is from Germany." },
-        { "type": "order", "t": "Woher kommen Sie?", "s": "Where are you from? (polite)" },
-        { "type": "order", "t": "Ich heiße Maryam Karimi.", "s": "My name is Maryam Karimi." }
+        {
+          "type": "choice",
+          "t": "Wie ___ Sie?",
+          "options": [
+            "heißen",
+            "heißt",
+            "heiße"
+          ],
+          "answer": 0,
+          "s": "What's your name? (polite)"
+        },
+        {
+          "type": "choice",
+          "t": "Woher ___ du?",
+          "options": [
+            "kommst",
+            "kommen",
+            "komme"
+          ],
+          "answer": 0,
+          "s": "Where are you from?"
+        },
+        {
+          "type": "choice",
+          "t": "Herr Schmidt, woher ___ Sie?",
+          "options": [
+            "kommst",
+            "kommen",
+            "kommt"
+          ],
+          "answer": 1,
+          "s": "Mr. Schmidt, where are you from?"
+        },
+        {
+          "type": "choice",
+          "t": "Guten Tag, Frau Müller! Wie geht es ___?",
+          "options": [
+            "dir",
+            "Ihnen"
+          ],
+          "answer": 1,
+          "s": "Hello, Ms. Müller! How are you?"
+        },
+        {
+          "type": "type",
+          "t": "Wie ___ du?",
+          "answer": [
+            "heißt",
+            "heisst"
+          ],
+          "s": "What's your name?"
+        },
+        {
+          "type": "type",
+          "t": "Lukas ___ aus Deutschland.",
+          "answer": [
+            "kommt",
+            "ist"
+          ],
+          "s": "Lukas is from Germany."
+        },
+        {
+          "type": "order",
+          "t": "Woher kommen Sie?",
+          "s": "Where are you from? (polite)"
+        },
+        {
+          "type": "order",
+          "t": "Ich heiße Maryam Karimi.",
+          "s": "My name is Maryam Karimi."
+        }
       ]
     }
   ],
-
   "reading": {
-    "title": { "t": "Hallo, ich bin Sara!", "s": "Hello, I'm Sara!" },
+    "title": {
+      "t": "Hallo, ich bin Sara!",
+      "s": "Hello, I'm Sara!"
+    },
     "text": [
-      { "t": "Hallo! Ich heiße Sara.", "s": "Hello! My name is Sara." },
-      { "t": "Ich komme aus dem Iran, aus Teheran.", "s": "I'm from Iran, from Tehran." },
-      { "t": "Das ist Lukas.", "s": "This is Lukas." },
-      { "t": "Lukas kommt aus Deutschland, aus Berlin.", "s": "Lukas is from Germany, from Berlin." },
-      { "t": "Und das ist Frau Müller.", "s": "And this is Ms. Müller." },
-      { "t": "Frau Müller kommt auch aus Deutschland.", "s": "Ms. Müller is also from Germany." },
-      { "t": "Sie ist aus Hamburg.", "s": "She is from Hamburg." },
-      { "t": "Und du? Wie heißt du? Woher kommst du?", "s": "And you? What's your name? Where are you from?" }
+      {
+        "t": "Hallo! Ich heiße Sara.",
+        "s": "Hello! My name is Sara."
+      },
+      {
+        "t": "Ich komme aus dem Iran, aus Teheran.",
+        "s": "I'm from Iran, from Tehran."
+      },
+      {
+        "t": "Das ist Lukas.",
+        "s": "This is Lukas."
+      },
+      {
+        "t": "Lukas kommt aus Deutschland, aus Berlin.",
+        "s": "Lukas is from Germany, from Berlin."
+      },
+      {
+        "t": "Und das ist Frau Müller.",
+        "s": "And this is Ms. Müller."
+      },
+      {
+        "t": "Frau Müller kommt auch aus Deutschland.",
+        "s": "Ms. Müller is also from Germany."
+      },
+      {
+        "t": "Sie ist aus Hamburg.",
+        "s": "She is from Hamburg."
+      },
+      {
+        "t": "Und du? Wie heißt du? Woher kommst du?",
+        "s": "And you? What's your name? Where are you from?"
+      }
     ],
     "questions": [
-      { "q": { "t": "Woher kommt Sara?", "s": "Where is Sara from?" }, "options": ["aus dem Iran", "aus Deutschland", "aus Hamburg"], "answer": 0 },
-      { "q": { "t": "Wer kommt aus Berlin?", "s": "Who is from Berlin?" }, "options": ["Lukas", "Sara", "Frau Müller"], "answer": 0 },
-      { "q": { "t": "Woher kommt Frau Müller?", "s": "Where is Ms. Müller from?" }, "options": ["aus Teheran", "aus Berlin", "aus Hamburg"], "answer": 2 }
+      {
+        "q": {
+          "t": "Woher kommt Sara?",
+          "s": "Where is Sara from?"
+        },
+        "options": [
+          "aus dem Iran",
+          "aus Deutschland",
+          "aus Hamburg"
+        ],
+        "answer": 0
+      },
+      {
+        "q": {
+          "t": "Wer kommt aus Berlin?",
+          "s": "Who is from Berlin?"
+        },
+        "options": [
+          "Lukas",
+          "Sara",
+          "Frau Müller"
+        ],
+        "answer": 0
+      },
+      {
+        "q": {
+          "t": "Woher kommt Frau Müller?",
+          "s": "Where is Ms. Müller from?"
+        },
+        "options": [
+          "aus Teheran",
+          "aus Berlin",
+          "aus Hamburg"
+        ],
+        "answer": 2
+      }
     ]
   },
-
   "sentences": [
-    { "t": "Ich heiße Ali.", "s": "My name is Ali." },
-    { "t": "Wie heißen Sie?", "s": "What's your name? (polite)" },
-    { "t": "Woher kommst du?", "s": "Where are you from? (informal)" },
-    { "t": "Ich komme aus dem Iran.", "s": "I'm from Iran." },
-    { "t": "Das ist Frau Müller.", "s": "This is Ms. Müller." },
-    { "t": "Lukas ist aus Berlin.", "s": "Lukas is from Berlin." },
-    { "t": "Freut mich, Herr Schmidt!", "s": "Nice to meet you, Mr. Schmidt!" },
-    { "t": "Wie geht es Ihnen?", "s": "How are you? (polite)" }
+    {
+      "t": "Ich heiße Ali.",
+      "s": "My name is Ali."
+    },
+    {
+      "t": "Wie heißen Sie?",
+      "s": "What's your name? (polite)"
+    },
+    {
+      "t": "Woher kommst du?",
+      "s": "Where are you from? (informal)"
+    },
+    {
+      "t": "Ich komme aus dem Iran.",
+      "s": "I'm from Iran."
+    },
+    {
+      "t": "Das ist Frau Müller.",
+      "s": "This is Ms. Müller."
+    },
+    {
+      "t": "Lukas ist aus Berlin.",
+      "s": "Lukas is from Berlin."
+    },
+    {
+      "t": "Freut mich, Herr Schmidt!",
+      "s": "Nice to meet you, Mr. Schmidt!"
+    },
+    {
+      "t": "Wie geht es Ihnen?",
+      "s": "How are you? (polite)"
+    }
   ]
 }

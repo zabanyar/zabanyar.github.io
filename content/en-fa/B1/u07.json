@@ -74,7 +74,7 @@
       "t": "passport",
       "pl": "passports",
       "s": "گذرنامه، پاسپورت",
-      "pr": "پَسپورت",
+      "pr": "پَسپُرت",
       "emoji": "🛂",
       "ex": {
         "t": "Don't forget to check that your passport is still valid.",
@@ -86,7 +86,7 @@
       "t": "boarding pass",
       "pl": "boarding passes",
       "s": "کارت پرواز",
-      "pr": "بوردینگ پَس",
+      "pr": "بُردینگ پَس",
       "emoji": "🎫",
       "ex": {
         "t": "You can show your boarding pass on your phone.",
@@ -132,7 +132,7 @@
       "id": "w11",
       "t": "complain about",
       "s": "شکایت کردن از، اعتراض کردن به",
-      "pr": "کَمپْلِین اِبائوت",
+      "pr": "کِمپْلِین اِباوت",
       "emoji": "",
       "ex": {
         "t": "We complained about the noise in our room.",
@@ -155,7 +155,7 @@
       "id": "w13",
       "t": "break down",
       "s": "خراب شدن (ماشین یا دستگاه)",
-      "pr": "بْرِیک دائون",
+      "pr": "بْرِیک داون",
       "emoji": "",
       "ex": {
         "t": "Our car broke down in the middle of the desert.",
@@ -177,7 +177,7 @@
       "id": "w15",
       "t": "crowded",
       "s": "شلوغ، پرازدحام",
-      "pr": "کْرائودِد",
+      "pr": "کْراودِد",
       "emoji": "",
       "ex": {
         "t": "The train was so crowded that we had to stand.",
@@ -214,7 +214,7 @@
       "id": "p05",
       "t": "I'd like to make a complaint.",
       "s": "می‌خواهم شکایت کنم.",
-      "pr": "آید لایک تو مِیک اِ کَمپْلِینت"
+      "pr": "آید لایک تو مِیک اِ کِمپْلِینت"
     },
     {
       "id": "p06",
@@ -226,7 +226,7 @@
       "id": "p07",
       "t": "That's so frustrating!",
       "s": "واقعاً کلافه‌کننده است!",
-      "pr": "ذَتس سو فْراسْتْرِیتینگ!"
+      "pr": "ذَتس سُو فْراسْتْرِیتینگ!"
     },
     {
       "id": "p08",

@@ -217,7 +217,7 @@
        "id": "u08",
        "title": {
         "t": "Shopping and colors",
-        "s": "خرید، لباس و رنگ‌ها",
+        "s": "خرید و رنگ‌ها",
         "a": "audio/en-fa/93c9e99bbdb8.mp3"
        },
        "img": "img/e/1f6cd.svg",
@@ -241,7 +241,7 @@
        "id": "u09",
        "title": {
         "t": "Weather and seasons",
-        "s": "هوا، ماه‌ها و فصل‌ها",
+        "s": "هوا و فصل‌ها",
         "a": "audio/en-fa/b1d7e1431aa3.mp3"
        },
        "img": "img/e/1f326.svg",
@@ -265,7 +265,7 @@
        "id": "u10",
        "title": {
         "t": "Free time",
-        "s": "وقت آزاد و سرگرمی‌ها",
+        "s": "وقت آزاد",
         "a": "audio/en-fa/0be9d3d6c34e.mp3"
        },
        "img": "img/e/26bd.svg",
@@ -1402,7 +1402,7 @@
        "title": {
         "t": "Karriere und Arbeit 4.0",
         "s": "Careers and Work 4.0",
-        "a": "audio/de-en/93d4f76c251f.mp3"
+        "a": "audio/de-en/aa75c777ba12.mp3"
        },
        "img": "img/e/1f4bc.svg",
        "emoji": "💼",

@@ -2,7 +2,10 @@
   "id": "u10",
   "level": "A1",
   "emoji": "⚽",
-  "title": { "t": "Freizeit", "s": "Free time" },
+  "title": {
+    "t": "Freizeit",
+    "s": "Free time"
+  },
   "goals": [
     "Talk about your hobbies",
     "Say what you can and can't do: Ich kann schwimmen.",
@@ -10,141 +13,588 @@
     "Ask and answer yes/no questions"
   ],
   "words": [
-    { "id": "w01", "t": "die Freizeit", "s": "free time", "emoji": "",
-      "ex": { "t": "In der Freizeit lese ich.", "s": "In my free time I read." } },
-    { "id": "w02", "t": "das Hobby", "pl": "die Hobbys", "s": "hobby", "emoji": "",
-      "ex": { "t": "Mein Hobby ist Fußball.", "s": "My hobby is soccer." } },
-    { "id": "w03", "t": "schwimmen", "s": "to swim", "emoji": "🏊",
-      "ex": { "t": "Im Sommer schwimmen wir.", "s": "In summer we swim." } },
-    { "id": "w04", "t": "lesen", "s": "to read", "emoji": "📖",
-      "ex": { "t": "Maryam liest am Abend.", "s": "Maryam reads in the evening." } },
-    { "id": "w05", "t": "spielen", "s": "to play", "emoji": "",
-      "ex": { "t": "Die Kinder spielen im Park.", "s": "The children are playing in the park." } },
-    { "id": "w06", "t": "der Fußball", "pl": "die Fußbälle", "s": "soccer; soccer ball", "emoji": "⚽",
-      "ex": { "t": "Ali spielt Fußball.", "s": "Ali plays soccer." } },
-    { "id": "w07", "t": "die Musik", "s": "music", "emoji": "🎵",
-      "ex": { "t": "Ich mag Musik.", "s": "I like music." } },
-    { "id": "w08", "t": "hören", "s": "to hear; to listen to", "emoji": "🎧",
-      "ex": { "t": "Wir hören Musik.", "s": "We listen to music." } },
-    { "id": "w09", "t": "kochen", "s": "to cook", "emoji": "🍲",
-      "ex": { "t": "Reza kocht sehr gut.", "s": "Reza cooks very well." } },
-    { "id": "w10", "t": "singen", "s": "to sing", "emoji": "🎤",
-      "ex": { "t": "Sara singt am Morgen.", "s": "Sara sings in the morning." } },
-    { "id": "w11", "t": "Rad fahren", "s": "to ride a bike", "emoji": "🚲",
-      "ex": { "t": "Im Sommer fahre ich Rad.", "s": "In summer I ride my bike." } },
-    { "id": "w12", "t": "wandern", "s": "to hike", "emoji": "🥾",
-      "ex": { "t": "Im Herbst wandern wir.", "s": "In the fall we go hiking." } },
-    { "id": "w13", "t": "gern", "s": "gladly; verb + gern = to like doing something", "emoji": "",
-      "ex": { "t": "Ich koche gern.", "s": "I like cooking." } },
-    { "id": "w14", "t": "können", "s": "can; to be able to", "emoji": "",
-      "ex": { "t": "Ich kann schwimmen.", "s": "I can swim." } }
+    {
+      "id": "w01",
+      "t": "die Freizeit",
+      "s": "free time",
+      "emoji": "",
+      "ex": {
+        "t": "In der Freizeit lese ich.",
+        "s": "In my free time I read."
+      }
+    },
+    {
+      "id": "w02",
+      "t": "das Hobby",
+      "pl": "die Hobbys",
+      "s": "hobby",
+      "emoji": "",
+      "ex": {
+        "t": "Mein Hobby ist Fußball.",
+        "s": "My hobby is soccer."
+      }
+    },
+    {
+      "id": "w03",
+      "t": "schwimmen",
+      "s": "to swim",
+      "emoji": "🏊",
+      "ex": {
+        "t": "Im Sommer schwimmen wir.",
+        "s": "In summer we swim."
+      }
+    },
+    {
+      "id": "w04",
+      "t": "lesen",
+      "s": "to read",
+      "emoji": "📖",
+      "ex": {
+        "t": "Maryam liest am Abend.",
+        "s": "Maryam reads in the evening."
+      }
+    },
+    {
+      "id": "w05",
+      "t": "spielen",
+      "s": "to play",
+      "emoji": "",
+      "ex": {
+        "t": "Die Kinder spielen im Park.",
+        "s": "The children are playing in the park."
+      }
+    },
+    {
+      "id": "w06",
+      "t": "der Fußball",
+      "pl": "die Fußbälle",
+      "s": "soccer; soccer ball",
+      "emoji": "⚽",
+      "ex": {
+        "t": "Ali spielt Fußball.",
+        "s": "Ali plays soccer."
+      }
+    },
+    {
+      "id": "w07",
+      "t": "die Musik",
+      "s": "music",
+      "emoji": "🎵",
+      "ex": {
+        "t": "Ich mag Musik.",
+        "s": "I like music."
+      }
+    },
+    {
+      "id": "w08",
+      "t": "hören",
+      "s": "to hear; to listen to",
+      "emoji": "🎧",
+      "ex": {
+        "t": "Wir hören Musik.",
+        "s": "We listen to music."
+      }
+    },
+    {
+      "id": "w09",
+      "t": "kochen",
+      "s": "to cook",
+      "emoji": "🍲",
+      "ex": {
+        "t": "Reza kocht sehr gut.",
+        "s": "Reza cooks very well."
+      }
+    },
+    {
+      "id": "w10",
+      "t": "singen",
+      "s": "to sing",
+      "emoji": "🎤",
+      "ex": {
+        "t": "Sara singt am Morgen.",
+        "s": "Sara sings in the morning."
+      }
+    },
+    {
+      "id": "w11",
+      "t": "Rad fahren",
+      "s": "to ride a bike",
+      "emoji": "🚲",
+      "ex": {
+        "t": "Im Sommer fahre ich Rad.",
+        "s": "In summer I ride my bike."
+      }
+    },
+    {
+      "id": "w12",
+      "t": "wandern",
+      "s": "to hike",
+      "emoji": "🥾",
+      "ex": {
+        "t": "Im Herbst wandern wir.",
+        "s": "In the fall we go hiking."
+      }
+    },
+    {
+      "id": "w13",
+      "t": "gern",
+      "s": "gladly; verb + gern = to like doing something",
+      "emoji": "",
+      "ex": {
+        "t": "Ich koche gern.",
+        "s": "I like cooking."
+      }
+    },
+    {
+      "id": "w14",
+      "t": "können",
+      "s": "can; to be able to",
+      "emoji": "",
+      "ex": {
+        "t": "Ich kann schwimmen.",
+        "s": "I can swim."
+      }
+    }
   ],
   "phrases": [
-    { "id": "p01", "t": "Was machst du in der Freizeit?", "s": "What do you do in your free time?" },
-    { "id": "p02", "t": "Ich spiele gern Fußball.", "s": "I like playing soccer." },
-    { "id": "p03", "t": "Ich kann gut kochen.", "s": "I can cook well." },
-    { "id": "p04", "t": "Ich kann nicht singen.", "s": "I can't sing." },
-    { "id": "p05", "t": "Kannst du schwimmen?", "s": "Can you swim?" },
-    { "id": "p06", "t": "Ja, natürlich!", "s": "Yes, of course!" },
-    { "id": "p07", "t": "Nein, leider nicht.", "s": "No, unfortunately not." },
-    { "id": "p08", "t": "Hast du heute Abend Zeit?", "s": "Are you free this evening?" }
+    {
+      "id": "p01",
+      "t": "Was machst du in der Freizeit?",
+      "s": "What do you do in your free time?"
+    },
+    {
+      "id": "p02",
+      "t": "Ich spiele gern Fußball.",
+      "s": "I like playing soccer."
+    },
+    {
+      "id": "p03",
+      "t": "Ich kann gut kochen.",
+      "s": "I can cook well."
+    },
+    {
+      "id": "p04",
+      "t": "Ich kann nicht singen.",
+      "s": "I can't sing."
+    },
+    {
+      "id": "p05",
+      "t": "Kannst du schwimmen?",
+      "s": "Can you swim?"
+    },
+    {
+      "id": "p06",
+      "t": "Ja, natürlich!",
+      "s": "Yes, of course!"
+    },
+    {
+      "id": "p07",
+      "t": "Nein, leider nicht.",
+      "s": "No, unfortunately not."
+    },
+    {
+      "id": "p08",
+      "t": "Hast du heute Abend Zeit?",
+      "s": "Are you free this evening?"
+    }
   ],
   "dialogue": {
-    "title": { "t": "Was machst du gern?", "s": "What do you like doing?" },
-    "speakers": { "A": { "name": "Lukas", "voice": "m" }, "B": { "name": "Neda", "voice": "f" } },
+    "title": {
+      "t": "Was machst du gern?",
+      "s": "What do you like doing?"
+    },
+    "speakers": {
+      "A": {
+        "name": "Lukas",
+        "voice": "m"
+      },
+      "B": {
+        "name": "Neda",
+        "voice": "f"
+      }
+    },
     "lines": [
-      { "sp": "A", "t": "Neda, was machst du in der Freizeit?", "s": "Neda, what do you do in your free time?" },
-      { "sp": "B", "t": "Ich lese gern und ich koche gern. Und du?", "s": "I like reading and I like cooking. And you?" },
-      { "sp": "A", "t": "Ich spiele gern Fußball. Spielst du auch Fußball?", "s": "I like playing soccer. Do you play soccer too?" },
-      { "sp": "B", "t": "Nein, leider nicht. Aber ich kann gut schwimmen.", "s": "No, unfortunately not. But I can swim well." },
-      { "sp": "A", "t": "Super! Ich kann nicht so gut schwimmen.", "s": "Great! I can't swim very well." },
-      { "sp": "B", "t": "Hast du heute Abend Zeit? Wir können zusammen schwimmen!", "s": "Are you free this evening? We can swim together!" },
-      { "sp": "A", "t": "Ja, gern! Um wie viel Uhr?", "s": "Yes, I'd love to! At what time?" },
-      { "sp": "B", "t": "Um sieben Uhr. Tschüss, Lukas!", "s": "At seven o'clock. Bye, Lukas!" }
+      {
+        "sp": "A",
+        "t": "Neda, was machst du in der Freizeit?",
+        "s": "Neda, what do you do in your free time?"
+      },
+      {
+        "sp": "B",
+        "t": "Ich lese gern und ich koche gern. Und du?",
+        "s": "I like reading and I like cooking. And you?"
+      },
+      {
+        "sp": "A",
+        "t": "Ich spiele gern Fußball. Spielst du auch Fußball?",
+        "s": "I like playing soccer. Do you play soccer too?"
+      },
+      {
+        "sp": "B",
+        "t": "Nein, leider nicht. Aber ich kann gut schwimmen.",
+        "s": "No, unfortunately not. But I can swim well."
+      },
+      {
+        "sp": "A",
+        "t": "Super! Ich kann nicht so gut schwimmen.",
+        "s": "Great! I can't swim very well."
+      },
+      {
+        "sp": "B",
+        "t": "Hast du heute Abend Zeit? Wir können zusammen schwimmen!",
+        "s": "Are you free this evening? We can swim together!"
+      },
+      {
+        "sp": "A",
+        "t": "Ja, gern! Um wie viel Uhr?",
+        "s": "Yes, I'd love to! At what time?"
+      },
+      {
+        "sp": "B",
+        "t": "Um sieben Uhr. Tschüss, Lukas!",
+        "s": "At seven o'clock. Bye, Lukas!"
+      }
     ]
   },
   "grammar": [
     {
       "id": "g01",
-      "title": { "t": "Ich kann schwimmen.", "s": "können (can) + verb at the end" },
+      "title": {
+        "t": "Ich kann schwimmen.",
+        "s": "können (can) + verb at the end"
+      },
       "explain": "**können** means *can*. It's a little irregular: **ich kann** and **er/sie kann** have no ending.\nThe second verb goes to the **end** of the sentence in its basic form (the infinitive): **Ich kann gut schwimmen.** / **Maryam kann nicht Rad fahren.**\nThis is a typical German pattern: **kann** in position 2, the infinitive at the very end.\n**möchten** works the same way: **Ich möchte Fußball spielen.**",
       "table": [
-        ["ich", "kann"],
-        ["du", "kannst"],
-        ["er / sie / es", "kann"],
-        ["wir", "können"],
-        ["ihr", "könnt"],
-        ["sie / Sie", "können"]
+        [
+          "ich",
+          "kann"
+        ],
+        [
+          "du",
+          "kannst"
+        ],
+        [
+          "er / sie / es",
+          "kann"
+        ],
+        [
+          "wir",
+          "können"
+        ],
+        [
+          "ihr",
+          "könnt"
+        ],
+        [
+          "sie / Sie",
+          "können"
+        ]
       ],
       "examples": [
-        { "t": "Ich kann schwimmen.", "s": "I can swim." },
-        { "t": "Reza kann gut Fußball spielen.", "s": "Reza can play soccer well." },
-        { "t": "Sara kann nicht Rad fahren.", "s": "Sara can't ride a bike." },
-        { "t": "Ich möchte am Abend lesen.", "s": "I'd like to read in the evening." }
+        {
+          "t": "Ich kann schwimmen.",
+          "s": "I can swim."
+        },
+        {
+          "t": "Reza kann gut Fußball spielen.",
+          "s": "Reza can play soccer well."
+        },
+        {
+          "t": "Sara kann nicht Rad fahren.",
+          "s": "Sara can't ride a bike."
+        },
+        {
+          "t": "Ich möchte am Abend lesen.",
+          "s": "I'd like to read in the evening."
+        }
       ],
       "exercises": [
-        { "type": "choice", "t": "Ich ___ schwimmen.", "options": ["kannst", "kann", "können"], "answer": 1, "s": "I can swim." },
-        { "type": "choice", "t": "Du ___ gut kochen.", "options": ["kann", "könnt", "kannst"], "answer": 2, "s": "You can cook well." },
-        { "type": "choice", "t": "Wir können Fußball ___.", "options": ["spielen", "spielt", "spiele"], "answer": 0, "s": "We can play soccer." },
-        { "type": "type", "t": "Maryam ___ gut singen.", "answer": ["kann"], "s": "Maryam can sing well." },
-        { "type": "type", "t": "Lukas kann gut Rad ___.", "answer": ["fahren"], "s": "Lukas can ride a bike well." },
-        { "type": "order", "t": "Ich kann gut kochen.", "s": "I can cook well." },
-        { "type": "order", "t": "Ali kann nicht schwimmen.", "s": "Ali can't swim." }
+        {
+          "type": "choice",
+          "t": "Ich ___ schwimmen.",
+          "options": [
+            "kannst",
+            "kann",
+            "können"
+          ],
+          "answer": 1,
+          "s": "I can swim."
+        },
+        {
+          "type": "choice",
+          "t": "Du ___ gut kochen.",
+          "options": [
+            "kann",
+            "könnt",
+            "kannst"
+          ],
+          "answer": 2,
+          "s": "You can cook well."
+        },
+        {
+          "type": "choice",
+          "t": "Wir können Fußball ___.",
+          "options": [
+            "spielen",
+            "spielt",
+            "spiele"
+          ],
+          "answer": 0,
+          "s": "We can play soccer."
+        },
+        {
+          "type": "type",
+          "t": "Maryam ___ gut singen.",
+          "answer": [
+            "kann"
+          ],
+          "s": "Maryam can sing well."
+        },
+        {
+          "type": "type",
+          "t": "Lukas kann gut Rad ___.",
+          "answer": [
+            "fahren"
+          ],
+          "s": "Lukas can ride a bike well."
+        },
+        {
+          "type": "order",
+          "t": "Ich kann gut kochen.",
+          "s": "I can cook well."
+        },
+        {
+          "type": "order",
+          "t": "Ali kann nicht schwimmen.",
+          "s": "Ali can't swim."
+        }
       ]
     },
     {
       "id": "g02",
-      "title": { "t": "Spielst du gern Fußball?", "s": "gern & yes/no questions" },
+      "title": {
+        "t": "Spielst du gern Fußball?",
+        "s": "gern & yes/no questions"
+      },
       "explain": "To say you **like doing** something, put **gern** after the verb: **Ich spiele gern Fußball.** (I like playing soccer.) The opposite is **nicht gern**: **Ich koche nicht gern.**\nFor a **yes/no question**, put the verb **first**: Du spielst gern Fußball. → **Spielst du gern Fußball?** With **können**, only **kann** moves to the front: **Kannst du schwimmen?**\nAnswer with **Ja, …** or **Nein, …**\nNote: **lesen** and **fahren** change their vowel: **du liest, er liest**; **du fährst, er fährt**.",
       "table": [
-        ["Du schwimmst gern.", "Schwimmst du gern?"],
-        ["Sie kocht gern.", "Kocht sie gern?"],
-        ["Du kannst singen.", "Kannst du singen?"]
+        [
+          "Du schwimmst gern.",
+          "Schwimmst du gern?"
+        ],
+        [
+          "Sie kocht gern.",
+          "Kocht sie gern?"
+        ],
+        [
+          "Du kannst singen.",
+          "Kannst du singen?"
+        ]
       ],
       "examples": [
-        { "t": "Ich lese gern.", "s": "I like reading." },
-        { "t": "Maryam hört gern Musik.", "s": "Maryam likes listening to music." },
-        { "t": "Spielst du gern Fußball? – Ja!", "s": "Do you like playing soccer? – Yes!" },
-        { "t": "Kann Ali kochen? – Nein, leider nicht.", "s": "Can Ali cook? – No, unfortunately not." },
-        { "t": "Wanderst du gern? – Nein, ich wandere nicht gern.", "s": "Do you like hiking? – No, I don't like hiking." }
+        {
+          "t": "Ich lese gern.",
+          "s": "I like reading."
+        },
+        {
+          "t": "Maryam hört gern Musik.",
+          "s": "Maryam likes listening to music."
+        },
+        {
+          "t": "Spielst du gern Fußball? – Ja!",
+          "s": "Do you like playing soccer? – Yes!"
+        },
+        {
+          "t": "Kann Ali kochen? – Nein, leider nicht.",
+          "s": "Can Ali cook? – No, unfortunately not."
+        },
+        {
+          "t": "Wanderst du gern? – Nein, ich wandere nicht gern.",
+          "s": "Do you like hiking? – No, I don't like hiking."
+        }
       ],
       "exercises": [
-        { "type": "choice", "t": "___ du gern Musik?", "options": ["Hört", "Hörst", "Höre"], "answer": 1, "s": "Do you like listening to music?" },
-        { "type": "choice", "t": "Ich koche ___.", "options": ["können", "Hobby", "gern"], "answer": 2, "s": "I like cooking." },
-        { "type": "type", "t": "___ du schwimmen? – Ja, ich kann schwimmen.", "answer": ["Kannst"], "s": "Can you swim? – Yes, I can swim." },
-        { "type": "choice", "t": "Liest Sara gern? – Nein, sie liest ___ gern.", "options": ["nicht", "kein", "keine"], "answer": 0, "s": "Does Sara like reading? – No, she doesn't like reading." },
-        { "type": "type", "t": "Ich ___ gern Musik.", "answer": ["höre", "hoere"], "s": "I like listening to music." },
-        { "type": "order", "t": "Spielst du gern Fußball?", "s": "Do you like playing soccer?" },
-        { "type": "order", "t": "Wandern Sie gern?", "s": "Do you like hiking?" }
+        {
+          "type": "choice",
+          "t": "___ du gern Musik?",
+          "options": [
+            "Hört",
+            "Hörst",
+            "Höre"
+          ],
+          "answer": 1,
+          "s": "Do you like listening to music?"
+        },
+        {
+          "type": "choice",
+          "t": "Ich koche ___.",
+          "options": [
+            "können",
+            "Hobby",
+            "gern"
+          ],
+          "answer": 2,
+          "s": "I like cooking."
+        },
+        {
+          "type": "type",
+          "t": "___ du schwimmen? – Ja, ich kann schwimmen.",
+          "answer": [
+            "Kannst"
+          ],
+          "s": "Can you swim? – Yes, I can swim."
+        },
+        {
+          "type": "choice",
+          "t": "Liest Sara gern? – Nein, sie liest ___ gern.",
+          "options": [
+            "nicht",
+            "kein",
+            "keine"
+          ],
+          "answer": 0,
+          "s": "Does Sara like reading? – No, she doesn't like reading."
+        },
+        {
+          "type": "type",
+          "t": "Ich ___ gern Musik.",
+          "answer": [
+            "höre",
+            "hoere"
+          ],
+          "s": "I like listening to music."
+        },
+        {
+          "type": "order",
+          "t": "Spielst du gern Fußball?",
+          "s": "Do you like playing soccer?"
+        },
+        {
+          "type": "order",
+          "t": "Wandern Sie gern?",
+          "s": "Do you like hiking?"
+        }
       ]
     }
   ],
   "reading": {
-    "title": { "t": "Familie Ahmadi in der Freizeit", "s": "The Ahmadi family in their free time" },
+    "title": {
+      "t": "Familie Ahmadi in der Freizeit",
+      "s": "The Ahmadi family in their free time"
+    },
     "text": [
-      { "t": "Familie Ahmadi wohnt in Köln.", "s": "The Ahmadi family lives in Cologne." },
-      { "t": "Ali spielt gern Fußball. Er spielt jeden Tag im Park.", "s": "Ali likes playing soccer. He plays in the park every day." },
-      { "t": "Maryam liest gern und sie hört gern Musik.", "s": "Maryam likes reading and she likes listening to music." },
-      { "t": "Neda kann sehr gut singen.", "s": "Neda can sing very well." },
-      { "t": "Amir kann nicht schwimmen, aber er kann gut kochen.", "s": "Amir can't swim, but he can cook well." },
-      { "t": "Im Sommer wandert die Familie gern.", "s": "In summer the family likes to go hiking." },
-      { "t": "Im Winter sehen sie am Abend gern fern.", "s": "In winter they like watching TV in the evening." }
+      {
+        "t": "Familie Ahmadi wohnt in Köln.",
+        "s": "The Ahmadi family lives in Cologne."
+      },
+      {
+        "t": "Ali spielt gern Fußball. Er spielt jeden Tag im Park.",
+        "s": "Ali likes playing soccer. He plays in the park every day."
+      },
+      {
+        "t": "Maryam liest gern und sie hört gern Musik.",
+        "s": "Maryam likes reading and she likes listening to music."
+      },
+      {
+        "t": "Neda kann sehr gut singen.",
+        "s": "Neda can sing very well."
+      },
+      {
+        "t": "Amir kann nicht schwimmen, aber er kann gut kochen.",
+        "s": "Amir can't swim, but he can cook well."
+      },
+      {
+        "t": "Im Sommer wandert die Familie gern.",
+        "s": "In summer the family likes to go hiking."
+      },
+      {
+        "t": "Im Winter kochen sie am Abend gern zusammen.",
+        "s": "In winter they like cooking together in the evening."
+      }
     ],
     "questions": [
-      { "q": { "t": "Wo spielt Ali Fußball?", "s": "Where does Ali play soccer?" }, "options": ["in der Schule", "im Park", "im Supermarkt"], "answer": 1 },
-      { "q": { "t": "Was macht Maryam gern?", "s": "What does Maryam like doing?" }, "options": ["Sie liest und hört Musik.", "Sie kocht.", "Sie spielt Fußball."], "answer": 0 },
-      { "q": { "t": "Kann Amir schwimmen?", "s": "Can Amir swim?" }, "options": ["Ja, sehr gut.", "Ja, im Sommer.", "Nein, aber er kann gut kochen."], "answer": 2 },
-      { "q": { "t": "Was macht die Familie im Sommer?", "s": "What does the family do in summer?" }, "options": ["Sie sieht fern.", "Sie wandert.", "Sie schwimmt."], "answer": 1 }
+      {
+        "q": {
+          "t": "Wo spielt Ali Fußball?",
+          "s": "Where does Ali play soccer?"
+        },
+        "options": [
+          "in der Schule",
+          "im Park",
+          "im Supermarkt"
+        ],
+        "answer": 1
+      },
+      {
+        "q": {
+          "t": "Was macht Maryam gern?",
+          "s": "What does Maryam like doing?"
+        },
+        "options": [
+          "Sie liest und hört Musik.",
+          "Sie kocht.",
+          "Sie spielt Fußball."
+        ],
+        "answer": 0
+      },
+      {
+        "q": {
+          "t": "Kann Amir schwimmen?",
+          "s": "Can Amir swim?"
+        },
+        "options": [
+          "Ja, sehr gut.",
+          "Ja, im Sommer.",
+          "Nein, aber er kann gut kochen."
+        ],
+        "answer": 2
+      },
+      {
+        "q": {
+          "t": "Was macht die Familie im Sommer?",
+          "s": "What does the family do in summer?"
+        },
+        "options": [
+          "Sie sieht fern.",
+          "Sie wandert.",
+          "Sie schwimmt."
+        ],
+        "answer": 1
+      }
     ]
   },
   "sentences": [
-    { "t": "Ich höre gern Musik.", "s": "I like listening to music." },
-    { "t": "Kannst du Rad fahren?", "s": "Can you ride a bike?" },
-    { "t": "Mein Hobby ist Kochen.", "s": "My hobby is cooking." },
-    { "t": "Wir spielen am Abend Fußball.", "s": "We play soccer in the evening." },
-    { "t": "Sara kann gut singen.", "s": "Sara can sing well." },
-    { "t": "Lesen Sie gern?", "s": "Do you like reading?" },
-    { "t": "Nein, ich kann nicht schwimmen.", "s": "No, I can't swim." },
-    { "t": "Hast du heute Abend Zeit?", "s": "Are you free this evening?" }
+    {
+      "t": "Ich höre gern Musik.",
+      "s": "I like listening to music."
+    },
+    {
+      "t": "Kannst du Rad fahren?",
+      "s": "Can you ride a bike?"
+    },
+    {
+      "t": "Mein Hobby ist Kochen.",
+      "s": "My hobby is cooking."
+    },
+    {
+      "t": "Wir spielen am Abend Fußball.",
+      "s": "We play soccer in the evening."
+    },
+    {
+      "t": "Sara kann gut singen.",
+      "s": "Sara can sing well."
+    },
+    {
+      "t": "Lesen Sie gern?",
+      "s": "Do you like reading?"
+    },
+    {
+      "t": "Nein, ich kann nicht schwimmen.",
+      "s": "No, I can't swim."
+    },
+    {
+      "t": "Hast du heute Abend Zeit?",
+      "s": "Are you free this evening?"
+    }
   ]
 }

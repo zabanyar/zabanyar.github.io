@@ -16,7 +16,7 @@
       "id": "w01",
       "t": "zero",
       "s": "صفر",
-      "pr": "زیرو",
+      "pr": "زیرُو",
       "emoji": "",
       "ex": {
         "t": "Zero, one, two, three!",
@@ -60,7 +60,7 @@
       "id": "w05",
       "t": "four",
       "s": "چهار",
-      "pr": "فور",
+      "pr": "فُر",
       "emoji": "",
       "ex": {
         "t": "Two and two is four.",
@@ -150,7 +150,7 @@
       "t": "boy",
       "pl": "boys",
       "s": "پسر",
-      "pr": "بوی",
+      "pr": "بُی",
       "emoji": "👦",
       "ex": {
         "t": "Tom is a boy. He is seven.",
@@ -534,7 +534,10 @@
         {
           "type": "order",
           "t": "Sara and Neda are girls.",
-          "s": "سارا و ندا دختر هستند."
+          "s": "سارا و ندا دختر هستند.",
+          "alts": [
+            "Neda and Sara are girls."
+          ]
         }
       ]
     }

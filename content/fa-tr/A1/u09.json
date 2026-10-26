@@ -223,7 +223,7 @@
       "id": "p07",
       "t": "سال نو مبارک!",
       "s": "Yeni yılınız kutlu olsun!",
-      "pr": "Sâl-e no mobârak!"
+      "pr": "Sâl-e now mobârak!"
     },
     {
       "id": "p08",
@@ -451,7 +451,10 @@
           "type": "order",
           "t": "امروز هوا خیلی سرد است.",
           "s": "Bugün hava çok soğuk.",
-          "pr": "Emruz havâ xeyli sard ast."
+          "pr": "Emruz havâ xeyli sard ast.",
+          "alts": [
+            "هوا امروز خیلی سرد است."
+          ]
         },
         {
           "type": "order",

@@ -553,7 +553,9 @@
           "t": "Çok çalışırsan sınavı ___.",
           "answer": [
             "geçersin",
-            "geçebilirsin"
+            "geçebilirsin",
+            "kazanırsın",
+            "kazanabilirsin"
           ],
           "s": "اگر زیاد درس بخوانی، امتحان را قبول می‌شوی."
         },

@@ -2,7 +2,10 @@
   "id": "u07",
   "level": "B2",
   "emoji": "🚆",
-  "title": { "t": "Unterwegs in Deutschland", "s": "On the move in Germany" },
+  "title": {
+    "t": "Unterwegs in Deutschland",
+    "s": "On the move in Germany"
+  },
   "goals": [
     "Talk about public transportation, commuting and travel",
     "Deal with delays, missed connections and compensation at the station",
@@ -10,157 +13,693 @@
     "Connect events in time with nachdem, bevor, sobald, seitdem and bis"
   ],
   "words": [
-    { "id": "w01", "t": "die Verspätung", "pl": "die Verspätungen", "s": "delay", "emoji": "",
-      "ex": { "t": "Der ICE hat heute 30 Minuten Verspätung.", "s": "The ICE is 30 minutes late today." } },
-    { "id": "w02", "t": "der Anschluss", "pl": "die Anschlüsse", "s": "connection (train, bus)", "emoji": "",
-      "ex": { "t": "Wegen der Verspätung habe ich meinen Anschluss verpasst.", "s": "Because of the delay I missed my connection." } },
-    { "id": "w03", "t": "umsteigen", "s": "to change (trains, buses)", "emoji": "",
-      "ex": { "t": "In Würzburg müssen Sie in den Regionalexpress umsteigen.", "s": "In Würzburg you have to change to the regional express." } },
-    { "id": "w04", "t": "ausfallen", "s": "to be canceled (train, class, event)", "emoji": "",
-      "ex": { "t": "Der Zug um 7:15 Uhr fällt heute leider aus.", "s": "Unfortunately, the 7:15 train is canceled today." } },
-    { "id": "w05", "t": "der Fahrgast", "pl": "die Fahrgäste", "s": "passenger", "emoji": "",
-      "ex": { "t": "Die Fahrgäste wurden gebeten, den Zug zu verlassen.", "s": "The passengers were asked to leave the train." } },
-    { "id": "w06", "t": "die Monatskarte", "pl": "die Monatskarten", "s": "monthly pass", "emoji": "🎫",
-      "ex": { "t": "Mit der Monatskarte fahre ich deutlich günstiger.", "s": "With a monthly pass I travel much more cheaply." } },
-    { "id": "w07", "t": "der öffentliche Nahverkehr", "s": "local public transportation", "emoji": "🚌",
-      "ex": { "t": "In Großstädten ist der öffentliche Nahverkehr gut ausgebaut.", "s": "In big cities, local public transportation is well developed." } },
-    { "id": "w08", "t": "der Stau", "pl": "die Staus", "s": "traffic jam", "emoji": "",
-      "ex": { "t": "Auf der A3 gibt es jeden Morgen kilometerlange Staus.", "s": "Every morning there are traffic jams several kilometers long on the A3." } },
-    { "id": "w09", "t": "die Umleitung", "pl": "die Umleitungen", "s": "detour, diversion", "emoji": "",
-      "ex": { "t": "Wegen der Bauarbeiten ist eine Umleitung ausgeschildert.", "s": "Because of the construction work, a detour is signposted." } },
-    { "id": "w10", "t": "pendeln", "s": "to commute", "emoji": "",
-      "ex": { "t": "Viele Menschen pendeln täglich mehr als eine Stunde zur Arbeit.", "s": "Many people commute more than an hour to work every day." } },
-    { "id": "w11", "t": "die Fahrgemeinschaft", "pl": "die Fahrgemeinschaften", "s": "carpool", "emoji": "",
-      "ex": { "t": "Lena und Jonas haben eine Fahrgemeinschaft gegründet.", "s": "Lena and Jonas have started a carpool." } },
-    { "id": "w12", "t": "die Entschädigung", "pl": "die Entschädigungen", "s": "compensation", "emoji": "",
-      "ex": { "t": "Ab 60 Minuten Verspätung haben Sie Anspruch auf eine Entschädigung.", "s": "If you're delayed by 60 minutes or more, you're entitled to compensation." } },
-    { "id": "w13", "t": "die Unterkunft", "pl": "die Unterkünfte", "s": "accommodation, place to stay", "emoji": "🏨",
-      "ex": { "t": "Wir suchen eine günstige Unterkunft in der Nähe des Bahnhofs.", "s": "We're looking for inexpensive accommodation near the station." } },
-    { "id": "w14", "t": "eine Reise stornieren", "s": "to cancel a trip / booking", "emoji": "",
-      "ex": { "t": "Wenn Sie die Reise kurzfristig stornieren, fallen Gebühren an.", "s": "If you cancel the trip at short notice, there will be fees." } },
-    { "id": "w15", "t": "nachhaltig reisen", "s": "to travel sustainably", "emoji": "",
-      "ex": { "t": "Wer nachhaltig reisen will, nimmt lieber den Zug als das Flugzeug.", "s": "Anyone who wants to travel sustainably would rather take the train than the plane." } }
+    {
+      "id": "w01",
+      "t": "die Verspätung",
+      "pl": "die Verspätungen",
+      "s": "delay",
+      "emoji": "",
+      "ex": {
+        "t": "Der ICE hat heute 30 Minuten Verspätung.",
+        "s": "The ICE is 30 minutes late today."
+      }
+    },
+    {
+      "id": "w02",
+      "t": "der Anschluss",
+      "pl": "die Anschlüsse",
+      "s": "connection (train, bus)",
+      "emoji": "",
+      "ex": {
+        "t": "Wegen der Verspätung habe ich meinen Anschluss verpasst.",
+        "s": "Because of the delay I missed my connection."
+      }
+    },
+    {
+      "id": "w03",
+      "t": "umsteigen",
+      "s": "to change (trains, buses)",
+      "emoji": "",
+      "ex": {
+        "t": "In Würzburg müssen Sie in den Regionalexpress umsteigen.",
+        "s": "In Würzburg you have to change to the regional express."
+      }
+    },
+    {
+      "id": "w04",
+      "t": "ausfallen",
+      "s": "to be canceled (train, class, event)",
+      "emoji": "",
+      "ex": {
+        "t": "Der Zug um 7:15 Uhr fällt heute leider aus.",
+        "s": "Unfortunately, the 7:15 train is canceled today."
+      }
+    },
+    {
+      "id": "w05",
+      "t": "der Fahrgast",
+      "pl": "die Fahrgäste",
+      "s": "passenger",
+      "emoji": "",
+      "ex": {
+        "t": "Die Fahrgäste wurden gebeten, den Zug zu verlassen.",
+        "s": "The passengers were asked to leave the train."
+      }
+    },
+    {
+      "id": "w06",
+      "t": "die Monatskarte",
+      "pl": "die Monatskarten",
+      "s": "monthly pass",
+      "emoji": "🎫",
+      "ex": {
+        "t": "Mit der Monatskarte fahre ich deutlich günstiger.",
+        "s": "With a monthly pass I travel much more cheaply."
+      }
+    },
+    {
+      "id": "w07",
+      "t": "der öffentliche Nahverkehr",
+      "s": "local public transportation",
+      "emoji": "🚌",
+      "ex": {
+        "t": "In Großstädten ist der öffentliche Nahverkehr gut ausgebaut.",
+        "s": "In big cities, local public transportation is well developed."
+      }
+    },
+    {
+      "id": "w08",
+      "t": "der Stau",
+      "pl": "die Staus",
+      "s": "traffic jam",
+      "emoji": "",
+      "ex": {
+        "t": "Auf der A3 gibt es jeden Morgen kilometerlange Staus.",
+        "s": "Every morning there are traffic jams several kilometers long on the A3."
+      }
+    },
+    {
+      "id": "w09",
+      "t": "die Umleitung",
+      "pl": "die Umleitungen",
+      "s": "detour, diversion",
+      "emoji": "",
+      "ex": {
+        "t": "Wegen der Bauarbeiten ist eine Umleitung ausgeschildert.",
+        "s": "Because of the construction work, a detour is signposted."
+      }
+    },
+    {
+      "id": "w10",
+      "t": "pendeln",
+      "s": "to commute",
+      "emoji": "",
+      "ex": {
+        "t": "Viele Menschen pendeln täglich mehr als eine Stunde zur Arbeit.",
+        "s": "Many people commute more than an hour to work every day."
+      }
+    },
+    {
+      "id": "w11",
+      "t": "die Fahrgemeinschaft",
+      "pl": "die Fahrgemeinschaften",
+      "s": "carpool",
+      "emoji": "",
+      "ex": {
+        "t": "Lena und Jonas haben eine Fahrgemeinschaft gegründet.",
+        "s": "Lena and Jonas have started a carpool."
+      }
+    },
+    {
+      "id": "w12",
+      "t": "die Entschädigung",
+      "pl": "die Entschädigungen",
+      "s": "compensation",
+      "emoji": "",
+      "ex": {
+        "t": "Ab 60 Minuten Verspätung haben Sie Anspruch auf eine Entschädigung.",
+        "s": "If you're delayed by 60 minutes or more, you're entitled to compensation."
+      }
+    },
+    {
+      "id": "w13",
+      "t": "die Unterkunft",
+      "pl": "die Unterkünfte",
+      "s": "accommodation, place to stay",
+      "emoji": "🏨",
+      "ex": {
+        "t": "Wir suchen eine günstige Unterkunft in der Nähe des Bahnhofs.",
+        "s": "We're looking for inexpensive accommodation near the station."
+      }
+    },
+    {
+      "id": "w14",
+      "t": "eine Reise stornieren",
+      "s": "to cancel a trip / booking",
+      "emoji": "",
+      "ex": {
+        "t": "Wenn Sie die Reise kurzfristig stornieren, fallen Gebühren an.",
+        "s": "If you cancel the trip at short notice, there will be fees."
+      }
+    },
+    {
+      "id": "w15",
+      "t": "nachhaltig reisen",
+      "s": "to travel sustainably",
+      "emoji": "",
+      "ex": {
+        "t": "Wer nachhaltig reisen will, nimmt lieber den Zug als das Flugzeug.",
+        "s": "Anyone who wants to travel sustainably would rather take the train than the plane."
+      }
+    }
   ],
   "phrases": [
-    { "id": "p01", "t": "Ich möchte mich über … beschweren.", "s": "I'd like to complain about …" },
-    { "id": "p02", "t": "Laut Fahrplan hätte der Zug um … ankommen sollen.", "s": "According to the timetable, the train should have arrived at …" },
-    { "id": "p03", "t": "Wie sieht es mit einer Entschädigung aus?", "s": "What about compensation?" },
-    { "id": "p04", "t": "Einerseits …, andererseits …", "s": "On the one hand …, on the other hand …" },
-    { "id": "p05", "t": "Im Vergleich zum Auto ist die Bahn …", "s": "Compared with the car, the train is …" },
-    { "id": "p06", "t": "Für mich ist entscheidend, dass …", "s": "For me, the deciding factor is that …" },
-    { "id": "p07", "t": "Das kann ich gut nachvollziehen.", "s": "I can understand that very well." },
-    { "id": "p08", "t": "Unterm Strich …", "s": "All things considered … / The bottom line is …" }
+    {
+      "id": "p01",
+      "t": "Ich möchte mich über … beschweren.",
+      "s": "I'd like to complain about …"
+    },
+    {
+      "id": "p02",
+      "t": "Laut Fahrplan hätte der Zug um … ankommen sollen.",
+      "s": "According to the timetable, the train should have arrived at …"
+    },
+    {
+      "id": "p03",
+      "t": "Wie sieht es mit einer Entschädigung aus?",
+      "s": "What about compensation?"
+    },
+    {
+      "id": "p04",
+      "t": "Einerseits …, andererseits …",
+      "s": "On the one hand …, on the other hand …"
+    },
+    {
+      "id": "p05",
+      "t": "Im Vergleich zum Auto ist die Bahn …",
+      "s": "Compared with the car, the train is …"
+    },
+    {
+      "id": "p06",
+      "t": "Für mich ist entscheidend, dass …",
+      "s": "For me, the deciding factor is that …"
+    },
+    {
+      "id": "p07",
+      "t": "Das kann ich gut nachvollziehen.",
+      "s": "I can understand that very well."
+    },
+    {
+      "id": "p08",
+      "t": "Unterm Strich …",
+      "s": "All things considered … / The bottom line is …"
+    }
   ],
   "dialogue": {
-    "title": { "t": "Anschluss verpasst!", "s": "Missed connection!" },
-    "speakers": { "A": { "name": "Frau Schulz", "voice": "f" }, "B": { "name": "Ali", "voice": "m" } },
+    "title": {
+      "t": "Anschluss verpasst!",
+      "s": "Missed connection!"
+    },
+    "speakers": {
+      "A": {
+        "name": "Frau Schulz",
+        "voice": "f"
+      },
+      "B": {
+        "name": "Ali",
+        "voice": "m"
+      }
+    },
     "lines": [
-      { "sp": "B", "t": "Guten Tag. Mein ICE aus München hatte über eine Stunde Verspätung, und ich habe hier in Hannover meinen Anschluss nach Bremerhaven verpasst.", "s": "Hello. My ICE from Munich was more than an hour late, and I missed my connection to Bremerhaven here in Hanover." },
-      { "sp": "A", "t": "Das tut mir leid. Darf ich mal Ihr Ticket sehen?", "s": "I'm sorry about that. May I see your ticket?" },
-      { "sp": "B", "t": "Hier, bitte. Ich habe es online gebucht.", "s": "Here you are. I booked it online." },
-      { "sp": "A", "t": "Danke. Ihre Zugbindung ist aufgehoben, Sie können also einfach den nächsten Zug nehmen.", "s": "Thank you. Your ticket is no longer tied to a specific train, so you can simply take the next one." },
-      { "sp": "B", "t": "Und wann fährt der nächste?", "s": "And when does the next one leave?" },
-      { "sp": "A", "t": "Der Regionalexpress nach Bremen fährt in zwanzig Minuten von Gleis 7. In Bremen steigen Sie dann in die S-Bahn nach Bremerhaven um.", "s": "The regional express to Bremen leaves in twenty minutes from platform 7. In Bremen you then change to the S-Bahn to Bremerhaven." },
-      { "sp": "B", "t": "Na gut. Bekomme ich wegen der Verspätung eigentlich Geld zurück?", "s": "All right. By the way, do I get any money back because of the delay?" },
-      { "sp": "A", "t": "Ja. Ab 60 Minuten Verspätung am Zielort steht Ihnen eine Entschädigung von 25 Prozent des Fahrpreises zu.", "s": "Yes. If you arrive at your destination 60 minutes late or more, you're entitled to compensation of 25 percent of the fare." },
-      { "sp": "B", "t": "Und wie beantrage ich das?", "s": "And how do I apply for it?" },
-      { "sp": "A", "t": "Am einfachsten online oder in der App, nachdem Sie angekommen sind. Bewahren Sie das Ticket bitte gut auf.", "s": "The easiest way is online or in the app, after you've arrived. Please keep your ticket in a safe place." },
-      { "sp": "B", "t": "Alles klar. Vielen Dank für Ihre Hilfe!", "s": "Got it. Thank you very much for your help!" },
-      { "sp": "A", "t": "Gern geschehen. Gute Weiterfahrt!", "s": "You're welcome. Have a good onward journey!" }
+      {
+        "sp": "B",
+        "t": "Guten Tag. Mein ICE aus München hatte über eine Stunde Verspätung, und ich habe hier in Hannover meinen Anschluss nach Bremerhaven verpasst.",
+        "s": "Hello. My ICE from Munich was more than an hour late, and I missed my connection to Bremerhaven here in Hanover."
+      },
+      {
+        "sp": "A",
+        "t": "Das tut mir leid. Darf ich mal Ihr Ticket sehen?",
+        "s": "I'm sorry about that. May I see your ticket?"
+      },
+      {
+        "sp": "B",
+        "t": "Hier, bitte. Ich habe es online gebucht.",
+        "s": "Here you are. I booked it online."
+      },
+      {
+        "sp": "A",
+        "t": "Danke. Ihre Zugbindung ist aufgehoben, Sie können also einfach den nächsten Zug nehmen.",
+        "s": "Thank you. Your ticket is no longer tied to a specific train, so you can simply take the next one."
+      },
+      {
+        "sp": "B",
+        "t": "Und wann fährt der nächste?",
+        "s": "And when does the next one leave?"
+      },
+      {
+        "sp": "A",
+        "t": "Der Regionalexpress nach Bremen fährt in zwanzig Minuten von Gleis 7. In Bremen steigen Sie dann in die S-Bahn nach Bremerhaven um.",
+        "s": "The regional express to Bremen leaves in twenty minutes from platform 7. In Bremen you then change to the S-Bahn to Bremerhaven."
+      },
+      {
+        "sp": "B",
+        "t": "Na gut. Bekomme ich wegen der Verspätung eigentlich Geld zurück?",
+        "s": "All right. By the way, do I get any money back because of the delay?"
+      },
+      {
+        "sp": "A",
+        "t": "Ja. Ab 60 Minuten Verspätung am Zielort steht Ihnen eine Entschädigung von 25 Prozent des Fahrpreises zu.",
+        "s": "Yes. If you arrive at your destination 60 minutes late or more, you're entitled to compensation of 25 percent of the fare."
+      },
+      {
+        "sp": "B",
+        "t": "Und wie beantrage ich das?",
+        "s": "And how do I apply for it?"
+      },
+      {
+        "sp": "A",
+        "t": "Am einfachsten online oder in der App, nachdem Sie angekommen sind. Bewahren Sie das Ticket bitte gut auf.",
+        "s": "The easiest way is online or in the app, after you've arrived. Please keep your ticket in a safe place."
+      },
+      {
+        "sp": "B",
+        "t": "Alles klar. Vielen Dank für Ihre Hilfe!",
+        "s": "Got it. Thank you very much for your help!"
+      },
+      {
+        "sp": "A",
+        "t": "Gern geschehen. Gute Weiterfahrt!",
+        "s": "You're welcome. Have a good onward journey!"
+      }
     ]
   },
   "grammar": [
     {
       "id": "g01",
-      "title": { "t": "die steigenden Preise, der verspätete Zug", "s": "Participle I and II as adjectives" },
+      "title": {
+        "t": "die steigenden Preise, der verspätete Zug",
+        "s": "Participle I and II as adjectives"
+      },
       "explain": "Participles can be used as adjectives in front of a noun. They take the normal adjective endings.\n**Partizip I** = infinitive + **-d**: **steigen → steigend**, **warten → wartend**. It has an **active** meaning and describes something happening **at the same time**: **die steigenden Preise** = die Preise, die (gerade) steigen.\n**Partizip II** (gebucht, verspätet, angekommen) describes something that has been **done** or is **completed**. With transitive verbs the meaning is **passive**: **das gebuchte Hotel** = das Hotel, das gebucht wurde. With verbs that form the perfect with **sein**, it means a completed action: **der angekommene Zug** = der Zug, der angekommen ist.\nCareful: verbs that form the perfect with **haben** and take no accusative object can't be used as Partizip II adjectives. You can't say *der geschlafene Mann* – only **der schlafende Mann**.\nMore information can stand before the participle: **die seit Stunden wartenden Fahrgäste** (you'll practice this at C1).",
       "table": [
-        ["steigend", "die steigenden Preise", "= die Preise, die steigen"],
-        ["wartend", "die wartenden Fahrgäste", "= die Fahrgäste, die warten"],
-        ["verspätet", "der verspätete Zug", "= der Zug, der sich verspätet hat"],
-        ["gebucht", "das gebuchte Hotel", "= das Hotel, das gebucht wurde"],
-        ["angekommen", "die angekommenen Gäste", "= die Gäste, die angekommen sind"]
+        [
+          "steigend",
+          "die steigenden Preise",
+          "= die Preise, die steigen"
+        ],
+        [
+          "wartend",
+          "die wartenden Fahrgäste",
+          "= die Fahrgäste, die warten"
+        ],
+        [
+          "verspätet",
+          "der verspätete Zug",
+          "= der Zug, der sich verspätet hat"
+        ],
+        [
+          "gebucht",
+          "das gebuchte Hotel",
+          "= das Hotel, das gebucht wurde"
+        ],
+        [
+          "angekommen",
+          "die angekommenen Gäste",
+          "= die Gäste, die angekommen sind"
+        ]
       ],
       "examples": [
-        { "t": "Wegen der steigenden Preise fahren viele Menschen weniger Auto.", "s": "Because of rising prices, many people drive less." },
-        { "t": "Die wartenden Fahrgäste wurden per Lautsprecher informiert.", "s": "The waiting passengers were informed over the loudspeaker." },
-        { "t": "Die gebuchte Unterkunft war viel kleiner als auf den Fotos.", "s": "The accommodation we'd booked was much smaller than in the photos." },
-        { "t": "Die neu eröffnete Bahnstrecke verkürzt die Fahrzeit erheblich.", "s": "The newly opened rail line cuts the travel time considerably." },
-        { "t": "Auf der Rückbank lag ein schlafendes Kind.", "s": "A sleeping child was lying on the back seat." }
+        {
+          "t": "Wegen der steigenden Preise fahren viele Menschen weniger Auto.",
+          "s": "Because of rising prices, many people drive less."
+        },
+        {
+          "t": "Die wartenden Fahrgäste wurden per Lautsprecher informiert.",
+          "s": "The waiting passengers were informed over the loudspeaker."
+        },
+        {
+          "t": "Die gebuchte Unterkunft war viel kleiner als auf den Fotos.",
+          "s": "The accommodation we'd booked was much smaller than in the photos."
+        },
+        {
+          "t": "Die neu eröffnete Bahnstrecke verkürzt die Fahrzeit erheblich.",
+          "s": "The newly opened rail line cuts the travel time considerably."
+        },
+        {
+          "t": "Auf der Rückbank lag ein schlafendes Kind.",
+          "s": "A sleeping child was lying on the back seat."
+        }
       ],
       "exercises": [
-        { "type": "choice", "t": "Wegen der ___ Spritpreise fahren viele mit dem Fahrrad.", "options": ["steigenden", "steigende", "steigend"], "answer": 0, "s": "Because of rising fuel prices, many people ride their bikes." },
-        { "type": "choice", "t": "Die ___ Fahrgäste stehen seit einer Stunde am Bahnsteig.", "options": ["wartende", "wartenden", "gewarteten"], "answer": 1, "s": "The waiting passengers have been standing on the platform for an hour." },
-        { "type": "type", "t": "Das ___ Hotel lag direkt am Strand.", "answer": ["gebuchte"], "s": "The hotel we had booked was right on the beach. (buchen)" },
-        { "type": "type", "t": "Statt des ___ Zuges fährt ein Bus.", "answer": ["ausgefallenen"], "s": "Instead of the canceled train, a bus is running. (ausfallen)" },
-        { "type": "choice", "t": "Die ___ Brücke ist seit Mai gesperrt.", "options": ["beschädigende", "beschädigt", "beschädigte"], "answer": 2, "s": "The damaged bridge has been closed since May." },
-        { "type": "type", "t": "Steigen Sie bitte nicht mehr in den ___ Zug ein!", "answer": ["abfahrenden"], "s": "Please do not board the departing train! (abfahren)" },
-        { "type": "order", "t": "Der verspätete Zug ist endlich angekommen.", "s": "The delayed train has finally arrived." },
-        { "type": "order", "t": "Die steigenden Ticketpreise ärgern viele Pendler.", "s": "The rising ticket prices annoy many commuters." }
+        {
+          "type": "choice",
+          "t": "Wegen der ___ Spritpreise fahren viele mit dem Fahrrad.",
+          "options": [
+            "steigenden",
+            "steigende",
+            "steigend"
+          ],
+          "answer": 0,
+          "s": "Because of rising fuel prices, many people ride their bikes."
+        },
+        {
+          "type": "choice",
+          "t": "Die ___ Fahrgäste stehen seit einer Stunde am Bahnsteig.",
+          "options": [
+            "wartende",
+            "wartenden",
+            "gewarteten"
+          ],
+          "answer": 1,
+          "s": "The waiting passengers have been standing on the platform for an hour."
+        },
+        {
+          "type": "type",
+          "t": "Das ___ Hotel lag direkt am Strand.",
+          "answer": [
+            "gebuchte"
+          ],
+          "s": "The hotel we had booked was right on the beach. (buchen)"
+        },
+        {
+          "type": "type",
+          "t": "Statt des ___ Zuges fährt ein Bus.",
+          "answer": [
+            "ausgefallenen"
+          ],
+          "s": "Instead of the canceled train, a bus is running. (ausfallen)"
+        },
+        {
+          "type": "choice",
+          "t": "Die ___ Brücke ist seit Mai gesperrt.",
+          "options": [
+            "beschädigende",
+            "beschädigt",
+            "beschädigte"
+          ],
+          "answer": 2,
+          "s": "The damaged bridge has been closed since May."
+        },
+        {
+          "type": "type",
+          "t": "Steigen Sie bitte nicht mehr in den ___ Zug ein!",
+          "answer": [
+            "abfahrenden"
+          ],
+          "s": "Please do not board the departing train! (abfahren)"
+        },
+        {
+          "type": "order",
+          "t": "Der verspätete Zug ist endlich angekommen.",
+          "s": "The delayed train has finally arrived."
+        },
+        {
+          "type": "order",
+          "t": "Die steigenden Ticketpreise ärgern viele Pendler.",
+          "s": "The rising ticket prices annoy many commuters."
+        }
       ]
     },
     {
       "id": "g02",
-      "title": { "t": "nachdem, bevor, sobald, seitdem, bis", "s": "Temporal connectors" },
+      "title": {
+        "t": "nachdem, bevor, sobald, seitdem, bis",
+        "s": "Temporal connectors"
+      },
       "explain": "These connectors introduce a **subordinate clause**, so the conjugated verb goes to the **end**.\n**nachdem** (after): first A happens, then B. Watch the **tense shift**: if the main clause is in the past (Präteritum or Perfekt), the nachdem clause is in the **Plusquamperfekt**: **Nachdem der Zug angekommen war, stiegen wir aus.** If the main clause is in the present or future, use the **Perfekt**: **Nachdem ich gegessen habe, gehe ich los.**\n**bevor** (before): usually the same tense in both clauses: **Bevor wir losfahren, tanken wir.**\n**sobald** (as soon as): **Sobald ich ankomme, rufe ich dich an.** For a completed action, use the Perfekt: **Sobald ich angekommen bin, …**\n**seit / seitdem** (since): something started in the past and is still true, so use the **present tense**: **Seitdem ich pendle, lese ich mehr.**\n**bis** (until): **Wir warten, bis der Bus kommt.**\nDon't confuse the connectors with prepositions: **nach dem Essen** vs. **nachdem wir gegessen hatten**; **vor der Reise** vs. **bevor wir reisen**.",
       "table": [
-        ["nachdem", "Nachdem wir gegessen hatten, fuhren wir los."],
-        ["bevor", "Bevor du losfährst, prüf die Verbindung."],
-        ["sobald", "Sobald ich ankomme, schreibe ich dir."],
-        ["seit / seitdem", "Seitdem ich pendle, lese ich mehr."],
-        ["bis", "Wir warten hier, bis der Bus kommt."]
+        [
+          "nachdem",
+          "Nachdem wir gegessen hatten, fuhren wir los."
+        ],
+        [
+          "bevor",
+          "Bevor du losfährst, prüf die Verbindung."
+        ],
+        [
+          "sobald",
+          "Sobald ich ankomme, schreibe ich dir."
+        ],
+        [
+          "seit / seitdem",
+          "Seitdem ich pendle, lese ich mehr."
+        ],
+        [
+          "bis",
+          "Wir warten hier, bis der Bus kommt."
+        ]
       ],
       "examples": [
-        { "t": "Nachdem der Zug ausgefallen war, nahmen wir ein Taxi.", "s": "After the train had been canceled, we took a taxi." },
-        { "t": "Bevor wir in den Urlaub fahren, bringen wir die Pflanzen zur Nachbarin.", "s": "Before we go on vacation, we take the plants to our neighbor." },
-        { "t": "Sobald ich angekommen bin, melde ich mich bei dir.", "s": "As soon as I've arrived, I'll get in touch with you." },
-        { "t": "Seitdem Reza mit dem Fahrrad zur Arbeit fährt, fühlt er sich fitter.", "s": "Since Reza started cycling to work, he has been feeling fitter." },
-        { "t": "Bitte bleiben Sie sitzen, bis der Bus hält.", "s": "Please remain seated until the bus stops." }
+        {
+          "t": "Nachdem der Zug ausgefallen war, nahmen wir ein Taxi.",
+          "s": "After the train had been canceled, we took a taxi."
+        },
+        {
+          "t": "Bevor wir in den Urlaub fahren, bringen wir die Pflanzen zur Nachbarin.",
+          "s": "Before we go on vacation, we take the plants to our neighbor."
+        },
+        {
+          "t": "Sobald ich angekommen bin, melde ich mich bei dir.",
+          "s": "As soon as I've arrived, I'll get in touch with you."
+        },
+        {
+          "t": "Seitdem Reza mit dem Fahrrad zur Arbeit fährt, fühlt er sich fitter.",
+          "s": "Since Reza started cycling to work, he has been feeling fitter."
+        },
+        {
+          "t": "Bitte bleiben Sie sitzen, bis der Bus hält.",
+          "s": "Please remain seated until the bus stops."
+        }
       ],
       "exercises": [
-        { "type": "choice", "t": "___ wir das Hotel gebucht hatten, sahen wir ein günstigeres Angebot.", "options": ["Nachdem", "Bevor", "Seitdem"], "answer": 0, "s": "After we had booked the hotel, we saw a cheaper offer." },
-        { "type": "choice", "t": "Nachdem Ali den Anschluss verpasst ___, rief er seine Frau an.", "options": ["hat", "hatte", "war"], "answer": 1, "s": "After Ali had missed his connection, he called his wife." },
-        { "type": "choice", "t": "Wir warten hier, ___ der Regen aufhört.", "options": ["seitdem", "nachdem", "bis"], "answer": 2, "s": "We'll wait here until the rain stops." },
-        { "type": "type", "t": "___ ich in Berlin wohne, fahre ich kaum noch Auto.", "answer": ["Seitdem", "Seit"], "s": "Since I've been living in Berlin, I hardly drive anymore." },
-        { "type": "type", "t": "Ruf mich bitte an, ___ du angekommen bist!", "answer": ["sobald", "wenn"], "s": "Please call me as soon as you've arrived!" },
-        { "type": "type", "t": "Nachdem wir die Koffer gepackt ___, fuhren wir zum Flughafen.", "answer": ["hatten"], "s": "After we had packed our suitcases, we drove to the airport." },
-        { "type": "choice", "t": "___ du losfährst, prüf bitte, ob die Strecke frei ist.", "options": ["Bevor", "Nachdem", "Seitdem"], "answer": 0, "s": "Before you set off, please check whether the route is clear." },
-        { "type": "order", "t": "Sobald der Zug hält, steigen wir aus.", "s": "As soon as the train stops, we'll get off." }
+        {
+          "type": "choice",
+          "t": "___ wir das Hotel gebucht hatten, sahen wir ein günstigeres Angebot.",
+          "options": [
+            "Nachdem",
+            "Bevor",
+            "Seitdem"
+          ],
+          "answer": 0,
+          "s": "After we had booked the hotel, we saw a cheaper offer."
+        },
+        {
+          "type": "choice",
+          "t": "Nachdem Ali den Anschluss verpasst ___, rief er seine Frau an.",
+          "options": [
+            "hat",
+            "hatte",
+            "war"
+          ],
+          "answer": 1,
+          "s": "After Ali had missed his connection, he called his wife."
+        },
+        {
+          "type": "choice",
+          "t": "Wir warten hier, ___ der Regen aufhört.",
+          "options": [
+            "seitdem",
+            "nachdem",
+            "bis"
+          ],
+          "answer": 2,
+          "s": "We'll wait here until the rain stops."
+        },
+        {
+          "type": "type",
+          "t": "___ ich in Berlin wohne, fahre ich kaum noch Auto.",
+          "answer": [
+            "Seitdem",
+            "Seit"
+          ],
+          "s": "Since I've been living in Berlin, I hardly drive anymore."
+        },
+        {
+          "type": "type",
+          "t": "Ruf mich bitte an, ___ du angekommen bist!",
+          "answer": [
+            "sobald",
+            "wenn"
+          ],
+          "s": "Please call me as soon as you've arrived!"
+        },
+        {
+          "type": "type",
+          "t": "Nachdem wir die Koffer gepackt ___, fuhren wir zum Flughafen.",
+          "answer": [
+            "hatten"
+          ],
+          "s": "After we had packed our suitcases, we drove to the airport."
+        },
+        {
+          "type": "choice",
+          "t": "___ du losfährst, prüf bitte, ob die Strecke frei ist.",
+          "options": [
+            "Bevor",
+            "Nachdem",
+            "Seitdem"
+          ],
+          "answer": 0,
+          "s": "Before you set off, please check whether the route is clear."
+        },
+        {
+          "type": "order",
+          "t": "Sobald der Zug hält, steigen wir aus.",
+          "s": "As soon as the train stops, we'll get off."
+        }
       ]
     }
   ],
   "reading": {
-    "title": { "t": "Pendeln: Fluch oder Segen?", "s": "Commuting: curse or blessing?" },
+    "title": {
+      "t": "Pendeln: Fluch oder Segen?",
+      "s": "Commuting: curse or blessing?"
+    },
     "text": [
-      { "t": "Millionen Menschen in Deutschland pendeln jeden Tag zur Arbeit – und ihre Wege werden immer länger.", "s": "Millions of people in Germany commute to work every day – and their journeys are getting longer and longer." },
-      { "t": "Einer von ihnen ist Reza, der in einem kleinen Ort bei Darmstadt wohnt und in Frankfurt arbeitet.", "s": "One of them is Reza, who lives in a small town near Darmstadt and works in Frankfurt." },
-      { "t": "Früher fuhr er jeden Morgen mit dem Auto, doch die steigenden Spritpreise und der tägliche Stau auf der A5 haben ihn zunehmend genervt.", "s": "He used to drive every morning, but the rising fuel prices and the daily traffic jams on the A5 annoyed him more and more." },
-      { "t": "Seitdem er mit der Bahn pendelt, nutzt er die Fahrzeit sinnvoll: Er liest, beantwortet E-Mails oder hört Podcasts.", "s": "Since he started commuting by train, he has been making good use of the travel time: he reads, answers emails or listens to podcasts." },
-      { "t": "Ganz ohne Ärger ist das Bahnfahren allerdings nicht.", "s": "However, train travel isn't entirely hassle-free." },
-      { "t": "Verspätete oder ausgefallene Züge gehören für viele Pendler zum Alltag.", "s": "Delayed or canceled trains are part of everyday life for many commuters." },
-      { "t": "Letzte Woche stand Rezas Zug wegen einer Signalstörung fast eine Stunde auf freier Strecke.", "s": "Last week Reza's train stood on the open track for almost an hour because of a signal failure." },
-      { "t": "„Nachdem ich endlich angekommen war, war das Meeting schon vorbei“, erzählt er.", "s": "“By the time I finally arrived, the meeting was already over,” he says." },
-      { "t": "Trotzdem will er nicht wieder aufs Auto umsteigen.", "s": "Even so, he doesn't want to switch back to the car." },
-      { "t": "Er spart nämlich Geld, weil sein Arbeitgeber einen Teil des Jobtickets bezahlt.", "s": "After all, he saves money, because his employer pays part of his company transit pass." },
-      { "t": "Und da er zweimal pro Woche im Homeoffice arbeitet, muss er nur noch dreimal pendeln.", "s": "And since he works from home twice a week, he only has to commute three times." },
-      { "t": "Verkehrsexperten fordern mehr Investitionen in die Schiene, damit noch mehr Menschen den Umstieg wagen.", "s": "Transportation experts are calling for more investment in rail so that even more people will dare to make the switch." }
+      {
+        "t": "Millionen Menschen in Deutschland pendeln jeden Tag zur Arbeit – und ihre Wege werden immer länger.",
+        "s": "Millions of people in Germany commute to work every day – and their journeys are getting longer and longer."
+      },
+      {
+        "t": "Einer von ihnen ist Reza, der in einem kleinen Ort bei Darmstadt wohnt und in Frankfurt arbeitet.",
+        "s": "One of them is Reza, who lives in a small town near Darmstadt and works in Frankfurt."
+      },
+      {
+        "t": "Früher fuhr er jeden Morgen mit dem Auto, doch die steigenden Spritpreise und der tägliche Stau auf der A5 haben ihn zunehmend genervt.",
+        "s": "He used to drive every morning, but the rising fuel prices and the daily traffic jams on the A5 annoyed him more and more."
+      },
+      {
+        "t": "Seitdem er mit der Bahn pendelt, nutzt er die Fahrzeit sinnvoll: Er liest, beantwortet E-Mails oder hört Podcasts.",
+        "s": "Since he started commuting by train, he has been making good use of the travel time: he reads, answers emails or listens to podcasts."
+      },
+      {
+        "t": "Ganz ohne Ärger ist das Bahnfahren allerdings nicht.",
+        "s": "However, train travel isn't entirely hassle-free."
+      },
+      {
+        "t": "Verspätete oder ausgefallene Züge gehören für viele Pendler zum Alltag.",
+        "s": "Delayed or canceled trains are part of everyday life for many commuters."
+      },
+      {
+        "t": "Letzte Woche stand Rezas Zug wegen einer Signalstörung fast eine Stunde auf freier Strecke.",
+        "s": "Last week Reza's train stood on the open track for almost an hour because of a signal failure."
+      },
+      {
+        "t": "„Als ich endlich ankam, war das Meeting schon vorbei“, erzählt er.",
+        "s": "“By the time I finally arrived, the meeting was already over,” he says."
+      },
+      {
+        "t": "Trotzdem will er nicht wieder aufs Auto umsteigen.",
+        "s": "Even so, he doesn't want to switch back to the car."
+      },
+      {
+        "t": "Er spart nämlich Geld, weil sein Arbeitgeber einen Teil des Jobtickets bezahlt.",
+        "s": "After all, he saves money, because his employer pays part of his company transit pass."
+      },
+      {
+        "t": "Und da er zweimal pro Woche im Homeoffice arbeitet, muss er nur noch dreimal pendeln.",
+        "s": "And since he works from home twice a week, he only has to commute three times."
+      },
+      {
+        "t": "Verkehrsexperten fordern mehr Investitionen in die Schiene, damit noch mehr Menschen den Umstieg wagen.",
+        "s": "Transportation experts are calling for more investment in rail so that even more people will dare to make the switch."
+      }
     ],
     "questions": [
-      { "q": { "t": "Wo arbeitet Reza?", "s": "Where does Reza work?" }, "options": ["in Darmstadt", "in Frankfurt", "in einem kleinen Ort"], "answer": 1 },
-      { "q": { "t": "Warum fährt Reza nicht mehr mit dem Auto zur Arbeit?", "s": "Why doesn't Reza drive to work anymore?" }, "options": ["wegen der hohen Spritpreise und des täglichen Staus", "weil er keinen Führerschein hat", "weil sein Auto kaputt ist"], "answer": 0 },
-      { "q": { "t": "Was macht Reza während der Fahrt?", "s": "What does Reza do during the journey?" }, "options": ["Er schläft meistens.", "Er telefoniert mit Kollegen.", "Er liest, beantwortet E-Mails oder hört Podcasts."], "answer": 2 },
-      { "q": { "t": "Was ist letzte Woche passiert?", "s": "What happened last week?" }, "options": ["Reza hat ein Meeting verpasst.", "Reza ist mit dem Auto gefahren.", "Der Zug ist zu früh abgefahren."], "answer": 0 },
-      { "q": { "t": "Wie oft pendelt Reza pro Woche?", "s": "How often does Reza commute per week?" }, "options": ["fünfmal", "zweimal", "dreimal"], "answer": 2 }
+      {
+        "q": {
+          "t": "Wo arbeitet Reza?",
+          "s": "Where does Reza work?"
+        },
+        "options": [
+          "in Darmstadt",
+          "in Frankfurt",
+          "in einem kleinen Ort"
+        ],
+        "answer": 1
+      },
+      {
+        "q": {
+          "t": "Warum fährt Reza nicht mehr mit dem Auto zur Arbeit?",
+          "s": "Why doesn't Reza drive to work anymore?"
+        },
+        "options": [
+          "wegen der hohen Spritpreise und des täglichen Staus",
+          "weil er keinen Führerschein hat",
+          "weil sein Auto kaputt ist"
+        ],
+        "answer": 0
+      },
+      {
+        "q": {
+          "t": "Was macht Reza während der Fahrt?",
+          "s": "What does Reza do during the journey?"
+        },
+        "options": [
+          "Er schläft meistens.",
+          "Er telefoniert mit Kollegen.",
+          "Er liest, beantwortet E-Mails oder hört Podcasts."
+        ],
+        "answer": 2
+      },
+      {
+        "q": {
+          "t": "Was ist letzte Woche passiert?",
+          "s": "What happened last week?"
+        },
+        "options": [
+          "Reza hat ein Meeting verpasst.",
+          "Reza ist mit dem Auto gefahren.",
+          "Der Zug ist zu früh abgefahren."
+        ],
+        "answer": 0
+      },
+      {
+        "q": {
+          "t": "Wie oft pendelt Reza pro Woche?",
+          "s": "How often does Reza commute per week?"
+        },
+        "options": [
+          "fünfmal",
+          "zweimal",
+          "dreimal"
+        ],
+        "answer": 2
+      }
     ]
   },
   "sentences": [
-    { "t": "Der Zug nach Hamburg fällt heute leider aus.", "s": "Unfortunately, the train to Hamburg is canceled today." },
-    { "t": "In Hannover müssen Sie umsteigen.", "s": "You have to change trains in Hanover." },
-    { "t": "Wegen einer Baustelle gibt es eine Umleitung.", "s": "There's a detour because of a construction site." },
-    { "t": "Die wartenden Fahrgäste bekamen kostenlos Wasser.", "s": "The waiting passengers were given free water." },
-    { "t": "Nachdem wir angekommen waren, suchten wir unsere Unterkunft.", "s": "After we had arrived, we looked for our accommodation." },
-    { "t": "Sobald ich im Zug sitze, schicke ich dir eine Nachricht.", "s": "As soon as I'm on the train, I'll send you a message." },
-    { "t": "Seitdem ich pendle, habe ich weniger Zeit für Sport.", "s": "Since I started commuting, I've had less time for sports." },
-    { "t": "Eine Fahrgemeinschaft spart Geld und schont die Umwelt.", "s": "A carpool saves money and is easier on the environment." }
+    {
+      "t": "Der Zug nach Hamburg fällt heute leider aus.",
+      "s": "Unfortunately, the train to Hamburg is canceled today."
+    },
+    {
+      "t": "In Hannover müssen Sie umsteigen.",
+      "s": "You have to change trains in Hanover."
+    },
+    {
+      "t": "Wegen einer Baustelle gibt es eine Umleitung.",
+      "s": "There's a detour because of a construction site."
+    },
+    {
+      "t": "Die wartenden Fahrgäste bekamen kostenlos Wasser.",
+      "s": "The waiting passengers were given free water."
+    },
+    {
+      "t": "Nachdem wir angekommen waren, suchten wir unsere Unterkunft.",
+      "s": "After we had arrived, we looked for our accommodation."
+    },
+    {
+      "t": "Sobald ich im Zug sitze, schicke ich dir eine Nachricht.",
+      "s": "As soon as I'm on the train, I'll send you a message."
+    },
+    {
+      "t": "Seitdem ich pendle, habe ich weniger Zeit für Sport.",
+      "s": "Since I started commuting, I've had less time for sports."
+    },
+    {
+      "t": "Eine Fahrgemeinschaft spart Geld und schont die Umwelt.",
+      "s": "A carpool saves money and is easier on the environment."
+    }
   ]
 }

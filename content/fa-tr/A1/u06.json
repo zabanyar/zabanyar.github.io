@@ -458,7 +458,10 @@
           "type": "order",
           "t": "پدرم هر روز کار می‌کند.",
           "s": "Babam her gün çalışıyor.",
-          "pr": "Pedaram har ruz kâr mikonad."
+          "pr": "Pedaram har ruz kâr mikonad.",
+          "alts": [
+            "هر روز پدرم کار می‌کند."
+          ]
         }
       ]
     },
@@ -589,7 +592,10 @@
           "type": "order",
           "t": "الان ساعت هشت است.",
           "s": "Şimdi saat sekiz.",
-          "pr": "Alân sâ'at haşt ast."
+          "pr": "Alân sâ'at haşt ast.",
+          "alts": [
+            "ساعت الان هشت است."
+          ]
         }
       ]
     }
