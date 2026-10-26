@@ -1,5 +1,10 @@
 // Session, progress, spaced repetition and sync with the family server.
-const LS_USER = "zy:user";
+// Everything is kept PER PERSON (by their family id), never per device: several people can share one phone,
+// and one person can use several devices. Each person's progress lives under its own key and is synced under their id.
+const LS_USER = "zy:user";        // who is using the app right now
+const LS_KNOWN = "zy:known";      // names that worked on this device: normalised typed name -> {id, name}
+const LS_RECENT = "zy:recent";    // people who used this device: [{id, name, at}]
+const LS_DIRTY = "zy:dirty";      // ids whose progress has changes not yet on the server
 const API_BASES = (() => {
   const h = location.hostname;
   const own = (h.endsWith("zabanyar.dpdns.org") || h.endsWith("workers.dev") || h === "localhost" || h === "127.0.0.1") ? [""] : [];
@@ -9,6 +14,8 @@ let apiBase = null;
 
 function lsGet(k, d) { try { const v = localStorage.getItem(k); return v ? JSON.parse(v) : d; } catch { return d; } }
 function lsSet(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch {} }
+function lsDel(k) { try { localStorage.removeItem(k); } catch {} }
+const norm = s => String(s || "").trim().toLowerCase().normalize("NFC").replace(/\s+/g, " ");
 
 export function today() { const d = new Date(); return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`; }
 
@@ -30,6 +37,43 @@ async function api(path, body) {
   catch { throw new Error("offline"); }
 }
 
+// ---------- people on this device ----------
+const pkey = uid => "zy:p:" + uid;
+function dirty() { return lsGet(LS_DIRTY, []); }
+function setDirty(uid, on) {
+  const d = new Set(dirty()); on ? d.add(uid) : d.delete(uid); lsSet(LS_DIRTY, [...d]);
+}
+function remember(typed, user) {
+  const known = lsGet(LS_KNOWN, {});
+  known[norm(typed)] = { id: user.id, name: user.name };
+  known[norm(user.id)] = { id: user.id, name: user.name };
+  lsSet(LS_KNOWN, known);
+  const rec = lsGet(LS_RECENT, []).filter(r => r.id !== user.id);
+  rec.unshift({ id: user.id, name: user.name, at: Date.now() });
+  lsSet(LS_RECENT, rec.slice(0, 12));
+}
+function forget(uid) {
+  lsSet(LS_RECENT, lsGet(LS_RECENT, []).filter(r => r.id !== uid));
+  const known = lsGet(LS_KNOWN, {});
+  for (const k of Object.keys(known)) if (known[k].id === uid) delete known[k];
+  lsSet(LS_KNOWN, known);
+}
+/** people who have used the app on this device, most recent first */
+export function recentUsers() { return lsGet(LS_RECENT, []); }
+
+// The server answered with a person's real id (e.g. "maman" for "مامان" typed while offline): move any progress
+// that was kept under the provisional id over to the real one.
+function adopt(localId, user) {
+  if (localId && localId !== user.id) {
+    const mine = lsGet(pkey(localId), null);
+    if (mine) { lsSet(pkey(user.id), mergeProgress(lsGet(pkey(user.id), null), mine)); lsDel(pkey(localId)); }
+    if (dirty().includes(localId)) { setDirty(localId, false); setDirty(user.id, true); }
+    lsSet(LS_RECENT, lsGet(LS_RECENT, []).filter(r => r.id !== localId));
+  }
+  const cur = currentUser();
+  if (cur && (cur.id === localId || cur.id === user.id) && (cur.unverified || cur.id !== user.id || cur.name !== user.name)) lsSet(LS_USER, { id: user.id, name: user.name });
+}
+
 // ---------- session ----------
 export function currentUser() { return lsGet(LS_USER, null); }
 export async function login(name) {
@@ -37,21 +81,37 @@ export async function login(name) {
   if (!clean) return { ok: false };
   try {
     const r = await api("login", { name: clean });
-    if (r.ok) { lsSet(LS_USER, r.user); return { ok: true, user: r.user }; }
+    if (r.ok) {
+      const user = { id: r.user.id, name: r.user.name };
+      remember(clean, user); lsSet(LS_USER, user);
+      return { ok: true, user };
+    }
     return { ok: false, unknown: true };
   } catch {
-    const user = { id: clean.toLowerCase(), name: clean, unverified: true };
+    // no internet: a name already used on this device is recognised; a new one is accepted and checked at the next sync
+    const k = lsGet(LS_KNOWN, {})[norm(clean)];
+    const user = k ? { id: k.id, name: k.name } : { id: norm(clean), name: clean, unverified: true };
     lsSet(LS_USER, user);
+    if (k) remember(clean, user);
     return { ok: true, user, offline: true };
   }
 }
-export function logout() { try { localStorage.removeItem(LS_USER); } catch {} }
+/** leave the app for the next person; their unsent progress stays queued and is uploaded in the background */
+export function logout() {
+  const u = currentUser();
+  clearTimeout(syncTimer);
+  lsDel(LS_USER);
+  if (u && dirty().includes(u.id)) syncAll();
+}
 
 // ---------- progress ----------
-function key(u) { return "zy:p:" + (u || currentUser()?.id || "guest"); }
-export function emptyProgress() { return { v: 1, days: {}, lessons: {}, srs: {}, updatedAt: 0 }; }
-export function progress() { return lsGet(key(), emptyProgress()); }
-function save(p) { p.updatedAt = Date.now(); lsSet(key(), p); scheduleSync(); }
+export function emptyProgress() { return { v: 1, days: {}, lessons: {}, srs: {}, prefs: {}, updatedAt: 0 }; }
+function load(uid) { const p = lsGet(pkey(uid), null) || emptyProgress(); p.prefs = p.prefs || {}; return p; }
+export function progress() { const u = currentUser(); return u ? load(u.id) : emptyProgress(); }
+function save(p) {
+  const u = currentUser(); if (!u) return;
+  p.updatedAt = Date.now(); lsSet(pkey(u.id), p); setDirty(u.id, true); scheduleSync();
+}
 
 export function mergeProgress(a, b) {
   a = a || emptyProgress(); b = b || emptyProgress();
@@ -65,8 +125,19 @@ export function mergeProgress(a, b) {
     const x = a.srs?.[k], y = b.srs?.[k];
     out.srs[k] = !x ? y : !y ? x : ((x.at || 0) >= (y.at || 0) ? x : y);
   }
+  for (const k of new Set([...Object.keys(a.prefs || {}), ...Object.keys(b.prefs || {})])) {
+    const x = a.prefs?.[k], y = b.prefs?.[k];
+    out.prefs[k] = !x ? y : !y ? x : ((x.at || 0) >= (y.at || 0) ? x : y);
+  }
   out.updatedAt = Math.max(a.updatedAt || 0, b.updatedAt || 0);
   return out;
+}
+
+// personal settings (e.g. the language of the home screen) travel with the person, too
+export function pref(name, d) { return progress().prefs?.[name]?.v ?? d; }
+export function setPref(name, v) {
+  if (!currentUser() || pref(name) === v) return;
+  const p = progress(); p.prefs[name] = { v, at: Date.now() }; save(p);
 }
 
 export function addXp(n) { const p = progress(); const d = today(); p.days[d] = (p.days[d] || 0) + n; save(p); }
@@ -107,23 +178,60 @@ export function srsAll(prefix) { return Object.keys(progress().srs).filter(k => 
 
 // ---------- sync ----------
 let syncTimer = null; let syncListeners = [];
+const running = new Map();   // uid -> promise (one sync per person at a time)
 export function onSync(fn) { syncListeners.push(fn); }
 function emit(s) { syncListeners.forEach(f => { try { f(s); } catch {} }); }
-export function scheduleSync(ms = 2500) { clearTimeout(syncTimer); syncTimer = setTimeout(sync, ms); }
-export async function sync() {
-  const u = currentUser(); if (!u) return;
-  try {
-    const r = await api("sync", { user: u.id, data: progress() });
-    if (r.status === 403) { emit("unknown"); return; }
-    if (r.ok && r.data) {
-      const before = progress();
-      const merged = mergeProgress(before, r.data);
-      lsSet(key(), merged);
-      if (u.unverified && r.user) lsSet(LS_USER, r.user);
-      const changed = JSON.stringify({ ...merged, updatedAt: 0 }) !== JSON.stringify({ ...mergeProgress(before, null), updatedAt: 0 });
-      emit(changed ? "changed" : "ok");
+export function scheduleSync(ms = 2500) { clearTimeout(syncTimer); syncTimer = setTimeout(() => syncAll(), ms); }
+
+// Sync ONE person, identified by id. The id is fixed for the whole round trip, so switching to another person
+// while the answer is on its way can never mix their progress.
+function syncUser(uid) {
+  if (running.has(uid)) return running.get(uid);
+  const job = (async () => {
+    const sent = load(uid);
+    let r;
+    try { r = await api("sync", { user: uid, data: sent }); } catch { return "offline"; }
+    if (r.status === 403) {
+      setDirty(uid, false); forget(uid);
+      return currentUser()?.id === uid ? "unknown" : "ok";
     }
-  } catch { emit("offline"); }
+    if (!r.ok || !r.data) return "offline";
+    const realId = r.user?.id || uid;
+    const now = load(uid);                                    // may have grown while we waited
+    const merged = mergeProgress(now, r.data);
+    lsSet(pkey(uid), merged);
+    if ((now.updatedAt || 0) <= (sent.updatedAt || 0)) setDirty(uid, false);
+    if (r.user) {
+      const cur = currentUser();
+      if (cur && cur.id === uid && (cur.unverified || realId !== uid)) remember(cur.name, r.user);   // offline login confirmed
+      adopt(uid, r.user);
+    }
+    const strip = p => JSON.stringify({ ...p, updatedAt: 0 });
+    const changed = strip(merged) !== strip(mergeProgress(now, null));
+    const isCurrent = [uid, realId].includes(currentUser()?.id);
+    return isCurrent && changed ? "changed" : "ok";
+  })().finally(() => running.delete(uid));
+  running.set(uid, job);
+  return job;
 }
+
+/** fetch the current person's latest progress and upload anyone's pending changes made on this device */
+export async function syncAll() {
+  const cur = currentUser();
+  const ids = [...new Set([...(cur ? [cur.id] : []), ...dirty()])];
+  if (!ids.length) return "ok";
+  const res = await Promise.all(ids.map(syncUser));
+  const mine = cur ? res[0] : "ok";
+  const s = res.includes("unknown") ? "unknown" : res.every(x => x === "offline") ? "offline" : mine;
+  emit(s);
+  return s;
+}
+export const sync = syncAll;
+
+let lastPull = 0;
 addEventListener("online", () => scheduleSync(500));
-document.addEventListener("visibilitychange", () => { if (document.visibilityState === "hidden") sync(); });
+document.addEventListener("visibilitychange", () => {
+  if (document.visibilityState === "hidden") { clearTimeout(syncTimer); syncAll(); }
+  // back to the app (perhaps after practising on another device): fetch the latest, at most twice a minute
+  else if (Date.now() - lastPull > 30000) { lastPull = Date.now(); syncAll(); }
+});

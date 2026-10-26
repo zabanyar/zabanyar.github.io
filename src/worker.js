@@ -23,7 +23,7 @@ function json(req, obj, status = 200) {
   return new Response(JSON.stringify(obj), { status, headers: { "content-type": "application/json; charset=utf-8", "cache-control": "no-store", ...cors(req) } });
 }
 
-function emptyProgress() { return { v: 1, days: {}, lessons: {}, srs: {}, updatedAt: 0 }; }
+function emptyProgress() { return { v: 1, days: {}, lessons: {}, srs: {}, prefs: {}, updatedAt: 0 }; }
 function merge(a, b) {
   a = a || emptyProgress(); b = b || emptyProgress();
   const out = emptyProgress();
@@ -35,6 +35,11 @@ function merge(a, b) {
   for (const k of new Set([...Object.keys(a.srs || {}), ...Object.keys(b.srs || {})])) {
     const x = a.srs?.[k], y = b.srs?.[k];
     out.srs[k] = !x ? y : !y ? x : ((+x.at || 0) >= (+y.at || 0) ? x : y);
+  }
+  // personal settings (home-screen language …): the most recent choice wins
+  for (const k of new Set([...Object.keys(a.prefs || {}), ...Object.keys(b.prefs || {})])) {
+    const x = a.prefs?.[k], y = b.prefs?.[k];
+    out.prefs[k] = !x ? y : !y ? x : ((+x.at || 0) >= (+y.at || 0) ? x : y);
   }
   out.updatedAt = Math.max(+a.updatedAt || 0, +b.updatedAt || 0);
   return out;

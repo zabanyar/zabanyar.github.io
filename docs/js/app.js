@@ -27,10 +27,11 @@ function courseMeta(id) { return INDEX.courses.find(c => c.id === id); }
 function allUnitRefs(c) { return c.levels.flatMap(lv => lv.units.map(un => ({ level: lv.id, un, key: keyOf(lv.id, un.id) }))); }
 const lkey = (cid, key, lid) => { const { level, uid } = parseKey(key); return `${cid}/${level}/${uid}/${lid}`; };
 
-function uiLang() { try { return localStorage.getItem("zy:ui") || "fa"; } catch { return "fa"; } }
+// home-screen language: each person's own (synced with their progress); before login, the device's last one
+function uiLang() { let d = "fa"; try { d = localStorage.getItem("zy:ui") || "fa"; } catch {} return store.currentUser() ? store.pref("ui", "fa") : d; }
 function useCourse(c) {
   const lang = c ? c.support : uiLang();
-  if (c) { try { localStorage.setItem("zy:ui", c.support); } catch {} }
+  if (c) { try { localStorage.setItem("zy:ui", c.support); } catch {} store.setPref("ui", c.support); }
   setLang(lang);
   document.documentElement.lang = lang;
   document.documentElement.dir = lang === "fa" ? "rtl" : "ltr";
@@ -56,18 +57,24 @@ function viewLogin() {
     btn.disabled = false;
     if (!r.ok) { msg.textContent = r.unknown ? `${t("unknownName")} · This name is not on the family list. · Bu ad aile listesinde yok.` : ""; return; }
     if (r.offline) toast(t("offlineLogin"));
-    store.sync();
+    else await Promise.race([store.sync(), new Promise(res => setTimeout(res, 3000))]);   // bring their progress from other devices
     location.hash = "#/";
   };
   const btn = h("button", { class: "btn block", onclick: go }, "ورود · Enter · Giriş");
   inp.addEventListener("keydown", e => { if (e.key === "Enter") go(); });
+  // people who already used this device: one tap to continue as them
+  const recent = store.recentUsers();
+  const who = recent.length ? h("div", { class: "card stack" },
+    h("div", { style: { fontWeight: 800 } }, "کی هستید؟", h("div", { class: "muted small", lang: "en" }, "Who is learning? · Kim öğreniyor?")),
+    h("div", { class: "whogrid" }, recent.map(r => h("button", { class: "btn secondary", onclick: () => { inp.value = r.id; go(); } }, "👤 ", h("bdi", {}, r.name))))) : null;
   app.replaceChildren(h("div", { class: "login" },
     h("img", { class: "logo", src: "icons/icon.svg", alt: "" }),
     h("h1", {}, "زبان‌یار · Zabanyar"),
     h("div", { class: "muted" }, t("tagline")),
-    h("div", { class: "card stack" }, h("label", { style: { fontWeight: 800 } }, "اسمتان را بنویسید",
-      h("div", { class: "muted small", lang: "en" }, "Type your name · Adınızı yazın")), inp, btn, msg)));
-  setTimeout(() => inp.focus(), 100);
+    who,
+    h("div", { class: "card stack" }, h("label", { style: { fontWeight: 800 } }, recent.length ? "یا اسمتان را بنویسید" : "اسمتان را بنویسید",
+      h("div", { class: "muted small", lang: "en" }, recent.length ? "Or type your name · Ya da adınızı yazın" : "Type your name · Adınızı yazın")), inp, btn, msg)));
+  if (!recent.length) setTimeout(() => inp.focus(), 100);
 }
 
 const EXPLAINED = { fa: "توضیحات به فارسی", en: "Explained in English", tr: "Türkçe açıklamalı" };
@@ -95,7 +102,8 @@ async function viewHome() {
   const L = getLang();
   app.replaceChildren(
     topbar("زبان‌یار · Zabanyar", null, h("a", { class: "iconbtn", href: "#/settings", "aria-label": "settings" }, "⚙️")),
-    h("div", { class: "hello" }, h("div", { class: "big" }, `${t("hello")} ${u.name}! 👋`)),
+    h("div", { class: "hello" }, h("div", { class: "big" }, `${t("hello")} ${u.name}! 👋`),
+      h("button", { class: "linkbtn small", onclick: () => { store.logout(); go("#/login"); } }, t("notYou"))),
     h("div", { class: "stats" },
       h("div", { class: "stat" }, h("b", {}, "🔥 " + num(store.streak(p))), h("span", {}, t("streak"))),
       h("div", { class: "stat" }, h("b", {}, "⭐ " + num(store.totalXp(p))), h("span", {}, t("xp"))),
@@ -272,7 +280,7 @@ function viewSettings() {
   app.replaceChildren(topbar(t("settings"), "#/"),
     h("div", { class: "card stack" },
       h("div", {}, "👤 ", h("b", {}, u.name)),
-      h("button", { class: "btn secondary block", onclick: () => { store.sync(); store.logout(); go("#/login"); } }, t("switchUser"))),
+      h("button", { class: "btn secondary block", onclick: () => { store.logout(); go("#/login"); } }, t("switchUser"))),
     h("h2", {}, "📱 " + t("install")),
     h("div", { class: "card muted" }, t("installHint")),
     h("h2", {}, "ℹ️ " + t("credits")),

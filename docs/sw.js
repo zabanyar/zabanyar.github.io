@@ -1,5 +1,5 @@
 // Zabanyar service worker: app shell precache + cache-first content (lessons, audio, pictures).
-const VERSION = "zy-shell-2026-10-22e";
+const VERSION = "zy-shell-2026-10-26a";
 const CONTENT = "zy-content-v1";
 const SHELL = [
   "./", "index.html", "app.css", "manifest.webmanifest",
