@@ -386,7 +386,7 @@
         "t": "Ich stehe um sechs Uhr auf.",
         "s": "Separable verbs & the verb in 2nd position"
       },
-      "explain": "Some German verbs have a small front part (a prefix) that **separates**: **auf|stehen**, **ein|kaufen**, **an|rufen**, **fern|sehen**.\nIn a sentence, the main part of the verb gets the normal ending and the prefix jumps to the **end**: **Ich stehe um sechs Uhr auf.**\nAnother key rule: in a German statement the verb is always the **second element**. If you start with a time, the subject moves behind the verb: **Um sechs Uhr stehe ich auf.** / **Am Abend sehen wir fern.**\nWatch out: a few verbs change their vowel with du and er/sie: **du siehst fern, er sieht fern**; **du schläfst, sie schläft**. And **arbeiten** adds an **e**: **du arbeitest, er arbeitet**.",
+      "explain": "Some German verbs have a small front part (a prefix) that **separates**: **auf|stehen**, **ein|kaufen**, **an|rufen**, **fern|sehen**.\nIn a sentence, the main part of the verb gets the normal ending and the prefix jumps to the **end**: **Ich stehe um sechs Uhr auf.** (In the table, **ihr** is *you* for two or more friends or family members, and **sie** is *they*.)\nAnother key rule: in a German statement the verb is always the **second element**. If you start with a time, the subject moves behind the verb: **Um sechs Uhr stehe ich auf.** / **Am Abend sehen wir fern.**\nWatch out: a few verbs change their vowel with du and er/sie: **du siehst fern, er sieht fern**; **du schläfst, sie schläft**. And **arbeiten** adds an **e**: **du arbeitest, er arbeitet**.",
       "table": [
         [
           "ich",
@@ -496,12 +496,18 @@
         {
           "type": "order",
           "t": "Ich stehe um sechs Uhr auf.",
-          "s": "I get up at six o'clock."
+          "s": "I get up at six o'clock.",
+          "alts": [
+            "Um sechs Uhr stehe ich auf."
+          ]
         },
         {
           "type": "order",
           "t": "Am Abend sehen wir fern.",
-          "s": "In the evening we watch TV."
+          "s": "In the evening we watch TV.",
+          "alts": [
+            "Wir sehen am Abend fern."
+          ]
         }
       ]
     }
@@ -603,27 +609,46 @@
     },
     {
       "t": "Ich stehe um sieben Uhr auf.",
-      "s": "I get up at seven o'clock."
+      "s": "I get up at seven o'clock.",
+      "alts": [
+        "Um sieben Uhr stehe ich auf."
+      ]
     },
     {
       "t": "Am Morgen trinke ich Tee.",
-      "s": "In the morning I drink tea."
+      "s": "In the morning I drink tea.",
+      "alts": [
+        "Ich trinke am Morgen Tee."
+      ]
     },
     {
       "t": "Herr Schmidt arbeitet jeden Tag.",
-      "s": "Mr. Schmidt works every day."
+      "s": "Mr. Schmidt works every day.",
+      "alts": [
+        "Jeden Tag arbeitet Herr Schmidt."
+      ]
     },
     {
       "t": "Das Mittagessen ist um halb eins.",
-      "s": "Lunch is at twelve thirty."
+      "s": "Lunch is at twelve thirty.",
+      "alts": [
+        "Um halb eins ist das Mittagessen."
+      ]
     },
     {
       "t": "Am Abend ruft Ali Sara an.",
-      "s": "In the evening Ali calls Sara."
+      "s": "In the evening Ali calls Sara.",
+      "alts": [
+        "Ali ruft am Abend Sara an.",
+        "Ali ruft Sara am Abend an."
+      ]
     },
     {
       "t": "Wir sehen am Abend fern.",
-      "s": "We watch TV in the evening."
+      "s": "We watch TV in the evening.",
+      "alts": [
+        "Am Abend sehen wir fern."
+      ]
     },
     {
       "t": "Gute Nacht, Sara!",

@@ -2,7 +2,11 @@
   "id": "u00",
   "level": "A1",
   "emoji": "🔤",
-  "title": { "t": "الفبای فارسی", "pr": "alefbâ-ye fârsi", "s": "Fars alfabesi" },
+  "title": {
+    "t": "الفبای فارسی",
+    "pr": "alefbâ-ye fârsi",
+    "s": "Fars alfabesi"
+  },
   "goals": [
     "Fars alfabesinin 32 harfini tanıyabilmek.",
     "Farsçanın sağdan sola yazıldığını ve kısa ünlülerin yazılmadığını bilmek.",
@@ -10,38 +14,326 @@
     "İlk basit kelimeleri okuyabilmek."
   ],
   "letters": [
-    { "t": "ا", "pr": "alef — â, a, e, o", "ex": { "t": "اَسب", "pr": "asb", "s": "at", "emoji": "🐎" } },
-    { "t": "ب", "pr": "be — b sesi", "ex": { "t": "بَستَنی", "pr": "bastani", "s": "dondurma", "emoji": "🍦" } },
-    { "t": "پ", "pr": "pe — p sesi", "ex": { "t": "پَنیر", "pr": "panir", "s": "peynir", "emoji": "🧀" } },
-    { "t": "ت", "pr": "te — t sesi", "ex": { "t": "توپ", "pr": "tup", "s": "top", "emoji": "⚽" } },
-    { "t": "ث", "pr": "se — s sesi", "ex": { "t": "ثانیه", "pr": "sâniye", "s": "saniye", "emoji": "⏱️" } },
-    { "t": "ج", "pr": "cim — c sesi", "ex": { "t": "جوجه", "pr": "cuce", "s": "civciv", "emoji": "🐤" } },
-    { "t": "چ", "pr": "çe — ç sesi", "ex": { "t": "چای", "pr": "çây", "s": "çay", "emoji": "🍵" } },
-    { "t": "ح", "pr": "he — h sesi", "ex": { "t": "حَلَزون", "pr": "halazun", "s": "salyangoz", "emoji": "🐌" } },
-    { "t": "خ", "pr": "xe — x sesi (hırıltılı h)", "ex": { "t": "خِرس", "pr": "xers", "s": "ayı", "emoji": "🐻" } },
-    { "t": "د", "pr": "dâl — d sesi", "ex": { "t": "دَست", "pr": "dast", "s": "el", "emoji": "✋" } },
-    { "t": "ذ", "pr": "zâl — z sesi", "ex": { "t": "ذُرَّت", "pr": "zorrat", "s": "mısır", "emoji": "🌽" } },
-    { "t": "ر", "pr": "re — r sesi", "ex": { "t": "روباه", "pr": "rubâh", "s": "tilki", "emoji": "🦊" } },
-    { "t": "ز", "pr": "ze — z sesi", "ex": { "t": "زَنبور", "pr": "zanbur", "s": "arı", "emoji": "🐝" } },
-    { "t": "ژ", "pr": "je — j sesi", "ex": { "t": "ژاکَت", "pr": "jâkat", "s": "hırka, ceket", "emoji": "🧥" } },
-    { "t": "س", "pr": "sin — s sesi", "ex": { "t": "سیب", "pr": "sib", "s": "elma", "emoji": "🍎" } },
-    { "t": "ش", "pr": "şin — ş sesi", "ex": { "t": "شیر", "pr": "şir", "s": "aslan (ayrıca: süt)", "emoji": "🦁" } },
-    { "t": "ص", "pr": "sâd — s sesi", "ex": { "t": "صابون", "pr": "sâbun", "s": "sabun", "emoji": "🧼" } },
-    { "t": "ض", "pr": "zâd — z sesi", "ex": { "t": "مَریض", "pr": "mariz", "s": "hasta", "emoji": "🤒" } },
-    { "t": "ط", "pr": "tâ — t sesi", "ex": { "t": "طاووس", "pr": "tâvus", "s": "tavus kuşu", "emoji": "🦚" } },
-    { "t": "ظ", "pr": "zâ — z sesi", "ex": { "t": "ظَرف", "pr": "zarf", "s": "kap, kase", "emoji": "🥣" } },
-    { "t": "ع", "pr": "eyn — ' (kısa durak) ya da sessiz", "ex": { "t": "عَسَل", "pr": "asal", "s": "bal", "emoji": "🍯" } },
-    { "t": "غ", "pr": "ğeyn — ğ sesi (gırtlaktan)", "ex": { "t": "غَذا", "pr": "ğazâ", "s": "yemek", "emoji": "🍲" } },
-    { "t": "ف", "pr": "fe — f sesi", "ex": { "t": "فیل", "pr": "fil", "s": "fil", "emoji": "🐘" } },
-    { "t": "ق", "pr": "ğâf — ğ sesi (غ ile aynı)", "ex": { "t": "قَلب", "pr": "ğalb", "s": "kalp", "emoji": "❤️" } },
-    { "t": "ک", "pr": "kâf — k sesi", "ex": { "t": "کِتاب", "pr": "ketâb", "s": "kitap", "emoji": "📖" } },
-    { "t": "گ", "pr": "gâf — g sesi", "ex": { "t": "گُل", "pr": "gol", "s": "çiçek", "emoji": "🌸" } },
-    { "t": "ل", "pr": "lâm — l sesi", "ex": { "t": "لیمو", "pr": "limu", "s": "limon", "emoji": "🍋" } },
-    { "t": "م", "pr": "mim — m sesi", "ex": { "t": "ماهی", "pr": "mâhi", "s": "balık", "emoji": "🐟" } },
-    { "t": "ن", "pr": "nun — n sesi", "ex": { "t": "نان", "pr": "nân", "s": "ekmek", "emoji": "🍞" } },
-    { "t": "و", "pr": "vâv — v, u, o sesleri", "ex": { "t": "ویولُن", "pr": "viyolon", "s": "keman", "emoji": "🎻" } },
-    { "t": "ه", "pr": "he — h sesi (sonda: e)", "ex": { "t": "هِندِوانه", "pr": "hendevâne", "s": "karpuz", "emoji": "🍉" } },
-    { "t": "ی", "pr": "ye — y, i, ey sesleri", "ex": { "t": "یَخ", "pr": "yax", "s": "buz", "emoji": "🧊" } }
+    {
+      "t": "ا",
+      "pr": "alef — â, a, e, o",
+      "ex": {
+        "t": "اَسب",
+        "pr": "asb",
+        "s": "at",
+        "emoji": "🐎"
+      }
+    },
+    {
+      "t": "ب",
+      "pr": "be — b sesi",
+      "ex": {
+        "t": "بَستَنی",
+        "pr": "bastani",
+        "s": "dondurma",
+        "emoji": "🍦"
+      }
+    },
+    {
+      "t": "پ",
+      "pr": "pe — p sesi",
+      "ex": {
+        "t": "پَنیر",
+        "pr": "panir",
+        "s": "peynir",
+        "emoji": "🧀"
+      }
+    },
+    {
+      "t": "ت",
+      "pr": "te — t sesi",
+      "ex": {
+        "t": "توپ",
+        "pr": "tup",
+        "s": "top",
+        "emoji": "⚽"
+      }
+    },
+    {
+      "t": "ث",
+      "pr": "se — s sesi",
+      "ex": {
+        "t": "ثانیه",
+        "pr": "sâniye",
+        "s": "saniye",
+        "emoji": "⏱️"
+      }
+    },
+    {
+      "t": "ج",
+      "pr": "cim — c sesi",
+      "ex": {
+        "t": "جوجه",
+        "pr": "cuce",
+        "s": "civciv",
+        "emoji": "🐤"
+      }
+    },
+    {
+      "t": "چ",
+      "pr": "çe — ç sesi",
+      "ex": {
+        "t": "چای",
+        "pr": "çây",
+        "s": "çay",
+        "emoji": "🍵"
+      }
+    },
+    {
+      "t": "ح",
+      "pr": "he — h sesi",
+      "ex": {
+        "t": "حَلَزون",
+        "pr": "halazun",
+        "s": "salyangoz",
+        "emoji": "🐌"
+      }
+    },
+    {
+      "t": "خ",
+      "pr": "xe — x sesi (hırıltılı h)",
+      "ex": {
+        "t": "خِرس",
+        "pr": "xers",
+        "s": "ayı",
+        "emoji": "🐻"
+      }
+    },
+    {
+      "t": "د",
+      "pr": "dâl — d sesi",
+      "ex": {
+        "t": "دَست",
+        "pr": "dast",
+        "s": "el",
+        "emoji": "✋"
+      }
+    },
+    {
+      "t": "ذ",
+      "pr": "zâl — z sesi",
+      "ex": {
+        "t": "ذُرَّت",
+        "pr": "zorrat",
+        "s": "mısır",
+        "emoji": "🌽"
+      }
+    },
+    {
+      "t": "ر",
+      "pr": "re — r sesi",
+      "ex": {
+        "t": "روباه",
+        "pr": "rubâh",
+        "s": "tilki",
+        "emoji": "🦊"
+      }
+    },
+    {
+      "t": "ز",
+      "pr": "ze — z sesi",
+      "ex": {
+        "t": "زَنبور",
+        "pr": "zanbur",
+        "s": "arı",
+        "emoji": "🐝"
+      }
+    },
+    {
+      "t": "ژ",
+      "pr": "je — j sesi",
+      "ex": {
+        "t": "ژاکَت",
+        "pr": "jâkat",
+        "s": "hırka, ceket",
+        "emoji": "🧥"
+      }
+    },
+    {
+      "t": "س",
+      "pr": "sin — s sesi",
+      "ex": {
+        "t": "سیب",
+        "pr": "sib",
+        "s": "elma",
+        "emoji": "🍎"
+      }
+    },
+    {
+      "t": "ش",
+      "pr": "şin — ş sesi",
+      "ex": {
+        "t": "شیر",
+        "pr": "şir",
+        "s": "aslan (ayrıca: süt)",
+        "emoji": "🦁"
+      }
+    },
+    {
+      "t": "ص",
+      "pr": "sâd — s sesi",
+      "ex": {
+        "t": "صابون",
+        "pr": "sâbun",
+        "s": "sabun",
+        "emoji": "🧼"
+      }
+    },
+    {
+      "t": "ض",
+      "pr": "zâd — z sesi",
+      "ex": {
+        "t": "مَریض",
+        "pr": "mariz",
+        "s": "hasta",
+        "emoji": "🤒"
+      }
+    },
+    {
+      "t": "ط",
+      "pr": "tâ — t sesi",
+      "ex": {
+        "t": "طاووس",
+        "pr": "tâvus",
+        "s": "tavus kuşu",
+        "emoji": "🦚"
+      }
+    },
+    {
+      "t": "ظ",
+      "pr": "zâ — z sesi",
+      "ex": {
+        "t": "ظَرف",
+        "pr": "zarf",
+        "s": "kap, kase",
+        "emoji": "🥣"
+      }
+    },
+    {
+      "t": "ع",
+      "pr": "eyn — ' (kısa durak) ya da sessiz",
+      "ex": {
+        "t": "عَسَل",
+        "pr": "asal",
+        "s": "bal",
+        "emoji": "🍯"
+      }
+    },
+    {
+      "t": "غ",
+      "pr": "ğeyn — ğ sesi (gırtlaktan)",
+      "ex": {
+        "t": "غَذا",
+        "pr": "ğazâ",
+        "s": "yemek",
+        "emoji": "🍲"
+      }
+    },
+    {
+      "t": "ف",
+      "pr": "fe — f sesi",
+      "ex": {
+        "t": "فیل",
+        "pr": "fil",
+        "s": "fil",
+        "emoji": "🐘"
+      }
+    },
+    {
+      "t": "ق",
+      "pr": "ğâf — ğ sesi (ğeyn ile aynı)",
+      "ex": {
+        "t": "قَلب",
+        "pr": "ğalb",
+        "s": "kalp",
+        "emoji": "❤️"
+      }
+    },
+    {
+      "t": "ک",
+      "pr": "kâf — k sesi",
+      "ex": {
+        "t": "کِتاب",
+        "pr": "ketâb",
+        "s": "kitap",
+        "emoji": "📖"
+      }
+    },
+    {
+      "t": "گ",
+      "pr": "gâf — g sesi",
+      "ex": {
+        "t": "گُل",
+        "pr": "gol",
+        "s": "çiçek",
+        "emoji": "🌸"
+      }
+    },
+    {
+      "t": "ل",
+      "pr": "lâm — l sesi",
+      "ex": {
+        "t": "لیمو",
+        "pr": "limu",
+        "s": "limon",
+        "emoji": "🍋"
+      }
+    },
+    {
+      "t": "م",
+      "pr": "mim — m sesi",
+      "ex": {
+        "t": "ماهی",
+        "pr": "mâhi",
+        "s": "balık",
+        "emoji": "🐟"
+      }
+    },
+    {
+      "t": "ن",
+      "pr": "nun — n sesi",
+      "ex": {
+        "t": "نان",
+        "pr": "nân",
+        "s": "ekmek",
+        "emoji": "🍞"
+      }
+    },
+    {
+      "t": "و",
+      "pr": "vâv — v, u, o sesleri",
+      "ex": {
+        "t": "ویولُن",
+        "pr": "viyolon",
+        "s": "keman",
+        "emoji": "🎻"
+      }
+    },
+    {
+      "t": "ه",
+      "pr": "he — h sesi (sonda: e)",
+      "ex": {
+        "t": "هِندِوانه",
+        "pr": "hendevâne",
+        "s": "karpuz",
+        "emoji": "🍉"
+      }
+    },
+    {
+      "t": "ی",
+      "pr": "ye — y, i, ey sesleri",
+      "ex": {
+        "t": "یَخ",
+        "pr": "yax",
+        "s": "buz",
+        "emoji": "🧊"
+      }
+    }
   ],
   "sounds": [
     {
@@ -49,9 +341,21 @@
       "pr": "az râst be çap",
       "s": "Farsça **sağdan sola** yazılır ve okunur.\nHarflerin çoğu yanındaki harfe bağlanır ve kelimenin başında, ortasında ya da sonunda biraz şekil değiştirir: **ب ← بـ ـبـ ـب**.\nRakamlar ise Türkçedeki gibi soldan sağa yazılır.",
       "ex": [
-        { "t": "بابا", "pr": "bâbâ", "s": "baba" },
-        { "t": "کتاب", "pr": "ketâb", "s": "kitap" },
-        { "t": "سیب", "pr": "sib", "s": "elma" }
+        {
+          "t": "بابا",
+          "pr": "bâbâ",
+          "s": "baba"
+        },
+        {
+          "t": "کتاب",
+          "pr": "ketâb",
+          "s": "kitap"
+        },
+        {
+          "t": "سیب",
+          "pr": "sib",
+          "s": "elma"
+        }
       ]
     },
     {
@@ -59,9 +363,21 @@
       "pr": "alef, dâl, zâl, re, ze, je, vâv",
       "s": "Bu **7 harf** solundaki (kendinden sonraki) harfe **bağlanmaz**. Bu yüzden kelimenin içinde küçük bir boşluk varmış gibi görünür: **دارو** (dâru), **روز** (ruz).\nDiğer bütün harfler iki yana da bağlanır.",
       "ex": [
-        { "t": "دارو", "pr": "dâru", "s": "ilaç" },
-        { "t": "روز", "pr": "ruz", "s": "gün" },
-        { "t": "زرد", "pr": "zard", "s": "sarı" }
+        {
+          "t": "دارو",
+          "pr": "dâru",
+          "s": "ilaç"
+        },
+        {
+          "t": "روز",
+          "pr": "ruz",
+          "s": "gün"
+        },
+        {
+          "t": "زرد",
+          "pr": "zard",
+          "s": "sarı"
+        }
       ]
     },
     {
@@ -69,29 +385,65 @@
       "pr": "a, e, o",
       "s": "Farsçada 6 ünlü vardır: uzun **â, i, u** ve kısa **a, e, o**. Türkçedeki **ı, ö, ü** sesleri Farsçada yoktur.\nUzun ünlüler harfle yazılır (ا ی و), ama kısa ünlüler genelde **yazılmaz**! Örneğin **من** sadece m + n'dir ama 'man' okunur.\nBazen küçük işaretlerle gösterilir: **بَ** = ba, **بِ** = be, **بُ** = bo. Bu yüzden yeni kelimeleri hep Latin harfli okunuşuyla birlikte öğrenin.",
       "ex": [
-        { "t": "گُل", "pr": "gol", "s": "çiçek" },
-        { "t": "گِل", "pr": "gel", "s": "çamur" },
-        { "t": "مَن", "pr": "man", "s": "ben" }
+        {
+          "t": "گُل",
+          "pr": "gol",
+          "s": "çiçek"
+        },
+        {
+          "t": "گِل",
+          "pr": "gel",
+          "s": "çamur"
+        },
+        {
+          "t": "مَن",
+          "pr": "man",
+          "s": "ben"
+        }
       ]
     },
     {
       "t": "آ / ا",
       "pr": "â / a, e, o",
-      "s": "**آ** (üstünde dalgalı işaret var) her zaman uzun **â** sesidir ve çoğunlukla kelime başında görülür: **آب** (âb).\nKelime başındaki düz **ا** ise kısa bir ünlü taşır (**a, e** ya da **o**): **اسب** (asb), **اسم** (esm).\nKelime ortasında ve sonunda **ا** her zaman **â**'dır: **بابا** (bâbâ).\n**â** sesi için ağzınızı geniş açın: uzun, kalın ve biraz 'o'ya çalan bir a.",
+      "s": "**آ** (üstünde dalgalı işaret var) her zaman uzun **â** sesidir ve çoğunlukla kelime başında görülür: **آب** (âb).\nKelime başındaki düz **ا** ise kısa bir ünlü taşır (**a, e** ya da **o**): **اسب** (asb), **اسم** (esm).\nKelime ortasında ve sonunda **ا** neredeyse her zaman **â**'dır: **بابا** (bâbâ). İstisna: üstünde **ً** işareti olan **اً** kelime sonunda **-an** okunur: **لطفاً** (lotfan).\n**â** sesi için ağzınızı geniş açın: uzun, kalın ve biraz 'o'ya çalan bir a.",
       "ex": [
-        { "t": "آب", "pr": "âb", "s": "su" },
-        { "t": "اسب", "pr": "asb", "s": "at" },
-        { "t": "بابا", "pr": "bâbâ", "s": "baba" }
+        {
+          "t": "آب",
+          "pr": "âb",
+          "s": "su"
+        },
+        {
+          "t": "اسب",
+          "pr": "asb",
+          "s": "at"
+        },
+        {
+          "t": "بابا",
+          "pr": "bâbâ",
+          "s": "baba"
+        }
       ]
     },
     {
       "t": "و / ی",
       "pr": "vâv / ye",
-      "s": "**و** hem ünsüz **v** hem de uzun ünlü **u** (bazen **o**) olabilir: **وقت** (vağt), **دوست** (dust).\n**ی** hem ünsüz **y**, hem uzun **i**, hem de **ey** olabilir: **یک** (yek), **سیب** (sib), **خیلی** (xeyli).\nDikkat: **خوا** grubunda **و** okunmaz: **خواهر** (xâhar).",
+      "s": "**و** hem ünsüz **v** hem de uzun ünlü **u** (bazen **o**) olabilir: **وقت** (vağt), **دوست** (dust). Bazen de **ow** diftongudur: kısa **o**'nun hemen ardından hafif bir **u** (İngilizce 'low' gibi): **نوروز** (nowruz), **نو** (now = yeni).\n**ی** hem ünsüz **y**, hem uzun **i**, hem de **ey** olabilir: **یک** (yek), **سیب** (sib), **خیلی** (xeyli).\nDikkat: **خوا** grubunda **و** okunmaz: **خواهر** (xâhar).",
       "ex": [
-        { "t": "دوست", "pr": "dust", "s": "dost, arkadaş" },
-        { "t": "یک", "pr": "yek", "s": "bir" },
-        { "t": "خواهر", "pr": "xâhar", "s": "kız kardeş" }
+        {
+          "t": "دوست",
+          "pr": "dust",
+          "s": "dost, arkadaş"
+        },
+        {
+          "t": "یک",
+          "pr": "yek",
+          "s": "bir"
+        },
+        {
+          "t": "خواهر",
+          "pr": "xâhar",
+          "s": "kız kardeş"
+        }
       ]
     },
     {
@@ -99,10 +451,26 @@
       "pr": "ze, zâl, zâd, zâ",
       "s": "Arapçadan gelen kelimeler yüzünden Farsçada aynı sesi veren birkaç harf vardır. Bu **dört harfin hepsi z** okunur!\nHangisinin yazılacağını kelimeyle birlikte ezberlemek gerekir. Türkçeden tanıdığınız **zarf** (ظرف), **Ramazan** (رمضان) gibi kelimeler de bu harflerle yazılır.",
       "ex": [
-        { "t": "زرد", "pr": "zard", "s": "sarı" },
-        { "t": "ذرت", "pr": "zorrat", "s": "mısır" },
-        { "t": "مریض", "pr": "mariz", "s": "hasta" },
-        { "t": "ظرف", "pr": "zarf", "s": "kap, kase" }
+        {
+          "t": "زرد",
+          "pr": "zard",
+          "s": "sarı"
+        },
+        {
+          "t": "ذرت",
+          "pr": "zorrat",
+          "s": "mısır"
+        },
+        {
+          "t": "مریض",
+          "pr": "mariz",
+          "s": "hasta"
+        },
+        {
+          "t": "ظرف",
+          "pr": "zarf",
+          "s": "kap, kase"
+        }
       ]
     },
     {
@@ -110,10 +478,26 @@
       "pr": "s · t · h",
       "s": "Aynı durum başka seslerde de var: **س ص ث** üçü de **s**; **ت ط** ikisi de **t**; **ه ح** ikisi de **h** okunur.\nKelime sonundaki **ه** çoğu zaman okunmaz, sadece önündeki **e** sesini gösterir: **خانه** (xâne).\n**ع** ise ya hiç okunmaz ya da kısa bir duraklamadır ('): **عسل** (asal), **معلم** (mo'allem).",
       "ex": [
-        { "t": "صابون", "pr": "sâbun", "s": "sabun" },
-        { "t": "ثانیه", "pr": "sâniye", "s": "saniye" },
-        { "t": "طاووس", "pr": "tâvus", "s": "tavus kuşu" },
-        { "t": "خانه", "pr": "xâne", "s": "ev" }
+        {
+          "t": "صابون",
+          "pr": "sâbun",
+          "s": "sabun"
+        },
+        {
+          "t": "ثانیه",
+          "pr": "sâniye",
+          "s": "saniye"
+        },
+        {
+          "t": "طاووس",
+          "pr": "tâvus",
+          "s": "tavus kuşu"
+        },
+        {
+          "t": "خانه",
+          "pr": "xâne",
+          "s": "ev"
+        }
       ]
     },
     {
@@ -121,31 +505,181 @@
       "pr": "x · ğ",
       "s": "**خ (x)** Türkçede yoktur. Almancadaki 'Bach' ya da Arapçadaki 'kh' gibi, boğazın arkasından gelen hırıltılı bir **h**'dir: **خوب** (xub).\n**غ** ve **ق** Tahran Farsçasında **aynı** okunur: boğazın derininden gelen tok bir **ğ** sesi.\nDikkat: Türkçedeki yumuşak g gibi sessiz değildir, **açıkça duyulur**! **قلب** (ğalb) = kalp.",
       "ex": [
-        { "t": "خوب", "pr": "xub", "s": "iyi" },
-        { "t": "یخ", "pr": "yax", "s": "buz" },
-        { "t": "غذا", "pr": "ğazâ", "s": "yemek" },
-        { "t": "قلب", "pr": "ğalb", "s": "kalp" }
+        {
+          "t": "خوب",
+          "pr": "xub",
+          "s": "iyi"
+        },
+        {
+          "t": "یخ",
+          "pr": "yax",
+          "s": "buz"
+        },
+        {
+          "t": "غذا",
+          "pr": "ğazâ",
+          "s": "yemek"
+        },
+        {
+          "t": "قلب",
+          "pr": "ğalb",
+          "s": "kalp"
+        }
       ]
     }
   ],
   "words": [
-    { "id": "w01", "t": "آب", "pr": "âb", "s": "su", "emoji": "💧", "ex": { "t": "آب، لطفاً.", "pr": "Âb, lotfan.", "s": "Su, lütfen." } },
-    { "id": "w02", "t": "نان", "pr": "nân", "s": "ekmek", "emoji": "🍞", "ex": { "t": "نان و پنیر.", "pr": "Nân va panir.", "s": "Ekmek ve peynir." } },
-    { "id": "w03", "t": "چای", "pr": "çây", "s": "çay", "emoji": "🍵", "ex": { "t": "یک چای، لطفاً.", "pr": "Yek çây, lotfan.", "s": "Bir çay, lütfen." } },
-    { "id": "w04", "t": "کتاب", "pr": "ketâb", "s": "kitap", "emoji": "📖", "ex": { "t": "این کتاب است.", "pr": "İn ketâb ast.", "s": "Bu bir kitap." } },
-    { "id": "w05", "t": "خانه", "pr": "xâne", "s": "ev", "emoji": "🏠", "ex": { "t": "این خانه است.", "pr": "İn xâne ast.", "s": "Bu bir ev." } },
-    { "id": "w06", "t": "مادر", "pr": "mâdar", "s": "anne", "emoji": "👩", "ex": { "t": "مادر و پدر.", "pr": "Mâdar va pedar.", "s": "Anne ve baba." } },
-    { "id": "w07", "t": "پدر", "pr": "pedar", "s": "baba", "emoji": "👨", "ex": { "t": "سلام، پدر!", "pr": "Salâm, pedar!", "s": "Merhaba, baba!" } },
-    { "id": "w08", "t": "سیب", "pr": "sib", "s": "elma", "emoji": "🍎", "ex": { "t": "یک سیب، لطفاً.", "pr": "Yek sib, lotfan.", "s": "Bir elma, lütfen." } },
-    { "id": "w09", "t": "بله", "pr": "bale", "s": "evet", "emoji": "👍", "ex": { "t": "بله، این کتاب است.", "pr": "Bale, in ketâb ast.", "s": "Evet, bu bir kitap." } },
-    { "id": "w10", "t": "نه", "pr": "na", "s": "hayır", "emoji": "❌", "ex": { "t": "نه، ممنون.", "pr": "Na, mamnun.", "s": "Hayır, teşekkürler." } }
+    {
+      "id": "w01",
+      "t": "آب",
+      "pr": "âb",
+      "s": "su",
+      "emoji": "💧",
+      "ex": {
+        "t": "آب، لطفاً.",
+        "pr": "Âb, lotfan.",
+        "s": "Su, lütfen."
+      }
+    },
+    {
+      "id": "w02",
+      "t": "نان",
+      "pr": "nân",
+      "s": "ekmek",
+      "emoji": "🍞",
+      "ex": {
+        "t": "نان و پنیر.",
+        "pr": "Nân va panir.",
+        "s": "Ekmek ve peynir."
+      }
+    },
+    {
+      "id": "w03",
+      "t": "چای",
+      "pr": "çây",
+      "s": "çay",
+      "emoji": "🍵",
+      "ex": {
+        "t": "یک چای، لطفاً.",
+        "pr": "Yek çây, lotfan.",
+        "s": "Bir çay, lütfen."
+      }
+    },
+    {
+      "id": "w04",
+      "t": "کتاب",
+      "pr": "ketâb",
+      "s": "kitap",
+      "emoji": "📖",
+      "ex": {
+        "t": "این کتاب است.",
+        "pr": "İn ketâb ast.",
+        "s": "Bu bir kitap."
+      }
+    },
+    {
+      "id": "w05",
+      "t": "خانه",
+      "pr": "xâne",
+      "s": "ev",
+      "emoji": "🏠",
+      "ex": {
+        "t": "این خانه است.",
+        "pr": "İn xâne ast.",
+        "s": "Bu bir ev."
+      }
+    },
+    {
+      "id": "w06",
+      "t": "مادر",
+      "pr": "mâdar",
+      "s": "anne",
+      "emoji": "👩",
+      "ex": {
+        "t": "مادر و پدر.",
+        "pr": "Mâdar va pedar.",
+        "s": "Anne ve baba."
+      }
+    },
+    {
+      "id": "w07",
+      "t": "پدر",
+      "pr": "pedar",
+      "s": "baba",
+      "emoji": "👨",
+      "ex": {
+        "t": "سلام، پدر!",
+        "pr": "Salâm, pedar!",
+        "s": "Merhaba, baba!"
+      }
+    },
+    {
+      "id": "w08",
+      "t": "سیب",
+      "pr": "sib",
+      "s": "elma",
+      "emoji": "🍎",
+      "ex": {
+        "t": "یک سیب، لطفاً.",
+        "pr": "Yek sib, lotfan.",
+        "s": "Bir elma, lütfen."
+      }
+    },
+    {
+      "id": "w09",
+      "t": "بله",
+      "pr": "bale",
+      "s": "evet",
+      "emoji": "👍",
+      "ex": {
+        "t": "بله، این کتاب است.",
+        "pr": "Bale, in ketâb ast.",
+        "s": "Evet, bu bir kitap."
+      }
+    },
+    {
+      "id": "w10",
+      "t": "نه",
+      "pr": "na",
+      "s": "hayır",
+      "emoji": "❌",
+      "ex": {
+        "t": "نه، ممنون.",
+        "pr": "Na, mamnun.",
+        "s": "Hayır, teşekkürler."
+      }
+    }
   ],
   "sentences": [
-    { "t": "این کتاب است.", "pr": "İn ketâb ast.", "s": "Bu bir kitap." },
-    { "t": "یک چای، لطفاً.", "pr": "Yek çây, lotfan.", "s": "Bir çay, lütfen." },
-    { "t": "مادر و پدر.", "pr": "Mâdar va pedar.", "s": "Anne ve baba." },
-    { "t": "نان و پنیر.", "pr": "Nân va panir.", "s": "Ekmek ve peynir." },
-    { "t": "بله، این خانه است.", "pr": "Bale, in xâne ast.", "s": "Evet, bu bir ev." },
-    { "t": "آب، لطفاً.", "pr": "Âb, lotfan.", "s": "Su, lütfen." }
+    {
+      "t": "این کتاب است.",
+      "pr": "İn ketâb ast.",
+      "s": "Bu bir kitap."
+    },
+    {
+      "t": "یک چای، لطفاً.",
+      "pr": "Yek çây, lotfan.",
+      "s": "Bir çay, lütfen."
+    },
+    {
+      "t": "مادر و پدر.",
+      "pr": "Mâdar va pedar.",
+      "s": "Anne ve baba."
+    },
+    {
+      "t": "نان و پنیر.",
+      "pr": "Nân va panir.",
+      "s": "Ekmek ve peynir."
+    },
+    {
+      "t": "بله، این خانه است.",
+      "pr": "Bale, in xâne ast.",
+      "s": "Evet, bu bir ev."
+    },
+    {
+      "t": "آب، لطفاً.",
+      "pr": "Âb, lotfan.",
+      "s": "Su, lütfen."
+    }
   ]
 }

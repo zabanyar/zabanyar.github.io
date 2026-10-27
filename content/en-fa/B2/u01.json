@@ -36,7 +36,7 @@
       "ex": {
         "t": "Training new employees is one of my responsibilities.",
         "s": "آموزش کارمندان جدید یکی از مسئولیت‌های من است.",
-        "pr": "تْرِینینگ نو ایمْپْلُییز ایز وان آو مای ریسْپانْسِبیلِتیز."
+        "pr": "تْرِینینگ نو اِمپلُییز ایز وان آو مای ریسْپانْسِبیلِتیز."
       }
     },
     {
@@ -69,12 +69,12 @@
       "t": "employee",
       "pl": "employees",
       "s": "کارمند",
-      "pr": "ایمْپْلُیی",
+      "pr": "اِمپلُیی",
       "emoji": "",
       "ex": {
         "t": "The company has more than two hundred employees.",
         "s": "این شرکت بیش از دویست کارمند دارد.",
-        "pr": "ذِ کامپِنی هَز مُر ذَن تو هاندْرِد ایمْپْلُییز."
+        "pr": "ذِ کامپِنی هَز مُر ذَن تو هاندْرِد اِمپلُییز."
       }
     },
     {
@@ -444,7 +444,10 @@
           "type": "type",
           "t": "Sorry I'm late. Have you been ___ long?",
           "answer": [
-            "waiting"
+            "waiting",
+            "here",
+            "sitting",
+            "standing"
           ],
           "s": "ببخشید دیر کردم. خیلی وقت است منتظری؟",
           "pr": "ساری آیم لِیت. هَو یو بین وِیتینگ لانگ؟"
@@ -633,7 +636,7 @@
       {
         "t": "The salary was good, but my workload kept growing, and I had very little job satisfaction.",
         "s": "حقوقش خوب بود، ولی حجم کارم مدام بیشتر می‌شد و رضایت شغلی خیلی کمی داشتم.",
-        "pr": "ذِ سَلِری واز گود، بات مای وِرکْلُود کِپْت گْرُوینگ، اَند آی هَد وِری لیتِل جاب سَتیسْفَکْشِن."
+        "pr": "ذِ سَلِری واز گود، بات مای وِرکْلُود کِپْت گْرُوئینگ، اَند آی هَد وِری لیتِل جاب سَتیسْفَکْشِن."
       },
       {
         "t": "Then, three years ago, I took an online course in web design, just for fun.",
@@ -643,7 +646,7 @@
       {
         "t": "I loved it so much that I resigned from my job the following summer.",
         "s": "آن‌قدر دوستش داشتم که تابستان بعد از کارم استعفا دادم.",
-        "pr": "آی لاود ایت سُو ماچ ذَت آی ریزاینْد فْرام مای جاب ذِ فالُوینگ سامِر."
+        "pr": "آی لاود ایت سُو ماچ ذَت آی ریزاینْد فْرام مای جاب ذِ فالُوئینگ سامِر."
       },
       {
         "t": "My family thought I was crazy, and to be honest, I was a little scared, too.",
@@ -678,7 +681,7 @@
       {
         "t": "If everything goes well, by the end of next year I'll have hired my first employee.",
         "s": "اگر همه‌چیز خوب پیش برود، تا آخر سال آینده اولین کارمندم را استخدام کرده‌ام.",
-        "pr": "ایف اِوْریثینگ گُوز وِل، بای ذی اِند آو نِکْسْت ییر آیل هَو هایِرْد مای فِرْسْت ایمْپْلُیی."
+        "pr": "ایف اِوْریثینگ گُوز وِل، بای ذی اِند آو نِکْسْت ییر آیل هَو هایِرْد مای فِرْسْت اِمپلُیی."
       },
       {
         "t": "Changing careers wasn't easy, but it's the best decision I've ever made.",

@@ -16,15 +16,15 @@
   "words": [
     {
       "id": "w01",
-      "t": "خانه",
-      "pl": "خانه‌ها",
-      "pr": "xâne",
-      "s": "ev",
-      "emoji": "🏠",
+      "t": "مبل",
+      "pl": "مبل‌ها",
+      "pr": "mobl",
+      "s": "koltuk, kanepe",
+      "emoji": "🛋️",
       "ex": {
-        "t": "خانه‌ی ما کوچک است.",
-        "pr": "Xâne-ye mâ kuçak ast.",
-        "s": "Bizim evimiz küçük."
+        "t": "مبل کنار پنجره است.",
+        "pr": "Mobl kenâr-e pancere ast.",
+        "s": "Koltuk pencerenin yanında."
       }
     },
     {

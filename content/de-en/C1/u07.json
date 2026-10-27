@@ -2,7 +2,10 @@
   "id": "u07",
   "level": "C1",
   "emoji": "🩺",
-  "title": { "t": "Medizin und Moral", "s": "Medicine and ethics" },
+  "title": {
+    "t": "Medizin und Moral",
+    "s": "Medicine and ethics"
+  },
   "goals": [
     "Discuss the German healthcare system and medical-ethical questions in detail",
     "Concede a point and still argue against it with zwar … aber, obgleich, nichtsdestotrotz, selbst wenn",
@@ -10,161 +13,697 @@
     "Understand a radio debate and an opinion piece on health policy"
   ],
   "words": [
-    { "id": "w01", "t": "die Krankenkasse", "pl": "die Krankenkassen", "s": "(statutory) health insurance fund", "emoji": "",
-      "ex": { "t": "Die Krankenkasse weigert sich, die Kosten für die Behandlung zu übernehmen.", "s": "The health insurance fund refuses to cover the costs of the treatment." } },
-    { "id": "w02", "t": "die Zwei-Klassen-Medizin", "s": "two-tier medicine", "emoji": "",
-      "ex": { "t": "Kritiker warnen seit Langem vor einer Zwei-Klassen-Medizin.", "s": "Critics have long been warning of two-tier medicine." } },
-    { "id": "w03", "t": "der Fachkräftemangel", "s": "shortage of skilled workers", "emoji": "",
-      "ex": { "t": "Der Fachkräftemangel in der Pflege verschärft sich von Jahr zu Jahr.", "s": "The shortage of skilled workers in nursing is getting worse every year." } },
-    { "id": "w04", "t": "die Pflegekraft", "pl": "die Pflegekräfte", "s": "nurse, care worker", "emoji": "",
-      "ex": { "t": "Viele Pflegekräfte klagen über Überlastung und belastende Schichtdienste.", "s": "Many care workers complain of being overworked and of exhausting shift work." } },
-    { "id": "w05", "t": "die Wartezeit", "pl": "die Wartezeiten", "s": "waiting time", "emoji": "⏳",
-      "ex": { "t": "Die Wartezeiten auf einen Facharzttermin betragen teils mehrere Monate.", "s": "Waiting times for an appointment with a specialist are sometimes several months." } },
-    { "id": "w06", "t": "die Vorsorge", "s": "prevention; preventive check-ups", "emoji": "",
-      "ex": { "t": "Wer regelmäßig zur Vorsorge geht, erkennt Krankheiten oft früher.", "s": "People who go for regular check-ups often detect illnesses earlier." } },
-    { "id": "w07", "t": "die Organspende", "pl": "die Organspenden", "s": "organ donation", "emoji": "",
-      "ex": { "t": "Die Bereitschaft zur Organspende ist in Deutschland vergleichsweise gering.", "s": "The willingness to donate organs is comparatively low in Germany." } },
-    { "id": "w08", "t": "die Patientenverfügung", "pl": "die Patientenverfügungen", "s": "advance directive, living will", "emoji": "",
-      "ex": { "t": "In einer Patientenverfügung legt man fest, welche Behandlung man im Ernstfall wünscht.", "s": "In an advance directive you specify which treatment you want in an emergency." } },
-    { "id": "w09", "t": "die Sterbehilfe", "s": "assisted dying, euthanasia", "emoji": "",
-      "ex": { "t": "Kaum ein Thema wird so kontrovers diskutiert wie die Sterbehilfe.", "s": "Hardly any topic is debated as controversially as assisted dying." } },
-    { "id": "w10", "t": "die Würde", "s": "dignity", "emoji": "",
-      "ex": { "t": "Auch am Lebensende muss die Würde des Patienten gewahrt bleiben.", "s": "The patient's dignity must be preserved even at the end of life." } },
-    { "id": "w11", "t": "die Eigenverantwortung", "s": "personal responsibility", "emoji": "",
-      "ex": { "t": "Die Politik setzt verstärkt auf die Eigenverantwortung der Versicherten.", "s": "Policymakers are increasingly relying on the personal responsibility of the insured." } },
-    { "id": "w12", "t": "etw. (gegeneinander) abwägen", "s": "to weigh sth. up (against each other)", "emoji": "⚖️",
-      "ex": { "t": "Ärzte müssen Nutzen und Risiken einer Therapie sorgfältig gegeneinander abwägen.", "s": "Doctors have to weigh the benefits and risks of a therapy carefully against each other." } },
-    { "id": "w13", "t": "etw. in Kauf nehmen", "s": "to accept sth. (a disadvantage), to put up with sth.", "emoji": "",
-      "ex": { "t": "Für eine schnellere Behandlung nehmen viele Patienten längere Anfahrtswege in Kauf.", "s": "To be treated sooner, many patients put up with longer journeys." } },
-    { "id": "w14", "t": "auf jdn./etw. angewiesen sein", "s": "to be dependent on sb./sth.", "emoji": "",
-      "ex": { "t": "Chronisch Kranke sind auf eine verlässliche Versorgung angewiesen.", "s": "The chronically ill depend on reliable care." } },
-    { "id": "w15", "t": "ethisch vertretbar", "s": "ethically justifiable", "emoji": "",
-      "ex": { "t": "Ist es ethisch vertretbar, das Erbgut von Embryonen zu verändern?", "s": "Is it ethically justifiable to alter the genetic material of embryos?" } },
-    { "id": "w16", "t": "umstritten", "s": "controversial, disputed", "emoji": "",
-      "ex": { "t": "Die Reform ist unter Fachleuten nach wie vor umstritten.", "s": "The reform is still disputed among experts." } }
+    {
+      "id": "w01",
+      "t": "die Zuzahlung",
+      "pl": "die Zuzahlungen",
+      "s": "co-payment (the patient's share of the cost)",
+      "emoji": "",
+      "ex": {
+        "t": "Für viele Medikamente müssen gesetzlich Versicherte eine Zuzahlung leisten.",
+        "s": "For many medicines, people with statutory insurance have to make a co-payment."
+      }
+    },
+    {
+      "id": "w02",
+      "t": "die Zwei-Klassen-Medizin",
+      "s": "two-tier medicine",
+      "emoji": "",
+      "ex": {
+        "t": "Kritiker warnen seit Langem vor einer Zwei-Klassen-Medizin.",
+        "s": "Critics have long been warning of two-tier medicine."
+      }
+    },
+    {
+      "id": "w03",
+      "t": "der Pflegenotstand",
+      "s": "crisis in nursing care (acute shortage of care staff)",
+      "emoji": "",
+      "ex": {
+        "t": "Verbände warnen seit Jahren vor einem dramatischen Pflegenotstand.",
+        "s": "Associations have been warning of a dramatic crisis in nursing care for years."
+      }
+    },
+    {
+      "id": "w04",
+      "t": "die Pflegekraft",
+      "pl": "die Pflegekräfte",
+      "s": "nurse, care worker",
+      "emoji": "",
+      "ex": {
+        "t": "Viele Pflegekräfte klagen über Überlastung und belastende Schichtdienste.",
+        "s": "Many care workers complain of being overworked and of exhausting shift work."
+      }
+    },
+    {
+      "id": "w05",
+      "t": "die Wartezeit",
+      "pl": "die Wartezeiten",
+      "s": "waiting time",
+      "emoji": "⏳",
+      "ex": {
+        "t": "Die Wartezeiten auf einen Facharzttermin betragen teils mehrere Monate.",
+        "s": "Waiting times for an appointment with a specialist are sometimes several months."
+      }
+    },
+    {
+      "id": "w06",
+      "t": "die Vorsorge",
+      "s": "prevention; preventive check-ups",
+      "emoji": "",
+      "ex": {
+        "t": "Wer regelmäßig zur Vorsorge geht, erkennt Krankheiten oft früher.",
+        "s": "People who go for regular check-ups often detect illnesses earlier."
+      }
+    },
+    {
+      "id": "w07",
+      "t": "die Organspende",
+      "pl": "die Organspenden",
+      "s": "organ donation",
+      "emoji": "",
+      "ex": {
+        "t": "Die Bereitschaft zur Organspende ist in Deutschland vergleichsweise gering.",
+        "s": "The willingness to donate organs is comparatively low in Germany."
+      }
+    },
+    {
+      "id": "w08",
+      "t": "die Patientenverfügung",
+      "pl": "die Patientenverfügungen",
+      "s": "advance directive, living will",
+      "emoji": "",
+      "ex": {
+        "t": "In einer Patientenverfügung legt man fest, welche Behandlung man im Ernstfall wünscht.",
+        "s": "In an advance directive you specify which treatment you want in an emergency."
+      }
+    },
+    {
+      "id": "w09",
+      "t": "die Sterbehilfe",
+      "s": "assisted dying, euthanasia",
+      "emoji": "",
+      "ex": {
+        "t": "Kaum ein Thema wird so kontrovers diskutiert wie die Sterbehilfe.",
+        "s": "Hardly any topic is debated as controversially as assisted dying."
+      }
+    },
+    {
+      "id": "w10",
+      "t": "die Würde",
+      "s": "dignity",
+      "emoji": "",
+      "ex": {
+        "t": "Auch am Lebensende muss die Würde des Patienten gewahrt bleiben.",
+        "s": "The patient's dignity must be preserved even at the end of life."
+      }
+    },
+    {
+      "id": "w11",
+      "t": "die Eigenverantwortung",
+      "s": "personal responsibility",
+      "emoji": "",
+      "ex": {
+        "t": "Die Politik setzt verstärkt auf die Eigenverantwortung der Versicherten.",
+        "s": "Policymakers are increasingly relying on the personal responsibility of the insured."
+      }
+    },
+    {
+      "id": "w12",
+      "t": "etw. (gegeneinander) abwägen",
+      "s": "to weigh sth. up (against each other)",
+      "emoji": "⚖️",
+      "ex": {
+        "t": "Ärzte müssen Nutzen und Risiken einer Therapie sorgfältig gegeneinander abwägen.",
+        "s": "Doctors have to weigh the benefits and risks of a therapy carefully against each other."
+      }
+    },
+    {
+      "id": "w13",
+      "t": "etw. in Kauf nehmen",
+      "s": "to accept sth. (a disadvantage), to put up with sth.",
+      "emoji": "",
+      "ex": {
+        "t": "Für eine schnellere Behandlung nehmen viele Patienten längere Anfahrtswege in Kauf.",
+        "s": "To be treated sooner, many patients put up with longer journeys."
+      }
+    },
+    {
+      "id": "w14",
+      "t": "auf jdn./etw. angewiesen sein",
+      "s": "to be dependent on sb./sth.",
+      "emoji": "",
+      "ex": {
+        "t": "Chronisch Kranke sind auf eine verlässliche Versorgung angewiesen.",
+        "s": "The chronically ill depend on reliable care."
+      }
+    },
+    {
+      "id": "w15",
+      "t": "ethisch vertretbar",
+      "s": "ethically justifiable",
+      "emoji": "",
+      "ex": {
+        "t": "Ist es ethisch vertretbar, das Erbgut von Embryonen zu verändern?",
+        "s": "Is it ethically justifiable to alter the genetic material of embryos?"
+      }
+    },
+    {
+      "id": "w16",
+      "t": "die Gewissensfrage",
+      "pl": "die Gewissensfragen",
+      "s": "matter of conscience",
+      "emoji": "",
+      "ex": {
+        "t": "Ob man nach dem Tod seine Organe spenden möchte, ist für viele eine Gewissensfrage.",
+        "s": "Whether to donate one's organs after death is a matter of conscience for many people."
+      }
+    }
   ],
   "phrases": [
-    { "id": "p01", "t": "Das mag zwar sein, aber …", "s": "That may well be, but …" },
-    { "id": "p02", "t": "Ich gebe Ihnen insofern recht, als …", "s": "I agree with you insofar as …" },
-    { "id": "p03", "t": "Das ist nur die halbe Wahrheit.", "s": "That's only half the truth." },
-    { "id": "p04", "t": "Bei allem Verständnis für …", "s": "Much as I understand …" },
-    { "id": "p05", "t": "Das eine schließt das andere nicht aus.", "s": "One doesn't rule out the other." },
-    { "id": "p06", "t": "Man sollte die Kirche im Dorf lassen.", "s": "Let's not get carried away. (lit. leave the church in the village)" },
-    { "id": "p07", "t": "Letztlich läuft es darauf hinaus, dass …", "s": "Ultimately it comes down to the fact that …" },
-    { "id": "p08", "t": "Hier stehen sich zwei Grundwerte gegenüber.", "s": "Two fundamental values are in conflict here." }
+    {
+      "id": "p01",
+      "t": "Das mag zwar sein, aber …",
+      "s": "That may well be, but …"
+    },
+    {
+      "id": "p02",
+      "t": "Ich gebe Ihnen insofern recht, als …",
+      "s": "I agree with you insofar as …"
+    },
+    {
+      "id": "p03",
+      "t": "Das ist nur die halbe Wahrheit.",
+      "s": "That's only half the truth."
+    },
+    {
+      "id": "p04",
+      "t": "Bei allem Verständnis für …",
+      "s": "Much as I understand …"
+    },
+    {
+      "id": "p05",
+      "t": "Das eine schließt das andere nicht aus.",
+      "s": "One doesn't rule out the other."
+    },
+    {
+      "id": "p06",
+      "t": "Man sollte die Kirche im Dorf lassen.",
+      "s": "Let's not get carried away. (lit. leave the church in the village)"
+    },
+    {
+      "id": "p07",
+      "t": "Letztlich läuft es darauf hinaus, dass …",
+      "s": "Ultimately it comes down to the fact that …"
+    },
+    {
+      "id": "p08",
+      "t": "Hier stehen sich zwei Grundwerte gegenüber.",
+      "s": "Two fundamental values are in conflict here."
+    }
   ],
   "dialogue": {
-    "title": { "t": "Streitgespräch: Organspende – Zustimmung oder Widerspruch?", "s": "Debate: organ donation – opt-in or opt-out?" },
-    "speakers": { "A": { "name": "Dr. Maryam Ahmadi", "voice": "f" }, "B": { "name": "Prof. Wagner", "voice": "m" } },
+    "title": {
+      "t": "Streitgespräch: Organspende – Zustimmung oder Widerspruch?",
+      "s": "Debate: organ donation – opt-in or opt-out?"
+    },
+    "speakers": {
+      "A": {
+        "name": "Dr. Maryam Ahmadi",
+        "voice": "f"
+      },
+      "B": {
+        "name": "Prof. Wagner",
+        "voice": "m"
+      }
+    },
     "lines": [
-      { "sp": "A", "t": "Herr Wagner, jedes Jahr sterben Menschen auf der Warteliste, obwohl die meisten Deutschen der Organspende positiv gegenüberstehen. Wäre die Widerspruchslösung nicht der logische Schritt?", "s": "Mr. Wagner, every year people die on the waiting list, although most Germans have a positive attitude towards organ donation. Wouldn't the opt-out system be the logical step?" },
-      { "sp": "B", "t": "Ich verstehe Ihr Anliegen zwar, aber Schweigen ist nun einmal keine Zustimmung. Wenngleich das Ziel ehrenwert ist, darf der Staat nicht über den Körper seiner Bürger verfügen.", "s": "I do understand your concern, but silence simply isn't consent. Although the goal is honorable, the state must not have control over its citizens' bodies." },
-      { "sp": "A", "t": "Niemand wird gezwungen. Wer nicht spenden möchte, kann jederzeit widersprechen – ein Eintrag im Register genügt.", "s": "Nobody is forced. Anyone who doesn't want to donate can object at any time – an entry in the register is enough." },
-      { "sp": "B", "t": "Das setzt aber voraus, dass alle davon wissen. Gerade ältere oder weniger informierte Menschen würden womöglich übergangen.", "s": "But that presupposes that everyone knows about it. Older or less well-informed people in particular might be overlooked." },
-      { "sp": "A", "t": "Insofern haben Sie recht, als die Aufklärung verbessert werden müsste. Nichtsdestotrotz zeigt der Blick nach Spanien, dass das Modell funktioniert.", "s": "You're right insofar as public information would have to be improved. Nevertheless, a look at Spain shows that the model works." },
-      { "sp": "B", "t": "Selbst wenn die Zahlen dort höher sind: Fachleute führen das vor allem auf die bessere Organisation in den Kliniken zurück, nicht auf die Gesetzeslage.", "s": "Even if the figures are higher there: experts attribute that mainly to better organization in the hospitals, not to the legal situation." },
-      { "sp": "A", "t": "Während Sie also bei den Abläufen ansetzen wollen, halte ich eine Gesetzesänderung für unverzichtbar. Das eine schließt das andere doch nicht aus.", "s": "So whereas you want to start with the procedures, I consider a change in the law indispensable. One doesn't rule out the other, after all." },
-      { "sp": "B", "t": "Da stimme ich Ihnen zu. Bessere Abläufe in den Kliniken wären ein erster Schritt, über den wir uns sicher einig sind.", "s": "I agree with you there. Better procedures in hospitals would be a first step on which we surely agree." },
-      { "sp": "A", "t": "Und die Widerspruchslösung?", "s": "And the opt-out system?" },
-      { "sp": "B", "t": "Die bleibt eine Gewissensfrage – und das sollte sie auch bleiben.", "s": "That remains a matter of conscience – and it should stay that way." }
+      {
+        "sp": "A",
+        "t": "Herr Wagner, jedes Jahr sterben Menschen auf der Warteliste, obwohl die meisten Deutschen der Organspende positiv gegenüberstehen. Wäre die Widerspruchslösung nicht der logische Schritt?",
+        "s": "Mr. Wagner, every year people die on the waiting list, although most Germans have a positive attitude toward organ donation. Wouldn't the opt-out system be the logical step?"
+      },
+      {
+        "sp": "B",
+        "t": "Ich verstehe Ihr Anliegen zwar, aber Schweigen ist nun einmal keine Zustimmung. Wenngleich das Ziel ehrenwert ist, darf der Staat nicht über den Körper seiner Bürger verfügen.",
+        "s": "I do understand your concern, but silence simply isn't consent. Although the goal is honorable, the state must not have control over its citizens' bodies."
+      },
+      {
+        "sp": "A",
+        "t": "Niemand wird gezwungen. Wer nicht spenden möchte, kann jederzeit widersprechen – ein Eintrag im Register genügt.",
+        "s": "Nobody is forced. Anyone who doesn't want to donate can object at any time – an entry in the register is enough."
+      },
+      {
+        "sp": "B",
+        "t": "Das setzt aber voraus, dass alle davon wissen. Gerade ältere oder weniger informierte Menschen würden womöglich übergangen.",
+        "s": "But that presupposes that everyone knows about it. Older or less well-informed people in particular might be overlooked."
+      },
+      {
+        "sp": "A",
+        "t": "Insofern haben Sie recht, als die Aufklärung verbessert werden müsste. Nichtsdestotrotz zeigt der Blick nach Spanien, dass das Modell funktioniert.",
+        "s": "You're right insofar as public information would have to be improved. Nevertheless, a look at Spain shows that the model works."
+      },
+      {
+        "sp": "B",
+        "t": "Selbst wenn die Zahlen dort höher sind: Fachleute führen das vor allem auf die bessere Organisation in den Kliniken zurück, nicht auf die Gesetzeslage.",
+        "s": "Even if the figures are higher there: experts attribute that mainly to better organization in the hospitals, not to the legal situation."
+      },
+      {
+        "sp": "A",
+        "t": "Während Sie also bei den Abläufen ansetzen wollen, halte ich eine Gesetzesänderung für unverzichtbar. Das eine schließt das andere doch nicht aus.",
+        "s": "So whereas you want to start with the procedures, I consider a change in the law indispensable. One doesn't rule out the other, after all."
+      },
+      {
+        "sp": "B",
+        "t": "Da stimme ich Ihnen zu. Bessere Abläufe in den Kliniken wären ein erster Schritt, über den wir uns sicher einig sind.",
+        "s": "I agree with you there. Better procedures in hospitals would be a first step on which we surely agree."
+      },
+      {
+        "sp": "A",
+        "t": "Und die Widerspruchslösung?",
+        "s": "And the opt-out system?"
+      },
+      {
+        "sp": "B",
+        "t": "Die bleibt eine Gewissensfrage – und das sollte sie auch bleiben.",
+        "s": "That remains a matter of conscience – and it should stay that way."
+      }
     ]
   },
   "grammar": [
     {
       "id": "g01",
-      "title": { "t": "Zwar teuer, aber notwendig", "s": "Concessive connectors" },
+      "title": {
+        "t": "Zwar teuer, aber notwendig",
+        "s": "Concessive connectors"
+      },
       "explain": "Concessive connectors admit a fact or argument and then show that it does **not** change the outcome. At C1 you should vary them and know their word order and register.\n**Subordinating (verb at the end):** **obwohl** (neutral), **obgleich, obschon, wenngleich** (formal, written). **selbst wenn / auch wenn** is concessive-conditional (*even if*): it often introduces a hypothetical case and then takes the Konjunktiv II.\n**Adverbs (in position 1 → inversion, or in the middle field):** **trotzdem** (neutral), **dennoch** (more formal), **nichtsdestotrotz** (formal, emphatic), **gleichwohl** (very formal).\n**Two-part:** **zwar …, aber / doch / jedoch** – first concede, then counter. Concessive *zwar* always needs a counterpart such as *aber*, *doch* or *jedoch*.\n**Prepositions + genitive:** **trotz**, **ungeachtet** (formal; may also follow the noun: *der Kritik ungeachtet*).\nIn adjective phrases, **wenn auch** creates an elegant short form: *eine wichtige, **wenn auch** späte Entscheidung*.",
       "table": [
-        ["obwohl / obgleich / wenngleich", "Obgleich die Kosten steigen, sinkt die Qualität."],
-        ["selbst wenn / auch wenn", "Selbst wenn es teurer wäre, würde es sich lohnen."],
-        ["zwar …, aber / doch", "Die Reform ist zwar teuer, aber notwendig."],
-        ["trotzdem / dennoch / nichtsdestotrotz", "Nichtsdestotrotz halten wir daran fest."],
-        ["trotz / ungeachtet + Genitiv", "ungeachtet aller Kritik"]
+        [
+          "obwohl / obgleich / wenngleich",
+          "Obgleich die Kosten steigen, sinkt die Qualität."
+        ],
+        [
+          "selbst wenn / auch wenn",
+          "Selbst wenn es teurer wäre, würde es sich lohnen."
+        ],
+        [
+          "zwar …, aber / doch",
+          "Die Reform ist zwar teuer, aber notwendig."
+        ],
+        [
+          "trotzdem / dennoch / nichtsdestotrotz",
+          "Nichtsdestotrotz halten wir daran fest."
+        ],
+        [
+          "trotz / ungeachtet + Genitiv",
+          "ungeachtet aller Kritik"
+        ]
       ],
       "examples": [
-        { "t": "Obgleich die Ausgaben stetig steigen, verbessert sich die Versorgung kaum.", "s": "Although spending keeps rising, care is hardly improving." },
-        { "t": "Die Reform ist zwar sinnvoll, doch sie kommt viel zu spät.", "s": "The reform does make sense, but it comes far too late." },
-        { "t": "Selbst wenn die Widerspruchslösung käme, wäre das Problem nicht gelöst.", "s": "Even if the opt-out system were introduced, the problem would not be solved." },
-        { "t": "Die Studie war klein; nichtsdestotrotz sorgte sie für Aufsehen.", "s": "The study was small; nevertheless, it caused a stir." },
-        { "t": "Das war eine wichtige, wenn auch späte Entscheidung.", "s": "That was an important, if late, decision." }
+        {
+          "t": "Obgleich die Ausgaben stetig steigen, verbessert sich die Versorgung kaum.",
+          "s": "Although spending keeps rising, care is hardly improving."
+        },
+        {
+          "t": "Die Reform ist zwar sinnvoll, doch sie kommt viel zu spät.",
+          "s": "The reform does make sense, but it comes far too late."
+        },
+        {
+          "t": "Selbst wenn die Widerspruchslösung käme, wäre das Problem nicht gelöst.",
+          "s": "Even if the opt-out system were introduced, the problem would not be solved."
+        },
+        {
+          "t": "Die Studie war klein; nichtsdestotrotz sorgte sie für Aufsehen.",
+          "s": "The study was small; nevertheless, it caused a stir."
+        },
+        {
+          "t": "Das war eine wichtige, wenn auch späte Entscheidung.",
+          "s": "That was an important, if late, decision."
+        }
       ],
       "exercises": [
-        { "type": "choice", "t": "___ die Wartezeiten lang sind, ist die Versorgung insgesamt gut.", "options": ["Trotzdem", "Obgleich", "Zwar"], "answer": 1, "s": "Although waiting times are long, care is good overall." },
-        { "type": "choice", "t": "Die Behandlung ist teuer. ___ übernimmt die Kasse die Kosten.", "options": ["Obwohl", "Selbst wenn", "Dennoch"], "answer": 2, "s": "The treatment is expensive. Nevertheless, the insurer covers the costs." },
-        { "type": "choice", "t": "Die Methode ist ___ wirksam, aber nicht ohne Risiken.", "options": ["zwar", "obwohl", "trotz"], "answer": 0, "s": "The method is effective, but not without risks." },
-        { "type": "choice", "t": "___ man alle Kliniken besser ausstattete, bliebe der Personalmangel bestehen.", "options": ["Obwohl", "Trotz", "Selbst wenn"], "answer": 2, "s": "Even if all hospitals were better equipped, the staff shortage would remain." },
-        { "type": "type", "t": "Er hielt an seinem Plan fest, ___ der heftigen Kritik.", "answer": ["trotz", "ungeachtet"], "s": "He stuck to his plan despite the fierce criticism." },
-        { "type": "type", "t": "Das war eine mutige, wenn ___ umstrittene Entscheidung.", "answer": ["auch"], "s": "That was a courageous, if controversial, decision." },
-        { "type": "order", "t": "Nichtsdestotrotz halten wir an der Reform fest.", "s": "Nevertheless, we are sticking to the reform." },
-        { "type": "order", "t": "Obgleich er krank war, ging er arbeiten.", "s": "Although he was ill, he went to work." }
+        {
+          "type": "choice",
+          "t": "___ die Wartezeiten lang sind, ist die Versorgung insgesamt gut.",
+          "options": [
+            "Trotzdem",
+            "Obgleich",
+            "Zwar"
+          ],
+          "answer": 1,
+          "s": "Although waiting times are long, care is good overall."
+        },
+        {
+          "type": "choice",
+          "t": "Die Behandlung ist teuer. ___ übernimmt die Kasse die Kosten.",
+          "options": [
+            "Obwohl",
+            "Selbst wenn",
+            "Dennoch"
+          ],
+          "answer": 2,
+          "s": "The treatment is expensive. Nevertheless, the insurer covers the costs."
+        },
+        {
+          "type": "choice",
+          "t": "Die Methode ist ___ wirksam, aber nicht ohne Risiken.",
+          "options": [
+            "zwar",
+            "obwohl",
+            "trotz"
+          ],
+          "answer": 0,
+          "s": "The method is effective, but not without risks."
+        },
+        {
+          "type": "choice",
+          "t": "___ man alle Kliniken besser ausstattete, bliebe der Personalmangel bestehen.",
+          "options": [
+            "Obwohl",
+            "Trotz",
+            "Selbst wenn"
+          ],
+          "answer": 2,
+          "s": "Even if all hospitals were better equipped, the staff shortage would remain."
+        },
+        {
+          "type": "type",
+          "t": "Er hielt an seinem Plan fest, ___ der heftigen Kritik.",
+          "answer": [
+            "trotz",
+            "ungeachtet"
+          ],
+          "s": "He stuck to his plan despite the fierce criticism."
+        },
+        {
+          "type": "type",
+          "t": "Das war eine mutige, wenn ___ umstrittene Entscheidung.",
+          "answer": [
+            "auch"
+          ],
+          "s": "That was a courageous, if controversial, decision."
+        },
+        {
+          "type": "order",
+          "t": "Nichtsdestotrotz halten wir an der Reform fest.",
+          "s": "Nevertheless, we are sticking to the reform.",
+          "alts": [
+            "Wir halten nichtsdestotrotz an der Reform fest.",
+            "An der Reform halten wir nichtsdestotrotz fest."
+          ]
+        },
+        {
+          "type": "order",
+          "t": "Obgleich er krank war, ging er arbeiten.",
+          "s": "Although he was ill, he went to work.",
+          "alts": [
+            "Er ging arbeiten, obgleich er krank war."
+          ]
+        }
       ]
     },
     {
       "id": "g02",
-      "title": { "t": "insofern … als, während, wohingegen", "s": "Restrictive and adversative connectors" },
+      "title": {
+        "t": "insofern … als, während, wohingegen",
+        "s": "Restrictive and adversative connectors"
+      },
       "explain": "**Restrictive** connectors limit the validity of a statement: it is true only *to a certain extent* or *under a certain condition*.\n**insofern …, als** (also **insoweit …, als**) = *insofar as, in that*. **insofern** stands in the main clause, **als** introduces the subordinate clause: *Sie haben **insofern** recht, **als** die Kosten gestiegen sind.* Very useful for partial agreement in discussions.\n**soweit** = *as far as* (*Soweit ich weiß, …*); **sofern** = *provided that* – a condition (*Sofern die Kasse zustimmt, …*).\n**Adversative** connectors set two facts against each other: **während** (*whereas* – beware: also temporal *while*), **wohingegen** (formal, only adversative, verb at the end). The adverbs **hingegen / dagegen** stand in a main clause, often directly after the element they contrast: *Die Stadt ist gut versorgt; auf dem Land **hingegen** fehlen Ärzte.*",
       "table": [
-        ["insofern …, als", "Die Kritik ist insofern berechtigt, als die Daten fehlen."],
-        ["soweit / sofern", "Soweit bekannt, … / Sofern die Kasse zustimmt, …"],
-        ["während / wohingegen", "Während Ärzte gut verdienen, sind Pflegekräfte oft unterbezahlt."],
-        ["hingegen / dagegen", "Auf dem Land hingegen fehlen Hausärzte."]
+        [
+          "insofern …, als",
+          "Die Kritik ist insofern berechtigt, als die Daten fehlen."
+        ],
+        [
+          "soweit / sofern",
+          "Soweit bekannt, … / Sofern die Kasse zustimmt, …"
+        ],
+        [
+          "während / wohingegen",
+          "Während Ärzte gut verdienen, sind Pflegekräfte oft unterbezahlt."
+        ],
+        [
+          "hingegen / dagegen",
+          "Auf dem Land hingegen fehlen Hausärzte."
+        ]
       ],
       "examples": [
-        { "t": "Die Studie ist insofern wertvoll, als sie erstmals Langzeitdaten liefert.", "s": "The study is valuable in that it provides long-term data for the first time." },
-        { "t": "Während in Städten eine Überversorgung herrscht, fehlen auf dem Land Hausärzte.", "s": "Whereas cities are oversupplied, there is a lack of GPs in rural areas." },
-        { "t": "Privatpatienten bekommen oft schneller Termine, wohingegen gesetzlich Versicherte länger warten.", "s": "Private patients often get appointments sooner, whereas those with statutory insurance wait longer." },
-        { "t": "Sofern keine Patientenverfügung vorliegt, muss der mutmaßliche Wille ermittelt werden.", "s": "If there is no advance directive, the patient's presumed wishes must be established." },
-        { "t": "Die Ärztin hingegen sah keinen Anlass zur Sorge.", "s": "The doctor, on the other hand, saw no cause for concern." }
+        {
+          "t": "Die Studie ist insofern wertvoll, als sie erstmals Langzeitdaten liefert.",
+          "s": "The study is valuable in that it provides long-term data for the first time."
+        },
+        {
+          "t": "Während in Städten eine Überversorgung herrscht, fehlen auf dem Land Hausärzte.",
+          "s": "Whereas cities are oversupplied, there is a lack of GPs in rural areas."
+        },
+        {
+          "t": "Privatpatienten bekommen oft schneller Termine, wohingegen gesetzlich Versicherte länger warten.",
+          "s": "Private patients often get appointments sooner, whereas those with statutory insurance wait longer."
+        },
+        {
+          "t": "Sofern keine Patientenverfügung vorliegt, muss der mutmaßliche Wille ermittelt werden.",
+          "s": "If there is no advance directive, the patient's presumed wishes must be established."
+        },
+        {
+          "t": "Die Ärztin hingegen sah keinen Anlass zur Sorge.",
+          "s": "The doctor, on the other hand, saw no cause for concern."
+        }
       ],
       "exercises": [
-        { "type": "choice", "t": "Ich stimme Ihnen insofern zu, ___ die Kosten tatsächlich gestiegen sind.", "options": ["dass", "als", "wie"], "answer": 1, "s": "I agree with you insofar as costs have indeed risen." },
-        { "type": "choice", "t": "Ältere Patienten bevorzugen die Praxis, ___ Jüngere eher Videosprechstunden nutzen.", "options": ["wohingegen", "hingegen", "trotzdem"], "answer": 0, "s": "Older patients prefer the practice, whereas younger ones tend to use video consultations." },
-        { "type": "choice", "t": "Der erste Befund war unauffällig; der zweite ___ gab Anlass zur Sorge.", "options": ["wohingegen", "hingegen", "sofern"], "answer": 1, "s": "The first finding was unremarkable; the second, however, gave cause for concern." },
-        { "type": "choice", "t": "___ ich informiert bin, ist die Entscheidung noch nicht gefallen.", "options": ["Sodass", "Wohingegen", "Soweit"], "answer": 2, "s": "As far as I know, the decision has not yet been made." },
-        { "type": "type", "t": "Die Reform ist ___ problematisch, als sie die Kosten auf die Versicherten abwälzt.", "answer": ["insofern", "insoweit"], "s": "The reform is problematic in that it shifts the costs onto the insured." },
-        { "type": "type", "t": "In der Stadt gibt es genug Ärzte, ___ auf dem Land viele Praxen schließen.", "answer": ["während", "wohingegen", "wogegen", "waehrend"], "s": "There are enough doctors in the city, whereas many practices are closing in the countryside." },
-        { "type": "order", "t": "Sofern die Kasse zustimmt, beginnt die Therapie.", "s": "Provided the insurer agrees, the therapy will begin." },
-        { "type": "order", "t": "Insofern hat er durchaus recht.", "s": "In that respect he is quite right." }
+        {
+          "type": "choice",
+          "t": "Ich stimme Ihnen insofern zu, ___ die Kosten tatsächlich gestiegen sind.",
+          "options": [
+            "dass",
+            "als",
+            "wie"
+          ],
+          "answer": 1,
+          "s": "I agree with you insofar as costs have indeed risen."
+        },
+        {
+          "type": "choice",
+          "t": "Ältere Patienten bevorzugen die Praxis, ___ Jüngere eher Videosprechstunden nutzen.",
+          "options": [
+            "wohingegen",
+            "hingegen",
+            "trotzdem"
+          ],
+          "answer": 0,
+          "s": "Older patients prefer the practice, whereas younger ones tend to use video consultations."
+        },
+        {
+          "type": "choice",
+          "t": "Der erste Befund war unauffällig; der zweite ___ gab Anlass zur Sorge.",
+          "options": [
+            "wohingegen",
+            "hingegen",
+            "sofern"
+          ],
+          "answer": 1,
+          "s": "The first finding was unremarkable; the second, however, gave cause for concern."
+        },
+        {
+          "type": "choice",
+          "t": "___ ich informiert bin, ist die Entscheidung noch nicht gefallen.",
+          "options": [
+            "Sodass",
+            "Wohingegen",
+            "Soweit"
+          ],
+          "answer": 2,
+          "s": "As far as I know, the decision has not yet been made."
+        },
+        {
+          "type": "type",
+          "t": "Die Reform ist ___ problematisch, als sie die Kosten auf die Versicherten abwälzt.",
+          "answer": [
+            "insofern",
+            "insoweit"
+          ],
+          "s": "The reform is problematic in that it shifts the costs onto the insured."
+        },
+        {
+          "type": "type",
+          "t": "In der Stadt gibt es genug Ärzte, ___ auf dem Land viele Praxen schließen.",
+          "answer": [
+            "während",
+            "wohingegen",
+            "wogegen",
+            "waehrend"
+          ],
+          "s": "There are enough doctors in the city, whereas many practices are closing in the countryside."
+        },
+        {
+          "type": "order",
+          "t": "Sofern die Kasse zustimmt, beginnt die Therapie.",
+          "s": "Provided the insurer agrees, the therapy will begin.",
+          "alts": [
+            "Die Therapie beginnt, sofern die Kasse zustimmt."
+          ]
+        },
+        {
+          "type": "order",
+          "t": "Insofern hat er durchaus recht.",
+          "s": "In that respect he is quite right.",
+          "alts": [
+            "Er hat insofern durchaus recht."
+          ]
+        }
       ]
     }
   ],
   "reading": {
-    "title": { "t": "Kommentar: Gesundheit ist kein Luxusgut", "s": "Commentary: Health is not a luxury" },
+    "title": {
+      "t": "Kommentar: Gesundheit ist kein Luxusgut",
+      "s": "Commentary: Health is not a luxury"
+    },
     "text": [
-      { "t": "Wer in Deutschland einen Termin beim Facharzt braucht, muss vielerorts viel Geduld mitbringen.", "s": "Anyone in Germany who needs an appointment with a specialist has to be very patient in many places." },
-      { "t": "Während Privatversicherte oft innerhalb weniger Tage einen Termin erhalten, warten gesetzlich Versicherte nicht selten mehrere Wochen.", "s": "Whereas privately insured patients often get an appointment within a few days, those with statutory insurance frequently wait several weeks." },
-      { "t": "Zwar bestreiten Ärzteverbände, dass es eine Zwei-Klassen-Medizin gebe, doch die Erfahrungen vieler Patienten sprechen eine andere Sprache.", "s": "Doctors' associations deny that there is two-tier medicine, but the experiences of many patients tell a different story." },
-      { "t": "Nun mag man einwenden, die Versorgung hierzulande sei im internationalen Vergleich nach wie vor hervorragend.", "s": "Now, one may object that healthcare in this country is still excellent by international standards." },
-      { "t": "Das ist insofern richtig, als im Notfall jeder Mensch ungeachtet seines Versicherungsstatus behandelt wird.", "s": "That is true insofar as, in an emergency, everyone is treated regardless of their insurance status." },
-      { "t": "Bei planbaren Behandlungen hingegen entscheidet allzu oft die Versichertenkarte über die Wartezeit.", "s": "With plannable treatments, however, it is all too often the insurance card that determines the waiting time." },
-      { "t": "Hinzu kommt der Fachkräftemangel, der insbesondere die Pflege an ihre Belastungsgrenze bringt.", "s": "On top of that comes the shortage of skilled workers, which is pushing nursing in particular to its limits." },
-      { "t": "Obgleich die Politik seit Jahren Besserung gelobt, kehren immer mehr Pflegekräfte ihrem Beruf frustriert den Rücken.", "s": "Although politicians have been promising improvement for years, more and more nurses are turning their backs on their profession in frustration." },
-      { "t": "Selbst wenn morgen sämtliche offenen Stellen besetzt würden, bliebe ein strukturelles Problem bestehen.", "s": "Even if all vacancies were filled tomorrow, a structural problem would remain." },
-      { "t": "Solange Kliniken vor allem über Fallpauschalen vergütet werden, lohnen sich lukrative Eingriffe mehr als gute Pflege.", "s": "As long as hospitals are paid mainly through flat rates per case, lucrative procedures pay off more than good care." },
-      { "t": "Nichtsdestotrotz gibt es Grund zur Hoffnung: Telemedizin und neue Pflegemodelle zeigen, dass es auch anders geht.", "s": "Nevertheless, there is reason for hope: telemedicine and new care models show that there is another way." },
-      { "t": "Eines sollte dabei jedoch nicht vergessen werden: Gesundheit ist kein Luxusgut, sondern ein Gut, das allen gleichermaßen zustehen muss.", "s": "One thing, however, should not be forgotten: health is not a luxury but a good to which everyone must be equally entitled." }
+      {
+        "t": "Wer in Deutschland einen Termin beim Facharzt braucht, muss vielerorts viel Geduld mitbringen.",
+        "s": "Anyone in Germany who needs an appointment with a specialist has to be very patient in many places."
+      },
+      {
+        "t": "Während Privatversicherte oft innerhalb weniger Tage einen Termin erhalten, warten gesetzlich Versicherte nicht selten mehrere Wochen.",
+        "s": "Whereas privately insured patients often get an appointment within a few days, those with statutory insurance frequently wait several weeks."
+      },
+      {
+        "t": "Zwar bestreiten Ärzteverbände, dass es eine Zwei-Klassen-Medizin gebe, doch die Erfahrungen vieler Patienten sprechen eine andere Sprache.",
+        "s": "Doctors' associations deny that there is two-tier medicine, but the experiences of many patients tell a different story."
+      },
+      {
+        "t": "Nun mag man einwenden, die Versorgung hierzulande sei im internationalen Vergleich nach wie vor hervorragend.",
+        "s": "Now, one may object that healthcare in this country is still excellent by international standards."
+      },
+      {
+        "t": "Das ist insofern richtig, als im Notfall jeder Mensch ungeachtet seines Versicherungsstatus behandelt wird.",
+        "s": "That is true insofar as, in an emergency, everyone is treated regardless of their insurance status."
+      },
+      {
+        "t": "Bei planbaren Behandlungen hingegen entscheidet allzu oft die Versichertenkarte über die Wartezeit.",
+        "s": "With plannable treatments, however, it is all too often the insurance card that determines the waiting time."
+      },
+      {
+        "t": "Hinzu kommt der Fachkräftemangel, der insbesondere die Pflege an ihre Belastungsgrenze bringt.",
+        "s": "On top of that comes the shortage of skilled workers, which is pushing nursing in particular to its limits."
+      },
+      {
+        "t": "Obgleich die Politik seit Jahren Besserung gelobt, kehren immer mehr Pflegekräfte ihrem Beruf frustriert den Rücken.",
+        "s": "Although politicians have been promising improvement for years, more and more nurses are turning their backs on their profession in frustration."
+      },
+      {
+        "t": "Selbst wenn morgen sämtliche offenen Stellen besetzt würden, bliebe ein strukturelles Problem bestehen.",
+        "s": "Even if all vacancies were filled tomorrow, a structural problem would remain."
+      },
+      {
+        "t": "Solange Kliniken vor allem über Fallpauschalen vergütet werden, lohnen sich lukrative Eingriffe mehr als gute Pflege.",
+        "s": "As long as hospitals are paid mainly through flat rates per case, lucrative procedures pay off more than good care."
+      },
+      {
+        "t": "Nichtsdestotrotz gibt es Grund zur Hoffnung: Telemedizin und neue Pflegemodelle zeigen, dass es auch anders geht.",
+        "s": "Nevertheless, there is reason for hope: telemedicine and new care models show that there is another way."
+      },
+      {
+        "t": "Eines sollte dabei jedoch nicht vergessen werden: Gesundheit ist kein Luxusgut, sondern ein Gut, das allen gleichermaßen zustehen muss.",
+        "s": "One thing, however, should not be forgotten: health is not a luxury but a good to which everyone must be equally entitled."
+      }
     ],
     "questions": [
-      { "q": { "t": "Worin besteht laut Text der Unterschied zwischen Privat- und Kassenpatienten?", "s": "According to the text, what is the difference between private and statutory patients?" },
-        "options": ["in der Wartezeit auf einen Facharzttermin", "in der Behandlung im Notfall", "in der Ausstattung der Krankenhäuser"], "answer": 0 },
-      { "q": { "t": "Wie reagieren Ärzteverbände auf den Vorwurf der Zwei-Klassen-Medizin?", "s": "How do doctors' associations respond to the accusation of two-tier medicine?" },
-        "options": ["Sie stimmen ihm uneingeschränkt zu.", "Sie bestreiten ihn.", "Sie äußern sich nicht dazu."], "answer": 1 },
-      { "q": { "t": "In welcher Hinsicht räumt der Autor ein, dass die Versorgung gut ist?", "s": "In what respect does the author concede that care is good?" },
-        "options": ["Bei planbaren Operationen gibt es keine Wartezeiten.", "Pflegekräfte werden angemessen bezahlt.", "Im Notfall wird jeder unabhängig von seiner Versicherung behandelt."], "answer": 2 },
-      { "q": { "t": "Warum würde laut Autor die Besetzung aller offenen Stellen das Problem nicht lösen?", "s": "According to the author, why would filling all vacancies not solve the problem?" },
-        "options": ["Weil das Vergütungssystem falsche Anreize setzt.", "Weil es dann zu viele Pflegekräfte gäbe.", "Weil die Telemedizin die Pflege ersetzen wird."], "answer": 0 },
-      { "q": { "t": "Welche Haltung vertritt der Autor am Ende?", "s": "What position does the author take at the end?" },
-        "options": ["Die Qualität der Versorgung sollte vom Einkommen abhängen.", "Trotz aller Probleme gibt es Anlass zur Hoffnung.", "Reformen sind grundsätzlich zum Scheitern verurteilt."], "answer": 1 }
+      {
+        "q": {
+          "t": "Worin besteht laut Text der Unterschied zwischen Privat- und Kassenpatienten?",
+          "s": "According to the text, what is the difference between private and statutory patients?"
+        },
+        "options": [
+          "in der Wartezeit auf einen Facharzttermin",
+          "in der Behandlung im Notfall",
+          "in der Ausstattung der Krankenhäuser"
+        ],
+        "answer": 0
+      },
+      {
+        "q": {
+          "t": "Wie reagieren Ärzteverbände auf den Vorwurf der Zwei-Klassen-Medizin?",
+          "s": "How do doctors' associations respond to the accusation of two-tier medicine?"
+        },
+        "options": [
+          "Sie stimmen ihm uneingeschränkt zu.",
+          "Sie bestreiten ihn.",
+          "Sie äußern sich nicht dazu."
+        ],
+        "answer": 1
+      },
+      {
+        "q": {
+          "t": "In welcher Hinsicht räumt der Autor ein, dass die Versorgung gut ist?",
+          "s": "In what respect does the author concede that care is good?"
+        },
+        "options": [
+          "Bei planbaren Operationen gibt es keine Wartezeiten.",
+          "Pflegekräfte werden angemessen bezahlt.",
+          "Im Notfall wird jeder unabhängig von seiner Versicherung behandelt."
+        ],
+        "answer": 2
+      },
+      {
+        "q": {
+          "t": "Warum würde laut Autor die Besetzung aller offenen Stellen das Problem nicht lösen?",
+          "s": "According to the author, why would filling all vacancies not solve the problem?"
+        },
+        "options": [
+          "Weil das Vergütungssystem falsche Anreize setzt.",
+          "Weil es dann zu viele Pflegekräfte gäbe.",
+          "Weil die Telemedizin die Pflege ersetzen wird."
+        ],
+        "answer": 0
+      },
+      {
+        "q": {
+          "t": "Welche Haltung vertritt der Autor am Ende?",
+          "s": "What position does the author take at the end?"
+        },
+        "options": [
+          "Die Qualität der Versorgung sollte vom Einkommen abhängen.",
+          "Trotz aller Probleme gibt es Anlass zur Hoffnung.",
+          "Reformen sind grundsätzlich zum Scheitern verurteilt."
+        ],
+        "answer": 1
+      }
     ]
   },
   "sentences": [
-    { "t": "Die Würde des Menschen ist unantastbar.", "s": "Human dignity is inviolable. (Article 1 of the German Basic Law)" },
-    { "t": "Nutzen und Risiken müssen sorgfältig abgewogen werden.", "s": "Benefits and risks must be carefully weighed up." },
-    { "t": "Zwar ist die Therapie teuer, doch sie rettet Leben.", "s": "The therapy may be expensive, but it saves lives." },
-    { "t": "Selbst wenn es keine Heilung gibt, kann man Leid lindern.", "s": "Even if there is no cure, suffering can be alleviated." },
-    { "t": "Viele Pflegekräfte arbeiten am Rande der Erschöpfung.", "s": "Many nurses work on the verge of exhaustion." },
-    { "t": "Die Frage der Sterbehilfe spaltet die Gesellschaft.", "s": "The question of assisted dying divides society." },
-    { "t": "Die Kasse lehnte den Antrag ab, wohingegen die Ärztin ihn unterstützte.", "s": "The insurer rejected the application, whereas the doctor supported it." },
-    { "t": "Vorsorge ist besser als Nachsorge.", "s": "Prevention is better than cure." }
+    {
+      "t": "Die Würde des Menschen ist unantastbar.",
+      "s": "Human dignity is inviolable. (Article 1 of the German Basic Law)"
+    },
+    {
+      "t": "Nutzen und Risiken müssen sorgfältig abgewogen werden.",
+      "s": "Benefits and risks must be carefully weighed up."
+    },
+    {
+      "t": "Zwar ist die Therapie teuer, doch sie rettet Leben.",
+      "s": "The therapy may be expensive, but it saves lives."
+    },
+    {
+      "t": "Selbst wenn es keine Heilung gibt, kann man Leid lindern.",
+      "s": "Even if there is no cure, suffering can be alleviated."
+    },
+    {
+      "t": "Viele Pflegekräfte arbeiten am Rande der Erschöpfung.",
+      "s": "Many nurses work on the verge of exhaustion."
+    },
+    {
+      "t": "Die Frage der Sterbehilfe spaltet die Gesellschaft.",
+      "s": "The question of assisted dying divides society."
+    },
+    {
+      "t": "Die Kasse lehnte den Antrag ab, wohingegen die Ärztin ihn unterstützte.",
+      "s": "The insurer rejected the application, whereas the doctor supported it."
+    },
+    {
+      "t": "Vorsorge ist besser als Nachsorge.",
+      "s": "Prevention is better than cure."
+    }
   ]
 }

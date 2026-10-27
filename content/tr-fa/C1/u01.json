@@ -241,7 +241,10 @@
       "id": "p07",
       "t": "Çok yerinde bir soru, teşekkür ederim.",
       "s": "سؤال بسیار بجایی است، ممنونم.",
-      "pr": "چُک یِریندِه بیر سُرو، تِشِکّور اِدِریم."
+      "pr": "چُک یِریندِه بیر سُرو، تِشِکّور اِدِریم.",
+      "alts": [
+        "Teşekkür ederim, çok yerinde bir soru."
+      ]
     },
     {
       "id": "p08",
@@ -272,7 +275,10 @@
       {
         "sp": "A",
         "t": "Hocam, müsaitseniz tezimin ikinci bölümü hakkında konuşmak istiyorum.",
-        "s": "استاد، اگر وقت دارید، می‌خواهم درباره‌ی فصل دوم پایان‌نامه‌ام صحبت کنم."
+        "s": "استاد، اگر وقت دارید، می‌خواهم درباره‌ی فصل دوم پایان‌نامه‌ام صحبت کنم.",
+        "alts": [
+          "Müsaitseniz hocam, tezimin ikinci bölümü hakkında konuşmak istiyorum."
+        ]
       },
       {
         "sp": "B",
@@ -447,7 +453,9 @@
           "type": "type",
           "t": "___ gibi, sonuçlar hipotezimizi doğruladı.",
           "answer": [
-            "beklendiği"
+            "beklendiği",
+            "tahmin edildiği",
+            "öngörüldüğü"
           ],
           "s": "همان‌طور که انتظار می‌رفت، نتایج فرضیه‌ی ما را تأیید کرد."
         },
@@ -467,7 +475,7 @@
         "t": "dolayısıyla, bununla birlikte, aksine, nitekim, zira",
         "s": "ربط‌دهنده‌های متن علمی"
       },
-      "explain": "این پنج کلمه رابطه‌ی منطقی دو جمله را نشان می‌دهند و در نوشتار علمی و رسمی بسیار رایج‌اند:\n**dolayısıyla** = در نتیجه / بنابراین (نتیجه): Örneklem küçüktü; **dolayısıyla** sonuçlar genellenemez. معادل غیررسمی‌تر: bu yüzden، bu nedenle.\n**bununla birlikte** = با این حال / با وجود این (تضاد): Yöntem yenidir. **Bununla birlikte**, ilk sonuçlar umut vericidir. هم‌معنای ancak و yine de.\n**aksine** = برعکس؛ بعد از یک جمله‌ی منفی، ادعای مخالف آن را می‌آورد: Bu yöntem zaman kaybı değildir; **aksine**, zaman kazandırır. با اسم هم می‌آید: beklenen**in aksine** = برخلافِ انتظار.\n**nitekim** = چنان‌که / شاهدش اینکه؛ دلیل یا نمونه‌ای می‌آورد که ادعای قبلی را **تأیید** می‌کند. مراقب باشید: nitekim به معنای «اما» نیست!\n**zira** = زیرا؛ این کلمه از همان «زیرا»ی فارسی آمده است. رسمی‌تر از **çünkü** است و جمله‌ی دلیل را بعد از جمله‌ی اصلی می‌آورد.\nمعمولاً dolayısıyla، bununla birlikte و aksine اول جمله یا بعد از «;» می‌آیند و بعدشان ویرگول می‌گذارند؛ بعد از nitekim و zira معمولاً ویرگول نمی‌آید.",
+      "explain": "این پنج کلمه رابطه‌ی منطقی دو جمله را نشان می‌دهند و در نوشتار علمی و رسمی بسیار رایج‌اند:\n**dolayısıyla** = در نتیجه / بنابراین (نتیجه): Örneklem küçüktü; **dolayısıyla** sonuçlar genellenemez. معادل غیررسمی‌تر: bu yüzden، bu nedenle.\n**bununla birlikte** = با این حال / با وجود این (تضاد): Yöntem yenidir. **Bununla birlikte**, ilk sonuçlar umut vericidir. هم‌معنای ancak و yine de.\n**aksine** = برعکس؛ بعد از یک جمله‌ی منفی، ادعای مخالف آن را می‌آورد: Bu yöntem zaman kaybı değildir; **aksine**, zaman kazandırır. با اسم هم می‌آید: beklenen**in aksine** = برخلافِ انتظار.\n**nitekim** = چنان‌که / شاهدش اینکه؛ دلیل یا نمونه‌ای می‌آورد که ادعای قبلی را **تأیید** می‌کند. مراقب باشید: nitekim به معنای «اما» نیست!\n**zira** = زیرا؛ این کلمه از همان «زیرا»ی فارسی آمده است. رسمی‌تر از **çünkü** است و جمله‌ی دلیل را بعد از جمله‌ی اصلی می‌آورد.\ndolayısıyla، bununla birlikte و aksine معمولاً اول جمله یا بعد از «;» می‌آیند. بعد از bununla birlikte و aksine معمولاً ویرگول می‌گذارند، اما بعد از dolayısıyla ویرگول اختیاری است (… ; dolayısıyla sonuçlar…)؛ بعد از nitekim و zira معمولاً ویرگول نمی‌آید.",
       "table": [
         [
           "dolayısıyla",
@@ -651,7 +659,7 @@
       },
       {
         "t": "Bazı üniversiteler bu sorunun farkına vararak değerlendirmede makale sayısı yerine makalelerin niteliğine bakmaya başlamıştır.",
-        "s": "برخی دانشگاه‌ها با پی بردن به این مشکل، در ارزیابی به‌جای تعداد مقاله‌ها به کیفیت آن‌ها توجه می‌کنند."
+        "s": "برخی دانشگاه‌ها با پی بردن به این مشکل، در ارزیابی به‌جای تعداد مقاله‌ها به کیفیت آن‌ها توجه کرده‌اند."
       },
       {
         "t": "Dolayısıyla değişim mümkündür; ancak bunun için bütün akademik kurumların ortak bir adım atması gerekir.",

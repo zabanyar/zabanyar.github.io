@@ -663,7 +663,7 @@
       },
       {
         "t": "Eşimin adı Mina; o bir hastanede hemşire.",
-        "s": "اسمِ همسرم نداست؛ او در یک بیمارستان پرستار است.",
+        "s": "اسمِ همسرم میناست؛ او در یک بیمارستان پرستار است.",
         "pr": "اِشیمین آدِ مینا؛ اُ بیر هاستانِدِه هِمشیرِه."
       },
       {
@@ -762,8 +762,8 @@
           "s": "خانواده در نوروز کجا جمع می‌شوند؟"
         },
         "options": [
-          "Dayının evinde",
-          "Anneannenin evinde",
+          "Dayısının evinde",
+          "Anneannesinin evinde",
           "Ali'nin evinde"
         ],
         "answer": 1

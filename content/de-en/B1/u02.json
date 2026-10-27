@@ -437,7 +437,7 @@
         "t": "Ich habe vor, … zu …",
         "s": "The infinitive with zu"
       },
-      "explain": "After many verbs, nouns and adjectives, German uses **zu + infinitive** at the end of the sentence, like English *to*: Ich habe vor, eine Ausbildung **zu machen**. (*I'm planning to do an apprenticeship.*)\nTypical starters: **vorhaben, versuchen, vergessen, anfangen, aufhören, hoffen, planen** · **Lust haben, Zeit haben, keine Zeit haben** · **Es ist wichtig, schwer, leicht, schön, …** · **Es macht mir Spaß, …**\nWith **separable verbs**, **zu** goes between the prefix and the verb, all in one word: an**zu**rufen, mit**zu**kommen, aus**zu**füllen.\n**No zu** after modal verbs (können, müssen, wollen …) and **möchte**: Ich muss heute länger **arbeiten**.\nPut a **comma** before the zu-group: after a noun (Lust, Zeit) or with **es** it is required, and elsewhere it is always correct.\nUse zu + infinitive when both parts have the same subject; otherwise use a **dass**-clause: Ich hoffe, die Stelle **zu bekommen**. – Ich hoffe, **dass** du die Stelle **bekommst**. (um … zu, for purpose, comes in Unit 5.)",
+      "explain": "After many verbs, nouns and adjectives, German uses **zu + infinitive** at the end of the sentence, like English *to*: Ich habe vor, eine Ausbildung **zu machen**. (*I'm planning to do an apprenticeship.*)\nTypical starters: **vorhaben, versuchen, vergessen, anfangen, aufhören, hoffen, planen** · **Lust haben, Zeit haben, keine Zeit haben** · **Es ist wichtig, schwer, leicht, schön, …** · **Es macht mir Spaß, …**\nWith **separable verbs**, **zu** goes between the prefix and the verb, all in one word: an**zu**rufen, mit**zu**kommen, aus**zu**füllen.\n**No zu** after modal verbs (können, müssen, wollen …) and **möchte**: Ich muss heute länger **arbeiten**.\nA **comma** before the zu-group is required after a noun (Lust, Zeit) or with **es**; after verbs like vorhaben, versuchen or hoffen it is optional, so a comma is never wrong there.\nAfter verbs like **hoffen**, use zu + infinitive when the person is the same in both parts; when it is someone else, use a **dass**-clause: Ich hoffe, die Stelle **zu bekommen**. – Ich hoffe, **dass** du die Stelle **bekommst**. (um … zu, for purpose, comes in Unit 5.)",
       "table": [
         [
           "Es ist wichtig,",
@@ -531,7 +531,7 @@
             "auszufüllen",
             "auszufuellen"
           ],
-          "s": "I forgot to fill in the form. (ausfüllen)"
+          "s": "I forgot to fill out the form. (ausfüllen)"
         },
         {
           "type": "type",

@@ -496,7 +496,8 @@
           "type": "type",
           "t": "Wo ist das Bett? – ___ ist im Schlafzimmer.",
           "answer": [
-            "es"
+            "es",
+            "das"
           ],
           "s": "Where is the bed? – It's in the bedroom."
         },
@@ -511,7 +512,10 @@
         {
           "type": "order",
           "t": "Der Tisch ist in der Küche.",
-          "s": "The table is in the kitchen."
+          "s": "The table is in the kitchen.",
+          "alts": [
+            "In der Küche ist der Tisch."
+          ]
         },
         {
           "type": "order",
@@ -617,7 +621,10 @@
     },
     {
       "t": "Es gibt einen Tisch in der Küche.",
-      "s": "There is a table in the kitchen."
+      "s": "There is a table in the kitchen.",
+      "alts": [
+        "In der Küche gibt es einen Tisch."
+      ]
     },
     {
       "t": "Wo ist das Bad?",
@@ -629,7 +636,10 @@
     },
     {
       "t": "Das Sofa ist im Wohnzimmer.",
-      "s": "The sofa is in the living room."
+      "s": "The sofa is in the living room.",
+      "alts": [
+        "Im Wohnzimmer ist das Sofa."
+      ]
     },
     {
       "t": "Wo sind die Stühle?",
@@ -637,7 +647,10 @@
     },
     {
       "t": "Die Lampe ist hier.",
-      "s": "The lamp is here."
+      "s": "The lamp is here.",
+      "alts": [
+        "Hier ist die Lampe."
+      ]
     },
     {
       "t": "Gibt es ein Bett?",

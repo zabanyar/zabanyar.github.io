@@ -195,7 +195,10 @@
     {
       "id": "p02",
       "t": "Mir geht es nicht gut.",
-      "s": "I'm not feeling well."
+      "s": "I'm not feeling well.",
+      "alts": [
+        "Es geht mir nicht gut."
+      ]
     },
     {
       "id": "p03",
@@ -205,7 +208,10 @@
     {
       "id": "p04",
       "t": "Mir tut der Bauch weh.",
-      "s": "My stomach hurts."
+      "s": "My stomach hurts.",
+      "alts": [
+        "Der Bauch tut mir weh."
+      ]
     },
     {
       "id": "p05",
@@ -287,7 +293,7 @@
       {
         "sp": "A",
         "t": "Nein, bleiben Sie bitte bis Freitag zu Hause. Ich schreibe Sie krank.",
-        "s": "No, please stay at home until Friday. I'll give you a sick note."
+        "s": "No, please stay at home until Friday. I'll write you a doctor's note."
       },
       {
         "sp": "B",
@@ -692,11 +698,17 @@
   "sentences": [
     {
       "t": "Mir tut der Kopf weh.",
-      "s": "My head hurts."
+      "s": "My head hurts.",
+      "alts": [
+        "Der Kopf tut mir weh."
+      ]
     },
     {
       "t": "Ich muss morgen zum Zahnarzt gehen.",
-      "s": "I have to go to the dentist tomorrow."
+      "s": "I have to go to the dentist tomorrow.",
+      "alts": [
+        "Morgen muss ich zum Zahnarzt gehen."
+      ]
     },
     {
       "t": "Darf ich hier sitzen?",
@@ -708,7 +720,10 @@
     },
     {
       "t": "Sie dürfen eine Woche keinen Sport machen.",
-      "s": "You're not allowed to do any sports for a week."
+      "s": "You're not allowed to do any sports for a week.",
+      "alts": [
+        "Eine Woche dürfen Sie keinen Sport machen."
+      ]
     },
     {
       "t": "Du musst nicht mitkommen.",
@@ -716,11 +731,17 @@
     },
     {
       "t": "Kinder, seid bitte leise!",
-      "s": "Kids, please be quiet!"
+      "s": "Kids, please be quiet!",
+      "alts": [
+        "Seid bitte leise, Kinder!"
+      ]
     },
     {
       "t": "Gute Besserung und schlaf viel!",
-      "s": "Get well soon and get lots of sleep!"
+      "s": "Get well soon and get lots of sleep!",
+      "alts": [
+        "Schlaf viel und gute Besserung!"
+      ]
     }
   ]
 }

@@ -83,7 +83,7 @@
       "ex": {
         "t": "Resilience is the ability to recover from difficult experiences.",
         "s": "تاب‌آوری یعنی توانایی بازیابی خود پس از تجربه‌های سخت.",
-        "pr": "ریزیلْیِنْس ایز ذی اِبیلِتی تو ریکاوِر فْرام دیفِکِلْت ایکْسْپیریِنْسِز."
+        "pr": "ریزیلْیِنْس ایز ذی اِبیلِتی تو ریکاوِر فْرام دیفیکِلت ایکْسْپیریِنْسِز."
       }
     },
     {
@@ -194,7 +194,7 @@
       "ex": {
         "t": "Try not to overthink every message you send.",
         "s": "سعی کن درباره‌ی هر پیامی که می‌فرستی زیادی فکر نکنی.",
-        "pr": "تْرای نات تو اُووِرْثینک اِوْری مِسِج یو سِند."
+        "pr": "تْرای نات تو اُووِرْثینک اِوْری مِسیج یو سِند."
       }
     }
   ],
@@ -638,7 +638,7 @@
       {
         "t": "Behavioral scientists, however, have shown that our choices are shaped by instinct, habit, and countless hidden biases.",
         "s": "ولی دانشمندان علوم رفتاری نشان داده‌اند که انتخاب‌های ما را غریزه، عادت و سوگیری‌های پنهان بی‌شمار شکل می‌دهند.",
-        "pr": "بیهِیْویِرِل سایِنْتِسْتْس، هاوْاِوِر، هَو شُون ذَت آوِر چُیسِز آر شِیپْت بای اینْسْتینْکْت، هَبِت، اَند کاونْتْلِس هیدِن بایِسِز."
+        "pr": "بیهِیْویِرِل سایِنْتِسْتْس، هاوْاِوِر، هَو شُون ذَت آوِر چُیسِز آر شِیپْت بای اینْسْتینْکْت، هَبیت، اَند کاونْتْلِس هیدِن بایِسِز."
       },
       {
         "t": "This insight led to the idea of the “nudge”: a small change in the environment that gets people to behave differently without forcing them.",
@@ -646,9 +646,9 @@
         "pr": "ذیس اینْسایت لِد تو ذی آیدیا آو ذِ ناج: اِ سْمال چِینْج این ذی اِنْوایْرِنْمِنت ذَت گِتْس پیپِل تو بیهِیْو دیفْرِنْتْلی ویذاوت فُرْسینگ ذِم."
       },
       {
-        "t": "In one well-known example, a school cafeteria simply put fruit at eye level and moved desserts further away.",
-        "s": "در یک نمونه‌ی معروف، سلف یک مدرسه فقط میوه‌ها را هم‌سطح چشم گذاشت و دسرها را دورتر برد.",
-        "pr": "این وان وِل نُون ایگْزَمْپِل، اِ سْکول کَفِتیریا سیمْپْلی پوت فْروت اَت آی لِوِل اَند مووْد دیزِرْتْس فِرْذِر اِوِی."
+        "t": "In several experiments, school cafeterias simply put fruit at eye level and moved desserts further away.",
+        "s": "در چند آزمایش، سلف‌های مدرسه فقط میوه‌ها را هم‌سطح چشم گذاشتند و دسرها را دورتر بردند.",
+        "pr": "این سِوْرِل ایکْسْپِرِمِنْتْس، سْکول کَفِتیریاز سیمْپْلی پوت فْروت اَت آی لِوِل اَند مووْد دیزِرْتْس فِرْذِر اِوِی."
       },
       {
         "t": "Nobody was made to eat healthily, and students were still allowed to choose whatever they wanted.",
@@ -656,9 +656,9 @@
         "pr": "نُوبادی واز مِید تو ایت هِلْثِلی، اَند سْتودِنْتْس وِر سْتیل اِلاود تو چوز وات‌اِوِر ذِی وانْتِد."
       },
       {
-        "t": "Yet fruit sales rose noticeably within weeks.",
-        "s": "با این حال، فروش میوه در عرض چند هفته به‌طور محسوسی بالا رفت.",
-        "pr": "یِت فْروت سِیلْز رُوز نُوتِسِبْلی ویذین ویکْس."
+        "t": "Yet fruit sales often rose noticeably.",
+        "s": "با این حال، فروش میوه اغلب به‌طور محسوسی بالا رفت.",
+        "pr": "یِت فْروت سِیلْز آفِن رُوز نُوتِسِبْلی."
       },
       {
         "t": "Another nudge has been used to help people save for retirement.",
@@ -712,14 +712,14 @@
       },
       {
         "q": {
-          "t": "What did the school cafeteria do?",
-          "s": "سلف مدرسه چه کرد؟",
-          "pr": "وات دید ذِ سْکول کَفِتیریا دو؟"
+          "t": "What did the school cafeterias do?",
+          "s": "سلف‌های مدرسه چه کردند؟",
+          "pr": "وات دید ذِ سْکول کَفِتیریاز دو؟"
         },
         "options": [
-          "It banned desserts.",
-          "It put fruit at eye level.",
-          "It made students eat fruit."
+          "They banned desserts.",
+          "They put fruit at eye level.",
+          "They made students eat fruit."
         ],
         "answer": 1
       },

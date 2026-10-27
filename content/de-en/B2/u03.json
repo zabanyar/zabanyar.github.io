@@ -58,7 +58,7 @@
       "id": "w05",
       "t": "der Hausarzt",
       "pl": "die Hausärzte",
-      "s": "family doctor, GP (female: die Hausärztin)",
+      "s": "family doctor, primary care doctor (female: die Hausärztin)",
       "emoji": "🩺",
       "ex": {
         "t": "Mit diesen Beschwerden gehen Sie am besten zuerst zum Hausarzt.",
@@ -282,7 +282,7 @@
       {
         "sp": "A",
         "t": "Na ja, jetzt kannst du dich wenigstens in Ruhe erholen. Soll ich dir etwas aus der Apotheke mitbringen?",
-        "s": "Well, at least now you can recover in peace. Shall I bring you something from the pharmacy?"
+        "s": "Well, at least now you can recover in peace. Should I bring you something from the pharmacy?"
       },
       {
         "sp": "B",
@@ -422,12 +422,18 @@
         {
           "type": "order",
           "t": "Ich hätte früher zum Arzt gehen sollen.",
-          "s": "I should have gone to the doctor earlier."
+          "s": "I should have gone to the doctor earlier.",
+          "alts": [
+            "Früher hätte ich zum Arzt gehen sollen."
+          ]
         },
         {
           "type": "order",
           "t": "Ohne Helm wäre das schlimmer gewesen.",
-          "s": "Without a helmet, it would have been worse."
+          "s": "Without a helmet, it would have been worse.",
+          "alts": [
+            "Das wäre ohne Helm schlimmer gewesen."
+          ]
         }
       ]
     },
@@ -552,7 +558,10 @@
         {
           "type": "order",
           "t": "Wenn ich Zeit hätte, würde ich kochen.",
-          "s": "If I had time, I would cook."
+          "s": "If I had time, I would cook.",
+          "alts": [
+            "Ich würde kochen, wenn ich Zeit hätte."
+          ]
         }
       ]
     }
@@ -677,8 +686,8 @@
   },
   "sentences": [
     {
-      "t": "Ich hätte gern einen Termin bei Frau Dr. Becker.",
-      "s": "I'd like an appointment with Dr. Becker."
+      "t": "Ich hätte gern einen Termin bei Frau Dr. Neumann.",
+      "s": "I'd like an appointment with Dr. Neumann."
     },
     {
       "t": "Seit drei Tagen habe ich starke Kopfschmerzen.",

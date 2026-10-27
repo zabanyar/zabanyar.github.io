@@ -680,31 +680,52 @@
   "sentences": [
     {
       "t": "Gestern habe ich drei Stunden gearbeitet.",
-      "s": "Yesterday I worked for three hours."
+      "s": "Yesterday I worked for three hours.",
+      "alts": [
+        "Ich habe gestern drei Stunden gearbeitet."
+      ]
     },
     {
       "t": "Wir haben am Sonntag einen Kuchen gebacken.",
-      "s": "We baked a cake on Sunday."
+      "s": "We baked a cake on Sunday.",
+      "alts": [
+        "Am Sonntag haben wir einen Kuchen gebacken."
+      ]
     },
     {
       "t": "Hast du die Wäsche schon gewaschen?",
-      "s": "Have you done the laundry yet?"
+      "s": "Have you done the laundry yet?",
+      "alts": [
+        "Hast du schon die Wäsche gewaschen?"
+      ]
     },
     {
-      "t": "Mina ist am Samstag nach Köln gefahren.",
-      "s": "Mina went to Cologne on Saturday."
+      "t": "Lena ist am Samstag nach Köln gefahren.",
+      "s": "Lena went to Cologne on Saturday.",
+      "alts": [
+        "Am Samstag ist Lena nach Köln gefahren."
+      ]
     },
     {
       "t": "Ich bin gestern Abend früh eingeschlafen.",
-      "s": "I fell asleep early last night."
+      "s": "I fell asleep early last night.",
+      "alts": [
+        "Gestern Abend bin ich früh eingeschlafen."
+      ]
     },
     {
       "t": "Die Kinder haben im Park Fußball gespielt.",
-      "s": "The children played soccer in the park."
+      "s": "The children played soccer in the park.",
+      "alts": [
+        "Im Park haben die Kinder Fußball gespielt."
+      ]
     },
     {
       "t": "Am Sonntag sind wir zu Hause geblieben.",
-      "s": "On Sunday we stayed at home."
+      "s": "On Sunday we stayed at home.",
+      "alts": [
+        "Wir sind am Sonntag zu Hause geblieben."
+      ]
     },
     {
       "t": "Habt ihr am Wochenende Freunde getroffen?",

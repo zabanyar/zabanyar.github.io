@@ -41,8 +41,8 @@
       "s": "upbringing, raising children",
       "emoji": "",
       "ex": {
-        "t": "Bei der Erziehung ihrer Kinder sind sich Maryam und Reza meistens einig.",
-        "s": "Maryam and Reza usually agree on how to raise their children."
+        "t": "Bei der Erziehung ihrer Kinder sind sich Maryam und Ali meistens einig.",
+        "s": "Maryam and Ali usually agree on how to raise their children."
       }
     },
     {
@@ -251,7 +251,7 @@
       {
         "sp": "A",
         "t": "Nein, wir feiern bei mir im Garten. Aber das Essen lassen wir liefern, sonst stehen wir den ganzen Tag in der Küche.",
-        "s": "No, we'll celebrate in my garden. But we'll have the food delivered, otherwise we'll spend the whole day in the kitchen."
+        "s": "No, we'll celebrate in my backyard. But we'll have the food delivered, otherwise we'll spend the whole day in the kitchen."
       },
       {
         "sp": "B",
@@ -545,7 +545,10 @@
         {
           "type": "order",
           "t": "Ich lasse mein Auto reparieren.",
-          "s": "I'm having my car repaired."
+          "s": "I'm having my car repaired.",
+          "alts": [
+            "Mein Auto lasse ich reparieren."
+          ]
         },
         {
           "type": "order",

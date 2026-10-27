@@ -259,15 +259,15 @@
       },
       {
         "sp": "B",
-        "t": "سلام مینا! بیست سال دارم. تو چند سال داری؟",
-        "pr": "Salâm Minâ! Bist sâl dâram. To çand sâl dâri?",
-        "s": "Merhaba Mina! Yirmi yaşındayım. Sen kaç yaşındasın?"
+        "t": "سلام مینا! نوزده سال دارم. تو چند سال داری؟",
+        "pr": "Salâm Minâ! Nuzdah sâl dâram. To çand sâl dâri?",
+        "s": "Merhaba Mina! On dokuz yaşındayım. Sen kaç yaşındasın?"
       },
       {
         "sp": "A",
-        "t": "من هجده سال دارم.",
-        "pr": "Man hecdah sâl dâram.",
-        "s": "Ben on sekiz yaşındayım."
+        "t": "من بیست سال دارم.",
+        "pr": "Man bist sâl dâram.",
+        "s": "Ben yirmi yaşındayım."
       },
       {
         "sp": "B",
@@ -595,7 +595,10 @@
           "type": "order",
           "t": "مریم و علی دانشجو هستند.",
           "pr": "Maryam va Ali dâneşcu hastand.",
-          "s": "Maryam ve Ali öğrenci."
+          "s": "Maryam ve Ali öğrenci.",
+          "alts": [
+            "علی و مریم دانشجو هستند."
+          ]
         }
       ]
     }

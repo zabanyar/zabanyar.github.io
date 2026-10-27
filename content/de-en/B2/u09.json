@@ -10,7 +10,7 @@
     "Talk about money, consumption and sustainable shopping",
     "Use Futur I and II for the future and for assumptions",
     "Say how sure you are with muss, müsste, dürfte, könnte and kann nicht",
-    "Weigh up arguments and reach a compromise"
+    "Weigh arguments and reach a compromise"
   ],
   "words": [
     {
@@ -151,12 +151,12 @@
     },
     {
       "id": "w14",
-      "t": "nachhaltig",
-      "s": "sustainable",
+      "t": "die Lebenshaltungskosten",
+      "s": "cost of living (plural only)",
       "emoji": "",
       "ex": {
-        "t": "Nachhaltig einzukaufen heißt oft, weniger zu kaufen.",
-        "s": "Shopping sustainably often means buying less."
+        "t": "In Großstädten sind die Lebenshaltungskosten besonders hoch.",
+        "s": "The cost of living is especially high in big cities."
       }
     },
     {
@@ -474,7 +474,7 @@
         },
         {
           "t": "Die Rückerstattung müsste in drei bis fünf Werktagen auf Ihrem Konto sein.",
-          "s": "The refund should be in your account within three to five working days."
+          "s": "The refund should be in your account within three to five business days."
         },
         {
           "t": "Die Reparatur dürfte etwa 150 Euro kosten.",
@@ -570,8 +570,8 @@
   ],
   "reading": {
     "title": {
-      "t": "Reparieren statt wegwerfen",
-      "s": "Repair instead of throwing away"
+      "t": "Reparieren liegt im Trend",
+      "s": "Repairing is trending"
     },
     "text": [
       {
@@ -607,8 +607,8 @@
         "s": "At the same time, there is growing awareness that manufacturing new products uses up raw materials and energy."
       },
       {
-        "t": "Auch die Politik reagiert: In einigen Bundesländern übernimmt ein sogenannter Reparaturbonus einen Teil der Reparaturkosten.",
-        "s": "Politicians are responding, too: in some federal states, a so-called repair bonus covers part of the repair costs."
+        "t": "Auch die Politik reagiert: Einige Bundesländer haben einen sogenannten Reparaturbonus eingeführt, der einen Teil der Reparaturkosten übernimmt.",
+        "s": "Politicians are responding, too: some federal states have introduced a so-called repair bonus that covers part of the repair costs."
       },
       {
         "t": "Kritiker geben allerdings zu bedenken, dass viele Geräte so gebaut sind, dass man sie kaum öffnen kann.",
@@ -623,8 +623,8 @@
         "s": "Experts assume that the issue will become even more important in the future."
       },
       {
-        "t": "Eine neue EU-Richtlinie zum „Recht auf Reparatur“ dürfte die Situation für Verbraucher in den nächsten Jahren verbessern.",
-        "s": "A new EU directive on the “right to repair” is likely to improve the situation for consumers in the coming years."
+        "t": "Eine EU-Richtlinie zum „Recht auf Reparatur“ dürfte die Situation für Verbraucher in den nächsten Jahren verbessern.",
+        "s": "An EU directive on the “right to repair” is likely to improve the situation for consumers in the coming years."
       }
     ],
     "questions": [

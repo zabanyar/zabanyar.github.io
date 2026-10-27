@@ -99,7 +99,7 @@
       "id": "w09",
       "t": "der Kredit",
       "pl": "die Kredite",
-      "s": "loan; einen Kredit aufnehmen = to take out a loan",
+      "s": "loan (stress on -dit: kre-DIT); einen Kredit aufnehmen = to take out a loan",
       "emoji": "",
       "ex": {
         "t": "Für das Auto haben wir einen Kredit aufgenommen.",
@@ -142,7 +142,7 @@
       "id": "w13",
       "t": "der Kassenbon",
       "pl": "die Kassenbons",
-      "s": "receipt (from a store)",
+      "s": "receipt (from a store); Bon is said the French way: KASS-en-bong",
       "emoji": "🧾",
       "ex": {
         "t": "Heben Sie den Kassenbon gut auf.",
@@ -531,7 +531,7 @@
             "wäre"
           ],
           "answer": 2,
-          "s": "If I weren't so tired, I would still go shopping."
+          "s": "If I weren't so tired, I would go shopping now."
         },
         {
           "type": "type",
@@ -572,8 +572,8 @@
         "s": "We asked passers-by in the pedestrian zone in Bonn: What would you do if you suddenly had a thousand euros?"
       },
       {
-        "t": "Lena, 24, Studentin: „Ich würde sofort meine Schulden bezahlen.“",
-        "s": "Lena, 24, student: “I would pay off my debts right away.”"
+        "t": "Anna, 24, Studentin: „Ich würde sofort meine Schulden bezahlen.“",
+        "s": "Anna, 24, student: “I would pay off my debts right away.”"
       },
       {
         "t": "„Für meinen Laptop habe ich nämlich einen Kredit aufgenommen.“",
@@ -584,8 +584,8 @@
         "s": "“If there was any money left after that, I would save it.”"
       },
       {
-        "t": "Herr Wagner, 67, Rentner: „Ich hätte gern eine neue Brille, aber eigentlich habe ich alles, was ich brauche.“",
-        "s": "Mr. Wagner, 67, retiree: “I'd like new glasses, but actually I have everything I need.”"
+        "t": "Herr Wagner, 72, Rentner: „Ich hätte gern eine neue Brille, aber eigentlich habe ich alles, was ich brauche.“",
+        "s": "Mr. Wagner, 72, retiree: “I'd like new glasses, but actually I have everything I need.”"
       },
       {
         "t": "„Ich würde das Geld lieber meinen Enkeln geben, die für ihr Studium sparen.“",
@@ -611,8 +611,8 @@
     "questions": [
       {
         "q": {
-          "t": "Was würde Lena zuerst machen?",
-          "s": "What would Lena do first?"
+          "t": "Was würde Anna zuerst machen?",
+          "s": "What would Anna do first?"
         },
         "options": [
           "einen Laptop kaufen",

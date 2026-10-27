@@ -196,7 +196,10 @@
       "id": "p02",
       "t": "Türkçede bunun tam karşılığı yok.",
       "s": "این در ترکی معادل دقیقی ندارد.",
-      "pr": "تورکچِدِه بونون تام کارشِلِئِ یُک."
+      "pr": "تورکچِدِه بونون تام کارشِلِئِ یُک.",
+      "alts": [
+        "Bunun Türkçede tam karşılığı yok."
+      ]
     },
     {
       "id": "p03",
@@ -214,7 +217,10 @@
       "id": "p05",
       "t": "Tarih boyunca iki kültür birbirini etkilemiş.",
       "s": "در طول تاریخ این دو فرهنگ بر هم تأثیر گذاشته‌اند.",
-      "pr": "تاریح بُیونجا ایکی کولتور بیربیرینی اِتکیلِمیش."
+      "pr": "تاریح بُیونجا ایکی کولتور بیربیرینی اِتکیلِمیش.",
+      "alts": [
+        "İki kültür tarih boyunca birbirini etkilemiş."
+      ]
     },
     {
       "id": "p06",
@@ -438,7 +444,8 @@
           "type": "type",
           "t": "___ toplantıya katılamayacağım; o gün başka bir işim var.",
           "answer": [
-            "Maalesef"
+            "Maalesef",
+            "Ne yazık ki"
           ],
           "s": "متأسفانه نمی‌توانم در جلسه شرکت کنم؛ آن روز کار دیگری دارم."
         },
@@ -719,7 +726,10 @@
     },
     {
       "t": "Bu yıl şirket hiç kâr etmedi.",
-      "s": "امسال شرکت هیچ سودی نکرد."
+      "s": "امسال شرکت هیچ سودی نکرد.",
+      "alts": [
+        "Şirket bu yıl hiç kâr etmedi."
+      ]
     },
     {
       "t": "Dedem Osmanlıca yazıları rahatça okurdu.",
@@ -731,7 +741,10 @@
     },
     {
       "t": "Maalesef bu el yazmasının ilk sayfaları kayıp.",
-      "s": "متأسفانه صفحه‌های اول این نسخه‌ی خطی گم شده است."
+      "s": "متأسفانه صفحه‌های اول این نسخه‌ی خطی گم شده است.",
+      "alts": [
+        "Bu el yazmasının ilk sayfaları maalesef kayıp."
+      ]
     }
   ]
 }

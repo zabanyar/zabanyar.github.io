@@ -626,7 +626,10 @@
     },
     {
       "t": "Wir wohnen in Köln.",
-      "s": "We live in Cologne."
+      "s": "We live in Cologne.",
+      "alts": [
+        "In Köln wohnen wir."
+      ]
     },
     {
       "t": "Wie heißt deine Schwester?",

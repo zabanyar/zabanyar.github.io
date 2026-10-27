@@ -71,7 +71,7 @@
       "ex": {
         "t": "We only see our relatives in Canada once in a blue moon.",
         "s": "اقواممان را که در کانادا هستند فقط سالی یک بار می‌بینیم.",
-        "pr": "وی اُونلی سی آوِر رِلِتیوْز این کَندا وانْس این اِ بْلو مون."
+        "pr": "وی اُونلی سی آوِر رِلِتیوْز این کَنِدا وانْس این اِ بْلو مون."
       }
     },
     {
@@ -512,7 +512,7 @@
         {
           "t": "Sales usually pick up before Nowruz.",
           "s": "فروش معمولاً پیش از نوروز رونق می‌گیرد.",
-          "pr": "سِیلْز یوژوِلی پیک آپ بیفُر نُوروز."
+          "pr": "سِیلْز یوژوئِلی پیک آپ بیفُر نُوروز."
         },
         {
           "t": "The smell of the food put me off.",
@@ -663,7 +663,7 @@
       {
         "t": "I also noticed that many of them have Persian equivalents with completely different images.",
         "s": "متوجه شدم که بسیاری از آن‌ها معادل‌های فارسی‌ای با تصویرهای کاملاً متفاوت دارند.",
-        "pr": "آی آلسُو نُوتیسْت ذَت مِنی آو ذِم هَو پِرژِن ایکْویوِلِنْتْس ویذ کِمْپْلیتْلی دیفْرِنت ایمِجِز."
+        "pr": "آی آلسُو نُوتِسْت ذَت مِنی آو ذِم هَو پِرژِن ایکْویوِلِنْتْس ویذ کِمْپْلیتْلی دیفْرِنت ایمِجِز."
       },
       {
         "t": "For example, what Americans call “a piece of cake,” we describe as being “like drinking water.”",
@@ -694,9 +694,9 @@
     "questions": [
       {
         "q": {
-          "t": "What did the writer think about his English before he moved to Chicago?",
+          "t": "What did the writer think about their English before moving to Chicago?",
           "s": "نویسنده پیش از رفتن به شیکاگو درباره‌ی انگلیسی‌اش چه فکری می‌کرد؟",
-          "pr": "وات دید ذِ رایتِر ثینک اِباوت هیز اینگْلیش بیفُر هی مووْد تو شیکاگُو؟"
+          "pr": "وات دید ذِ رایتِر ثینک اِباوت ذِر اینگْلیش بیفُر مووینگ تو شیکاگُو؟"
         },
         "options": [
           "It was quite good.",
@@ -707,27 +707,27 @@
       },
       {
         "q": {
-          "t": "Why did he look out of the window?",
-          "s": "چرا از پنجره بیرون را نگاه کرد؟",
-          "pr": "وای دید هی لوک آوت آو ذِ ویندُو؟"
+          "t": "Why did the writer look out of the window?",
+          "s": "چرا نویسنده از پنجره بیرون را نگاه کرد؟",
+          "pr": "وای دید ذِ رایتِر لوک آوت آو ذِ ویندُو؟"
         },
         "options": [
-          "He was waiting for his boss.",
-          "He misunderstood an idiom.",
-          "He wanted to see the cake."
+          "to see if the boss was coming",
+          "because of a misunderstood idiom",
+          "to look for the cake"
         ],
         "answer": 1
       },
       {
         "q": {
-          "t": "What did he do to learn new expressions?",
-          "s": "برای یادگرفتن اصطلاحات تازه چه کرد؟",
-          "pr": "وات دید هی دو تو لِرن نو ایکْسْپْرِشِنز؟"
+          "t": "What did the writer do to learn new expressions?",
+          "s": "نویسنده برای یادگرفتن اصطلاحات تازه چه کرد؟",
+          "pr": "وات دید ذِ رایتِر دو تو لِرن نو ایکْسْپْرِشِنز؟"
         },
         "options": [
-          "He took an online course.",
-          "He asked his kids.",
-          "He wrote them down in a notebook."
+          "took an online course",
+          "asked the children for help",
+          "wrote them down in a notebook"
         ],
         "answer": 2
       },
@@ -746,9 +746,9 @@
       },
       {
         "q": {
-          "t": "What is his advice?",
-          "s": "توصیه‌ی او چیست؟",
-          "pr": "وات ایز هیز اِدْوایْس؟"
+          "t": "What is the writer's advice?",
+          "s": "توصیه‌ی نویسنده چیست؟",
+          "pr": "وات ایز ذِ رایتِرز اِدْوایْس؟"
         },
         "options": [
           "Only memorize lists of idioms.",

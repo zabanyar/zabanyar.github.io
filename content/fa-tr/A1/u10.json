@@ -584,7 +584,8 @@
           "type": "type",
           "t": "___ دوچرخه داری؟",
           "answer": [
-            "آیا"
+            "آیا",
+            "تو"
           ],
           "s": "Bisikletin var mı?",
           "pr": "Âyâ doçarxe dâri?"
@@ -612,9 +613,9 @@
     },
     "text": [
       {
-        "t": "در ایران آخر هفته جمعه است.",
-        "s": "İran'da hafta sonu cuma günüdür.",
-        "pr": "Dar İrân âxar-e hafte com'e ast."
+        "t": "در ایران جمعه روز تعطیل است.",
+        "s": "İran'da cuma tatil günüdür.",
+        "pr": "Dar İrân com'e ruz-e ta'til ast."
       },
       {
         "t": "جمعه‌ها ما با هم به پارک می‌رویم.",
@@ -655,12 +656,12 @@
     "questions": [
       {
         "q": {
-          "t": "در ایران آخر هفته کدام روز است؟",
-          "s": "İran'da hafta sonu hangi gün?",
-          "pr": "Dar İrân âxar-e hafte kodâm ruz ast?"
+          "t": "در ایران کدام روز تعطیل است؟",
+          "s": "İran'da hangi gün tatil?",
+          "pr": "Dar İrân kodâm ruz ta'til ast?"
         },
         "options": [
-          "شنبه",
+          "سه‌شنبه",
           "جمعه",
           "دوشنبه"
         ],

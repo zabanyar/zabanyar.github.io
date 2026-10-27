@@ -592,7 +592,10 @@
           "type": "order",
           "t": "نوروز اول فروردین است.",
           "s": "Nevruz 1 Farvardin'de.",
-          "pr": "Nowruz avval-e farvardin ast."
+          "pr": "Nowruz avval-e farvardin ast.",
+          "alts": [
+            "اول فروردین نوروز است."
+          ]
         },
         {
           "type": "order",
@@ -611,9 +614,9 @@
     },
     "text": [
       {
-        "t": "من مریم هستم و در شیراز زندگی می‌کنم.",
-        "s": "Ben Maryam, Şiraz'da yaşıyorum.",
-        "pr": "Man Maryam hastam va dar Şirâz zendegi mikonam."
+        "t": "من مریم هستم و در تهران زندگی می‌کنم.",
+        "s": "Ben Maryam, Tahran'da yaşıyorum.",
+        "pr": "Man Maryam hastam va dar Tehrân zendegi mikonam."
       },
       {
         "t": "من بهار را خیلی دوست دارم.",

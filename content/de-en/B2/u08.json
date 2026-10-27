@@ -213,7 +213,7 @@
     {
       "id": "p07",
       "t": "Man darf nicht vergessen, dass …",
-      "s": "We mustn't forget that …"
+      "s": "We must not forget that …"
     },
     {
       "id": "p08",
@@ -431,7 +431,10 @@
         {
           "type": "order",
           "t": "Ich habe mich an das Wetter gewöhnt.",
-          "s": "I've gotten used to the weather."
+          "s": "I've gotten used to the weather.",
+          "alts": [
+            "An das Wetter habe ich mich gewöhnt."
+          ]
         }
       ]
     },
@@ -602,8 +605,8 @@
         "s": "She had noticed that many neighbors hardly said hello to each other – not because they were unfriendly, but because they felt unsure."
       },
       {
-        "t": "Deshalb hat sie gemeinsam mit Maryam, einer Mutter aus dem dritten Stock, Einladungen in fünf Sprachen verteilt.",
-        "s": "So, together with Maryam, a mother from the fourth floor, she handed out invitations in five languages."
+        "t": "Deshalb hat sie gemeinsam mit Maryam, einer Mutter aus dem zweiten Stock, Einladungen in fünf Sprachen verteilt.",
+        "s": "So, together with Maryam, a mother from the third floor, she handed out invitations in five languages."
       },
       {
         "t": "Jede Familie brachte ein Gericht aus ihrer Heimat mit: Es gab syrische Falafel, persischen Reis mit Safran, ukrainische Wareniki und deutschen Kartoffelsalat.",

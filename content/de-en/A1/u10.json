@@ -165,7 +165,10 @@
     {
       "id": "p02",
       "t": "Ich spiele gern Fußball.",
-      "s": "I like playing soccer."
+      "s": "I like playing soccer.",
+      "alts": [
+        "Fußball spiele ich gern."
+      ]
     },
     {
       "id": "p03",
@@ -405,8 +408,8 @@
           "s": "Do you like playing soccer? – Yes!"
         },
         {
-          "t": "Kann Ali kochen? – Nein, leider nicht.",
-          "s": "Can Ali cook? – No, unfortunately not."
+          "t": "Kann Lukas kochen? – Nein, leider nicht.",
+          "s": "Can Lukas cook? – No, unfortunately not."
         },
         {
           "t": "Wanderst du gern? – Nein, ich wandere nicht gern.",
@@ -566,7 +569,10 @@
   "sentences": [
     {
       "t": "Ich höre gern Musik.",
-      "s": "I like listening to music."
+      "s": "I like listening to music.",
+      "alts": [
+        "Musik höre ich gern."
+      ]
     },
     {
       "t": "Kannst du Rad fahren?",
@@ -574,11 +580,17 @@
     },
     {
       "t": "Mein Hobby ist Kochen.",
-      "s": "My hobby is cooking."
+      "s": "My hobby is cooking.",
+      "alts": [
+        "Kochen ist mein Hobby."
+      ]
     },
     {
       "t": "Wir spielen am Abend Fußball.",
-      "s": "We play soccer in the evening."
+      "s": "We play soccer in the evening.",
+      "alts": [
+        "Am Abend spielen wir Fußball."
+      ]
     },
     {
       "t": "Sara kann gut singen.",

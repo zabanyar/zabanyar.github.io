@@ -22,6 +22,7 @@
        "title": {
         "t": "The ABCs",
         "s": "الفبای انگلیسی",
+        "pr": "ذی اِی بی سیز",
         "a": "audio/en-fa/7a8368eb52dd.mp3"
        },
        "img": "img/e/1f524.svg",
@@ -47,6 +48,7 @@
        "title": {
         "t": "Hello!",
         "s": "سلام!",
+        "pr": "هِلُو!",
         "a": "audio/en-fa/76707a43c8a5.mp3"
        },
        "img": "img/e/1f44b.svg",
@@ -72,6 +74,7 @@
        "title": {
         "t": "Numbers and age",
         "s": "عددها و سن",
+        "pr": "نامبِرز اَند اِیج",
         "a": "audio/en-fa/7445eb9f37a3.mp3"
        },
        "img": "img/e/1f522.svg",
@@ -96,6 +99,7 @@
        "title": {
         "t": "My family",
         "s": "خانوادهٔ من",
+        "pr": "مای فَمِلی",
         "a": "audio/en-fa/c4b6338268a9.mp3"
        },
        "img": "img/e/1f46a.svg",
@@ -121,6 +125,7 @@
        "title": {
         "t": "Food and drink",
         "s": "غذا و نوشیدنی",
+        "pr": "فود اَند دْرینک",
         "a": "audio/en-fa/764f4df0c075.mp3"
        },
        "img": "img/e/1f37d.svg",
@@ -146,6 +151,7 @@
        "title": {
         "t": "My home",
         "s": "خانهٔ من",
+        "pr": "مای هُوم",
         "a": "audio/en-fa/153097878d0b.mp3"
        },
        "img": "img/e/1f3e0.svg",
@@ -170,6 +176,7 @@
        "title": {
         "t": "My day",
         "s": "روز من",
+        "pr": "مای دِی",
         "a": "audio/en-fa/b50062e43f1e.mp3"
        },
        "img": "img/e/1f556.svg",
@@ -194,6 +201,7 @@
        "title": {
         "t": "In the city",
         "s": "در شهر",
+        "pr": "این ذِ سیتی",
         "a": "audio/en-fa/cf5fc1b0c9c9.mp3"
        },
        "img": "img/e/1f3d9.svg",
@@ -218,6 +226,7 @@
        "title": {
         "t": "Shopping and colors",
         "s": "خرید و رنگ‌ها",
+        "pr": "شاپینگ اَند کالِرز",
         "a": "audio/en-fa/93c9e99bbdb8.mp3"
        },
        "img": "img/e/1f6cd.svg",
@@ -242,6 +251,7 @@
        "title": {
         "t": "Weather and seasons",
         "s": "هوا و فصل‌ها",
+        "pr": "وِذِر اَند سیزِنز",
         "a": "audio/en-fa/b1d7e1431aa3.mp3"
        },
        "img": "img/e/1f326.svg",
@@ -266,6 +276,7 @@
        "title": {
         "t": "Free time",
         "s": "وقت آزاد",
+        "pr": "فْری تایم",
         "a": "audio/en-fa/0be9d3d6c34e.mp3"
        },
        "img": "img/e/26bd.svg",
@@ -296,6 +307,7 @@
        "title": {
         "t": "My weekend",
         "s": "آخر هفتهٔ من",
+        "pr": "مای ویکِند",
         "a": "audio/en-fa/e12f15343e4a.mp3"
        },
        "img": "img/e/1f9fa.svg",
@@ -319,9 +331,10 @@
       {
        "id": "u02",
        "title": {
-        "t": "Holidays and travel",
+        "t": "Vacations and travel",
         "s": "تعطیلات و سفر",
-        "a": "audio/en-fa/43a41b00d7c3.mp3"
+        "pr": "وِیکِیشِنز اَند تْرَوِل",
+        "a": "audio/en-fa/ee3a1ac7b676.mp3"
        },
        "img": "img/e/2708.svg",
        "emoji": "✈️",
@@ -346,6 +359,7 @@
        "title": {
         "t": "Health and the body",
         "s": "سلامتی و بدن",
+        "pr": "هِلث اَند ذِ بادی",
         "a": "audio/en-fa/632ce7bd768d.mp3"
        },
        "img": "img/e/1fa7a.svg",
@@ -371,6 +385,7 @@
        "title": {
         "t": "Jobs and work",
         "s": "شغل و کار",
+        "pr": "جابز اَند وِرک",
         "a": "audio/en-fa/dd73c11af847.mp3"
        },
        "img": "img/e/1f4bc.svg",
@@ -395,6 +410,7 @@
        "title": {
         "t": "Comparing things",
         "s": "مقایسه کردن",
+        "pr": "کِمپِرینگ ثینگز",
         "a": "audio/en-fa/3119691252dc.mp3"
        },
        "img": "img/e/2696.svg",
@@ -419,6 +435,7 @@
        "title": {
         "t": "Food and cooking",
         "s": "غذا و آشپزی",
+        "pr": "فود اَند کوکینگ",
         "a": "audio/en-fa/51c5782cdf1c.mp3"
        },
        "img": "img/e/1f958.svg",
@@ -444,6 +461,7 @@
        "title": {
         "t": "Shopping and money",
         "s": "خرید و پول",
+        "pr": "شاپینگ اَند مانی",
         "a": "audio/en-fa/3d8ac1e722fa.mp3"
        },
        "img": "img/e/1f4b0.svg",
@@ -469,6 +487,7 @@
        "title": {
         "t": "Phones and the internet",
         "s": "گوشی و اینترنت",
+        "pr": "فُونز اَند ذی اینتِرنِت",
         "a": "audio/en-fa/be22be5a80d7.mp3"
        },
        "img": "img/e/1f4f1.svg",
@@ -494,6 +513,7 @@
        "title": {
         "t": "My neighborhood",
         "s": "محله‌ی من",
+        "pr": "مای نِیبِرهود",
         "a": "audio/en-fa/d4bec1a268b7.mp3"
        },
        "img": "img/e/1f3d8.svg",
@@ -519,6 +539,7 @@
        "title": {
         "t": "Celebrations and invitations",
         "s": "جشن‌ها و دعوت‌ها",
+        "pr": "سِلِبْرِیشِنز اَند اینویتِیشِنز",
         "a": "audio/en-fa/547be58790a7.mp3"
        },
        "img": "img/e/1f389.svg",
@@ -550,6 +571,7 @@
        "title": {
         "t": "Life experiences",
         "s": "تجربه‌های زندگی",
+        "pr": "لایف ایکْسْپیریِنْسِز",
         "a": "audio/en-fa/3f3466231a31.mp3"
        },
        "img": "img/e/1f9d7.svg",
@@ -575,6 +597,7 @@
        "title": {
         "t": "Stories and memories",
         "s": "داستان‌ها و خاطره‌ها",
+        "pr": "سْتُریز اَند مِمِریز",
         "a": "audio/en-fa/9ff10223a6a9.mp3"
        },
        "img": "img/e/1f4d6.svg",
@@ -599,6 +622,7 @@
        "title": {
         "t": "Work and careers",
         "s": "کار و مسیر شغلی",
+        "pr": "وِرک اَند کِریرز",
         "a": "audio/en-fa/0e57f968d2b7.mp3"
        },
        "img": "img/e/1f4bc.svg",
@@ -624,6 +648,7 @@
        "title": {
         "t": "Healthy living",
         "s": "زندگی سالم",
+        "pr": "هِلْثی لیوینگ",
         "a": "audio/en-fa/d22ec6fd0304.mp3"
        },
        "img": "img/e/1f957.svg",
@@ -648,6 +673,7 @@
        "title": {
         "t": "The environment",
         "s": "محیط زیست",
+        "pr": "ذی اِنوایرِنمِنت",
         "a": "audio/en-fa/e72460ca529e.mp3"
        },
        "img": "img/e/1f30d.svg",
@@ -673,6 +699,7 @@
        "title": {
         "t": "News and media",
         "s": "اخبار و رسانه‌ها",
+        "pr": "نوز اَند میدیا",
         "a": "audio/en-fa/84d13ebdee37.mp3"
        },
        "img": "img/e/1f4f0.svg",
@@ -698,6 +725,7 @@
        "title": {
         "t": "Travel problems",
         "s": "مشکلات سفر",
+        "pr": "تْرَوِل پْرابْلِمْز",
         "a": "audio/en-fa/b88f428da234.mp3"
        },
        "img": "img/e/1f9f3.svg",
@@ -723,6 +751,7 @@
        "title": {
         "t": "People and relationships",
         "s": "آدم‌ها و رابطه‌ها",
+        "pr": "پیپِل اَند ریلِیشِنْشیپْس",
         "a": "audio/en-fa/4ef03baa4dbf.mp3"
        },
        "img": "img/e/1f91d.svg",
@@ -748,6 +777,7 @@
        "title": {
         "t": "Learning and education",
         "s": "یادگیری و آموزش",
+        "pr": "لِرنینگ اَند اِجِکِیشِن",
         "a": "audio/en-fa/9c2adae34934.mp3"
        },
        "img": "img/e/1f393.svg",
@@ -773,6 +803,7 @@
        "title": {
         "t": "The future and technology",
         "s": "آینده و فناوری",
+        "pr": "ذِ فیوچِر اَند تِکْنالِجی",
         "a": "audio/en-fa/a28e848dace9.mp3"
        },
        "img": "img/e/1f916.svg",
@@ -2342,7 +2373,7 @@
         "Talk about money, consumption and sustainable shopping",
         "Use Futur I and II for the future and for assumptions",
         "Say how sure you are with muss, müsste, dürfte, könnte and kann nicht",
-        "Weigh up arguments and reach a compromise"
+        "Weigh arguments and reach a compromise"
        ],
        "has": {
         "letters": false,

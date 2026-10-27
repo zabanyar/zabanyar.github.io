@@ -102,11 +102,11 @@
       "id": "w09",
       "t": "die Umleitung",
       "pl": "die Umleitungen",
-      "s": "detour, diversion",
+      "s": "detour",
       "emoji": "",
       "ex": {
         "t": "Wegen der Bauarbeiten ist eine Umleitung ausgeschildert.",
-        "s": "Because of the construction work, a detour is signposted."
+        "s": "Because of the construction work, a detour is marked."
       }
     },
     {
@@ -182,7 +182,7 @@
     {
       "id": "p02",
       "t": "Laut Fahrplan hätte der Zug um … ankommen sollen.",
-      "s": "According to the timetable, the train should have arrived at …"
+      "s": "According to the schedule, the train should have arrived at …"
     },
     {
       "id": "p03",
@@ -259,7 +259,7 @@
       {
         "sp": "A",
         "t": "Der Regionalexpress nach Bremen fährt in zwanzig Minuten von Gleis 7. In Bremen steigen Sie dann in die S-Bahn nach Bremerhaven um.",
-        "s": "The regional express to Bremen leaves in twenty minutes from platform 7. In Bremen you then change to the S-Bahn to Bremerhaven."
+        "s": "The regional express to Bremen leaves in twenty minutes from track 7. In Bremen you then change to the S-Bahn to Bremerhaven."
       },
       {
         "sp": "B",
@@ -289,7 +289,7 @@
       {
         "sp": "A",
         "t": "Gern geschehen. Gute Weiterfahrt!",
-        "s": "You're welcome. Have a good onward journey!"
+        "s": "You're welcome. Enjoy the rest of your trip!"
       }
     ]
   },
@@ -411,7 +411,10 @@
         {
           "type": "order",
           "t": "Der verspätete Zug ist endlich angekommen.",
-          "s": "The delayed train has finally arrived."
+          "s": "The delayed train has finally arrived.",
+          "alts": [
+            "Endlich ist der verspätete Zug angekommen."
+          ]
         },
         {
           "type": "order",
@@ -463,8 +466,8 @@
           "s": "As soon as I've arrived, I'll get in touch with you."
         },
         {
-          "t": "Seitdem Reza mit dem Fahrrad zur Arbeit fährt, fühlt er sich fitter.",
-          "s": "Since Reza started cycling to work, he has been feeling fitter."
+          "t": "Seitdem Jonas mit dem Fahrrad zur Arbeit fährt, fühlt er sich fitter.",
+          "s": "Since Jonas started cycling to work, he has been feeling fitter."
         },
         {
           "t": "Bitte bleiben Sie sitzen, bis der Bus hält.",
@@ -545,7 +548,10 @@
         {
           "type": "order",
           "t": "Sobald der Zug hält, steigen wir aus.",
-          "s": "As soon as the train stops, we'll get off."
+          "s": "As soon as the train stops, we'll get off.",
+          "alts": [
+            "Wir steigen aus, sobald der Zug hält."
+          ]
         }
       ]
     }
@@ -558,7 +564,7 @@
     "text": [
       {
         "t": "Millionen Menschen in Deutschland pendeln jeden Tag zur Arbeit – und ihre Wege werden immer länger.",
-        "s": "Millions of people in Germany commute to work every day – and their journeys are getting longer and longer."
+        "s": "Millions of people in Germany commute to work every day – and their commutes are getting longer and longer."
       },
       {
         "t": "Einer von ihnen ist Reza, der in einem kleinen Ort bei Darmstadt wohnt und in Frankfurt arbeitet.",
@@ -633,7 +639,7 @@
       {
         "q": {
           "t": "Was macht Reza während der Fahrt?",
-          "s": "What does Reza do during the journey?"
+          "s": "What does Reza do during the ride?"
         },
         "options": [
           "Er schläft meistens.",

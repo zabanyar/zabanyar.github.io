@@ -2,7 +2,10 @@
   "id": "u02",
   "level": "B2",
   "emoji": "🏘️",
-  "title": { "t": "Wohnen und Nachbarschaft", "s": "Housing and neighborhood" },
+  "title": {
+    "t": "Wohnen und Nachbarschaft",
+    "s": "Housing and neighborhood"
+  },
   "goals": [
     "Talk about renting, neighbors and life in the city vs. the country",
     "Ask about house rules and make a polite complaint",
@@ -10,157 +13,686 @@
     "Use the genitive relative pronouns dessen and deren"
   ],
   "words": [
-    { "id": "w01", "t": "die Miete", "pl": "die Mieten", "s": "rent", "emoji": "",
-      "ex": { "t": "Die Miete ist in den letzten Jahren stark gestiegen.", "s": "The rent has risen sharply in recent years." } },
-    { "id": "w02", "t": "die Nebenkosten", "s": "utility costs, service charges (plural only)", "emoji": "",
-      "ex": { "t": "Sind die Nebenkosten in der Miete enthalten?", "s": "Are the utility costs included in the rent?" } },
-    { "id": "w03", "t": "der Vermieter", "pl": "die Vermieter", "s": "landlord", "emoji": "",
-      "ex": { "t": "Unser Vermieter wohnt im selben Haus.", "s": "Our landlord lives in the same building." } },
-    { "id": "w04", "t": "der Mieter", "pl": "die Mieter", "s": "tenant", "emoji": "",
-      "ex": { "t": "Die Mieter haben sich gemeinsam über die Heizung beschwert.", "s": "The tenants complained together about the heating." } },
-    { "id": "w05", "t": "der Mietvertrag", "pl": "die Mietverträge", "s": "lease, rental agreement", "emoji": "",
-      "ex": { "t": "Lesen Sie den Mietvertrag genau, bevor Sie ihn unterschreiben.", "s": "Read the lease carefully before you sign it." } },
-    { "id": "w06", "t": "die Kaution", "pl": "die Kautionen", "s": "security deposit", "emoji": "",
-      "ex": { "t": "Die Kaution beträgt drei Monatsmieten.", "s": "The deposit is three months' rent." } },
-    { "id": "w07", "t": "die Wohngemeinschaft (WG)", "pl": "die Wohngemeinschaften", "s": "shared apartment, flat share", "emoji": "",
-      "ex": { "t": "Während des Studiums hat Jonas in einer WG gewohnt.", "s": "Jonas lived in a shared apartment while he was at university." } },
-    { "id": "w08", "t": "der Nachbar", "pl": "die Nachbarn", "s": "neighbor (n-declension: den / dem / des Nachbarn)", "emoji": "",
-      "ex": { "t": "Unsere Nachbarn gießen die Blumen, wenn wir im Urlaub sind.", "s": "Our neighbors water the plants when we're on vacation." } },
-    { "id": "w09", "t": "die Hausordnung", "pl": "die Hausordnungen", "s": "house rules", "emoji": "",
-      "ex": { "t": "In der Hausordnung steht, wann die Treppe geputzt werden muss.", "s": "The house rules say when the stairs have to be cleaned." } },
-    { "id": "w10", "t": "sich beschweren (über + A / bei + D)", "s": "to complain (about sth / to sb)", "emoji": "",
-      "ex": { "t": "Herr Wagner hat sich beim Vermieter über den Lärm beschwert.", "s": "Mr. Wagner complained to the landlord about the noise." } },
-    { "id": "w11", "t": "umziehen", "s": "to move (house); ist umgezogen", "emoji": "📦",
-      "ex": { "t": "Wir sind letztes Jahr nach Köln umgezogen.", "s": "We moved to Cologne last year." } },
-    { "id": "w12", "t": "die Lage", "s": "location", "emoji": "",
-      "ex": { "t": "Die Wohnung ist klein, aber die Lage ist ideal.", "s": "The apartment is small, but the location is ideal." } },
-    { "id": "w13", "t": "die Gegend", "pl": "die Gegenden", "s": "area, part of town", "emoji": "",
-      "ex": { "t": "Ist das eine ruhige Gegend?", "s": "Is this a quiet area?" } },
-    { "id": "w14", "t": "ländlich", "s": "rural", "emoji": "",
-      "ex": { "t": "Viele Familien ziehen in ländliche Regionen, weil die Mieten dort niedriger sind.", "s": "Many families move to rural regions because rents are lower there." } },
-    { "id": "w15", "t": "der Lärm", "s": "noise", "emoji": "",
-      "ex": { "t": "Wegen des Lärms kann ich nachts nicht schlafen.", "s": "Because of the noise, I can't sleep at night." } },
-    { "id": "w16", "t": "renovieren", "s": "to renovate, redecorate", "emoji": "",
-      "ex": { "t": "Vor dem Auszug mussten wir die Wohnung renovieren.", "s": "Before moving out, we had to redecorate the apartment." } }
+    {
+      "id": "w01",
+      "t": "die Miete",
+      "pl": "die Mieten",
+      "s": "rent",
+      "emoji": "",
+      "ex": {
+        "t": "Die Miete ist in den letzten Jahren stark gestiegen.",
+        "s": "The rent has risen sharply in recent years."
+      }
+    },
+    {
+      "id": "w02",
+      "t": "die Nebenkosten",
+      "s": "utility costs, service charges (plural only)",
+      "emoji": "",
+      "ex": {
+        "t": "Sind die Nebenkosten in der Miete enthalten?",
+        "s": "Are the utility costs included in the rent?"
+      }
+    },
+    {
+      "id": "w03",
+      "t": "der Vermieter",
+      "pl": "die Vermieter",
+      "s": "landlord",
+      "emoji": "",
+      "ex": {
+        "t": "Unser Vermieter wohnt im selben Haus.",
+        "s": "Our landlord lives in the same building."
+      }
+    },
+    {
+      "id": "w04",
+      "t": "der Mieter",
+      "pl": "die Mieter",
+      "s": "tenant",
+      "emoji": "",
+      "ex": {
+        "t": "Die Mieter haben sich gemeinsam über die Heizung beschwert.",
+        "s": "The tenants complained together about the heating."
+      }
+    },
+    {
+      "id": "w05",
+      "t": "der Mietvertrag",
+      "pl": "die Mietverträge",
+      "s": "lease, rental agreement",
+      "emoji": "",
+      "ex": {
+        "t": "Lesen Sie den Mietvertrag genau, bevor Sie ihn unterschreiben.",
+        "s": "Read the lease carefully before you sign it."
+      }
+    },
+    {
+      "id": "w06",
+      "t": "die Kaution",
+      "pl": "die Kautionen",
+      "s": "security deposit",
+      "emoji": "",
+      "ex": {
+        "t": "Die Kaution beträgt drei Monatsmieten.",
+        "s": "The deposit is three months' rent."
+      }
+    },
+    {
+      "id": "w07",
+      "t": "die Wohngemeinschaft (WG)",
+      "pl": "die Wohngemeinschaften",
+      "s": "shared apartment (with roommates)",
+      "emoji": "",
+      "ex": {
+        "t": "Während des Studiums hat Jonas in einer WG gewohnt.",
+        "s": "Jonas lived in a shared apartment while he was in college."
+      }
+    },
+    {
+      "id": "w08",
+      "t": "der Nachbar",
+      "pl": "die Nachbarn",
+      "s": "neighbor (n-declension: den / dem / des Nachbarn)",
+      "emoji": "",
+      "ex": {
+        "t": "Unsere Nachbarn gießen die Blumen, wenn wir im Urlaub sind.",
+        "s": "Our neighbors water the plants when we're on vacation."
+      }
+    },
+    {
+      "id": "w09",
+      "t": "die Hausordnung",
+      "pl": "die Hausordnungen",
+      "s": "house rules",
+      "emoji": "",
+      "ex": {
+        "t": "In der Hausordnung steht, wann die Treppe geputzt werden muss.",
+        "s": "The house rules say when the stairs have to be cleaned."
+      }
+    },
+    {
+      "id": "w10",
+      "t": "sich beschweren (über + A / bei + D)",
+      "s": "to complain (about sth / to sb)",
+      "emoji": "",
+      "ex": {
+        "t": "Herr Wagner hat sich beim Vermieter über den Lärm beschwert.",
+        "s": "Mr. Wagner complained to the landlord about the noise."
+      }
+    },
+    {
+      "id": "w11",
+      "t": "umziehen",
+      "s": "to move (house); ist umgezogen",
+      "emoji": "📦",
+      "ex": {
+        "t": "Wir sind letztes Jahr nach Köln umgezogen.",
+        "s": "We moved to Cologne last year."
+      }
+    },
+    {
+      "id": "w12",
+      "t": "die Lage",
+      "s": "location",
+      "emoji": "",
+      "ex": {
+        "t": "Die Wohnung ist klein, aber die Lage ist ideal.",
+        "s": "The apartment is small, but the location is ideal."
+      }
+    },
+    {
+      "id": "w13",
+      "t": "die Gegend",
+      "pl": "die Gegenden",
+      "s": "area, part of town",
+      "emoji": "",
+      "ex": {
+        "t": "Ist das eine ruhige Gegend?",
+        "s": "Is this a quiet area?"
+      }
+    },
+    {
+      "id": "w14",
+      "t": "ländlich",
+      "s": "rural",
+      "emoji": "",
+      "ex": {
+        "t": "Viele Familien ziehen in ländliche Regionen, weil die Mieten dort niedriger sind.",
+        "s": "Many families move to rural regions because rents are lower there."
+      }
+    },
+    {
+      "id": "w15",
+      "t": "der Lärm",
+      "s": "noise",
+      "emoji": "",
+      "ex": {
+        "t": "Wegen des Lärms kann ich nachts nicht schlafen.",
+        "s": "Because of the noise, I can't sleep at night."
+      }
+    },
+    {
+      "id": "w16",
+      "t": "renovieren",
+      "s": "to renovate, redecorate",
+      "emoji": "",
+      "ex": {
+        "t": "Vor dem Auszug mussten wir die Wohnung renovieren.",
+        "s": "Before moving out, we had to redecorate the apartment."
+      }
+    }
   ],
   "phrases": [
-    { "id": "p01", "t": "Ich hätte eine Frage zu …", "s": "I have a question about …" },
-    { "id": "p02", "t": "Es geht um Folgendes: …", "s": "It's about the following: …" },
-    { "id": "p03", "t": "Ich möchte mich über … beschweren.", "s": "I'd like to complain about …" },
-    { "id": "p04", "t": "Könnten Sie bitte dafür sorgen, dass …?", "s": "Could you please make sure that …?" },
-    { "id": "p05", "t": "Wie wäre es, wenn …?", "s": "How about if …?" },
-    { "id": "p06", "t": "Ich schlage vor, dass …", "s": "I suggest that …" },
-    { "id": "p07", "t": "Auf dem Land hat man den Vorteil, dass …", "s": "In the country you have the advantage that …" },
-    { "id": "p08", "t": "Für mich kommt das nicht infrage.", "s": "For me that's out of the question." }
+    {
+      "id": "p01",
+      "t": "Ich hätte eine Frage zu …",
+      "s": "I have a question about …"
+    },
+    {
+      "id": "p02",
+      "t": "Es geht um Folgendes: …",
+      "s": "It's about the following: …"
+    },
+    {
+      "id": "p03",
+      "t": "Ich möchte mich über … beschweren.",
+      "s": "I'd like to complain about …"
+    },
+    {
+      "id": "p04",
+      "t": "Könnten Sie bitte dafür sorgen, dass …?",
+      "s": "Could you please make sure that …?"
+    },
+    {
+      "id": "p05",
+      "t": "Wie wäre es, wenn …?",
+      "s": "How about if …?"
+    },
+    {
+      "id": "p06",
+      "t": "Ich schlage vor, dass …",
+      "s": "I suggest that …"
+    },
+    {
+      "id": "p07",
+      "t": "Auf dem Land hat man den Vorteil, dass …",
+      "s": "In the country you have the advantage that …"
+    },
+    {
+      "id": "p08",
+      "t": "Für mich kommt das nicht infrage.",
+      "s": "For me that's out of the question."
+    }
   ],
   "dialogue": {
-    "title": { "t": "Die neue Nachbarin", "s": "The new neighbor" },
-    "speakers": { "A": { "name": "Maryam", "voice": "f" }, "B": { "name": "Herr Wagner", "voice": "m" } },
+    "title": {
+      "t": "Die neue Nachbarin",
+      "s": "The new neighbor"
+    },
+    "speakers": {
+      "A": {
+        "name": "Maryam",
+        "voice": "f"
+      },
+      "B": {
+        "name": "Herr Wagner",
+        "voice": "m"
+      }
+    },
     "lines": [
-      { "sp": "B", "t": "Guten Tag! Sie sind sicher die neue Nachbarin, die letzte Woche eingezogen ist?", "s": "Hello! You must be the new neighbor who moved in last week?" },
-      { "sp": "A", "t": "Ja, genau. Ich heiße Maryam Ahmadi. Wir wohnen im zweiten Stock.", "s": "Yes, exactly. My name is Maryam Ahmadi. We live on the third floor." },
-      { "sp": "B", "t": "Wagner, freut mich. Wenn Sie Fragen haben, können Sie sich gern an mich wenden. Ich wohne hier schon seit zwanzig Jahren.", "s": "Wagner, nice to meet you. If you have any questions, feel free to ask me. I've lived here for twenty years." },
-      { "sp": "A", "t": "Das ist nett. Wo stellen wir denn unsere Fahrräder ab?", "s": "That's kind of you. So where do we park our bikes?" },
-      { "sp": "B", "t": "Im Keller gibt es einen Raum, in dem alle Fahrräder stehen. Im Hausflur dürfen sie laut Hausordnung nicht stehen.", "s": "There's a room in the basement where all the bikes are kept. According to the house rules, they're not allowed in the hallway." },
-      { "sp": "A", "t": "Alles klar. Und wo sind die Mülltonnen?", "s": "Got it. And where are the garbage cans?" },
-      { "sp": "B", "t": "Die stehen im Hof, hinter der Garage, deren Tor immer offen ist.", "s": "They're in the courtyard, behind the garage whose door is always open." },
-      { "sp": "A", "t": "Danke! Ach, noch etwas: Gibt es jemanden, an den ich mich bei Problemen mit der Heizung wenden kann?", "s": "Thanks! Oh, one more thing: is there someone I can contact if there are problems with the heating?" },
-      { "sp": "B", "t": "Ja, an unseren Hausmeister, Herrn Schulz, dessen Telefonnummer unten im Treppenhaus hängt.", "s": "Yes, our caretaker, Mr. Schulz, whose phone number is posted downstairs in the stairwell." },
-      { "sp": "A", "t": "Super, das ist genau das, was ich wissen wollte. Vielen Dank!", "s": "Great, that's exactly what I wanted to know. Thank you very much!" },
-      { "sp": "B", "t": "Gern geschehen. Und herzlich willkommen im Haus!", "s": "You're welcome. And welcome to the building!" }
+      {
+        "sp": "B",
+        "t": "Guten Tag! Sie sind sicher die neue Nachbarin, die letzte Woche eingezogen ist?",
+        "s": "Hello! You must be the new neighbor who moved in last week?"
+      },
+      {
+        "sp": "A",
+        "t": "Ja, genau. Ich heiße Maryam Ahmadi. Wir wohnen im zweiten Stock.",
+        "s": "Yes, exactly. My name is Maryam Ahmadi. We live on the third floor."
+      },
+      {
+        "sp": "B",
+        "t": "Wagner, freut mich. Wenn Sie Fragen haben, können Sie sich gern an mich wenden. Ich wohne hier schon seit zwanzig Jahren.",
+        "s": "Wagner, nice to meet you. If you have any questions, feel free to ask me. I've lived here for twenty years."
+      },
+      {
+        "sp": "A",
+        "t": "Das ist nett. Wo stellen wir denn unsere Fahrräder ab?",
+        "s": "That's kind of you. So where do we park our bikes?"
+      },
+      {
+        "sp": "B",
+        "t": "Im Keller gibt es einen Raum, in dem alle Fahrräder stehen. Im Hausflur dürfen sie laut Hausordnung nicht stehen.",
+        "s": "There's a room in the basement where all the bikes are kept. According to the house rules, they're not allowed in the hallway."
+      },
+      {
+        "sp": "A",
+        "t": "Alles klar. Und wo sind die Mülltonnen?",
+        "s": "Got it. And where are the garbage cans?"
+      },
+      {
+        "sp": "B",
+        "t": "Die stehen im Hof, hinter der Garage, deren Tor immer offen ist.",
+        "s": "They're in the courtyard, behind the garage whose door is always open."
+      },
+      {
+        "sp": "A",
+        "t": "Danke! Ach, noch etwas: Gibt es jemanden, an den ich mich bei Problemen mit der Heizung wenden kann?",
+        "s": "Thanks! Oh, one more thing: is there someone I can contact if there are problems with the heating?"
+      },
+      {
+        "sp": "B",
+        "t": "Ja, an unseren Hausmeister, Herrn Schulz, dessen Telefonnummer unten im Treppenhaus hängt.",
+        "s": "Yes, our building superintendent, Mr. Schulz, whose phone number is posted downstairs in the stairwell."
+      },
+      {
+        "sp": "A",
+        "t": "Super, das ist genau das, was ich wissen wollte. Vielen Dank!",
+        "s": "Great, that's exactly what I wanted to know. Thank you very much!"
+      },
+      {
+        "sp": "B",
+        "t": "Gern geschehen. Und herzlich willkommen im Haus!",
+        "s": "You're welcome. And welcome to the building!"
+      }
     ]
   },
   "grammar": [
     {
       "id": "g01",
-      "title": { "t": "die Wohnung, in der wir wohnen", "s": "Relative clauses with prepositions and wo(r)-" },
+      "title": {
+        "t": "die Wohnung, in der wir wohnen",
+        "s": "Relative clauses with prepositions and wo(r)-"
+      },
       "explain": "If the verb or expression in a relative clause needs a preposition (**wohnen in**, **sprechen mit**, **warten auf**), the preposition comes **first**, right after the comma, followed by the relative pronoun: **die Wohnung, in der wir wohnen**.\nThe **gender and number** of the pronoun come from the noun it refers to; the **case** comes from the preposition: **der Nachbar, mit dem** (mit + D) … / **der Brief, auf den** (warten auf + A) … Remember the dative plural **denen**: **die Nachbarn, von denen ich erzählt habe**.\nUse **wo(r) + preposition** when the relative clause refers to a **whole clause** or to **das, etwas, nichts, alles, vieles**: **Das ist etwas, woran ich mich gewöhnen muss.** / **Die Miete sinkt, worüber sich alle freuen.** Add an **r** before a vowel: **worauf, woran, worüber** – but **womit, wofür, wovon**.\nFor places you can also use **wo**: **die Stadt, in der / wo ich wohne**. After names of cities and countries, use only **wo**: **Köln, wo ich studiert habe**.\nCareful: for **people** never use wo(r)-: **der Mann, an den ich denke** (not *woran*).",
       "table": [
-        ["mit + D", "der Nachbar, mit dem ich mich gut verstehe"],
-        ["in + D", "die Wohnung, in der wir wohnen"],
-        ["auf + A", "der Brief, auf den ich warte"],
-        ["von + D (Plural)", "die Nachbarn, von denen ich erzählt habe"],
-        ["wo(r)- + Präposition", "alles, worüber wir gesprochen haben"]
+        [
+          "mit + D",
+          "der Nachbar, mit dem ich mich gut verstehe"
+        ],
+        [
+          "in + D",
+          "die Wohnung, in der wir wohnen"
+        ],
+        [
+          "auf + A",
+          "der Brief, auf den ich warte"
+        ],
+        [
+          "von + D (Plural)",
+          "die Nachbarn, von denen ich erzählt habe"
+        ],
+        [
+          "wo(r)- + Präposition",
+          "alles, worüber wir gesprochen haben"
+        ]
       ],
       "examples": [
-        { "t": "Das ist die Gegend, in der ich aufgewachsen bin.", "s": "This is the area where I grew up." },
-        { "t": "Die Nachbarin, mit der ich mich gut verstehe, gießt meine Blumen.", "s": "The neighbor I get along well with waters my plants." },
-        { "t": "Der Vermieter, über den sich alle beschweren, antwortet nie auf E-Mails.", "s": "The landlord everyone complains about never answers emails." },
-        { "t": "Es gibt vieles, woran ich mich in Deutschland erst gewöhnen musste.", "s": "There are many things I first had to get used to in Germany." },
-        { "t": "Die Miete ist schon wieder gestiegen, worüber sich alle Mieter ärgern.", "s": "The rent has gone up again, which all the tenants are annoyed about." }
+        {
+          "t": "Das ist die Gegend, in der ich aufgewachsen bin.",
+          "s": "This is the area where I grew up."
+        },
+        {
+          "t": "Die Nachbarin, mit der ich mich gut verstehe, gießt meine Blumen.",
+          "s": "The neighbor I get along well with waters my plants."
+        },
+        {
+          "t": "Der Vermieter, über den sich alle beschweren, antwortet nie auf E-Mails.",
+          "s": "The landlord everyone complains about never answers emails."
+        },
+        {
+          "t": "Es gibt vieles, woran ich mich in Deutschland erst gewöhnen musste.",
+          "s": "There are many things I first had to get used to in Germany."
+        },
+        {
+          "t": "Die Miete ist schon wieder gestiegen, worüber sich alle Mieter ärgern.",
+          "s": "The rent has gone up again, which all the tenants are annoyed about."
+        }
       ],
       "exercises": [
-        { "type": "choice", "t": "Das ist die Wohnung, ___ wir seit drei Jahren wohnen.", "options": ["in die", "in der", "in dem"], "answer": 1, "s": "This is the apartment we've been living in for three years." },
-        { "type": "choice", "t": "Der Nachbar, ___ ich mich gestern unterhalten habe, ist sehr nett.", "options": ["mit dem", "mit den", "mit der"], "answer": 0, "s": "The neighbor I talked to yesterday is very nice." },
-        { "type": "choice", "t": "Das ist etwas, ___ ich mich erst gewöhnen muss.", "options": ["an das", "daran", "woran"], "answer": 2, "s": "That's something I still have to get used to." },
-        { "type": "type", "t": "Die Kollegin, ___ der ich zusammenarbeite, kommt aus Bremen.", "answer": ["mit"], "s": "The colleague I work with is from Bremen." },
-        { "type": "type", "t": "Die Nachbarn, von ___ ich dir erzählt habe, sind gestern ausgezogen.", "answer": ["denen"], "s": "The neighbors I told you about moved out yesterday." },
-        { "type": "type", "t": "Alles, ___ wir gesprochen haben, bleibt unter uns.", "answer": ["worüber", "wovon", "worueber"], "s": "Everything we talked about stays between us." },
-        { "type": "order", "t": "Das ist das Haus, in dem ich wohne.", "s": "This is the house I live in." },
-        { "type": "order", "t": "Der Vermieter, auf den wir warten, kommt nicht.", "s": "The landlord we're waiting for isn't coming." }
+        {
+          "type": "choice",
+          "t": "Das ist die Wohnung, ___ wir seit drei Jahren wohnen.",
+          "options": [
+            "in die",
+            "in der",
+            "in dem"
+          ],
+          "answer": 1,
+          "s": "This is the apartment we've been living in for three years."
+        },
+        {
+          "type": "choice",
+          "t": "Der Nachbar, ___ ich mich gestern unterhalten habe, ist sehr nett.",
+          "options": [
+            "mit dem",
+            "mit den",
+            "mit der"
+          ],
+          "answer": 0,
+          "s": "The neighbor I talked to yesterday is very nice."
+        },
+        {
+          "type": "choice",
+          "t": "Das ist etwas, ___ ich mich erst gewöhnen muss.",
+          "options": [
+            "an das",
+            "daran",
+            "woran"
+          ],
+          "answer": 2,
+          "s": "That's something I still have to get used to."
+        },
+        {
+          "type": "type",
+          "t": "Die Kollegin, ___ der ich zusammenarbeite, kommt aus Bremen.",
+          "answer": [
+            "mit"
+          ],
+          "s": "The colleague I work with is from Bremen."
+        },
+        {
+          "type": "type",
+          "t": "Die Nachbarn, von ___ ich dir erzählt habe, sind gestern ausgezogen.",
+          "answer": [
+            "denen"
+          ],
+          "s": "The neighbors I told you about moved out yesterday."
+        },
+        {
+          "type": "type",
+          "t": "Alles, ___ wir gesprochen haben, bleibt unter uns.",
+          "answer": [
+            "worüber",
+            "wovon",
+            "worueber"
+          ],
+          "s": "Everything we talked about stays between us."
+        },
+        {
+          "type": "order",
+          "t": "Das ist das Haus, in dem ich wohne.",
+          "s": "This is the house I live in."
+        },
+        {
+          "type": "order",
+          "t": "Der Vermieter, auf den wir warten, kommt nicht.",
+          "s": "The landlord we're waiting for isn't coming."
+        }
       ]
     },
     {
       "id": "g02",
-      "title": { "t": "der Nachbar, dessen Auto hier steht", "s": "Genitive relative pronouns: dessen / deren" },
+      "title": {
+        "t": "der Nachbar, dessen Auto hier steht",
+        "s": "Genitive relative pronouns: dessen / deren"
+      },
       "explain": "**dessen** and **deren** are genitive relative pronouns. They mean **whose** and show possession: **der Nachbar, dessen Auto vor dem Haus steht** (the neighbor whose car …).\nThe choice depends only on the **owner** – the noun the clause refers back to: **dessen** for masculine and neuter nouns, **deren** for feminine and plural nouns. The noun that follows doesn't matter: **der Mieter, dessen Wohnung …** / **die Mieterin, deren Hund …**.\nThe noun after dessen/deren has **no article**, and an adjective in front of it takes the strong ending: **die Familie, deren neues Haus …**.\nPrepositions come first: **die Vermieterin, mit deren Sohn ich studiert habe**.\nDon't confuse **deren** (genitive, *whose*) with **denen** (dative plural, *to / with whom*).",
       "table": [
-        ["der Mieter", "dessen Wohnung renoviert wird"],
-        ["das Haus", "dessen Dach kaputt ist"],
-        ["die Vermieterin", "deren Telefonnummer ich habe"],
-        ["die Nachbarn", "deren Kinder laut sind"]
+        [
+          "der Mieter",
+          "dessen Wohnung renoviert wird"
+        ],
+        [
+          "das Haus",
+          "dessen Dach kaputt ist"
+        ],
+        [
+          "die Vermieterin",
+          "deren Telefonnummer ich habe"
+        ],
+        [
+          "die Nachbarn",
+          "deren Kinder laut sind"
+        ]
       ],
       "examples": [
-        { "t": "Herr Wagner, dessen Frau Ärztin ist, wohnt im Erdgeschoss.", "s": "Mr. Wagner, whose wife is a doctor, lives on the ground floor." },
-        { "t": "Die Mieterin, deren Hund ständig bellt, wohnt über uns.", "s": "The tenant whose dog barks constantly lives above us." },
-        { "t": "Wir suchen ein Haus, dessen Garten groß genug für die Kinder ist.", "s": "We're looking for a house whose yard is big enough for the children." },
-        { "t": "Die Nachbarn, deren Auto vor unserer Garage steht, sind im Urlaub.", "s": "The neighbors whose car is parked in front of our garage are on vacation." },
-        { "t": "Ich habe mit der Vermieterin gesprochen, von deren Entscheidung alles abhängt.", "s": "I spoke to the landlady, on whose decision everything depends." }
+        {
+          "t": "Herr Wagner, dessen Frau Ärztin ist, wohnt im Erdgeschoss.",
+          "s": "Mr. Wagner, whose wife is a doctor, lives on the ground floor."
+        },
+        {
+          "t": "Die Mieterin, deren Hund ständig bellt, wohnt über uns.",
+          "s": "The tenant whose dog barks constantly lives above us."
+        },
+        {
+          "t": "Wir suchen ein Haus, dessen Garten groß genug für die Kinder ist.",
+          "s": "We're looking for a house whose yard is big enough for the children."
+        },
+        {
+          "t": "Die Nachbarn, deren Auto vor unserer Garage steht, sind im Urlaub.",
+          "s": "The neighbors whose car is parked in front of our garage are on vacation."
+        },
+        {
+          "t": "Ich habe mit der Vermieterin gesprochen, von deren Entscheidung alles abhängt.",
+          "s": "I spoke to the landlady, on whose decision everything depends."
+        }
       ],
       "exercises": [
-        { "type": "choice", "t": "Der Nachbar, ___ Tochter in Berlin studiert, ist sehr hilfsbereit.", "options": ["dessen", "deren", "denen"], "answer": 0, "s": "The neighbor whose daughter studies in Berlin is very helpful." },
-        { "type": "choice", "t": "Die Vermieterin, ___ Haus wir mieten, wohnt in München.", "options": ["dessen", "der", "deren"], "answer": 2, "s": "The landlady whose house we rent lives in Munich." },
-        { "type": "choice", "t": "Die Mieter, ___ Wohnungen renoviert werden, ziehen vorübergehend ins Hotel.", "options": ["dessen", "deren", "denen"], "answer": 1, "s": "The tenants whose apartments are being renovated are temporarily moving into a hotel." },
-        { "type": "type", "t": "Das ist das Haus, ___ Dach im Sturm beschädigt wurde.", "answer": ["dessen"], "s": "That's the house whose roof was damaged in the storm." },
-        { "type": "type", "t": "Frau Becker, mit ___ Sohn ich zur Schule gegangen bin, wohnt neben uns.", "answer": ["deren"], "s": "Ms. Becker, whose son I went to school with, lives next door to us." },
-        { "type": "choice", "t": "Wir suchen eine Wohnung, deren ___ nicht zu hoch ist.", "options": ["die Miete", "Miete", "der Miete"], "answer": 1, "s": "We're looking for an apartment whose rent isn't too high." },
-        { "type": "order", "t": "Das ist der Mann, dessen Auto hier steht.", "s": "That's the man whose car is parked here." },
-        { "type": "order", "t": "Die Familie, deren Kinder laut sind, zieht aus.", "s": "The family whose children are noisy is moving out." }
+        {
+          "type": "choice",
+          "t": "Der Nachbar, ___ Tochter in Berlin studiert, ist sehr hilfsbereit.",
+          "options": [
+            "dessen",
+            "deren",
+            "denen"
+          ],
+          "answer": 0,
+          "s": "The neighbor whose daughter studies in Berlin is very helpful."
+        },
+        {
+          "type": "choice",
+          "t": "Die Vermieterin, ___ Haus wir mieten, wohnt in München.",
+          "options": [
+            "dessen",
+            "der",
+            "deren"
+          ],
+          "answer": 2,
+          "s": "The landlady whose house we rent lives in Munich."
+        },
+        {
+          "type": "choice",
+          "t": "Die Mieter, ___ Wohnungen renoviert werden, ziehen vorübergehend ins Hotel.",
+          "options": [
+            "dessen",
+            "deren",
+            "denen"
+          ],
+          "answer": 1,
+          "s": "The tenants whose apartments are being renovated are temporarily moving into a hotel."
+        },
+        {
+          "type": "type",
+          "t": "Das ist das Haus, ___ Dach im Sturm beschädigt wurde.",
+          "answer": [
+            "dessen"
+          ],
+          "s": "That's the house whose roof was damaged in the storm."
+        },
+        {
+          "type": "type",
+          "t": "Frau Becker, mit ___ Sohn ich zur Schule gegangen bin, wohnt neben uns.",
+          "answer": [
+            "deren"
+          ],
+          "s": "Ms. Becker, whose son I went to school with, lives next door to us."
+        },
+        {
+          "type": "choice",
+          "t": "Wir suchen eine Wohnung, deren ___ nicht zu hoch ist.",
+          "options": [
+            "die Miete",
+            "Miete",
+            "der Miete"
+          ],
+          "answer": 1,
+          "s": "We're looking for an apartment whose rent isn't too high."
+        },
+        {
+          "type": "order",
+          "t": "Das ist der Mann, dessen Auto hier steht.",
+          "s": "That's the man whose car is parked here."
+        },
+        {
+          "type": "order",
+          "t": "Die Familie, deren Kinder laut sind, zieht aus.",
+          "s": "The family whose children are noisy is moving out."
+        }
       ]
     }
   ],
   "reading": {
-    "title": { "t": "Raus aufs Land?", "s": "Off to the countryside?" },
+    "title": {
+      "t": "Raus aufs Land?",
+      "s": "Off to the countryside?"
+    },
     "text": [
-      { "t": "In deutschen Großstädten wie München, Hamburg oder Frankfurt ist die Wohnungssuche für viele Menschen zu einem echten Problem geworden.", "s": "In large German cities such as Munich, Hamburg or Frankfurt, looking for an apartment has become a real problem for many people." },
-      { "t": "Die Mieten sind in den letzten zehn Jahren so stark gestiegen, dass sich viele Familien eine größere Wohnung kaum noch leisten können.", "s": "Rents have risen so much in the last ten years that many families can hardly afford a bigger apartment anymore." },
-      { "t": "Deshalb ziehen immer mehr Menschen aufs Land oder in kleinere Städte, in denen das Wohnen deutlich günstiger ist.", "s": "That's why more and more people are moving to the country or to smaller towns, where housing is much cheaper." },
-      { "t": "Eine von ihnen ist Lena Hoffmann, deren Familie vor zwei Jahren von Frankfurt in ein Dorf im Taunus gezogen ist.", "s": "One of them is Lena Hoffmann, whose family moved from Frankfurt to a village in the Taunus hills two years ago." },
-      { "t": "„Für das Geld, das wir früher für eine Dreizimmerwohnung bezahlt haben, wohnen wir jetzt in einem Haus mit Garten“, erzählt sie.", "s": "'For the money we used to pay for a three-room apartment, we now live in a house with a yard,' she says." },
-      { "t": "Auch die Nachbarschaft ist enger: Man kennt sich, hilft sich gegenseitig und feiert zusammen Feste.", "s": "The neighborhood is also closer: people know each other, help each other and celebrate together." },
-      { "t": "Doch das Leben auf dem Land hat auch Nachteile, über die man vor einem Umzug nachdenken sollte.", "s": "But life in the country also has disadvantages that you should think about before moving." },
-      { "t": "Busse fahren oft nur einmal pro Stunde, und ohne Auto kommt man kaum zum Supermarkt oder zum Arzt.", "s": "Buses often run only once an hour, and without a car it's hard to get to the supermarket or the doctor." },
-      { "t": "Lenas Mann pendelt jeden Tag eine Stunde zur Arbeit, was auf Dauer ziemlich anstrengend ist.", "s": "Lena's husband commutes an hour to work every day, which is quite tiring in the long run." },
-      { "t": "Außerdem fehlen kulturelle Angebote wie Kinos oder Theater, die es in der Stadt an jeder Ecke gibt.", "s": "In addition, there's a lack of cultural offerings such as cinemas or theaters, which you find on every corner in the city." },
-      { "t": "Trotzdem bereut Lena die Entscheidung nicht: „Für uns überwiegen die Vorteile ganz klar.“", "s": "Nevertheless, Lena doesn't regret the decision: 'For us, the advantages clearly outweigh the disadvantages.'" },
-      { "t": "Experten gehen davon aus, dass der Trend anhalten wird – auch weil viele Menschen inzwischen teilweise von zu Hause aus arbeiten.", "s": "Experts expect the trend to continue – partly because many people now work from home some of the time." }
+      {
+        "t": "In deutschen Großstädten wie München, Hamburg oder Frankfurt ist die Wohnungssuche für viele Menschen zu einem echten Problem geworden.",
+        "s": "In large German cities such as Munich, Hamburg or Frankfurt, looking for an apartment has become a real problem for many people."
+      },
+      {
+        "t": "Die Mieten sind in den letzten zehn Jahren so stark gestiegen, dass sich viele Familien eine größere Wohnung kaum noch leisten können.",
+        "s": "Rents have risen so much in the last ten years that many families can hardly afford a bigger apartment anymore."
+      },
+      {
+        "t": "Deshalb ziehen immer mehr Menschen aufs Land oder in kleinere Städte, in denen das Wohnen deutlich günstiger ist.",
+        "s": "That's why more and more people are moving to the country or to smaller towns, where housing is much cheaper."
+      },
+      {
+        "t": "Eine von ihnen ist Lena Hoffmann, deren Familie vor zwei Jahren von Frankfurt in ein Dorf im Taunus gezogen ist.",
+        "s": "One of them is Lena Hoffmann, whose family moved from Frankfurt to a village in the Taunus hills two years ago."
+      },
+      {
+        "t": "„Für das Geld, das wir früher für eine Dreizimmerwohnung bezahlt haben, wohnen wir jetzt in einem Haus mit Garten“, erzählt sie.",
+        "s": "'For the money we used to pay for a three-room apartment, we now live in a house with a yard,' she says."
+      },
+      {
+        "t": "Auch die Nachbarschaft ist enger: Man kennt sich, hilft sich gegenseitig und feiert zusammen Feste.",
+        "s": "The neighborhood is also closer: people know each other, help each other and celebrate together."
+      },
+      {
+        "t": "Doch das Leben auf dem Land hat auch Nachteile, über die man vor einem Umzug nachdenken sollte.",
+        "s": "But life in the country also has disadvantages that you should think about before moving."
+      },
+      {
+        "t": "Busse fahren oft nur einmal pro Stunde, und ohne Auto kommt man kaum zum Supermarkt oder zum Arzt.",
+        "s": "Buses often run only once an hour, and without a car it's hard to get to the supermarket or the doctor."
+      },
+      {
+        "t": "Lenas Mann pendelt jeden Tag eine Stunde zur Arbeit, was auf Dauer ziemlich anstrengend ist.",
+        "s": "Lena's husband commutes an hour to work every day, which is quite tiring in the long run."
+      },
+      {
+        "t": "Außerdem fehlen kulturelle Angebote wie Kinos oder Theater, die es in der Stadt an jeder Ecke gibt.",
+        "s": "In addition, there's a lack of cultural offerings such as movie theaters or playhouses, which you find on every corner in the city."
+      },
+      {
+        "t": "Trotzdem bereut Lena die Entscheidung nicht: „Für uns überwiegen die Vorteile ganz klar.“",
+        "s": "Nevertheless, Lena doesn't regret the decision: 'For us, the advantages clearly outweigh the disadvantages.'"
+      },
+      {
+        "t": "Experten gehen davon aus, dass der Trend anhalten wird – auch weil viele Menschen inzwischen teilweise von zu Hause aus arbeiten.",
+        "s": "Experts expect the trend to continue – partly because many people now work from home some of the time."
+      }
     ],
     "questions": [
-      { "q": { "t": "Warum ziehen viele Menschen aufs Land?", "s": "Why are many people moving to the country?" }, "options": ["Weil das Wohnen dort günstiger ist.", "Weil es dort mehr Arbeitsplätze gibt.", "Weil die Busse dort öfter fahren."], "answer": 0 },
-      { "q": { "t": "Wo wohnt Lenas Familie heute?", "s": "Where does Lena's family live today?" }, "options": ["in einer Dreizimmerwohnung in Frankfurt", "in einem Haus mit Garten in einem Dorf", "in einer WG in München"], "answer": 1 },
-      { "q": { "t": "Wie ist die Nachbarschaft auf dem Land?", "s": "What is the neighborhood like in the country?" }, "options": ["anonym", "laut und unfreundlich", "eng und hilfsbereit"], "answer": 2 },
-      { "q": { "t": "Welcher Nachteil wird im Text genannt?", "s": "Which disadvantage is mentioned in the text?" }, "options": ["Die Mieten sind sehr hoch.", "Die Nachbarn sind unfreundlich.", "Ohne Auto ist man kaum mobil."], "answer": 2 },
-      { "q": { "t": "Wie denkt Lena heute über den Umzug?", "s": "How does Lena feel about the move today?" }, "options": ["Sie bereut ihn.", "Sie ist zufrieden damit.", "Sie möchte zurück nach Frankfurt."], "answer": 1 }
+      {
+        "q": {
+          "t": "Warum ziehen viele Menschen aufs Land?",
+          "s": "Why are many people moving to the country?"
+        },
+        "options": [
+          "Weil das Wohnen dort günstiger ist.",
+          "Weil es dort mehr Arbeitsplätze gibt.",
+          "Weil die Busse dort öfter fahren."
+        ],
+        "answer": 0
+      },
+      {
+        "q": {
+          "t": "Wo wohnt Lenas Familie heute?",
+          "s": "Where does Lena's family live today?"
+        },
+        "options": [
+          "in einer Dreizimmerwohnung in Frankfurt",
+          "in einem Haus mit Garten in einem Dorf",
+          "in einer WG in München"
+        ],
+        "answer": 1
+      },
+      {
+        "q": {
+          "t": "Wie ist die Nachbarschaft auf dem Land?",
+          "s": "What is the neighborhood like in the country?"
+        },
+        "options": [
+          "anonym",
+          "laut und unfreundlich",
+          "eng und hilfsbereit"
+        ],
+        "answer": 2
+      },
+      {
+        "q": {
+          "t": "Welcher Nachteil wird im Text genannt?",
+          "s": "Which disadvantage is mentioned in the text?"
+        },
+        "options": [
+          "Die Mieten sind sehr hoch.",
+          "Die Nachbarn sind unfreundlich.",
+          "Ohne Auto ist man kaum mobil."
+        ],
+        "answer": 2
+      },
+      {
+        "q": {
+          "t": "Wie denkt Lena heute über den Umzug?",
+          "s": "How does Lena feel about the move today?"
+        },
+        "options": [
+          "Sie bereut ihn.",
+          "Sie ist zufrieden damit.",
+          "Sie möchte zurück nach Frankfurt."
+        ],
+        "answer": 1
+      }
     ]
   },
   "sentences": [
-    { "t": "Wir suchen eine Wohnung, die in einer ruhigen Gegend liegt.", "s": "We're looking for an apartment in a quiet area." },
-    { "t": "Die Nebenkosten sind in der Miete nicht enthalten.", "s": "The utility costs are not included in the rent." },
-    { "t": "Der Vermieter, mit dem wir gesprochen haben, war sehr freundlich.", "s": "The landlord we spoke to was very friendly." },
-    { "t": "Laut Hausordnung ist ab 22 Uhr Nachtruhe.", "s": "According to the house rules, quiet hours begin at 10 p.m." },
-    { "t": "Ich habe mich bei der Hausverwaltung über den Lärm beschwert.", "s": "I complained to the property management about the noise." },
-    { "t": "Die Kaution bekommt man nach dem Auszug zurück.", "s": "You get the deposit back after you move out." },
-    { "t": "Das ist die Nachbarin, deren Katze ständig bei uns ist.", "s": "That's the neighbor whose cat is always at our place." },
-    { "t": "In der Stadt ist alles schnell erreichbar, was ein großer Vorteil ist.", "s": "In the city, everything is within easy reach, which is a big advantage." }
+    {
+      "t": "Wir suchen eine Wohnung, die in einer ruhigen Gegend liegt.",
+      "s": "We're looking for an apartment in a quiet area."
+    },
+    {
+      "t": "Die Nebenkosten sind in der Miete nicht enthalten.",
+      "s": "The utility costs are not included in the rent."
+    },
+    {
+      "t": "Der Vermieter, mit dem wir gesprochen haben, war sehr freundlich.",
+      "s": "The landlord we spoke to was very friendly."
+    },
+    {
+      "t": "Laut Hausordnung ist ab 22 Uhr Nachtruhe.",
+      "s": "According to the house rules, quiet hours begin at 10 p.m."
+    },
+    {
+      "t": "Ich habe mich bei der Hausverwaltung über den Lärm beschwert.",
+      "s": "I complained to the property management about the noise."
+    },
+    {
+      "t": "Die Kaution bekommt man nach dem Auszug zurück.",
+      "s": "You get the deposit back after you move out."
+    },
+    {
+      "t": "Das ist die Nachbarin, deren Katze ständig bei uns ist.",
+      "s": "That's the neighbor whose cat is always at our place."
+    },
+    {
+      "t": "In der Stadt ist alles schnell erreichbar, was ein großer Vorteil ist.",
+      "s": "In the city, everything is within easy reach, which is a big advantage."
+    }
   ]
 }

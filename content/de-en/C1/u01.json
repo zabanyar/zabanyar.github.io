@@ -221,7 +221,7 @@
     },
     "speakers": {
       "A": {
-        "name": "Jonas Berger",
+        "name": "Lukas Brandt",
         "voice": "m"
       },
       "B": {
@@ -377,7 +377,8 @@
           "t": "___ Überprüfung der Hypothese führte das Team eine zweite Studie durch.",
           "answer": [
             "Zur",
-            "Für die"
+            "Für die",
+            "Fuer die"
           ],
           "s": "In order to test the hypothesis, the team conducted a second study."
         },
@@ -414,12 +415,18 @@
         {
           "type": "order",
           "t": "Aufgrund fehlender Daten ist die Studie kaum aussagekräftig.",
-          "s": "Due to missing data, the study is hardly conclusive."
+          "s": "Due to missing data, the study is hardly conclusive.",
+          "alts": [
+            "Die Studie ist aufgrund fehlender Daten kaum aussagekräftig."
+          ]
         },
         {
           "type": "order",
           "t": "Trotz intensiver Forschung bleibt die Ursache unbekannt.",
-          "s": "Despite intensive research, the cause remains unknown."
+          "s": "Despite intensive research, the cause remains unknown.",
+          "alts": [
+            "Die Ursache bleibt trotz intensiver Forschung unbekannt."
+          ]
         }
       ]
     },
@@ -514,7 +521,9 @@
           "t": "Viele Fachleute ___ Kritik an der neuen Studie.",
           "answer": [
             "üben",
-            "äußern"
+            "äußern",
+            "ueben",
+            "aeussern"
           ],
           "s": "Many experts criticize the new study."
         },
@@ -557,7 +566,10 @@
         {
           "type": "order",
           "t": "Der Minister brachte seine Besorgnis zum Ausdruck.",
-          "s": "The minister expressed his concern."
+          "s": "The minister expressed his concern.",
+          "alts": [
+            "Seine Besorgnis brachte der Minister zum Ausdruck."
+          ]
         }
       ]
     }

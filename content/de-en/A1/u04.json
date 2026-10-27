@@ -266,7 +266,7 @@
       {
         "sp": "A",
         "t": "Bitte schön. Guten Appetit!",
-        "s": "Here you are. Enjoy your meal!"
+        "s": "You're welcome. Enjoy your meal!"
       },
       {
         "sp": "B",
@@ -282,7 +282,7 @@
         "t": "ein, eine – kein, keine",
         "s": "\"a\" and \"no / not a\""
       },
-      "explain": "**ein** / **eine** means *a* / *an*. Use **ein** with der- and das-nouns, and **eine** with die-nouns: **ein** Apfel, **eine** Banane, **ein** Ei. In the plural there is no *a*: Äpfel.\nTo say *no* / *not a*, just put a **k** in front: **kein**, **keine**. In the plural, always use **keine**: Wir haben **keine** Äpfel. With things you can't count, use kein/keine as well: Ich habe **keine** Milch.\nTip: after **haben** and **möchte**, a der-noun changes: Ich möchte **einen** Apfel. You'll practice this in Unit 5.",
+      "explain": "**ein** / **eine** means *a* / *an*. Use **ein** with der- and das-nouns, and **eine** with die-nouns: **ein** Apfel, **eine** Banane, **ein** Ei. In the plural there is no *a*: Äpfel.\nTo say *no* / *not a*, just put a **k** in front: **kein**, **keine**. In the plural, always use **keine**: Wir haben **keine** Äpfel. With things you can't count, use kein/keine as well: Ich habe **keine** Milch.\nTip: after **haben**, **möchte** and **mag**, a der-noun changes: Ich möchte **einen** Apfel. Ich mag **keinen** Käse. You'll practice this in Unit 5.",
       "table": [
         [
           "der Apfel",
@@ -402,7 +402,7 @@
         "t": "ich möchte – ich mag",
         "s": "\"I'd like\" and \"I like\""
       },
-      "explain": "**ich möchte** means *I would like*. It's the polite way to ask for something – in a café, in a shop or at home: **Ich möchte eine Suppe, bitte.**\n**ich mag** means *I like* – in general: **Ich mag Reis.** To say you don't like something, use **kein** / **keine**: Ich mag **keine** Bananen.\nNote: **ich** and **er / sie / es** have the same form, with no **-t**: ich möchte, er möchte – ich mag, sie mag.",
+      "explain": "**ich möchte** means *I would like*. It's the polite way to ask for something – in a café, in a shop or at home: **Ich möchte eine Suppe, bitte.**\n**ich mag** means *I like* – in general: **Ich mag Reis.** To say you don't like a kind of food, you can use **kein** / **keine** (with der-nouns **keinen**): Ich mag **keine** Bananen. Ich mag **keinen** Reis.\nNote: **ich** and **er / sie / es** have the same form, with no **-t**: ich möchte, er möchte – ich mag, sie mag.",
       "table": [
         [
           "ich",

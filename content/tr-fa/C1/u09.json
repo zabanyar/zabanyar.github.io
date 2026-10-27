@@ -191,7 +191,10 @@
       "id": "p02",
       "t": "Kendine biraz zaman ayır.",
       "s": "کمی برای خودت وقت بگذار.",
-      "pr": "کِندینِه بیراز زامان آیِر."
+      "pr": "کِندینِه بیراز زامان آیِر.",
+      "alts": [
+        "Biraz kendine zaman ayır."
+      ]
     },
     {
       "id": "p03",
@@ -227,7 +230,10 @@
       "id": "p08",
       "t": "Ne demek istediğini şimdi anladım.",
       "s": "حالا فهمیدم منظورت چیست.",
-      "pr": "نِه دِمِک ایستِدیینی شیمدی آنلادِم."
+      "pr": "نِه دِمِک ایستِدیینی شیمدی آنلادِم.",
+      "alts": [
+        "Şimdi ne demek istediğini anladım."
+      ]
     }
   ],
   "dialogue": {
@@ -691,7 +697,10 @@
   "sentences": [
     {
       "t": "Eve gelir gelmez telefonumu sessize alıyorum.",
-      "s": "به محض اینکه به خانه می‌رسم، گوشی‌ام را بی‌صدا می‌کنم."
+      "s": "به محض اینکه به خانه می‌رسم، گوشی‌ام را بی‌صدا می‌کنم.",
+      "alts": [
+        "Telefonumu eve gelir gelmez sessize alıyorum."
+      ]
     },
     {
       "t": "Onu gördüğüm an ne olduğunu anladım.",

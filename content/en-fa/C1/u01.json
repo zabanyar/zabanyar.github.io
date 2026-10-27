@@ -190,12 +190,12 @@
       "id": "w15",
       "t": "get the message across",
       "s": "منظور را رساندن، پیام را منتقل کردن",
-      "pr": "گِت ذِ مِسِج اِکْراس",
+      "pr": "گِت ذِ مِسیج اِکْراس",
       "emoji": "",
       "ex": {
         "t": "My English isn't perfect, but I can usually get the message across.",
         "s": "انگلیسی‌ام بی‌نقص نیست، ولی معمولاً می‌توانم منظورم را برسانم.",
-        "pr": "مای اینْگْلیش ایزِنْت پِرْفِکْت، بات آی کَن یوژوئِلی گِت ذِ مِسِج اِکْراس."
+        "pr": "مای اینْگْلیش ایزِنْت پِرْفِکْت، بات آی کَن یوژوئِلی گِت ذِ مِسیج اِکْراس."
       }
     },
     {
@@ -324,7 +324,7 @@
         "sp": "B",
         "t": "It works both ways, you know. When I first visited Tehran, people kept refusing things they actually wanted.",
         "s": "می‌دانی، این از هر دو طرف صدق می‌کند. اولین بار که به تهران رفتم، مردم مدام چیزهایی را که در واقع می‌خواستند رد می‌کردند.",
-        "pr": "ایت وِرْکْس بُوث وِیز، یو نُو. وِن آی فِرْسْت ویزِتِد تِهْران، پیپِل کِپْت ریفْیوزینگ ثینگْز ذِی اَکْچوِلی وانْتِد."
+        "pr": "ایت وِرْکْس بُوث وِیز، یو نُو. وِن آی فِرْسْت ویزیتِد تِهْران، پیپِل کِپْت ریفْیوزینگ ثینگْز ذِی اَکْچوِلی وانْتِد."
       },
       {
         "sp": "A",
@@ -552,7 +552,7 @@
         {
           "t": "Do come and visit us when you're in Shiraz.",
           "s": "حتماً وقتی شیراز بودید، به ما سر بزنید.",
-          "pr": "دو کام اَند ویزِت آس وِن یور این شیراز."
+          "pr": "دو کام اَند ویزیت آس وِن یور این شیراز."
         }
       ],
       "exercises": [
@@ -732,9 +732,9 @@
           "pr": "وات مِید ذِ رایتِر ریِلایْز ذَت ذِ فَمِلی هَد تو اَکْت؟"
         },
         "options": [
-          "Her son's teacher complained.",
-          "Her son answered his grandmother in German.",
-          "Her daughter forgot a poem."
+          "A teacher complained about the children.",
+          "The writer's son answered his grandmother in German.",
+          "The writer's daughter forgot a poem."
         ],
         "answer": 1
       },

@@ -38,7 +38,7 @@
       "id": "w03",
       "t": "die Vorspeise",
       "pl": "die Vorspeisen",
-      "s": "appetizer, starter",
+      "s": "appetizer",
       "emoji": "",
       "ex": {
         "t": "Als Vorspeise nehme ich die Linsensuppe.",
@@ -696,7 +696,10 @@
     },
     {
       "t": "Könnten Sie uns bitte die Rechnung bringen?",
-      "s": "Could you bring us the check, please?"
+      "s": "Could you bring us the check, please?",
+      "alts": [
+        "Könnten Sie uns die Rechnung bitte bringen?"
+      ]
     },
     {
       "t": "Meine Schwester hat eine vegetarische Suppe bestellt.",

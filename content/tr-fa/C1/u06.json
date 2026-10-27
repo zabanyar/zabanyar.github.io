@@ -204,7 +204,10 @@
       "id": "p03",
       "t": "Bunu kesin olarak söylemek mümkün değil.",
       "s": "نمی‌توان این را با قطعیت گفت.",
-      "pr": "بونو کِسین اُلاراک سُیلِمِک مومکون دِییل."
+      "pr": "بونو کِسین اُلاراک سُیلِمِک مومکون دِییل.",
+      "alts": [
+        "Kesin olarak bunu söylemek mümkün değil."
+      ]
     },
     {
       "id": "p04",
@@ -228,7 +231,10 @@
       "id": "p07",
       "t": "Bu konuda uzmanlar ikiye bölünmüş durumda.",
       "s": "کارشناسان در این باره دو دسته شده‌اند.",
-      "pr": "بو کُنودا اوزمانلار ایکیِه بُلونموش دورومدا."
+      "pr": "بو کُنودا اوزمانلار ایکیِه بُلونموش دورومدا.",
+      "alts": [
+        "Uzmanlar bu konuda ikiye bölünmüş durumda."
+      ]
     },
     {
       "id": "p08",
@@ -306,7 +312,10 @@
       {
         "sp": "A",
         "t": "Son olarak okuyucularımıza ne söylemek istersiniz?",
-        "s": "در پایان، دوست دارید به خوانندگان ما چه بگویید؟"
+        "s": "در پایان، دوست دارید به خوانندگان ما چه بگویید؟",
+        "alts": [
+          "Okuyucularımıza son olarak ne söylemek istersiniz?"
+        ]
       },
       {
         "sp": "B",
@@ -558,7 +567,8 @@
           "type": "type",
           "t": "Ürünün fiyatı döviz ___ bağlı olarak artabilir.",
           "answer": [
-            "kuruna"
+            "kuruna",
+            "kurlarına"
           ],
           "s": "قیمت کالا ممکن است بسته به نرخ ارز بالا برود."
         },
@@ -715,15 +725,25 @@
     },
     {
       "t": "Fiyatlar talebe bağlı olarak değişmektedir.",
-      "s": "قیمت‌ها بسته به تقاضا تغییر می‌کند."
+      "s": "قیمت‌ها بسته به تقاضا تغییر می‌کند.",
+      "alts": [
+        "Talebe bağlı olarak fiyatlar değişmektedir."
+      ]
     },
     {
       "t": "Yeni kurallar haziran ayından itibaren geçerli olacak.",
-      "s": "قوانین جدید از ماه ژوئن اجرا می‌شود."
+      "s": "قوانین جدید از ماه ژوئن اجرا می‌شود.",
+      "alts": [
+        "Haziran ayından itibaren yeni kurallar geçerli olacak."
+      ]
     },
     {
       "t": "Bu konuya dair henüz bir kanıt yok.",
-      "s": "هنوز هیچ مدرکی درباره‌ی این موضوع وجود ندارد."
+      "s": "هنوز هیچ مدرکی درباره‌ی این موضوع وجود ندارد.",
+      "alts": [
+        "Henüz bu konuya dair bir kanıt yok.",
+        "Bu konuya dair bir kanıt henüz yok."
+      ]
     },
     {
       "t": "Otomasyonun işsizliği artırabileceği düşünülmektedir.",

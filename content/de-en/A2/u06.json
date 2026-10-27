@@ -273,7 +273,10 @@
       {
         "sp": "A",
         "t": "Natürlich. Die Umkleidekabine ist dort hinten.",
-        "s": "Of course. The fitting room is back there."
+        "s": "Of course. The fitting room is back there.",
+        "alts": [
+          "Natürlich. Dort hinten ist die Umkleidekabine."
+        ]
       },
       {
         "sp": "B",
@@ -293,7 +296,10 @@
       {
         "sp": "A",
         "t": "Ja, natürlich. Die Kasse ist gleich da vorne.",
-        "s": "Yes, of course. The checkout is right up front."
+        "s": "Yes, of course. The checkout is right up front.",
+        "alts": [
+          "Ja, natürlich. Gleich da vorne ist die Kasse."
+        ]
       }
     ]
   },

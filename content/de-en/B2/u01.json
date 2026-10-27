@@ -268,8 +268,8 @@
       },
       {
         "sp": "B",
-        "t": "Hast du schon mit Frau Becker darüber gesprochen? Vielleicht lässt sich eine Lösung finden.",
-        "s": "Have you talked to Ms. Becker about it yet? Maybe a solution can be found."
+        "t": "Hast du schon mit Frau Schneider darüber gesprochen? Vielleicht lässt sich eine Lösung finden.",
+        "s": "Have you talked to Ms. Schneider about it yet? Maybe a solution can be found."
       },
       {
         "sp": "A",
@@ -337,8 +337,8 @@
           "s": "In the past, new employees had to be trained for three months."
         },
         {
-          "t": "Frau Becker sagt, dass das Problem sofort gelöst werden muss.",
-          "s": "Ms. Becker says that the problem must be solved immediately."
+          "t": "Frau Schneider sagt, dass das Problem sofort gelöst werden muss.",
+          "s": "Ms. Schneider says that the problem must be solved immediately."
         }
       ],
       "exercises": [
@@ -403,7 +403,10 @@
         {
           "type": "order",
           "t": "Die Bewerbung muss online eingereicht werden.",
-          "s": "The application must be submitted online."
+          "s": "The application must be submitted online.",
+          "alts": [
+            "Online muss die Bewerbung eingereicht werden."
+          ]
         },
         {
           "type": "order",
@@ -493,7 +496,8 @@
             "einzureichen",
             "abzugeben",
             "zu stellen",
-            "abzuschicken"
+            "abzuschicken",
+            "einzusenden"
           ],
           "s": "The application must be submitted by Friday."
         },

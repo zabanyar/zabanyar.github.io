@@ -112,13 +112,13 @@
     },
     {
       "id": "w10",
-      "t": "der Verbraucher / die Verbraucherin",
-      "pl": "die Verbraucher / die Verbraucherinnen",
-      "s": "consumer",
+      "t": "das Handelsabkommen",
+      "pl": "die Handelsabkommen",
+      "s": "trade agreement",
       "emoji": "",
       "ex": {
-        "t": "Am Ende tragen die Verbraucher die höheren Kosten.",
-        "s": "In the end, it is consumers who bear the higher costs."
+        "t": "Das geplante Handelsabkommen soll zahlreiche Zölle abschaffen.",
+        "s": "The planned trade agreement is intended to abolish numerous tariffs."
       }
     },
     {
@@ -173,12 +173,12 @@
     },
     {
       "id": "w16",
-      "t": "nachhaltig",
-      "s": "sustainable; lasting",
+      "t": "die Wertschöpfung",
+      "s": "value creation, value added",
       "emoji": "",
       "ex": {
-        "t": "Nachhaltiges Wirtschaften erfordert ein grundlegendes Umdenken.",
-        "s": "Sustainable business requires a fundamental rethink."
+        "t": "Viele Länder wollen einen größeren Teil der Wertschöpfung im eigenen Land halten.",
+        "s": "Many countries want to keep a larger share of value creation at home."
       }
     }
   ],
@@ -195,8 +195,8 @@
     },
     {
       "id": "p03",
-      "t": "Unterm Strich …",
-      "s": "At the end of the day … / On balance …"
+      "t": "Das ist eine Gratwanderung.",
+      "s": "That's a fine balancing act."
     },
     {
       "id": "p04",
@@ -420,12 +420,18 @@
         {
           "type": "order",
           "t": "Angesichts der Krise sparen viele Haushalte.",
-          "s": "In view of the crisis, many households are saving."
+          "s": "In view of the crisis, many households are saving.",
+          "alts": [
+            "Viele Haushalte sparen angesichts der Krise."
+          ]
         },
         {
           "type": "order",
           "t": "Infolge des Streiks fielen viele Züge aus.",
-          "s": "As a result of the strike, many trains were canceled."
+          "s": "As a result of the strike, many trains were canceled.",
+          "alts": [
+            "Viele Züge fielen infolge des Streiks aus."
+          ]
         }
       ]
     },
@@ -534,7 +540,8 @@
           "t": "___ Sicherung der Versorgung legt der Staat Reserven an.",
           "answer": [
             "zur",
-            "für die"
+            "für die",
+            "fuer die"
           ],
           "s": "In order to secure supplies, the state is building up reserves."
         },
@@ -558,7 +565,10 @@
         {
           "type": "order",
           "t": "Trotz aller Bemühungen scheiterten die Verhandlungen.",
-          "s": "Despite all efforts, the negotiations failed."
+          "s": "Despite all efforts, the negotiations failed.",
+          "alts": [
+            "Die Verhandlungen scheiterten trotz aller Bemühungen."
+          ]
         }
       ]
     }
@@ -598,8 +608,8 @@
         "s": "In this context, economists speak of “friendshoring”, i.e. the relocation of production to politically friendly countries."
       },
       {
-        "t": "Zur Sicherung der eigenen Versorgung fördern sowohl die USA als auch die EU die Ansiedlung von Chipfabriken mit Milliardensummen.",
-        "s": "To secure their own supply, both the USA and the EU are subsidizing the establishment of chip factories with billions."
+        "t": "Zur Sicherung der eigenen Versorgung haben sowohl die USA als auch die EU die Ansiedlung von Chipfabriken mit Milliardensummen gefördert.",
+        "s": "To secure their own supply, both the USA and the EU have subsidized the establishment of chip factories with billions."
       },
       {
         "t": "Kritiker warnen allerdings vor einem kostspieligen Subventionswettlauf, der vor allem zulasten der Steuerzahler gehe.",

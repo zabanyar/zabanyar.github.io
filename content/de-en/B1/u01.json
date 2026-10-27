@@ -132,8 +132,8 @@
       "s": "university studies, degree course",
       "emoji": "",
       "ex": {
-        "t": "Nach dem Studium fand Reza schnell eine Arbeit.",
-        "s": "After finishing university, Reza quickly found a job."
+        "t": "Nach dem Studium fand meine Schwester schnell eine Arbeit.",
+        "s": "After finishing university, my sister quickly found a job."
       }
     },
     {
@@ -509,7 +509,7 @@
             "wenn"
           ],
           "answer": 2,
-          "s": "Every time my aunt visited us, she brought sweets."
+          "s": "Every time my aunt visited us, she brought candy."
         },
         {
           "type": "type",
@@ -693,7 +693,7 @@
     },
     {
       "t": "Als Kind spielte ich oft im Garten.",
-      "s": "As a child I often played in the garden."
+      "s": "As a child I often played in the yard."
     },
     {
       "t": "Im Jahr 2012 zogen wir nach Deutschland.",

@@ -58,12 +58,12 @@
     },
     {
       "id": "w05",
-      "t": "sich einsetzen für + A",
-      "s": "to stand up for, to campaign for",
+      "t": "das Engagement",
+      "s": "commitment, involvement (pronounced the French way)",
       "emoji": "",
       "ex": {
-        "t": "Die Initiative setzt sich für mehr Grünflächen in der Stadt ein.",
-        "s": "The initiative campaigns for more green spaces in the city."
+        "t": "Ohne das Engagement vieler Freiwilliger gäbe es die Tafel nicht.",
+        "s": "Without the commitment of many volunteers, the food bank wouldn't exist."
       }
     },
     {
@@ -415,7 +415,10 @@
         {
           "type": "order",
           "t": "Lena hilft bei der Tafel, um etwas zurückzugeben.",
-          "s": "Lena helps at the food bank to give something back."
+          "s": "Lena helps at the food bank to give something back.",
+          "alts": [
+            "Um etwas zurückzugeben, hilft Lena bei der Tafel."
+          ]
         }
       ]
     },
@@ -543,7 +546,10 @@
         {
           "type": "order",
           "t": "Ich habe am Wochenende arbeiten müssen.",
-          "s": "I had to work on the weekend."
+          "s": "I had to work on the weekend.",
+          "alts": [
+            "Am Wochenende habe ich arbeiten müssen."
+          ]
         }
       ]
     }

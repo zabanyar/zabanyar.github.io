@@ -198,7 +198,10 @@
     {
       "id": "p03",
       "t": "Ich rufe dich später zurück.",
-      "s": "I'll call you back later."
+      "s": "I'll call you back later.",
+      "alts": [
+        "Später rufe ich dich zurück."
+      ]
     },
     {
       "id": "p04",
@@ -223,7 +226,10 @@
     {
       "id": "p08",
       "t": "Darauf freue ich mich!",
-      "s": "I'm looking forward to that!"
+      "s": "I'm looking forward to that!",
+      "alts": [
+        "Ich freue mich darauf!"
+      ]
     }
   ],
   "dialogue": {

@@ -189,7 +189,10 @@
     {
       "id": "p03",
       "t": "Die Arbeit macht mir Spaß.",
-      "s": "I enjoy my work."
+      "s": "I enjoy my work.",
+      "alts": [
+        "Mir macht die Arbeit Spaß."
+      ]
     },
     {
       "id": "p04",
@@ -204,7 +207,10 @@
     {
       "id": "p06",
       "t": "Ich habe heute frei.",
-      "s": "I have the day off today."
+      "s": "I have the day off today.",
+      "alts": [
+        "Heute habe ich frei."
+      ]
     },
     {
       "id": "p07",
@@ -545,11 +551,11 @@
         },
         {
           "type": "type",
-          "t": "Jonas ___ Arzt werden, aber jetzt ist er Lehrer.",
+          "t": "Mein Bruder ___ Arzt werden, aber jetzt ist er Lehrer.",
           "answer": [
             "wollte"
           ],
-          "s": "Jonas wanted to become a doctor, but now he's a teacher."
+          "s": "My brother wanted to become a doctor, but now he's a teacher."
         },
         {
           "type": "order",
@@ -675,7 +681,10 @@
   "sentences": [
     {
       "t": "Ich arbeite seit drei Jahren bei dieser Firma.",
-      "s": "I've been working for this company for three years."
+      "s": "I've been working for this company for three years.",
+      "alts": [
+        "Seit drei Jahren arbeite ich bei dieser Firma."
+      ]
     },
     {
       "t": "Heute muss ich bis sechs Uhr im Büro bleiben.",
@@ -691,19 +700,31 @@
     },
     {
       "t": "Gestern hatte ich keine Pause.",
-      "s": "Yesterday I didn't have a break."
+      "s": "Yesterday I didn't have a break.",
+      "alts": [
+        "Ich hatte gestern keine Pause."
+      ]
     },
     {
       "t": "Mein Kollege war letzte Woche krank.",
-      "s": "My colleague was sick last week."
+      "s": "My colleague was sick last week.",
+      "alts": [
+        "Letzte Woche war mein Kollege krank."
+      ]
     },
     {
       "t": "Wir konnten das Problem schnell lösen.",
-      "s": "We were able to solve the problem quickly."
+      "s": "We were able to solve the problem quickly.",
+      "alts": [
+        "Das Problem konnten wir schnell lösen."
+      ]
     },
     {
       "t": "Schönen Feierabend und bis morgen!",
-      "s": "Have a nice evening, and see you tomorrow!"
+      "s": "Have a nice evening, and see you tomorrow!",
+      "alts": [
+        "Bis morgen und schönen Feierabend!"
+      ]
     }
   ]
 }

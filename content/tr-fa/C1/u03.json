@@ -219,7 +219,7 @@
       "id": "p03",
       "t": "Bu kitap bana çocukluğumu hatırlattı.",
       "s": "این کتاب مرا یاد کودکی‌ام انداخت.",
-      "pr": "بو کیتاپ بانا چُجوکلوئومو هاتِرلاتِّ.",
+      "pr": "بو کیتاپ بانا چُجوکلوئومو هاتِرلاتِّ.",
       "alts": [
         "Bu kitap çocukluğumu bana hatırlattı."
       ]
@@ -240,7 +240,11 @@
       "id": "p06",
       "t": "En çok hangi türü okumayı seversin?",
       "s": "بیشتر از همه چه ژانری را دوست داری بخوانی؟",
-      "pr": "اِن چُک هانگی تورو اُکومایِ سِوِرسین؟"
+      "pr": "اِن چُک هانگی تورو اُکومایِ سِوِرسین؟",
+      "alts": [
+        "Hangi türü en çok okumayı seversin?",
+        "Hangi türü okumayı en çok seversin?"
+      ]
     },
     {
       "id": "p07",
@@ -294,7 +298,10 @@
       {
         "sp": "A",
         "t": "Haklısın. Şimdi düşününce, o betimlemeler sanki birer ipucuymuş.",
-        "s": "حق با توست. حالا که فکر می‌کنم، آن توصیف‌ها انگار هر کدام سرنخی بوده‌اند."
+        "s": "حق با توست. حالا که فکر می‌کنم، آن توصیف‌ها انگار هر کدام سرنخی بوده‌اند.",
+        "alts": [
+          "Haklısın. Şimdi düşününce, sanki o betimlemeler birer ipucuymuş."
+        ]
       },
       {
         "sp": "B",
@@ -304,7 +311,7 @@
       {
         "sp": "A",
         "t": "Gitmek isterim ama o gün Tahran'a uçuyorum. Sen imza gününde sırada beklerken ben çoktan Tahran'a varmış olacağım.",
-        "s": "دوست دارم بروم، اما آن روز به تهران پرواز دارم. وقتی تو در مراسم امضا توی صف منتظری، من مدت‌ها پیش به تهران رسیده‌ام."
+        "s": "دوست دارم بروم، اما آن روز به تهران پرواز دارم. وقتی تو در مراسم امضا توی صف منتظری، من دیگر به تهران رسیده‌ام."
       },
       {
         "sp": "B",
@@ -742,7 +749,10 @@
     },
     {
       "t": "Yazar bu sahneyi gerçekten yaşamış olmalı.",
-      "s": "نویسنده لابد واقعاً این صحنه را تجربه کرده است."
+      "s": "نویسنده لابد واقعاً این صحنه را تجربه کرده است.",
+      "alts": [
+        "Yazar gerçekten bu sahneyi yaşamış olmalı."
+      ]
     },
     {
       "t": "Bu roman otuzdan fazla dile çevrildi.",

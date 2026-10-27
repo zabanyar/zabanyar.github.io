@@ -414,12 +414,18 @@
         {
           "type": "order",
           "t": "Ich esse weder Fleisch noch Fisch.",
-          "s": "I eat neither meat nor fish."
+          "s": "I eat neither meat nor fish.",
+          "alts": [
+            "Ich esse weder Fisch noch Fleisch."
+          ]
         },
         {
           "type": "order",
           "t": "Das ist zwar teuer, aber nachhaltig.",
-          "s": "It's expensive, it's true, but sustainable."
+          "s": "It's expensive, it's true, but sustainable.",
+          "alts": [
+            "Zwar ist das teuer, aber nachhaltig."
+          ]
         }
       ]
     },

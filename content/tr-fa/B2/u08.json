@@ -99,14 +99,14 @@
     },
     {
       "id": "w08",
-      "t": "sergi",
-      "pl": "sergiler",
-      "s": "نمایشگاه",
-      "pr": "سِرگی",
-      "emoji": "",
+      "t": "heykel",
+      "pl": "heykeller",
+      "s": "مجسمه",
+      "pr": "هِیکِل",
+      "emoji": "🗿",
       "ex": {
-        "t": "Hafta sonu bir fotoğraf sergisine gittik.",
-        "s": "آخر هفته به یک نمایشگاه عکس رفتیم."
+        "t": "Müzenin bahçesinde bronz heykeller sergileniyor.",
+        "s": "در باغ موزه مجسمه‌های برنزی به نمایش گذاشته شده است."
       }
     },
     {
@@ -195,42 +195,50 @@
     {
       "id": "p01",
       "t": "Bu kitabı herkese tavsiye ederim.",
-      "s": "این کتاب را به همه توصیه می‌کنم."
+      "s": "این کتاب را به همه توصیه می‌کنم.",
+      "pr": "بو کیتابِ هِرکِسِه تاوسیِه اِدِریم."
     },
     {
       "id": "p02",
       "t": "Beni en çok etkileyen sahne…",
-      "s": "صحنه‌ای که بیشتر از همه مرا تحت تأثیر قرار داد…"
+      "s": "صحنه‌ای که بیشتر از همه مرا تحت تأثیر قرار داد…",
+      "pr": "بِنی اِن چُک اِتکیلِیِن ساهنِه…"
     },
     {
       "id": "p03",
       "t": "Açıkçası beklediğim kadar iyi değildi.",
-      "s": "راستش آن‌قدر که انتظار داشتم خوب نبود."
+      "s": "راستش آن‌قدر که انتظار داشتم خوب نبود.",
+      "pr": "آچِکچاسِ بِکلِدییم کادار ای‌یی دِییلدی."
     },
     {
       "id": "p04",
       "t": "Konusu biraz ağır ama çok etkileyici.",
-      "s": "موضوعش کمی سنگین است، اما خیلی تأثیرگذار است."
+      "s": "موضوعش کمی سنگین است، اما خیلی تأثیرگذار است.",
+      "pr": "کُنوسو بیراز آئِر آما چُک اِتکیلِییجی."
     },
     {
       "id": "p05",
       "t": "Sakın sonunu söyleme!",
-      "s": "مبادا آخرش را بگویی!"
+      "s": "مبادا آخرش را بگویی!",
+      "pr": "ساکِن سُنونو سُیلِمِه!"
     },
     {
       "id": "p06",
       "t": "Bir solukta okudum.",
-      "s": "یک‌نفس خواندمش."
+      "s": "یک‌نفس خواندمش.",
+      "pr": "بیر سُلوکتا اُکودوم."
     },
     {
       "id": "p07",
       "t": "Bence oyunculuk harikaydı.",
-      "s": "به نظرم بازیگری فوق‌العاده بود."
+      "s": "به نظرم بازیگری فوق‌العاده بود.",
+      "pr": "بِنجِه اُیونجولوک هاریکایدِ."
     },
     {
       "id": "p08",
       "t": "Zevkler ve renkler tartışılmaz.",
-      "s": "سلیقه‌ها جای بحث ندارد. (تحت‌اللفظی: سلیقه‌ها و رنگ‌ها بحث‌کردنی نیستند)"
+      "s": "سلیقه‌ها جای بحث ندارد. (تحت‌اللفظی: سلیقه‌ها و رنگ‌ها بحث‌کردنی نیستند)",
+      "pr": "زِوکلِر وِه رِنکلِر تارتِشِلماز."
     }
   ],
   "dialogue": {
@@ -327,8 +335,8 @@
         ],
         [
           "-casına / -cesine",
-          "yaşamışçasına, bilircesine",
-          "kaçarcasına, delicesine"
+          "yaşamışçasına, kaçarcasına",
+          "bilircesine, delicesine"
         ]
       ],
       "examples": [
@@ -421,7 +429,11 @@
         {
           "type": "order",
           "t": "Çocuklar bahçede gülerek oynuyordu.",
-          "s": "بچه‌ها در حیاط با خنده بازی می‌کردند."
+          "s": "بچه‌ها در حیاط با خنده بازی می‌کردند.",
+          "alts": [
+            "Çocuklar gülerek bahçede oynuyordu.",
+            "Bahçede çocuklar gülerek oynuyordu."
+          ]
         }
       ]
     },
@@ -570,8 +582,8 @@
     },
     "text": [
       {
-        "t": "Mevlânâ Celâleddin Rûmî, 1207 yılında bugünkü Afganistan'daki Belh şehrinde doğdu.",
-        "s": "مولانا جلال‌الدین رومی در سال ۱۲۰۷ میلادی در شهر بلخ، در افغانستانِ امروزی، به دنیا آمد."
+        "t": "Genel kabule göre Mevlânâ Celâleddin Rûmî, 1207 yılında Belh şehrinde doğdu.",
+        "s": "بنا بر روایت مشهور، مولانا جلال‌الدین رومی در سال ۱۲۰۷ میلادی در شهر بلخ به دنیا آمد."
       },
       {
         "t": "O daha küçük bir çocukken ailesi Belh'ten ayrılıp uzun bir yolculuğa çıktı.",

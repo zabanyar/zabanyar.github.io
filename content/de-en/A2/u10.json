@@ -199,7 +199,10 @@
     {
       "id": "p04",
       "t": "Da kann ich leider nicht.",
-      "s": "Unfortunately, I can't make it then."
+      "s": "Unfortunately, I can't make it then.",
+      "alts": [
+        "Leider kann ich da nicht."
+      ]
     },
     {
       "id": "p05",

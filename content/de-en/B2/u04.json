@@ -2,7 +2,10 @@
   "id": "u04",
   "level": "B2",
   "emoji": "📱",
-  "title": { "t": "Medien und digitale Welt", "s": "Media and the digital world" },
+  "title": {
+    "t": "Medien und digitale Welt",
+    "s": "Media and the digital world"
+  },
   "goals": [
     "Talk about news, social media and fake news",
     "Report what other people said, as in news reports",
@@ -10,159 +13,717 @@
     "Use Konjunktiv II and würde as replacement forms"
   ],
   "words": [
-    { "id": "w01", "t": "die Nachricht", "pl": "die Nachrichten", "s": "message, news item; die Nachrichten = the news", "emoji": "📰",
-      "ex": { "t": "Abends sehe ich die Nachrichten im Fernsehen.", "s": "In the evening I watch the news on TV." } },
-    { "id": "w02", "t": "sich informieren (über + A)", "s": "to find out (about), inform oneself", "emoji": "",
-      "ex": { "t": "Ich informiere mich meistens online über aktuelle Themen.", "s": "I usually find out about current issues online." } },
-    { "id": "w03", "t": "berichten (über + A)", "s": "to report (on)", "emoji": "",
-      "ex": { "t": "Alle Zeitungen berichten über den Streik bei der Bahn.", "s": "All the newspapers are reporting on the rail strike." } },
-    { "id": "w04", "t": "die Berichterstattung", "s": "coverage, reporting", "emoji": "",
-      "ex": { "t": "Die Berichterstattung über die Wahl war sehr ausführlich.", "s": "The coverage of the election was very detailed." } },
-    { "id": "w05", "t": "die Quelle", "pl": "die Quellen", "s": "source", "emoji": "",
-      "ex": { "t": "Prüfen Sie immer, aus welcher Quelle eine Information stammt.", "s": "Always check which source a piece of information comes from." } },
-    { "id": "w06", "t": "seriös", "s": "reputable, trustworthy", "emoji": "",
-      "ex": { "t": "Diese Zeitung gilt als seriös.", "s": "This newspaper is considered reputable." } },
-    { "id": "w07", "t": "die Falschmeldung", "pl": "die Falschmeldungen", "s": "false report, fake news", "emoji": "",
-      "ex": { "t": "Die Falschmeldung wurde tausendfach geteilt.", "s": "The false report was shared thousands of times." } },
-    { "id": "w08", "t": "überprüfen", "s": "to check, verify", "emoji": "",
-      "ex": { "t": "Journalisten müssen Informationen sorgfältig überprüfen.", "s": "Journalists have to check information carefully." } },
-    { "id": "w09", "t": "teilen", "s": "to share", "emoji": "",
-      "ex": { "t": "Bevor du etwas teilst, solltest du die Quelle prüfen.", "s": "Before you share something, you should check the source." } },
-    { "id": "w10", "t": "behaupten", "s": "to claim, assert", "emoji": "",
-      "ex": { "t": "Er behauptet, das Foto sei echt.", "s": "He claims that the photo is real." } },
-    { "id": "w11", "t": "die sozialen Medien", "s": "social media (plural)", "emoji": "",
-      "ex": { "t": "Viele Jugendliche informieren sich hauptsächlich über die sozialen Medien.", "s": "Many young people get their information mainly from social media." } },
-    { "id": "w12", "t": "der Beitrag", "pl": "die Beiträge", "s": "post (online); contribution", "emoji": "",
-      "ex": { "t": "Ihr Beitrag wurde über tausendmal kommentiert.", "s": "Her post got more than a thousand comments." } },
-    { "id": "w13", "t": "der Algorithmus", "pl": "die Algorithmen", "s": "algorithm", "emoji": "",
-      "ex": { "t": "Der Algorithmus zeigt mir vor allem Beiträge, die mich interessieren.", "s": "The algorithm mainly shows me posts that interest me." } },
-    { "id": "w14", "t": "der Datenschutz", "s": "data protection, privacy", "emoji": "🔒",
-      "ex": { "t": "Beim Datenschutz sind die Regeln in der EU sehr streng.", "s": "When it comes to data protection, the rules in the EU are very strict." } },
-    { "id": "w15", "t": "die Meinungsfreiheit", "s": "freedom of speech, freedom of opinion", "emoji": "",
-      "ex": { "t": "Die Meinungsfreiheit ist im Grundgesetz geschützt.", "s": "Freedom of speech is protected by the German constitution." } },
-    { "id": "w16", "t": "der Bildschirm", "pl": "die Bildschirme", "s": "screen", "emoji": "🖥️",
-      "ex": { "t": "Ich verbringe zu viel Zeit vor dem Bildschirm.", "s": "I spend too much time in front of a screen." } }
+    {
+      "id": "w01",
+      "t": "die Nachricht",
+      "pl": "die Nachrichten",
+      "s": "message, news item; die Nachrichten = the news",
+      "emoji": "📰",
+      "ex": {
+        "t": "Abends sehe ich die Nachrichten im Fernsehen.",
+        "s": "In the evening I watch the news on TV."
+      }
+    },
+    {
+      "id": "w02",
+      "t": "sich informieren (über + A)",
+      "s": "to find out (about), inform oneself",
+      "emoji": "",
+      "ex": {
+        "t": "Ich informiere mich meistens online über aktuelle Themen.",
+        "s": "I usually find out about current issues online."
+      }
+    },
+    {
+      "id": "w03",
+      "t": "berichten (über + A)",
+      "s": "to report (on)",
+      "emoji": "",
+      "ex": {
+        "t": "Alle Zeitungen berichten über den Streik bei der Bahn.",
+        "s": "All the newspapers are reporting on the rail strike."
+      }
+    },
+    {
+      "id": "w04",
+      "t": "die Berichterstattung",
+      "s": "coverage, reporting",
+      "emoji": "",
+      "ex": {
+        "t": "Die Berichterstattung über die Wahl war sehr ausführlich.",
+        "s": "The coverage of the election was very detailed."
+      }
+    },
+    {
+      "id": "w05",
+      "t": "die Quelle",
+      "pl": "die Quellen",
+      "s": "source",
+      "emoji": "",
+      "ex": {
+        "t": "Prüfen Sie immer, aus welcher Quelle eine Information stammt.",
+        "s": "Always check which source a piece of information comes from."
+      }
+    },
+    {
+      "id": "w06",
+      "t": "seriös",
+      "s": "reputable, trustworthy",
+      "emoji": "",
+      "ex": {
+        "t": "Diese Zeitung gilt als seriös.",
+        "s": "This newspaper is considered reputable."
+      }
+    },
+    {
+      "id": "w07",
+      "t": "die Falschmeldung",
+      "pl": "die Falschmeldungen",
+      "s": "false report, fake news",
+      "emoji": "",
+      "ex": {
+        "t": "Die Falschmeldung wurde tausendfach geteilt.",
+        "s": "The false report was shared thousands of times."
+      }
+    },
+    {
+      "id": "w08",
+      "t": "überprüfen",
+      "s": "to check, verify",
+      "emoji": "",
+      "ex": {
+        "t": "Journalisten müssen Informationen sorgfältig überprüfen.",
+        "s": "Journalists have to check information carefully."
+      }
+    },
+    {
+      "id": "w09",
+      "t": "teilen",
+      "s": "to share",
+      "emoji": "",
+      "ex": {
+        "t": "Bevor du etwas teilst, solltest du die Quelle prüfen.",
+        "s": "Before you share something, you should check the source."
+      }
+    },
+    {
+      "id": "w10",
+      "t": "behaupten",
+      "s": "to claim, assert",
+      "emoji": "",
+      "ex": {
+        "t": "Er behauptet, das Foto sei echt.",
+        "s": "He claims that the photo is real."
+      }
+    },
+    {
+      "id": "w11",
+      "t": "die sozialen Medien",
+      "s": "social media (plural)",
+      "emoji": "",
+      "ex": {
+        "t": "Viele Jugendliche informieren sich hauptsächlich über die sozialen Medien.",
+        "s": "Many young people get their information mainly from social media."
+      }
+    },
+    {
+      "id": "w12",
+      "t": "der Beitrag",
+      "pl": "die Beiträge",
+      "s": "post (online); contribution",
+      "emoji": "",
+      "ex": {
+        "t": "Ihr Beitrag wurde über tausendmal kommentiert.",
+        "s": "Her post got more than a thousand comments."
+      }
+    },
+    {
+      "id": "w13",
+      "t": "der Algorithmus",
+      "pl": "die Algorithmen",
+      "s": "algorithm",
+      "emoji": "",
+      "ex": {
+        "t": "Der Algorithmus zeigt mir vor allem Beiträge, die mich interessieren.",
+        "s": "The algorithm mainly shows me posts that interest me."
+      }
+    },
+    {
+      "id": "w14",
+      "t": "der Datenschutz",
+      "s": "data protection, privacy",
+      "emoji": "🔒",
+      "ex": {
+        "t": "Beim Datenschutz sind die Regeln in der EU sehr streng.",
+        "s": "When it comes to data protection, the rules in the EU are very strict."
+      }
+    },
+    {
+      "id": "w15",
+      "t": "die Meinungsfreiheit",
+      "s": "freedom of speech, freedom of opinion",
+      "emoji": "",
+      "ex": {
+        "t": "Die Meinungsfreiheit ist im Grundgesetz geschützt.",
+        "s": "Freedom of speech is protected by the German constitution."
+      }
+    },
+    {
+      "id": "w16",
+      "t": "der Bildschirm",
+      "pl": "die Bildschirme",
+      "s": "screen",
+      "emoji": "🖥️",
+      "ex": {
+        "t": "Ich verbringe zu viel Zeit vor dem Bildschirm.",
+        "s": "I spend too much time in front of a screen."
+      }
+    }
   ],
   "phrases": [
-    { "id": "p01", "t": "Laut einer Studie …", "s": "According to a study …" },
-    { "id": "p02", "t": "Wie aus dem Bericht hervorgeht, …", "s": "As the report shows, …" },
-    { "id": "p03", "t": "Es heißt, dass …", "s": "It is said that …" },
-    { "id": "p04", "t": "Woher hast du diese Information?", "s": "Where did you get this information?" },
-    { "id": "p05", "t": "Ich bin mir nicht sicher, ob das stimmt.", "s": "I'm not sure that's true." },
-    { "id": "p06", "t": "Das halte ich für übertrieben.", "s": "I think that's exaggerated." },
-    { "id": "p07", "t": "Man darf nicht vergessen, dass …", "s": "We mustn't forget that …" },
-    { "id": "p08", "t": "Zusammenfassend lässt sich sagen, dass …", "s": "To sum up, one can say that …" }
+    {
+      "id": "p01",
+      "t": "Laut einer Studie …",
+      "s": "According to a study …"
+    },
+    {
+      "id": "p02",
+      "t": "Wie aus dem Bericht hervorgeht, …",
+      "s": "As the report shows, …"
+    },
+    {
+      "id": "p03",
+      "t": "Es heißt, dass …",
+      "s": "It is said that …"
+    },
+    {
+      "id": "p04",
+      "t": "Woher hast du diese Information?",
+      "s": "Where did you get this information?"
+    },
+    {
+      "id": "p05",
+      "t": "Ich bin mir nicht sicher, ob das stimmt.",
+      "s": "I'm not sure that's true."
+    },
+    {
+      "id": "p06",
+      "t": "Das halte ich für übertrieben.",
+      "s": "I think that's exaggerated."
+    },
+    {
+      "id": "p07",
+      "t": "Man darf nicht vergessen, dass …",
+      "s": "We must not forget that …"
+    },
+    {
+      "id": "p08",
+      "t": "Zusammenfassend lässt sich sagen, dass …",
+      "s": "To sum up, one can say that …"
+    }
   ],
   "dialogue": {
-    "title": { "t": "Stimmt das wirklich?", "s": "Is that really true?" },
-    "speakers": { "A": { "name": "Lena", "voice": "f" }, "B": { "name": "Ali", "voice": "m" } },
+    "title": {
+      "t": "Stimmt das wirklich?",
+      "s": "Is that really true?"
+    },
+    "speakers": {
+      "A": {
+        "name": "Lena",
+        "voice": "f"
+      },
+      "B": {
+        "name": "Ali",
+        "voice": "m"
+      }
+    },
     "lines": [
-      { "sp": "B", "t": "Lena, hast du das gelesen? Hier steht, dass ab nächstem Jahr das Bargeld abgeschafft werden soll!", "s": "Lena, have you read this? It says here that cash is going to be abolished from next year!" },
-      { "sp": "A", "t": "Echt? Wo steht das denn?", "s": "Really? Where does it say that?" },
-      { "sp": "B", "t": "In einem Beitrag, den ein Freund geteilt hat. Darin heißt es, die Regierung habe das schon beschlossen.", "s": "In a post a friend shared. It says the government has already decided it." },
-      { "sp": "A", "t": "Hm, das klingt komisch. Wer hat das denn geschrieben? Gibt es eine Quelle?", "s": "Hmm, that sounds strange. Who wrote it? Is there a source?" },
-      { "sp": "B", "t": "Der Autor schreibt, er habe die Information von einem Insider aus dem Finanzministerium.", "s": "The author writes that he got the information from an insider at the Finance Ministry." },
-      { "sp": "A", "t": "Ein anonymer Insider? Das ist keine seriöse Quelle. Lass uns mal bei einem Faktencheck nachsehen.", "s": "An anonymous insider? That's not a reliable source. Let's look it up on a fact-checking site." },
-      { "sp": "B", "t": "Gute Idee … Oh, hier: Das Ministerium hat erklärt, es gebe keine solchen Pläne.", "s": "Good idea … Oh, here: the ministry has stated that there are no such plans." },
-      { "sp": "A", "t": "Siehst du? Und Experten sagen, solche Falschmeldungen würden oft absichtlich verbreitet, um Angst zu machen.", "s": "You see? And experts say that false reports like this are often spread deliberately to scare people." },
-      { "sp": "B", "t": "Gut, dass ich das nicht weitergeleitet habe. Ich hätte es fast an die ganze Familie geschickt.", "s": "Good thing I didn't forward it. I almost sent it to the whole family." },
-      { "sp": "A", "t": "Das passiert vielen. Mein Tipp: erst die Quelle überprüfen, dann teilen.", "s": "That happens to a lot of people. My tip: check the source first, then share." }
+      {
+        "sp": "B",
+        "t": "Lena, hast du das gelesen? Hier steht, dass ab nächstem Jahr das Bargeld abgeschafft werden soll!",
+        "s": "Lena, have you read this? It says here that cash is going to be abolished from next year!"
+      },
+      {
+        "sp": "A",
+        "t": "Echt? Wo steht das denn?",
+        "s": "Really? Where does it say that?"
+      },
+      {
+        "sp": "B",
+        "t": "In einem Beitrag, den ein Freund geteilt hat. Darin heißt es, die Regierung habe das schon beschlossen.",
+        "s": "In a post a friend shared. It says the government has already decided it."
+      },
+      {
+        "sp": "A",
+        "t": "Hm, das klingt komisch. Wer hat das denn geschrieben? Gibt es eine Quelle?",
+        "s": "Hmm, that sounds strange. Who wrote it? Is there a source?"
+      },
+      {
+        "sp": "B",
+        "t": "Der Autor schreibt, er habe die Information von einem Insider aus dem Finanzministerium.",
+        "s": "The author writes that he got the information from an insider at the Finance Ministry."
+      },
+      {
+        "sp": "A",
+        "t": "Ein anonymer Insider? Das ist keine seriöse Quelle. Lass uns mal bei einem Faktencheck nachsehen.",
+        "s": "An anonymous insider? That's not a reliable source. Let's look it up on a fact-checking site."
+      },
+      {
+        "sp": "B",
+        "t": "Gute Idee … Oh, hier: Das Ministerium hat erklärt, es gebe keine solchen Pläne.",
+        "s": "Good idea … Oh, here: the ministry has stated that there are no such plans."
+      },
+      {
+        "sp": "A",
+        "t": "Siehst du? Und Experten sagen, solche Falschmeldungen würden oft absichtlich verbreitet, um Angst zu machen.",
+        "s": "You see? And experts say that false reports like this are often spread deliberately to scare people."
+      },
+      {
+        "sp": "B",
+        "t": "Gut, dass ich das nicht weitergeleitet habe. Ich hätte es fast an die ganze Familie geschickt.",
+        "s": "Good thing I didn't forward it. I almost sent it to the whole family."
+      },
+      {
+        "sp": "A",
+        "t": "Das passiert vielen. Mein Tipp: erst die Quelle überprüfen, dann teilen.",
+        "s": "That happens to a lot of people. My tip: check the source first, then share."
+      }
     ]
   },
   "grammar": [
     {
       "id": "g01",
-      "title": { "t": "Er sagt, er habe keine Zeit.", "s": "Indirect speech with Konjunktiv I" },
+      "title": {
+        "t": "Er sagt, er habe keine Zeit.",
+        "s": "Indirect speech with Konjunktiv I"
+      },
       "explain": "In news reports and formal texts, German uses **Konjunktiv I** to report what someone else said. It signals: *this is their statement, not mine.*\nForm: infinitive stem + **-e, -est, -e, -en, -et, -en**. In practice you mostly need the **3rd person singular**: **er habe, sie komme, es gebe, man könne, sie wisse**. **sein** is irregular: **ich sei, du sei(e)st, er sei, wir seien, ihr seiet, sie seien**.\nPast: **habe / sei + past participle**: **Er sagt, er habe nichts gewusst.** / **Sie sagt, sie sei krank gewesen.** Future: **werde + infinitive**: **Er sagt, er werde kommen.**\nThe reported clause can start with **dass** (verb at the end) or keep main-clause word order: **Er sagt, dass er krank sei.** = **Er sagt, er sei krank.** Questions use **ob** or a question word: **Sie fragt, ob er Zeit habe.** Requests and commands use **sollen**: **Er sagt, ich solle warten.**\nRemember to change the perspective: **ich → er / sie**, **mein → sein / ihr**, **hier → dort**.",
       "table": [
-        ["sein", "er sei", "er sei gewesen"],
-        ["haben", "sie habe", "sie habe gehabt"],
-        ["kommen", "er komme", "er sei gekommen"],
-        ["geben", "es gebe", "es habe gegeben"],
-        ["wissen", "sie wisse", "sie habe gewusst"],
-        ["werden", "er werde", "er sei geworden"]
+        [
+          "sein",
+          "er sei",
+          "er sei gewesen"
+        ],
+        [
+          "haben",
+          "sie habe",
+          "sie habe gehabt"
+        ],
+        [
+          "kommen",
+          "er komme",
+          "er sei gekommen"
+        ],
+        [
+          "geben",
+          "es gebe",
+          "es habe gegeben"
+        ],
+        [
+          "wissen",
+          "sie wisse",
+          "sie habe gewusst"
+        ],
+        [
+          "werden",
+          "er werde",
+          "er sei geworden"
+        ]
       ],
       "examples": [
-        { "t": "Der Minister sagte, die Regierung plane keine neuen Steuern.", "s": "The minister said the government was not planning any new taxes." },
-        { "t": "Die Polizei teilte mit, niemand sei verletzt worden.", "s": "The police announced that nobody had been injured." },
-        { "t": "Die Firma erklärt, sie habe von dem Datenleck nichts gewusst.", "s": "The company states that it knew nothing about the data leak." },
-        { "t": "Der Experte meint, man könne Falschmeldungen oft an der Sprache erkennen.", "s": "The expert believes you can often recognize fake news by its language." },
-        { "t": "Sie fragte, ob die Information aus einer seriösen Quelle stamme.", "s": "She asked whether the information came from a reputable source." }
+        {
+          "t": "Der Minister sagte, die Regierung plane keine neuen Steuern.",
+          "s": "The minister said the government was not planning any new taxes."
+        },
+        {
+          "t": "Die Polizei teilte mit, niemand sei verletzt worden.",
+          "s": "The police announced that nobody had been injured."
+        },
+        {
+          "t": "Die Firma erklärt, sie habe von dem Datenleck nichts gewusst.",
+          "s": "The company states that it knew nothing about the data leak."
+        },
+        {
+          "t": "Der Experte meint, man könne Falschmeldungen oft an der Sprache erkennen.",
+          "s": "The expert believes you can often recognize fake news by its language."
+        },
+        {
+          "t": "Sie fragte, ob die Information aus einer seriösen Quelle stamme.",
+          "s": "She asked whether the information came from a reputable source."
+        }
       ],
       "exercises": [
-        { "type": "choice", "t": "Der Sprecher sagte, das Unternehmen ___ keine Daten weitergegeben.", "options": ["habe", "sei", "werde"], "answer": 0, "s": "The spokesperson said the company had not passed on any data." },
-        { "type": "choice", "t": "Die Ministerin betonte, sie ___ mit dem Ergebnis zufrieden.", "options": ["habe", "sei", "seien"], "answer": 1, "s": "The minister emphasized that she was satisfied with the result." },
-        { "type": "type", "t": "Der Journalist schreibt, es ___ noch keine offiziellen Zahlen.", "answer": ["gebe"], "s": "The journalist writes that there are no official figures yet." },
-        { "type": "type", "t": "Er behauptet, er ___ gestern im Büro gewesen.", "answer": ["sei"], "s": "He claims he was at the office yesterday." },
-        { "type": "choice", "t": "Sie sagt, sie ___ morgen früher kommen.", "options": ["könnt", "gekonnt", "könne"], "answer": 2, "s": "She says she can come earlier tomorrow." },
-        { "type": "choice", "t": "Der Arzt sagte, ich ___ mich ausruhen.", "options": ["solle", "sollen", "sollst"], "answer": 0, "s": "The doctor said I should rest." },
-        { "type": "order", "t": "Er sagt, er habe keine Zeit.", "s": "He says he has no time." },
-        { "type": "order", "t": "Die Polizei meldet, niemand sei verletzt worden.", "s": "The police report that nobody was injured." }
+        {
+          "type": "choice",
+          "t": "Der Sprecher sagte, das Unternehmen ___ keine Daten weitergegeben.",
+          "options": [
+            "habe",
+            "sei",
+            "werde"
+          ],
+          "answer": 0,
+          "s": "The spokesperson said the company had not passed on any data."
+        },
+        {
+          "type": "choice",
+          "t": "Die Ministerin betonte, sie ___ mit dem Ergebnis zufrieden.",
+          "options": [
+            "habe",
+            "sei",
+            "seien"
+          ],
+          "answer": 1,
+          "s": "The minister emphasized that she was satisfied with the result."
+        },
+        {
+          "type": "type",
+          "t": "Der Journalist schreibt, es ___ noch keine offiziellen Zahlen.",
+          "answer": [
+            "gebe"
+          ],
+          "s": "The journalist writes that there are no official figures yet."
+        },
+        {
+          "type": "type",
+          "t": "Er behauptet, er ___ gestern im Büro gewesen.",
+          "answer": [
+            "sei"
+          ],
+          "s": "He claims he was at the office yesterday."
+        },
+        {
+          "type": "choice",
+          "t": "Sie sagt, sie ___ morgen früher kommen.",
+          "options": [
+            "könnt",
+            "gekonnt",
+            "könne"
+          ],
+          "answer": 2,
+          "s": "She says she can come earlier tomorrow."
+        },
+        {
+          "type": "choice",
+          "t": "Der Arzt sagte, ich ___ mich ausruhen.",
+          "options": [
+            "solle",
+            "sollen",
+            "sollst"
+          ],
+          "answer": 0,
+          "s": "The doctor said I should rest."
+        },
+        {
+          "type": "order",
+          "t": "Er sagt, er habe keine Zeit.",
+          "s": "He says he has no time.",
+          "alts": [
+            "Er habe keine Zeit, sagt er."
+          ]
+        },
+        {
+          "type": "order",
+          "t": "Die Polizei meldet, niemand sei verletzt worden.",
+          "s": "The police report that nobody was injured.",
+          "alts": [
+            "Niemand sei verletzt worden, meldet die Polizei."
+          ]
+        }
       ]
     },
     {
       "id": "g02",
-      "title": { "t": "Sie sagen, sie hätten keine Zeit.", "s": "Konjunktiv II as a replacement in indirect speech" },
+      "title": {
+        "t": "Sie sagen, sie hätten keine Zeit.",
+        "s": "Konjunktiv II as a replacement in indirect speech"
+      },
       "explain": "Many Konjunktiv I forms look exactly like the indicative – especially the **ich** form and the **plural** forms: *ich habe, wir haben, sie kommen*. Then nobody can tell that it's reported speech, so German uses **Konjunktiv II** instead: **Sie sagen, sie hätten keine Zeit.** (not: *sie haben*).\nIf the Konjunktiv II form also looks like the Präteritum (all regular verbs: *sie arbeiteten*), use **würde + infinitive**: **Sie sagen, sie würden zu viel arbeiten.**\nIn the past, use **hätten + participle**: **Sie erzählen, sie hätten den Bus verpasst.** The verb **sein** never needs a replacement, because its Konjunktiv I is always distinct: **sie seien, sie seien gekommen**.\nRule of thumb: use Konjunktiv I if it is clearly different from the indicative (**er habe, sie sei**); otherwise use Konjunktiv II or **würde**.\nIn everyday speech, many Germans simply use Konjunktiv II or even the indicative for reported speech – but in writing and in exams, follow the rules above.",
       "table": [
-        ["Indikativ", "Konjunktiv I", "indirekte Rede"],
-        ["er hat", "er habe", "er habe"],
-        ["sie haben", "sie haben", "sie hätten"],
-        ["ich komme", "ich komme", "ich käme / würde kommen"],
-        ["sie arbeiten", "sie arbeiten", "sie würden arbeiten"],
-        ["sie sind", "sie seien", "sie seien"]
+        [
+          "Indikativ",
+          "Konjunktiv I",
+          "indirekte Rede"
+        ],
+        [
+          "er hat",
+          "er habe",
+          "er habe"
+        ],
+        [
+          "sie haben",
+          "sie haben",
+          "sie hätten"
+        ],
+        [
+          "ich komme",
+          "ich komme",
+          "ich käme / würde kommen"
+        ],
+        [
+          "sie arbeiten",
+          "sie arbeiten",
+          "sie würden arbeiten"
+        ],
+        [
+          "sie sind",
+          "sie seien",
+          "sie seien"
+        ]
       ],
       "examples": [
-        { "t": "Die Nutzer beklagen, sie hätten keine Kontrolle über ihre Daten.", "s": "Users complain that they have no control over their data." },
-        { "t": "Viele Eltern sagen, ihre Kinder würden zu viel Zeit am Handy verbringen.", "s": "Many parents say their children spend too much time on their phones." },
-        { "t": "Die Forscher erklärten, sie hätten über 2000 Personen befragt.", "s": "The researchers explained that they had surveyed more than 2,000 people." },
-        { "t": "Die Studierenden meinten, sie könnten ohne Internet nicht lernen.", "s": "The students said they couldn't study without the internet." },
-        { "t": "Ich sagte ihm, ich hätte die Nachricht nicht bekommen.", "s": "I told him I hadn't received the message." }
+        {
+          "t": "Die Nutzer beklagen, sie hätten keine Kontrolle über ihre Daten.",
+          "s": "Users complain that they have no control over their data."
+        },
+        {
+          "t": "Viele Eltern sagen, ihre Kinder würden zu viel Zeit am Handy verbringen.",
+          "s": "Many parents say their children spend too much time on their phones."
+        },
+        {
+          "t": "Die Forscher erklärten, sie hätten über 2000 Personen befragt.",
+          "s": "The researchers explained that they had surveyed more than 2,000 people."
+        },
+        {
+          "t": "Die Studierenden meinten, sie könnten ohne Internet nicht lernen.",
+          "s": "The students said they couldn't study without the internet."
+        },
+        {
+          "t": "Ich sagte ihm, ich hätte die Nachricht nicht bekommen.",
+          "s": "I told him I hadn't received the message."
+        }
       ],
       "exercises": [
-        { "type": "choice", "t": "Die Nutzer sagen, sie ___ keine Lust mehr auf Werbung.", "options": ["hatten", "hätten", "habe"], "answer": 1, "s": "The users say they're tired of ads." },
-        { "type": "choice", "t": "Die Schüler erzählten, sie ___ den ganzen Abend gespielt.", "options": ["hätten", "wären", "seien"], "answer": 0, "s": "The students said they had played all evening." },
-        { "type": "type", "t": "Meine Eltern meinen, wir ___ zu viel Zeit am Handy verbringen.", "answer": ["würden", "wuerden"], "s": "My parents think we spend too much time on our phones." },
-        { "type": "type", "t": "Die Journalisten berichten, sie ___ keine Antwort bekommen.", "answer": ["hätten", "haetten"], "s": "The journalists report that they haven't received an answer." },
-        { "type": "choice", "t": "Die Firmen erklären, sie ___ die Daten nicht verkaufen.", "options": ["wurden", "wird", "würden"], "answer": 2, "s": "The companies state that they won't sell the data." },
-        { "type": "choice", "t": "Wir sagten, wir ___ später.", "options": ["kämen", "käme", "kamen"], "answer": 0, "s": "We said we would come later." },
-        { "type": "order", "t": "Sie sagen, sie hätten keine Zeit.", "s": "They say they have no time." },
-        { "type": "order", "t": "Viele meinen, sie würden zu wenig schlafen.", "s": "Many people say they don't get enough sleep." }
+        {
+          "type": "choice",
+          "t": "Die Nutzer sagen, sie ___ keine Lust mehr auf Werbung.",
+          "options": [
+            "hatten",
+            "hätten",
+            "habe"
+          ],
+          "answer": 1,
+          "s": "The users say they're tired of ads."
+        },
+        {
+          "type": "choice",
+          "t": "Die Schüler erzählten, sie ___ den ganzen Abend gespielt.",
+          "options": [
+            "hätten",
+            "wären",
+            "seien"
+          ],
+          "answer": 0,
+          "s": "The students said they had played all evening."
+        },
+        {
+          "type": "type",
+          "t": "Meine Eltern meinen, wir ___ zu viel Zeit am Handy verbringen.",
+          "answer": [
+            "würden",
+            "wuerden"
+          ],
+          "s": "My parents think we spend too much time on our phones."
+        },
+        {
+          "type": "type",
+          "t": "Die Journalisten berichten, sie ___ keine Antwort bekommen.",
+          "answer": [
+            "hätten",
+            "haetten"
+          ],
+          "s": "The journalists report that they haven't received an answer."
+        },
+        {
+          "type": "choice",
+          "t": "Die Firmen erklären, sie ___ die Daten nicht verkaufen.",
+          "options": [
+            "wurden",
+            "wird",
+            "würden"
+          ],
+          "answer": 2,
+          "s": "The companies state that they won't sell the data."
+        },
+        {
+          "type": "choice",
+          "t": "Wir sagten, wir ___ später.",
+          "options": [
+            "kämen",
+            "käme",
+            "kamen"
+          ],
+          "answer": 0,
+          "s": "We said we would come later."
+        },
+        {
+          "type": "order",
+          "t": "Sie sagen, sie hätten keine Zeit.",
+          "s": "They say they have no time.",
+          "alts": [
+            "Sie hätten keine Zeit, sagen sie."
+          ]
+        },
+        {
+          "type": "order",
+          "t": "Viele meinen, sie würden zu wenig schlafen.",
+          "s": "Many people say they don't get enough sleep.",
+          "alts": [
+            "Sie würden zu wenig schlafen, meinen viele."
+          ]
+        }
       ]
     }
   ],
   "reading": {
-    "title": { "t": "Nachrichten aus dem Netz", "s": "News from the internet" },
+    "title": {
+      "t": "Nachrichten aus dem Netz",
+      "s": "News from the internet"
+    },
     "text": [
-      { "t": "Immer mehr Menschen in Deutschland informieren sich vor allem über soziale Medien und kaum noch über Zeitung oder Fernsehen.", "s": "More and more people in Germany get their information mainly from social media and hardly at all from newspapers or TV." },
-      { "t": "Das geht aus einer aktuellen Umfrage unter 2000 Erwachsenen hervor.", "s": "This is shown by a recent survey of 2,000 adults." },
-      { "t": "Besonders bei den 18- bis 29-Jährigen spielen Plattformen wie Instagram oder TikTok eine große Rolle.", "s": "Platforms such as Instagram or TikTok play a big role, especially among 18- to 29-year-olds." },
-      { "t": "Viele Befragte gaben an, sie hätten keine Zeit, lange Artikel zu lesen.", "s": "Many respondents said they didn't have time to read long articles." },
-      { "t": "Kurze Videos seien praktischer und unterhaltsamer, erklärte eine 24-jährige Studentin.", "s": "Short videos were more practical and more entertaining, explained a 24-year-old student." },
-      { "t": "Medienexperten sehen diese Entwicklung jedoch kritisch.", "s": "Media experts, however, view this development critically." },
-      { "t": "Ein Medienforscher warnte, Algorithmen würden den Nutzern vor allem das zeigen, was sie ohnehin schon glaubten.", "s": "One media researcher warned that algorithms mainly showed users what they already believed anyway." },
-      { "t": "So entstehe eine sogenannte Filterblase, in der man andere Perspektiven kaum noch wahrnehme.", "s": "This creates a so-called filter bubble in which you hardly notice other perspectives anymore." },
-      { "t": "Außerdem würden sich Falschmeldungen in den sozialen Medien oft schneller verbreiten als seriöse Nachrichten.", "s": "In addition, he said, false reports often spread faster on social media than reliable news." },
-      { "t": "Der Experte fordert deshalb, Medienkompetenz müsse schon in der Schule unterrichtet werden.", "s": "The expert therefore demands that media literacy be taught in school." },
-      { "t": "Jugendliche sollten lernen, Quellen kritisch zu überprüfen und Informationen richtig einzuordnen.", "s": "Young people should learn to check sources critically and put information into context." },
-      { "t": "Doch auch die klassischen Medien sind gefordert: Sie müssen Wege finden, junge Menschen dort zu erreichen, wo diese sich aufhalten.", "s": "But traditional media are also challenged: they have to find ways to reach young people where they spend their time." }
+      {
+        "t": "Immer mehr Menschen in Deutschland informieren sich vor allem über soziale Medien und kaum noch über Zeitung oder Fernsehen.",
+        "s": "More and more people in Germany get their information mainly from social media and hardly at all from newspapers or TV."
+      },
+      {
+        "t": "Das geht aus einer aktuellen Umfrage unter 2000 Erwachsenen hervor.",
+        "s": "This is shown by a recent survey of 2,000 adults."
+      },
+      {
+        "t": "Besonders bei den 18- bis 29-Jährigen spielen Plattformen wie Instagram oder TikTok eine große Rolle.",
+        "s": "Platforms such as Instagram or TikTok play a big role, especially among 18- to 29-year-olds."
+      },
+      {
+        "t": "Viele Befragte gaben an, sie hätten keine Zeit, lange Artikel zu lesen.",
+        "s": "Many respondents said they didn't have time to read long articles."
+      },
+      {
+        "t": "Kurze Videos seien praktischer und unterhaltsamer, erklärte eine 24-jährige Studentin.",
+        "s": "Short videos were more practical and more entertaining, explained a 24-year-old student."
+      },
+      {
+        "t": "Medienexperten sehen diese Entwicklung jedoch kritisch.",
+        "s": "Media experts, however, view this development critically."
+      },
+      {
+        "t": "Ein Medienforscher warnte, Algorithmen würden den Nutzern vor allem das zeigen, was sie ohnehin schon glaubten.",
+        "s": "One media researcher warned that algorithms mainly showed users what they already believed anyway."
+      },
+      {
+        "t": "So entstehe eine sogenannte Filterblase, in der man andere Perspektiven kaum noch wahrnehme.",
+        "s": "This creates a so-called filter bubble in which you hardly notice other perspectives anymore."
+      },
+      {
+        "t": "Außerdem würden sich Falschmeldungen in den sozialen Medien oft schneller verbreiten als seriöse Nachrichten.",
+        "s": "In addition, he said, false reports often spread faster on social media than reliable news."
+      },
+      {
+        "t": "Der Experte fordert deshalb, Medienkompetenz müsse schon in der Schule unterrichtet werden.",
+        "s": "The expert therefore demands that media literacy be taught in school."
+      },
+      {
+        "t": "Jugendliche sollten lernen, Quellen kritisch zu überprüfen und Informationen richtig einzuordnen.",
+        "s": "Young people should learn to check sources critically and put information into context."
+      },
+      {
+        "t": "Doch auch die klassischen Medien sind gefordert: Sie müssen Wege finden, junge Menschen dort zu erreichen, wo diese sich aufhalten.",
+        "s": "But traditional media are also challenged: they have to find ways to reach young people where they spend their time."
+      }
     ],
     "questions": [
-      { "q": { "t": "Wie informieren sich immer mehr Menschen?", "s": "How do more and more people get their information?" }, "options": ["über soziale Medien", "über das Radio", "über Tageszeitungen"], "answer": 0 },
-      { "q": { "t": "Warum lesen viele Befragte keine langen Artikel?", "s": "Why don't many respondents read long articles?" }, "options": ["Sie finden sie zu teuer.", "Sie haben keine Zeit dafür.", "Sie verstehen sie nicht."], "answer": 1 },
-      { "q": { "t": "Was ist eine „Filterblase“?", "s": "What is a 'filter bubble'?" }, "options": ["ein neues soziales Netzwerk", "eine Methode, Falschmeldungen zu erkennen", "eine Situation, in der man kaum andere Meinungen sieht"], "answer": 2 },
-      { "q": { "t": "Was fordert der Medienforscher?", "s": "What does the media researcher demand?" }, "options": ["Medienkompetenz als Thema in der Schule", "ein Verbot von TikTok", "mehr Werbung in Zeitungen"], "answer": 0 },
-      { "q": { "t": "Was müssen die klassischen Medien laut Text tun?", "s": "According to the text, what do traditional media have to do?" }, "options": ["ihre Preise senken", "junge Menschen dort erreichen, wo sie sind", "auf Videos verzichten"], "answer": 1 }
+      {
+        "q": {
+          "t": "Wie informieren sich immer mehr Menschen?",
+          "s": "How do more and more people get their information?"
+        },
+        "options": [
+          "über soziale Medien",
+          "über das Radio",
+          "über Tageszeitungen"
+        ],
+        "answer": 0
+      },
+      {
+        "q": {
+          "t": "Warum lesen viele Befragte keine langen Artikel?",
+          "s": "Why don't many respondents read long articles?"
+        },
+        "options": [
+          "Sie finden sie zu teuer.",
+          "Sie haben keine Zeit dafür.",
+          "Sie verstehen sie nicht."
+        ],
+        "answer": 1
+      },
+      {
+        "q": {
+          "t": "Was ist eine „Filterblase“?",
+          "s": "What is a 'filter bubble'?"
+        },
+        "options": [
+          "ein neues soziales Netzwerk",
+          "eine Methode, Falschmeldungen zu erkennen",
+          "eine Situation, in der man kaum andere Meinungen sieht"
+        ],
+        "answer": 2
+      },
+      {
+        "q": {
+          "t": "Was fordert der Medienforscher?",
+          "s": "What does the media researcher demand?"
+        },
+        "options": [
+          "Medienkompetenz als Thema in der Schule",
+          "ein Verbot von TikTok",
+          "mehr Werbung in Zeitungen"
+        ],
+        "answer": 0
+      },
+      {
+        "q": {
+          "t": "Was müssen die klassischen Medien laut Text tun?",
+          "s": "According to the text, what do traditional media have to do?"
+        },
+        "options": [
+          "ihre Preise senken",
+          "junge Menschen dort erreichen, wo sie sind",
+          "auf Videos verzichten"
+        ],
+        "answer": 1
+      }
     ]
   },
   "sentences": [
-    { "t": "Ich lese die Nachrichten meistens auf dem Handy.", "s": "I usually read the news on my phone." },
-    { "t": "Woher stammt diese Information?", "s": "Where does this information come from?" },
-    { "t": "Der Beitrag wurde von vielen Nutzern geteilt.", "s": "The post was shared by many users." },
-    { "t": "Sie sagte, sie habe den Artikel nicht gelesen.", "s": "She said she hadn't read the article." },
-    { "t": "Die Firma behauptet, die Daten seien sicher.", "s": "The company claims the data is secure." },
-    { "t": "Viele Menschen verbringen zu viel Zeit vor dem Bildschirm.", "s": "Many people spend too much time in front of screens." },
-    { "t": "Man sollte nicht alles glauben, was im Internet steht.", "s": "You shouldn't believe everything you read on the internet." },
-    { "t": "Laut einer Umfrage nutzen fast alle Jugendlichen soziale Medien.", "s": "According to a survey, almost all young people use social media." }
+    {
+      "t": "Ich lese die Nachrichten meistens auf dem Handy.",
+      "s": "I usually read the news on my phone."
+    },
+    {
+      "t": "Woher stammt diese Information?",
+      "s": "Where does this information come from?"
+    },
+    {
+      "t": "Der Beitrag wurde von vielen Nutzern geteilt.",
+      "s": "The post was shared by many users."
+    },
+    {
+      "t": "Sie sagte, sie habe den Artikel nicht gelesen.",
+      "s": "She said she hadn't read the article."
+    },
+    {
+      "t": "Die Firma behauptet, die Daten seien sicher.",
+      "s": "The company claims the data is secure."
+    },
+    {
+      "t": "Viele Menschen verbringen zu viel Zeit vor dem Bildschirm.",
+      "s": "Many people spend too much time in front of screens."
+    },
+    {
+      "t": "Man sollte nicht alles glauben, was im Internet steht.",
+      "s": "You shouldn't believe everything you read on the internet."
+    },
+    {
+      "t": "Laut einer Umfrage nutzen fast alle Jugendlichen soziale Medien.",
+      "s": "According to a survey, almost all young people use social media."
+    }
   ]
 }

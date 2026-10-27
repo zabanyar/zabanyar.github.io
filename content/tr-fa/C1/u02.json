@@ -65,7 +65,7 @@
       "t": "milletvekili",
       "pl": "milletvekilleri",
       "s": "نماینده‌ی مجلس",
-      "pr": "میلِّتوِکیلی",
+      "pr": "میلِّتوِکیلی",
       "emoji": "",
       "ex": {
         "t": "Milletvekilleri yeni yasa teklifini görüşmek için toplandı.",
@@ -211,7 +211,7 @@
       "id": "p02",
       "t": "Herkesin oy kullanma hakkı var.",
       "s": "همه حق رأی دادن دارند.",
-      "pr": "هِرکِسین اُی کولّانما هاکِّ وار."
+      "pr": "هِرکِسین اُی کولّانما هاکِّ وار."
     },
     {
       "id": "p03",
@@ -247,7 +247,10 @@
       "id": "p08",
       "t": "Oy vermeden önce adayların programlarını inceleyin.",
       "s": "پیش از رأی دادن، برنامه‌های نامزدها را بررسی کنید.",
-      "pr": "اُی وِرمِدِن اُنجِه آدایلارِن پْرُگراملارِنِ اینجِلِیین."
+      "pr": "اُی وِرمِدِن اُنجِه آدایلارِن پْرُگراملارِنِ اینجِلِیین.",
+      "alts": [
+        "Adayların programlarını oy vermeden önce inceleyin."
+      ]
     }
   ],
   "dialogue": {

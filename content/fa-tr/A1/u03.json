@@ -29,28 +29,28 @@
     },
     {
       "id": "w02",
-      "t": "مادر",
-      "pl": "مادرها",
-      "pr": "mâdar",
-      "s": "anne",
-      "emoji": "👩",
+      "t": "عمو",
+      "pl": "عموها",
+      "s": "amca (babanın erkek kardeşi)",
+      "pr": "amu",
+      "emoji": "",
       "ex": {
-        "t": "مادرم معلم است.",
-        "pr": "Mâdaram mo'allem ast.",
-        "s": "Annem öğretmen."
+        "t": "عموی من دو پسر دارد.",
+        "pr": "Amu-ye man do pesar dârad.",
+        "s": "Amcamın iki oğlu var."
       }
     },
     {
       "id": "w03",
-      "t": "پدر",
-      "pl": "پدرها",
-      "pr": "pedar",
-      "s": "baba",
-      "emoji": "👨",
+      "t": "خاله",
+      "pl": "خاله‌ها",
+      "s": "teyze (annenin kız kardeşi; Türkçedeki 'hala' değil!)",
+      "pr": "xâle",
+      "emoji": "",
       "ex": {
-        "t": "پدرم دکتر است.",
-        "pr": "Pedaram doktor ast.",
-        "s": "Babam doktor."
+        "t": "خاله‌ی من معلم است.",
+        "pr": "Xâle-ye man mo'allem ast.",
+        "s": "Teyzem öğretmen."
       }
     },
     {

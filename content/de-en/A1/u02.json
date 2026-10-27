@@ -510,7 +510,10 @@
         {
           "type": "order",
           "t": "Maryam wohnt in Köln.",
-          "s": "Maryam lives in Cologne."
+          "s": "Maryam lives in Cologne.",
+          "alts": [
+            "In Köln wohnt Maryam."
+          ]
         }
       ]
     }
@@ -616,7 +619,10 @@
     },
     {
       "t": "Sara wohnt in Hamburg.",
-      "s": "Sara lives in Hamburg."
+      "s": "Sara lives in Hamburg.",
+      "alts": [
+        "In Hamburg wohnt Sara."
+      ]
     },
     {
       "t": "Wo wohnen Sie?",

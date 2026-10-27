@@ -475,7 +475,8 @@
           "type": "type",
           "t": "Neden ___? Saat on iki!",
           "answer": [
-            "uyumuyorsun"
+            "uyumuyorsun",
+            "yatmıyorsun"
           ],
           "s": "چرا نمی‌خوابی؟ ساعت دوازده است!"
         },

@@ -15,13 +15,13 @@
   "words": [
     {
       "id": "w01",
-      "t": "die Weiterbildung",
-      "pl": "die Weiterbildungen",
-      "s": "further training, continuing education",
+      "t": "die Umschulung",
+      "pl": "die Umschulungen",
+      "s": "retraining (for a new occupation)",
       "emoji": "",
       "ex": {
-        "t": "Die Firma bezahlt jedem Mitarbeiter eine Weiterbildung pro Jahr.",
-        "s": "The company pays for one training course per year for every employee."
+        "t": "Nach zwanzig Jahren als Koch hat er eine Umschulung zum Pflegefachmann gemacht.",
+        "s": "After twenty years as a cook, he retrained as a nurse."
       }
     },
     {
@@ -50,7 +50,7 @@
       "id": "w04",
       "t": "das Zeugnis",
       "pl": "die Zeugnisse",
-      "s": "certificate; school report; job reference",
+      "s": "certificate; report card; letter of reference",
       "emoji": "📜",
       "ex": {
         "t": "Bitte legen Sie Ihrer Bewerbung alle Zeugnisse bei.",
@@ -69,13 +69,13 @@
     },
     {
       "id": "w06",
-      "t": "die Voraussetzung",
-      "pl": "die Voraussetzungen",
-      "s": "requirement, prerequisite",
+      "t": "der Nachweis",
+      "pl": "die Nachweise",
+      "s": "proof, certificate (e.g. of language skills)",
       "emoji": "",
       "ex": {
-        "t": "Gute Deutschkenntnisse sind eine wichtige Voraussetzung für das Studium.",
-        "s": "Good German skills are an important prerequisite for studying at university."
+        "t": "Für die Anmeldung brauchen Sie einen Nachweis über Ihre Deutschkenntnisse.",
+        "s": "To register, you need proof of your German skills."
       }
     },
     {
@@ -347,11 +347,11 @@
         },
         {
           "t": "Die Entscheidung für ein Studium ist mir nicht leichtgefallen.",
-          "s": "The decision to go to university wasn't easy for me."
+          "s": "The decision to go to college wasn't easy for me."
         },
         {
           "t": "Nach dem Abschluss der Ausbildung hat Ali sofort eine Stelle gefunden.",
-          "s": "After completing his vocational training, Ali found a job straight away."
+          "s": "After completing his vocational training, Ali found a job right away."
         },
         {
           "t": "Die Anmeldung zum Kurs ist bis Freitag möglich.",
@@ -423,12 +423,19 @@
         {
           "type": "order",
           "t": "Beim Lernen mache ich regelmäßig Pausen.",
-          "s": "When I study, I take regular breaks."
+          "s": "When I study, I take regular breaks.",
+          "alts": [
+            "Ich mache beim Lernen regelmäßig Pausen."
+          ]
         },
         {
           "type": "order",
           "t": "Nach dem Studium möchte Mina in Berlin arbeiten.",
-          "s": "After her studies Mina would like to work in Berlin."
+          "s": "After her studies Mina would like to work in Berlin.",
+          "alts": [
+            "Mina möchte nach dem Studium in Berlin arbeiten.",
+            "In Berlin möchte Mina nach dem Studium arbeiten."
+          ]
         }
       ]
     },
@@ -539,7 +546,7 @@
             "Trotz"
           ],
           "answer": 2,
-          "s": "It was raining heavily. Despite the rain, Ali cycled to university."
+          "s": "It was raining heavily. Despite the rain, Ali rode his bike to campus."
         },
         {
           "type": "choice",
@@ -563,7 +570,10 @@
         {
           "type": "order",
           "t": "Während des Studiums hat Mina viel gearbeitet.",
-          "s": "During her studies Mina worked a lot."
+          "s": "During her studies Mina worked a lot.",
+          "alts": [
+            "Mina hat während des Studiums viel gearbeitet."
+          ]
         }
       ]
     }

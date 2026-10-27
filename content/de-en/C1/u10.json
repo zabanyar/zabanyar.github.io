@@ -230,11 +230,11 @@
     },
     "speakers": {
       "A": {
-        "name": "Dr. Mina Karimi",
+        "name": "Anna",
         "voice": "f"
       },
       "B": {
-        "name": "Jonas Berger",
+        "name": "Ali",
         "voice": "m"
       }
     },
@@ -415,12 +415,18 @@
         {
           "type": "order",
           "t": "Dem kann ich nur bedingt zustimmen.",
-          "s": "I can only partly agree with that."
+          "s": "I can only partly agree with that.",
+          "alts": [
+            "Ich kann dem nur bedingt zustimmen."
+          ]
         },
         {
           "type": "order",
           "t": "Damit komme ich zum nächsten Punkt.",
-          "s": "That brings me to the next point."
+          "s": "That brings me to the next point.",
+          "alts": [
+            "Ich komme damit zum nächsten Punkt."
+          ]
         }
       ]
     },
@@ -541,7 +547,10 @@
         {
           "type": "order",
           "t": "Da wäre ich mir nicht so sicher.",
-          "s": "I wouldn't be so sure about that."
+          "s": "I wouldn't be so sure about that.",
+          "alts": [
+            "Ich wäre mir da nicht so sicher."
+          ]
         },
         {
           "type": "order",

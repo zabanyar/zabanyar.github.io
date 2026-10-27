@@ -135,7 +135,7 @@
       "id": "w12",
       "t": "die Wartenummer",
       "pl": "die Wartenummern",
-      "s": "queue number (the ticket you take while you wait)",
+      "s": "number ticket (the numbered ticket you take while you wait your turn)",
       "emoji": "",
       "ex": {
         "t": "Ziehen Sie bitte eine Wartenummer und warten Sie im Flur.",
@@ -301,7 +301,7 @@
         "t": "einen Antrag stellen, eine Entscheidung treffen",
         "s": "Noun-verb combinations"
       },
-      "explain": "Official and written German uses many **noun-verb combinations**: a fixed noun + a verb that has lost most of its own meaning. The noun carries the meaning, and you can't freely choose the verb – learn each combination as a unit, just like English *make a decision* or *take a seat*.\nOften there is a simple verb with the same meaning: **eine Entscheidung treffen = entscheiden**, **eine Frage stellen = fragen**, **einen Antrag stellen = beantragen**. The noun-verb combination sounds more formal and is typical of letters, forms and the news.\nCommon combinations:\n• **einen Antrag stellen (auf + A)** – to apply (for), submit an application\n• **eine Entscheidung treffen** – to make a decision\n• **eine Frage stellen** – to ask a question\n• **einen Termin vereinbaren** – to make an appointment\n• **Bescheid sagen** – to let someone know; **Bescheid wissen** – to know (about something)\n• **Auskunft geben** – to give information\n• **eine Rolle spielen** – to matter, play a role\n• **in Kraft treten** – to come into effect (laws, rules)\n• **Platz nehmen** – to take a seat\nThe verb is often different from English: **eine Entscheidung treffen** (literally *meet a decision*), **eine Frage stellen** (literally *put a question*).\nWord order: the conjugated verb is in position 2 as usual, and the noun part usually goes towards the **end** of the clause, a bit like a separable prefix: **Das Gesetz tritt am ersten Januar in Kraft. Sagen Sie mir bitte morgen Bescheid.**",
+      "explain": "Official and written German uses many **noun-verb combinations**: a fixed noun + a verb that has lost most of its own meaning. The noun carries the meaning, and you can't freely choose the verb – learn each combination as a unit, just like English *make a decision* or *take a seat*.\nOften there is a simple verb with the same meaning: **eine Entscheidung treffen = entscheiden**, **eine Frage stellen = fragen**, **einen Antrag stellen = beantragen**. The noun-verb combination sounds more formal and is typical of letters, forms and the news.\nCommon combinations:\n• **einen Antrag stellen (auf + A)** – to apply (for), submit an application\n• **eine Entscheidung treffen** – to make a decision\n• **eine Frage stellen** – to ask a question\n• **einen Termin vereinbaren** – to make an appointment\n• **Bescheid sagen** – to let someone know; **Bescheid wissen** – to know (about something)\n• **Auskunft geben** – to give information\n• **eine Rolle spielen** – to matter, play a role\n• **in Kraft treten** – to come into effect (laws, rules)\n• **Platz nehmen** – to take a seat\nThe verb is often different from English: **eine Entscheidung treffen** (literally *meet a decision*), **eine Frage stellen** (literally *put a question*).\nWord order: the conjugated verb is in position 2 as usual, and the noun part usually goes toward the **end** of the clause, a bit like a separable prefix: **Das Gesetz tritt am ersten Januar in Kraft. Sagen Sie mir bitte morgen Bescheid.**",
       "table": [
         [
           "einen Antrag stellen",
@@ -389,7 +389,8 @@
           "t": "Ich habe einen Antrag auf Wohngeld ___.",
           "answer": [
             "gestellt",
-            "eingereicht"
+            "eingereicht",
+            "abgegeben"
           ],
           "s": "I applied for housing benefit."
         },
@@ -578,8 +579,8 @@
     },
     "text": [
       {
-        "t": "Hallo, ich heiße Mina und lebe seit drei Jahren in Leipzig.",
-        "s": "Hi, my name is Mina, and I've been living in Leipzig for three years."
+        "t": "Hallo, ich heiße Mina und lebe seit drei Jahren in Köln.",
+        "s": "Hi, my name is Mina, and I've been living in Cologne for three years."
       },
       {
         "t": "Wer nach Deutschland zieht, muss sich innerhalb von zwei Wochen beim Bürgeramt anmelden.",

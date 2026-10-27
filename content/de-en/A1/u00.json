@@ -2,102 +2,547 @@
   "id": "u00",
   "level": "A1",
   "emoji": "🔤",
-  "title": { "t": "Das Alphabet", "s": "The alphabet" },
+  "title": {
+    "t": "Das Alphabet",
+    "s": "The alphabet"
+  },
   "goals": [
     "Say the German alphabet and spell your name",
     "Recognize Ä, Ö, Ü and ß",
     "Pronounce key German sounds like ei, ie, ch and sch",
     "Read and say your first German words"
   ],
-
   "letters": [
-    { "t": "A a", "pr": "ah", "ex": { "t": "der Apfel", "s": "apple", "emoji": "🍎" } },
-    { "t": "B b", "pr": "bay", "ex": { "t": "der Ball", "s": "ball", "emoji": "⚽" } },
-    { "t": "C c", "pr": "tsay", "ex": { "t": "der Computer", "s": "computer", "emoji": "💻" } },
-    { "t": "D d", "pr": "day", "ex": { "t": "der Delfin", "s": "dolphin", "emoji": "🐬" } },
-    { "t": "E e", "pr": "ay", "ex": { "t": "der Elefant", "s": "elephant", "emoji": "🐘" } },
-    { "t": "F f", "pr": "eff", "ex": { "t": "der Fisch", "s": "fish", "emoji": "🐟" } },
-    { "t": "G g", "pr": "gay", "ex": { "t": "die Gitarre", "s": "guitar", "emoji": "🎸" } },
-    { "t": "H h", "pr": "hah", "ex": { "t": "das Herz", "s": "heart", "emoji": "❤️" } },
-    { "t": "I i", "pr": "ee", "ex": { "t": "der Igel", "s": "hedgehog", "emoji": "🦔" } },
-    { "t": "J j", "pr": "yot", "ex": { "t": "die Jacke", "s": "jacket", "emoji": "🧥" } },
-    { "t": "K k", "pr": "kah", "ex": { "t": "die Kuh", "s": "cow", "emoji": "🐄" } },
-    { "t": "L l", "pr": "ell", "ex": { "t": "der Löwe", "s": "lion", "emoji": "🦁" } },
-    { "t": "M m", "pr": "em", "ex": { "t": "der Mond", "s": "moon", "emoji": "🌙" } },
-    { "t": "N n", "pr": "en", "ex": { "t": "die Nase", "s": "nose", "emoji": "👃" } },
-    { "t": "O o", "pr": "oh", "ex": { "t": "das Ohr", "s": "ear", "emoji": "👂" } },
-    { "t": "P p", "pr": "pay", "ex": { "t": "der Pinguin", "s": "penguin", "emoji": "🐧" } },
-    { "t": "Q q", "pr": "koo", "ex": { "t": "die Qualle", "s": "jellyfish", "emoji": "🪼" } },
-    { "t": "R r", "pr": "err", "ex": { "t": "die Rose", "s": "rose", "emoji": "🌹" } },
-    { "t": "S s", "pr": "ess", "ex": { "t": "die Sonne", "s": "sun", "emoji": "☀️" } },
-    { "t": "T t", "pr": "tay", "ex": { "t": "die Tomate", "s": "tomato", "emoji": "🍅" } },
-    { "t": "U u", "pr": "oo", "ex": { "t": "die Uhr", "s": "clock; watch", "emoji": "⌚" } },
-    { "t": "V v", "pr": "fow (rhymes with 'cow')", "ex": { "t": "der Vogel", "s": "bird", "emoji": "🐦" } },
-    { "t": "W w", "pr": "vay", "ex": { "t": "der Wal", "s": "whale", "emoji": "🐋" } },
-    { "t": "X x", "pr": "iks", "ex": { "t": "das Taxi", "s": "taxi", "emoji": "🚕" } },
-    { "t": "Y y", "pr": "ÜP-see-lon", "ex": { "t": "das Yoga", "s": "yoga", "emoji": "🧘" } },
-    { "t": "Z z", "pr": "tset", "ex": { "t": "das Zebra", "s": "zebra", "emoji": "🦓" } },
-    { "t": "Ä ä", "pr": "eh (like 'e' in 'bed', but longer)", "ex": { "t": "der Käse", "s": "cheese", "emoji": "🧀" } },
-    { "t": "Ö ö", "pr": "say 'ay' with rounded lips", "ex": { "t": "die Möhre", "s": "carrot", "emoji": "🥕" } },
-    { "t": "Ü ü", "pr": "say 'ee' with rounded lips", "ex": { "t": "die Tür", "s": "door", "emoji": "🚪" } },
-    { "t": "ß", "pr": "ess-TSET (a sharp 's')", "ex": { "t": "der Fuß", "s": "foot", "emoji": "🦶" } }
+    {
+      "t": "A a",
+      "pr": "ah",
+      "ex": {
+        "t": "der Apfel",
+        "s": "apple",
+        "emoji": "🍎"
+      }
+    },
+    {
+      "t": "B b",
+      "pr": "bay",
+      "ex": {
+        "t": "der Ball",
+        "s": "ball",
+        "emoji": "⚽"
+      }
+    },
+    {
+      "t": "C c",
+      "pr": "tsay",
+      "ex": {
+        "t": "der Computer",
+        "s": "computer",
+        "emoji": "💻"
+      }
+    },
+    {
+      "t": "D d",
+      "pr": "day",
+      "ex": {
+        "t": "der Delfin",
+        "s": "dolphin",
+        "emoji": "🐬"
+      }
+    },
+    {
+      "t": "E e",
+      "pr": "ay",
+      "ex": {
+        "t": "der Elefant",
+        "s": "elephant",
+        "emoji": "🐘"
+      }
+    },
+    {
+      "t": "F f",
+      "pr": "eff",
+      "ex": {
+        "t": "der Fisch",
+        "s": "fish",
+        "emoji": "🐟"
+      }
+    },
+    {
+      "t": "G g",
+      "pr": "gay",
+      "ex": {
+        "t": "die Gitarre",
+        "s": "guitar",
+        "emoji": "🎸"
+      }
+    },
+    {
+      "t": "H h",
+      "pr": "hah",
+      "ex": {
+        "t": "das Herz",
+        "s": "heart",
+        "emoji": "❤️"
+      }
+    },
+    {
+      "t": "I i",
+      "pr": "ee",
+      "ex": {
+        "t": "der Igel",
+        "s": "hedgehog",
+        "emoji": "🦔"
+      }
+    },
+    {
+      "t": "J j",
+      "pr": "yot",
+      "ex": {
+        "t": "die Jacke",
+        "s": "jacket",
+        "emoji": "🧥"
+      }
+    },
+    {
+      "t": "K k",
+      "pr": "kah",
+      "ex": {
+        "t": "die Kuh",
+        "s": "cow",
+        "emoji": "🐄"
+      }
+    },
+    {
+      "t": "L l",
+      "pr": "ell",
+      "ex": {
+        "t": "der Löwe",
+        "s": "lion",
+        "emoji": "🦁"
+      }
+    },
+    {
+      "t": "M m",
+      "pr": "em",
+      "ex": {
+        "t": "der Mond",
+        "s": "moon",
+        "emoji": "🌙"
+      }
+    },
+    {
+      "t": "N n",
+      "pr": "en",
+      "ex": {
+        "t": "die Nase",
+        "s": "nose",
+        "emoji": "👃"
+      }
+    },
+    {
+      "t": "O o",
+      "pr": "oh",
+      "ex": {
+        "t": "das Ohr",
+        "s": "ear",
+        "emoji": "👂"
+      }
+    },
+    {
+      "t": "P p",
+      "pr": "pay",
+      "ex": {
+        "t": "der Pinguin",
+        "s": "penguin",
+        "emoji": "🐧"
+      }
+    },
+    {
+      "t": "Q q",
+      "pr": "koo",
+      "ex": {
+        "t": "die Qualle",
+        "s": "jellyfish",
+        "emoji": "🪼"
+      }
+    },
+    {
+      "t": "R r",
+      "pr": "air",
+      "ex": {
+        "t": "die Rose",
+        "s": "rose",
+        "emoji": "🌹"
+      }
+    },
+    {
+      "t": "S s",
+      "pr": "ess",
+      "ex": {
+        "t": "die Sonne",
+        "s": "sun",
+        "emoji": "☀️"
+      }
+    },
+    {
+      "t": "T t",
+      "pr": "tay",
+      "ex": {
+        "t": "die Tomate",
+        "s": "tomato",
+        "emoji": "🍅"
+      }
+    },
+    {
+      "t": "U u",
+      "pr": "oo",
+      "ex": {
+        "t": "die Uhr",
+        "s": "clock; watch",
+        "emoji": "⌚"
+      }
+    },
+    {
+      "t": "V v",
+      "pr": "fow (rhymes with 'cow')",
+      "ex": {
+        "t": "der Vogel",
+        "s": "bird",
+        "emoji": "🐦"
+      }
+    },
+    {
+      "t": "W w",
+      "pr": "vay",
+      "ex": {
+        "t": "der Wal",
+        "s": "whale",
+        "emoji": "🐋"
+      }
+    },
+    {
+      "t": "X x",
+      "pr": "iks",
+      "ex": {
+        "t": "das Taxi",
+        "s": "taxi",
+        "emoji": "🚕"
+      }
+    },
+    {
+      "t": "Y y",
+      "pr": "ÜP·see·lon",
+      "ex": {
+        "t": "das Yoga",
+        "s": "yoga",
+        "emoji": "🧘"
+      }
+    },
+    {
+      "t": "Z z",
+      "pr": "tset",
+      "ex": {
+        "t": "das Zebra",
+        "s": "zebra",
+        "emoji": "🦓"
+      }
+    },
+    {
+      "t": "Ä ä",
+      "pr": "eh (like 'e' in 'bed', but longer)",
+      "ex": {
+        "t": "der Käse",
+        "s": "cheese",
+        "emoji": "🧀"
+      }
+    },
+    {
+      "t": "Ö ö",
+      "pr": "say 'ay' with rounded lips",
+      "ex": {
+        "t": "die Möhre",
+        "s": "carrot",
+        "emoji": "🥕"
+      }
+    },
+    {
+      "t": "Ü ü",
+      "pr": "say 'ee' with rounded lips",
+      "ex": {
+        "t": "die Tür",
+        "s": "door",
+        "emoji": "🚪"
+      }
+    },
+    {
+      "t": "ß",
+      "pr": "ess·TSET (a sharp 's')",
+      "ex": {
+        "t": "der Fuß",
+        "s": "foot",
+        "emoji": "🦶"
+      }
+    }
   ],
-
   "sounds": [
     {
       "t": "ei",
       "s": "Sounds like English 'eye'. Tip: say the English name of the SECOND letter – ei sounds like 'i' (eye).",
-      "ex": [ { "t": "das Ei", "s": "egg" }, { "t": "drei", "s": "three" }, { "t": "nein", "s": "no" } ]
+      "ex": [
+        {
+          "t": "das Ei",
+          "s": "egg"
+        },
+        {
+          "t": "drei",
+          "s": "three"
+        },
+        {
+          "t": "nein",
+          "s": "no"
+        }
+      ]
     },
     {
       "t": "ie",
       "s": "Sounds like 'ee' in 'see'. Tip: again, say the English name of the second letter – ie sounds like 'e' (ee).",
-      "ex": [ { "t": "vier", "s": "four" }, { "t": "die Biene", "s": "bee" }, { "t": "Sie", "s": "you (polite)" } ]
+      "ex": [
+        {
+          "t": "vier",
+          "s": "four"
+        },
+        {
+          "t": "die Biene",
+          "s": "bee"
+        },
+        {
+          "t": "Sie",
+          "s": "you (polite)"
+        }
+      ]
     },
     {
       "t": "eu / äu",
       "s": "Both sound like 'oy' in 'boy'.",
-      "ex": [ { "t": "neun", "s": "nine" }, { "t": "Deutsch", "s": "German" }, { "t": "die Häuser", "s": "houses" } ]
+      "ex": [
+        {
+          "t": "neun",
+          "s": "nine"
+        },
+        {
+          "t": "Deutsch",
+          "s": "German"
+        },
+        {
+          "t": "die Häuser",
+          "s": "houses"
+        }
+      ]
     },
     {
       "t": "ch",
       "s": "After a, o, u and au: a rough sound in the back of the throat, like 'ch' in Scottish 'loch'. After all other letters: a soft hissing sound, like a whispered 'h' in 'huge'.",
-      "ex": [ { "t": "das Buch", "s": "book" }, { "t": "acht", "s": "eight" }, { "t": "ich", "s": "I" }, { "t": "die Milch", "s": "milk" } ]
+      "ex": [
+        {
+          "t": "das Buch",
+          "s": "book"
+        },
+        {
+          "t": "acht",
+          "s": "eight"
+        },
+        {
+          "t": "ich",
+          "s": "I"
+        },
+        {
+          "t": "die Milch",
+          "s": "milk"
+        }
+      ]
     },
     {
       "t": "sch",
       "s": "Sounds like English 'sh' in 'ship'.",
-      "ex": [ { "t": "die Schule", "s": "school" }, { "t": "der Fisch", "s": "fish" }, { "t": "schön", "s": "beautiful" } ]
+      "ex": [
+        {
+          "t": "die Schule",
+          "s": "school"
+        },
+        {
+          "t": "der Fisch",
+          "s": "fish"
+        },
+        {
+          "t": "schön",
+          "s": "beautiful"
+        }
+      ]
     },
     {
       "t": "sp / st",
       "s": "At the start of a word they sound like 'shp' and 'sht'. In the middle or at the end of a word they are pronounced as in English: ist, Fenster.",
-      "ex": [ { "t": "spielen", "s": "to play" }, { "t": "die Straße", "s": "street" }, { "t": "der Stuhl", "s": "chair" } ]
+      "ex": [
+        {
+          "t": "spielen",
+          "s": "to play"
+        },
+        {
+          "t": "die Straße",
+          "s": "street"
+        },
+        {
+          "t": "der Stuhl",
+          "s": "chair"
+        }
+      ]
     },
     {
       "t": "w / v / z",
       "s": "German w sounds like English 'v'. German v usually sounds like English 'f'. German z always sounds like 'ts' in 'cats'.",
-      "ex": [ { "t": "das Wasser", "s": "water" }, { "t": "der Vogel", "s": "bird" }, { "t": "zehn", "s": "ten" } ]
+      "ex": [
+        {
+          "t": "das Wasser",
+          "s": "water"
+        },
+        {
+          "t": "der Vogel",
+          "s": "bird"
+        },
+        {
+          "t": "zehn",
+          "s": "ten"
+        }
+      ]
     }
   ],
-
   "words": [
-    { "id": "w01", "t": "hallo", "s": "hello; hi", "emoji": "👋", "ex": { "t": "Hallo, Anna!", "s": "Hi, Anna!" } },
-    { "id": "w02", "t": "ja", "s": "yes", "emoji": "✅", "ex": { "t": "Ja, danke!", "s": "Yes, thank you!" } },
-    { "id": "w03", "t": "nein", "s": "no", "emoji": "❌", "ex": { "t": "Nein, danke.", "s": "No, thank you." } },
-    { "id": "w04", "t": "danke", "s": "thank you; thanks", "emoji": "🙏", "ex": { "t": "Danke, Lukas!", "s": "Thanks, Lukas!" } },
-    { "id": "w05", "t": "bitte", "s": "please; you're welcome", "emoji": "", "ex": { "t": "Wasser, bitte.", "s": "Water, please." } },
-    { "id": "w06", "t": "das Haus", "pl": "die Häuser", "s": "house", "emoji": "🏠", "ex": { "t": "Das Haus ist groß.", "s": "The house is big." } },
-    { "id": "w07", "t": "der Hund", "pl": "die Hunde", "s": "dog", "emoji": "🐶", "ex": { "t": "Der Hund ist klein.", "s": "The dog is small." } },
-    { "id": "w08", "t": "die Katze", "pl": "die Katzen", "s": "cat", "emoji": "🐱", "ex": { "t": "Die Katze ist süß.", "s": "The cat is cute." } },
-    { "id": "w09", "t": "das Buch", "pl": "die Bücher", "s": "book", "emoji": "📖", "ex": { "t": "Das Buch ist gut.", "s": "The book is good." } },
-    { "id": "w10", "t": "das Auto", "pl": "die Autos", "s": "car", "emoji": "🚗", "ex": { "t": "Das Auto ist neu.", "s": "The car is new." } }
+    {
+      "id": "w01",
+      "t": "hallo",
+      "s": "hello; hi",
+      "emoji": "👋",
+      "ex": {
+        "t": "Hallo, Anna!",
+        "s": "Hi, Anna!"
+      }
+    },
+    {
+      "id": "w02",
+      "t": "ja",
+      "s": "yes",
+      "emoji": "✅",
+      "ex": {
+        "t": "Ja, danke!",
+        "s": "Yes, thank you!"
+      }
+    },
+    {
+      "id": "w03",
+      "t": "nein",
+      "s": "no",
+      "emoji": "❌",
+      "ex": {
+        "t": "Nein, danke.",
+        "s": "No, thank you."
+      }
+    },
+    {
+      "id": "w04",
+      "t": "danke",
+      "s": "thank you; thanks",
+      "emoji": "🙏",
+      "ex": {
+        "t": "Danke, Lukas!",
+        "s": "Thanks, Lukas!"
+      }
+    },
+    {
+      "id": "w05",
+      "t": "bitte",
+      "s": "please; you're welcome",
+      "emoji": "",
+      "ex": {
+        "t": "Wasser, bitte.",
+        "s": "Water, please."
+      }
+    },
+    {
+      "id": "w06",
+      "t": "das Haus",
+      "pl": "die Häuser",
+      "s": "house",
+      "emoji": "🏠",
+      "ex": {
+        "t": "Das Haus ist groß.",
+        "s": "The house is big."
+      }
+    },
+    {
+      "id": "w07",
+      "t": "der Hund",
+      "pl": "die Hunde",
+      "s": "dog",
+      "emoji": "🐶",
+      "ex": {
+        "t": "Der Hund ist klein.",
+        "s": "The dog is small."
+      }
+    },
+    {
+      "id": "w08",
+      "t": "die Katze",
+      "pl": "die Katzen",
+      "s": "cat",
+      "emoji": "🐱",
+      "ex": {
+        "t": "Die Katze ist süß.",
+        "s": "The cat is cute."
+      }
+    },
+    {
+      "id": "w09",
+      "t": "das Buch",
+      "pl": "die Bücher",
+      "s": "book",
+      "emoji": "📖",
+      "ex": {
+        "t": "Das Buch ist gut.",
+        "s": "The book is good."
+      }
+    },
+    {
+      "id": "w10",
+      "t": "das Auto",
+      "pl": "die Autos",
+      "s": "car",
+      "emoji": "🚗",
+      "ex": {
+        "t": "Das Auto ist neu.",
+        "s": "The car is new."
+      }
+    }
   ],
-
   "phrases": [
-    { "id": "p01", "t": "Wie bitte?", "s": "Sorry? / Pardon?" },
-    { "id": "p02", "t": "Noch einmal, bitte.", "s": "Once more, please." },
-    { "id": "p03", "t": "Langsam, bitte.", "s": "Slowly, please." },
-    { "id": "p04", "t": "Wie schreibt man das?", "s": "How do you spell that?" }
+    {
+      "id": "p01",
+      "t": "Wie bitte?",
+      "s": "Sorry? / Pardon?"
+    },
+    {
+      "id": "p02",
+      "t": "Noch einmal, bitte.",
+      "s": "Once more, please."
+    },
+    {
+      "id": "p03",
+      "t": "Langsam, bitte.",
+      "s": "Slowly, please."
+    },
+    {
+      "id": "p04",
+      "t": "Wie schreibt man das?",
+      "s": "How do you spell that?"
+    }
   ]
 }

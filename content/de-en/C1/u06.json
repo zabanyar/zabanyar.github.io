@@ -25,13 +25,12 @@
     },
     {
       "id": "w02",
-      "t": "der Algorithmus",
-      "pl": "die Algorithmen",
-      "s": "algorithm",
+      "t": "die Mustererkennung",
+      "s": "pattern recognition",
       "emoji": "",
       "ex": {
-        "t": "Ein Algorithmus entscheidet, welche Beiträge uns angezeigt werden.",
-        "s": "An algorithm decides which posts we are shown."
+        "t": "KI-Systeme sind besonders stark in der Mustererkennung, etwa bei der Auswertung von Röntgenbildern.",
+        "s": "AI systems are particularly strong at pattern recognition, for example when analyzing X-ray images."
       }
     },
     {
@@ -47,12 +46,12 @@
     },
     {
       "id": "w04",
-      "t": "der Datenschutz",
-      "s": "data protection, privacy",
-      "emoji": "🔒",
+      "t": "die Überwachung",
+      "s": "surveillance, monitoring",
+      "emoji": "📹",
       "ex": {
-        "t": "Beim Einsatz von KI im Krankenhaus hat der Datenschutz oberste Priorität.",
-        "s": "When AI is used in hospitals, data protection has top priority."
+        "t": "Kritiker befürchten, dass Gesichtserkennung im öffentlichen Raum zu einer flächendeckenden Überwachung führt.",
+        "s": "Critics fear that facial recognition in public spaces will lead to blanket surveillance."
       }
     },
     {
@@ -130,12 +129,12 @@
     },
     {
       "id": "w12",
-      "t": "jdn./etw. ersetzen (durch + Akk.)",
-      "s": "to replace sb./sth. (with)",
+      "t": "jemanden entlasten",
+      "s": "to relieve sb (of work), take some of the load off sb",
       "emoji": "",
       "ex": {
-        "t": "Dass KI den Menschen vollständig ersetzt, halten viele Fachleute für unwahrscheinlich.",
-        "s": "Many experts consider it unlikely that AI will completely replace humans."
+        "t": "KI-Systeme könnten Ärztinnen und Ärzte bei der Dokumentation spürbar entlasten.",
+        "s": "AI systems could noticeably take documentation work off doctors' hands."
       }
     },
     {
@@ -160,12 +159,12 @@
     },
     {
       "id": "w15",
-      "t": "bahnbrechend",
-      "s": "groundbreaking",
+      "t": "wegweisend",
+      "s": "pioneering; setting a precedent",
       "emoji": "",
       "ex": {
-        "t": "Die Entdeckung gilt als bahnbrechend für die medizinische Diagnostik.",
-        "s": "The discovery is regarded as groundbreaking for medical diagnostics."
+        "t": "Das Urteil könnte wegweisend für den Umgang mit KI-generierten Texten sein.",
+        "s": "The ruling could set a precedent for how AI-generated texts are handled."
       }
     },
     {
@@ -197,13 +196,13 @@
     },
     {
       "id": "p04",
-      "t": "Es bleibt abzuwarten, ob …",
-      "s": "It remains to be seen whether …"
+      "t": "Das wirft die Frage auf, ob …",
+      "s": "That raises the question of whether …"
     },
     {
       "id": "p05",
-      "t": "Man darf nicht außer Acht lassen, dass …",
-      "s": "We must not overlook the fact that …"
+      "t": "Nach Angaben des Herstellers …",
+      "s": "According to the manufacturer …"
     },
     {
       "id": "p06",
@@ -217,8 +216,8 @@
     },
     {
       "id": "p08",
-      "t": "Ich gebe zu bedenken, dass …",
-      "s": "I would ask you to bear in mind that …"
+      "t": "Die Chancen überwiegen die Risiken.",
+      "s": "The opportunities outweigh the risks."
     }
   ],
   "dialogue": {
@@ -228,19 +227,19 @@
     },
     "speakers": {
       "A": {
-        "name": "Jonas Berger",
+        "name": "Lukas Brandt",
         "voice": "m"
       },
       "B": {
-        "name": "Dr. Mina Karimi",
+        "name": "Dr. Sara Rahimi",
         "voice": "f"
       }
     },
     "lines": [
       {
         "sp": "A",
-        "t": "Frau Dr. Karimi, ein großer Branchenverband behauptet, die neue KI-Verordnung bremse die Innovation in Europa aus. Teilen Sie diese Sorge?",
-        "s": "Dr. Karimi, a major industry association claims that the new AI regulation is putting the brakes on innovation in Europe. Do you share this concern?"
+        "t": "Frau Dr. Rahimi, ein großer Branchenverband behauptet, die neue KI-Verordnung bremse die Innovation in Europa aus. Teilen Sie diese Sorge?",
+        "s": "Dr. Rahimi, a major industry association claims that the new AI regulation is putting the brakes on innovation in Europe. Do you share this concern?"
       },
       {
         "sp": "B",
@@ -289,8 +288,8 @@
       },
       {
         "sp": "A",
-        "t": "Frau Dr. Karimi, herzlichen Dank für das Gespräch.",
-        "s": "Dr. Karimi, thank you very much for the interview."
+        "t": "Frau Dr. Rahimi, herzlichen Dank für das Gespräch.",
+        "s": "Dr. Rahimi, thank you very much for the interview."
       }
     ]
   },
@@ -422,12 +421,18 @@
         {
           "type": "order",
           "t": "Er behauptet, das System sei fehlerfrei.",
-          "s": "He claims the system is error-free."
+          "s": "He claims the system is error-free.",
+          "alts": [
+            "Das System sei fehlerfrei, behauptet er."
+          ]
         },
         {
           "type": "order",
           "t": "Der Hersteller versichert, die Daten seien sicher.",
-          "s": "The manufacturer gives assurances that the data are secure."
+          "s": "The manufacturer gives assurances that the data are secure.",
+          "alts": [
+            "Die Daten seien sicher, versichert der Hersteller."
+          ]
         }
       ]
     },
@@ -521,7 +526,7 @@
             "Als"
           ],
           "answer": 2,
-          "s": "As if I hadn't known that for ages!"
+          "s": "As if I didn't already know that!"
         },
         {
           "type": "type",
@@ -579,8 +584,8 @@
         "s": "According to a survey at a Berlin university, more than half of the students regularly use AI tools for their term papers."
       },
       {
-        "t": "Die Medienwissenschaftlerin Dr. Mina Karimi warnt jedoch, man dürfe flüssige Texte nicht mit Wissen verwechseln.",
-        "s": "However, media scholar Dr. Mina Karimi warns that fluent texts must not be confused with knowledge."
+        "t": "Die Informatikerin Dr. Sara Rahimi warnt jedoch, man dürfe flüssige Texte nicht mit Wissen verwechseln.",
+        "s": "However, computer scientist Dr. Sara Rahimi warns that fluent texts must not be confused with knowledge."
       },
       {
         "t": "Ein Sprachmodell berechne lediglich, welches Wort mit hoher Wahrscheinlichkeit als Nächstes folge.",
@@ -619,7 +624,7 @@
       {
         "q": {
           "t": "Wie hat sich die Haltung gegenüber Sprachmodellen verändert?",
-          "s": "How has the attitude towards language models changed?"
+          "s": "How has the attitude toward language models changed?"
         },
         "options": [
           "Die anfängliche Begeisterung ist einer nüchterneren Sicht gewichen.",
@@ -630,8 +635,8 @@
       },
       {
         "q": {
-          "t": "Wovor warnt Dr. Karimi?",
-          "s": "What does Dr. Karimi warn against?"
+          "t": "Wovor warnt Dr. Rahimi?",
+          "s": "What does Dr. Rahimi warn against?"
         },
         "options": [
           "davor, dass Studierende zu selten KI nutzen",

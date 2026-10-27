@@ -2,7 +2,11 @@
   "id": "u04",
   "level": "A1",
   "emoji": "🍽️",
-  "title": { "t": "غذا و نوشیدنی", "pr": "Ğazâ va nuşidani", "s": "Yiyecek ve içecek" },
+  "title": {
+    "t": "غذا و نوشیدنی",
+    "pr": "Ğazâ va nuşidani",
+    "s": "Yiyecek ve içecek"
+  },
   "goals": [
     "Yiyecek ve içecekleri Farsça söyleyebilmek.",
     "Bir şey isteyip sipariş verebilmek: «Yek çây, lotfan.»",
@@ -10,122 +14,668 @@
     "Belirli nesne işareti «râ» (را) ile tanışmak."
   ],
   "words": [
-    { "id": "w01", "t": "غذا", "pl": "غذاها", "pr": "ğazâ", "s": "yemek", "emoji": "🍲", "ex": { "t": "غذا آماده است!", "pr": "Ğazâ âmâde ast!", "s": "Yemek hazır!" } },
-    { "id": "w02", "t": "آب", "pr": "âb", "s": "su", "emoji": "💧", "ex": { "t": "یک لیوان آب، لطفاً.", "pr": "Yek livân âb, lotfan.", "s": "Bir bardak su, lütfen." } },
-    { "id": "w03", "t": "چای", "pr": "çây", "s": "çay", "emoji": "🍵", "ex": { "t": "چای می‌خواهی؟", "pr": "Çây mixâhi?", "s": "Çay ister misin?" } },
-    { "id": "w04", "t": "نان", "pr": "nân", "s": "ekmek", "emoji": "🍞", "ex": { "t": "نان و پنیر دوست دارم.", "pr": "Nân va panir dust dâram.", "s": "Ekmek ve peynir severim." } },
-    { "id": "w05", "t": "پنیر", "pr": "panir", "s": "peynir", "emoji": "🧀", "ex": { "t": "پنیر نمی‌خواهم، ممنون.", "pr": "Panir nemixâham, mamnun.", "s": "Peynir istemiyorum, teşekkürler." } },
-    { "id": "w06", "t": "برنج", "pr": "berenc", "s": "pirinç; pilav", "emoji": "🍚", "ex": { "t": "برنج می‌خواهی؟", "pr": "Berenc mixâhi?", "s": "Pilav ister misin?" } },
-    { "id": "w07", "t": "کباب", "pr": "kabâb", "s": "kebap", "emoji": "🍢", "ex": { "t": "کباب ایرانی خیلی خوشمزه است.", "pr": "Kabâb-e İrâni xeyli xoşmaze ast.", "s": "İran kebabı çok lezzetli." } },
-    { "id": "w08", "t": "مرغ", "pr": "morğ", "s": "tavuk", "emoji": "🍗", "ex": { "t": "مرغ با برنج، لطفاً.", "pr": "Morğ bâ berenc, lotfan.", "s": "Pilavlı tavuk, lütfen." } },
-    { "id": "w09", "t": "میوه", "pl": "میوه‌ها", "pr": "mive", "s": "meyve", "emoji": "🍇", "ex": { "t": "میوه دوست داری؟", "pr": "Mive dust dâri?", "s": "Meyve sever misin?" } },
-    { "id": "w10", "t": "شیر", "pr": "şir", "s": "süt", "emoji": "🥛", "ex": { "t": "یک لیوان شیر می‌خواهم.", "pr": "Yek livân şir mixâham.", "s": "Bir bardak süt istiyorum." } },
-    { "id": "w11", "t": "قهوه", "pr": "ğahve", "s": "kahve", "emoji": "☕", "ex": { "t": "قهوه نمی‌خواهم، چای می‌خواهم.", "pr": "Ğahve nemixâham, çây mixâham.", "s": "Kahve istemiyorum, çay istiyorum." } },
-    { "id": "w12", "t": "خوشمزه", "pr": "xoşmaze", "s": "lezzetli", "emoji": "😋", "ex": { "t": "این غذا خیلی خوشمزه است!", "pr": "İn ğazâ xeyli xoşmaze ast!", "s": "Bu yemek çok lezzetli!" } },
-    { "id": "w13", "t": "لطفاً", "pr": "lotfan", "s": "lütfen", "emoji": "🙏", "ex": { "t": "آب، لطفاً.", "pr": "Âb, lotfan.", "s": "Su, lütfen." } },
-    { "id": "w14", "t": "خیلی", "pr": "xeyli", "s": "çok", "emoji": "", "ex": { "t": "خیلی ممنون!", "pr": "Xeyli mamnun!", "s": "Çok teşekkürler!" } }
+    {
+      "id": "w01",
+      "t": "غذا",
+      "pl": "غذاها",
+      "pr": "ğazâ",
+      "s": "yemek",
+      "emoji": "🍲",
+      "ex": {
+        "t": "غذا آماده است!",
+        "pr": "Ğazâ âmâde ast!",
+        "s": "Yemek hazır!"
+      }
+    },
+    {
+      "id": "w02",
+      "t": "تخم‌مرغ",
+      "pr": "toxm-e morğ",
+      "s": "yumurta",
+      "emoji": "🥚",
+      "ex": {
+        "t": "دو تخم‌مرغ، لطفاً.",
+        "pr": "Do toxm-e morğ, lotfan.",
+        "s": "İki yumurta, lütfen."
+      }
+    },
+    {
+      "id": "w03",
+      "t": "شکر",
+      "pr": "şekar",
+      "s": "şeker",
+      "emoji": "",
+      "ex": {
+        "t": "چای با شکر می‌خواهی؟",
+        "pr": "Çây bâ şekar mixâhi?",
+        "s": "Şekerli çay ister misin?"
+      }
+    },
+    {
+      "id": "w04",
+      "t": "ماست",
+      "pr": "mâst",
+      "s": "yoğurt",
+      "emoji": "",
+      "ex": {
+        "t": "با کباب ماست می‌خواهی؟",
+        "pr": "Bâ kabâb mâst mixâhi?",
+        "s": "Kebabın yanında yoğurt ister misin?"
+      }
+    },
+    {
+      "id": "w05",
+      "t": "پنیر",
+      "pr": "panir",
+      "s": "peynir",
+      "emoji": "🧀",
+      "ex": {
+        "t": "پنیر نمی‌خواهم، ممنون.",
+        "pr": "Panir nemixâham, mamnun.",
+        "s": "Peynir istemiyorum, teşekkürler."
+      }
+    },
+    {
+      "id": "w06",
+      "t": "برنج",
+      "pr": "berenc",
+      "s": "pirinç; pilav",
+      "emoji": "🍚",
+      "ex": {
+        "t": "برنج می‌خواهی؟",
+        "pr": "Berenc mixâhi?",
+        "s": "Pilav ister misin?"
+      }
+    },
+    {
+      "id": "w07",
+      "t": "کباب",
+      "pr": "kabâb",
+      "s": "kebap",
+      "emoji": "🍢",
+      "ex": {
+        "t": "کباب ایرانی خیلی خوشمزه است.",
+        "pr": "Kabâb-e İrâni xeyli xoşmaze ast.",
+        "s": "İran kebabı çok lezzetli."
+      }
+    },
+    {
+      "id": "w08",
+      "t": "مرغ",
+      "pr": "morğ",
+      "s": "tavuk",
+      "emoji": "🍗",
+      "ex": {
+        "t": "مرغ با برنج، لطفاً.",
+        "pr": "Morğ bâ berenc, lotfan.",
+        "s": "Pilavlı tavuk, lütfen."
+      }
+    },
+    {
+      "id": "w09",
+      "t": "میوه",
+      "pl": "میوه‌ها",
+      "pr": "mive",
+      "s": "meyve",
+      "emoji": "🍇",
+      "ex": {
+        "t": "میوه دوست داری؟",
+        "pr": "Mive dust dâri?",
+        "s": "Meyve sever misin?"
+      }
+    },
+    {
+      "id": "w10",
+      "t": "شیر",
+      "pr": "şir",
+      "s": "süt",
+      "emoji": "🥛",
+      "ex": {
+        "t": "یک لیوان شیر می‌خواهم.",
+        "pr": "Yek livân şir mixâham.",
+        "s": "Bir bardak süt istiyorum."
+      }
+    },
+    {
+      "id": "w11",
+      "t": "قهوه",
+      "pr": "ğahve",
+      "s": "kahve",
+      "emoji": "☕",
+      "ex": {
+        "t": "قهوه نمی‌خواهم، چای می‌خواهم.",
+        "pr": "Ğahve nemixâham, çây mixâham.",
+        "s": "Kahve istemiyorum, çay istiyorum."
+      }
+    },
+    {
+      "id": "w12",
+      "t": "خوشمزه",
+      "pr": "xoşmaze",
+      "s": "lezzetli",
+      "emoji": "😋",
+      "ex": {
+        "t": "این غذا خیلی خوشمزه است!",
+        "pr": "İn ğazâ xeyli xoşmaze ast!",
+        "s": "Bu yemek çok lezzetli!"
+      }
+    },
+    {
+      "id": "w13",
+      "t": "لطفاً",
+      "pr": "lotfan",
+      "s": "lütfen",
+      "emoji": "🙏",
+      "ex": {
+        "t": "آب، لطفاً.",
+        "pr": "Âb, lotfan.",
+        "s": "Su, lütfen."
+      }
+    },
+    {
+      "id": "w14",
+      "t": "خیلی",
+      "pr": "xeyli",
+      "s": "çok",
+      "emoji": "",
+      "ex": {
+        "t": "خیلی ممنون!",
+        "pr": "Xeyli mamnun!",
+        "s": "Çok teşekkürler!"
+      }
+    }
   ],
   "phrases": [
-    { "id": "p01", "t": "چه می‌خواهید؟", "pr": "Çe mixâhid?", "s": "Ne istersiniz?" },
-    { "id": "p02", "t": "یک چای، لطفاً.", "pr": "Yek çây, lotfan.", "s": "Bir çay, lütfen." },
-    { "id": "p03", "t": "نوش جان!", "pr": "Nuş-e cân!", "s": "Afiyet olsun!" },
-    { "id": "p04", "t": "دستتان درد نکند!", "pr": "Dastetân dard nakonad!", "s": "Elinize sağlık!" },
-    { "id": "p05", "t": "خیلی خوشمزه است!", "pr": "Xeyli xoşmaze ast!", "s": "Çok lezzetli!" },
-    { "id": "p06", "t": "گرسنه‌ام.", "pr": "Gorosneam.", "s": "Acıktım. / Açım." },
-    { "id": "p07", "t": "تشنه‌ام.", "pr": "Teşneam.", "s": "Susadım." },
-    { "id": "p08", "t": "صورت‌حساب، لطفاً.", "pr": "Surathesâb, lotfan.", "s": "Hesap, lütfen." }
+    {
+      "id": "p01",
+      "t": "چه می‌خواهید؟",
+      "pr": "Çe mixâhid?",
+      "s": "Ne istersiniz?"
+    },
+    {
+      "id": "p02",
+      "t": "یک چای، لطفاً.",
+      "pr": "Yek çây, lotfan.",
+      "s": "Bir çay, lütfen."
+    },
+    {
+      "id": "p03",
+      "t": "نوش جان!",
+      "pr": "Nuş-e cân!",
+      "s": "Afiyet olsun!"
+    },
+    {
+      "id": "p04",
+      "t": "دستتان درد نکند!",
+      "pr": "Dastetân dard nakonad!",
+      "s": "Elinize sağlık!"
+    },
+    {
+      "id": "p05",
+      "t": "خیلی خوشمزه است!",
+      "pr": "Xeyli xoşmaze ast!",
+      "s": "Çok lezzetli!"
+    },
+    {
+      "id": "p06",
+      "t": "گرسنه‌ام.",
+      "pr": "Gorosneam.",
+      "s": "Acıktım. / Açım."
+    },
+    {
+      "id": "p07",
+      "t": "تشنه‌ام.",
+      "pr": "Teşneam.",
+      "s": "Susadım."
+    },
+    {
+      "id": "p08",
+      "t": "صورت‌حساب، لطفاً.",
+      "pr": "Surathesâb, lotfan.",
+      "s": "Hesap, lütfen."
+    }
   ],
   "dialogue": {
-    "title": { "t": "مهمانی", "pr": "Mehmâni", "s": "Misafirlik" },
-    "speakers": { "A": { "name": "Maryam", "voice": "f" }, "B": { "name": "Emre", "voice": "m" } },
+    "title": {
+      "t": "مهمانی",
+      "pr": "Mehmâni",
+      "s": "Misafirlik"
+    },
+    "speakers": {
+      "A": {
+        "name": "Maryam",
+        "voice": "f"
+      },
+      "B": {
+        "name": "Emre",
+        "voice": "m"
+      }
+    },
     "lines": [
-      { "sp": "A", "t": "امره، چه می‌خواهی؟ چای یا قهوه؟", "pr": "Emre, çe mixâhi? Çây yâ ğahve?", "s": "Emre, ne istersin? Çay mı, kahve mi?" },
-      { "sp": "B", "t": "چای، لطفاً. من خیلی چای دوست دارم.", "pr": "Çây, lotfan. Man xeyli çây dust dâram.", "s": "Çay, lütfen. Çayı çok severim." },
-      { "sp": "A", "t": "بفرمایید!", "pr": "Befarmâyid!", "s": "Buyurun!" },
-      { "sp": "B", "t": "ممنون!", "pr": "Mamnun!", "s": "Teşekkürler!" },
-      { "sp": "A", "t": "غذا هم می‌خواهی؟ کباب و برنج داریم.", "pr": "Ğazâ ham mixâhi? Kabâb va berenc dârim.", "s": "Yemek de ister misin? Kebap ve pilav var." },
-      { "sp": "B", "t": "بله، لطفاً! من کباب دوست دارم.", "pr": "Bale, lotfan! Man kabâb dust dâram.", "s": "Evet, lütfen! Kebap severim." },
-      { "sp": "A", "t": "نوش جان!", "pr": "Nuş-e cân!", "s": "Afiyet olsun!" },
-      { "sp": "B", "t": "خیلی خوشمزه است! دستت درد نکند!", "pr": "Xeyli xoşmaze ast! Dastat dard nakonad!", "s": "Çok lezzetli! Eline sağlık!" },
-      { "sp": "A", "t": "میوه هم می‌خواهی؟", "pr": "Mive ham mixâhi?", "s": "Meyve de ister misin?" },
-      { "sp": "B", "t": "نه، ممنون. سیرم!", "pr": "Na, mamnun. Siram!", "s": "Hayır, teşekkürler. Doydum!" }
+      {
+        "sp": "A",
+        "t": "امره، چه می‌خواهی؟ چای یا قهوه؟",
+        "pr": "Emre, çe mixâhi? Çây yâ ğahve?",
+        "s": "Emre, ne istersin? Çay mı, kahve mi?"
+      },
+      {
+        "sp": "B",
+        "t": "چای، لطفاً. من خیلی چای دوست دارم.",
+        "pr": "Çây, lotfan. Man xeyli çây dust dâram.",
+        "s": "Çay, lütfen. Çayı çok severim."
+      },
+      {
+        "sp": "A",
+        "t": "بفرمایید!",
+        "pr": "Befarmâyid!",
+        "s": "Buyurun!"
+      },
+      {
+        "sp": "B",
+        "t": "ممنون!",
+        "pr": "Mamnun!",
+        "s": "Teşekkürler!"
+      },
+      {
+        "sp": "A",
+        "t": "غذا هم می‌خواهی؟ کباب و برنج داریم.",
+        "pr": "Ğazâ ham mixâhi? Kabâb va berenc dârim.",
+        "s": "Yemek de ister misin? Kebap ve pilav var."
+      },
+      {
+        "sp": "B",
+        "t": "بله، لطفاً! من کباب دوست دارم.",
+        "pr": "Bale, lotfan! Man kabâb dust dâram.",
+        "s": "Evet, lütfen! Kebap severim."
+      },
+      {
+        "sp": "A",
+        "t": "نوش جان!",
+        "pr": "Nuş-e cân!",
+        "s": "Afiyet olsun!"
+      },
+      {
+        "sp": "B",
+        "t": "خیلی خوشمزه است! دستت درد نکند!",
+        "pr": "Xeyli xoşmaze ast! Dastat dard nakonad!",
+        "s": "Çok lezzetli! Eline sağlık!"
+      },
+      {
+        "sp": "A",
+        "t": "میوه هم می‌خواهی؟",
+        "pr": "Mive ham mixâhi?",
+        "s": "Meyve de ister misin?"
+      },
+      {
+        "sp": "B",
+        "t": "نه، ممنون. سیرم!",
+        "pr": "Na, mamnun. Siram!",
+        "s": "Hayır, teşekkürler. Doydum!"
+      }
     ]
   },
   "grammar": [
     {
       "id": "g01",
-      "title": { "t": "می‌خواهم، دوست دارم", "pr": "mixâham, dust dâram", "s": "İstemek ve sevmek" },
+      "title": {
+        "t": "می‌خواهم، دوست دارم",
+        "pr": "mixâham, dust dâram",
+        "s": "İstemek ve sevmek"
+      },
       "explain": "**mixâham** = istiyorum. Olumsuzu için başa **ne-** gelir: **nemixâham** = istemiyorum. Kişi ekleri yine aynı: **-am, -i, -ad, -im, -id, -and**.\nYazıda **می** ile fiil arasında yarım boşluk vardır: **می‌خواهم**. Dikkat: **خوا** 'xâ' okunur, **و** okunmaz!\n**dust dâram** = severim, hoşlanırım. Kelimesi kelimesine 'dost tutuyorum' demek: evet, Türkçedeki **dost** kelimesi! Olumsuzda sadece **dâram** değişir: **dust nadâram** = sevmem.\nKibarca bir şey istemek için Türkçedeki gibi isim + **lotfan** yeter: **Yek çây, lotfan.**",
       "table": [
-        ["می‌خواهم", "mixâham", "istiyorum"],
-        ["می‌خواهی", "mixâhi", "istiyorsun"],
-        ["می‌خواهد", "mixâhad", "istiyor"],
-        ["می‌خواهیم", "mixâhim", "istiyoruz"],
-        ["می‌خواهید", "mixâhid", "istiyorsunuz"],
-        ["می‌خواهند", "mixâhand", "istiyorlar"]
+        [
+          "می‌خواهم",
+          "mixâham",
+          "istiyorum"
+        ],
+        [
+          "می‌خواهی",
+          "mixâhi",
+          "istiyorsun"
+        ],
+        [
+          "می‌خواهد",
+          "mixâhad",
+          "istiyor"
+        ],
+        [
+          "می‌خواهیم",
+          "mixâhim",
+          "istiyoruz"
+        ],
+        [
+          "می‌خواهید",
+          "mixâhid",
+          "istiyorsunuz"
+        ],
+        [
+          "می‌خواهند",
+          "mixâhand",
+          "istiyorlar"
+        ]
       ],
       "examples": [
-        { "t": "من چای می‌خواهم.", "pr": "Man çây mixâham.", "s": "Ben çay istiyorum." },
-        { "t": "او قهوه نمی‌خواهد.", "pr": "U ğahve nemixâhad.", "s": "O kahve istemiyor." },
-        { "t": "ما برنج دوست داریم.", "pr": "Mâ berenc dust dârim.", "s": "Biz pilav severiz." },
-        { "t": "مریم پنیر دوست ندارد.", "pr": "Maryam panir dust nadârad.", "s": "Maryam peynir sevmez." }
+        {
+          "t": "من چای می‌خواهم.",
+          "pr": "Man çây mixâham.",
+          "s": "Ben çay istiyorum."
+        },
+        {
+          "t": "او قهوه نمی‌خواهد.",
+          "pr": "U ğahve nemixâhad.",
+          "s": "O kahve istemiyor."
+        },
+        {
+          "t": "ما برنج دوست داریم.",
+          "pr": "Mâ berenc dust dârim.",
+          "s": "Biz pilav severiz."
+        },
+        {
+          "t": "مریم پنیر دوست ندارد.",
+          "pr": "Maryam panir dust nadârad.",
+          "s": "Maryam peynir sevmez."
+        }
       ],
       "exercises": [
-        { "type": "choice", "t": "من یک چای ___.", "options": ["می‌خواهد", "می‌خواهم", "می‌خواهند"], "answer": 1, "pr": "Man yek çây mixâham.", "s": "Ben bir çay istiyorum." },
-        { "type": "choice", "t": "او قهوه ___.", "options": ["نمی‌خواهد", "نمی‌خواهی", "نمی‌خواهم"], "answer": 0, "pr": "U ğahve nemixâhad.", "s": "O kahve istemiyor." },
-        { "type": "choice", "t": "تو میوه دوست ___؟", "options": ["دارم", "دارند", "داری"], "answer": 2, "pr": "To mive dust dâri?", "s": "Meyve sever misin?" },
-        { "type": "type", "t": "من پنیر دوست ___.", "answer": ["ندارم"], "pr": "Man panir dust nadâram.", "s": "Ben peynir sevmem." },
-        { "type": "type", "t": "ما آب ___.", "answer": ["می‌خواهیم", "میخواهیم"], "pr": "Mâ âb mixâhim.", "s": "Biz su istiyoruz." },
-        { "type": "order", "t": "من کباب دوست دارم.", "pr": "Man kabâb dust dâram.", "s": "Ben kebap severim." },
-        { "type": "order", "t": "آن‌ها چای نمی‌خواهند.", "pr": "Ânhâ çây nemixâhand.", "s": "Onlar çay istemiyor." }
+        {
+          "type": "choice",
+          "t": "من یک چای ___.",
+          "options": [
+            "می‌خواهد",
+            "می‌خواهم",
+            "می‌خواهند"
+          ],
+          "answer": 1,
+          "pr": "Man yek çây mixâham.",
+          "s": "Ben bir çay istiyorum."
+        },
+        {
+          "type": "choice",
+          "t": "او قهوه ___.",
+          "options": [
+            "نمی‌خواهد",
+            "نمی‌خواهی",
+            "نمی‌خواهم"
+          ],
+          "answer": 0,
+          "pr": "U ğahve nemixâhad.",
+          "s": "O kahve istemiyor."
+        },
+        {
+          "type": "choice",
+          "t": "تو میوه دوست ___؟",
+          "options": [
+            "دارم",
+            "دارند",
+            "داری"
+          ],
+          "answer": 2,
+          "pr": "To mive dust dâri?",
+          "s": "Meyve sever misin?"
+        },
+        {
+          "type": "type",
+          "t": "من پنیر دوست ___.",
+          "answer": [
+            "ندارم"
+          ],
+          "pr": "Man panir dust nadâram.",
+          "s": "Ben peynir sevmem."
+        },
+        {
+          "type": "type",
+          "t": "ما آب ___.",
+          "answer": [
+            "می‌خواهیم",
+            "میخواهیم"
+          ],
+          "pr": "Mâ âb mixâhim.",
+          "s": "Biz su istiyoruz."
+        },
+        {
+          "type": "order",
+          "t": "من کباب دوست دارم.",
+          "pr": "Man kabâb dust dâram.",
+          "s": "Ben kebap severim."
+        },
+        {
+          "type": "order",
+          "t": "آن‌ها چای نمی‌خواهند.",
+          "pr": "Ânhâ çây nemixâhand.",
+          "s": "Onlar çay istemiyor."
+        }
       ]
     },
     {
       "id": "g02",
-      "title": { "t": "این سیب را می‌خواهم", "pr": "in sib râ mixâham", "s": "«râ»: belirli nesne işareti" },
+      "title": {
+        "t": "این سیب را می‌خواهم",
+        "pr": "in sib râ mixâham",
+        "s": "«râ»: belirli nesne işareti"
+      },
       "explain": "Türkçede belirli nesneye **-ı / -i** eki gelir: elma**yı** istiyorum. Farsçada bunun karşılığı **râ** (را) kelimesidir. Nesneden **sonra**, ayrı yazılır: **İn sib râ mixâham.** = Bu elmayı istiyorum.\nBelirsiz nesnede **râ** yoktur, tıpkı Türkçede '-ı' olmaması gibi: **Sib mixâham.** = Elma istiyorum.\nSıra Türkçedeki gibidir: özne – nesne (+ râ) – fiil.\nKonuşmada **râ** çoğu zaman **-ro / -o** gibi söylenir, ama yazıda hep **را** yazılır.",
       "examples": [
-        { "t": "این سیب را می‌خواهم.", "pr": "İn sib râ mixâham.", "s": "Bu elmayı istiyorum." },
-        { "t": "یک لیوان آب می‌خواهم.", "pr": "Yek livân âb mixâham.", "s": "Bir bardak su istiyorum." },
-        { "t": "غذای مادرم را دوست دارم.", "pr": "Ğazâ-ye mâdaram râ dust dâram.", "s": "Annemin yemeğini severim." },
-        { "t": "این پنیر را نمی‌خواهم.", "pr": "İn panir râ nemixâham.", "s": "Bu peyniri istemiyorum." }
+        {
+          "t": "این سیب را می‌خواهم.",
+          "pr": "İn sib râ mixâham.",
+          "s": "Bu elmayı istiyorum."
+        },
+        {
+          "t": "یک لیوان آب می‌خواهم.",
+          "pr": "Yek livân âb mixâham.",
+          "s": "Bir bardak su istiyorum."
+        },
+        {
+          "t": "غذای مادرم را دوست دارم.",
+          "pr": "Ğazâ-ye mâdaram râ dust dâram.",
+          "s": "Annemin yemeğini severim."
+        },
+        {
+          "t": "این پنیر را نمی‌خواهم.",
+          "pr": "İn panir râ nemixâham.",
+          "s": "Bu peyniri istemiyorum."
+        }
       ],
       "exercises": [
-        { "type": "choice", "t": "این کباب ___ می‌خواهم.", "options": ["است", "را", "و"], "answer": 1, "pr": "İn kabâb râ mixâham.", "s": "Bu kebabı istiyorum." },
-        { "type": "choice", "t": "یک لیوان آب ___، لطفاً.", "options": ["می‌خواهم", "را", "هستم"], "answer": 0, "pr": "Yek livân âb mixâham, lotfan.", "s": "Bir bardak su istiyorum, lütfen." },
-        { "type": "type", "t": "این غذا ___ دوست دارم.", "answer": ["را"], "pr": "İn ğazâ râ dust dâram.", "s": "Bu yemeği seviyorum." },
-        { "type": "choice", "t": "غذای مادرم ___ دوست دارم.", "options": ["را", "است", "هستم"], "answer": 0, "pr": "Ğazâ-ye mâdaram râ dust dâram.", "s": "Annemin yemeğini severim." },
-        { "type": "order", "t": "این پنیر را نمی‌خواهم.", "pr": "İn panir râ nemixâham.", "s": "Bu peyniri istemiyorum." },
-        { "type": "order", "t": "این میوه را دوست داری؟", "pr": "İn mive râ dust dâri?", "s": "Bu meyveyi sever misin?" }
+        {
+          "type": "choice",
+          "t": "این کباب ___ می‌خواهم.",
+          "options": [
+            "است",
+            "را",
+            "و"
+          ],
+          "answer": 1,
+          "pr": "İn kabâb râ mixâham.",
+          "s": "Bu kebabı istiyorum."
+        },
+        {
+          "type": "choice",
+          "t": "یک لیوان آب ___، لطفاً.",
+          "options": [
+            "می‌خواهم",
+            "را",
+            "هستم"
+          ],
+          "answer": 0,
+          "pr": "Yek livân âb mixâham, lotfan.",
+          "s": "Bir bardak su istiyorum, lütfen."
+        },
+        {
+          "type": "type",
+          "t": "این غذا ___ دوست دارم.",
+          "answer": [
+            "را"
+          ],
+          "pr": "İn ğazâ râ dust dâram.",
+          "s": "Bu yemeği seviyorum."
+        },
+        {
+          "type": "choice",
+          "t": "غذای مادرم ___ دوست دارم.",
+          "options": [
+            "را",
+            "است",
+            "هستم"
+          ],
+          "answer": 0,
+          "pr": "Ğazâ-ye mâdaram râ dust dâram.",
+          "s": "Annemin yemeğini severim."
+        },
+        {
+          "type": "order",
+          "t": "این پنیر را نمی‌خواهم.",
+          "pr": "İn panir râ nemixâham.",
+          "s": "Bu peyniri istemiyorum."
+        },
+        {
+          "type": "order",
+          "t": "این میوه را دوست داری؟",
+          "pr": "İn mive râ dust dâri?",
+          "s": "Bu meyveyi sever misin?"
+        }
       ]
     }
   ],
   "reading": {
-    "title": { "t": "صبحانه‌ی ایرانی", "pr": "Sobhâne-ye İrâni", "s": "İran kahvaltısı" },
+    "title": {
+      "t": "صبحانه‌ی ایرانی",
+      "pr": "Sobhâne-ye İrâni",
+      "s": "İran kahvaltısı"
+    },
     "text": [
-      { "t": "صبحانه‌ی ما ساده است.", "pr": "Sobhâne-ye mâ sâde ast.", "s": "Kahvaltımız sade." },
-      { "t": "ما نان، پنیر و چای داریم.", "pr": "Mâ nân, panir va çây dârim.", "s": "Ekmeğimiz, peynirimiz ve çayımız var." },
-      { "t": "پدرم چای شیرین دوست دارد.", "pr": "Pedaram çây-e şirin dust dârad.", "s": "Babam şekerli çay sever." },
-      { "t": "مادرم قهوه می‌خواهد، ولی قهوه نداریم!", "pr": "Mâdaram ğahve mixâhad, vali ğahve nadârim!", "s": "Annem kahve istiyor ama kahvemiz yok!" },
-      { "t": "خواهرم شیر و عسل دوست دارد.", "pr": "Xâharam şir va asal dust dârad.", "s": "Kız kardeşim süt ve bal sever." },
-      { "t": "من تخم‌مرغ دوست دارم.", "pr": "Man toxm-e morğ dust dâram.", "s": "Ben yumurta severim." },
-      { "t": "صبحانه خیلی خوشمزه است!", "pr": "Sobhâne xeyli xoşmaze ast!", "s": "Kahvaltı çok lezzetli!" }
+      {
+        "t": "صبحانه‌ی ما ساده است.",
+        "pr": "Sobhâne-ye mâ sâde ast.",
+        "s": "Kahvaltımız sade."
+      },
+      {
+        "t": "ما نان، پنیر و چای داریم.",
+        "pr": "Mâ nân, panir va çây dârim.",
+        "s": "Ekmeğimiz, peynirimiz ve çayımız var."
+      },
+      {
+        "t": "پدرم چای شیرین دوست دارد.",
+        "pr": "Pedaram çây-e şirin dust dârad.",
+        "s": "Babam şekerli çay sever."
+      },
+      {
+        "t": "مادرم قهوه می‌خواهد، ولی قهوه نداریم!",
+        "pr": "Mâdaram ğahve mixâhad, vali ğahve nadârim!",
+        "s": "Annem kahve istiyor ama kahvemiz yok!"
+      },
+      {
+        "t": "خواهرم شیر و عسل دوست دارد.",
+        "pr": "Xâharam şir va asal dust dârad.",
+        "s": "Kız kardeşim süt ve bal sever."
+      },
+      {
+        "t": "من تخم‌مرغ دوست دارم.",
+        "pr": "Man toxm-e morğ dust dâram.",
+        "s": "Ben yumurta severim."
+      },
+      {
+        "t": "صبحانه خیلی خوشمزه است!",
+        "pr": "Sobhâne xeyli xoşmaze ast!",
+        "s": "Kahvaltı çok lezzetli!"
+      }
     ],
     "questions": [
-      { "q": { "t": "پدر چه دوست دارد؟", "pr": "Pedar çe dust dârad?", "s": "Baba ne sever?" }, "options": ["چای شیرین", "قهوه", "شیر"], "answer": 0 },
-      { "q": { "t": "چه چیزی نداریم؟", "pr": "Çe çizi nadârim?", "s": "Ne yok?" }, "options": ["نان", "قهوه", "پنیر"], "answer": 1 },
-      { "q": { "t": "خواهر چه دوست دارد؟", "pr": "Xâhar çe dust dârad?", "s": "Kız kardeş ne sever?" }, "options": ["تخم‌مرغ", "چای", "شیر و عسل"], "answer": 2 },
-      { "q": { "t": "صبحانه چطور است؟", "pr": "Sobhâne çetor ast?", "s": "Kahvaltı nasıl?" }, "options": ["بزرگ", "خوشمزه", "کوچک"], "answer": 1 }
+      {
+        "q": {
+          "t": "پدر چه دوست دارد؟",
+          "pr": "Pedar çe dust dârad?",
+          "s": "Baba ne sever?"
+        },
+        "options": [
+          "چای شیرین",
+          "قهوه",
+          "شیر"
+        ],
+        "answer": 0
+      },
+      {
+        "q": {
+          "t": "چه چیزی نداریم؟",
+          "pr": "Çe çizi nadârim?",
+          "s": "Ne yok?"
+        },
+        "options": [
+          "نان",
+          "قهوه",
+          "پنیر"
+        ],
+        "answer": 1
+      },
+      {
+        "q": {
+          "t": "خواهر چه دوست دارد؟",
+          "pr": "Xâhar çe dust dârad?",
+          "s": "Kız kardeş ne sever?"
+        },
+        "options": [
+          "تخم‌مرغ",
+          "چای",
+          "شیر و عسل"
+        ],
+        "answer": 2
+      },
+      {
+        "q": {
+          "t": "صبحانه چطور است؟",
+          "pr": "Sobhâne çetor ast?",
+          "s": "Kahvaltı nasıl?"
+        },
+        "options": [
+          "بزرگ",
+          "خوشمزه",
+          "کوچک"
+        ],
+        "answer": 1
+      }
     ]
   },
   "sentences": [
-    { "t": "یک چای، لطفاً.", "pr": "Yek çây, lotfan.", "s": "Bir çay, lütfen." },
-    { "t": "من قهوه نمی‌خواهم.", "pr": "Man ğahve nemixâham.", "s": "Ben kahve istemiyorum." },
-    { "t": "ما برنج دوست داریم.", "pr": "Mâ berenc dust dârim.", "s": "Biz pilav severiz." },
-    { "t": "این غذا خیلی خوشمزه است!", "pr": "İn ğazâ xeyli xoşmaze ast!", "s": "Bu yemek çok lezzetli!" },
-    { "t": "نوش جان!", "pr": "Nuş-e cân!", "s": "Afiyet olsun!" },
-    { "t": "دستتان درد نکند!", "pr": "Dastetân dard nakonad!", "s": "Elinize sağlık!" },
-    { "t": "این کتاب را می‌خواهم.", "pr": "İn ketâb râ mixâham.", "s": "Bu kitabı istiyorum." },
-    { "t": "او پنیر دوست ندارد.", "pr": "U panir dust nadârad.", "s": "O peynir sevmez." }
+    {
+      "t": "یک چای، لطفاً.",
+      "pr": "Yek çây, lotfan.",
+      "s": "Bir çay, lütfen."
+    },
+    {
+      "t": "من قهوه نمی‌خواهم.",
+      "pr": "Man ğahve nemixâham.",
+      "s": "Ben kahve istemiyorum."
+    },
+    {
+      "t": "ما برنج دوست داریم.",
+      "pr": "Mâ berenc dust dârim.",
+      "s": "Biz pilav severiz."
+    },
+    {
+      "t": "این غذا خیلی خوشمزه است!",
+      "pr": "İn ğazâ xeyli xoşmaze ast!",
+      "s": "Bu yemek çok lezzetli!"
+    },
+    {
+      "t": "نوش جان!",
+      "pr": "Nuş-e cân!",
+      "s": "Afiyet olsun!"
+    },
+    {
+      "t": "دستتان درد نکند!",
+      "pr": "Dastetân dard nakonad!",
+      "s": "Elinize sağlık!"
+    },
+    {
+      "t": "این کتاب را می‌خواهم.",
+      "pr": "İn ketâb râ mixâham.",
+      "s": "Bu kitabı istiyorum."
+    },
+    {
+      "t": "او پنیر دوست ندارد.",
+      "pr": "U panir dust nadârad.",
+      "s": "O peynir sevmez."
+    }
   ]
 }

@@ -202,19 +202,28 @@
       "id": "p03",
       "t": "Bu slayta dikkatinizi çekmek istiyorum.",
       "s": "می‌خواهم توجهتان را به این اسلاید جلب کنم.",
-      "pr": "بو سْلایتا دیکّاتینیزی چِکمِک ایستیُروم."
+      "pr": "بو سْلایتا دیکّاتینیزی چِکمِک ایستیُروم.",
+      "alts": [
+        "Dikkatinizi bu slayta çekmek istiyorum."
+      ]
     },
     {
       "id": "p04",
       "t": "Bu noktaya birazdan değineceğim.",
       "s": "کمی بعد به این نکته می‌پردازم.",
-      "pr": "بو نُکتایا بیرازدان دِیینِجِییم."
+      "pr": "بو نُکتایا بیرازدان دِیینِجِییم.",
+      "alts": [
+        "Birazdan bu noktaya değineceğim."
+      ]
     },
     {
       "id": "p05",
       "t": "Sorularınızı sunumun sonunda alabilirim.",
       "s": "سؤال‌هایتان را می‌توانم در پایان ارائه پاسخ دهم.",
-      "pr": "سُرولارِنِزِ سونومون سُنوندا آلابیلیریم."
+      "pr": "سُرولارِنِزِ سونومون سُنوندا آلابیلیریم.",
+      "alts": [
+        "Sunumun sonunda sorularınızı alabilirim."
+      ]
     },
     {
       "id": "p06",
@@ -702,7 +711,10 @@
     },
     {
       "t": "İkinci olarak bütçe konusuna değineceğim.",
-      "s": "دوم، به موضوع بودجه می‌پردازم."
+      "s": "دوم، به موضوع بودجه می‌پردازم.",
+      "alts": [
+        "Bütçe konusuna ikinci olarak değineceğim."
+      ]
     },
     {
       "t": "Özetlemek gerekirse, planımız üç aşamadan oluşuyor.",

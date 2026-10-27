@@ -203,7 +203,10 @@
     {
       "id": "p06",
       "t": "Das gefällt mir sehr.",
-      "s": "I like it very much."
+      "s": "I like it very much.",
+      "alts": [
+        "Mir gefällt das sehr."
+      ]
     },
     {
       "id": "p07",
@@ -285,7 +288,10 @@
       {
         "sp": "A",
         "t": "Lecker! Persisches Essen schmeckt mir sehr gut.",
-        "s": "Yum! I really like Persian food."
+        "s": "Yum! I really like Persian food.",
+        "alts": [
+          "Lecker! Mir schmeckt persisches Essen sehr gut."
+        ]
       },
       {
         "sp": "B",
@@ -301,7 +307,7 @@
         "t": "dem Vater, der Mutter – mir, dir, ihm",
         "s": "The dative: articles and personal pronouns"
       },
-      "explain": "The **dative** case is mostly used for the **person who receives** something – in English often *to* or *for* someone: *I'm giving the book **to my father***. → Ich gebe **meinem Vater** das Buch. The question word is **wem?** (*to whom?*).\nArticles in the dative: der → **dem**, das → **dem**, die → **der**, plural die → **den**. In the plural the noun also gets **-n**: die Kinder → **den Kindern** (but not after -s: den Autos).\n**ein, kein** and **mein, dein, sein …** take the same endings: **einem** Freund, **einer** Freundin, **meinem** Kind, **meinen** Eltern.\nPersonal pronouns: ich → **mir**, du → **dir**, er → **ihm**, sie → **ihr**, es → **ihm**, wir → **uns**, ihr → **euch**, sie → **ihnen**, Sie → **Ihnen**. You already know one: **Wie geht es dir?**\nSome prepositions always take the dative, e.g. **mit, von, zu, bei**: mit **meiner** Familie, **zum** Geburtstag (zum = zu dem). More in Unit 7.",
+      "explain": "The **dative** case is mostly used for the **person who receives** something – in English often *to* or *for* someone: *I'm giving the book **to my father***. → Ich gebe **meinem Vater** das Buch. The question word is **wem?** (*to whom?*).\nArticles in the dative: der → **dem**, das → **dem**, die → **der**, plural die → **den**. In the plural the noun also gets **-n**: die Kinder → **den Kindern** – unless the plural already ends in -n or ends in -s: **den Eltern, den Autos**.\n**ein, kein** and **mein, dein, sein …** take the same endings: **einem** Freund, **einer** Freundin, **meinem** Kind, **meinen** Eltern.\nPersonal pronouns: ich → **mir**, du → **dir**, er → **ihm**, sie → **ihr**, es → **ihm**, wir → **uns**, ihr → **euch**, sie → **ihnen**, Sie → **Ihnen**. You already know one: **Wie geht es dir?**\nSome prepositions always take the dative, e.g. **mit, von, zu, bei**: mit **meiner** Familie, **zum** Geburtstag (zum = zu dem). More in Unit 7.",
       "table": [
         [
           "der Vater",
@@ -581,8 +587,8 @@
         "s": "We invited our relatives and friends."
       },
       {
-        "t": "Meine Mutter hat den Haft-Sin-Tisch gedeckt, mit Äpfeln, Kerzen und einem Spiegel.",
-        "s": "My mother set the Haft-Sin table with apples, candles and a mirror."
+        "t": "Ich habe den Haft-Sin-Tisch gedeckt, mit Äpfeln, Kerzen und einem Spiegel.",
+        "s": "I set the Haft-Sin table with apples, candles and a mirror."
       },
       {
         "t": "Traditionell schenken die Großeltern den Kindern zu Nouruz Geld.",
@@ -679,11 +685,18 @@
     },
     {
       "t": "Ich schenke meiner Schwester ein Buch.",
-      "s": "I'm giving my sister a book."
+      "s": "I'm giving my sister a book.",
+      "alts": [
+        "Meiner Schwester schenke ich ein Buch.",
+        "Ein Buch schenke ich meiner Schwester."
+      ]
     },
     {
       "t": "Das Kleid gefällt mir sehr gut.",
-      "s": "I like the dress very much."
+      "s": "I like the dress very much.",
+      "alts": [
+        "Mir gefällt das Kleid sehr gut."
+      ]
     },
     {
       "t": "Wem gehört dieses Handy?",
@@ -691,7 +704,10 @@
     },
     {
       "t": "Wir haben dreißig Gäste eingeladen.",
-      "s": "We invited thirty guests."
+      "s": "We invited thirty guests.",
+      "alts": [
+        "Dreißig Gäste haben wir eingeladen."
+      ]
     },
     {
       "t": "Kannst du mir beim Kochen helfen?",
@@ -699,11 +715,17 @@
     },
     {
       "t": "Ich danke dir für das schöne Geschenk.",
-      "s": "Thank you for the lovely present."
+      "s": "Thank you for the lovely present.",
+      "alts": [
+        "Für das schöne Geschenk danke ich dir."
+      ]
     },
     {
       "t": "Meine Tante hat uns zur Hochzeit eingeladen.",
-      "s": "My aunt invited us to the wedding."
+      "s": "My aunt invited us to the wedding.",
+      "alts": [
+        "Zur Hochzeit hat uns meine Tante eingeladen."
+      ]
     }
   ]
 }

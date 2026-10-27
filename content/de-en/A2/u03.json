@@ -249,7 +249,10 @@
       {
         "sp": "B",
         "t": "An die Wand, zwischen die Fenster.",
-        "s": "Against the wall, between the windows."
+        "s": "Against the wall, between the windows.",
+        "alts": [
+          "Zwischen die Fenster, an die Wand."
+        ]
       },
       {
         "sp": "A",
@@ -683,11 +686,17 @@
   "sentences": [
     {
       "t": "Wir ziehen nächsten Monat nach Berlin um.",
-      "s": "We're moving to Berlin next month."
+      "s": "We're moving to Berlin next month.",
+      "alts": [
+        "Nächsten Monat ziehen wir nach Berlin um."
+      ]
     },
     {
       "t": "Die Kartons stehen schon im Flur.",
-      "s": "The boxes are already in the hallway."
+      "s": "The boxes are already in the hallway.",
+      "alts": [
+        "Im Flur stehen schon die Kartons."
+      ]
     },
     {
       "t": "Kannst du die Lampe in die Ecke stellen?",
@@ -695,15 +704,25 @@
     },
     {
       "t": "Mein Handy liegt auf dem Schreibtisch.",
-      "s": "My phone is on the desk."
+      "s": "My phone is on the desk.",
+      "alts": [
+        "Auf dem Schreibtisch liegt mein Handy."
+      ]
     },
     {
       "t": "Wir hängen den Spiegel in den Flur.",
-      "s": "We're hanging the mirror in the hallway."
+      "s": "We're hanging the mirror in the hallway.",
+      "alts": [
+        "Den Spiegel hängen wir in den Flur.",
+        "In den Flur hängen wir den Spiegel."
+      ]
     },
     {
       "t": "Die Kinder sitzen auf dem Teppich.",
-      "s": "The children are sitting on the rug."
+      "s": "The children are sitting on the rug.",
+      "alts": [
+        "Auf dem Teppich sitzen die Kinder."
+      ]
     },
     {
       "t": "Unsere Wohnung hat keinen Balkon.",

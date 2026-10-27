@@ -41,7 +41,7 @@
       "t": "hisse senedi",
       "pl": "hisse senetleri",
       "s": "سهام",
-      "pr": "هیسِّه سِنِدی",
+      "pr": "هیسِّه سِنِدی",
       "emoji": "",
       "ex": {
         "t": "Şirketin hisse senetleri bir günde yüzde on değer kazandı.",
@@ -177,7 +177,7 @@
       "t": "hissedar",
       "pl": "hissedarlar",
       "s": "سهامدار",
-      "pr": "هیسِّدار",
+      "pr": "هیسِّدار",
       "emoji": "",
       "ex": {
         "t": "Hissedarlar, genel kurulda yeni yönetim kurulunu seçti.",
@@ -217,7 +217,10 @@
       "id": "p03",
       "t": "Bu yatırım uzun vadede kendini amorti eder.",
       "s": "این سرمایه‌گذاری در درازمدت هزینه‌ی خودش را برمی‌گرداند.",
-      "pr": "بو یاتِرِم اوزون وادِدِه کِندینی آمُرتی اِدِر."
+      "pr": "بو یاتِرِم اوزون وادِدِه کِندینی آمُرتی اِدِر.",
+      "alts": [
+        "Bu yatırım kendini uzun vadede amorti eder."
+      ]
     },
     {
       "id": "p04",
@@ -250,7 +253,10 @@
       "id": "p08",
       "t": "Fiyatlar her geçen gün artıyor.",
       "s": "قیمت‌ها روزبه‌روز بالاتر می‌رود.",
-      "pr": "فیاتلار هِر گِچِن گون آرتِیُر."
+      "pr": "فیاتلار هِر گِچِن گون آرتِیُر.",
+      "alts": [
+        "Her geçen gün fiyatlar artıyor."
+      ]
     }
   ],
   "dialogue": {
@@ -277,7 +283,10 @@
       {
         "sp": "B",
         "t": "Evet. Hatırlarsan, yılın başında herkes durgunluktan bahsediyordu.",
-        "s": "بله. اگر یادت باشد، اول سال همه از رکود حرف می‌زدند."
+        "s": "بله. اگر یادت باشد، اول سال همه از رکود حرف می‌زدند.",
+        "alts": [
+          "Evet. Hatırlarsan, herkes yılın başında durgunluktan bahsediyordu."
+        ]
       },
       {
         "sp": "A",
@@ -292,7 +301,10 @@
       {
         "sp": "A",
         "t": "Peki ihracatımız nasıl bu kadar arttı?",
-        "s": "خب، صادرات ما چطور این‌قدر افزایش یافت؟"
+        "s": "خب، صادرات ما چطور این‌قدر افزایش یافت؟",
+        "alts": [
+          "Peki ihracatımız bu kadar nasıl arttı?"
+        ]
       },
       {
         "sp": "B",
@@ -312,7 +324,10 @@
       {
         "sp": "A",
         "t": "Haklısın. Maliyetleri düşürebildiğimiz ölçüde rekabet gücümüzü koruruz.",
-        "s": "حق با توست. به هر اندازه که بتوانیم هزینه‌ها را پایین بیاوریم، قدرت رقابتمان را حفظ می‌کنیم."
+        "s": "حق با توست. به هر اندازه که بتوانیم هزینه‌ها را پایین بیاوریم، قدرت رقابتمان را حفظ می‌کنیم.",
+        "alts": [
+          "Haklısın. Rekabet gücümüzü maliyetleri düşürebildiğimiz ölçüde koruruz."
+        ]
       },
       {
         "sp": "B",
@@ -322,7 +337,10 @@
       {
         "sp": "A",
         "t": "Harika. Toplantıda bu grafiği mutlaka göster; rakamlar ortada.",
-        "s": "عالی. در جلسه حتماً این نمودار را نشان بده؛ ارقام خودشان گویا هستند."
+        "s": "عالی. در جلسه حتماً این نمودار را نشان بده؛ ارقام خودشان گویا هستند.",
+        "alts": [
+          "Harika. Bu grafiği toplantıda mutlaka göster; rakamlar ortada."
+        ]
       }
     ]
   },
@@ -737,7 +755,10 @@
     },
     {
       "t": "Talep arttıkça fiyatlar yükselir.",
-      "s": "هرچه تقاضا بیشتر شود، قیمت‌ها بالاتر می‌رود."
+      "s": "هرچه تقاضا بیشتر شود، قیمت‌ها بالاتر می‌رود.",
+      "alts": [
+        "Fiyatlar talep arttıkça yükselir."
+      ]
     },
     {
       "t": "Borsa bugün sert düştü.",
