@@ -608,15 +608,15 @@
         "s": "Would you like to celebrate my new job with me on Saturday?"
       },
       {
-        "t": "Viele Grüße, deine Neda",
-        "s": "Best wishes, Neda"
+        "t": "Viele Grüße, deine Mina",
+        "s": "Best wishes, Mina"
       }
     ],
     "questions": [
       {
         "q": {
-          "t": "Was verkauft Nedas Firma?",
-          "s": "What does Neda's company sell?"
+          "t": "Was verkauft Minas Firma?",
+          "s": "What does Mina's company sell?"
         },
         "options": [
           "Computer",
@@ -627,8 +627,8 @@
       },
       {
         "q": {
-          "t": "Wer arbeitet Neda ein?",
-          "s": "Who is training Neda?"
+          "t": "Wer arbeitet Mina ein?",
+          "s": "Who is training Mina?"
         },
         "options": [
           "ihre Chefin",
@@ -639,8 +639,8 @@
       },
       {
         "q": {
-          "t": "Wann kann Neda morgens anfangen?",
-          "s": "When can Neda start in the morning?"
+          "t": "Wann kann Mina morgens anfangen?",
+          "s": "When can Mina start in the morning?"
         },
         "options": [
           "zwischen sieben und neun Uhr",
@@ -651,8 +651,8 @@
       },
       {
         "q": {
-          "t": "Was gefällt Neda nicht so gut?",
-          "s": "What doesn't Neda like so much?"
+          "t": "Was gefällt Mina nicht so gut?",
+          "s": "What doesn't Mina like so much?"
         },
         "options": [
           "die Kollegen",
@@ -663,8 +663,8 @@
       },
       {
         "q": {
-          "t": "Was hat Neda vor?",
-          "s": "What is Neda planning to do?"
+          "t": "Was hat Mina vor?",
+          "s": "What is Mina planning to do?"
         },
         "options": [
           "Sie will mit ihrer Chefin sprechen.",

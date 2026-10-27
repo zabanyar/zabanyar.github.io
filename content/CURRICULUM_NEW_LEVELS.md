@@ -23,7 +23,7 @@ Learners: an Iranian family (adults, mixed ages; some in Iran, some in Germany).
 - `goals`: 3–4 can-do statements in the support language.
 - Every `choice`: exactly one correct option (the others must be clearly wrong, not merely less usual); `type`: list ALL
   acceptable answers (German also with ae/oe/ue/ss spellings, as other units do); reading answers answerable from the text.
-- Family-friendly; no alcohol/pork/dating. Names: Sara, Ali, Maryam, Reza, Neda, Amir + Emma, Tom, Jack, Lisa (English) /
+- Family-friendly; no alcohol/pork/dating. Names: Sara, Ali, Maryam, Reza, Mina, Amir + Emma, Tom, Jack, Lisa (English) /
   Jonas, Anna, Lukas, Lena, Herr/Frau Wagner (German) / Ayşe, Mehmet, Elif, Can, Zeynep, Emre (Turkish).
 - Text the voice reads (`t`): avoid "/", "=", "→" and abbreviations in sentences; write numbers in words in German and Turkish
   sentences where natural (the build converts digits anyway).

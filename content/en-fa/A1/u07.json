@@ -508,8 +508,8 @@
     },
     "text": [
       {
-        "t": "Hello! I am Neda. I am from Shiraz.",
-        "s": "سلام! من ندا هستم. من اهل شیراز هستم."
+        "t": "Hello! I am Mina. I am from Shiraz.",
+        "s": "سلام! من مینا هستم. من اهل شیراز هستم."
       },
       {
         "t": "Shiraz is a big city.",
@@ -543,8 +543,8 @@
     "questions": [
       {
         "q": {
-          "t": "Where is Neda from?",
-          "s": "ندا اهل کجاست؟"
+          "t": "Where is Mina from?",
+          "s": "مینا اهل کجاست؟"
         },
         "options": [
           "Shiraz",
@@ -555,8 +555,8 @@
       },
       {
         "q": {
-          "t": "What is opposite Neda's house?",
-          "s": "روبه‌روی خانهٔ ندا چه چیزی هست؟"
+          "t": "What is opposite Mina's house?",
+          "s": "روبه‌روی خانهٔ مینا چه چیزی هست؟"
         },
         "options": [
           "a bank",
@@ -579,8 +579,8 @@
       },
       {
         "q": {
-          "t": "Is Neda's school near her house?",
-          "s": "آیا مدرسهٔ ندا نزدیک خانه‌اش است؟"
+          "t": "Is Mina's school near her house?",
+          "s": "آیا مدرسهٔ مینا نزدیک خانه‌اش است؟"
         },
         "options": [
           "Yes, it is.",

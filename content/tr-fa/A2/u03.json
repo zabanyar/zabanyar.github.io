@@ -649,9 +649,9 @@
     },
     "text": [
       {
-        "t": "Merhaba, ben Neda! Bu tarifi annemden öğrendim; çok kolay ve lezzetli.",
-        "s": "سلام، من ندا هستم! این دستورِ پخت را از مادرم یاد گرفتم؛ خیلی آسان و خوشمزه است.",
-        "pr": "مِرحابا، بِن ندا! بو تاریفی آنِّمدِن اُرِندیم؛ چُک کُلای وِه لِزِّتلی."
+        "t": "Merhaba, ben Mina! Bu tarifi annemden öğrendim; çok kolay ve lezzetli.",
+        "s": "سلام، من مینا هستم! این دستورِ پخت را از مادرم یاد گرفتم؛ خیلی آسان و خوشمزه است.",
+        "pr": "مِرحابا، بِن مینا! بو تاریفی آنِّمدِن اُرِندیم؛ چُک کُلای وِه لِزِّتلی."
       },
       {
         "t": "Bir su bardağı kırmızı mercimek, bir soğan, bir havuç, biraz yağ ve tuz alın.",
@@ -702,8 +702,8 @@
     "questions": [
       {
         "q": {
-          "t": "Neda bu tarifi kimden öğrendi?",
-          "s": "ندا این دستورِ پخت را از چه کسی یاد گرفت؟"
+          "t": "Mina bu tarifi kimden öğrendi?",
+          "s": "مینا این دستورِ پخت را از چه کسی یاد گرفت؟"
         },
         "options": [
           "Annesinden",

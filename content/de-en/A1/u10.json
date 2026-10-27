@@ -209,15 +209,15 @@
         "voice": "m"
       },
       "B": {
-        "name": "Neda",
+        "name": "Mina",
         "voice": "f"
       }
     },
     "lines": [
       {
         "sp": "A",
-        "t": "Neda, was machst du in der Freizeit?",
-        "s": "Neda, what do you do in your free time?"
+        "t": "Mina, was machst du in der Freizeit?",
+        "s": "Mina, what do you do in your free time?"
       },
       {
         "sp": "B",
@@ -496,8 +496,8 @@
         "s": "Maryam likes reading and she likes listening to music."
       },
       {
-        "t": "Neda kann sehr gut singen.",
-        "s": "Neda can sing very well."
+        "t": "Mina kann sehr gut singen.",
+        "s": "Mina can sing very well."
       },
       {
         "t": "Amir kann nicht schwimmen, aber er kann gut kochen.",

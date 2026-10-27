@@ -409,15 +409,15 @@
         },
         {
           "type": "choice",
-          "t": "So far this week, Neda ___ four new clients.",
+          "t": "So far this week, Mina ___ four new clients.",
           "options": [
             "has met",
             "has been meeting",
             "is meeting"
           ],
           "answer": 0,
-          "s": "ندا این هفته تا حالا با چهار مشتری جدید ملاقات کرده است.",
-          "pr": "سُو فار ذیس ویک، ندا هَز مِت فُر نو کْلایِنْتْس."
+          "s": "مینا این هفته تا حالا با چهار مشتری جدید ملاقات کرده است.",
+          "pr": "سُو فار ذیس ویک، مینا هَز مِت فُر نو کْلایِنْتْس."
         },
         {
           "type": "choice",

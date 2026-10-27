@@ -20,7 +20,7 @@ The errors were concentrated in four areas:
 - *out* /aʊt/ = **آوت**, also in compounds (آوتْسُرس, آوت‌وِی, آپْت‌آوت), as in all other en-fa levels. Word-initial «اوت» is read /ut/.
 - *language(s)* = **لَنگْویج(ِز)**. With ِی = /eɪ/, «لَنگْوِیج» reads *lang-weij*. u09 already had «لَنْگْویج».
 - *however* = **هاوْاِوِر** (level majority). «هاوِوِر» loses the /aʊ/.
-- Persian names in normal Persian spelling throughout: رِضا, علی, حافِظ, مَریَم, نِدا, اَمیر, تِهْران, شیراز, نُوروز. English names are written by sound: جَک, تام.
+- Persian names in normal Persian spelling throughout: رِضا, علی, حافِظ, مَریَم, مینا, اَمیر, تِهْران, شیراز, نُوروز. English names are written by sound: جَک, تام.
 - Level-internal consistency: *Iranian* ایرِینیِن, *suggest(s)* سِگْجِسْت(ْس), *moving* مووینگ, *being* بیینگ, *wealthier* وِلْثیِر.
 - Already correct throughout and left alone: ذ/ث, ُو for /oʊ/, ُر for /ɔr/, او for /aʊ/, ُی for /ɔɪ/, ِی for /eɪ/, ِر for /ɜr/, schwa ِ, *the* = ذی before vowel sounds and ذِ elsewhere (script-checked), *a/an* = اِ/اِن, *me* = میْ, flap t, -ed endings (ت/د/ِد) and -s endings.
 

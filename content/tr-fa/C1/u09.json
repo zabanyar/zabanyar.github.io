@@ -577,8 +577,8 @@
     },
     "text": [
       {
-        "t": "Okurumuz Neda Hanım bize şöyle yazmış: “Bir arkadaşımdan yardım isteği geldiği an, kendi işimi bırakıp ona koşuyorum.”",
-        "s": "خواننده‌ی ما، ندا خانم، برایمان این‌طور نوشته است: «همان لحظه که یکی از دوستانم درخواست کمک می‌کند، کار خودم را رها می‌کنم و به سراغش می‌روم.»"
+        "t": "Okurumuz Mina Hanım bize şöyle yazmış: “Bir arkadaşımdan yardım isteği geldiği an, kendi işimi bırakıp ona koşuyorum.”",
+        "s": "خواننده‌ی ما، مینا خانم، برایمان این‌طور نوشته است: «همان لحظه که یکی از دوستانم درخواست کمک می‌کند، کار خودم را رها می‌کنم و به سراغش می‌روم.»"
       },
       {
         "t": "“Akşam eve gelir gelmez telefonum çalıyor ve ben hiç hayır diyemiyorum.”",
@@ -589,8 +589,8 @@
         "s": "«این اواخر احساس می‌کنم از پا افتاده‌ام، اما می‌ترسم اگر مرز بگذارم، دوستانم از من دلخور شوند.»"
       },
       {
-        "t": "Sevgili Neda Hanım, mektubunuzu okuduğum gibi kendi gençlik yıllarımı hatırladım.",
-        "s": "ندا خانم عزیز، همین که نامه‌تان را خواندم، یاد سال‌های جوانی خودم افتادم."
+        "t": "Sevgili Mina Hanım, mektubunuzu okuduğum gibi kendi gençlik yıllarımı hatırladım.",
+        "s": "مینا خانم عزیز، همین که نامه‌تان را خواندم، یاد سال‌های جوانی خودم افتادم."
       },
       {
         "t": "Anlattıklarınıza bakılırsa uzun süredir başkalarının ihtiyaçlarını kendi ihtiyaçlarınızın önüne koyuyor olmalısınız.",
@@ -628,8 +628,8 @@
     "questions": [
       {
         "q": {
-          "t": "Neda Hanım'ın sorunu nedir?",
-          "s": "مشکل ندا خانم چیست؟"
+          "t": "Mina Hanım'ın sorunu nedir?",
+          "s": "مشکل مینا خانم چیست؟"
         },
         "options": [
           "Arkadaşlarına hayır diyemiyor",
@@ -640,8 +640,8 @@
       },
       {
         "q": {
-          "t": "Neda Hanım sınır koyarsa ne olacağından korkuyor?",
-          "s": "ندا خانم می‌ترسد اگر مرز بگذارد چه شود؟"
+          "t": "Mina Hanım sınır koyarsa ne olacağından korkuyor?",
+          "s": "مینا خانم می‌ترسد اگر مرز بگذارد چه شود؟"
         },
         "options": [
           "İşinden atılacağından",

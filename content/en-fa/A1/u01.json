@@ -54,8 +54,8 @@
       "pr": "یو",
       "emoji": "",
       "ex": {
-        "t": "You are Neda.",
-        "s": "تو ندا هستی."
+        "t": "You are Mina.",
+        "s": "تو مینا هستی."
       }
     },
     {
@@ -622,8 +622,8 @@
   },
   "sentences": [
     {
-      "t": "Hello, my name is Neda.",
-      "s": "سلام، اسم من ندا است."
+      "t": "Hello, my name is Mina.",
+      "s": "سلام، اسم من مینا است."
     },
     {
       "t": "I'm from Iran.",

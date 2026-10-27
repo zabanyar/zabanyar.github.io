@@ -553,8 +553,8 @@
     },
     "text": [
       {
-        "t": "Hi everyone, it's Neda! I've lived in Toronto for exactly one year now.",
-        "s": "سلام به همه، ندا هستم! حالا درست یک سال است که در تورنتو زندگی می‌کنم."
+        "t": "Hi everyone, it's Mina! I've lived in Toronto for exactly one year now.",
+        "s": "سلام به همه، مینا هستم! حالا درست یک سال است که در تورنتو زندگی می‌کنم."
       },
       {
         "t": "This is my first time living abroad, so it has been a big challenge.",
@@ -596,8 +596,8 @@
     "questions": [
       {
         "q": {
-          "t": "How long has Neda lived in Toronto?",
-          "s": "ندا چه مدت است که در تورنتو زندگی می‌کند؟"
+          "t": "How long has Mina lived in Toronto?",
+          "s": "مینا چه مدت است که در تورنتو زندگی می‌کند؟"
         },
         "options": [
           "for six months",
@@ -620,8 +620,8 @@
       },
       {
         "q": {
-          "t": "What did Neda do last month?",
-          "s": "ندا ماه پیش چه کار کرد؟"
+          "t": "What did Mina do last month?",
+          "s": "مینا ماه پیش چه کار کرد؟"
         },
         "options": [
           "She went ice skating for the first time.",
@@ -636,9 +636,9 @@
           "s": "کدام جمله درست است؟"
         },
         "options": [
-          "Neda has already visited Niagara Falls.",
-          "Neda has never fallen down on the ice.",
-          "Neda wants to visit Niagara Falls this summer."
+          "Mina has already visited Niagara Falls.",
+          "Mina has never fallen down on the ice.",
+          "Mina wants to visit Niagara Falls this summer."
         ],
         "answer": 2
       }

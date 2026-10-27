@@ -565,8 +565,8 @@
     },
     "text": [
       {
-        "t": "Ben Neda, iki yıldır ailemle birlikte İstanbul'da yaşıyorum.",
-        "s": "من ندا هستم و دو سال است با خانواده‌ام در استانبول زندگی می‌کنم."
+        "t": "Ben Mina, iki yıldır ailemle birlikte İstanbul'da yaşıyorum.",
+        "s": "من مینا هستم و دو سال است با خانواده‌ام در استانبول زندگی می‌کنم."
       },
       {
         "t": "İstanbul'a taşındığımız ilk kış oğlum Amir ağır bir grip geçirdi.",
@@ -628,8 +628,8 @@
       },
       {
         "q": {
-          "t": "Komşusu Neda'ya ne tavsiye etti?",
-          "s": "همسایه‌اش به ندا چه توصیه‌ای کرد؟"
+          "t": "Komşusu Mina'ya ne tavsiye etti?",
+          "s": "همسایه‌اش به مینا چه توصیه‌ای کرد؟"
         },
         "options": [
           "Acil servise gitmesini",
@@ -652,8 +652,8 @@
       },
       {
         "q": {
-          "t": "Neda'ya göre sistemin en zayıf yanı ne?",
-          "s": "به نظر ندا، ضعیف‌ترین نقطه‌ی این نظام چیست؟"
+          "t": "Mina'ya göre sistemin en zayıf yanı ne?",
+          "s": "به نظر مینا، ضعیف‌ترین نقطه‌ی این نظام چیست؟"
         },
         "options": [
           "Aile hekimliği",

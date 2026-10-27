@@ -30,7 +30,7 @@ I also ran automatic checks: Arabic ي/ك, ZWNJ, `___` left in a `pr`, Latin let
   - iyi «ای‌یی»
   - aile «آئیلِه»
   - afiyet «آفیِت»
-  - Persian names in Persian spelling (علی، رضا، ندا، مریم، سارا، امیر)
+  - Persian names in Persian spelling (علی، رضا، مینا، مریم، سارا، امیر)
   - Turkish names by sound (آیشِه، مِهمِت، اِلیف، جان، زِینِپ، اِمرِه)
 
 ## Changes

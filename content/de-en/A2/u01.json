@@ -220,15 +220,15 @@
         "voice": "m"
       },
       "B": {
-        "name": "Neda",
+        "name": "Mina",
         "voice": "f"
       }
     },
     "lines": [
       {
         "sp": "A",
-        "t": "Guten Morgen, Neda! Wie war dein Wochenende?",
-        "s": "Good morning, Neda! How was your weekend?"
+        "t": "Guten Morgen, Mina! Wie war dein Wochenende?",
+        "s": "Good morning, Mina! How was your weekend?"
       },
       {
         "sp": "B",
@@ -691,8 +691,8 @@
       "s": "Have you done the laundry yet?"
     },
     {
-      "t": "Neda ist am Samstag nach Köln gefahren.",
-      "s": "Neda went to Cologne on Saturday."
+      "t": "Mina ist am Samstag nach Köln gefahren.",
+      "s": "Mina went to Cologne on Saturday."
     },
     {
       "t": "Ich bin gestern Abend früh eingeschlafen.",

@@ -244,7 +244,7 @@
     },
     "speakers": {
       "A": {
-        "name": "Neda",
+        "name": "Mina",
         "voice": "f"
       },
       "B": {
@@ -260,8 +260,8 @@
       },
       {
         "sp": "A",
-        "t": "Evet, ben Neda. Bugün ilk günüm. Muhasebe bölümünde çalışacağım.",
-        "s": "بله، من ندا هستم. امروز اولین روز کارم است. در بخش حسابداری کار خواهم کرد."
+        "t": "Evet, ben Mina. Bugün ilk günüm. Muhasebe bölümünde çalışacağım.",
+        "s": "بله، من مینا هستم. امروز اولین روز کارم است. در بخش حسابداری کار خواهم کرد."
       },
       {
         "sp": "B",

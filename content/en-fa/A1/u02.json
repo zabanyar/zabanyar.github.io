@@ -457,8 +457,8 @@
           "s": "یک پسر و دو دختر."
         },
         {
-          "t": "Sara and Neda are students.",
-          "s": "سارا و ندا دانش‌آموز هستند."
+          "t": "Sara and Mina are students.",
+          "s": "سارا و مینا دانش‌آموز هستند."
         },
         {
           "t": "Ali and Reza are friends.",
@@ -533,10 +533,10 @@
         },
         {
           "type": "order",
-          "t": "Sara and Neda are girls.",
-          "s": "سارا و ندا دختر هستند.",
+          "t": "Sara and Mina are girls.",
+          "s": "سارا و مینا دختر هستند.",
           "alts": [
-            "Neda and Sara are girls."
+            "Mina and Sara are girls."
           ]
         }
       ]
@@ -544,13 +544,13 @@
   ],
   "reading": {
     "title": {
-      "t": "Hello, I'm Neda!",
-      "s": "سلام، من ندا هستم!"
+      "t": "Hello, I'm Mina!",
+      "s": "سلام، من مینا هستم!"
     },
     "text": [
       {
-        "t": "Hello! My name is Neda.",
-        "s": "سلام! اسم من ندا است."
+        "t": "Hello! My name is Mina.",
+        "s": "سلام! اسم من مینا است."
       },
       {
         "t": "I'm from Iran, and I'm twelve years old.",
@@ -584,8 +584,8 @@
     "questions": [
       {
         "q": {
-          "t": "How old is Neda?",
-          "s": "ندا چند سالش است؟"
+          "t": "How old is Mina?",
+          "s": "مینا چند سالش است؟"
         },
         "options": [
           "twelve",

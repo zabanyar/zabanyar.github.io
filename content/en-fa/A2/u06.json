@@ -554,7 +554,7 @@
     },
     "text": [
       {
-        "t": "My name is Neda, and I love cooking with my grandmother.",
+        "t": "My name is Mina, and I love cooking with my grandmother.",
         "s": "اسم من نداست و عاشق آشپزی با مادربزرگم هستم."
       },
       {
@@ -597,8 +597,8 @@
     "questions": [
       {
         "q": {
-          "t": "When does Neda cook with her grandmother?",
-          "s": "ندا کِی با مادربزرگش آشپزی می‌کند؟"
+          "t": "When does Mina cook with her grandmother?",
+          "s": "مینا کِی با مادربزرگش آشپزی می‌کند؟"
         },
         "options": [
           "Every Friday",

@@ -627,14 +627,14 @@
     },
     "text": [
       {
-        "t": "امروز ندا و مادرش به بازار می‌روند.",
-        "s": "Bugün Neda ve annesi çarşıya gidiyor.",
-        "pr": "Emruz Nedâ va mâdaraş be bâzâr miravand."
+        "t": "امروز مینا و مادرش به بازار می‌روند.",
+        "s": "Bugün Mina ve annesi çarşıya gidiyor.",
+        "pr": "Emruz Minâ va mâdaraş be bâzâr miravand."
       },
       {
-        "t": "ندا یک کیف قرمز می‌خواهد.",
-        "s": "Neda kırmızı bir çanta istiyor.",
-        "pr": "Nedâ yek kif-e ğermez mixâhad."
+        "t": "مینا یک کیف قرمز می‌خواهد.",
+        "s": "Mina kırmızı bir çanta istiyor.",
+        "pr": "Minâ yek kif-e ğermez mixâhad."
       },
       {
         "t": "کیف قرمز خیلی قشنگ است، ولی گران است.",
@@ -662,17 +662,17 @@
         "pr": "Kif-e siyâh pânsad hezâr tomân ast."
       },
       {
-        "t": "ندا کیف سیاه را می‌خرد.",
-        "s": "Neda siyah çantayı alıyor.",
-        "pr": "Nedâ kif-e siyâh râ mixarad."
+        "t": "مینا کیف سیاه را می‌خرد.",
+        "s": "Mina siyah çantayı alıyor.",
+        "pr": "Minâ kif-e siyâh râ mixarad."
       }
     ],
     "questions": [
       {
         "q": {
-          "t": "ندا و مادرش کجا می‌روند؟",
-          "s": "Neda ve annesi nereye gidiyor?",
-          "pr": "Nedâ va mâdaraş kocâ miravand?"
+          "t": "مینا و مادرش کجا می‌روند؟",
+          "s": "Mina ve annesi nereye gidiyor?",
+          "pr": "Minâ va mâdaraş kocâ miravand?"
         },
         "options": [
           "به بازار",
@@ -709,9 +709,9 @@
       },
       {
         "q": {
-          "t": "ندا کدام کیف را می‌خرد؟",
-          "s": "Neda hangi çantayı alıyor?",
-          "pr": "Nedâ kodâm kif râ mixarad?"
+          "t": "مینا کدام کیف را می‌خرد؟",
+          "s": "Mina hangi çantayı alıyor?",
+          "pr": "Minâ kodâm kif râ mixarad?"
         },
         "options": [
           "سیاه",

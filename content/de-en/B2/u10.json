@@ -2,7 +2,10 @@
   "id": "u10",
   "level": "B2",
   "emoji": "🎭",
-  "title": { "t": "Freizeit mit Sinn", "s": "Free time with a purpose" },
+  "title": {
+    "t": "Freizeit mit Sinn",
+    "s": "Free time with a purpose"
+  },
   "goals": [
     "Talk about culture, leisure activities and volunteering",
     "Express purpose and alternatives with um … zu, ohne … zu, statt … zu and damit / ohne dass / statt dass",
@@ -10,157 +13,695 @@
     "Invite someone and describe your own commitment"
   ],
   "words": [
-    { "id": "w01", "t": "das Ehrenamt", "pl": "die Ehrenämter", "s": "volunteer work; honorary position", "emoji": "",
-      "ex": { "t": "Millionen Menschen in Deutschland üben ein Ehrenamt aus.", "s": "Millions of people in Germany do volunteer work." } },
-    { "id": "w02", "t": "ehrenamtlich", "s": "voluntary, unpaid", "emoji": "",
-      "ex": { "t": "Lena arbeitet ehrenamtlich bei der Tafel.", "s": "Lena volunteers at the food bank." } },
-    { "id": "w03", "t": "der Verein", "pl": "die Vereine", "s": "club, association", "emoji": "",
-      "ex": { "t": "In Deutschland gibt es für fast jedes Hobby einen Verein.", "s": "In Germany there's a club for almost every hobby." } },
-    { "id": "w04", "t": "das Mitglied", "pl": "die Mitglieder", "s": "member", "emoji": "",
-      "ex": { "t": "Herr Wagner ist seit zwanzig Jahren Mitglied im Schachverein.", "s": "Mr. Wagner has been a member of the chess club for twenty years." } },
-    { "id": "w05", "t": "sich einsetzen für + A", "s": "to stand up for, to campaign for", "emoji": "",
-      "ex": { "t": "Die Initiative setzt sich für mehr Grünflächen in der Stadt ein.", "s": "The initiative campaigns for more green spaces in the city." } },
-    { "id": "w06", "t": "die Tafel", "pl": "die Tafeln", "s": "food bank (also: blackboard)", "emoji": "",
-      "ex": { "t": "Die Tafel verteilt Lebensmittel an Menschen mit wenig Geld.", "s": "The food bank gives out food to people on low incomes." } },
-    { "id": "w07", "t": "die Ausstellung", "pl": "die Ausstellungen", "s": "exhibition", "emoji": "🖼️",
-      "ex": { "t": "Die Ausstellung im Museum ist noch bis Ende März zu sehen.", "s": "The exhibition at the museum is on until the end of March." } },
-    { "id": "w08", "t": "die Aufführung", "pl": "die Aufführungen", "s": "performance (theater, music)", "emoji": "🎭",
-      "ex": { "t": "Nach der Aufführung gab es minutenlangen Applaus.", "s": "After the performance there were minutes of applause." } },
-    { "id": "w09", "t": "das Publikum", "s": "audience", "emoji": "",
-      "ex": { "t": "Am Ende hat das ganze Publikum mitgesungen.", "s": "At the end the whole audience sang along." } },
-    { "id": "w10", "t": "die Eintrittskarte", "pl": "die Eintrittskarten", "s": "admission ticket", "emoji": "🎟️",
-      "ex": { "t": "Die Eintrittskarten für das Konzert waren in zehn Minuten ausverkauft.", "s": "The tickets for the concert sold out in ten minutes." } },
-    { "id": "w11", "t": "der Chor", "pl": "die Chöre", "s": "choir", "emoji": "",
-      "ex": { "t": "Maryam singt seit Oktober in einem Chor.", "s": "Maryam has been singing in a choir since October." } },
-    { "id": "w12", "t": "sich Zeit nehmen für + A", "s": "to make time for", "emoji": "",
-      "ex": { "t": "Für meine Hobbys nehme ich mir bewusst Zeit.", "s": "I make a point of making time for my hobbies." } },
-    { "id": "w13", "t": "der Zeitaufwand", "s": "time commitment, time required", "emoji": "",
-      "ex": { "t": "Der Zeitaufwand beträgt etwa drei Stunden pro Woche.", "s": "The time commitment is about three hours a week." } },
-    { "id": "w14", "t": "die Wertschätzung", "s": "appreciation, esteem", "emoji": "",
-      "ex": { "t": "Ein kleines Dankeschön ist ein Zeichen der Wertschätzung.", "s": "A small thank-you is a sign of appreciation." } },
-    { "id": "w15", "t": "etwas zurückgeben", "s": "to give something back", "emoji": "",
-      "ex": { "t": "Ich habe viel Hilfe bekommen und möchte jetzt etwas zurückgeben.", "s": "I've received a lot of help and now I'd like to give something back." } }
+    {
+      "id": "w01",
+      "t": "das Ehrenamt",
+      "pl": "die Ehrenämter",
+      "s": "volunteer work; honorary position",
+      "emoji": "",
+      "ex": {
+        "t": "Millionen Menschen in Deutschland üben ein Ehrenamt aus.",
+        "s": "Millions of people in Germany do volunteer work."
+      }
+    },
+    {
+      "id": "w02",
+      "t": "ehrenamtlich",
+      "s": "voluntary, unpaid",
+      "emoji": "",
+      "ex": {
+        "t": "Lena arbeitet ehrenamtlich bei der Tafel.",
+        "s": "Lena volunteers at the food bank."
+      }
+    },
+    {
+      "id": "w03",
+      "t": "der Verein",
+      "pl": "die Vereine",
+      "s": "club, association",
+      "emoji": "",
+      "ex": {
+        "t": "In Deutschland gibt es für fast jedes Hobby einen Verein.",
+        "s": "In Germany there's a club for almost every hobby."
+      }
+    },
+    {
+      "id": "w04",
+      "t": "das Mitglied",
+      "pl": "die Mitglieder",
+      "s": "member",
+      "emoji": "",
+      "ex": {
+        "t": "Herr Wagner ist seit zwanzig Jahren Mitglied im Schachverein.",
+        "s": "Mr. Wagner has been a member of the chess club for twenty years."
+      }
+    },
+    {
+      "id": "w05",
+      "t": "sich einsetzen für + A",
+      "s": "to stand up for, to campaign for",
+      "emoji": "",
+      "ex": {
+        "t": "Die Initiative setzt sich für mehr Grünflächen in der Stadt ein.",
+        "s": "The initiative campaigns for more green spaces in the city."
+      }
+    },
+    {
+      "id": "w06",
+      "t": "die Tafel",
+      "pl": "die Tafeln",
+      "s": "food bank (also: blackboard)",
+      "emoji": "",
+      "ex": {
+        "t": "Die Tafel verteilt Lebensmittel an Menschen mit wenig Geld.",
+        "s": "The food bank gives out food to people on low incomes."
+      }
+    },
+    {
+      "id": "w07",
+      "t": "die Ausstellung",
+      "pl": "die Ausstellungen",
+      "s": "exhibition",
+      "emoji": "🖼️",
+      "ex": {
+        "t": "Die Ausstellung im Museum ist noch bis Ende März zu sehen.",
+        "s": "The exhibition at the museum is on until the end of March."
+      }
+    },
+    {
+      "id": "w08",
+      "t": "die Aufführung",
+      "pl": "die Aufführungen",
+      "s": "performance (theater, music)",
+      "emoji": "🎭",
+      "ex": {
+        "t": "Nach der Aufführung gab es minutenlangen Applaus.",
+        "s": "After the performance there were minutes of applause."
+      }
+    },
+    {
+      "id": "w09",
+      "t": "das Publikum",
+      "s": "audience",
+      "emoji": "",
+      "ex": {
+        "t": "Am Ende hat das ganze Publikum mitgesungen.",
+        "s": "At the end the whole audience sang along."
+      }
+    },
+    {
+      "id": "w10",
+      "t": "die Eintrittskarte",
+      "pl": "die Eintrittskarten",
+      "s": "admission ticket",
+      "emoji": "🎟️",
+      "ex": {
+        "t": "Die Eintrittskarten für das Konzert waren in zehn Minuten ausverkauft.",
+        "s": "The tickets for the concert sold out in ten minutes."
+      }
+    },
+    {
+      "id": "w11",
+      "t": "der Chor",
+      "pl": "die Chöre",
+      "s": "choir",
+      "emoji": "",
+      "ex": {
+        "t": "Maryam singt seit Oktober in einem Chor.",
+        "s": "Maryam has been singing in a choir since October."
+      }
+    },
+    {
+      "id": "w12",
+      "t": "sich Zeit nehmen für + A",
+      "s": "to make time for",
+      "emoji": "",
+      "ex": {
+        "t": "Für meine Hobbys nehme ich mir bewusst Zeit.",
+        "s": "I make a point of making time for my hobbies."
+      }
+    },
+    {
+      "id": "w13",
+      "t": "der Zeitaufwand",
+      "s": "time commitment, time required",
+      "emoji": "",
+      "ex": {
+        "t": "Der Zeitaufwand beträgt etwa drei Stunden pro Woche.",
+        "s": "The time commitment is about three hours a week."
+      }
+    },
+    {
+      "id": "w14",
+      "t": "die Wertschätzung",
+      "s": "appreciation, esteem",
+      "emoji": "",
+      "ex": {
+        "t": "Ein kleines Dankeschön ist ein Zeichen der Wertschätzung.",
+        "s": "A small thank-you is a sign of appreciation."
+      }
+    },
+    {
+      "id": "w15",
+      "t": "etwas zurückgeben",
+      "s": "to give something back",
+      "emoji": "",
+      "ex": {
+        "t": "Ich habe viel Hilfe bekommen und möchte jetzt etwas zurückgeben.",
+        "s": "I've received a lot of help and now I'd like to give something back."
+      }
+    }
   ],
   "phrases": [
-    { "id": "p01", "t": "Ich möchte euch kurz von … erzählen.", "s": "I'd like to tell you briefly about …" },
-    { "id": "p02", "t": "Was mich daran besonders reizt, ist …", "s": "What appeals to me most about it is …" },
-    { "id": "p03", "t": "Hättest du Lust, mal mitzukommen?", "s": "Would you like to come along sometime?" },
-    { "id": "p04", "t": "Das ist nichts für mich.", "s": "That's not my thing." },
-    { "id": "p05", "t": "Für mich steht fest, dass …", "s": "For me, it's clear that …" },
-    { "id": "p06", "t": "Ich habe den Eindruck, dass …", "s": "I have the impression that …" },
-    { "id": "p07", "t": "Ich kann es nur empfehlen.", "s": "I can highly recommend it." },
-    { "id": "p08", "t": "Abschließend möchte ich sagen, dass …", "s": "Finally, I'd like to say that …" }
+    {
+      "id": "p01",
+      "t": "Ich möchte euch kurz von … erzählen.",
+      "s": "I'd like to tell you briefly about …"
+    },
+    {
+      "id": "p02",
+      "t": "Was mich daran besonders reizt, ist …",
+      "s": "What appeals to me most about it is …"
+    },
+    {
+      "id": "p03",
+      "t": "Hättest du Lust, mal mitzukommen?",
+      "s": "Would you like to come along sometime?"
+    },
+    {
+      "id": "p04",
+      "t": "Das ist nichts für mich.",
+      "s": "That's not my thing."
+    },
+    {
+      "id": "p05",
+      "t": "Für mich steht fest, dass …",
+      "s": "For me, it's clear that …"
+    },
+    {
+      "id": "p06",
+      "t": "Ich habe den Eindruck, dass …",
+      "s": "I have the impression that …"
+    },
+    {
+      "id": "p07",
+      "t": "Ich kann es nur empfehlen.",
+      "s": "I can highly recommend it."
+    },
+    {
+      "id": "p08",
+      "t": "Abschließend möchte ich sagen, dass …",
+      "s": "Finally, I'd like to say that …"
+    }
   ],
   "dialogue": {
-    "title": { "t": "Ein Wochenende bei der Tafel", "s": "A weekend at the food bank" },
-    "speakers": { "A": { "name": "Lena", "voice": "f" }, "B": { "name": "Reza", "voice": "m" } },
+    "title": {
+      "t": "Ein Wochenende bei der Tafel",
+      "s": "A weekend at the food bank"
+    },
+    "speakers": {
+      "A": {
+        "name": "Lena",
+        "voice": "f"
+      },
+      "B": {
+        "name": "Reza",
+        "voice": "m"
+      }
+    },
     "lines": [
-      { "sp": "A", "t": "Reza, du siehst müde aus. Was hast du am Wochenende gemacht?", "s": "Reza, you look tired. What did you do on the weekend?" },
-      { "sp": "B", "t": "Ich habe den ganzen Samstag arbeiten müssen. Wir hatten ein dringendes Projekt.", "s": "I had to work all day Saturday. We had an urgent project." },
-      { "sp": "A", "t": "Oh je. Ich war bei der Tafel und habe Lebensmittel sortiert.", "s": "Oh dear. I was at the food bank sorting food." },
-      { "sp": "B", "t": "Bei der Tafel? Machst du das ehrenamtlich?", "s": "At the food bank? Do you do that as a volunteer?" },
-      { "sp": "A", "t": "Ja, schon seit zwei Jahren. Ich wollte etwas zurückgeben, statt immer nur über Probleme zu reden.", "s": "Yes, for two years now. I wanted to give something back instead of just talking about problems all the time." },
-      { "sp": "B", "t": "Respekt! Und wie groß ist der Zeitaufwand?", "s": "Respect! And how much time does it take?" },
-      { "sp": "A", "t": "Etwa vier Stunden pro Woche. Man muss nicht jedes Wochenende kommen, der Dienstplan ist ziemlich flexibel.", "s": "About four hours a week. You don't have to come every weekend; the schedule is pretty flexible." },
-      { "sp": "B", "t": "Klingt gut. Ich wollte mich schon lange irgendwo engagieren, aber ich habe mich nie entscheiden können, wo.", "s": "Sounds good. I've wanted to get involved somewhere for a long time, but I've never been able to decide where." },
-      { "sp": "A", "t": "Komm doch am Samstag einfach mit, um es dir anzuschauen. Du musst dich ja nicht sofort festlegen.", "s": "Why don't you just come along on Saturday and take a look? You don't have to commit right away." },
-      { "sp": "B", "t": "Gern. Muss ich etwas mitbringen?", "s": "I'd love to. Do I need to bring anything?" },
-      { "sp": "A", "t": "Nur bequeme Schuhe. Und plan genug Zeit ein, damit wir danach noch zusammen Tee trinken können.", "s": "Just comfortable shoes. And allow enough time so that we can have tea together afterward." },
-      { "sp": "B", "t": "Abgemacht! Ich freue mich darauf.", "s": "It's a deal! I'm looking forward to it." }
+      {
+        "sp": "A",
+        "t": "Reza, du siehst müde aus. Was hast du am Wochenende gemacht?",
+        "s": "Reza, you look tired. What did you do on the weekend?"
+      },
+      {
+        "sp": "B",
+        "t": "Ich habe den ganzen Samstag arbeiten müssen. Wir hatten ein dringendes Projekt.",
+        "s": "I had to work all day Saturday. We had an urgent project."
+      },
+      {
+        "sp": "A",
+        "t": "Oh je. Ich war bei der Tafel und habe Lebensmittel sortiert.",
+        "s": "Oh dear. I was at the food bank sorting food."
+      },
+      {
+        "sp": "B",
+        "t": "Bei der Tafel? Machst du das ehrenamtlich?",
+        "s": "At the food bank? Do you do that as a volunteer?"
+      },
+      {
+        "sp": "A",
+        "t": "Ja, schon seit zwei Jahren. Ich wollte etwas zurückgeben, statt immer nur über Probleme zu reden.",
+        "s": "Yes, for two years now. I wanted to give something back instead of just talking about problems all the time."
+      },
+      {
+        "sp": "B",
+        "t": "Respekt! Und wie groß ist der Zeitaufwand?",
+        "s": "Respect! And how much time does it take?"
+      },
+      {
+        "sp": "A",
+        "t": "Etwa vier Stunden pro Woche. Man muss nicht jedes Wochenende kommen, der Dienstplan ist ziemlich flexibel.",
+        "s": "About four hours a week. You don't have to come every weekend; the schedule is pretty flexible."
+      },
+      {
+        "sp": "B",
+        "t": "Klingt gut. Ich wollte mich schon lange irgendwo engagieren, aber ich habe mich nie entscheiden können, wo.",
+        "s": "Sounds good. I've wanted to get involved somewhere for a long time, but I've never been able to decide where."
+      },
+      {
+        "sp": "A",
+        "t": "Komm doch am Samstag einfach mit, um es dir anzuschauen. Du musst dich ja nicht sofort festlegen.",
+        "s": "Why don't you just come along on Saturday and take a look? You don't have to commit right away."
+      },
+      {
+        "sp": "B",
+        "t": "Gern. Muss ich etwas mitbringen?",
+        "s": "I'd love to. Do I need to bring anything?"
+      },
+      {
+        "sp": "A",
+        "t": "Nur bequeme Schuhe. Und plan genug Zeit ein, damit wir danach noch zusammen Tee trinken können.",
+        "s": "Just comfortable shoes. And allow enough time so that we can have tea together afterward."
+      },
+      {
+        "sp": "B",
+        "t": "Abgemacht! Ich freue mich darauf.",
+        "s": "It's a deal! I'm looking forward to it."
+      }
     ]
   },
   "grammar": [
     {
       "id": "g01",
-      "title": { "t": "um … zu, ohne … zu, statt … zu – damit, ohne dass, statt dass", "s": "Infinitive clauses vs. clauses with a conjugated verb" },
+      "title": {
+        "t": "um … zu, ohne … zu, statt … zu – damit, ohne dass, statt dass",
+        "s": "Infinitive clauses vs. clauses with a conjugated verb"
+      },
       "explain": "Infinitive clauses are a compact way to express a purpose, something that doesn't happen, or an alternative:\n• **um … zu** – purpose (in order to): **Lena hilft bei der Tafel, um etwas zurückzugeben.**\n• **ohne … zu** – something doesn't happen (without …ing): **Er ging, ohne sich zu verabschieden.**\n• **(an)statt … zu** – instead of …ing: **Statt fernzusehen, singt Maryam im Chor.**\n**zu** stands directly before the infinitive at the end; with separable verbs it goes in the middle: **anzurufen, zurückzugeben**. With a modal verb: **um länger arbeiten zu können**.\nYou can only use these infinitive clauses when **both parts have the same subject**. If the subjects are **different**, use a clause with a conjugated verb: **damit**, **ohne dass**, **(an)statt dass**: **Ich spreche langsam, damit alle mich verstehen.**\nWith the same subject, **damit** is also possible, but **um … zu** sounds more natural. Tip: don't put **wollen** or **sollen** in a damit clause – the purpose is already expressed by **damit**.",
       "table": [
-        ["gleiches Subjekt", "anderes Subjekt", "Bedeutung"],
-        ["um … zu", "damit", "Zweck"],
-        ["ohne … zu", "ohne dass", "etwas passiert nicht"],
-        ["(an)statt … zu", "(an)statt dass", "Alternative"]
+        [
+          "gleiches Subjekt",
+          "anderes Subjekt",
+          "Bedeutung"
+        ],
+        [
+          "um … zu",
+          "damit",
+          "Zweck"
+        ],
+        [
+          "ohne … zu",
+          "ohne dass",
+          "etwas passiert nicht"
+        ],
+        [
+          "(an)statt … zu",
+          "(an)statt dass",
+          "Alternative"
+        ]
       ],
       "examples": [
-        { "t": "Lena engagiert sich bei der Tafel, um anderen Menschen zu helfen.", "s": "Lena volunteers at the food bank to help other people." },
-        { "t": "Reza erklärt alles langsam, damit die neuen Helfer ihn verstehen.", "s": "Reza explains everything slowly so that the new volunteers understand him." },
-        { "t": "Ali ist ins Konzert gegangen, ohne vorher eine Karte zu kaufen.", "s": "Ali went to the concert without buying a ticket in advance." },
-        { "t": "Die Nachbarn haben das Fest organisiert, ohne dass die Stadt ihnen geholfen hat.", "s": "The neighbors organized the party without the city helping them." },
-        { "t": "Statt den ganzen Abend fernzusehen, singt Maryam im Chor.", "s": "Instead of watching TV all evening, Maryam sings in a choir." }
+        {
+          "t": "Lena engagiert sich bei der Tafel, um anderen Menschen zu helfen.",
+          "s": "Lena volunteers at the food bank to help other people."
+        },
+        {
+          "t": "Reza erklärt alles langsam, damit die neuen Helfer ihn verstehen.",
+          "s": "Reza explains everything slowly so that the new volunteers understand him."
+        },
+        {
+          "t": "Ali ist ins Konzert gegangen, ohne vorher eine Karte zu kaufen.",
+          "s": "Ali went to the concert without buying a ticket in advance."
+        },
+        {
+          "t": "Die Nachbarn haben das Fest organisiert, ohne dass die Stadt ihnen geholfen hat.",
+          "s": "The neighbors organized the party without the city helping them."
+        },
+        {
+          "t": "Statt den ganzen Abend fernzusehen, singt Maryam im Chor.",
+          "s": "Instead of watching TV all evening, Maryam sings in a choir."
+        }
       ],
       "exercises": [
-        { "type": "choice", "t": "Neda lernt Gitarre, ___ in einer Band zu spielen.", "options": ["um", "damit", "dass"], "answer": 0, "s": "Neda is learning the guitar so that she can play in a band." },
-        { "type": "choice", "t": "Ich erkläre es noch einmal, ___ alle es verstehen.", "options": ["um", "damit", "statt"], "answer": 1, "s": "I'll explain it once more so that everyone understands." },
-        { "type": "choice", "t": "Er ist gegangen, ___ sich zu verabschieden.", "options": ["ohne dass", "damit", "ohne"], "answer": 2, "s": "He left without saying goodbye." },
-        { "type": "type", "t": "Statt am Wochenende lange ___ schlafen, hilft Reza im Verein.", "answer": ["zu"], "s": "Instead of sleeping in on the weekend, Reza helps out at the club." },
-        { "type": "type", "t": "Wir fahren früher los, ___ wir gute Plätze bekommen.", "answer": ["damit", "sodass", "so dass"], "s": "We're leaving earlier so that we get good seats." },
-        { "type": "type", "t": "Frau Becker hat uns geholfen, ___ dass wir sie darum gebeten haben.", "answer": ["ohne"], "s": "Ms. Becker helped us without our asking her to." },
-        { "type": "type", "t": "Ich rufe beim Verein an, um mich für den Kurs ___.", "answer": ["anzumelden"], "s": "I'm calling the club to sign up for the course. (anmelden)" },
-        { "type": "order", "t": "Lena hilft bei der Tafel, um etwas zurückzugeben.", "s": "Lena helps at the food bank to give something back." }
+        {
+          "type": "choice",
+          "t": "Mina lernt Gitarre, ___ in einer Band zu spielen.",
+          "options": [
+            "um",
+            "damit",
+            "dass"
+          ],
+          "answer": 0,
+          "s": "Mina is learning the guitar so that she can play in a band."
+        },
+        {
+          "type": "choice",
+          "t": "Ich erkläre es noch einmal, ___ alle es verstehen.",
+          "options": [
+            "um",
+            "damit",
+            "statt"
+          ],
+          "answer": 1,
+          "s": "I'll explain it once more so that everyone understands."
+        },
+        {
+          "type": "choice",
+          "t": "Er ist gegangen, ___ sich zu verabschieden.",
+          "options": [
+            "ohne dass",
+            "damit",
+            "ohne"
+          ],
+          "answer": 2,
+          "s": "He left without saying goodbye."
+        },
+        {
+          "type": "type",
+          "t": "Statt am Wochenende lange ___ schlafen, hilft Reza im Verein.",
+          "answer": [
+            "zu"
+          ],
+          "s": "Instead of sleeping in on the weekend, Reza helps out at the club."
+        },
+        {
+          "type": "type",
+          "t": "Wir fahren früher los, ___ wir gute Plätze bekommen.",
+          "answer": [
+            "damit",
+            "sodass",
+            "so dass"
+          ],
+          "s": "We're leaving earlier so that we get good seats."
+        },
+        {
+          "type": "type",
+          "t": "Frau Becker hat uns geholfen, ___ dass wir sie darum gebeten haben.",
+          "answer": [
+            "ohne"
+          ],
+          "s": "Ms. Becker helped us without our asking her to."
+        },
+        {
+          "type": "type",
+          "t": "Ich rufe beim Verein an, um mich für den Kurs ___.",
+          "answer": [
+            "anzumelden"
+          ],
+          "s": "I'm calling the club to sign up for the course. (anmelden)"
+        },
+        {
+          "type": "order",
+          "t": "Lena hilft bei der Tafel, um etwas zurückzugeben.",
+          "s": "Lena helps at the food bank to give something back."
+        }
       ]
     },
     {
       "id": "g02",
-      "title": { "t": "Ich habe arbeiten müssen.", "s": "Modal verbs in the perfect tense" },
+      "title": {
+        "t": "Ich habe arbeiten müssen.",
+        "s": "Modal verbs in the perfect tense"
+      },
       "explain": "When a modal verb is used **together with another verb**, its Perfekt is formed with **haben + infinitive + the modal verb in the infinitive** (a \"double infinitive\"): **Ich habe arbeiten müssen.** (not: gemusst)\nWhen the modal verb stands **on its own**, the normal Partizip II is used: **Das habe ich nicht gewollt.** / **Als Kind habe ich das nicht gedurft.**\nThe auxiliary is **always haben**, even with verbs of movement: **Ich habe früher gehen müssen.**\nIn a **subordinate clause**, **haben** does not go to the very end – it comes **before** the two infinitives: **…, weil ich am Samstag habe arbeiten müssen.**\n**lassen** (and often **sehen** and **hören**) work the same way: **Wir haben das Fahrrad reparieren lassen.**\nIn practice, Germans often prefer the **Präteritum** of modal verbs, especially in writing: **Ich musste arbeiten.** In speech, however, you'll hear the Perfekt a lot.",
       "table": [
-        ["Präteritum", "Ich musste arbeiten."],
-        ["Perfekt mit Infinitiv", "Ich habe arbeiten müssen."],
-        ["Perfekt ohne Infinitiv", "Das habe ich nicht gewollt."],
-        ["Nebensatz", "…, weil ich habe arbeiten müssen."],
-        ["auch mit lassen", "Ich habe das Rad reparieren lassen."]
+        [
+          "Präteritum",
+          "Ich musste arbeiten."
+        ],
+        [
+          "Perfekt mit Infinitiv",
+          "Ich habe arbeiten müssen."
+        ],
+        [
+          "Perfekt ohne Infinitiv",
+          "Das habe ich nicht gewollt."
+        ],
+        [
+          "Nebensatz",
+          "…, weil ich habe arbeiten müssen."
+        ],
+        [
+          "auch mit lassen",
+          "Ich habe das Rad reparieren lassen."
+        ]
       ],
       "examples": [
-        { "t": "Reza hat am Samstag arbeiten müssen.", "s": "Reza had to work on Saturday." },
-        { "t": "Wir haben leider keine Eintrittskarten mehr kaufen können.", "s": "Unfortunately, we weren't able to buy any more tickets." },
-        { "t": "Maryam hat schon immer in einem Chor singen wollen.", "s": "Maryam has always wanted to sing in a choir." },
-        { "t": "Lena war traurig, weil sie nicht zur Aufführung hat kommen können.", "s": "Lena was sad because she hadn't been able to come to the performance." },
-        { "t": "Das habe ich wirklich nicht gewollt!", "s": "I really didn't mean for that to happen!" }
+        {
+          "t": "Reza hat am Samstag arbeiten müssen.",
+          "s": "Reza had to work on Saturday."
+        },
+        {
+          "t": "Wir haben leider keine Eintrittskarten mehr kaufen können.",
+          "s": "Unfortunately, we weren't able to buy any more tickets."
+        },
+        {
+          "t": "Maryam hat schon immer in einem Chor singen wollen.",
+          "s": "Maryam has always wanted to sing in a choir."
+        },
+        {
+          "t": "Lena war traurig, weil sie nicht zur Aufführung hat kommen können.",
+          "s": "Lena was sad because she hadn't been able to come to the performance."
+        },
+        {
+          "t": "Das habe ich wirklich nicht gewollt!",
+          "s": "I really didn't mean for that to happen!"
+        }
       ],
       "exercises": [
-        { "type": "choice", "t": "Ali hat gestern lange ___.", "options": ["arbeiten müssen", "gearbeitet müssen", "arbeiten gemusst"], "answer": 0, "s": "Ali had to work late yesterday." },
-        { "type": "choice", "t": "Wir ___ das Konzert leider nicht besuchen können.", "options": ["sind", "haben", "wurden"], "answer": 1, "s": "Unfortunately, we weren't able to go to the concert." },
-        { "type": "type", "t": "Neda hat schon als Kind Klavier spielen ___.", "answer": ["wollen"], "s": "Even as a child, Neda wanted to play the piano." },
-        { "type": "type", "t": "Ich konnte nicht kommen, weil ich ___ arbeiten müssen.", "answer": ["habe", "hatte"], "s": "I couldn't come because I had to work." },
-        { "type": "choice", "t": "Das tut mir leid, das habe ich nicht ___.", "options": ["wollen", "gewollt", "gewollen"], "answer": 1, "s": "I'm sorry, I didn't mean to." },
-        { "type": "choice", "t": "Sie war enttäuscht, weil sie keine Karte ___.", "options": ["hat bekommen können", "bekommen können hat", "hat können bekommen"], "answer": 0, "s": "She was disappointed because she hadn't been able to get a ticket." },
-        { "type": "type", "t": "Wir haben unsere Fahrräder reparieren ___.", "answer": ["lassen"], "s": "We had our bikes repaired." },
-        { "type": "order", "t": "Ich habe am Wochenende arbeiten müssen.", "s": "I had to work on the weekend." }
+        {
+          "type": "choice",
+          "t": "Ali hat gestern lange ___.",
+          "options": [
+            "arbeiten müssen",
+            "gearbeitet müssen",
+            "arbeiten gemusst"
+          ],
+          "answer": 0,
+          "s": "Ali had to work late yesterday."
+        },
+        {
+          "type": "choice",
+          "t": "Wir ___ das Konzert leider nicht besuchen können.",
+          "options": [
+            "sind",
+            "haben",
+            "wurden"
+          ],
+          "answer": 1,
+          "s": "Unfortunately, we weren't able to go to the concert."
+        },
+        {
+          "type": "type",
+          "t": "Mina hat schon als Kind Klavier spielen ___.",
+          "answer": [
+            "wollen"
+          ],
+          "s": "Even as a child, Mina wanted to play the piano."
+        },
+        {
+          "type": "type",
+          "t": "Ich konnte nicht kommen, weil ich ___ arbeiten müssen.",
+          "answer": [
+            "habe",
+            "hatte"
+          ],
+          "s": "I couldn't come because I had to work."
+        },
+        {
+          "type": "choice",
+          "t": "Das tut mir leid, das habe ich nicht ___.",
+          "options": [
+            "wollen",
+            "gewollt",
+            "gewollen"
+          ],
+          "answer": 1,
+          "s": "I'm sorry, I didn't mean to."
+        },
+        {
+          "type": "choice",
+          "t": "Sie war enttäuscht, weil sie keine Karte ___.",
+          "options": [
+            "hat bekommen können",
+            "bekommen können hat",
+            "hat können bekommen"
+          ],
+          "answer": 0,
+          "s": "She was disappointed because she hadn't been able to get a ticket."
+        },
+        {
+          "type": "type",
+          "t": "Wir haben unsere Fahrräder reparieren ___.",
+          "answer": [
+            "lassen"
+          ],
+          "s": "We had our bikes repaired."
+        },
+        {
+          "type": "order",
+          "t": "Ich habe am Wochenende arbeiten müssen.",
+          "s": "I had to work on the weekend."
+        }
       ]
     }
   ],
   "reading": {
-    "title": { "t": "Eine E-Mail von Maryam", "s": "An email from Maryam" },
+    "title": {
+      "t": "Eine E-Mail von Maryam",
+      "s": "An email from Maryam"
+    },
     "text": [
-      { "t": "Liebe Neda, entschuldige bitte, dass ich mich so lange nicht gemeldet habe!", "s": "Dear Neda, I'm so sorry I haven't been in touch for so long!" },
-      { "t": "In den letzten Wochen habe ich sehr viel arbeiten müssen, und abends war ich einfach zu müde zum Schreiben.", "s": "I've had to work a lot over the last few weeks, and in the evenings I was simply too tired to write." },
-      { "t": "Aber jetzt habe ich tolle Neuigkeiten: Seit Oktober bin ich Mitglied in einem internationalen Chor!", "s": "But now I have great news: since October I've been a member of an international choir!" },
-      { "t": "Du weißt ja, wie lange ich das schon machen wollte.", "s": "You know how long I've wanted to do that." },
-      { "t": "Wir proben jeden Mittwoch in einem Gemeindezentrum, und die Leute kommen aus mehr als zehn Ländern.", "s": "We rehearse every Wednesday in a community center, and the members come from more than ten countries." },
-      { "t": "Um die Liedtexte besser zu verstehen, übersetzen wir sie oft gemeinsam – so lerne ich nebenbei sogar ein paar Wörter Spanisch und Ukrainisch.", "s": "To understand the lyrics better, we often translate them together – so I'm even picking up a few words of Spanish and Ukrainian along the way." },
-      { "t": "Im Dezember geben wir unser erstes Konzert, und der Eintritt ist frei.", "s": "In December we're giving our first concert, and admission is free." },
-      { "t": "Die Spenden, die wir dabei sammeln, gehen an die Tafel in unserem Stadtteil.", "s": "The donations we collect will go to the food bank in our neighborhood." },
-      { "t": "Ali war zuerst skeptisch, weil er Angst hatte, dass mir zu wenig Zeit für die Familie bleibt.", "s": "Ali was skeptical at first because he was afraid I'd have too little time left for the family." },
-      { "t": "Inzwischen hat er aber gemerkt, wie gut mir das Singen tut, und will beim Konzert sogar als Helfer mitmachen.", "s": "But by now he's noticed how good singing is for me, and he even wants to help out at the concert." },
-      { "t": "Statt abends nur auf dem Sofa zu sitzen, habe ich jetzt jede Woche einen festen Termin, auf den ich mich freue.", "s": "Instead of just sitting on the sofa in the evening, I now have a regular weekly appointment that I look forward to." },
-      { "t": "Hast du nicht Lust, am 14. Dezember zu kommen? Ich würde mich riesig freuen!", "s": "Wouldn't you like to come on December 14? I'd be absolutely thrilled!" },
-      { "t": "Liebe Grüße, deine Maryam", "s": "Love, Maryam" }
+      {
+        "t": "Liebe Mina, entschuldige bitte, dass ich mich so lange nicht gemeldet habe!",
+        "s": "Dear Mina, I'm so sorry I haven't been in touch for so long!"
+      },
+      {
+        "t": "In den letzten Wochen habe ich sehr viel arbeiten müssen, und abends war ich einfach zu müde zum Schreiben.",
+        "s": "I've had to work a lot over the last few weeks, and in the evenings I was simply too tired to write."
+      },
+      {
+        "t": "Aber jetzt habe ich tolle Neuigkeiten: Seit Oktober bin ich Mitglied in einem internationalen Chor!",
+        "s": "But now I have great news: since October I've been a member of an international choir!"
+      },
+      {
+        "t": "Du weißt ja, wie lange ich das schon machen wollte.",
+        "s": "You know how long I've wanted to do that."
+      },
+      {
+        "t": "Wir proben jeden Mittwoch in einem Gemeindezentrum, und die Leute kommen aus mehr als zehn Ländern.",
+        "s": "We rehearse every Wednesday in a community center, and the members come from more than ten countries."
+      },
+      {
+        "t": "Um die Liedtexte besser zu verstehen, übersetzen wir sie oft gemeinsam – so lerne ich nebenbei sogar ein paar Wörter Spanisch und Ukrainisch.",
+        "s": "To understand the lyrics better, we often translate them together – so I'm even picking up a few words of Spanish and Ukrainian along the way."
+      },
+      {
+        "t": "Im Dezember geben wir unser erstes Konzert, und der Eintritt ist frei.",
+        "s": "In December we're giving our first concert, and admission is free."
+      },
+      {
+        "t": "Die Spenden, die wir dabei sammeln, gehen an die Tafel in unserem Stadtteil.",
+        "s": "The donations we collect will go to the food bank in our neighborhood."
+      },
+      {
+        "t": "Ali war zuerst skeptisch, weil er Angst hatte, dass mir zu wenig Zeit für die Familie bleibt.",
+        "s": "Ali was skeptical at first because he was afraid I'd have too little time left for the family."
+      },
+      {
+        "t": "Inzwischen hat er aber gemerkt, wie gut mir das Singen tut, und will beim Konzert sogar als Helfer mitmachen.",
+        "s": "But by now he's noticed how good singing is for me, and he even wants to help out at the concert."
+      },
+      {
+        "t": "Statt abends nur auf dem Sofa zu sitzen, habe ich jetzt jede Woche einen festen Termin, auf den ich mich freue.",
+        "s": "Instead of just sitting on the sofa in the evening, I now have a regular weekly appointment that I look forward to."
+      },
+      {
+        "t": "Hast du nicht Lust, am 14. Dezember zu kommen? Ich würde mich riesig freuen!",
+        "s": "Wouldn't you like to come on December 14? I'd be absolutely thrilled!"
+      },
+      {
+        "t": "Liebe Grüße, deine Maryam",
+        "s": "Love, Maryam"
+      }
     ],
     "questions": [
-      { "q": { "t": "Warum hat sich Maryam lange nicht gemeldet?", "s": "Why hasn't Maryam been in touch for so long?" }, "options": ["Sie war im Urlaub.", "Sie hat viel arbeiten müssen.", "Sie war krank."], "answer": 1 },
-      { "q": { "t": "Was ist neu in Maryams Leben?", "s": "What's new in Maryam's life?" }, "options": ["Sie singt in einem Chor.", "Sie hat eine neue Stelle.", "Sie macht einen Spanischkurs."], "answer": 0 },
-      { "q": { "t": "Wofür werden die Spenden gesammelt?", "s": "What are the donations being collected for?" }, "options": ["für den Chor", "für das Gemeindezentrum", "für die Tafel im Stadtteil"], "answer": 2 },
-      { "q": { "t": "Wie hat Ali zuerst reagiert?", "s": "How did Ali react at first?" }, "options": ["Er war begeistert.", "Er war skeptisch.", "Er wollte selbst mitsingen."], "answer": 1 },
-      { "q": { "t": "Worum bittet Maryam Neda?", "s": "What does Maryam ask Neda to do?" }, "options": ["zum Konzert zu kommen", "im Chor mitzusingen", "Spenden zu sammeln"], "answer": 0 }
+      {
+        "q": {
+          "t": "Warum hat sich Maryam lange nicht gemeldet?",
+          "s": "Why hasn't Maryam been in touch for so long?"
+        },
+        "options": [
+          "Sie war im Urlaub.",
+          "Sie hat viel arbeiten müssen.",
+          "Sie war krank."
+        ],
+        "answer": 1
+      },
+      {
+        "q": {
+          "t": "Was ist neu in Maryams Leben?",
+          "s": "What's new in Maryam's life?"
+        },
+        "options": [
+          "Sie singt in einem Chor.",
+          "Sie hat eine neue Stelle.",
+          "Sie macht einen Spanischkurs."
+        ],
+        "answer": 0
+      },
+      {
+        "q": {
+          "t": "Wofür werden die Spenden gesammelt?",
+          "s": "What are the donations being collected for?"
+        },
+        "options": [
+          "für den Chor",
+          "für das Gemeindezentrum",
+          "für die Tafel im Stadtteil"
+        ],
+        "answer": 2
+      },
+      {
+        "q": {
+          "t": "Wie hat Ali zuerst reagiert?",
+          "s": "How did Ali react at first?"
+        },
+        "options": [
+          "Er war begeistert.",
+          "Er war skeptisch.",
+          "Er wollte selbst mitsingen."
+        ],
+        "answer": 1
+      },
+      {
+        "q": {
+          "t": "Worum bittet Maryam Mina?",
+          "s": "What does Maryam ask Mina to do?"
+        },
+        "options": [
+          "zum Konzert zu kommen",
+          "im Chor mitzusingen",
+          "Spenden zu sammeln"
+        ],
+        "answer": 0
+      }
     ]
   },
   "sentences": [
-    { "t": "Viele Menschen engagieren sich ehrenamtlich in Sportvereinen.", "s": "Many people volunteer in sports clubs." },
-    { "t": "Ich habe die Ausstellung leider nicht besuchen können.", "s": "Unfortunately, I wasn't able to visit the exhibition." },
-    { "t": "Um Karten zu bekommen, muss man früh buchen.", "s": "To get tickets, you have to book early." },
-    { "t": "Das Publikum war von der Aufführung begeistert.", "s": "The audience loved the performance." },
-    { "t": "Wir sammeln Spenden, damit alle Kinder an der Reise teilnehmen können.", "s": "We're collecting donations so that all the children can go on the trip." },
-    { "t": "Statt zu meckern, sollten wir lieber selbst etwas tun.", "s": "Instead of complaining, we should do something ourselves." },
-    { "t": "Für ein Ehrenamt braucht man vor allem Zeit und Geduld.", "s": "Above all, volunteer work takes time and patience." },
-    { "t": "Am Wochenende gehen wir ins Theater – kommst du mit?", "s": "We're going to the theater on the weekend – do you want to come?" }
+    {
+      "t": "Viele Menschen engagieren sich ehrenamtlich in Sportvereinen.",
+      "s": "Many people volunteer in sports clubs."
+    },
+    {
+      "t": "Ich habe die Ausstellung leider nicht besuchen können.",
+      "s": "Unfortunately, I wasn't able to visit the exhibition."
+    },
+    {
+      "t": "Um Karten zu bekommen, muss man früh buchen.",
+      "s": "To get tickets, you have to book early."
+    },
+    {
+      "t": "Das Publikum war von der Aufführung begeistert.",
+      "s": "The audience loved the performance."
+    },
+    {
+      "t": "Wir sammeln Spenden, damit alle Kinder an der Reise teilnehmen können.",
+      "s": "We're collecting donations so that all the children can go on the trip."
+    },
+    {
+      "t": "Statt zu meckern, sollten wir lieber selbst etwas tun.",
+      "s": "Instead of complaining, we should do something ourselves."
+    },
+    {
+      "t": "Für ein Ehrenamt braucht man vor allem Zeit und Geduld.",
+      "s": "Above all, volunteer work takes time and patience."
+    },
+    {
+      "t": "Am Wochenende gehen wir ins Theater – kommst du mit?",
+      "s": "We're going to the theater on the weekend – do you want to come?"
+    }
   ]
 }

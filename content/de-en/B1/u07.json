@@ -601,15 +601,15 @@
         "s": "On Saturday we're taking the train back to Cologne."
       },
       {
-        "t": "Bis bald und liebe Grüße, deine Neda",
-        "s": "See you soon! Love, Neda"
+        "t": "Bis bald und liebe Grüße, deine Mina",
+        "s": "See you soon! Love, Mina"
       }
     ],
     "questions": [
       {
         "q": {
-          "t": "Wo macht Neda Urlaub?",
-          "s": "Where is Neda on vacation?"
+          "t": "Wo macht Mina Urlaub?",
+          "s": "Where is Mina on vacation?"
         },
         "options": [
           "an der Ostsee",
@@ -632,8 +632,8 @@
       },
       {
         "q": {
-          "t": "Was haben Neda und Ali am Montag gemacht?",
-          "s": "What did Neda and Ali do on Monday?"
+          "t": "Was haben Mina und Ali am Montag gemacht?",
+          "s": "What did Mina and Ali do on Monday?"
         },
         "options": [
           "eine Wanderung",

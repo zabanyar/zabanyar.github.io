@@ -2,7 +2,10 @@
   "id": "u05",
   "level": "A1",
   "emoji": "🏠",
-  "title": { "t": "Evim", "s": "خانه‌ی من" },
+  "title": {
+    "t": "Evim",
+    "s": "خانه‌ی من"
+  },
   "goals": [
     "اتاق‌ها و وسایلِ خانه را نام ببرم.",
     "با var / yok بگویم چیزی هست یا نیست.",
@@ -10,132 +13,639 @@
     "با nerede? بپرسم چیزی یا کسی کجاست."
   ],
   "words": [
-    { "id": "w01", "t": "oda", "pl": "odalar", "s": "اتاق", "pr": "اُدا", "emoji": "", "ex": { "t": "Evde üç oda var.", "s": "خانه سه اتاق دارد." } },
-    { "id": "w02", "t": "mutfak", "s": "آشپزخانه", "pr": "موتفاک", "emoji": "🍳", "ex": { "t": "Annem mutfakta.", "s": "مادرم در آشپزخانه است." } },
-    { "id": "w03", "t": "banyo", "s": "حمام", "pr": "بانیو", "emoji": "🛁", "ex": { "t": "Banyo nerede?", "s": "حمام کجاست؟" } },
-    { "id": "w04", "t": "salon", "s": "پذیرایی، سالن", "pr": "سالُن", "emoji": "", "ex": { "t": "Salonda bir televizyon var.", "s": "در پذیرایی یک تلویزیون هست." } },
-    { "id": "w05", "t": "yatak odası", "s": "اتاق خواب", "pr": "یاتاک اُداسِ", "emoji": "🛏️", "ex": { "t": "Yatak odası çok güzel.", "s": "اتاق خواب خیلی قشنگ است." } },
-    { "id": "w06", "t": "masa", "pl": "masalar", "s": "میز", "pr": "ماسا", "emoji": "", "ex": { "t": "Masada çay var.", "s": "روی میز چای هست." } },
-    { "id": "w07", "t": "sandalye", "pl": "sandalyeler", "s": "صندلی", "pr": "ساندالیِه", "emoji": "🪑", "ex": { "t": "Mutfakta dört sandalye var.", "s": "در آشپزخانه چهار صندلی هست." } },
-    { "id": "w08", "t": "kanepe", "s": "مبل، کاناپه", "pr": "کانِپِه", "emoji": "🛋️", "ex": { "t": "Kedi kanepede.", "s": "گربه روی مبل است." } },
-    { "id": "w09", "t": "pencere", "pl": "pencereler", "s": "پنجره", "pr": "پِنجِرِه", "emoji": "🪟", "ex": { "t": "Salonda iki pencere var.", "s": "در پذیرایی دو پنجره هست." } },
-    { "id": "w10", "t": "kapı", "s": "در", "pr": "کاپِ", "emoji": "🚪", "ex": { "t": "Kapıda kim var?", "s": "چه کسی دمِ در است؟" } },
-    { "id": "w11", "t": "halı", "s": "فرش، قالی", "pr": "هالِ", "emoji": "", "ex": { "t": "Salonda bir İran halısı var.", "s": "در پذیرایی یک فرش ایرانی هست." } },
-    { "id": "w12", "t": "bahçe", "s": "حیاط، باغچه", "pr": "باهچِه", "emoji": "🌳", "ex": { "t": "Çocuklar bahçede.", "s": "بچه‌ها در حیاط هستند." } },
-    { "id": "w13", "t": "televizyon", "s": "تلویزیون", "pr": "تِلِویزیُن", "emoji": "📺", "ex": { "t": "Odada televizyon yok.", "s": "در اتاق تلویزیون نیست." } },
-    { "id": "w14", "t": "lamba", "s": "چراغ، لامپ", "pr": "لامبا", "emoji": "💡", "ex": { "t": "Masada bir lamba var.", "s": "روی میز یک چراغ هست." } }
+    {
+      "id": "w01",
+      "t": "oda",
+      "pl": "odalar",
+      "s": "اتاق",
+      "pr": "اُدا",
+      "emoji": "",
+      "ex": {
+        "t": "Evde üç oda var.",
+        "s": "خانه سه اتاق دارد."
+      }
+    },
+    {
+      "id": "w02",
+      "t": "mutfak",
+      "s": "آشپزخانه",
+      "pr": "موتفاک",
+      "emoji": "🍳",
+      "ex": {
+        "t": "Annem mutfakta.",
+        "s": "مادرم در آشپزخانه است."
+      }
+    },
+    {
+      "id": "w03",
+      "t": "banyo",
+      "s": "حمام",
+      "pr": "بانیو",
+      "emoji": "🛁",
+      "ex": {
+        "t": "Banyo nerede?",
+        "s": "حمام کجاست؟"
+      }
+    },
+    {
+      "id": "w04",
+      "t": "salon",
+      "s": "پذیرایی، سالن",
+      "pr": "سالُن",
+      "emoji": "",
+      "ex": {
+        "t": "Salonda bir televizyon var.",
+        "s": "در پذیرایی یک تلویزیون هست."
+      }
+    },
+    {
+      "id": "w05",
+      "t": "yatak odası",
+      "s": "اتاق خواب",
+      "pr": "یاتاک اُداسِ",
+      "emoji": "🛏️",
+      "ex": {
+        "t": "Yatak odası çok güzel.",
+        "s": "اتاق خواب خیلی قشنگ است."
+      }
+    },
+    {
+      "id": "w06",
+      "t": "masa",
+      "pl": "masalar",
+      "s": "میز",
+      "pr": "ماسا",
+      "emoji": "",
+      "ex": {
+        "t": "Masada çay var.",
+        "s": "روی میز چای هست."
+      }
+    },
+    {
+      "id": "w07",
+      "t": "sandalye",
+      "pl": "sandalyeler",
+      "s": "صندلی",
+      "pr": "ساندالیِه",
+      "emoji": "🪑",
+      "ex": {
+        "t": "Mutfakta dört sandalye var.",
+        "s": "در آشپزخانه چهار صندلی هست."
+      }
+    },
+    {
+      "id": "w08",
+      "t": "kanepe",
+      "s": "مبل، کاناپه",
+      "pr": "کانِپِه",
+      "emoji": "🛋️",
+      "ex": {
+        "t": "Kedi kanepede.",
+        "s": "گربه روی مبل است."
+      }
+    },
+    {
+      "id": "w09",
+      "t": "pencere",
+      "pl": "pencereler",
+      "s": "پنجره",
+      "pr": "پِنجِرِه",
+      "emoji": "🪟",
+      "ex": {
+        "t": "Salonda iki pencere var.",
+        "s": "در پذیرایی دو پنجره هست."
+      }
+    },
+    {
+      "id": "w10",
+      "t": "kapı",
+      "s": "در",
+      "pr": "کاپِ",
+      "emoji": "🚪",
+      "ex": {
+        "t": "Kapıda kim var?",
+        "s": "چه کسی دمِ در است؟"
+      }
+    },
+    {
+      "id": "w11",
+      "t": "halı",
+      "s": "فرش، قالی",
+      "pr": "هالِ",
+      "emoji": "",
+      "ex": {
+        "t": "Salonda bir İran halısı var.",
+        "s": "در پذیرایی یک فرش ایرانی هست."
+      }
+    },
+    {
+      "id": "w12",
+      "t": "bahçe",
+      "s": "حیاط، باغچه",
+      "pr": "باهچِه",
+      "emoji": "🌳",
+      "ex": {
+        "t": "Çocuklar bahçede.",
+        "s": "بچه‌ها در حیاط هستند."
+      }
+    },
+    {
+      "id": "w13",
+      "t": "televizyon",
+      "s": "تلویزیون",
+      "pr": "تِلِویزیُن",
+      "emoji": "📺",
+      "ex": {
+        "t": "Odada televizyon yok.",
+        "s": "در اتاق تلویزیون نیست."
+      }
+    },
+    {
+      "id": "w14",
+      "t": "lamba",
+      "s": "چراغ، لامپ",
+      "pr": "لامبا",
+      "emoji": "💡",
+      "ex": {
+        "t": "Masada bir lamba var.",
+        "s": "روی میز یک چراغ هست."
+      }
+    }
   ],
   "phrases": [
-    { "id": "p01", "t": "Nerede?", "s": "کجاست؟", "pr": "نِرِدِه؟" },
-    { "id": "p02", "t": "Burada.", "s": "اینجاست.", "pr": "بورادا" },
-    { "id": "p03", "t": "Orada.", "s": "آنجاست.", "pr": "اُرادا" },
-    { "id": "p04", "t": "Hoş geldin!", "s": "خوش آمدی!", "pr": "هُش گِلدین!" },
-    { "id": "p05", "t": "Hoş bulduk!", "s": "ممنون! (جوابِ «خوش آمدی»)", "pr": "هُش بولدوک!" },
-    { "id": "p06", "t": "Evin çok güzel!", "s": "خانه‌ات خیلی قشنگ است!", "pr": "اِوین چُک گوزِل!" },
-    { "id": "p07", "t": "Buyurun, oturun.", "s": "بفرمایید، بنشینید.", "pr": "بویورون، اُتورون" },
-    { "id": "p08", "t": "Evde kimse yok.", "s": "کسی در خانه نیست.", "pr": "اِودِه کیمسِه یُک" }
+    {
+      "id": "p01",
+      "t": "Nerede?",
+      "s": "کجاست؟",
+      "pr": "نِرِدِه؟"
+    },
+    {
+      "id": "p02",
+      "t": "Burada.",
+      "s": "اینجاست.",
+      "pr": "بورادا"
+    },
+    {
+      "id": "p03",
+      "t": "Orada.",
+      "s": "آنجاست.",
+      "pr": "اُرادا"
+    },
+    {
+      "id": "p04",
+      "t": "Hoş geldin!",
+      "s": "خوش آمدی!",
+      "pr": "هُش گِلدین!"
+    },
+    {
+      "id": "p05",
+      "t": "Hoş bulduk!",
+      "s": "ممنون! (جوابِ «خوش آمدی»)",
+      "pr": "هُش بولدوک!"
+    },
+    {
+      "id": "p06",
+      "t": "Evin çok güzel!",
+      "s": "خانه‌ات خیلی قشنگ است!",
+      "pr": "اِوین چُک گوزِل!"
+    },
+    {
+      "id": "p07",
+      "t": "Buyurun, oturun.",
+      "s": "بفرمایید، بنشینید.",
+      "pr": "بویورون، اُتورون"
+    },
+    {
+      "id": "p08",
+      "t": "Evde kimse yok.",
+      "s": "کسی در خانه نیست.",
+      "pr": "اِودِه کیمسِه یُک"
+    }
   ],
   "dialogue": {
-    "title": { "t": "Neda'nın evi", "s": "خانه‌ی ندا" },
-    "speakers": { "A": { "name": "Neda", "voice": "f" }, "B": { "name": "Can", "voice": "m" } },
+    "title": {
+      "t": "Mina'nın evi",
+      "s": "خانه‌ی مینا"
+    },
+    "speakers": {
+      "A": {
+        "name": "Mina",
+        "voice": "f"
+      },
+      "B": {
+        "name": "Can",
+        "voice": "m"
+      }
+    },
     "lines": [
-      { "sp": "A", "t": "Hoş geldin, Can!", "s": "خوش آمدی، جان!" },
-      { "sp": "B", "t": "Hoş bulduk, Neda! Evin çok güzel.", "s": "ممنون، ندا! خانه‌ات خیلی قشنگ است." },
-      { "sp": "A", "t": "Teşekkürler! Bu salon.", "s": "ممنون! این پذیرایی است." },
-      { "sp": "B", "t": "Bu halı çok güzel!", "s": "این فرش خیلی قشنگ است!" },
-      { "sp": "A", "t": "Evet, bu bir İran halısı.", "s": "بله، این یک فرش ایرانی است." },
-      { "sp": "B", "t": "Annen ve baban nerede?", "s": "مادر و پدرت کجا هستند؟" },
-      { "sp": "A", "t": "Annem mutfakta, babam bahçede.", "s": "مادرم در آشپزخانه است، پدرم در حیاط." },
-      { "sp": "B", "t": "Evde kaç oda var?", "s": "خانه چند اتاق دارد؟" },
-      { "sp": "A", "t": "Üç oda var. Gel, mutfakta çay var!", "s": "سه اتاق دارد. بیا، در آشپزخانه چای هست!" },
-      { "sp": "B", "t": "Çok güzel! Çayı çok seviyorum.", "s": "چه خوب! چای را خیلی دوست دارم." }
+      {
+        "sp": "A",
+        "t": "Hoş geldin, Can!",
+        "s": "خوش آمدی، جان!"
+      },
+      {
+        "sp": "B",
+        "t": "Hoş bulduk, Mina! Evin çok güzel.",
+        "s": "ممنون، مینا! خانه‌ات خیلی قشنگ است."
+      },
+      {
+        "sp": "A",
+        "t": "Teşekkürler! Bu salon.",
+        "s": "ممنون! این پذیرایی است."
+      },
+      {
+        "sp": "B",
+        "t": "Bu halı çok güzel!",
+        "s": "این فرش خیلی قشنگ است!"
+      },
+      {
+        "sp": "A",
+        "t": "Evet, bu bir İran halısı.",
+        "s": "بله، این یک فرش ایرانی است."
+      },
+      {
+        "sp": "B",
+        "t": "Annen ve baban nerede?",
+        "s": "مادر و پدرت کجا هستند؟"
+      },
+      {
+        "sp": "A",
+        "t": "Annem mutfakta, babam bahçede.",
+        "s": "مادرم در آشپزخانه است، پدرم در حیاط."
+      },
+      {
+        "sp": "B",
+        "t": "Evde kaç oda var?",
+        "s": "خانه چند اتاق دارد؟"
+      },
+      {
+        "sp": "A",
+        "t": "Üç oda var. Gel, mutfakta çay var!",
+        "s": "سه اتاق دارد. بیا، در آشپزخانه چای هست!"
+      },
+      {
+        "sp": "B",
+        "t": "Çok güzel! Çayı çok seviyorum.",
+        "s": "چه خوب! چای را خیلی دوست دارم."
+      }
     ]
   },
   "grammar": [
     {
       "id": "g01",
-      "title": { "t": "var / yok", "s": "هست / نیست" },
+      "title": {
+        "t": "var / yok",
+        "s": "هست / نیست"
+      },
       "explain": "**var** یعنی «هست، وجود دارد» و **yok** یعنی «نیست، وجود ندارد». این دو کلمه معمولاً **آخرِ جمله** می‌آیند.\n**Salonda televizyon var.** = در پذیرایی تلویزیون هست.\n**Mutfakta ekmek yok.** = در آشپزخانه نان نیست.\nبا پسوندهای مالکیتِ درس ۳، **var** معنی «داشتن» هم می‌دهد: **Bir kız kardeşim var.** = یک خواهر دارم. **Arabam yok.** = ماشین ندارم.\nبرای سؤال، **mı** را اضافه کنید: **Evde süt var mı?** = در خانه شیر هست؟",
       "table": [
-        ["Evde süt var.", "Evde süt yok.", "Evde süt var mı?"],
-        ["Bir kardeşim var.", "Kardeşim yok.", "Kardeşin var mı?"],
-        ["Salonda televizyon var.", "Salonda televizyon yok.", "Salonda televizyon var mı?"]
+        [
+          "Evde süt var.",
+          "Evde süt yok.",
+          "Evde süt var mı?"
+        ],
+        [
+          "Bir kardeşim var.",
+          "Kardeşim yok.",
+          "Kardeşin var mı?"
+        ],
+        [
+          "Salonda televizyon var.",
+          "Salonda televizyon yok.",
+          "Salonda televizyon var mı?"
+        ]
       ],
       "examples": [
-        { "t": "Evimizde üç oda var.", "s": "خانه‌ی ما سه اتاق دارد." },
-        { "t": "Mutfakta ekmek yok.", "s": "در آشپزخانه نان نیست." },
-        { "t": "İki çocuğum var.", "s": "دو بچه دارم." },
-        { "t": "Bahçede bir kedi var.", "s": "در حیاط یک گربه هست." },
-        { "t": "Evde süt var mı? — Hayır, yok.", "s": "در خانه شیر هست؟ — نه، نیست." }
+        {
+          "t": "Evimizde üç oda var.",
+          "s": "خانه‌ی ما سه اتاق دارد."
+        },
+        {
+          "t": "Mutfakta ekmek yok.",
+          "s": "در آشپزخانه نان نیست."
+        },
+        {
+          "t": "İki çocuğum var.",
+          "s": "دو بچه دارم."
+        },
+        {
+          "t": "Bahçede bir kedi var.",
+          "s": "در حیاط یک گربه هست."
+        },
+        {
+          "t": "Evde süt var mı? — Hayır, yok.",
+          "s": "در خانه شیر هست؟ — نه، نیست."
+        }
       ],
       "exercises": [
-        { "type": "choice", "t": "Salonda bir kanepe ___.", "options": ["var", "yok"], "answer": 0, "s": "در پذیرایی یک مبل هست." },
-        { "type": "choice", "t": "Mutfakta su ___.", "options": ["var", "yok"], "answer": 1, "s": "در آشپزخانه آب نیست." },
-        { "type": "type", "t": "İki kardeşim ___.", "answer": ["var"], "s": "دو خواهر یا برادر دارم." },
-        { "type": "type", "t": "Evde televizyon ___.", "answer": ["yok"], "s": "در خانه تلویزیون نیست." },
-        { "type": "choice", "t": "Evde ekmek var ___?", "options": ["mı", "mi", "mu"], "answer": 0, "s": "در خانه نان هست؟" },
-        { "type": "order", "t": "Bahçede bir kedi var.", "s": "در حیاط یک گربه هست." },
-        { "type": "order", "t": "Evimizde üç oda var.", "s": "خانه‌ی ما سه اتاق دارد." }
+        {
+          "type": "choice",
+          "t": "Salonda bir kanepe ___.",
+          "options": [
+            "var",
+            "yok"
+          ],
+          "answer": 0,
+          "s": "در پذیرایی یک مبل هست."
+        },
+        {
+          "type": "choice",
+          "t": "Mutfakta su ___.",
+          "options": [
+            "var",
+            "yok"
+          ],
+          "answer": 1,
+          "s": "در آشپزخانه آب نیست."
+        },
+        {
+          "type": "type",
+          "t": "İki kardeşim ___.",
+          "answer": [
+            "var"
+          ],
+          "s": "دو خواهر یا برادر دارم."
+        },
+        {
+          "type": "type",
+          "t": "Evde televizyon ___.",
+          "answer": [
+            "yok"
+          ],
+          "s": "در خانه تلویزیون نیست."
+        },
+        {
+          "type": "choice",
+          "t": "Evde ekmek var ___?",
+          "options": [
+            "mı",
+            "mi",
+            "mu"
+          ],
+          "answer": 0,
+          "s": "در خانه نان هست؟"
+        },
+        {
+          "type": "order",
+          "t": "Bahçede bir kedi var.",
+          "s": "در حیاط یک گربه هست."
+        },
+        {
+          "type": "order",
+          "t": "Evimizde üç oda var.",
+          "s": "خانه‌ی ما سه اتاق دارد."
+        }
       ]
     },
     {
       "id": "g02",
-      "title": { "t": "-de / -da / -te / -ta — Nerede?", "s": "پسوندِ «در»: کجا؟" },
+      "title": {
+        "t": "-de / -da / -te / -ta — Nerede?",
+        "s": "پسوندِ «در»: کجا؟"
+      },
       "explain": "برای گفتنِ «در، توی، روی» در ترکی یک پسوند به **آخرِ** کلمه اضافه می‌کنیم: **-de** یا **-da**. (در فارسی «در» قبل از کلمه می‌آید، در ترکی بعد از آن!)\n**e، i، ö، ü ← -de**: ev ← **evde**، bahçe ← **bahçede**\n**a، ı، o، u ← -da**: oda ← **odada**، salon ← **salonda**\nاگر کلمه با یکی از حروفِ **ç f h k p s ş t** تمام شود، d به **t** تبدیل می‌شود: **mutfak ← mutfakta**. (برای حفظ کردن، ترک‌ها می‌گویند: **Fıstıkçı Şahap**)\nمی‌توانیم پسوندِ «بودن» را هم اضافه کنیم: **evdeyim** = خانه هستم.\nسؤال: **nerede?** = کجا؟ — **Annem nerede? — Mutfakta.** برای اسمِ شهرها آپاستروف می‌گذاریم: **Tahran'da**، **İstanbul'da**.",
       "table": [
-        ["ev", "evde"],
-        ["bahçe", "bahçede"],
-        ["oda", "odada"],
-        ["salon", "salonda"],
-        ["mutfak", "mutfakta"],
-        ["Tahran", "Tahran'da"]
+        [
+          "ev",
+          "evde"
+        ],
+        [
+          "bahçe",
+          "bahçede"
+        ],
+        [
+          "oda",
+          "odada"
+        ],
+        [
+          "salon",
+          "salonda"
+        ],
+        [
+          "mutfak",
+          "mutfakta"
+        ],
+        [
+          "Tahran",
+          "Tahran'da"
+        ]
       ],
       "examples": [
-        { "t": "Annem mutfakta.", "s": "مادرم در آشپزخانه است." },
-        { "t": "Kitap masada.", "s": "کتاب روی میز است." },
-        { "t": "Babam nerede? — Bahçede.", "s": "پدرم کجاست؟ — در حیاط." },
-        { "t": "Dayım İstanbul'da.", "s": "دایی‌ام در استانبول است." },
-        { "t": "Ben evdeyim.", "s": "من خانه هستم." }
+        {
+          "t": "Annem mutfakta.",
+          "s": "مادرم در آشپزخانه است."
+        },
+        {
+          "t": "Kitap masada.",
+          "s": "کتاب روی میز است."
+        },
+        {
+          "t": "Babam nerede? — Bahçede.",
+          "s": "پدرم کجاست؟ — در حیاط."
+        },
+        {
+          "t": "Dayım İstanbul'da.",
+          "s": "دایی‌ام در استانبول است."
+        },
+        {
+          "t": "Ben evdeyim.",
+          "s": "من خانه هستم."
+        }
       ],
       "exercises": [
-        { "type": "choice", "t": "Kedi bahçe___.", "options": ["de", "da", "te"], "answer": 0, "s": "گربه در حیاط است." },
-        { "type": "choice", "t": "Annem mutfak___.", "options": ["da", "ta", "de"], "answer": 1, "s": "مادرم در آشپزخانه است." },
-        { "type": "type", "t": "Çocuklar oda___.", "answer": ["da"], "s": "بچه‌ها در اتاق هستند." },
-        { "type": "type", "t": "Kitap masa___.", "answer": ["da"], "s": "کتاب روی میز است." },
-        { "type": "choice", "t": "Babam ___? — Salonda.", "options": ["nerede", "nereli", "kaç"], "answer": 0, "s": "پدرم کجاست؟ — در پذیرایی." },
-        { "type": "choice", "t": "Ben ev___.", "options": ["deyim", "dayım", "desin"], "answer": 0, "s": "من خانه هستم." },
-        { "type": "order", "t": "Dedem ve büyükannem bahçede.", "s": "پدربزرگ و مادربزرگم در حیاط هستند." }
+        {
+          "type": "choice",
+          "t": "Kedi bahçe___.",
+          "options": [
+            "de",
+            "da",
+            "te"
+          ],
+          "answer": 0,
+          "s": "گربه در حیاط است."
+        },
+        {
+          "type": "choice",
+          "t": "Annem mutfak___.",
+          "options": [
+            "da",
+            "ta",
+            "de"
+          ],
+          "answer": 1,
+          "s": "مادرم در آشپزخانه است."
+        },
+        {
+          "type": "type",
+          "t": "Çocuklar oda___.",
+          "answer": [
+            "da"
+          ],
+          "s": "بچه‌ها در اتاق هستند."
+        },
+        {
+          "type": "type",
+          "t": "Kitap masa___.",
+          "answer": [
+            "da"
+          ],
+          "s": "کتاب روی میز است."
+        },
+        {
+          "type": "choice",
+          "t": "Babam ___? — Salonda.",
+          "options": [
+            "nerede",
+            "nereli",
+            "kaç"
+          ],
+          "answer": 0,
+          "s": "پدرم کجاست؟ — در پذیرایی."
+        },
+        {
+          "type": "choice",
+          "t": "Ben ev___.",
+          "options": [
+            "deyim",
+            "dayım",
+            "desin"
+          ],
+          "answer": 0,
+          "s": "من خانه هستم."
+        },
+        {
+          "type": "order",
+          "t": "Dedem ve büyükannem bahçede.",
+          "s": "پدربزرگ و مادربزرگم در حیاط هستند."
+        }
       ]
     }
   ],
   "reading": {
-    "title": { "t": "Bizim evimiz", "s": "خانه‌ی ما" },
+    "title": {
+      "t": "Bizim evimiz",
+      "s": "خانه‌ی ما"
+    },
     "text": [
-      { "t": "Merhaba! Ben Sara.", "s": "سلام! من سارا هستم." },
-      { "t": "Evimiz İstanbul'da.", "s": "خانه‌ی ما در استانبول است." },
-      { "t": "Evimizde üç oda, bir mutfak ve bir banyo var.", "s": "خانه‌ی ما سه اتاق، یک آشپزخانه و یک حمام دارد." },
-      { "t": "Salonda büyük bir kanepe ve bir İran halısı var.", "s": "در پذیرایی یک مبلِ بزرگ و یک فرشِ ایرانی هست." },
-      { "t": "Televizyon yok.", "s": "تلویزیون نداریم." },
-      { "t": "Mutfakta bir masa ve dört sandalye var.", "s": "در آشپزخانه یک میز و چهار صندلی هست." },
-      { "t": "Bahçede bir kedi var.", "s": "در حیاط یک گربه هست." },
-      { "t": "Şimdi annem mutfakta, babam bahçede.", "s": "الان مادرم در آشپزخانه است و پدرم در حیاط." },
-      { "t": "Ben odamdayım.", "s": "من در اتاقم هستم." }
+      {
+        "t": "Merhaba! Ben Sara.",
+        "s": "سلام! من سارا هستم."
+      },
+      {
+        "t": "Evimiz İstanbul'da.",
+        "s": "خانه‌ی ما در استانبول است."
+      },
+      {
+        "t": "Evimizde üç oda, bir mutfak ve bir banyo var.",
+        "s": "خانه‌ی ما سه اتاق، یک آشپزخانه و یک حمام دارد."
+      },
+      {
+        "t": "Salonda büyük bir kanepe ve bir İran halısı var.",
+        "s": "در پذیرایی یک مبلِ بزرگ و یک فرشِ ایرانی هست."
+      },
+      {
+        "t": "Televizyon yok.",
+        "s": "تلویزیون نداریم."
+      },
+      {
+        "t": "Mutfakta bir masa ve dört sandalye var.",
+        "s": "در آشپزخانه یک میز و چهار صندلی هست."
+      },
+      {
+        "t": "Bahçede bir kedi var.",
+        "s": "در حیاط یک گربه هست."
+      },
+      {
+        "t": "Şimdi annem mutfakta, babam bahçede.",
+        "s": "الان مادرم در آشپزخانه است و پدرم در حیاط."
+      },
+      {
+        "t": "Ben odamdayım.",
+        "s": "من در اتاقم هستم."
+      }
     ],
     "questions": [
-      { "q": { "t": "Sara'nın evi nerede?", "s": "خانه‌ی سارا کجاست؟" }, "options": ["Tahran'da", "İstanbul'da", "İzmir'de"], "answer": 1 },
-      { "q": { "t": "Evde kaç oda var?", "s": "خانه چند اتاق دارد؟" }, "options": ["iki", "üç", "dört"], "answer": 1 },
-      { "q": { "t": "Evde televizyon var mı?", "s": "در خانه تلویزیون هست؟" }, "options": ["Evet, var.", "Hayır, yok."], "answer": 1 },
-      { "q": { "t": "Sara'nın babası nerede?", "s": "پدرِ سارا کجاست؟" }, "options": ["mutfakta", "bahçede", "odasında"], "answer": 1 }
+      {
+        "q": {
+          "t": "Sara'nın evi nerede?",
+          "s": "خانه‌ی سارا کجاست؟"
+        },
+        "options": [
+          "Tahran'da",
+          "İstanbul'da",
+          "İzmir'de"
+        ],
+        "answer": 1
+      },
+      {
+        "q": {
+          "t": "Evde kaç oda var?",
+          "s": "خانه چند اتاق دارد؟"
+        },
+        "options": [
+          "iki",
+          "üç",
+          "dört"
+        ],
+        "answer": 1
+      },
+      {
+        "q": {
+          "t": "Evde televizyon var mı?",
+          "s": "در خانه تلویزیون هست؟"
+        },
+        "options": [
+          "Evet, var.",
+          "Hayır, yok."
+        ],
+        "answer": 1
+      },
+      {
+        "q": {
+          "t": "Sara'nın babası nerede?",
+          "s": "پدرِ سارا کجاست؟"
+        },
+        "options": [
+          "mutfakta",
+          "bahçede",
+          "odasında"
+        ],
+        "answer": 1
+      }
     ]
   },
   "sentences": [
-    { "t": "Banyo nerede?", "s": "حمام کجاست؟" },
-    { "t": "Annem mutfakta.", "s": "مادرم در آشپزخانه است." },
-    { "t": "Evde süt yok.", "s": "در خانه شیر نیست." },
-    { "t": "Salonda bir kanepe var.", "s": "در پذیرایی یک مبل هست." },
-    { "t": "Kedi bahçede.", "s": "گربه در حیاط است." },
-    { "t": "Ben odamdayım.", "s": "من در اتاقم هستم." },
-    { "t": "Masada çay ve ekmek var.", "s": "روی میز چای و نان هست." },
-    { "t": "Dayım Tahran'da.", "s": "دایی‌ام در تهران است." }
+    {
+      "t": "Banyo nerede?",
+      "s": "حمام کجاست؟"
+    },
+    {
+      "t": "Annem mutfakta.",
+      "s": "مادرم در آشپزخانه است."
+    },
+    {
+      "t": "Evde süt yok.",
+      "s": "در خانه شیر نیست."
+    },
+    {
+      "t": "Salonda bir kanepe var.",
+      "s": "در پذیرایی یک مبل هست."
+    },
+    {
+      "t": "Kedi bahçede.",
+      "s": "گربه در حیاط است."
+    },
+    {
+      "t": "Ben odamdayım.",
+      "s": "من در اتاقم هستم."
+    },
+    {
+      "t": "Masada çay ve ekmek var.",
+      "s": "روی میز چای و نان هست."
+    },
+    {
+      "t": "Dayım Tahran'da.",
+      "s": "دایی‌ام در تهران است."
+    }
   ]
 }

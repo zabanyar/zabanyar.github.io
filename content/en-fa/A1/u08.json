@@ -235,7 +235,7 @@
         "voice": "m"
       },
       "B": {
-        "name": "Neda",
+        "name": "Mina",
         "voice": "f"
       }
     },
@@ -506,12 +506,12 @@
     },
     "text": [
       {
-        "t": "Maryam and her daughter Neda are at a clothing store.",
-        "s": "مریم و دخترش ندا در یک مغازهٔ لباس‌فروشی هستند."
+        "t": "Maryam and her daughter Mina are at a clothing store.",
+        "s": "مریم و دخترش مینا در یک مغازهٔ لباس‌فروشی هستند."
       },
       {
-        "t": "Neda likes red. She would like a red dress.",
-        "s": "ندا رنگ قرمز را دوست دارد. او یک لباس قرمز می‌خواهد."
+        "t": "Mina likes red. She would like a red dress.",
+        "s": "مینا رنگ قرمز را دوست دارد. او یک لباس قرمز می‌خواهد."
       },
       {
         "t": "The red dress is eighteen dollars.",
@@ -541,8 +541,8 @@
     "questions": [
       {
         "q": {
-          "t": "What color is Neda's dress?",
-          "s": "لباس ندا چه رنگی است؟"
+          "t": "What color is Mina's dress?",
+          "s": "لباس مینا چه رنگی است؟"
         },
         "options": [
           "red",
@@ -581,7 +581,7 @@
           "s": "امیر کیست؟"
         },
         "options": [
-          "Neda's father",
+          "Mina's father",
           "Maryam's son",
           "Maryam's brother"
         ],

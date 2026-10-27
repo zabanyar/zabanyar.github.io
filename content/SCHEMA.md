@@ -88,7 +88,7 @@ support language's script (Persian script for en-fa and tr-fa; omit for de-en un
    `order` exercises: 3–7 words; the app shuffles the words itself. `type`: `answer` is a list of accepted answers (case-insensitive).
    Use exactly three underscores `___` for the gap in `choice` and `type`.
 4. `t` strings must not contain hints in brackets; put translations only in `s`.
-5. Names: use names familiar to the family — Persian names (Sara, Ali, Maryam, Reza, Neda, Amir) mixed with
+5. Names: use names familiar to the family — Persian names (Sara, Ali, Maryam, Reza, Mina, Amir) mixed with
    target-country names (Anna, Lukas / Emma, Tom / Ayşe, Mehmet).
 6. Emoji: single standard emoji characters only (no flags, no skin-tone modifiers, no ZWJ family sequences). Empty string if none fits.
 7. Keep it respectful and family-friendly. No alcohol, no pork; food examples suit an Iranian family.

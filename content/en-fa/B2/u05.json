@@ -470,14 +470,14 @@
         },
         {
           "type": "type",
-          "t": "Neda suggested ___ a taxi because it was late.",
+          "t": "Mina suggested ___ a taxi because it was late.",
           "answer": [
             "taking",
             "getting",
             "calling"
           ],
-          "s": "ندا پیشنهاد داد تاکسی بگیریم، چون دیروقت بود.",
-          "pr": "ندا سِجِسْتِد تِیکینگ اِ تَکْسی بیکاز ایت واز لِیت."
+          "s": "مینا پیشنهاد داد تاکسی بگیریم، چون دیروقت بود.",
+          "pr": "مینا سِجِسْتِد تِیکینگ اِ تَکْسی بیکاز ایت واز لِیت."
         },
         {
           "type": "order",

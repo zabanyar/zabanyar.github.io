@@ -415,15 +415,15 @@
       "exercises": [
         {
           "type": "choice",
-          "t": "It was Neda ___ suggested this documentary.",
+          "t": "It was Mina ___ suggested this documentary.",
           "options": [
             "who",
             "what",
             "which"
           ],
           "answer": 0,
-          "s": "ندا بود که این مستند را پیشنهاد کرد.",
-          "pr": "ایت واز ندا هو سِجِسْتِد ذیس داکْیِمِنْتِری."
+          "s": "مینا بود که این مستند را پیشنهاد کرد.",
+          "pr": "ایت واز مینا هو سِجِسْتِد ذیس داکْیِمِنْتِری."
         },
         {
           "type": "choice",

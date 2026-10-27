@@ -176,8 +176,8 @@
       "s": "second-hand store, thrift store",
       "emoji": "",
       "ex": {
-        "t": "Neda kauft ihre Kleidung am liebsten im Secondhandladen.",
-        "s": "Neda prefers to buy her clothes at the second-hand store."
+        "t": "Mina kauft ihre Kleidung am liebsten im Secondhandladen.",
+        "s": "Mina prefers to buy her clothes at the second-hand store."
       }
     }
   ],
@@ -386,11 +386,11 @@
         },
         {
           "type": "type",
-          "t": "Neda ist nicht gekommen. Sie wird den Termin vergessen ___.",
+          "t": "Mina ist nicht gekommen. Sie wird den Termin vergessen ___.",
           "answer": [
             "haben"
           ],
-          "s": "Neda didn't come. She has probably forgotten the appointment."
+          "s": "Mina didn't come. She has probably forgotten the appointment."
         },
         {
           "type": "choice",
@@ -481,8 +481,8 @@
           "s": "The repair will probably cost about 150 euros."
         },
         {
-          "t": "Neda ist nicht im Büro. Sie könnte schon nach Hause gegangen sein.",
-          "s": "Neda isn't in the office. She might have gone home already."
+          "t": "Mina ist nicht im Büro. Sie könnte schon nach Hause gegangen sein.",
+          "s": "Mina isn't in the office. She might have gone home already."
         }
       ],
       "exercises": [
@@ -541,13 +541,13 @@
         },
         {
           "type": "type",
-          "t": "Neda ist nicht gekommen. Sie ___ krank geworden sein.",
+          "t": "Mina ist nicht gekommen. Sie ___ krank geworden sein.",
           "answer": [
             "könnte",
             "koennte",
             "kann"
           ],
-          "s": "Neda didn't come. She might have gotten sick."
+          "s": "Mina didn't come. She might have gotten sick."
         },
         {
           "type": "choice",

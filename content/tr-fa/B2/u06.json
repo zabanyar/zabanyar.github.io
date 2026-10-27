@@ -233,7 +233,7 @@
     },
     "speakers": {
       "A": {
-        "name": "Neda",
+        "name": "Mina",
         "voice": "f"
       },
       "B": {
@@ -244,8 +244,8 @@
     "lines": [
       {
         "sp": "B",
-        "t": "Neda, İstanbul'a geleli ne kadar oldu?",
-        "s": "ندا، چند وقت است که به استانبول آمده‌ای؟"
+        "t": "Mina, İstanbul'a geleli ne kadar oldu?",
+        "s": "مینا، چند وقت است که به استانبول آمده‌ای؟"
       },
       {
         "sp": "A",

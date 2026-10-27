@@ -52,8 +52,8 @@
       "pr": "سینگ",
       "emoji": "🎤",
       "ex": {
-        "t": "Neda can sing.",
-        "s": "ندا می‌تواند آواز بخواند."
+        "t": "Mina can sing.",
+        "s": "مینا می‌تواند آواز بخواند."
       }
     },
     {
@@ -523,8 +523,8 @@
         "s": "در وقت آزادم فوتبال بازی می‌کنم."
       },
       {
-        "t": "My sister Neda likes reading and drawing.",
-        "s": "خواهرم ندا کتاب خواندن و نقاشی کشیدن را دوست دارد."
+        "t": "My sister Mina likes reading and drawing.",
+        "s": "خواهرم مینا کتاب خواندن و نقاشی کشیدن را دوست دارد."
       },
       {
         "t": "My father likes cooking.",
@@ -558,8 +558,8 @@
       },
       {
         "q": {
-          "t": "Neda likes ___.",
-          "s": "ندا ... را دوست دارد."
+          "t": "Mina likes ___.",
+          "s": "مینا ... را دوست دارد."
         },
         "options": [
           "cooking",
@@ -587,7 +587,7 @@
         "options": [
           "Amir's grandmother",
           "Amir's mother",
-          "Neda"
+          "Mina"
         ],
         "answer": 0
       }

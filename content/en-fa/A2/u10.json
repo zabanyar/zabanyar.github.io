@@ -566,8 +566,8 @@
     },
     "text": [
       {
-        "t": "Hi Neda,",
-        "s": "سلام ندا،"
+        "t": "Hi Mina,",
+        "s": "سلام مینا،"
       },
       {
         "t": "How are you? I have some exciting news!",
@@ -649,8 +649,8 @@
       },
       {
         "q": {
-          "t": "When does Neda have to answer?",
-          "s": "ندا تا کی باید جواب بدهد؟"
+          "t": "When does Mina have to answer?",
+          "s": "مینا تا کی باید جواب بدهد؟"
         },
         "options": [
           "Before June 12th",

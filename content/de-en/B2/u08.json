@@ -174,8 +174,8 @@
       "s": "to be proud of",
       "emoji": "",
       "ex": {
-        "t": "Neda ist stolz auf ihre Herkunft.",
-        "s": "Neda is proud of her roots."
+        "t": "Mina ist stolz auf ihre Herkunft.",
+        "s": "Mina is proud of her roots."
       }
     }
   ],
@@ -339,8 +339,8 @@
       ],
       "examples": [
         {
-          "t": "Neda hat sich schnell an das Leben in Hamburg gewöhnt.",
-          "s": "Neda quickly got used to life in Hamburg."
+          "t": "Mina hat sich schnell an das Leben in Hamburg gewöhnt.",
+          "s": "Mina quickly got used to life in Hamburg."
         },
         {
           "t": "Frau Becker kümmert sich um die Pflanzen im Hof.",
@@ -419,14 +419,14 @@
         },
         {
           "type": "choice",
-          "t": "Neda denkt oft ___ ihre Familie in Teheran.",
+          "t": "Mina denkt oft ___ ihre Familie in Teheran.",
           "options": [
             "an",
             "auf",
             "mit"
           ],
           "answer": 0,
-          "s": "Neda often thinks of her family in Tehran."
+          "s": "Mina often thinks of her family in Tehran."
         },
         {
           "type": "order",
@@ -485,8 +485,8 @@
           "s": "I'm looking forward to seeing you again soon."
         },
         {
-          "t": "Neda hat sich darüber geärgert, dass der Termin verschoben wurde.",
-          "s": "Neda was annoyed that the appointment had been postponed."
+          "t": "Mina hat sich darüber geärgert, dass der Termin verschoben wurde.",
+          "s": "Mina was annoyed that the appointment had been postponed."
         },
         {
           "t": "Wir haben lange darüber diskutiert, ob wir umziehen sollen.",
@@ -715,8 +715,8 @@
       "s": "Prejudice often comes from ignorance."
     },
     {
-      "t": "Neda freut sich darauf, ihre Familie wiederzusehen.",
-      "s": "Neda is looking forward to seeing her family again."
+      "t": "Mina freut sich darauf, ihre Familie wiederzusehen.",
+      "s": "Mina is looking forward to seeing her family again."
     },
     {
       "t": "Worüber habt ihr gestern so lange gesprochen?",

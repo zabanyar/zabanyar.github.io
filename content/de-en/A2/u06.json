@@ -585,8 +585,8 @@
   ],
   "reading": {
     "title": {
-      "t": "Neda kauft Winterjacken",
-      "s": "Neda buys winter jackets"
+      "t": "Mina kauft Winterjacken",
+      "s": "Mina buys winter jackets"
     },
     "text": [
       {
@@ -681,8 +681,8 @@
       },
       {
         "q": {
-          "t": "Was hat Neda für sich gekauft?",
-          "s": "What did Neda buy for herself?"
+          "t": "Was hat Mina für sich gekauft?",
+          "s": "What did Mina buy for herself?"
         },
         "options": [
           "Stiefel",

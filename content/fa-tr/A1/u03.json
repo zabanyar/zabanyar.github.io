@@ -266,9 +266,9 @@
       },
       {
         "sp": "B",
-        "t": "بله! این هم خواهرم، ندا. او دانشجو است.",
-        "pr": "Bale! İn ham xâharam, Nedâ. U dâneşcu ast.",
-        "s": "Evet! Bu da kız kardeşim Neda. O öğrenci."
+        "t": "بله! این هم خواهرم، مینا. او دانشجو است.",
+        "pr": "Bale! İn ham xâharam, Minâ. U dâneşcu ast.",
+        "s": "Evet! Bu da kız kardeşim Mina. O öğrenci."
       },
       {
         "sp": "A",
@@ -574,9 +574,9 @@
         },
         {
           "type": "order",
-          "t": "اسم خواهرم ندا است.",
-          "pr": "Esm-e xâharam Nedâ ast.",
-          "s": "Kız kardeşimin adı Neda."
+          "t": "اسم خواهرم مینا است.",
+          "pr": "Esm-e xâharam Minâ ast.",
+          "s": "Kız kardeşimin adı Mina."
         }
       ]
     }
@@ -663,7 +663,7 @@
           "s": "Maryam'ın kız kardeşinin adı ne?"
         },
         "options": [
-          "ندا",
+          "مینا",
           "سارا",
           "آیشه"
         ],

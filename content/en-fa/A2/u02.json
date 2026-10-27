@@ -418,11 +418,11 @@
         },
         {
           "type": "type",
-          "t": "___ Neda take a lot of photos? No, she didn't.",
+          "t": "___ Mina take a lot of photos? No, she didn't.",
           "answer": [
             "Did"
           ],
-          "s": "ندا زیاد عکس گرفت؟ نه، نگرفت."
+          "s": "مینا زیاد عکس گرفت؟ نه، نگرفت."
         },
         {
           "type": "choice",

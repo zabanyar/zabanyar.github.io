@@ -24,7 +24,7 @@ Same JSON schema as the other courses (`content/SCHEMA.md`) with these course-sp
   prepositions (not suffixes) and the ezafe.
 - Exercises: `choice` (exactly one correct option, options in Persian script), `type` (answers in Persian script; learners
   get an on-screen Persian keyboard, so keep answers SHORT: 1–2 words), `order` (3–6 words).
-- Names: Persian names (Sara, Ali, Maryam, Reza, Neda, Amir) and Turkish names (Ayşe, Mehmet, Elif, Can, Zeynep, Emre).
+- Names: Persian names (Sara, Ali, Maryam, Reza, Mina, Amir) and Turkish names (Ayşe, Mehmet, Elif, Can, Zeynep, Emre).
 
 | Unit | Theme (Turkish title) | Grammar focus |
 |---|---|---|

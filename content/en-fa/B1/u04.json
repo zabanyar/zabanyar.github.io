@@ -238,7 +238,7 @@
     },
     "speakers": {
       "A": {
-        "name": "Neda",
+        "name": "Mina",
         "voice": "f"
       },
       "B": {
@@ -304,8 +304,8 @@
       },
       {
         "sp": "B",
-        "t": "You're right. Thanks, Neda.",
-        "s": "حق با توست. ممنون، ندا."
+        "t": "You're right. Thanks, Mina.",
+        "s": "حق با توست. ممنون، مینا."
       }
     ]
   },

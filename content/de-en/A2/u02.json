@@ -569,8 +569,8 @@
     },
     "text": [
       {
-        "t": "Ich heiße Neda und wohne seit fünf Jahren in Hamburg.",
-        "s": "My name is Neda, and I've been living in Hamburg for five years."
+        "t": "Ich heiße Mina und wohne seit fünf Jahren in Hamburg.",
+        "s": "My name is Mina, and I've been living in Hamburg for five years."
       },
       {
         "t": "Im März haben wir Nouruz gefeiert, das persische Neujahrsfest.",
@@ -612,8 +612,8 @@
     "questions": [
       {
         "q": {
-          "t": "Was hat Nedas Familie im März gefeiert?",
-          "s": "What did Neda's family celebrate in March?"
+          "t": "Was hat Minas Familie im März gefeiert?",
+          "s": "What did Mina's family celebrate in March?"
         },
         "options": [
           "Weihnachten",
@@ -648,8 +648,8 @@
       },
       {
         "q": {
-          "t": "Was hat Lena Neda geschenkt?",
-          "s": "What did Lena give Neda?"
+          "t": "Was hat Lena Mina geschenkt?",
+          "s": "What did Lena give Mina?"
         },
         "options": [
           "eine Pflanze",

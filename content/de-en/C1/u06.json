@@ -2,7 +2,10 @@
   "id": "u06",
   "level": "C1",
   "emoji": "🤖",
-  "title": { "t": "Mensch und Maschine", "s": "Human and machine" },
+  "title": {
+    "t": "Mensch und Maschine",
+    "s": "Human and machine"
+  },
   "goals": [
     "Discuss the opportunities and risks of AI with precise, formal vocabulary",
     "Report statements and claims accurately with Konjunktiv I and II, including the past",
@@ -10,165 +13,703 @@
     "Follow a radio interview and a feature article on artificial intelligence"
   ],
   "words": [
-    { "id": "w01", "t": "die künstliche Intelligenz (KI)", "s": "artificial intelligence (AI)", "emoji": "🤖",
-      "ex": { "t": "Künstliche Intelligenz durchdringt inzwischen nahezu alle Lebensbereiche.", "s": "Artificial intelligence now permeates almost every area of life." } },
-    { "id": "w02", "t": "der Algorithmus", "pl": "die Algorithmen", "s": "algorithm", "emoji": "",
-      "ex": { "t": "Ein Algorithmus entscheidet, welche Beiträge uns angezeigt werden.", "s": "An algorithm decides which posts we are shown." } },
-    { "id": "w03", "t": "das Sprachmodell", "pl": "die Sprachmodelle", "s": "language model", "emoji": "",
-      "ex": { "t": "Große Sprachmodelle erzeugen Texte, die von menschlichen kaum zu unterscheiden sind.", "s": "Large language models generate texts that are barely distinguishable from human ones." } },
-    { "id": "w04", "t": "der Datenschutz", "s": "data protection, privacy", "emoji": "🔒",
-      "ex": { "t": "Beim Einsatz von KI im Krankenhaus hat der Datenschutz oberste Priorität.", "s": "When AI is used in hospitals, data protection has top priority." } },
-    { "id": "w05", "t": "die Rechenleistung", "s": "computing power", "emoji": "",
-      "ex": { "t": "Das Training solcher Modelle erfordert enorme Rechenleistung.", "s": "Training such models requires enormous computing power." } },
-    { "id": "w06", "t": "die Verzerrung", "pl": "die Verzerrungen", "s": "bias; distortion", "emoji": "",
-      "ex": { "t": "Verzerrungen in den Trainingsdaten können zu diskriminierenden Ergebnissen führen.", "s": "Biases in the training data can lead to discriminatory results." } },
-    { "id": "w07", "t": "die Transparenz", "s": "transparency", "emoji": "",
-      "ex": { "t": "Kritiker fordern mehr Transparenz darüber, wie die Systeme zu ihren Ergebnissen gelangen.", "s": "Critics demand more transparency about how the systems arrive at their results." } },
-    { "id": "w08", "t": "die Haftung", "s": "liability", "emoji": "",
-      "ex": { "t": "Wer übernimmt die Haftung, wenn ein autonomes Fahrzeug einen Unfall verursacht?", "s": "Who is liable if an autonomous vehicle causes an accident?" } },
-    { "id": "w09", "t": "die Regulierung", "pl": "die Regulierungen", "s": "regulation", "emoji": "",
-      "ex": { "t": "Die EU setzt bei der KI auf eine risikobasierte Regulierung.", "s": "The EU relies on risk-based regulation of AI." } },
-    { "id": "w10", "t": "der Fortschritt", "pl": "die Fortschritte", "s": "progress, advance", "emoji": "",
-      "ex": { "t": "Der technische Fortschritt wirft neue ethische Fragen auf.", "s": "Technological progress raises new ethical questions." } },
-    { "id": "w11", "t": "etw. automatisieren", "s": "to automate sth.", "emoji": "",
-      "ex": { "t": "Viele Routineaufgaben in der Verwaltung lassen sich automatisieren.", "s": "Many routine tasks in administration can be automated." } },
-    { "id": "w12", "t": "jdn./etw. ersetzen (durch + Akk.)", "s": "to replace sb./sth. (with)", "emoji": "",
-      "ex": { "t": "Dass KI den Menschen vollständig ersetzt, halten viele Fachleute für unwahrscheinlich.", "s": "Many experts consider it unlikely that AI will completely replace humans." } },
-    { "id": "w13", "t": "sich (D) etw. zunutze machen", "s": "to harness sth., to make use of sth.", "emoji": "",
-      "ex": { "t": "Die Forschung macht sich KI zunutze, um Proteinstrukturen vorherzusagen.", "s": "Research harnesses AI to predict protein structures." } },
-    { "id": "w14", "t": "an Bedeutung gewinnen", "s": "to gain in importance", "emoji": "",
-      "ex": { "t": "Medienkompetenz gewinnt im Zeitalter der KI zunehmend an Bedeutung.", "s": "Media literacy is becoming increasingly important in the age of AI." } },
-    { "id": "w15", "t": "bahnbrechend", "s": "groundbreaking", "emoji": "",
-      "ex": { "t": "Die Entdeckung gilt als bahnbrechend für die medizinische Diagnostik.", "s": "The discovery is regarded as groundbreaking for medical diagnostics." } },
-    { "id": "w16", "t": "fehleranfällig", "s": "error-prone", "emoji": "",
-      "ex": { "t": "Auch scheinbar ausgereifte Systeme bleiben fehleranfällig.", "s": "Even seemingly mature systems remain error-prone." } }
+    {
+      "id": "w01",
+      "t": "die künstliche Intelligenz (KI)",
+      "s": "artificial intelligence (AI)",
+      "emoji": "🤖",
+      "ex": {
+        "t": "Künstliche Intelligenz durchdringt inzwischen nahezu alle Lebensbereiche.",
+        "s": "Artificial intelligence now permeates almost every area of life."
+      }
+    },
+    {
+      "id": "w02",
+      "t": "der Algorithmus",
+      "pl": "die Algorithmen",
+      "s": "algorithm",
+      "emoji": "",
+      "ex": {
+        "t": "Ein Algorithmus entscheidet, welche Beiträge uns angezeigt werden.",
+        "s": "An algorithm decides which posts we are shown."
+      }
+    },
+    {
+      "id": "w03",
+      "t": "das Sprachmodell",
+      "pl": "die Sprachmodelle",
+      "s": "language model",
+      "emoji": "",
+      "ex": {
+        "t": "Große Sprachmodelle erzeugen Texte, die von menschlichen kaum zu unterscheiden sind.",
+        "s": "Large language models generate texts that are barely distinguishable from human ones."
+      }
+    },
+    {
+      "id": "w04",
+      "t": "der Datenschutz",
+      "s": "data protection, privacy",
+      "emoji": "🔒",
+      "ex": {
+        "t": "Beim Einsatz von KI im Krankenhaus hat der Datenschutz oberste Priorität.",
+        "s": "When AI is used in hospitals, data protection has top priority."
+      }
+    },
+    {
+      "id": "w05",
+      "t": "die Rechenleistung",
+      "s": "computing power",
+      "emoji": "",
+      "ex": {
+        "t": "Das Training solcher Modelle erfordert enorme Rechenleistung.",
+        "s": "Training such models requires enormous computing power."
+      }
+    },
+    {
+      "id": "w06",
+      "t": "die Verzerrung",
+      "pl": "die Verzerrungen",
+      "s": "bias; distortion",
+      "emoji": "",
+      "ex": {
+        "t": "Verzerrungen in den Trainingsdaten können zu diskriminierenden Ergebnissen führen.",
+        "s": "Biases in the training data can lead to discriminatory results."
+      }
+    },
+    {
+      "id": "w07",
+      "t": "die Transparenz",
+      "s": "transparency",
+      "emoji": "",
+      "ex": {
+        "t": "Kritiker fordern mehr Transparenz darüber, wie die Systeme zu ihren Ergebnissen gelangen.",
+        "s": "Critics demand more transparency about how the systems arrive at their results."
+      }
+    },
+    {
+      "id": "w08",
+      "t": "die Haftung",
+      "s": "liability",
+      "emoji": "",
+      "ex": {
+        "t": "Wer übernimmt die Haftung, wenn ein autonomes Fahrzeug einen Unfall verursacht?",
+        "s": "Who is liable if an autonomous vehicle causes an accident?"
+      }
+    },
+    {
+      "id": "w09",
+      "t": "die Regulierung",
+      "pl": "die Regulierungen",
+      "s": "regulation",
+      "emoji": "",
+      "ex": {
+        "t": "Die EU setzt bei der KI auf eine risikobasierte Regulierung.",
+        "s": "The EU relies on risk-based regulation of AI."
+      }
+    },
+    {
+      "id": "w10",
+      "t": "der Fortschritt",
+      "pl": "die Fortschritte",
+      "s": "progress, advance",
+      "emoji": "",
+      "ex": {
+        "t": "Der technische Fortschritt wirft neue ethische Fragen auf.",
+        "s": "Technological progress raises new ethical questions."
+      }
+    },
+    {
+      "id": "w11",
+      "t": "etw. automatisieren",
+      "s": "to automate sth.",
+      "emoji": "",
+      "ex": {
+        "t": "Viele Routineaufgaben in der Verwaltung lassen sich automatisieren.",
+        "s": "Many routine tasks in administration can be automated."
+      }
+    },
+    {
+      "id": "w12",
+      "t": "jdn./etw. ersetzen (durch + Akk.)",
+      "s": "to replace sb./sth. (with)",
+      "emoji": "",
+      "ex": {
+        "t": "Dass KI den Menschen vollständig ersetzt, halten viele Fachleute für unwahrscheinlich.",
+        "s": "Many experts consider it unlikely that AI will completely replace humans."
+      }
+    },
+    {
+      "id": "w13",
+      "t": "sich (D) etw. zunutze machen",
+      "s": "to harness sth., to make use of sth.",
+      "emoji": "",
+      "ex": {
+        "t": "Die Forschung macht sich KI zunutze, um Proteinstrukturen vorherzusagen.",
+        "s": "Research harnesses AI to predict protein structures."
+      }
+    },
+    {
+      "id": "w14",
+      "t": "an Bedeutung gewinnen",
+      "s": "to gain in importance",
+      "emoji": "",
+      "ex": {
+        "t": "Medienkompetenz gewinnt im Zeitalter der KI zunehmend an Bedeutung.",
+        "s": "Media literacy is becoming increasingly important in the age of AI."
+      }
+    },
+    {
+      "id": "w15",
+      "t": "bahnbrechend",
+      "s": "groundbreaking",
+      "emoji": "",
+      "ex": {
+        "t": "Die Entdeckung gilt als bahnbrechend für die medizinische Diagnostik.",
+        "s": "The discovery is regarded as groundbreaking for medical diagnostics."
+      }
+    },
+    {
+      "id": "w16",
+      "t": "fehleranfällig",
+      "s": "error-prone",
+      "emoji": "",
+      "ex": {
+        "t": "Auch scheinbar ausgereifte Systeme bleiben fehleranfällig.",
+        "s": "Even seemingly mature systems remain error-prone."
+      }
+    }
   ],
   "phrases": [
-    { "id": "p01", "t": "Laut einer aktuellen Studie …", "s": "According to a recent study …" },
-    { "id": "p02", "t": "Dem Bericht zufolge …", "s": "According to the report … (zufolge follows the noun + dative)" },
-    { "id": "p03", "t": "Wie die Expertin betont, …", "s": "As the expert stresses, …" },
-    { "id": "p04", "t": "Es bleibt abzuwarten, ob …", "s": "It remains to be seen whether …" },
-    { "id": "p05", "t": "Man darf nicht außer Acht lassen, dass …", "s": "We must not overlook the fact that …" },
-    { "id": "p06", "t": "Das ist ein zweischneidiges Schwert.", "s": "That's a double-edged sword." },
-    { "id": "p07", "t": "Die Kehrseite der Medaille ist, dass …", "s": "The flip side of the coin is that …" },
-    { "id": "p08", "t": "Ich gebe zu bedenken, dass …", "s": "I would ask you to bear in mind that …" }
+    {
+      "id": "p01",
+      "t": "Laut einer aktuellen Studie …",
+      "s": "According to a recent study …"
+    },
+    {
+      "id": "p02",
+      "t": "Dem Bericht zufolge …",
+      "s": "According to the report … (zufolge follows the noun + dative)"
+    },
+    {
+      "id": "p03",
+      "t": "Wie die Expertin betont, …",
+      "s": "As the expert stresses, …"
+    },
+    {
+      "id": "p04",
+      "t": "Es bleibt abzuwarten, ob …",
+      "s": "It remains to be seen whether …"
+    },
+    {
+      "id": "p05",
+      "t": "Man darf nicht außer Acht lassen, dass …",
+      "s": "We must not overlook the fact that …"
+    },
+    {
+      "id": "p06",
+      "t": "Das ist ein zweischneidiges Schwert.",
+      "s": "That's a double-edged sword."
+    },
+    {
+      "id": "p07",
+      "t": "Die Kehrseite der Medaille ist, dass …",
+      "s": "The flip side of the coin is that …"
+    },
+    {
+      "id": "p08",
+      "t": "Ich gebe zu bedenken, dass …",
+      "s": "I would ask you to bear in mind that …"
+    }
   ],
   "dialogue": {
-    "title": { "t": "Radiointerview: Braucht KI strengere Regeln?", "s": "Radio interview: Does AI need stricter rules?" },
-    "speakers": { "A": { "name": "Jonas Berger", "voice": "m" }, "B": { "name": "Dr. Neda Karimi", "voice": "f" } },
+    "title": {
+      "t": "Radiointerview: Braucht KI strengere Regeln?",
+      "s": "Radio interview: Does AI need stricter rules?"
+    },
+    "speakers": {
+      "A": {
+        "name": "Jonas Berger",
+        "voice": "m"
+      },
+      "B": {
+        "name": "Dr. Mina Karimi",
+        "voice": "f"
+      }
+    },
     "lines": [
-      { "sp": "A", "t": "Frau Dr. Karimi, ein großer Branchenverband behauptet, die neue KI-Verordnung bremse die Innovation in Europa aus. Teilen Sie diese Sorge?", "s": "Dr. Karimi, a major industry association claims that the new AI regulation is putting the brakes on innovation in Europe. Do you share this concern?" },
-      { "sp": "B", "t": "Nur bedingt. Häufig wird so getan, als ob Regulierung und Innovation einander ausschlössen. Dabei schaffen klare Regeln überhaupt erst Vertrauen.", "s": "Only to a limited extent. People often act as if regulation and innovation were mutually exclusive. Yet it is clear rules that create trust in the first place." },
-      { "sp": "A", "t": "Kritiker wenden ein, kleine Start-ups könnten sich den bürokratischen Aufwand gar nicht leisten.", "s": "Critics object that small start-ups simply couldn't afford the bureaucratic effort." },
-      { "sp": "B", "t": "Dieser Einwand ist berechtigt. Deshalb sind für kleinere Unternehmen ja Erleichterungen vorgesehen. Entscheidend wird sein, wie das Gesetz in der Praxis umgesetzt wird.", "s": "That objection is justified. That's why relief is provided for smaller companies. What will be decisive is how the law is implemented in practice." },
-      { "sp": "A", "t": "Ihr Institut setzt selbst KI ein. Wofür genau?", "s": "Your institute uses AI itself. For what exactly?" },
-      { "sp": "B", "t": "Wir werten damit riesige Mengen an Satellitendaten aus. Was früher Monate gedauert hat, erledigt das System heute in wenigen Stunden.", "s": "We use it to analyze huge amounts of satellite data. What used to take months, the system now does in a few hours." },
-      { "sp": "A", "t": "Das klingt, als hätten Sie keinerlei Bedenken.", "s": "That sounds as if you had no reservations whatsoever." },
-      { "sp": "B", "t": "Doch, durchaus. Ein Kollege erzählte mir neulich, ein Sprachmodell habe ihm eine Quelle genannt, die es gar nicht gebe – und es habe geklungen, als wäre es sich seiner Sache völlig sicher.", "s": "Oh, I certainly do. A colleague recently told me that a language model had cited a source that doesn't even exist – and it had sounded as if it were completely sure of itself." },
-      { "sp": "A", "t": "Wie sollte man mit solchen sogenannten Halluzinationen umgehen?", "s": "How should one deal with such so-called hallucinations?" },
-      { "sp": "B", "t": "Indem man die Ergebnisse grundsätzlich überprüft. KI ist ein Werkzeug, kein Orakel – die Verantwortung bleibt beim Menschen.", "s": "By checking the results as a matter of principle. AI is a tool, not an oracle – the responsibility stays with humans." },
-      { "sp": "A", "t": "Frau Dr. Karimi, herzlichen Dank für das Gespräch.", "s": "Dr. Karimi, thank you very much for the interview." }
+      {
+        "sp": "A",
+        "t": "Frau Dr. Karimi, ein großer Branchenverband behauptet, die neue KI-Verordnung bremse die Innovation in Europa aus. Teilen Sie diese Sorge?",
+        "s": "Dr. Karimi, a major industry association claims that the new AI regulation is putting the brakes on innovation in Europe. Do you share this concern?"
+      },
+      {
+        "sp": "B",
+        "t": "Nur bedingt. Häufig wird so getan, als ob Regulierung und Innovation einander ausschlössen. Dabei schaffen klare Regeln überhaupt erst Vertrauen.",
+        "s": "Only to a limited extent. People often act as if regulation and innovation were mutually exclusive. Yet it is clear rules that create trust in the first place."
+      },
+      {
+        "sp": "A",
+        "t": "Kritiker wenden ein, kleine Start-ups könnten sich den bürokratischen Aufwand gar nicht leisten.",
+        "s": "Critics object that small start-ups simply couldn't afford the bureaucratic effort."
+      },
+      {
+        "sp": "B",
+        "t": "Dieser Einwand ist berechtigt. Deshalb sind für kleinere Unternehmen ja Erleichterungen vorgesehen. Entscheidend wird sein, wie das Gesetz in der Praxis umgesetzt wird.",
+        "s": "That objection is justified. That's why relief is provided for smaller companies. What will be decisive is how the law is implemented in practice."
+      },
+      {
+        "sp": "A",
+        "t": "Ihr Institut setzt selbst KI ein. Wofür genau?",
+        "s": "Your institute uses AI itself. For what exactly?"
+      },
+      {
+        "sp": "B",
+        "t": "Wir werten damit riesige Mengen an Satellitendaten aus. Was früher Monate gedauert hat, erledigt das System heute in wenigen Stunden.",
+        "s": "We use it to analyze huge amounts of satellite data. What used to take months, the system now does in a few hours."
+      },
+      {
+        "sp": "A",
+        "t": "Das klingt, als hätten Sie keinerlei Bedenken.",
+        "s": "That sounds as if you had no reservations whatsoever."
+      },
+      {
+        "sp": "B",
+        "t": "Doch, durchaus. Ein Kollege erzählte mir neulich, ein Sprachmodell habe ihm eine Quelle genannt, die es gar nicht gebe – und es habe geklungen, als wäre es sich seiner Sache völlig sicher.",
+        "s": "Oh, I certainly do. A colleague recently told me that a language model had cited a source that doesn't even exist – and it had sounded as if it were completely sure of itself."
+      },
+      {
+        "sp": "A",
+        "t": "Wie sollte man mit solchen sogenannten Halluzinationen umgehen?",
+        "s": "How should one deal with such so-called hallucinations?"
+      },
+      {
+        "sp": "B",
+        "t": "Indem man die Ergebnisse grundsätzlich überprüft. KI ist ein Werkzeug, kein Orakel – die Verantwortung bleibt beim Menschen.",
+        "s": "By checking the results as a matter of principle. AI is a tool, not an oracle – the responsibility stays with humans."
+      },
+      {
+        "sp": "A",
+        "t": "Frau Dr. Karimi, herzlichen Dank für das Gespräch.",
+        "s": "Dr. Karimi, thank you very much for the interview."
+      }
     ]
   },
   "grammar": [
     {
       "id": "g01",
-      "title": { "t": "Er sagte, er habe das nicht gewusst.", "s": "Konjunktiv in reported speech (present, past, future)" },
+      "title": {
+        "t": "Er sagte, er habe das nicht gewusst.",
+        "s": "Konjunktiv in reported speech (present, past, future)"
+      },
       "explain": "In news, reports and academic writing, German marks reported speech with the **Konjunktiv I**. It signals: *this is what someone else said – I am not vouching for it.*\nForm: infinitive stem + **-e, -est, -e, -en, -et, -en**. In practice you mostly need the 3rd person singular: **er habe, sie sei, man könne, es werde, es gebe**. **sein** is irregular: **ich sei, du sei(e)st, er sei, wir seien, ihr seiet, sie seien**.\nIf the Konjunktiv I looks exactly like the indicative (e.g. **sie haben, wir können**), switch to the **Konjunktiv II** (**sie hätten, wir könnten**). If that form is also ambiguous or sounds old-fashioned (**sie arbeiteten**), use **würde + infinitive**.\n**Past:** **habe/sei + Partizip II** (*Er sagte, er **habe** die Daten **geprüft**. / Sie sagte, sie **sei** nach Wien **gereist**.*); replacement form: **hätte/wäre + Partizip II**. **Future:** **werde + infinitive**. Reported questions use **ob** or a question word; reported commands use **sollen** (demand) or **mögen** (polite request).\nRegister: in everyday speech people mostly use the Konjunktiv II, **würde** or simply the indicative (*Er sagt, dass er keine Zeit hat.*). Choosing the Konjunktiv II where a distinct Konjunktiv I exists (*er hätte* instead of *er habe*) can signal doubt about the claim.",
       "table": [
-        ["„Ich habe keine Zeit.“", "Er sagt, er habe keine Zeit."],
-        ["„Wir haben keine Zeit.“", "Sie sagen, sie hätten keine Zeit."],
-        ["„Das Modell ist fehlerhaft.“", "Sie behauptet, das Modell sei fehlerhaft."],
-        ["„Ich habe die Daten geprüft.“", "Er versichert, er habe die Daten geprüft."],
-        ["„Wir sind zu spät gekommen.“", "Sie räumen ein, sie seien zu spät gekommen."],
-        ["„Wir arbeiten daran.“", "Sie erklären, sie würden daran arbeiten."],
-        ["„Kommen Sie morgen!“", "Er sagt, sie solle morgen kommen."]
+        [
+          "„Ich habe keine Zeit.“",
+          "Er sagt, er habe keine Zeit."
+        ],
+        [
+          "„Wir haben keine Zeit.“",
+          "Sie sagen, sie hätten keine Zeit."
+        ],
+        [
+          "„Das Modell ist fehlerhaft.“",
+          "Sie behauptet, das Modell sei fehlerhaft."
+        ],
+        [
+          "„Ich habe die Daten geprüft.“",
+          "Er versichert, er habe die Daten geprüft."
+        ],
+        [
+          "„Wir sind zu spät gekommen.“",
+          "Sie räumen ein, sie seien zu spät gekommen."
+        ],
+        [
+          "„Wir arbeiten daran.“",
+          "Sie erklären, sie würden daran arbeiten."
+        ],
+        [
+          "„Kommen Sie morgen!“",
+          "Er sagt, sie solle morgen kommen."
+        ]
       ],
       "examples": [
-        { "t": "Der Minister erklärte, die Regierung werde die Förderung ausbauen.", "s": "The minister stated that the government would expand funding." },
-        { "t": "Die Entwickler räumten ein, das System habe in Tests falsche Diagnosen gestellt.", "s": "The developers admitted that the system had made incorrect diagnoses in tests." },
-        { "t": "Mehrere Firmen betonten, sie hätten bereits in Datenschutz investiert.", "s": "Several companies stressed that they had already invested in data protection." },
-        { "t": "Die Forscherin fragte, ob die Daten repräsentativ seien.", "s": "The researcher asked whether the data were representative." },
-        { "t": "Ein Sprecher sagte, man arbeite mit Hochdruck an einer Lösung.", "s": "A spokesperson said they were working flat out on a solution." }
+        {
+          "t": "Der Minister erklärte, die Regierung werde die Förderung ausbauen.",
+          "s": "The minister stated that the government would expand funding."
+        },
+        {
+          "t": "Die Entwickler räumten ein, das System habe in Tests falsche Diagnosen gestellt.",
+          "s": "The developers admitted that the system had made incorrect diagnoses in tests."
+        },
+        {
+          "t": "Mehrere Firmen betonten, sie hätten bereits in Datenschutz investiert.",
+          "s": "Several companies stressed that they had already invested in data protection."
+        },
+        {
+          "t": "Die Forscherin fragte, ob die Daten repräsentativ seien.",
+          "s": "The researcher asked whether the data were representative."
+        },
+        {
+          "t": "Ein Sprecher sagte, man arbeite mit Hochdruck an einer Lösung.",
+          "s": "A spokesperson said they were working flat out on a solution."
+        }
       ],
       "exercises": [
-        { "type": "choice", "t": "Die Studienleiterin betonte, die Ergebnisse ___ vorläufig.", "options": ["sei", "seien", "seid"], "answer": 1, "s": "The head of the study stressed that the results were preliminary." },
-        { "type": "choice", "t": "Die Unternehmen erklärten, sie ___ keine Kundendaten weitergegeben.", "options": ["habe", "hättet", "hätten"], "answer": 2, "s": "The companies stated that they had not passed on any customer data. (Konj. I „haben“ = indicative → Konj. II „hätten“)" },
-        { "type": "choice", "t": "Der Sprecher sagte, man ___ die Sicherheitslücke inzwischen geschlossen.", "options": ["habe", "sei", "werde"], "answer": 0, "s": "The spokesperson said the security gap had since been closed." },
-        { "type": "choice", "t": "Sie berichtete, sie ___ eigens für die Konferenz nach Wien gereist.", "options": ["habe", "würde", "sei"], "answer": 2, "s": "She reported that she had traveled to Vienna especially for the conference." },
-        { "type": "type", "t": "Er behauptet, er ___ von dem Fehler nichts gewusst.", "answer": ["habe", "hätte", "haette"], "s": "He claims he knew nothing about the error." },
-        { "type": "type", "t": "Die Ministerin kündigte an, sie ___ sich für strengere Regeln einsetzen.", "answer": ["werde", "würde", "wuerde"], "s": "The minister announced that she would campaign for stricter rules." },
-        { "type": "order", "t": "Er behauptet, das System sei fehlerfrei.", "s": "He claims the system is error-free." },
-        { "type": "order", "t": "Der Hersteller versichert, die Daten seien sicher.", "s": "The manufacturer gives assurances that the data are secure." }
+        {
+          "type": "choice",
+          "t": "Die Studienleiterin betonte, die Ergebnisse ___ vorläufig.",
+          "options": [
+            "sei",
+            "seien",
+            "seid"
+          ],
+          "answer": 1,
+          "s": "The head of the study stressed that the results were preliminary."
+        },
+        {
+          "type": "choice",
+          "t": "Die Unternehmen erklärten, sie ___ keine Kundendaten weitergegeben.",
+          "options": [
+            "habe",
+            "hättet",
+            "hätten"
+          ],
+          "answer": 2,
+          "s": "The companies stated that they had not passed on any customer data. (Konj. I „haben“ = indicative → Konj. II „hätten“)"
+        },
+        {
+          "type": "choice",
+          "t": "Der Sprecher sagte, man ___ die Sicherheitslücke inzwischen geschlossen.",
+          "options": [
+            "habe",
+            "sei",
+            "werde"
+          ],
+          "answer": 0,
+          "s": "The spokesperson said the security gap had since been closed."
+        },
+        {
+          "type": "choice",
+          "t": "Sie berichtete, sie ___ eigens für die Konferenz nach Wien gereist.",
+          "options": [
+            "habe",
+            "würde",
+            "sei"
+          ],
+          "answer": 2,
+          "s": "She reported that she had traveled to Vienna especially for the conference."
+        },
+        {
+          "type": "type",
+          "t": "Er behauptet, er ___ von dem Fehler nichts gewusst.",
+          "answer": [
+            "habe",
+            "hätte",
+            "haette"
+          ],
+          "s": "He claims he knew nothing about the error."
+        },
+        {
+          "type": "type",
+          "t": "Die Ministerin kündigte an, sie ___ sich für strengere Regeln einsetzen.",
+          "answer": [
+            "werde",
+            "würde",
+            "wuerde"
+          ],
+          "s": "The minister announced that she would campaign for stricter rules."
+        },
+        {
+          "type": "order",
+          "t": "Er behauptet, das System sei fehlerfrei.",
+          "s": "He claims the system is error-free."
+        },
+        {
+          "type": "order",
+          "t": "Der Hersteller versichert, die Daten seien sicher.",
+          "s": "The manufacturer gives assurances that the data are secure."
+        }
       ]
     },
     {
       "id": "g02",
-      "title": { "t": "Es klingt, als wäre es sich sicher.", "s": "Unreal comparisons: als ob, als wenn, als + verb" },
+      "title": {
+        "t": "Es klingt, als wäre es sich sicher.",
+        "s": "Unreal comparisons: als ob, als wenn, als + verb"
+      },
       "explain": "An **irrealer Vergleichssatz** describes how something appears or seems – while implying that it is *not* (or not necessarily) so. It typically follows verbs such as **so tun, aussehen, klingen, wirken, scheinen, sich anfühlen** or **es kommt mir vor**.\nThere are three patterns: **als ob** or **als wenn** + verb at the end (*…, als ob er alles wüsste*), or **als** + finite verb immediately after it (*…, als wüsste er alles*). The **als** + verb pattern is the most elegant in writing.\nThe mood is normally the **Konjunktiv II**; in formal writing the **Konjunktiv I** also occurs (*als habe er …*), and in speech **würde + infinitive** is common. For something that happened earlier, use **hätte/wäre + Partizip II**: *Sie sieht aus, als **hätte** sie die Nacht **durchgearbeitet**.*\nNuance: if the comparison is probably true, colloquial German often uses the indicative: *Es sieht so aus, als ob es gleich regnet.*\nAs an exclamation, **Als ob …!** rejects an idea with irony or indignation: **Als ob ich das nicht wüsste!** (= Of course I know that!)",
       "table": [
-        ["als ob … + Verb", "Er tut so, als ob er alles wüsste."],
-        ["als wenn … + Verb", "Es wirkt, als wenn das System denken könnte."],
-        ["als + Verb …", "Sie klingt, als hätte sie die Nacht durchgearbeitet."],
-        ["Ausruf", "Als ob ich das nicht wüsste!"]
+        [
+          "als ob … + Verb",
+          "Er tut so, als ob er alles wüsste."
+        ],
+        [
+          "als wenn … + Verb",
+          "Es wirkt, als wenn das System denken könnte."
+        ],
+        [
+          "als + Verb …",
+          "Sie klingt, als hätte sie die Nacht durchgearbeitet."
+        ],
+        [
+          "Ausruf",
+          "Als ob ich das nicht wüsste!"
+        ]
       ],
       "examples": [
-        { "t": "Der Chatbot antwortet, als wäre er ein Mensch.", "s": "The chatbot answers as if it were a human being." },
-        { "t": "Er redet über KI, als ob er sie selbst erfunden hätte.", "s": "He talks about AI as if he had invented it himself." },
-        { "t": "Es kommt mir vor, als hätten wir dieses Gespräch schon einmal geführt.", "s": "I feel as if we had already had this conversation before." },
-        { "t": "Die synthetische Stimme klingt, als säße eine Sprecherin im Studio.", "s": "The synthetic voice sounds as if a presenter were sitting in the studio." },
-        { "t": "Als ob man Ethik einfach programmieren könnte!", "s": "As if you could simply program ethics!" }
+        {
+          "t": "Der Chatbot antwortet, als wäre er ein Mensch.",
+          "s": "The chatbot answers as if it were a human being."
+        },
+        {
+          "t": "Er redet über KI, als ob er sie selbst erfunden hätte.",
+          "s": "He talks about AI as if he had invented it himself."
+        },
+        {
+          "t": "Es kommt mir vor, als hätten wir dieses Gespräch schon einmal geführt.",
+          "s": "I feel as if we had already had this conversation before."
+        },
+        {
+          "t": "Die synthetische Stimme klingt, als säße eine Sprecherin im Studio.",
+          "s": "The synthetic voice sounds as if a presenter were sitting in the studio."
+        },
+        {
+          "t": "Als ob man Ethik einfach programmieren könnte!",
+          "s": "As if you could simply program ethics!"
+        }
       ],
       "exercises": [
-        { "type": "choice", "t": "Das Bild wirkt, ___ es von einem Menschen gemalt worden wäre.", "options": ["als", "als ob", "wie"], "answer": 1, "s": "The picture looks as if it had been painted by a human." },
-        { "type": "choice", "t": "Er tut so, als ___ er die Studie gelesen.", "options": ["hätte", "hat", "wäre"], "answer": 0, "s": "He acts as if he had read the study." },
-        { "type": "choice", "t": "Sie sieht aus, als ob sie seit Tagen nicht geschlafen ___.", "options": ["wäre", "hätte", "würde"], "answer": 1, "s": "She looks as if she hadn't slept for days." },
-        { "type": "choice", "t": "___ ob ich das nicht längst wüsste!", "options": ["Wie", "Wenn", "Als"], "answer": 2, "s": "As if I hadn't known that for ages!" },
-        { "type": "type", "t": "Der Roboter bewegt sich, als ___ er lebendig.", "answer": ["wäre", "sei", "waere"], "s": "The robot moves as if it were alive." },
-        { "type": "type", "t": "Er tut so, als ___ er von dem Datenleck nichts gewusst.", "answer": ["hätte", "habe", "haette"], "s": "He acts as if he had known nothing about the data leak." },
-        { "type": "order", "t": "Er tut so, als wäre nichts passiert.", "s": "He acts as if nothing had happened." },
-        { "type": "order", "t": "Das klingt, als hätte sie recht.", "s": "That sounds as if she were right." }
+        {
+          "type": "choice",
+          "t": "Das Bild wirkt, ___ es von einem Menschen gemalt worden wäre.",
+          "options": [
+            "als",
+            "als ob",
+            "wie"
+          ],
+          "answer": 1,
+          "s": "The picture looks as if it had been painted by a human."
+        },
+        {
+          "type": "choice",
+          "t": "Er tut so, als ___ er die Studie gelesen.",
+          "options": [
+            "hätte",
+            "hat",
+            "wäre"
+          ],
+          "answer": 0,
+          "s": "He acts as if he had read the study."
+        },
+        {
+          "type": "choice",
+          "t": "Sie sieht aus, als ob sie seit Tagen nicht geschlafen ___.",
+          "options": [
+            "wäre",
+            "hätte",
+            "würde"
+          ],
+          "answer": 1,
+          "s": "She looks as if she hadn't slept for days."
+        },
+        {
+          "type": "choice",
+          "t": "___ ob ich das nicht längst wüsste!",
+          "options": [
+            "Wie",
+            "Wenn",
+            "Als"
+          ],
+          "answer": 2,
+          "s": "As if I hadn't known that for ages!"
+        },
+        {
+          "type": "type",
+          "t": "Der Roboter bewegt sich, als ___ er lebendig.",
+          "answer": [
+            "wäre",
+            "sei",
+            "waere"
+          ],
+          "s": "The robot moves as if it were alive."
+        },
+        {
+          "type": "type",
+          "t": "Er tut so, als ___ er von dem Datenleck nichts gewusst.",
+          "answer": [
+            "hätte",
+            "habe",
+            "haette"
+          ],
+          "s": "He acts as if he had known nothing about the data leak."
+        },
+        {
+          "type": "order",
+          "t": "Er tut so, als wäre nichts passiert.",
+          "s": "He acts as if nothing had happened."
+        },
+        {
+          "type": "order",
+          "t": "Das klingt, als hätte sie recht.",
+          "s": "That sounds as if she were right."
+        }
       ]
     }
   ],
   "reading": {
-    "title": { "t": "Wenn die Maschine schreibt", "s": "When the machine writes" },
+    "title": {
+      "t": "Wenn die Maschine schreibt",
+      "s": "When the machine writes"
+    },
     "text": [
-      { "t": "Als vor einigen Jahren die ersten frei zugänglichen Sprachmodelle auf den Markt kamen, war die Begeisterung groß.", "s": "When the first freely accessible language models came onto the market a few years ago, enthusiasm was high." },
-      { "t": "Plötzlich schien es, als könne eine Maschine mühelos Gedichte verfassen, Code schreiben und juristische Fragen beantworten.", "s": "Suddenly it seemed as if a machine could effortlessly compose poems, write code and answer legal questions." },
-      { "t": "Inzwischen ist die erste Euphorie einer nüchterneren Betrachtung gewichen.", "s": "In the meantime, the initial euphoria has given way to a more sober view." },
-      { "t": "Einer Umfrage an einer Berliner Hochschule zufolge nutzt mehr als die Hälfte der Studierenden KI-Werkzeuge regelmäßig für Hausarbeiten.", "s": "According to a survey at a Berlin university, more than half of the students regularly use AI tools for their term papers." },
-      { "t": "Die Medienwissenschaftlerin Dr. Neda Karimi warnt jedoch, man dürfe flüssige Texte nicht mit Wissen verwechseln.", "s": "However, media scholar Dr. Neda Karimi warns that fluent texts must not be confused with knowledge." },
-      { "t": "Ein Sprachmodell berechne lediglich, welches Wort mit hoher Wahrscheinlichkeit als Nächstes folge.", "s": "A language model, she says, merely calculates which word is most likely to come next." },
-      { "t": "Es klinge oft so, als verstünde es die Welt, doch tatsächlich fehle ihm jeglicher Bezug zur Wirklichkeit.", "s": "It often sounds as if it understood the world, but in fact it lacks any connection to reality." },
-      { "t": "Besonders heikel seien sogenannte Halluzinationen, also frei erfundene Fakten, die das System mit großer Selbstsicherheit präsentiere.", "s": "So-called hallucinations are particularly tricky, she says – that is, made-up facts that the system presents with great self-assurance." },
-      { "t": "Befürworter halten dagegen, dass KI gerade in der Forschung bahnbrechende Fortschritte ermögliche.", "s": "Supporters counter that AI is enabling groundbreaking progress, especially in research." },
-      { "t": "So sei es etwa gelungen, die räumliche Struktur zahlreicher Proteine vorherzusagen.", "s": "For example, it has been possible to predict the three-dimensional structure of numerous proteins." },
-      { "t": "An dieser Aufgabe hatten sich Fachleute jahrzehntelang die Zähne ausgebissen.", "s": "Experts had been struggling in vain with this task for decades." },
-      { "t": "Die Wahrheit liegt wohl, wie so oft, in der Mitte: KI ist weder Wundermittel noch Teufelszeug.", "s": "The truth probably lies, as so often, somewhere in between: AI is neither a miracle cure nor the work of the devil." },
-      { "t": "Entscheidend ist, dass wir lernen, ihre Ergebnisse kritisch zu hinterfragen, statt ihnen blind zu vertrauen.", "s": "What matters is that we learn to question its results critically instead of trusting them blindly." }
+      {
+        "t": "Als vor einigen Jahren die ersten frei zugänglichen Sprachmodelle auf den Markt kamen, war die Begeisterung groß.",
+        "s": "When the first freely accessible language models came onto the market a few years ago, enthusiasm was high."
+      },
+      {
+        "t": "Plötzlich schien es, als könne eine Maschine mühelos Gedichte verfassen, Code schreiben und juristische Fragen beantworten.",
+        "s": "Suddenly it seemed as if a machine could effortlessly compose poems, write code and answer legal questions."
+      },
+      {
+        "t": "Inzwischen ist die erste Euphorie einer nüchterneren Betrachtung gewichen.",
+        "s": "In the meantime, the initial euphoria has given way to a more sober view."
+      },
+      {
+        "t": "Einer Umfrage an einer Berliner Hochschule zufolge nutzt mehr als die Hälfte der Studierenden KI-Werkzeuge regelmäßig für Hausarbeiten.",
+        "s": "According to a survey at a Berlin university, more than half of the students regularly use AI tools for their term papers."
+      },
+      {
+        "t": "Die Medienwissenschaftlerin Dr. Mina Karimi warnt jedoch, man dürfe flüssige Texte nicht mit Wissen verwechseln.",
+        "s": "However, media scholar Dr. Mina Karimi warns that fluent texts must not be confused with knowledge."
+      },
+      {
+        "t": "Ein Sprachmodell berechne lediglich, welches Wort mit hoher Wahrscheinlichkeit als Nächstes folge.",
+        "s": "A language model, she says, merely calculates which word is most likely to come next."
+      },
+      {
+        "t": "Es klinge oft so, als verstünde es die Welt, doch tatsächlich fehle ihm jeglicher Bezug zur Wirklichkeit.",
+        "s": "It often sounds as if it understood the world, but in fact it lacks any connection to reality."
+      },
+      {
+        "t": "Besonders heikel seien sogenannte Halluzinationen, also frei erfundene Fakten, die das System mit großer Selbstsicherheit präsentiere.",
+        "s": "So-called hallucinations are particularly tricky, she says – that is, made-up facts that the system presents with great self-assurance."
+      },
+      {
+        "t": "Befürworter halten dagegen, dass KI gerade in der Forschung bahnbrechende Fortschritte ermögliche.",
+        "s": "Supporters counter that AI is enabling groundbreaking progress, especially in research."
+      },
+      {
+        "t": "So sei es etwa gelungen, die räumliche Struktur zahlreicher Proteine vorherzusagen.",
+        "s": "For example, it has been possible to predict the three-dimensional structure of numerous proteins."
+      },
+      {
+        "t": "An dieser Aufgabe hatten sich Fachleute jahrzehntelang die Zähne ausgebissen.",
+        "s": "Experts had been struggling in vain with this task for decades."
+      },
+      {
+        "t": "Die Wahrheit liegt wohl, wie so oft, in der Mitte: KI ist weder Wundermittel noch Teufelszeug.",
+        "s": "The truth probably lies, as so often, somewhere in between: AI is neither a miracle cure nor the work of the devil."
+      },
+      {
+        "t": "Entscheidend ist, dass wir lernen, ihre Ergebnisse kritisch zu hinterfragen, statt ihnen blind zu vertrauen.",
+        "s": "What matters is that we learn to question its results critically instead of trusting them blindly."
+      }
     ],
     "questions": [
-      { "q": { "t": "Wie hat sich die Haltung gegenüber Sprachmodellen verändert?", "s": "How has the attitude towards language models changed?" },
-        "options": ["Die anfängliche Begeisterung ist einer nüchterneren Sicht gewichen.", "Die Begeisterung ist inzwischen noch größer geworden.", "Man lehnt Sprachmodelle heute grundsätzlich ab."], "answer": 0 },
-      { "q": { "t": "Wovor warnt Dr. Karimi?", "s": "What does Dr. Karimi warn against?" },
-        "options": ["davor, dass Studierende zu selten KI nutzen", "davor, flüssige Texte mit Wissen zu verwechseln", "davor, dass Sprachmodelle zu langsam rechnen"], "answer": 1 },
-      { "q": { "t": "Was versteht man im Text unter „Halluzinationen“?", "s": "What does the text mean by “hallucinations”?" },
-        "options": ["Rechenfehler bei komplizierten Aufgaben", "absichtliche Falschmeldungen von Nutzern", "frei erfundene Fakten, die überzeugend präsentiert werden"], "answer": 2 },
-      { "q": { "t": "Welches Beispiel nennen die Befürworter?", "s": "Which example do the supporters give?" },
-        "options": ["die Vorhersage von Proteinstrukturen", "das Verfassen von Gedichten", "das Schreiben von Hausarbeiten"], "answer": 0 },
-      { "q": { "t": "Welche Schlussfolgerung zieht der Text?", "s": "What conclusion does the text draw?" },
-        "options": ["KI sollte an Hochschulen verboten werden.", "Man sollte KI-Ergebnisse kritisch prüfen, statt ihnen blind zu vertrauen.", "KI wird den Menschen bald vollständig ersetzen."], "answer": 1 }
+      {
+        "q": {
+          "t": "Wie hat sich die Haltung gegenüber Sprachmodellen verändert?",
+          "s": "How has the attitude towards language models changed?"
+        },
+        "options": [
+          "Die anfängliche Begeisterung ist einer nüchterneren Sicht gewichen.",
+          "Die Begeisterung ist inzwischen noch größer geworden.",
+          "Man lehnt Sprachmodelle heute grundsätzlich ab."
+        ],
+        "answer": 0
+      },
+      {
+        "q": {
+          "t": "Wovor warnt Dr. Karimi?",
+          "s": "What does Dr. Karimi warn against?"
+        },
+        "options": [
+          "davor, dass Studierende zu selten KI nutzen",
+          "davor, flüssige Texte mit Wissen zu verwechseln",
+          "davor, dass Sprachmodelle zu langsam rechnen"
+        ],
+        "answer": 1
+      },
+      {
+        "q": {
+          "t": "Was versteht man im Text unter „Halluzinationen“?",
+          "s": "What does the text mean by “hallucinations”?"
+        },
+        "options": [
+          "Rechenfehler bei komplizierten Aufgaben",
+          "absichtliche Falschmeldungen von Nutzern",
+          "frei erfundene Fakten, die überzeugend präsentiert werden"
+        ],
+        "answer": 2
+      },
+      {
+        "q": {
+          "t": "Welches Beispiel nennen die Befürworter?",
+          "s": "Which example do the supporters give?"
+        },
+        "options": [
+          "die Vorhersage von Proteinstrukturen",
+          "das Verfassen von Gedichten",
+          "das Schreiben von Hausarbeiten"
+        ],
+        "answer": 0
+      },
+      {
+        "q": {
+          "t": "Welche Schlussfolgerung zieht der Text?",
+          "s": "What conclusion does the text draw?"
+        },
+        "options": [
+          "KI sollte an Hochschulen verboten werden.",
+          "Man sollte KI-Ergebnisse kritisch prüfen, statt ihnen blind zu vertrauen.",
+          "KI wird den Menschen bald vollständig ersetzen."
+        ],
+        "answer": 1
+      }
     ]
   },
   "sentences": [
-    { "t": "Der Sprecher räumte ein, man habe die Risiken unterschätzt.", "s": "The spokesperson admitted that the risks had been underestimated." },
-    { "t": "Es sieht so aus, als hätte niemand mit diesem Erfolg gerechnet.", "s": "It looks as if nobody had expected this success." },
-    { "t": "Die Debatte über KI wird oft sehr emotional geführt.", "s": "The debate about AI is often conducted very emotionally." },
-    { "t": "Wer haftet, wenn eine Software eine falsche Diagnose stellt?", "s": "Who is liable if a piece of software makes a wrong diagnosis?" },
-    { "t": "Sie fragte, ob die Trainingsdaten frei von Verzerrungen seien.", "s": "She asked whether the training data were free of bias." },
-    { "t": "Technischer Fortschritt ist kein Selbstzweck.", "s": "Technological progress is not an end in itself." },
-    { "t": "Er redet, als hätte er die Weisheit mit Löffeln gegessen.", "s": "He talks as if he knew it all." },
-    { "t": "Routineaufgaben lassen sich zunehmend automatisieren.", "s": "Routine tasks can increasingly be automated." }
+    {
+      "t": "Der Sprecher räumte ein, man habe die Risiken unterschätzt.",
+      "s": "The spokesperson admitted that the risks had been underestimated."
+    },
+    {
+      "t": "Es sieht so aus, als hätte niemand mit diesem Erfolg gerechnet.",
+      "s": "It looks as if nobody had expected this success."
+    },
+    {
+      "t": "Die Debatte über KI wird oft sehr emotional geführt.",
+      "s": "The debate about AI is often conducted very emotionally."
+    },
+    {
+      "t": "Wer haftet, wenn eine Software eine falsche Diagnose stellt?",
+      "s": "Who is liable if a piece of software makes a wrong diagnosis?"
+    },
+    {
+      "t": "Sie fragte, ob die Trainingsdaten frei von Verzerrungen seien.",
+      "s": "She asked whether the training data were free of bias."
+    },
+    {
+      "t": "Technischer Fortschritt ist kein Selbstzweck.",
+      "s": "Technological progress is not an end in itself."
+    },
+    {
+      "t": "Er redet, als hätte er die Weisheit mit Löffeln gegessen.",
+      "s": "He talks as if he knew it all."
+    },
+    {
+      "t": "Routineaufgaben lassen sich zunehmend automatisieren.",
+      "s": "Routine tasks can increasingly be automated."
+    }
   ]
 }

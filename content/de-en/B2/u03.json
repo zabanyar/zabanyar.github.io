@@ -2,7 +2,10 @@
   "id": "u03",
   "level": "B2",
   "emoji": "🥦",
-  "title": { "t": "Gesundheit und Ernährung", "s": "Health and nutrition" },
+  "title": {
+    "t": "Gesundheit und Ernährung",
+    "s": "Health and nutrition"
+  },
   "goals": [
     "Talk about health, diet and going to the doctor in Germany",
     "Express regret and criticism about the past",
@@ -10,159 +13,700 @@
     "Make unreal conditions and wishes (Wenn ich doch …!)"
   ],
   "words": [
-    { "id": "w01", "t": "die Ernährung", "s": "diet, nutrition", "emoji": "🥗",
-      "ex": { "t": "Eine ausgewogene Ernährung ist wichtig für die Gesundheit.", "s": "A balanced diet is important for your health." } },
-    { "id": "w02", "t": "sich ernähren", "s": "to eat, to feed oneself; sich gesund ernähren = to eat healthily", "emoji": "",
-      "ex": { "t": "Seit seiner Diagnose ernährt sich Reza viel gesünder.", "s": "Since his diagnosis, Reza has been eating much more healthily." } },
-    { "id": "w03", "t": "ausgewogen", "s": "balanced", "emoji": "",
-      "ex": { "t": "Ein ausgewogenes Frühstück gibt Energie für den ganzen Vormittag.", "s": "A balanced breakfast gives you energy for the whole morning." } },
-    { "id": "w04", "t": "die Krankenkasse", "pl": "die Krankenkassen", "s": "health insurance fund", "emoji": "",
-      "ex": { "t": "Bei welcher Krankenkasse sind Sie versichert?", "s": "Which health insurance fund are you insured with?" } },
-    { "id": "w05", "t": "der Hausarzt", "pl": "die Hausärzte", "s": "family doctor, GP (female: die Hausärztin)", "emoji": "🩺",
-      "ex": { "t": "Mit diesen Beschwerden gehen Sie am besten zuerst zum Hausarzt.", "s": "With these symptoms, it's best to see your family doctor first." } },
-    { "id": "w06", "t": "die Überweisung", "pl": "die Überweisungen", "s": "referral (to a specialist); also: bank transfer", "emoji": "",
-      "ex": { "t": "Für den Facharzt brauche ich eine Überweisung von meiner Hausärztin.", "s": "I need a referral from my family doctor for the specialist." } },
-    { "id": "w07", "t": "das Rezept", "pl": "die Rezepte", "s": "prescription; also: recipe", "emoji": "",
-      "ex": { "t": "Dieses Medikament bekommen Sie nur mit Rezept.", "s": "You can only get this medication with a prescription." } },
-    { "id": "w08", "t": "die Vorsorgeuntersuchung", "pl": "die Vorsorgeuntersuchungen", "s": "check-up, screening", "emoji": "",
-      "ex": { "t": "Die Krankenkasse bezahlt regelmäßige Vorsorgeuntersuchungen.", "s": "The health insurance fund pays for regular check-ups." } },
-    { "id": "w09", "t": "die Beschwerden", "s": "symptoms, (health) complaints (plural)", "emoji": "",
-      "ex": { "t": "Seit wann haben Sie diese Beschwerden?", "s": "How long have you had these symptoms?" } },
-    { "id": "w10", "t": "sich krankmelden", "s": "to call in sick; krankgeschrieben sein = to be on sick leave", "emoji": "🤒",
-      "ex": { "t": "Mit Fieber sollten Sie sich krankmelden und zu Hause bleiben.", "s": "If you have a fever, you should call in sick and stay at home." } },
-    { "id": "w11", "t": "die Verletzung", "pl": "die Verletzungen", "s": "injury", "emoji": "",
-      "ex": { "t": "Die Verletzung am Knie war zum Glück nicht schlimm.", "s": "Fortunately, the knee injury wasn't serious." } },
-    { "id": "w12", "t": "sich erholen (von + D)", "s": "to recover (from)", "emoji": "",
-      "ex": { "t": "Ali hat sich gut von der Operation erholt.", "s": "Ali has recovered well from the operation." } },
-    { "id": "w13", "t": "vorbeugen (+ D)", "s": "to prevent", "emoji": "",
-      "ex": { "t": "Regelmäßige Bewegung beugt vielen Krankheiten vor.", "s": "Regular exercise prevents many illnesses." } },
-    { "id": "w14", "t": "verzichten (auf + A)", "s": "to do without, give up", "emoji": "",
-      "ex": { "t": "Abends verzichte ich auf Süßigkeiten.", "s": "In the evening I don't eat any sweets." } },
-    { "id": "w15", "t": "die Gewohnheit", "pl": "die Gewohnheiten", "s": "habit", "emoji": "",
-      "ex": { "t": "Es ist schwer, alte Gewohnheiten zu ändern.", "s": "It's hard to change old habits." } },
-    { "id": "w16", "t": "der Stress", "s": "stress", "emoji": "",
-      "ex": { "t": "Zu viel Stress kann krank machen.", "s": "Too much stress can make you ill." } }
+    {
+      "id": "w01",
+      "t": "die Ernährung",
+      "s": "diet, nutrition",
+      "emoji": "🥗",
+      "ex": {
+        "t": "Eine ausgewogene Ernährung ist wichtig für die Gesundheit.",
+        "s": "A balanced diet is important for your health."
+      }
+    },
+    {
+      "id": "w02",
+      "t": "sich ernähren",
+      "s": "to eat, to feed oneself; sich gesund ernähren = to eat healthily",
+      "emoji": "",
+      "ex": {
+        "t": "Seit seiner Diagnose ernährt sich Reza viel gesünder.",
+        "s": "Since his diagnosis, Reza has been eating much more healthily."
+      }
+    },
+    {
+      "id": "w03",
+      "t": "ausgewogen",
+      "s": "balanced",
+      "emoji": "",
+      "ex": {
+        "t": "Ein ausgewogenes Frühstück gibt Energie für den ganzen Vormittag.",
+        "s": "A balanced breakfast gives you energy for the whole morning."
+      }
+    },
+    {
+      "id": "w04",
+      "t": "die Krankenkasse",
+      "pl": "die Krankenkassen",
+      "s": "health insurance fund",
+      "emoji": "",
+      "ex": {
+        "t": "Bei welcher Krankenkasse sind Sie versichert?",
+        "s": "Which health insurance fund are you insured with?"
+      }
+    },
+    {
+      "id": "w05",
+      "t": "der Hausarzt",
+      "pl": "die Hausärzte",
+      "s": "family doctor, GP (female: die Hausärztin)",
+      "emoji": "🩺",
+      "ex": {
+        "t": "Mit diesen Beschwerden gehen Sie am besten zuerst zum Hausarzt.",
+        "s": "With these symptoms, it's best to see your family doctor first."
+      }
+    },
+    {
+      "id": "w06",
+      "t": "die Überweisung",
+      "pl": "die Überweisungen",
+      "s": "referral (to a specialist); also: bank transfer",
+      "emoji": "",
+      "ex": {
+        "t": "Für den Facharzt brauche ich eine Überweisung von meiner Hausärztin.",
+        "s": "I need a referral from my family doctor for the specialist."
+      }
+    },
+    {
+      "id": "w07",
+      "t": "das Rezept",
+      "pl": "die Rezepte",
+      "s": "prescription; also: recipe",
+      "emoji": "",
+      "ex": {
+        "t": "Dieses Medikament bekommen Sie nur mit Rezept.",
+        "s": "You can only get this medication with a prescription."
+      }
+    },
+    {
+      "id": "w08",
+      "t": "die Vorsorgeuntersuchung",
+      "pl": "die Vorsorgeuntersuchungen",
+      "s": "check-up, screening",
+      "emoji": "",
+      "ex": {
+        "t": "Die Krankenkasse bezahlt regelmäßige Vorsorgeuntersuchungen.",
+        "s": "The health insurance fund pays for regular check-ups."
+      }
+    },
+    {
+      "id": "w09",
+      "t": "die Beschwerden",
+      "s": "symptoms, (health) complaints (plural)",
+      "emoji": "",
+      "ex": {
+        "t": "Seit wann haben Sie diese Beschwerden?",
+        "s": "How long have you had these symptoms?"
+      }
+    },
+    {
+      "id": "w10",
+      "t": "sich krankmelden",
+      "s": "to call in sick; krankgeschrieben sein = to be on sick leave",
+      "emoji": "🤒",
+      "ex": {
+        "t": "Mit Fieber sollten Sie sich krankmelden und zu Hause bleiben.",
+        "s": "If you have a fever, you should call in sick and stay at home."
+      }
+    },
+    {
+      "id": "w11",
+      "t": "die Verletzung",
+      "pl": "die Verletzungen",
+      "s": "injury",
+      "emoji": "",
+      "ex": {
+        "t": "Die Verletzung am Knie war zum Glück nicht schlimm.",
+        "s": "Fortunately, the knee injury wasn't serious."
+      }
+    },
+    {
+      "id": "w12",
+      "t": "sich erholen (von + D)",
+      "s": "to recover (from)",
+      "emoji": "",
+      "ex": {
+        "t": "Ali hat sich gut von der Operation erholt.",
+        "s": "Ali has recovered well from the operation."
+      }
+    },
+    {
+      "id": "w13",
+      "t": "vorbeugen (+ D)",
+      "s": "to prevent",
+      "emoji": "",
+      "ex": {
+        "t": "Regelmäßige Bewegung beugt vielen Krankheiten vor.",
+        "s": "Regular exercise prevents many illnesses."
+      }
+    },
+    {
+      "id": "w14",
+      "t": "verzichten (auf + A)",
+      "s": "to do without, give up",
+      "emoji": "",
+      "ex": {
+        "t": "Abends verzichte ich auf Süßigkeiten.",
+        "s": "In the evening I don't eat any sweets."
+      }
+    },
+    {
+      "id": "w15",
+      "t": "die Gewohnheit",
+      "pl": "die Gewohnheiten",
+      "s": "habit",
+      "emoji": "",
+      "ex": {
+        "t": "Es ist schwer, alte Gewohnheiten zu ändern.",
+        "s": "It's hard to change old habits."
+      }
+    },
+    {
+      "id": "w16",
+      "t": "der Stress",
+      "s": "stress",
+      "emoji": "",
+      "ex": {
+        "t": "Zu viel Stress kann krank machen.",
+        "s": "Too much stress can make you ill."
+      }
+    }
   ],
   "phrases": [
-    { "id": "p01", "t": "Ich hätte gern einen Termin bei …", "s": "I'd like an appointment with …" },
-    { "id": "p02", "t": "Mir geht es seit ein paar Tagen nicht gut.", "s": "I haven't been feeling well for a few days." },
-    { "id": "p03", "t": "An deiner Stelle würde ich …", "s": "If I were you, I would …" },
-    { "id": "p04", "t": "Es wäre besser gewesen, wenn …", "s": "It would have been better if …" },
-    { "id": "p05", "t": "Du hättest … sollen.", "s": "You should have …" },
-    { "id": "p06", "t": "Im Nachhinein ist man immer klüger.", "s": "Hindsight is always 20/20." },
-    { "id": "p07", "t": "Hätte ich das bloß früher gewusst!", "s": "If only I had known that earlier!" },
-    { "id": "p08", "t": "Gute Besserung!", "s": "Get well soon!" }
+    {
+      "id": "p01",
+      "t": "Ich hätte gern einen Termin bei …",
+      "s": "I'd like an appointment with …"
+    },
+    {
+      "id": "p02",
+      "t": "Mir geht es seit ein paar Tagen nicht gut.",
+      "s": "I haven't been feeling well for a few days."
+    },
+    {
+      "id": "p03",
+      "t": "An deiner Stelle würde ich …",
+      "s": "If I were you, I would …"
+    },
+    {
+      "id": "p04",
+      "t": "Es wäre besser gewesen, wenn …",
+      "s": "It would have been better if …"
+    },
+    {
+      "id": "p05",
+      "t": "Du hättest … sollen.",
+      "s": "You should have …"
+    },
+    {
+      "id": "p06",
+      "t": "Im Nachhinein ist man immer klüger.",
+      "s": "Hindsight is always 20/20."
+    },
+    {
+      "id": "p07",
+      "t": "Hätte ich das bloß früher gewusst!",
+      "s": "If only I had known that earlier!"
+    },
+    {
+      "id": "p08",
+      "t": "Gute Besserung!",
+      "s": "Get well soon!"
+    }
   ],
   "dialogue": {
-    "title": { "t": "Hättest du dich doch aufgewärmt!", "s": "If only you had warmed up!" },
-    "speakers": { "A": { "name": "Neda", "voice": "f" }, "B": { "name": "Reza", "voice": "m" } },
+    "title": {
+      "t": "Hättest du dich doch aufgewärmt!",
+      "s": "If only you had warmed up!"
+    },
+    "speakers": {
+      "A": {
+        "name": "Mina",
+        "voice": "f"
+      },
+      "B": {
+        "name": "Reza",
+        "voice": "m"
+      }
+    },
     "lines": [
-      { "sp": "A", "t": "Reza, was ist denn mit deinem Knie passiert?", "s": "Reza, what happened to your knee?" },
-      { "sp": "B", "t": "Ich habe mich am Samstag beim Fußballspielen verletzt. Die Ärztin sagt, es ist eine Bänderdehnung.", "s": "I hurt myself playing soccer on Saturday. The doctor says it's a sprained ligament." },
-      { "sp": "A", "t": "Oh nein! Hast du dich vorher nicht aufgewärmt?", "s": "Oh no! Didn't you warm up beforehand?" },
-      { "sp": "B", "t": "Nein, leider nicht. Wenn ich mich richtig aufgewärmt hätte, wäre das wahrscheinlich nicht passiert.", "s": "No, unfortunately not. If I had warmed up properly, it probably wouldn't have happened." },
-      { "sp": "A", "t": "Und warum bist du erst heute zum Arzt gegangen?", "s": "And why did you only go to the doctor today?" },
-      { "sp": "B", "t": "Ich dachte, die Schmerzen gehen von allein weg. Im Nachhinein wäre es besser gewesen, gleich zum Arzt zu gehen.", "s": "I thought the pain would go away on its own. In hindsight, it would have been better to see a doctor right away." },
-      { "sp": "A", "t": "Das stimmt. Hast du dich wenigstens krankgemeldet?", "s": "That's true. Did you at least call in sick?" },
-      { "sp": "B", "t": "Ja, ich bin die ganze Woche krankgeschrieben. Hätte ich bloß nicht so lange gewartet!", "s": "Yes, I'm on sick leave for the whole week. If only I hadn't waited so long!" },
-      { "sp": "A", "t": "Na ja, jetzt kannst du dich wenigstens in Ruhe erholen. Soll ich dir etwas aus der Apotheke mitbringen?", "s": "Well, at least now you can recover in peace. Shall I bring you something from the pharmacy?" },
-      { "sp": "B", "t": "Das wäre super. Hier ist das Rezept für die Salbe. Danke, Neda!", "s": "That would be great. Here's the prescription for the ointment. Thanks, Neda!" },
-      { "sp": "A", "t": "Kein Problem. Gute Besserung!", "s": "No problem. Get well soon!" }
+      {
+        "sp": "A",
+        "t": "Reza, was ist denn mit deinem Knie passiert?",
+        "s": "Reza, what happened to your knee?"
+      },
+      {
+        "sp": "B",
+        "t": "Ich habe mich am Samstag beim Fußballspielen verletzt. Die Ärztin sagt, es ist eine Bänderdehnung.",
+        "s": "I hurt myself playing soccer on Saturday. The doctor says it's a sprained ligament."
+      },
+      {
+        "sp": "A",
+        "t": "Oh nein! Hast du dich vorher nicht aufgewärmt?",
+        "s": "Oh no! Didn't you warm up beforehand?"
+      },
+      {
+        "sp": "B",
+        "t": "Nein, leider nicht. Wenn ich mich richtig aufgewärmt hätte, wäre das wahrscheinlich nicht passiert.",
+        "s": "No, unfortunately not. If I had warmed up properly, it probably wouldn't have happened."
+      },
+      {
+        "sp": "A",
+        "t": "Und warum bist du erst heute zum Arzt gegangen?",
+        "s": "And why did you only go to the doctor today?"
+      },
+      {
+        "sp": "B",
+        "t": "Ich dachte, die Schmerzen gehen von allein weg. Im Nachhinein wäre es besser gewesen, gleich zum Arzt zu gehen.",
+        "s": "I thought the pain would go away on its own. In hindsight, it would have been better to see a doctor right away."
+      },
+      {
+        "sp": "A",
+        "t": "Das stimmt. Hast du dich wenigstens krankgemeldet?",
+        "s": "That's true. Did you at least call in sick?"
+      },
+      {
+        "sp": "B",
+        "t": "Ja, ich bin die ganze Woche krankgeschrieben. Hätte ich bloß nicht so lange gewartet!",
+        "s": "Yes, I'm on sick leave for the whole week. If only I hadn't waited so long!"
+      },
+      {
+        "sp": "A",
+        "t": "Na ja, jetzt kannst du dich wenigstens in Ruhe erholen. Soll ich dir etwas aus der Apotheke mitbringen?",
+        "s": "Well, at least now you can recover in peace. Shall I bring you something from the pharmacy?"
+      },
+      {
+        "sp": "B",
+        "t": "Das wäre super. Hier ist das Rezept für die Salbe. Danke, Mina!",
+        "s": "That would be great. Here's the prescription for the ointment. Thanks, Mina!"
+      },
+      {
+        "sp": "A",
+        "t": "Kein Problem. Gute Besserung!",
+        "s": "No problem. Get well soon!"
+      }
     ]
   },
   "grammar": [
     {
       "id": "g01",
-      "title": { "t": "Ich hätte früher zum Arzt gehen sollen.", "s": "The past subjunctive (Konjunktiv II der Vergangenheit)" },
+      "title": {
+        "t": "Ich hätte früher zum Arzt gehen sollen.",
+        "s": "The past subjunctive (Konjunktiv II der Vergangenheit)"
+      },
       "explain": "The **past subjunctive** describes things that **did not happen** – unreal situations in the past. It's used for regrets, criticism and 'what if' thoughts.\nForm: **hätte** or **wäre** + **past participle**. Use **wäre** with the verbs that form the Perfekt with *sein* (gehen, kommen, fahren, passieren, werden, sein, bleiben …) and **hätte** with all others: **Ich hätte dich angerufen.** / **Wir wären früher gekommen.**\nWith a modal verb you get a **double infinitive**: **hätte + infinitive + modal infinitive**: **Du hättest zum Arzt gehen sollen.** (= you should have gone). In a subordinate clause, **hätte** comes *before* the two infinitives: **…, dass du früher hättest anrufen sollen.**\nWith **fast** or **beinahe**, the past subjunctive describes something that almost happened: **Ich wäre beinahe gestürzt.**",
       "table": [
-        ["ich", "hätte … gemacht", "wäre … gegangen"],
-        ["du", "hättest … gemacht", "wär(e)st … gegangen"],
-        ["er / sie / es", "hätte … gemacht", "wäre … gegangen"],
-        ["wir", "hätten … gemacht", "wären … gegangen"],
-        ["ihr", "hättet … gemacht", "wär(e)t … gegangen"],
-        ["sie / Sie", "hätten … gemacht", "wären … gegangen"]
+        [
+          "ich",
+          "hätte … gemacht",
+          "wäre … gegangen"
+        ],
+        [
+          "du",
+          "hättest … gemacht",
+          "wär(e)st … gegangen"
+        ],
+        [
+          "er / sie / es",
+          "hätte … gemacht",
+          "wäre … gegangen"
+        ],
+        [
+          "wir",
+          "hätten … gemacht",
+          "wären … gegangen"
+        ],
+        [
+          "ihr",
+          "hättet … gemacht",
+          "wär(e)t … gegangen"
+        ],
+        [
+          "sie / Sie",
+          "hätten … gemacht",
+          "wären … gegangen"
+        ]
       ],
       "examples": [
-        { "t": "Ohne deine Hilfe hätte ich das nicht geschafft.", "s": "I wouldn't have managed it without your help." },
-        { "t": "Mit dem Fahrrad wären wir schneller gewesen.", "s": "We would have been faster by bike." },
-        { "t": "Du hättest früher zum Arzt gehen sollen.", "s": "You should have gone to the doctor earlier." },
-        { "t": "Ich hätte gern mehr Sport gemacht, aber ich hatte keine Zeit.", "s": "I would have liked to do more exercise, but I didn't have time." },
-        { "t": "Beinahe wäre ich die Treppe hinuntergefallen.", "s": "I almost fell down the stairs." }
+        {
+          "t": "Ohne deine Hilfe hätte ich das nicht geschafft.",
+          "s": "I wouldn't have managed it without your help."
+        },
+        {
+          "t": "Mit dem Fahrrad wären wir schneller gewesen.",
+          "s": "We would have been faster by bike."
+        },
+        {
+          "t": "Du hättest früher zum Arzt gehen sollen.",
+          "s": "You should have gone to the doctor earlier."
+        },
+        {
+          "t": "Ich hätte gern mehr Sport gemacht, aber ich hatte keine Zeit.",
+          "s": "I would have liked to do more exercise, but I didn't have time."
+        },
+        {
+          "t": "Beinahe wäre ich die Treppe hinuntergefallen.",
+          "s": "I almost fell down the stairs."
+        }
       ],
       "exercises": [
-        { "type": "choice", "t": "Ich ___ dich gestern angerufen, aber mein Handy war kaputt.", "options": ["wäre", "hätte", "würde"], "answer": 1, "s": "I would have called you yesterday, but my phone was broken." },
-        { "type": "choice", "t": "Ohne die Impfung ___ sie viel schwerer krank geworden.", "options": ["wäre", "hätte", "würde"], "answer": 0, "s": "Without the vaccination, she would have become much more seriously ill." },
-        { "type": "type", "t": "Du ___ mehr Wasser trinken sollen.", "answer": ["hättest", "haettest"], "s": "You should have drunk more water." },
-        { "type": "type", "t": "Wenn er sich aufgewärmt hätte, ___ das nicht passiert.", "answer": ["wäre", "waere"], "s": "If he had warmed up, that wouldn't have happened." },
-        { "type": "choice", "t": "Wir hätten früher ___.", "options": ["losgefahren müssen", "losfahren gemusst", "losfahren müssen"], "answer": 2, "s": "We should have set off earlier." },
-        { "type": "type", "t": "Ich ___ gern länger geblieben, aber ich musste arbeiten.", "answer": ["wäre", "waere"], "s": "I would have liked to stay longer, but I had to work." },
-        { "type": "order", "t": "Ich hätte früher zum Arzt gehen sollen.", "s": "I should have gone to the doctor earlier." },
-        { "type": "order", "t": "Ohne Helm wäre das schlimmer gewesen.", "s": "Without a helmet, it would have been worse." }
+        {
+          "type": "choice",
+          "t": "Ich ___ dich gestern angerufen, aber mein Handy war kaputt.",
+          "options": [
+            "wäre",
+            "hätte",
+            "würde"
+          ],
+          "answer": 1,
+          "s": "I would have called you yesterday, but my phone was broken."
+        },
+        {
+          "type": "choice",
+          "t": "Ohne die Impfung ___ sie viel schwerer krank geworden.",
+          "options": [
+            "wäre",
+            "hätte",
+            "würde"
+          ],
+          "answer": 0,
+          "s": "Without the vaccination, she would have become much more seriously ill."
+        },
+        {
+          "type": "type",
+          "t": "Du ___ mehr Wasser trinken sollen.",
+          "answer": [
+            "hättest",
+            "haettest"
+          ],
+          "s": "You should have drunk more water."
+        },
+        {
+          "type": "type",
+          "t": "Wenn er sich aufgewärmt hätte, ___ das nicht passiert.",
+          "answer": [
+            "wäre",
+            "waere"
+          ],
+          "s": "If he had warmed up, that wouldn't have happened."
+        },
+        {
+          "type": "choice",
+          "t": "Wir hätten früher ___.",
+          "options": [
+            "losgefahren müssen",
+            "losfahren gemusst",
+            "losfahren müssen"
+          ],
+          "answer": 2,
+          "s": "We should have set off earlier."
+        },
+        {
+          "type": "type",
+          "t": "Ich ___ gern länger geblieben, aber ich musste arbeiten.",
+          "answer": [
+            "wäre",
+            "waere"
+          ],
+          "s": "I would have liked to stay longer, but I had to work."
+        },
+        {
+          "type": "order",
+          "t": "Ich hätte früher zum Arzt gehen sollen.",
+          "s": "I should have gone to the doctor earlier."
+        },
+        {
+          "type": "order",
+          "t": "Ohne Helm wäre das schlimmer gewesen.",
+          "s": "Without a helmet, it would have been worse."
+        }
       ]
     },
     {
       "id": "g02",
-      "title": { "t": "Wenn ich das gewusst hätte …", "s": "Unreal conditions and wishes" },
+      "title": {
+        "t": "Wenn ich das gewusst hätte …",
+        "s": "Unreal conditions and wishes"
+      },
       "explain": "**Unreal conditions** describe situations that are not true (present) or did not happen (past).\nPresent: **wenn + Konjunktiv II** (verb at the end); the main clause is also in Konjunktiv II, usually **würde + infinitive**: **Wenn ich mehr Zeit hätte, würde ich mehr Sport machen.** With **haben, sein**, the modal verbs and a few common verbs, the simple forms are preferred: **hätte, wäre, könnte, müsste, wüsste, käme, ginge, gäbe**.\nPast: both clauses with **hätte / wäre + participle**: **Wenn ich mehr geschlafen hätte, wäre ich nicht so müde gewesen.** You can also mix a past condition with a present result: **Wenn ich nicht so viel gegessen hätte, ginge es mir jetzt besser.**\nYou can leave out **wenn** and put the verb first: **Hätte ich das gewusst, (dann) wäre ich gekommen.**\n**Unreal wishes** use the same forms plus **doch**, **bloß** or **nur** – either with the verb first or with **wenn** and the verb at the end: **Hätte ich doch früher angefangen!** / **Wenn ich bloß nicht so müde wäre!**",
       "table": [
-        ["Gegenwart", "Wenn ich Zeit hätte, würde ich kochen."],
-        ["Vergangenheit", "Wenn ich Zeit gehabt hätte, hätte ich gekocht."],
-        ["ohne wenn", "Hätte ich Zeit gehabt, hätte ich gekocht."],
-        ["Wunsch", "Hätte ich doch Zeit gehabt!"],
-        ["Wunsch mit wenn", "Wenn ich doch nur Zeit gehabt hätte!"]
+        [
+          "Gegenwart",
+          "Wenn ich Zeit hätte, würde ich kochen."
+        ],
+        [
+          "Vergangenheit",
+          "Wenn ich Zeit gehabt hätte, hätte ich gekocht."
+        ],
+        [
+          "ohne wenn",
+          "Hätte ich Zeit gehabt, hätte ich gekocht."
+        ],
+        [
+          "Wunsch",
+          "Hätte ich doch Zeit gehabt!"
+        ],
+        [
+          "Wunsch mit wenn",
+          "Wenn ich doch nur Zeit gehabt hätte!"
+        ]
       ],
       "examples": [
-        { "t": "Wenn ich nicht so viel Stress hätte, würde ich besser schlafen.", "s": "If I didn't have so much stress, I would sleep better." },
-        { "t": "Wenn wir gesünder gegessen hätten, wären wir nicht so oft krank gewesen.", "s": "If we had eaten more healthily, we wouldn't have been ill so often." },
-        { "t": "Hätte ich das gewusst, wäre ich zu Hause geblieben.", "s": "If I had known that, I would have stayed at home." },
-        { "t": "Wenn ich doch nur mehr Zeit für Sport hätte!", "s": "If only I had more time for exercise!" },
-        { "t": "Wäre ich bloß früher ins Bett gegangen!", "s": "If only I had gone to bed earlier!" }
+        {
+          "t": "Wenn ich nicht so viel Stress hätte, würde ich besser schlafen.",
+          "s": "If I didn't have so much stress, I would sleep better."
+        },
+        {
+          "t": "Wenn wir gesünder gegessen hätten, wären wir nicht so oft krank gewesen.",
+          "s": "If we had eaten more healthily, we wouldn't have been ill so often."
+        },
+        {
+          "t": "Hätte ich das gewusst, wäre ich zu Hause geblieben.",
+          "s": "If I had known that, I would have stayed at home."
+        },
+        {
+          "t": "Wenn ich doch nur mehr Zeit für Sport hätte!",
+          "s": "If only I had more time for exercise!"
+        },
+        {
+          "t": "Wäre ich bloß früher ins Bett gegangen!",
+          "s": "If only I had gone to bed earlier!"
+        }
       ],
       "exercises": [
-        { "type": "choice", "t": "Wenn ich mehr Zeit ___, würde ich jeden Tag joggen.", "options": ["habe", "hatte", "hätte"], "answer": 2, "s": "If I had more time, I would go jogging every day." },
-        { "type": "choice", "t": "Wenn du mich gefragt hättest, ___ ich dir geholfen.", "options": ["hätte", "wäre", "würde"], "answer": 0, "s": "If you had asked me, I would have helped you." },
-        { "type": "choice", "t": "___ ich doch nur mehr Wasser getrunken!", "options": ["Wäre", "Hätte", "Würde"], "answer": 1, "s": "If only I had drunk more water!" },
-        { "type": "type", "t": "Wenn sie nicht krank gewesen ___, wäre sie mitgekommen.", "answer": ["wäre", "waere"], "s": "If she hadn't been ill, she would have come along." },
-        { "type": "type", "t": "Wenn ich das früher ___ hätte, hätte ich anders gehandelt.", "answer": ["gewusst"], "s": "If I had known that earlier, I would have acted differently." },
-        { "type": "choice", "t": "___ wir pünktlich losgefahren, hätten wir den Zug nicht verpasst.", "options": ["Hätten", "Würden", "Wären"], "answer": 2, "s": "If we had left on time, we wouldn't have missed the train." },
-        { "type": "order", "t": "Hätte ich doch mehr geschlafen!", "s": "If only I had slept more!" },
-        { "type": "order", "t": "Wenn ich Zeit hätte, würde ich kochen.", "s": "If I had time, I would cook." }
+        {
+          "type": "choice",
+          "t": "Wenn ich mehr Zeit ___, würde ich jeden Tag joggen.",
+          "options": [
+            "habe",
+            "hatte",
+            "hätte"
+          ],
+          "answer": 2,
+          "s": "If I had more time, I would go jogging every day."
+        },
+        {
+          "type": "choice",
+          "t": "Wenn du mich gefragt hättest, ___ ich dir geholfen.",
+          "options": [
+            "hätte",
+            "wäre",
+            "würde"
+          ],
+          "answer": 0,
+          "s": "If you had asked me, I would have helped you."
+        },
+        {
+          "type": "choice",
+          "t": "___ ich doch nur mehr Wasser getrunken!",
+          "options": [
+            "Wäre",
+            "Hätte",
+            "Würde"
+          ],
+          "answer": 1,
+          "s": "If only I had drunk more water!"
+        },
+        {
+          "type": "type",
+          "t": "Wenn sie nicht krank gewesen ___, wäre sie mitgekommen.",
+          "answer": [
+            "wäre",
+            "waere"
+          ],
+          "s": "If she hadn't been ill, she would have come along."
+        },
+        {
+          "type": "type",
+          "t": "Wenn ich das früher ___ hätte, hätte ich anders gehandelt.",
+          "answer": [
+            "gewusst"
+          ],
+          "s": "If I had known that earlier, I would have acted differently."
+        },
+        {
+          "type": "choice",
+          "t": "___ wir pünktlich losgefahren, hätten wir den Zug nicht verpasst.",
+          "options": [
+            "Hätten",
+            "Würden",
+            "Wären"
+          ],
+          "answer": 2,
+          "s": "If we had left on time, we wouldn't have missed the train."
+        },
+        {
+          "type": "order",
+          "t": "Hätte ich doch mehr geschlafen!",
+          "s": "If only I had slept more!"
+        },
+        {
+          "type": "order",
+          "t": "Wenn ich Zeit hätte, würde ich kochen.",
+          "s": "If I had time, I would cook."
+        }
       ]
     }
   ],
   "reading": {
-    "title": { "t": "Was ich heute anders machen würde", "s": "What I would do differently today" },
+    "title": {
+      "t": "Was ich heute anders machen würde",
+      "s": "What I would do differently today"
+    },
     "text": [
-      { "t": "Ali Karimi, 45, arbeitet als Projektleiter in einem Ingenieurbüro in Stuttgart.", "s": "Ali Karimi, 45, works as a project manager at an engineering firm in Stuttgart." },
-      { "t": "Jahrelang saß er zehn Stunden am Tag am Schreibtisch, aß mittags schnell ein Brötchen und hatte abends kaum noch Energie für Sport.", "s": "For years he sat at his desk ten hours a day, quickly ate a bread roll at lunchtime and had hardly any energy left for exercise in the evening." },
-      { "t": "Die Rückenschmerzen, die er schon lange hatte, ignorierte er einfach.", "s": "He simply ignored the back pain he'd had for a long time." },
-      { "t": "Im letzten Frühjahr konnte er eines Morgens plötzlich nicht mehr aufstehen und war danach mehrere Wochen krankgeschrieben.", "s": "Last spring, one morning he suddenly couldn't get up anymore and was then on sick leave for several weeks." },
-      { "t": "„Wenn ich früher auf meinen Körper gehört hätte, wäre es nie so weit gekommen“, sagt er heute.", "s": "'If I had listened to my body earlier, it would never have come to that,' he says today." },
-      { "t": "Seine Hausärztin verschrieb ihm Physiotherapie und riet ihm dringend, seine Gewohnheiten zu ändern.", "s": "His family doctor prescribed physical therapy and strongly advised him to change his habits." },
-      { "t": "Seitdem fährt Ali mit dem Fahrrad zur Arbeit, macht jeden Morgen zehn Minuten Gymnastik und nimmt sich Zeit für ein richtiges Mittagessen.", "s": "Since then, Ali has been cycling to work, doing ten minutes of exercises every morning and taking time for a proper lunch." },
-      { "t": "Auch bei der Ernährung achtet er jetzt auf Ausgewogenheit: mehr Gemüse, Linsen und Vollkornprodukte, weniger Zucker.", "s": "He now also pays attention to a balanced diet: more vegetables, lentils and whole grains, less sugar." },
-      { "t": "Inzwischen geht es ihm deutlich besser, und er hat sogar fünf Kilo abgenommen.", "s": "He now feels much better and has even lost five kilos." },
-      { "t": "Bereut er etwas? „Ich hätte viel früher etwas ändern sollen“, gibt er zu.", "s": "Does he regret anything? 'I should have changed something much earlier,' he admits." },
-      { "t": "Seinen Kollegen rät er: „Wartet nicht, bis der Körper die Notbremse zieht!“", "s": "His advice to his colleagues: 'Don't wait until your body pulls the emergency brake!'" },
-      { "t": "Viele Arbeitgeber haben das Problem inzwischen erkannt und bieten Gesundheitskurse oder höhenverstellbare Schreibtische an.", "s": "Many employers have now recognized the problem and offer health courses or height-adjustable desks." }
+      {
+        "t": "Ali Karimi, 45, arbeitet als Projektleiter in einem Ingenieurbüro in Stuttgart.",
+        "s": "Ali Karimi, 45, works as a project manager at an engineering firm in Stuttgart."
+      },
+      {
+        "t": "Jahrelang saß er zehn Stunden am Tag am Schreibtisch, aß mittags schnell ein Brötchen und hatte abends kaum noch Energie für Sport.",
+        "s": "For years he sat at his desk ten hours a day, quickly ate a bread roll at lunchtime and had hardly any energy left for exercise in the evening."
+      },
+      {
+        "t": "Die Rückenschmerzen, die er schon lange hatte, ignorierte er einfach.",
+        "s": "He simply ignored the back pain he'd had for a long time."
+      },
+      {
+        "t": "Im letzten Frühjahr konnte er eines Morgens plötzlich nicht mehr aufstehen und war danach mehrere Wochen krankgeschrieben.",
+        "s": "Last spring, one morning he suddenly couldn't get up anymore and was then on sick leave for several weeks."
+      },
+      {
+        "t": "„Wenn ich früher auf meinen Körper gehört hätte, wäre es nie so weit gekommen“, sagt er heute.",
+        "s": "'If I had listened to my body earlier, it would never have come to that,' he says today."
+      },
+      {
+        "t": "Seine Hausärztin verschrieb ihm Physiotherapie und riet ihm dringend, seine Gewohnheiten zu ändern.",
+        "s": "His family doctor prescribed physical therapy and strongly advised him to change his habits."
+      },
+      {
+        "t": "Seitdem fährt Ali mit dem Fahrrad zur Arbeit, macht jeden Morgen zehn Minuten Gymnastik und nimmt sich Zeit für ein richtiges Mittagessen.",
+        "s": "Since then, Ali has been cycling to work, doing ten minutes of exercises every morning and taking time for a proper lunch."
+      },
+      {
+        "t": "Auch bei der Ernährung achtet er jetzt auf Ausgewogenheit: mehr Gemüse, Linsen und Vollkornprodukte, weniger Zucker.",
+        "s": "He now also pays attention to a balanced diet: more vegetables, lentils and whole grains, less sugar."
+      },
+      {
+        "t": "Inzwischen geht es ihm deutlich besser, und er hat sogar fünf Kilo abgenommen.",
+        "s": "He now feels much better and has even lost five kilos."
+      },
+      {
+        "t": "Bereut er etwas? „Ich hätte viel früher etwas ändern sollen“, gibt er zu.",
+        "s": "Does he regret anything? 'I should have changed something much earlier,' he admits."
+      },
+      {
+        "t": "Seinen Kollegen rät er: „Wartet nicht, bis der Körper die Notbremse zieht!“",
+        "s": "His advice to his colleagues: 'Don't wait until your body pulls the emergency brake!'"
+      },
+      {
+        "t": "Viele Arbeitgeber haben das Problem inzwischen erkannt und bieten Gesundheitskurse oder höhenverstellbare Schreibtische an.",
+        "s": "Many employers have now recognized the problem and offer health courses or height-adjustable desks."
+      }
     ],
     "questions": [
-      { "q": { "t": "Welchen Beruf hat Ali?", "s": "What is Ali's job?" }, "options": ["Er ist Projektleiter.", "Er ist Physiotherapeut.", "Er ist Hausarzt."], "answer": 0 },
-      { "q": { "t": "Was hat Ali lange ignoriert?", "s": "What did Ali ignore for a long time?" }, "options": ["seine Kollegen", "seine Rückenschmerzen", "seine Hausärztin"], "answer": 1 },
-      { "q": { "t": "Was macht Ali heute anders?", "s": "What does Ali do differently today?" }, "options": ["Er fährt mit dem Auto zur Arbeit.", "Er isst mittags nur ein Brötchen.", "Er macht jeden Morgen Gymnastik."], "answer": 2 },
-      { "q": { "t": "Was bereut Ali?", "s": "What does Ali regret?" }, "options": ["dass er nicht früher etwas geändert hat", "dass er Projektleiter geworden ist", "dass er zur Physiotherapie gegangen ist"], "answer": 0 },
-      { "q": { "t": "Was bieten viele Arbeitgeber inzwischen an?", "s": "What do many employers now offer?" }, "options": ["längere Mittagspausen", "Gesundheitskurse", "kostenloses Essen"], "answer": 1 }
+      {
+        "q": {
+          "t": "Welchen Beruf hat Ali?",
+          "s": "What is Ali's job?"
+        },
+        "options": [
+          "Er ist Projektleiter.",
+          "Er ist Physiotherapeut.",
+          "Er ist Hausarzt."
+        ],
+        "answer": 0
+      },
+      {
+        "q": {
+          "t": "Was hat Ali lange ignoriert?",
+          "s": "What did Ali ignore for a long time?"
+        },
+        "options": [
+          "seine Kollegen",
+          "seine Rückenschmerzen",
+          "seine Hausärztin"
+        ],
+        "answer": 1
+      },
+      {
+        "q": {
+          "t": "Was macht Ali heute anders?",
+          "s": "What does Ali do differently today?"
+        },
+        "options": [
+          "Er fährt mit dem Auto zur Arbeit.",
+          "Er isst mittags nur ein Brötchen.",
+          "Er macht jeden Morgen Gymnastik."
+        ],
+        "answer": 2
+      },
+      {
+        "q": {
+          "t": "Was bereut Ali?",
+          "s": "What does Ali regret?"
+        },
+        "options": [
+          "dass er nicht früher etwas geändert hat",
+          "dass er Projektleiter geworden ist",
+          "dass er zur Physiotherapie gegangen ist"
+        ],
+        "answer": 0
+      },
+      {
+        "q": {
+          "t": "Was bieten viele Arbeitgeber inzwischen an?",
+          "s": "What do many employers now offer?"
+        },
+        "options": [
+          "längere Mittagspausen",
+          "Gesundheitskurse",
+          "kostenloses Essen"
+        ],
+        "answer": 1
+      }
     ]
   },
   "sentences": [
-    { "t": "Ich hätte gern einen Termin bei Frau Dr. Becker.", "s": "I'd like an appointment with Dr. Becker." },
-    { "t": "Seit drei Tagen habe ich starke Kopfschmerzen.", "s": "I've had a bad headache for three days." },
-    { "t": "Bringen Sie bitte Ihre Gesundheitskarte mit.", "s": "Please bring your health insurance card." },
-    { "t": "Sie sollten sich ein paar Tage ausruhen.", "s": "You should rest for a few days." },
-    { "t": "Wenn ich gesünder gelebt hätte, wäre ich nicht krank geworden.", "s": "If I had lived more healthily, I wouldn't have become ill." },
-    { "t": "Hätte ich doch nur auf meine Ärztin gehört!", "s": "If only I had listened to my doctor!" },
-    { "t": "Ich verzichte seit einem Monat auf Fast Food.", "s": "I haven't eaten any fast food for a month." },
-    { "t": "Zu viel Zucker schadet den Zähnen.", "s": "Too much sugar is bad for your teeth." }
+    {
+      "t": "Ich hätte gern einen Termin bei Frau Dr. Becker.",
+      "s": "I'd like an appointment with Dr. Becker."
+    },
+    {
+      "t": "Seit drei Tagen habe ich starke Kopfschmerzen.",
+      "s": "I've had a bad headache for three days."
+    },
+    {
+      "t": "Bringen Sie bitte Ihre Gesundheitskarte mit.",
+      "s": "Please bring your health insurance card."
+    },
+    {
+      "t": "Sie sollten sich ein paar Tage ausruhen.",
+      "s": "You should rest for a few days."
+    },
+    {
+      "t": "Wenn ich gesünder gelebt hätte, wäre ich nicht krank geworden.",
+      "s": "If I had lived more healthily, I wouldn't have become ill."
+    },
+    {
+      "t": "Hätte ich doch nur auf meine Ärztin gehört!",
+      "s": "If only I had listened to my doctor!"
+    },
+    {
+      "t": "Ich verzichte seit einem Monat auf Fast Food.",
+      "s": "I haven't eaten any fast food for a month."
+    },
+    {
+      "t": "Zu viel Zucker schadet den Zähnen.",
+      "s": "Too much sugar is bad for your teeth."
+    }
   ]
 }

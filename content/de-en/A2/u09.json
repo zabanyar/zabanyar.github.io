@@ -408,11 +408,11 @@
         },
         {
           "type": "type",
-          "t": "Weißt du, wann Neda nach Hause ___?",
+          "t": "Weißt du, wann Mina nach Hause ___?",
           "answer": [
             "kommt"
           ],
-          "s": "Do you know when Neda is coming home?"
+          "s": "Do you know when Mina is coming home?"
         },
         {
           "type": "order",
@@ -578,8 +578,8 @@
     },
     "text": [
       {
-        "t": "Ich heiße Neda und wohne seit fünf Jahren in Hamburg.",
-        "s": "My name is Neda, and I've been living in Hamburg for five years."
+        "t": "Ich heiße Mina und wohne seit fünf Jahren in Hamburg.",
+        "s": "My name is Mina, and I've been living in Hamburg for five years."
       },
       {
         "t": "Meine Eltern und mein Bruder Ali leben noch in Isfahan.",
@@ -621,8 +621,8 @@
     "questions": [
       {
         "q": {
-          "t": "Wo wohnen Nedas Eltern?",
-          "s": "Where do Neda's parents live?"
+          "t": "Wo wohnen Minas Eltern?",
+          "s": "Where do Mina's parents live?"
         },
         "options": [
           "in Hamburg",
@@ -633,8 +633,8 @@
       },
       {
         "q": {
-          "t": "Worauf hat Nedas Oma früher oft gewartet?",
-          "s": "What did Neda's grandma often wait for in the past?"
+          "t": "Worauf hat Minas Oma früher oft gewartet?",
+          "s": "What did Mina's grandma often wait for in the past?"
         },
         "options": [
           "auf einen Anruf",
@@ -657,8 +657,8 @@
       },
       {
         "q": {
-          "t": "Was macht Neda, wenn die Verbindung schlecht ist?",
-          "s": "What does Neda do when the connection is bad?"
+          "t": "Was macht Mina, wenn die Verbindung schlecht ist?",
+          "s": "What does Mina do when the connection is bad?"
         },
         "options": [
           "Sie schreibt eine E-Mail.",
@@ -669,8 +669,8 @@
       },
       {
         "q": {
-          "t": "Worauf freut sich Neda?",
-          "s": "What is Neda looking forward to?"
+          "t": "Worauf freut sich Mina?",
+          "s": "What is Mina looking forward to?"
         },
         "options": [
           "auf den Besuch von ihren Eltern",

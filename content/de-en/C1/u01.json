@@ -2,7 +2,10 @@
   "id": "u01",
   "level": "C1",
   "emoji": "🔬",
-  "title": { "t": "Wissenschaft und Forschung", "s": "Science and research" },
+  "title": {
+    "t": "Wissenschaft und Forschung",
+    "s": "Science and research"
+  },
   "goals": [
     "Understand and discuss research findings, methods and the state of research",
     "Turn verbal clauses into compact nominal style – and back again",
@@ -10,165 +13,705 @@
     "Follow a radio interview about the reproducibility crisis in science"
   ],
   "words": [
-    { "id": "w01", "t": "die Erkenntnis", "pl": "die Erkenntnisse", "s": "insight, finding; knowledge gained", "emoji": "💡",
-      "ex": { "t": "Die Studie liefert neue Erkenntnisse über das Schlafverhalten von Jugendlichen.", "s": "The study provides new insights into the sleep behavior of adolescents." } },
-    { "id": "w02", "t": "die Hypothese", "pl": "die Hypothesen", "s": "hypothesis", "emoji": "",
-      "ex": { "t": "Die Hypothese ließ sich empirisch nicht bestätigen.", "s": "The hypothesis could not be confirmed empirically." } },
-    { "id": "w03", "t": "der Befund", "pl": "die Befunde", "s": "finding, result (empirical or medical)", "emoji": "",
-      "ex": { "t": "Die Befunde decken sich mit früheren Untersuchungen.", "s": "The findings are consistent with earlier studies." } },
-    { "id": "w04", "t": "die Fördermittel", "s": "funding, grants (plural noun)", "emoji": "💶",
-      "ex": { "t": "Das Institut hat bei der DFG Fördermittel für drei Jahre beantragt.", "s": "The institute has applied to the German Research Foundation (DFG) for three years of funding." } },
-    { "id": "w05", "t": "das Gutachten", "pl": "die Gutachten", "s": "expert opinion; (peer) review", "emoji": "",
-      "ex": { "t": "Zwei unabhängige Gutachten empfehlen die Veröffentlichung des Artikels.", "s": "Two independent reviews recommend publishing the article." } },
-    { "id": "w06", "t": "die Stichprobe", "pl": "die Stichproben", "s": "sample (in statistics)", "emoji": "",
-      "ex": { "t": "Die Stichprobe umfasste 1.200 Erwachsene aus ganz Deutschland.", "s": "The sample comprised 1,200 adults from all over Germany." } },
-    { "id": "w07", "t": "aussagekräftig", "s": "meaningful, conclusive (of data, results)", "emoji": "",
-      "ex": { "t": "Mit nur zwanzig Teilnehmenden sind die Ergebnisse kaum aussagekräftig.", "s": "With only twenty participants, the results are hardly conclusive." } },
-    { "id": "w08", "t": "sich auseinandersetzen mit + D", "s": "to engage with, grapple with (a topic)", "emoji": "",
-      "ex": { "t": "In ihrer Dissertation setzt sie sich mit der Geschichte der Migration auseinander.", "s": "In her dissertation she engages with the history of migration." } },
-    { "id": "w09", "t": "etwas belegen", "s": "to prove, substantiate (with evidence)", "emoji": "",
-      "ex": { "t": "Bislang konnte niemand diese These eindeutig belegen.", "s": "So far nobody has been able to substantiate this thesis conclusively." } },
-    { "id": "w10", "t": "der Zusammenhang", "pl": "die Zusammenhänge", "s": "connection, correlation; context", "emoji": "",
-      "ex": { "t": "Zwischen Bildschirmzeit und Schlafqualität besteht ein statistischer Zusammenhang.", "s": "There is a statistical correlation between screen time and sleep quality." } },
-    { "id": "w11", "t": "die Veröffentlichung", "pl": "die Veröffentlichungen", "s": "publication", "emoji": "📄",
-      "ex": { "t": "Ihre jüngste Veröffentlichung ist in einer renommierten Fachzeitschrift erschienen.", "s": "Her most recent publication appeared in a renowned academic journal." } },
-    { "id": "w12", "t": "der Forschungsstand", "s": "state of research", "emoji": "",
-      "ex": { "t": "Nach aktuellem Forschungsstand ist das Risiko gering.", "s": "According to the current state of research, the risk is low." } },
-    { "id": "w13", "t": "bahnbrechend", "s": "groundbreaking, pioneering", "emoji": "",
-      "ex": { "t": "Die Entdeckung der Doppelhelix galt als bahnbrechend.", "s": "The discovery of the double helix was considered groundbreaking." } },
-    { "id": "w14", "t": "der Versuchsaufbau", "pl": "die Versuchsaufbauten", "s": "experimental setup", "emoji": "🧪",
-      "ex": { "t": "Der Versuchsaufbau muss so dokumentiert werden, dass andere ihn nachbauen können.", "s": "The experimental setup must be documented in such a way that others can replicate it." } },
-    { "id": "w15", "t": "die Reproduzierbarkeit", "s": "reproducibility", "emoji": "",
-      "ex": { "t": "Die mangelnde Reproduzierbarkeit vieler Studien beschäftigt die Psychologie seit Jahren.", "s": "The lack of reproducibility of many studies has preoccupied psychology for years." } }
+    {
+      "id": "w01",
+      "t": "die Erkenntnis",
+      "pl": "die Erkenntnisse",
+      "s": "insight, finding; knowledge gained",
+      "emoji": "💡",
+      "ex": {
+        "t": "Die Studie liefert neue Erkenntnisse über das Schlafverhalten von Jugendlichen.",
+        "s": "The study provides new insights into the sleep behavior of adolescents."
+      }
+    },
+    {
+      "id": "w02",
+      "t": "die Hypothese",
+      "pl": "die Hypothesen",
+      "s": "hypothesis",
+      "emoji": "",
+      "ex": {
+        "t": "Die Hypothese ließ sich empirisch nicht bestätigen.",
+        "s": "The hypothesis could not be confirmed empirically."
+      }
+    },
+    {
+      "id": "w03",
+      "t": "der Befund",
+      "pl": "die Befunde",
+      "s": "finding, result (empirical or medical)",
+      "emoji": "",
+      "ex": {
+        "t": "Die Befunde decken sich mit früheren Untersuchungen.",
+        "s": "The findings are consistent with earlier studies."
+      }
+    },
+    {
+      "id": "w04",
+      "t": "die Fördermittel",
+      "s": "funding, grants (plural noun)",
+      "emoji": "💶",
+      "ex": {
+        "t": "Das Institut hat bei der DFG Fördermittel für drei Jahre beantragt.",
+        "s": "The institute has applied to the German Research Foundation (DFG) for three years of funding."
+      }
+    },
+    {
+      "id": "w05",
+      "t": "das Gutachten",
+      "pl": "die Gutachten",
+      "s": "expert opinion; (peer) review",
+      "emoji": "",
+      "ex": {
+        "t": "Zwei unabhängige Gutachten empfehlen die Veröffentlichung des Artikels.",
+        "s": "Two independent reviews recommend publishing the article."
+      }
+    },
+    {
+      "id": "w06",
+      "t": "die Stichprobe",
+      "pl": "die Stichproben",
+      "s": "sample (in statistics)",
+      "emoji": "",
+      "ex": {
+        "t": "Die Stichprobe umfasste 1.200 Erwachsene aus ganz Deutschland.",
+        "s": "The sample comprised 1,200 adults from all over Germany."
+      }
+    },
+    {
+      "id": "w07",
+      "t": "aussagekräftig",
+      "s": "meaningful, conclusive (of data, results)",
+      "emoji": "",
+      "ex": {
+        "t": "Mit nur zwanzig Teilnehmenden sind die Ergebnisse kaum aussagekräftig.",
+        "s": "With only twenty participants, the results are hardly conclusive."
+      }
+    },
+    {
+      "id": "w08",
+      "t": "sich auseinandersetzen mit + D",
+      "s": "to engage with, grapple with (a topic)",
+      "emoji": "",
+      "ex": {
+        "t": "In ihrer Dissertation setzt sie sich mit der Geschichte der Migration auseinander.",
+        "s": "In her dissertation she engages with the history of migration."
+      }
+    },
+    {
+      "id": "w09",
+      "t": "etwas belegen",
+      "s": "to prove, substantiate (with evidence)",
+      "emoji": "",
+      "ex": {
+        "t": "Bislang konnte niemand diese These eindeutig belegen.",
+        "s": "So far nobody has been able to substantiate this thesis conclusively."
+      }
+    },
+    {
+      "id": "w10",
+      "t": "der Zusammenhang",
+      "pl": "die Zusammenhänge",
+      "s": "connection, correlation; context",
+      "emoji": "",
+      "ex": {
+        "t": "Zwischen Bildschirmzeit und Schlafqualität besteht ein statistischer Zusammenhang.",
+        "s": "There is a statistical correlation between screen time and sleep quality."
+      }
+    },
+    {
+      "id": "w11",
+      "t": "die Veröffentlichung",
+      "pl": "die Veröffentlichungen",
+      "s": "publication",
+      "emoji": "📄",
+      "ex": {
+        "t": "Ihre jüngste Veröffentlichung ist in einer renommierten Fachzeitschrift erschienen.",
+        "s": "Her most recent publication appeared in a renowned academic journal."
+      }
+    },
+    {
+      "id": "w12",
+      "t": "der Forschungsstand",
+      "s": "state of research",
+      "emoji": "",
+      "ex": {
+        "t": "Nach aktuellem Forschungsstand ist das Risiko gering.",
+        "s": "According to the current state of research, the risk is low."
+      }
+    },
+    {
+      "id": "w13",
+      "t": "bahnbrechend",
+      "s": "groundbreaking, pioneering",
+      "emoji": "",
+      "ex": {
+        "t": "Die Entdeckung der Doppelhelix galt als bahnbrechend.",
+        "s": "The discovery of the double helix was considered groundbreaking."
+      }
+    },
+    {
+      "id": "w14",
+      "t": "der Versuchsaufbau",
+      "pl": "die Versuchsaufbauten",
+      "s": "experimental setup",
+      "emoji": "🧪",
+      "ex": {
+        "t": "Der Versuchsaufbau muss so dokumentiert werden, dass andere ihn nachbauen können.",
+        "s": "The experimental setup must be documented in such a way that others can replicate it."
+      }
+    },
+    {
+      "id": "w15",
+      "t": "die Reproduzierbarkeit",
+      "s": "reproducibility",
+      "emoji": "",
+      "ex": {
+        "t": "Die mangelnde Reproduzierbarkeit vieler Studien beschäftigt die Psychologie seit Jahren.",
+        "s": "The lack of reproducibility of many studies has preoccupied psychology for years."
+      }
+    }
   ],
   "phrases": [
-    { "id": "p01", "t": "Die Studie kommt zu dem Ergebnis, dass …", "s": "The study concludes that …" },
-    { "id": "p02", "t": "Aus den Daten geht hervor, dass …", "s": "The data show that … / It emerges from the data that …" },
-    { "id": "p03", "t": "Dem ist entgegenzuhalten, dass …", "s": "Against this, it should be pointed out that …" },
-    { "id": "p04", "t": "Das lässt sich nicht ohne Weiteres verallgemeinern.", "s": "That cannot simply be generalized." },
-    { "id": "p05", "t": "Hier ist Vorsicht geboten.", "s": "Caution is called for here." },
-    { "id": "p06", "t": "Es bleibt abzuwarten, ob …", "s": "It remains to be seen whether …" },
-    { "id": "p07", "t": "Nach derzeitigem Kenntnisstand …", "s": "According to current knowledge …" },
-    { "id": "p08", "t": "Korrelation ist nicht gleich Kausalität.", "s": "Correlation does not equal causation." }
+    {
+      "id": "p01",
+      "t": "Die Studie kommt zu dem Ergebnis, dass …",
+      "s": "The study concludes that …"
+    },
+    {
+      "id": "p02",
+      "t": "Aus den Daten geht hervor, dass …",
+      "s": "The data show that … / It emerges from the data that …"
+    },
+    {
+      "id": "p03",
+      "t": "Dem ist entgegenzuhalten, dass …",
+      "s": "Against this, it should be pointed out that …"
+    },
+    {
+      "id": "p04",
+      "t": "Das lässt sich nicht ohne Weiteres verallgemeinern.",
+      "s": "That cannot simply be generalized."
+    },
+    {
+      "id": "p05",
+      "t": "Hier ist Vorsicht geboten.",
+      "s": "Caution is called for here."
+    },
+    {
+      "id": "p06",
+      "t": "Es bleibt abzuwarten, ob …",
+      "s": "It remains to be seen whether …"
+    },
+    {
+      "id": "p07",
+      "t": "Nach derzeitigem Kenntnisstand …",
+      "s": "According to current knowledge …"
+    },
+    {
+      "id": "p08",
+      "t": "Korrelation ist nicht gleich Kausalität.",
+      "s": "Correlation does not equal causation."
+    }
   ],
   "dialogue": {
-    "title": { "t": "Forschung aktuell: Die Replikationskrise", "s": "Research today: the replication crisis" },
-    "speakers": { "A": { "name": "Jonas Berger", "voice": "m" }, "B": { "name": "Dr. Neda Karimi", "voice": "f" } },
+    "title": {
+      "t": "Forschung aktuell: Die Replikationskrise",
+      "s": "Research today: the replication crisis"
+    },
+    "speakers": {
+      "A": {
+        "name": "Jonas Berger",
+        "voice": "m"
+      },
+      "B": {
+        "name": "Dr. Mina Karimi",
+        "voice": "f"
+      }
+    },
     "lines": [
-      { "sp": "A", "t": "Frau Dr. Karimi, Ihr Team hat kürzlich eine viel beachtete Studie zur Reproduzierbarkeit psychologischer Experimente vorgelegt. Was war der Ausgangspunkt?", "s": "Dr. Karimi, your team recently presented a much-discussed study on the reproducibility of psychological experiments. What was the starting point?" },
-      { "sp": "B", "t": "Wir wollten überprüfen, inwieweit sich bekannte Befunde unter vergleichbaren Bedingungen wiederholen lassen. Das Ergebnis war, offen gesagt, ernüchternd.", "s": "We wanted to check to what extent well-known findings can be repeated under comparable conditions. The result was, frankly, sobering." },
-      { "sp": "A", "t": "Ernüchternd heißt konkret?", "s": "Sobering meaning what, specifically?" },
-      { "sp": "B", "t": "Nur knapp die Hälfte der Effekte konnten wir bestätigen, und viele davon fielen deutlich schwächer aus als ursprünglich berichtet.", "s": "We were able to confirm just under half of the effects, and many of them turned out considerably weaker than originally reported." },
-      { "sp": "A", "t": "Woran liegt das? Wird in der Wissenschaft schlampig gearbeitet?", "s": "Why is that? Is science doing sloppy work?" },
-      { "sp": "B", "t": "Das wäre zu kurz gegriffen. Das Problem liegt eher im System: Wer Karriere machen will, steht unter enormem Publikationsdruck.", "s": "That would be too simplistic. The problem lies rather in the system: anyone who wants to build a career is under enormous pressure to publish." },
-      { "sp": "A", "t": "Und spektakuläre Ergebnisse lassen sich nun einmal leichter veröffentlichen als unspektakuläre.", "s": "And spectacular results are simply easier to publish than unspectacular ones." },
-      { "sp": "B", "t": "Genau. Negative Befunde landen häufig in der Schublade, obwohl sie für den Erkenntnisgewinn genauso wichtig sind.", "s": "Exactly. Negative findings often end up in a drawer, although they are just as important for advancing knowledge." },
-      { "sp": "A", "t": "Was müsste sich Ihrer Ansicht nach ändern?", "s": "In your view, what would have to change?" },
-      { "sp": "B", "t": "Studien sollten vorab registriert werden, und für Replikationen sollten ebenfalls Fördermittel zur Verfügung stehen. Erste Schritte in diese Richtung wurden bereits unternommen.", "s": "Studies should be preregistered, and funding should also be available for replications. First steps in this direction have already been taken." },
-      { "sp": "A", "t": "Frau Dr. Karimi, vielen Dank für das Gespräch.", "s": "Dr. Karimi, thank you very much for talking to us." }
+      {
+        "sp": "A",
+        "t": "Frau Dr. Karimi, Ihr Team hat kürzlich eine viel beachtete Studie zur Reproduzierbarkeit psychologischer Experimente vorgelegt. Was war der Ausgangspunkt?",
+        "s": "Dr. Karimi, your team recently presented a much-discussed study on the reproducibility of psychological experiments. What was the starting point?"
+      },
+      {
+        "sp": "B",
+        "t": "Wir wollten überprüfen, inwieweit sich bekannte Befunde unter vergleichbaren Bedingungen wiederholen lassen. Das Ergebnis war, offen gesagt, ernüchternd.",
+        "s": "We wanted to check to what extent well-known findings can be repeated under comparable conditions. The result was, frankly, sobering."
+      },
+      {
+        "sp": "A",
+        "t": "Ernüchternd heißt konkret?",
+        "s": "Sobering meaning what, specifically?"
+      },
+      {
+        "sp": "B",
+        "t": "Nur knapp die Hälfte der Effekte konnten wir bestätigen, und viele davon fielen deutlich schwächer aus als ursprünglich berichtet.",
+        "s": "We were able to confirm just under half of the effects, and many of them turned out considerably weaker than originally reported."
+      },
+      {
+        "sp": "A",
+        "t": "Woran liegt das? Wird in der Wissenschaft schlampig gearbeitet?",
+        "s": "Why is that? Is science doing sloppy work?"
+      },
+      {
+        "sp": "B",
+        "t": "Das wäre zu kurz gegriffen. Das Problem liegt eher im System: Wer Karriere machen will, steht unter enormem Publikationsdruck.",
+        "s": "That would be too simplistic. The problem lies rather in the system: anyone who wants to build a career is under enormous pressure to publish."
+      },
+      {
+        "sp": "A",
+        "t": "Und spektakuläre Ergebnisse lassen sich nun einmal leichter veröffentlichen als unspektakuläre.",
+        "s": "And spectacular results are simply easier to publish than unspectacular ones."
+      },
+      {
+        "sp": "B",
+        "t": "Genau. Negative Befunde landen häufig in der Schublade, obwohl sie für den Erkenntnisgewinn genauso wichtig sind.",
+        "s": "Exactly. Negative findings often end up in a drawer, although they are just as important for advancing knowledge."
+      },
+      {
+        "sp": "A",
+        "t": "Was müsste sich Ihrer Ansicht nach ändern?",
+        "s": "In your view, what would have to change?"
+      },
+      {
+        "sp": "B",
+        "t": "Studien sollten vorab registriert werden, und für Replikationen sollten ebenfalls Fördermittel zur Verfügung stehen. Erste Schritte in diese Richtung wurden bereits unternommen.",
+        "s": "Studies should be preregistered, and funding should also be available for replications. First steps in this direction have already been taken."
+      },
+      {
+        "sp": "A",
+        "t": "Frau Dr. Karimi, vielen Dank für das Gespräch.",
+        "s": "Dr. Karimi, thank you very much for talking to us."
+      }
     ]
   },
   "grammar": [
     {
       "id": "g01",
-      "title": { "t": "Nominalstil ↔ Verbalstil", "s": "Nominal style vs. verbal style" },
+      "title": {
+        "t": "Nominalstil ↔ Verbalstil",
+        "s": "Nominal style vs. verbal style"
+      },
       "explain": "Academic, administrative and press German often prefers the **nominal style**: information that would normally be a subordinate clause is packed into a noun phrase introduced by a preposition. At C1 you need to convert in both directions.\nThe key pairs: **weil/da → wegen, aufgrund + G** · **obwohl → trotz + G** · **wenn/falls/als → bei + D** · **nachdem → nach + D**, **bevor → vor + D** · **um … zu / damit → zu + D (zum/zur), für + A** · **indem → durch + A**.\nWhat happens to the parts of the clause: the verb becomes a noun (**auswerten → die Auswertung**, **erheben → die Erhebung**, **steigen → der Anstieg**); its object becomes a genitive (**die Daten auswerten → die Auswertung der Daten**); the agent becomes **durch + A** (**die Auswertung der Daten durch das Team**); adverbs become adjectives (**schnell reagieren → die schnelle Reaktion**).\nStyle: the nominal style is compact and precise, but heavy. In presentations and conversation, unpack it into verbs – your listeners will thank you.",
       "table": [
-        ["weil / da", "wegen, aufgrund + G", "aufgrund fehlender Daten"],
-        ["obwohl", "trotz + G", "trotz intensiver Forschung"],
-        ["wenn / falls", "bei + D", "bei positivem Ergebnis"],
-        ["nachdem / bevor", "nach / vor + D", "nach Abschluss der Studie"],
-        ["um … zu / damit", "zum / zur + D, für + A", "zur Überprüfung der Hypothese"],
-        ["indem", "durch + A", "durch den Vergleich der Daten"]
+        [
+          "weil / da",
+          "wegen, aufgrund + G",
+          "aufgrund fehlender Daten"
+        ],
+        [
+          "obwohl",
+          "trotz + G",
+          "trotz intensiver Forschung"
+        ],
+        [
+          "wenn / falls",
+          "bei + D",
+          "bei positivem Ergebnis"
+        ],
+        [
+          "nachdem / bevor",
+          "nach / vor + D",
+          "nach Abschluss der Studie"
+        ],
+        [
+          "um … zu / damit",
+          "zum / zur + D, für + A",
+          "zur Überprüfung der Hypothese"
+        ],
+        [
+          "indem",
+          "durch + A",
+          "durch den Vergleich der Daten"
+        ]
       ],
       "examples": [
-        { "t": "Nach Abschluss der Datenerhebung beginnt die Auswertung.", "s": "Once data collection has been completed, the analysis begins." },
-        { "t": "Aufgrund fehlender Fördermittel musste das Projekt eingestellt werden.", "s": "Because of a lack of funding, the project had to be discontinued." },
-        { "t": "Zur Überprüfung der Hypothese wurde ein zweites Experiment durchgeführt.", "s": "To test the hypothesis, a second experiment was carried out." },
-        { "t": "Trotz intensiver Bemühungen ließ sich der Effekt nicht reproduzieren.", "s": "Despite intensive efforts, the effect could not be reproduced." },
-        { "t": "Bei der Auswertung der Daten fiel ein Messfehler auf.", "s": "A measurement error came to light during the analysis of the data." }
+        {
+          "t": "Nach Abschluss der Datenerhebung beginnt die Auswertung.",
+          "s": "Once data collection has been completed, the analysis begins."
+        },
+        {
+          "t": "Aufgrund fehlender Fördermittel musste das Projekt eingestellt werden.",
+          "s": "Because of a lack of funding, the project had to be discontinued."
+        },
+        {
+          "t": "Zur Überprüfung der Hypothese wurde ein zweites Experiment durchgeführt.",
+          "s": "To test the hypothesis, a second experiment was carried out."
+        },
+        {
+          "t": "Trotz intensiver Bemühungen ließ sich der Effekt nicht reproduzieren.",
+          "s": "Despite intensive efforts, the effect could not be reproduced."
+        },
+        {
+          "t": "Bei der Auswertung der Daten fiel ein Messfehler auf.",
+          "s": "A measurement error came to light during the analysis of the data."
+        }
       ],
       "exercises": [
-        { "type": "choice", "t": "___ der gestiegenen Kosten wurde das Projekt verschoben.", "options": ["Aufgrund", "Trotz", "Während"], "answer": 0, "s": "Because costs had risen, the project was postponed." },
-        { "type": "choice", "t": "___ der eindeutigen Ergebnisse blieben einige Fachleute skeptisch.", "options": ["Wegen", "Trotz", "Nach"], "answer": 1, "s": "Although the results were clear, some experts remained skeptical." },
-        { "type": "type", "t": "___ Überprüfung der Hypothese führte das Team eine zweite Studie durch.", "answer": ["Zur", "Für die"], "s": "In order to test the hypothesis, the team conducted a second study." },
-        { "type": "choice", "t": "Bei der ___ der Daten muss man sorgfältig sein.", "options": ["Auswertung", "Auswerten", "Auswertungen"], "answer": 0, "s": "When analyzing the data, you have to be careful." },
-        { "type": "type", "t": "___ Abschluss der Studie wurden die Ergebnisse veröffentlicht.", "answer": ["Nach"], "s": "After the study had been completed, the results were published." },
-        { "type": "choice", "t": "die Auswertung der Daten ___ die Forscherinnen", "options": ["durch", "von der", "mit"], "answer": 0, "s": "the analysis of the data by the researchers (= Die Forscherinnen werten die Daten aus.)" },
-        { "type": "order", "t": "Aufgrund fehlender Daten ist die Studie kaum aussagekräftig.", "s": "Due to missing data, the study is hardly conclusive." },
-        { "type": "order", "t": "Trotz intensiver Forschung bleibt die Ursache unbekannt.", "s": "Despite intensive research, the cause remains unknown." }
+        {
+          "type": "choice",
+          "t": "___ der gestiegenen Kosten wurde das Projekt verschoben.",
+          "options": [
+            "Aufgrund",
+            "Trotz",
+            "Während"
+          ],
+          "answer": 0,
+          "s": "Because costs had risen, the project was postponed."
+        },
+        {
+          "type": "choice",
+          "t": "___ der eindeutigen Ergebnisse blieben einige Fachleute skeptisch.",
+          "options": [
+            "Wegen",
+            "Trotz",
+            "Nach"
+          ],
+          "answer": 1,
+          "s": "Although the results were clear, some experts remained skeptical."
+        },
+        {
+          "type": "type",
+          "t": "___ Überprüfung der Hypothese führte das Team eine zweite Studie durch.",
+          "answer": [
+            "Zur",
+            "Für die"
+          ],
+          "s": "In order to test the hypothesis, the team conducted a second study."
+        },
+        {
+          "type": "choice",
+          "t": "Bei der ___ der Daten muss man sorgfältig sein.",
+          "options": [
+            "Auswertung",
+            "Auswerten",
+            "Auswertungen"
+          ],
+          "answer": 0,
+          "s": "When analyzing the data, you have to be careful."
+        },
+        {
+          "type": "type",
+          "t": "___ Abschluss der Studie wurden die Ergebnisse veröffentlicht.",
+          "answer": [
+            "Nach"
+          ],
+          "s": "After the study had been completed, the results were published."
+        },
+        {
+          "type": "choice",
+          "t": "die Auswertung der Daten ___ die Forscherinnen",
+          "options": [
+            "durch",
+            "von der",
+            "mit"
+          ],
+          "answer": 0,
+          "s": "the analysis of the data by the researchers (= Die Forscherinnen werten die Daten aus.)"
+        },
+        {
+          "type": "order",
+          "t": "Aufgrund fehlender Daten ist die Studie kaum aussagekräftig.",
+          "s": "Due to missing data, the study is hardly conclusive."
+        },
+        {
+          "type": "order",
+          "t": "Trotz intensiver Forschung bleibt die Ursache unbekannt.",
+          "s": "Despite intensive research, the cause remains unknown."
+        }
       ]
     },
     {
       "id": "g02",
-      "title": { "t": "Funktionsverbgefüge", "s": "Noun–verb collocations (support verb constructions)" },
+      "title": {
+        "t": "Funktionsverbgefüge",
+        "s": "Noun–verb collocations (support verb constructions)"
+      },
       "explain": "A **Funktionsverbgefüge** is a fixed combination of a noun (often derived from a verb) and a 'light' verb such as **bringen, kommen, stehen, stellen, nehmen, treffen, üben, finden, ziehen**. The verb has largely lost its own meaning – the noun carries it. Many have a simple verb equivalent: **eine Entscheidung treffen = entscheiden**, **Kritik üben an + D = kritisieren**, **in Frage stellen = bezweifeln**.\nWhy use them? (1) **Register**: they sound more formal and are typical of academic, administrative and press language. (2) **Nuance**: they can express a state (**zur Verfügung stehen** = be available), a causation (**zur Verfügung stellen** = make available), a beginning (**in Gang kommen**, **in Bewegung geraten**) or a passive meaning (**Anwendung finden** = angewendet werden, **auf Kritik stoßen**).\nThe combinations are **fixed**: you cannot swap the verb (*eine Entscheidung machen* is wrong) or freely add an article (**in Frage stellen**, not *in die Frage*). Both spellings **in Frage stellen** and **infrage stellen** are correct. Negation: prepositional types usually take **nicht** (**Das kommt nicht in Frage.**), types with a bare accusative noun often take **kein** (**keine Rücksicht nehmen**).",
       "table": [
-        ["eine Entscheidung treffen", "entscheiden"],
-        ["Kritik üben an + D", "kritisieren"],
-        ["in Frage stellen", "bezweifeln"],
-        ["zur Verfügung stehen / stellen", "verfügbar sein / bereitstellen"],
-        ["Anwendung finden", "angewendet werden"],
-        ["zum Ausdruck bringen", "ausdrücken"],
-        ["in Betracht ziehen", "erwägen"],
-        ["Einfluss nehmen auf + A", "beeinflussen"]
+        [
+          "eine Entscheidung treffen",
+          "entscheiden"
+        ],
+        [
+          "Kritik üben an + D",
+          "kritisieren"
+        ],
+        [
+          "in Frage stellen",
+          "bezweifeln"
+        ],
+        [
+          "zur Verfügung stehen / stellen",
+          "verfügbar sein / bereitstellen"
+        ],
+        [
+          "Anwendung finden",
+          "angewendet werden"
+        ],
+        [
+          "zum Ausdruck bringen",
+          "ausdrücken"
+        ],
+        [
+          "in Betracht ziehen",
+          "erwägen"
+        ],
+        [
+          "Einfluss nehmen auf + A",
+          "beeinflussen"
+        ]
       ],
       "examples": [
-        { "t": "Die neuen Ergebnisse stellen die bisherige Lehrmeinung grundlegend in Frage.", "s": "The new results fundamentally call the established view into question." },
-        { "t": "Mehrere Fachgesellschaften haben scharfe Kritik an der Methodik geübt.", "s": "Several professional societies have sharply criticized the methodology." },
-        { "t": "Dem Team stehen für drei Jahre umfangreiche Mittel zur Verfügung.", "s": "The team has substantial funds at its disposal for three years." },
-        { "t": "Das Verfahren findet inzwischen auch in der Medizin Anwendung.", "s": "The method is now also used in medicine." },
-        { "t": "Die Kommission wird erst im Herbst eine Entscheidung treffen.", "s": "The commission will not make a decision until the fall." }
+        {
+          "t": "Die neuen Ergebnisse stellen die bisherige Lehrmeinung grundlegend in Frage.",
+          "s": "The new results fundamentally call the established view into question."
+        },
+        {
+          "t": "Mehrere Fachgesellschaften haben scharfe Kritik an der Methodik geübt.",
+          "s": "Several professional societies have sharply criticized the methodology."
+        },
+        {
+          "t": "Dem Team stehen für drei Jahre umfangreiche Mittel zur Verfügung.",
+          "s": "The team has substantial funds at its disposal for three years."
+        },
+        {
+          "t": "Das Verfahren findet inzwischen auch in der Medizin Anwendung.",
+          "s": "The method is now also used in medicine."
+        },
+        {
+          "t": "Die Kommission wird erst im Herbst eine Entscheidung treffen.",
+          "s": "The commission will not make a decision until the fall."
+        }
       ],
       "exercises": [
-        { "type": "choice", "t": "Die Kommission wird im Herbst eine Entscheidung ___.", "options": ["machen", "treffen", "stellen"], "answer": 1, "s": "The commission will make a decision in the fall." },
-        { "type": "choice", "t": "Die Universität ___ den Forschenden ein modernes Labor zur Verfügung.", "options": ["steht", "stellt", "bringt"], "answer": 1, "s": "The university provides the researchers with a modern laboratory." },
-        { "type": "type", "t": "Viele Fachleute ___ Kritik an der neuen Studie.", "answer": ["üben", "äußern"], "s": "Many experts criticize the new study." },
-        { "type": "choice", "t": "Die Befunde ___ die bisherige Theorie in Frage.", "options": ["stellen", "setzen", "legen"], "answer": 0, "s": "The findings call the previous theory into question." },
-        { "type": "type", "t": "Diese Methode findet heute in vielen Laboren ___.", "answer": ["Anwendung", "Verwendung"], "s": "This method is used in many laboratories today." },
-        { "type": "choice", "t": "Eine Verschiebung des Projekts kommt für uns nicht in ___.", "options": ["Frage", "Sprache", "Kraft"], "answer": 0, "s": "Postponing the project is out of the question for us." },
-        { "type": "order", "t": "Neue Befunde stellen diese Theorie in Frage.", "s": "New findings call this theory into question." },
-        { "type": "order", "t": "Der Minister brachte seine Besorgnis zum Ausdruck.", "s": "The minister expressed his concern." }
+        {
+          "type": "choice",
+          "t": "Die Kommission wird im Herbst eine Entscheidung ___.",
+          "options": [
+            "machen",
+            "treffen",
+            "stellen"
+          ],
+          "answer": 1,
+          "s": "The commission will make a decision in the fall."
+        },
+        {
+          "type": "choice",
+          "t": "Die Universität ___ den Forschenden ein modernes Labor zur Verfügung.",
+          "options": [
+            "steht",
+            "stellt",
+            "bringt"
+          ],
+          "answer": 1,
+          "s": "The university provides the researchers with a modern laboratory."
+        },
+        {
+          "type": "type",
+          "t": "Viele Fachleute ___ Kritik an der neuen Studie.",
+          "answer": [
+            "üben",
+            "äußern"
+          ],
+          "s": "Many experts criticize the new study."
+        },
+        {
+          "type": "choice",
+          "t": "Die Befunde ___ die bisherige Theorie in Frage.",
+          "options": [
+            "stellen",
+            "setzen",
+            "legen"
+          ],
+          "answer": 0,
+          "s": "The findings call the previous theory into question."
+        },
+        {
+          "type": "type",
+          "t": "Diese Methode findet heute in vielen Laboren ___.",
+          "answer": [
+            "Anwendung",
+            "Verwendung"
+          ],
+          "s": "This method is used in many laboratories today."
+        },
+        {
+          "type": "choice",
+          "t": "Eine Verschiebung des Projekts kommt für uns nicht in ___.",
+          "options": [
+            "Frage",
+            "Sprache",
+            "Kraft"
+          ],
+          "answer": 0,
+          "s": "Postponing the project is out of the question for us."
+        },
+        {
+          "type": "order",
+          "t": "Neue Befunde stellen diese Theorie in Frage.",
+          "s": "New findings call this theory into question."
+        },
+        {
+          "type": "order",
+          "t": "Der Minister brachte seine Besorgnis zum Ausdruck.",
+          "s": "The minister expressed his concern."
+        }
       ]
     }
   ],
   "reading": {
-    "title": { "t": "Unter Druck: Warum die Wissenschaft ihre Spielregeln überdenkt", "s": "Under pressure: why science is rethinking its rules" },
+    "title": {
+      "t": "Unter Druck: Warum die Wissenschaft ihre Spielregeln überdenkt",
+      "s": "Under pressure: why science is rethinking its rules"
+    },
     "text": [
-      { "t": "„Publish or perish“ – veröffentliche oder geh unter: Kaum eine Formel beschreibt den Alltag an deutschen Hochschulen so treffend.", "s": "'Publish or perish': hardly any formula describes everyday life at German universities so aptly." },
-      { "t": "Wer im Wissenschaftsbetrieb Fuß fassen will, muss in möglichst kurzer Zeit möglichst viele Artikel in renommierten Fachzeitschriften unterbringen.", "s": "Anyone who wants to gain a foothold in academia has to place as many articles as possible in renowned journals in as short a time as possible." },
-      { "t": "Diese Logik hat Folgen, die inzwischen auch in der Fachwelt offen diskutiert werden.", "s": "This logic has consequences that are now openly discussed within the scientific community, too." },
-      { "t": "So zeigen Replikationsstudien, dass sich zahlreiche vielzitierte Befunde nicht reproduzieren lassen.", "s": "Replication studies show, for example, that numerous frequently cited findings cannot be reproduced." },
-      { "t": "Als Ursachen gelten unter anderem zu kleine Stichproben, eine selektive Berichterstattung und die Neigung vieler Zeitschriften, vor allem spektakuläre Ergebnisse zu drucken.", "s": "Causes are thought to include samples that are too small, selective reporting and the tendency of many journals to print mainly spectacular results." },
-      { "t": "Hinzu kommt die prekäre Lage des wissenschaftlichen Nachwuchses: Ein Großteil der promovierten Beschäftigten an Hochschulen arbeitet mit befristeten Verträgen, oft über viele Jahre hinweg.", "s": "Added to this is the precarious situation of early-career researchers: a large proportion of postdoctoral staff at universities work on fixed-term contracts, often for many years." },
-      { "t": "Die Open-Science-Bewegung will hier gegensteuern.", "s": "The open science movement wants to counteract this." },
-      { "t": "Ihre Anhängerinnen und Anhänger fordern, Studien vorab zu registrieren, Rohdaten frei zugänglich zu machen und auch negative Ergebnisse zu publizieren.", "s": "Its supporters call for studies to be preregistered, for raw data to be made freely accessible and for negative results to be published as well." },
-      { "t": "Erste Förderorganisationen haben bereits reagiert und stellen gezielt Mittel für Replikationen zur Verfügung.", "s": "Some funding organizations have already responded and are providing targeted funds for replications." },
-      { "t": "Kritiker wenden jedoch ein, dass mehr Transparenz auch mehr Bürokratie bedeute und die Kreativität der Forschung einschränken könne.", "s": "Critics object, however, that more transparency also means more bureaucracy and could restrict the creativity of research." },
-      { "t": "Ob sich die Kultur des Wissenschaftsbetriebs tatsächlich wandelt, bleibt abzuwarten.", "s": "Whether the culture of academia will actually change remains to be seen." },
-      { "t": "Eines steht allerdings fest: Ohne verlässliche Befunde verliert die Wissenschaft ihr wichtigstes Kapital – das Vertrauen der Öffentlichkeit.", "s": "One thing is certain, though: without reliable findings, science loses its most valuable asset – the trust of the public." }
+      {
+        "t": "„Publish or perish“ – veröffentliche oder geh unter: Kaum eine Formel beschreibt den Alltag an deutschen Hochschulen so treffend.",
+        "s": "'Publish or perish': hardly any formula describes everyday life at German universities so aptly."
+      },
+      {
+        "t": "Wer im Wissenschaftsbetrieb Fuß fassen will, muss in möglichst kurzer Zeit möglichst viele Artikel in renommierten Fachzeitschriften unterbringen.",
+        "s": "Anyone who wants to gain a foothold in academia has to place as many articles as possible in renowned journals in as short a time as possible."
+      },
+      {
+        "t": "Diese Logik hat Folgen, die inzwischen auch in der Fachwelt offen diskutiert werden.",
+        "s": "This logic has consequences that are now openly discussed within the scientific community, too."
+      },
+      {
+        "t": "So zeigen Replikationsstudien, dass sich zahlreiche vielzitierte Befunde nicht reproduzieren lassen.",
+        "s": "Replication studies show, for example, that numerous frequently cited findings cannot be reproduced."
+      },
+      {
+        "t": "Als Ursachen gelten unter anderem zu kleine Stichproben, eine selektive Berichterstattung und die Neigung vieler Zeitschriften, vor allem spektakuläre Ergebnisse zu drucken.",
+        "s": "Causes are thought to include samples that are too small, selective reporting and the tendency of many journals to print mainly spectacular results."
+      },
+      {
+        "t": "Hinzu kommt die prekäre Lage des wissenschaftlichen Nachwuchses: Ein Großteil der promovierten Beschäftigten an Hochschulen arbeitet mit befristeten Verträgen, oft über viele Jahre hinweg.",
+        "s": "Added to this is the precarious situation of early-career researchers: a large proportion of postdoctoral staff at universities work on fixed-term contracts, often for many years."
+      },
+      {
+        "t": "Die Open-Science-Bewegung will hier gegensteuern.",
+        "s": "The open science movement wants to counteract this."
+      },
+      {
+        "t": "Ihre Anhängerinnen und Anhänger fordern, Studien vorab zu registrieren, Rohdaten frei zugänglich zu machen und auch negative Ergebnisse zu publizieren.",
+        "s": "Its supporters call for studies to be preregistered, for raw data to be made freely accessible and for negative results to be published as well."
+      },
+      {
+        "t": "Erste Förderorganisationen haben bereits reagiert und stellen gezielt Mittel für Replikationen zur Verfügung.",
+        "s": "Some funding organizations have already responded and are providing targeted funds for replications."
+      },
+      {
+        "t": "Kritiker wenden jedoch ein, dass mehr Transparenz auch mehr Bürokratie bedeute und die Kreativität der Forschung einschränken könne.",
+        "s": "Critics object, however, that more transparency also means more bureaucracy and could restrict the creativity of research."
+      },
+      {
+        "t": "Ob sich die Kultur des Wissenschaftsbetriebs tatsächlich wandelt, bleibt abzuwarten.",
+        "s": "Whether the culture of academia will actually change remains to be seen."
+      },
+      {
+        "t": "Eines steht allerdings fest: Ohne verlässliche Befunde verliert die Wissenschaft ihr wichtigstes Kapital – das Vertrauen der Öffentlichkeit.",
+        "s": "One thing is certain, though: without reliable findings, science loses its most valuable asset – the trust of the public."
+      }
     ],
     "questions": [
-      { "q": { "t": "Was ist laut Text eine Ursache für nicht reproduzierbare Befunde?", "s": "According to the text, what is one cause of findings that cannot be reproduced?" },
-        "options": ["zu kleine Stichproben", "zu viele Replikationsstudien", "fehlende Fachzeitschriften"], "answer": 0 },
-      { "q": { "t": "Wie ist die Situation vieler Promovierter?", "s": "What is the situation of many people with doctorates?" },
-        "options": ["Sie haben meist unbefristete Stellen.", "Sie arbeiten oft jahrelang mit befristeten Verträgen.", "Sie verlassen sofort die Wissenschaft."], "answer": 1 },
-      { "q": { "t": "Was fordert die Open-Science-Bewegung unter anderem?", "s": "What does the open science movement call for, among other things?" },
-        "options": ["die Abschaffung von Gutachten", "freien Zugang zu Rohdaten", "weniger Veröffentlichungen"], "answer": 1 },
-      { "q": { "t": "Was befürchten die Kritiker?", "s": "What do the critics fear?" },
-        "options": ["mehr Bürokratie", "weniger Fördermittel", "mehr spektakuläre Ergebnisse"], "answer": 0 },
-      { "q": { "t": "Was ist laut Autor das wichtigste Kapital der Wissenschaft?", "s": "According to the author, what is science's most valuable asset?" },
-        "options": ["die Zahl der Publikationen", "die Fördermittel", "das Vertrauen der Öffentlichkeit"], "answer": 2 }
+      {
+        "q": {
+          "t": "Was ist laut Text eine Ursache für nicht reproduzierbare Befunde?",
+          "s": "According to the text, what is one cause of findings that cannot be reproduced?"
+        },
+        "options": [
+          "zu kleine Stichproben",
+          "zu viele Replikationsstudien",
+          "fehlende Fachzeitschriften"
+        ],
+        "answer": 0
+      },
+      {
+        "q": {
+          "t": "Wie ist die Situation vieler Promovierter?",
+          "s": "What is the situation of many people with doctorates?"
+        },
+        "options": [
+          "Sie haben meist unbefristete Stellen.",
+          "Sie arbeiten oft jahrelang mit befristeten Verträgen.",
+          "Sie verlassen sofort die Wissenschaft."
+        ],
+        "answer": 1
+      },
+      {
+        "q": {
+          "t": "Was fordert die Open-Science-Bewegung unter anderem?",
+          "s": "What does the open science movement call for, among other things?"
+        },
+        "options": [
+          "die Abschaffung von Gutachten",
+          "freien Zugang zu Rohdaten",
+          "weniger Veröffentlichungen"
+        ],
+        "answer": 1
+      },
+      {
+        "q": {
+          "t": "Was befürchten die Kritiker?",
+          "s": "What do the critics fear?"
+        },
+        "options": [
+          "mehr Bürokratie",
+          "weniger Fördermittel",
+          "mehr spektakuläre Ergebnisse"
+        ],
+        "answer": 0
+      },
+      {
+        "q": {
+          "t": "Was ist laut Autor das wichtigste Kapital der Wissenschaft?",
+          "s": "According to the author, what is science's most valuable asset?"
+        },
+        "options": [
+          "die Zahl der Publikationen",
+          "die Fördermittel",
+          "das Vertrauen der Öffentlichkeit"
+        ],
+        "answer": 2
+      }
     ]
   },
   "sentences": [
-    { "t": "Die Studie wirft mehr Fragen auf, als sie beantwortet.", "s": "The study raises more questions than it answers." },
-    { "t": "Nach derzeitigem Forschungsstand ist ein Zusammenhang nicht belegt.", "s": "According to the current state of research, a connection has not been proven." },
-    { "t": "Die Ergebnisse sollten mit Vorsicht interpretiert werden.", "s": "The results should be interpreted with caution." },
-    { "t": "Das Projekt wird von der Europäischen Union gefördert.", "s": "The project is funded by the European Union." },
-    { "t": "Ihre Dissertation hat in der Fachwelt großes Aufsehen erregt.", "s": "Her dissertation caused a great stir among experts." },
-    { "t": "Wir müssen unsere Methodik noch einmal kritisch hinterfragen.", "s": "We need to critically scrutinize our methodology once more." },
-    { "t": "Die Daten werden derzeit noch ausgewertet.", "s": "The data are still being analyzed." },
-    { "t": "Der Antrag muss bis Ende März eingereicht werden.", "s": "The application must be submitted by the end of March." }
+    {
+      "t": "Die Studie wirft mehr Fragen auf, als sie beantwortet.",
+      "s": "The study raises more questions than it answers."
+    },
+    {
+      "t": "Nach derzeitigem Forschungsstand ist ein Zusammenhang nicht belegt.",
+      "s": "According to the current state of research, a connection has not been proven."
+    },
+    {
+      "t": "Die Ergebnisse sollten mit Vorsicht interpretiert werden.",
+      "s": "The results should be interpreted with caution."
+    },
+    {
+      "t": "Das Projekt wird von der Europäischen Union gefördert.",
+      "s": "The project is funded by the European Union."
+    },
+    {
+      "t": "Ihre Dissertation hat in der Fachwelt großes Aufsehen erregt.",
+      "s": "Her dissertation caused a great stir among experts."
+    },
+    {
+      "t": "Wir müssen unsere Methodik noch einmal kritisch hinterfragen.",
+      "s": "We need to critically scrutinize our methodology once more."
+    },
+    {
+      "t": "Die Daten werden derzeit noch ausgewertet.",
+      "s": "The data are still being analyzed."
+    },
+    {
+      "t": "Der Antrag muss bis Ende März eingereicht werden.",
+      "s": "The application must be submitted by the end of March."
+    }
   ]
 }

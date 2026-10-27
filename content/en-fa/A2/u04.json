@@ -174,8 +174,8 @@
       "pr": "پارت‌تایم",
       "emoji": "",
       "ex": {
-        "t": "Neda has a part-time job at a bookstore.",
-        "s": "ندا در یک کتاب‌فروشی کار پاره‌وقت دارد."
+        "t": "Mina has a part-time job at a bookstore.",
+        "s": "مینا در یک کتاب‌فروشی کار پاره‌وقت دارد."
       }
     },
     {
@@ -401,11 +401,11 @@
         },
         {
           "type": "type",
-          "t": "Neda ___ English at a school. She's a teacher.",
+          "t": "Mina ___ English at a school. She's a teacher.",
           "answer": [
             "teaches"
           ],
-          "s": "ندا در یک مدرسه انگلیسی درس می‌دهد. او معلم است."
+          "s": "مینا در یک مدرسه انگلیسی درس می‌دهد. او معلم است."
         },
         {
           "type": "type",
@@ -551,13 +551,13 @@
   ],
   "reading": {
     "title": {
-      "t": "Neda's new job",
-      "s": "کار جدید ندا"
+      "t": "Mina's new job",
+      "s": "کار جدید مینا"
     },
     "text": [
       {
-        "t": "Neda is a dentist from Shiraz.",
-        "s": "ندا دندان‌پزشکی اهل شیراز است."
+        "t": "Mina is a dentist from Shiraz.",
+        "s": "مینا دندان‌پزشکی اهل شیراز است."
       },
       {
         "t": "For five years, she worked at a small clinic near her home.",
@@ -596,15 +596,15 @@
         "s": "پنجشنبه‌ها و جمعه‌ها لازم نیست کار کند."
       },
       {
-        "t": "Neda is a little nervous, but she is very happy.",
-        "s": "ندا کمی نگران است، اما خیلی خوشحال است."
+        "t": "Mina is a little nervous, but she is very happy.",
+        "s": "مینا کمی نگران است، اما خیلی خوشحال است."
       }
     ],
     "questions": [
       {
         "q": {
-          "t": "What is Neda's job?",
-          "s": "شغل ندا چیست؟"
+          "t": "What is Mina's job?",
+          "s": "شغل مینا چیست؟"
         },
         "options": [
           "She's a nurse.",
@@ -615,8 +615,8 @@
       },
       {
         "q": {
-          "t": "When is Neda moving to Tehran?",
-          "s": "ندا کی به تهران اسباب‌کشی می‌کند؟"
+          "t": "When is Mina moving to Tehran?",
+          "s": "مینا کی به تهران اسباب‌کشی می‌کند؟"
         },
         "options": [
           "on Thursday",
@@ -639,8 +639,8 @@
       },
       {
         "q": {
-          "t": "Which days does Neda work in her new job?",
-          "s": "ندا در کار جدیدش چه روزهایی کار می‌کند؟"
+          "t": "Which days does Mina work in her new job?",
+          "s": "مینا در کار جدیدش چه روزهایی کار می‌کند؟"
         },
         "options": [
           "from Saturday to Wednesday",

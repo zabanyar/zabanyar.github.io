@@ -86,8 +86,8 @@
       "pr": "سْکول",
       "emoji": "🏫",
       "ex": {
-        "t": "Neda goes to school.",
-        "s": "ندا به مدرسه می‌رود."
+        "t": "Mina goes to school.",
+        "s": "مینا به مدرسه می‌رود."
       }
     },
     {
@@ -393,12 +393,12 @@
         },
         {
           "type": "type",
-          "t": "Neda ___ lunch at one o'clock.",
+          "t": "Mina ___ lunch at one o'clock.",
           "answer": [
             "has",
             "eats"
           ],
-          "s": "ندا ساعت یک ناهار می‌خورد."
+          "s": "مینا ساعت یک ناهار می‌خورد."
         }
       ]
     },

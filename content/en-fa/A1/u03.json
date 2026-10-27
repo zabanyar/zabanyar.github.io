@@ -268,13 +268,13 @@
       },
       {
         "sp": "B",
-        "t": "Yes, I have one sister. Her name is Neda. She's fifteen.",
-        "s": "بله، یک خواهر دارم. اسمش ندا است. پانزده سالش است."
+        "t": "Yes, I have one sister. Her name is Mina. She's fifteen.",
+        "s": "بله، یک خواهر دارم. اسمش مینا است. پانزده سالش است."
       },
       {
         "sp": "A",
-        "t": "Is this Neda's cat?",
-        "s": "این گربهٔ ندا است؟"
+        "t": "Is this Mina's cat?",
+        "s": "این گربهٔ مینا است؟"
       },
       {
         "sp": "B",
@@ -516,12 +516,12 @@
           "type": "choice",
           "t": "This is ___ cat.",
           "options": [
-            "Neda",
-            "Neda's",
-            "Nedas"
+            "Mina",
+            "Mina's",
+            "Minas"
           ],
           "answer": 1,
-          "s": "این گربهٔ ندا است."
+          "s": "این گربهٔ مینا است."
         },
         {
           "type": "type",
@@ -576,8 +576,8 @@
         "s": "من یک خواهر و یک برادر دارم."
       },
       {
-        "t": "My sister, Neda, is fifteen.",
-        "s": "خواهرم، ندا، پانزده سالش است."
+        "t": "My sister, Mina, is fifteen.",
+        "s": "خواهرم، مینا، پانزده سالش است."
       },
       {
         "t": "My brother is a baby. He is one year old.",
@@ -615,8 +615,8 @@
       },
       {
         "q": {
-          "t": "How old is Neda?",
-          "s": "ندا چند سالش است؟"
+          "t": "How old is Mina?",
+          "s": "مینا چند سالش است؟"
         },
         "options": [
           "five",

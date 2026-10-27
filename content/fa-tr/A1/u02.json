@@ -242,7 +242,7 @@
     },
     "speakers": {
       "A": {
-        "name": "Neda",
+        "name": "Mina",
         "voice": "f"
       },
       "B": {
@@ -259,9 +259,9 @@
       },
       {
         "sp": "B",
-        "t": "سلام ندا! بیست سال دارم. تو چند سال داری؟",
-        "pr": "Salâm Nedâ! Bist sâl dâram. To çand sâl dâri?",
-        "s": "Merhaba Neda! Yirmi yaşındayım. Sen kaç yaşındasın?"
+        "t": "سلام مینا! بیست سال دارم. تو چند سال داری؟",
+        "pr": "Salâm Minâ! Bist sâl dâram. To çand sâl dâri?",
+        "s": "Merhaba Mina! Yirmi yaşındayım. Sen kaç yaşındasın?"
       },
       {
         "sp": "A",
@@ -295,9 +295,9 @@
       },
       {
         "sp": "B",
-        "t": "درست است. ممنون، ندا!",
-        "pr": "Dorost ast. Mamnun, Nedâ!",
-        "s": "Tamam, doğru. Teşekkürler, Neda!"
+        "t": "درست است. ممنون، مینا!",
+        "pr": "Dorost ast. Mamnun, Minâ!",
+        "s": "Tamam, doğru. Teşekkürler, Mina!"
       },
       {
         "sp": "A",
@@ -633,9 +633,9 @@
         "s": "Emre on dokuz yaşında."
       },
       {
-        "t": "ندا ایرانی است. او بیست سال دارد.",
-        "pr": "Nedâ İrâni ast. U bist sâl dârad.",
-        "s": "Neda İranlı. O yirmi yaşında."
+        "t": "مینا ایرانی است. او بیست سال دارد.",
+        "pr": "Minâ İrâni ast. U bist sâl dârad.",
+        "s": "Mina İranlı. O yirmi yaşında."
       },
       {
         "t": "کتاب‌ها خوب هستند.",
@@ -691,7 +691,7 @@
         },
         "options": [
           "امره",
-          "ندا",
+          "مینا",
           "الیف"
         ],
         "answer": 1

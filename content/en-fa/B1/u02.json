@@ -541,11 +541,11 @@
         },
         {
           "type": "type",
-          "t": "Neda didn't ___ to like coffee, but now she loves it.",
+          "t": "Mina didn't ___ to like coffee, but now she loves it.",
           "answer": [
             "use"
           ],
-          "s": "ندا قبلاً قهوه دوست نداشت، ولی حالا عاشقش است."
+          "s": "مینا قبلاً قهوه دوست نداشت، ولی حالا عاشقش است."
         }
       ]
     }

@@ -519,13 +519,13 @@
   ],
   "reading": {
     "title": {
-      "t": "Breakfast with Neda",
-      "s": "صبحانه با ندا"
+      "t": "Breakfast with Mina",
+      "s": "صبحانه با مینا"
     },
     "text": [
       {
-        "t": "My name is Neda, and I'm from Iran.",
-        "s": "اسم من ندا است و اهل ایران هستم."
+        "t": "My name is Mina, and I'm from Iran.",
+        "s": "اسم من مینا است و اهل ایران هستم."
       },
       {
         "t": "I like breakfast!",
@@ -571,16 +571,16 @@
           "s": "چه کسی یک سیب می‌خورد؟"
         },
         "options": [
-          "Neda's mother",
-          "Neda's brother",
-          "Neda's sister"
+          "Mina's mother",
+          "Mina's brother",
+          "Mina's sister"
         ],
         "answer": 0
       },
       {
         "q": {
-          "t": "Do Neda and Amir like eggs?",
-          "s": "آیا ندا و امیر تخم‌مرغ دوست دارند؟"
+          "t": "Do Mina and Amir like eggs?",
+          "s": "آیا مینا و امیر تخم‌مرغ دوست دارند؟"
         },
         "options": [
           "Yes, they do.",

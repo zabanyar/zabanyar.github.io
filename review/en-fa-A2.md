@@ -25,7 +25,7 @@ I checked every item in all 10 units: words (t, pl, s, pr, emoji, ex), phrases, 
 - **u05 grammar[0].exercises[7] (order)**: "The red car is cheaper than the blue one." Swapping red and blue gives another valid sentence from the same tiles. The Persian prompt shows which one is meant, so I left it.
 - **u10 words[9].ex and grammar[1].exercises[4]**: "at New Year" is British. American English says "at New Year's" or "for New Year's". In the Nowruz context it's understandable, so I didn't change it.
 - **Repeated words across units**: price, cheap and expensive appear in both u05 and u07. quiet and noisy appear in both u05 and u09. relative appears in both u01 and u10. Fixing this would mean restructuring units, which the brief doesn't allow.
-- **u03 dialogue speaker "Dr. Neda"**: using "Dr." with a first name is unusual in English, but it's fine in this family context.
+- **u03 dialogue speaker "Dr. Mina"**: using "Dr." with a first name is unusual in English, but it's fine in this family context.
 
 ## TTS-risky target texts (item 6, not changed)
 
@@ -50,7 +50,7 @@ I checked every item in all 10 units: words (t, pl, s, pr, emoji, ex), phrases, 
 - **Abbreviations and ordinals**:
   - "vs." in u04 g01 title; "vs" in u10 g02 title
   - "June 12th" and "May 20th" in u10 reading[2] and [8], and in Q3's options
-  - "Dr. Neda" as a speaker name in u03
+  - "Dr. Mina" as a speaker name in u03
 - **Digits**: u05 g01 X3 "38 degrees", u05 g02 X2 "gets 20".
 - **Interjections**: "Hmm" (u03 dialogue line 4, u05 line 3, u07 line 5), "Ha!" (u05 line 8). "OK" appears in many lines, which is probably fine.
 - **Hyphenated words**: "Wi-Fi" (u08 several), "part-time" and "old-fashioned" (normally read correctly).

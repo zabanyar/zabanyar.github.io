@@ -544,8 +544,8 @@
         "s": "I drink tea, and my husband Ali drinks coffee."
       },
       {
-        "t": "Neda mag Milch.",
-        "s": "Neda likes milk."
+        "t": "Mina mag Milch.",
+        "s": "Mina likes milk."
       },
       {
         "t": "Amir mag keine Milch. Er möchte Saft.",
@@ -591,7 +591,7 @@
           "s": "Who doesn't like milk?"
         },
         "options": [
-          "Neda",
+          "Mina",
           "Amir",
           "Ali"
         ],

@@ -633,9 +633,9 @@
     },
     "text": [
       {
-        "t": "Merhaba, ben Neda.",
-        "s": "سلام، من ندا هستم.",
-        "pr": "مِرحابا، بِن ندا."
+        "t": "Merhaba, ben Mina.",
+        "s": "سلام، من مینا هستم.",
+        "pr": "مِرحابا، بِن مینا."
       },
       {
         "t": "Geçen ay yeni bir mahalleye taşındık.",
@@ -686,8 +686,8 @@
     "questions": [
       {
         "q": {
-          "t": "Neda'nın evi nerede?",
-          "s": "خانه‌ی ندا کجاست؟"
+          "t": "Mina'nın evi nerede?",
+          "s": "خانه‌ی مینا کجاست؟"
         },
         "options": [
           "Parkın karşısında",
@@ -722,8 +722,8 @@
       },
       {
         "q": {
-          "t": "Neda kızını ne zaman okula götürüyor?",
-          "s": "ندا دخترش را کی به مدرسه می‌برد؟"
+          "t": "Mina kızını ne zaman okula götürüyor?",
+          "s": "مینا دخترش را کی به مدرسه می‌برد؟"
         },
         "options": [
           "Kahvaltıdan önce",

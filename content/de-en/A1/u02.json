@@ -208,7 +208,7 @@
         "voice": "m"
       },
       "B": {
-        "name": "Neda",
+        "name": "Mina",
         "voice": "f"
       }
     },
@@ -220,13 +220,13 @@
       },
       {
         "sp": "B",
-        "t": "Hallo, Lukas! Ich heiße Neda.",
-        "s": "Hi, Lukas! My name is Neda."
+        "t": "Hallo, Lukas! Ich heiße Mina.",
+        "s": "Hi, Lukas! My name is Mina."
       },
       {
         "sp": "A",
-        "t": "Woher kommst du, Neda?",
-        "s": "Where are you from, Neda?"
+        "t": "Woher kommst du, Mina?",
+        "s": "Where are you from, Mina?"
       },
       {
         "sp": "B",
@@ -255,8 +255,8 @@
       },
       {
         "sp": "A",
-        "t": "Ich wohne auch hier! Tschüss, Neda!",
-        "s": "I live here, too! Bye, Neda!"
+        "t": "Ich wohne auch hier! Tschüss, Mina!",
+        "s": "I live here, too! Bye, Mina!"
       },
       {
         "sp": "B",

@@ -17,7 +17,7 @@ Same JSON schema as A1 (`content/SCHEMA.md`) with these level adjustments (they 
 - `sentences`: 7–8 level-appropriate sentences (≤ 12 words preferred).
 - `goals`: 3–4 can-do statements in Persian.
 - Every `choice`: exactly one correct option; `type`: all acceptable answers listed; reading answers answerable from the text.
-- Family-friendly; no alcohol/pork. Names: Sara, Ali, Maryam, Reza, Neda, Amir + Emma, Tom, Jack, Lisa (English) / Ayşe, Mehmet, Elif, Can, Zeynep, Emre (Turkish).
+- Family-friendly; no alcohol/pork. Names: Sara, Ali, Maryam, Reza, Mina, Amir + Emma, Tom, Jack, Lisa (English) / Ayşe, Mehmet, Elif, Can, Zeynep, Emre (Turkish).
 
 ## English A2 (en-fa)
 | Unit | Theme | Grammar 1 | Grammar 2 |

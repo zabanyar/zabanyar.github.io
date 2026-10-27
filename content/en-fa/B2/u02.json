@@ -22,9 +22,9 @@
       "pr": "لایفْلانگ فْرِنْد",
       "emoji": "",
       "ex": {
-        "t": "Neda and I met at school, and we've been lifelong friends ever since.",
-        "s": "من و ندا در مدرسه با هم آشنا شدیم و از آن موقع تا حالا دوستان همیشگی بوده‌ایم.",
-        "pr": "ندا اَند آی مِت اَت سْکول، اَند ویو بین لایفْلانگ فْرِنْدْز اِوِر سینس."
+        "t": "Mina and I met at school, and we've been lifelong friends ever since.",
+        "s": "من و مینا در مدرسه با هم آشنا شدیم و از آن موقع تا حالا دوستان همیشگی بوده‌ایم.",
+        "pr": "مینا اَند آی مِت اَت سْکول، اَند ویو بین لایفْلانگ فْرِنْدْز اِوِر سینس."
       }
     },
     {
@@ -123,7 +123,7 @@
       "ex": {
         "t": "We drifted apart after she moved to Canada.",
         "s": "بعد از اینکه او به کانادا رفت، کم‌کم از هم دور شدیم.",
-        "pr": "وی دْریفْتِد اِپارت اَفْتِر شی موود تو کَنِدا."
+        "pr": "وی دْریفْتِد اِپارت اَفْتِر شی موود تو کَندا."
       }
     },
     {
@@ -395,9 +395,9 @@
           "pr": "هِر آیز وِر رِد. شی هَد بین کْرایینگ."
         },
         {
-          "t": "Had you ever met Neda before the wedding?",
-          "s": "قبل از عروسی ندا را دیده بودی؟",
-          "pr": "هَد یو اِوِر مِت ندا بیفُر ذِ وِدینگ؟"
+          "t": "Had you ever met Mina before the wedding?",
+          "s": "قبل از عروسی مینا را دیده بودی؟",
+          "pr": "هَد یو اِوِر مِت مینا بیفُر ذِ وِدینگ؟"
         }
       ],
       "exercises": [
@@ -631,9 +631,9 @@
     },
     "text": [
       {
-        "t": "When I was a child in Isfahan, my best friend was a girl called Neda, who lived next door.",
-        "s": "وقتی بچه بودم و در اصفهان زندگی می‌کردم، بهترین دوستم دختری به اسم ندا بود که همسایه‌ی دیواربه‌دیوارمان بود.",
-        "pr": "وِن آی واز اِ چایلْد این اصفهان، مای بِسْت فْرِنْد واز اِ گِرل کالْد ندا، هو لیوْد نِکْسْت دُر."
+        "t": "When I was a child in Isfahan, my best friend was a girl called Mina, who lived next door.",
+        "s": "وقتی بچه بودم و در اصفهان زندگی می‌کردم، بهترین دوستم دختری به اسم مینا بود که همسایه‌ی دیواربه‌دیوارمان بود.",
+        "pr": "وِن آی واز اِ چایلْد این اصفهان، مای بِسْت فْرِنْد واز اِ گِرل کالْد مینا، هو لیوْد نِکْسْت دُر."
       },
       {
         "t": "Every afternoon, we would sit under the old tree in her yard and share our secrets.",
@@ -648,7 +648,7 @@
       {
         "t": "Then, when we were twelve, her family suddenly moved to Canada.",
         "s": "بعد، وقتی دوازده‌ساله بودیم، خانواده‌اش ناگهان به کانادا رفتند.",
-        "pr": "ذِن، وِن وی وِر تْوِلْو، هِر فَمِلی سادِنْلی موود تو کَنِدا."
+        "pr": "ذِن، وِن وی وِر تْوِلْو، هِر فَمِلی سادِنْلی موود تو کَندا."
       },
       {
         "t": "We wrote to each other for a while, but slowly we drifted apart.",
@@ -661,9 +661,9 @@
         "pr": "لَسْت مانْث، وایل آی واز کْلینینگ مای پِرِنْتْس هاوس، آی فاونْد اِ باکْس آو اُولْد لِتِرز."
       },
       {
-        "t": "My mother had kept every letter Neda had ever sent me.",
-        "s": "مادرم همه‌ی نامه‌هایی را که ندا برایم فرستاده بود نگه داشته بود.",
-        "pr": "مای ماذِر هَد کِپْت اِوْری لِتِر ندا هَد اِوِر سِنْت میْ."
+        "t": "My mother had kept every letter Mina had ever sent me.",
+        "s": "مادرم همه‌ی نامه‌هایی را که مینا برایم فرستاده بود نگه داشته بود.",
+        "pr": "مای ماذِر هَد کِپْت اِوْری لِتِر مینا هَد اِوِر سِنْت میْ."
       },
       {
         "t": "I had been looking for her online for years without any luck.",
@@ -699,9 +699,9 @@
     "questions": [
       {
         "q": {
-          "t": "Where did Neda live when the writer was a child?",
-          "s": "وقتی نویسنده بچه بود، ندا کجا زندگی می‌کرد؟",
-          "pr": "وِر دید ندا لیو وِن ذِ رایتِر واز اِ چایلْد؟"
+          "t": "Where did Mina live when the writer was a child?",
+          "s": "وقتی نویسنده بچه بود، مینا کجا زندگی می‌کرد؟",
+          "pr": "وِر دید مینا لیو وِن ذِ رایتِر واز اِ چایلْد؟"
         },
         "options": [
           "next door",
@@ -725,35 +725,35 @@
       },
       {
         "q": {
-          "t": "Who had kept Neda's letters?",
-          "s": "چه کسی نامه‌های ندا را نگه داشته بود؟",
-          "pr": "هو هَد کِپْت نداز لِتِرز؟"
+          "t": "Who had kept Mina's letters?",
+          "s": "چه کسی نامه‌های مینا را نگه داشته بود؟",
+          "pr": "هو هَد کِپْت میناز لِتِرز؟"
         },
         "options": [
           "the writer's father",
           "the writer's mother",
-          "Neda's sister"
+          "Mina's sister"
         ],
         "answer": 1
       },
       {
         "q": {
-          "t": "How did the writer finally find Neda?",
-          "s": "نویسنده بالاخره چطور ندا را پیدا کرد؟",
-          "pr": "هاو دید ذِ رایتِر فاینِلی فاینْد ندا؟"
+          "t": "How did the writer finally find Mina?",
+          "s": "نویسنده بالاخره چطور مینا را پیدا کرد؟",
+          "pr": "هاو دید ذِ رایتِر فاینِلی فاینْد مینا؟"
         },
         "options": [
           "She ran into her at the airport.",
           "She used the name of a company on an envelope.",
-          "Neda's mother called her."
+          "Mina's mother called her."
         ],
         "answer": 1
       },
       {
         "q": {
-          "t": "What is Neda still not used to?",
-          "s": "ندا هنوز به چه چیزی عادت ندارد؟",
-          "pr": "وات ایز ندا سْتیل نات یوسْت تو؟"
+          "t": "What is Mina still not used to?",
+          "s": "مینا هنوز به چه چیزی عادت ندارد؟",
+          "pr": "وات ایز مینا سْتیل نات یوسْت تو؟"
         },
         "options": [
           "her job as a doctor",

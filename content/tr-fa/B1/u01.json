@@ -572,8 +572,8 @@
     },
     "text": [
       {
-        "t": "Ben Neda. Tebriz'de doğdum ve çocukluğum orada geçti.",
-        "s": "من ندا هستم. در تبریز به دنیا آمدم و کودکی‌ام همان‌جا گذشت."
+        "t": "Ben Mina. Tebriz'de doğdum ve çocukluğum orada geçti.",
+        "s": "من مینا هستم. در تبریز به دنیا آمدم و کودکی‌ام همان‌جا گذشت."
       },
       {
         "t": "Evimiz eski bir mahalledeydi ve büyük bir bahçesi vardı.",
@@ -619,8 +619,8 @@
     "questions": [
       {
         "q": {
-          "t": "Neda nerede doğdu?",
-          "s": "ندا کجا به دنیا آمد؟"
+          "t": "Mina nerede doğdu?",
+          "s": "مینا کجا به دنیا آمد؟"
         },
         "options": [
           "Tahran'da",

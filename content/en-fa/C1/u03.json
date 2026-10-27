@@ -632,9 +632,9 @@
     },
     "text": [
       {
-        "t": "When Neda Karimi took over a struggling software company, everyone expected her to make dramatic changes.",
-        "s": "وقتی ندا کریمی مدیریت یک شرکت نرم‌افزاری را که اوضاع خوبی نداشت به دست گرفت، همه انتظار داشتند تغییرات چشمگیری ایجاد کند.",
-        "pr": "وِن نِدا کَریمی توک اُووِر اِ سْتْراگْلینگ سافْت‌وِر کامْپِنی، اِوْری‌وان ایکْسْپِکْتِد هِر تو مِیک دْرِمَتیک چِینْجِز."
+        "t": "When Mina Karimi took over a struggling software company, everyone expected her to make dramatic changes.",
+        "s": "وقتی مینا کریمی مدیریت یک شرکت نرم‌افزاری را که اوضاع خوبی نداشت به دست گرفت، همه انتظار داشتند تغییرات چشمگیری ایجاد کند.",
+        "pr": "وِن مینا کَریمی توک اُووِر اِ سْتْراگْلینگ سافْت‌وِر کامْپِنی، اِوْری‌وان ایکْسْپِکْتِد هِر تو مِیک دْرِمَتیک چِینْجِز."
       },
       {
         "t": "Morale was low, deadlines were regularly missed, and several talented engineers were about to leave.",
@@ -647,9 +647,9 @@
         "pr": "هِر پْرِدِسِسِر هَد مایْکْرُومَنِجْد اِوْری دیتِیل، ایوِن ذِ کالِر آو ذی آفِس والْز."
       },
       {
-        "t": "Neda was going to introduce a new strategy in her first week, but she decided to listen first.",
-        "s": "ندا می‌خواست در هفته‌ی اول یک راهبرد جدید معرفی کند، ولی تصمیم گرفت اول گوش بدهد.",
-        "pr": "نِدا واز گُوئینگ تو اینْتْرِدوس اِ نو سْتْرَتِجی این هِر فِرْسْت ویک، بات شی دیسایدِد تو لیسِن فِرْسْت."
+        "t": "Mina was going to introduce a new strategy in her first week, but she decided to listen first.",
+        "s": "مینا می‌خواست در هفته‌ی اول یک راهبرد جدید معرفی کند، ولی تصمیم گرفت اول گوش بدهد.",
+        "pr": "مینا واز گُوئینگ تو اینْتْرِدوس اِ نو سْتْرَتِجی این هِر فِرْسْت ویک، بات شی دیسایدِد تو لیسِن فِرْسْت."
       },
       {
         "t": "For a month, she met every employee individually and asked what they would change.",
@@ -682,9 +682,9 @@
         "pr": "ویذین اِ ییر، ذِ کامْپِنی واز دیلیوِرینگ پْراجِکْتْس آن تایم، اَند نان آو ذی اِنْجِنیرْز هَد لِفْت."
       },
       {
-        "t": "Neda admits that she needn't have worried so much in those first weeks.",
-        "s": "ندا اعتراف می‌کند که در آن هفته‌های اول لازم نبود این‌قدر نگران باشد.",
-        "pr": "نِدا اِدْمیتْس ذَت شی نیدِنْت هَو وِرید سُو ماچ این ذُوز فِرْسْت ویکْس."
+        "t": "Mina admits that she needn't have worried so much in those first weeks.",
+        "s": "مینا اعتراف می‌کند که در آن هفته‌های اول لازم نبود این‌قدر نگران باشد.",
+        "pr": "مینا اِدْمیتْس ذَت شی نیدِنْت هَو وِرید سُو ماچ این ذُوز فِرْسْت ویکْس."
       },
       {
         "t": "“A leader's job is not to have all the answers,” she says, “but to create a place where others can find them.”",
@@ -700,9 +700,9 @@
     "questions": [
       {
         "q": {
-          "t": "What was the situation when Neda arrived?",
-          "s": "وقتی ندا آمد، وضعیت چطور بود؟",
-          "pr": "وات واز ذِ سیچوئِیشِن وِن نِدا اِرایْوْد؟"
+          "t": "What was the situation when Mina arrived?",
+          "s": "وقتی مینا آمد، وضعیت چطور بود؟",
+          "pr": "وات واز ذِ سیچوئِیشِن وِن مینا اِرایْوْد؟"
         },
         "options": [
           "Morale was low and deadlines were missed.",
@@ -713,9 +713,9 @@
       },
       {
         "q": {
-          "t": "What did Neda do in her first month?",
-          "s": "ندا در ماه اول چه کرد؟",
-          "pr": "وات دید نِدا دو این هِر فِرْسْت مانْث؟"
+          "t": "What did Mina do in her first month?",
+          "s": "مینا در ماه اول چه کرد؟",
+          "pr": "وات دید مینا دو این هِر فِرْسْت مانْث؟"
         },
         "options": [
           "She introduced a new strategy.",
@@ -745,7 +745,7 @@
         },
         "options": [
           "that the experiment would fail",
-          "that Neda would resign",
+          "that Mina would resign",
           "that the teams would grow"
         ],
         "answer": 0

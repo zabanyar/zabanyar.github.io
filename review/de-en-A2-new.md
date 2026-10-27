@@ -57,10 +57,10 @@ Changes by category:
 
 ## Noticed but not changed
 
-- **Continuity of Neda across units:**
+- **Continuity of Mina across units:**
   - u02 reading: "seit fünf Jahren in Hamburg"; u09 reading: "seit sechs Jahren".
-  - u02: Neda's son gets money from "seinem Opa" in Hamburg; u09: Neda's parents live in Isfahan.
-  - The names are clearly reused for different characters across units (e.g. Ali is Sara's partner in u01, Ali writes to Jonas in u03, Ali is Neda's brother in u09), so I did not force consistency.
+  - u02: Mina's son gets money from "seinem Opa" in Hamburg; u09: Mina's parents live in Isfahan.
+  - The names are clearly reused for different characters across units (e.g. Ali is Sara's partner in u01, Ali writes to Jonas in u03, Ali is Mina's brother in u09), so I did not force consistency.
 - **u04 g01 exercises[4]** "___ ich das Fenster aufmachen?": "Soll" would also be grammatical (an offer). It does not match `s` "May I …?", so it was not added. The list already accepts Darf and Kann.
 - **u04 g01 exercises[5], u05 g02 exercises[3]/[4]/[6], u08 g02 exercises[5], u10 g02 exercises[3]/[4]:** other modal or Konjunktiv forms would be grammatical (sollst, kannst, konnten, sollte, Würdest, Willst …). The `s` translation pins the intended verb, so the lists stay strict, as in A1.
 - **u05 g01 exercises[4]** "… dass die Pause um zwölf Uhr ___": "ist" would also be grammatical. `s` says "starts", so the answers stay anfängt and beginnt.

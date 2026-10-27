@@ -62,7 +62,7 @@ I checked every item in u00–u10: every pr guide, every t/s pair, the grammar e
 - **u10 `phrases[7].pr` «میْ تو!».** The sukun on ی is odd; «می تو!» would be cleaner. But the validator rejects «می» + space (it treats it as a missing ZWNJ), so I kept the original. It is still read «mi».
 - **«اُکلاک» (o'clock).** This is really /əˈklɑk/. I kept «اُ» because it is a common, readable spelling and is close enough.
 - **«کَن» in questions (Can I…? Can you…?).** These are usually reduced to /kən/. «کَن» is still acceptable, so I kept it.
-- **Order exercises with another possible order.** u02 g02 `exercises[7]` "Sara and Neda are girls." (the names could swap) and u07 g01 `exercises[4]` "Go straight and turn left." (the clauses could swap). In both, the Persian `s` fixes the intended order, so I left them.
+- **Order exercises with another possible order.** u02 g02 `exercises[7]` "Sara and Mina are girls." (the names could swap) and u07 g01 `exercises[4]` "Go straight and turn left." (the clauses could swap). In both, the Persian `s` fixes the intended order, so I left them.
 - **Choice exercises where a second option is grammatical without the Persian prompt.** Examples: u05 "The cat is ___ the bed." (on/in), u07 g02 `exercises[1]` (near/opposite) and u09 "It's ___ in Tabriz." In every case the `s` translation makes exactly one option correct. This is the course's design, so I left them.
 - **Seasons.** u09 lists spring as March–May (meteorological seasons), and the reading also says Nowruz (March 20/21) is "the first day of spring". This is a small inconsistency but fine at A1.
 - **Borderline emoji.** 🤵/👰 for husband/wife, 🌳 for park and 🛣️ for street are acceptable pictures, so I kept them.
