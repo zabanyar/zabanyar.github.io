@@ -51,8 +51,13 @@ function typeWordStep(w, srsId) {
   return { type: "type", label: t("q_type"), prompt: { s: w.s, img: w.img, emoji: w.emoji, a: null }, answers, reveal: w.t, revealPr: w.pr, a: w.a, srs: srsId };
 }
 function dictationStep(item) { return { type: "type", label: t("q_typeHeard"), prompt: { a: item.a, autoplay: true, big: true }, answers: [item.t], reveal: item.t, revealPr: item.pr, a: item.a }; }
+// multiple-choice options are shown in random order (in the content the right answer is often listed first)
+function mixed(options, answer) {
+  const order = shuffle(options.map((o, k) => k));
+  return { options: order.map(k => ({ t: options[k] })), answer: order.indexOf(answer) };
+}
 function grammarEx(x) {
-  if (x.type === "choice") return { type: "mc", label: t("q_fill"), prompt: { gap: x.t, s: x.s }, options: x.options.map(o => ({ t: o })), answer: x.answer, a: x.a, reveal: x.full, revealPr: x.pr };
+  if (x.type === "choice") return { type: "mc", label: t("q_fill"), prompt: { gap: x.t, s: x.s }, ...mixed(x.options, x.answer), a: x.a, reveal: x.full, revealPr: x.pr };
   if (x.type === "type") return { type: "type", label: t("q_fill"), prompt: { gap: x.t, s: x.s }, answers: x.answer.map(ans => x.t.replace("___", ans)).concat(x.answer), reveal: x.full, revealPr: x.pr, a: x.a, gapMode: true };
   return { type: "order", t: x.t, alts: x.alts, s: x.s, a: x.a, revealPr: x.pr, label: t("q_order") };
 }
@@ -115,7 +120,7 @@ export function buildLesson(course, unit, lid, target) {
   } else if (lid === "reading") {
     const r = unit.reading;
     S.push({ type: "reading", r });
-    for (const q of r.questions || []) S.push({ type: "mc", label: t("q_read"), prompt: { t: q.q.t, s: q.q.s, a: q.q.a, autoplay: true, readingRef: r }, options: q.options.map(o => ({ t: o })), answer: q.answer, reveal: q.options[q.answer] });
+    for (const q of r.questions || []) S.push({ type: "mc", label: t("q_read"), prompt: { t: q.q.t, s: q.q.s, a: q.q.a, autoplay: true, readingRef: r }, ...mixed(q.options, q.answer), reveal: q.options[q.answer] });
     const sents = [...(unit.sentences || []), ...r.text];
     for (const s of sample(unit.sentences || [], Math.min(3, (unit.sentences || []).length))) S.push(mcFrom(s, sents, "listenMeaning"));
     for (const s of sample((unit.sentences || []).filter(short), 2)) S.push(orderStep(s));
@@ -129,7 +134,7 @@ export function buildLesson(course, unit, lid, target) {
     const sents = unit.sentences || [];
     for (const s of sample(sents, 2)) pool.push(mcFrom(s, sents, "listenMeaning"));
     for (const s of sample(sents.filter(short), 1)) pool.push(orderStep(s));
-    if (unit.reading?.questions?.length) { const q = sample(unit.reading.questions, 1)[0]; pool.push({ type: "mc", label: t("q_read"), prompt: { t: q.q.t, s: q.q.s, a: q.q.a, autoplay: true, readingRef: unit.reading }, options: q.options.map(o => ({ t: o })), answer: q.answer, reveal: q.options[q.answer] }); }
+    if (unit.reading?.questions?.length) { const q = sample(unit.reading.questions, 1)[0]; pool.push({ type: "mc", label: t("q_read"), prompt: { t: q.q.t, s: q.q.s, a: q.q.a, autoplay: true, readingRef: unit.reading }, ...mixed(q.options, q.answer), reveal: q.options[q.answer] }); }
     S.push(...shuffle(pool));
   }
   return S;

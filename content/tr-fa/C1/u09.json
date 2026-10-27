@@ -1,0 +1,725 @@
+{
+  "id": "u09",
+  "level": "C1",
+  "emoji": "🧠",
+  "title": {
+    "t": "Psikoloji ve insan ilişkileri",
+    "s": "روان‌شناسی و روابط انسانی"
+  },
+  "goals": [
+    "درباره‌ی احساسات، استرس، مرزهای شخصی و رابطه با دیگران دقیق و سنجیده صحبت کنم.",
+    "با -ır … -maz، -dığı an و -dığı gibi بگویم که کاری بلافاصله پس از کار دیگری رخ داده است.",
+    "از نشانه‌ها نتیجه بگیرم و حدس بزنم (-mış olmalı، -ıyor olmalı، -acak gibi görünmek).",
+    "یک ستون مشاوره‌ی روان‌شناسی را بخوانم و توصیه‌هایش را بفهمم."
+  ],
+  "words": [
+    {
+      "id": "w01",
+      "t": "empati kurmak",
+      "s": "همدلی کردن",
+      "pr": "اِمپاتی کورماک",
+      "emoji": "",
+      "ex": {
+        "t": "Karşınızdakiyle empati kurmadan onu gerçekten anlayamazsınız.",
+        "s": "بدون همدلی با طرف مقابل، نمی‌توانید واقعاً او را بفهمید."
+      }
+    },
+    {
+      "id": "w02",
+      "t": "öz güven",
+      "s": "اعتمادبه‌نفس",
+      "pr": "اُز گووِن",
+      "emoji": "",
+      "ex": {
+        "t": "Başarılı geçen sunum, öz güvenini artırdı.",
+        "s": "ارائه‌ی موفق، اعتمادبه‌نفسش را بالا برد."
+      }
+    },
+    {
+      "id": "w03",
+      "t": "tükenmişlik sendromu",
+      "s": "فرسودگی شغلی",
+      "pr": "توکِنمیشلیک سِندرُمو",
+      "emoji": "",
+      "ex": {
+        "t": "Uzun çalışma saatleri tükenmişlik sendromuna yol açabilir.",
+        "s": "ساعت‌های کاری طولانی ممکن است به فرسودگی شغلی منجر شود."
+      }
+    },
+    {
+      "id": "w04",
+      "t": "ruh hâli",
+      "s": "حال روحی؛ حال و حوصله",
+      "pr": "روح هاآلی",
+      "emoji": "",
+      "ex": {
+        "t": "Bugün ruh hâlim pek iyi değil.",
+        "s": "امروز حال و حوصله‌ام چندان خوب نیست."
+      }
+    },
+    {
+      "id": "w05",
+      "t": "sınır koymak",
+      "s": "مرز گذاشتن",
+      "pr": "سِنِر کُیماک",
+      "emoji": "",
+      "ex": {
+        "t": "Sağlıklı ilişkiler için bazen sınır koymak gerekir.",
+        "s": "برای داشتن روابط سالم، گاهی باید مرز گذاشت."
+      }
+    },
+    {
+      "id": "w06",
+      "t": "içine kapanık",
+      "s": "درون‌گرا؛ گوشه‌گیر",
+      "pr": "ایچینِه کاپانِک",
+      "emoji": "",
+      "ex": {
+        "t": "Küçükken çok içine kapanık bir çocuktum.",
+        "s": "بچه که بودم، خیلی درون‌گرا و گوشه‌گیر بودم."
+      }
+    },
+    {
+      "id": "w07",
+      "t": "dışa dönük",
+      "s": "برون‌گرا",
+      "pr": "دِشا دُنوک",
+      "emoji": "",
+      "ex": {
+        "t": "Kardeşim çok dışa dönüktür, herkesle hemen kaynaşır.",
+        "s": "برادرم خیلی برون‌گراست، با همه زود جوش می‌خورد."
+      }
+    },
+    {
+      "id": "w08",
+      "t": "alınmak",
+      "s": "به خود گرفتن؛ دلخور شدن",
+      "pr": "آلِنماک",
+      "emoji": "",
+      "ex": {
+        "t": "Şaka yaptım, lütfen alınma.",
+        "s": "شوخی کردم، لطفاً به خودت نگیر."
+      }
+    },
+    {
+      "id": "w09",
+      "t": "kırılmak",
+      "s": "رنجیدن؛ دلخور شدن (از کسی)",
+      "pr": "کِرِلماک",
+      "emoji": "💔",
+      "ex": {
+        "t": "Doğum günümü unuttuğu için ona çok kırıldım.",
+        "s": "چون تولدم را فراموش کرد، خیلی از دستش دلخور شدم."
+      }
+    },
+    {
+      "id": "w10",
+      "t": "yüzleşmek",
+      "s": "روبه‌رو شدن (با مشکل یا ترس)",
+      "pr": "یوزلِشمِک",
+      "emoji": "",
+      "ex": {
+        "t": "Korkularınızla yüzleşmeden onları yenemezsiniz.",
+        "s": "تا با ترس‌هایتان روبه‌رو نشوید، نمی‌توانید بر آن‌ها غلبه کنید."
+      }
+    },
+    {
+      "id": "w11",
+      "t": "duygularını bastırmak",
+      "s": "احساساتش را سرکوب کردن",
+      "pr": "دویگولارِنِ باستِرماک",
+      "emoji": "",
+      "ex": {
+        "t": "Duygularını bastırmak yerine onları ifade etmeyi öğrenmelisin.",
+        "s": "به‌جای سرکوب احساساتت، باید بیان کردنشان را یاد بگیری."
+      }
+    },
+    {
+      "id": "w12",
+      "t": "terapist",
+      "pl": "terapistler",
+      "s": "درمانگر؛ روان‌درمانگر",
+      "pr": "تِراپیست",
+      "emoji": "",
+      "ex": {
+        "t": "Bir terapistle görüşmek zayıflık değil, cesarettir.",
+        "s": "صحبت با یک درمانگر ضعف نیست، شجاعت است."
+      }
+    },
+    {
+      "id": "w13",
+      "t": "yargılamak",
+      "s": "قضاوت کردن (درباره‌ی کسی)",
+      "pr": "یارگِلاماک",
+      "emoji": "",
+      "ex": {
+        "t": "İnsanları dış görünüşlerine göre yargılamamalıyız.",
+        "s": "نباید آدم‌ها را بر اساس ظاهرشان قضاوت کنیم."
+      }
+    },
+    {
+      "id": "w14",
+      "t": "vicdan azabı",
+      "s": "عذاب وجدان",
+      "pr": "ویجدان آزابِ",
+      "emoji": "",
+      "ex": {
+        "t": "Ona yalan söylediğim için vicdan azabı çekiyorum.",
+        "s": "چون به او دروغ گفته‌ام، عذاب وجدان دارم."
+      }
+    },
+    {
+      "id": "w15",
+      "t": "hayal kırıklığı",
+      "s": "سرخوردگی؛ ناامیدی",
+      "pr": "هایال کِرِکلِئِ",
+      "emoji": "😞",
+      "ex": {
+        "t": "Sınav sonucu ailesinde büyük bir hayal kırıklığı yarattı.",
+        "s": "نتیجه‌ی امتحان خانواده‌اش را بسیار ناامید کرد."
+      }
+    }
+  ],
+  "phrases": [
+    {
+      "id": "p01",
+      "t": "Seni çok iyi anlıyorum.",
+      "s": "خیلی خوب درکت می‌کنم.",
+      "pr": "سِنی چُک ای‌یی آنلِیُروم."
+    },
+    {
+      "id": "p02",
+      "t": "Kendine biraz zaman ayır.",
+      "s": "کمی برای خودت وقت بگذار.",
+      "pr": "کِندینِه بیراز زامان آیِر."
+    },
+    {
+      "id": "p03",
+      "t": "İçini dökmek ister misin?",
+      "s": "می‌خواهی درد دل کنی؟",
+      "pr": "ایچینی دُکمِک ایستِر میسین؟"
+    },
+    {
+      "id": "p04",
+      "t": "Bunu kişisel algılama.",
+      "s": "این را به خودت نگیر.",
+      "pr": "بونو کیشیسِل آلگِلاما."
+    },
+    {
+      "id": "p05",
+      "t": "Her şeyi bu kadar dert etme.",
+      "s": "این‌قدر برای همه‌چیز غصه نخور.",
+      "pr": "هِر شِیی بو کادار دِرت اِتمِه."
+    },
+    {
+      "id": "p06",
+      "t": "Kafana takma, geçer.",
+      "s": "فکرش را نکن، می‌گذرد.",
+      "pr": "کافانا تاکما، گِچِر."
+    },
+    {
+      "id": "p07",
+      "t": "Seni kırdıysam özür dilerim.",
+      "s": "اگر دلت را شکستم، عذر می‌خواهم.",
+      "pr": "سِنی کِردِیسام اُزور دیلِریم."
+    },
+    {
+      "id": "p08",
+      "t": "Ne demek istediğini şimdi anladım.",
+      "s": "حالا فهمیدم منظورت چیست.",
+      "pr": "نِه دِمِک ایستِدیینی شیمدی آنلادِم."
+    }
+  ],
+  "dialogue": {
+    "title": {
+      "t": "Tükenmiş bir arkadaş",
+      "s": "دوستی که از پا افتاده"
+    },
+    "speakers": {
+      "A": {
+        "name": "Maryam",
+        "voice": "f"
+      },
+      "B": {
+        "name": "Emre",
+        "voice": "m"
+      }
+    },
+    "lines": [
+      {
+        "sp": "A",
+        "t": "Emre, iyi misin? Yüzün bembeyaz; dün gece hiç uyumamış olmalısın.",
+        "s": "امره، خوبی؟ رنگت پریده؛ حتماً دیشب اصلاً نخوابیده‌ای."
+      },
+      {
+        "sp": "B",
+        "t": "Haklısın, gözümü bile kırpmadım. Yeni işe başladığım andan beri kendimi tükenmiş hissediyorum.",
+        "s": "حق با توست، حتی پلک هم نزدم. از لحظه‌ای که کار جدید را شروع کرده‌ام، احساس می‌کنم از پا افتاده‌ام."
+      },
+      {
+        "sp": "A",
+        "t": "Yeni müdürün çok talepkâr olmalı.",
+        "s": "حتماً مدیر جدیدت خیلی پرتوقع است."
+      },
+      {
+        "sp": "B",
+        "t": "Öyle. Sabah ofise girer girmez önüme bir yığın iş koyuyor. Akşam eve gelir gelmez de bilgisayarı açıyorum.",
+        "s": "همین‌طور است. صبح به محض اینکه وارد دفتر می‌شوم، یک عالمه کار جلویم می‌گذارد. شب هم به محض اینکه به خانه می‌رسم، کامپیوتر را روشن می‌کنم."
+      },
+      {
+        "sp": "A",
+        "t": "Bu böyle gitmez. Tükenmişlik sendromu yaşıyor olmalısın. Hiç sınır koymayı denedin mi?",
+        "s": "این‌طوری نمی‌شود ادامه داد. حتماً دچار فرسودگی شغلی شده‌ای. تا حالا امتحان کرده‌ای که مرز بگذاری؟"
+      },
+      {
+        "sp": "B",
+        "t": "Denedim ama hayır dediğim an suçluluk duyuyorum. Müdürüm her seferinde bana kırılacak gibi görünüyor.",
+        "s": "امتحان کردم، اما همان لحظه که «نه» می‌گویم، احساس گناه می‌کنم. هر بار به نظر می‌رسد مدیرم از من دلخور خواهد شد."
+      },
+      {
+        "sp": "A",
+        "t": "Bunu kişisel algılama. Sağlıklı sınırlar koyan çalışanlar genellikle daha verimli olur.",
+        "s": "این را به خودت نگیر. کارمندانی که مرزهای سالم می‌گذارند، معمولاً بهره‌ورترند."
+      },
+      {
+        "sp": "B",
+        "t": "Belki de haklısın. Ama sana içimi döktüğüm gibi biraz rahatladım bile.",
+        "s": "شاید حق با تو باشد. ولی همین که با تو درد دل کردم، کمی سبک شدم."
+      },
+      {
+        "sp": "A",
+        "t": "Gördün mü? Yine de bir terapistle konuşmayı düşünebilirsin.",
+        "s": "دیدی؟ با این حال می‌توانی به صحبت با یک درمانگر هم فکر کنی."
+      },
+      {
+        "sp": "B",
+        "t": "Haklısın. Bu hafta bir randevu alacağım. Teşekkürler Maryam, iyi ki varsın.",
+        "s": "درست می‌گویی. این هفته یک وقت می‌گیرم. ممنون مریم، چه خوب که هستی."
+      }
+    ]
+  },
+  "grammar": [
+    {
+      "id": "g01",
+      "title": {
+        "t": "Gelir gelmez / -dığı an / -dığı gibi",
+        "s": "«به محض اینکه…»: سه ساخت برای فوریت"
+      },
+      "explain": "برای گفتن اینکه کاری **بلافاصله** بعد از کار دیگری رخ می‌دهد («به محض اینکه، همین که»)، ترکی سه ساخت اصلی دارد:\n**-(ı)r … -maz / -ar … -mez**: فعل یک بار به شکل **مثبتِ زمان گسترده (geniş zaman)** و یک بار به شکل **منفیِ** آن تکرار می‌شود: **gelir gelmez** (به محض آمدن)، **görür görmez**، **duyar duymaz**، **uyanır uyanmaz**. این ساخت **شناسه نمی‌گیرد** و زمان را فعل اصلی جمله تعیین می‌کند: Eve **gelir gelmez** yattım / yatarım / yatacağım. فاعل دو بخش هم می‌تواند فرق کند: Ben ofise **girer girmez** müdür beni çağırdı. (یادتان باشد: gel**ir**، al**ır**، gör**ür** اما yap**ar**، bak**ar**؛ همان قاعده‌ی geniş zaman که در B1 دیدید.)\n**-dığı an / -dığı anda** = «همان لحظه که»؛ پسوند ملکی با فاعل هماهنگ است: Kapıyı **açtığım an** telefon çaldı. = همان لحظه که در را باز کردم، تلفن زنگ زد. **-dığı andan beri** = «از همان لحظه که»: Onu **gördüğüm andan beri**…\n**-dığı gibi** = «همین که»؛ معنایش مثل -ır -maz است و کمی گفتاری‌تر: Haberi **duyduğu gibi** yola çıktı. دقت کنید: **-dığı gibi** معنای «همان‌طور که» هم دارد (Dediğin gibi yaptım = همان‌طور که گفتی، انجام دادم)؛ معنا را از بافت جمله می‌فهمیم.\nدر فارسی همه‌ی این‌ها را با «به محض اینکه / همین که / همان لحظه که» ترجمه می‌کنیم.",
+      "table": [
+        [
+          "gelmek",
+          "gelir gelmez",
+          "geldiği an"
+        ],
+        [
+          "görmek",
+          "görür görmez",
+          "gördüğü an"
+        ],
+        [
+          "almak",
+          "alır almaz",
+          "aldığı an"
+        ],
+        [
+          "bakmak",
+          "bakar bakmaz",
+          "baktığı an"
+        ],
+        [
+          "duymak",
+          "duyar duymaz",
+          "duyduğu an"
+        ],
+        [
+          "bitirmek",
+          "bitirir bitirmez",
+          "bitirdiği an"
+        ]
+      ],
+      "examples": [
+        {
+          "t": "Eve gelir gelmez telefonunu kapattı.",
+          "s": "به محض اینکه به خانه رسید، تلفنش را خاموش کرد."
+        },
+        {
+          "t": "Beni görür görmez gözleri doldu.",
+          "s": "به محض اینکه مرا دید، چشم‌هایش پر از اشک شد."
+        },
+        {
+          "t": "Yeni işe başladığım an burada mutlu olmayacağımı anladım.",
+          "s": "همان لحظه که کار جدید را شروع کردم، فهمیدم این‌جا خوشحال نخواهم بود."
+        },
+        {
+          "t": "Haberi duyduğu gibi annesini aradı.",
+          "s": "همین که خبر را شنید، به مادرش زنگ زد."
+        },
+        {
+          "t": "Sabah uyanır uyanmaz telefonuma bakmamaya çalışıyorum.",
+          "s": "سعی می‌کنم صبح به محض بیدار شدن به گوشی‌ام نگاه نکنم."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "choice",
+          "t": "Toplantı ___ herkes dışarı çıktı.",
+          "options": [
+            "biter bitmez",
+            "bitmez biter",
+            "biter bitmeden"
+          ],
+          "answer": 0,
+          "s": "به محض اینکه جلسه تمام شد، همه بیرون رفتند."
+        },
+        {
+          "type": "choice",
+          "t": "Kapıyı ___ an telefon çaldı.",
+          "options": [
+            "açtığım",
+            "açarım",
+            "açınca"
+          ],
+          "answer": 0,
+          "s": "همان لحظه که در را باز کردم، تلفن زنگ زد."
+        },
+        {
+          "type": "choice",
+          "t": "Sonuçları ___ hemen bize haber ver.",
+          "options": [
+            "öğrenir öğrenmez",
+            "öğrendi öğrenmedi",
+            "öğrenecek öğrenmeyecek"
+          ],
+          "answer": 0,
+          "s": "به محض اینکه نتیجه‌ها را فهمیدی، فوراً به ما خبر بده."
+        },
+        {
+          "type": "choice",
+          "t": "Çocuk annesini ___ ağlamayı bıraktı.",
+          "options": [
+            "görür görmez",
+            "görer görmez",
+            "görür görmüz"
+          ],
+          "answer": 0,
+          "s": "بچه به محض دیدن مادرش، دیگر گریه نکرد."
+        },
+        {
+          "type": "type",
+          "t": "Eve ___ gelmez duş aldım.",
+          "answer": [
+            "gelir"
+          ],
+          "s": "به محض اینکه به خانه رسیدم، دوش گرفتم."
+        },
+        {
+          "type": "type",
+          "t": "Uçak ___ kalkmaz kulaklarım ağrımaya başladı.",
+          "answer": [
+            "kalkar"
+          ],
+          "s": "به محض اینکه هواپیما بلند شد، گوش‌هایم شروع به درد کرد."
+        },
+        {
+          "type": "type",
+          "t": "Haberi ___ gibi yola çıktık.",
+          "answer": [
+            "duyduğumuz",
+            "öğrendiğimiz",
+            "aldığımız"
+          ],
+          "s": "همین که خبر را شنیدیم، راه افتادیم."
+        },
+        {
+          "type": "order",
+          "t": "Beni görür görmez gülümsedi.",
+          "s": "به محض اینکه مرا دید، لبخند زد."
+        }
+      ]
+    },
+    {
+      "id": "g02",
+      "title": {
+        "t": "-mış olmalı, -ıyor olmalı, -acak gibi görünmek",
+        "s": "نتیجه‌گیری از نشانه‌ها: «حتماً…» و «به نظر می‌رسد…»"
+      },
+      "explain": "در B2 با **-malı** و **-mış olmalı** برای حدس آشنا شدید. در C1 این ساخت‌ها را برای **زمان‌های مختلف** و با ظرافت بیشتری به کار می‌بریم. همه‌ی آن‌ها «استنتاج» هستند؛ گوینده از نشانه‌ها نتیجه می‌گیرد:\n**-mış olmalı** = «حتماً … کرده / شده است» (درباره‌ی گذشته): Gözleri kızarmış; ağla**mış olmalı**. = چشم‌هایش سرخ شده؛ حتماً گریه کرده.\n**-(ı)yor olmalı** = «حتماً دارد … می‌کند» (کاری که همین حالا در جریان است): Telefonu açmıyor; araba kullan**ıyor olmalı**. = تلفن را جواب نمی‌دهد؛ حتماً دارد رانندگی می‌کند. این را با **-malı** به معنای «باید» (اجبار) اشتباه نکنید: Ders çalış**malı** = باید درس بخواند؛ ders çalış**ıyor olmalı** = حتماً دارد درس می‌خواند.\n**-(y)acak gibi görünmek** = «به نظر می‌رسد که … خواهد شد» (پیش‌بینی بر اساس نشانه‌ها): Bu iş uzun sür**ecek gibi görünüyor**. در گفتار **-(y)acağa benziyor** هم می‌گویند: Yağmur yağ**acağa benziyor**. برای برداشتی از حالِ کسی: **-mış gibi görünmek**: Çok yorul**muş gibi görünüyor**.\nشناسه به **olmalı** می‌چسبد: unut**muş olmalısın** (حتماً فراموش کرده‌ای)، bekl**iyor olmalılar** (حتماً منتظرند).\nمیزان اطمینان: **-mış olmalı** (تقریباً مطمئن) > **gibi görünüyor** (برداشت از ظاهر) > **-mış olabilir** (فقط احتمال).",
+      "table": [
+        [
+          "-mış olmalı",
+          "Unutmuş olmalı.",
+          "geçmiş"
+        ],
+        [
+          "-(ı)yor olmalı",
+          "Uyuyor olmalı.",
+          "şimdi"
+        ],
+        [
+          "-(y)acak gibi görünüyor",
+          "Yağmur yağacak gibi görünüyor.",
+          "gelecek"
+        ],
+        [
+          "-mış gibi görünüyor",
+          "Çok yorulmuş gibi görünüyor.",
+          "izlenim"
+        ]
+      ],
+      "examples": [
+        {
+          "t": "Işıklar kapalı; erkenden yatmış olmalılar.",
+          "s": "چراغ‌ها خاموش است؛ حتماً زود خوابیده‌اند."
+        },
+        {
+          "t": "Telefonuna bakmıyor; hâlâ toplantıda konuşuyor olmalı.",
+          "s": "به تلفنش نگاه نمی‌کند؛ حتماً هنوز در جلسه دارد صحبت می‌کند."
+        },
+        {
+          "t": "Aralarındaki gerginlik yakında sona erecek gibi görünüyor.",
+          "s": "به نظر می‌رسد تنش میانشان به‌زودی تمام شود."
+        },
+        {
+          "t": "Bana kırılmış olmalı; dünden beri hiç yazmadı.",
+          "s": "حتماً از من دلخور شده؛ از دیروز اصلاً پیامی نداده."
+        },
+        {
+          "t": "Elif bu aralar çok mutlu; yeni işini seviyor olmalı.",
+          "s": "الیف این روزها خیلی خوشحال است؛ حتماً کار جدیدش را دوست دارد."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "choice",
+          "t": "Yerler ıslak; dün gece yağmur ___.",
+          "options": [
+            "yağmış olmalı",
+            "yağıyor olmalı",
+            "yağmalı"
+          ],
+          "answer": 0,
+          "s": "زمین خیس است؛ حتماً دیشب باران آمده."
+        },
+        {
+          "type": "choice",
+          "t": "Kapıyı açmıyor; kulaklıkla müzik ___.",
+          "options": [
+            "dinliyor olmalı",
+            "dinlemiş olmalı",
+            "dinlemeli"
+          ],
+          "answer": 0,
+          "s": "در را باز نمی‌کند؛ حتماً دارد با هدفون موسیقی گوش می‌دهد."
+        },
+        {
+          "type": "choice",
+          "t": "Hava kararıyor, rüzgâr da sertleşti; fırtına ___ görünüyor.",
+          "options": [
+            "çıkacak gibi",
+            "çıkmış olmalı",
+            "çıkıyor olmalı"
+          ],
+          "answer": 0,
+          "s": "هوا تاریک می‌شود و باد هم شدیدتر شده؛ به نظر می‌رسد طوفان شود."
+        },
+        {
+          "type": "choice",
+          "t": "Ali sınavdan önce daha çok ___; yoksa geçemez.",
+          "options": [
+            "çalışmalı",
+            "çalışıyor olmalı",
+            "çalışmış olmalı"
+          ],
+          "answer": 0,
+          "s": "علی باید پیش از امتحان بیشتر درس بخواند؛ وگرنه قبول نمی‌شود."
+        },
+        {
+          "type": "type",
+          "t": "Mesajıma cevap vermedi; telefonunu evde ___ olmalı.",
+          "answer": [
+            "unutmuş",
+            "bırakmış"
+          ],
+          "s": "جواب پیامم را نداد؛ حتماً گوشی‌اش را در خانه جا گذاشته."
+        },
+        {
+          "type": "type",
+          "t": "Mutfaktan güzel kokular geliyor; annem yemek ___ olmalı.",
+          "answer": [
+            "yapıyor",
+            "pişiriyor",
+            "hazırlıyor"
+          ],
+          "s": "بوی خوبی از آشپزخانه می‌آید؛ حتماً مادرم دارد غذا درست می‌کند."
+        },
+        {
+          "type": "type",
+          "t": "Gözlerin kızarmış; dün gece hiç ___ olmalısın.",
+          "answer": [
+            "uyumamış",
+            "uyuyamamış"
+          ],
+          "s": "چشم‌هایت سرخ شده؛ حتماً دیشب اصلاً نخوابیده‌ای."
+        },
+        {
+          "type": "order",
+          "t": "Bu iş uzun sürecek gibi görünüyor.",
+          "s": "به نظر می‌رسد این کار طول بکشد."
+        }
+      ]
+    }
+  ],
+  "reading": {
+    "title": {
+      "t": "Sınır koymak bencillik mi?",
+      "s": "آیا مرز گذاشتن خودخواهی است؟"
+    },
+    "text": [
+      {
+        "t": "Okurumuz Neda Hanım bize şöyle yazmış: “Bir arkadaşımdan yardım isteği geldiği an, kendi işimi bırakıp ona koşuyorum.”",
+        "s": "خواننده‌ی ما، ندا خانم، برایمان این‌طور نوشته است: «همان لحظه که یکی از دوستانم درخواست کمک می‌کند، کار خودم را رها می‌کنم و به سراغش می‌روم.»"
+      },
+      {
+        "t": "“Akşam eve gelir gelmez telefonum çalıyor ve ben hiç hayır diyemiyorum.”",
+        "s": "«شب به محض اینکه به خانه می‌رسم، تلفنم زنگ می‌زند و من اصلاً نمی‌توانم نه بگویم.»"
+      },
+      {
+        "t": "“Son zamanlarda kendimi tükenmiş hissediyorum, ama sınır koyarsam arkadaşlarımın bana kırılacağından korkuyorum.”",
+        "s": "«این اواخر احساس می‌کنم از پا افتاده‌ام، اما می‌ترسم اگر مرز بگذارم، دوستانم از من دلخور شوند.»"
+      },
+      {
+        "t": "Sevgili Neda Hanım, mektubunuzu okuduğum gibi kendi gençlik yıllarımı hatırladım.",
+        "s": "ندا خانم عزیز، همین که نامه‌تان را خواندم، یاد سال‌های جوانی خودم افتادم."
+      },
+      {
+        "t": "Anlattıklarınıza bakılırsa uzun süredir başkalarının ihtiyaçlarını kendi ihtiyaçlarınızın önüne koyuyor olmalısınız.",
+        "s": "از آنچه گفته‌اید پیداست که حتماً مدت‌هاست نیازهای دیگران را بر نیازهای خودتان مقدم می‌دارید."
+      },
+      {
+        "t": "Bu davranışın kökeni çoğu zaman çocuklukta yatar: Sevilmek için hep “iyi çocuk” olmamız gerektiğini öğrenmiş olabiliriz.",
+        "s": "ریشه‌ی این رفتار اغلب در کودکی است: شاید یاد گرفته‌ایم که برای دوست داشته شدن همیشه باید «بچه‌ی خوب» باشیم."
+      },
+      {
+        "t": "Oysa sınır koymak bencillik değil, kendinize ve ilişkilerinize duyduğunuz saygının bir göstergesidir.",
+        "s": "در حالی که مرز گذاشتن خودخواهی نیست، بلکه نشانه‌ای از احترامی است که برای خودتان و روابطتان قائلید."
+      },
+      {
+        "t": "Size küçük bir öneride bulunmak istiyorum: Bir istek geldiğinde hemen cevap vermeyin, “Bir düşüneyim, sonra döneceğim” deyin.",
+        "s": "می‌خواهم پیشنهاد کوچکی به شما بدهم: وقتی درخواستی می‌رسد، فوراً جواب ندهید؛ بگویید «بگذار فکر کنم، بعد خبرت می‌کنم.»"
+      },
+      {
+        "t": "Bu kısa ara, duygularınızı bastırmadan neye gerçekten gücünüzün yettiğini görmenizi sağlar.",
+        "s": "این مکث کوتاه کمک می‌کند بی‌آنکه احساساتتان را سرکوب کنید، ببینید واقعاً از عهده‌ی چه کاری برمی‌آیید."
+      },
+      {
+        "t": "İlk zamanlar vicdan azabı çekmeniz çok doğaldır.",
+        "s": "کاملاً طبیعی است که اوایل عذاب وجدان داشته باشید."
+      },
+      {
+        "t": "Gerçek arkadaşlarınız ise sizi anlayacak ve büyük ihtimalle size daha da çok değer verecektir.",
+        "s": "اما دوستان واقعی‌تان شما را درک خواهند کرد و به احتمال زیاد حتی بیشتر برایتان ارزش قائل خواهند شد."
+      },
+      {
+        "t": "Bu yük size çok ağır gelirse bir terapistten destek almaktan çekinmeyin.",
+        "s": "اگر این بار برایتان خیلی سنگین شد، از کمک گرفتن از یک درمانگر دریغ نکنید."
+      }
+    ],
+    "questions": [
+      {
+        "q": {
+          "t": "Neda Hanım'ın sorunu nedir?",
+          "s": "مشکل ندا خانم چیست؟"
+        },
+        "options": [
+          "Arkadaşlarına hayır diyemiyor",
+          "Hiç arkadaşı yok",
+          "İşini kaybetmiş"
+        ],
+        "answer": 0
+      },
+      {
+        "q": {
+          "t": "Neda Hanım sınır koyarsa ne olacağından korkuyor?",
+          "s": "ندا خانم می‌ترسد اگر مرز بگذارد چه شود؟"
+        },
+        "options": [
+          "İşinden atılacağından",
+          "Arkadaşlarının ona kırılacağından",
+          "Ailesinin ona kızacağından"
+        ],
+        "answer": 1
+      },
+      {
+        "q": {
+          "t": "Uzmana göre bu davranışın kökeni çoğu zaman nerede yatar?",
+          "s": "به نظر کارشناس، ریشه‌ی این رفتار اغلب در کجاست؟"
+        },
+        "options": [
+          "Okulda",
+          "Çocuklukta",
+          "İş hayatında"
+        ],
+        "answer": 1
+      },
+      {
+        "q": {
+          "t": "Uzman, bir istek geldiğinde ne yapmayı öneriyor?",
+          "s": "کارشناس پیشنهاد می‌کند وقتی درخواستی می‌رسد، چه کار کنیم؟"
+        },
+        "options": [
+          "Hemen evet demeyi",
+          "İsteği hiç cevaplamamayı",
+          "Düşünmek için zaman istemeyi"
+        ],
+        "answer": 2
+      },
+      {
+        "q": {
+          "t": "Uzmana göre sınır koymak neyin göstergesidir?",
+          "s": "به نظر کارشناس، مرز گذاشتن نشانه‌ی چیست؟"
+        },
+        "options": [
+          "Bencilliğin",
+          "Kendimize ve ilişkilerimize duyduğumuz saygının",
+          "Hayal kırıklığının"
+        ],
+        "answer": 1
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "t": "Eve gelir gelmez telefonumu sessize alıyorum.",
+      "s": "به محض اینکه به خانه می‌رسم، گوشی‌ام را بی‌صدا می‌کنم."
+    },
+    {
+      "t": "Onu gördüğüm an ne olduğunu anladım.",
+      "s": "همان لحظه که دیدمش، فهمیدم چه شده."
+    },
+    {
+      "t": "Çok yorgun görünüyorsun; iyi uyuyamamış olmalısın.",
+      "s": "خیلی خسته به نظر می‌رسی؛ حتماً نتوانسته‌ای خوب بخوابی."
+    },
+    {
+      "t": "Kapıyı açmıyor; duş alıyor olmalı.",
+      "s": "در را باز نمی‌کند؛ حتماً دارد دوش می‌گیرد."
+    },
+    {
+      "t": "Bu tartışma uzun sürecek gibi görünüyor.",
+      "s": "به نظر می‌رسد این بحث طولانی شود."
+    },
+    {
+      "t": "Başkalarını yargılamadan önce onları dinlemeliyiz.",
+      "s": "پیش از قضاوت درباره‌ی دیگران، باید به حرفشان گوش دهیم."
+    },
+    {
+      "t": "Duygularını bastırmak uzun vadede zarar verir.",
+      "s": "سرکوب احساسات در درازمدت آسیب می‌زند."
+    },
+    {
+      "t": "Sağlıklı ilişkilerde herkes sınırlarını bilir.",
+      "s": "در روابط سالم، هرکس مرزهایش را می‌شناسد."
+    }
+  ]
+}

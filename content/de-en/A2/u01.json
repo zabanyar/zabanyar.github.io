@@ -1,0 +1,714 @@
+{
+  "id": "u01",
+  "level": "A2",
+  "emoji": "🧺",
+  "title": {
+    "t": "Das Wochenende",
+    "s": "The weekend"
+  },
+  "goals": [
+    "Talk about what you did on the weekend",
+    "Form the Perfekt with haben – regular (gemacht) and irregular (gelesen) participles",
+    "Use the Perfekt with sein for movement and change (ich bin gefahren, er ist aufgewacht)",
+    "Ask others about their weekend and react (Das klingt toll!)"
+  ],
+  "words": [
+    {
+      "id": "w01",
+      "t": "das Wochenende",
+      "pl": "die Wochenenden",
+      "s": "weekend",
+      "emoji": "",
+      "ex": {
+        "t": "Was machst du am Wochenende?",
+        "s": "What are you doing on the weekend?"
+      }
+    },
+    {
+      "id": "w02",
+      "t": "ausschlafen (schläft aus, hat ausgeschlafen)",
+      "s": "to sleep in",
+      "emoji": "",
+      "ex": {
+        "t": "Am Sonntag habe ich endlich ausgeschlafen.",
+        "s": "On Sunday I finally slept in."
+      }
+    },
+    {
+      "id": "w03",
+      "t": "aufräumen",
+      "s": "to tidy up",
+      "emoji": "",
+      "ex": {
+        "t": "Ich habe mein Zimmer aufgeräumt.",
+        "s": "I tidied up my room."
+      }
+    },
+    {
+      "id": "w04",
+      "t": "putzen",
+      "s": "to clean",
+      "emoji": "",
+      "ex": {
+        "t": "Wir haben am Samstag das Bad geputzt.",
+        "s": "We cleaned the bathroom on Saturday."
+      }
+    },
+    {
+      "id": "w05",
+      "t": "die Wäsche waschen (wäscht, hat gewaschen)",
+      "s": "to do the laundry",
+      "emoji": "",
+      "ex": {
+        "t": "Reza hat die Wäsche gewaschen.",
+        "s": "Reza did the laundry."
+      }
+    },
+    {
+      "id": "w06",
+      "t": "spazieren gehen (ist spazieren gegangen)",
+      "s": "to go for a walk",
+      "emoji": "",
+      "ex": {
+        "t": "Wir sind im Park spazieren gegangen.",
+        "s": "We went for a walk in the park."
+      }
+    },
+    {
+      "id": "w07",
+      "t": "besuchen",
+      "s": "to visit (someone)",
+      "emoji": "",
+      "ex": {
+        "t": "Am Sonntag haben wir meine Eltern besucht.",
+        "s": "On Sunday we visited my parents."
+      }
+    },
+    {
+      "id": "w08",
+      "t": "das Picknick",
+      "pl": "die Picknicks",
+      "s": "picnic",
+      "emoji": "🧺",
+      "ex": {
+        "t": "Am See haben wir ein Picknick gemacht.",
+        "s": "We had a picnic by the lake."
+      }
+    },
+    {
+      "id": "w09",
+      "t": "der Flohmarkt",
+      "pl": "die Flohmärkte",
+      "s": "flea market",
+      "emoji": "",
+      "ex": {
+        "t": "Lena hat auf dem Flohmarkt alte Bücher gekauft.",
+        "s": "Lena bought old books at the flea market."
+      }
+    },
+    {
+      "id": "w10",
+      "t": "grillen",
+      "s": "to have a barbecue, to grill",
+      "emoji": "",
+      "ex": {
+        "t": "Am Sonntag haben wir im Garten gegrillt.",
+        "s": "On Sunday we had a barbecue in the yard."
+      }
+    },
+    {
+      "id": "w11",
+      "t": "faulenzen",
+      "s": "to laze around, to do nothing",
+      "emoji": "",
+      "ex": {
+        "t": "Im Urlaub faulenze ich gern.",
+        "s": "On vacation I like to laze around."
+      }
+    },
+    {
+      "id": "w12",
+      "t": "aufwachen (ist aufgewacht)",
+      "s": "to wake up",
+      "emoji": "⏰",
+      "ex": {
+        "t": "Ich bin um neun Uhr aufgewacht.",
+        "s": "I woke up at nine o'clock."
+      }
+    },
+    {
+      "id": "w13",
+      "t": "zu Hause bleiben (ist zu Hause geblieben)",
+      "s": "to stay at home",
+      "emoji": "",
+      "ex": {
+        "t": "Am Samstag bin ich zu Hause geblieben.",
+        "s": "On Saturday I stayed at home."
+      }
+    },
+    {
+      "id": "w14",
+      "t": "zurückkommen (ist zurückgekommen)",
+      "s": "to come back",
+      "emoji": "",
+      "ex": {
+        "t": "Wir sind am Sonntagabend zurückgekommen.",
+        "s": "We came back on Sunday evening."
+      }
+    },
+    {
+      "id": "w15",
+      "t": "gestern",
+      "s": "yesterday",
+      "emoji": "",
+      "ex": {
+        "t": "Gestern habe ich lange gearbeitet.",
+        "s": "Yesterday I worked late."
+      }
+    }
+  ],
+  "phrases": [
+    {
+      "id": "p01",
+      "t": "Wie war dein Wochenende?",
+      "s": "How was your weekend? (informal)"
+    },
+    {
+      "id": "p02",
+      "t": "Was hast du am Wochenende gemacht?",
+      "s": "What did you do on the weekend?"
+    },
+    {
+      "id": "p03",
+      "t": "Es war super!",
+      "s": "It was great!"
+    },
+    {
+      "id": "p04",
+      "t": "Nichts Besonderes.",
+      "s": "Nothing special."
+    },
+    {
+      "id": "p05",
+      "t": "Ich habe nicht viel gemacht.",
+      "s": "I didn't do much."
+    },
+    {
+      "id": "p06",
+      "t": "Das klingt toll!",
+      "s": "That sounds great!"
+    },
+    {
+      "id": "p07",
+      "t": "Schade!",
+      "s": "What a pity! / Too bad!"
+    },
+    {
+      "id": "p08",
+      "t": "Wann bist du nach Hause gekommen?",
+      "s": "When did you get home?"
+    }
+  ],
+  "dialogue": {
+    "title": {
+      "t": "Montagmorgen im Büro",
+      "s": "Monday morning at the office"
+    },
+    "speakers": {
+      "A": {
+        "name": "Jonas",
+        "voice": "m"
+      },
+      "B": {
+        "name": "Neda",
+        "voice": "f"
+      }
+    },
+    "lines": [
+      {
+        "sp": "A",
+        "t": "Guten Morgen, Neda! Wie war dein Wochenende?",
+        "s": "Good morning, Neda! How was your weekend?"
+      },
+      {
+        "sp": "B",
+        "t": "Super, danke! Am Samstag habe ich richtig ausgeschlafen. Dann haben wir die Wohnung aufgeräumt.",
+        "s": "Great, thanks! On Saturday I really slept in. Then we tidied up the apartment."
+      },
+      {
+        "sp": "A",
+        "t": "Und am Sonntag?",
+        "s": "And on Sunday?"
+      },
+      {
+        "sp": "B",
+        "t": "Am Sonntag sind wir an den Wannsee gefahren und haben ein Picknick gemacht. Das Wetter war toll!",
+        "s": "On Sunday we went to Lake Wannsee and had a picnic. The weather was great!"
+      },
+      {
+        "sp": "A",
+        "t": "Das klingt toll! Seid ihr auch schwimmen gegangen?",
+        "s": "That sounds great! Did you go swimming too?"
+      },
+      {
+        "sp": "B",
+        "t": "Nein, das Wasser war noch zu kalt. Aber wir sind lange am See spazieren gegangen. Und du? Was hast du gemacht?",
+        "s": "No, the water was still too cold. But we went for a long walk by the lake. And you? What did you do?"
+      },
+      {
+        "sp": "A",
+        "t": "Ich habe nicht viel gemacht. Am Samstag habe ich die Wäsche gewaschen und die Küche geputzt.",
+        "s": "I didn't do much. On Saturday I did the laundry and cleaned the kitchen."
+      },
+      {
+        "sp": "B",
+        "t": "Das klingt nach viel Arbeit!",
+        "s": "That sounds like a lot of work!"
+      },
+      {
+        "sp": "A",
+        "t": "Ja, aber am Sonntag habe ich nur gefaulenzt. Am Abend hat mich mein Bruder besucht, und wir haben zusammen gekocht.",
+        "s": "Yes, but on Sunday I just lazed around. In the evening my brother visited me, and we cooked together."
+      },
+      {
+        "sp": "B",
+        "t": "Schön! Und jetzt fängt die Woche wieder an.",
+        "s": "Nice! And now the week starts again."
+      },
+      {
+        "sp": "A",
+        "t": "Leider ja! Ich bin heute schon um fünf Uhr aufgewacht.",
+        "s": "Unfortunately, yes! I already woke up at five o'clock this morning."
+      },
+      {
+        "sp": "B",
+        "t": "Oh je! Dann brauchst du jetzt einen Kaffee!",
+        "s": "Oh dear! Then you need a coffee now!"
+      }
+    ]
+  },
+  "grammar": [
+    {
+      "id": "g01",
+      "title": {
+        "t": "Ich habe gekocht. Ich habe gelesen.",
+        "s": "The Perfekt with haben"
+      },
+      "explain": "To talk about the past in spoken German, use the **Perfekt**: a form of **haben** in position 2 + the **past participle** at the end of the sentence: **Ich habe Tee gekocht.** One German form covers English *I cooked* and *I have cooked*.\n**Regular verbs**: **ge- + stem + -t**: machen → **gemacht**, kochen → **gekocht**. After -t or -d you add **-et**: arbeiten → **gearbeitet**, reden → **geredet**.\n**Irregular verbs**: **ge- + stem + -en**, often with a vowel change – learn them together with the verb: lesen → **gelesen**, schlafen → **geschlafen**, essen → **gegessen**, trinken → **getrunken**, waschen → **gewaschen**, finden → **gefunden**.\n**Separable verbs** put **-ge-** between the prefix and the verb: aufräumen → **aufgeräumt**, einkaufen → **eingekauft**, anrufen → **angerufen**.\n**No ge-** for verbs with an unstressed prefix (**be-, ver-, er-**) and for verbs ending in **-ieren**: besuchen → **besucht**, verkaufen → **verkauft**, telefonieren → **telefoniert**.\nNote: for **sein** and **haben** themselves, Germans normally use the short past forms **war** (*was*) and **hatte** (*had*). Learn **Wie war …?** as a phrase for now – more in Unit 5.",
+      "table": [
+        [
+          "kochen",
+          "gekocht",
+          "Wir haben Reis gekocht."
+        ],
+        [
+          "arbeiten",
+          "gearbeitet",
+          "Sie hat viel gearbeitet."
+        ],
+        [
+          "lesen",
+          "gelesen",
+          "Ich habe ein Buch gelesen."
+        ],
+        [
+          "aufräumen",
+          "aufgeräumt",
+          "Er hat sein Zimmer aufgeräumt."
+        ],
+        [
+          "besuchen",
+          "besucht",
+          "Wir haben Oma besucht."
+        ],
+        [
+          "telefonieren",
+          "telefoniert",
+          "Ich habe mit Ali telefoniert."
+        ]
+      ],
+      "examples": [
+        {
+          "t": "Am Samstag habe ich die Wohnung geputzt.",
+          "s": "On Saturday I cleaned the apartment."
+        },
+        {
+          "t": "Hast du schon gefrühstückt?",
+          "s": "Have you had breakfast yet?"
+        },
+        {
+          "t": "Maryam hat am Wochenende viel gelesen.",
+          "s": "Maryam read a lot on the weekend."
+        },
+        {
+          "t": "Wir haben am Sonntag im Garten gegrillt.",
+          "s": "We had a barbecue in the yard on Sunday."
+        },
+        {
+          "t": "Ich habe Lukas angerufen, aber er hat nicht geantwortet.",
+          "s": "I called Lukas, but he didn't answer."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "choice",
+          "t": "Am Samstag habe ich lange ___.",
+          "options": [
+            "geschlaft",
+            "geschlafen",
+            "schlafen"
+          ],
+          "answer": 1,
+          "s": "On Saturday I slept for a long time."
+        },
+        {
+          "type": "choice",
+          "t": "Reza hat mit seiner Mutter ___.",
+          "options": [
+            "telefoniert",
+            "getelefoniert",
+            "telefonieren"
+          ],
+          "answer": 0,
+          "s": "Reza talked to his mother on the phone."
+        },
+        {
+          "type": "choice",
+          "t": "Wir haben gestern Oma ___.",
+          "options": [
+            "gebesucht",
+            "besucht",
+            "besuchen"
+          ],
+          "answer": 1,
+          "s": "We visited Grandma yesterday."
+        },
+        {
+          "type": "type",
+          "t": "Hast du dein Zimmer ___?",
+          "answer": [
+            "aufgeräumt",
+            "aufgeraeumt"
+          ],
+          "s": "Have you tidied up your room?"
+        },
+        {
+          "type": "type",
+          "t": "Was ___ ihr am Wochenende gemacht?",
+          "answer": [
+            "habt"
+          ],
+          "s": "What did you (all) do on the weekend?"
+        },
+        {
+          "type": "type",
+          "t": "Ich habe Lukas ___, aber er war nicht zu Hause.",
+          "answer": [
+            "angerufen"
+          ],
+          "s": "I called Lukas, but he wasn't at home."
+        },
+        {
+          "type": "order",
+          "t": "Was hast du am Wochenende gemacht?",
+          "s": "What did you do on the weekend?"
+        },
+        {
+          "type": "order",
+          "t": "Habt ihr gestern Fußball gespielt?",
+          "s": "Did you (all) play soccer yesterday?"
+        }
+      ]
+    },
+    {
+      "id": "g02",
+      "title": {
+        "t": "Ich bin gefahren. Er ist aufgewacht.",
+        "s": "The Perfekt with sein"
+      },
+      "explain": "Some verbs form the Perfekt with **sein** instead of haben: **Ich bin nach Hause gefahren.**\nUse **sein** with verbs of **movement from one place to another** (gehen, fahren, kommen, fliegen, laufen) and verbs of **change of state** (aufwachen, aufstehen, einschlafen, werden): **Er ist um sieben aufgestanden.**\nTwo important extra verbs: **bleiben** and **sein** itself also take sein: **Ich bin zu Hause geblieben.** **Ich bin schon einmal in Berlin gewesen.**\nMost of these verbs are irregular, so the participle ends in **-en**: gehen → **gegangen**, fahren → **gefahren**, kommen → **gekommen**, fliegen → **geflogen**, bleiben → **geblieben**, einschlafen → **eingeschlafen**. But: aufwachen → **aufgewacht** (regular).\nTip: **haben** is the normal case – most verbs take haben. A verb with an accusative object (Ich habe **einen Film** gesehen) almost always takes haben.",
+      "table": [
+        [
+          "gehen",
+          "ist gegangen",
+          "Bewegung"
+        ],
+        [
+          "fahren",
+          "ist gefahren",
+          "Bewegung"
+        ],
+        [
+          "kommen",
+          "ist gekommen",
+          "Bewegung"
+        ],
+        [
+          "aufwachen",
+          "ist aufgewacht",
+          "Zustandswechsel"
+        ],
+        [
+          "einschlafen",
+          "ist eingeschlafen",
+          "Zustandswechsel"
+        ],
+        [
+          "bleiben",
+          "ist geblieben",
+          "Ausnahme"
+        ],
+        [
+          "sein",
+          "ist gewesen",
+          "Ausnahme"
+        ]
+      ],
+      "examples": [
+        {
+          "t": "Am Samstag sind wir nach Hamburg gefahren.",
+          "s": "On Saturday we went to Hamburg."
+        },
+        {
+          "t": "Wann bist du gestern nach Hause gekommen?",
+          "s": "When did you get home yesterday?"
+        },
+        {
+          "t": "Das Baby ist um acht Uhr eingeschlafen.",
+          "s": "The baby fell asleep at eight o'clock."
+        },
+        {
+          "t": "Am Sonntag bin ich zu Hause geblieben.",
+          "s": "On Sunday I stayed at home."
+        },
+        {
+          "t": "Seid ihr schon einmal in Wien gewesen?",
+          "s": "Have you (all) ever been to Vienna?"
+        }
+      ],
+      "exercises": [
+        {
+          "type": "choice",
+          "t": "Wir ___ am Sonntag in den Park gegangen.",
+          "options": [
+            "haben",
+            "sind",
+            "seid"
+          ],
+          "answer": 1,
+          "s": "We went to the park on Sunday."
+        },
+        {
+          "type": "choice",
+          "t": "Ich ___ heute sehr früh aufgewacht.",
+          "options": [
+            "habe",
+            "bin",
+            "ist"
+          ],
+          "answer": 1,
+          "s": "I woke up very early today."
+        },
+        {
+          "type": "choice",
+          "t": "Lukas ___ am Wochenende viel gelesen.",
+          "options": [
+            "hat",
+            "ist"
+          ],
+          "answer": 0,
+          "s": "Lukas read a lot on the weekend."
+        },
+        {
+          "type": "choice",
+          "t": "Das Kind ist sofort ___.",
+          "options": [
+            "eingeschlafen",
+            "geeinschlafen",
+            "einschlafen"
+          ],
+          "answer": 0,
+          "s": "The child fell asleep right away."
+        },
+        {
+          "type": "type",
+          "t": "Am Samstag ___ Maryam zu Hause geblieben.",
+          "answer": [
+            "ist"
+          ],
+          "s": "On Saturday Maryam stayed at home."
+        },
+        {
+          "type": "type",
+          "t": "___ du schon einmal in Hamburg gewesen?",
+          "answer": [
+            "Bist"
+          ],
+          "s": "Have you ever been to Hamburg?"
+        },
+        {
+          "type": "type",
+          "t": "Wann seid ihr gestern nach Hause ___?",
+          "answer": [
+            "gekommen",
+            "gefahren",
+            "gegangen",
+            "zurückgekommen",
+            "zurueckgekommen",
+            "gelaufen"
+          ],
+          "s": "When did you (all) get home yesterday?"
+        },
+        {
+          "type": "order",
+          "t": "Seid ihr am Sonntag zu Hause geblieben?",
+          "s": "Did you (all) stay at home on Sunday?"
+        }
+      ]
+    }
+  ],
+  "reading": {
+    "title": {
+      "t": "Eine E-Mail von Sara",
+      "s": "An email from Sara"
+    },
+    "text": [
+      {
+        "t": "Liebe Anna, wie geht es dir?",
+        "s": "Dear Anna, how are you?"
+      },
+      {
+        "t": "Mein Wochenende war sehr schön.",
+        "s": "My weekend was very nice."
+      },
+      {
+        "t": "Am Samstag bin ich spät aufgewacht und habe lange gefrühstückt.",
+        "s": "On Saturday I woke up late and had a long breakfast."
+      },
+      {
+        "t": "Dann haben Ali und ich die Wohnung aufgeräumt und die Wäsche gewaschen.",
+        "s": "Then Ali and I tidied up the apartment and did the laundry."
+      },
+      {
+        "t": "Am Nachmittag sind wir auf den Flohmarkt gegangen.",
+        "s": "In the afternoon we went to the flea market."
+      },
+      {
+        "t": "Dort habe ich eine alte Lampe für fünf Euro gekauft.",
+        "s": "There I bought an old lamp for five euros."
+      },
+      {
+        "t": "Am Sonntag haben wir Alis Eltern besucht.",
+        "s": "On Sunday we visited Ali's parents."
+      },
+      {
+        "t": "Seine Mutter hat Reis mit Hähnchen gekocht – sehr lecker!",
+        "s": "His mother cooked rice with chicken – very tasty!"
+      },
+      {
+        "t": "Am Abend sind wir nach Hause gefahren, und ich bin sofort eingeschlafen.",
+        "s": "In the evening we went home, and I fell asleep right away."
+      },
+      {
+        "t": "Und was hast du am Wochenende gemacht? Liebe Grüße, Sara",
+        "s": "And what did you do on the weekend? Best wishes, Sara"
+      }
+    ],
+    "questions": [
+      {
+        "q": {
+          "t": "Wann ist Sara am Samstag aufgewacht?",
+          "s": "When did Sara wake up on Saturday?"
+        },
+        "options": [
+          "früh",
+          "spät",
+          "um sechs Uhr"
+        ],
+        "answer": 1
+      },
+      {
+        "q": {
+          "t": "Was hat Sara auf dem Flohmarkt gekauft?",
+          "s": "What did Sara buy at the flea market?"
+        },
+        "options": [
+          "eine Lampe",
+          "ein Buch",
+          "einen Stuhl"
+        ],
+        "answer": 0
+      },
+      {
+        "q": {
+          "t": "Wen haben Sara und Ali am Sonntag besucht?",
+          "s": "Who did Sara and Ali visit on Sunday?"
+        },
+        "options": [
+          "Saras Schwester",
+          "Alis Eltern",
+          "Anna"
+        ],
+        "answer": 1
+      },
+      {
+        "q": {
+          "t": "Was hat Alis Mutter gekocht?",
+          "s": "What did Ali's mother cook?"
+        },
+        "options": [
+          "Suppe",
+          "Reis mit Hähnchen",
+          "Salat"
+        ],
+        "answer": 1
+      },
+      {
+        "q": {
+          "t": "Was hat Sara am Abend gemacht?",
+          "s": "What did Sara do in the evening?"
+        },
+        "options": [
+          "Sie hat ferngesehen.",
+          "Sie ist sofort eingeschlafen.",
+          "Sie hat ein Buch gelesen."
+        ],
+        "answer": 1
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "t": "Gestern habe ich drei Stunden gearbeitet.",
+      "s": "Yesterday I worked for three hours."
+    },
+    {
+      "t": "Wir haben am Sonntag einen Kuchen gebacken.",
+      "s": "We baked a cake on Sunday."
+    },
+    {
+      "t": "Hast du die Wäsche schon gewaschen?",
+      "s": "Have you done the laundry yet?"
+    },
+    {
+      "t": "Neda ist am Samstag nach Köln gefahren.",
+      "s": "Neda went to Cologne on Saturday."
+    },
+    {
+      "t": "Ich bin gestern Abend früh eingeschlafen.",
+      "s": "I fell asleep early last night."
+    },
+    {
+      "t": "Die Kinder haben im Park Fußball gespielt.",
+      "s": "The children played soccer in the park."
+    },
+    {
+      "t": "Am Sonntag sind wir zu Hause geblieben.",
+      "s": "On Sunday we stayed at home."
+    },
+    {
+      "t": "Habt ihr am Wochenende Freunde getroffen?",
+      "s": "Did you (all) meet friends on the weekend?"
+    }
+  ]
+}

@@ -1,0 +1,732 @@
+{
+  "id": "u10",
+  "level": "C1",
+  "emoji": "🎤",
+  "title": {
+    "t": "Sunum ve münazara",
+    "s": "ارائه و مناظره"
+  },
+  "goals": [
+    "یک ارائه‌ی رسمی را با عبارت‌های سازمان‌دهنده (öncelikle، ikinci olarak، özetlemek gerekirse، sonuç olarak) شروع کنم، مرتب پیش ببرم و جمع‌بندی کنم.",
+    "در مناظره به سؤال‌ها و ایرادها پاسخ بدهم و وقت صحبتم را مدیریت کنم.",
+    "چند اصطلاح و ضرب‌المثل پیشرفته (taşı gediğine koymak، ağzıyla kuş tutsa…) را درست و به‌جا به کار ببرم.",
+    "متن یک سخنرانی کوتاه را بخوانم و ساختار و استدلال‌هایش را تشخیص دهم."
+  ],
+  "words": [
+    {
+      "id": "w01",
+      "t": "sunum",
+      "pl": "sunumlar",
+      "s": "ارائه (پرزنتیشن)",
+      "pr": "سونوم",
+      "emoji": "📊",
+      "ex": {
+        "t": "Yarınki sunumuma hâlâ hazırlanıyorum.",
+        "s": "هنوز دارم برای ارائه‌ی فردایم آماده می‌شوم."
+      }
+    },
+    {
+      "id": "w02",
+      "t": "münazara",
+      "pl": "münazaralar",
+      "s": "مناظره",
+      "pr": "مونازارا",
+      "emoji": "",
+      "ex": {
+        "t": "Münazarada iki takım karşıt görüşleri savunur.",
+        "s": "در مناظره دو تیم از دیدگاه‌های مخالف دفاع می‌کنند."
+      }
+    },
+    {
+      "id": "w03",
+      "t": "konuşmacı",
+      "pl": "konuşmacılar",
+      "s": "سخنران",
+      "pr": "کُنوشماجِ",
+      "emoji": "🎤",
+      "ex": {
+        "t": "Konuşmacı sözlerine küçük bir hikâyeyle başladı.",
+        "s": "سخنران حرف‌هایش را با یک داستان کوتاه شروع کرد."
+      }
+    },
+    {
+      "id": "w04",
+      "t": "dinleyici",
+      "pl": "dinleyiciler",
+      "s": "شنونده؛ حاضران",
+      "pr": "دینلِییجی",
+      "emoji": "",
+      "ex": {
+        "t": "Dinleyicilerle göz teması kurmak çok önemlidir.",
+        "s": "برقراری تماس چشمی با شنوندگان بسیار مهم است."
+      }
+    },
+    {
+      "id": "w05",
+      "t": "slayt",
+      "pl": "slaytlar",
+      "s": "اسلاید",
+      "pr": "سْلایت",
+      "emoji": "",
+      "ex": {
+        "t": "Slaytlarınıza çok fazla yazı koymayın.",
+        "s": "روی اسلایدهایتان بیش از حد متن نگذارید."
+      }
+    },
+    {
+      "id": "w06",
+      "t": "itiraz",
+      "pl": "itirazlar",
+      "s": "اعتراض؛ ایراد",
+      "pr": "ایتیراز",
+      "emoji": "",
+      "ex": {
+        "t": "Jüri üyelerinden biri ciddi bir itirazda bulundu.",
+        "s": "یکی از داوران ایراد جدی‌ای مطرح کرد."
+      }
+    },
+    {
+      "id": "w07",
+      "t": "jüri",
+      "s": "هیئت داوران",
+      "pr": "ژوری",
+      "emoji": "",
+      "ex": {
+        "t": "Jüri, en ikna edici konuşmayı yapan takımı seçti.",
+        "s": "هیئت داوران تیمی را انتخاب کرد که قانع‌کننده‌ترین سخنرانی را داشت."
+      }
+    },
+    {
+      "id": "w08",
+      "t": "ikna etmek",
+      "s": "قانع کردن",
+      "pr": "ایکنا اِتمِک",
+      "emoji": "",
+      "ex": {
+        "t": "Sonunda patronumu yeni projeye ikna ettim.",
+        "s": "سرانجام رئیسم را درباره‌ی پروژه‌ی جدید قانع کردم."
+      }
+    },
+    {
+      "id": "w09",
+      "t": "sahne korkusu",
+      "s": "ترس از صحنه",
+      "pr": "ساهنِه کُرکوسو",
+      "emoji": "😰",
+      "ex": {
+        "t": "Sahne korkusunu yenmek için çok pratik yaptı.",
+        "s": "برای غلبه بر ترس از صحنه، خیلی تمرین کرد."
+      }
+    },
+    {
+      "id": "w10",
+      "t": "beden dili",
+      "s": "زبان بدن",
+      "pr": "بِدِن دیلی",
+      "emoji": "",
+      "ex": {
+        "t": "Beden diliniz, sözlerinizden daha çok şey anlatabilir.",
+        "s": "زبان بدنتان می‌تواند بیشتر از حرف‌هایتان چیز بگوید."
+      }
+    },
+    {
+      "id": "w11",
+      "t": "akıcı",
+      "s": "روان (در سخن گفتن)",
+      "pr": "آکِجِ",
+      "emoji": "",
+      "ex": {
+        "t": "Çok akıcı konuşuyor, hiç takılmıyor.",
+        "s": "خیلی روان حرف می‌زند، اصلاً گیر نمی‌کند."
+      }
+    },
+    {
+      "id": "w12",
+      "t": "toparlamak",
+      "s": "جمع‌بندی کردن؛ جمع‌وجور کردن",
+      "pr": "تُپارلاماک",
+      "emoji": "",
+      "ex": {
+        "t": "Vaktimiz azaldı, konuyu toparlayalım.",
+        "s": "وقتمان کم شده، بحث را جمع‌بندی کنیم."
+      }
+    },
+    {
+      "id": "w13",
+      "t": "soru-cevap bölümü",
+      "s": "بخش پرسش و پاسخ",
+      "pr": "سُرو جِواپ بُلومو",
+      "emoji": "",
+      "ex": {
+        "t": "Sunumdan sonra on dakikalık bir soru-cevap bölümü olacak.",
+        "s": "بعد از ارائه، یک بخش ده‌دقیقه‌ای پرسش و پاسخ خواهیم داشت."
+      }
+    },
+    {
+      "id": "w14",
+      "t": "süreyi aşmak",
+      "s": "از وقت مقرر فراتر رفتن",
+      "pr": "سورِیی آشماک",
+      "emoji": "⏱️",
+      "ex": {
+        "t": "Konuşmacı süreyi aştığı için sözü kesildi.",
+        "s": "چون سخنران از وقتش فراتر رفت، حرفش را قطع کردند."
+      }
+    },
+    {
+      "id": "w15",
+      "t": "hitabet",
+      "s": "فن بیان؛ سخنوری",
+      "pr": "هیتابِت",
+      "emoji": "",
+      "ex": {
+        "t": "Hitabet yeteneği doğuştan gelmez, çalışarak gelişir.",
+        "s": "مهارت سخنوری مادرزادی نیست، با تمرین رشد می‌کند."
+      }
+    }
+  ],
+  "phrases": [
+    {
+      "id": "p01",
+      "t": "Hepinize hoş geldiniz demek istiyorum.",
+      "s": "می‌خواهم به همه‌ی شما خوشامد بگویم.",
+      "pr": "هِپینیزِه هُش گِلدینیز دِمِک ایستیُروم."
+    },
+    {
+      "id": "p02",
+      "t": "Sözü fazla uzatmadan konuya geçmek istiyorum.",
+      "s": "بی‌آنکه حرف را طولانی کنم، می‌خواهم به اصل موضوع بپردازم.",
+      "pr": "سُزو فازلا اوزاتمادان کُنویا گِچمِک ایستیُروم."
+    },
+    {
+      "id": "p03",
+      "t": "Bu slayta dikkatinizi çekmek istiyorum.",
+      "s": "می‌خواهم توجهتان را به این اسلاید جلب کنم.",
+      "pr": "بو سْلایتا دیکّاتینیزی چِکمِک ایستیُروم."
+    },
+    {
+      "id": "p04",
+      "t": "Bu noktaya birazdan değineceğim.",
+      "s": "کمی بعد به این نکته می‌پردازم.",
+      "pr": "بو نُکتایا بیرازدان دِیینِجِییم."
+    },
+    {
+      "id": "p05",
+      "t": "Sorularınızı sunumun sonunda alabilirim.",
+      "s": "سؤال‌هایتان را می‌توانم در پایان ارائه پاسخ دهم.",
+      "pr": "سُرولارِنِزِ سونومون سُنوندا آلابیلیریم."
+    },
+    {
+      "id": "p06",
+      "t": "Sorunuzu biraz açar mısınız?",
+      "s": "می‌شود سؤالتان را کمی بازتر کنید؟",
+      "pr": "سُرونوزو بیراز آچار مِسِنِز؟"
+    },
+    {
+      "id": "p07",
+      "t": "Vaktimizin sonuna geldik.",
+      "s": "به پایان وقتمان رسیدیم.",
+      "pr": "واکتیمیزین سُنونا گِلدیک."
+    },
+    {
+      "id": "p08",
+      "t": "Beni dinlediğiniz için teşekkür ederim.",
+      "s": "ممنونم که به حرف‌هایم گوش دادید.",
+      "pr": "بِنی دینلِدیینیز ایچین تِشِکّور اِدِریم."
+    }
+  ],
+  "dialogue": {
+    "title": {
+      "t": "Münazara finaline hazırlık",
+      "s": "آمادگی برای فینال مناظره"
+    },
+    "speakers": {
+      "A": {
+        "name": "Ayşe",
+        "voice": "f"
+      },
+      "B": {
+        "name": "Amir",
+        "voice": "m"
+      }
+    },
+    "lines": [
+      {
+        "sp": "A",
+        "t": "Amir, yarınki münazara finali için açılış konuşmanı dinleyelim mi?",
+        "s": "امیر، سخنرانی افتتاحیه‌ات را برای فینال مناظره‌ی فردا گوش کنیم؟"
+      },
+      {
+        "sp": "B",
+        "t": "Tabii. Öncelikle jüriye ve rakip takıma teşekkür ediyorum. Bugün okul üniformasının zorunlu olmaması gerektiğini savunacağız.",
+        "s": "حتماً. پیش از هر چیز از هیئت داوران و تیم رقیب تشکر می‌کنم. امروز از این دیدگاه دفاع خواهیم کرد که لباس فرم مدرسه نباید اجباری باشد."
+      },
+      {
+        "sp": "A",
+        "t": "Güzel bir başlangıç. Peki argümanlarını nasıl sıralayacaksın?",
+        "s": "شروع خوبی است. خب، استدلال‌هایت را به چه ترتیبی می‌آوری؟"
+      },
+      {
+        "sp": "B",
+        "t": "İlk olarak ifade özgürlüğünden bahsedeceğim, ikinci olarak ailelere düşen maliyete değineceğim. Son olarak da başka ülkelerden örnekler vereceğim.",
+        "s": "اول از آزادی بیان حرف می‌زنم، دوم به هزینه‌ای که بر دوش خانواده‌هاست اشاره می‌کنم. در آخر هم از کشورهای دیگر مثال می‌آورم."
+      },
+      {
+        "sp": "A",
+        "t": "Mantıklı. Ama rakip takım, üniformanın eşitlik sağladığını söyleyecektir. Buna ne cevap vereceksin?",
+        "s": "منطقی است. اما تیم رقیب حتماً خواهد گفت که لباس فرم برابری ایجاد می‌کند. به این چه جوابی می‌دهی؟"
+      },
+      {
+        "sp": "B",
+        "t": "Eşitliğin kıyafetle değil, eğitimdeki fırsatlarla sağlanacağını söyleyeceğim.",
+        "s": "می‌گویم که برابری با لباس تأمین نمی‌شود، بلکه با فرصت‌های آموزشی."
+      },
+      {
+        "sp": "A",
+        "t": "İşte bu! Böyle dersen taşı tam gediğine koyarsın. Yalnız çok hızlı konuşuyorsun; dinleyiciler seni takip edemeyebilir.",
+        "s": "همین است! اگر این را بگویی، حرف را درست به هدف می‌زنی. فقط خیلی تند حرف می‌زنی؛ ممکن است شنونده‌ها نتوانند دنبالت کنند."
+      },
+      {
+        "sp": "B",
+        "t": "Haklısınız, heyecanlanınca hızlanıyorum. Peki ya rakiplerimiz çok iyi hazırlanmışsa?",
+        "s": "حق با شماست، هیجان‌زده که می‌شوم تند می‌شوم. خب، اگر رقیب‌هایمان خیلی خوب آماده شده باشند چه؟"
+      },
+      {
+        "sp": "A",
+        "t": "Sen iyi hazırlanırsan rakip takım ağzıyla kuş tutsa seni yenemez.",
+        "s": "اگر تو خوب آماده شوی، تیم رقیب هر کاری هم بکند نمی‌تواند شکستت بدهد."
+      },
+      {
+        "sp": "B",
+        "t": "Son olarak, konuşmamı nasıl bitirmeliyim?",
+        "s": "در آخر، سخنرانی‌ام را چطور تمام کنم؟"
+      },
+      {
+        "sp": "A",
+        "t": "Kısa bir özetle bitir: “Özetlemek gerekirse” de ve ana fikrini tek bir cümlede tekrarla. Sonra da süreyi aşmadan teşekkür et.",
+        "s": "با یک خلاصه‌ی کوتاه تمامش کن: بگو «به‌طور خلاصه» و ایده‌ی اصلی‌ات را در یک جمله تکرار کن. بعد هم بی‌آنکه از وقتت فراتر بروی، تشکر کن."
+      }
+    ]
+  },
+  "grammar": [
+    {
+      "id": "g01",
+      "title": {
+        "t": "Öncelikle… İkinci olarak… Özetlemek gerekirse… Sonuç olarak…",
+        "s": "زبان ارائه: سازمان دادن به سخن"
+      },
+      "explain": "یک ارائه‌ی خوب ساختار روشنی دارد و شنونده همیشه می‌داند کجای بحث است. ترکی برای هر مرحله عبارت‌های ثابتی دارد:\n**شروع و ترتیب**: **öncelikle** (پیش از هر چیز)، **ilk olarak / birinci olarak** (اول)، **ikinci olarak** (دوم)، **ardından / daha sonra** (سپس)، **son olarak** (در آخر). دقت کنید: **öncelikle** یعنی «پیش از همه» و اغلب برای تشکر یا مهم‌ترین نکته می‌آید: **Öncelikle** hepinize teşekkür ederim.\n**افزودن و ارجاع**: **bunun yanı sıra** (علاوه بر این)، **daha önce de belirttiğim gibi** (همان‌طور که پیش‌تر گفتم)، **-(y)e / -(y)a gelince** (و اما درباره‌ی…): Maliyet**e gelince**, bütçemizi aşmıyor.\n**جمع‌بندی**: **özetlemek gerekirse** (به‌طور خلاصه) و **kısacası** (خلاصه اینکه) نکته‌ها را مرور می‌کنند؛ **sonuç olarak** (در نتیجه، در پایان) نتیجه‌ی نهایی را می‌گوید. الگوی **-mek gerekirse** («اگر لازم باشد … کنیم») در عبارت‌های دیگری هم هست: **açık söylemek gerekirse** (راستش را بخواهید)، **bir örnek vermek gerekirse** (اگر بخواهم مثالی بزنم).\nبعد از این عبارت‌ها معمولاً **ویرگول** می‌آید: İkinci olarak, … / Sonuç olarak, …",
+      "table": [
+        [
+          "başlangıç",
+          "Öncelikle…",
+          "İlk olarak…"
+        ],
+        [
+          "devam",
+          "İkinci olarak…",
+          "Bunun yanı sıra…"
+        ],
+        [
+          "geçiş",
+          "Maliyete gelince…",
+          "Ardından…"
+        ],
+        [
+          "özet",
+          "Özetlemek gerekirse…",
+          "Kısacası…"
+        ],
+        [
+          "bitiş",
+          "Son olarak…",
+          "Sonuç olarak…"
+        ]
+      ],
+      "examples": [
+        {
+          "t": "Öncelikle bu davet için organizatörlere teşekkür ederim.",
+          "s": "پیش از هر چیز به خاطر این دعوت از برگزارکنندگان تشکر می‌کنم."
+        },
+        {
+          "t": "İlk olarak sorunun nedenlerine, ikinci olarak çözüm önerilerine değineceğim.",
+          "s": "اول به علت‌های مشکل و دوم به راه‌حل‌های پیشنهادی می‌پردازم."
+        },
+        {
+          "t": "Maliyete gelince, bu proje bütçemizi aşmıyor.",
+          "s": "و اما هزینه؛ این پروژه از بودجه‌ی ما فراتر نمی‌رود."
+        },
+        {
+          "t": "Özetlemek gerekirse, üç temel sorunla karşı karşıyayız.",
+          "s": "به‌طور خلاصه، با سه مشکل اساسی روبه‌روییم."
+        },
+        {
+          "t": "Sonuç olarak, bu yöntemin hem ucuz hem de etkili olduğunu düşünüyoruz.",
+          "s": "در نتیجه، فکر می‌کنیم این روش هم ارزان است و هم مؤثر."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "choice",
+          "t": "___, sunuma başlamadan önce hepinize teşekkür etmek istiyorum.",
+          "options": [
+            "Öncelikle",
+            "Sonuç olarak",
+            "Kısacası"
+          ],
+          "answer": 0,
+          "s": "پیش از هر چیز، قبل از شروع ارائه می‌خواهم از همه‌ی شما تشکر کنم."
+        },
+        {
+          "type": "choice",
+          "t": "___, bugün üç temel konuyu ele aldık: maliyet, zaman ve kalite.",
+          "options": [
+            "Özetlemek gerekirse",
+            "Öncelikle",
+            "İkinci olarak"
+          ],
+          "answer": 0,
+          "s": "به‌طور خلاصه، امروز سه موضوع اصلی را بررسی کردیم: هزینه، زمان و کیفیت."
+        },
+        {
+          "type": "choice",
+          "t": "___ gelince, projeyi iki ayda bitirebiliriz.",
+          "options": [
+            "Zamana",
+            "Zamanı",
+            "Zamanda"
+          ],
+          "answer": 0,
+          "s": "و اما زمان؛ می‌توانیم پروژه را در دو ماه تمام کنیم."
+        },
+        {
+          "type": "choice",
+          "t": "İlk olarak sorunu tanımlayacağım, ___ çözüm önerilerimi sunacağım.",
+          "options": [
+            "ikinci olarak",
+            "öncelikle",
+            "özetlemek gerekirse"
+          ],
+          "answer": 0,
+          "s": "اول مشکل را تعریف می‌کنم، دوم راه‌حل‌های پیشنهادی‌ام را ارائه می‌دهم."
+        },
+        {
+          "type": "type",
+          "t": "Bir örnek vermek ___, geçen yıl satışlarımız yüzde yirmi arttı.",
+          "answer": [
+            "gerekirse"
+          ],
+          "s": "اگر بخواهم مثالی بزنم، پارسال فروش ما بیست درصد افزایش یافت."
+        },
+        {
+          "type": "type",
+          "t": "Son ___, sorularınızı almak istiyorum.",
+          "answer": [
+            "olarak"
+          ],
+          "s": "در آخر، می‌خواهم به سؤال‌هایتان پاسخ دهم."
+        },
+        {
+          "type": "type",
+          "t": "Bunun yanı ___, projenin çevreye de faydası var.",
+          "answer": [
+            "sıra"
+          ],
+          "s": "علاوه بر این، پروژه برای محیط زیست هم مفید است."
+        },
+        {
+          "type": "order",
+          "t": "Sonuç olarak bu öneriyi destekliyoruz.",
+          "s": "در نتیجه، از این پیشنهاد حمایت می‌کنیم."
+        }
+      ]
+    },
+    {
+      "id": "g02",
+      "title": {
+        "t": "Taşı gediğine koymak, ağzıyla kuş tutsa",
+        "s": "اصطلاح‌ها و ضرب‌المثل‌های پیشرفته"
+      },
+      "explain": "در B2 اصطلاح‌های پرکاربرد را یاد گرفتید. در C1 مهم این است که اصطلاح را **به‌جا** و با **دستور درست** به کار ببرید؛ به‌خصوص در بحث و ارائه، که یک اصطلاح خوب حرف را ماندگار می‌کند.\n**taşı gediğine koymak** = «حرف را درست سر جایش زدن؛ جوابِ به‌جا و دندان‌شکن دادن» (gedik = شکاف دیوار؛ یعنی سنگ را درست در شکافش گذاشتن): Sunumun sonunda öyle bir cümle kurdu ki **taşı gediğine koydu**.\n**ağzıyla kuş tutsa** = «هر کاری هم بکند، حتی اگر معجزه کند»؛ همیشه با **-sa** (شرط) می‌آید و جمله‌ی دوم نشان می‌دهد که تلاشش **بی‌فایده** است. ağız پسوند ملکیِ هماهنگ با فاعل می‌گیرد: ağz**ım**la kuş tut**sam**، ağz**ın**la kuş tut**san**، ağz**ı**yla kuş tut**sa**: **Ağzıyla kuş tutsa** onu bu takıma almazlar.\n**lafı dolandırmak** = «حاشیه رفتن» ↔ **sadede gelmek** = «سر اصل مطلب آمدن»: Lafı dolandırma, **sadede gel**! **kılı kırk yarmak** = «مو را از ماست کشیدن؛ بیش از حد موشکافی کردن». **çam devirmek** = «گاف دادن؛ حرف نسنجیده‌ای زدن که کسی را برنجاند».\nچند ضرب‌المثل هم معادل نزدیکی در فارسی دارند: **Dereyi görmeden paçaları sıvama.** = آب ندیده موزه نکش؛ **Söz gümüşse sükût altındır.** = سخن اگر نقره است، سکوت طلاست؛ **Lafla peynir gemisi yürümez.** = به حلوا حلوا گفتن دهان شیرین نمی‌شود.",
+      "table": [
+        [
+          "ben",
+          "ağzımla kuş tutsam"
+        ],
+        [
+          "sen",
+          "ağzınla kuş tutsan"
+        ],
+        [
+          "o",
+          "ağzıyla kuş tutsa"
+        ],
+        [
+          "biz",
+          "ağzımızla kuş tutsak"
+        ],
+        [
+          "siz",
+          "ağzınızla kuş tutsanız"
+        ],
+        [
+          "onlar",
+          "ağızlarıyla kuş tutsalar"
+        ]
+      ],
+      "examples": [
+        {
+          "t": "Ayşe her soruda taşı gediğine koydu ve jüriyi etkiledi.",
+          "s": "آیشه در جواب هر سؤال حرف را درست به هدف زد و داوران را تحت تأثیر قرار داد."
+        },
+        {
+          "t": "Ağzıyla kuş tutsa patronunu bu fikre ikna edemez.",
+          "s": "هر کاری هم بکند، نمی‌تواند رئیسش را به این ایده قانع کند."
+        },
+        {
+          "t": "Lütfen lafı dolandırmadan sadede gelin; vaktimiz kısıtlı.",
+          "s": "لطفاً بی‌آنکه حاشیه بروید، سر اصل مطلب بیایید؛ وقتمان محدود است."
+        },
+        {
+          "t": "Toplantıda yine çam devirdi ve müdürü kırdı.",
+          "s": "در جلسه باز گاف داد و دل مدیر را شکست."
+        },
+        {
+          "t": "Sonuçlar henüz açıklanmadı; dereyi görmeden paçaları sıvamayalım.",
+          "s": "نتیجه‌ها هنوز اعلام نشده؛ آب ندیده موزه نکشیم."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "choice",
+          "t": "Tartışmada çok yerinde bir cevap verdi; tam anlamıyla taşı ___ koydu.",
+          "options": [
+            "gediğine",
+            "gediğini",
+            "gedikte"
+          ],
+          "answer": 0,
+          "s": "در بحث جوابی کاملاً به‌جا داد؛ به معنای واقعی کلمه حرف را درست به هدف زد."
+        },
+        {
+          "type": "choice",
+          "t": "Ben ___ kuş tutsam da onu ikna edemem.",
+          "options": [
+            "ağzımla",
+            "ağzıyla",
+            "ağzınla"
+          ],
+          "answer": 0,
+          "s": "من هر کاری هم بکنم، نمی‌توانم قانعش کنم."
+        },
+        {
+          "type": "choice",
+          "t": "Konuşmacı yirmi dakikadır ___; hâlâ asıl konuya gelmedi.",
+          "options": [
+            "lafı dolandırıyor",
+            "taşı gediğine koyuyor",
+            "sadede geliyor"
+          ],
+          "answer": 0,
+          "s": "سخنران بیست دقیقه است که حاشیه می‌رود؛ هنوز به موضوع اصلی نرسیده."
+        },
+        {
+          "type": "choice",
+          "t": "Sözleşmeyi iki saat boyunca virgülüne kadar inceledi; gerçekten ___.",
+          "options": [
+            "kılı kırk yardı",
+            "çam devirdi",
+            "lafı dolandırdı"
+          ],
+          "answer": 0,
+          "s": "دو ساعت تمام قرارداد را تا ویرگولش بررسی کرد؛ واقعاً مو را از ماست کشید."
+        },
+        {
+          "type": "type",
+          "t": "Lafı dolandırma, ___ gel!",
+          "answer": [
+            "sadede"
+          ],
+          "s": "حاشیه نرو، برو سر اصل مطلب!"
+        },
+        {
+          "type": "type",
+          "t": "Söz gümüşse sükût ___.",
+          "answer": [
+            "altındır"
+          ],
+          "s": "سخن اگر نقره است، سکوت طلاست."
+        },
+        {
+          "type": "type",
+          "t": "Daha iş teklifi gelmeden istifa mı edeceksin? Dereyi görmeden ___ sıvama!",
+          "answer": [
+            "paçaları"
+          ],
+          "s": "هنوز پیشنهاد کاری نرسیده می‌خواهی استعفا بدهی؟ آب ندیده موزه نکش!"
+        },
+        {
+          "type": "order",
+          "t": "Lafla peynir gemisi yürümez.",
+          "s": "به حلوا حلوا گفتن دهان شیرین نمی‌شود."
+        }
+      ]
+    }
+  ],
+  "reading": {
+    "title": {
+      "t": "Konuşmaktan korkmayın!",
+      "s": "از سخن گفتن نترسید!"
+    },
+    "text": [
+      {
+        "t": "Değerli jüri üyeleri, sevgili arkadaşlar, öncelikle hepinize hoş geldiniz diyorum.",
+        "s": "اعضای محترم هیئت داوران، دوستان عزیز، پیش از هر چیز به همه‌ی شما خوشامد می‌گویم."
+      },
+      {
+        "t": "Bugün size, topluluk önünde konuşmanın neden herkes için önemli bir beceri olduğunu anlatacağım.",
+        "s": "امروز برایتان توضیح می‌دهم که چرا سخن گفتن در جمع برای همه مهارتی مهم است."
+      },
+      {
+        "t": "Birçok insan için topluluk önünde konuşmak, en büyük korkular arasında yer alıyor.",
+        "s": "برای بسیاری از آدم‌ها، سخن گفتن در جمع یکی از بزرگ‌ترین ترس‌هاست."
+      },
+      {
+        "t": "İlk olarak, iyi konuşabilen kişiler fikirlerini başkalarına daha kolay kabul ettirebiliyor.",
+        "s": "اول اینکه کسانی که خوب حرف می‌زنند، راحت‌تر می‌توانند ایده‌هایشان را به دیگران بقبولانند."
+      },
+      {
+        "t": "En parlak fikir bile kötü anlatılırsa dinleyiciyi ikna edemez.",
+        "s": "حتی درخشان‌ترین ایده هم اگر بد بیان شود، نمی‌تواند شنونده را قانع کند."
+      },
+      {
+        "t": "Atalarımız “Lafla peynir gemisi yürümez” der; ama doğru söylenmiş bir söz, gemiyi limana ulaştırabilir.",
+        "s": "نیاکان ما می‌گویند «با حرف، کشتیِ پنیر راه نمی‌افتد»؛ اما سخنی که درست گفته شود، می‌تواند کشتی را به بندر برساند."
+      },
+      {
+        "t": "İkinci olarak, topluluk önünde konuşmak öz güveni artırır.",
+        "s": "دوم اینکه سخن گفتن در جمع اعتمادبه‌نفس را بالا می‌برد."
+      },
+      {
+        "t": "Ben de lisedeki ilk sunumumda öyle heyecanlanmıştım ki slaytlarımı karıştırmış, üstüne bir de öğretmenimin adını yanlış söyleyerek büyük bir çam devirmiştim.",
+        "s": "من هم در اولین ارائه‌ام در دبیرستان چنان هیجان‌زده شده بودم که اسلایدهایم را قاطی کرده بودم و از آن بدتر، اسم معلمم را اشتباه گفته و گاف بزرگی داده بودم."
+      },
+      {
+        "t": "Ama pratik yaptıkça korkum azaldı ve bugün karşınızda rahatça konuşabiliyorum.",
+        "s": "اما هرچه بیشتر تمرین کردم، ترسم کمتر شد و امروز می‌توانم راحت در برابر شما صحبت کنم."
+      },
+      {
+        "t": "Son olarak, iyi bir konuşmacı aynı zamanda iyi bir dinleyicidir.",
+        "s": "در آخر، یک سخنران خوب در عین حال شنونده‌ی خوبی هم هست."
+      },
+      {
+        "t": "Karşı tarafı dikkatle dinlemeyen biri, tartışmada taşı gediğine koyamaz.",
+        "s": "کسی که با دقت به طرف مقابل گوش نمی‌دهد، در بحث نمی‌تواند حرف را درست به هدف بزند."
+      },
+      {
+        "t": "Özetlemek gerekirse, topluluk önünde konuşmak fikirlerimizi duyurmamızı, kendimize güvenmemizi ve başkalarını anlamamızı sağlar.",
+        "s": "به‌طور خلاصه، سخن گفتن در جمع باعث می‌شود ایده‌هایمان را به گوش دیگران برسانیم، به خودمان اعتماد کنیم و دیگران را درک کنیم."
+      },
+      {
+        "t": "Sonuç olarak, bu becerinin okullarda zorunlu bir ders olarak öğretilmesi gerektiğini düşünüyorum; beni dinlediğiniz için teşekkür ederim.",
+        "s": "در نتیجه، فکر می‌کنم این مهارت باید در مدرسه‌ها به‌عنوان درسی اجباری آموزش داده شود؛ ممنونم که به حرف‌هایم گوش دادید."
+      }
+    ],
+    "questions": [
+      {
+        "q": {
+          "t": "Konuşmacıya göre kötü anlatılan bir fikir ne yapamaz?",
+          "s": "به نظر سخنران، ایده‌ای که بد بیان شود، چه کاری نمی‌تواند بکند؟"
+        },
+        "options": [
+          "Dinleyiciyi ikna edemez",
+          "Jüriyi güldüremez",
+          "Slaytlara sığmaz"
+        ],
+        "answer": 0
+      },
+      {
+        "q": {
+          "t": "Konuşmacı ilk sunumunda ne yaşamıştı?",
+          "s": "سخنران در اولین ارائه‌اش چه تجربه‌ای داشت؟"
+        },
+        "options": [
+          "Bir ödül kazanmıştı",
+          "Heyecanlanıp çam devirmişti",
+          "Hiç heyecanlanmamıştı"
+        ],
+        "answer": 1
+      },
+      {
+        "q": {
+          "t": "Konuşmacının korkusu nasıl azaldı?",
+          "s": "ترس سخنران چطور کمتر شد؟"
+        },
+        "options": [
+          "Pratik yaptıkça",
+          "Sunum yapmayı bırakınca",
+          "Slayt kullanmayınca"
+        ],
+        "answer": 0
+      },
+      {
+        "q": {
+          "t": "Konuşmacıya göre iyi bir konuşmacı aynı zamanda nedir?",
+          "s": "به نظر سخنران، یک سخنران خوب در عین حال چه کسی است؟"
+        },
+        "options": [
+          "İyi bir yazar",
+          "İyi bir dinleyici",
+          "İyi bir öğretmen"
+        ],
+        "answer": 1
+      },
+      {
+        "q": {
+          "t": "Konuşmacı sonuç olarak ne öneriyor?",
+          "s": "سخنران در نتیجه چه پیشنهادی می‌دهد؟"
+        },
+        "options": [
+          "Münazara yarışmalarının kaldırılmasını",
+          "Bu becerinin okullarda zorunlu ders olarak öğretilmesini",
+          "Sunumlarda slayt kullanılmamasını"
+        ],
+        "answer": 1
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "t": "Öncelikle konunun önemini açıklamak istiyorum.",
+      "s": "پیش از هر چیز می‌خواهم اهمیت موضوع را توضیح دهم."
+    },
+    {
+      "t": "İkinci olarak bütçe konusuna değineceğim.",
+      "s": "دوم، به موضوع بودجه می‌پردازم."
+    },
+    {
+      "t": "Özetlemek gerekirse, planımız üç aşamadan oluşuyor.",
+      "s": "به‌طور خلاصه، برنامه‌ی ما از سه مرحله تشکیل شده است."
+    },
+    {
+      "t": "Sonuç olarak bu teklifi kabul etmemiz gerekiyor.",
+      "s": "در نتیجه باید این پیشنهاد را بپذیریم."
+    },
+    {
+      "t": "Konuşmacı süreyi aşınca sunucu sözünü kesti.",
+      "s": "وقتی سخنران از وقتش فراتر رفت، مجری حرفش را قطع کرد."
+    },
+    {
+      "t": "Beden diliniz kendinize güvendiğinizi göstermeli.",
+      "s": "زبان بدنتان باید نشان دهد که به خودتان اعتماد دارید."
+    },
+    {
+      "t": "Lafı dolandırmadan sadede gelelim.",
+      "s": "بی‌آنکه حاشیه برویم، سر اصل مطلب برویم."
+    },
+    {
+      "t": "Ağzıyla kuş tutsa onu takıma almazlar.",
+      "s": "هر کاری هم بکند، او را به تیم راه نمی‌دهند."
+    }
+  ]
+}

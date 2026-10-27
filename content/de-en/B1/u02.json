@@ -1,0 +1,712 @@
+{
+  "id": "u02",
+  "level": "B1",
+  "emoji": "💼",
+  "title": {
+    "t": "Arbeitsalltag und Bewerbung",
+    "s": "Everyday work and applying for jobs"
+  },
+  "goals": [
+    "Understand job ads and talk about your job and your working day",
+    "Answer typical questions in a job interview",
+    "Describe people and things with relative clauses (der, den, dem, denen …)",
+    "Use zu + infinitive after verbs and expressions like Es ist wichtig …"
+  ],
+  "words": [
+    {
+      "id": "w01",
+      "t": "die Stellenanzeige",
+      "pl": "die Stellenanzeigen",
+      "s": "job ad",
+      "emoji": "",
+      "ex": {
+        "t": "Ich habe eine interessante Stellenanzeige in der Zeitung gefunden.",
+        "s": "I found an interesting job ad in the newspaper."
+      }
+    },
+    {
+      "id": "w02",
+      "t": "die Stärke",
+      "pl": "die Stärken",
+      "s": "strength, strong point",
+      "emoji": "",
+      "ex": {
+        "t": "Was sind Ihre größten Stärken?",
+        "s": "What are your greatest strengths?"
+      }
+    },
+    {
+      "id": "w03",
+      "t": "das Anschreiben",
+      "pl": "die Anschreiben",
+      "s": "cover letter",
+      "emoji": "",
+      "ex": {
+        "t": "Im Anschreiben erklärt man, warum man die Stelle möchte.",
+        "s": "In the cover letter, you explain why you want the job."
+      }
+    },
+    {
+      "id": "w04",
+      "t": "die Berufserfahrung",
+      "s": "work experience",
+      "emoji": "",
+      "ex": {
+        "t": "Für diese Stelle braucht man mindestens zwei Jahre Berufserfahrung.",
+        "s": "For this job you need at least two years of work experience."
+      }
+    },
+    {
+      "id": "w05",
+      "t": "die Schwäche",
+      "pl": "die Schwächen",
+      "s": "weakness, weak point",
+      "emoji": "",
+      "ex": {
+        "t": "Eine kleine Schwäche von mir: Ich bin manchmal ungeduldig.",
+        "s": "A small weakness of mine: I'm sometimes impatient."
+      }
+    },
+    {
+      "id": "w06",
+      "t": "das Gehalt",
+      "pl": "die Gehälter",
+      "s": "salary",
+      "emoji": "",
+      "ex": {
+        "t": "Mein Gehalt ist nicht sehr hoch, aber die Arbeit macht mir Spaß.",
+        "s": "My salary isn't very high, but I enjoy the work."
+      }
+    },
+    {
+      "id": "w07",
+      "t": "der Arbeitsvertrag",
+      "pl": "die Arbeitsverträge",
+      "s": "employment contract",
+      "emoji": "",
+      "ex": {
+        "t": "Morgen unterschreibe ich meinen Arbeitsvertrag.",
+        "s": "Tomorrow I'm signing my employment contract."
+      }
+    },
+    {
+      "id": "w08",
+      "t": "die Abteilung",
+      "pl": "die Abteilungen",
+      "s": "department",
+      "emoji": "",
+      "ex": {
+        "t": "Sara arbeitet in der Marketingabteilung.",
+        "s": "Sara works in the marketing department."
+      }
+    },
+    {
+      "id": "w09",
+      "t": "die Besprechung",
+      "pl": "die Besprechungen",
+      "s": "meeting (at work)",
+      "emoji": "",
+      "ex": {
+        "t": "Die Besprechung dauert bis elf Uhr.",
+        "s": "The meeting lasts until eleven o'clock."
+      }
+    },
+    {
+      "id": "w10",
+      "t": "der Urlaubstag",
+      "pl": "die Urlaubstage",
+      "s": "day of (paid) vacation",
+      "emoji": "",
+      "ex": {
+        "t": "Ich habe dreißig Urlaubstage im Jahr.",
+        "s": "I get thirty vacation days a year."
+      }
+    },
+    {
+      "id": "w11",
+      "t": "die Schicht",
+      "pl": "die Schichten",
+      "s": "shift (at work); in Schichten arbeiten = to work shifts",
+      "emoji": "",
+      "ex": {
+        "t": "Nächste Woche habe ich Nachtschicht.",
+        "s": "Next week I'm on the night shift."
+      }
+    },
+    {
+      "id": "w12",
+      "t": "die Probezeit",
+      "pl": "die Probezeiten",
+      "s": "probation period (at the start of a job)",
+      "emoji": "",
+      "ex": {
+        "t": "Die Probezeit dauert sechs Monate.",
+        "s": "The probation period lasts six months."
+      }
+    },
+    {
+      "id": "w13",
+      "t": "die Gleitzeit",
+      "s": "flextime (you choose when to start and finish work, within limits)",
+      "emoji": "",
+      "ex": {
+        "t": "Mit Gleitzeit kann ich meine Kinder morgens selbst zur Schule bringen.",
+        "s": "With flextime, I can take my kids to school myself in the morning."
+      }
+    },
+    {
+      "id": "w14",
+      "t": "der Bewerber",
+      "pl": "die Bewerber",
+      "s": "applicant; female: die Bewerberin",
+      "emoji": "",
+      "ex": {
+        "t": "Für die Stelle gibt es über hundert Bewerber.",
+        "s": "There are over a hundred applicants for the job."
+      }
+    },
+    {
+      "id": "w15",
+      "t": "der Praktikant",
+      "pl": "die Praktikanten",
+      "s": "intern; female: die Praktikantin",
+      "emoji": "",
+      "ex": {
+        "t": "Unser neuer Praktikant kommt aus Spanien.",
+        "s": "Our new intern is from Spain."
+      }
+    },
+    {
+      "id": "w16",
+      "t": "die Kantine",
+      "pl": "die Kantinen",
+      "s": "(staff) cafeteria, canteen",
+      "emoji": "",
+      "ex": {
+        "t": "Mittags essen wir zusammen in der Kantine.",
+        "s": "At lunchtime we eat together in the cafeteria."
+      }
+    }
+  ],
+  "phrases": [
+    {
+      "id": "p01",
+      "t": "Ich habe Ihre Anzeige gelesen und interessiere mich sehr für die Stelle.",
+      "s": "I read your ad and I'm very interested in the position."
+    },
+    {
+      "id": "p02",
+      "t": "Ich habe drei Jahre Berufserfahrung in diesem Bereich.",
+      "s": "I have three years of work experience in this field."
+    },
+    {
+      "id": "p03",
+      "t": "Ich arbeite gern im Team.",
+      "s": "I like working in a team."
+    },
+    {
+      "id": "p04",
+      "t": "Wie sind die Arbeitszeiten?",
+      "s": "What are the working hours?"
+    },
+    {
+      "id": "p05",
+      "t": "Ab wann könnte ich anfangen?",
+      "s": "When could I start?"
+    },
+    {
+      "id": "p06",
+      "t": "Wer ist dafür zuständig?",
+      "s": "Who is responsible for that?"
+    },
+    {
+      "id": "p07",
+      "t": "Könnten Sie mir das bitte noch einmal erklären?",
+      "s": "Could you please explain that to me again?"
+    },
+    {
+      "id": "p08",
+      "t": "Schönen Feierabend!",
+      "s": "Have a nice evening! (said when you leave work)"
+    }
+  ],
+  "dialogue": {
+    "title": {
+      "t": "Das Vorstellungsgespräch",
+      "s": "The job interview"
+    },
+    "speakers": {
+      "A": {
+        "name": "Frau Wagner",
+        "voice": "f"
+      },
+      "B": {
+        "name": "Amir",
+        "voice": "m"
+      }
+    },
+    "lines": [
+      {
+        "sp": "A",
+        "t": "Guten Tag, Herr Karimi. Schön, dass Sie da sind. Bitte nehmen Sie Platz.",
+        "s": "Hello, Mr. Karimi. Nice to have you here. Please have a seat."
+      },
+      {
+        "sp": "B",
+        "t": "Guten Tag, Frau Wagner. Vielen Dank für die Einladung.",
+        "s": "Hello, Ms. Wagner. Thank you very much for the invitation."
+      },
+      {
+        "sp": "A",
+        "t": "Erzählen Sie doch mal: Warum interessieren Sie sich für diese Stelle?",
+        "s": "So tell me: why are you interested in this position?"
+      },
+      {
+        "sp": "B",
+        "t": "Ich möchte bei einer Firma arbeiten, die Solaranlagen baut. Das finde ich sehr sinnvoll.",
+        "s": "I'd like to work for a company that builds solar power systems. I think that's very worthwhile."
+      },
+      {
+        "sp": "A",
+        "t": "Wie viel Berufserfahrung haben Sie?",
+        "s": "How much work experience do you have?"
+      },
+      {
+        "sp": "B",
+        "t": "Ich habe sechs Jahre als Elektriker im Iran gearbeitet. Seit zwei Jahren bin ich bei einer kleinen Firma in Köln.",
+        "s": "I worked as an electrician in Iran for six years. For the past two years I've been with a small company in Cologne."
+      },
+      {
+        "sp": "A",
+        "t": "Unsere Teams fahren oft zu Kunden, die weit weg wohnen. Ist es für Sie ein Problem, früh aufzustehen?",
+        "s": "Our teams often drive to customers who live far away. Is it a problem for you to get up early?"
+      },
+      {
+        "sp": "B",
+        "t": "Nein, gar nicht. Ich habe kein Problem damit, um sechs Uhr anzufangen.",
+        "s": "No, not at all. I have no problem starting at six o'clock."
+      },
+      {
+        "sp": "A",
+        "t": "Sehr gut. Haben Sie noch Fragen an uns?",
+        "s": "Very good. Do you have any questions for us?"
+      },
+      {
+        "sp": "B",
+        "t": "Ja. Wer wird mich in den ersten Wochen einarbeiten?",
+        "s": "Yes. Who will train me in the first few weeks?"
+      },
+      {
+        "sp": "A",
+        "t": "Ein Kollege, der seit zwanzig Jahren bei uns ist. Die Probezeit dauert übrigens sechs Monate.",
+        "s": "A colleague who has been with us for twenty years. By the way, the probation period lasts six months."
+      },
+      {
+        "sp": "B",
+        "t": "Das klingt gut. Ich würde mich sehr freuen, bei Ihnen anzufangen.",
+        "s": "That sounds good. I would be very happy to start working for you."
+      }
+    ]
+  },
+  "grammar": [
+    {
+      "id": "g01",
+      "title": {
+        "t": "der Kollege, der mir hilft",
+        "s": "Relative clauses: der, den, dem, denen …"
+      },
+      "explain": "A **relative clause** gives more information about a noun: *the colleague **who** helps me*, *the contract **that** I signed*. In German it is always separated by **commas**, and its **verb goes to the end**.\nThe **relative pronoun** looks like the definite article (der, die, das …). Two questions decide which form you need:\n1. **Gender and number** come from the noun it refers to: der Vertrag → der, den, dem · die Stelle → die, der · die Kollegen (plural) → die, denen.\n2. **The case** comes from its role **inside the relative clause**: subject → **Nominativ** (der Kollege, **der** mir hilft); direct object → **Akkusativ** (der Vertrag, **den** ich unterschreibe); with a dative verb such as helfen, danken, gefallen, gehören, antworten → **Dativ** (die Kollegin, **der** ich helfe).\nOnly one form differs from the article: the dative plural is **denen** (not den): die Leute, **denen** ich helfe. The table gives the forms in the order masculine, feminine, neuter, plural.\nUnlike English, German never leaves the pronoun out: *the job I found* = die Stelle, **die** ich gefunden habe.",
+      "table": [
+        [
+          "Nominativ",
+          "der, die, das, die",
+          "der Mann, der hier arbeitet"
+        ],
+        [
+          "Akkusativ",
+          "den, die, das, die",
+          "der Vertrag, den ich unterschreibe"
+        ],
+        [
+          "Dativ",
+          "dem, der, dem, denen",
+          "die Leute, denen ich helfe"
+        ]
+      ],
+      "examples": [
+        {
+          "t": "Ich suche eine Arbeit, die mir Spaß macht.",
+          "s": "I'm looking for a job that I enjoy."
+        },
+        {
+          "t": "Herr Wagner ist der Kollege, der mich eingearbeitet hat.",
+          "s": "Mr. Wagner is the colleague who trained me."
+        },
+        {
+          "t": "Der Vertrag, den ich bekommen habe, gilt für zwei Jahre.",
+          "s": "The contract I got is valid for two years."
+        },
+        {
+          "t": "Das ist das Team, das ich leite.",
+          "s": "This is the team that I lead."
+        },
+        {
+          "t": "Die Kollegen, denen ich geholfen habe, haben sich bei mir bedankt.",
+          "s": "The colleagues I helped thanked me."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "choice",
+          "t": "Ich suche eine Stelle, ___ gut bezahlt ist.",
+          "options": [
+            "der",
+            "die",
+            "den"
+          ],
+          "answer": 1,
+          "s": "I'm looking for a job that pays well."
+        },
+        {
+          "type": "choice",
+          "t": "Der Vertrag, ___ ich gestern bekommen habe, ist sehr lang.",
+          "options": [
+            "der",
+            "den",
+            "dem"
+          ],
+          "answer": 1,
+          "s": "The contract I received yesterday is very long."
+        },
+        {
+          "type": "choice",
+          "t": "Wie heißt die Kollegin, ___ du geholfen hast?",
+          "options": [
+            "die",
+            "der",
+            "denen"
+          ],
+          "answer": 1,
+          "s": "What's the name of the colleague you helped?"
+        },
+        {
+          "type": "type",
+          "t": "Die Kollegen, ___ ich jeden Tag sehe, sind sehr nett.",
+          "answer": [
+            "die"
+          ],
+          "s": "The colleagues I see every day are very nice."
+        },
+        {
+          "type": "type",
+          "t": "Das ist Herr Wagner, ___ unsere Abteilung leitet.",
+          "answer": [
+            "der"
+          ],
+          "s": "This is Mr. Wagner, who runs our department."
+        },
+        {
+          "type": "type",
+          "t": "Das sind die Praktikanten, ___ ich heute die Firma zeige.",
+          "answer": [
+            "denen"
+          ],
+          "s": "These are the interns I'm showing around the company today."
+        },
+        {
+          "type": "choice",
+          "t": "Das Büro, ___ wir jetzt haben, ist viel größer.",
+          "options": [
+            "das",
+            "dem",
+            "der"
+          ],
+          "answer": 0,
+          "s": "The office we have now is much bigger."
+        },
+        {
+          "type": "order",
+          "t": "Das ist die Kollegin, die mich eingearbeitet hat.",
+          "s": "This is the colleague who trained me."
+        }
+      ]
+    },
+    {
+      "id": "g02",
+      "title": {
+        "t": "Ich habe vor, … zu …",
+        "s": "The infinitive with zu"
+      },
+      "explain": "After many verbs, nouns and adjectives, German uses **zu + infinitive** at the end of the sentence, like English *to*: Ich habe vor, eine Ausbildung **zu machen**. (*I'm planning to do an apprenticeship.*)\nTypical starters: **vorhaben, versuchen, vergessen, anfangen, aufhören, hoffen, planen** · **Lust haben, Zeit haben, keine Zeit haben** · **Es ist wichtig, schwer, leicht, schön, …** · **Es macht mir Spaß, …**\nWith **separable verbs**, **zu** goes between the prefix and the verb, all in one word: an**zu**rufen, mit**zu**kommen, aus**zu**füllen.\n**No zu** after modal verbs (können, müssen, wollen …) and **möchte**: Ich muss heute länger **arbeiten**.\nPut a **comma** before the zu-group: after a noun (Lust, Zeit) or with **es** it is required, and elsewhere it is always correct.\nUse zu + infinitive when both parts have the same subject; otherwise use a **dass**-clause: Ich hoffe, die Stelle **zu bekommen**. – Ich hoffe, **dass** du die Stelle **bekommst**. (um … zu, for purpose, comes in Unit 5.)",
+      "table": [
+        [
+          "Es ist wichtig,",
+          "pünktlich zu sein."
+        ],
+        [
+          "Ich habe vor,",
+          "eine Ausbildung zu machen."
+        ],
+        [
+          "Vergiss nicht,",
+          "den Chef anzurufen."
+        ],
+        [
+          "Ich habe keine Lust,",
+          "Überstunden zu machen."
+        ],
+        [
+          "aber: Ich muss",
+          "heute länger arbeiten."
+        ]
+      ],
+      "examples": [
+        {
+          "t": "Es ist wichtig, im Vorstellungsgespräch pünktlich zu sein.",
+          "s": "It's important to be on time for a job interview."
+        },
+        {
+          "t": "Ich habe vor, mich bei einer größeren Firma zu bewerben.",
+          "s": "I'm planning to apply to a bigger company."
+        },
+        {
+          "t": "Vergiss bitte nicht, Frau Wagner anzurufen.",
+          "s": "Please don't forget to call Ms. Wagner."
+        },
+        {
+          "t": "Hast du Lust, nach der Arbeit spazieren zu gehen?",
+          "s": "Do you feel like going for a walk after work?"
+        },
+        {
+          "t": "Ich hoffe, bald eine neue Stelle zu finden.",
+          "s": "I hope to find a new job soon."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "choice",
+          "t": "Ich habe vor, nächstes Jahr einen Deutschkurs ___.",
+          "options": [
+            "machen",
+            "zu machen",
+            "machen zu"
+          ],
+          "answer": 1,
+          "s": "I'm planning to take a German course next year."
+        },
+        {
+          "type": "choice",
+          "t": "Vergiss bitte nicht, den Chef ___.",
+          "options": [
+            "anrufen",
+            "zu anrufen",
+            "anzurufen"
+          ],
+          "answer": 2,
+          "s": "Please don't forget to call the boss."
+        },
+        {
+          "type": "choice",
+          "t": "Ich muss heute länger ___.",
+          "options": [
+            "arbeiten",
+            "zu arbeiten",
+            "arbeiten zu"
+          ],
+          "answer": 0,
+          "s": "I have to work longer today."
+        },
+        {
+          "type": "type",
+          "t": "Es ist nicht leicht, eine gute Stelle ___ finden.",
+          "answer": [
+            "zu"
+          ],
+          "s": "It isn't easy to find a good job."
+        },
+        {
+          "type": "type",
+          "t": "Ich habe vergessen, das Formular ___.",
+          "answer": [
+            "auszufüllen",
+            "auszufuellen"
+          ],
+          "s": "I forgot to fill in the form. (ausfüllen)"
+        },
+        {
+          "type": "type",
+          "t": "Es macht mir Spaß, mit Menschen ___ arbeiten.",
+          "answer": [
+            "zu"
+          ],
+          "s": "I enjoy working with people."
+        },
+        {
+          "type": "order",
+          "t": "Ich habe vor, eine Ausbildung zu machen.",
+          "s": "I'm planning to do an apprenticeship."
+        },
+        {
+          "type": "order",
+          "t": "Hast du Lust, heute Abend mitzukommen?",
+          "s": "Do you feel like coming along tonight?",
+          "alts": [
+            "Hast du heute Abend Lust, mitzukommen?"
+          ]
+        }
+      ]
+    }
+  ],
+  "reading": {
+    "title": {
+      "t": "Meine erste Woche im neuen Job",
+      "s": "My first week in my new job"
+    },
+    "text": [
+      {
+        "t": "Liebe Anna, endlich habe ich Zeit, dir von meiner neuen Arbeit zu erzählen!",
+        "s": "Dear Anna, I finally have time to tell you about my new job!"
+      },
+      {
+        "t": "Seit Montag arbeite ich als Bürokauffrau bei einer Firma, die Fahrräder verkauft.",
+        "s": "Since Monday I've been working as an office administrator for a company that sells bicycles."
+      },
+      {
+        "t": "Meine Kollegin Lena, die schon zehn Jahre dort arbeitet, arbeitet mich ein.",
+        "s": "My colleague Lena, who has been working there for ten years, is training me."
+      },
+      {
+        "t": "Ich bin für die Bestellungen zuständig und schreibe jeden Tag viele E-Mails.",
+        "s": "I'm responsible for the orders and write a lot of emails every day."
+      },
+      {
+        "t": "Am Anfang war es nicht leicht, das neue Computerprogramm zu verstehen.",
+        "s": "At first it wasn't easy to understand the new computer program."
+      },
+      {
+        "t": "Aber die Kollegen, die ich bis jetzt kennengelernt habe, sind sehr hilfsbereit.",
+        "s": "But the colleagues I've met so far are very helpful."
+      },
+      {
+        "t": "Meine Chefin, der ich am Mittwoch meine erste Präsentation gezeigt habe, war sehr zufrieden.",
+        "s": "My boss, who I showed my first presentation to on Wednesday, was very pleased."
+      },
+      {
+        "t": "Die Arbeitszeiten sind flexibel: Ich kann zwischen sieben und neun Uhr anfangen.",
+        "s": "The working hours are flexible: I can start between seven and nine o'clock."
+      },
+      {
+        "t": "Nur eins gefällt mir nicht so gut: Diese Woche musste ich schon zweimal Überstunden machen.",
+        "s": "Only one thing I don't like so much: this week I already had to work overtime twice."
+      },
+      {
+        "t": "Ich habe vor, nächste Woche mit meiner Chefin darüber zu sprechen.",
+        "s": "I'm planning to talk to my boss about it next week."
+      },
+      {
+        "t": "Hast du Lust, am Samstag mit mir meinen neuen Job zu feiern?",
+        "s": "Would you like to celebrate my new job with me on Saturday?"
+      },
+      {
+        "t": "Viele Grüße, deine Neda",
+        "s": "Best wishes, Neda"
+      }
+    ],
+    "questions": [
+      {
+        "q": {
+          "t": "Was verkauft Nedas Firma?",
+          "s": "What does Neda's company sell?"
+        },
+        "options": [
+          "Computer",
+          "Fahrräder",
+          "Möbel"
+        ],
+        "answer": 1
+      },
+      {
+        "q": {
+          "t": "Wer arbeitet Neda ein?",
+          "s": "Who is training Neda?"
+        },
+        "options": [
+          "ihre Chefin",
+          "Anna",
+          "Lena"
+        ],
+        "answer": 2
+      },
+      {
+        "q": {
+          "t": "Wann kann Neda morgens anfangen?",
+          "s": "When can Neda start in the morning?"
+        },
+        "options": [
+          "zwischen sieben und neun Uhr",
+          "um sechs Uhr",
+          "erst um zehn Uhr"
+        ],
+        "answer": 0
+      },
+      {
+        "q": {
+          "t": "Was gefällt Neda nicht so gut?",
+          "s": "What doesn't Neda like so much?"
+        },
+        "options": [
+          "die Kollegen",
+          "die Überstunden",
+          "die Arbeitszeiten"
+        ],
+        "answer": 1
+      },
+      {
+        "q": {
+          "t": "Was hat Neda vor?",
+          "s": "What is Neda planning to do?"
+        },
+        "options": [
+          "Sie will mit ihrer Chefin sprechen.",
+          "Sie will kündigen.",
+          "Sie will Urlaub machen."
+        ],
+        "answer": 0
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "t": "Ich habe die Stellenanzeige im Internet gefunden.",
+      "s": "I found the job ad online."
+    },
+    {
+      "t": "Wie heißt der Kollege, der neben dir sitzt?",
+      "s": "What's the name of the colleague who sits next to you?"
+    },
+    {
+      "t": "Die Firma, die mich eingeladen hat, ist in Bonn.",
+      "s": "The company that invited me is in Bonn."
+    },
+    {
+      "t": "Ich bin für die Bestellungen zuständig.",
+      "s": "I'm responsible for the orders."
+    },
+    {
+      "t": "Es ist mir wichtig, im Team zu arbeiten.",
+      "s": "Working in a team is important to me."
+    },
+    {
+      "t": "Ich habe heute keine Zeit, Überstunden zu machen.",
+      "s": "I don't have time to work overtime today."
+    },
+    {
+      "t": "Morgen habe ich um neun Uhr eine Besprechung.",
+      "s": "Tomorrow I have a meeting at nine o'clock."
+    },
+    {
+      "t": "Ich mache heute früher Feierabend.",
+      "s": "I'm finishing work earlier today."
+    }
+  ]
+}

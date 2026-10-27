@@ -1,0 +1,710 @@
+{
+  "id": "u08",
+  "level": "B1",
+  "emoji": "👪",
+  "title": {
+    "t": "Familie und Beziehungen",
+    "s": "Family and relationships"
+  },
+  "goals": [
+    "Talk about family relationships, upbringing and living together",
+    "Discuss arguments in the family and how to solve them",
+    "Use reflexive pronouns in the dative (Ich wasche mir die Hände. Was wünschst du dir?)",
+    "Use lassen to say that you have something done or allow something (Ich lasse das Auto reparieren.)"
+  ],
+  "words": [
+    {
+      "id": "w01",
+      "t": "die Beziehung",
+      "pl": "die Beziehungen",
+      "s": "relationship",
+      "emoji": "",
+      "ex": {
+        "t": "Ich habe eine sehr gute Beziehung zu meiner Schwester.",
+        "s": "I have a very good relationship with my sister."
+      }
+    },
+    {
+      "id": "w02",
+      "t": "der Verwandte",
+      "pl": "die Verwandten",
+      "s": "relative (declined like an adjective: ein Verwandter, eine Verwandte)",
+      "emoji": "",
+      "ex": {
+        "t": "Zum persischen Neujahr besuchen wir viele Verwandte.",
+        "s": "For Persian New Year we visit many relatives."
+      }
+    },
+    {
+      "id": "w03",
+      "t": "die Erziehung",
+      "s": "upbringing, raising children",
+      "emoji": "",
+      "ex": {
+        "t": "Bei der Erziehung ihrer Kinder sind sich Maryam und Reza meistens einig.",
+        "s": "Maryam and Reza usually agree on how to raise their children."
+      }
+    },
+    {
+      "id": "w04",
+      "t": "sich kümmern um + A",
+      "s": "to take care of, look after",
+      "emoji": "",
+      "ex": {
+        "t": "Meine Schwester kümmert sich um unsere Großmutter.",
+        "s": "My sister takes care of our grandmother."
+      }
+    },
+    {
+      "id": "w05",
+      "t": "sich verstehen mit + D",
+      "s": "to get along with",
+      "emoji": "",
+      "ex": {
+        "t": "Verstehst du dich gut mit deinem Bruder?",
+        "s": "Do you get along well with your brother?"
+      }
+    },
+    {
+      "id": "w06",
+      "t": "die Schwiegereltern",
+      "s": "parents-in-law, in-laws (plural only)",
+      "emoji": "",
+      "ex": {
+        "t": "Meine Schwiegereltern wohnen nur zwei Straßen von uns entfernt.",
+        "s": "My in-laws live only two streets away from us."
+      }
+    },
+    {
+      "id": "w07",
+      "t": "der Streit",
+      "s": "argument, quarrel",
+      "emoji": "",
+      "ex": {
+        "t": "Nach einem Streit ist es wichtig, miteinander zu reden.",
+        "s": "After an argument it's important to talk to each other."
+      }
+    },
+    {
+      "id": "w08",
+      "t": "sich vertragen",
+      "s": "to get along; to make up (after an argument)",
+      "emoji": "",
+      "ex": {
+        "t": "Die Geschwister haben sich gestritten, aber jetzt vertragen sie sich wieder.",
+        "s": "The siblings had an argument, but now they've made up."
+      }
+    },
+    {
+      "id": "w09",
+      "t": "das Vertrauen",
+      "s": "trust",
+      "emoji": "",
+      "ex": {
+        "t": "In einer Familie ist Vertrauen sehr wichtig.",
+        "s": "Trust is very important in a family."
+      }
+    },
+    {
+      "id": "w10",
+      "t": "sich verlassen auf + A",
+      "s": "to rely on, count on",
+      "emoji": "",
+      "ex": {
+        "t": "Auf meinen Bruder kann ich mich immer verlassen.",
+        "s": "I can always count on my brother."
+      }
+    },
+    {
+      "id": "w11",
+      "t": "der Hochzeitstag",
+      "pl": "die Hochzeitstage",
+      "s": "wedding anniversary; wedding day",
+      "emoji": "",
+      "ex": {
+        "t": "Zum Hochzeitstag schenkt Reza seiner Frau Blumen.",
+        "s": "Reza gives his wife flowers for their wedding anniversary."
+      }
+    },
+    {
+      "id": "w12",
+      "t": "der Haushalt",
+      "pl": "die Haushalte",
+      "s": "household; housework",
+      "emoji": "",
+      "ex": {
+        "t": "Bei uns helfen alle im Haushalt mit.",
+        "s": "In our family everyone helps with the housework."
+      }
+    },
+    {
+      "id": "w13",
+      "t": "die Generation",
+      "pl": "die Generationen",
+      "s": "generation",
+      "emoji": "",
+      "ex": {
+        "t": "Die junge Generation lebt ganz anders als ihre Großeltern.",
+        "s": "The young generation lives very differently from their grandparents."
+      }
+    },
+    {
+      "id": "w14",
+      "t": "das Enkelkind",
+      "pl": "die Enkelkinder",
+      "s": "grandchild",
+      "emoji": "",
+      "ex": {
+        "t": "Am Wochenende passt Oma auf die Enkelkinder auf.",
+        "s": "On weekends, Grandma looks after the grandchildren."
+      }
+    },
+    {
+      "id": "w15",
+      "t": "jemandem ähnlich sehen",
+      "s": "to look like someone, resemble someone",
+      "emoji": "",
+      "ex": {
+        "t": "Du siehst deiner Mutter sehr ähnlich.",
+        "s": "You look a lot like your mother."
+      }
+    }
+  ],
+  "phrases": [
+    {
+      "id": "p01",
+      "t": "Wie geht es deiner Familie?",
+      "s": "How is your family?"
+    },
+    {
+      "id": "p02",
+      "t": "Grüß deine Eltern von mir!",
+      "s": "Say hi to your parents for me!"
+    },
+    {
+      "id": "p03",
+      "t": "Wir haben uns lange nicht gesehen.",
+      "s": "We haven't seen each other for a long time."
+    },
+    {
+      "id": "p04",
+      "t": "Das ist doch selbstverständlich.",
+      "s": "But of course – that goes without saying."
+    },
+    {
+      "id": "p05",
+      "t": "Kannst du mir einen Gefallen tun?",
+      "s": "Can you do me a favor?"
+    },
+    {
+      "id": "p06",
+      "t": "Lass uns in Ruhe darüber reden.",
+      "s": "Let's talk about it calmly."
+    },
+    {
+      "id": "p07",
+      "t": "Ich bin ganz deiner Meinung.",
+      "s": "I completely agree with you."
+    },
+    {
+      "id": "p08",
+      "t": "Das kommt in den besten Familien vor.",
+      "s": "That happens in the best of families."
+    }
+  ],
+  "dialogue": {
+    "title": {
+      "t": "Eine Überraschung für die Eltern",
+      "s": "A surprise for Mom and Dad"
+    },
+    "speakers": {
+      "A": {
+        "name": "Sara",
+        "voice": "f"
+      },
+      "B": {
+        "name": "Reza",
+        "voice": "m"
+      }
+    },
+    "lines": [
+      {
+        "sp": "A",
+        "t": "Reza, nächsten Monat ist der fünfunddreißigste Hochzeitstag von Mama und Papa. Wollen wir eine Feier organisieren?",
+        "s": "Reza, next month is Mom and Dad's thirty-fifth wedding anniversary. Shall we organize a party?"
+      },
+      {
+        "sp": "B",
+        "t": "Gute Idee! Was wünschen sie sich denn?",
+        "s": "Good idea! So what would they like?"
+      },
+      {
+        "sp": "A",
+        "t": "Mama hat gesagt, sie wünscht sich nur, dass die ganze Familie zusammenkommt.",
+        "s": "Mom said all she wants is for the whole family to get together."
+      },
+      {
+        "sp": "B",
+        "t": "Das schaffen wir. Ich rufe die Verwandten an. Sollen wir einen Saal mieten?",
+        "s": "We can do that. I'll call the relatives. Should we rent a hall?"
+      },
+      {
+        "sp": "A",
+        "t": "Nein, wir feiern bei mir im Garten. Aber das Essen lassen wir liefern, sonst stehen wir den ganzen Tag in der Küche.",
+        "s": "No, we'll celebrate in my garden. But we'll have the food delivered, otherwise we'll spend the whole day in the kitchen."
+      },
+      {
+        "sp": "B",
+        "t": "Einverstanden. Und die Torte? Backst du sie wieder selbst?",
+        "s": "Agreed. And the cake? Are you baking it yourself again?"
+      },
+      {
+        "sp": "A",
+        "t": "Diesmal nicht. Ich lasse sie in der Konditorei neben meinem Büro backen.",
+        "s": "Not this time. I'm having it made at the pastry shop next to my office."
+      },
+      {
+        "sp": "B",
+        "t": "Und als Geschenk? Ich habe mir überlegt, dass wir ein Fotoalbum machen könnten.",
+        "s": "And as a present? I was thinking we could make a photo album."
+      },
+      {
+        "sp": "A",
+        "t": "Wie schön! Dann sammeln wir alte Fotos und lassen sie drucken.",
+        "s": "How lovely! Then let's collect old photos and have them printed."
+      },
+      {
+        "sp": "B",
+        "t": "Gut, ich frage Oma. Sie hat bestimmt noch Bilder von der Hochzeit.",
+        "s": "Good, I'll ask Grandma. I'm sure she still has pictures from the wedding."
+      },
+      {
+        "sp": "A",
+        "t": "Perfekt. Aber verrat Mama nichts! Es soll eine Überraschung sein.",
+        "s": "Perfect. But don't tell Mom anything! It's supposed to be a surprise."
+      },
+      {
+        "sp": "B",
+        "t": "Keine Sorge, von mir erfährt sie nichts.",
+        "s": "Don't worry, she won't hear a thing from me."
+      }
+    ]
+  },
+  "grammar": [
+    {
+      "id": "g01",
+      "title": {
+        "t": "Ich wasche mir die Hände.",
+        "s": "Reflexive pronouns in the dative"
+      },
+      "explain": "You already know reflexive verbs with the accusative (A2): **ich freue mich, du ruhst dich aus**. When the sentence already has another **accusative object**, the reflexive pronoun goes into the **dative**: **Ich wasche mich.** (I wash myself.) → **Ich wasche mir die Hände.** (I wash my hands – literally: I wash *to me* the hands.)\nOnly **ich** and **du** have special dative forms: **mir, dir** (instead of mich, dich). All the other forms stay the same: **sich, uns, euch, sich**.\nTwo typical uses:\n• **Body and clothes:** where English says *my, your …*, German uses the dative pronoun + the **definite article**: **Ich putze mir die Zähne.** (I brush my teeth.) **Zieh dir die Jacke an!** (Put your jacket on!)\n• **Verbs with a dative reflexive + an object:** **sich etwas wünschen** (to wish for, want), **sich etwas vorstellen** (to imagine), **sich etwas überlegen** (to think about, consider), **sich etwas ansehen** (to watch, take a look at), **sich etwas merken** (to remember), **sich etwas kaufen** (to buy oneself something): **Ich wünsche mir ein Fahrrad. Das kann ich mir gut vorstellen.** The object can also be a clause: **Ich wünsche mir, dass alle kommen.**\nWord order: the reflexive pronoun comes early – right after the conjugated verb, or after a subject pronoun: **Morgen kaufe ich mir ein neues Handy.**",
+      "table": [
+        [
+          "ich",
+          "Ich wasche mich.",
+          "Ich wasche mir die Hände."
+        ],
+        [
+          "du",
+          "Du wäschst dich.",
+          "Du wäschst dir die Hände."
+        ],
+        [
+          "er, sie, es",
+          "Er wäscht sich.",
+          "Er wäscht sich die Hände."
+        ],
+        [
+          "wir",
+          "Wir waschen uns.",
+          "Wir waschen uns die Hände."
+        ],
+        [
+          "ihr",
+          "Ihr wascht euch.",
+          "Ihr wascht euch die Hände."
+        ],
+        [
+          "sie, Sie",
+          "Sie waschen sich.",
+          "Sie waschen sich die Hände."
+        ]
+      ],
+      "examples": [
+        {
+          "t": "Was wünschst du dir zum Geburtstag?",
+          "s": "What would you like for your birthday?"
+        },
+        {
+          "t": "Ich putze mir nach dem Essen die Zähne.",
+          "s": "I brush my teeth after meals."
+        },
+        {
+          "t": "Kannst du dir vorstellen, im Ausland zu leben?",
+          "s": "Can you imagine living abroad?"
+        },
+        {
+          "t": "Meine Großeltern sehen sich jeden Abend die Nachrichten an.",
+          "s": "My grandparents watch the news every evening."
+        },
+        {
+          "t": "Merk dir bitte die Adresse!",
+          "s": "Please remember the address!"
+        }
+      ],
+      "exercises": [
+        {
+          "type": "choice",
+          "t": "Ich wünsche ___ ein neues Fahrrad.",
+          "options": [
+            "mich",
+            "mir",
+            "sich"
+          ],
+          "answer": 1,
+          "s": "I'd like a new bike."
+        },
+        {
+          "type": "choice",
+          "t": "Kämm ___ bitte die Haare!",
+          "options": [
+            "dich",
+            "dir",
+            "sich"
+          ],
+          "answer": 1,
+          "s": "Please comb your hair!"
+        },
+        {
+          "type": "choice",
+          "t": "Ich freue ___ auf das Wochenende.",
+          "options": [
+            "mir",
+            "mich",
+            "sich"
+          ],
+          "answer": 1,
+          "s": "I'm looking forward to the weekend."
+        },
+        {
+          "type": "type",
+          "t": "Hast du ___ die Hände gewaschen?",
+          "answer": [
+            "dir"
+          ],
+          "s": "Have you washed your hands?"
+        },
+        {
+          "type": "type",
+          "t": "Das kann ich ___ gut vorstellen.",
+          "answer": [
+            "mir"
+          ],
+          "s": "I can easily imagine that."
+        },
+        {
+          "type": "type",
+          "t": "Lena hat ___ ein neues Kleid gekauft.",
+          "answer": [
+            "sich"
+          ],
+          "s": "Lena bought herself a new dress."
+        },
+        {
+          "type": "order",
+          "t": "Wir sehen uns heute einen Film an.",
+          "s": "We're watching a movie today.",
+          "alts": [
+            "Heute sehen wir uns einen Film an."
+          ]
+        },
+        {
+          "type": "order",
+          "t": "Ich putze mir die Zähne.",
+          "s": "I'm brushing my teeth."
+        }
+      ]
+    },
+    {
+      "id": "g02",
+      "title": {
+        "t": "Ich lasse das Auto reparieren.",
+        "s": "lassen: having something done, letting someone do something"
+      },
+      "explain": "**lassen** + infinitive (at the end of the clause) has two main meanings:\n**1. to have something done** – someone else does it for you: **Ich lasse mein Auto reparieren.** (I'm having my car repaired.) **Wir lassen das Essen liefern.** If you want to say who does it, use **von + dative**: **Ich lasse die Torte von meiner Tante backen.**\n**2. to let, allow** someone to do something: **Meine Eltern lassen mich allein reisen.** **Lass die Kinder doch spielen!** Sometimes only the context tells you which meaning is meant.\n**Forms:** **ich lasse, du lässt, er, sie, es lässt**; Präteritum **ließ**. In the Perfekt with another infinitive, use the infinitive **lassen**, not *gelassen*: **Ich habe mir die Haare schneiden lassen.** Without another verb, lassen means *to leave* and has the normal participle: **Ich habe den Schlüssel im Auto gelassen.**\nWith a dative reflexive pronoun you say that you have something done *for yourself*: **sich die Haare schneiden lassen** (to get a haircut).\n**Lass uns …** means *let's …*: **Lass uns gehen!**",
+      "table": [
+        [
+          "Präsens",
+          "Ich lasse das Auto reparieren."
+        ],
+        [
+          "Präteritum",
+          "Ich ließ das Auto reparieren."
+        ],
+        [
+          "Perfekt",
+          "Ich habe das Auto reparieren lassen."
+        ],
+        [
+          "Nebensatz",
+          "…, weil ich das Auto reparieren lasse."
+        ],
+        [
+          "erlauben",
+          "Meine Eltern lassen mich allein reisen."
+        ],
+        [
+          "ohne Infinitiv",
+          "Ich habe den Schlüssel zu Hause gelassen."
+        ]
+      ],
+      "examples": [
+        {
+          "t": "Wir lassen die Wohnung streichen.",
+          "s": "We're having the apartment painted."
+        },
+        {
+          "t": "Ich habe mir gestern die Haare schneiden lassen.",
+          "s": "I got a haircut yesterday."
+        },
+        {
+          "t": "Lass mich bitte ausreden!",
+          "s": "Please let me finish!"
+        },
+        {
+          "t": "Die Großeltern lassen die Enkelkinder abends länger aufbleiben.",
+          "s": "The grandparents let the grandchildren stay up later in the evening."
+        },
+        {
+          "t": "Mit sechzehn ließen mich meine Eltern zum ersten Mal ohne sie verreisen.",
+          "s": "At sixteen, my parents let me go on a trip without them for the first time."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "choice",
+          "t": "Mein Fahrrad ist kaputt. Ich ___ es reparieren.",
+          "options": [
+            "lasse",
+            "lässt",
+            "lassen"
+          ],
+          "answer": 0,
+          "s": "My bike is broken. I'm having it repaired."
+        },
+        {
+          "type": "choice",
+          "t": "Ich habe mir die Haare schneiden ___.",
+          "options": [
+            "gelassen",
+            "lassen",
+            "lässt"
+          ],
+          "answer": 1,
+          "s": "I got a haircut."
+        },
+        {
+          "type": "type",
+          "t": "Du ___ dein Handy immer auf dem Tisch liegen.",
+          "answer": [
+            "lässt",
+            "laesst"
+          ],
+          "s": "You always leave your phone lying on the table."
+        },
+        {
+          "type": "choice",
+          "t": "Meine Eltern ___ mich nicht allein reisen.",
+          "options": [
+            "lassen",
+            "lässt",
+            "ließ"
+          ],
+          "answer": 0,
+          "s": "My parents don't let me travel alone."
+        },
+        {
+          "type": "type",
+          "t": "Wir haben das Essen liefern ___.",
+          "answer": [
+            "lassen"
+          ],
+          "s": "We had the food delivered."
+        },
+        {
+          "type": "choice",
+          "t": "Hast du den Schlüssel im Auto ___?",
+          "options": [
+            "gelassen",
+            "lassen",
+            "lässt"
+          ],
+          "answer": 0,
+          "s": "Did you leave the key in the car?"
+        },
+        {
+          "type": "order",
+          "t": "Ich lasse mein Auto reparieren.",
+          "s": "I'm having my car repaired."
+        },
+        {
+          "type": "order",
+          "t": "Sie lässt sich die Haare schneiden.",
+          "s": "She's getting her hair cut."
+        }
+      ]
+    }
+  ],
+  "reading": {
+    "title": {
+      "t": "Drei Generationen unter einem Dach",
+      "s": "Three generations under one roof"
+    },
+    "text": [
+      {
+        "t": "In der Wohnung von Maryam und Ali leben drei Generationen unter einem Dach.",
+        "s": "In Maryam and Ali's apartment, three generations live under one roof."
+      },
+      {
+        "t": "Vor zwei Jahren ist Maryams Mutter aus Teheran nach Hamburg gezogen.",
+        "s": "Two years ago, Maryam's mother moved from Tehran to Hamburg."
+      },
+      {
+        "t": "Seitdem kümmert sie sich oft um die beiden Enkelkinder, wenn ihre Tochter und ihr Schwiegersohn arbeiten.",
+        "s": "Since then she has often looked after the two grandchildren while her daughter and son-in-law are at work."
+      },
+      {
+        "t": "Sie holt die Kinder von der Schule ab und lässt sie nach den Hausaufgaben im Park spielen.",
+        "s": "She picks the children up from school and lets them play in the park after their homework."
+      },
+      {
+        "t": "Abends kocht sie gern persische Gerichte, und alle essen zusammen.",
+        "s": "In the evening she likes to cook Persian dishes, and everyone eats together."
+      },
+      {
+        "t": "Natürlich gibt es manchmal auch Streit.",
+        "s": "Of course, there are sometimes arguments too."
+      },
+      {
+        "t": "Die Großmutter findet, dass die Kinder zu viel Zeit am Handy verbringen.",
+        "s": "The grandmother thinks the children spend too much time on their phones."
+      },
+      {
+        "t": "Die Kinder wünschen sich dagegen mehr Freiheit.",
+        "s": "The children, on the other hand, want more freedom."
+      },
+      {
+        "t": "Maryam sagt: „Dann reden wir in Ruhe miteinander, und meistens finden wir eine Lösung.“",
+        "s": "Maryam says, \"Then we talk calmly with each other, and we usually find a solution.\""
+      },
+      {
+        "t": "Im Haushalt helfen alle mit: Ali kauft ein, und die Kinder räumen ihre Zimmer selbst auf.",
+        "s": "Everyone helps with the housework: Ali does the shopping, and the children tidy their own rooms."
+      },
+      {
+        "t": "Für Maryam ist das Zusammenleben ein großes Glück.",
+        "s": "For Maryam, living together is a real blessing."
+      },
+      {
+        "t": "„Ich kann mich immer auf meine Mutter verlassen, und die Kinder lernen viel von ihrer Oma“, sagt sie.",
+        "s": "\"I can always count on my mother, and the children learn a lot from their grandma,\" she says."
+      }
+    ],
+    "questions": [
+      {
+        "q": {
+          "t": "Wer ist vor zwei Jahren nach Hamburg gezogen?",
+          "s": "Who moved to Hamburg two years ago?"
+        },
+        "options": [
+          "Maryams Mutter",
+          "Alis Vater",
+          "Maryams Schwester"
+        ],
+        "answer": 0
+      },
+      {
+        "q": {
+          "t": "Was dürfen die Kinder nach den Hausaufgaben machen?",
+          "s": "What are the children allowed to do after their homework?"
+        },
+        "options": [
+          "im Park spielen",
+          "fernsehen",
+          "Freunde besuchen"
+        ],
+        "answer": 0
+      },
+      {
+        "q": {
+          "t": "Worüber gibt es manchmal Streit?",
+          "s": "What do they sometimes argue about?"
+        },
+        "options": [
+          "über das Essen",
+          "über die Zeit am Handy",
+          "über den Haushalt"
+        ],
+        "answer": 1
+      },
+      {
+        "q": {
+          "t": "Was macht Ali im Haushalt?",
+          "s": "What does Ali do in the household?"
+        },
+        "options": [
+          "Er kocht.",
+          "Er kauft ein.",
+          "Er räumt die Zimmer auf."
+        ],
+        "answer": 1
+      },
+      {
+        "q": {
+          "t": "Was ist das Zusammenleben für Maryam?",
+          "s": "What does living together mean to Maryam?"
+        },
+        "options": [
+          "ein großes Problem",
+          "ein großes Glück",
+          "sehr langweilig"
+        ],
+        "answer": 1
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "t": "Ich verstehe mich sehr gut mit meiner Schwiegermutter.",
+      "s": "I get along very well with my mother-in-law."
+    },
+    {
+      "t": "Was wünscht ihr euch zur Hochzeit?",
+      "s": "What would you like for your wedding?"
+    },
+    {
+      "t": "Mein Bruder lässt sein Auto in der Werkstatt reparieren.",
+      "s": "My brother is having his car repaired at the garage."
+    },
+    {
+      "t": "Meine Eltern haben mich als Kind viel draußen spielen lassen.",
+      "s": "When I was a child, my parents let me play outside a lot."
+    },
+    {
+      "t": "Nach dem Streit haben sich die beiden schnell wieder vertragen.",
+      "s": "After the argument, the two of them quickly made up."
+    },
+    {
+      "t": "Die Großeltern kümmern sich am Wochenende um die Enkelkinder.",
+      "s": "On weekends the grandparents look after the grandchildren."
+    },
+    {
+      "t": "Zieh dir eine warme Jacke an, es ist kalt!",
+      "s": "Put on a warm jacket, it's cold!"
+    },
+    {
+      "t": "In vielen Familien helfen die Männer heute mehr im Haushalt.",
+      "s": "In many families, men help more with the housework today."
+    }
+  ]
+}

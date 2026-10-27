@@ -1,0 +1,810 @@
+{
+  "id": "u05",
+  "level": "B2",
+  "emoji": "🚨",
+  "title": {
+    "t": "News and crime",
+    "s": "اخبار و جرم",
+    "pr": "نوز اَند کْرایم"
+  },
+  "goals": [
+    "می‌توانم خبرهای مربوط به جرم، پلیس و دادگاه را بفهمم و درباره‌شان صحبت کنم.",
+    "می‌توانم با فعل‌های گزارشی مثل suggest، warn، deny، admit، refuse و accuse و ساخت درستِ بعد از آن‌ها حرف کسی را نقل کنم.",
+    "می‌توانم با مجهول غیرشخصی (It is said that … / He is believed to …) خبر را رسمی و بی‌طرف بیان کنم."
+  ],
+  "words": [
+    {
+      "id": "w01",
+      "t": "commit a crime",
+      "s": "مرتکب جرم شدن",
+      "pr": "کِمیت اِ کْرایم",
+      "emoji": "",
+      "ex": {
+        "t": "Most people who commit a crime are caught sooner or later.",
+        "s": "بیشتر کسانی که مرتکب جرم می‌شوند، دیر یا زود دستگیر می‌شوند.",
+        "pr": "مُوسْت پیپِل هو کِمیت اِ کْرایم آر کات سونِر اُر لِیتِر."
+      }
+    },
+    {
+      "id": "w02",
+      "t": "suspect",
+      "pl": "suspects",
+      "s": "مظنون",
+      "pr": "ساسْپِکْت",
+      "emoji": "",
+      "ex": {
+        "t": "The police are questioning two suspects.",
+        "s": "پلیس دارد از دو مظنون بازجویی می‌کند.",
+        "pr": "ذِ پِلیس آر کْوِسْچِنینگ تو ساسْپِکْتْس."
+      }
+    },
+    {
+      "id": "w03",
+      "t": "witness",
+      "pl": "witnesses",
+      "s": "شاهد",
+      "pr": "ویتْنِس",
+      "emoji": "",
+      "ex": {
+        "t": "A witness saw the man running away from the bank.",
+        "s": "یک شاهد مرد را در حال فرار از بانک دید.",
+        "pr": "اِ ویتْنِس سا ذِ مَن رانینگ اِوِی فْرام ذِ بَنْک."
+      }
+    },
+    {
+      "id": "w04",
+      "t": "victim",
+      "pl": "victims",
+      "s": "قربانی",
+      "pr": "ویکْتِم",
+      "emoji": "",
+      "ex": {
+        "t": "The victim of the robbery was an elderly woman.",
+        "s": "قربانی این سرقت یک خانم مسن بود.",
+        "pr": "ذِ ویکْتِم آو ذِ رابِری واز اِن اِلْدِرْلی وومِن."
+      }
+    },
+    {
+      "id": "w05",
+      "t": "arrest",
+      "s": "دستگیر کردن؛ دستگیری",
+      "pr": "اِرِسْت",
+      "emoji": "",
+      "ex": {
+        "t": "Two men were arrested near the border.",
+        "s": "دو مرد نزدیک مرز دستگیر شدند.",
+        "pr": "تو مِن وِر اِرِسْتِد نیر ذِ بُرْدِر."
+      }
+    },
+    {
+      "id": "w06",
+      "t": "investigate",
+      "s": "تحقیق کردن، بررسی کردن (یک پرونده یا حادثه)",
+      "pr": "اینْوِسْتِگِیت",
+      "emoji": "",
+      "ex": {
+        "t": "Detectives are investigating the fire at the factory.",
+        "s": "کارآگاهان دارند آتش‌سوزی کارخانه را بررسی می‌کنند.",
+        "pr": "دیتِکْتیوْز آر اینْوِسْتِگِیتینگ ذِ فایِر اَت ذِ فَکْتِری."
+      }
+    },
+    {
+      "id": "w07",
+      "t": "evidence",
+      "s": "مدرک، شواهد",
+      "pr": "اِوِدِنْس",
+      "emoji": "",
+      "ex": {
+        "t": "There isn't enough evidence to prove that he did it.",
+        "s": "مدرک کافی برای اثبات اینکه او این کار را کرده وجود ندارد.",
+        "pr": "ذِر ایزِنْت ایناف اِوِدِنْس تو پْروو ذَت هی دید ایت."
+      }
+    },
+    {
+      "id": "w08",
+      "t": "burglary",
+      "pl": "burglaries",
+      "s": "دزدی از خانه یا ساختمان",
+      "pr": "بِرْگْلِری",
+      "emoji": "",
+      "ex": {
+        "t": "There have been three burglaries on our street this month.",
+        "s": "این ماه در خیابان ما سه بار از خانه‌ها دزدی شده است.",
+        "pr": "ذِر هَو بین ثْری بِرْگْلِریز آن آوِر سْتْریت ذیس مانْث."
+      }
+    },
+    {
+      "id": "w09",
+      "t": "fraud",
+      "s": "کلاهبرداری",
+      "pr": "فْراد",
+      "emoji": "",
+      "ex": {
+        "t": "He lost all his savings because of an online fraud.",
+        "s": "او به خاطر یک کلاهبرداری اینترنتی همه‌ی پس‌اندازش را از دست داد.",
+        "pr": "هی لاسْت آل هیز سِیوینگْز بیکاز آو اِن آنْلاین فْراد."
+      }
+    },
+    {
+      "id": "w10",
+      "t": "court",
+      "pl": "courts",
+      "s": "دادگاه",
+      "pr": "کُرت",
+      "emoji": "⚖️",
+      "ex": {
+        "t": "The case will go to court next month.",
+        "s": "این پرونده ماه آینده به دادگاه می‌رود.",
+        "pr": "ذِ کِیس ویل گُو تو کُرت نِکْسْت مانْث."
+      }
+    },
+    {
+      "id": "w11",
+      "t": "trial",
+      "pl": "trials",
+      "s": "محاکمه",
+      "pr": "تْرایِل",
+      "emoji": "",
+      "ex": {
+        "t": "The trial lasted three weeks.",
+        "s": "محاکمه سه هفته طول کشید.",
+        "pr": "ذِ تْرایِل لَسْتِد ثْری ویکْس."
+      }
+    },
+    {
+      "id": "w12",
+      "t": "guilty",
+      "s": "مقصر، مجرم",
+      "pr": "گیلْتی",
+      "emoji": "",
+      "ex": {
+        "t": "The jury found her guilty of fraud.",
+        "s": "هیئت منصفه او را به کلاهبرداری مجرم شناخت.",
+        "pr": "ذِ جوری فاونْد هِر گیلْتی آو فْراد."
+      }
+    },
+    {
+      "id": "w13",
+      "t": "innocent",
+      "s": "بی‌گناه",
+      "pr": "اینِسِنْت",
+      "emoji": "",
+      "ex": {
+        "t": "He has always said that he is innocent.",
+        "s": "او همیشه گفته است که بی‌گناه است.",
+        "pr": "هی هَز آلْوِیز سِد ذَت هی ایز اینِسِنْت."
+      }
+    },
+    {
+      "id": "w14",
+      "t": "sentence",
+      "s": "محکوم کردن (به)؛ حکم دادگاه",
+      "pr": "سِنْتِنْس",
+      "emoji": "",
+      "ex": {
+        "t": "The thief was sentenced to two years in prison.",
+        "s": "دزد به دو سال زندان محکوم شد.",
+        "pr": "ذِ ثیف واز سِنْتِنْسْت تو تو ییرز این پْریزِن."
+      }
+    },
+    {
+      "id": "w15",
+      "t": "security camera",
+      "pl": "security cameras",
+      "s": "دوربین مداربسته",
+      "pr": "سِکیورِتی کَمْرا",
+      "emoji": "",
+      "ex": {
+        "t": "The burglar was filmed by a security camera.",
+        "s": "دوربین مداربسته از دزد فیلم گرفت.",
+        "pr": "ذِ بِرْگْلِر واز فیلْمْد بای اِ سِکیورِتی کَمْرا."
+      }
+    }
+  ],
+  "phrases": [
+    {
+      "id": "p01",
+      "t": "Apparently, …",
+      "s": "ظاهراً، … / از قرار معلوم، …",
+      "pr": "اِپَرِنْتْلی"
+    },
+    {
+      "id": "p02",
+      "t": "It turns out that …",
+      "s": "معلوم شد که …",
+      "pr": "ایت تِرْنْز آوت ذَت"
+    },
+    {
+      "id": "p03",
+      "t": "I can't believe it!",
+      "s": "باورم نمی‌شود!",
+      "pr": "آی کَنت بیلیو ایت!"
+    },
+    {
+      "id": "p04",
+      "t": "What a shame!",
+      "s": "چه حیف! / چه بد!",
+      "pr": "وات اِ شِیم!"
+    },
+    {
+      "id": "p05",
+      "t": "They got what they deserved.",
+      "s": "به سزای کارشان رسیدند.",
+      "pr": "ذِی گات وات ذِی دیزِرْوْد."
+    },
+    {
+      "id": "p06",
+      "t": "Innocent until proven guilty.",
+      "s": "تا جرم کسی ثابت نشده، بی‌گناه است.",
+      "pr": "اینِسِنْت اِنْتیل پْرووِن گیلْتی."
+    },
+    {
+      "id": "p07",
+      "t": "You can never be too careful.",
+      "s": "هر چقدر احتیاط کنی، کم است.",
+      "pr": "یو کَن نِوِر بی تو کِرْفِل."
+    },
+    {
+      "id": "p08",
+      "t": "Keep an eye on …",
+      "s": "حواست به … باشد.",
+      "pr": "کیپ اِن آی آن"
+    }
+  ],
+  "dialogue": {
+    "title": {
+      "t": "Trouble in the neighborhood",
+      "s": "دردسر در محله",
+      "pr": "تْرابِل این ذِ نِیبِرْهود"
+    },
+    "speakers": {
+      "A": {
+        "name": "Lisa",
+        "voice": "f"
+      },
+      "B": {
+        "name": "Ali",
+        "voice": "m"
+      }
+    },
+    "lines": [
+      {
+        "sp": "A",
+        "t": "Ali, did you hear about the burglary at number twelve?",
+        "s": "علی، درباره‌ی دزدی از خانه‌ی پلاک دوازده شنیدی؟",
+        "pr": "علی، دید یو هیر اِباوت ذِ بِرْگْلِری اَت نامْبِر تْوِلْو؟"
+      },
+      {
+        "sp": "B",
+        "t": "Yes! Apparently, the thieves got in through the kitchen window while the family was on vacation.",
+        "s": "آره! ظاهراً وقتی خانواده در سفر بودند، دزدها از پنجره‌ی آشپزخانه وارد شده‌اند.",
+        "pr": "یِس! اِپَرِنْتْلی، ذِ ثیوْز گات این ثْرو ذِ کیچِن ویندُو وایل ذِ فَمِلی واز آن وِیکِیشِن."
+      },
+      {
+        "sp": "A",
+        "t": "That's awful. Have the police caught anyone?",
+        "s": "وحشتناک است. پلیس کسی را گرفته؟",
+        "pr": "ذَتْس آفِل. هَو ذِ پِلیس کات اِنیوان؟"
+      },
+      {
+        "sp": "B",
+        "t": "They've arrested a young man. He's said to have committed several burglaries in this area.",
+        "s": "یک مرد جوان را دستگیر کرده‌اند. می‌گویند در این منطقه چند دزدی دیگر هم کرده است.",
+        "pr": "ذِیو اِرِسْتِد اِ یانگ مَن. هیز سِد تو هَو کِمیتِد سِوْرِل بِرْگْلِریز این ذیس اِریا."
+      },
+      {
+        "sp": "A",
+        "t": "Has he admitted it?",
+        "s": "اعتراف کرده؟",
+        "pr": "هَز هی اِدْمیتِد ایت؟"
+      },
+      {
+        "sp": "B",
+        "t": "No, he denies breaking into the house. He says he was at his cousin's that night.",
+        "s": "نه، انکار می‌کند که وارد خانه شده. می‌گوید آن شب خانه‌ی پسرعمویش بوده.",
+        "pr": "نُو، هی دینایز بْرِیکینگ اینْتو ذِ هاوس. هی سِز هی واز اَت هیز کازِنْز ذَت نایت."
+      },
+      {
+        "sp": "A",
+        "t": "Well, innocent until proven guilty, I suppose. Was there any evidence?",
+        "s": "خب، به هر حال تا جرمش ثابت نشده بی‌گناه است. مدرکی هم بود؟",
+        "pr": "وِل، اینِسِنْت اِنْتیل پْرووِن گیلْتی، آی سِپُوز. واز ذِر اِنی اِوِدِنْس؟"
+      },
+      {
+        "sp": "B",
+        "t": "It's believed that a neighbor's security camera filmed the whole thing.",
+        "s": "گمان می‌رود دوربین مداربسته‌ی یکی از همسایه‌ها کل ماجرا را فیلم گرفته باشد.",
+        "pr": "ایتْس بیلیوْد ذَت اِ نِیبِرْز سِکیورِتی کَمْرا فیلْمْد ذِ هُول ثینگ."
+      },
+      {
+        "sp": "A",
+        "t": "Good. You know, the police officer I spoke to warned us not to leave our windows open at night.",
+        "s": "خوب است. می‌دانی، مأموری که با او حرف زدم به ما هشدار داد که شب‌ها پنجره‌ها را باز نگذاریم.",
+        "pr": "گود. یو نُو، ذِ پِلیس آفِسِر آی سْپُوک تو وُرْنْد آس نات تو لیو آوِر ویندُوز اُوپِن اَت نایت."
+      },
+      {
+        "sp": "B",
+        "t": "He's right. Actually, my wife suggested installing an alarm, and I think we'll do it.",
+        "s": "حق با اوست. راستش همسرم پیشنهاد داد دزدگیر نصب کنیم و فکر کنم این کار را بکنیم.",
+        "pr": "هیز رایت. اَکْچوئِلی، مای وایف سِجِسْتِد اینْسْتالینگ اِن اِلارْم، اَند آی ثینک ویل دو ایت."
+      },
+      {
+        "sp": "A",
+        "t": "Good idea. You can never be too careful.",
+        "s": "فکر خوبی است. هر چقدر احتیاط کنی، کم است.",
+        "pr": "گود آیدیا. یو کَن نِوِر بی تو کِرْفِل."
+      }
+    ]
+  },
+  "grammar": [
+    {
+      "id": "g01",
+      "title": {
+        "t": "Reporting verbs and their patterns",
+        "s": "فعل‌های گزارشی و ساخت بعد از آن‌ها",
+        "pr": "ریپُرتینگ وِرْبْز اَند ذِر پَتِرْنْز"
+      },
+      "explain": "در B1 نقل قول غیرمستقیم را با **said** و **told** یاد گرفتید. در سطح B2 به جای say و tell اغلب از **فعل‌های گزارشی** دقیق‌تری استفاده می‌کنیم که **نیت گوینده** را هم نشان می‌دهند. نکته‌ی اصلی این است که **ساختِ بعد از هر فعل** را بدانید:\n**فعل + to + شکل ساده**: **agree، refuse، offer، promise، threaten**: **He refused to answer.** (از جواب دادن خودداری کرد.)\n**فعل + مفعول + to + شکل ساده**: **warn، advise، ask، tell، remind، persuade**: **The police warned us not to open the door.** (پلیس به ما هشدار داد در را باز نکنیم.)\n**فعل + فعل ing‌دار**: **deny، admit، suggest، recommend**: **She denied stealing the money. / He admitted breaking the window.**\n**فعل + مفعول + حرف اضافه + فعل ing‌دار**: **accuse sb of، blame sb for**: **They accused him of lying.** (او را به دروغ‌گویی متهم کردند.)\n**suggest** هرگز با «مفعول + to» نمی‌آید: **He suggested me to go** غلط است. درست: **He suggested going** یا **He suggested (that) I go.**\nبیشتر این فعل‌ها با **that** هم می‌آیند (**He admitted that he had lied.**)، ولی **refuse** و **offer** با that به کار نمی‌روند.",
+      "table": [
+        [
+          "verb + to-infinitive",
+          "refuse, agree, offer, promise",
+          "He refused to pay."
+        ],
+        [
+          "verb + object + to-infinitive",
+          "warn, advise, remind, persuade",
+          "She warned me not to go."
+        ],
+        [
+          "verb + -ing",
+          "deny, admit, suggest, recommend",
+          "He denied taking it."
+        ],
+        [
+          "verb + object + preposition + -ing",
+          "accuse of, blame for",
+          "They accused her of lying."
+        ]
+      ],
+      "examples": [
+        {
+          "t": "The suspect refused to answer any questions.",
+          "s": "مظنون از جواب دادن به هر سؤالی خودداری کرد.",
+          "pr": "ذِ ساسْپِکْت ریفیوزْد تو اَنْسِر اِنی کْوِسْچِنْز."
+        },
+        {
+          "t": "The man admitted stealing the bicycle.",
+          "s": "مرد اعتراف کرد که دوچرخه را دزدیده است.",
+          "pr": "ذِ مَن اِدْمیتِد سْتیلینگ ذِ بایسیکِل."
+        },
+        {
+          "t": "My neighbor accused me of damaging his car.",
+          "s": "همسایه‌ام مرا متهم کرد که به ماشینش آسیب زده‌ام.",
+          "pr": "مای نِیبِر اِکیوزْد میْ آو دَمِجینگ هیز کار."
+        },
+        {
+          "t": "The police warned drivers not to use the mountain road.",
+          "s": "پلیس به راننده‌ها هشدار داد که از جاده‌ی کوهستانی استفاده نکنند.",
+          "pr": "ذِ پِلیس وُرْنْد دْرایوِرز نات تو یوز ذِ ماونْتِن رُود."
+        },
+        {
+          "t": "Sara suggested calling the police immediately.",
+          "s": "سارا پیشنهاد داد فوراً به پلیس زنگ بزنیم.",
+          "pr": "سارا سِجِسْتِد کالینگ ذِ پِلیس ایمیدیِتْلی."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "choice",
+          "t": "The thief denied ___ the jewelry.",
+          "options": [
+            "taking",
+            "to take",
+            "take"
+          ],
+          "answer": 0,
+          "s": "دزد انکار کرد که جواهرات را برداشته است.",
+          "pr": "ذِ ثیف دیناید تِیکینگ ذِ جوئِلْری."
+        },
+        {
+          "type": "choice",
+          "t": "My lawyer advised me ___ anything to the journalists.",
+          "options": [
+            "not to say",
+            "not saying",
+            "to not saying"
+          ],
+          "answer": 0,
+          "s": "وکیلم به من توصیه کرد چیزی به خبرنگارها نگویم.",
+          "pr": "مای لُیِر اِدْوایزْد میْ نات تو سِی اِنیثینگ تو ذِ جِرْنِلیسْتْس."
+        },
+        {
+          "type": "choice",
+          "t": "They accused the company ___ lying to its customers.",
+          "options": [
+            "of",
+            "for",
+            "about"
+          ],
+          "answer": 0,
+          "s": "آن‌ها شرکت را متهم کردند که به مشتری‌هایش دروغ گفته است.",
+          "pr": "ذِی اِکیوزْد ذِ کامپِنی آو لایینگ تو ایتْس کاسْتِمِرز."
+        },
+        {
+          "type": "choice",
+          "t": "The witness ___ to speak to the police.",
+          "options": [
+            "refused",
+            "denied",
+            "suggested"
+          ],
+          "answer": 0,
+          "s": "شاهد حاضر نشد با پلیس صحبت کند.",
+          "pr": "ذِ ویتْنِس ریفیوزْد تو سْپیک تو ذِ پِلیس."
+        },
+        {
+          "type": "type",
+          "t": "He finally admitted ___ the window.",
+          "answer": [
+            "breaking",
+            "having broken"
+          ],
+          "s": "بالاخره اعتراف کرد که پنجره را شکسته است.",
+          "pr": "هی فاینِلی اِدْمیتِد بْرِیکینگ ذِ ویندُو."
+        },
+        {
+          "type": "type",
+          "t": "The officer ___ us not to leave our bags in the car.",
+          "answer": [
+            "warned",
+            "advised",
+            "told",
+            "reminded",
+            "asked",
+            "ordered",
+            "urged"
+          ],
+          "s": "مأمور به ما هشدار داد که کیف‌هایمان را در ماشین نگذاریم.",
+          "pr": "ذی آفِسِر وُرْنْد آس نات تو لیو آوِر بَگْز این ذِ کار."
+        },
+        {
+          "type": "type",
+          "t": "Neda suggested ___ a taxi because it was late.",
+          "answer": [
+            "taking",
+            "getting",
+            "calling"
+          ],
+          "s": "ندا پیشنهاد داد تاکسی بگیریم، چون دیروقت بود.",
+          "pr": "ندا سِجِسْتِد تِیکینگ اِ تَکْسی بیکاز ایت واز لِیت."
+        },
+        {
+          "type": "order",
+          "t": "She accused him of reading her messages.",
+          "s": "او مرد را متهم کرد که پیام‌هایش را خوانده است.",
+          "pr": "شی اِکیوزْد هیم آو ریدینگ هِر مِسِجِز."
+        }
+      ]
+    },
+    {
+      "id": "g02",
+      "title": {
+        "t": "Impersonal passive",
+        "s": "مجهول غیرشخصی",
+        "pr": "ایمْپِرْسِنِل پَسیو"
+      },
+      "explain": "در خبر و متن رسمی، وقتی می‌خواهیم بگوییم «گفته می‌شود، گمان می‌رود، گزارش شده که …» بدون اینکه منبع مشخصی را نام ببریم، از **مجهول غیرشخصی** استفاده می‌کنیم. فعل‌های رایج: **say، believe، think، report، know، expect، consider، estimate**.\n**ساخت اول**: **It + is / was + قسمت سوم فعل + that + جمله**: **It is said that the thief is still in the city.** (گفته می‌شود دزد هنوز در شهر است.)\n**ساخت دوم**: **فاعل + is / was + قسمت سوم فعل + to + شکل ساده**: **The thief is said to be in the city.** (همان معنی)\nاگر کار **قبل از** زمانِ گفتن اتفاق افتاده باشد، در ساخت دوم **to have + قسمت سوم** می‌آوریم: **He is believed to have left the country.** (گمان می‌رود کشور را ترک کرده باشد.)\nبرای کاری که **همین حالا در جریان است**: **to be + فعل ing‌دار**: **The police are thought to be questioning a suspect.**\nساخت اول تقریباً مثل فارسی است («گفته می‌شود که …»، «گمان می‌رود که …»)، ولی ساخت دوم معادل مستقیمی در فارسی ندارد؛ پس به آن بیشتر دقت کنید: **She is known to be very generous.** (معلوم است که خیلی دست‌ودل‌باز است.)",
+      "table": [
+        [
+          "It is said that",
+          "he is rich."
+        ],
+        [
+          "He is said",
+          "to be rich."
+        ],
+        [
+          "It is believed that",
+          "she left yesterday."
+        ],
+        [
+          "She is believed",
+          "to have left yesterday."
+        ]
+      ],
+      "examples": [
+        {
+          "t": "It is reported that three people were injured in the accident.",
+          "s": "گزارش شده است که سه نفر در این حادثه زخمی شده‌اند.",
+          "pr": "ایت ایز ریپُرتِد ذَت ثْری پیپِل وِر اینْجِرْد این ذی اَکْسِدِنْت."
+        },
+        {
+          "t": "The robbers are believed to be hiding in the mountains.",
+          "s": "گمان می‌رود سارقان در کوهستان مخفی شده‌اند.",
+          "pr": "ذِ رابِرز آر بیلیوْد تو بی هایدینگ این ذِ ماونْتِنْز."
+        },
+        {
+          "t": "It is thought that the fire was started deliberately.",
+          "s": "تصور می‌شود که آتش‌سوزی عمداً به راه افتاده است.",
+          "pr": "ایت ایز ثات ذَت ذِ فایِر واز سْتارتِد دیلیبِرِتْلی."
+        },
+        {
+          "t": "The painting is said to have been stolen twenty years ago.",
+          "s": "گفته می‌شود این تابلو بیست سال پیش دزدیده شده است.",
+          "pr": "ذِ پِینْتینگ ایز سِد تو هَو بین سْتُولِن تْوِنْتی ییرز اِگُو."
+        },
+        {
+          "t": "The suspect is known to have lived in Berlin for several years.",
+          "s": "معلوم است که مظنون چند سال در برلین زندگی کرده است.",
+          "pr": "ذِ ساسْپِکْت ایز نُون تو هَو لیوْد این بِرْلین فُر سِوْرِل ییرز."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "choice",
+          "t": "It ___ that the thieves escaped in a white van.",
+          "options": [
+            "is believed",
+            "believes",
+            "is believing"
+          ],
+          "answer": 0,
+          "s": "گمان می‌رود دزدها با یک ون سفید فرار کرده باشند.",
+          "pr": "ایت ایز بیلیوْد ذَت ذِ ثیوْز ایسْکِیپْت این اِ وایت وَن."
+        },
+        {
+          "type": "choice",
+          "t": "The prisoner is thought ___ the country last week.",
+          "options": [
+            "to have left",
+            "to leave",
+            "leaving"
+          ],
+          "answer": 0,
+          "s": "تصور می‌شود زندانی هفته‌ی پیش از کشور خارج شده است.",
+          "pr": "ذِ پْریزِنِر ایز ثات تو هَو لِفْت ذِ کانْتْری لَسْت ویک."
+        },
+        {
+          "type": "choice",
+          "t": "The singer is said ___ a new album at the moment.",
+          "options": [
+            "to be recording",
+            "to have recorded",
+            "recording"
+          ],
+          "answer": 0,
+          "s": "گفته می‌شود این خواننده در حال حاضر دارد آلبوم جدیدی ضبط می‌کند.",
+          "pr": "ذِ سینگِر ایز سِد تو بی ریکُردینگ اِ نو اَلْبِم اَت ذِ مُومِنْت."
+        },
+        {
+          "type": "type",
+          "t": "It is ___ that more than a thousand people took part in the city marathon.",
+          "answer": [
+            "estimated",
+            "said",
+            "reported",
+            "believed",
+            "thought",
+            "known"
+          ],
+          "s": "تخمین زده می‌شود که بیش از هزار نفر در ماراتن شهر شرکت کرده‌اند.",
+          "pr": "ایت ایز اِسْتِمِیتِد ذَت مُر ذَن اِ ثاوزِنْد پیپِل توک پارت این ذِ سیتی مَرِثان."
+        },
+        {
+          "type": "type",
+          "t": "The man is believed to ___ stolen more than fifty cars.",
+          "answer": [
+            "have"
+          ],
+          "s": "گمان می‌رود این مرد بیش از پنجاه ماشین دزدیده باشد.",
+          "pr": "ذِ مَن ایز بیلیوْد تو هَو سْتُولِن مُر ذَن فیفْتی کارز."
+        },
+        {
+          "type": "type",
+          "t": "The old bridge is said ___ be the oldest in the country.",
+          "answer": [
+            "to"
+          ],
+          "s": "گفته می‌شود این پل قدیمی، قدیمی‌ترین پل کشور است.",
+          "pr": "ذی اُولْد بْریج ایز سِد تو بی ذی اُولْدِسْت این ذِ کانْتْری."
+        },
+        {
+          "type": "order",
+          "t": "The suspect is thought to be dangerous.",
+          "s": "تصور می‌شود مظنون خطرناک است.",
+          "pr": "ذِ ساسْپِکْت ایز ثات تو بی دِینْجِرِس."
+        },
+        {
+          "type": "order",
+          "t": "It is said that he was innocent.",
+          "s": "گفته می‌شود او بی‌گناه بوده است.",
+          "pr": "ایت ایز سِد ذَت هی واز اینِسِنْت."
+        }
+      ]
+    }
+  ],
+  "reading": {
+    "title": {
+      "t": "Fake charity collectors arrested",
+      "s": "جمع‌کنندگان قلابی کمک خیریه دستگیر شدند",
+      "pr": "فِیک چَریتی کِلِکْتِرز اِرِسْتِد"
+    },
+    "text": [
+      {
+        "t": "Two men were arrested yesterday after a month-long police investigation into charity fraud.",
+        "s": "دو مرد دیروز پس از یک ماه تحقیقات پلیس درباره‌ی کلاهبرداری به اسم خیریه دستگیر شدند.",
+        "pr": "تو مِن وِر اِرِسْتِد یِسْتِرْدِی اَفْتِر اِ مانْث لانگ پِلیس اینْوِسْتِگِیشِن اینْتو چَریتی فْراد."
+      },
+      {
+        "t": "The men are said to have visited hundreds of homes, asking for money for a children's hospital that does not exist.",
+        "s": "گفته می‌شود این دو نفر به صدها خانه سر زده و برای بیمارستان کودکانی که اصلاً وجود ندارد پول خواسته‌اند.",
+        "pr": "ذِ مِن آر سِد تو هَو ویزیتِد هاندْرِدْز آو هُومْز، اَسْکینگ فُر مانی فُر اِ چیلْدْرِنْز هاسْپیتِل ذَت داز نات ایگْزیسْت."
+      },
+      {
+        "t": "It is estimated that they collected more than forty thousand dollars.",
+        "s": "تخمین زده می‌شود که بیش از چهل هزار دلار جمع کرده باشند.",
+        "pr": "ایت ایز اِسْتِمِیتِد ذَت ذِی کِلِکْتِد مُر ذَن فُرْتی ثاوزِنْد دالِرز."
+      },
+      {
+        "t": "Most of the victims were elderly people living alone.",
+        "s": "بیشتر قربانیان افراد مسنی بودند که تنها زندگی می‌کردند.",
+        "pr": "مُوسْت آو ذِ ویکْتِمْز وِر اِلْدِرْلی پیپِل لیوینگ اِلُون."
+      },
+      {
+        "t": "The case was first reported by a retired teacher, Emma Clark, who became suspicious when the men refused to give her a receipt.",
+        "s": "نخستین کسی که ماجرا را به پلیس گزارش داد، معلم بازنشسته‌ای به نام اِما کلارک بود؛ وقتی آن دو نفر حاضر نشدند به او رسید بدهند، به آن‌ها مشکوک شد.",
+        "pr": "ذِ کِیس واز فِرْسْت ریپُرتِد بای اِ ریتایِرْد تیچِر، اِما کْلارک، هو بیکِیم سِسْپیشِس وِن ذِ مِن ریفیوزْد تو گیو هِر اِ ریسیت."
+      },
+      {
+        "t": "“They suggested paying in cash, which seemed strange to me,” she told reporters.",
+        "s": "او به خبرنگاران گفت: «پیشنهاد کردند نقدی پرداخت کنم و این به نظرم عجیب بود.»",
+        "pr": "ذِی سِجِسْتِد پِیینگ این کَش، ویچ سیمْد سْتْرِینْج تو میْ، شی تُولْد ریپُرتِرز."
+      },
+      {
+        "t": "She wrote down their license plate number and called the police.",
+        "s": "او شماره‌ی پلاک ماشینشان را یادداشت کرد و به پلیس زنگ زد.",
+        "pr": "شی رُوت داون ذِر لایسِنْس پْلِیت نامْبِر اَند کالْد ذِ پِلیس."
+      },
+      {
+        "t": "Security camera videos from several streets helped detectives identify the suspects.",
+        "s": "فیلم دوربین‌های مداربسته‌ی چند خیابان به کارآگاهان کمک کرد مظنونان را شناسایی کنند.",
+        "pr": "سِکیورِتی کَمْرا ویدیُوز فْرام سِوْرِل سْتْریتْس هِلْپْت دیتِکْتیوْز آیدِنْتِفای ذِ ساسْپِکْتْس."
+      },
+      {
+        "t": "After the arrest, one of the men admitted taking the money but denied planning the crime.",
+        "s": "پس از دستگیری، یکی از آن دو نفر اعتراف کرد که پول‌ها را گرفته، ولی برنامه‌ریزی جرم را انکار کرد.",
+        "pr": "اَفْتِر ذی اِرِسْت، وان آو ذِ مِن اِدْمیتِد تِیکینگ ذِ مانی بات دیناید پْلَنینگ ذِ کْرایم."
+      },
+      {
+        "t": "He accused his partner of organizing everything.",
+        "s": "او شریکش را متهم کرد که همه‌چیز را او ترتیب داده است.",
+        "pr": "هی اِکیوزْد هیز پارْتْنِر آو اُرْگِنایزینگ اِوْریثینگ."
+      },
+      {
+        "t": "The second man has refused to speak to the police.",
+        "s": "مرد دوم تا حالا حاضر نشده است با پلیس حرف بزند.",
+        "pr": "ذِ سِکِنْد مَن هَز ریفیوزْد تو سْپیک تو ذِ پِلیس."
+      },
+      {
+        "t": "The trial is expected to begin in March.",
+        "s": "انتظار می‌رود محاکمه در ماه مارس آغاز شود.",
+        "pr": "ذِ تْرایِل ایز ایکْسْپِکْتِد تو بیگین این مارچ."
+      },
+      {
+        "t": "Police have warned people never to give money to collectors who cannot show official identification.",
+        "s": "پلیس به مردم هشدار داده است که هرگز به جمع‌کنندگانی که نمی‌توانند مدرک شناسایی رسمی نشان دهند پول ندهند.",
+        "pr": "پِلیس هَو وُرْنْد پیپِل نِوِر تو گیو مانی تو کِلِکْتِرز هو کَنات شُو اِفیشِل آیدِنْتِفِکِیشِن."
+      }
+    ],
+    "questions": [
+      {
+        "q": {
+          "t": "What did the men say the money was for?",
+          "s": "آن دو مرد می‌گفتند پول برای چیست؟",
+          "pr": "وات دید ذِ مِن سِی ذِ مانی واز فُر؟"
+        },
+        "options": [
+          "a children's hospital",
+          "a new school",
+          "elderly people"
+        ],
+        "answer": 0
+      },
+      {
+        "q": {
+          "t": "How much money is it estimated that they collected?",
+          "s": "تخمین زده می‌شود چقدر پول جمع کرده باشند؟",
+          "pr": "هاو ماچ مانی ایز ایت اِسْتِمِیتِد ذَت ذِی کِلِکْتِد؟"
+        },
+        "options": [
+          "more than four thousand dollars",
+          "more than forty thousand dollars",
+          "about four hundred dollars"
+        ],
+        "answer": 1
+      },
+      {
+        "q": {
+          "t": "Why did Emma Clark become suspicious?",
+          "s": "چرا اِما کلارک مشکوک شد؟",
+          "pr": "وای دید اِما کْلارک بیکام سِسْپیشِس؟"
+        },
+        "options": [
+          "The men refused to give her a receipt.",
+          "The men were wearing masks.",
+          "The men asked for her bank card."
+        ],
+        "answer": 0
+      },
+      {
+        "q": {
+          "t": "What did one of the men deny?",
+          "s": "یکی از آن دو مرد چه چیزی را انکار کرد؟",
+          "pr": "وات دید وان آو ذِ مِن دینای؟"
+        },
+        "options": [
+          "taking the money",
+          "planning the crime",
+          "knowing his partner"
+        ],
+        "answer": 1
+      },
+      {
+        "q": {
+          "t": "When is the trial expected to begin?",
+          "s": "انتظار می‌رود محاکمه کی شروع شود؟",
+          "pr": "وِن ایز ذِ تْرایِل ایکْسْپِکْتِد تو بیگین؟"
+        },
+        "options": [
+          "next week",
+          "in March",
+          "next year"
+        ],
+        "answer": 1
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "t": "The suspect denied being at the scene of the crime.",
+      "s": "مظنون انکار کرد که در صحنه‌ی جرم بوده است.",
+      "pr": "ذِ ساسْپِکْت دیناید بیینگ اَت ذِ سین آو ذِ کْرایم."
+    },
+    {
+      "t": "It is believed that the thief knew the family.",
+      "s": "گمان می‌رود دزد خانواده را می‌شناخته است.",
+      "pr": "ایت ایز بیلیوْد ذَت ذِ ثیف نو ذِ فَمِلی."
+    },
+    {
+      "t": "My friend warned me not to walk home alone.",
+      "s": "دوستم به من هشدار داد که تنها پیاده به خانه نروم.",
+      "pr": "مای فْرِنْد وُرْنْد میْ نات تو واک هُوم اِلُون."
+    },
+    {
+      "t": "Was there a witness to the accident?",
+      "s": "آیا آن تصادف شاهدی داشت؟",
+      "pr": "واز ذِر اِ ویتْنِس تو ذی اَکْسِدِنْت؟"
+    },
+    {
+      "t": "The court found him innocent.",
+      "s": "دادگاه او را بی‌گناه شناخت.",
+      "pr": "ذِ کُرت فاونْد هیم اینِسِنْت."
+    },
+    {
+      "t": "She was accused of stealing from her employer.",
+      "s": "او متهم شد که از کارفرمایش دزدی کرده است.",
+      "pr": "شی واز اِکیوزْد آو سْتیلینگ فْرام هِر ایمْپْلُیِر."
+    },
+    {
+      "t": "The singer is said to be very generous.",
+      "s": "گفته می‌شود آن خواننده خیلی دست‌ودل‌باز است.",
+      "pr": "ذِ سینگِر ایز سِد تو بی وِری جِنِرِس."
+    },
+    {
+      "t": "He offered to help the police with their investigation.",
+      "s": "او پیشنهاد داد در تحقیقات به پلیس کمک کند.",
+      "pr": "هی آفِرْد تو هِلْپ ذِ پِلیس ویذ ذِر اینْوِسْتِگِیشِن."
+    }
+  ]
+}

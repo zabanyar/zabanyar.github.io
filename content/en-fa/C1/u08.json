@@ -1,0 +1,816 @@
+{
+  "id": "u08",
+  "level": "C1",
+  "emoji": "🩺",
+  "title": {
+    "t": "Medicine and ethics",
+    "s": "پزشکی و اخلاق",
+    "pr": "مِدِسِن اَند اِثیکْس"
+  },
+  "goals": [
+    "می‌توانم درباره‌ی مسائل اخلاقی در پزشکی (رضایت آگاهانه، رازداری، اهدای عضو، کارآزمایی بالینی) بحث کنم.",
+    "می‌توانم از ساختارهای موصولی پیشرفته (whereby, in which case, most of whom) و جمله‌های موصولی کوتاه‌شده استفاده کنم.",
+    "می‌توانم با ساختارهای پیشرفته‌ی اعتراف و تقابل (much as, however much, granted, be that as it may) استدلالی متوازن بیاورم.",
+    "می‌توانم مقاله‌ای درباره‌ی یک دوراهی اخلاقی در پزشکی بخوانم و استدلال‌هایش را دنبال کنم."
+  ],
+  "words": [
+    {
+      "id": "w01",
+      "t": "informed consent",
+      "s": "رضایت آگاهانه",
+      "pr": "اینْفُرمْد کِنْسِنت",
+      "emoji": "",
+      "ex": {
+        "t": "Doctors must obtain informed consent before any operation.",
+        "s": "پزشکان باید پیش از هر عمل جراحی رضایت آگاهانه‌ی بیمار را بگیرند.",
+        "pr": "داکْتِرز ماسْت اِبْتِین اینْفُرمْد کِنْسِنت بیفُر اِنی آپِرِیشِن."
+      }
+    },
+    {
+      "id": "w02",
+      "t": "clinical trial",
+      "pl": "clinical trials",
+      "s": "کارآزمایی بالینی",
+      "pr": "کْلینیکِل تْرایِل",
+      "emoji": "🧪",
+      "ex": {
+        "t": "Volunteers in the clinical trial were paid for their time.",
+        "s": "به داوطلبان کارآزمایی بالینی بابت وقتشان پول پرداخت شد.",
+        "pr": "والِنْتیرز این ذِ کْلینیکِل تْرایِل وِر پِید فُر ذِر تایم."
+      }
+    },
+    {
+      "id": "w03",
+      "t": "organ donor",
+      "pl": "organ donors",
+      "s": "اهداکننده‌ی عضو",
+      "pr": "اُرگِن دُونِر",
+      "emoji": "",
+      "ex": {
+        "t": "My brother registered as an organ donor last year.",
+        "s": "برادرم پارسال به‌عنوان اهداکننده‌ی عضو ثبت‌نام کرد.",
+        "pr": "مای بْراذِر رِجِسْتِرد اَز اِن اُرگِن دُونِر لَسْت ییر."
+      }
+    },
+    {
+      "id": "w04",
+      "t": "placebo",
+      "pl": "placebos",
+      "s": "دارونما",
+      "pr": "پْلِسیبُو",
+      "emoji": "💊",
+      "ex": {
+        "t": "Half of the patients were given a placebo instead of the real drug.",
+        "s": "به نیمی از بیماران به‌جای داروی واقعی دارونما داده شد.",
+        "pr": "هَف آو ذِ پِیشِنْتْس وِر گیوِن اِ پْلِسیبُو اینْسْتِد آو ذِ ریل دْراگ."
+      }
+    },
+    {
+      "id": "w05",
+      "t": "diagnosis",
+      "pl": "diagnoses",
+      "s": "تشخیص (بیماری)",
+      "pr": "دایِگْنُوسیس",
+      "emoji": "",
+      "ex": {
+        "t": "An early diagnosis greatly improves the chances of recovery.",
+        "s": "تشخیص زودهنگام شانس بهبودی را بسیار بیشتر می‌کند.",
+        "pr": "اِن اِرلی دایِگْنُوسیس گْرِیتْلی ایمْپْرووْز ذِ چَنْسِز آو ریکاوِری."
+      }
+    },
+    {
+      "id": "w06",
+      "t": "terminally ill",
+      "s": "در مرحله‌ی پایانی بیماری، لاعلاج",
+      "pr": "تِرمِنِلی ایل",
+      "emoji": "",
+      "ex": {
+        "t": "The hospice cares for terminally ill patients and their families.",
+        "s": "این آسایشگاه از بیماران در مرحله‌ی پایانی بیماری و خانواده‌هایشان مراقبت می‌کند.",
+        "pr": "ذِ هاسْپیس کِرز فُر تِرمِنِلی ایل پِیشِنْتْس اَند ذِر فَمِلیز."
+      }
+    },
+    {
+      "id": "w07",
+      "t": "life support",
+      "s": "دستگاه حفظ حیات",
+      "pr": "لایف سِپُرت",
+      "emoji": "",
+      "ex": {
+        "t": "He was kept on life support for two weeks after the accident.",
+        "s": "پس از تصادف، دو هفته با دستگاه حفظ حیات زنده نگه داشته شد.",
+        "pr": "هی واز کِپْت آن لایف سِپُرت فُر تو ویکْس اَفْتِر ذی اَکْسِدِنت."
+      }
+    },
+    {
+      "id": "w08",
+      "t": "medical records",
+      "s": "پرونده‌ی پزشکی",
+      "pr": "مِدیکِل رِکِرْدز",
+      "emoji": "",
+      "ex": {
+        "t": "Patients have the right to see their own medical records.",
+        "s": "بیماران حق دارند پرونده‌ی پزشکی خودشان را ببینند.",
+        "pr": "پِیشِنْتْس هَو ذِ رایت تو سی ذِر اُون مِدیکِل رِکِرْدز."
+      }
+    },
+    {
+      "id": "w09",
+      "t": "confidentiality",
+      "s": "رازداری، محرمانه بودن",
+      "pr": "کانْفِدِنْشیَلِتی",
+      "emoji": "",
+      "ex": {
+        "t": "Doctors have a duty of confidentiality toward their patients.",
+        "s": "پزشکان در برابر بیمارانشان وظیفه‌ی رازداری دارند.",
+        "pr": "داکْتِرز هَو اِ دوتی آو کانْفِدِنْشیَلِتی تُرد ذِر پِیشِنْتْس."
+      }
+    },
+    {
+      "id": "w10",
+      "t": "vaccine",
+      "pl": "vaccines",
+      "s": "واکسن",
+      "pr": "وَکْسین",
+      "emoji": "💉",
+      "ex": {
+        "t": "The new vaccine was tested on thousands of volunteers.",
+        "s": "واکسن جدید روی هزاران داوطلب آزمایش شد.",
+        "pr": "ذِ نو وَکْسین واز تِسْتِد آن ثاوزِنْدز آو والِنْتیرز."
+      }
+    },
+    {
+      "id": "w11",
+      "t": "genetic testing",
+      "s": "آزمایش ژنتیک",
+      "pr": "جِنِتیک تِسْتینگ",
+      "emoji": "🧬",
+      "ex": {
+        "t": "Genetic testing can reveal the risk of certain diseases.",
+        "s": "آزمایش ژنتیک می‌تواند خطر ابتلا به برخی بیماری‌ها را آشکار کند.",
+        "pr": "جِنِتیک تِسْتینگ کَن ریویل ذِ ریسْک آو سِرتِن دیزیزِز."
+      }
+    },
+    {
+      "id": "w12",
+      "t": "dilemma",
+      "pl": "dilemmas",
+      "s": "دوراهی دشوار، معضل",
+      "pr": "دِلِما",
+      "emoji": "",
+      "ex": {
+        "t": "The doctors faced a difficult moral dilemma.",
+        "s": "پزشکان با یک دوراهی اخلاقی دشوار روبه‌رو شدند.",
+        "pr": "ذِ داکْتِرز فِیسْت اِ دیفیکِلْت مُرِل دِلِما."
+      }
+    },
+    {
+      "id": "w13",
+      "t": "cure",
+      "pl": "cures",
+      "s": "درمان قطعی؛ درمان کردن",
+      "pr": "کْیور",
+      "emoji": "",
+      "ex": {
+        "t": "There is still no cure for the common cold.",
+        "s": "هنوز هیچ درمان قطعی‌ای برای سرماخوردگی معمولی وجود ندارد.",
+        "pr": "ذِر ایز سْتیل نُو کْیور فُر ذِ کامِن کُولد."
+      }
+    },
+    {
+      "id": "w14",
+      "t": "healthcare",
+      "s": "خدمات درمانی، نظام سلامت",
+      "pr": "هِلْث‌کِر",
+      "emoji": "🏥",
+      "ex": {
+        "t": "Everyone should have access to affordable healthcare.",
+        "s": "همه باید به خدمات درمانی مقرون‌به‌صرفه دسترسی داشته باشند.",
+        "pr": "اِوْری‌وان شود هَو اَکْسِس تو اِفُردِبِل هِلْث‌کِر."
+      }
+    },
+    {
+      "id": "w15",
+      "t": "prolong",
+      "s": "طولانی کردن، طول دادن",
+      "pr": "پْرِلانگ",
+      "emoji": "",
+      "ex": {
+        "t": "Modern medicine can prolong life, but not always its quality.",
+        "s": "پزشکی مدرن می‌تواند عمر را طولانی کند، ولی نه همیشه کیفیت آن را.",
+        "pr": "مادِرن مِدِسِن کَن پْرِلانگ لایف، بات نات آلْوِیز ایتس کوالِتی."
+      }
+    }
+  ],
+  "phrases": [
+    {
+      "id": "p01",
+      "t": "It's a gray area.",
+      "s": "موضوعی است که مرز درست و غلط در آن روشن نیست.",
+      "pr": "ایتس اِ گْرِی اِریا."
+    },
+    {
+      "id": "p02",
+      "t": "Where do we draw the line?",
+      "s": "مرز را کجا باید بگذاریم؟",
+      "pr": "وِر دو وی دْرا ذِ لاین؟"
+    },
+    {
+      "id": "p03",
+      "t": "There are arguments on both sides.",
+      "s": "هر دو طرف استدلال‌هایی دارند.",
+      "pr": "ذِر آر آرگْیِمِنْتْس آن بُوث سایدْز."
+    },
+    {
+      "id": "p04",
+      "t": "It's a matter of life and death.",
+      "s": "مسئله‌ی مرگ و زندگی است.",
+      "pr": "ایتس اِ مَتِر آو لایف اَند دِث."
+    },
+    {
+      "id": "p05",
+      "t": "From an ethical point of view, …",
+      "s": "از دیدگاه اخلاقی، …",
+      "pr": "فْرام اِن اِثیکِل پُینت آو ویو، …"
+    },
+    {
+      "id": "p06",
+      "t": "That's where things get complicated.",
+      "s": "مسئله دقیقاً از همین‌جا پیچیده می‌شود.",
+      "pr": "ذَتْس وِر ثینگز گِت کامْپْلِکِیتِد."
+    },
+    {
+      "id": "p07",
+      "t": "The patient's wishes come first.",
+      "s": "خواست بیمار در اولویت است.",
+      "pr": "ذِ پِیشِنْتْس ویشِز کام فِرسْت."
+    },
+    {
+      "id": "p08",
+      "t": "Who has the right to decide?",
+      "s": "چه کسی حق تصمیم‌گیری دارد؟",
+      "pr": "هو هَز ذِ رایت تو دیساید؟"
+    }
+  ],
+  "dialogue": {
+    "title": {
+      "t": "A question of confidentiality",
+      "s": "مسئله‌ی رازداری",
+      "pr": "اِ کوِسْچِن آو کانْفِدِنْشیَلِتی"
+    },
+    "speakers": {
+      "A": {
+        "name": "Maryam",
+        "voice": "f"
+      },
+      "B": {
+        "name": "Jack",
+        "voice": "m"
+      }
+    },
+    "lines": [
+      {
+        "sp": "B",
+        "t": "Can I ask you something? Yesterday a patient tested positive for a serious genetic condition.",
+        "s": "می‌توانم چیزی از شما بپرسم؟ دیروز آزمایش یکی از بیماران برای یک بیماری ژنتیکی جدی مثبت شد.",
+        "pr": "کَن آی اَسْک یو سامْثینگ؟ یِسْتِرْدِی اِ پِیشِنْت تِسْتِد پازِتیو فُر اِ سیریِس جِنِتیک کِنْدیشِن."
+      },
+      {
+        "sp": "A",
+        "t": "And she doesn't want her family to know, I assume?",
+        "s": "و حدس می‌زنم نمی‌خواهد خانواده‌اش بدانند؟",
+        "pr": "اَند شی دازِنت وانْت هِر فَمِلی تو نُو، آی اِسوم؟"
+      },
+      {
+        "sp": "B",
+        "t": "Exactly. It's a condition that her sisters may also have, in which case they would need early treatment.",
+        "s": "دقیقاً. بیماری‌ای است که خواهرانش هم ممکن است داشته باشند، که در آن صورت باید زود درمان شوند.",
+        "pr": "ایگْزَکْتْلی. ایتس اِ کِنْدیشِن ذَت هِر سیسْتِرز مِی آلسُو هَو، این ویچ کِیس ذِی وود نید اِرلی تْریتْمِنت."
+      },
+      {
+        "sp": "A",
+        "t": "That's a real dilemma. Much as I sympathize with the sisters, her medical records are confidential.",
+        "s": "واقعاً دوراهی سختی است. هرچقدر هم با خواهرانش همدردی کنم، پرونده‌ی پزشکی او محرمانه است.",
+        "pr": "ذَتْس اِ ریل دِلِما. ماچ اَز آی سیمْپِثایز ویذ ذِ سیسْتِرز، هِر مِدیکِل رِکِرْدز آر کانْفِدِنْشِل."
+      },
+      {
+        "sp": "B",
+        "t": "But surely there are situations in which doctors are allowed to break confidentiality?",
+        "s": "ولی حتماً موقعیت‌هایی هست که پزشکان اجازه دارند رازداری را کنار بگذارند، نه؟",
+        "pr": "بات شورْلی ذِر آر سیچوئِیشِنز این ویچ داکْتِرز آر اِلاوْد تو بْرِیک کانْفِدِنْشیَلِتی؟"
+      },
+      {
+        "sp": "A",
+        "t": "There are, but only rarely, for example when someone is at serious risk of harm.",
+        "s": "بله هست، ولی خیلی به‌ندرت؛ مثلاً وقتی کسی در معرض خطر جدی آسیب باشد.",
+        "pr": "ذِر آر، بات اُونلی رِرْلی، فُر ایگْزَمْپِل وِن سام‌وان ایز اَت سیریِس ریسْک آو هارم."
+      },
+      {
+        "sp": "B",
+        "t": "Granted, it's not an emergency. Still, her sisters have a right to know, don't they?",
+        "s": "قبول، اورژانسی نیست. با این حال، خواهرانش حق دارند بدانند، نه؟",
+        "pr": "گْرَنْتِد، ایتس نات اِن ایمِرجِنْسی. سْتیل، هِر سیسْتِرز هَو اِ رایت تو نُو، دُونت ذِی؟"
+      },
+      {
+        "sp": "A",
+        "t": "Perhaps. Be that as it may, the decision isn't ours to make.",
+        "s": "شاید. هر چه باشد، این تصمیم با ما نیست.",
+        "pr": "پِرهَپْس. بی ذَت اَز ایت مِی، ذِ دیسیژِن ایزِنت آوِرز تو مِیک."
+      },
+      {
+        "sp": "B",
+        "t": "So what can we do?",
+        "s": "پس چه کاری از دستمان برمی‌آید؟",
+        "pr": "سُو وات کَن وی دو؟"
+      },
+      {
+        "sp": "A",
+        "t": "Talk to her again and explain the risks. Patients given time and support often change their minds.",
+        "s": "دوباره با او صحبت کن و خطرها را توضیح بده. بیمارانی که به آن‌ها وقت و حمایت داده می‌شود، اغلب نظرشان عوض می‌شود.",
+        "pr": "تاک تو هِر اِگِن اَند ایکْسْپْلِین ذِ ریسْکْس. پِیشِنْتْس گیوِن تایم اَند سِپُرت آفِن چِینج ذِر مایندْز."
+      },
+      {
+        "sp": "B",
+        "t": "And if she still says no?",
+        "s": "و اگر باز هم بگوید نه؟",
+        "pr": "اَند ایف شی سْتیل سِز نُو؟"
+      },
+      {
+        "sp": "A",
+        "t": "Then we respect her wishes, however much we disagree.",
+        "s": "آن‌وقت به خواسته‌اش احترام می‌گذاریم، هرچقدر هم که با آن مخالف باشیم.",
+        "pr": "ذِن وی ریسْپِکت هِر ویشِز، هاوْاِوِر ماچ وی دیسِگْری."
+      }
+    ]
+  },
+  "grammar": [
+    {
+      "id": "g01",
+      "title": {
+        "t": "Advanced relative structures",
+        "s": "ساختارهای موصولی پیشرفته",
+        "pr": "اِدْوَنْسْت رِلِتیو سْتْراکْچِرز"
+      },
+      "explain": "whose، whom و «حرف اضافه + which» را در سطح B2 یاد گرفته‌اید. در نوشتار رسمی و بحث‌های تخصصی این ساختارها هم رایج‌اند:\n**whereby** (که به موجب آن، که از طریق آن): یک نظام، قانون یا روش را توضیح می‌دهد: **a system whereby patients can see their own records**. معادل رسمیِ by which یا through which است.\n**in which case** (که در آن صورت): نتیجه‌ی یک احتمال را می‌گوید و به کل جمله‌ی قبلی برمی‌گردد: **The test may be positive, in which case you will need further treatment.** ساختارهای مشابه: **at which point** (در همان لحظه) و **by which time** (تا آن موقع).\n**کمیت + of whom / of which**: **The trial involved three hundred volunteers, most of whom were over sixty.** (که بیشترشان…) به‌جای whom نمی‌توان them گذاشت، مگر اینکه جمله را با and وصل کنید: **…, and most of them were over sixty.**\n**جمله‌ی موصولی کوتاه‌شده**: who / which / that همراه با فعل be حذف می‌شوند: **patients (who are) waiting for surgery** (وجه وصفی ‎-ing برای معنای معلوم)، **drugs (that were) tested on animals** (وجه وصفی ‎-ed برای معنای مجهول). بعد از **the first، the last، the only** و صفت عالی، مصدر با to می‌آید: **the first hospital to offer this treatment** (اولین بیمارستانی که این درمان را ارائه داد).",
+      "table": [
+        [
+          "whereby",
+          "a system whereby patients can see their own records"
+        ],
+        [
+          "in which case",
+          "The test may be positive, in which case you'll need treatment."
+        ],
+        [
+          "most of whom",
+          "three hundred volunteers, most of whom were over sixty"
+        ],
+        [
+          "reduced clause",
+          "patients waiting for surgery"
+        ],
+        [
+          "the first to",
+          "the first hospital to offer this treatment"
+        ]
+      ],
+      "examples": [
+        {
+          "t": "Some countries have an opt-out system whereby every adult is considered an organ donor unless they say otherwise.",
+          "s": "برخی کشورها نظامی دارند که بر اساس آن هر فرد بزرگسال اهداکننده‌ی عضو محسوب می‌شود، مگر اینکه خلافش را اعلام کند.",
+          "pr": "سام کانْتْریز هَو اِن آپْت‌آوت سیسْتِم وِرْبای اِوْری اِدالْت ایز کِنْسیدِرد اِن اُرگِن دُونِر اِنْلِس ذِی سِی آذِرْوایز."
+        },
+        {
+          "t": "The biopsy may show cancer cells, in which case surgery will be necessary.",
+          "s": "ممکن است نمونه‌برداری سلول‌های سرطانی را نشان دهد که در آن صورت جراحی لازم خواهد بود.",
+          "pr": "ذِ بایاپْسی مِی شُو کَنْسِر سِلْز، این ویچ کِیس سِرجِری ویل بی نِسِسِری."
+        },
+        {
+          "t": "The trial involved three hundred volunteers, most of whom were over sixty.",
+          "s": "در این کارآزمایی سیصد داوطلب شرکت داشتند که بیشترشان بالای شصت سال بودند.",
+          "pr": "ذِ تْرایِل اینْوالْوْد ثْری هاندْرِد والِنْتیرز، مُوسْت آو هوم وِر اُوْوِر سیکْسْتی."
+        },
+        {
+          "t": "Patients waiting for surgery are given a date within six weeks.",
+          "s": "به بیمارانی که منتظر جراحی هستند ظرف شش هفته وقت داده می‌شود.",
+          "pr": "پِیشِنْتْس وِیتینگ فُر سِرجِری آر گیوِن اِ دِیت ویذین سیکْس ویکْس."
+        },
+        {
+          "t": "Razi is often described as the first physician to distinguish between smallpox and measles.",
+          "s": "رازی را اغلب نخستین پزشکی می‌دانند که میان آبله و سرخک تمایز قائل شد.",
+          "pr": "رازی ایز آفِن دیسْکْرایبْد اَز ذِ فِرسْت فیزیشِن تو دیسْتینگْویش بیتْوین سْمال‌پاکْس اَند میزِلْز."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "choice",
+          "t": "The scan may show some damage, ___ the patient will need an operation.",
+          "options": [
+            "whereby",
+            "in which case",
+            "most of which"
+          ],
+          "answer": 1,
+          "s": "ممکن است اسکن آسیبی نشان دهد که در آن صورت بیمار به عمل جراحی نیاز خواهد داشت.",
+          "pr": "ذِ سْکَن مِی شُو سام دَمیج، این ویچ کِیس ذِ پِیشِنْت ویل نید اِن آپِرِیشِن."
+        },
+        {
+          "type": "choice",
+          "t": "The hospital introduced a system ___ patients can book appointments online.",
+          "options": [
+            "whereby",
+            "in which case",
+            "at which point"
+          ],
+          "answer": 0,
+          "s": "بیمارستان نظامی راه انداخت که به موجب آن بیماران می‌توانند آنلاین وقت بگیرند.",
+          "pr": "ذِ هاسْپیتِل اینْتْرِدوسْت اِ سیسْتِم وِرْبای پِیشِنْتْس کَن بوک اِپُینْتْمِنْتْس آن‌لاین."
+        },
+        {
+          "type": "choice",
+          "t": "Fifty nurses were interviewed, ___ said they felt overworked.",
+          "options": [
+            "most of them",
+            "most of who",
+            "most of whom"
+          ],
+          "answer": 2,
+          "s": "با پنجاه پرستار مصاحبه شد که بیشترشان گفتند بیش از حد کار می‌کنند.",
+          "pr": "فیفْتی نِرسِز وِر اینْتِرْویود، مُوسْت آو هوم سِد ذِی فِلْت اُوْوِرْوِرکْت."
+        },
+        {
+          "type": "type",
+          "t": "She was the first woman in her family ___ study medicine.",
+          "answer": [
+            "to"
+          ],
+          "s": "او اولین زن خانواده‌اش بود که پزشکی خواند.",
+          "pr": "شی واز ذِ فِرسْت وومِن این هِر فَمِلی تو سْتادی مِدِسِن."
+        },
+        {
+          "type": "type",
+          "t": "Drugs ___ on animals are not always safe for humans.",
+          "answer": [
+            "tested",
+            "trialed",
+            "trialled"
+          ],
+          "s": "داروهایی که روی حیوانات آزمایش شده‌اند همیشه برای انسان بی‌خطر نیستند.",
+          "pr": "دْراگْز تِسْتِد آن اَنِمِلْز آر نات آلْوِیز سِیف فُر هیومِنْز."
+        },
+        {
+          "type": "type",
+          "t": "Anyone ___ to take part in the study must sign a consent form.",
+          "answer": [
+            "wishing",
+            "wanting",
+            "hoping",
+            "choosing",
+            "agreeing",
+            "planning",
+            "intending",
+            "deciding",
+            "volunteering"
+          ],
+          "s": "هر کسی که مایل به شرکت در این پژوهش است باید فرم رضایت‌نامه را امضا کند.",
+          "pr": "اِنی‌وان ویشینگ تو تِیک پارت این ذِ سْتادی ماسْت ساین اِ کِنْسِنت فُرم."
+        },
+        {
+          "type": "order",
+          "t": "He was the first doctor to arrive.",
+          "s": "او اولین پزشکی بود که رسید.",
+          "pr": "هی واز ذِ فِرسْت داکْتِر تو اِرایو."
+        },
+        {
+          "type": "order",
+          "t": "Patients waiting for surgery need support.",
+          "s": "بیمارانی که منتظر جراحی‌اند به حمایت نیاز دارند.",
+          "pr": "پِیشِنْتْس وِیتینگ فُر سِرجِری نید سِپُرت."
+        }
+      ]
+    },
+    {
+      "id": "g02",
+      "title": {
+        "t": "Advanced concession",
+        "s": "اعتراف و تقابل پیشرفته",
+        "pr": "اِدْوَنْسْت کِنْسِشِن"
+      },
+      "explain": "although، despite و however را از سطح B2 می‌شناسید. برای اینکه **نکته‌ی طرف مقابل را بپذیرید و در عین حال موضع خودتان را حفظ کنید**، در سطح C1 این ساختارها کاربرد دارند:\n**much as + جمله** (با اینکه واقعاً…، هرچقدر هم که…): معمولاً با فعل‌های احساسی مثل like، admire، respect، want، sympathize: **Much as I admire his work, I can't support this decision.**\n**however much** یا **however + صفت یا قید + جمله** (هر قدر هم که…): **However much we spend, waiting lists keep growing.** / **However hard she tried, she couldn't save him.**\n**granted** یا **granted that** (قبول، درست است که…): نکته‌ی طرف مقابل را می‌پذیرد و بعد معمولاً با but یا still حرف خودمان را می‌زنیم: **Granted, the drug is expensive. But it saves lives.**\n**be that as it may** (هر چه باشد، با این همه): بسیار رسمی؛ می‌پذیرد که حرف قبلی ممکن است درست باشد، ولی آن را تعیین‌کننده نمی‌داند: **Be that as it may, the law is the law.**\n**صفت + as + فاعل + فعل** (با اینکه… بود): **Tired as she was, she stayed with the patient.** (با اینکه خسته بود، کنار بیمار ماند.) در این ساختار صفت به اول جمله می‌آید؛ به‌جای as گاهی though هم به کار می‌رود.",
+      "table": [
+        [
+          "much as",
+          "Much as I admire him, I disagree."
+        ],
+        [
+          "however much",
+          "However much we spend, it's never enough."
+        ],
+        [
+          "granted",
+          "Granted, it's risky. But it's worth trying."
+        ],
+        [
+          "be that as it may",
+          "Be that as it may, the rules are clear."
+        ],
+        [
+          "adjective + as",
+          "Tired as she was, she kept working."
+        ]
+      ],
+      "examples": [
+        {
+          "t": "Much as I respect your opinion, I think the patient should decide.",
+          "s": "با اینکه واقعاً به نظرتان احترام می‌گذارم، فکر می‌کنم بیمار باید تصمیم بگیرد.",
+          "pr": "ماچ اَز آی ریسْپِکت یور اِپینیِن، آی ثینک ذِ پِیشِنْت شود دیساید."
+        },
+        {
+          "t": "However much money we invest, there will never be enough hospital beds.",
+          "s": "هر قدر هم پول سرمایه‌گذاری کنیم، هیچ‌وقت به اندازه‌ی کافی تخت بیمارستان نخواهیم داشت.",
+          "pr": "هاوْاِوِر ماچ مانی وی اینْوِسْت، ذِر ویل نِوِر بی ایناف هاسْپیتِل بِدْز."
+        },
+        {
+          "t": "Granted, genetic testing is expensive. But in the long term it could save money.",
+          "s": "قبول، آزمایش ژنتیک گران است. ولی در درازمدت ممکن است در هزینه‌ها صرفه‌جویی کند.",
+          "pr": "گْرَنْتِد، جِنِتیک تِسْتینگ ایز ایکْسْپِنْسیو. بات این ذِ لانگ تِرم ایت کود سِیو مانی."
+        },
+        {
+          "t": "The treatment might work. Be that as it may, the risks are simply too high.",
+          "s": "شاید درمان مؤثر باشد. هر چه باشد، خطرهایش واقعاً خیلی زیاد است.",
+          "pr": "ذِ تْریتْمِنت مایت وِرک. بی ذَت اَز ایت مِی، ذِ ریسْکْس آر سیمْپْلی تو های."
+        },
+        {
+          "t": "Exhausted as she was, the surgeon stayed until the operation was over.",
+          "s": "جراح با اینکه به‌شدت خسته بود، تا پایان عمل ماند.",
+          "pr": "ایگْزاسْتِد اَز شی واز، ذِ سِرجِن سْتِید اِنْتیل ذی آپِرِیشِن واز اُوْوِر."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "choice",
+          "t": "___ I sympathize with the family, I cannot share this information.",
+          "options": [
+            "Much as",
+            "Despite",
+            "In spite"
+          ],
+          "answer": 0,
+          "s": "هرچقدر هم با خانواده همدردی کنم، نمی‌توانم این اطلاعات را در اختیارشان بگذارم.",
+          "pr": "ماچ اَز آی سیمْپِثایز ویذ ذِ فَمِلی، آی کَنات شِر ذیس اینْفِرْمِیشِن."
+        },
+        {
+          "type": "choice",
+          "t": "___ hard the doctors tried, they couldn't save him.",
+          "options": [
+            "Although",
+            "However",
+            "Much as"
+          ],
+          "answer": 1,
+          "s": "پزشکان هر قدر هم تلاش کردند، نتوانستند نجاتش دهند.",
+          "pr": "هاوْاِوِر هارد ذِ داکْتِرز تْراید، ذِی کودِنت سِیو هیم."
+        },
+        {
+          "type": "choice",
+          "t": "The drug has some side effects. ___, it is the best treatment we have.",
+          "options": [
+            "In which case",
+            "Much as",
+            "Be that as it may"
+          ],
+          "answer": 2,
+          "s": "این دارو عوارض جانبی‌ای دارد. هر چه باشد، بهترین درمانی است که داریم.",
+          "pr": "ذِ دْراگ هَز سام ساید ایفِکْتْس. بی ذَت اَز ایت مِی، ایت ایز ذِ بِسْت تْریتْمِنت وی هَو."
+        },
+        {
+          "type": "type",
+          "t": "Strange ___ it may seem, the placebo worked.",
+          "answer": [
+            "as",
+            "though"
+          ],
+          "s": "هرچند ممکن است عجیب به نظر برسد، دارونما اثر کرد.",
+          "pr": "سْتْرِینج اَز ایت مِی سیم، ذِ پْلِسیبُو وِرکْت."
+        },
+        {
+          "type": "type",
+          "t": "___ much I'd like to help, I'm not allowed to give you that information.",
+          "answer": [
+            "However"
+          ],
+          "s": "هرچقدر هم دلم بخواهد کمک کنم، اجازه ندارم آن اطلاعات را به شما بدهم.",
+          "pr": "هاوْاِوِر ماچ آید لایک تو هِلْپ، آیم نات اِلاوْد تو گیو یو ذَت اینْفِرْمِیشِن."
+        },
+        {
+          "type": "type",
+          "t": "___, the new rules are strict, but they protect patients.",
+          "answer": [
+            "Granted",
+            "Admittedly",
+            "True",
+            "Sure"
+          ],
+          "s": "قبول، قوانین جدید سخت‌گیرانه‌اند، ولی از بیماران محافظت می‌کنند.",
+          "pr": "گْرَنْتِد، ذِ نو رولز آر سْتْریکْت، بات ذِی پْرِتِکْت پِیشِنْتْس."
+        },
+        {
+          "type": "order",
+          "t": "Much as I like him, he's wrong.",
+          "s": "هرچقدر هم دوستش داشته باشم، اشتباه می‌کند.",
+          "pr": "ماچ اَز آی لایک هیم، هیز رانگ.",
+          "alts": [
+            "He's wrong, much as I like him."
+          ]
+        },
+        {
+          "type": "order",
+          "t": "Tired as she was, she kept working.",
+          "s": "با اینکه خسته بود، به کارش ادامه داد.",
+          "pr": "تایِرد اَز شی واز، شی کِپْت وِرکینگ.",
+          "alts": [
+            "She kept working, tired as she was."
+          ]
+        }
+      ]
+    }
+  ],
+  "reading": {
+    "title": {
+      "t": "Should we all be organ donors?",
+      "s": "آیا همه‌ی ما باید اهداکننده‌ی عضو باشیم؟",
+      "pr": "شود وی آل بی اُرگِن دُونِرز؟"
+    },
+    "text": [
+      {
+        "t": "Every day, patients waiting for a transplant die because no suitable organ is found in time.",
+        "s": "هر روز بیمارانی که منتظر پیوند عضو هستند جان خود را از دست می‌دهند، چون عضو مناسبی به‌موقع پیدا نمی‌شود.",
+        "pr": "اِوْری دِی، پِیشِنْتْس وِیتینگ فُر اِ تْرَنْسْپْلَنْت دای بیکاز نُو سوتِبِل اُرگِن ایز فاوند این تایم."
+      },
+      {
+        "t": "To address this shortage, several countries have introduced an opt-out system, whereby all adults are considered donors unless they register their refusal.",
+        "s": "برای رفع این کمبود، چند کشور نظام «انصراف» را برقرار کرده‌اند که به موجب آن همه‌ی بزرگسالان اهداکننده محسوب می‌شوند، مگر اینکه مخالفتشان را ثبت کنند.",
+        "pr": "تو اِدْرِس ذیس شُرْتیج، سِوْرِل کانْتْریز هَو اینْتْرِدوسْت اِن آپْت‌آوت سیسْتِم، وِرْبای آل اِدالْتْس آر کِنْسیدِرد دُونِرز اِنْلِس ذِی رِجِسْتِر ذِر ریفْیوزِل."
+      },
+      {
+        "t": "Supporters argue that the system saves lives at almost no cost.",
+        "s": "طرفداران استدلال می‌کنند که این نظام تقریباً بدون هیچ هزینه‌ای جان انسان‌ها را نجات می‌دهد.",
+        "pr": "سِپُرتِرز آرگْیو ذَت ذِ سیسْتِم سِیوْز لایوْز اَت آلمُوسْت نُو کاسْت."
+      },
+      {
+        "t": "Much as I admire their goals, I am not entirely convinced.",
+        "s": "با اینکه هدف‌هایشان را واقعاً تحسین می‌کنم، کاملاً قانع نشده‌ام.",
+        "pr": "ماچ اَز آی اِدْمایِر ذِر گُولْز، آی اَم نات اینْتایِرْلی کِنْوینْسْت."
+      },
+      {
+        "t": "Donation is a gift, and a gift that is assumed rather than freely given is no longer quite a gift.",
+        "s": "اهدا یک هدیه است، و هدیه‌ای که فرض گرفته شود و نه اینکه آزادانه داده شود، دیگر واقعاً هدیه نیست.",
+        "pr": "دُونِیشِن ایز اِ گیفْت، اَند اِ گیفْت ذَت ایز اِسومْد رَذِر ذَن فْریلی گیوِن ایز نُو لانگِر کوایت اِ گیفْت."
+      },
+      {
+        "t": "Moreover, many people never find out that they have to register a refusal, in which case their silence is treated as consent.",
+        "s": "علاوه بر این، بسیاری از مردم هیچ‌وقت متوجه نمی‌شوند که باید مخالفتشان را ثبت کنند، و در آن صورت سکوتشان رضایت تلقی می‌شود.",
+        "pr": "مُراُوْوِر، مِنی پیپِل نِوِر فایند آوت ذَت ذِی هَف تو رِجِسْتِر اِ ریفْیوزِل، این ویچ کِیس ذِر سایلِنْس ایز تْریتِد اَز کِنْسِنت."
+      },
+      {
+        "t": "Granted, families are usually consulted before any organs are removed.",
+        "s": "قبول، معمولاً پیش از برداشتن هر عضوی با خانواده مشورت می‌شود.",
+        "pr": "گْرَنْتِد، فَمِلیز آر یوژوِلی کِنْسالْتِد بیفُر اِنی اُرگِنز آر ریمووْد."
+      },
+      {
+        "t": "But grieving relatives, many of whom have never discussed the subject, often refuse.",
+        "s": "اما بستگانِ داغدار، که بسیاری از آن‌ها هرگز درباره‌ی این موضوع صحبت نکرده‌اند، اغلب مخالفت می‌کنند.",
+        "pr": "بات گْریوینگ رِلِتیوْز، مِنی آو هوم هَو نِوِر دیسْکاسْت ذِ سابْجِکْت، آفِن ریفْیوز."
+      },
+      {
+        "t": "Research suggests that the law itself matters less than public trust in the healthcare system.",
+        "s": "پژوهش‌ها نشان می‌دهند که خودِ قانون اهمیت کمتری از اعتماد عمومی به نظام سلامت دارد.",
+        "pr": "ریسِرچ سِگْجِسْتْس ذَت ذِ لا ایتْسِلْف مَتِرز لِس ذَن پابْلیک تْراسْت این ذِ هِلْث‌کِر سیسْتِم."
+      },
+      {
+        "t": "Spain, long a world leader in organ donation, owes its success largely to specially trained hospital staff rather than to the law.",
+        "s": "اسپانیا که مدت‌هاست از پیشتازان جهان در اهدای عضو است، موفقیتش را بیشتر مدیون کادر بیمارستانیِ ویژه‌آموزش‌دیده است تا قانون.",
+        "pr": "سْپِین، لانگ اِ وِرلد لیدِر این اُرگِن دُونِیشِن، اُوز ایتس سِکْسِس لارجْلی تو سْپِشِلی تْرِینْد هاسْپیتِل سْتَف رَذِر ذَن تو ذِ لا."
+      },
+      {
+        "t": "However much we change the rules, nothing replaces an honest conversation at home.",
+        "s": "هر قدر هم قوانین را تغییر دهیم، هیچ چیز جای یک گفت‌وگوی صادقانه در خانه را نمی‌گیرد.",
+        "pr": "هاوْاِوِر ماچ وی چِینج ذِ رولز، ناثینگ ریپْلِیسِز اِن آنِسْت کانْوِرْسِیشِن اَت هُوم."
+      },
+      {
+        "t": "So tell your family what you want, while you still can.",
+        "s": "پس تا هنوز می‌توانید، به خانواده‌تان بگویید چه می‌خواهید.",
+        "pr": "سُو تِل یور فَمِلی وات یو وانْت، وایْل یو سْتیل کَن."
+      }
+    ],
+    "questions": [
+      {
+        "q": {
+          "t": "What is an opt-out system?",
+          "s": "نظام «انصراف» چیست؟",
+          "pr": "وات ایز اِن آپْت‌آوت سیسْتِم؟"
+        },
+        "options": [
+          "Only people who register become donors.",
+          "All adults are considered donors unless they refuse.",
+          "Families decide everything."
+        ],
+        "answer": 1
+      },
+      {
+        "q": {
+          "t": "What is the writer's main concern?",
+          "s": "دغدغه‌ی اصلی نویسنده چیست؟",
+          "pr": "وات ایز ذِ رایتِرز مِین کِنْسِرن؟"
+        },
+        "options": [
+          "A donation should be a freely given gift.",
+          "The system is too expensive.",
+          "Doctors are not well trained."
+        ],
+        "answer": 0
+      },
+      {
+        "q": {
+          "t": "Why do grieving relatives often refuse?",
+          "s": "چرا بستگان داغدار اغلب مخالفت می‌کنند؟",
+          "pr": "وای دو گْریوینگ رِلِتیوْز آفِن ریفْیوز؟"
+        },
+        "options": [
+          "They are not asked.",
+          "The law does not allow it.",
+          "Many of them have never discussed the subject."
+        ],
+        "answer": 2
+      },
+      {
+        "q": {
+          "t": "According to the text, why is Spain so successful?",
+          "s": "طبق متن، چرا اسپانیا این‌قدر موفق است؟",
+          "pr": "اِکُردینگ تو ذِ تِکْسْت، وای ایز سْپِین سُو سِکْسِسْفِل؟"
+        },
+        "options": [
+          "because of its strict laws",
+          "because of specially trained hospital staff",
+          "because it pays donors"
+        ],
+        "answer": 1
+      },
+      {
+        "q": {
+          "t": "What does the writer advise readers to do?",
+          "s": "نویسنده به خوانندگان توصیه می‌کند چه کنند؟",
+          "pr": "وات داز ذِ رایتِر اِدْوایز ریدِرز تو دو؟"
+        },
+        "options": [
+          "register their refusal",
+          "avoid the subject",
+          "tell their families what they want"
+        ],
+        "answer": 2
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "t": "Doctors must respect patient confidentiality.",
+      "s": "پزشکان باید رازداری درباره‌ی بیماران را رعایت کنند.",
+      "pr": "داکْتِرز ماسْت ریسْپِکت پِیشِنْت کانْفِدِنْشیَلِتی."
+    },
+    {
+      "t": "The vaccine was the first to be approved for children.",
+      "s": "این واکسن نخستین واکسنی بود که برای کودکان تأیید شد.",
+      "pr": "ذِ وَکْسین واز ذِ فِرسْت تو بی اِپْرووْد فُر چیلْدْرِن."
+    },
+    {
+      "t": "Much as I'd like to stay, my shift is over.",
+      "s": "هرچقدر هم دلم بخواهد بمانم، شیفتم تمام شده است.",
+      "pr": "ماچ اَز آید لایک تو سْتِی، مای شیفْت ایز اُوْوِر."
+    },
+    {
+      "t": "It's a gray area, legally and morally.",
+      "s": "این موضوع، هم از نظر قانونی و هم از نظر اخلاقی، مرز روشنی ندارد.",
+      "pr": "ایتس اِ گْرِی اِریا، لیگِلی اَند مُرِلی."
+    },
+    {
+      "t": "The patient may refuse treatment, in which case we must respect her decision.",
+      "s": "بیمار ممکن است درمان را نپذیرد که در آن صورت باید به تصمیمش احترام بگذاریم.",
+      "pr": "ذِ پِیشِنْت مِی ریفْیوز تْریتْمِنت، این ویچ کِیس وی ماسْت ریسْپِکت هِر دیسیژِن."
+    },
+    {
+      "t": "Granted, the operation is risky, but it's his only chance.",
+      "s": "قبول، عمل پرخطر است، ولی تنها شانس اوست.",
+      "pr": "گْرَنْتِد، ذی آپِرِیشِن ایز ریسْکی، بات ایتس هیز اُونلی چَنْس."
+    },
+    {
+      "t": "Nurses working night shifts are at greater risk of illness.",
+      "s": "پرستارانی که شیفت شب کار می‌کنند بیشتر در معرض بیماری‌اند.",
+      "pr": "نِرسِز وِرکینگ نایت شیفْتْس آر اَت گْرِیتِر ریسْک آو ایلْنِس."
+    },
+    {
+      "t": "However hard it is, the truth must be told.",
+      "s": "هر قدر هم سخت باشد، باید حقیقت را گفت.",
+      "pr": "هاوْاِوِر هارد ایت ایز، ذِ تْروث ماسْت بی تُولد."
+    }
+  ]
+}

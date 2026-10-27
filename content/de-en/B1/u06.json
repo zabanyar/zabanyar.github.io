@@ -1,0 +1,725 @@
+{
+  "id": "u06",
+  "level": "B1",
+  "emoji": "📰",
+  "title": {
+    "t": "Nachrichten und Medien",
+    "s": "News and media"
+  },
+  "goals": [
+    "Talk about how you follow the news (newspaper, TV, radio, online)",
+    "Understand a short newspaper article and tell others what you have read",
+    "Use the genitive to show possession (das Auto meines Vaters, Annas Handy)",
+    "Use weak masculine nouns correctly (den Kollegen, dem Journalisten)"
+  ],
+  "words": [
+    {
+      "id": "w01",
+      "t": "die Tageszeitung",
+      "pl": "die Tageszeitungen",
+      "s": "daily newspaper",
+      "emoji": "📰",
+      "ex": {
+        "t": "Viele Tageszeitungen kann man auch online lesen.",
+        "s": "You can also read many daily newspapers online."
+      }
+    },
+    {
+      "id": "w02",
+      "t": "die Schlagzeile",
+      "pl": "die Schlagzeilen",
+      "s": "headline",
+      "emoji": "",
+      "ex": {
+        "t": "Ich lese morgens nur die Schlagzeilen.",
+        "s": "In the morning I only read the headlines."
+      }
+    },
+    {
+      "id": "w03",
+      "t": "der Artikel",
+      "pl": "die Artikel",
+      "s": "article (in a newspaper or magazine)",
+      "emoji": "",
+      "ex": {
+        "t": "Hast du den Artikel über die neue Brücke gelesen?",
+        "s": "Have you read the article about the new bridge?"
+      }
+    },
+    {
+      "id": "w04",
+      "t": "die Redaktion",
+      "pl": "die Redaktionen",
+      "s": "editorial office, newsroom; editorial team",
+      "emoji": "",
+      "ex": {
+        "t": "Die Redaktion bekommt jeden Tag viele E-Mails von Lesern.",
+        "s": "The editorial team gets lots of emails from readers every day."
+      }
+    },
+    {
+      "id": "w05",
+      "t": "der Sender",
+      "pl": "die Sender",
+      "s": "(TV or radio) station, channel",
+      "emoji": "",
+      "ex": {
+        "t": "Auf welchem Sender läuft das Fußballspiel?",
+        "s": "What channel is the soccer game on?"
+      }
+    },
+    {
+      "id": "w06",
+      "t": "der Journalist",
+      "pl": "die Journalisten",
+      "s": "journalist (n-declension: den Journalisten); die Journalistin = female journalist",
+      "emoji": "",
+      "ex": {
+        "t": "Meine Schwester ist mit einem Journalisten verheiratet.",
+        "s": "My sister is married to a journalist."
+      }
+    },
+    {
+      "id": "w07",
+      "t": "der Zuschauer",
+      "pl": "die Zuschauer",
+      "s": "viewer; spectator",
+      "emoji": "",
+      "ex": {
+        "t": "Die Sendung hatte gestern fast fünf Millionen Zuschauer.",
+        "s": "Yesterday the show had almost five million viewers."
+      }
+    },
+    {
+      "id": "w08",
+      "t": "aktuell",
+      "s": "current, up to date (careful: not \"actual\")",
+      "emoji": "",
+      "ex": {
+        "t": "Im Radio höre ich die aktuellen Nachrichten.",
+        "s": "I listen to the latest news on the radio."
+      }
+    },
+    {
+      "id": "w09",
+      "t": "veröffentlichen",
+      "s": "to publish",
+      "emoji": "",
+      "ex": {
+        "t": "Die Zeitung hat gestern ein Gespräch mit der Ministerin veröffentlicht.",
+        "s": "Yesterday the paper published a conversation with the minister."
+      }
+    },
+    {
+      "id": "w10",
+      "t": "das Interview",
+      "pl": "die Interviews",
+      "s": "interview (with the media)",
+      "emoji": "🎤",
+      "ex": {
+        "t": "Nach dem Spiel gibt der Trainer ein Interview.",
+        "s": "After the game, the coach gives an interview."
+      }
+    },
+    {
+      "id": "w11",
+      "t": "die Werbung",
+      "s": "advertising, ads, commercials",
+      "emoji": "",
+      "ex": {
+        "t": "Im Fernsehen gibt es viel zu viel Werbung.",
+        "s": "There's far too much advertising on TV."
+      }
+    },
+    {
+      "id": "w12",
+      "t": "die Umfrage",
+      "pl": "die Umfragen",
+      "s": "survey, poll",
+      "emoji": "",
+      "ex": {
+        "t": "Der Sender hat eine Umfrage unter jungen Leuten gemacht.",
+        "s": "The station did a survey among young people."
+      }
+    },
+    {
+      "id": "w13",
+      "t": "die Wettervorhersage",
+      "pl": "die Wettervorhersagen",
+      "s": "weather forecast",
+      "emoji": "",
+      "ex": {
+        "t": "Nach den Nachrichten kommt die Wettervorhersage.",
+        "s": "The weather forecast comes after the news."
+      }
+    },
+    {
+      "id": "w14",
+      "t": "das Ereignis",
+      "pl": "die Ereignisse",
+      "s": "event",
+      "emoji": "",
+      "ex": {
+        "t": "Die Zeitung berichtet über die wichtigsten Ereignisse der Woche.",
+        "s": "The paper reports on the most important events of the week."
+      }
+    },
+    {
+      "id": "w15",
+      "t": "abonnieren",
+      "s": "to subscribe to",
+      "emoji": "",
+      "ex": {
+        "t": "Ich habe den Podcast des Senders abonniert.",
+        "s": "I've subscribed to the station's podcast."
+      }
+    }
+  ],
+  "phrases": [
+    {
+      "id": "p01",
+      "t": "Hast du schon gehört, dass …?",
+      "s": "Have you heard that …?"
+    },
+    {
+      "id": "p02",
+      "t": "Ich habe gelesen, dass …",
+      "s": "I read that …"
+    },
+    {
+      "id": "p03",
+      "t": "In der Zeitung steht, dass …",
+      "s": "It says in the paper that …"
+    },
+    {
+      "id": "p04",
+      "t": "Im Radio haben sie gesagt, dass …",
+      "s": "They said on the radio that …"
+    },
+    {
+      "id": "p05",
+      "t": "Was gibt's Neues?",
+      "s": "What's new?"
+    },
+    {
+      "id": "p06",
+      "t": "Das kann ich kaum glauben.",
+      "s": "I can hardly believe that."
+    },
+    {
+      "id": "p07",
+      "t": "Woher weißt du das?",
+      "s": "How do you know that?"
+    },
+    {
+      "id": "p08",
+      "t": "Meiner Meinung nach …",
+      "s": "In my opinion …"
+    }
+  ],
+  "dialogue": {
+    "title": {
+      "t": "Schlechte Nachrichten für die Bibliothek?",
+      "s": "Bad news for the library?"
+    },
+    "speakers": {
+      "A": {
+        "name": "Neda",
+        "voice": "f"
+      },
+      "B": {
+        "name": "Lukas",
+        "voice": "m"
+      }
+    },
+    "lines": [
+      {
+        "sp": "A",
+        "t": "Lukas, hast du die Schlagzeile von heute schon gesehen? Die Stadtbibliothek soll im Sommer schließen.",
+        "s": "Lukas, have you seen today's headline yet? The city library is supposed to close in the summer."
+      },
+      {
+        "sp": "B",
+        "t": "Nein, wirklich? Wo hast du das gelesen?",
+        "s": "No, really? Where did you read that?"
+      },
+      {
+        "sp": "A",
+        "t": "In der Tageszeitung. Der Leiter der Bibliothek hat einem Journalisten alles erzählt.",
+        "s": "In the daily paper. The head of the library told a journalist everything."
+      },
+      {
+        "sp": "B",
+        "t": "Und warum soll sie schließen?",
+        "s": "And why is it supposed to close?"
+      },
+      {
+        "sp": "A",
+        "t": "Das Dach des alten Gebäudes ist kaputt, und die Reparatur ist sehr teuer.",
+        "s": "The roof of the old building is damaged, and the repair is very expensive."
+      },
+      {
+        "sp": "B",
+        "t": "Schade! Meine Kinder leihen sich dort jede Woche Bücher aus.",
+        "s": "What a shame! My kids borrow books there every week."
+      },
+      {
+        "sp": "A",
+        "t": "Meine auch. Aber im Artikel steht, dass es vielleicht eine Lösung gibt.",
+        "s": "Mine too. But the article says there might be a solution."
+      },
+      {
+        "sp": "B",
+        "t": "Was für eine Lösung?",
+        "s": "What kind of solution?"
+      },
+      {
+        "sp": "A",
+        "t": "Die Bibliothek könnte für zwei Jahre in ein Gebäude der Universität ziehen.",
+        "s": "The library could move into a university building for two years."
+      },
+      {
+        "sp": "B",
+        "t": "Das wäre gut. Weiß man schon, wann die Stadt das entscheidet?",
+        "s": "That would be good. Does anyone know yet when the city will decide?"
+      },
+      {
+        "sp": "A",
+        "t": "Nächste Woche. Heute Abend gibt die Bürgermeisterin dazu ein Interview im Lokalradio.",
+        "s": "Next week. This evening the mayor is giving an interview about it on local radio."
+      },
+      {
+        "sp": "B",
+        "t": "Das höre ich mir an. Danke für den Tipp!",
+        "s": "I'll listen to that. Thanks for the tip!"
+      }
+    ]
+  },
+  "grammar": [
+    {
+      "id": "g01",
+      "title": {
+        "t": "das Auto meines Vaters, Annas Handy",
+        "s": "The genitive case"
+      },
+      "explain": "The **genitive** shows that something belongs to someone or something – like English *'s* or *of*. In German, the genitive usually comes **after** the noun it describes: **das Auto meines Vaters** (my father's car), **das Dach des Gebäudes** (the roof of the building).\n**Masculine and neuter:** the article becomes **des, eines, meines** …, and the noun adds **-s** or **-es**: **des Vaters, des Artikels, eines Kindes**. Nouns of one syllable often take **-es** (**des Tages, des Mannes**), and nouns ending in **-s, -ß, -x, -z** must take it: **des Hauses, des Platzes**.\n**Feminine and plural:** the article becomes **der, einer, meiner** …, and the noun does not change: **die Meinung der Zuschauer, die Tasche meiner Frau**.\n**Names** add **-s** without an apostrophe and come first, as in English: **Annas Handy, Rezas Wohnung**. Names ending in **-s, -ß, -x, -z** only get an apostrophe: **Jonas' Fahrrad**.\nThe question word is **wessen?** (whose?). In everyday speech people often use **von + dative** instead: **das Auto von meinem Vater**. In the news, in articles and in letters, however, the genitive is standard.",
+      "table": [
+        [
+          "der Vater",
+          "des Vaters",
+          "meines Vaters"
+        ],
+        [
+          "das Kind",
+          "des Kindes",
+          "eines Kindes"
+        ],
+        [
+          "die Frau",
+          "der Frau",
+          "meiner Frau"
+        ],
+        [
+          "die Kinder",
+          "der Kinder",
+          "meiner Kinder"
+        ],
+        [
+          "Anna",
+          "Annas Handy",
+          "Jonas' Fahrrad"
+        ]
+      ],
+      "examples": [
+        {
+          "t": "Das Haus meiner Großeltern steht in Isfahan.",
+          "s": "My grandparents' house is in Isfahan."
+        },
+        {
+          "t": "Die Meinung der Zuschauer ist dem Sender wichtig.",
+          "s": "The viewers' opinion is important to the station."
+        },
+        {
+          "t": "Der Titel des Artikels ist sehr lang.",
+          "s": "The title of the article is very long."
+        },
+        {
+          "t": "Ich habe Annas Nachricht erst am Abend gelesen.",
+          "s": "I didn't read Anna's message until the evening."
+        },
+        {
+          "t": "Wessen Zeitung liegt hier auf dem Tisch?",
+          "s": "Whose newspaper is this on the table?"
+        }
+      ],
+      "exercises": [
+        {
+          "type": "choice",
+          "t": "Das ist das Fahrrad ___ Bruders.",
+          "options": [
+            "meinem",
+            "meines",
+            "meiner"
+          ],
+          "answer": 1,
+          "s": "That's my brother's bike."
+        },
+        {
+          "type": "choice",
+          "t": "Die Farbe ___ Autos gefällt mir nicht.",
+          "options": [
+            "des",
+            "der",
+            "dem"
+          ],
+          "answer": 0,
+          "s": "I don't like the color of the car."
+        },
+        {
+          "type": "choice",
+          "t": "Der Titel ___ Sendung ist neu.",
+          "options": [
+            "des",
+            "der",
+            "den"
+          ],
+          "answer": 1,
+          "s": "The title of the show is new."
+        },
+        {
+          "type": "type",
+          "t": "Das ist das Auto ___ Vaters.",
+          "answer": [
+            "meines"
+          ],
+          "s": "That is my father's car."
+        },
+        {
+          "type": "type",
+          "t": "___ Handy ist schon wieder kaputt.",
+          "answer": [
+            "Annas"
+          ],
+          "s": "Anna's phone is broken again."
+        },
+        {
+          "type": "choice",
+          "t": "___ Fahrrad steht vor der Tür.",
+          "options": [
+            "Jonas'",
+            "Jonass",
+            "Jonas's"
+          ],
+          "answer": 0,
+          "s": "Jonas's bike is in front of the door."
+        },
+        {
+          "type": "choice",
+          "t": "___ Tasche ist das?",
+          "options": [
+            "Wer",
+            "Wessen",
+            "Wem"
+          ],
+          "answer": 1,
+          "s": "Whose bag is that?"
+        },
+        {
+          "type": "order",
+          "t": "Das ist die Wohnung meiner Schwester.",
+          "s": "That is my sister's apartment."
+        }
+      ]
+    },
+    {
+      "id": "g02",
+      "title": {
+        "t": "den Kollegen, dem Kunden, des Menschen",
+        "s": "Weak masculine nouns (n-declension)"
+      },
+      "explain": "Most masculine nouns only change in the genitive (**des Vaters**). A small group – the **n-declension** or *weak nouns* – adds **-n** or **-en** in **every case except the nominative singular**: **der Kollege → den Kollegen, dem Kollegen, des Kollegen**. The plural also ends in -n or -en: **die Kollegen**.\nWhich nouns belong to this group? They are masculine, and most of them refer to people or animals:\n• masculine nouns ending in **-e**: **der Kollege, der Kunde, der Junge, der Neffe, der Löwe**, and nationalities like **der Franzose, der Türke**\n• foreign words ending in **-ent, -ant, -ist, -at, -oge**: **der Student, der Präsident, der Praktikant, der Journalist, der Kandidat, der Biologe**\n• a few short nouns: **der Mensch, der Nachbar, der Herr, der Bär** (**der Nachbar → den Nachbarn**, **der Herr → den Herrn**, plural **die Herren**)\nCareful: not every masculine noun in -e is weak – **der Käse** is normal. With **Herr**: **Sehr geehrter Herr Wagner** (greeting in a letter, nominative), but **ein Brief an Herrn Wagner**.\nA few weak nouns add **-s** in the genitive as well: **der Name → des Namens**. In casual speech people sometimes drop the -n (*mit dem Nachbar*), but in writing this counts as a mistake.",
+      "table": [
+        [
+          "Nominativ",
+          "der Kollege",
+          "der Journalist"
+        ],
+        [
+          "Akkusativ",
+          "den Kollegen",
+          "den Journalisten"
+        ],
+        [
+          "Dativ",
+          "dem Kollegen",
+          "dem Journalisten"
+        ],
+        [
+          "Genitiv",
+          "des Kollegen",
+          "des Journalisten"
+        ],
+        [
+          "Plural",
+          "die Kollegen",
+          "die Journalisten"
+        ]
+      ],
+      "examples": [
+        {
+          "t": "Der Sender hat einen jungen Journalisten nach Berlin geschickt.",
+          "s": "The station sent a young journalist to Berlin."
+        },
+        {
+          "t": "Kannst du bitte dem Nachbarn das Paket geben?",
+          "s": "Can you please give the package to the neighbor?"
+        },
+        {
+          "t": "Die Verkäuferin hilft gerade einem Kunden.",
+          "s": "The salesperson is helping a customer right now."
+        },
+        {
+          "t": "Alle Zuschauer warten auf den Präsidenten.",
+          "s": "All the viewers are waiting for the president."
+        },
+        {
+          "t": "Ich schreibe eine E-Mail an Herrn Wagner.",
+          "s": "I'm writing an email to Mr. Wagner."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "choice",
+          "t": "Ich frage meinen ___ um Rat.",
+          "options": [
+            "Kollege",
+            "Kollegen",
+            "Kollegens"
+          ],
+          "answer": 1,
+          "s": "I'm asking my colleague for advice."
+        },
+        {
+          "type": "choice",
+          "t": "Der Polizist spricht mit dem ___.",
+          "options": [
+            "Journalist",
+            "Journalisten",
+            "Journaliste"
+          ],
+          "answer": 1,
+          "s": "The police officer is talking to the journalist."
+        },
+        {
+          "type": "choice",
+          "t": "Der ___ wohnt direkt neben uns.",
+          "options": [
+            "Nachbar",
+            "Nachbarn",
+            "Nachbaren"
+          ],
+          "answer": 0,
+          "s": "The neighbor lives right next to us."
+        },
+        {
+          "type": "type",
+          "t": "Kennst du schon den neuen ___ aus Hamburg?",
+          "answer": [
+            "Studenten"
+          ],
+          "s": "Do you already know the new student from Hamburg?"
+        },
+        {
+          "type": "type",
+          "t": "Ich habe eine Frage an ___ Wagner.",
+          "answer": [
+            "Herrn"
+          ],
+          "s": "I have a question for Mr. Wagner."
+        },
+        {
+          "type": "choice",
+          "t": "Ich helfe dem ___ mit dem Koffer.",
+          "options": [
+            "Mann",
+            "Mannen",
+            "Männern"
+          ],
+          "answer": 0,
+          "s": "I'm helping the man with the suitcase."
+        },
+        {
+          "type": "choice",
+          "t": "Wir haben den ___ gestern im Fernsehen gesehen.",
+          "options": [
+            "Präsident",
+            "Präsidenten",
+            "Präsidente"
+          ],
+          "answer": 1,
+          "s": "We saw the president on TV yesterday."
+        },
+        {
+          "type": "order",
+          "t": "Ich kenne den Kunden schon lange.",
+          "s": "I've known the customer for a long time.",
+          "alts": [
+            "Den Kunden kenne ich schon lange."
+          ]
+        }
+      ]
+    }
+  ],
+  "reading": {
+    "title": {
+      "t": "Ein Tag in der Redaktion",
+      "s": "A day in the newsroom"
+    },
+    "text": [
+      {
+        "t": "Lena ist Journalistin bei einer Tageszeitung in Köln.",
+        "s": "Lena is a journalist at a daily newspaper in Cologne."
+      },
+      {
+        "t": "Ihr Arbeitstag beginnt um neun Uhr mit einer Besprechung der Redaktion.",
+        "s": "Her workday starts at nine o'clock with a meeting of the editorial team."
+      },
+      {
+        "t": "Dort entscheiden alle gemeinsam, welche Themen am nächsten Tag in der Zeitung stehen.",
+        "s": "There, everyone decides together which topics will be in the paper the next day."
+      },
+      {
+        "t": "Heute schreibt Lena einen Artikel über Herrn Wagner, einen Nachbarn ihrer Eltern.",
+        "s": "Today Lena is writing an article about Mr. Wagner, a neighbor of her parents."
+      },
+      {
+        "t": "Herr Wagner ist zweiundsiebzig Jahre alt und repariert in seiner Garage kostenlos Fahrräder für Kinder.",
+        "s": "Mr. Wagner is seventy-two years old and repairs bikes for children in his garage free of charge."
+      },
+      {
+        "t": "Am Vormittag besucht Lena ihn und stellt ihm viele Fragen.",
+        "s": "In the morning Lena visits him and asks him lots of questions."
+      },
+      {
+        "t": "Ein Fotograf macht Bilder von der kleinen Werkstatt des alten Herrn.",
+        "s": "A photographer takes pictures of the old gentleman's little workshop."
+      },
+      {
+        "t": "Am Nachmittag schreibt Lena den Text und sucht eine gute Schlagzeile.",
+        "s": "In the afternoon Lena writes the text and looks for a good headline."
+      },
+      {
+        "t": "Das ist oft der schwierigste Teil ihrer Arbeit.",
+        "s": "That is often the hardest part of her job."
+      },
+      {
+        "t": "Am nächsten Morgen erscheint der Artikel in der Zeitung und auf der Internetseite des Verlags.",
+        "s": "The next morning the article appears in the paper and on the publisher's website."
+      },
+      {
+        "t": "Schon am Mittag haben über hundert Leser einen Kommentar geschrieben.",
+        "s": "By noon, more than a hundred readers have already written a comment."
+      },
+      {
+        "t": "Viele Leser möchten Herrn Wagner helfen und bringen ihm alte Fahrräder.",
+        "s": "Many readers want to help Mr. Wagner and bring him old bikes."
+      }
+    ],
+    "questions": [
+      {
+        "q": {
+          "t": "Wo arbeitet Lena?",
+          "s": "Where does Lena work?"
+        },
+        "options": [
+          "bei einem Radiosender",
+          "bei einer Tageszeitung",
+          "bei einer Zeitschrift"
+        ],
+        "answer": 1
+      },
+      {
+        "q": {
+          "t": "Was macht Herr Wagner in seiner Garage?",
+          "s": "What does Mr. Wagner do in his garage?"
+        },
+        "options": [
+          "Er verkauft alte Autos.",
+          "Er repariert Fahrräder für Kinder.",
+          "Er schreibt Artikel für die Zeitung."
+        ],
+        "answer": 1
+      },
+      {
+        "q": {
+          "t": "Wer macht die Fotos?",
+          "s": "Who takes the photos?"
+        },
+        "options": [
+          "Lena",
+          "Herr Wagner",
+          "ein Fotograf"
+        ],
+        "answer": 2
+      },
+      {
+        "q": {
+          "t": "Was ist oft der schwierigste Teil von Lenas Arbeit?",
+          "s": "What is often the hardest part of Lena's job?"
+        },
+        "options": [
+          "die Besprechung am Morgen",
+          "eine gute Schlagzeile finden",
+          "die Fragen an Herrn Wagner"
+        ],
+        "answer": 1
+      },
+      {
+        "q": {
+          "t": "Wie reagieren viele Leser auf den Artikel?",
+          "s": "How do many readers react to the article?"
+        },
+        "options": [
+          "Sie bringen Herrn Wagner alte Fahrräder.",
+          "Sie bestellen die Zeitung ab.",
+          "Sie rufen den Fotografen an."
+        ],
+        "answer": 0
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "t": "Ich lese die Nachrichten meistens auf dem Handy.",
+      "s": "I usually read the news on my phone."
+    },
+    {
+      "t": "Die Wettervorhersage für morgen ist leider schlecht.",
+      "s": "Unfortunately, the weather forecast for tomorrow is bad."
+    },
+    {
+      "t": "Hast du den Artikel meines Bruders schon gelesen?",
+      "s": "Have you read my brother's article yet?"
+    },
+    {
+      "t": "Der Journalist hat den Präsidenten interviewt.",
+      "s": "The journalist interviewed the president."
+    },
+    {
+      "t": "Meine Eltern haben eine Tageszeitung abonniert.",
+      "s": "My parents subscribe to a daily newspaper."
+    },
+    {
+      "t": "Wir sprechen beim Essen oft über aktuelle Themen.",
+      "s": "We often talk about current issues during meals."
+    },
+    {
+      "t": "Der Name des Kollegen fällt mir nicht ein.",
+      "s": "I can't think of the colleague's name."
+    },
+    {
+      "t": "Die Werbung vor dem Film war sehr lang.",
+      "s": "The ads before the movie were very long."
+    }
+  ]
+}

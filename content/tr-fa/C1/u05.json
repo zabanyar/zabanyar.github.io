@@ -1,0 +1,761 @@
+{
+  "id": "u05",
+  "level": "C1",
+  "emoji": "⚖️",
+  "title": {
+    "t": "Hukuk ve haklar",
+    "s": "قانون و حقوق شهروندی"
+  },
+  "goals": [
+    "درباره‌ی قانون، دادگاه، قرارداد و حقوق شهروندی با واژگان حقوقی پایه صحبت کنم.",
+    "درجه‌های اجبار و ضرورت را با -mak zorunda kalmak، -mak durumunda olmak، -mesi şart و -mek mecburiyetinde بیان کنم.",
+    "هدف و علت را در زبان رسمی با -ması için، -masından dolayı و -mesi nedeniyle بگویم.",
+    "یک متن راهنمای حقوقی، مثلاً درباره‌ی حقوق مستأجر، را بفهمم."
+  ],
+  "words": [
+    {
+      "id": "w01",
+      "t": "hukuk",
+      "s": "حقوق (رشته‌ی دانشگاهی و نظام قانونی)",
+      "pr": "هوکوک",
+      "emoji": "",
+      "ex": {
+        "t": "Kızım Ankara'da hukuk okuyor.",
+        "s": "دخترم در آنکارا حقوق می‌خواند."
+      }
+    },
+    {
+      "id": "w02",
+      "t": "yasa",
+      "pl": "yasalar",
+      "s": "قانون",
+      "pr": "یاسا",
+      "emoji": "",
+      "ex": {
+        "t": "Yeni yasa önümüzdeki ay yürürlüğe girecek.",
+        "s": "قانون جدید ماه آینده لازم‌الاجرا می‌شود."
+      }
+    },
+    {
+      "id": "w03",
+      "t": "anayasa",
+      "s": "قانون اساسی",
+      "pr": "آنایاسا",
+      "emoji": "",
+      "ex": {
+        "t": "Anayasaya göre herkes kanun önünde eşittir.",
+        "s": "طبق قانون اساسی، همه در برابر قانون برابرند."
+      }
+    },
+    {
+      "id": "w04",
+      "t": "mahkeme",
+      "pl": "mahkemeler",
+      "s": "دادگاه",
+      "pr": "ماهکِمِه",
+      "emoji": "",
+      "ex": {
+        "t": "Dava gelecek ay mahkemede görülecek.",
+        "s": "پرونده ماه آینده در دادگاه رسیدگی می‌شود."
+      }
+    },
+    {
+      "id": "w05",
+      "t": "dava",
+      "pl": "davalar",
+      "s": "دعوای حقوقی؛ پرونده",
+      "pr": "داوا",
+      "emoji": "",
+      "ex": {
+        "t": "Ev sahibine karşı dava açtık.",
+        "s": "علیه صاحبخانه دادخواست دادیم."
+      }
+    },
+    {
+      "id": "w06",
+      "t": "duruşma",
+      "pl": "duruşmalar",
+      "s": "جلسه‌ی دادرسی",
+      "pr": "دوروشما",
+      "emoji": "",
+      "ex": {
+        "t": "Duruşmaya avukatımla birlikte katıldım.",
+        "s": "همراه وکیلم در جلسه‌ی دادرسی شرکت کردم."
+      }
+    },
+    {
+      "id": "w07",
+      "t": "hâkim",
+      "pl": "hâkimler",
+      "s": "قاضی",
+      "pr": "هاآکیم",
+      "emoji": "",
+      "ex": {
+        "t": "Hâkim, kararını bir sonraki duruşmada açıklayacak.",
+        "s": "قاضی رأیش را در جلسه‌ی بعدی دادرسی اعلام خواهد کرد."
+      }
+    },
+    {
+      "id": "w08",
+      "t": "sözleşme",
+      "pl": "sözleşmeler",
+      "s": "قرارداد",
+      "pr": "سُزلِشمِه",
+      "emoji": "📝",
+      "ex": {
+        "t": "Kira sözleşmesini imzalamadan önce iyice okuyun.",
+        "s": "پیش از امضای قرارداد اجاره، آن را به‌دقت بخوانید."
+      }
+    },
+    {
+      "id": "w09",
+      "t": "kiracı",
+      "pl": "kiracılar",
+      "s": "مستأجر",
+      "pr": "کیراجِ",
+      "emoji": "",
+      "ex": {
+        "t": "Kiracının hakları yasayla korunuyor.",
+        "s": "حقوق مستأجر با قانون حمایت می‌شود."
+      }
+    },
+    {
+      "id": "w10",
+      "t": "tazminat",
+      "s": "غرامت",
+      "pr": "تازمینات",
+      "emoji": "",
+      "ex": {
+        "t": "Şirket, işçiye tazminat ödemek zorunda kaldı.",
+        "s": "شرکت ناچار شد به کارگر غرامت بپردازد."
+      }
+    },
+    {
+      "id": "w11",
+      "t": "ihlal",
+      "pl": "ihlaller",
+      "s": "نقض (قانون یا حق)",
+      "pr": "ایهلال",
+      "emoji": "",
+      "ex": {
+        "t": "Bu uygulama, kişisel verilerin korunması yasasının açık bir ihlalidir.",
+        "s": "این اقدام نقض آشکار قانون حفاظت از داده‌های شخصی است."
+      }
+    },
+    {
+      "id": "w12",
+      "t": "yürürlüğe girmek",
+      "s": "لازم‌الاجرا شدن",
+      "pr": "یورورلویِه گیرمِک",
+      "emoji": "",
+      "ex": {
+        "t": "Yeni düzenleme yılbaşında yürürlüğe girdi.",
+        "s": "مقررات جدید از ابتدای سال (میلادی) لازم‌الاجرا شد."
+      }
+    },
+    {
+      "id": "w13",
+      "t": "temel haklar",
+      "s": "حقوق بنیادین",
+      "pr": "تِمِل هاکلار",
+      "emoji": "",
+      "ex": {
+        "t": "Temel haklar anayasa ile güvence altına alınmıştır.",
+        "s": "حقوق بنیادین با قانون اساسی تضمین شده است."
+      }
+    },
+    {
+      "id": "w14",
+      "t": "suç",
+      "pl": "suçlar",
+      "s": "جرم",
+      "pr": "سوچ",
+      "emoji": "",
+      "ex": {
+        "t": "Başkasının kişisel bilgilerini izinsiz paylaşmak suçtur.",
+        "s": "به اشتراک گذاشتن اطلاعات شخصی دیگران بدون اجازه جرم است."
+      }
+    },
+    {
+      "id": "w15",
+      "t": "tanık",
+      "pl": "tanıklar",
+      "s": "شاهد",
+      "pr": "تانِک",
+      "emoji": "",
+      "ex": {
+        "t": "Kazayı gören iki tanık ifade verdi.",
+        "s": "دو شاهدی که تصادف را دیده بودند شهادت دادند."
+      }
+    },
+    {
+      "id": "w16",
+      "t": "noter",
+      "pl": "noterler",
+      "s": "دفترخانه‌ی اسناد رسمی؛ سردفتر",
+      "pr": "نُتِر",
+      "emoji": "",
+      "ex": {
+        "t": "Satış sözleşmesini noterde imzaladık.",
+        "s": "قرارداد فروش را در دفترخانه امضا کردیم."
+      }
+    }
+  ],
+  "phrases": [
+    {
+      "id": "p01",
+      "t": "Bu, yasal hakkınız.",
+      "s": "این حق قانونی شماست.",
+      "pr": "بو، یاسال هاکِّنِز."
+    },
+    {
+      "id": "p02",
+      "t": "Bir avukata danışmanızı tavsiye ederim.",
+      "s": "توصیه می‌کنم با یک وکیل مشورت کنید.",
+      "pr": "بیر آووکاتا دانِشمانِزِ تاوسیِه اِدِریم."
+    },
+    {
+      "id": "p03",
+      "t": "Kanun herkes için geçerlidir.",
+      "s": "قانون برای همه معتبر است.",
+      "pr": "کانون هِرکِس ایچین گِچِرلیدیر."
+    },
+    {
+      "id": "p04",
+      "t": "Sözleşmenin üçüncü maddesine göre…",
+      "s": "طبق ماده‌ی سوم قرارداد…",
+      "pr": "سُزلِشمِنین اوچونجو مادِّسینِه گُرِه…"
+    },
+    {
+      "id": "p05",
+      "t": "Bunu yazılı olarak istiyorum.",
+      "s": "این را به‌صورت کتبی می‌خواهم.",
+      "pr": "بونو یازِلِ اُلاراک ایستیُروم."
+    },
+    {
+      "id": "p06",
+      "t": "Hakkımı sonuna kadar arayacağım.",
+      "s": "تا آخر پیگیر حقم خواهم بود.",
+      "pr": "هاکِّمِ سُنونا کادار آرایاجائِم."
+    },
+    {
+      "id": "p07",
+      "t": "Kanunu bilmemek mazeret sayılmaz.",
+      "s": "ندانستن قانون عذر به شمار نمی‌رود.",
+      "pr": "کانونو بیلمِمِک مازِرِت سایِلماز."
+    },
+    {
+      "id": "p08",
+      "t": "Davayı kazandık!",
+      "s": "دعوا را بردیم!",
+      "pr": "داوایِ کازاندِک!"
+    }
+  ],
+  "dialogue": {
+    "title": {
+      "t": "Avukatın bürosunda",
+      "s": "در دفتر وکیل"
+    },
+    "speakers": {
+      "A": {
+        "name": "Ayşe",
+        "voice": "f"
+      },
+      "B": {
+        "name": "Ali",
+        "voice": "m"
+      }
+    },
+    "lines": [
+      {
+        "sp": "A",
+        "t": "Buyurun Ali Bey, sizi dinliyorum.",
+        "s": "بفرمایید آقای علی، می‌شنوم."
+      },
+      {
+        "sp": "B",
+        "t": "Ev sahibim, oğlu evleneceği için evi boşaltmamı istiyor. Bir ay içinde çıkmak zorunda mıyım?",
+        "s": "صاحبخانه‌ام چون پسرش می‌خواهد ازدواج کند، از من می‌خواهد خانه را خالی کنم. آیا مجبورم ظرف یک ماه بیرون بروم؟"
+      },
+      {
+        "sp": "A",
+        "t": "Hayır. Ev sahibinin ihtiyaç nedeniyle tahliye isteyebilmesi için bu ihtiyacı belgelemesi şart. Üstelik sözleşmenin süresi dolmadan sizi çıkaramaz.",
+        "s": "نه. برای اینکه صاحبخانه بتواند به دلیل نیاز درخواست تخلیه کند، لازم است این نیاز را مستند کند. ضمناً پیش از تمام شدن مدت قرارداد نمی‌تواند شما را بیرون کند."
+      },
+      {
+        "sp": "B",
+        "t": "Sözleşmem gelecek yıl mayısta bitiyor. Ama ev sahibim çok ısrarcı. Mahkemeye gitmek durumunda kalırsam ne olur?",
+        "s": "قراردادم ماه مه سال آینده تمام می‌شود. اما صاحبخانه‌ام خیلی اصرار دارد. اگر ناچار شوم به دادگاه بروم، چه می‌شود؟"
+      },
+      {
+        "sp": "A",
+        "t": "Dava açılırsa mahkeme iki tarafı da dinlemek mecburiyetindedir. Haklı olduğunuz sürece endişelenmenize gerek yok.",
+        "s": "اگر دعوا طرح شود، دادگاه مکلف است حرف هر دو طرف را بشنود. تا وقتی حق با شماست، لازم نیست نگران باشید."
+      },
+      {
+        "sp": "B",
+        "t": "Bir de kirayı yüzde yüz artırmak istiyor. Bunu kabul etmek zorunda mıyım?",
+        "s": "یک موضوع دیگر هم هست: می‌خواهد اجاره را صد درصد افزایش دهد. آیا مجبورم این را بپذیرم؟"
+      },
+      {
+        "sp": "A",
+        "t": "Yasal sınırı aşan bir artışı kabul etmek zorunda değilsiniz. Ancak kirayı düzenli ödemeniz şart; aksi hâlde ev sahibi bunu gerekçe gösterebilir.",
+        "s": "مجبور نیستید افزایشی را که از حد قانونی فراتر است بپذیرید. اما لازم است اجاره را مرتب بپردازید؛ وگرنه صاحبخانه می‌تواند همین را بهانه کند."
+      },
+      {
+        "sp": "B",
+        "t": "Kirayı hep zamanında ödedim. Yalnızca bir kez, bankanın sisteminin çökmesinden dolayı iki gün geç ödemek zorunda kalmıştım.",
+        "s": "اجاره را همیشه سر وقت پرداخته‌ام. فقط یک بار، به دلیل از کار افتادن سامانه‌ی بانک، مجبور شده بودم دو روز دیرتر بپردازم."
+      },
+      {
+        "sp": "A",
+        "t": "Bu bir sorun oluşturmaz; yine de dekontları saklayın. Haklarınızı korumanız için bütün yazışmaları yazılı yapmanızı öneririm.",
+        "s": "این مشکلی ایجاد نمی‌کند؛ با این حال رسیدهای بانکی را نگه دارید. برای اینکه از حقوقتان محافظت کنید، پیشنهاد می‌کنم همه‌ی مکاتبات را کتبی انجام دهید."
+      },
+      {
+        "sp": "B",
+        "t": "Çok teşekkür ederim Ayşe Hanım. İçim rahatladı.",
+        "s": "خیلی ممنونم آیشه خانم. خیالم راحت شد."
+      }
+    ]
+  },
+  "grammar": [
+    {
+      "id": "g01",
+      "title": {
+        "t": "zorunda kalmak, durumunda olmak, -mesi şart, mecburiyetinde",
+        "s": "درجه‌های اجبار و ضرورت"
+      },
+      "explain": "در B1 با **-mak zorunda olmak**، **-mak gerekmek** و **-malı** آشنا شدید. در C1 تفاوت‌های ظریف‌تر را یاد می‌گیریم:\n**-mak zorunda kalmak** = «مجبور شدن / ناچار شدن»: اجبار از **شرایط** می‌آید، اغلب در گذشته: Uçuş iptal olunca otelde **kalmak zorunda kaldık**.\n**-mak durumunda olmak / kalmak** = «در وضعیتی بودن که باید… / ناگزیر بودن»: رسمی‌تر و ملایم‌تر، رایج در خبر و زبان اداری: Şirket bazı şubelerini **kapatmak durumunda**.\n**-mesi şart** (+ پسوند ملکی) = «لازم است که / شرط است که»: یک **شرط یا الزام قطعی** (قاعده، آیین‌نامه): Başvuru için iki fotoğraf **getirmeniz şart**. واژه‌ی şart را از فارسی می‌شناسید، اما در این ساخت یعنی «ضروری».\n**-mek mecburiyetinde olmak / kalmak** = «مکلف بودن / مجبور بودن»: بسیار رسمی، به‌ویژه در متن‌های حقوقی: Kiracı, kirayı zamanında **ödemek mecburiyetindedir**. (mecburiyet = «مجبوریت» در فارسی)\nمنفی: **-mak zorunda değilsiniz** = «مجبور نیستید» (اجباری نیست؛ اما ممنوع هم نیست). این با **-mamalısınız** («نباید…») یا **yasak** («ممنوع») فرق دارد.",
+      "table": [
+        [
+          "-mak zorunda kalmak",
+          "Evden çıkmak zorunda kaldık."
+        ],
+        [
+          "-mak durumunda olmak",
+          "Şirket fiyatları artırmak durumunda."
+        ],
+        [
+          "-mesi şart",
+          "Sözleşmenin yazılı olması şart."
+        ],
+        [
+          "-mek mecburiyetinde olmak",
+          "Kiracı kirayı ödemek mecburiyetindedir."
+        ],
+        [
+          "-mak zorunda değil",
+          "Bu belgeyi getirmek zorunda değilsiniz."
+        ]
+      ],
+      "examples": [
+        {
+          "t": "Ev sahibi kirayı iki katına çıkarınca taşınmak zorunda kaldık.",
+          "s": "وقتی صاحبخانه اجاره را دو برابر کرد، مجبور شدیم اسباب‌کشی کنیم."
+        },
+        {
+          "t": "Belediye, bütçe açığı yüzünden bazı projeleri ertelemek durumunda.",
+          "s": "شهرداری به خاطر کسری بودجه ناگزیر است برخی پروژه‌ها را به تعویق بیندازد."
+        },
+        {
+          "t": "Davanın açılabilmesi için dilekçenin süresi içinde verilmesi şart.",
+          "s": "برای اینکه بتوان دعوا را طرح کرد، لازم است دادخواست در مهلت مقرر داده شود."
+        },
+        {
+          "t": "İşveren, çalışanlarını sigortalamak mecburiyetindedir.",
+          "s": "کارفرما مکلف است کارکنانش را بیمه کند."
+        },
+        {
+          "t": "Mahkemeye bizzat gitmek zorunda değilsiniz; avukatınız sizi temsil edebilir.",
+          "s": "مجبور نیستید شخصاً به دادگاه بروید؛ وکیلتان می‌تواند نماینده‌ی شما باشد."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "choice",
+          "t": "Dün uçuşumuz iptal edilince bir gece daha otelde ___.",
+          "options": [
+            "kalmamız şart",
+            "kalmak zorunda değiliz",
+            "kalmak zorunda kaldık"
+          ],
+          "answer": 2,
+          "s": "دیروز وقتی پروازمان لغو شد، مجبور شدیم یک شب دیگر در هتل بمانیم."
+        },
+        {
+          "type": "choice",
+          "t": "Başvuru için iki fotoğraf getirmeniz ___.",
+          "options": [
+            "şart",
+            "zorunda",
+            "durumunda"
+          ],
+          "answer": 0,
+          "s": "برای درخواست، لازم است دو قطعه عکس بیاورید."
+        },
+        {
+          "type": "choice",
+          "t": "Kiracı, evi teslim aldığı gibi geri vermek ___.",
+          "options": [
+            "şartıdır",
+            "mecburiyetindedir",
+            "zorundalar"
+          ],
+          "answer": 1,
+          "s": "مستأجر مکلف است خانه را همان‌طور که تحویل گرفته پس بدهد."
+        },
+        {
+          "type": "choice",
+          "t": "Bu formu doldurmak ___; isterseniz boş bırakabilirsiniz.",
+          "options": [
+            "zorundasınız",
+            "mecburiyetindesiniz",
+            "zorunda değilsiniz"
+          ],
+          "answer": 2,
+          "s": "مجبور نیستید این فرم را پر کنید؛ اگر بخواهید می‌توانید خالی بگذارید."
+        },
+        {
+          "type": "type",
+          "t": "Ekonomik kriz yüzünden şirket bazı şubelerini kapatmak ___ kaldı.",
+          "answer": [
+            "zorunda",
+            "durumunda",
+            "mecburiyetinde"
+          ],
+          "s": "به خاطر بحران اقتصادی، شرکت ناچار شد برخی شعبه‌هایش را ببندد."
+        },
+        {
+          "type": "type",
+          "t": "Sözleşmenin geçerli olması için iki tarafın da imzalaması ___.",
+          "answer": [
+            "şart",
+            "şarttır",
+            "gerekir",
+            "gerekiyor",
+            "gerekli",
+            "gereklidir",
+            "lazım",
+            "zorunlu",
+            "zorunludur"
+          ],
+          "s": "برای اینکه قرارداد معتبر باشد، لازم است هر دو طرف آن را امضا کنند."
+        },
+        {
+          "type": "type",
+          "t": "Mahkemeye bizzat gitmek zorunda ___; avukatınız gidebilir.",
+          "answer": [
+            "değilsiniz"
+          ],
+          "s": "مجبور نیستید شخصاً به دادگاه بروید؛ وکیلتان می‌تواند برود."
+        },
+        {
+          "type": "order",
+          "t": "Bu belgeyi imzalamak zorunda değilsiniz.",
+          "s": "مجبور نیستید این سند را امضا کنید."
+        }
+      ]
+    },
+    {
+      "id": "g02",
+      "title": {
+        "t": "-ması için, -masından dolayı, -mesi nedeniyle",
+        "s": "هدف و علت با اسم‌مصدر"
+      },
+      "explain": "اسم‌مصدر **-ma / -me** (B2) با پسوند ملکی و یک حرف اضافه، هدف و علت را در زبان رسمی بیان می‌کند:\n**-ması için** = «برای اینکه (کسی) …». اگر فاعل دو بخش **یکی** باشد، از **-mak için** (B1) استفاده می‌کنیم: Türkçe **öğrenmek için** kursa gidiyorum. اگر فاعل **فرق کند**، **-ması için** + پسوند ملکی: Çocukların güvende **olması için** yasa değişti. / Daha iyi **anlamanız için** bir örnek vereyim. (مثل فارسی: «برای اینکه **شما** بفهمید»)\n**-masından dolayı** = «به دلیلِ / از آنجا که»: Belgelerin eksik **olmasından dolayı** başvuru reddedildi. بعد از اسم: **kazadan dolayı**.\n**-mesi nedeniyle / sebebiyle** = «به علتِ …»: رسمی‌تر، رایج در خبر و متن حقوقی: Hâkimin **hastalanması nedeniyle** duruşma ertelendi. بعد از اسم: **yoğun kar nedeniyle**.\nفاعل این ساخت‌ها حالت اضافی (**-ın**) می‌گیرد، شبیه اضافه‌ی فارسی: hâkim**in** hastalanması = بیمار شدنِ قاضی.\nدر گفتار روزمره **-dığı için** (B2) رایج‌تر است؛ **-masından dolayı** و **-mesi nedeniyle** لحنی رسمی و اسمی دارند.",
+      "table": [
+        [
+          "-ması için",
+          "Herkesin duyması için yüksek sesle konuştu."
+        ],
+        [
+          "-masından dolayı",
+          "Yolların kapanmasından dolayı geç kaldık."
+        ],
+        [
+          "-mesi nedeniyle",
+          "Hâkimin hastalanması nedeniyle duruşma ertelendi."
+        ],
+        [
+          "-mesi sebebiyle",
+          "Belgenin eksik olması sebebiyle başvuru reddedildi."
+        ],
+        [
+          "isim + nedeniyle",
+          "Grev nedeniyle uçuşlar iptal edildi."
+        ]
+      ],
+      "examples": [
+        {
+          "t": "Kiracıların haklarını bilmesi için belediye ücretsiz seminerler düzenliyor.",
+          "s": "شهرداری برای اینکه مستأجران حقوقشان را بدانند، سمینارهای رایگان برگزار می‌کند."
+        },
+        {
+          "t": "Tanığın ifadesinin çelişkili olmasından dolayı dava yeniden görülecek.",
+          "s": "به دلیل متناقض بودن اظهارات شاهد، پرونده دوباره رسیدگی خواهد شد."
+        },
+        {
+          "t": "Avukatın duruşmaya gelmemesi nedeniyle karar ertelendi.",
+          "s": "به علت حاضر نشدن وکیل در جلسه‌ی دادرسی، صدور رأی به تعویق افتاد."
+        },
+        {
+          "t": "Sözleşmenin herkes tarafından anlaşılması için sade bir dil kullanılmalı.",
+          "s": "برای اینکه قرارداد را همه بفهمند، باید زبانی ساده به کار رود."
+        },
+        {
+          "t": "Yoğun kar nedeniyle bugün mahkemeler kapalı.",
+          "s": "به علت بارش شدید برف، امروز دادگاه‌ها تعطیل‌اند."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "choice",
+          "t": "Herkesin ___ için duyuruyu panoya astık.",
+          "options": [
+            "görmesi",
+            "görmek",
+            "görerek"
+          ],
+          "answer": 0,
+          "s": "برای اینکه همه ببینند، اطلاعیه را روی تابلو زدیم."
+        },
+        {
+          "type": "choice",
+          "t": "Hâkimin hastalanması ___ duruşma ertelendi.",
+          "options": [
+            "için",
+            "nedeniyle",
+            "kaydıyla"
+          ],
+          "answer": 1,
+          "s": "به علت بیمار شدن قاضی، جلسه‌ی دادرسی به تعویق افتاد."
+        },
+        {
+          "type": "choice",
+          "t": "Belgelerin eksik ___ dolayı başvurum reddedildi.",
+          "options": [
+            "olması",
+            "olmasına",
+            "olmasından"
+          ],
+          "answer": 2,
+          "s": "به دلیل ناقص بودن مدارک، درخواستم رد شد."
+        },
+        {
+          "type": "type",
+          "t": "Çocukların güvende ___ için yasa değiştirildi.",
+          "answer": [
+            "olması"
+          ],
+          "s": "برای اینکه بچه‌ها در امان باشند، قانون تغییر داده شد."
+        },
+        {
+          "type": "type",
+          "t": "Yoğun kar ___ uçuşlar iptal edildi.",
+          "answer": [
+            "nedeniyle",
+            "sebebiyle",
+            "yüzünden",
+            "dolayısıyla"
+          ],
+          "s": "به علت بارش شدید برف، پروازها لغو شد."
+        },
+        {
+          "type": "type",
+          "t": "Kiranın geç ___ nedeniyle ev sahibi uyarı gönderdi.",
+          "answer": [
+            "ödenmesi",
+            "yatırılması"
+          ],
+          "s": "به علت دیر پرداخت شدن اجاره، صاحبخانه اخطار فرستاد."
+        },
+        {
+          "type": "type",
+          "t": "Daha iyi ___ için bir örnek vereyim.",
+          "answer": [
+            "anlamanız",
+            "anlayabilmeniz"
+          ],
+          "s": "برای اینکه بهتر متوجه شوید، مثالی بزنم."
+        },
+        {
+          "type": "order",
+          "t": "Grev nedeniyle bütün seferler iptal edildi.",
+          "s": "به علت اعتصاب، همه‌ی سفرها لغو شد.",
+          "alts": [
+            "Bütün seferler grev nedeniyle iptal edildi."
+          ]
+        }
+      ]
+    }
+  ],
+  "reading": {
+    "title": {
+      "t": "Kiracı olarak haklarınızı biliyor musunuz?",
+      "s": "آیا حقوق خود را به‌عنوان مستأجر می‌دانید؟"
+    },
+    "text": [
+      {
+        "t": "Türkiye'nin büyük şehirlerinde ailelerin önemli bir kısmı kirada oturuyor.",
+        "s": "در شهرهای بزرگ ترکیه بخش قابل‌توجهی از خانواده‌ها مستأجرند."
+      },
+      {
+        "t": "Ancak pek çok kiracı, haklarını bilmemesinden dolayı haksız taleplerle karşılaşıyor.",
+        "s": "اما بسیاری از مستأجران به دلیل ندانستن حقوقشان با درخواست‌های ناعادلانه روبه‌رو می‌شوند."
+      },
+      {
+        "t": "Her şeyden önce, kira sözleşmesinin yazılı olması şart değildir; ancak olası bir anlaşmazlıkta işinizi kolaylaştırması için yazılı bir sözleşme yapmanız önerilir.",
+        "s": "پیش از هر چیز، لازم نیست قرارداد اجاره کتبی باشد؛ اما توصیه می‌شود قرارداد کتبی ببندید تا در اختلافی احتمالی کارتان آسان‌تر شود."
+      },
+      {
+        "t": "Ev sahibi, depozito olarak en fazla üç aylık kira bedeli isteyebilir.",
+        "s": "صاحبخانه حداکثر می‌تواند معادل اجاره‌ی سه ماه ودیعه بخواهد."
+      },
+      {
+        "t": "Konut kiralarındaki yıllık artış da yasal bir sınıra bağlıdır; bu sınır genellikle enflasyona göre belirlenir.",
+        "s": "افزایش سالانه‌ی اجاره‌ی مسکونی هم تابع سقفی قانونی است؛ این سقف معمولاً بر اساس تورم تعیین می‌شود."
+      },
+      {
+        "t": "Dolayısıyla, ev sahibiniz bu sınırın üzerinde bir artış isterse onu kabul etmek zorunda değilsiniz.",
+        "s": "بنابراین اگر صاحبخانه‌تان افزایشی بیش از این سقف بخواهد، مجبور نیستید آن را بپذیرید."
+      },
+      {
+        "t": "Sözleşme süresi dolduğunda da ev sahibi sizi keyfî olarak çıkaramaz.",
+        "s": "وقتی مدت قرارداد تمام می‌شود هم صاحبخانه نمی‌تواند خودسرانه شما را بیرون کند."
+      },
+      {
+        "t": "Örneğin ihtiyaç nedeniyle tahliye isteyebilmesi için evin, kendisinin ya da yakın bir akrabasının oturması için gerçekten gerekli olduğunu kanıtlaması gerekir.",
+        "s": "برای مثال، برای اینکه بتواند به دلیل نیاز درخواست تخلیه کند، باید ثابت کند که خانه واقعاً برای سکونت خودش یا یکی از بستگان نزدیکش لازم است."
+      },
+      {
+        "t": "Kira bedelini düzenli ödemek ise sizin en önemli yükümlülüğünüzdür.",
+        "s": "پرداخت منظم اجاره هم مهم‌ترین تعهد شماست."
+      },
+      {
+        "t": "Ödemelerin gecikmesi nedeniyle ev sahibinin dava açması hâlinde haklı çıkmanız çok zorlaşır.",
+        "s": "در صورتی که صاحبخانه به علت تأخیر در پرداخت‌ها دعوا طرح کند، اثبات حقانیتتان بسیار دشوار می‌شود."
+      },
+      {
+        "t": "Bu yüzden ödemeleri elden değil banka üzerinden yapmanız ve dekontları saklamanız tavsiye edilir.",
+        "s": "به همین دلیل توصیه می‌شود پرداخت‌ها را نه دستی، بلکه از طریق بانک انجام دهید و رسیدها را نگه دارید."
+      },
+      {
+        "t": "Bir anlaşmazlık çıkarsa, bazı durumlarda dava açmadan önce bir arabulucuya başvurmak zorundasınız.",
+        "s": "اگر اختلافی پیش بیاید، در برخی موارد مجبورید پیش از طرح دعوا به یک میانجی مراجعه کنید."
+      },
+      {
+        "t": "Arabuluculuk çoğu zaman mahkemeden daha hızlı ve daha ucuzdur.",
+        "s": "میانجی‌گری اغلب از دادگاه سریع‌تر و ارزان‌تر است."
+      }
+    ],
+    "questions": [
+      {
+        "q": {
+          "t": "Metne göre pek çok kiracı neden haksız taleplerle karşılaşıyor?",
+          "s": "طبق متن، چرا بسیاری از مستأجران با درخواست‌های ناعادلانه روبه‌رو می‌شوند؟"
+        },
+        "options": [
+          "Kiralarını geç ödedikleri için",
+          "Büyük şehirlerde yaşadıkları için",
+          "Haklarını bilmedikleri için"
+        ],
+        "answer": 2
+      },
+      {
+        "q": {
+          "t": "Kira sözleşmesinin yazılı olması zorunlu mu?",
+          "s": "آیا کتبی بودن قرارداد اجاره الزامی است؟"
+        },
+        "options": [
+          "Evet, her zaman şart",
+          "Hayır, ama önerilir",
+          "Sadece büyük şehirlerde şart"
+        ],
+        "answer": 1
+      },
+      {
+        "q": {
+          "t": "Ev sahibi en fazla ne kadar depozito isteyebilir?",
+          "s": "صاحبخانه حداکثر چه مقدار ودیعه می‌تواند بخواهد؟"
+        },
+        "options": [
+          "Bir aylık kira",
+          "Üç aylık kira",
+          "İki aylık kira"
+        ],
+        "answer": 1
+      },
+      {
+        "q": {
+          "t": "Kiracının en önemli yükümlülüğü nedir?",
+          "s": "مهم‌ترین تعهد مستأجر چیست؟"
+        },
+        "options": [
+          "Kirayı düzenli ödemek",
+          "Evi her yıl boyatmak",
+          "Bir avukat tutmak"
+        ],
+        "answer": 0
+      },
+      {
+        "q": {
+          "t": "Metne göre bazı anlaşmazlıklarda dava açmadan önce ne yapmak gerekir?",
+          "s": "طبق متن، در برخی اختلاف‌ها پیش از طرح دعوا چه باید کرد؟"
+        },
+        "options": [
+          "Bir arabulucuya başvurmak",
+          "Ev sahibine dekont göndermek",
+          "Evi boşaltmak"
+        ],
+        "answer": 0
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "t": "Bu konuda bir avukata danışmanız şart.",
+      "s": "لازم است در این باره با یک وکیل مشورت کنید.",
+      "alts": [
+        "Bir avukata bu konuda danışmanız şart."
+      ]
+    },
+    {
+      "t": "Dava gelecek ay görülecek.",
+      "s": "پرونده ماه آینده رسیدگی می‌شود.",
+      "alts": [
+        "Gelecek ay dava görülecek."
+      ]
+    },
+    {
+      "t": "Kimse kanunun üstünde değildir.",
+      "s": "هیچ‌کس بالاتر از قانون نیست."
+    },
+    {
+      "t": "Kiracı evi boşaltmak zorunda kaldı.",
+      "s": "مستأجر مجبور شد خانه را خالی کند."
+    },
+    {
+      "t": "Tanığın gelmemesi nedeniyle duruşma ertelendi.",
+      "s": "به علت نیامدن شاهد، جلسه‌ی دادرسی به تعویق افتاد.",
+      "alts": [
+        "Duruşma tanığın gelmemesi nedeniyle ertelendi."
+      ]
+    },
+    {
+      "t": "Sözleşmeyi imzalamadan önce dikkatle okuyun.",
+      "s": "پیش از امضای قرارداد، آن را با دقت بخوانید.",
+      "alts": [
+        "İmzalamadan önce sözleşmeyi dikkatle okuyun."
+      ]
+    },
+    {
+      "t": "İfade özgürlüğü temel bir insan hakkıdır.",
+      "s": "آزادی بیان یکی از حقوق بنیادین بشر است."
+    },
+    {
+      "t": "Herkesin anlaması için sade bir dil kullanın.",
+      "s": "برای اینکه همه بفهمند، زبانی ساده به کار ببرید."
+    }
+  ]
+}

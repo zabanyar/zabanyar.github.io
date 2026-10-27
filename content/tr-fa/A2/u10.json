@@ -1,0 +1,768 @@
+{
+  "id": "u10",
+  "level": "A2",
+  "emoji": "🎟️",
+  "title": {
+    "t": "Boş zaman ve planlar",
+    "s": "اوقاتِ فراغت و برنامه‌ها"
+  },
+  "goals": [
+    "کسی را به برنامه‌ای دعوت کنم و دعوتی را بپذیرم یا رد کنم.",
+    "با شکلِ منفی و سؤالیِ آینده بپرسم و بگویم چه کاری نمی‌کنم (gelecek misin? gelmeyeceğim).",
+    "با -elim / -alım پیشنهاد بدهم (Sinemaya gidelim mi?).",
+    "یک پیامِ کوتاه درباره‌ی برنامه‌ی آخرِ هفته را بفهمم."
+  ],
+  "words": [
+    {
+      "id": "w01",
+      "t": "konser",
+      "pl": "konserler",
+      "s": "کنسرت",
+      "pr": "کُنسِر",
+      "emoji": "",
+      "ex": {
+        "t": "Cumartesi akşamı bir konsere gideceğiz.",
+        "s": "شنبه شب به یک کنسرت می‌رویم.",
+        "pr": "جومارتِسی آکشامِ بیر کُنسِرِه گیدِجِییز."
+      }
+    },
+    {
+      "id": "w02",
+      "t": "tiyatro",
+      "pl": "tiyatrolar",
+      "s": "تئاتر",
+      "pr": "تیاترو",
+      "emoji": "🎭",
+      "ex": {
+        "t": "Tiyatroda çok güzel bir oyun izledik.",
+        "s": "در تئاتر یک نمایشِ خیلی قشنگ دیدیم.",
+        "pr": "تیاترُدا چُک گوزِل بیر اُیون ایزلِدیک."
+      }
+    },
+    {
+      "id": "w03",
+      "t": "sergi",
+      "pl": "sergiler",
+      "s": "نمایشگاه",
+      "pr": "سِرگی",
+      "emoji": "",
+      "ex": {
+        "t": "Müzede yeni bir resim sergisi var.",
+        "s": "در موزه یک نمایشگاهِ نقاشیِ جدید هست.",
+        "pr": "موزِدِه یِنی بیر رِسیم سِرگیسی وار."
+      }
+    },
+    {
+      "id": "w04",
+      "t": "maç",
+      "pl": "maçlar",
+      "s": "مسابقه (فوتبال و ورزش‌های دیگر)",
+      "pr": "ماچ",
+      "emoji": "",
+      "ex": {
+        "t": "Akşam babamla maç izleyeceğiz.",
+        "s": "عصر با پدرم مسابقه تماشا می‌کنیم.",
+        "pr": "آکشام باباملا ماچ ایزلِیِجِییز."
+      }
+    },
+    {
+      "id": "w05",
+      "t": "kamp yapmak",
+      "s": "کمپ زدن، چادر زدن",
+      "pr": "کامپ یاپماک",
+      "emoji": "⛺",
+      "ex": {
+        "t": "Yazın gölün yanında kamp yaptık.",
+        "s": "تابستان کنارِ دریاچه کمپ زدیم.",
+        "pr": "یازِن گُلون یانِندا کامپ یاپتِک."
+      }
+    },
+    {
+      "id": "w06",
+      "t": "parti",
+      "pl": "partiler",
+      "s": "مهمانی، جشن",
+      "pr": "پارتی",
+      "emoji": "🎉",
+      "ex": {
+        "t": "Doğum günü partisine bütün sınıfı davet etti.",
+        "s": "همه‌ی کلاس را به جشنِ تولدش دعوت کرد.",
+        "pr": "دُئوم گونو پارتیسینِه بوتون سِنِفِ داوِت اِتّی."
+      }
+    },
+    {
+      "id": "w07",
+      "t": "katılmak",
+      "s": "شرکت کردن (در)، پیوستن (به)",
+      "pr": "کاتِلماک",
+      "emoji": "",
+      "ex": {
+        "t": "Cumartesi bir doğa yürüyüşüne katılacağız.",
+        "s": "شنبه در یک پیاده‌رویِ طبیعت شرکت می‌کنیم.",
+        "pr": "جومارتِسی بیر دُئا یورویوشونِه کاتِلاجائِز."
+      }
+    },
+    {
+      "id": "w08",
+      "t": "davet etmek",
+      "s": "دعوت کردن",
+      "pr": "داوِت اِتمِک",
+      "emoji": "",
+      "ex": {
+        "t": "Bizi akşam yemeğine davet ettiler.",
+        "s": "ما را به شام دعوت کردند.",
+        "pr": "بیزی آکشام یِمِیینِه داوِت اِتّیلِر."
+      }
+    },
+    {
+      "id": "w09",
+      "t": "müsait",
+      "s": "آزاد، وقت‌دار (در دسترس)",
+      "pr": "موسائیت",
+      "emoji": "",
+      "ex": {
+        "t": "Yarın öğleden sonra müsait misin?",
+        "s": "فردا بعدازظهر وقت داری؟",
+        "pr": "یارِن اُلِدِن سُنرا موسائیت میسین؟"
+      }
+    },
+    {
+      "id": "w10",
+      "t": "plan yapmak",
+      "s": "برنامه ریختن",
+      "pr": "پْلان یاپماک",
+      "emoji": "",
+      "ex": {
+        "t": "Hafta sonu için plan yaptık.",
+        "s": "برای آخرِ هفته برنامه ریختیم.",
+        "pr": "هافتا سُنو ایچین پْلان یاپتِک."
+      }
+    },
+    {
+      "id": "w11",
+      "t": "dışarı çıkmak",
+      "s": "(برای گردش) بیرون رفتن",
+      "pr": "دِشارِ چِکماک",
+      "emoji": "",
+      "ex": {
+        "t": "Bu akşam dışarı çıkalım mı?",
+        "s": "امشب برویم بیرون؟",
+        "pr": "بو آکشام دِشارِ چِکالِم مِ؟"
+      }
+    },
+    {
+      "id": "w12",
+      "t": "vakit geçirmek",
+      "s": "وقت گذراندن",
+      "pr": "واکیت گِچیرمِک",
+      "emoji": "",
+      "ex": {
+        "t": "Hafta sonları ailemle vakit geçiriyorum.",
+        "s": "آخرِ هفته‌ها با خانواده‌ام وقت می‌گذرانم.",
+        "pr": "هافتا سُنلارِ آئیلِملِه واکیت گِچیریُروم."
+      }
+    },
+    {
+      "id": "w13",
+      "t": "ertelemek",
+      "s": "عقب انداختن، به تعویق انداختن",
+      "pr": "اِرتِلِمِک",
+      "emoji": "",
+      "ex": {
+        "t": "Pikniği gelecek haftaya erteledik.",
+        "s": "پیک‌نیک را به هفته‌ی بعد انداختیم.",
+        "pr": "پیکنیی گِلِجِک هافتایا اِرتِلِدیک."
+      }
+    },
+    {
+      "id": "w14",
+      "t": "eğlenceli",
+      "s": "سرگرم‌کننده، باحال",
+      "pr": "اِیلِنجِلی",
+      "emoji": "",
+      "ex": {
+        "t": "Parti çok eğlenceliydi.",
+        "s": "مهمانی خیلی خوش گذشت.",
+        "pr": "پارتی چُک اِیلِنجِلییدی."
+      }
+    },
+    {
+      "id": "w15",
+      "t": "sıkıcı",
+      "s": "خسته‌کننده، کسل‌کننده",
+      "pr": "سِکِجِ",
+      "emoji": "",
+      "ex": {
+        "t": "Bu film biraz sıkıcı.",
+        "s": "این فیلم کمی خسته‌کننده است.",
+        "pr": "بو فیلم بیراز سِکِجِ."
+      }
+    }
+  ],
+  "phrases": [
+    {
+      "id": "p01",
+      "t": "Bu akşam boş musun?",
+      "s": "امشب وقتت آزاد است؟",
+      "pr": "بو آکشام بُش موسون؟"
+    },
+    {
+      "id": "p02",
+      "t": "Ne dersin?",
+      "s": "نظرت چیست؟",
+      "pr": "نِه دِرسین؟"
+    },
+    {
+      "id": "p03",
+      "t": "Harika fikir!",
+      "s": "فکرِ خیلی خوبی است!",
+      "pr": "هاریکا فیکیر!"
+    },
+    {
+      "id": "p04",
+      "t": "Saat kaçta buluşalım?",
+      "s": "ساعتِ چند هم‌دیگر را ببینیم؟",
+      "pr": "ساآت کاچتا بولوشالِم؟"
+    },
+    {
+      "id": "p05",
+      "t": "Maalesef gelemeyeceğim.",
+      "s": "متأسفانه نمی‌توانم بیایم.",
+      "pr": "ماآلِسِف گِلِمِیِجِییم."
+    },
+    {
+      "id": "p06",
+      "t": "Başka zaman olsun.",
+      "s": "باشد برای یک وقتِ دیگر.",
+      "pr": "باشکا زامان اُلسون."
+    },
+    {
+      "id": "p07",
+      "t": "Kesinlikle!",
+      "s": "حتماً! (قطعاً!)",
+      "pr": "کِسینلیکلِه!"
+    },
+    {
+      "id": "p08",
+      "t": "Ben de geliyorum!",
+      "s": "من هم می‌آیم!",
+      "pr": "بِن دِه گِلیُروم!"
+    }
+  ],
+  "dialogue": {
+    "title": {
+      "t": "Cumartesi planı",
+      "s": "برنامه‌ی شنبه"
+    },
+    "speakers": {
+      "A": {
+        "name": "Sara",
+        "voice": "f"
+      },
+      "B": {
+        "name": "Can",
+        "voice": "m"
+      }
+    },
+    "lines": [
+      {
+        "sp": "B",
+        "t": "Sara, cumartesi akşamı boş musun?",
+        "s": "سارا، شنبه شب وقتت آزاد است؟",
+        "pr": "سارا، جومارتِسی آکشامِ بُش موسون؟"
+      },
+      {
+        "sp": "A",
+        "t": "Henüz bilmiyorum. Neden?",
+        "s": "هنوز نمی‌دانم. چطور؟",
+        "pr": "هِنوز بیلمیُروم. نِدِن؟"
+      },
+      {
+        "sp": "B",
+        "t": "Şehir Tiyatrosunda yeni bir oyun var. Gidelim mi?",
+        "s": "در تئاترِ شهر یک نمایشِ جدید هست. برویم؟",
+        "pr": "شِهیر تیاترُسوندا یِنی بیر اُیون وار. گیدِلیم می؟"
+      },
+      {
+        "sp": "A",
+        "t": "Harika fikir! Oyun saat kaçta başlayacak?",
+        "s": "فکرِ خیلی خوبی است! نمایش ساعتِ چند شروع می‌شود؟",
+        "pr": "هاریکا فیکیر! اُیون ساآت کاچتا باشلایاجاک؟"
+      },
+      {
+        "sp": "B",
+        "t": "Akşam sekizde. Önce bir yerde yemek yiyelim mi?",
+        "s": "ساعتِ هشتِ شب. اول یک جایی غذا بخوریم؟",
+        "pr": "آکشام سِکیزدِه. اُنجِه بیر یِردِه یِمِک یی‌یِلیم می؟"
+      },
+      {
+        "sp": "A",
+        "t": "Maalesef yemeğe gelemeyeceğim. Cumartesi yedi buçuğa kadar çalışacağım.",
+        "s": "متأسفانه برای غذا نمی‌توانم بیایم. شنبه تا ساعتِ هفت و نیم کار می‌کنم.",
+        "pr": "ماآلِسِف یِمِیِه گِلِمِیِجِییم. جومارتِسی یِدی بوچوئا کادار چالِشاجائِم."
+      },
+      {
+        "sp": "B",
+        "t": "Sorun değil. O zaman tiyatronun önünde buluşalım. Sekize çeyrek kala, olur mu?",
+        "s": "اشکالی ندارد. پس جلوی تئاتر هم‌دیگر را ببینیم. یک ربع به هشت، خوب است؟",
+        "pr": "سُرون دِییل. اُ زامان تیاترُنون اُنوندِه بولوشالِم. سِکیزِه چِیرِک کالا، اُلور مو؟"
+      },
+      {
+        "sp": "A",
+        "t": "Olur. Emre de gelecek mi?",
+        "s": "باشد. امره هم می‌آید؟",
+        "pr": "اُلور. اِمرِه دِه گِلِجِک می؟"
+      },
+      {
+        "sp": "B",
+        "t": "Hayır, gelmeyecek. Bu hafta sonu ailesiyle kamp yapacak.",
+        "s": "نه، نمی‌آید. این آخرِ هفته با خانواده‌اش کمپ می‌زند.",
+        "pr": "هایِر، گِلمِیِجِک. بو هافتا سُنو آئیلِسییلِه کامپ یاپاجاک."
+      },
+      {
+        "sp": "A",
+        "t": "Peki, biletleri kim alacak?",
+        "s": "خب، بلیت‌ها را کی می‌خرد؟",
+        "pr": "پِکی، بیلِتلِری کیم آلاجاک؟"
+      },
+      {
+        "sp": "B",
+        "t": "Ben bu akşam internetten alacağım. Sen hiç düşünme!",
+        "s": "من امشب از اینترنت می‌خرم. تو اصلاً نگران نباش!",
+        "pr": "بِن بو آکشام اینتِرنِتِّن آلاجائِم. سِن هیچ دوشونمِه!"
+      },
+      {
+        "sp": "A",
+        "t": "Çok teşekkürler, Can. Cumartesi görüşürüz!",
+        "s": "خیلی ممنون، جان. شنبه می‌بینمت!",
+        "pr": "چُک تِشِکّورلِر، جان. جومارتِسی گُروشوروز!"
+      }
+    ]
+  },
+  "grammar": [
+    {
+      "id": "g01",
+      "title": {
+        "t": "Gelmeyeceğim, gelecek misin?",
+        "s": "آینده: منفی و سؤالی"
+      },
+      "explain": "در درسِ ۷ شکلِ مثبتِ آینده را یاد گرفتید (geleceğim). حالا منفی و سؤالی:\n**منفی:** ریشه + **-me / -ma** + **y** + **-ecek / -acak** + شناسه: gel**meyeceğim** (نخواهم آمد، نمی‌آیم)، çalış**mayacak** (کار نخواهد کرد). بعد از -me همیشه **-yecek** و بعد از -ma همیشه **-yacak** می‌آید. در gitmek و etmek حرفِ t این‌جا عوض نمی‌شود، چون بعدش صدادار نمی‌آید: **gitmeyeceğim**، **etmeyecek**.\n**سؤال:** بعد از فعل **mi / mı** (طبقِ آخرین صدادار) جدا نوشته می‌شود و شناسه به آن می‌چسبد: gelecek **misin?**، gelecek **miyim?**، gelecek **mi?**، gelecek **miyiz?**، gelecek **misiniz?**؛ alacak **mısın?** فقط برای onlar شناسه قبل از mi می‌آید: gelecek**ler mi?**\nمنفیِ سؤالی: **gelmeyecek misin?** (نمی‌آیی؟)\nبا کلمه‌های پرسشی مثلِ **ne zaman، kaçta، nerede، kim** دیگر **mi** نمی‌آید: **Saat kaçta geleceksin?**",
+      "table": [
+        [
+          "ben",
+          "gelmeyeceğim",
+          "gelecek miyim?"
+        ],
+        [
+          "sen",
+          "gelmeyeceksin",
+          "gelecek misin?"
+        ],
+        [
+          "o",
+          "gelmeyecek",
+          "gelecek mi?"
+        ],
+        [
+          "biz",
+          "gelmeyeceğiz",
+          "gelecek miyiz?"
+        ],
+        [
+          "siz",
+          "gelmeyeceksiniz",
+          "gelecek misiniz?"
+        ],
+        [
+          "onlar",
+          "gelmeyecekler",
+          "gelecekler mi?"
+        ]
+      ],
+      "examples": [
+        {
+          "t": "Bu akşam dışarı çıkmayacağım, evde kalacağım.",
+          "s": "امشب بیرون نمی‌روم، خانه می‌مانم.",
+          "pr": "بو آکشام دِشارِ چِکمایاجائِم، اِودِه کالاجائِم."
+        },
+        {
+          "t": "Yarın konsere gelecek misin?",
+          "s": "فردا به کنسرت می‌آیی؟",
+          "pr": "یارِن کُنسِرِه گِلِجِک میسین؟"
+        },
+        {
+          "t": "Emre partiye gelmeyecek.",
+          "s": "امره به مهمانی نمی‌آید.",
+          "pr": "اِمرِه پارتیِه گِلمِیِجِک."
+        },
+        {
+          "t": "Toplantıyı erteleyecek misiniz?",
+          "s": "جلسه را عقب می‌اندازید؟",
+          "pr": "تُپلانتِیِ اِرتِلِیِجِک میسینیز؟"
+        },
+        {
+          "t": "Çocuklar bu yaz kampa gidecekler mi?",
+          "s": "بچه‌ها امسال تابستان به اردو می‌روند؟",
+          "pr": "چُجوکلار بو یاز کامپا گیدِجِکلِر می؟"
+        }
+      ],
+      "exercises": [
+        {
+          "type": "choice",
+          "t": "Ben yarın işe ___. Hastayım.",
+          "options": [
+            "gitmeyeceğim",
+            "gitmeyeceksin",
+            "gitmeyecek"
+          ],
+          "answer": 0,
+          "s": "من فردا سرِ کار نمی‌روم. مریضم."
+        },
+        {
+          "type": "choice",
+          "t": "Cumartesi partiye gelecek ___?",
+          "options": [
+            "misin",
+            "mısın",
+            "miyim"
+          ],
+          "answer": 0,
+          "s": "شنبه به مهمانی می‌آیی؟"
+        },
+        {
+          "type": "type",
+          "t": "Onlar bu yaz tatile git___.",
+          "answer": [
+            "meyecekler",
+            "meyecek"
+          ],
+          "s": "آن‌ها امسال تابستان به تعطیلات نمی‌روند."
+        },
+        {
+          "type": "type",
+          "t": "Biz yarın evde olacak ___?",
+          "answer": [
+            "mıyız"
+          ],
+          "s": "ما فردا خانه خواهیم بود؟"
+        },
+        {
+          "type": "choice",
+          "t": "Konser saat kaçta ___?",
+          "options": [
+            "başlayacak",
+            "başlayacak mı",
+            "başlamayacak mı"
+          ],
+          "answer": 0,
+          "s": "کنسرت ساعتِ چند شروع می‌شود؟"
+        },
+        {
+          "type": "choice",
+          "t": "Elif sinemaya gelmeyecek ___?",
+          "options": [
+            "mi",
+            "mı",
+            "misin"
+          ],
+          "answer": 0,
+          "s": "الیف به سینما نمی‌آید؟"
+        },
+        {
+          "type": "order",
+          "t": "Yarın konsere gelecek misin?",
+          "s": "فردا به کنسرت می‌آیی؟",
+          "alts": [
+            "Konsere yarın gelecek misin?"
+          ]
+        },
+        {
+          "type": "order",
+          "t": "Bu akşam dışarı çıkmayacağım.",
+          "s": "امشب بیرون نمی‌روم."
+        }
+      ]
+    },
+    {
+      "id": "g02",
+      "title": {
+        "t": "-elim / -alım: Sinemaya gidelim mi?",
+        "s": "پیشنهاد: «برویم…»، «برویم؟»"
+      },
+      "explain": "برای پیشنهاد دادن («بیا برویم، برویم…») به ریشه‌ی فعل **-elim** یا **-alım** اضافه می‌کنیم: gel**elim** (بیاییم)، bak**alım** (نگاه کنیم). معنی‌اش مثلِ التزامیِ اول‌شخصِ جمع در فارسی است: «برویم»، «بخوریم».\nبعد از a، ı، o، u ← **-alım**؛ بعد از e، i، ö، ü ← **-elim**. بعد از صدادار **y** می‌آید: oyna ← **oynayalım**، bekle ← **bekleyelim**.\nچند فعلِ خاص: gitmek ← **gidelim**، etmek ← **edelim**، yemek ← **yiyelim**، demek ← **diyelim**.\nبرای پرسیدنِ نظر، **mi / mı** اضافه می‌کنیم: **Sinemaya gidelim mi?** = به سینما برویم؟\nبا کلمه‌ی پرسشی **mi** نمی‌آید: **Nerede buluşalım?** = کجا هم‌دیگر را ببینیم؟\nمنفی: **-meyelim / -mayalım**: **Bugün dışarı çıkmayalım.** = امروز بیرون نرویم. اغلب با **Hadi** («بیا، یالا») می‌آید: **Hadi, gidelim!**",
+      "table": [
+        [
+          "gitmek",
+          "gidelim",
+          "gidelim mi?"
+        ],
+        [
+          "yemek",
+          "yiyelim",
+          "yiyelim mi?"
+        ],
+        [
+          "oynamak",
+          "oynayalım",
+          "oynayalım mı?"
+        ],
+        [
+          "beklemek",
+          "bekleyelim",
+          "bekleyelim mi?"
+        ],
+        [
+          "buluşmak",
+          "buluşalım",
+          "buluşalım mı?"
+        ]
+      ],
+      "examples": [
+        {
+          "t": "Hadi, parka gidelim!",
+          "s": "بیا، برویم پارک!",
+          "pr": "هادی، پارکا گیدِلیم!"
+        },
+        {
+          "t": "Bu akşam film izleyelim mi?",
+          "s": "امشب فیلم ببینیم؟",
+          "pr": "بو آکشام فیلم ایزلِیِلیم می؟"
+        },
+        {
+          "t": "Saat kaçta buluşalım?",
+          "s": "ساعتِ چند هم‌دیگر را ببینیم؟",
+          "pr": "ساآت کاچتا بولوشالِم؟"
+        },
+        {
+          "t": "Hava çok soğuk, bugün dışarı çıkmayalım.",
+          "s": "هوا خیلی سرد است، امروز بیرون نرویم.",
+          "pr": "هاوا چُک سُئوک، بوگون دِشارِ چِکمایالِم."
+        },
+        {
+          "t": "Pazar günü kamp yapalım mı?",
+          "s": "یکشنبه کمپ بزنیم؟",
+          "pr": "پازار گونو کامپ یاپالِم مِ؟"
+        }
+      ],
+      "exercises": [
+        {
+          "type": "choice",
+          "t": "Hadi, sinemaya ___!",
+          "options": [
+            "gidelim",
+            "gitelim",
+            "gidiyorlar"
+          ],
+          "answer": 0,
+          "s": "بیا، برویم سینما!"
+        },
+        {
+          "type": "type",
+          "t": "Bu akşam dışarıda yemek ___ mi?",
+          "answer": [
+            "yiyelim"
+          ],
+          "s": "امشب بیرون غذا بخوریم؟"
+        },
+        {
+          "type": "type",
+          "t": "Parkta futbol oyna___!",
+          "answer": [
+            "yalım"
+          ],
+          "s": "در پارک فوتبال بازی کنیم!"
+        },
+        {
+          "type": "choice",
+          "t": "Hava çok kötü, bugün dışarı ___.",
+          "options": [
+            "çıkmayalım",
+            "çıkalım",
+            "çıkmayalım mı"
+          ],
+          "answer": 0,
+          "s": "هوا خیلی بد است، امروز بیرون نرویم."
+        },
+        {
+          "type": "choice",
+          "t": "Saat kaçta ___?",
+          "options": [
+            "buluşalım",
+            "buluşalım mı",
+            "buluşmayalım mı"
+          ],
+          "answer": 0,
+          "s": "ساعتِ چند هم‌دیگر را ببینیم؟"
+        },
+        {
+          "type": "type",
+          "t": "Arkadaşları da davet ___ mi?",
+          "answer": [
+            "edelim"
+          ],
+          "s": "دوستان را هم دعوت کنیم؟"
+        },
+        {
+          "type": "order",
+          "t": "Pazar günü kamp yapalım mı?",
+          "s": "یکشنبه کمپ بزنیم؟"
+        },
+        {
+          "type": "order",
+          "t": "Hadi, parka gidelim!",
+          "s": "بیا، برویم پارک!"
+        }
+      ]
+    }
+  ],
+  "reading": {
+    "title": {
+      "t": "Hafta sonu planı",
+      "s": "برنامه‌ی آخرِ هفته"
+    },
+    "text": [
+      {
+        "t": "Merhaba Neda, nasılsın?",
+        "s": "سلام ندا، حالت چطور است؟",
+        "pr": "مِرحابا ندا، ناسِلسِن؟"
+      },
+      {
+        "t": "Bu hafta sonu büyük bir planımız var!",
+        "s": "این آخرِ هفته یک برنامه‌ی بزرگ داریم!",
+        "pr": "بو هافتا سُنو بویوک بیر پْلانِمِز وار!"
+      },
+      {
+        "t": "Cumartesi sabahı Emre ile bir göl kenarına gideceğiz ve orada kamp yapacağız.",
+        "s": "شنبه صبح با امره به کنارِ یک دریاچه می‌رویم و آنجا کمپ می‌زنیم.",
+        "pr": "جومارتِسی ساباهِ اِمرِه ایلِه بیر گُل کِنارِنا گیدِجِییز وِه اُرادا کامپ یاپاجائِز."
+      },
+      {
+        "t": "Çocuklar da gelecek, ama kedimiz gelmeyecek; onu annemlere bırakacağız.",
+        "s": "بچه‌ها هم می‌آیند، اما گربه‌مان نمی‌آید؛ او را خانه‌ی مادرم می‌گذاریم.",
+        "pr": "چُجوکلار دا گِلِجِک، آما کِدیمیز گِلمِیِجِک؛ اُنو آنِّملِرِه بِراکاجائِز."
+      },
+      {
+        "t": "Orada yürüyüş yapacağız, mangal yapacağız ve akşam ateşin yanında şarkı söyleyeceğiz.",
+        "s": "آنجا پیاده‌روی می‌کنیم، کباب درست می‌کنیم و شب کنارِ آتش آواز می‌خوانیم.",
+        "pr": "اُرادا یورویوش یاپاجائِز، مانگال یاپاجائِز وِه آکشام آتِشین یانِندا شارکِ سُیلِیِجِییز."
+      },
+      {
+        "t": "Pazar günü öğleden sonra eve döneceğiz.",
+        "s": "یکشنبه بعدازظهر به خانه برمی‌گردیم.",
+        "pr": "پازار گونو اُلِدِن سُنرا اِوِه دُنِجِییز."
+      },
+      {
+        "t": "Akşam saat yedide de bir konser var; biletlerimizi aldık.",
+        "s": "ساعتِ هفتِ عصر هم یک کنسرت هست؛ بلیت‌هایمان را خریده‌ایم.",
+        "pr": "آکشام ساآت یِدیدِه دِه بیر کُنسِر وار؛ بیلِتلِریمیزی آلدِک."
+      },
+      {
+        "t": "Sen de bizimle gelecek misin?",
+        "s": "تو هم با ما می‌آیی؟",
+        "pr": "سِن دِه بیزیملِه گِلِجِک میسین؟"
+      },
+      {
+        "t": "Çadırımız büyük, senin için de yer var.",
+        "s": "چادرمان بزرگ است، برای تو هم جا هست.",
+        "pr": "چادِرِمِز بویوک، سِنین ایچین دِه یِر وار."
+      },
+      {
+        "t": "Cevabını bekliyorum! Sevgiler, Zeynep.",
+        "s": "منتظرِ جوابت هستم! با مهر، زینب.",
+        "pr": "جِوابِنِ بِکلیُروم! سِوگیلِر، زِینِپ."
+      }
+    ],
+    "questions": [
+      {
+        "q": {
+          "t": "Zeynep ve Emre cumartesi nereye gidecek?",
+          "s": "زینب و امره شنبه کجا می‌روند؟"
+        },
+        "options": [
+          "Bir konsere",
+          "Bir göl kenarına",
+          "Denize"
+        ],
+        "answer": 1
+      },
+      {
+        "q": {
+          "t": "Kim kampa gelmeyecek?",
+          "s": "چه کسی به کمپ نمی‌آید؟"
+        },
+        "options": [
+          "Çocuklar",
+          "Kedileri",
+          "Emre"
+        ],
+        "answer": 1
+      },
+      {
+        "q": {
+          "t": "Ne zaman eve dönecekler?",
+          "s": "کی به خانه برمی‌گردند؟"
+        },
+        "options": [
+          "Cumartesi akşamı",
+          "Pazar sabahı",
+          "Pazar öğleden sonra"
+        ],
+        "answer": 2
+      },
+      {
+        "q": {
+          "t": "Pazar akşamı ne var?",
+          "s": "یکشنبه عصر چه برنامه‌ای هست؟"
+        },
+        "options": [
+          "Bir maç",
+          "Bir konser",
+          "Bir parti"
+        ],
+        "answer": 1
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "t": "Cumartesi akşamı müsait misin?",
+      "s": "شنبه شب وقت داری؟",
+      "pr": "جومارتِسی آکشامِ موسائیت میسین؟"
+    },
+    {
+      "t": "Yarın maça gelecek misin?",
+      "s": "فردا به مسابقه می‌آیی؟",
+      "pr": "یارِن ماچا گِلِجِک میسین؟"
+    },
+    {
+      "t": "Hayır, gelmeyeceğim, çok işim var.",
+      "s": "نه، نمی‌آیم، خیلی کار دارم.",
+      "pr": "هایِر، گِلمِیِجِییم، چُک ایشیم وار."
+    },
+    {
+      "t": "Hadi, sinemaya gidelim!",
+      "s": "بیا، برویم سینما!",
+      "pr": "هادی، سینِمایا گیدِلیم!"
+    },
+    {
+      "t": "Kafenin önünde buluşalım mı?",
+      "s": "جلوی کافه هم‌دیگر را ببینیم؟",
+      "pr": "کافِنین اُنوندِه بولوشالِم مِ؟"
+    },
+    {
+      "t": "Hafta sonu kamp yapalım mı?",
+      "s": "آخرِ هفته کمپ بزنیم؟",
+      "pr": "هافتا سُنو کامپ یاپالِم مِ؟"
+    },
+    {
+      "t": "Partiyi gelecek haftaya erteleyelim.",
+      "s": "مهمانی را به هفته‌ی بعد بیندازیم.",
+      "pr": "پارتیی گِلِجِک هافتایا اِرتِلِیِلیم."
+    },
+    {
+      "t": "Bu film hiç eğlenceli değil, çok sıkıcı.",
+      "s": "این فیلم اصلاً سرگرم‌کننده نیست، خیلی خسته‌کننده است.",
+      "pr": "بو فیلم هیچ اِیلِنجِلی دِییل، چُک سِکِجِ."
+    }
+  ]
+}

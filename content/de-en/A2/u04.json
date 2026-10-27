@@ -1,0 +1,726 @@
+{
+  "id": "u04",
+  "level": "A2",
+  "emoji": "🩺",
+  "title": {
+    "t": "Körper und Gesundheit",
+    "s": "Body and health"
+  },
+  "goals": [
+    "Name parts of the body and say what hurts",
+    "Talk to a doctor and understand what you have to do",
+    "Use müssen, dürfen, sollen – and the difference between nicht müssen and nicht dürfen",
+    "Give advice and instructions with the imperative (du, ihr, Sie)"
+  ],
+  "words": [
+    {
+      "id": "w01",
+      "t": "der Kopf",
+      "pl": "die Köpfe",
+      "s": "head",
+      "emoji": "",
+      "ex": {
+        "t": "Mein Kopf tut weh.",
+        "s": "My head hurts."
+      }
+    },
+    {
+      "id": "w02",
+      "t": "der Bauch",
+      "pl": "die Bäuche",
+      "s": "belly, stomach",
+      "emoji": "",
+      "ex": {
+        "t": "Das Kind hat Bauchschmerzen.",
+        "s": "The child has a stomachache."
+      }
+    },
+    {
+      "id": "w03",
+      "t": "der Rücken",
+      "pl": "die Rücken",
+      "s": "back",
+      "emoji": "",
+      "ex": {
+        "t": "Nach der Arbeit tut mir oft der Rücken weh.",
+        "s": "My back often hurts after work."
+      }
+    },
+    {
+      "id": "w04",
+      "t": "der Hals",
+      "pl": "die Hälse",
+      "s": "throat; neck",
+      "emoji": "",
+      "ex": {
+        "t": "Ich habe Halsschmerzen.",
+        "s": "I have a sore throat."
+      }
+    },
+    {
+      "id": "w05",
+      "t": "das Bein",
+      "pl": "die Beine",
+      "s": "leg",
+      "emoji": "🦵",
+      "ex": {
+        "t": "Mein Bein tut nach dem Fußball weh.",
+        "s": "My leg hurts after soccer."
+      }
+    },
+    {
+      "id": "w06",
+      "t": "das Auge",
+      "pl": "die Augen",
+      "s": "eye",
+      "emoji": "👁️",
+      "ex": {
+        "t": "Meine Augen sind heute sehr müde.",
+        "s": "My eyes are very tired today."
+      }
+    },
+    {
+      "id": "w07",
+      "t": "der Zahn",
+      "pl": "die Zähne",
+      "s": "tooth",
+      "emoji": "🦷",
+      "ex": {
+        "t": "Wie viele Zähne hat das Baby schon?",
+        "s": "How many teeth does the baby have already?"
+      }
+    },
+    {
+      "id": "w08",
+      "t": "wehtun (tut weh; + D)",
+      "s": "to hurt",
+      "emoji": "",
+      "ex": {
+        "t": "Wo tut es Ihnen weh?",
+        "s": "Where does it hurt?"
+      }
+    },
+    {
+      "id": "w09",
+      "t": "der Schmerz",
+      "pl": "die Schmerzen",
+      "s": "pain (mostly plural: Kopfschmerzen = headache, Bauchschmerzen = stomachache)",
+      "emoji": "",
+      "ex": {
+        "t": "Hast du Schmerzen?",
+        "s": "Are you in pain?"
+      }
+    },
+    {
+      "id": "w10",
+      "t": "die Erkältung",
+      "pl": "die Erkältungen",
+      "s": "cold (illness)",
+      "emoji": "🤧",
+      "ex": {
+        "t": "Ich habe eine Erkältung.",
+        "s": "I have a cold."
+      }
+    },
+    {
+      "id": "w11",
+      "t": "das Fieber",
+      "s": "fever, temperature",
+      "emoji": "🤒",
+      "ex": {
+        "t": "Hat das Kind Fieber?",
+        "s": "Does the child have a fever?"
+      }
+    },
+    {
+      "id": "w12",
+      "t": "der Husten",
+      "s": "cough",
+      "emoji": "",
+      "ex": {
+        "t": "Der Husten ist schon besser.",
+        "s": "The cough is already better."
+      }
+    },
+    {
+      "id": "w13",
+      "t": "die Tablette",
+      "pl": "die Tabletten",
+      "s": "pill, tablet",
+      "emoji": "💊",
+      "ex": {
+        "t": "Nehmen Sie dreimal am Tag eine Tablette.",
+        "s": "Take one pill three times a day."
+      }
+    },
+    {
+      "id": "w14",
+      "t": "der Arzt",
+      "pl": "die Ärzte",
+      "s": "doctor (male); female: die Ärztin",
+      "emoji": "🩺",
+      "ex": {
+        "t": "Ich muss heute zum Arzt.",
+        "s": "I have to go to the doctor today."
+      }
+    },
+    {
+      "id": "w15",
+      "t": "der Termin",
+      "pl": "die Termine",
+      "s": "appointment",
+      "emoji": "",
+      "ex": {
+        "t": "Ich habe morgen um zehn einen Termin beim Arzt.",
+        "s": "I have a doctor's appointment tomorrow at ten."
+      }
+    },
+    {
+      "id": "w16",
+      "t": "krank",
+      "s": "sick, ill (opposite: gesund = healthy)",
+      "emoji": "",
+      "ex": {
+        "t": "Ich bin krank und bleibe heute zu Hause.",
+        "s": "I'm sick and I'm staying at home today."
+      }
+    }
+  ],
+  "phrases": [
+    {
+      "id": "p01",
+      "t": "Was fehlt Ihnen?",
+      "s": "What's wrong? (doctor to patient)"
+    },
+    {
+      "id": "p02",
+      "t": "Mir geht es nicht gut.",
+      "s": "I'm not feeling well."
+    },
+    {
+      "id": "p03",
+      "t": "Ich habe Kopfschmerzen.",
+      "s": "I have a headache."
+    },
+    {
+      "id": "p04",
+      "t": "Mir tut der Bauch weh.",
+      "s": "My stomach hurts."
+    },
+    {
+      "id": "p05",
+      "t": "Seit wann haben Sie Fieber?",
+      "s": "How long have you had a fever?"
+    },
+    {
+      "id": "p06",
+      "t": "Ich möchte einen Termin machen.",
+      "s": "I'd like to make an appointment."
+    },
+    {
+      "id": "p07",
+      "t": "Ich bin krankgeschrieben.",
+      "s": "I'm on sick leave (I have a doctor's note)."
+    },
+    {
+      "id": "p08",
+      "t": "Gute Besserung!",
+      "s": "Get well soon!"
+    }
+  ],
+  "dialogue": {
+    "title": {
+      "t": "In der Arztpraxis",
+      "s": "At the doctor's office"
+    },
+    "speakers": {
+      "A": {
+        "name": "Frau Dr. Wagner",
+        "voice": "f"
+      },
+      "B": {
+        "name": "Amir",
+        "voice": "m"
+      }
+    },
+    "lines": [
+      {
+        "sp": "A",
+        "t": "Guten Tag, Herr Karimi. Was fehlt Ihnen denn?",
+        "s": "Hello, Mr. Karimi. So, what's wrong?"
+      },
+      {
+        "sp": "B",
+        "t": "Guten Tag. Ich habe seit drei Tagen Halsschmerzen und Husten.",
+        "s": "Hello. I've had a sore throat and a cough for three days."
+      },
+      {
+        "sp": "A",
+        "t": "Haben Sie auch Fieber?",
+        "s": "Do you have a fever too?"
+      },
+      {
+        "sp": "B",
+        "t": "Ja, gestern Abend habe ich Fieber gemessen: achtunddreißig Grad.",
+        "s": "Yes, I took my temperature last night: thirty-eight degrees (Celsius)."
+      },
+      {
+        "sp": "A",
+        "t": "Machen Sie bitte den Mund auf. Hm, der Hals ist ganz rot. Sie haben eine Erkältung.",
+        "s": "Please open your mouth. Hmm, your throat is very red. You have a cold."
+      },
+      {
+        "sp": "B",
+        "t": "Muss ich Tabletten nehmen?",
+        "s": "Do I have to take pills?"
+      },
+      {
+        "sp": "A",
+        "t": "Nein, Tabletten müssen Sie nicht nehmen. Ich schreibe Ihnen ein Rezept für einen Hustensaft. Nehmen Sie ihn dreimal am Tag.",
+        "s": "No, you don't have to take pills. I'll write you a prescription for cough syrup. Take it three times a day."
+      },
+      {
+        "sp": "B",
+        "t": "Darf ich morgen arbeiten gehen?",
+        "s": "Am I allowed to go to work tomorrow?"
+      },
+      {
+        "sp": "A",
+        "t": "Nein, bleiben Sie bitte bis Freitag zu Hause. Ich schreibe Sie krank.",
+        "s": "No, please stay at home until Friday. I'll give you a sick note."
+      },
+      {
+        "sp": "B",
+        "t": "Was soll ich sonst noch machen?",
+        "s": "What else should I do?"
+      },
+      {
+        "sp": "A",
+        "t": "Trinken Sie viel Tee mit Honig und machen Sie diese Woche keinen Sport. Gute Besserung, Herr Karimi!",
+        "s": "Drink lots of tea with honey, and don't do any sports this week. Get well soon, Mr. Karimi!"
+      },
+      {
+        "sp": "B",
+        "t": "Vielen Dank, Frau Doktor! Auf Wiedersehen.",
+        "s": "Thank you very much, doctor! Goodbye."
+      }
+    ]
+  },
+  "grammar": [
+    {
+      "id": "g01",
+      "title": {
+        "t": "müssen, dürfen, sollen",
+        "s": "Modal verbs: must, may, should"
+      },
+      "explain": "You already know **können** and **möchte**. The modal verbs **müssen, dürfen** and **sollen** work the same way: the modal verb is in **position 2**, and the second verb goes to the **end** in the infinitive: Ich **muss** heute zum Arzt **gehen**.\n**müssen** = *must, have to* (it is necessary): Ich muss Tabletten nehmen.\n**dürfen** = *may, be allowed to* (permission): **Darf** ich morgen arbeiten?\n**sollen** = *should, be supposed to* – another person (the doctor, the boss …) wants it: Die Ärztin sagt, ich **soll** viel trinken. In questions, it asks what someone wants you to do: **Soll** ich das Fenster aufmachen?\nCareful with the negative! **nicht müssen** = *don't have to* (it isn't necessary): Du **musst** heute **nicht** kommen. **nicht dürfen** = *must not* (it is not allowed): Hier **darf** man **nicht** parken. So English *must not* is German **nicht dürfen**!\n**ich** and **er/sie/es** have the same form, without -t: ich **muss**, er **muss**. In the singular, müssen and dürfen also lose the umlaut: **muss, darf**. (**man** = *one, you* in general; it takes the er-form.)",
+      "table": [
+        [
+          "ich muss",
+          "ich darf",
+          "ich soll"
+        ],
+        [
+          "du musst",
+          "du darfst",
+          "du sollst"
+        ],
+        [
+          "er / sie / es muss",
+          "er / sie / es darf",
+          "er / sie / es soll"
+        ],
+        [
+          "wir müssen",
+          "wir dürfen",
+          "wir sollen"
+        ],
+        [
+          "ihr müsst",
+          "ihr dürft",
+          "ihr sollt"
+        ],
+        [
+          "sie / Sie müssen",
+          "sie / Sie dürfen",
+          "sie / Sie sollen"
+        ]
+      ],
+      "examples": [
+        {
+          "t": "Ich muss heute zum Arzt gehen.",
+          "s": "I have to go to the doctor today."
+        },
+        {
+          "t": "Darf ich das Fenster aufmachen?",
+          "s": "May I open the window?"
+        },
+        {
+          "t": "Die Ärztin sagt, ich soll viel Wasser trinken.",
+          "s": "The doctor says I should drink lots of water."
+        },
+        {
+          "t": "Morgen ist Sonntag – du musst nicht früh aufstehen.",
+          "s": "Tomorrow is Sunday – you don't have to get up early."
+        },
+        {
+          "t": "Mit Fieber darfst du nicht in die Schule gehen.",
+          "s": "You mustn't go to school with a fever."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "choice",
+          "t": "Ich habe Fieber. Ich ___ zum Arzt gehen.",
+          "options": [
+            "muss",
+            "müssen",
+            "musst"
+          ],
+          "answer": 0,
+          "s": "I have a fever. I have to go to the doctor."
+        },
+        {
+          "type": "choice",
+          "t": "Hier ___ man nicht parken.",
+          "options": [
+            "muss",
+            "darf"
+          ],
+          "answer": 1,
+          "s": "You're not allowed to park here."
+        },
+        {
+          "type": "choice",
+          "t": "Morgen ist Sonntag. Du ___ nicht früh aufstehen.",
+          "options": [
+            "musst",
+            "darfst"
+          ],
+          "answer": 0,
+          "s": "Tomorrow is Sunday. You don't have to get up early."
+        },
+        {
+          "type": "choice",
+          "t": "Die Ärztin sagt, ich ___ jeden Tag spazieren gehen.",
+          "options": [
+            "soll",
+            "sollst",
+            "sollen"
+          ],
+          "answer": 0,
+          "s": "The doctor says I should go for a walk every day."
+        },
+        {
+          "type": "type",
+          "t": "___ ich das Fenster aufmachen? Es ist so warm hier.",
+          "answer": [
+            "Darf",
+            "Kann"
+          ],
+          "s": "May I open the window? It's so warm in here."
+        },
+        {
+          "type": "type",
+          "t": "Du hast Fieber. Du ___ heute nicht in die Schule gehen.",
+          "answer": [
+            "darfst"
+          ],
+          "s": "You have a fever. You're not allowed to go to school today."
+        },
+        {
+          "type": "type",
+          "t": "Wir haben morgen frei. Wir ___ nicht arbeiten.",
+          "answer": [
+            "müssen",
+            "muessen"
+          ],
+          "s": "We have the day off tomorrow. We don't have to work."
+        },
+        {
+          "type": "order",
+          "t": "Darf ich morgen wieder arbeiten?",
+          "s": "Am I allowed to work again tomorrow?"
+        }
+      ]
+    },
+    {
+      "id": "g02",
+      "title": {
+        "t": "Trink viel! Trinkt viel! Trinken Sie viel!",
+        "s": "The imperative (du, ihr, Sie)"
+      },
+      "explain": "You already know the **Sie** form: **Gehen Sie geradeaus!** – the verb comes first, then **Sie**.\n**du**: use the verb stem, without **du** and without an ending: trinken → **Trink!**, kommen → **Komm!**, machen → **Mach!**. Verbs that change **e → i/ie** in the du-form keep this change: nehmen → **Nimm!**, essen → **Iss!**, lesen → **Lies!**, geben → **Gib!** But there is **no a → ä**: schlafen → **Schlaf!**, fahren → **Fahr!** Stems ending in -t or -d add **-e**: arbeiten → **Arbeite!**, warten → **Warte!**\n**ihr**: the normal ihr-form without **ihr**: ihr trinkt → **Trinkt!**, ihr nehmt → **Nehmt!**\nSeparable verbs: the prefix goes to the end: **Mach den Mund auf!** **Ruf mich an!**\n**sein** is irregular: **Sei** ruhig! **Seid** leise! **Seien Sie** vorsichtig!\nAdd **bitte**, **doch** or **mal** to sound friendlier: **Nimm doch eine Tablette!** **Komm bitte mal her!**",
+      "table": [
+        [
+          "Trink viel Wasser!",
+          "Trinkt viel Wasser!",
+          "Trinken Sie viel Wasser!"
+        ],
+        [
+          "Nimm eine Tablette!",
+          "Nehmt eine Tablette!",
+          "Nehmen Sie eine Tablette!"
+        ],
+        [
+          "Schlaf gut!",
+          "Schlaft gut!",
+          "Schlafen Sie gut!"
+        ],
+        [
+          "Ruf den Arzt an!",
+          "Ruft den Arzt an!",
+          "Rufen Sie den Arzt an!"
+        ],
+        [
+          "Sei vorsichtig!",
+          "Seid vorsichtig!",
+          "Seien Sie vorsichtig!"
+        ]
+      ],
+      "examples": [
+        {
+          "t": "Bleib heute im Bett!",
+          "s": "Stay in bed today!"
+        },
+        {
+          "t": "Kinder, zieht eure Jacken an!",
+          "s": "Kids, put your jackets on!"
+        },
+        {
+          "t": "Nehmen Sie die Tabletten nach dem Essen.",
+          "s": "Take the pills after meals."
+        },
+        {
+          "t": "Iss bitte etwas Suppe!",
+          "s": "Please eat some soup!"
+        },
+        {
+          "t": "Ruf mich bitte morgen an!",
+          "s": "Please call me tomorrow!"
+        }
+      ],
+      "exercises": [
+        {
+          "type": "choice",
+          "t": "Du hast Fieber. ___ heute im Bett!",
+          "options": [
+            "Bleib",
+            "Bleibst",
+            "Bleiben"
+          ],
+          "answer": 0,
+          "s": "You have a fever. Stay in bed today!"
+        },
+        {
+          "type": "choice",
+          "t": "Herr Karimi, ___ Sie diese Tabletten!",
+          "options": [
+            "nimm",
+            "nehmt",
+            "nehmen"
+          ],
+          "answer": 2,
+          "s": "Mr. Karimi, take these pills!"
+        },
+        {
+          "type": "choice",
+          "t": "Lena, ___ nicht so viel Schokolade!",
+          "options": [
+            "isst",
+            "iss",
+            "esst"
+          ],
+          "answer": 1,
+          "s": "Lena, don't eat so much chocolate!"
+        },
+        {
+          "type": "type",
+          "t": "Kinder, ___ eure Jacken an! Es ist kalt.",
+          "answer": [
+            "zieht"
+          ],
+          "s": "Kids, put your jackets on! It's cold."
+        },
+        {
+          "type": "type",
+          "t": "Ali, ___ bitte leise, das Baby schläft!",
+          "answer": [
+            "sei"
+          ],
+          "s": "Ali, please be quiet, the baby is sleeping!"
+        },
+        {
+          "type": "type",
+          "t": "Du bist so müde. ___ doch ein bisschen!",
+          "answer": [
+            "Schlaf",
+            "Schlafe"
+          ],
+          "s": "You're so tired. Why don't you sleep a little?"
+        },
+        {
+          "type": "type",
+          "t": "___ mich bitte morgen an!",
+          "answer": [
+            "Ruf",
+            "Rufe"
+          ],
+          "s": "Please call me tomorrow! (to a friend)"
+        },
+        {
+          "type": "order",
+          "t": "Machen Sie bitte den Mund auf!",
+          "s": "Please open your mouth!",
+          "alts": [
+            "Machen Sie den Mund bitte auf!"
+          ]
+        }
+      ]
+    }
+  ],
+  "reading": {
+    "title": {
+      "t": "Was tun bei Erkältung?",
+      "s": "What to do when you have a cold"
+    },
+    "text": [
+      {
+        "t": "Im Herbst und im Winter sind viele Menschen erkältet.",
+        "s": "In fall and winter, many people have a cold."
+      },
+      {
+        "t": "Typisch sind Husten, Halsschmerzen und manchmal Fieber.",
+        "s": "A cough, a sore throat and sometimes a fever are typical."
+      },
+      {
+        "t": "Was soll man bei einer Erkältung machen?",
+        "s": "What should you do when you have a cold?"
+      },
+      {
+        "t": "Trinken Sie viel, zum Beispiel Tee mit Honig oder warmes Wasser.",
+        "s": "Drink a lot, for example tea with honey or warm water."
+      },
+      {
+        "t": "Schlafen Sie viel und machen Sie keinen Sport.",
+        "s": "Sleep a lot and don't do any sports."
+      },
+      {
+        "t": "Sie müssen nicht sofort zum Arzt gehen.",
+        "s": "You don't have to go to the doctor right away."
+      },
+      {
+        "t": "Aber haben Sie Fieber über neununddreißig Grad? Dann gehen Sie bitte zum Arzt.",
+        "s": "But do you have a fever over thirty-nine degrees (Celsius)? Then please go to the doctor."
+      },
+      {
+        "t": "Kinder mit Fieber sollen zu Hause bleiben.",
+        "s": "Children with a fever should stay at home."
+      },
+      {
+        "t": "Sie sind krank und können nicht arbeiten? Dann müssen Sie sofort Ihren Arbeitgeber informieren.",
+        "s": "You're sick and can't work? Then you have to inform your employer right away."
+      },
+      {
+        "t": "Noch ein Tipp: Waschen Sie sich oft die Hände!",
+        "s": "One more tip: wash your hands often!"
+      }
+    ],
+    "questions": [
+      {
+        "q": {
+          "t": "Wann sind viele Menschen erkältet?",
+          "s": "When do many people have a cold?"
+        },
+        "options": [
+          "im Sommer",
+          "im Herbst und im Winter",
+          "im Frühling"
+        ],
+        "answer": 1
+      },
+      {
+        "q": {
+          "t": "Was soll man bei einer Erkältung trinken?",
+          "s": "What should you drink when you have a cold?"
+        },
+        "options": [
+          "Kaffee",
+          "Tee mit Honig",
+          "kalte Cola"
+        ],
+        "answer": 1
+      },
+      {
+        "q": {
+          "t": "Wann soll man zum Arzt gehen?",
+          "s": "When should you go to the doctor?"
+        },
+        "options": [
+          "bei Fieber über neununddreißig Grad",
+          "bei Husten",
+          "immer sofort"
+        ],
+        "answer": 0
+      },
+      {
+        "q": {
+          "t": "Wen muss man sofort informieren?",
+          "s": "Who do you have to inform right away?"
+        },
+        "options": [
+          "den Arbeitgeber",
+          "die Nachbarn",
+          "die Apotheke"
+        ],
+        "answer": 0
+      },
+      {
+        "q": {
+          "t": "Was sollen Kinder mit Fieber machen?",
+          "s": "What should children with a fever do?"
+        },
+        "options": [
+          "in die Schule gehen",
+          "zu Hause bleiben",
+          "Sport machen"
+        ],
+        "answer": 1
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "t": "Mir tut der Kopf weh.",
+      "s": "My head hurts."
+    },
+    {
+      "t": "Ich muss morgen zum Zahnarzt gehen.",
+      "s": "I have to go to the dentist tomorrow."
+    },
+    {
+      "t": "Darf ich hier sitzen?",
+      "s": "May I sit here?"
+    },
+    {
+      "t": "Nimm doch eine Tablette!",
+      "s": "Why don't you take a pill?"
+    },
+    {
+      "t": "Sie dürfen eine Woche keinen Sport machen.",
+      "s": "You're not allowed to do any sports for a week."
+    },
+    {
+      "t": "Du musst nicht mitkommen.",
+      "s": "You don't have to come along."
+    },
+    {
+      "t": "Kinder, seid bitte leise!",
+      "s": "Kids, please be quiet!"
+    },
+    {
+      "t": "Gute Besserung und schlaf viel!",
+      "s": "Get well soon and get lots of sleep!"
+    }
+  ]
+}

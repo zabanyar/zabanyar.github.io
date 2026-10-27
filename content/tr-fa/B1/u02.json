@@ -27,7 +27,7 @@
       "id": "w02",
       "t": "metro",
       "s": "مترو",
-      "pr": "مِترُ",
+      "pr": "مِترو",
       "emoji": "🚇",
       "ex": {
         "t": "Her sabah metroyla işe gidiyorum.",
@@ -317,7 +317,7 @@
         "t": "Yarın ne yapacaksın? -(y)acak / -(y)ecek",
         "s": "زمان آینده: -(y)acak / -(y)ecek"
       },
-      "explain": "زمان آینده با **-acak / -ecek** ساخته می‌شود (هماهنگی دوتایی): gel → gel**ecek**، al → al**acak**. اگر ریشه به واکه ختم شود، **y** اضافه می‌شود: oku → oku**yacak**، bekle → bekle**yecek**.\nقبل از شناسه‌هایی که با واکه شروع می‌شوند (**-ım** و **-ız**) حرف **k** به **ğ** تبدیل می‌شود: gelece**ğ**im، alaca**ğ**ız؛ ولی: geleceksin، alacaklar.\nدر **gitmek** و **etmek** حرف t به d تبدیل می‌شود: **gideceğim**، **edeceğiz**. دو فعل **demek** و **yemek** هم شکل خاص دارند: **diyecek**، **yiyecek**.\nمنفی: **-mayacak / -meyecek**: gel**meyecek**sin (نخواهی آمد). سؤالی: mı بعد از -acak و قبل از شناسه می‌آید: Gelecek **mi**sin? Alacak **mı**yız?\nدر فارسی برای آینده معمولاً مضارع می‌گوییم («فردا می‌روم»)؛ در ترکی برای برنامه، پیش‌بینی و تصمیم آینده بهتر است **-acak** بیاید.",
+      "explain": "زمان آینده را در سطح A2 یاد گرفتید (gideceğim، gelmeyecek misin?)؛ اینجا قاعده‌ها را مرور و کامل می‌کنیم.\nزمان آینده با **-acak / -ecek** ساخته می‌شود (هماهنگی دوتایی): gel → gel**ecek**، al → al**acak**. اگر ریشه به واکه ختم شود، **y** اضافه می‌شود: oku → oku**yacak**، bekle → bekle**yecek**.\nقبل از شناسه‌هایی که با واکه شروع می‌شوند (**-ım** و **-ız**) حرف **k** به **ğ** تبدیل می‌شود: gelece**ğ**im، alaca**ğ**ız؛ ولی: geleceksin، alacaklar.\nدر **gitmek** و **etmek** حرف t به d تبدیل می‌شود: **gideceğim**، **edeceğiz**. دو فعل **demek** و **yemek** هم شکل خاص دارند: **diyecek**، **yiyecek**.\nمنفی: **-mayacak / -meyecek**: gel**meyecek**sin (نخواهی آمد). سؤالی: mı بعد از -acak و قبل از شناسه می‌آید: Gelecek **mi**sin? Alacak **mı**yız?\nدر فارسی برای آینده معمولاً مضارع می‌گوییم («فردا می‌روم»)؛ در ترکی برای برنامه، پیش‌بینی و تصمیم آینده بهتر است **-acak** بیاید.",
       "table": [
         [
           "ben",

@@ -1,0 +1,804 @@
+{
+  "id": "u01",
+  "level": "B2",
+  "emoji": "💼",
+  "title": {
+    "t": "Careers and the workplace",
+    "s": "شغل و محیط کار",
+    "pr": "کِریرز اَند ذِ وِرکْپْلِیس"
+  },
+  "goals": [
+    "می‌توانم درباره‌ی مسیر شغلی، مسئولیت‌ها و شرایط کارم با جزئیات صحبت کنم.",
+    "می‌توانم با حال کامل استمراری و حال کامل ساده بگویم از کی مشغول کاری هستم و تا حالا چه نتیجه‌ای گرفته‌ام.",
+    "می‌توانم با آینده‌ی استمراری و آینده‌ی کامل بگویم در زمان مشخصی در آینده چه کاری در جریان است یا تمام شده است.",
+    "می‌توانم در جلسه‌ی کاری مؤدبانه نظر بدهم، زمان‌بندی را هماهنگ کنم و جمع‌بندی کنم."
+  ],
+  "words": [
+    {
+      "id": "w01",
+      "t": "workload",
+      "s": "حجم کار",
+      "pr": "وِرکْلُود",
+      "emoji": "",
+      "ex": {
+        "t": "My workload has doubled since my colleague left.",
+        "s": "از وقتی همکارم رفته، حجم کارم دو برابر شده است.",
+        "pr": "مای وِرکْلُود هَز دابِلْد سینس مای کالیگ لِفْت."
+      }
+    },
+    {
+      "id": "w02",
+      "t": "responsibility",
+      "pl": "responsibilities",
+      "s": "مسئولیت",
+      "pr": "ریسْپانْسِبیلِتی",
+      "emoji": "",
+      "ex": {
+        "t": "Training new employees is one of my responsibilities.",
+        "s": "آموزش کارمندان جدید یکی از مسئولیت‌های من است.",
+        "pr": "تْرِینینگ نو ایمْپْلُییز ایز وان آو مای ریسْپانْسِبیلِتیز."
+      }
+    },
+    {
+      "id": "w03",
+      "t": "be in charge of",
+      "s": "مسئولِ … بودن",
+      "pr": "بی این چارج آو",
+      "emoji": "",
+      "ex": {
+        "t": "Maryam is in charge of the marketing department.",
+        "s": "مریم مسئول بخش بازاریابی است.",
+        "pr": "مریم ایز این چارج آو ذِ مارکِتینگ دیپارْتْمِنْت."
+      }
+    },
+    {
+      "id": "w04",
+      "t": "employer",
+      "pl": "employers",
+      "s": "کارفرما",
+      "pr": "ایمْپْلُیِر",
+      "emoji": "",
+      "ex": {
+        "t": "My employer pays for my English classes.",
+        "s": "کارفرمایم هزینه‌ی کلاس‌های انگلیسی‌ام را می‌دهد.",
+        "pr": "مای ایمْپْلُیِر پِیز فُر مای اینگْلیش کْلَسِز."
+      }
+    },
+    {
+      "id": "w05",
+      "t": "employee",
+      "pl": "employees",
+      "s": "کارمند",
+      "pr": "ایمْپْلُیی",
+      "emoji": "",
+      "ex": {
+        "t": "The company has more than two hundred employees.",
+        "s": "این شرکت بیش از دویست کارمند دارد.",
+        "pr": "ذِ کامپِنی هَز مُر ذَن تو هاندْرِد ایمْپْلُییز."
+      }
+    },
+    {
+      "id": "w06",
+      "t": "contract",
+      "pl": "contracts",
+      "s": "قرارداد",
+      "pr": "کانْتْرَکْت",
+      "emoji": "📝",
+      "ex": {
+        "t": "Please read the contract carefully before you sign it.",
+        "s": "لطفاً قبل از امضا، قرارداد را با دقت بخوانید.",
+        "pr": "پْلیز رید ذِ کانْتْرَکْت کِرْفِلی بیفُر یو ساین ایت."
+      }
+    },
+    {
+      "id": "w07",
+      "t": "full-time",
+      "s": "تمام‌وقت",
+      "pr": "فول تایم",
+      "emoji": "",
+      "ex": {
+        "t": "She works full-time, but her husband works part-time.",
+        "s": "او تمام‌وقت کار می‌کند، ولی همسرش پاره‌وقت.",
+        "pr": "شی وِرکْس فول تایم، بات هِر هازْبِنْد وِرکْس پارت تایم."
+      }
+    },
+    {
+      "id": "w08",
+      "t": "flexible hours",
+      "s": "ساعت کاری شناور",
+      "pr": "فْلِکْسِبِل آوِرز",
+      "emoji": "",
+      "ex": {
+        "t": "With flexible hours, I can take my kids to school.",
+        "s": "با ساعت کاری شناور، می‌توانم بچه‌هایم را به مدرسه ببرم.",
+        "pr": "ویذ فْلِکْسِبِل آوِرز، آی کَن تِیک مای کیدز تو سْکول."
+      }
+    },
+    {
+      "id": "w09",
+      "t": "negotiate",
+      "s": "مذاکره کردن",
+      "pr": "نِگُوشیِیت",
+      "emoji": "🤝",
+      "ex": {
+        "t": "He negotiated a higher salary before he accepted the job.",
+        "s": "او قبل از قبول کردن کار، برای حقوق بالاتر مذاکره کرد.",
+        "pr": "هی نِگُوشیِیتِد اِ هایِر سَلِری بیفُر هی اِکْسِپْتِد ذِ جاب."
+      }
+    },
+    {
+      "id": "w10",
+      "t": "job satisfaction",
+      "s": "رضایت شغلی",
+      "pr": "جاب سَتیسْفَکْشِن",
+      "emoji": "",
+      "ex": {
+        "t": "Good relationships with colleagues increase job satisfaction.",
+        "s": "رابطه‌ی خوب با همکاران رضایت شغلی را بیشتر می‌کند.",
+        "pr": "گود ریلِیشِنْشیپْس ویذ کالیگز اینْکْریس جاب سَتیسْفَکْشِن."
+      }
+    },
+    {
+      "id": "w11",
+      "t": "take over",
+      "s": "(کار یا مسئولیتی را) به عهده گرفتن",
+      "pr": "تِیک اُووِر",
+      "emoji": "",
+      "ex": {
+        "t": "Amir will take over the project when Lisa leaves.",
+        "s": "وقتی لیزا برود، امیر مدیریت پروژه را به عهده می‌گیرد.",
+        "pr": "امیر ویل تِیک اُووِر ذِ پْراجِکْت وِن لیسا لیوز."
+      }
+    },
+    {
+      "id": "w12",
+      "t": "resign",
+      "s": "استعفا دادن",
+      "pr": "ریزاین",
+      "emoji": "",
+      "ex": {
+        "t": "She resigned because she wanted to start her own business.",
+        "s": "او استعفا داد، چون می‌خواست کسب‌وکار خودش را راه بیندازد.",
+        "pr": "شی ریزاینْد بیکاز شی وانْتِد تو سْتارت هِر اُون بیزْنِس."
+      }
+    },
+    {
+      "id": "w13",
+      "t": "retire",
+      "s": "بازنشسته شدن",
+      "pr": "ریتایِر",
+      "emoji": "",
+      "ex": {
+        "t": "My father retired at sixty after thirty years as a teacher.",
+        "s": "پدرم بعد از سی سال معلمی، در شصت‌سالگی بازنشسته شد.",
+        "pr": "مای فاذِر ریتایِرْد اَت سیکْسْتی اَفْتِر ثِرْتی ییرز اَز اِ تیچِر."
+      }
+    },
+    {
+      "id": "w14",
+      "t": "experienced",
+      "s": "باتجربه",
+      "pr": "ایکْسْپیریِنْسْت",
+      "emoji": "",
+      "ex": {
+        "t": "We are looking for an experienced engineer.",
+        "s": "دنبال یک مهندس باتجربه هستیم.",
+        "pr": "وی آر لوکینگ فُر اِن ایکْسْپیریِنْسْت اِنْجِنیر."
+      }
+    },
+    {
+      "id": "w15",
+      "t": "reach a target",
+      "s": "به هدف (تعیین‌شده) رسیدن",
+      "pr": "ریچ اِ تارگِت",
+      "emoji": "🎯",
+      "ex": {
+        "t": "Our team reached its sales target in March.",
+        "s": "تیم ما در ماه مارس به هدف فروشش رسید.",
+        "pr": "آوِر تیم ریچْت ایتْس سِیلْز تارگِت این مارچ."
+      }
+    }
+  ],
+  "phrases": [
+    {
+      "id": "p01",
+      "t": "Can I just add something here?",
+      "s": "می‌شود من اینجا چیزی اضافه کنم؟",
+      "pr": "کَن آی جاسْت اَد سامْثینگ هیر؟"
+    },
+    {
+      "id": "p02",
+      "t": "Let's get down to business.",
+      "s": "برویم سر اصل مطلب.",
+      "pr": "لِتْس گِت داون تو بیزْنِس."
+    },
+    {
+      "id": "p03",
+      "t": "I'm swamped at the moment.",
+      "s": "الان سرم خیلی شلوغ است.",
+      "pr": "آیم سْوامْپْت اَت ذِ مُومِنْت."
+    },
+    {
+      "id": "p04",
+      "t": "Could we push the meeting back to Thursday?",
+      "s": "می‌شود جلسه را تا پنجشنبه عقب بیندازیم؟",
+      "pr": "کود وی پوش ذِ میتینگ بَک تو ثِرْزْدِی؟"
+    },
+    {
+      "id": "p05",
+      "t": "I'll get back to you on that.",
+      "s": "درباره‌ی این موضوع بعداً به شما خبر می‌دهم.",
+      "pr": "آیل گِت بَک تو یو آن ذَت."
+    },
+    {
+      "id": "p06",
+      "t": "That's not really my area.",
+      "s": "این واقعاً حوزه‌ی کاری من نیست.",
+      "pr": "ذَتْس نات ریلی مای اِریا."
+    },
+    {
+      "id": "p07",
+      "t": "Let's keep each other in the loop.",
+      "s": "همدیگر را در جریان بگذاریم.",
+      "pr": "لِتْس کیپ ایچ آذِر این ذِ لوپ."
+    },
+    {
+      "id": "p08",
+      "t": "To sum up, …",
+      "s": "به طور خلاصه، … / در جمع‌بندی، …",
+      "pr": "تو سام آپ"
+    }
+  ],
+  "dialogue": {
+    "title": {
+      "t": "A new role",
+      "s": "یک نقش تازه",
+      "pr": "اِ نو رُول"
+    },
+    "speakers": {
+      "A": {
+        "name": "Lisa",
+        "voice": "f"
+      },
+      "B": {
+        "name": "Reza",
+        "voice": "m"
+      }
+    },
+    "lines": [
+      {
+        "sp": "A",
+        "t": "Hi, Reza. Do you have a minute? I'd like to talk about the new project.",
+        "s": "سلام رضا. یک دقیقه وقت داری؟ می‌خواهم درباره‌ی پروژه‌ی جدید صحبت کنم.",
+        "pr": "های، رضا. دو یو هَو اِ مینِت؟ آید لایک تو تاک اِباوت ذِ نو پْراجِکْت."
+      },
+      {
+        "sp": "B",
+        "t": "Sure. I've been reading the client's report all morning.",
+        "s": "حتماً. تمام صبح داشتم گزارش مشتری را می‌خواندم.",
+        "pr": "شور. آیو بین ریدینگ ذِ کْلایِنْتْس ریپُرت آل مُرنینگ."
+      },
+      {
+        "sp": "A",
+        "t": "Great. As you know, Tom is retiring next month, so someone needs to take over his team.",
+        "s": "عالی. همان‌طور که می‌دانی، تام ماه آینده بازنشسته می‌شود، پس کسی باید تیمش را به عهده بگیرد.",
+        "pr": "گْرِیت. اَز یو نُو، تام ایز ریتایِرینگ نِکْسْت مانْث، سُو سامْوان نیدز تو تِیک اُووِر هیز تیم."
+      },
+      {
+        "sp": "B",
+        "t": "Do you mean me? I've only been working here for two years.",
+        "s": "منظورت من هستم؟ من فقط دو سال است که اینجا کار می‌کنم.",
+        "pr": "دو یو مین میْ؟ آیو اُونْلی بین وِرکینگ هیر فُر تو ییرز."
+      },
+      {
+        "sp": "A",
+        "t": "Yes, but you've handled three big contracts, and the clients are very happy with you.",
+        "s": "بله، ولی تو سه قرارداد بزرگ را پیش برده‌ای و مشتری‌ها خیلی از تو راضی‌اند.",
+        "pr": "یِس، بات یوو هَنْدِلْد ثْری بیگ کانْتْرَکْتْس، اَند ذِ کْلایِنْتْس آر وِری هَپی ویذ یو."
+      },
+      {
+        "sp": "B",
+        "t": "That's kind of you. What would my responsibilities be?",
+        "s": "لطف داری. مسئولیت‌هایم چه خواهد بود؟",
+        "pr": "ذَتْس کاینْد آو یو. وات وود مای ریسْپانْسِبیلِتیز بی؟"
+      },
+      {
+        "sp": "A",
+        "t": "You'd be in charge of six people. And by December, you'll have finished the training course for new managers.",
+        "s": "مسئول شش نفر می‌شوی. و تا دسامبر، دوره‌ی آموزشی مدیران تازه‌کار را تمام کرده‌ای.",
+        "pr": "یود بی این چارج آو سیکْس پیپِل. اَند بای دیسِمْبِر، یول هَو فینیشْت ذِ تْرِینینگ کُرس فُر نو مَنِجِرز."
+      },
+      {
+        "sp": "B",
+        "t": "Will I have to travel a lot? My wife and I are expecting a baby in the spring.",
+        "s": "باید زیاد سفر کنم؟ من و همسرم بهار منتظر بچه‌ایم.",
+        "pr": "ویل آی هَو تو تْرَوِل اِ لات؟ مای وایف اَند آی آر ایکْسْپِکْتینگ اِ بِیبی این ذِ سْپْرینگ."
+      },
+      {
+        "sp": "A",
+        "t": "Congratulations! Don't worry. This time next year, you'll be working mostly from the Berlin office, with flexible hours.",
+        "s": "تبریک می‌گویم! نگران نباش. سال دیگر همین موقع، بیشتر در دفتر برلین کار می‌کنی، آن هم با ساعت کاری شناور.",
+        "pr": "کِنْگْرَچِلِیشِنز! دُونت وِری. ذیس تایم نِکْسْت ییر، یول بی وِرکینگ مُوسْتْلی فْرام ذِ بِرْلین آفیس، ویذ فْلِکْسِبِل آوِرز."
+      },
+      {
+        "sp": "B",
+        "t": "That sounds perfect. Can I think about it and get back to you tomorrow?",
+        "s": "عالی به نظر می‌رسد. می‌توانم فکر کنم و فردا جوابت را بدهم؟",
+        "pr": "ذَت ساونْدْز پِرْفِکْت. کَن آی ثینک اِباوت ایت اَند گِت بَک تو یو تِمارُو؟"
+      },
+      {
+        "sp": "A",
+        "t": "Of course. I'll be waiting for your answer.",
+        "s": "حتماً. منتظر جوابت می‌مانم.",
+        "pr": "آو کُرس. آیل بی وِیتینگ فُر یور اَنْسِر."
+      },
+      {
+        "sp": "B",
+        "t": "Thanks, Lisa. I really appreciate your trust.",
+        "s": "ممنون، لیزا. واقعاً از اعتمادت سپاسگزارم.",
+        "pr": "ثَنْکْس، لیسا. آی ریلی اِپْریشیِیت یور تْراسْت."
+      }
+    ]
+  },
+  "grammar": [
+    {
+      "id": "g01",
+      "title": {
+        "t": "Present perfect continuous vs present perfect simple",
+        "s": "حال کامل استمراری در برابر حال کامل ساده",
+        "pr": "پْرِزِنْت پِرْفِکْت کِنْتینیواِس وِرْسِز پْرِزِنْت پِرْفِکْت سیمْپِل"
+      },
+      "explain": "حال کامل ساده (**have / has + قسمت سوم فعل**) و for / since را از B1 می‌شناسید. **حال کامل استمراری** این‌طور ساخته می‌شود: **have / has + been + فعل ing‌دار**: **I have been working here since 2020.**\nحال کامل استمراری روی **خودِ فعالیت و مدت آن** تمرکز دارد: کاری که از گذشته شروع شده و هنوز ادامه دارد، یا همین تازگی تمام شده و اثرش پیداست: **I've been working all day, so I'm tired.** (تمام روز داشتم کار می‌کردم، برای همین خسته‌ام.)\nحال کامل ساده روی **نتیجه، مقدار یا تعداد** تمرکز دارد: **I've written three reports today.** (امروز سه گزارش نوشته‌ام.) وقتی تعداد یا مقدار را می‌گوییم، استمراری به کار نمی‌رود؛ **I've been writing three reports** غلط است.\nسؤال درباره‌ی مدت: **How long have you been working here?** سؤال درباره‌ی تعداد: **How many clients have you called?**\nفعل‌های حالتی (stative) مثل **know، like، believe، own، understand** استمراری نمی‌شوند: **I've known him for ten years** (نه I've been knowing). با فعل‌هایی مثل **live** و **work** برای بیان مدت هر دو شکل درست است و فرقشان کم است.\nدر فارسی برای این معنی اغلب حال ساده می‌آوریم («ده سال است اینجا کار **می‌کنم**»)، ولی در انگلیسی با for / since حال ساده غلط است: **I work here for ten years** نادرست است.",
+      "table": [
+        [
+          "have / has been + -ing",
+          "I've been working on this report all morning."
+        ],
+        [
+          "have / has + past participle (result)",
+          "I've finished the report."
+        ],
+        [
+          "have / has + past participle (how many)",
+          "I've written three reports this week."
+        ],
+        [
+          "stative verbs: simple only",
+          "I've known Tom for years."
+        ]
+      ],
+      "examples": [
+        {
+          "t": "She's been looking for a new job for six months.",
+          "s": "او شش ماه است که دنبال کار جدید می‌گردد.",
+          "pr": "شیز بین لوکینگ فُر اِ نو جاب فُر سیکْس مانْثْس."
+        },
+        {
+          "t": "I've sent twenty applications, but I haven't had any answers yet.",
+          "s": "بیست درخواست کار فرستاده‌ام، ولی هنوز هیچ جوابی نگرفته‌ام.",
+          "pr": "آیو سِنْت تْوِنْتی اَپْلِکِیشِنز، بات آی هَوِنْت هَد اِنی اَنْسِرز یِت."
+        },
+        {
+          "t": "Why are your eyes red? Have you been staring at the screen all day?",
+          "s": "چرا چشم‌هایت قرمز است؟ تمام روز به صفحه زل زده‌ای؟",
+          "pr": "وای آر یور آیز رِد؟ هَو یو بین سْتِرینگ اَت ذِ سْکْرین آل دِی؟"
+        },
+        {
+          "t": "How long have you been working for this company?",
+          "s": "چند وقت است برای این شرکت کار می‌کنی؟",
+          "pr": "هاو لانگ هَو یو بین وِرکینگ فُر ذیس کامپِنی؟"
+        },
+        {
+          "t": "We've known each other since we started here.",
+          "s": "از وقتی اینجا شروع به کار کردیم، همدیگر را می‌شناسیم.",
+          "pr": "ویو نُون ایچ آذِر سینس وی سْتارتِد هیر."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "choice",
+          "t": "I'm exhausted. I ___ on this presentation since eight o'clock.",
+          "options": [
+            "have been working",
+            "am working",
+            "was working"
+          ],
+          "answer": 0,
+          "s": "خیلی خسته‌ام. از ساعت هشت دارم روی این ارائه کار می‌کنم.",
+          "pr": "آیم ایگْزاسْتِد. آی هَو بین وِرکینگ آن ذیس پْرِزِنْتِیشِن سینس اِیت اِکْلاک."
+        },
+        {
+          "type": "choice",
+          "t": "So far this week, Neda ___ four new clients.",
+          "options": [
+            "has met",
+            "has been meeting",
+            "is meeting"
+          ],
+          "answer": 0,
+          "s": "ندا این هفته تا حالا با چهار مشتری جدید ملاقات کرده است.",
+          "pr": "سُو فار ذیس ویک، ندا هَز مِت فُر نو کْلایِنْتْس."
+        },
+        {
+          "type": "choice",
+          "t": "I ___ Jack since we were at university together.",
+          "options": [
+            "have known",
+            "have been knowing",
+            "know"
+          ],
+          "answer": 0,
+          "s": "جک را از وقتی با هم در دانشگاه بودیم، می‌شناسم.",
+          "pr": "آی هَو نُون جَک سینس وی وِر اَت یونِوِرْسِتی تِگِذِر."
+        },
+        {
+          "type": "type",
+          "t": "How long have you ___ learning English?",
+          "answer": [
+            "been"
+          ],
+          "s": "چند وقت است که انگلیسی یاد می‌گیری؟",
+          "pr": "هاو لانگ هَو یو بین لِرنینگ اینگْلیش؟"
+        },
+        {
+          "type": "type",
+          "t": "Sorry I'm late. Have you been ___ long?",
+          "answer": [
+            "waiting"
+          ],
+          "s": "ببخشید دیر کردم. خیلی وقت است منتظری؟",
+          "pr": "ساری آیم لِیت. هَو یو بین وِیتینگ لانگ؟"
+        },
+        {
+          "type": "type",
+          "t": "She ___ been working here for three months.",
+          "answer": [
+            "has"
+          ],
+          "s": "او سه ماه است که اینجا کار می‌کند.",
+          "pr": "شی هَز بین وِرکینگ هیر فُر ثْری مانْثْس."
+        },
+        {
+          "type": "order",
+          "t": "How many emails have you answered today?",
+          "s": "امروز به چند ایمیل جواب داده‌ای؟",
+          "pr": "هاو مِنی ایمِیلْز هَو یو اَنْسِرْد تِدِی؟"
+        },
+        {
+          "type": "order",
+          "t": "He has been looking for a job since March.",
+          "alts": [
+            "Since March he has been looking for a job."
+          ],
+          "s": "او از ماه مارس دنبال کار می‌گردد.",
+          "pr": "هی هَز بین لوکینگ فُر اِ جاب سینس مارچ."
+        }
+      ]
+    },
+    {
+      "id": "g02",
+      "title": {
+        "t": "Future continuous and future perfect",
+        "s": "آینده‌ی استمراری و آینده‌ی کامل",
+        "pr": "فیوچِر کِنْتینیواِس اَند فیوچِر پِرْفِکْت"
+      },
+      "explain": "**آینده‌ی استمراری**: **will be + فعل ing‌دار**. برای کاری که **در لحظه‌ی مشخصی در آینده در جریان است**: **This time tomorrow, I'll be flying to Dubai.** (فردا همین موقع در حال پرواز به دبی‌ام.)\nاز آینده‌ی استمراری برای **پرسیدن مؤدبانه درباره‌ی برنامه‌ی کسی** هم استفاده می‌کنیم: **Will you be using the meeting room this afternoon?** (امروز بعدازظهر از اتاق جلسه استفاده می‌کنید؟)\n**آینده‌ی کامل**: **will have + قسمت سوم فعل**. برای کاری که **تا زمان مشخصی در آینده تمام شده است**، معمولاً با **by** (تا) یا **by the time** (تا وقتی که): **By Friday, we'll have finished the report.** (تا جمعه گزارش را تمام کرده‌ایم.)\nمنفی: **won't be working** و **won't have finished**.\nنکته‌ی مهم: بعد از **by the time** و **when** فعلِ جمله‌ی زمانی **حال ساده** است، نه will: **By the time you arrive, we'll have started.** (نه by the time you will arrive)\nدر فارسی معمولاً برای هر دو از حال یا ماضی نقلی استفاده می‌کنیم («فردا این موقع در راهم»، «تا جمعه تمامش کرده‌ام»)، ولی انگلیسی برای آینده **will** را لازم دارد.",
+      "table": [
+        [
+          "Future continuous",
+          "will be + -ing",
+          "At ten tomorrow, I'll be giving a presentation."
+        ],
+        [
+          "Future perfect",
+          "will have + past participle",
+          "By noon, I'll have sent the contract."
+        ],
+        [
+          "Negative",
+          "won't be + -ing / won't have + past participle",
+          "She won't have finished by then."
+        ]
+      ],
+      "examples": [
+        {
+          "t": "Don't call me at three. I'll be interviewing a candidate.",
+          "s": "ساعت سه به من زنگ نزن. دارم با یک متقاضی مصاحبه می‌کنم.",
+          "pr": "دُونت کال میْ اَت ثْری. آیل بی اینْتِرْویویینگ اِ کَنْدِدِیت."
+        },
+        {
+          "t": "By the end of this year, I'll have worked here for ten years.",
+          "s": "تا آخر امسال، ده سال می‌شود که اینجا کار کرده‌ام.",
+          "pr": "بای ذی اِند آو ذیس ییر، آیل هَو وِرکْت هیر فُر تِن ییرز."
+        },
+        {
+          "t": "Will you be using the meeting room this afternoon?",
+          "s": "امروز بعدازظهر از اتاق جلسه استفاده می‌کنید؟",
+          "pr": "ویل یو بی یوزینگ ذِ میتینگ روم ذیس اَفْتِرْنون؟"
+        },
+        {
+          "t": "By the time you arrive, we'll have started the meeting.",
+          "s": "تا تو برسی، ما جلسه را شروع کرده‌ایم.",
+          "pr": "بای ذِ تایم یو اِرایو، ویل هَو سْتارتِد ذِ میتینگ."
+        },
+        {
+          "t": "In five years, she'll be running her own company.",
+          "s": "پنج سال دیگر، او شرکت خودش را اداره می‌کند.",
+          "pr": "این فایو ییرز، شیل بی رانینگ هِر اُون کامپِنی."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "choice",
+          "t": "This time next week, we ___ on the beach in Kish.",
+          "options": [
+            "will be relaxing",
+            "will have relaxed",
+            "relax"
+          ],
+          "answer": 0,
+          "s": "هفته‌ی دیگر همین موقع، در ساحل کیش داریم استراحت می‌کنیم.",
+          "pr": "ذیس تایم نِکْسْت ویک، وی ویل بی ریلَکْسینگ آن ذِ بیچ این کیش."
+        },
+        {
+          "type": "choice",
+          "t": "By next June, Sara ___ her degree.",
+          "options": [
+            "will have finished",
+            "has finished",
+            "finished"
+          ],
+          "answer": 0,
+          "s": "تا ژوئن سال آینده، سارا درسش را تمام کرده است.",
+          "pr": "بای نِکْسْت جون، سارا ویل هَو فینیشْت هِر دیگْری."
+        },
+        {
+          "type": "choice",
+          "t": "Please don't phone after nine. The children ___.",
+          "options": [
+            "will be sleeping",
+            "will have slept",
+            "have slept"
+          ],
+          "answer": 0,
+          "s": "لطفاً بعد از ساعت نه زنگ نزن. بچه‌ها خواب‌اند.",
+          "pr": "پْلیز دُونت فُون اَفْتِر ناین. ذِ چیلْدْرِن ویل بی سْلیپینگ."
+        },
+        {
+          "type": "type",
+          "t": "By Friday, I will ___ finished the report.",
+          "answer": [
+            "have"
+          ],
+          "s": "تا جمعه گزارش را تمام کرده‌ام.",
+          "pr": "بای فْرایدِی، آی ویل هَو فینیشْت ذِ ریپُرت."
+        },
+        {
+          "type": "type",
+          "t": "At ten tomorrow, I'll ___ giving a presentation to our new clients.",
+          "answer": [
+            "be"
+          ],
+          "s": "فردا ساعت ده، دارم برای مشتری‌های جدیدمان ارائه می‌دهم.",
+          "pr": "اَت تِن تِمارُو، آیل بی گیوینگ اِ پْرِزِنْتِیشِن تو آوِر نو کْلایِنْتْس."
+        },
+        {
+          "type": "type",
+          "t": "By the time you ___ home, I'll have cooked dinner.",
+          "answer": [
+            "get",
+            "come",
+            "arrive",
+            "return"
+          ],
+          "s": "تا تو به خانه برسی، من شام را پخته‌ام.",
+          "pr": "بای ذِ تایم یو گِت هُوم، آیل هَو کوکْت دینِر."
+        },
+        {
+          "type": "choice",
+          "t": "___ you be using the car tomorrow? I need it.",
+          "options": [
+            "Will",
+            "Are",
+            "Have"
+          ],
+          "answer": 0,
+          "s": "فردا از ماشین استفاده می‌کنی؟ لازمش دارم.",
+          "pr": "ویل یو بی یوزینگ ذِ کار تِمارُو؟ آی نید ایت."
+        },
+        {
+          "type": "order",
+          "t": "By December, we will have hired five engineers.",
+          "alts": [
+            "We will have hired five engineers by December."
+          ],
+          "s": "تا دسامبر، پنج مهندس استخدام کرده‌ایم.",
+          "pr": "بای دیسِمْبِر، وی ویل هَو هایِرْد فایو اِنْجِنیرز."
+        }
+      ]
+    }
+  ],
+  "reading": {
+    "title": {
+      "t": "Why I changed careers at forty",
+      "s": "چرا در چهل‌سالگی شغلم را عوض کردم",
+      "pr": "وای آی چِینْجْد کِریرز اَت فُرْتی"
+    },
+    "text": [
+      {
+        "t": "For fifteen years, I worked as an accountant in a large company in Tehran.",
+        "s": "پانزده سال در یک شرکت بزرگ در تهران حسابدار بودم.",
+        "pr": "فُر فیفْتین ییرز، آی وِرکْت اَز اِن اِکاونْتِنْت این اِ لارج کامپِنی این تهران."
+      },
+      {
+        "t": "The salary was good, but my workload kept growing, and I had very little job satisfaction.",
+        "s": "حقوقش خوب بود، ولی حجم کارم مدام بیشتر می‌شد و رضایت شغلی خیلی کمی داشتم.",
+        "pr": "ذِ سَلِری واز گود، بات مای وِرکْلُود کِپْت گْرُوینگ، اَند آی هَد وِری لیتِل جاب سَتیسْفَکْشِن."
+      },
+      {
+        "t": "Then, three years ago, I took an online course in web design, just for fun.",
+        "s": "بعد، سه سال پیش، فقط برای سرگرمی یک دوره‌ی آنلاین طراحی وب گذراندم.",
+        "pr": "ذِن، ثْری ییرز اِگُو، آی توک اِن آنْلاین کُرس این وِب دیزاین، جاسْت فُر فان."
+      },
+      {
+        "t": "I loved it so much that I resigned from my job the following summer.",
+        "s": "آن‌قدر دوستش داشتم که تابستان بعد از کارم استعفا دادم.",
+        "pr": "آی لاود ایت سُو ماچ ذَت آی ریزاینْد فْرام مای جاب ذِ فالُوینگ سامِر."
+      },
+      {
+        "t": "My family thought I was crazy, and to be honest, I was a little scared, too.",
+        "s": "خانواده‌ام فکر می‌کردند دیوانه شده‌ام و راستش را بخواهید، خودم هم کمی می‌ترسیدم.",
+        "pr": "مای فَمِلی ثات آی واز کْرِیزی، اَند تو بی آنِسْت، آی واز اِ لیتِل سْکِرْد، تو."
+      },
+      {
+        "t": "Since then, I've been working as a freelance web designer.",
+        "s": "از آن موقع، به‌عنوان طراح وب آزادکار کار می‌کنم.",
+        "pr": "سینس ذِن، آیو بین وِرکینگ اَز اِ فْریلَنْس وِب دیزاینِر."
+      },
+      {
+        "t": "So far, I've designed websites for more than thirty small businesses.",
+        "s": "تا حالا برای بیش از سی کسب‌وکار کوچک وب‌سایت طراحی کرده‌ام.",
+        "pr": "سُو فار، آیو دیزاینْد وِبْسایتْس فُر مُر ذَن ثِرْتی سْمال بیزْنِسِز."
+      },
+      {
+        "t": "I earn a bit less than before, but I have flexible hours and I can work from home.",
+        "s": "کمی کمتر از قبل درآمد دارم، ولی ساعت کاری‌ام شناور است و می‌توانم از خانه کار کنم.",
+        "pr": "آی اِرن اِ بیت لِس ذَن بیفُر، بات آی هَو فْلِکْسِبِل آوِرز اَند آی کَن وِرک فْرام هُوم."
+      },
+      {
+        "t": "Recently, I've also been teaching a design class for women in my neighborhood.",
+        "s": "اخیراً برای خانم‌های محله‌مان یک کلاس طراحی هم برگزار می‌کنم.",
+        "pr": "ریسِنْتْلی، آیو آلْسُو بین تیچینگ اِ دیزاین کْلَس فُر ویمِن این مای نِیبِرْهود."
+      },
+      {
+        "t": "Next month, I'll be signing a contract with my biggest client so far, a hotel in Shiraz.",
+        "s": "ماه آینده، با بزرگ‌ترین مشتری‌ام تا امروز، یعنی یک هتل در شیراز، قرارداد امضا می‌کنم.",
+        "pr": "نِکْسْت مانْث، آیل بی ساینینگ اِ کانْتْرَکْت ویذ مای بیگِسْت کْلایِنْت سُو فار، اِ هُوتِل این شیراز."
+      },
+      {
+        "t": "If everything goes well, by the end of next year I'll have hired my first employee.",
+        "s": "اگر همه‌چیز خوب پیش برود، تا آخر سال آینده اولین کارمندم را استخدام کرده‌ام.",
+        "pr": "ایف اِوْریثینگ گُوز وِل، بای ذی اِند آو نِکْسْت ییر آیل هَو هایِرْد مای فِرْسْت ایمْپْلُیی."
+      },
+      {
+        "t": "Changing careers wasn't easy, but it's the best decision I've ever made.",
+        "s": "عوض کردن شغل آسان نبود، ولی بهترین تصمیمی است که تا حالا گرفته‌ام.",
+        "pr": "چِینْجینگ کِریرز وازِنْت ایزی، بات ایتْس ذِ بِسْت دیسیژِن آیو اِوِر مِید."
+      },
+      {
+        "t": "My advice? Don't wait until you're sixty to do what you love.",
+        "s": "توصیه‌ی من؟ صبر نکنید تا شصت‌ساله شوید و بعد کاری را که دوست دارید انجام دهید.",
+        "pr": "مای اِدْوایس؟ دُونت وِیت اِنْتیل یور سیکْسْتی تو دو وات یو لاو."
+      }
+    ],
+    "questions": [
+      {
+        "q": {
+          "t": "What was the writer's job before?",
+          "s": "شغل قبلی نویسنده چه بود؟",
+          "pr": "وات واز ذِ رایتِرْز جاب بیفُر؟"
+        },
+        "options": [
+          "an accountant",
+          "a teacher",
+          "a hotel manager"
+        ],
+        "answer": 0
+      },
+      {
+        "q": {
+          "t": "Why did she take the web design course at first?",
+          "s": "چرا اول آن دوره‌ی طراحی وب را گذراند؟",
+          "pr": "وای دید شی تِیک ذِ وِب دیزاین کُرس اَت فِرْسْت؟"
+        },
+        "options": [
+          "Her boss asked her to.",
+          "She did it just for fun.",
+          "She had lost her job."
+        ],
+        "answer": 1
+      },
+      {
+        "q": {
+          "t": "How many businesses has she designed websites for?",
+          "s": "برای چند کسب‌وکار وب‌سایت طراحی کرده است؟",
+          "pr": "هاو مِنی بیزْنِسِز هَز شی دیزاینْد وِبْسایتْس فُر؟"
+        },
+        "options": [
+          "fewer than ten",
+          "about fifteen",
+          "more than thirty"
+        ],
+        "answer": 2
+      },
+      {
+        "q": {
+          "t": "What will she be doing next month?",
+          "s": "ماه آینده چه کاری خواهد کرد؟",
+          "pr": "وات ویل شی بی دویینگ نِکْسْت مانْث؟"
+        },
+        "options": [
+          "signing a contract with a hotel",
+          "teaching at a university",
+          "moving to Shiraz"
+        ],
+        "answer": 0
+      },
+      {
+        "q": {
+          "t": "What does she hope to have done by the end of next year?",
+          "s": "امیدوار است تا آخر سال آینده چه کاری کرده باشد؟",
+          "pr": "وات داز شی هُوپ تو هَو دان بای ذی اِند آو نِکْسْت ییر؟"
+        },
+        "options": [
+          "opened a hotel",
+          "hired her first employee",
+          "gone back to her old job"
+        ],
+        "answer": 1
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "t": "I've been working from home since the beginning of the year.",
+      "s": "از اول سال از خانه کار می‌کنم.",
+      "pr": "آیو بین وِرکینگ فْرام هُوم سینس ذِ بیگینینگ آو ذِ ییر."
+    },
+    {
+      "t": "She's in charge of a team of twelve people.",
+      "s": "او مسئول یک تیم دوازده‌نفره است.",
+      "pr": "شیز این چارج آو اِ تیم آو تْوِلْو پیپِل."
+    },
+    {
+      "t": "By Monday, we'll have signed the new contract.",
+      "s": "تا دوشنبه، قرارداد جدید را امضا کرده‌ایم.",
+      "pr": "بای مانْدِی، ویل هَو ساینْد ذِ نو کانْتْرَکْت."
+    },
+    {
+      "t": "This time tomorrow, I'll be meeting our biggest client.",
+      "s": "فردا همین موقع، دارم با بزرگ‌ترین مشتری‌مان ملاقات می‌کنم.",
+      "pr": "ذیس تایم تِمارُو، آیل بی میتینگ آوِر بیگِسْت کْلایِنْت."
+    },
+    {
+      "t": "How many interviews have you had this week?",
+      "s": "این هفته چند مصاحبه داشته‌ای؟",
+      "pr": "هاو مِنی اینْتِرْویوز هَو یو هَد ذیس ویک؟"
+    },
+    {
+      "t": "My workload has been too heavy lately.",
+      "s": "این اواخر حجم کارم زیادی سنگین بوده است.",
+      "pr": "مای وِرکْلُود هَز بین تو هِوی لِیتْلی."
+    },
+    {
+      "t": "He resigned after twenty years with the same employer.",
+      "s": "او بعد از بیست سال کار برای همان کارفرما استعفا داد.",
+      "pr": "هی ریزاینْد اَفْتِر تْوِنْتی ییرز ویذ ذِ سِیم ایمْپْلُیِر."
+    },
+    {
+      "t": "I've been thinking about asking for a promotion.",
+      "s": "مدتی است که به درخواست ترفیع فکر می‌کنم.",
+      "pr": "آیو بین ثینکینگ اِباوت اَسْکینگ فُر اِ پْرِمُوشِن."
+    }
+  ]
+}

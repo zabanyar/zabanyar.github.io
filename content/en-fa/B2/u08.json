@@ -1,0 +1,823 @@
+{
+  "id": "u08",
+  "level": "B2",
+  "emoji": "🧭",
+  "title": {
+    "t": "Culture shock",
+    "s": "شوک فرهنگی",
+    "pr": "کالْچِر شاک"
+  },
+  "goals": [
+    "می‌توانم درباره‌ی تفاوت‌های فرهنگی، آداب و رسوم و تجربه‌ی زندگی یا سفر در کشوری دیگر صحبت کنم.",
+    "می‌توانم مقدار و تعداد را با few / a few، little / a little، each / every، both، either / neither و none دقیق بیان کنم.",
+    "می‌توانم با so / such و too / enough تأکید کنم و نتیجه یا حدِ چیزی را بگویم."
+  ],
+  "words": [
+    {
+      "id": "w01",
+      "t": "custom",
+      "pl": "customs",
+      "s": "رسم، عادت فرهنگی",
+      "pr": "کاسْتِم",
+      "emoji": "",
+      "ex": {
+        "t": "In Iran, it's a custom to take off your shoes before entering a home.",
+        "s": "در ایران رسم است که پیش از وارد شدن به خانه کفش‌ها را درآورند.",
+        "pr": "این ایران، ایتس اِ کاسْتِم تو تِیک آف یور شوز بیفُر اِنْتِرینگ اِ هُوم."
+      }
+    },
+    {
+      "id": "w02",
+      "t": "tradition",
+      "pl": "traditions",
+      "s": "سنت",
+      "pr": "تْرِدیشِن",
+      "emoji": "",
+      "ex": {
+        "t": "Jumping over fire on Chaharshanbe Suri is an old Persian tradition.",
+        "s": "پریدن از روی آتش در چهارشنبه‌سوری سنتی قدیمی در ایران است.",
+        "pr": "جامْپینگ اُووِر فایِر آن چهارشنبه‌سوری ایز اِن اُولْد پِرژِن تْرِدیشِن."
+      }
+    },
+    {
+      "id": "w03",
+      "t": "culture shock",
+      "s": "شوک فرهنگی",
+      "pr": "کالْچِر شاک",
+      "emoji": "😲",
+      "ex": {
+        "t": "Many students experience culture shock in their first months abroad.",
+        "s": "خیلی از دانشجوها در ماه‌های اول زندگی در خارج شوک فرهنگی را تجربه می‌کنند.",
+        "pr": "مِنی سْتودِنْتْس ایکْسْپیریِنْس کالْچِر شاک این ذِر فِرسْت مانْثْس اِبْراد."
+      }
+    },
+    {
+      "id": "w04",
+      "t": "local",
+      "pl": "locals",
+      "s": "محلی؛ (اسم) اهل محل",
+      "pr": "لُوکِل",
+      "emoji": "",
+      "ex": {
+        "t": "Ask the locals where to eat. They know the best places.",
+        "s": "از اهالی بپرس کجا غذا بخوری. بهترین جاها را بلدند.",
+        "pr": "اَسْک ذِ لُوکِلْز وِر تو ایت. ذِی نُو ذِ بِسْت پْلِیسِز."
+      }
+    },
+    {
+      "id": "w05",
+      "t": "hospitality",
+      "s": "مهمان‌نوازی",
+      "pr": "هاسْپِتَلِتی",
+      "emoji": "",
+      "ex": {
+        "t": "Visitors are often surprised by Iranian hospitality.",
+        "s": "مسافران خارجی اغلب از مهمان‌نوازی ایرانی‌ها شگفت‌زده می‌شوند.",
+        "pr": "ویزِتِرز آر آفِن سِرپْرایزْد بای ایرِینیِن هاسْپِتَلِتی."
+      }
+    },
+    {
+      "id": "w06",
+      "t": "etiquette",
+      "s": "آداب معاشرت، آداب",
+      "pr": "اِتیکِت",
+      "emoji": "🍽️",
+      "ex": {
+        "t": "Table etiquette is very different in Japan.",
+        "s": "آداب سر سفره در ژاپن خیلی فرق می‌کند.",
+        "pr": "تِیبِل اِتیکِت ایز وِری دیفْرِنْت این جِپَن."
+      }
+    },
+    {
+      "id": "w07",
+      "t": "off the beaten track",
+      "s": "دور از مسیرهای توریستی",
+      "pr": "آف ذِ بیتِن تْرَک",
+      "emoji": "",
+      "ex": {
+        "t": "We wanted to see villages off the beaten track.",
+        "s": "می‌خواستیم روستاهایی را ببینیم که دور از مسیرهای توریستی‌اند.",
+        "pr": "وی وانْتِد تو سی ویلِجِز آف ذِ بیتِن تْرَک."
+      }
+    },
+    {
+      "id": "w08",
+      "t": "tourist trap",
+      "pl": "tourist traps",
+      "s": "تله‌ی توریستی (جای شلوغ و گران مخصوص توریست‌ها)",
+      "pr": "تورِسْت تْرَپ",
+      "emoji": "",
+      "ex": {
+        "t": "The restaurants on the main square are tourist traps, so we ate where the locals eat.",
+        "s": "رستوران‌های میدان اصلی تله‌ی توریستی‌اند، برای همین جایی غذا خوردیم که اهالی آنجا غذا می‌خورند.",
+        "pr": "ذِ رِسْتِرانْتْس آن ذِ مِین سْکْوِر آر تورِسْت تْرَپْس، سُو وی اِیت وِر ذِ لُوکِلْز ایت."
+      }
+    },
+    {
+      "id": "w09",
+      "t": "souvenir",
+      "pl": "souvenirs",
+      "s": "سوغاتی، یادگاری",
+      "pr": "سووِنیر",
+      "emoji": "🎁",
+      "ex": {
+        "t": "When I visit Iran, I always bring back saffron as a souvenir for my German friends.",
+        "s": "وقتی به ایران می‌روم، همیشه برای دوستان آلمانی‌ام زعفران سوغاتی می‌آورم.",
+        "pr": "وِن آی ویزِت ایران، آی آلْوِیز بْرینگ بَک سَفْرِن اَز اِ سووِنیر فُر مای جِرمِن فْرِنْدز."
+      }
+    },
+    {
+      "id": "w10",
+      "t": "accommodation",
+      "s": "جای اقامت، اقامتگاه",
+      "pr": "اِکامِدِیشِن",
+      "emoji": "🏨",
+      "ex": {
+        "t": "Accommodation in the city center is very expensive.",
+        "s": "جای اقامت در مرکز شهر خیلی گران است.",
+        "pr": "اِکامِدِیشِن این ذِ سیتی سِنْتِر ایز وِری ایکْسْپِنْسیو."
+      }
+    },
+    {
+      "id": "w11",
+      "t": "backpacker",
+      "pl": "backpackers",
+      "s": "کوله‌گرد، مسافر کوله‌پشتی",
+      "pr": "بَکْپَکِر",
+      "emoji": "🎒",
+      "ex": {
+        "t": "This hostel is popular with young backpackers.",
+        "s": "این مسافرخانه بین کوله‌گردهای جوان محبوب است.",
+        "pr": "ذیس هاسْتِل ایز پاپْیِلِر ویذ یانگ بَکْپَکِرز."
+      }
+    },
+    {
+      "id": "w12",
+      "t": "itinerary",
+      "pl": "itineraries",
+      "s": "برنامه‌ی سفر",
+      "pr": "آیتینِرِری",
+      "emoji": "📋",
+      "ex": {
+        "t": "Our itinerary includes three days in Istanbul.",
+        "s": "برنامه‌ی سفرمان شامل سه روز در استانبول است.",
+        "pr": "آوِر آیتینِرِری اینْکْلودْز ثْری دِیز این ایسْتَنْبول."
+      }
+    },
+    {
+      "id": "w13",
+      "t": "exchange rate",
+      "pl": "exchange rates",
+      "s": "نرخ ارز",
+      "pr": "ایکْسْچِینْج رِیت",
+      "emoji": "💱",
+      "ex": {
+        "t": "Check the exchange rate before you change your money.",
+        "s": "پیش از تبدیل پولت، نرخ ارز را چک کن.",
+        "pr": "چِک ذی ایکْسْچِینْج رِیت بیفُر یو چِینْج یور مانی."
+      }
+    },
+    {
+      "id": "w14",
+      "t": "jet lag",
+      "s": "خستگی ناشی از اختلاف ساعت (بعد از پرواز طولانی)",
+      "pr": "جِت لَگ",
+      "emoji": "😴",
+      "ex": {
+        "t": "I always suffer from jet lag after flying to Canada.",
+        "s": "همیشه بعد از پرواز به کانادا از اختلاف ساعت اذیت می‌شوم.",
+        "pr": "آی آلْوِیز سافِر فْرام جِت لَگ اَفْتِر فْلایینگ تو کَنِدا."
+      }
+    },
+    {
+      "id": "w15",
+      "t": "broaden your horizons",
+      "s": "افق دید خود را گسترده‌تر کردن",
+      "pr": "بْرادِن یور هِرایزِنْز",
+      "emoji": "",
+      "ex": {
+        "t": "Traveling is the best way to broaden your horizons.",
+        "s": "سفر کردن بهترین راه برای گسترده‌تر کردن افق دید است.",
+        "pr": "تْرَوِلینگ ایز ذِ بِسْت وِی تو بْرادِن یور هِرایزِنْز."
+      }
+    },
+    {
+      "id": "w16",
+      "t": "stereotype",
+      "pl": "stereotypes",
+      "s": "کلیشه، تصور قالبی",
+      "pr": "سْتِریِتایپ",
+      "emoji": "",
+      "ex": {
+        "t": "Meeting people from other countries helps us break stereotypes.",
+        "s": "آشنایی با آدم‌هایی از کشورهای دیگر کمک می‌کند کلیشه‌ها را بشکنیم.",
+        "pr": "میتینگ پیپِل فْرام آذِر کانْتْریز هِلْپْس آس بْرِیک سْتِریِتایپْس."
+      }
+    }
+  ],
+  "phrases": [
+    {
+      "id": "p01",
+      "t": "When in Rome, do as the Romans do.",
+      "s": "خواهی نشوی رسوا، هم‌رنگ جماعت شو.",
+      "pr": "وِن این رُوم، دو اَز ذِ رُومِنْز دو."
+    },
+    {
+      "id": "p02",
+      "t": "Is it rude to …?",
+      "s": "آیا … بی‌ادبی است؟",
+      "pr": "ایز ایت رود تو …؟"
+    },
+    {
+      "id": "p03",
+      "t": "What's the custom here?",
+      "s": "اینجا رسم چیست؟",
+      "pr": "واتس ذِ کاسْتِم هیر؟"
+    },
+    {
+      "id": "p04",
+      "t": "It's not what I expected.",
+      "s": "آن چیزی نیست که انتظارش را داشتم.",
+      "pr": "ایتس نات وات آی ایکْسْپِکْتِد."
+    },
+    {
+      "id": "p05",
+      "t": "I felt like a fish out of water.",
+      "s": "حس غریبی داشتم. / مثل ماهیِ بیرون از آب بودم.",
+      "pr": "آی فِلْت لایک اِ فیش آوت آو واتِر."
+    },
+    {
+      "id": "p06",
+      "t": "You'll feel right at home.",
+      "s": "حس می‌کنی در خانه‌ی خودت هستی.",
+      "pr": "یول فیل رایت اَت هُوم."
+    },
+    {
+      "id": "p07",
+      "t": "Don't take it personally.",
+      "s": "به خودت نگیر.",
+      "pr": "دُونت تِیک ایت پِرسِنِلی."
+    },
+    {
+      "id": "p08",
+      "t": "That's considered polite.",
+      "s": "آن کار مؤدبانه به حساب می‌آید.",
+      "pr": "ذَتس کِنْسیدِرْد پِلایت."
+    }
+  ],
+  "dialogue": {
+    "title": {
+      "t": "Lisa learns about taarof",
+      "s": "لیزا با تعارف آشنا می‌شود",
+      "pr": "لیسا لِرنْز اِباوت تعارف"
+    },
+    "speakers": {
+      "A": {
+        "name": "Lisa",
+        "voice": "f"
+      },
+      "B": {
+        "name": "Reza",
+        "voice": "m"
+      }
+    },
+    "lines": [
+      {
+        "sp": "A",
+        "t": "Reza, I had such an amazing time in Iran! Everyone was so kind.",
+        "s": "رضا، در ایران خیلی به من خوش گذشت! همه خیلی مهربان بودند.",
+        "pr": "رضا، آی هَد ساچ اِن اِمِیزینگ تایم این ایران! اِوْریوان واز سُو کاینْد."
+      },
+      {
+        "sp": "B",
+        "t": "I'm so glad! Did you have any culture shock?",
+        "s": "خیلی خوشحالم! شوک فرهنگی هم داشتی؟",
+        "pr": "آیم سُو گْلَد! دید یو هَو اِنی کالْچِر شاک؟"
+      },
+      {
+        "sp": "A",
+        "t": "A little, at first. Neither my guidebook nor my friends had told me about taarof.",
+        "s": "اولش کمی. نه کتاب راهنمایم و نه دوستانم چیزی درباره‌ی تعارف به من نگفته بودند.",
+        "pr": "اِ لیتِل، اَت فِرسْت. نیذِر مای گایدْبوک نُر مای فْرِنْدز هَد تُولْد میْ اِباوت تعارف."
+      },
+      {
+        "sp": "B",
+        "t": "Ah, taarof! What happened?",
+        "s": "آهان، تعارف! چه اتفاقی افتاد؟",
+        "pr": "آ، تعارف! وات هَپِنْد؟"
+      },
+      {
+        "sp": "A",
+        "t": "A taxi driver told me I didn't need to pay, and I almost got out of the car!",
+        "s": "یک راننده‌ی تاکسی گفت لازم نیست پول بدهم، و من نزدیک بود از ماشین پیاده شوم!",
+        "pr": "اِ تَکْسی دْرایوِر تُولْد میْ آی دیدِنْت نید تو پِی، اَند آی آلْمُوسْت گات آوت آو ذِ کار!"
+      },
+      {
+        "sp": "B",
+        "t": "Classic! Few visitors understand that at first. He expected you to insist.",
+        "s": "کلاسیک! کمتر مسافر خارجی‌ای اولش این را می‌فهمد. انتظار داشت تو اصرار کنی.",
+        "pr": "کْلَسیک! فیو ویزِتِرز آندِرسْتَنْد ذَت اَت فِرسْت. هی ایکْسْپِکْتِد یو تو اینْسیسْت."
+      },
+      {
+        "sp": "A",
+        "t": "I know that now. Every host I met also gave me far too much food.",
+        "s": "حالا می‌دانم. هر میزبانی هم که دیدم، خیلی بیشتر از حد به من غذا داد.",
+        "pr": "آی نُو ذَت ناو. اِوْری هُوسْت آی مِت آلْسُو گِیو میْ فار تو ماچ فود."
+      },
+      {
+        "sp": "B",
+        "t": "That's hospitality. If you leave your plate empty, they think it wasn't enough!",
+        "s": "این مهمان‌نوازی است. اگر بشقابت را خالی کنی، فکر می‌کنند غذا کافی نبوده!",
+        "pr": "ذَتس هاسْپِتَلِتی. ایف یو لیو یور پْلِیت اِمْپْتی، ذِی ثینک ایت وازِنْت ایناف!"
+      },
+      {
+        "sp": "A",
+        "t": "Both of my hosts in Yazd wanted me to stay longer. Sadly, I didn't have enough time.",
+        "s": "هر دو میزبانم در یزد می‌خواستند بیشتر بمانم. متأسفانه وقت کافی نداشتم.",
+        "pr": "بُوث آو مای هُوسْتْس این یزد وانْتِد میْ تو سْتِی لانگِر. سَدْلی، آی دیدِنْت هَو ایناف تایم."
+      },
+      {
+        "sp": "B",
+        "t": "Then you'll have to come back. There are a few places in the north I'd love to show you.",
+        "s": "پس باید برگردی. چند جا در شمال هست که خیلی دوست دارم نشانت بدهم.",
+        "pr": "ذِن یول هَف تو کام بَک. ذِر آر اِ فیو پْلِیسِز این ذِ نُرث آید لاو تو شُو یو."
+      },
+      {
+        "sp": "A",
+        "t": "I'd love that. It's such a beautiful country that I'm already planning my next trip.",
+        "s": "خیلی دوست دارم. آن‌قدر کشور زیبایی است که همین حالا دارم سفر بعدی‌ام را برنامه‌ریزی می‌کنم.",
+        "pr": "آید لاو ذَت. ایتس ساچ اِ بیوتِفِل کانْتْری ذَت آیم آلْرِدی پْلَنینگ مای نِکْسْت تْریپ."
+      },
+      {
+        "sp": "B",
+        "t": "Wonderful! And next time, you'll know exactly what to do in a taxi.",
+        "s": "عالی است! و دفعه‌ی بعد، دقیقاً می‌دانی در تاکسی چه کار کنی.",
+        "pr": "واندِرفِل! اَند نِکْسْت تایم، یول نُو ایگْزَکْتْلی وات تو دو این اِ تَکْسی."
+      }
+    ]
+  },
+  "grammar": [
+    {
+      "id": "g01",
+      "title": {
+        "t": "Quantifiers and determiners",
+        "s": "کمیت‌نماها: few، little، each، every، both، either، neither، none",
+        "pr": "کْوانْتِفایِرز اَند دیتِرمِنِرز"
+      },
+      "explain": "**few / a few** با اسم‌های **قابل‌شمارشِ جمع** و **little / a little** با اسم‌های **غیرقابل‌شمارش** می‌آیند. نکته‌ی اصلی، حرف **a** است:\n**a few / a little** = «چند تا / کمی» (معنای **مثبت**؛ کم ولی کافی): **I have a few friends here.** (اینجا چند تا دوست دارم.)\n**few / little** (بدون a) = «خیلی کم، تقریباً هیچ» (معنای **منفی**): **Few tourists visit this village.** (توریست‌های خیلی کمی به این روستا می‌آیند.) / **We had little time.** (وقت خیلی کمی داشتیم.)\n**each** و **every** با اسم **مفرد** و فعل مفرد می‌آیند. **every** = همه، به‌طور کلی: **Every country has its own customs.** **each** = تک‌تک، جداجدا، و برای **دو چیز** هم به کار می‌رود: **She had a bag in each hand.** فقط each می‌تواند با of بیاید: **each of the students**.\nبرای **دو چیز**: **both** = هر دو (فعل جمع)؛ **either** = هر کدام از آن دو، و در جمله‌ی منفی «هیچ‌کدام» (I don't like either of them)؛ **neither** = هیچ‌کدام از آن دو (با فعل مثبت): **Neither hotel was cheap.**\nبرای **سه چیز یا بیشتر** یا یک مقدار: **none of** = هیچ‌کدام: **None of my friends speak Japanese.** (در انگلیسی رسمی speaks هم درست است.)\nدقت کنید: با **neither** و **none** فعل را منفی نمی‌کنیم: **Neither of them came.** (نه Neither of them didn't come.) در فارسی می‌گوییم «هیچ‌کدام **نیامدند**»، ولی انگلیسی منفیِ دوتایی ندارد.",
+      "table": [
+        [
+          "a few / few",
+          "+ plural noun",
+          "a few days, few people"
+        ],
+        [
+          "a little / little",
+          "+ uncountable noun",
+          "a little time, little money"
+        ],
+        [
+          "each / every",
+          "+ singular noun",
+          "each person, every country"
+        ],
+        [
+          "both / either / neither",
+          "two people or things",
+          "both cities, either road, neither answer"
+        ],
+        [
+          "none of",
+          "three or more, or an amount",
+          "none of the shops"
+        ]
+      ],
+      "examples": [
+        {
+          "t": "We only had a few days in Isfahan, but we saw a lot.",
+          "s": "فقط چند روز در اصفهان بودیم، ولی خیلی چیزها دیدیم.",
+          "pr": "وی اُونلی هَد اِ فیو دِیز این اصفهان، بات وی سا اِ لات."
+        },
+        {
+          "t": "Few people in the village spoke English, so I used my hands a lot.",
+          "s": "تعداد خیلی کمی از مردم روستا انگلیسی حرف می‌زدند، برای همین زیاد با دست‌هایم منظورم را می‌رساندم.",
+          "pr": "فیو پیپِل این ذِ ویلِج سْپُوک اینگْلیش، سُو آی یوزْد مای هَنْدز اِ لات."
+        },
+        {
+          "t": "Each guest received a small gift at the end of the dinner.",
+          "s": "هر یک از مهمان‌ها در پایان شام هدیه‌ی کوچکی گرفت.",
+          "pr": "ایچ گِسْت ریسیوْد اِ سْمال گیفْت اَت ذی اِنْد آو ذِ دینِر."
+        },
+        {
+          "t": "Neither of my parents has been to Japan, but both of them want to go.",
+          "s": "هیچ‌کدام از پدر و مادرم ژاپن نرفته‌اند، ولی هر دو می‌خواهند بروند.",
+          "pr": "نیذِر آو مای پِرِنْتْس هَز بین تو جِپَن، بات بُوث آو ذِم وانْت تو گُو."
+        },
+        {
+          "t": "None of the shops were open on Friday morning.",
+          "s": "صبح جمعه هیچ‌کدام از مغازه‌ها باز نبودند.",
+          "pr": "نان آو ذِ شاپْس وِر اُوپِن آن فْرایدِی مُرنینگ."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "choice",
+          "t": "Hurry up! We have very ___ time before the train leaves.",
+          "options": [
+            "little",
+            "few",
+            "a few"
+          ],
+          "answer": 0,
+          "s": "عجله کن! تا حرکت قطار وقت خیلی کمی داریم.",
+          "pr": "هِری آپ! وی هَو وِری لیتِل تایم بیفُر ذِ تْرِین لیوْز."
+        },
+        {
+          "type": "choice",
+          "t": "I know ___ words of Turkish, so I can say hello and thank you.",
+          "options": [
+            "a few",
+            "a little",
+            "few"
+          ],
+          "answer": 0,
+          "s": "چند کلمه ترکی بلدم، برای همین می‌توانم سلام و تشکر کنم.",
+          "pr": "آی نُو اِ فیو وِرْدز آو تِرکیش، سُو آی کَن سِی هِلُو اَند ثَنْک یو."
+        },
+        {
+          "type": "choice",
+          "t": "___ student in the class has to give a short presentation.",
+          "options": [
+            "Every",
+            "All",
+            "Both"
+          ],
+          "answer": 0,
+          "s": "هر دانش‌آموزی در کلاس باید یک ارائه‌ی کوتاه بدهد.",
+          "pr": "اِوْری سْتودِنْت این ذِ کْلَس هَس تو گیو اِ شُرت پْرِزِنْتِیشِن."
+        },
+        {
+          "type": "choice",
+          "t": "I asked two locals for directions, but ___ of them knew the way.",
+          "options": [
+            "neither",
+            "none",
+            "either"
+          ],
+          "answer": 0,
+          "s": "از دو نفر از اهالی آدرس پرسیدم، ولی هیچ‌کدام راه را بلد نبودند.",
+          "pr": "آی اَسْکْت تو لُوکِلْز فُر دِرِکْشِنْز، بات نیذِر آو ذِم نو ذِ وِی."
+        },
+        {
+          "type": "type",
+          "t": "We tried to visit three museums, but ___ of them were open on Monday.",
+          "answer": [
+            "none"
+          ],
+          "s": "سعی کردیم به سه موزه سر بزنیم، ولی دوشنبه هیچ‌کدامشان باز نبودند.",
+          "pr": "وی تْراید تو ویزِت ثْری میوزیئِمْز، بات نان آو ذِم وِر اُوپِن آن ماندِی."
+        },
+        {
+          "type": "type",
+          "t": "You can take ___ road. They both go to the city center.",
+          "answer": [
+            "either"
+          ],
+          "s": "از هر کدام از این دو جاده می‌توانی بروی. هر دو به مرکز شهر می‌روند.",
+          "pr": "یو کَن تِیک ایذِر رُود. ذِی بُوث گُو تو ذِ سیتی سِنْتِر."
+        },
+        {
+          "type": "type",
+          "t": "___ my sister and I love trying new food when we travel.",
+          "answer": [
+            "Both"
+          ],
+          "s": "من و خواهرم هر دو عاشق امتحان کردن غذاهای تازه در سفر هستیم.",
+          "pr": "بُوث مای سیسْتِر اَند آی لاو تْرایینگ نو فود وِن وی تْرَوِل."
+        },
+        {
+          "type": "order",
+          "t": "Few tourists visit this small village.",
+          "s": "توریست‌های خیلی کمی به این روستای کوچک سر می‌زنند.",
+          "pr": "فیو تورِسْتْس ویزِت ذیس سْمال ویلِج."
+        }
+      ]
+    },
+    {
+      "id": "g02",
+      "title": {
+        "t": "so and such, too and enough",
+        "s": "so و such، too و enough",
+        "pr": "سُو اَند ساچ، تو اَند ایناف"
+      },
+      "explain": "**so** و **such** هر دو یعنی «این‌قدر، آن‌قدر، خیلی» و برای **تأکید** به کار می‌روند، ولی جایشان در جمله فرق دارد:\n**so + صفت یا قید**: **The food was so delicious.** / **She speaks so quickly.**\n**such + a / an + صفت + اسم مفرد**: **It was such a long trip.** با اسم **جمع** یا **غیرقابل‌شمارش** بدون a: **They are such kind people.** / **We had such good weather.**\nبرای گفتن **نتیجه**، بعد از هر دو **that** می‌آید: **It was so hot that we stayed inside.** = **It was such a hot day that we stayed inside.** (آن‌قدر گرم بود که در خانه ماندیم.)\n**too** و **enough** را از A2 می‌شناسید: **too + صفت** = «بیش از حد» (معنای منفی) و **صفت + enough** = «به اندازه‌ی کافی». یادتان باشد enough **بعد از صفت** ولی **قبل از اسم** می‌آید: **old enough** / **enough money**.\nهر دو می‌توانند **for + شخص** و **to + فعل** بگیرند: **The museum was too far for us to walk.** (موزه آن‌قدر دور بود که نمی‌توانستیم پیاده برویم.) / **He isn't old enough to travel alone.**\nدقت کنید: **so much / so many** («این‌همه») برای تأکید است، ولی **too much / too many** یعنی «بیش از حد»: **There were so many tourists!** / **There were too many tourists, so we left.**",
+      "table": [
+        [
+          "so + adjective or adverb",
+          "The city was so beautiful."
+        ],
+        [
+          "such a + adjective + noun",
+          "It was such a beautiful city."
+        ],
+        [
+          "too + adjective + to",
+          "It's too cold to swim."
+        ],
+        [
+          "adjective + enough + to",
+          "It's warm enough to swim."
+        ],
+        [
+          "enough + noun",
+          "We don't have enough time."
+        ]
+      ],
+      "examples": [
+        {
+          "t": "The people were so friendly that we didn't want to leave.",
+          "s": "مردم آن‌قدر خونگرم بودند که نمی‌خواستیم برویم.",
+          "pr": "ذِ پیپِل وِر سُو فْرِنْدْلی ذَت وی دیدِنْت وانْت تو لیو."
+        },
+        {
+          "t": "It was such a long flight that I slept for twelve hours afterward.",
+          "s": "آن‌قدر پرواز طولانی‌ای بود که بعدش دوازده ساعت خوابیدم.",
+          "pr": "ایت واز ساچ اِ لانگ فْلایت ذَت آی سْلِپْت فُر تْوِلْو آوِرز اَفْتِرْوِرد."
+        },
+        {
+          "t": "The tea was too hot to drink right away.",
+          "s": "چای آن‌قدر داغ بود که نمی‌شد فوراً خوردش.",
+          "pr": "ذِ تی واز تو هات تو دْرینک رایت اِوِی."
+        },
+        {
+          "t": "My son isn't old enough to travel alone yet.",
+          "s": "پسرم هنوز آن‌قدر بزرگ نشده که تنها سفر کند.",
+          "pr": "مای سان ایزِنْت اُولْد ایناف تو تْرَوِل اِلُون یِت."
+        },
+        {
+          "t": "We had such good weather that we spent every day outside.",
+          "s": "هوا آن‌قدر خوب بود که هر روز را بیرون گذراندیم.",
+          "pr": "وی هَد ساچ گود وِذِر ذَت وی سْپِنْت اِوْری دِی آوتْساید."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "choice",
+          "t": "It was ___ a beautiful day that we walked all the way to the bazaar.",
+          "options": [
+            "such",
+            "so",
+            "too"
+          ],
+          "answer": 0,
+          "s": "آن‌قدر روز زیبایی بود که تمام راه را تا بازار پیاده رفتیم.",
+          "pr": "ایت واز ساچ اِ بیوتِفِل دِی ذَت وی واکْت آل ذِ وِی تو ذِ بِزار."
+        },
+        {
+          "type": "choice",
+          "t": "The museum was ___ crowded that we couldn't see anything.",
+          "options": [
+            "so",
+            "such",
+            "enough"
+          ],
+          "answer": 0,
+          "s": "موزه آن‌قدر شلوغ بود که نمی‌توانستیم چیزی ببینیم.",
+          "pr": "ذِ میوزیئِم واز سُو کْراودِد ذَت وی کودِنْت سی اِنیثینگ."
+        },
+        {
+          "type": "choice",
+          "t": "This suitcase is ___ heavy for me to carry.",
+          "options": [
+            "too",
+            "so",
+            "enough"
+          ],
+          "answer": 0,
+          "s": "این چمدان برای من آن‌قدر سنگین است که نمی‌توانم حملش کنم.",
+          "pr": "ذیس سوتْکِیس ایز تو هِوی فُر میْ تو کَری."
+        },
+        {
+          "type": "type",
+          "t": "Is the water warm ___ to swim in?",
+          "answer": [
+            "enough"
+          ],
+          "s": "آب آن‌قدر گرم هست که بشود در آن شنا کرد؟",
+          "pr": "ایز ذِ واتِر وُرم ایناف تو سْویم این؟"
+        },
+        {
+          "type": "type",
+          "t": "They are ___ kind people. They invited us to dinner on our first day.",
+          "answer": [
+            "such"
+          ],
+          "s": "آن‌ها آدم‌های خیلی مهربانی هستند. همان روز اول ما را به شام دعوت کردند.",
+          "pr": "ذِی آر ساچ کاینْد پیپِل. ذِی اینْوایتِد آس تو دینِر آن آوِر فِرسْت دِی."
+        },
+        {
+          "type": "choice",
+          "t": "We didn't have ___ to visit Persepolis.",
+          "options": [
+            "enough time",
+            "enough of time",
+            "too much time"
+          ],
+          "answer": 0,
+          "s": "وقت کافی نداشتیم که از تخت جمشید دیدن کنیم.",
+          "pr": "وی دیدِنْت هَو ایناف تایم تو ویزِت پِرسِپِلِس."
+        },
+        {
+          "type": "order",
+          "t": "The hotel was too expensive for us.",
+          "s": "هتل برای ما بیش از حد گران بود.",
+          "pr": "ذِ هُوتِل واز تو ایکْسْپِنْسیو فُر آس."
+        },
+        {
+          "type": "order",
+          "t": "It was such a wonderful trip.",
+          "s": "سفر فوق‌العاده‌ای بود.",
+          "pr": "ایت واز ساچ اِ واندِرفِل تْریپ."
+        }
+      ]
+    }
+  ],
+  "reading": {
+    "title": {
+      "t": "My first year in Hamburg",
+      "s": "اولین سالم در هامبورگ",
+      "pr": "مای فِرسْت ییر این هَمْبِرگ"
+    },
+    "text": [
+      {
+        "t": "When I moved to Hamburg last year, I knew very little German and few people in the city.",
+        "s": "وقتی پارسال به هامبورگ آمدم، آلمانی خیلی کمی بلد بودم و آدم‌های خیلی کمی را در شهر می‌شناختم.",
+        "pr": "وِن آی موود تو هَمْبِرگ لَسْت ییر، آی نو وِری لیتِل جِرمِن اَند فیو پیپِل این ذِ سیتی."
+      },
+      {
+        "t": "The first few weeks were such a shock!",
+        "s": "چند هفته‌ی اول واقعاً شوکه‌کننده بود!",
+        "pr": "ذِ فِرسْت فیو ویکْس وِر ساچ اِ شاک!"
+      },
+      {
+        "t": "On my first Sunday, I went out to buy bread, but none of the supermarkets were open.",
+        "s": "اولین یکشنبه برای خرید نان بیرون رفتم، ولی هیچ‌کدام از سوپرمارکت‌ها باز نبودند.",
+        "pr": "آن مای فِرسْت سانْدِی، آی وِنْت آوت تو بای بْرِد، بات نان آو ذِ سوپِرمارکِتْس وِر اُوپِن."
+      },
+      {
+        "t": "Nobody had told me that almost every shop in Germany is closed on Sundays.",
+        "s": "هیچ‌کس به من نگفته بود که در آلمان تقریباً همه‌ی مغازه‌ها یکشنبه‌ها تعطیل‌اند.",
+        "pr": "نُوبادی هَد تُولْد میْ ذَت آلْمُوسْت اِوْری شاپ این جِرمِنی ایز کْلُوزْد آن سانْدِیز."
+      },
+      {
+        "t": "People here are also very punctual: if a meeting starts at nine, everyone arrives a few minutes early.",
+        "s": "مردم اینجا خیلی هم وقت‌شناس‌اند: اگر جلسه‌ای ساعت نُه شروع شود، همه چند دقیقه زودتر می‌رسند.",
+        "pr": "پیپِل هیر آر آلْسُو وِری پانْکْچوئِل: ایف اِ میتینگ سْتارتْس اَت ناین، اِوْریوان اِرایوْز اِ فیو مینِتْس اِرلی."
+      },
+      {
+        "t": "At first, I found this a little stressful.",
+        "s": "اولش این موضوع برایم کمی استرس‌زا بود.",
+        "pr": "اَت فِرسْت، آی فاونْد ذیس اِ لیتِل سْتْرِسْفِل."
+      },
+      {
+        "t": "My two neighbors seemed so serious at first that I thought they didn't like me.",
+        "s": "دو همسایه‌ام اولش آن‌قدر جدی به نظر می‌رسیدند که فکر می‌کردم از من خوششان نمی‌آید.",
+        "pr": "مای تو نِیبِرز سیمْد سُو سیریِس اَت فِرسْت ذَت آی ثات ذِی دیدِنْت لایک میْ."
+      },
+      {
+        "t": "But when I invited both of them for tea and homemade cookies, everything changed.",
+        "s": "اما وقتی هر دویشان را برای چای و شیرینی خانگی دعوت کردم، همه‌چیز عوض شد.",
+        "pr": "بات وِن آی اینْوایتِد بُوث آو ذِم فُر تی اَند هُوم‌مِید کوکیز، اِوْریثینگ چِینْجْد."
+      },
+      {
+        "t": "Now they both water my plants when I travel, and I help their kids with their math homework.",
+        "s": "حالا هر دویشان وقتی سفر می‌روم به گل‌هایم آب می‌دهند و من هم در تکالیف ریاضی به بچه‌هایشان کمک می‌کنم.",
+        "pr": "ناو ذِی بُوث واتِر مای پْلَنْتْس وِن آی تْرَوِل، اَند آی هِلْپ ذِر کیدْز ویذ ذِر مَث هُوم‌وِرک."
+      },
+      {
+        "t": "I've learned that people here are not cold; many of them just need a little more time to open up.",
+        "s": "یاد گرفته‌ام که مردم اینجا سرد نیستند؛ خیلی‌هایشان فقط کمی زمان بیشتری لازم دارند تا با آدم صمیمی شوند.",
+        "pr": "آیو لِرنْد ذَت پیپِل هیر آر نات کُولْد؛ مِنی آو ذِم جاسْت نید اِ لیتِل مُر تایم تو اُوپِن آپ."
+      },
+      {
+        "t": "My German still isn't good enough to follow the news, but I can chat with the baker every morning.",
+        "s": "آلمانی‌ام هنوز آن‌قدر خوب نیست که اخبار را بفهمم، ولی می‌توانم هر روز صبح با نانوا گپ بزنم.",
+        "pr": "مای جِرمِن سْتیل ایزِنْت گود ایناف تو فالُو ذِ نوز، بات آی کَن چَت ویذ ذِ بِیکِر اِوْری مُرنینگ."
+      },
+      {
+        "t": "My advice to anyone moving abroad? Be patient, learn a few words every day, and don't be afraid of making mistakes.",
+        "s": "توصیه‌ام به هر کسی که به خارج می‌رود؟ صبور باشید، هر روز چند کلمه یاد بگیرید و از اشتباه کردن نترسید.",
+        "pr": "مای اِدْوایس تو اِنیوان مووینگ اِبْراد؟ بی پِیشِنْت، لِرن اِ فیو وِرْدز اِوْری دِی، اَند دُونت بی اِفْرِید آو مِیکینگ میسْتِیکْس."
+      }
+    ],
+    "questions": [
+      {
+        "q": {
+          "t": "How much German did the writer know when she arrived?",
+          "s": "نویسنده وقتی رسید چقدر آلمانی بلد بود؟",
+          "pr": "هاو ماچ جِرمِن دید ذِ رایتِر نُو وِن شی اِرایوْد؟"
+        },
+        "options": [
+          "very little",
+          "a lot",
+          "enough to follow the news"
+        ],
+        "answer": 0
+      },
+      {
+        "q": {
+          "t": "What happened on her first Sunday?",
+          "s": "اولین یکشنبه چه اتفاقی افتاد؟",
+          "pr": "وات هَپِنْد آن هِر فِرسْت سانْدِی؟"
+        },
+        "options": [
+          "She couldn't buy bread because the shops were closed.",
+          "She got lost in the city.",
+          "She met her neighbors on the stairs."
+        ],
+        "answer": 0
+      },
+      {
+        "q": {
+          "t": "What did she think about her neighbors at first?",
+          "s": "اولش درباره‌ی همسایه‌هایش چه فکری می‌کرد؟",
+          "pr": "وات دید شی ثینک اِباوت هِر نِیبِرز اَت فِرسْت؟"
+        },
+        "options": [
+          "They were very noisy.",
+          "They didn't like her.",
+          "They were too busy to talk."
+        ],
+        "answer": 1
+      },
+      {
+        "q": {
+          "t": "What changed her relationship with her neighbors?",
+          "s": "چه چیزی رابطه‌اش را با همسایه‌ها تغییر داد؟",
+          "pr": "وات چِینْجْد هِر ریلِیشِنْشیپ ویذ هِر نِیبِرز؟"
+        },
+        "options": [
+          "She invited them for tea.",
+          "She helped them move.",
+          "She gave them flowers."
+        ],
+        "answer": 0
+      },
+      {
+        "q": {
+          "t": "What can't she do in German yet?",
+          "s": "او هنوز چه کاری را به آلمانی نمی‌تواند انجام دهد؟",
+          "pr": "وات کَنت شی دو این جِرمِن یِت؟"
+        },
+        "options": [
+          "chat with the baker",
+          "follow the news",
+          "say hello"
+        ],
+        "answer": 1
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "t": "Few tourists know about this beautiful village.",
+      "s": "توریست‌های کمی از این روستای زیبا خبر دارند.",
+      "pr": "فیو تورِسْتْس نُو اِباوت ذیس بیوتِفِل ویلِج."
+    },
+    {
+      "t": "Could I have a little more tea, please?",
+      "s": "می‌شود لطفاً کمی دیگر چای بخورم؟",
+      "pr": "کود آی هَو اِ لیتِل مُر تی، پْلیز؟"
+    },
+    {
+      "t": "Both hotels were full, so we stayed with a local family.",
+      "s": "هر دو هتل پر بودند، برای همین پیش یک خانواده‌ی محلی ماندیم.",
+      "pr": "بُوث هُوتِلْز وِر فول، سُو وی سْتِید ویذ اِ لُوکِل فَمِلی."
+    },
+    {
+      "t": "Neither restaurant accepted credit cards.",
+      "s": "هیچ‌کدام از آن دو رستوران کارت اعتباری قبول نمی‌کرد.",
+      "pr": "نیذِر رِسْتِرانْت اِکْسِپْتِد کْرِدِت کاردْز."
+    },
+    {
+      "t": "Every culture has its own idea of good manners.",
+      "s": "هر فرهنگی تصور خودش را از ادب دارد.",
+      "pr": "اِوْری کالْچِر هَز ایتْس اُون آیدیا آو گود مَنِرز."
+    },
+    {
+      "t": "The bazaar was so big that we got lost twice.",
+      "s": "بازار آن‌قدر بزرگ بود که دو بار گم شدیم.",
+      "pr": "ذِ بِزار واز سُو بیگ ذَت وی گات لاسْت تْوایس."
+    },
+    {
+      "t": "Is your English good enough to work abroad?",
+      "s": "انگلیسی‌ات آن‌قدر خوب هست که در خارج کار کنی؟",
+      "pr": "ایز یور اینگْلیش گود ایناف تو وِرک اِبْراد؟"
+    },
+    {
+      "t": "I suffered from jet lag for a few days.",
+      "s": "چند روز از خستگیِ اختلاف ساعت رنج می‌بردم.",
+      "pr": "آی سافِرْد فْرام جِت لَگ فُر اِ فیو دِیز."
+    }
+  ]
+}

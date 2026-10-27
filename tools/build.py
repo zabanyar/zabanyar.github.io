@@ -117,7 +117,7 @@ def speakable(text, lang="en"):
     """the text the voice reads: no grammar notation, symbols, abbreviations or (except English) digits"""
     t = text.replace("___", "…")
     t = re.sub(r"\s*\([^)]*\)", "", t)                     # grammar hints in brackets: "(über + A)"
-    t = re.sub(r"\s*\+\s*(A|D|G|Akk|Dat|Gen|Akk\.|Dat\.|Gen\.)\b\.?", "", t)  # "+ D"
+    t = re.sub(r"\s*\+\s*(A|D|G|N|Akk|Dat|Gen|Akk\.|Dat\.|Gen\.)\b\.?", "", t)  # "+ D"
     t = t.replace("jdn.", "jemanden").replace("jdm.", "jemandem").replace("etw.", "etwas").replace("sth.", "something")
     for a, b in ABBR.get(lang, []):
         t = t.replace(a, b)

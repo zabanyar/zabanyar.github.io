@@ -1,0 +1,718 @@
+{
+  "id": "u07",
+  "level": "C1",
+  "emoji": "🎙️",
+  "title": {
+    "t": "Medya ve tartışma kültürü",
+    "s": "رسانه و فرهنگ گفت‌وگو"
+  },
+  "goals": [
+    "در یک بحث تلویزیونی یا جلسه نظرم را با عبارت‌های رسمی و سنجیده (kanımca، -dığı kanısındayım، -dığını düşünmekteyim) بیان کنم.",
+    "مخالفتم را مؤدبانه و نرم بگویم (haklısınız ama، -e katılmakla birlikte، öte yandan).",
+    "درباره‌ی قطبی‌شدن جامعه، افکار عمومی، سانسور و اخلاق رسانه‌ای صحبت کنم.",
+    "یک ستون نظر را بخوانم و موضع نویسنده را تشخیص دهم."
+  ],
+  "words": [
+    {
+      "id": "w01",
+      "t": "kamuoyu",
+      "s": "افکار عمومی",
+      "pr": "کاموئُیو",
+      "emoji": "",
+      "ex": {
+        "t": "Bu karar kamuoyunda büyük tepki çekti.",
+        "s": "این تصمیم در افکار عمومی واکنش گسترده‌ای برانگیخت."
+      }
+    },
+    {
+      "id": "w02",
+      "t": "kutuplaşma",
+      "s": "قطبی‌شدن (جامعه)",
+      "pr": "کوتوپلاشما",
+      "emoji": "",
+      "ex": {
+        "t": "Sosyal medya toplumdaki kutuplaşmayı derinleştiriyor.",
+        "s": "شبکه‌های اجتماعی قطبی‌شدن جامعه را عمیق‌تر می‌کنند."
+      }
+    },
+    {
+      "id": "w03",
+      "t": "tartışma programı",
+      "pl": "tartışma programları",
+      "s": "برنامه‌ی گفت‌وگومحور (تلویزیونی)",
+      "pr": "تارتِشما پْرُگرامِ",
+      "emoji": "📺",
+      "ex": {
+        "t": "Dün akşamki tartışma programında konuklar birbirinin sözünü kesip durdu.",
+        "s": "در برنامه‌ی گفت‌وگوی دیشب، مهمان‌ها مدام حرف همدیگر را قطع می‌کردند."
+      }
+    },
+    {
+      "id": "w04",
+      "t": "köşe yazarı",
+      "pl": "köşe yazarları",
+      "s": "ستون‌نویس",
+      "pr": "کُشِه یازارِ",
+      "emoji": "📰",
+      "ex": {
+        "t": "Köşe yazarı bu hafta eğitim sistemini eleştirdi.",
+        "s": "ستون‌نویس این هفته نظام آموزشی را نقد کرد."
+      }
+    },
+    {
+      "id": "w05",
+      "t": "sansür",
+      "s": "سانسور",
+      "pr": "سانسور",
+      "emoji": "",
+      "ex": {
+        "t": "Sansür, ifade özgürlüğünün önündeki en büyük engeldir.",
+        "s": "سانسور بزرگ‌ترین مانع آزادی بیان است."
+      }
+    },
+    {
+      "id": "w06",
+      "t": "ifade özgürlüğü",
+      "s": "آزادی بیان",
+      "pr": "ایفادِه اُزگورلویو",
+      "emoji": "",
+      "ex": {
+        "t": "İfade özgürlüğü demokrasinin temel taşlarından biridir.",
+        "s": "آزادی بیان یکی از سنگ‌بناهای دموکراسی است."
+      }
+    },
+    {
+      "id": "w07",
+      "t": "dezenformasyon",
+      "s": "اطلاعات نادرستِ هدفمند",
+      "pr": "دِزِنفُرماسیُن",
+      "emoji": "",
+      "ex": {
+        "t": "Seçim dönemlerinde dezenformasyon hızla yayılıyor.",
+        "s": "در دوره‌های انتخابات، اطلاعات نادرست به‌سرعت پخش می‌شود."
+      }
+    },
+    {
+      "id": "w08",
+      "t": "sözünü kesmek",
+      "s": "حرف کسی را قطع کردن",
+      "pr": "سُزونو کِسمِک",
+      "emoji": "",
+      "ex": {
+        "t": "Lütfen sözümü kesmeyin, cümlemi bitireyim.",
+        "s": "لطفاً حرفم را قطع نکنید، بگذارید جمله‌ام را تمام کنم."
+      }
+    },
+    {
+      "id": "w09",
+      "t": "karşı çıkmak",
+      "s": "مخالفت کردن (با)",
+      "pr": "کارشِ چِکماک",
+      "emoji": "",
+      "ex": {
+        "t": "Bu öneriye en çok gençler karşı çıktı.",
+        "s": "بیشترین مخالفت با این پیشنهاد از سوی جوان‌ها بود."
+      }
+    },
+    {
+      "id": "w10",
+      "t": "savunmak",
+      "s": "دفاع کردن (از)",
+      "pr": "ساوونماک",
+      "emoji": "",
+      "ex": {
+        "t": "Herkes kendi görüşünü savunma hakkına sahiptir.",
+        "s": "همه حق دارند از دیدگاه خود دفاع کنند."
+      }
+    },
+    {
+      "id": "w11",
+      "t": "çürütmek",
+      "s": "رد کردن، باطل کردن (استدلال)",
+      "pr": "چوروتمِک",
+      "emoji": "",
+      "ex": {
+        "t": "Karşı tarafın iddialarını verilerle çürüttü.",
+        "s": "ادعاهای طرف مقابل را با داده‌ها رد کرد."
+      }
+    },
+    {
+      "id": "w12",
+      "t": "argüman",
+      "pl": "argümanlar",
+      "s": "استدلال",
+      "pr": "آرگومان",
+      "emoji": "",
+      "ex": {
+        "t": "Bu argüman ilk bakışta ikna edici görünüyor.",
+        "s": "این استدلال در نگاه اول قانع‌کننده به نظر می‌رسد."
+      }
+    },
+    {
+      "id": "w13",
+      "t": "tık tuzağı",
+      "s": "طعمه‌ی کلیک (تیتر فریبنده)",
+      "pr": "تِک توزائِ",
+      "emoji": "",
+      "ex": {
+        "t": "Bu başlık tamamen tık tuzağı; haberle hiçbir ilgisi yok.",
+        "s": "این تیتر فقط طعمه‌ی کلیک است؛ هیچ ربطی به خبر ندارد."
+      }
+    },
+    {
+      "id": "w14",
+      "t": "yankı odası",
+      "pl": "yankı odaları",
+      "s": "اتاق پژواک",
+      "pr": "یانکِ اُداسِ",
+      "emoji": "",
+      "ex": {
+        "t": "Sadece aynı fikirdeki insanları takip edersek bir yankı odasına hapsoluruz.",
+        "s": "اگر فقط آدم‌های هم‌فکر خودمان را دنبال کنیم، در یک اتاق پژواک زندانی می‌شویم."
+      }
+    },
+    {
+      "id": "w15",
+      "t": "uzlaşmak",
+      "s": "به توافق رسیدن؛ سازش کردن",
+      "pr": "اوزلاشماک",
+      "emoji": "🤝",
+      "ex": {
+        "t": "Uzun bir tartışmadan sonra iki taraf sonunda uzlaştı.",
+        "s": "پس از بحثی طولانی، دو طرف سرانجام به توافق رسیدند."
+      }
+    }
+  ],
+  "phrases": [
+    {
+      "id": "p01",
+      "t": "Sözünüzü kesiyorum ama…",
+      "s": "ببخشید که حرفتان را قطع می‌کنم، اما…",
+      "pr": "سُزونوزو کِسیُروم آما…"
+    },
+    {
+      "id": "p02",
+      "t": "Lütfen cümlemi bitirmeme izin verin.",
+      "s": "لطفاً اجازه بدهید جمله‌ام را تمام کنم.",
+      "pr": "لوتفِن جوملِ‌می بیتیرمِمِه ایزین وِرین."
+    },
+    {
+      "id": "p03",
+      "t": "Konuyu saptırmayalım.",
+      "s": "بحث را منحرف نکنیم.",
+      "pr": "کُنویو ساپتِرمایالِم."
+    },
+    {
+      "id": "p04",
+      "t": "Bunu neye dayanarak söylüyorsunuz?",
+      "s": "این را بر چه اساسی می‌گویید؟",
+      "pr": "بونو نِیِه دایاناراک سُیلویُرسونوز؟"
+    },
+    {
+      "id": "p05",
+      "t": "Meseleye bir de şu açıdan bakalım.",
+      "s": "بیایید از این زاویه هم به مسئله نگاه کنیم.",
+      "pr": "مِسِلِیِه بیر دِه شو آچِدان باکالِم."
+    },
+    {
+      "id": "p06",
+      "t": "Burada bir yanlış anlaşılma var sanırım.",
+      "s": "فکر کنم این‌جا سوءتفاهمی پیش آمده.",
+      "pr": "بورادا بیر یانلِش آنلاشِلما وار سانِرِم."
+    },
+    {
+      "id": "p07",
+      "t": "Bu konuda farklı düşünüyorum.",
+      "s": "در این باره نظر دیگری دارم.",
+      "pr": "بو کُنودا فارکلِ دوشونویُروم."
+    },
+    {
+      "id": "p08",
+      "t": "Ortak bir noktada buluşabiliriz.",
+      "s": "می‌توانیم در یک نقطه‌ی مشترک به هم برسیم.",
+      "pr": "اُرتاک بیر نُکتادا بولوشابیلیریز."
+    }
+  ],
+  "dialogue": {
+    "title": {
+      "t": "Canlı yayında bir tartışma",
+      "s": "بحثی در برنامه‌ی زنده"
+    },
+    "speakers": {
+      "A": {
+        "name": "Zeynep",
+        "voice": "f"
+      },
+      "B": {
+        "name": "Ali",
+        "voice": "m"
+      }
+    },
+    "lines": [
+      {
+        "sp": "A",
+        "t": "Ali Bey, bazı ülkelerde on altı yaşın altındaki çocuklara sosyal medyanın yasaklanması tartışılıyor. Sizce bu doğru bir adım mı?",
+        "s": "آقای علی، در برخی کشورها ممنوع کردن شبکه‌های اجتماعی برای کودکان زیر شانزده سال مطرح است. به نظر شما این قدم درستی است؟"
+      },
+      {
+        "sp": "B",
+        "t": "Kanımca yasak tek başına bir çözüm değil; çocuklar mutlaka bir yolunu bulur.",
+        "s": "به عقیده‌ی من ممنوعیت به‌تنهایی راه‌حل نیست؛ بچه‌ها حتماً راهی پیدا می‌کنند."
+      },
+      {
+        "sp": "A",
+        "t": "Haklısınız ama hiçbir şey yapmamak da bir seçenek değil. Uzmanlar, ekran bağımlılığının çok erken yaşta başladığını söylüyor.",
+        "s": "حق با شماست، اما هیچ کاری نکردن هم گزینه‌ای نیست. کارشناسان می‌گویند وابستگی به صفحه‌نمایش از سنین خیلی پایین شروع می‌شود."
+      },
+      {
+        "sp": "B",
+        "t": "Buna katılmakla birlikte, sorumluluğun önce ailelere düştüğünü düşünmekteyim.",
+        "s": "ضمن اینکه با این موافقم، فکر می‌کنم مسئولیت پیش از همه بر دوش خانواده‌هاست."
+      },
+      {
+        "sp": "A",
+        "t": "Peki ama her aile bu konuda yeterince bilinçli mi? Bana kalırsa devletin de bir rolü olmalı.",
+        "s": "خب، اما آیا همه‌ی خانواده‌ها در این زمینه به اندازه‌ی کافی آگاه‌اند؟ اگر از من بپرسید، دولت هم باید نقشی داشته باشد."
+      },
+      {
+        "sp": "B",
+        "t": "Sözünüzü kesiyorum ama devletin rolü yasaklamak değil, eğitmek olmalı.",
+        "s": "ببخشید که حرفتان را قطع می‌کنم، اما نقش دولت باید آموزش دادن باشد، نه ممنوع کردن."
+      },
+      {
+        "sp": "A",
+        "t": "Lütfen cümlemi bitirmeme izin verin. Ben de eğitimin şart olduğu kanısındayım; öte yandan platformların da denetlenmesi gerekiyor.",
+        "s": "لطفاً اجازه بدهید جمله‌ام را تمام کنم. من هم بر این عقیده‌ام که آموزش ضروری است؛ از سوی دیگر، پلتفرم‌ها هم باید نظارت شوند."
+      },
+      {
+        "sp": "B",
+        "t": "Bu noktada size tamamen katılıyorum. Algoritmalar çocukları saatlerce ekrana bağlıyor.",
+        "s": "در این مورد کاملاً با شما موافقم. الگوریتم‌ها بچه‌ها را ساعت‌ها پای صفحه‌نمایش میخکوب می‌کنند."
+      },
+      {
+        "sp": "A",
+        "t": "Demek ki ortak bir noktada buluşabiliriz: hem eğitim hem denetim.",
+        "s": "پس می‌توانیم در یک نقطه‌ی مشترک به هم برسیم: هم آموزش، هم نظارت."
+      },
+      {
+        "sp": "B",
+        "t": "Kesinlikle. Ama yasak konusunda hâlâ farklı düşünüyorum.",
+        "s": "قطعاً. اما درباره‌ی ممنوعیت هنوز نظر دیگری دارم."
+      }
+    ]
+  },
+  "grammar": [
+    {
+      "id": "g01",
+      "title": {
+        "t": "Kanımca… / -dığı kanısındayım",
+        "s": "بیان نظر در سبک‌های مختلف: از «به نظرم» تا «بر این عقیده‌ام که…»"
+      },
+      "explain": "در B2 با **bence** و **bana göre** آشنا شدید. در C1 باید بتوانید نظرتان را در سبک‌های مختلف بیان کنید؛ از خودمانی تا بسیار رسمی:\n**Bana kalırsa** = «اگر از من بپرسید / به نظر من»؛ گفتاری: **Bana kalırsa** bu program çok yüzeysel.\n**Kanımca** = «به عقیده‌ی من»؛ رسمی و نوشتاری (از **kanı** = عقیده). مترادفش **kanaatimce** است: **Kanımca** bu yasa yeniden ele alınmalı.\n**-dığını düşünmekteyim** = «فکر می‌کنم که…». جمله‌ی پیرو مفعولِ düşünmek است، پس **-dığını** (با پسوند مفعولی) می‌گیرد و فاعلش پسوند اضافه دارد: Bu karar**ın** yanlış **olduğunu düşünmekteyim**. پسوند -mekte (که در B2 دیدید) لحن را رسمی می‌کند؛ در گفتار همان **düşünüyorum** کافی است. دقت کنید که فعل‌های دیگر حالت دیگری می‌خواهند: -dığı**na** inanıyorum، -dığı**ndan** eminim.\n**-dığı kanısındayım** = «بر این عقیده‌ام که…»؛ بسیار رسمی. ساختش: جمله‌ی پیرو + **kanı-sı-nda-yım** (یعنی «در این عقیده هستم»). پسوند ملکیِ -dık با فاعلِ جمله‌ی پیرو هماهنگ است و چون این فاعل معمولاً سوم‌شخص است، بیشتر **-dığı** می‌بینیم: Sansür**ün** bir çözüm **olmadığı kanısındayım**. برای آینده: **-(y)acağı kanısındayım**. ساخت‌های هم‌خانواده: **-dığı görüşündeyim**، **-dığı inancındayım**.\nدر فارسی هم همین طیف را داریم: «به نظرم» ← «به عقیده‌ی من» ← «بر این باورم که…».",
+      "table": [
+        [
+          "gündelik",
+          "Bana kalırsa…",
+          "Bence…"
+        ],
+        [
+          "resmî",
+          "Kanımca…",
+          "Kanaatimce…"
+        ],
+        [
+          "resmî",
+          "-dığını düşünmekteyim",
+          "-dığına inanmaktayım"
+        ],
+        [
+          "çok resmî",
+          "-dığı kanısındayım",
+          "-dığı görüşündeyim"
+        ]
+      ],
+      "examples": [
+        {
+          "t": "Bana kalırsa bu tartışma programı izleyiciyi hiç bilgilendirmiyor.",
+          "s": "اگر از من بپرسید، این برنامه‌ی گفت‌وگو اصلاً بیننده را آگاه نمی‌کند."
+        },
+        {
+          "t": "Kanımca medya, kutuplaşmayı azaltmak için daha fazla sorumluluk almalı.",
+          "s": "به عقیده‌ی من رسانه‌ها باید برای کاهش قطبی‌شدن مسئولیت بیشتری بپذیرند."
+        },
+        {
+          "t": "Bu haberin kamuoyunu yanılttığını düşünmekteyim.",
+          "s": "فکر می‌کنم این خبر افکار عمومی را گمراه کرده است."
+        },
+        {
+          "t": "Sansürün hiçbir sorunu çözmediği kanısındayım.",
+          "s": "بر این عقیده‌ام که سانسور هیچ مشکلی را حل نمی‌کند."
+        },
+        {
+          "t": "Yeni düzenlemenin basın özgürlüğünü kısıtlayacağı görüşündeyim.",
+          "s": "بر این نظرم که مقررات جدید آزادی مطبوعات را محدود خواهد کرد."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "choice",
+          "t": "Bu kararın yanlış ___ düşünmekteyim.",
+          "options": [
+            "olduğunu",
+            "olduğu",
+            "olduğuna"
+          ],
+          "answer": 0,
+          "s": "فکر می‌کنم این تصمیم اشتباه است."
+        },
+        {
+          "type": "choice",
+          "t": "Sansürün bir çözüm olmadığı ___.",
+          "options": [
+            "kanısındayım",
+            "kanımca",
+            "bana kalırsa"
+          ],
+          "answer": 0,
+          "s": "بر این عقیده‌ام که سانسور راه‌حل نیست."
+        },
+        {
+          "type": "choice",
+          "t": "Medyanın tarafsız olması gerektiğine ___.",
+          "options": [
+            "inanıyorum",
+            "düşünüyorum",
+            "kanısındayım"
+          ],
+          "answer": 0,
+          "s": "معتقدم که رسانه‌ها باید بی‌طرف باشند."
+        },
+        {
+          "type": "choice",
+          "t": "___ bu dizi gereksiz yere uzadı.",
+          "options": [
+            "Bana kalırsa",
+            "Kanısındayım",
+            "Olduğunu düşünüyorum"
+          ],
+          "answer": 0,
+          "s": "اگر از من بپرسی، این سریال بی‌خودی طولانی شد."
+        },
+        {
+          "type": "type",
+          "t": "Bu programın izleyiciyi ___ düşünmekteyim.",
+          "answer": [
+            "yanılttığını"
+          ],
+          "s": "فکر می‌کنم این برنامه بیننده را گمراه می‌کند."
+        },
+        {
+          "type": "type",
+          "t": "Gençlerin bu konuda haklı ___ kanısındayım.",
+          "answer": [
+            "olduğu",
+            "oldukları"
+          ],
+          "s": "بر این عقیده‌ام که جوان‌ها در این مورد حق دارند."
+        },
+        {
+          "type": "type",
+          "t": "___, bu yasa yeniden düzenlenmeli.",
+          "answer": [
+            "Kanımca",
+            "Kanaatimce",
+            "Bence",
+            "Bana kalırsa",
+            "Bana göre"
+          ],
+          "s": "به عقیده‌ی من، این قانون باید از نو تنظیم شود."
+        },
+        {
+          "type": "order",
+          "t": "Bu haberin doğru olmadığını düşünmekteyim.",
+          "s": "فکر می‌کنم این خبر درست نیست."
+        }
+      ]
+    },
+    {
+      "id": "g02",
+      "title": {
+        "t": "Haklısınız ama… / -e katılmakla birlikte… / öte yandan",
+        "s": "مخالفت مؤدبانه و نرم کردن نقد"
+      },
+      "explain": "در بحث جدی، مخالفت مستقیم (مثل «Yanılıyorsunuz!» = اشتباه می‌کنید!) معمولاً تند به نظر می‌رسد. ترک‌زبان‌ها اغلب اول بخشی از حرف طرف مقابل را می‌پذیرند و بعد نقدشان را می‌گویند:\n**Haklısınız ama… / Haklı olabilirsiniz ama…** = «حق با شماست / شاید حق با شما باشد، اما…»؛ ساده و گفتاری. نرم‌ترش: **Bir noktada haklısınız, ancak…**\n**-(y)e katılmakla birlikte** = «ضمن موافقت با…»؛ رسمی. katılmak (موافق بودن) با حالت **به‌سوی (-e)** می‌آید: Bu görüş**e** katıl**makla birlikte**, bazı çekincelerim var. ساخت کلیِ **-mekle / -makla birlikte** = «با اینکه / در عین اینکه» با فعل‌های دیگر هم می‌آید: Fikri beğen**mekle birlikte** uygulanabilir bulmuyorum.\n**öte yandan** = «از سوی دیگر»؛ برای آوردن دیدگاه مقابل. همان‌طور که در B2 دیدید، اغلب با **bir yandan** جفت می‌شود: **Bir yandan** ifade özgürlüğü önemli, **öte yandan** dezenformasyon gerçek bir tehlike.\nبرای نرم‌تر کردن نقد، این‌ها هم به کار می‌آیند: **açıkçası** (راستش)، **yalnız** (فقط، منتها)، **pek emin değilim** (چندان مطمئن نیستم) و فعل‌های احتمالی مثل **-abilir**.",
+      "table": [
+        [
+          "gündelik",
+          "Haklısın ama…"
+        ],
+        [
+          "kibar",
+          "Bir noktada haklısınız, ancak…"
+        ],
+        [
+          "resmî",
+          "Bu görüşe katılmakla birlikte…"
+        ],
+        [
+          "karşı görüş",
+          "Bir yandan…, öte yandan…"
+        ]
+      ],
+      "examples": [
+        {
+          "t": "Haklısınız ama bu verileri nereden aldığınızı da bilmemiz gerekiyor.",
+          "s": "حق با شماست، اما باید بدانیم این داده‌ها را از کجا آورده‌اید."
+        },
+        {
+          "t": "Bu öneriye katılmakla birlikte, uygulamada bazı sorunlar çıkabileceğini düşünüyorum.",
+          "s": "ضمن موافقت با این پیشنهاد، فکر می‌کنم در عمل ممکن است مشکلاتی پیش بیاید."
+        },
+        {
+          "t": "Sosyal medya insanları birbirine bağlıyor; öte yandan yankı odaları yaratıyor.",
+          "s": "شبکه‌های اجتماعی آدم‌ها را به هم وصل می‌کنند؛ از سوی دیگر اتاق‌های پژواک می‌سازند."
+        },
+        {
+          "t": "Makaleyi ilginç bulmakla birlikte, sonucuna katılmıyorum.",
+          "s": "با اینکه مقاله را جالب می‌دانم، با نتیجه‌گیری‌اش موافق نیستم."
+        },
+        {
+          "t": "Bir noktada haklısınız, ancak meseleye bir de izleyici açısından bakalım.",
+          "s": "از یک جهت حق با شماست، اما بیایید از زاویه‌ی بیننده هم به مسئله نگاه کنیم."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "choice",
+          "t": "Bu ___ katılmakla birlikte, bazı eksikleri olduğunu düşünüyorum.",
+          "options": [
+            "görüşe",
+            "görüşü",
+            "görüşte"
+          ],
+          "answer": 0,
+          "s": "ضمن موافقت با این دیدگاه، فکر می‌کنم کاستی‌هایی دارد."
+        },
+        {
+          "type": "choice",
+          "t": "Öneriyi ___ birlikte, bütçesini gerçekçi bulmuyorum.",
+          "options": [
+            "beğenmekle",
+            "beğendiği",
+            "beğenerek"
+          ],
+          "answer": 0,
+          "s": "با اینکه پیشنهاد را می‌پسندم، بودجه‌اش را واقع‌بینانه نمی‌دانم."
+        },
+        {
+          "type": "choice",
+          "t": "Bir yandan hızlı haber almak güzel, ___ yanlış haber de çok hızlı yayılıyor.",
+          "options": [
+            "öte yandan",
+            "bu yüzden",
+            "çünkü"
+          ],
+          "answer": 0,
+          "s": "از یک سو خبر گرفتن سریع خوب است، از سوی دیگر خبر نادرست هم خیلی سریع پخش می‌شود."
+        },
+        {
+          "type": "choice",
+          "t": "___ ama bu konuda elimizde yeterli veri yok.",
+          "options": [
+            "Haklısınız",
+            "Katılmakla birlikte",
+            "Öte yandan"
+          ],
+          "answer": 0,
+          "s": "حق با شماست، اما در این مورد داده‌ی کافی در دست نداریم."
+        },
+        {
+          "type": "type",
+          "t": "Size ___ birlikte, bir konuda farklı düşünüyorum.",
+          "answer": [
+            "katılmakla"
+          ],
+          "s": "ضمن موافقت با شما، در یک مورد نظر دیگری دارم."
+        },
+        {
+          "type": "type",
+          "t": "Bir ___ ifade özgürlüğü önemli, öte yandan nefret söylemi de ciddi bir sorun.",
+          "answer": [
+            "yandan"
+          ],
+          "s": "از یک سو آزادی بیان مهم است، از سوی دیگر سخنان نفرت‌پراکن هم مشکلی جدی است."
+        },
+        {
+          "type": "type",
+          "t": "Bir noktada haklı ___ ama genelleme yapmamak lazım.",
+          "answer": [
+            "olabilirsiniz",
+            "olabilirsin"
+          ],
+          "s": "شاید از یک جهت حق با شما باشد، اما نباید تعمیم داد."
+        },
+        {
+          "type": "order",
+          "t": "Haklısınız ama durum biraz daha karmaşık.",
+          "s": "حق با شماست، اما وضعیت کمی پیچیده‌تر است."
+        }
+      ]
+    }
+  ],
+  "reading": {
+    "title": {
+      "t": "Tartışmayı unuttuk mu?",
+      "s": "آیا گفت‌وگو کردن را فراموش کرده‌ایم؟"
+    },
+    "text": [
+      {
+        "t": "Akşamları televizyonu açtığımda tartışma programlarında hep aynı manzarayla karşılaşıyorum.",
+        "s": "شب‌ها وقتی تلویزیون را روشن می‌کنم، در برنامه‌های گفت‌وگو همیشه با همان صحنه روبه‌رو می‌شوم."
+      },
+      {
+        "t": "Konuklar birbirinin sözünü kesiyor, sesini yükseltiyor ve karşı tarafı dinlemeden cevap veriyor.",
+        "s": "مهمان‌ها حرف هم را قطع می‌کنند، صدایشان را بالا می‌برند و بی‌آنکه به طرف مقابل گوش دهند، جواب می‌دهند."
+      },
+      {
+        "t": "Kanımca sorun, konuların zorluğunda değil, tartışma kültürümüzün zayıflığındadır.",
+        "s": "به عقیده‌ی من مشکل در دشواری موضوع‌ها نیست، در ضعف فرهنگ گفت‌وگوی ماست."
+      },
+      {
+        "t": "Sosyal medya da bu durumu daha da kötüleştiriyor.",
+        "s": "شبکه‌های اجتماعی هم این وضعیت را بدتر می‌کنند."
+      },
+      {
+        "t": "Algoritmalar bize yalnızca kendi görüşlerimize benzeyen paylaşımları gösterdiği için, farklı düşünen insanlarla neredeyse hiç karşılaşmıyoruz.",
+        "s": "چون الگوریتم‌ها فقط پست‌هایی را نشانمان می‌دهند که شبیه دیدگاه‌های خودمان است، تقریباً هیچ‌وقت با آدم‌هایی که جور دیگری فکر می‌کنند، روبه‌رو نمی‌شویم."
+      },
+      {
+        "t": "Böylece her birimiz kendi yankı odamıza kapanıyoruz.",
+        "s": "به این ترتیب هر کدام از ما در اتاق پژواک خودمان حبس می‌شویم."
+      },
+      {
+        "t": "Elbette bazı okurlarım, kutuplaşmanın medyadan çok siyasetten kaynaklandığını söyleyecektir.",
+        "s": "البته برخی از خوانندگانم خواهند گفت که قطبی‌شدن بیشتر از سیاست ناشی می‌شود تا از رسانه."
+      },
+      {
+        "t": "Bu görüşe kısmen katılmakla birlikte, medyanın sorumluluğunu küçümsememek gerektiği kanısındayım.",
+        "s": "ضمن اینکه تا حدی با این دیدگاه موافقم، بر این عقیده‌ام که نباید مسئولیت رسانه‌ها را دست‌کم گرفت."
+      },
+      {
+        "t": "Çünkü reyting kaygısıyla en sert konukları davet eden de, tık tuzağı başlıklar atan da medyadır.",
+        "s": "چون همین رسانه‌ها هستند که به خاطر نگرانیِ آمار بیننده، تندترین مهمان‌ها را دعوت می‌کنند و تیترهای طعمه‌ی کلیک می‌زنند."
+      },
+      {
+        "t": "Peki ne yapabiliriz?",
+        "s": "خب، چه کار می‌توانیم بکنیم؟"
+      },
+      {
+        "t": "Bana kalırsa işe okullardan başlamalıyız: Çocuklar, karşı görüşü önce anlamayı, sonra çürütmeyi öğrenmeli.",
+        "s": "اگر از من بپرسید، باید از مدرسه‌ها شروع کنیم: بچه‌ها باید یاد بگیرند که دیدگاه مخالف را اول بفهمند و بعد رد کنند."
+      },
+      {
+        "t": "Öte yandan biz yetişkinlerin de iyi bir örnek olması gerekiyor.",
+        "s": "از سوی دیگر، ما بزرگ‌ترها هم باید الگوی خوبی باشیم."
+      },
+      {
+        "t": "Bir dahaki tartışmanızda karşınızdakine “Haklısınız ama…” demeden önce, onun gerçekten haklı olup olmadığını bir düşünün.",
+        "s": "در بحث بعدی‌تان، پیش از اینکه به طرف مقابل بگویید «حق با شماست، اما…»، یک لحظه فکر کنید که آیا واقعاً حق با او هست یا نه."
+      }
+    ],
+    "questions": [
+      {
+        "q": {
+          "t": "Yazara göre tartışma programlarındaki asıl sorun nedir?",
+          "s": "به نظر نویسنده، مشکل اصلی برنامه‌های گفت‌وگو چیست؟"
+        },
+        "options": [
+          "Konuların çok zor olması",
+          "Tartışma kültürünün zayıf olması",
+          "Programların çok uzun olması"
+        ],
+        "answer": 1
+      },
+      {
+        "q": {
+          "t": "Algoritmalar bize ne tür paylaşımlar gösteriyor?",
+          "s": "الگوریتم‌ها چه نوع پست‌هایی به ما نشان می‌دهند؟"
+        },
+        "options": [
+          "Görüşlerimize benzeyen paylaşımlar",
+          "Farklı görüşleri savunan paylaşımlar",
+          "Yalnızca haber paylaşımları"
+        ],
+        "answer": 0
+      },
+      {
+        "q": {
+          "t": "Yazar, kutuplaşmanın siyasetten kaynaklandığı görüşüne ne ölçüde katılıyor?",
+          "s": "نویسنده تا چه حد با این دیدگاه موافق است که قطبی‌شدن از سیاست ناشی می‌شود؟"
+        },
+        "options": [
+          "Tamamen katılıyor",
+          "Hiç katılmıyor",
+          "Kısmen katılıyor"
+        ],
+        "answer": 2
+      },
+      {
+        "q": {
+          "t": "Yazara göre medya neden sorumlu?",
+          "s": "به نظر نویسنده، چرا رسانه‌ها مسئول‌اند؟"
+        },
+        "options": [
+          "Sert konukları davet ettiği ve tık tuzağı başlıklar attığı için",
+          "Siyasetçilerle hiç konuşmadığı için",
+          "Haberleri çok geç verdiği için"
+        ],
+        "answer": 0
+      },
+      {
+        "q": {
+          "t": "Yazara göre işe nereden başlamalıyız?",
+          "s": "به نظر نویسنده، از کجا باید شروع کنیم؟"
+        },
+        "options": [
+          "Okullardan",
+          "Televizyon kanallarından",
+          "Sosyal medya şirketlerinden"
+        ],
+        "answer": 0
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "t": "Kanımca bu tartışma hiçbir sonuca varmayacak.",
+      "s": "به عقیده‌ی من این بحث به هیچ نتیجه‌ای نمی‌رسد."
+    },
+    {
+      "t": "Lütfen sözümü kesmeyin.",
+      "s": "لطفاً حرفم را قطع نکنید."
+    },
+    {
+      "t": "Bu iddianın doğru olmadığı kanısındayım.",
+      "s": "بر این عقیده‌ام که این ادعا درست نیست."
+    },
+    {
+      "t": "Size katılmakla birlikte bazı çekincelerim var.",
+      "s": "ضمن موافقت با شما، چند ملاحظه دارم."
+    },
+    {
+      "t": "Haklısınız ama mesele bu kadar basit değil.",
+      "s": "حق با شماست، اما مسئله به این سادگی نیست."
+    },
+    {
+      "t": "Bu haber kamuoyunu yanıltmak için yazılmış.",
+      "s": "این خبر برای گمراه کردن افکار عمومی نوشته شده است."
+    },
+    {
+      "t": "İfade özgürlüğü herkes için geçerli olmalı.",
+      "s": "آزادی بیان باید برای همه برقرار باشد."
+    },
+    {
+      "t": "Sonunda iki taraf ortak bir noktada uzlaştı.",
+      "s": "سرانجام دو طرف بر سر یک نقطه‌ی مشترک به توافق رسیدند."
+    }
+  ]
+}

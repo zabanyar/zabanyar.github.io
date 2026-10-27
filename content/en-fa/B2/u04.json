@@ -1,0 +1,820 @@
+{
+  "id": "u04",
+  "level": "B2",
+  "emoji": "💡",
+  "title": {
+    "t": "Technology and innovation",
+    "s": "فناوری و نوآوری",
+    "pr": "تِکْنالِجی اَند اینِوِیشِن"
+  },
+  "goals": [
+    "می‌توانم درباره‌ی اختراع‌ها، نوآوری‌ها و اثر فناوری بر زندگی بحث کنم.",
+    "می‌توانم مجهول را در همه‌ی زمان‌ها و با فعل‌های وجهی (can، must، should …) به کار ببرم.",
+    "می‌توانم با have / get something done بگویم کاری را دیگران برایم انجام می‌دهند.",
+    "می‌توانم یک مشکل فنی را توضیح دهم و برای تعمیر هماهنگ کنم."
+  ],
+  "words": [
+    {
+      "id": "w01",
+      "t": "innovation",
+      "pl": "innovations",
+      "s": "نوآوری",
+      "pr": "اینِوِیشِن",
+      "emoji": "",
+      "ex": {
+        "t": "The smartphone was one of the biggest innovations of the century.",
+        "s": "گوشی هوشمند یکی از بزرگ‌ترین نوآوری‌های این قرن بود.",
+        "pr": "ذِ سْمارْتْفُون واز وان آو ذِ بیگِسْت اینِوِیشِنْز آو ذِ سِنْچِری."
+      }
+    },
+    {
+      "id": "w02",
+      "t": "cutting-edge",
+      "s": "بسیار پیشرفته، روزِ دنیا",
+      "pr": "کاتینگ اِج",
+      "emoji": "",
+      "ex": {
+        "t": "The hospital uses cutting-edge technology to treat cancer.",
+        "s": "این بیمارستان برای درمان سرطان از پیشرفته‌ترین فناوری‌ها استفاده می‌کند.",
+        "pr": "ذِ هاسْپیتِل یوزِز کاتینگ اِج تِکْنالِجی تو تْریت کَنْسِر."
+      }
+    },
+    {
+      "id": "w03",
+      "t": "breakthrough",
+      "pl": "breakthroughs",
+      "s": "دستاورد مهم، پیشرفت بزرگ",
+      "pr": "بْرِیکْثْرو",
+      "emoji": "",
+      "ex": {
+        "t": "Scientists have made an important breakthrough in battery technology.",
+        "s": "دانشمندان در فناوری باتری به دستاورد مهمی رسیده‌اند.",
+        "pr": "سایِنْتیسْتْس هَو مِید اِن ایمْپُرْتِنْت بْرِیکْثْرو این بَتِری تِکْنالِجی."
+      }
+    },
+    {
+      "id": "w04",
+      "t": "inventor",
+      "pl": "inventors",
+      "s": "مخترع",
+      "pr": "اینْوِنْتِر",
+      "emoji": "",
+      "ex": {
+        "t": "Who was the inventor of the telephone?",
+        "s": "مخترع تلفن چه کسی بود؟",
+        "pr": "هو واز ذی اینْوِنْتِر آو ذِ تِلِفُون؟"
+      }
+    },
+    {
+      "id": "w05",
+      "t": "patent",
+      "pl": "patents",
+      "s": "حق ثبت اختراع",
+      "pr": "پَتِنْت",
+      "emoji": "",
+      "ex": {
+        "t": "She got a patent for her new design.",
+        "s": "او برای طرح جدیدش حق ثبت اختراع گرفت.",
+        "pr": "شی گات اِ پَتِنْت فُر هِر نو دیزاین."
+      }
+    },
+    {
+      "id": "w06",
+      "t": "develop",
+      "s": "ساختن، توسعه دادن",
+      "pr": "دیوِلِپ",
+      "emoji": "",
+      "ex": {
+        "t": "Our company is developing an app for language learners.",
+        "s": "شرکت ما دارد یک اپلیکیشن برای زبان‌آموزان می‌سازد.",
+        "pr": "آوِر کامپِنی ایز دیوِلِپینگ اِن اَپ فُر لَنْگْویج لِرْنِرز."
+      }
+    },
+    {
+      "id": "w07",
+      "t": "launch",
+      "s": "(محصولی را) عرضه کردن، رونمایی کردن",
+      "pr": "لانچ",
+      "emoji": "🚀",
+      "ex": {
+        "t": "The new model will be launched in September.",
+        "s": "مدل جدید در سپتامبر عرضه خواهد شد.",
+        "pr": "ذِ نو مادِل ویل بی لانْچْت این سِپْتِمْبِر."
+      }
+    },
+    {
+      "id": "w08",
+      "t": "user-friendly",
+      "s": "کاربرپسند، آسان برای استفاده",
+      "pr": "یوزِر فْرِنْدْلی",
+      "emoji": "",
+      "ex": {
+        "t": "This website is very user-friendly, even for my grandparents.",
+        "s": "این وب‌سایت خیلی کاربرپسند است، حتی برای پدربزرگ و مادربزرگم.",
+        "pr": "ذیس وِبْسایت ایز وِری یوزِر فْرِنْدْلی، ایوِن فُر مای گْرَنْدْپِرِنْتْس."
+      }
+    },
+    {
+      "id": "w09",
+      "t": "outdated",
+      "s": "قدیمی، از رده خارج",
+      "pr": "آوتْدِیتِد",
+      "emoji": "",
+      "ex": {
+        "t": "Our school's computers are slow and outdated.",
+        "s": "کامپیوترهای مدرسه‌مان کند و قدیمی‌اند.",
+        "pr": "آوِر سْکولْز کِمْپیوتِرز آر سْلُو اَند آوتْدِیتِد."
+      }
+    },
+    {
+      "id": "w10",
+      "t": "install",
+      "s": "نصب کردن",
+      "pr": "اینْسْتال",
+      "emoji": "",
+      "ex": {
+        "t": "It took me an hour to install the new software.",
+        "s": "یک ساعت طول کشید تا نرم‌افزار جدید را نصب کنم.",
+        "pr": "ایت توک میْ اِن آوِر تو اینْسْتال ذِ نو سافْتْوِر."
+      }
+    },
+    {
+      "id": "w11",
+      "t": "upgrade",
+      "s": "ارتقا دادن",
+      "pr": "آپْگْرِید",
+      "emoji": "",
+      "ex": {
+        "t": "I need to upgrade my laptop; it can't run the new programs.",
+        "s": "باید لپ‌تاپم را ارتقا بدهم؛ برنامه‌های جدید رویش اجرا نمی‌شوند.",
+        "pr": "آی نید تو آپْگْرِید مای لَپْتاپ؛ ایت کَنت ران ذِ نو پْرُوگْرَمْز."
+      }
+    },
+    {
+      "id": "w12",
+      "t": "virtual reality",
+      "s": "واقعیت مجازی",
+      "pr": "وِرْچوئِل ریاَلِتی",
+      "emoji": "",
+      "ex": {
+        "t": "Medical students practice operations in virtual reality.",
+        "s": "دانشجویان پزشکی عمل جراحی را در واقعیت مجازی تمرین می‌کنند.",
+        "pr": "مِدیکِل سْتودِنْتْس پْرَکْتِس آپِرِیشِنْز این وِرْچوئِل ریاَلِتی."
+      }
+    },
+    {
+      "id": "w13",
+      "t": "drone",
+      "pl": "drones",
+      "s": "پهپاد",
+      "pr": "دْرُون",
+      "emoji": "",
+      "ex": {
+        "t": "In some cities, packages are delivered by drones.",
+        "s": "در بعضی شهرها، بسته‌ها با پهپاد تحویل داده می‌شوند.",
+        "pr": "این سام سیتیز، پَکِجِز آر دیلیوِرْد بای دْرُونْز."
+      }
+    },
+    {
+      "id": "w14",
+      "t": "privacy",
+      "s": "حریم خصوصی",
+      "pr": "پْرایوِسی",
+      "emoji": "🔒",
+      "ex": {
+        "t": "Many people worry about their privacy on social media.",
+        "s": "خیلی‌ها نگران حریم خصوصی‌شان در شبکه‌های اجتماعی‌اند.",
+        "pr": "مِنی پیپِل وِری اِباوت ذِر پْرایوِسی آن سُوشِل میدیا."
+      }
+    },
+    {
+      "id": "w15",
+      "t": "repair",
+      "s": "تعمیر کردن؛ تعمیر",
+      "pr": "ریپِر",
+      "emoji": "🔧",
+      "ex": {
+        "t": "How much will it cost to repair the screen?",
+        "s": "تعمیر صفحه‌نمایش چقدر خرج دارد؟",
+        "pr": "هاو ماچ ویل ایت کاسْت تو ریپِر ذِ سْکْرین؟"
+      }
+    }
+  ],
+  "phrases": [
+    {
+      "id": "p01",
+      "t": "Have you tried turning it off and on again?",
+      "s": "امتحان کرده‌ای خاموش و دوباره روشنش کنی؟",
+      "pr": "هَو یو تْراید تِرنینگ ایت آف اَند آن اِگِن؟"
+    },
+    {
+      "id": "p02",
+      "t": "It keeps crashing.",
+      "s": "مدام هنگ می‌کند و از کار می‌افتد.",
+      "pr": "ایت کیپْس کْرَشینگ."
+    },
+    {
+      "id": "p03",
+      "t": "It's not working properly.",
+      "s": "درست کار نمی‌کند.",
+      "pr": "ایتْس نات وِرکینگ پْراپِرْلی."
+    },
+    {
+      "id": "p04",
+      "t": "I'm not very tech-savvy.",
+      "s": "با فناوری زیاد آشنا نیستم.",
+      "pr": "آیم نات وِری تِک سَوی."
+    },
+    {
+      "id": "p05",
+      "t": "It's a game changer.",
+      "s": "این همه‌چیز را عوض می‌کند.",
+      "pr": "ایتْس اِ گِیم چِینْجِر."
+    },
+    {
+      "id": "p06",
+      "t": "What's the point of …?",
+      "s": "… چه فایده‌ای دارد؟",
+      "pr": "واتْس ذِ پُینْت آو"
+    },
+    {
+      "id": "p07",
+      "t": "It's worth every penny.",
+      "s": "ارزش پولش را دارد.",
+      "pr": "ایتْس وِرث اِوْری پِنی."
+    },
+    {
+      "id": "p08",
+      "t": "I'll have it fixed.",
+      "s": "می‌دهم درستش کنند.",
+      "pr": "آیل هَو ایت فیکْسْت."
+    }
+  ],
+  "dialogue": {
+    "title": {
+      "t": "At the repair shop",
+      "s": "در تعمیرگاه",
+      "pr": "اَت ذِ ریپِر شاپ"
+    },
+    "speakers": {
+      "A": {
+        "name": "Neda",
+        "voice": "f"
+      },
+      "B": {
+        "name": "Jack",
+        "voice": "m"
+      }
+    },
+    "lines": [
+      {
+        "sp": "B",
+        "t": "Good morning. How can I help you?",
+        "s": "صبح بخیر. چه کمکی از دستم برمی‌آید؟",
+        "pr": "گود مُرنینگ. هاو کَن آی هِلْپ یو؟"
+      },
+      {
+        "sp": "A",
+        "t": "Hi. My laptop keeps crashing, and yesterday the screen went completely black.",
+        "s": "سلام. لپ‌تاپم مدام هنگ می‌کند و دیروز صفحه‌اش کاملاً سیاه شد.",
+        "pr": "های. مای لَپْتاپ کیپْس کْرَشینگ، اَند یِسْتِرْدِی ذِ سْکْرین وِنْت کِمْپْلیتْلی بْلَک."
+      },
+      {
+        "sp": "B",
+        "t": "Let me have a look. Has it ever been repaired before?",
+        "s": "بگذارید نگاهی بیندازم. تا حالا تعمیر شده است؟",
+        "pr": "لِت میْ هَو اِ لوک. هَز ایت اِوِر بین ریپِرْد بیفُر؟"
+      },
+      {
+        "sp": "A",
+        "t": "Yes, I had the keyboard replaced last year.",
+        "s": "بله، پارسال دادم کیبوردش را عوض کنند.",
+        "pr": "یِس، آی هَد ذِ کیبُرد ریپْلِیسْت لَسْت ییر."
+      },
+      {
+        "sp": "B",
+        "t": "I see. The problem is the hard drive. It needs to be replaced, too.",
+        "s": "متوجه‌ام. مشکل از هارد دیسک است. آن هم باید عوض شود.",
+        "pr": "آی سی. ذِ پْرابْلِم ایز ذِ هارد دْرایو. ایت نیدز تو بی ریپْلِیسْت، تو."
+      },
+      {
+        "sp": "A",
+        "t": "Oh no. Will my files be lost?",
+        "s": "وای نه. فایل‌هایم از بین می‌روند؟",
+        "pr": "اُو نُو. ویل مای فایلْز بی لاسْت؟"
+      },
+      {
+        "sp": "B",
+        "t": "Don't worry. Your data can be copied onto the new drive before we install it.",
+        "s": "نگران نباشید. اطلاعاتتان را می‌شود قبل از نصب، روی درایو جدید کپی کرد.",
+        "pr": "دُونت وِری. یور دِیتا کَن بی کاپید آنْتو ذِ نو دْرایو بیفُر وی اینْسْتال ایت."
+      },
+      {
+        "sp": "A",
+        "t": "That's a relief. How long will it take?",
+        "s": "خیالم راحت شد. چقدر طول می‌کشد؟",
+        "pr": "ذَتْس اِ ریلیف. هاو لانگ ویل ایت تِیک؟"
+      },
+      {
+        "sp": "B",
+        "t": "About two days. It will be checked by our most experienced technician.",
+        "s": "حدود دو روز. باتجربه‌ترین تکنسین ما آن را بررسی می‌کند.",
+        "pr": "اِباوت تو دِیز. ایت ویل بی چِکْت بای آوِر مُوسْت ایکْسْپیریِنْسْت تِکْنیشِن."
+      },
+      {
+        "sp": "A",
+        "t": "Great. And while I'm here, could I get my phone screen fixed? I dropped it this morning.",
+        "s": "عالی. حالا که اینجا هستم، می‌شود صفحه‌ی گوشی‌ام را هم درست کنید؟ امروز صبح از دستم افتاد.",
+        "pr": "گْرِیت. اَند وایل آیم هیر، کود آی گِت مای فُون سْکْرین فیکْسْت؟ آی دْراپْت ایت ذیس مُرنینگ."
+      },
+      {
+        "sp": "B",
+        "t": "Of course. Phone screens are usually replaced in less than an hour.",
+        "s": "حتماً. صفحه‌ی گوشی معمولاً در کمتر از یک ساعت عوض می‌شود.",
+        "pr": "آو کُرس. فُون سْکْرینْز آر یوژوئِلی ریپْلِیسْت این لِس ذَن اِن آوِر."
+      },
+      {
+        "sp": "A",
+        "t": "Perfect. I'll wait. A day without my phone would be a disaster!",
+        "s": "عالی. منتظر می‌مانم. یک روز بدون گوشی فاجعه است!",
+        "pr": "پِرْفِکْت. آیل وِیت. اِ دِی ویذاوت مای فُون وود بی اِ دیزَسْتِر!"
+      }
+    ]
+  },
+  "grammar": [
+    {
+      "id": "g01",
+      "title": {
+        "t": "The passive in all tenses and with modals",
+        "s": "مجهول در همه‌ی زمان‌ها و با فعل‌های وجهی",
+        "pr": "ذِ پَسیو این آل تِنْسِز اَند ویذ مُودِلْز"
+      },
+      "explain": "مجهولِ حال ساده و گذشته‌ی ساده را از B1 می‌شناسید (**is made / was made**). قاعده در همه‌ی زمان‌ها یکی است: **فعل be در همان زمانِ جمله‌ی معلوم + قسمت سوم فعل اصلی**.\n**حال استمراری**: **is / are being + قسمت سوم**: **The app is being tested.** (اپ در حال آزمایش است.)\n**گذشته‌ی استمراری**: **was / were being + قسمت سوم**: **The road was being repaired.** (جاده داشت تعمیر می‌شد.)\n**حال کامل**: **has / have been + قسمت سوم**: **A new vaccine has been developed.** (واکسن جدیدی ساخته شده است.)\n**ماضی بعید**: **had been + قسمت سوم**: **The files had been deleted.** (فایل‌ها پاک شده بودند.)\n**آینده**: **will be + قسمت سوم** یا **is going to be + قسمت سوم**: **The phone will be launched next month.**\n**با فعل‌های وجهی**: **can / must / should / might + be + قسمت سوم**: **Passwords should be changed regularly.** برای گذشته: **should have been + قسمت سوم**: **The problem should have been fixed earlier.** (مشکل باید زودتر حل می‌شد.)\nکننده‌ی کار را فقط وقتی با **by** می‌آوریم که اطلاع مهمی باشد. در متن‌های رسمی، فنی و علمی (گزارش، دستورالعمل، خبر) مجهول در انگلیسی خیلی رایج‌تر از فارسی است.",
+      "table": [
+        [
+          "Present continuous",
+          "is being tested"
+        ],
+        [
+          "Past continuous",
+          "was being tested"
+        ],
+        [
+          "Present perfect",
+          "has been tested"
+        ],
+        [
+          "Past perfect",
+          "had been tested"
+        ],
+        [
+          "Future",
+          "will be tested"
+        ],
+        [
+          "Modal",
+          "can / must / should be tested"
+        ],
+        [
+          "Modal (past)",
+          "should have been tested"
+        ]
+      ],
+      "examples": [
+        {
+          "t": "A new type of battery is being developed in our lab.",
+          "s": "نوع جدیدی از باتری در آزمایشگاه ما در حال ساخت است.",
+          "pr": "اِ نو تایپ آو بَتِری ایز بیینگ دیوِلِپْت این آوِر لَب."
+        },
+        {
+          "t": "More than a million copies of the game have been sold.",
+          "s": "بیش از یک میلیون نسخه از این بازی فروخته شده است.",
+          "pr": "مُر ذَن اِ میلیِن کاپیز آو ذِ گِیم هَو بین سُولْد."
+        },
+        {
+          "t": "When I arrived, the old computers had already been replaced.",
+          "s": "وقتی رسیدم، کامپیوترهای قدیمی عوض شده بودند.",
+          "pr": "وِن آی اِرایوْد، ذی اُولْد کِمْپیوتِرز هَد آلْرِدی بین ریپْلِیسْت."
+        },
+        {
+          "t": "This medicine must be kept in the fridge.",
+          "s": "این دارو باید در یخچال نگهداری شود.",
+          "pr": "ذیس مِدِسِن ماسْت بی کِپْت این ذِ فْریج."
+        },
+        {
+          "t": "The update should have been tested before it was released.",
+          "s": "به‌روزرسانی باید قبل از انتشار آزمایش می‌شد.",
+          "pr": "ذی آپْدِیت شود هَو بین تِسْتِد بیفُر ایت واز ریلیسْت."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "choice",
+          "t": "Our office ___ at the moment, so we're working from home.",
+          "options": [
+            "is being painted",
+            "is painting",
+            "has painted"
+          ],
+          "answer": 0,
+          "s": "دفترمان الان در حال رنگ‌آمیزی است، برای همین از خانه کار می‌کنیم.",
+          "pr": "آوِر آفیس ایز بیینگ پِینْتِد اَت ذِ مُومِنْت، سُو ویر وِرکینگ فْرام هُوم."
+        },
+        {
+          "type": "choice",
+          "t": "Thousands of photos ___ to the website since Monday.",
+          "options": [
+            "have been uploaded",
+            "were uploaded",
+            "are uploading"
+          ],
+          "answer": 0,
+          "s": "از دوشنبه تا حالا هزاران عکس در این وب‌سایت بارگذاری شده است.",
+          "pr": "ثاوزِنْدْز آو فُوتُوز هَو بین آپْلُودِد تو ذِ وِبْسایت سینس مانْدِی."
+        },
+        {
+          "type": "choice",
+          "t": "Passwords ___ shared with anyone.",
+          "options": [
+            "shouldn't be",
+            "shouldn't",
+            "shouldn't have"
+          ],
+          "answer": 0,
+          "s": "رمز عبور را نباید با هیچ‌کس به اشتراک گذاشت.",
+          "pr": "پَسْوِرْدْز شودِنْت بی شِرْد ویذ اِنیوان."
+        },
+        {
+          "type": "type",
+          "t": "The new phone will ___ launched in March.",
+          "answer": [
+            "be"
+          ],
+          "s": "گوشی جدید در ماه مارس عرضه خواهد شد.",
+          "pr": "ذِ نو فُون ویل بی لانْچْت این مارچ."
+        },
+        {
+          "type": "type",
+          "t": "By the time the police arrived, the data had ___ stolen.",
+          "answer": [
+            "been"
+          ],
+          "s": "تا پلیس برسد، داده‌ها دزدیده شده بودند.",
+          "pr": "بای ذِ تایم ذِ پِلیس اِرایوْد، ذِ دِیتا هَد بین سْتُولِن."
+        },
+        {
+          "type": "type",
+          "t": "This problem should have been ___ months ago.",
+          "answer": [
+            "fixed",
+            "solved"
+          ],
+          "s": "این مشکل باید ماه‌ها پیش حل می‌شد.",
+          "pr": "ذیس پْرابْلِم شود هَو بین فیکْسْت مانْثْس اِگُو."
+        },
+        {
+          "type": "choice",
+          "t": "When we visited the factory, a new robot ___.",
+          "options": [
+            "was being tested",
+            "was testing",
+            "has been tested"
+          ],
+          "answer": 0,
+          "s": "وقتی از کارخانه بازدید کردیم، یک ربات جدید در حال آزمایش بود.",
+          "pr": "وِن وی ویزیتِد ذِ فَکْتِری، اِ نو رُوبات واز بیینگ تِسْتِد."
+        },
+        {
+          "type": "order",
+          "t": "The results will be announced next week.",
+          "alts": [
+            "Next week the results will be announced."
+          ],
+          "s": "نتیجه‌ها هفته‌ی آینده اعلام می‌شود.",
+          "pr": "ذِ ریزالْتْس ویل بی اِناونْسْت نِکْسْت ویک."
+        }
+      ]
+    },
+    {
+      "id": "g02",
+      "title": {
+        "t": "Causative: have or get something done",
+        "s": "ساخت سببی: سپردن کار به دیگران",
+        "pr": "کازِتیو: هَو اُر گِت سامْثینگ دان"
+      },
+      "explain": "وقتی **خودمان** کاری را انجام نمی‌دهیم و **کس دیگری (معمولاً یک متخصص) آن را برایمان انجام می‌دهد**، از ساخت سببی استفاده می‌کنیم: **have + مفعول + قسمت سوم فعل**: **I had my laptop repaired.** (لپ‌تاپم را دادم تعمیر کردند.) مقایسه کنید: **I repaired my laptop.** (خودم لپ‌تاپم را تعمیر کردم.)\n**get + مفعول + قسمت سوم فعل** همین معنی را دارد و کمی غیررسمی‌تر است: **I need to get my hair cut.** (باید بروم موهایم را کوتاه کنم.)\nhave و get در همه‌ی زمان‌ها صرف می‌شوند: **I'm having my car serviced. / We've had the kitchen painted. / She'll get the screen replaced.**\nترتیب کلمه‌ها مهم است: **I had my phone fixed** یعنی «دادم درستش کنند»، ولی **I had fixed my phone** ماضی بعید است (خودم درستش کرده بودم).\nاین ساخت برای **اتفاق ناخوشایندی که دیگران برایمان پیش آورده‌اند** هم به کار می‌رود: **He had his bike stolen.** (دوچرخه‌اش را دزدیدند.)\nدر فارسی معمولاً می‌گوییم «دادم … کنند» یا فقط «… کردم» (موهایم را کوتاه کردم)، ولی در انگلیسی اگر کار را کس دیگری انجام داده باشد، ساخت سببی لازم است.",
+      "table": [
+        [
+          "have + object + past participle",
+          "I had my phone repaired."
+        ],
+        [
+          "get + object + past participle",
+          "She's getting her eyes tested."
+        ],
+        [
+          "Question",
+          "Where do you get your hair cut?"
+        ],
+        [
+          "Something bad happened",
+          "He had his wallet stolen."
+        ]
+      ],
+      "examples": [
+        {
+          "t": "We had solar panels installed on our roof last year.",
+          "s": "پارسال دادیم روی پشت‌بام خانه‌مان پنل خورشیدی نصب کنند.",
+          "pr": "وی هَد سُولِر پَنِلْز اینْسْتالْد آن آوِر روف لَسْت ییر."
+        },
+        {
+          "t": "I need to get my eyes tested; I can't read the screen.",
+          "s": "باید بروم چشم‌هایم را معاینه کنم؛ صفحه را نمی‌توانم بخوانم.",
+          "pr": "آی نید تو گِت مای آیز تِسْتِد؛ آی کَنت رید ذِ سْکْرین."
+        },
+        {
+          "t": "Where do you usually have your car serviced?",
+          "s": "ماشینت را معمولاً کجا سرویس می‌کنی؟",
+          "pr": "وِر دو یو یوژوئِلی هَو یور کار سِرْویسْت؟"
+        },
+        {
+          "t": "She's having her old photos scanned and saved online.",
+          "s": "دارد می‌دهد عکس‌های قدیمی‌اش را اسکن کنند و آنلاین ذخیره کنند.",
+          "pr": "شیز هَوینگ هِر اُولْد فُوتُوز سْکَنْد اَند سِیوْد آنْلاین."
+        },
+        {
+          "t": "Tom had his phone stolen on the train.",
+          "s": "گوشی تام را در قطار دزدیدند.",
+          "pr": "تام هَد هیز فُون سْتُولِن آن ذِ تْرِین."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "choice",
+          "t": "I didn't fix the computer myself. I ___ by a technician.",
+          "options": [
+            "had it fixed",
+            "had fixed it",
+            "fixed it"
+          ],
+          "answer": 0,
+          "s": "خودم کامپیوتر را درست نکردم. دادم یک تکنسین درستش کند.",
+          "pr": "آی دیدِنْت فیکْس ذِ کِمْپیوتِر مایسِلْف. آی هَد ایت فیکْسْت بای اِ تِکْنیشِن."
+        },
+        {
+          "type": "choice",
+          "t": "You should get your teeth ___ twice a year.",
+          "options": [
+            "checked",
+            "check",
+            "checking"
+          ],
+          "answer": 0,
+          "s": "بهتر است سالی دو بار دندان‌هایت را معاینه کنی.",
+          "pr": "یو شود گِت یور تیث چِکْت تْوایس اِ ییر."
+        },
+        {
+          "type": "choice",
+          "t": "We're ___ the living room painted next week.",
+          "options": [
+            "having",
+            "doing",
+            "making"
+          ],
+          "answer": 0,
+          "s": "هفته‌ی آینده می‌دهیم اتاق نشیمن را رنگ کنند.",
+          "pr": "ویر هَوینگ ذِ لیوینگ روم پِینْتِد نِکْسْت ویک."
+        },
+        {
+          "type": "type",
+          "t": "My hair is too long. I need to get it ___.",
+          "answer": [
+            "cut"
+          ],
+          "s": "موهایم خیلی بلند است. باید کوتاهشان کنم.",
+          "pr": "مای هِر ایز تو لانگ. آی نید تو گِت ایت کات."
+        },
+        {
+          "type": "type",
+          "t": "Ali ___ his wallet stolen at the bazaar yesterday.",
+          "answer": [
+            "had",
+            "got"
+          ],
+          "s": "دیروز کیف پول علی را در بازار دزدیدند.",
+          "pr": "علی هَد هیز والِت سْتُولِن اَت ذِ بِزار یِسْتِرْدِی."
+        },
+        {
+          "type": "type",
+          "t": "Have you ever had your blood pressure ___?",
+          "answer": [
+            "checked",
+            "measured",
+            "taken",
+            "tested"
+          ],
+          "s": "تا حالا فشار خونت را اندازه گرفته‌ای؟",
+          "pr": "هَو یو اِوِر هَد یور بْلاد پْرِشِر چِکْت؟"
+        },
+        {
+          "type": "order",
+          "t": "We had the kitchen painted last month.",
+          "alts": [
+            "Last month we had the kitchen painted."
+          ],
+          "s": "ماه پیش دادیم آشپزخانه را رنگ کنند.",
+          "pr": "وی هَد ذِ کیچِن پِینْتِد لَسْت مانْث."
+        },
+        {
+          "type": "order",
+          "t": "Where do you get your hair cut?",
+          "s": "موهایت را کجا کوتاه می‌کنی؟",
+          "pr": "وِر دو یو گِت یور هِر کات؟"
+        }
+      ]
+    }
+  ],
+  "reading": {
+    "title": {
+      "t": "Medicine from the sky",
+      "s": "دارو از آسمان",
+      "pr": "مِدِسِن فْرام ذِ سْکای"
+    },
+    "text": [
+      {
+        "t": "In many parts of the world, people in small villages have to travel for hours to get basic medicine.",
+        "s": "در بسیاری از نقاط دنیا، مردم روستاهای کوچک برای تهیه‌ی داروهای اولیه باید ساعت‌ها سفر کنند.",
+        "pr": "این مِنی پارْتْس آو ذِ وِرلْد، پیپِل این سْمال ویلِجِز هَو تو تْرَوِل فُر آوِرز تو گِت بِیسیک مِدِسِن."
+      },
+      {
+        "t": "But in one mountain region, things have changed completely, thanks to a simple idea: drones.",
+        "s": "اما در یک منطقه‌ی کوهستانی، به لطف یک ایده‌ی ساده اوضاع کاملاً عوض شده است: پهپادها.",
+        "pr": "بات این وان ماونْتِن ریجِن، ثینگْز هَو چِینْجْد کِمْپْلیتْلی، ثَنْکْس تو اِ سیمْپِل آیدیا: دْرُونْز."
+      },
+      {
+        "t": "The system was developed five years ago by a small company of young engineers.",
+        "s": "این سیستم پنج سال پیش به دست یک شرکت کوچک از مهندسان جوان ساخته شد.",
+        "pr": "ذِ سیسْتِم واز دیوِلِپْت فایو ییرز اِگُو بای اِ سْمال کامپِنی آو یانگ اِنْجِنیرز."
+      },
+      {
+        "t": "Today, medicine and blood are delivered to more than fifty local clinics by drone.",
+        "s": "امروز دارو و خون با پهپاد به بیش از پنجاه درمانگاه محلی رسانده می‌شود.",
+        "pr": "تِدِی، مِدِسِن اَند بْلاد آر دیلیوِرْد تو مُر ذَن فیفْتی لُوکِل کْلینیکْس بای دْرُون."
+      },
+      {
+        "t": "A doctor sends an order by text message, and the package arrives in about thirty minutes.",
+        "s": "پزشک با پیامک سفارش می‌دهد و بسته حدود سی دقیقه بعد می‌رسد.",
+        "pr": "اِ داکْتِر سِنْدْز اِن اُرْدِر بای تِکْسْت مِسِج، اَند ذِ پَکِج اِرایوْز این اِباوت ثِرْتی مینِتْس."
+      },
+      {
+        "t": "Before the drones were introduced, the same trip had to be made by car on dangerous roads and could take four hours.",
+        "s": "پیش از آمدن پهپادها، همین مسیر را باید با ماشین و از جاده‌های خطرناک می‌رفتند و ممکن بود چهار ساعت طول بکشد.",
+        "pr": "بیفُر ذِ دْرُونْز وِر اینْتْرِدوسْت، ذِ سِیم تْریپ هَد تو بی مِید بای کار آن دِینْجِرِس رُودْز اَند کود تِیک فُر آوِرز."
+      },
+      {
+        "t": "The drones are being improved all the time.",
+        "s": "پهپادها مدام در حال بهتر شدن‌اند.",
+        "pr": "ذِ دْرُونْز آر بیینگ ایمْپْرووْد آل ذِ تایم."
+      },
+      {
+        "t": "The newest model can be flown in strong wind and heavy rain.",
+        "s": "جدیدترین مدل را می‌شود در باد شدید و باران سنگین هم پرواز داد.",
+        "pr": "ذِ نوئِسْت مادِل کَن بی فْلُون این سْتْرانگ ویند اَند هِوی رِین."
+      },
+      {
+        "t": "Not everyone was happy at first.",
+        "s": "اولش همه راضی نبودند.",
+        "pr": "نات اِوْریوان واز هَپی اَت فِرْسْت."
+      },
+      {
+        "t": "Some villagers were worried about noise and privacy, and a few even wanted the drones banned.",
+        "s": "بعضی روستاییان نگران سروصدا و حریم خصوصی بودند و چند نفر حتی می‌خواستند پهپادها ممنوع شوند.",
+        "pr": "سام ویلِجِرز وِر وِرید اِباوت نُیز اَند پْرایوِسی، اَند اِ فیو ایوِن وانْتِد ذِ دْرُونْز بَنْد."
+      },
+      {
+        "t": "But opinions changed after a young mother's life was saved during a difficult birth.",
+        "s": "اما بعد از اینکه جان یک مادر جوان در زایمانی سخت نجات پیدا کرد، نظرها عوض شد.",
+        "pr": "بات اِپینیِنْز چِینْجْد اَفْتِر اِ یانگ ماذِرْز لایف واز سِیوْد دورینگ اِ دیفیکِلْت بِرث."
+      },
+      {
+        "t": "The blood she needed had been delivered by drone in just twenty-five minutes.",
+        "s": "خونی که لازم داشت، فقط در بیست‌وپنج دقیقه با پهپاد رسانده شده بود.",
+        "pr": "ذِ بْلاد شی نیدِد هَد بین دیلیوِرْد بای دْرُون این جاسْت تْوِنْتی فایو مینِتْس."
+      },
+      {
+        "t": "Next year, the service will be expanded to three more regions.",
+        "s": "سال آینده این خدمات به سه منطقه‌ی دیگر هم گسترش داده خواهد شد.",
+        "pr": "نِکْسْت ییر، ذِ سِرْویس ویل بی ایکْسْپَنْدِد تو ثْری مُر ریجِنْز."
+      }
+    ],
+    "questions": [
+      {
+        "q": {
+          "t": "How long does a drone delivery take?",
+          "s": "رساندن بسته با پهپاد چقدر طول می‌کشد؟",
+          "pr": "هاو لانگ داز اِ دْرُون دیلیوِری تِیک؟"
+        },
+        "options": [
+          "about thirty minutes",
+          "about four hours",
+          "one day"
+        ],
+        "answer": 0
+      },
+      {
+        "q": {
+          "t": "How was medicine delivered before the drones?",
+          "s": "قبل از پهپادها دارو چطور رسانده می‌شد؟",
+          "pr": "هاو واز مِدِسِن دیلیوِرْد بیفُر ذِ دْرُونْز؟"
+        },
+        "options": [
+          "by plane",
+          "by car",
+          "by train"
+        ],
+        "answer": 1
+      },
+      {
+        "q": {
+          "t": "What were some villagers worried about?",
+          "s": "بعضی روستاییان نگران چه بودند؟",
+          "pr": "وات وِر سام ویلِجِرز وِرید اِباوت؟"
+        },
+        "options": [
+          "the price of medicine",
+          "noise and privacy",
+          "losing their jobs"
+        ],
+        "answer": 1
+      },
+      {
+        "q": {
+          "t": "Why did people's opinions change?",
+          "s": "چرا نظر مردم عوض شد؟",
+          "pr": "وای دید پیپِلْز اِپینیِنْز چِینْج؟"
+        },
+        "options": [
+          "A young mother's life was saved.",
+          "The drones became cheaper.",
+          "The roads were repaired."
+        ],
+        "answer": 0
+      },
+      {
+        "q": {
+          "t": "What will happen next year?",
+          "s": "سال آینده چه اتفاقی می‌افتد؟",
+          "pr": "وات ویل هَپِن نِکْسْت ییر؟"
+        },
+        "options": [
+          "The drones will be banned.",
+          "The service will be expanded.",
+          "A new road will be built."
+        ],
+        "answer": 1
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "t": "The bridge is being repaired, so the road is closed.",
+      "s": "پل در حال تعمیر است، برای همین جاده بسته است.",
+      "pr": "ذِ بْریج ایز بیینگ ریپِرْد، سُو ذِ رُود ایز کْلُوزْد."
+    },
+    {
+      "t": "I'm getting my laptop upgraded this weekend.",
+      "s": "این آخر هفته می‌دهم لپ‌تاپم را ارتقا بدهند.",
+      "pr": "آیم گِتینگ مای لَپْتاپ آپْگْرِیدِد ذیس ویکِنْد."
+    },
+    {
+      "t": "This app has been downloaded millions of times.",
+      "s": "این اپ میلیون‌ها بار دانلود شده است.",
+      "pr": "ذیس اَپ هَز بین داونْلُودِد میلیِنْز آو تایمْز."
+    },
+    {
+      "t": "Your password must be changed every three months.",
+      "s": "رمز عبورتان باید هر سه ماه یک بار عوض شود.",
+      "pr": "یور پَسْوِرْد ماسْت بی چِینْجْد اِوْری ثْری مانْثْس."
+    },
+    {
+      "t": "The telephone was invented in the nineteenth century.",
+      "s": "تلفن در قرن نوزدهم اختراع شد.",
+      "pr": "ذِ تِلِفُون واز اینْوِنْتِد این ذِ ناینْتینْث سِنْچِری."
+    },
+    {
+      "t": "We had a new lock installed on the front door.",
+      "s": "دادیم روی در ورودی یک قفل جدید نصب کنند.",
+      "pr": "وی هَد اِ نو لاک اینْسْتالْد آن ذِ فْرانْت دُر."
+    },
+    {
+      "t": "Is this software user-friendly enough for beginners?",
+      "s": "این نرم‌افزار برای مبتدی‌ها به اندازه‌ی کافی کاربرپسند است؟",
+      "pr": "ایز ذیس سافْتْوِر یوزِر فْرِنْدْلی ایناف فُر بیگینِرز؟"
+    },
+    {
+      "t": "My old phone is outdated and can't be updated anymore.",
+      "s": "گوشی قدیمی‌ام از رده خارج است و دیگر به‌روزرسانی نمی‌شود.",
+      "pr": "مای اُولْد فُون ایز آوتْدِیتِد اَند کَنت بی آپْدِیتِد اِنیمُر."
+    }
+  ]
+}

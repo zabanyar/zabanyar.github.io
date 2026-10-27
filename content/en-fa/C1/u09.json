@@ -1,0 +1,804 @@
+{
+  "id": "u09",
+  "level": "C1",
+  "emoji": "💬",
+  "title": {
+    "t": "Idioms and informal English",
+    "s": "اصطلاحات و انگلیسی محاوره‌ای",
+    "pr": "ایدیِمز اَند اینْفُرمِل اینگْلیش"
+  },
+  "goals": [
+    "می‌توانم اصطلاحات رایج انگلیسی را بفهمم و در موقعیت مناسب به کار ببرم.",
+    "می‌توانم معانی مختلف یک فعل عبارتی (pick up, put off, turn out, take off) را از بافت جمله تشخیص دهم.",
+    "می‌توانم میان فعل عبارتی محاوره‌ای و معادل رسمی آن (مثل put off و postpone) بر اساس موقعیت انتخاب کنم.",
+    "می‌توانم در گفت‌وگوی خودمانی طبیعی‌تر و روان‌تر صحبت کنم."
+  ],
+  "words": [
+    {
+      "id": "w01",
+      "t": "in the long run",
+      "s": "در درازمدت",
+      "pr": "این ذِ لانگ ران",
+      "emoji": "",
+      "ex": {
+        "t": "Learning a language takes time, but it pays off in the long run.",
+        "s": "یادگیری زبان وقت می‌برد، ولی در درازمدت نتیجه می‌دهد.",
+        "pr": "لِرنینگ اِ لَنْگْویج تِیکْس تایم، بات ایت پِیز آف این ذِ لانگ ران."
+      }
+    },
+    {
+      "id": "w02",
+      "t": "a blessing in disguise",
+      "s": "خیری که اول شر به نظر می‌رسید؛ «عدو شود سبب خیر»",
+      "pr": "اِ بْلِسینگ این دیسْگایز",
+      "emoji": "",
+      "ex": {
+        "t": "Losing that job was a blessing in disguise.",
+        "s": "از دست دادن آن شغل در واقع به نفعم تمام شد.",
+        "pr": "لوزینگ ذَت جاب واز اِ بْلِسینگ این دیسْگایز."
+      }
+    },
+    {
+      "id": "w03",
+      "t": "the last straw",
+      "s": "تیر خلاص، چیزی که کاسه‌ی صبر را لبریز می‌کند",
+      "pr": "ذِ لَسْت سْتْرا",
+      "emoji": "",
+      "ex": {
+        "t": "When the train was canceled again, that was the last straw.",
+        "s": "وقتی قطار دوباره لغو شد، دیگر کاسه‌ی صبرم لبریز شد.",
+        "pr": "وِن ذِ تْرِین واز کَنْسِلْد اِگِن، ذَت واز ذِ لَسْت سْتْرا."
+      }
+    },
+    {
+      "id": "w04",
+      "t": "get the hang of",
+      "s": "دستِ کسی آمدن، راه کاری را یاد گرفتن",
+      "pr": "گِت ذِ هَنگ آو",
+      "emoji": "",
+      "ex": {
+        "t": "Driving in Tehran is scary at first, but you'll get the hang of it.",
+        "s": "رانندگی در تهران اولش ترسناک است، ولی کم‌کم دستت می‌آید.",
+        "pr": "دْرایوینگ این تِهْران ایز سْکِری اَت فِرسْت، بات یول گِت ذِ هَنگ آو ایت."
+      }
+    },
+    {
+      "id": "w05",
+      "t": "once in a blue moon",
+      "s": "خیلی به‌ندرت، سالی یک بار",
+      "pr": "وانْس این اِ بْلو مون",
+      "emoji": "",
+      "ex": {
+        "t": "We only see our relatives in Canada once in a blue moon.",
+        "s": "اقواممان را که در کانادا هستند فقط سالی یک بار می‌بینیم.",
+        "pr": "وی اُونلی سی آوِر رِلِتیوْز این کَنِدا وانْس این اِ بْلو مون."
+      }
+    },
+    {
+      "id": "w06",
+      "t": "cut corners",
+      "s": "کار را سرسری و ناقص انجام دادن (برای صرفه‌جویی)",
+      "pr": "کات کُرنِرز",
+      "emoji": "",
+      "ex": {
+        "t": "The builders cut corners, and now the roof leaks.",
+        "s": "بناها کار را سرسری انجام دادند و حالا سقف چکه می‌کند.",
+        "pr": "ذِ بیلْدِرز کات کُرنِرز، اَند ناو ذِ روف لیکْس."
+      }
+    },
+    {
+      "id": "w07",
+      "t": "on the same page",
+      "s": "هم‌نظر، با درک مشترک",
+      "pr": "آن ذِ سِیم پِیج",
+      "emoji": "",
+      "ex": {
+        "t": "Before we start, let's make sure we're all on the same page.",
+        "s": "قبل از شروع، مطمئن شویم که همه درک یکسانی داریم.",
+        "pr": "بیفُر وی سْتارت، لِتْس مِیک شور ویر آل آن ذِ سِیم پِیج."
+      }
+    },
+    {
+      "id": "w08",
+      "t": "beat around the bush",
+      "s": "طفره رفتن، حاشیه رفتن",
+      "pr": "بیت اِراوند ذِ بوش",
+      "emoji": "",
+      "ex": {
+        "t": "Stop beating around the bush and tell me what happened.",
+        "s": "این‌قدر حاشیه نرو و بگو چه اتفاقی افتاده.",
+        "pr": "سْتاپ بیتینگ اِراوند ذِ بوش اَند تِل میْ وات هَپِنْد."
+      }
+    },
+    {
+      "id": "w09",
+      "t": "under the weather",
+      "s": "کمی ناخوش، کسل",
+      "pr": "آنْدِر ذِ وِذِر",
+      "emoji": "🤒",
+      "ex": {
+        "t": "I'm feeling a bit under the weather today.",
+        "s": "امروز کمی کسالت دارم.",
+        "pr": "آیم فیلینگ اِ بیت آنْدِر ذِ وِذِر تِدِی."
+      }
+    },
+    {
+      "id": "w10",
+      "t": "cost an arm and a leg",
+      "s": "خیلی گران تمام شدن",
+      "pr": "کاسْت اِن آرم اَند اِ لِگ",
+      "emoji": "",
+      "ex": {
+        "t": "Renting an apartment downtown costs an arm and a leg.",
+        "s": "اجاره‌ی آپارتمان در مرکز شهر خیلی گران تمام می‌شود.",
+        "pr": "رِنْتینگ اِن اِپارْتْمِنت داونْتاون کاسْتْس اِن آرم اَند اِ لِگ."
+      }
+    },
+    {
+      "id": "w11",
+      "t": "hit the nail on the head",
+      "s": "دقیقاً درست گفتن، به هدف زدن",
+      "pr": "هیت ذِ نِیل آن ذِ هِد",
+      "emoji": "🔨",
+      "ex": {
+        "t": "You've hit the nail on the head. The real problem is money.",
+        "s": "دقیقاً درست گفتی. مشکل اصلی پول است.",
+        "pr": "یوو هیت ذِ نِیل آن ذِ هِد. ذِ ریل پْرابْلِم ایز مانی."
+      }
+    },
+    {
+      "id": "w12",
+      "t": "sleep on it",
+      "s": "تا فردا روی تصمیمی فکر کردن",
+      "pr": "سْلیپ آن ایت",
+      "emoji": "",
+      "ex": {
+        "t": "It's a big decision, so why don't you sleep on it?",
+        "s": "تصمیم بزرگی است؛ چرا تا فردا رویش فکر نمی‌کنی؟",
+        "pr": "ایتس اِ بیگ دیسیژِن، سُو وای دُونت یو سْلیپ آن ایت؟"
+      }
+    },
+    {
+      "id": "w13",
+      "t": "a drop in the bucket",
+      "s": "قطره‌ای در دریا، ناچیز",
+      "pr": "اِ دْراپ این ذِ باکِت",
+      "emoji": "💧",
+      "ex": {
+        "t": "Our donation was just a drop in the bucket compared to what they needed.",
+        "s": "کمک مالی ما در مقایسه با نیازشان قطره‌ای در دریا بود.",
+        "pr": "آوِر دُونِیشِن واز جاسْت اِ دْراپ این ذِ باکِت کِمْپِرْد تو وات ذِی نیدِد."
+      }
+    },
+    {
+      "id": "w14",
+      "t": "take something with a grain of salt",
+      "s": "چیزی را با احتیاط و تردید پذیرفتن",
+      "pr": "تِیک سامْثینگ ویذ اِ گْرِین آو سالْت",
+      "emoji": "🧂",
+      "ex": {
+        "t": "Take online reviews with a grain of salt.",
+        "s": "نظرهای اینترنتی را چشم‌بسته باور نکن.",
+        "pr": "تِیک آن‌لاین ریویوز ویذ اِ گْرِین آو سالْت."
+      }
+    },
+    {
+      "id": "w15",
+      "t": "let the cat out of the bag",
+      "s": "راز را (ناخواسته) فاش کردن",
+      "pr": "لِت ذِ کَت آوت آو ذِ بَگ",
+      "emoji": "🐈",
+      "ex": {
+        "t": "It was supposed to be a surprise party, but my brother let the cat out of the bag.",
+        "s": "قرار بود مهمانی غافلگیری باشد، ولی برادرم ناخواسته لو داد.",
+        "pr": "ایت واز سِپُوسْت تو بی اِ سِرپْرایز پارتی، بات مای بْراذِر لِت ذِ کَت آوت آو ذِ بَگ."
+      }
+    }
+  ],
+  "phrases": [
+    {
+      "id": "p01",
+      "t": "No way!",
+      "s": "امکان ندارد! نه بابا!",
+      "pr": "نُو وِی!"
+    },
+    {
+      "id": "p02",
+      "t": "I'm all ears.",
+      "s": "سراپا گوشم.",
+      "pr": "آیم آل ایرز."
+    },
+    {
+      "id": "p03",
+      "t": "Fair enough.",
+      "s": "قبول، منطقی است.",
+      "pr": "فِر ایناف."
+    },
+    {
+      "id": "p04",
+      "t": "You can say that again!",
+      "s": "صد در صد! کاملاً درست می‌گویی!",
+      "pr": "یو کَن سِی ذَت اِگِن!"
+    },
+    {
+      "id": "p05",
+      "t": "It's not the end of the world.",
+      "s": "آخر دنیا که نیست.",
+      "pr": "ایتس نات ذی اِند آو ذِ وِرلد."
+    },
+    {
+      "id": "p06",
+      "t": "I'll keep my fingers crossed.",
+      "s": "امیدوارم خوب پیش برود. (برایت دعا می‌کنم)",
+      "pr": "آیل کیپ مای فینگِرز کْراسْت."
+    },
+    {
+      "id": "p07",
+      "t": "Speak of the devil!",
+      "s": "حلال‌زاده است! (وقتی کسی درست همان موقع سر می‌رسد که درباره‌اش حرف می‌زنیم)",
+      "pr": "سْپیک آو ذِ دِوِل!"
+    },
+    {
+      "id": "p08",
+      "t": "Don't get me wrong, …",
+      "s": "سوءتفاهم نشود، …",
+      "pr": "دُونت گِت میْ رانگ، …"
+    }
+  ],
+  "dialogue": {
+    "title": {
+      "t": "What does that mean?",
+      "s": "یعنی چه؟",
+      "pr": "وات داز ذَت مین؟"
+    },
+    "speakers": {
+      "A": {
+        "name": "Sara",
+        "voice": "f"
+      },
+      "B": {
+        "name": "Jack",
+        "voice": "m"
+      }
+    },
+    "lines": [
+      {
+        "sp": "A",
+        "t": "Jack, can I pick your brain about something? My manager said something today that I didn't quite get.",
+        "s": "جک، می‌توانم درباره‌ی چیزی از تو کمک فکری بگیرم؟ مدیرم امروز حرفی زد که درست متوجهش نشدم.",
+        "pr": "جَک، کَن آی پیک یور بْرِین اِباوت سامْثینگ؟ مای مَنِجِر سِد سامْثینگ تِدِی ذَت آی دیدِنت کوایت گِت."
+      },
+      {
+        "sp": "B",
+        "t": "Sure, I'm all ears. What did she say?",
+        "s": "حتماً، سراپا گوشم. چه گفت؟",
+        "pr": "شور، آیم آل ایرز. وات دید شی سِی؟"
+      },
+      {
+        "sp": "A",
+        "t": "We were discussing my project, and she told me not to beat around the bush.",
+        "s": "داشتیم درباره‌ی پروژه‌ام صحبت می‌کردیم و به من گفت حاشیه نروم.",
+        "pr": "وی وِر دیسْکاسینگ مای پْراجِکْت، اَند شی تُولد میْ نات تو بیت اِراوند ذِ بوش."
+      },
+      {
+        "sp": "B",
+        "t": "Ah, that just means she wanted you to get to the point.",
+        "s": "آهان، یعنی فقط می‌خواست بروی سر اصل مطلب.",
+        "pr": "آ، ذَت جاسْت مینْز شی وانْتِد یو تو گِت تو ذِ پُینت."
+      },
+      {
+        "sp": "A",
+        "t": "I see. I was trying to break the bad news gently. The project has been put off until next year.",
+        "s": "فهمیدم. داشتم سعی می‌کردم خبر بد را آرام‌آرام بگویم. پروژه تا سال آینده عقب افتاده است.",
+        "pr": "آی سی. آی واز تْرایینگ تو بْرِیک ذِ بَد نوز جِنْتْلی. ذِ پْراجِکْت هَز بین پوت آف اِنْتیل نِکْسْت ییر."
+      },
+      {
+        "sp": "B",
+        "t": "Oh no! Well, it's not the end of the world. It might turn out to be a blessing in disguise.",
+        "s": "ای وای! خب، آخر دنیا که نیست. شاید آخرش به نفعت تمام شود.",
+        "pr": "اُو نُو! وِل، ایتس نات ذی اِند آو ذِ وِرلد. ایت مایت تِرن آوت تو بی اِ بْلِسینگ این دیسْگایز."
+      },
+      {
+        "sp": "A",
+        "t": "That's what I thought. It gives me time to pick up some new skills.",
+        "s": "خودم هم همین فکر را کردم. فرصت پیدا می‌کنم چند مهارت تازه یاد بگیرم.",
+        "pr": "ذَتْس وات آی ثات. ایت گیوْز میْ تایم تو پیک آپ سام نو سْکیلْز."
+      },
+      {
+        "sp": "B",
+        "t": "Exactly. And by the way, your English is coming along really well. You pick things up so fast!",
+        "s": "دقیقاً. راستی، انگلیسی‌ات واقعاً خوب دارد پیشرفت می‌کند. چقدر سریع چیزها را یاد می‌گیری!",
+        "pr": "ایگْزَکْتْلی. اَند بای ذِ وِی، یور اینگْلیش ایز کامینگ اِلانگ ریلی وِل. یو پیک ثینگز آپ سُو فَسْت!"
+      },
+      {
+        "sp": "A",
+        "t": "Thanks, but I still find idioms hard. Some of them make no sense to me at all.",
+        "s": "ممنون، ولی هنوز اصطلاحات برایم سخت‌اند. بعضی‌هایشان اصلاً برایم معنایی ندارند.",
+        "pr": "ثَنْکْس، بات آی سْتیل فایند ایدیِمز هارد. سام آو ذِم مِیک نُو سِنْس تو میْ اَت آل."
+      },
+      {
+        "sp": "B",
+        "t": "Don't worry. Just keep listening, and you'll get the hang of them in the long run.",
+        "s": "نگران نباش. فقط به گوش دادن ادامه بده؛ با گذشت زمان دستت می‌آید.",
+        "pr": "دُونت وِری. جاسْت کیپ لیسِنینگ، اَند یول گِت ذِ هَنگ آو ذِم این ذِ لانگ ران."
+      },
+      {
+        "sp": "A",
+        "t": "You can say that again! Thanks, Jack. I owe you one.",
+        "s": "صد در صد! ممنون جک. یکی طلبت.",
+        "pr": "یو کَن سِی ذَت اِگِن! ثَنْکْس، جَک. آی اُو یو وان."
+      }
+    ]
+  },
+  "grammar": [
+    {
+      "id": "g01",
+      "title": {
+        "t": "Idioms and fixed expressions",
+        "s": "اصطلاحات و عبارت‌های ثابت",
+        "pr": "ایدیِمز اَند فیکْسْت ایکْسْپْرِشِنز"
+      },
+      "explain": "**اصطلاح** (idiom) عبارتی است که معنایش از جمع معنای کلمه‌هایش به دست نمی‌آید: **under the weather** ربطی به هوا ندارد و یعنی «کمی ناخوش». برای به کار بردن درست اصطلاحات به این نکته‌ها دقت کنید:\n۱. **کلمه‌ها ثابت‌اند**: نمی‌توان آن‌ها را با مترادف عوض کرد یا مفرد و جمعشان را تغییر داد: **a blessing in disguise** درست است، نه a gift in disguise؛ **in the long run** درست است، نه in the long running.\n۲. **فعلِ اصطلاح صرف می‌شود** و ضمیرها با جمله هماهنگ می‌شوند: **She let the cat out of the bag.** / **Stop beating around the bush.** / **You'll get the hang of it.**\n۳. **سبک**: بیشتر اصطلاحات محاوره‌ای‌اند و برای مقاله‌ی رسمی یا نامه‌ی اداری مناسب نیستند. **in the long run** و **a drop in the bucket** در نوشتار نیمه‌رسمی هم دیده می‌شوند، ولی **cost an arm and a leg** کاملاً خودمانی است.\n۴. **معادل فارسی** بسیاری از اصطلاحات تصویر دیگری دارد: **a piece of cake** همان «مثل آب خوردن» است و **a blessing in disguise** نزدیک به «عدو شود سبب خیر». اصطلاح فارسی را کلمه‌به‌کلمه به انگلیسی ترجمه نکنید.\n۵. انگلیسی آمریکایی و بریتانیایی گاهی فرق دارند: آمریکایی **a drop in the bucket** و **with a grain of salt**، بریتانیایی **a drop in the ocean** و **with a pinch of salt**.",
+      "table": [
+        [
+          "in the long run",
+          "over a long period of time"
+        ],
+        [
+          "a blessing in disguise",
+          "something bad that turns out to be good"
+        ],
+        [
+          "the last straw",
+          "the final problem that makes you lose patience"
+        ],
+        [
+          "cut corners",
+          "do something cheaply or carelessly"
+        ],
+        [
+          "sleep on it",
+          "wait until tomorrow to decide"
+        ]
+      ],
+      "examples": [
+        {
+          "t": "Moving to a smaller apartment was a blessing in disguise.",
+          "s": "نقل‌مکان به آپارتمان کوچک‌تر در واقع به نفعمان تمام شد.",
+          "pr": "مووینگ تو اِ سْمالِر اِپارْتْمِنت واز اِ بْلِسینگ این دیسْگایز."
+        },
+        {
+          "t": "She finally let the cat out of the bag about her new job.",
+          "s": "سرانجام راز شغل جدیدش را فاش کرد.",
+          "pr": "شی فاینِلی لِت ذِ کَت آوت آو ذِ بَگ اِباوت هِر نو جاب."
+        },
+        {
+          "t": "Don't cut corners when it comes to safety.",
+          "s": "وقتی پای ایمنی در میان است، کار را سرسری انجام نده.",
+          "pr": "دُونت کات کُرنِرز وِن ایت کامْز تو سِیفْتی."
+        },
+        {
+          "t": "I'll sleep on it and give you an answer tomorrow.",
+          "s": "تا فردا رویش فکر می‌کنم و جوابت را می‌دهم.",
+          "pr": "آیل سْلیپ آن ایت اَند گیو یو اِن اَنْسِر تِمارُو."
+        },
+        {
+          "t": "When my car broke down for the third time, it was the last straw.",
+          "s": "وقتی ماشینم برای بار سوم خراب شد، دیگر کاسه‌ی صبرم لبریز شد.",
+          "pr": "وِن مای کار بْرُوک داون فُر ذِ ثِرد تایم، ایت واز ذِ لَسْت سْتْرا."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "choice",
+          "t": "Losing the match was a blessing in ___. It showed us what we needed to improve.",
+          "options": [
+            "secret",
+            "disguise",
+            "hiding"
+          ],
+          "answer": 1,
+          "s": "باختن در آن مسابقه در واقع به نفعمان بود. به ما نشان داد چه چیزهایی را باید بهتر کنیم.",
+          "pr": "لوزینگ ذِ مَچ واز اِ بْلِسینگ این دیسْگایز. ایت شُود آس وات وی نیدِد تو ایمْپْروو."
+        },
+        {
+          "type": "choice",
+          "t": "Healthy eating saves you money in the long ___.",
+          "options": [
+            "run",
+            "way",
+            "time"
+          ],
+          "answer": 0,
+          "s": "تغذیه‌ی سالم در درازمدت به نفع جیب شماست.",
+          "pr": "هِلْثی ایتینگ سِیوْز یو مانی این ذِ لانگ ران."
+        },
+        {
+          "type": "choice",
+          "t": "I'm feeling a bit under the ___, so I'll stay at home today.",
+          "options": [
+            "rain",
+            "sky",
+            "weather"
+          ],
+          "answer": 2,
+          "s": "کمی کسالت دارم، برای همین امروز خانه می‌مانم.",
+          "pr": "آیم فیلینگ اِ بیت آنْدِر ذِ وِذِر، سُو آیل سْتِی اَت هُوم تِدِی."
+        },
+        {
+          "type": "type",
+          "t": "Please stop beating around the ___ and tell me the truth.",
+          "answer": [
+            "bush"
+          ],
+          "s": "لطفاً حاشیه نرو و حقیقت را به من بگو.",
+          "pr": "پْلیز سْتاپ بیتینگ اِراوند ذِ بوش اَند تِل میْ ذِ تْروث."
+        },
+        {
+          "type": "type",
+          "t": "Don't believe everything you read online. Take it with a grain of ___.",
+          "answer": [
+            "salt"
+          ],
+          "s": "هر چیزی را که در اینترنت می‌خوانی باور نکن. با احتیاط بپذیرش.",
+          "pr": "دُونت بیلیو اِوْری‌ثینگ یو رید آن‌لاین. تِیک ایت ویذ اِ گْرِین آو سالْت."
+        },
+        {
+          "type": "type",
+          "t": "My brother let the ___ out of the bag, so the party wasn't a surprise anymore.",
+          "answer": [
+            "cat"
+          ],
+          "s": "برادرم راز را لو داد، برای همین مهمانی دیگر غافلگیری نبود.",
+          "pr": "مای بْراذِر لِت ذِ کَت آوت آو ذِ بَگ، سُو ذِ پارتی وازِنت اِ سِرپْرایز اِنی‌مُر."
+        },
+        {
+          "type": "order",
+          "t": "You've hit the nail on the head.",
+          "s": "دقیقاً درست گفتی.",
+          "pr": "یوو هیت ذِ نِیل آن ذِ هِد."
+        },
+        {
+          "type": "order",
+          "t": "We only see them once in a blue moon.",
+          "alts": [
+            "We see them only once in a blue moon."
+          ],
+          "s": "ما خیلی به‌ندرت آن‌ها را می‌بینیم.",
+          "pr": "وی اُونلی سی ذِم وانْس این اِ بْلو مون."
+        }
+      ]
+    },
+    {
+      "id": "g02",
+      "title": {
+        "t": "Phrasal verbs: meanings and register",
+        "s": "فعل‌های عبارتی: معانی چندگانه و سبک",
+        "pr": "فْرِیزِل وِرْبْز: مینینگز اَند رِجِسْتِر"
+      },
+      "explain": "در سطح B2 با انواع فعل‌های عبارتی (جداشدنی، جدانشدنی، سه‌جزئی) آشنا شدید. در سطح C1 دو نکته‌ی مهم دیگر هست:\n**۱. یک فعل عبارتی، چند معنا**؛ معنا را از بافت جمله می‌فهمیم:\n**pick up**: یاد گرفتن (بدون کلاس)؛ سوار کردن یا رفتن دنبال کسی؛ رونق گرفتن (فروش، اقتصاد)\n**put off**: عقب انداختن؛ بی‌میل یا دلزده کردن\n**turn out**: معلوم شدن، از آب درآمدن؛ حاضر شدن (عده‌ای برای یک رویداد)\n**come up**: مطرح شدن (موضوع)؛ پیش آمدن (کار یا مشکل غیرمنتظره)\n**take off**: برخاستن هواپیما؛ ناگهان موفق و پرطرفدار شدن؛ درآوردن (لباس)\n**۲. سبک (register)**: فعل‌های عبارتی بیشتر **محاوره‌ای یا خنثی**‌اند. در نوشتار رسمی معمولاً یک فعل تک‌کلمه‌ای، اغلب با ریشه‌ی لاتین، جای آن‌ها را می‌گیرد: **put off** (رسمی: **postpone**)، **look into** (رسمی: **investigate**)، **find out** (رسمی: **discover**)، **put up with** (رسمی: **tolerate**)، **cut down on** (رسمی: **reduce**)، **set up** (رسمی: **establish**). در گفت‌وگوی روزمره فعل رسمی خشک و اداری به نظر می‌رسد و در گزارش رسمی، فعل عبارتی بیش از حد خودمانی.",
+      "table": [
+        [
+          "put off",
+          "postpone"
+        ],
+        [
+          "look into",
+          "investigate"
+        ],
+        [
+          "find out",
+          "discover"
+        ],
+        [
+          "put up with",
+          "tolerate"
+        ],
+        [
+          "cut down on",
+          "reduce"
+        ],
+        [
+          "set up",
+          "establish"
+        ]
+      ],
+      "examples": [
+        {
+          "t": "She picked up a lot of Turkish while living in Istanbul.",
+          "s": "وقتی در استانبول زندگی می‌کرد، کلی ترکی یاد گرفت.",
+          "pr": "شی پیکْت آپ اِ لات آو تِرکیش وایْل لیوینگ این ایسْتَنْبول."
+        },
+        {
+          "t": "Sales usually pick up before Nowruz.",
+          "s": "فروش معمولاً پیش از نوروز رونق می‌گیرد.",
+          "pr": "سِیلْز یوژوِلی پیک آپ بیفُر نُوروز."
+        },
+        {
+          "t": "The smell of the food put me off.",
+          "s": "بوی غذا اشتهایم را کور کرد.",
+          "pr": "ذِ سْمِل آو ذِ فود پوت میْ آف."
+        },
+        {
+          "t": "The new manager turned out to be very friendly.",
+          "s": "مدیر جدید آدم خیلی خون‌گرمی از آب درآمد.",
+          "pr": "ذِ نو مَنِجِر تِرنْد آوت تو بی وِری فْرِنْدْلی."
+        },
+        {
+          "t": "The committee has agreed to investigate the complaint.",
+          "s": "کمیته موافقت کرده است که شکایت را بررسی کند.",
+          "pr": "ذِ کِمیتی هَز اِگْرید تو اینْوِسْتِگِیت ذِ کِمْپْلِینْت."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "choice",
+          "t": "The story turned ___ to be completely false.",
+          "options": [
+            "up",
+            "out",
+            "off"
+          ],
+          "answer": 1,
+          "s": "معلوم شد آن داستان کاملاً دروغ بوده است.",
+          "pr": "ذِ سْتُری تِرنْد آوت تو بی کِمْپْلیتْلی فالْس."
+        },
+        {
+          "type": "choice",
+          "t": "If you can't ___ the noise, move to another room.",
+          "options": [
+            "put up with",
+            "put off",
+            "put down"
+          ],
+          "answer": 0,
+          "s": "اگر نمی‌توانی سروصدا را تحمل کنی، به اتاق دیگری برو.",
+          "pr": "ایف یو کَنت پوت آپ ویذ ذِ نُیز، مووْ تو اِناذِر روم."
+        },
+        {
+          "type": "choice",
+          "t": "Could you pick me ___ from the airport at six?",
+          "options": [
+            "off",
+            "out",
+            "up"
+          ],
+          "answer": 2,
+          "s": "می‌توانی ساعت شش از فرودگاه دنبالم بیایی؟",
+          "pr": "کود یو پیک میْ آپ فْرام ذی اِرپُرت اَت سیکْس؟"
+        },
+        {
+          "type": "choice",
+          "t": "The government has promised to ___ the causes of the accident.",
+          "options": [
+            "investigate",
+            "look",
+            "search"
+          ],
+          "answer": 0,
+          "s": "دولت قول داده است علل این حادثه را بررسی کند.",
+          "pr": "ذِ گاوِرْنْمِنت هَز پْرامِسْت تو اینْوِسْتِگِیت ذِ کازِز آو ذی اَکْسِدِنت."
+        },
+        {
+          "type": "type",
+          "t": "The plane took ___ two hours late.",
+          "answer": [
+            "off"
+          ],
+          "s": "هواپیما دو ساعت دیرتر برخاست.",
+          "pr": "ذِ پْلِین توک آف تو آوِرز لِیت."
+        },
+        {
+          "type": "type",
+          "t": "Something urgent has come ___, so I can't make it tonight.",
+          "answer": [
+            "up"
+          ],
+          "s": "یک کار فوری پیش آمده، برای همین امشب نمی‌توانم بیایم.",
+          "pr": "سامْثینگ اِرجِنت هَز کام آپ، سُو آی کَنت مِیک ایت تِنایت."
+        },
+        {
+          "type": "type",
+          "t": "The doctor advised him to cut down ___ sugar.",
+          "answer": [
+            "on"
+          ],
+          "s": "پزشک به او توصیه کرد مصرف شکر را کم کند.",
+          "pr": "ذِ داکْتِر اِدْوایزْد هیم تو کات داون آن شوگِر."
+        },
+        {
+          "type": "order",
+          "t": "Her business really took off last year.",
+          "s": "کسب‌وکارش پارسال واقعاً رونق گرفت.",
+          "pr": "هِر بیزْنِس ریلی توک آف لَسْت ییر.",
+          "alts": [
+            "Last year, her business really took off."
+          ]
+        }
+      ]
+    }
+  ],
+  "reading": {
+    "title": {
+      "t": "Lost in idioms",
+      "s": "گم‌شده در اصطلاحات",
+      "pr": "لاسْت این ایدیِمز"
+    },
+    "text": [
+      {
+        "t": "When I moved to Chicago for work, I thought my English was pretty good.",
+        "s": "وقتی برای کار به شیکاگو رفتم، فکر می‌کردم انگلیسی‌ام نسبتاً خوب است.",
+        "pr": "وِن آی مووْد تو شیکاگُو فُر وِرک، آی ثات مای اینگْلیش واز پْریتی گود."
+      },
+      {
+        "t": "It turned out that I had a lot to learn.",
+        "s": "معلوم شد که هنوز خیلی چیزها باید یاد بگیرم.",
+        "pr": "ایت تِرنْد آوت ذَت آی هَد اِ لات تو لِرن."
+      },
+      {
+        "t": "On my first day, my boss told me that the new project was a piece of cake, and I spent the whole afternoon wondering where the cake was.",
+        "s": "روز اول، رئیسم گفت پروژه‌ی جدید a piece of cake (یک تکه کیک) است، و من تمام بعدازظهر در فکر این بودم که کیک کجاست.",
+        "pr": "آن مای فِرسْت دِی، مای باس تُولد میْ ذَت ذِ نو پْراجِکْت واز اِ پیس آو کِیک، اَند آی سْپِنت ذِ هُول اَفْتِرنون واندِرینگ وِر ذِ کِیک واز."
+      },
+      {
+        "t": "A week later, when a coworker said she was under the weather, I looked out of the window to check whether it was raining.",
+        "s": "یک هفته بعد، وقتی همکاری گفت under the weather است، از پنجره بیرون را نگاه کردم ببینم باران می‌آید یا نه.",
+        "pr": "اِ ویک لِیتِر، وِن اِ کُووِرکِر سِد شی واز آنْدِر ذِ وِذِر، آی لوکْت آوت آو ذِ ویندُو تو چِک وِذِر ایت واز رِینینگ."
+      },
+      {
+        "t": "Embarrassing as these moments were, they taught me something important.",
+        "s": "این لحظه‌ها هرچقدر هم خجالت‌آور بودند، چیز مهمی به من یاد دادند.",
+        "pr": "ایمْبَرِسینگ اَز ذیز مُومِنْتْس وِر، ذِی تات میْ سامْثینگ ایمْپُرتِنْت."
+      },
+      {
+        "t": "Idioms are not just decoration; native speakers use them all the time, especially in informal conversation.",
+        "s": "اصطلاحات فقط برای زینت نیستند؛ گویشوران بومی همیشه از آن‌ها استفاده می‌کنند، به‌خصوص در گفت‌وگوهای خودمانی.",
+        "pr": "ایدیِمز آر نات جاسْت دِکِرِیشِن؛ نِیتیو سْپیکِرز یوز ذِم آل ذِ تایم، ایسْپِشِلی این اینْفُرمِل کانْوِرْسِیشِن."
+      },
+      {
+        "t": "So I started a notebook and wrote down every new expression I came across.",
+        "s": "پس یک دفترچه درست کردم و هر اصطلاح تازه‌ای را که به آن برمی‌خوردم یادداشت کردم.",
+        "pr": "سُو آی سْتارتِد اِ نُوتْبوک اَند رُوت داون اِوْری نو ایکْسْپْرِشِن آی کِیم اِکْراس."
+      },
+      {
+        "t": "I also noticed that many of them have Persian equivalents with completely different images.",
+        "s": "متوجه شدم که بسیاری از آن‌ها معادل‌های فارسی‌ای با تصویرهای کاملاً متفاوت دارند.",
+        "pr": "آی آلسُو نُوتیسْت ذَت مِنی آو ذِم هَو پِرژِن ایکْویوِلِنْتْس ویذ کِمْپْلیتْلی دیفْرِنت ایمِجِز."
+      },
+      {
+        "t": "For example, what Americans call “a piece of cake,” we describe as being “like drinking water.”",
+        "s": "مثلاً چیزی را که آمریکایی‌ها «یک تکه کیک» می‌نامند، ما «مثل آب خوردن» توصیف می‌کنیم.",
+        "pr": "فُر ایگْزَمْپِل، وات اِمِریکِنز کال اِ پیس آو کِیک، وی دیسْکْرایب اَز بیینگ لایک دْرینکینگ واتِر."
+      },
+      {
+        "t": "Little by little, I got the hang of them, and my colleagues began to treat me as one of the team.",
+        "s": "کم‌کم دستم آمد و همکارانم با من مثل یکی از اعضای تیم رفتار کردند.",
+        "pr": "لیتِل بای لیتِل، آی گات ذِ هَنگ آو ذِم، اَند مای کالیگْز بیگَن تو تْریت میْ اَز وان آو ذِ تیم."
+      },
+      {
+        "t": "Of course, I still make mistakes, and my kids laugh at me when I mix up two expressions.",
+        "s": "البته هنوز هم اشتباه می‌کنم و وقتی دو اصطلاح را با هم قاطی می‌کنم، بچه‌هایم به من می‌خندند.",
+        "pr": "آو کُرس، آی سْتیل مِیک میسْتِیکْس، اَند مای کیدْز لَف اَت میْ وِن آی میکْس آپ تو ایکْسْپْرِشِنز."
+      },
+      {
+        "t": "But as they say, it's not the end of the world.",
+        "s": "ولی به قول معروف، آخر دنیا که نیست.",
+        "pr": "بات اَز ذِی سِی، ایتس نات ذی اِند آو ذِ وِرلد."
+      },
+      {
+        "t": "My advice? Don't just memorize idioms; listen for them in real life, and use them when you're among friends.",
+        "s": "توصیه‌ی من؟ اصطلاحات را فقط حفظ نکنید؛ در زندگی واقعی گوش به زنگشان باشید و وقتی میان دوستان هستید به کارشان ببرید.",
+        "pr": "مای اِدْوایْس؟ دُونت جاسْت مِمِرایز ایدیِمز؛ لیسِن فُر ذِم این ریل لایف، اَند یوز ذِم وِن یور اِمانگ فْرِنْدْز."
+      }
+    ],
+    "questions": [
+      {
+        "q": {
+          "t": "What did the writer think about his English before he moved to Chicago?",
+          "s": "نویسنده پیش از رفتن به شیکاگو درباره‌ی انگلیسی‌اش چه فکری می‌کرد؟",
+          "pr": "وات دید ذِ رایتِر ثینک اِباوت هیز اینگْلیش بیفُر هی مووْد تو شیکاگُو؟"
+        },
+        "options": [
+          "It was quite good.",
+          "It was very poor.",
+          "It was perfect."
+        ],
+        "answer": 0
+      },
+      {
+        "q": {
+          "t": "Why did he look out of the window?",
+          "s": "چرا از پنجره بیرون را نگاه کرد؟",
+          "pr": "وای دید هی لوک آوت آو ذِ ویندُو؟"
+        },
+        "options": [
+          "He was waiting for his boss.",
+          "He misunderstood an idiom.",
+          "He wanted to see the cake."
+        ],
+        "answer": 1
+      },
+      {
+        "q": {
+          "t": "What did he do to learn new expressions?",
+          "s": "برای یادگرفتن اصطلاحات تازه چه کرد؟",
+          "pr": "وات دید هی دو تو لِرن نو ایکْسْپْرِشِنز؟"
+        },
+        "options": [
+          "He took an online course.",
+          "He asked his kids.",
+          "He wrote them down in a notebook."
+        ],
+        "answer": 2
+      },
+      {
+        "q": {
+          "t": "What does the writer say about Persian equivalents?",
+          "s": "نویسنده درباره‌ی معادل‌های فارسی چه می‌گوید؟",
+          "pr": "وات داز ذِ رایتِر سِی اِباوت پِرژِن ایکْویوِلِنْتْس؟"
+        },
+        "options": [
+          "They often use different images.",
+          "They do not exist.",
+          "They are exactly the same as English idioms."
+        ],
+        "answer": 0
+      },
+      {
+        "q": {
+          "t": "What is his advice?",
+          "s": "توصیه‌ی او چیست؟",
+          "pr": "وات ایز هیز اِدْوایْس؟"
+        },
+        "options": [
+          "Only memorize lists of idioms.",
+          "Listen for idioms in real life and use them with friends.",
+          "Avoid idioms completely."
+        ],
+        "answer": 1
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "t": "Don't worry, you'll get the hang of it.",
+      "s": "نگران نباش، دستت می‌آید.",
+      "pr": "دُونت وِری، یول گِت ذِ هَنگ آو ایت."
+    },
+    {
+      "t": "Let's sleep on it and decide tomorrow.",
+      "s": "بگذار تا فردا رویش فکر کنیم و بعد تصمیم بگیریم.",
+      "pr": "لِتْس سْلیپ آن ایت اَند دیساید تِمارُو."
+    },
+    {
+      "t": "The meeting has been put off until next week.",
+      "s": "جلسه تا هفته‌ی بعد عقب افتاده است.",
+      "pr": "ذِ میتینگ هَز بین پوت آف اِنْتیل نِکْسْت ویک."
+    },
+    {
+      "t": "That new phone costs an arm and a leg.",
+      "s": "آن گوشی جدید خیلی گران است.",
+      "pr": "ذَت نو فُون کاسْتْس اِن آرم اَند اِ لِگ."
+    },
+    {
+      "t": "I picked up a few words of Arabic on vacation.",
+      "s": "در تعطیلات چند کلمه عربی یاد گرفتم.",
+      "pr": "آی پیکْت آپ اِ فیو وِردز آو اَرِبیک آن وِیکِیشِن."
+    },
+    {
+      "t": "Don't get me wrong, I love my job.",
+      "s": "سوءتفاهم نشود، من کارم را دوست دارم.",
+      "pr": "دُونت گِت میْ رانگ، آی لاو مای جاب."
+    },
+    {
+      "t": "Are we all on the same page?",
+      "s": "همه‌مان درک یکسانی داریم؟",
+      "pr": "آر وی آل آن ذِ سِیم پِیج؟"
+    },
+    {
+      "t": "The company is looking into the problem.",
+      "s": "شرکت دارد مشکل را بررسی می‌کند.",
+      "pr": "ذِ کامْپِنی ایز لوکینگ اینتو ذِ پْرابْلِم."
+    }
+  ]
+}

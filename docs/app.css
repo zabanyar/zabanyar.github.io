@@ -232,3 +232,24 @@ h2 { font-size: 1.25rem; margin: 22px 0 10px; }
 .whogrid .btn { flex: 1 1 auto; min-width: 110px; }
 .hello { flex-wrap: wrap; row-gap: 0; }
 .linkbtn { white-space: nowrap; background: none; border: 0; padding: 4px 6px; color: var(--muted, #6b7280); text-decoration: underline; cursor: pointer; font: inherit; margin-inline-start: auto; }
+/* navigation: continue card, level tabs, unit prev/next */
+.continue { display: grid; grid-template-columns: 52px 1fr auto; gap: 12px; align-items: center; padding: 14px; margin: 12px 0; border-radius: var(--r);
+  background: var(--surface); box-shadow: var(--shadow); text-decoration: none; color: inherit; border: 3px solid var(--c, var(--accent)); }
+.continue .ico { width: 52px; height: 52px; border-radius: 16px; background: var(--surface-2); display: grid; place-items: center; font-size: 1.6rem; }
+.continue .sub { color: var(--muted); font-size: .88rem; }
+.continue b { display: block; font-size: 1.1rem; }
+.continue .go { background: var(--c, var(--accent)); color: #fff; font-weight: 800; padding: 10px 14px; border-radius: 14px; white-space: nowrap; }
+.tabs.levels { margin-top: 14px; position: sticky; top: 0; z-index: 2; background: var(--bg); padding: 8px 0; }
+.tabs.levels button { min-height: 44px; font-size: 1rem; color: var(--ink); }
+.tabs.levels button.on { color: #fff; }
+.tabs.levels button.soon { opacity: .55; }
+.level .progressbar { margin-top: 8px; }
+.lesson.next { outline: 3px solid var(--accent); }
+.unitnav { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin: 18px 0 8px; }
+.unitnav .btn { flex-direction: column; gap: 0; padding: 8px 12px; line-height: 1.2; }
+.unitnav .nextu { grid-column: 2; }
+@media (max-width: 380px) { .continue { grid-template-columns: 44px 1fr; } .continue .go { grid-column: 1 / -1; text-align: center; } }
+.tabs.levels { display: grid; grid-template-columns: repeat(5, 1fr); gap: 6px; overflow: visible; }
+.tabs.levels button { display: flex; flex-direction: column; align-items: center; padding: 6px 2px; border-radius: 14px; min-width: 0; }
+.tabs.levels button b { font-size: 1.05rem; }
+.tabs.levels button .small { font-size: .78rem; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 100%; }

@@ -1,0 +1,809 @@
+{
+  "id": "u02",
+  "level": "B2",
+  "emoji": "👪",
+  "title": {
+    "t": "Relationships and the past",
+    "s": "روابط و گذشته",
+    "pr": "ریلِیشِنْشیپْس اَند ذِ پَسْت"
+  },
+  "goals": [
+    "می‌توانم درباره‌ی دوستی‌ها، روابط خانوادگی و خاطرات گذشته با جزئیات صحبت کنم.",
+    "می‌توانم با ماضی بعید ساده و استمراری ترتیب رویدادها را در یک داستان روشن کنم.",
+    "می‌توانم با used to و would درباره‌ی عادت‌های گذشته حرف بزنم.",
+    "می‌توانم be used to (عادت داشتن) و get used to (عادت کردن) را درست به کار ببرم."
+  ],
+  "words": [
+    {
+      "id": "w01",
+      "t": "lifelong friend",
+      "pl": "lifelong friends",
+      "s": "دوست همیشگی، دوست دیرینه",
+      "pr": "لایفْلانگ فْرِنْد",
+      "emoji": "",
+      "ex": {
+        "t": "Neda and I met at school, and we've been lifelong friends ever since.",
+        "s": "من و ندا در مدرسه با هم آشنا شدیم و از آن موقع تا حالا دوستان همیشگی بوده‌ایم.",
+        "pr": "ندا اَند آی مِت اَت سْکول، اَند ویو بین لایفْلانگ فْرِنْدْز اِوِر سینس."
+      }
+    },
+    {
+      "id": "w02",
+      "t": "acquaintance",
+      "pl": "acquaintances",
+      "s": "آشنا (کسی که او را کمی می‌شناسیم)",
+      "pr": "اِکْوِینْتِنْس",
+      "emoji": "",
+      "ex": {
+        "t": "He isn't really a friend, just an acquaintance from work.",
+        "s": "او واقعاً دوستم نیست، فقط یک آشنا از محل کار است.",
+        "pr": "هی ایزِنْت ریلی اِ فْرِنْد، جاسْت اِن اِکْوِینْتِنْس فْرام وِرک."
+      }
+    },
+    {
+      "id": "w03",
+      "t": "sibling",
+      "pl": "siblings",
+      "s": "خواهر یا برادر",
+      "pr": "سیبْلینگ",
+      "emoji": "",
+      "ex": {
+        "t": "I have three siblings: two brothers and a sister.",
+        "s": "سه خواهر و برادر دارم: دو برادر و یک خواهر.",
+        "pr": "آی هَو ثْری سیبْلینگْز: تو بْراذِرز اَند اِ سیسْتِر."
+      }
+    },
+    {
+      "id": "w04",
+      "t": "bond",
+      "pl": "bonds",
+      "s": "پیوند، رابطه‌ی عمیق",
+      "pr": "باند",
+      "emoji": "",
+      "ex": {
+        "t": "There is a strong bond between my mother and her sisters.",
+        "s": "بین مادرم و خواهرهایش پیوند محکمی هست.",
+        "pr": "ذِر ایز اِ سْتْرانگ باند بیتْوین مای ماذِر اَند هِر سیسْتِرز."
+      }
+    },
+    {
+      "id": "w05",
+      "t": "bring up",
+      "s": "بزرگ کردن، تربیت کردن (بچه)",
+      "pr": "بْرینگ آپ",
+      "emoji": "",
+      "ex": {
+        "t": "She was brought up by her grandmother in a small village.",
+        "s": "او را مادربزرگش در روستایی کوچک بزرگ کرد.",
+        "pr": "شی واز بْرات آپ بای هِر گْرَنْدْماذِر این اِ سْمال ویلِج."
+      }
+    },
+    {
+      "id": "w06",
+      "t": "look up to",
+      "s": "(کسی را) الگو دانستن، به (کسی) احترام گذاشتن",
+      "pr": "لوک آپ تو",
+      "emoji": "",
+      "ex": {
+        "t": "I've always looked up to my older brother.",
+        "s": "همیشه برادر بزرگ‌ترم را الگوی خودم دانسته‌ام.",
+        "pr": "آیو آلْوِیز لوکْت آپ تو مای اُولْدِر بْراذِر."
+      }
+    },
+    {
+      "id": "w07",
+      "t": "rely on",
+      "s": "روی (کسی) حساب کردن، به (کسی) تکیه کردن",
+      "pr": "ریلای آن",
+      "emoji": "",
+      "ex": {
+        "t": "You can always rely on Maryam; she never lets anyone down.",
+        "s": "همیشه می‌توانی روی مریم حساب کنی؛ هیچ‌وقت کسی را ناامید نمی‌کند.",
+        "pr": "یو کَن آلْوِیز ریلای آن مریم؛ شی نِوِر لِتْس اِنیوان داون."
+      }
+    },
+    {
+      "id": "w08",
+      "t": "run into",
+      "s": "اتفاقی (کسی را) دیدن",
+      "pr": "ران اینْتو",
+      "emoji": "",
+      "ex": {
+        "t": "I ran into an old classmate at the airport yesterday.",
+        "s": "دیروز در فرودگاه اتفاقی یکی از همکلاسی‌های قدیمی‌ام را دیدم.",
+        "pr": "آی رَن اینْتو اِن اُولْد کْلَسْمِیت اَت ذی اِرْپُرت یِسْتِرْدِی."
+      }
+    },
+    {
+      "id": "w09",
+      "t": "drift apart",
+      "s": "کم‌کم از هم دور شدن",
+      "pr": "دْریفْت اِپارت",
+      "emoji": "",
+      "ex": {
+        "t": "We drifted apart after she moved to Canada.",
+        "s": "بعد از اینکه او به کانادا رفت، کم‌کم از هم دور شدیم.",
+        "pr": "وی دْریفْتِد اِپارت اَفْتِر شی موود تو کَنِدا."
+      }
+    },
+    {
+      "id": "w10",
+      "t": "reunion",
+      "pl": "reunions",
+      "s": "دیدار دوباره، گردهمایی (دوستان یا همکلاسی‌های قدیمی)",
+      "pr": "ریونیِن",
+      "emoji": "",
+      "ex": {
+        "t": "Our class is having a reunion twenty years after graduation.",
+        "s": "کلاس ما بیست سال بعد از فارغ‌التحصیلی یک گردهمایی دارد.",
+        "pr": "آوِر کْلَس ایز هَوینگ اِ ریونیِن تْوِنْتی ییرز اَفْتِر گْرَجواِیشِن."
+      }
+    },
+    {
+      "id": "w11",
+      "t": "nostalgic",
+      "s": "دلتنگ گذشته، نوستالژیک",
+      "pr": "ناسْتَلْجیک",
+      "emoji": "",
+      "ex": {
+        "t": "Old family photos always make me feel nostalgic.",
+        "s": "عکس‌های قدیمی خانوادگی همیشه مرا دلتنگ گذشته می‌کنند.",
+        "pr": "اُولْد فَمِلی فُوتُوز آلْوِیز مِیک میْ فیل ناسْتَلْجیک."
+      }
+    },
+    {
+      "id": "w12",
+      "t": "hold a grudge",
+      "s": "کینه به دل گرفتن",
+      "pr": "هُولْد اِ گْراج",
+      "emoji": "",
+      "ex": {
+        "t": "My grandfather never held a grudge against anyone.",
+        "s": "پدربزرگم هیچ‌وقت از کسی کینه به دل نمی‌گرفت.",
+        "pr": "مای گْرَنْدْفاذِر نِوِر هِلْد اِ گْراج اِگِنْسْت اِنیوان."
+      }
+    },
+    {
+      "id": "w13",
+      "t": "forgive",
+      "s": "بخشیدن",
+      "pr": "فِرگیو",
+      "emoji": "",
+      "ex": {
+        "t": "It took her a long time to forgive him.",
+        "s": "مدت زیادی طول کشید تا او را ببخشد.",
+        "pr": "ایت توک هِر اِ لانگ تایم تو فِرگیو هیم."
+      }
+    },
+    {
+      "id": "w14",
+      "t": "misunderstanding",
+      "pl": "misunderstandings",
+      "s": "سوءتفاهم",
+      "pr": "میسْآنْدِرْسْتَنْدینگ",
+      "emoji": "",
+      "ex": {
+        "t": "It was just a misunderstanding, and we soon made up.",
+        "s": "فقط یک سوءتفاهم بود و زود آشتی کردیم.",
+        "pr": "ایت واز جاسْت اِ میسْآنْدِرْسْتَنْدینگ، اَند وی سون مِید آپ."
+      }
+    },
+    {
+      "id": "w15",
+      "t": "supportive",
+      "s": "حامی، پشتیبان",
+      "pr": "سِپُرتیو",
+      "emoji": "",
+      "ex": {
+        "t": "My family was very supportive when I lost my job.",
+        "s": "وقتی کارم را از دست دادم، خانواده‌ام خیلی پشتم بودند.",
+        "pr": "مای فَمِلی واز وِری سِپُرتیو وِن آی لاسْت مای جاب."
+      }
+    }
+  ],
+  "phrases": [
+    {
+      "id": "p01",
+      "t": "It's been ages!",
+      "s": "چه عجب! خیلی وقت است همدیگر را ندیده‌ایم!",
+      "pr": "ایتْس بین اِیجِز!"
+    },
+    {
+      "id": "p02",
+      "t": "You haven't changed a bit.",
+      "s": "اصلاً عوض نشده‌ای.",
+      "pr": "یو هَوِنْت چِینْجْد اِ بیت."
+    },
+    {
+      "id": "p03",
+      "t": "What have you been up to?",
+      "s": "این مدت چه کار می‌کردی؟ چه خبرها؟",
+      "pr": "وات هَو یو بین آپ تو؟"
+    },
+    {
+      "id": "p04",
+      "t": "Do you remember the time when …?",
+      "s": "یادت هست آن دفعه که …؟",
+      "pr": "دو یو ریمِمْبِر ذِ تایم وِن"
+    },
+    {
+      "id": "p05",
+      "t": "Those were the days!",
+      "s": "چه روزهایی بود!",
+      "pr": "ذُوز وِر ذِ دِیز!"
+    },
+    {
+      "id": "p06",
+      "t": "Let bygones be bygones.",
+      "s": "گذشته‌ها گذشته. (بیا گذشته را فراموش کنیم.)",
+      "pr": "لِت بایگانْز بی بایگانْز."
+    },
+    {
+      "id": "p07",
+      "t": "I owe you an apology.",
+      "s": "باید از تو عذرخواهی کنم.",
+      "pr": "آی اُو یو اِن اِپالِجی."
+    },
+    {
+      "id": "p08",
+      "t": "We go way back.",
+      "s": "ما از خیلی وقت پیش همدیگر را می‌شناسیم.",
+      "pr": "وی گُو وِی بَک."
+    }
+  ],
+  "dialogue": {
+    "title": {
+      "t": "An unexpected reunion",
+      "s": "یک دیدار غیرمنتظره",
+      "pr": "اِن آنیکْسْپِکْتِد ریونیِن"
+    },
+    "speakers": {
+      "A": {
+        "name": "Sara",
+        "voice": "f"
+      },
+      "B": {
+        "name": "Tom",
+        "voice": "m"
+      }
+    },
+    "lines": [
+      {
+        "sp": "A",
+        "t": "Tom? Is that really you? It's been ages!",
+        "s": "تام؟ واقعاً خودتی؟ چه عجب، خیلی وقت است ندیدمت!",
+        "pr": "تام؟ ایز ذَت ریلی یو؟ ایتْس بین اِیجِز!"
+      },
+      {
+        "sp": "B",
+        "t": "Sara! I hardly recognized you. I'd heard you had moved to Germany.",
+        "s": "سارا! به‌زور شناختمت. شنیده بودم به آلمان رفته‌ای.",
+        "pr": "سارا! آی هاردْلی رِکِگْنایزْد یو. آید هِرد یو هَد موود تو جِرْمِنی."
+      },
+      {
+        "sp": "A",
+        "t": "I did, eight years ago. I'd been working in Tehran for a while, and then I got a job in Munich.",
+        "s": "رفتم، هشت سال پیش. مدتی در تهران کار کرده بودم و بعد در مونیخ کار پیدا کردم.",
+        "pr": "آی دید، اِیت ییرز اِگُو. آید بین وِرکینگ این تهران فُر اِ وایل، اَند ذِن آی گات اِ جاب این میونیک."
+      },
+      {
+        "sp": "B",
+        "t": "Wow. Was it hard to get used to the weather?",
+        "s": "وای. عادت کردن به هوایش سخت بود؟",
+        "pr": "واو. واز ایت هارد تو گِت یوسْت تو ذِ وِذِر؟"
+      },
+      {
+        "sp": "A",
+        "t": "At first, yes. But now I'm used to the rain. What have you been up to?",
+        "s": "اولش، آره. ولی حالا به باران عادت دارم. تو این مدت چه کار می‌کردی؟",
+        "pr": "اَت فِرْسْت، یِس. بات ناو آیم یوسْت تو ذِ رِین. وات هَو یو بین آپ تو؟"
+      },
+      {
+        "sp": "B",
+        "t": "I'm a teacher now, at our old school. Do you remember our old math teacher?",
+        "s": "من الان معلمم، در همان مدرسه‌ی قدیمی‌مان. معلم ریاضی قدیممان یادت هست؟",
+        "pr": "آیم اِ تیچِر ناو، اَت آوِر اُولْد سْکول. دو یو ریمِمْبِر آوِر اُولْد مَث تیچِر؟"
+      },
+      {
+        "sp": "A",
+        "t": "Of course! He would always tell us jokes before every test.",
+        "s": "معلوم است! همیشه قبل از هر امتحان برایمان جوک تعریف می‌کرد.",
+        "pr": "آو کُرس! هی وود آلْوِیز تِل آس جُوکْس بیفُر اِوْری تِسْت."
+      },
+      {
+        "sp": "B",
+        "t": "And we used to sit in the back row and laugh at everything.",
+        "s": "ما هم ته کلاس می‌نشستیم و به همه‌چیز می‌خندیدیم.",
+        "pr": "اَند وی یوسْت تو سیت این ذِ بَک رُو اَند لَف اَت اِوْریثینگ."
+      },
+      {
+        "sp": "A",
+        "t": "Those were the days! By the time we graduated, we'd become best friends.",
+        "s": "چه روزهایی بود! تا وقتی فارغ‌التحصیل شدیم، بهترین دوست هم شده بودیم.",
+        "pr": "ذُوز وِر ذِ دِیز! بای ذِ تایم وی گْرَجواِیتِد، وید بیکام بِسْت فْرِنْدْز."
+      },
+      {
+        "sp": "B",
+        "t": "And then we drifted apart. I'm sorry I didn't stay in touch.",
+        "s": "و بعد کم‌کم از هم دور شدیم. ببخشید که با تو در ارتباط نماندم.",
+        "pr": "اَند ذِن وی دْریفْتِد اِپارت. آیم ساری آی دیدِنْت سْتِی این تاچ."
+      },
+      {
+        "sp": "A",
+        "t": "Don't worry, it was my fault, too. Let's not lose touch again!",
+        "s": "نگران نباش، تقصیر من هم بود. بیا دیگر ارتباطمان را از دست ندهیم!",
+        "pr": "دُونت وِری، ایت واز مای فالْت، تو. لِتْس نات لوز تاچ اِگِن!"
+      },
+      {
+        "sp": "B",
+        "t": "Deal. Here's my number.",
+        "s": "قبول. این هم شماره‌ام.",
+        "pr": "دیل. هیرز مای نامْبِر."
+      }
+    ]
+  },
+  "grammar": [
+    {
+      "id": "g01",
+      "title": {
+        "t": "Past perfect simple and continuous",
+        "s": "ماضی بعید ساده و استمراری در روایت",
+        "pr": "پَسْت پِرْفِکْت سیمْپِل اَند کِنْتینیواِس"
+      },
+      "explain": "در داستان و روایت، وقتی می‌خواهیم نشان دهیم کاری **قبل از** کار دیگری در گذشته اتفاق افتاده بود، از **ماضی بعید ساده** استفاده می‌کنیم: **had + قسمت سوم فعل**: **When I arrived, the party had already started.** (وقتی رسیدم، مهمانی شروع شده بود.)\nمقایسه کنید: **When I arrived, they started dinner.** (اول من رسیدم، بعد شام را شروع کردند.) / **When I arrived, they had started dinner.** (قبل از رسیدن من شام را شروع کرده بودند.)\n**ماضی بعید استمراری**: **had been + فعل ing‌دار**. برای کاری که **تا لحظه‌ای در گذشته مدتی ادامه داشته** یا علتِ یک نتیجه در گذشته بوده است: **She was tired because she had been working all night.** (خسته بود، چون تمام شب کار کرده بود.)\nهمان تفاوت حال کامل ساده و استمراری اینجا هم هست: ساده برای **نتیجه و تعداد** (**He had written three letters.**) و استمراری برای **مدت و جریان کار** (**He had been writing for hours.**).\nاین زمان‌ها با **before، after، by the time، already، just** و **never … before** زیاد می‌آیند. وقتی **before** یا **after** ترتیب را روشن می‌کند، گذشته‌ی ساده هم درست است: **After I (had) finished, I went home.**\nشکل کوتاه: **I'd، she'd، they'd** (= I had). مراقب باشید با **I'd = I would** اشتباهش نگیرید؛ بعد از had قسمت سوم فعل می‌آید (**I'd seen**) و بعد از would شکل ساده (**I'd see**).\nفارسی هم ماضی بعید دارد («رفته بودم»، «کار کرده بودم»)، پس کاربرد اصلی‌اش برای شما آشناست.",
+      "table": [
+        [
+          "Past perfect simple",
+          "had + past participle",
+          "The train had left when we got there."
+        ],
+        [
+          "Past perfect continuous",
+          "had been + -ing",
+          "We had been waiting for an hour."
+        ],
+        [
+          "Negative",
+          "hadn't + past participle",
+          "I hadn't met her before."
+        ],
+        [
+          "Question",
+          "Had + subject + past participle",
+          "Had you ever been there before?"
+        ]
+      ],
+      "examples": [
+        {
+          "t": "When I got to the station, the train had already left.",
+          "s": "وقتی به ایستگاه رسیدم، قطار رفته بود.",
+          "pr": "وِن آی گات تو ذِ سْتِیشِن، ذِ تْرِین هَد آلْرِدی لِفْت."
+        },
+        {
+          "t": "They had been living in Shiraz for ten years before they moved to Tehran.",
+          "s": "قبل از اینکه به تهران بروند، ده سال در شیراز زندگی کرده بودند.",
+          "pr": "ذِی هَد بین لیوینگ این شیراز فُر تِن ییرز بیفُر ذِی موود تو تهران."
+        },
+        {
+          "t": "I didn't recognize him because he had grown a beard.",
+          "s": "نشناختمش، چون ریش گذاشته بود.",
+          "pr": "آی دیدِنْت رِکِگْنایز هیم بیکاز هی هَد گْرُون اِ بیرْد."
+        },
+        {
+          "t": "Her eyes were red. She had been crying.",
+          "s": "چشم‌هایش قرمز بود. گریه کرده بود.",
+          "pr": "هِر آیز وِر رِد. شی هَد بین کْرایینگ."
+        },
+        {
+          "t": "Had you ever met Neda before the wedding?",
+          "s": "قبل از عروسی ندا را دیده بودی؟",
+          "pr": "هَد یو اِوِر مِت ندا بیفُر ذِ وِدینگ؟"
+        }
+      ],
+      "exercises": [
+        {
+          "type": "choice",
+          "t": "When we arrived, the concert ___.",
+          "options": [
+            "had already started",
+            "has already started",
+            "already starts"
+          ],
+          "answer": 0,
+          "s": "وقتی رسیدیم، کنسرت شروع شده بود.",
+          "pr": "وِن وی اِرایوْد، ذِ کانْسِرْت هَد آلْرِدی سْتارتِد."
+        },
+        {
+          "type": "choice",
+          "t": "Ali was out of breath because he ___.",
+          "options": [
+            "had been running",
+            "has been running",
+            "is running"
+          ],
+          "answer": 0,
+          "s": "علی نفس‌نفس می‌زد، چون دویده بود.",
+          "pr": "علی واز آوت آو بْرِث بیکاز هی هَد بین رانینگ."
+        },
+        {
+          "type": "choice",
+          "t": "She ___ to London before, so everything was new to her.",
+          "options": [
+            "had never been",
+            "has never been",
+            "never goes"
+          ],
+          "answer": 0,
+          "s": "او قبلاً هرگز به لندن نرفته بود، برای همین همه‌چیز برایش تازه بود.",
+          "pr": "شی هَد نِوِر بین تو لانْدِن بیفُر، سُو اِوْریثینگ واز نو تو هِر."
+        },
+        {
+          "type": "type",
+          "t": "By the time the guests arrived, we ___ cooked everything.",
+          "answer": [
+            "had"
+          ],
+          "s": "تا مهمان‌ها برسند، ما همه‌چیز را پخته بودیم.",
+          "pr": "بای ذِ تایم ذِ گِسْتْس اِرایوْد، وی هَد کوکْت اِوْریثینگ."
+        },
+        {
+          "type": "type",
+          "t": "They had been ___ for two hours when the bus finally came.",
+          "answer": [
+            "waiting"
+          ],
+          "s": "دو ساعت بود که منتظر بودند که بالاخره اتوبوس آمد.",
+          "pr": "ذِی هَد بین وِیتینگ فُر تو آوِرز وِن ذِ باس فاینِلی کِیم."
+        },
+        {
+          "type": "type",
+          "t": "I couldn't get into the house because I ___ lost my keys.",
+          "answer": [
+            "had"
+          ],
+          "s": "نتوانستم وارد خانه شوم، چون کلیدهایم را گم کرده بودم.",
+          "pr": "آی کودِنْت گِت اینْتو ذِ هاوس بیکاز آی هَد لاسْت مای کیز."
+        },
+        {
+          "type": "order",
+          "t": "We had known each other for years.",
+          "alts": [
+            "For years we had known each other."
+          ],
+          "s": "سال‌ها بود که همدیگر را می‌شناختیم.",
+          "pr": "وی هَد نُون ایچ آذِر فُر ییرز."
+        },
+        {
+          "type": "order",
+          "t": "Had you ever been abroad before that trip?",
+          "s": "قبل از آن سفر، هیچ‌وقت خارج از کشور رفته بودی؟",
+          "pr": "هَد یو اِوِر بین اِبْراد بیفُر ذَت تْریپ؟",
+          "alts": [
+            "Before that trip, had you ever been abroad?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "g02",
+      "title": {
+        "t": "used to, would; be used to, get used to",
+        "s": "عادت‌های گذشته؛ عادت داشتن و عادت کردن",
+        "pr": "یوسْت تو، وود؛ بی یوسْت تو، گِت یوسْت تو"
+      },
+      "explain": "**used to + شکل ساده‌ی فعل** را از B1 می‌شناسید: برای عادت‌ها و حالت‌هایی در گذشته که دیگر وجود ندارند: **I used to live in Tabriz.** (قبلاً در تبریز زندگی می‌کردم.)\n**would + شکل ساده‌ی فعل** هم برای **کارهای تکراری در گذشته** به کار می‌رود، مخصوصاً وقتی خاطره تعریف می‌کنیم: **Every summer, we would visit our grandparents.** ولی would برای **حالت‌ها** (با فعل‌هایی مثل be، live، have، know، like) به کار نمی‌رود: **I used to have long hair** درست است، ولی **I would have long hair** در این معنی غلط است.\n**be used to + اسم یا فعل ing‌دار** یعنی «**به چیزی عادت داشتن**» (برایم عادی است): **I'm used to working at night.**\n**get used to + اسم یا فعل ing‌دار** یعنی «**به چیزی عادت کردن**» (کم‌کم برایم عادی شد یا می‌شود): **It took me a year to get used to the cold weather.**\nدقت کنید: در be used to و get used to، کلمه‌ی **to** حرف اضافه است، پس بعد از آن **فعل ing‌دار** می‌آید، نه شکل ساده: **I'm used to getting up early** (نه I'm used to get up).\nتلفظ: used to در همه‌ی این ساخت‌ها «یوسْت تو» است. در فارسی هم «عادت داشتن» و «عادت کردن» دقیقاً همین فرقِ be used to و get used to را نشان می‌دهند.",
+      "table": [
+        [
+          "used to + verb",
+          "past habit or state",
+          "We used to live near the sea."
+        ],
+        [
+          "would + verb",
+          "repeated past action (not states)",
+          "My father would read us stories."
+        ],
+        [
+          "be used to + noun / -ing",
+          "it is normal for me",
+          "I'm used to the noise."
+        ],
+        [
+          "get used to + noun / -ing",
+          "it becomes normal",
+          "You'll get used to driving here."
+        ]
+      ],
+      "examples": [
+        {
+          "t": "When I was a child, my grandmother would tell me stories every night.",
+          "s": "وقتی بچه بودم، مادربزرگم هر شب برایم قصه می‌گفت.",
+          "pr": "وِن آی واز اِ چایلْد، مای گْرَنْدْماذِر وود تِل میْ سْتُریز اِوْری نایت."
+        },
+        {
+          "t": "We used to have a big garden with a pomegranate tree.",
+          "s": "قبلاً یک باغچه‌ی بزرگ با یک درخت انار داشتیم.",
+          "pr": "وی یوسْت تو هَو اِ بیگ گاردِن ویذ اِ پامِگْرَنِت تْری."
+        },
+        {
+          "t": "I'm not used to driving on the left.",
+          "s": "به رانندگی در سمت چپ جاده عادت ندارم.",
+          "pr": "آیم نات یوسْت تو دْرایوینگ آن ذِ لِفْت."
+        },
+        {
+          "t": "Did you find it hard to get used to the food in Germany?",
+          "s": "عادت کردن به غذای آلمان برایت سخت بود؟",
+          "pr": "دید یو فاینْد ایت هارد تو گِت یوسْت تو ذِ فود این جِرْمِنی؟"
+        },
+        {
+          "t": "My parents are getting used to living alone now that we've left home.",
+          "s": "حالا که ما از خانه رفته‌ایم، پدر و مادرم دارند به تنها زندگی کردن عادت می‌کنند.",
+          "pr": "مای پِرِنْتْس آر گِتینگ یوسْت تو لیوینگ اِلُون ناو ذَت ویو لِفْت هُوم."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "choice",
+          "t": "When I was young, I ___ have very long hair.",
+          "options": [
+            "used to",
+            "would",
+            "was used to"
+          ],
+          "answer": 0,
+          "s": "وقتی جوان بودم، موهای خیلی بلندی داشتم.",
+          "pr": "وِن آی واز یانگ، آی یوسْت تو هَو وِری لانگ هِر."
+        },
+        {
+          "type": "choice",
+          "t": "I've lived in Hamburg for five years, so I'm used to ___ in the rain.",
+          "options": [
+            "walking",
+            "walk",
+            "walked"
+          ],
+          "answer": 0,
+          "s": "پنج سال است در هامبورگ زندگی می‌کنم، برای همین به راه رفتن زیر باران عادت دارم.",
+          "pr": "آیو لیوْد این هَمْبِرْگ فُر فایو ییرز، سُو آیم یوسْت تو واکینگ این ذِ رِین."
+        },
+        {
+          "type": "choice",
+          "t": "It took Reza months to ___ used to the night shifts.",
+          "options": [
+            "get",
+            "be",
+            "use"
+          ],
+          "answer": 0,
+          "s": "چند ماه طول کشید تا رضا به شیفت‌های شب عادت کند.",
+          "pr": "ایت توک رضا مانْثْس تو گِت یوسْت تو ذِ نایت شیفْتْس."
+        },
+        {
+          "type": "type",
+          "t": "Every Friday, my father ___ take us to the mountains.",
+          "answer": [
+            "would",
+            "used to"
+          ],
+          "s": "هر جمعه پدرم ما را به کوه می‌برد.",
+          "pr": "اِوْری فْرایدِی، مای فاذِر وود تِیک آس تو ذِ ماونْتِنْز."
+        },
+        {
+          "type": "type",
+          "t": "Don't worry, you'll soon get used to ___ English every day.",
+          "answer": [
+            "speaking",
+            "using"
+          ],
+          "s": "نگران نباش، به‌زودی به هر روز انگلیسی حرف زدن عادت می‌کنی.",
+          "pr": "دُونت وِری، یول سون گِت یوسْت تو سْپیکینگ اینگْلیش اِوْری دِی."
+        },
+        {
+          "type": "type",
+          "t": "She ___ used to the noise of the city yet.",
+          "answer": [
+            "isn't",
+            "is not"
+          ],
+          "s": "او هنوز به سروصدای شهر عادت ندارد.",
+          "pr": "شی ایزِنْت یوسْت تو ذِ نُیز آو ذِ سیتی یِت."
+        },
+        {
+          "type": "order",
+          "t": "We used to spend every summer in the village.",
+          "s": "قبلاً هر تابستان را در روستا می‌گذراندیم.",
+          "pr": "وی یوسْت تو سْپِنْد اِوْری سامِر این ذِ ویلِج."
+        },
+        {
+          "type": "order",
+          "t": "I'm still getting used to my new job.",
+          "s": "هنوز دارم به کار جدیدم عادت می‌کنم.",
+          "pr": "آیم سْتیل گِتینگ یوسْت تو مای نو جاب."
+        }
+      ]
+    }
+  ],
+  "reading": {
+    "title": {
+      "t": "A letter from the past",
+      "s": "نامه‌ای از گذشته",
+      "pr": "اِ لِتِر فْرام ذِ پَسْت"
+    },
+    "text": [
+      {
+        "t": "When I was a child in Isfahan, my best friend was a girl called Neda, who lived next door.",
+        "s": "وقتی بچه بودم و در اصفهان زندگی می‌کردم، بهترین دوستم دختری به اسم ندا بود که همسایه‌ی دیواربه‌دیوارمان بود.",
+        "pr": "وِن آی واز اِ چایلْد این اصفهان، مای بِسْت فْرِنْد واز اِ گِرل کالْد ندا، هو لیوْد نِکْسْت دُر."
+      },
+      {
+        "t": "Every afternoon, we would sit under the old tree in her yard and share our secrets.",
+        "s": "هر روز بعدازظهر، زیر درخت پیر حیاط خانه‌شان می‌نشستیم و رازهایمان را به هم می‌گفتیم.",
+        "pr": "اِوْری اَفْتِرْنون، وی وود سیت آنْدِر ذی اُولْد تْری این هِر یارد اَند شِر آوِر سیکْرِتْس."
+      },
+      {
+        "t": "We used to call ourselves sisters, even though we weren't related.",
+        "s": "با اینکه هیچ نسبتی با هم نداشتیم، به خودمان می‌گفتیم خواهر.",
+        "pr": "وی یوسْت تو کال آوِرْسِلْوْز سیسْتِرز، ایوِن ذُو وی وِرِنْت ریلِیتِد."
+      },
+      {
+        "t": "Then, when we were twelve, her family suddenly moved to Canada.",
+        "s": "بعد، وقتی دوازده‌ساله بودیم، خانواده‌اش ناگهان به کانادا رفتند.",
+        "pr": "ذِن، وِن وی وِر تْوِلْو، هِر فَمِلی سادِنْلی موود تو کَنِدا."
+      },
+      {
+        "t": "We wrote to each other for a while, but slowly we drifted apart.",
+        "s": "مدتی برای هم نامه نوشتیم، ولی کم‌کم از هم دور شدیم.",
+        "pr": "وی رُوت تو ایچ آذِر فُر اِ وایل، بات سْلُولی وی دْریفْتِد اِپارت."
+      },
+      {
+        "t": "Last month, while I was cleaning my parents' house, I found a box of old letters.",
+        "s": "ماه پیش، وقتی خانه‌ی پدر و مادرم را تمیز می‌کردم، یک جعبه نامه‌ی قدیمی پیدا کردم.",
+        "pr": "لَسْت مانْث، وایل آی واز کْلینینگ مای پِرِنْتْس هاوس، آی فاونْد اِ باکْس آو اُولْد لِتِرز."
+      },
+      {
+        "t": "My mother had kept every letter Neda had ever sent me.",
+        "s": "مادرم همه‌ی نامه‌هایی را که ندا برایم فرستاده بود نگه داشته بود.",
+        "pr": "مای ماذِر هَد کِپْت اِوْری لِتِر ندا هَد اِوِر سِنْت میْ."
+      },
+      {
+        "t": "I had been looking for her online for years without any luck.",
+        "s": "سال‌ها بود که بی‌نتیجه در اینترنت دنبالش می‌گشتم.",
+        "pr": "آی هَد بین لوکینگ فُر هِر آنْلاین فُر ییرز ویذاوت اِنی لاک."
+      },
+      {
+        "t": "But on one of the envelopes, there was the name of her father's old company.",
+        "s": "ولی روی یکی از پاکت‌ها، اسم شرکت قدیمی پدرش نوشته شده بود.",
+        "pr": "بات آن وان آو ذی اِنْوِلُوپْس، ذِر واز ذِ نِیم آو هِر فاذِرز اُولْد کامپِنی."
+      },
+      {
+        "t": "With that information, I found her in less than an hour.",
+        "s": "با این اطلاعات، در کمتر از یک ساعت پیدایش کردم.",
+        "pr": "ویذ ذَت اینْفِرْمِیشِن، آی فاونْد هِر این لِس ذَن اِن آوِر."
+      },
+      {
+        "t": "We talked on a video call for three hours, and it felt as if no time had passed.",
+        "s": "سه ساعت با تماس تصویری حرف زدیم و انگار هیچ زمانی نگذشته بود.",
+        "pr": "وی تاکْت آن اِ ویدیُو کال فُر ثْری آوِرز، اَند ایت فِلْت اَز ایف نُو تایم هَد پَسْت."
+      },
+      {
+        "t": "She is a doctor in Toronto now, and she still isn't used to the long, cold winters.",
+        "s": "او حالا در تورنتو پزشک است و هنوز به زمستان‌های طولانی و سرد آنجا عادت ندارد.",
+        "pr": "شی ایز اِ داکْتِر این تِرانْتُو ناو، اَند شی سْتیل ایزِنْت یوسْت تو ذِ لانگ، کُولْد وینْتِرز."
+      },
+      {
+        "t": "Next summer, she's coming to visit, and we're going to walk down our old street together.",
+        "s": "تابستان آینده به دیدنم می‌آید و قرار است با هم در کوچه‌ی قدیمی‌مان قدم بزنیم.",
+        "pr": "نِکْسْت سامِر، شیز کامینگ تو ویزیت، اَند ویر گُوینگ تو واک داون آوِر اُولْد سْتْریت تِگِذِر."
+      }
+    ],
+    "questions": [
+      {
+        "q": {
+          "t": "Where did Neda live when the writer was a child?",
+          "s": "وقتی نویسنده بچه بود، ندا کجا زندگی می‌کرد؟",
+          "pr": "وِر دید ندا لیو وِن ذِ رایتِر واز اِ چایلْد؟"
+        },
+        "options": [
+          "next door",
+          "in Tehran",
+          "in Toronto"
+        ],
+        "answer": 0
+      },
+      {
+        "q": {
+          "t": "What would the two girls do every afternoon?",
+          "s": "دو دختر هر بعدازظهر چه کار می‌کردند؟",
+          "pr": "وات وود ذِ تو گِرلْز دو اِوْری اَفْتِرْنون؟"
+        },
+        "options": [
+          "They would sit under a tree and share secrets.",
+          "They would write letters to each other.",
+          "They would play in the park."
+        ],
+        "answer": 0
+      },
+      {
+        "q": {
+          "t": "Who had kept Neda's letters?",
+          "s": "چه کسی نامه‌های ندا را نگه داشته بود؟",
+          "pr": "هو هَد کِپْت نداز لِتِرز؟"
+        },
+        "options": [
+          "the writer's father",
+          "the writer's mother",
+          "Neda's sister"
+        ],
+        "answer": 1
+      },
+      {
+        "q": {
+          "t": "How did the writer finally find Neda?",
+          "s": "نویسنده بالاخره چطور ندا را پیدا کرد؟",
+          "pr": "هاو دید ذِ رایتِر فاینِلی فاینْد ندا؟"
+        },
+        "options": [
+          "She ran into her at the airport.",
+          "She used the name of a company on an envelope.",
+          "Neda's mother called her."
+        ],
+        "answer": 1
+      },
+      {
+        "q": {
+          "t": "What is Neda still not used to?",
+          "s": "ندا هنوز به چه چیزی عادت ندارد؟",
+          "pr": "وات ایز ندا سْتیل نات یوسْت تو؟"
+        },
+        "options": [
+          "her job as a doctor",
+          "the long, cold winters",
+          "speaking English"
+        ],
+        "answer": 1
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "t": "I'd never seen the sea before I was eighteen.",
+      "s": "تا هجده‌سالگی هرگز دریا ندیده بودم.",
+      "pr": "آید نِوِر سین ذِ سی بیفُر آی واز اِیتین."
+    },
+    {
+      "t": "We used to play in the street until it got dark.",
+      "s": "قبلاً تا هوا تاریک شود در کوچه بازی می‌کردیم.",
+      "pr": "وی یوسْت تو پْلِی این ذِ سْتْریت اِنْتیل ایت گات دارک."
+    },
+    {
+      "t": "My grandfather would always bring us sweets on Fridays.",
+      "s": "پدربزرگم جمعه‌ها همیشه برایمان شیرینی می‌آورد.",
+      "pr": "مای گْرَنْدْفاذِر وود آلْوِیز بْرینگ آس سْویتْس آن فْرایدِیز."
+    },
+    {
+      "t": "She had been crying, but she didn't want to talk about it.",
+      "s": "گریه کرده بود، ولی نمی‌خواست درباره‌اش حرف بزند.",
+      "pr": "شی هَد بین کْرایینگ، بات شی دیدِنْت وانْت تو تاک اِباوت ایت."
+    },
+    {
+      "t": "It took me a long time to get used to living alone.",
+      "s": "مدت زیادی طول کشید تا به تنها زندگی کردن عادت کنم.",
+      "pr": "ایت توک میْ اِ لانگ تایم تو گِت یوسْت تو لیوینگ اِلُون."
+    },
+    {
+      "t": "I ran into my old teacher at the bazaar yesterday.",
+      "s": "دیروز در بازار اتفاقی معلم قدیمی‌ام را دیدم.",
+      "pr": "آی رَن اینْتو مای اُولْد تیچِر اَت ذِ بِزار یِسْتِرْدِی."
+    },
+    {
+      "t": "My sister and I have a very strong bond.",
+      "s": "من و خواهرم پیوند خیلی محکمی با هم داریم.",
+      "pr": "مای سیسْتِر اَند آی هَو اِ وِری سْتْرانگ باند."
+    },
+    {
+      "t": "Ali apologized, and Sara forgave him.",
+      "s": "علی عذرخواهی کرد و سارا او را بخشید.",
+      "pr": "علی اِپالِجایزْد، اَند سارا فِرگِیو هیم."
+    }
+  ]
+}

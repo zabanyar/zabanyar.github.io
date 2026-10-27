@@ -1,0 +1,709 @@
+{
+  "id": "u05",
+  "level": "A2",
+  "emoji": "💼",
+  "title": {
+    "t": "Arbeit und Beruf",
+    "s": "Work and jobs"
+  },
+  "goals": [
+    "Talk about jobs, workplaces and your working day",
+    "Give reasons with weil and say what you think or know with dass (verb at the end)",
+    "Talk about the past with war, hatte, musste, konnte, durfte, wollte",
+    "Tell someone about your first days in a new job"
+  ],
+  "words": [
+    {
+      "id": "w01",
+      "t": "der Beruf",
+      "pl": "die Berufe",
+      "s": "job, profession (Ich bin Lehrerin. – no article!)",
+      "emoji": "",
+      "ex": {
+        "t": "Ich bin Lehrerin von Beruf.",
+        "s": "I'm a teacher by profession."
+      }
+    },
+    {
+      "id": "w02",
+      "t": "die Firma",
+      "pl": "die Firmen",
+      "s": "company, firm",
+      "emoji": "",
+      "ex": {
+        "t": "Meine Firma ist in Frankfurt.",
+        "s": "My company is in Frankfurt."
+      }
+    },
+    {
+      "id": "w03",
+      "t": "der Kollege",
+      "pl": "die Kollegen",
+      "s": "colleague (male); female: die Kollegin",
+      "emoji": "",
+      "ex": {
+        "t": "Meine Kollegen sind sehr nett.",
+        "s": "My colleagues are very nice."
+      }
+    },
+    {
+      "id": "w04",
+      "t": "der Chef",
+      "pl": "die Chefs",
+      "s": "boss (male); female: die Chefin",
+      "emoji": "",
+      "ex": {
+        "t": "Die Chefin ist heute nicht im Büro.",
+        "s": "The boss isn't in the office today."
+      }
+    },
+    {
+      "id": "w05",
+      "t": "das Büro",
+      "pl": "die Büros",
+      "s": "office",
+      "emoji": "",
+      "ex": {
+        "t": "Ich arbeite von acht bis vier im Büro.",
+        "s": "I work in the office from eight to four."
+      }
+    },
+    {
+      "id": "w06",
+      "t": "verdienen",
+      "s": "to earn",
+      "emoji": "💶",
+      "ex": {
+        "t": "Er verdient nicht viel, aber die Arbeit macht ihm Spaß.",
+        "s": "He doesn't earn much, but he enjoys the work."
+      }
+    },
+    {
+      "id": "w07",
+      "t": "die Ausbildung",
+      "pl": "die Ausbildungen",
+      "s": "vocational training, apprenticeship",
+      "emoji": "",
+      "ex": {
+        "t": "Jonas macht eine Ausbildung bei einer Bank.",
+        "s": "Jonas is doing an apprenticeship at a bank."
+      }
+    },
+    {
+      "id": "w08",
+      "t": "das Praktikum",
+      "pl": "die Praktika",
+      "s": "internship",
+      "emoji": "",
+      "ex": {
+        "t": "Im Sommer mache ich ein Praktikum in einem Hotel.",
+        "s": "In the summer I'm doing an internship at a hotel."
+      }
+    },
+    {
+      "id": "w09",
+      "t": "die Pause",
+      "pl": "die Pausen",
+      "s": "break",
+      "emoji": "",
+      "ex": {
+        "t": "Um zwölf Uhr machen wir eine Pause.",
+        "s": "We take a break at twelve o'clock."
+      }
+    },
+    {
+      "id": "w10",
+      "t": "der Feierabend",
+      "s": "end of the working day, time off after work",
+      "emoji": "",
+      "ex": {
+        "t": "Endlich Feierabend! Jetzt gehe ich nach Hause.",
+        "s": "Finally done for the day! Now I'm going home."
+      }
+    },
+    {
+      "id": "w11",
+      "t": "arbeitslos",
+      "s": "unemployed",
+      "emoji": "",
+      "ex": {
+        "t": "Mein Nachbar ist seit drei Monaten arbeitslos.",
+        "s": "My neighbor has been unemployed for three months."
+      }
+    },
+    {
+      "id": "w12",
+      "t": "Teilzeit arbeiten",
+      "s": "to work part-time (opposite: Vollzeit = full-time)",
+      "emoji": "",
+      "ex": {
+        "t": "Maryam arbeitet Teilzeit, weil sie zwei kleine Kinder hat.",
+        "s": "Maryam works part-time because she has two small children."
+      }
+    },
+    {
+      "id": "w13",
+      "t": "der Ingenieur",
+      "pl": "die Ingenieure",
+      "s": "engineer (male; French-style ending: in-zhen-YÖR); female: die Ingenieurin",
+      "emoji": "",
+      "ex": {
+        "t": "Reza arbeitet als Ingenieur in Stuttgart.",
+        "s": "Reza works as an engineer in Stuttgart."
+      }
+    },
+    {
+      "id": "w14",
+      "t": "der Lehrer",
+      "pl": "die Lehrer",
+      "s": "teacher (male); female: die Lehrerin",
+      "emoji": "",
+      "ex": {
+        "t": "Meine Schwester ist Lehrerin an einer Grundschule.",
+        "s": "My sister is a teacher at an elementary school."
+      }
+    },
+    {
+      "id": "w15",
+      "t": "die Überstunde",
+      "pl": "die Überstunden",
+      "s": "hour of overtime; Überstunden machen = to work overtime",
+      "emoji": "",
+      "ex": {
+        "t": "Letzte Woche musste ich viele Überstunden machen.",
+        "s": "Last week I had to work a lot of overtime."
+      }
+    }
+  ],
+  "phrases": [
+    {
+      "id": "p01",
+      "t": "Was sind Sie von Beruf?",
+      "s": "What do you do for a living?"
+    },
+    {
+      "id": "p02",
+      "t": "Ich arbeite bei einer Bank.",
+      "s": "I work at a bank."
+    },
+    {
+      "id": "p03",
+      "t": "Die Arbeit macht mir Spaß.",
+      "s": "I enjoy my work."
+    },
+    {
+      "id": "p04",
+      "t": "Ich bin gerade auf Jobsuche.",
+      "s": "I'm looking for a job at the moment."
+    },
+    {
+      "id": "p05",
+      "t": "Wie lange arbeiten Sie schon hier?",
+      "s": "How long have you been working here?"
+    },
+    {
+      "id": "p06",
+      "t": "Ich habe heute frei.",
+      "s": "I have the day off today."
+    },
+    {
+      "id": "p07",
+      "t": "Ich hatte viel zu tun.",
+      "s": "I had a lot to do."
+    },
+    {
+      "id": "p08",
+      "t": "Schönen Feierabend!",
+      "s": "Have a nice evening! (said when leaving work)"
+    }
+  ],
+  "dialogue": {
+    "title": {
+      "t": "Die erste Woche im neuen Job",
+      "s": "The first week in the new job"
+    },
+    "speakers": {
+      "A": {
+        "name": "Jonas",
+        "voice": "m"
+      },
+      "B": {
+        "name": "Sara",
+        "voice": "f"
+      }
+    },
+    "lines": [
+      {
+        "sp": "A",
+        "t": "Hallo, Sara! Wie war die erste Woche im neuen Job?",
+        "s": "Hi, Sara! How was your first week in the new job?"
+      },
+      {
+        "sp": "B",
+        "t": "Ganz gut, danke! Aber am Montag war ich sehr nervös.",
+        "s": "Pretty good, thanks! But on Monday I was very nervous."
+      },
+      {
+        "sp": "A",
+        "t": "Warum denn?",
+        "s": "Why?"
+      },
+      {
+        "sp": "B",
+        "t": "Weil alles neu war. Und ich musste viele Computerprogramme lernen.",
+        "s": "Because everything was new. And I had to learn a lot of computer programs."
+      },
+      {
+        "sp": "A",
+        "t": "Und wie sind die Kollegen?",
+        "s": "And what are your colleagues like?"
+      },
+      {
+        "sp": "B",
+        "t": "Sehr nett! Am Dienstag hatte ich ein Problem mit dem Computer, und ein Kollege konnte mir sofort helfen.",
+        "s": "Very nice! On Tuesday I had a problem with the computer, and a colleague was able to help me right away."
+      },
+      {
+        "sp": "A",
+        "t": "Super. Und deine Chefin?",
+        "s": "Great. And your boss?"
+      },
+      {
+        "sp": "B",
+        "t": "Ich glaube, dass sie mit mir zufrieden ist. Sie hat gesagt, dass ich schnell lerne.",
+        "s": "I think she's happy with me. She said that I learn fast."
+      },
+      {
+        "sp": "A",
+        "t": "Das freut mich! Musst du viele Überstunden machen?",
+        "s": "I'm glad to hear that! Do you have to work a lot of overtime?"
+      },
+      {
+        "sp": "B",
+        "t": "Nein, zum Glück nicht. Ich arbeite Teilzeit, weil ich nachmittags meine Tochter abhole.",
+        "s": "No, luckily not. I work part-time because I pick up my daughter in the afternoons."
+      },
+      {
+        "sp": "A",
+        "t": "Das ist doch perfekt. In meinem alten Job musste ich oft bis acht Uhr abends arbeiten.",
+        "s": "That's perfect, then. In my old job I often had to work until eight in the evening."
+      },
+      {
+        "sp": "B",
+        "t": "Oh je! Gut, dass du jetzt eine andere Stelle hast.",
+        "s": "Oh dear! Good thing you have a different job now."
+      }
+    ]
+  },
+  "grammar": [
+    {
+      "id": "g01",
+      "title": {
+        "t": "…, weil ich müde bin. …, dass sie nett ist.",
+        "s": "Subordinate clauses with weil and dass"
+      },
+      "explain": "**weil** (*because*) gives a reason. **dass** (*that*) introduces what someone says, thinks, knows or hopes: Ich glaube, **dass** … Ich weiß, **dass** … Es ist gut, **dass** …\nAfter **weil** and **dass** comes a **subordinate clause** (Nebensatz): the conjugated verb goes to the **very end**. Always put a **comma** before weil and dass.\nIch bleibe zu Hause. Ich **bin** krank. → Ich bleibe zu Hause, **weil** ich krank **bin**.\nWith two verbs (a modal verb or the Perfekt), the conjugated verb comes last: …, weil ich arbeiten **muss**. …, dass er gestern gekommen **ist**.\nSeparable verbs are joined again at the end: …, weil ich um sechs Uhr **aufstehe**.\nIf the weil-clause comes first, the main clause starts with the verb: **Weil ich krank bin, bleibe ich zu Hause.**\nIn English you can drop *that* (*I think she's nice*). In German you can also say **Ich glaube, sie ist nett.** – but then with normal word order. With **dass**, the verb must go to the end.",
+      "table": [
+        [
+          "Ich komme nicht,",
+          "weil ich krank bin."
+        ],
+        [
+          "Sie arbeitet Teilzeit,",
+          "weil sie zwei Kinder hat."
+        ],
+        [
+          "Er sagt,",
+          "dass er morgen kommen kann."
+        ],
+        [
+          "Ich glaube,",
+          "dass er schon nach Hause gegangen ist."
+        ],
+        [
+          "Ich weiß,",
+          "dass der Kurs um acht Uhr anfängt."
+        ]
+      ],
+      "examples": [
+        {
+          "t": "Ich lerne Deutsch, weil ich in Deutschland arbeiten möchte.",
+          "s": "I'm learning German because I'd like to work in Germany."
+        },
+        {
+          "t": "Jonas ist müde, weil er Überstunden gemacht hat.",
+          "s": "Jonas is tired because he worked overtime."
+        },
+        {
+          "t": "Ich finde, dass die Arbeit interessant ist.",
+          "s": "I think that the work is interesting."
+        },
+        {
+          "t": "Weißt du, dass Lena eine neue Stelle hat?",
+          "s": "Did you know that Lena has a new job?"
+        },
+        {
+          "t": "Es ist schön, dass du heute frei hast.",
+          "s": "It's nice that you have the day off today."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "choice",
+          "t": "Sara arbeitet Teilzeit, weil ___.",
+          "options": [
+            "sie hat zwei Kinder",
+            "sie zwei Kinder hat",
+            "hat sie zwei Kinder"
+          ],
+          "answer": 1,
+          "s": "Sara works part-time because she has two children."
+        },
+        {
+          "type": "choice",
+          "t": "Ich glaube, ___ der Chef heute nicht kommt.",
+          "options": [
+            "dass",
+            "weil",
+            "das"
+          ],
+          "answer": 0,
+          "s": "I think that the boss isn't coming today."
+        },
+        {
+          "type": "choice",
+          "t": "Er kommt nicht zur Arbeit, ___ er krank ist.",
+          "options": [
+            "dass",
+            "weil"
+          ],
+          "answer": 1,
+          "s": "He isn't coming to work because he's sick."
+        },
+        {
+          "type": "type",
+          "t": "Ich bleibe zu Hause, weil ich krank ___.",
+          "answer": [
+            "bin"
+          ],
+          "s": "I'm staying at home because I'm sick."
+        },
+        {
+          "type": "type",
+          "t": "Wir wissen, dass die Pause um zwölf Uhr ___.",
+          "answer": [
+            "anfängt",
+            "anfaengt",
+            "beginnt"
+          ],
+          "s": "We know that the break starts at twelve o'clock."
+        },
+        {
+          "type": "type",
+          "t": "Lena sagt, ___ sie heute Überstunden machen muss.",
+          "answer": [
+            "dass"
+          ],
+          "s": "Lena says that she has to work overtime today."
+        },
+        {
+          "type": "order",
+          "t": "Ich bin müde, weil ich viel gearbeitet habe.",
+          "s": "I'm tired because I worked a lot.",
+          "alts": [
+            "Weil ich viel gearbeitet habe, bin ich müde."
+          ]
+        },
+        {
+          "type": "order",
+          "t": "Ich glaube, dass sie Lehrerin ist.",
+          "s": "I think that she's a teacher.",
+          "alts": [
+            "Dass sie Lehrerin ist, glaube ich."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "g02",
+      "title": {
+        "t": "Ich war krank und musste zu Hause bleiben.",
+        "s": "The simple past of sein, haben and the modal verbs"
+      },
+      "explain": "In Unit 1 you learned the Perfekt for the past. But with **sein**, **haben** and the **modal verbs**, Germans normally use the **Präteritum** (simple past) – also when they speak: Ich **war** müde. Ich **hatte** keine Zeit. Ich **musste** arbeiten.\n**sein → war**, **haben → hatte**. Modal verbs: **-te** is added to the stem, and the umlaut disappears: müssen → **musste**, können → **konnte**, dürfen → **durfte**, sollen → **sollte**, wollen (*to want*) → **wollte**. möchte has no past form of its own – use **wollte**: Ich **wollte** kommen.\n**ich** and **er/sie/es** have the same form, without an ending: ich **war**, er **war**, ich **musste**, sie **musste**. The other forms: du **warst**, wir **waren**, ihr **wart**, sie/Sie **waren** – du **musstest**, wir **mussten**, ihr **musstet**, sie/Sie **mussten**.\nWith a modal verb, the second verb stays at the end in the infinitive: Gestern **konnte** ich nicht **kommen**.",
+      "table": [
+        [
+          "sein",
+          "ich war",
+          "wir waren"
+        ],
+        [
+          "haben",
+          "ich hatte",
+          "wir hatten"
+        ],
+        [
+          "müssen",
+          "ich musste",
+          "wir mussten"
+        ],
+        [
+          "können",
+          "ich konnte",
+          "wir konnten"
+        ],
+        [
+          "dürfen",
+          "ich durfte",
+          "wir durften"
+        ],
+        [
+          "wollen",
+          "ich wollte",
+          "wir wollten"
+        ]
+      ],
+      "examples": [
+        {
+          "t": "Gestern war ich nicht im Büro.",
+          "s": "I wasn't at the office yesterday."
+        },
+        {
+          "t": "Wir hatten letzte Woche viel Arbeit.",
+          "s": "We had a lot of work last week."
+        },
+        {
+          "t": "Ich musste am Samstag arbeiten.",
+          "s": "I had to work on Saturday."
+        },
+        {
+          "t": "Früher konnte Maryam kein Deutsch.",
+          "s": "Maryam couldn't speak any German before."
+        },
+        {
+          "t": "Mein Sohn wollte immer Ingenieur werden.",
+          "s": "My son always wanted to become an engineer."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "choice",
+          "t": "Gestern ___ ich krank.",
+          "options": [
+            "war",
+            "bin",
+            "hatte"
+          ],
+          "answer": 0,
+          "s": "I was sick yesterday."
+        },
+        {
+          "type": "choice",
+          "t": "___ du am Wochenende Zeit?",
+          "options": [
+            "Hattest",
+            "Hatte",
+            "Warst"
+          ],
+          "answer": 0,
+          "s": "Did you have time on the weekend?"
+        },
+        {
+          "type": "choice",
+          "t": "Wir ___ gestern lange arbeiten.",
+          "options": [
+            "musste",
+            "mussten",
+            "müssen"
+          ],
+          "answer": 1,
+          "s": "We had to work late yesterday."
+        },
+        {
+          "type": "type",
+          "t": "Letzte Woche ___ ich leider nicht kommen.",
+          "answer": [
+            "konnte"
+          ],
+          "s": "Unfortunately, I couldn't come last week."
+        },
+        {
+          "type": "type",
+          "t": "Die Kinder ___ früher nicht allein in den Park gehen.",
+          "answer": [
+            "durften"
+          ],
+          "s": "In the past, the children weren't allowed to go to the park alone."
+        },
+        {
+          "type": "type",
+          "t": "Wo ___ ihr am Montag?",
+          "answer": [
+            "wart"
+          ],
+          "s": "Where were you (all) on Monday?"
+        },
+        {
+          "type": "type",
+          "t": "Jonas ___ Arzt werden, aber jetzt ist er Lehrer.",
+          "answer": [
+            "wollte"
+          ],
+          "s": "Jonas wanted to become a doctor, but now he's a teacher."
+        },
+        {
+          "type": "order",
+          "t": "Ich hatte gestern keine Zeit.",
+          "s": "I didn't have time yesterday.",
+          "alts": [
+            "Gestern hatte ich keine Zeit."
+          ]
+        }
+      ]
+    }
+  ],
+  "reading": {
+    "title": {
+      "t": "Reza erzählt von seiner Arbeit",
+      "s": "Reza talks about his work"
+    },
+    "text": [
+      {
+        "t": "Ich heiße Reza und bin Ingenieur von Beruf.",
+        "s": "My name is Reza, and I'm an engineer by profession."
+      },
+      {
+        "t": "Im Iran hatte ich eine gute Stelle in Teheran.",
+        "s": "In Iran I had a good job in Tehran."
+      },
+      {
+        "t": "Vor zwei Jahren bin ich mit meiner Familie nach Deutschland gekommen.",
+        "s": "Two years ago I came to Germany with my family."
+      },
+      {
+        "t": "Am Anfang war es schwer, weil ich nicht gut Deutsch sprechen konnte.",
+        "s": "At the beginning it was hard because I couldn't speak German well."
+      },
+      {
+        "t": "Ich musste zuerst einen Deutschkurs machen.",
+        "s": "First I had to take a German course."
+      },
+      {
+        "t": "Dann habe ich ein Praktikum bei einer Firma in Stuttgart gemacht.",
+        "s": "Then I did an internship at a company in Stuttgart."
+      },
+      {
+        "t": "Mein Chef war sehr zufrieden, und nach drei Monaten konnte ich in der Firma bleiben.",
+        "s": "My boss was very happy, and after three months I was able to stay at the company."
+      },
+      {
+        "t": "Jetzt arbeite ich Vollzeit und verdiene gut.",
+        "s": "Now I work full-time and earn a good salary."
+      },
+      {
+        "t": "Ich finde, dass meine Kollegen sehr nett sind.",
+        "s": "I think that my colleagues are very nice."
+      },
+      {
+        "t": "Nur eins ist schwer: Ich vermisse meine Eltern, weil sie noch in Teheran wohnen.",
+        "s": "Only one thing is hard: I miss my parents because they still live in Tehran."
+      }
+    ],
+    "questions": [
+      {
+        "q": {
+          "t": "Was ist Reza von Beruf?",
+          "s": "What does Reza do for a living?"
+        },
+        "options": [
+          "Lehrer",
+          "Ingenieur",
+          "Arzt"
+        ],
+        "answer": 1
+      },
+      {
+        "q": {
+          "t": "Warum war der Anfang in Deutschland schwer?",
+          "s": "Why was the beginning in Germany hard?"
+        },
+        "options": [
+          "Weil er keine Wohnung hatte.",
+          "Weil er nicht gut Deutsch sprechen konnte.",
+          "Weil er krank war."
+        ],
+        "answer": 1
+      },
+      {
+        "q": {
+          "t": "Was musste Reza zuerst machen?",
+          "s": "What did Reza have to do first?"
+        },
+        "options": [
+          "einen Deutschkurs",
+          "ein Praktikum",
+          "eine Ausbildung"
+        ],
+        "answer": 0
+      },
+      {
+        "q": {
+          "t": "Wo hat Reza ein Praktikum gemacht?",
+          "s": "Where did Reza do an internship?"
+        },
+        "options": [
+          "in Teheran",
+          "in Stuttgart",
+          "in Berlin"
+        ],
+        "answer": 1
+      },
+      {
+        "q": {
+          "t": "Warum vermisst Reza seine Eltern?",
+          "s": "Why does Reza miss his parents?"
+        },
+        "options": [
+          "Weil sie noch in Teheran wohnen.",
+          "Weil sie krank sind.",
+          "Weil er viel arbeiten muss."
+        ],
+        "answer": 0
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "t": "Ich arbeite seit drei Jahren bei dieser Firma.",
+      "s": "I've been working for this company for three years."
+    },
+    {
+      "t": "Heute muss ich bis sechs Uhr im Büro bleiben.",
+      "s": "Today I have to stay at the office until six o'clock."
+    },
+    {
+      "t": "Neda studiert, weil sie Lehrerin werden möchte.",
+      "s": "Neda is studying at university because she'd like to become a teacher."
+    },
+    {
+      "t": "Ich hoffe, dass ich die Stelle bekomme.",
+      "s": "I hope that I get the job."
+    },
+    {
+      "t": "Gestern hatte ich keine Pause.",
+      "s": "Yesterday I didn't have a break."
+    },
+    {
+      "t": "Mein Kollege war letzte Woche krank.",
+      "s": "My colleague was sick last week."
+    },
+    {
+      "t": "Wir konnten das Problem schnell lösen.",
+      "s": "We were able to solve the problem quickly."
+    },
+    {
+      "t": "Schönen Feierabend und bis morgen!",
+      "s": "Have a nice evening, and see you tomorrow!"
+    }
+  ]
+}

@@ -1,0 +1,723 @@
+{
+  "id": "u01",
+  "level": "B1",
+  "emoji": "📖",
+  "title": {
+    "t": "Lebensgeschichten",
+    "s": "Life stories"
+  },
+  "goals": [
+    "Tell your life story and talk about memories",
+    "Use the Präteritum of regular, irregular and mixed verbs in written stories",
+    "Choose correctly between als, wenn and wann",
+    "Understand a short biography"
+  ],
+  "words": [
+    {
+      "id": "w01",
+      "t": "die Kindheit",
+      "s": "childhood",
+      "emoji": "",
+      "ex": {
+        "t": "Ich hatte eine glückliche Kindheit in Isfahan.",
+        "s": "I had a happy childhood in Isfahan."
+      }
+    },
+    {
+      "id": "w02",
+      "t": "die Jugend",
+      "s": "youth, teenage years",
+      "emoji": "",
+      "ex": {
+        "t": "In meiner Jugend habe ich viel Fußball gespielt.",
+        "s": "In my youth, I played a lot of soccer."
+      }
+    },
+    {
+      "id": "w03",
+      "t": "die Erinnerung",
+      "pl": "die Erinnerungen",
+      "s": "memory (of something); keepsake",
+      "emoji": "",
+      "ex": {
+        "t": "Ich habe viele schöne Erinnerungen an meine Schulzeit.",
+        "s": "I have many happy memories of my school days."
+      }
+    },
+    {
+      "id": "w04",
+      "t": "sich erinnern an + A",
+      "s": "to remember (sb or sth)",
+      "emoji": "",
+      "ex": {
+        "t": "Erinnerst du dich an unseren ersten Urlaub am Meer?",
+        "s": "Do you remember our first vacation at the ocean?"
+      }
+    },
+    {
+      "id": "w05",
+      "t": "aufwachsen",
+      "s": "to grow up (wuchs auf, ist aufgewachsen)",
+      "emoji": "",
+      "ex": {
+        "t": "Meine Mutter ist auf einem Bauernhof aufgewachsen.",
+        "s": "My mother grew up on a farm."
+      }
+    },
+    {
+      "id": "w06",
+      "t": "geboren werden",
+      "s": "to be born (ich wurde 1990 geboren; for living people also: ich bin 1990 geboren)",
+      "emoji": "",
+      "ex": {
+        "t": "Mein Vater wurde 1955 in Täbris geboren.",
+        "s": "My father was born in Tabriz in 1955."
+      }
+    },
+    {
+      "id": "w07",
+      "t": "die Heimat",
+      "s": "home country, homeland; the place where you feel at home",
+      "emoji": "",
+      "ex": {
+        "t": "Ich vermisse manchmal meine Heimat.",
+        "s": "I sometimes miss my home country."
+      }
+    },
+    {
+      "id": "w08",
+      "t": "auswandern",
+      "s": "to emigrate (wanderte aus, ist ausgewandert)",
+      "emoji": "",
+      "ex": {
+        "t": "Im neunzehnten Jahrhundert wanderten viele Deutsche nach Amerika aus.",
+        "s": "In the 19th century, many Germans emigrated to America."
+      }
+    },
+    {
+      "id": "w09",
+      "t": "die Schulzeit",
+      "s": "school days, school years",
+      "emoji": "",
+      "ex": {
+        "t": "In meiner Schulzeit war Mathe mein Lieblingsfach.",
+        "s": "In my school days, math was my favorite subject."
+      }
+    },
+    {
+      "id": "w10",
+      "t": "erleben",
+      "s": "to experience, go through",
+      "emoji": "",
+      "ex": {
+        "t": "Auf der Reise haben wir viel Schönes erlebt.",
+        "s": "We experienced a lot of wonderful things on the trip."
+      }
+    },
+    {
+      "id": "w11",
+      "t": "die Grundschule",
+      "pl": "die Grundschulen",
+      "s": "elementary school",
+      "emoji": "🏫",
+      "ex": {
+        "t": "In Deutschland dauert die Grundschule meistens vier Jahre.",
+        "s": "In Germany, elementary school usually lasts four years."
+      }
+    },
+    {
+      "id": "w12",
+      "t": "das Studium",
+      "pl": "die Studien",
+      "s": "university studies, degree course",
+      "emoji": "",
+      "ex": {
+        "t": "Nach dem Studium fand Reza schnell eine Arbeit.",
+        "s": "After finishing university, Reza quickly found a job."
+      }
+    },
+    {
+      "id": "w13",
+      "t": "damals",
+      "s": "back then, at that time",
+      "emoji": "",
+      "ex": {
+        "t": "Damals gab es noch keine Smartphones.",
+        "s": "Back then there were no smartphones yet."
+      }
+    },
+    {
+      "id": "w14",
+      "t": "verlassen",
+      "s": "to leave (a place or a person) (verließ, hat verlassen)",
+      "emoji": "",
+      "ex": {
+        "t": "Mit zwanzig verließ sie ihr Elternhaus.",
+        "s": "At twenty, she left her parents' home."
+      }
+    },
+    {
+      "id": "w15",
+      "t": "das Tagebuch",
+      "pl": "die Tagebücher",
+      "s": "diary",
+      "emoji": "📔",
+      "ex": {
+        "t": "Meine Tochter schreibt jeden Abend in ihr Tagebuch.",
+        "s": "My daughter writes in her diary every evening."
+      }
+    },
+    {
+      "id": "w16",
+      "t": "zum ersten Mal",
+      "s": "for the first time",
+      "emoji": "",
+      "ex": {
+        "t": "Im Jahr 2015 war ich zum ersten Mal in Deutschland.",
+        "s": "In 2015 I was in Germany for the first time."
+      }
+    }
+  ],
+  "phrases": [
+    {
+      "id": "p01",
+      "t": "Erzähl mal, wie war das damals?",
+      "s": "Tell me, what was it like back then?"
+    },
+    {
+      "id": "p02",
+      "t": "Das ist schon lange her.",
+      "s": "That was a long time ago."
+    },
+    {
+      "id": "p03",
+      "t": "Damals war alles ganz anders.",
+      "s": "Back then everything was completely different."
+    },
+    {
+      "id": "p04",
+      "t": "Daran erinnere ich mich noch gut.",
+      "s": "I still remember that well."
+    },
+    {
+      "id": "p05",
+      "t": "Ich kann mich nicht mehr genau erinnern.",
+      "s": "I can't remember exactly anymore."
+    },
+    {
+      "id": "p06",
+      "t": "Mit achtzehn bin ich nach Deutschland gekommen.",
+      "s": "I came to Germany when I was eighteen."
+    },
+    {
+      "id": "p07",
+      "t": "Das war die schönste Zeit in meinem Leben.",
+      "s": "That was the best time of my life."
+    },
+    {
+      "id": "p08",
+      "t": "Und wie ging es dann weiter?",
+      "s": "And what happened next?"
+    }
+  ],
+  "dialogue": {
+    "title": {
+      "t": "Ein Interview für die Stadtteilzeitung",
+      "s": "An interview for the neighborhood newspaper"
+    },
+    "speakers": {
+      "A": {
+        "name": "Lena",
+        "voice": "f"
+      },
+      "B": {
+        "name": "Reza",
+        "voice": "m"
+      }
+    },
+    "lines": [
+      {
+        "sp": "A",
+        "t": "Danke, dass du mitmachst, Reza! Für unsere Stadtteilzeitung sammeln wir Lebensgeschichten. Wo bist du aufgewachsen?",
+        "s": "Thanks for taking part, Reza! We're collecting life stories for our neighborhood newspaper. Where did you grow up?"
+      },
+      {
+        "sp": "B",
+        "t": "In Schiras. Die Stadt ist für ihre schönen Gärten bekannt.",
+        "s": "In Shiraz. The city is famous for its beautiful gardens."
+      },
+      {
+        "sp": "A",
+        "t": "Woran erinnerst du dich besonders gern?",
+        "s": "What do you remember most fondly?"
+      },
+      {
+        "sp": "B",
+        "t": "An die Sommerabende. Wenn es abends kühler wurde, saßen wir alle im Hof und tranken Tee.",
+        "s": "The summer evenings. When it got cooler in the evening, we all sat in the courtyard and drank tea."
+      },
+      {
+        "sp": "A",
+        "t": "Das klingt wunderschön. Und wann bist du nach Deutschland gekommen?",
+        "s": "That sounds wonderful. And when did you come to Germany?"
+      },
+      {
+        "sp": "B",
+        "t": "Im Jahr 2009. Als ich mit dem Studium fertig war, bekam ich ein Stipendium in Aachen.",
+        "s": "In 2009. When I had finished university, I got a scholarship in Aachen."
+      },
+      {
+        "sp": "A",
+        "t": "War der Anfang schwer?",
+        "s": "Was the beginning hard?"
+      },
+      {
+        "sp": "B",
+        "t": "Ja, sehr. Als ich ankam, sprach ich kaum Deutsch und kannte niemanden.",
+        "s": "Yes, very. When I arrived, I hardly spoke any German and didn't know anyone."
+      },
+      {
+        "sp": "A",
+        "t": "Und wie ging es dann weiter?",
+        "s": "And what happened next?"
+      },
+      {
+        "sp": "B",
+        "t": "Ich lernte jeden Abend Vokabeln, und nach zwei Jahren fand ich eine Stelle als Ingenieur.",
+        "s": "I studied vocabulary every evening, and after two years I found a job as an engineer."
+      },
+      {
+        "sp": "A",
+        "t": "Was hat dir damals am meisten geholfen?",
+        "s": "What helped you most back then?"
+      },
+      {
+        "sp": "B",
+        "t": "Meine Nachbarn. Immer wenn ich ein Problem hatte, halfen sie mir sofort.",
+        "s": "My neighbors. Whenever I had a problem, they helped me right away."
+      }
+    ]
+  },
+  "grammar": [
+    {
+      "id": "g01",
+      "title": {
+        "t": "Ich wohnte, ich ging, ich dachte",
+        "s": "The Präteritum (simple past) of regular and irregular verbs"
+      },
+      "explain": "The **Präteritum** (simple past) is the tense of written stories: biographies, novels, newspaper reports and fairy tales. In conversation, Germans mostly use the Perfekt – but you already know that **war**, **hatte** and the modal verbs (**musste**, **konnte** …) are common in speech too. The same is true of **es gab**, **ich wusste** and **ich dachte**.\n**Regular verbs**: stem + **-te** + ending: mach**te**, wohn**te**, lern**te**. If the stem ends in **-d** or **-t** (and in verbs like öffnen, rechnen), add **-ete**: arbeit**ete**, wart**ete**, öffn**ete**.\n**Irregular (strong) verbs** change their stem and have **no ending** in the ich and er/sie/es forms: gehen → **ging**, kommen → **kam**, sehen → **sah**, finden → **fand**, schreiben → **schrieb**, fahren → **fuhr**, lesen → **las**, sprechen → **sprach**, treffen → **traf**, ziehen → **zog**. Learn them in threes: gehen – ging – gegangen.\n**Mixed verbs** change the stem but take **-te**: denken → **dachte**, bringen → **brachte**, kennen → **kannte**, wissen → **wusste**.\nSeparable prefixes go to the end, just as in the present: Der Zug **kam** pünktlich **an**.",
+      "table": [
+        [
+          "ich",
+          "machte",
+          "ging"
+        ],
+        [
+          "du",
+          "machtest",
+          "gingst"
+        ],
+        [
+          "er, sie, es",
+          "machte",
+          "ging"
+        ],
+        [
+          "wir",
+          "machten",
+          "gingen"
+        ],
+        [
+          "ihr",
+          "machtet",
+          "gingt"
+        ],
+        [
+          "sie, Sie",
+          "machten",
+          "gingen"
+        ]
+      ],
+      "examples": [
+        {
+          "t": "Meine Eltern wohnten zehn Jahre in Teheran.",
+          "s": "My parents lived in Tehran for ten years."
+        },
+        {
+          "t": "Nach der Schule arbeitete ich in einer Bäckerei.",
+          "s": "After school I worked in a bakery."
+        },
+        {
+          "t": "Im Sommer fuhren wir jedes Jahr ans Kaspische Meer.",
+          "s": "Every summer we went to the Caspian Sea."
+        },
+        {
+          "t": "Plötzlich klingelte das Telefon, und ich dachte sofort an meine Mutter.",
+          "s": "Suddenly the phone rang, and I immediately thought of my mother."
+        },
+        {
+          "t": "Der Zug kam um Mitternacht in München an.",
+          "s": "The train arrived in Munich at midnight."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "choice",
+          "t": "Früher ___ mein Großvater in einer Fabrik.",
+          "options": [
+            "arbeitete",
+            "arbeitetet",
+            "arbeiten"
+          ],
+          "answer": 0,
+          "s": "My grandfather used to work in a factory."
+        },
+        {
+          "type": "choice",
+          "t": "Im Jahr 2010 ___ wir nach Deutschland.",
+          "options": [
+            "ziehten",
+            "zogen",
+            "zogt"
+          ],
+          "answer": 1,
+          "s": "In 2010 we moved to Germany."
+        },
+        {
+          "type": "type",
+          "t": "Gestern ___ ich zufällig eine alte Schulfreundin.",
+          "answer": [
+            "traf"
+          ],
+          "s": "Yesterday I happened to meet an old school friend. (treffen)"
+        },
+        {
+          "type": "type",
+          "t": "Meine Mutter ___ mir jeden Abend eine Geschichte vor.",
+          "answer": [
+            "las"
+          ],
+          "s": "My mother read me a story every evening. (vorlesen)"
+        },
+        {
+          "type": "type",
+          "t": "Damals ___ ich oft an meine Heimat.",
+          "answer": [
+            "dachte"
+          ],
+          "s": "Back then I often thought about my home country. (denken)"
+        },
+        {
+          "type": "choice",
+          "t": "Der Bus ___ zu spät an.",
+          "options": [
+            "kommte",
+            "kamte",
+            "kam"
+          ],
+          "answer": 2,
+          "s": "The bus arrived late."
+        },
+        {
+          "type": "order",
+          "t": "Wir wohnten in einem kleinen Dorf.",
+          "s": "We lived in a small village.",
+          "alts": [
+            "In einem kleinen Dorf wohnten wir."
+          ]
+        },
+        {
+          "type": "order",
+          "t": "Sie schrieb jeden Abend in ihr Tagebuch.",
+          "s": "She wrote in her diary every evening.",
+          "alts": [
+            "Jeden Abend schrieb sie in ihr Tagebuch.",
+            "In ihr Tagebuch schrieb sie jeden Abend."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "g02",
+      "title": {
+        "t": "als, wenn oder wann?",
+        "s": "Three German words for \"when\""
+      },
+      "explain": "English has one word, *when* – German has three.\n**als** is for a **single event** or **one period** in the past: **Als** ich zehn war, … · **Als** ich in Berlin ankam, …\n**wenn** is for **repeated events** in the past, often with **immer wenn** or **jedes Mal, wenn** (*whenever*): **Wenn** es regnete, spielten wir drinnen. **wenn** is also used for the present and the future, and it can mean *if*: **Wenn** ich Zeit habe, rufe ich dich an.\n**wann** is the question word – in direct and in indirect questions: **Wann** bist du gekommen? Ich weiß nicht, **wann** er kommt.\n**als** and **wenn** start a subordinate clause, so the verb goes to the end. If this clause comes first, the main clause starts with its verb: **Als ich klein war, wohnten wir in Isfahan.**",
+      "table": [
+        [
+          "einmal in der Vergangenheit",
+          "als",
+          "Als ich ankam, war es dunkel."
+        ],
+        [
+          "oft in der Vergangenheit",
+          "wenn",
+          "Wenn es regnete, blieben wir zu Hause."
+        ],
+        [
+          "Gegenwart und Zukunft",
+          "wenn",
+          "Wenn ich Zeit habe, komme ich."
+        ],
+        [
+          "Frage",
+          "wann",
+          "Wann bist du angekommen?"
+        ]
+      ],
+      "examples": [
+        {
+          "t": "Als ich achtzehn war, machte ich den Führerschein.",
+          "s": "When I was eighteen, I got my driver's license."
+        },
+        {
+          "t": "Als wir in Hamburg ankamen, regnete es.",
+          "s": "When we arrived in Hamburg, it was raining."
+        },
+        {
+          "t": "Wenn meine Oma kochte, half ich ihr immer.",
+          "s": "Whenever my grandma cooked, I always helped her."
+        },
+        {
+          "t": "Immer wenn ich Heimweh hatte, rief ich meine Eltern an.",
+          "s": "Whenever I was homesick, I called my parents."
+        },
+        {
+          "t": "Weißt du noch, wann wir uns kennengelernt haben?",
+          "s": "Do you remember when we first met?"
+        }
+      ],
+      "exercises": [
+        {
+          "type": "choice",
+          "t": "___ ich zum ersten Mal in Deutschland war, verstand ich fast nichts.",
+          "options": [
+            "Wenn",
+            "Als",
+            "Wann"
+          ],
+          "answer": 1,
+          "s": "When I was in Germany for the first time, I understood almost nothing."
+        },
+        {
+          "type": "choice",
+          "t": "Jedes Mal, ___ meine Tante uns besuchte, brachte sie Süßigkeiten mit.",
+          "options": [
+            "als",
+            "wann",
+            "wenn"
+          ],
+          "answer": 2,
+          "s": "Every time my aunt visited us, she brought sweets."
+        },
+        {
+          "type": "type",
+          "t": "Ich weiß nicht mehr genau, ___ wir nach Köln gezogen sind.",
+          "answer": [
+            "wann"
+          ],
+          "s": "I don't remember exactly when we moved to Cologne."
+        },
+        {
+          "type": "type",
+          "t": "___ ich ein Kind war, wohnten wir in Isfahan.",
+          "answer": [
+            "als"
+          ],
+          "s": "When I was a child, we lived in Isfahan."
+        },
+        {
+          "type": "choice",
+          "t": "Immer ___ es im Winter schneite, bauten wir einen Schneemann.",
+          "options": [
+            "als",
+            "wenn",
+            "wann"
+          ],
+          "answer": 1,
+          "s": "Whenever it snowed in winter, we built a snowman."
+        },
+        {
+          "type": "choice",
+          "t": "___ ich mein Diplom bekam, war die ganze Familie dabei.",
+          "options": [
+            "Als",
+            "Wenn",
+            "Wann"
+          ],
+          "answer": 0,
+          "s": "When I got my diploma, the whole family was there."
+        },
+        {
+          "type": "order",
+          "t": "Als ich klein war, hatte ich einen Hund.",
+          "s": "When I was little, I had a dog.",
+          "alts": [
+            "Ich hatte einen Hund, als ich klein war."
+          ]
+        },
+        {
+          "type": "order",
+          "t": "Wenn ich traurig war, rief ich meine Oma an.",
+          "s": "Whenever I was sad, I called my grandma.",
+          "alts": [
+            "Ich rief meine Oma an, wenn ich traurig war."
+          ]
+        }
+      ]
+    }
+  ],
+  "reading": {
+    "title": {
+      "t": "Meine Großmutter Maryam",
+      "s": "My grandmother Maryam"
+    },
+    "text": [
+      {
+        "t": "Meine Großmutter Maryam wurde 1948 in einem kleinen Dorf bei Täbris geboren.",
+        "s": "My grandmother Maryam was born in 1948 in a small village near Tabriz."
+      },
+      {
+        "t": "Ihre Familie war nicht reich, aber sie hatte eine glückliche Kindheit.",
+        "s": "Her family wasn't rich, but she had a happy childhood."
+      },
+      {
+        "t": "Als sie sieben Jahre alt war, kam sie in die Schule.",
+        "s": "When she was seven years old, she started school."
+      },
+      {
+        "t": "Der Schulweg war lang: Jeden Morgen ging sie eine Stunde zu Fuß.",
+        "s": "The way to school was long: every morning she walked for an hour."
+      },
+      {
+        "t": "Wenn es im Winter schneite, brachte ihr Vater sie mit dem Esel zur Schule.",
+        "s": "Whenever it snowed in winter, her father took her to school on the donkey."
+      },
+      {
+        "t": "Sie lernte sehr gern und wollte unbedingt Lehrerin werden.",
+        "s": "She loved learning and really wanted to become a teacher."
+      },
+      {
+        "t": "Mit achtzehn verließ sie ihr Dorf und zog nach Teheran.",
+        "s": "At eighteen she left her village and moved to Tehran."
+      },
+      {
+        "t": "Dort machte sie eine Ausbildung zur Lehrerin und lernte meinen Großvater kennen.",
+        "s": "There she trained as a teacher and met my grandfather."
+      },
+      {
+        "t": "Fast dreißig Jahre lang unterrichtete sie an einer Grundschule.",
+        "s": "For almost thirty years she taught at an elementary school."
+      },
+      {
+        "t": "Als sie in Rente ging, schrieb sie ihre Erinnerungen in ein dickes Tagebuch.",
+        "s": "When she retired, she wrote her memories down in a thick diary."
+      },
+      {
+        "t": "Letzten Sommer las sie uns daraus vor, und wir hörten stundenlang zu.",
+        "s": "Last summer she read to us from it, and we listened for hours."
+      },
+      {
+        "t": "Damals verstand ich zum ersten Mal, wie stark meine Großmutter war.",
+        "s": "That was when I understood for the first time how strong my grandmother was."
+      }
+    ],
+    "questions": [
+      {
+        "q": {
+          "t": "Wo wurde Maryam geboren?",
+          "s": "Where was Maryam born?"
+        },
+        "options": [
+          "in Teheran",
+          "in einem Dorf bei Täbris",
+          "in Schiras"
+        ],
+        "answer": 1
+      },
+      {
+        "q": {
+          "t": "Wie kam Maryam zur Schule, wenn es im Winter schneite?",
+          "s": "How did Maryam get to school when it snowed in winter?"
+        },
+        "options": [
+          "Sie fuhr mit dem Bus.",
+          "Sie blieb zu Hause.",
+          "Ihr Vater brachte sie mit dem Esel."
+        ],
+        "answer": 2
+      },
+      {
+        "q": {
+          "t": "Wo lernte Maryam ihren Mann kennen?",
+          "s": "Where did Maryam meet her husband?"
+        },
+        "options": [
+          "in Teheran",
+          "in ihrem Dorf",
+          "in Täbris"
+        ],
+        "answer": 0
+      },
+      {
+        "q": {
+          "t": "Wie lange arbeitete sie als Lehrerin?",
+          "s": "How long did she work as a teacher?"
+        },
+        "options": [
+          "zehn Jahre",
+          "fast dreißig Jahre",
+          "achtzehn Jahre"
+        ],
+        "answer": 1
+      },
+      {
+        "q": {
+          "t": "Was machte sie, als sie in Rente ging?",
+          "s": "What did she do when she retired?"
+        },
+        "options": [
+          "Sie schrieb ihre Erinnerungen auf.",
+          "Sie zog nach Deutschland.",
+          "Sie unterrichtete an einer neuen Schule."
+        ],
+        "answer": 0
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "t": "Ich bin in einer kleinen Stadt aufgewachsen.",
+      "s": "I grew up in a small town."
+    },
+    {
+      "t": "Als Kind spielte ich oft im Garten.",
+      "s": "As a child I often played in the garden."
+    },
+    {
+      "t": "Im Jahr 2012 zogen wir nach Deutschland.",
+      "s": "In 2012 we moved to Germany."
+    },
+    {
+      "t": "Meine Eltern arbeiteten beide als Lehrer.",
+      "s": "My parents both worked as teachers."
+    },
+    {
+      "t": "Als ich zwanzig war, verließ ich meine Heimat.",
+      "s": "When I was twenty, I left my home country."
+    },
+    {
+      "t": "Wenn ich krank war, kochte meine Mutter Suppe für mich.",
+      "s": "Whenever I was sick, my mother made soup for me."
+    },
+    {
+      "t": "Erinnerst du dich an unseren ersten Tag in Berlin?",
+      "s": "Do you remember our first day in Berlin?"
+    },
+    {
+      "t": "Damals hatten wir noch kein Handy.",
+      "s": "Back then we didn't have a cell phone yet."
+    }
+  ]
+}

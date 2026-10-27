@@ -1,0 +1,784 @@
+{
+  "id": "u09",
+  "level": "A2",
+  "emoji": "⛱️",
+  "title": {
+    "t": "Hava ve tatil",
+    "s": "هوا و تعطیلات"
+  },
+  "goals": [
+    "درباره‌ی هوا و دما حرف بزنم و پیش‌بینیِ هوا را بفهمم.",
+    "با -(y)dı بگویم هوا یا جایی چطور بود و کجا بودم (Hava güzeldi، evdeydim).",
+    "از için، ile و gibi با اسم و ضمیر درست استفاده کنم (benim için، seninle، onun gibi).",
+    "یک متنِ کوتاه درباره‌ی یک سفرِ تعطیلات را بفهمم."
+  ],
+  "words": [
+    {
+      "id": "w01",
+      "t": "derece",
+      "pl": "dereceler",
+      "s": "درجه",
+      "pr": "دِرِجِه",
+      "emoji": "🌡️",
+      "ex": {
+        "t": "Bugün hava otuz derece.",
+        "s": "امروز هوا سی درجه است.",
+        "pr": "بوگون هاوا اُتوز دِرِجِه."
+      }
+    },
+    {
+      "id": "w02",
+      "t": "sıcaklık",
+      "s": "دما",
+      "pr": "سِجاکلِک",
+      "emoji": "",
+      "ex": {
+        "t": "Gece sıcaklık sıfırın altında.",
+        "s": "شب دما زیرِ صفر است.",
+        "pr": "گِجِه سِجاکلِک سِفِرِن آلتِندا."
+      }
+    },
+    {
+      "id": "w03",
+      "t": "fırtına",
+      "pl": "fırtınalar",
+      "s": "طوفان",
+      "pr": "فِرتِنا",
+      "emoji": "⛈️",
+      "ex": {
+        "t": "Dün gece büyük bir fırtına vardı.",
+        "s": "دیشب طوفانِ بزرگی بود.",
+        "pr": "دون گِجِه بویوک بیر فِرتِنا واردِ."
+      }
+    },
+    {
+      "id": "w04",
+      "t": "sis",
+      "s": "مه",
+      "pr": "سیس",
+      "emoji": "🌫️",
+      "ex": {
+        "t": "Sabah her yer sisliydi.",
+        "s": "صبح همه‌جا مه‌آلود بود.",
+        "pr": "ساباه هِر یِر سیسلییدی."
+      }
+    },
+    {
+      "id": "w05",
+      "t": "nemli",
+      "s": "شرجی، مرطوب",
+      "pr": "نِملی",
+      "emoji": "",
+      "ex": {
+        "t": "İstanbul'da yazın hava çok nemli.",
+        "s": "در استانبول تابستان‌ها هوا خیلی شرجی است.",
+        "pr": "ایستانبولدا یازِن هاوا چُک نِملی."
+      }
+    },
+    {
+      "id": "w06",
+      "t": "serin",
+      "s": "خنک",
+      "pr": "سِرین",
+      "emoji": "",
+      "ex": {
+        "t": "Akşamları dağda hava serin.",
+        "s": "عصرها در کوهستان هوا خنک است.",
+        "pr": "آکشاملارِ داادا هاوا سِرین."
+      }
+    },
+    {
+      "id": "w07",
+      "t": "hava durumu",
+      "s": "پیش‌بینیِ هوا، وضعِ هوا",
+      "pr": "هاوا دورومو",
+      "emoji": "",
+      "ex": {
+        "t": "Televizyonda hava durumunu izledim.",
+        "s": "پیش‌بینیِ هوا را در تلویزیون دیدم.",
+        "pr": "تِلِویزیُندا هاوا دورومونو ایزلِدیم."
+      }
+    },
+    {
+      "id": "w08",
+      "t": "şemsiye",
+      "pl": "şemsiyeler",
+      "s": "چتر",
+      "pr": "شِمسیِه",
+      "emoji": "☂️",
+      "ex": {
+        "t": "Yağmur yağıyor, şemsiyeni al!",
+        "s": "باران می‌بارد، چترت را بردار!",
+        "pr": "یاامور یائِیُر، شِمسیِنی آل!"
+      }
+    },
+    {
+      "id": "w09",
+      "t": "plaj",
+      "pl": "plajlar",
+      "s": "ساحل (پلاژ)",
+      "pr": "پْلاژ",
+      "emoji": "🏖️",
+      "ex": {
+        "t": "Plaj otelin hemen karşısında.",
+        "s": "ساحل درست روبه‌روی هتل است.",
+        "pr": "پْلاژ اُتِلین هِمِن کارشِسِندا."
+      }
+    },
+    {
+      "id": "w10",
+      "t": "güneş kremi",
+      "s": "کرمِ ضدِ آفتاب",
+      "pr": "گونِش کْرِمی",
+      "emoji": "🧴",
+      "ex": {
+        "t": "Güneş kremin çantada.",
+        "s": "کرمِ ضدِ آفتابت توی کیف است.",
+        "pr": "گونِش کْرِمین چانتادا."
+      }
+    },
+    {
+      "id": "w11",
+      "t": "güneşlenmek",
+      "s": "آفتاب گرفتن",
+      "pr": "گونِشلِنمِک",
+      "emoji": "",
+      "ex": {
+        "t": "Annem plajda güneşlenmeyi sevmiyor.",
+        "s": "مادرم دوست ندارد در ساحل آفتاب بگیرد.",
+        "pr": "آنِّم پْلاژدا گونِشلِنمِیی سِومیُر."
+      }
+    },
+    {
+      "id": "w12",
+      "t": "pansiyon",
+      "pl": "pansiyonlar",
+      "s": "مهمان‌پذیر، پانسیون",
+      "pr": "پانسیُن",
+      "emoji": "",
+      "ex": {
+        "t": "Küçük ve temiz bir pansiyonda kaldık.",
+        "s": "در یک مهمان‌پذیرِ کوچک و تمیز ماندیم.",
+        "pr": "کوچوک وِه تِمیز بیر پانسیُندا کالدِک."
+      }
+    },
+    {
+      "id": "w13",
+      "t": "dağ",
+      "pl": "dağlar",
+      "s": "کوه",
+      "pr": "داا",
+      "emoji": "⛰️",
+      "ex": {
+        "t": "Kışın dağlar karla kaplı.",
+        "s": "زمستان کوه‌ها پوشیده از برف است.",
+        "pr": "کِشِن داالار کارلا کاپلِ."
+      }
+    },
+    {
+      "id": "w14",
+      "t": "göl",
+      "pl": "göller",
+      "s": "دریاچه",
+      "pr": "گُل",
+      "emoji": "",
+      "ex": {
+        "t": "Gölün yanında piknik yaptık.",
+        "s": "کنارِ دریاچه پیک‌نیک کردیم.",
+        "pr": "گُلون یانِندا پیکنیک یاپتِک."
+      }
+    },
+    {
+      "id": "w15",
+      "t": "ada",
+      "pl": "adalar",
+      "s": "جزیره",
+      "pr": "آدا",
+      "emoji": "🏝️",
+      "ex": {
+        "t": "Yazın Büyükada'ya gittik.",
+        "s": "تابستان به بیوک‌آدا رفتیم.",
+        "pr": "یازِن بویوکادایا گیتّیک."
+      }
+    }
+  ],
+  "phrases": [
+    {
+      "id": "p01",
+      "t": "Bugün hava kaç derece?",
+      "s": "امروز هوا چند درجه است؟",
+      "pr": "بوگون هاوا کاچ دِرِجِه؟"
+    },
+    {
+      "id": "p02",
+      "t": "Tatilin nasıldı?",
+      "s": "تعطیلاتت چطور بود؟",
+      "pr": "تاتیلین ناسِلدِ؟"
+    },
+    {
+      "id": "p03",
+      "t": "Harika bir tatildi!",
+      "s": "تعطیلاتِ فوق‌العاده‌ای بود!",
+      "pr": "هاریکا بیر تاتیلدی!"
+    },
+    {
+      "id": "p04",
+      "t": "Hava bozdu.",
+      "s": "هوا خراب شد.",
+      "pr": "هاوا بُزدو."
+    },
+    {
+      "id": "p05",
+      "t": "Şemsiyeni unutma!",
+      "s": "چترت را فراموش نکن!",
+      "pr": "شِمسیِنی اونوتما!"
+    },
+    {
+      "id": "p06",
+      "t": "Sırılsıklam oldum!",
+      "s": "خیسِ آب شدم!",
+      "pr": "سِرِلسِکلام اُلدوم!"
+    },
+    {
+      "id": "p07",
+      "t": "Ne şanslısın!",
+      "s": "چه خوش‌شانسی!",
+      "pr": "نِه شانسلِسِن!"
+    },
+    {
+      "id": "p08",
+      "t": "İyi tatiller!",
+      "s": "تعطیلاتِ خوبی داشته باشی!",
+      "pr": "ای‌یی تاتیلِّر!"
+    }
+  ],
+  "dialogue": {
+    "title": {
+      "t": "Tatil nasıldı?",
+      "s": "تعطیلات چطور بود؟"
+    },
+    "speakers": {
+      "A": {
+        "name": "Ayşe",
+        "voice": "f"
+      },
+      "B": {
+        "name": "Ali",
+        "voice": "m"
+      }
+    },
+    "lines": [
+      {
+        "sp": "A",
+        "t": "Merhaba Ali, hoş geldin! Tatilin nasıldı?",
+        "s": "سلام علی، خوش آمدی! تعطیلاتت چطور بود؟",
+        "pr": "مِرحابا علی، هُش گِلدین! تاتیلین ناسِلدِ؟"
+      },
+      {
+        "sp": "B",
+        "t": "Merhaba Ayşe! Harika bir tatildi. Bir hafta Bodrum'daydık.",
+        "s": "سلام آیشه! تعطیلاتِ فوق‌العاده‌ای بود. یک هفته در بُدروم بودیم.",
+        "pr": "مِرحابا آیشِه! هاریکا بیر تاتیلدی. بیر هافتا بُدرومدایدِک."
+      },
+      {
+        "sp": "A",
+        "t": "Hava nasıldı? Burada çok soğuktu, her gün yağmur vardı.",
+        "s": "هوا چطور بود؟ این‌جا خیلی سرد بود، هر روز باران می‌آمد.",
+        "pr": "هاوا ناسِلدِ؟ بورادا چُک سُئوکتو، هِر گون یاامور واردِ."
+      },
+      {
+        "sp": "B",
+        "t": "Bodrum'da hava çok güzeldi. Her gün otuz derece ve güneşliydi.",
+        "s": "در بُدروم هوا خیلی خوب بود. هر روز سی درجه و آفتابی بود.",
+        "pr": "بُدرومدا هاوا چُک گوزِلدی. هِر گون اُتوز دِرِجِه وِه گونِشلییدی."
+      },
+      {
+        "sp": "A",
+        "t": "Ne şanslısın! Kiminle gittin?",
+        "s": "چه خوش‌شانسی! با کی رفتی؟",
+        "pr": "نِه شانسلِسِن! کیمینلِه گیتّین؟"
+      },
+      {
+        "sp": "B",
+        "t": "Ailemle. Pansiyonumuz plajın hemen karşısındaydı, çocuklar için harika bir yerdi.",
+        "s": "با خانواده‌ام. مهمان‌پذیرمان درست روبه‌روی ساحل بود، برای بچه‌ها جای فوق‌العاده‌ای بود.",
+        "pr": "آئیلِملِه. پانسیُنوموز پْلاژِن هِمِن کارشِسِندایدِ، چُجوکلار ایچین هاریکا بیر یِردی."
+      },
+      {
+        "sp": "A",
+        "t": "Deniz nasıldı? Soğuk muydu?",
+        "s": "دریا چطور بود؟ سرد بود؟",
+        "pr": "دِنیز ناسِلدِ؟ سُئوک مویدو؟"
+      },
+      {
+        "sp": "B",
+        "t": "Hayır, deniz hamam gibi sıcaktı!",
+        "s": "نه، آبِ دریا مثلِ حمام گرم بود!",
+        "pr": "هایِر، دِنیز هامام گیبی سِجاکتِ!"
+      },
+      {
+        "sp": "A",
+        "t": "Hiç kötü bir gün olmadı mı?",
+        "s": "هیچ روزِ بدی نداشتید؟",
+        "pr": "هیچ کُتو بیر گون اُلمادِ مِ؟"
+      },
+      {
+        "sp": "B",
+        "t": "Sadece bir gün fırtına vardı. O gün bütün gün pansiyondaydık.",
+        "s": "فقط یک روز طوفان بود. آن روز تمامِ روز در مهمان‌پذیر بودیم.",
+        "pr": "سادِجِه بیر گون فِرتِنا واردِ. اُ گون بوتون گون پانسیُندایدِک."
+      },
+      {
+        "sp": "A",
+        "t": "Seneye ben de sizin gibi Bodrum'a gitmek istiyorum.",
+        "s": "سالِ بعد من هم می‌خواهم مثلِ شما به بُدروم بروم.",
+        "pr": "سِنِیِه بِن دِه سیزین گیبی بُدروما گیتمِک ایستیُروم."
+      },
+      {
+        "sp": "B",
+        "t": "Sana pansiyonun telefon numarasını göndereceğim.",
+        "s": "شماره‌ی تلفنِ مهمان‌پذیر را برایت می‌فرستم.",
+        "pr": "سانا پانسیُنون تِلِفُن نوماراسِنِ گُندِرِجِییم."
+      }
+    ]
+  },
+  "grammar": [
+    {
+      "id": "g01",
+      "title": {
+        "t": "Hava güzeldi, evdeydim: -(y)dı",
+        "s": "«بود» در جمله‌های اسمی"
+      },
+      "explain": "در درسِ ۱ زمانِ گذشته‌ی فعل را یاد گرفتید (gittim، gördün). برای «بود» بعد از اسم و صفت هم همین پسوند می‌آید: güzel ← **güzeldi** (خوب بود)، evde ← **evdeydim** (خانه بودم)، öğretmen ← **öğretmendi** (معلم بود).\nشناسه‌ها: **-dım، -dın، -dı، -dık، -dınız، -dılar**، با هماهنگیِ چهارتایی (-dı / -di / -du / -dü).\nبعد از صدادار **y** می‌آید: hasta ← **hastaydım**، iyi ← **iyiydi**، Bodrum'da ← **Bodrum'daydık**.\nبعد از ç f h k p s ş t، حرفِ d به **t** تبدیل می‌شود: sıcak ← **sıcaktı**، yok ← **yoktu**.\n**var / yok** ← **vardı / yoktu** (بود / نبود، داشت / نداشت). منفی: **değildi** (نبود): Hava güzel **değildi**.\nسؤال: **mıydı / miydi / muydu / müydü** جدا نوشته می‌شود: Hava güzel **miydi?** Evde **miydin?**",
+      "table": [
+        [
+          "ben",
+          "evdeydim",
+          "yorgundum"
+        ],
+        [
+          "sen",
+          "evdeydin",
+          "yorgundun"
+        ],
+        [
+          "o",
+          "evdeydi",
+          "yorgundu"
+        ],
+        [
+          "biz",
+          "evdeydik",
+          "yorgunduk"
+        ],
+        [
+          "siz",
+          "evdeydiniz",
+          "yorgundunuz"
+        ],
+        [
+          "onlar",
+          "evdeydiler",
+          "yorgundular"
+        ]
+      ],
+      "examples": [
+        {
+          "t": "Dün hava çok soğuktu.",
+          "s": "دیروز هوا خیلی سرد بود.",
+          "pr": "دون هاوا چُک سُئوکتو."
+        },
+        {
+          "t": "Geçen hafta İzmir'deydik.",
+          "s": "هفته‌ی گذشته در ازمیر بودیم.",
+          "pr": "گِچِن هافتا ایزمیردِیدیک."
+        },
+        {
+          "t": "Pansiyon küçüktü ama çok temizdi.",
+          "s": "مهمان‌پذیر کوچک بود، اما خیلی تمیز بود.",
+          "pr": "پانسیُن کوچوکتو آما چُک تِمیزدی."
+        },
+        {
+          "t": "Plajda çok insan vardı.",
+          "s": "در ساحل آدمِ زیادی بود.",
+          "pr": "پْلاژدا چُک اینسان واردِ."
+        },
+        {
+          "t": "Hava güzel miydi? Hayır, güzel değildi.",
+          "s": "هوا خوب بود؟ نه، خوب نبود.",
+          "pr": "هاوا گوزِل مییدی؟ هایِر، گوزِل دِییلدی."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "choice",
+          "t": "Dün hava çok güzel___.",
+          "options": [
+            "di",
+            "dı",
+            "du"
+          ],
+          "answer": 0,
+          "s": "دیروز هوا خیلی خوب بود."
+        },
+        {
+          "type": "choice",
+          "t": "Geçen yaz biz Antalya'___.",
+          "options": [
+            "daydık",
+            "dayız",
+            "daydılar"
+          ],
+          "answer": 0,
+          "s": "تابستانِ گذشته ما در آنتالیا بودیم."
+        },
+        {
+          "type": "type",
+          "t": "Ben dün çok yorgun___.",
+          "answer": [
+            "dum"
+          ],
+          "s": "من دیروز خیلی خسته بودم."
+        },
+        {
+          "type": "type",
+          "t": "Otelde havuz yok___.",
+          "answer": [
+            "tu"
+          ],
+          "s": "هتل استخر نداشت."
+        },
+        {
+          "type": "choice",
+          "t": "Deniz soğuk ___? Hayır, değildi.",
+          "options": [
+            "muydu",
+            "mıydı",
+            "müydü"
+          ],
+          "answer": 0,
+          "s": "دریا سرد بود؟ نه، نبود."
+        },
+        {
+          "type": "type",
+          "t": "Hava sıcak___ ama nemli değildi.",
+          "answer": [
+            "tı"
+          ],
+          "s": "هوا گرم بود، اما شرجی نبود."
+        },
+        {
+          "type": "choice",
+          "t": "Dün akşam biz evde___.",
+          "options": [
+            "ydik",
+            "dik",
+            "ydiniz"
+          ],
+          "answer": 0,
+          "s": "دیشب ما خانه بودیم."
+        },
+        {
+          "type": "order",
+          "t": "Dün hava çok soğuktu.",
+          "s": "دیروز هوا خیلی سرد بود.",
+          "alts": [
+            "Hava dün çok soğuktu."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "g02",
+      "title": {
+        "t": "için, ile, gibi: benim için, seninle, onun gibi",
+        "s": "برای، با، مثلِ"
+      },
+      "explain": "سه حرفِ اضافه‌ی مهم که **بعد از** کلمه می‌آیند (در فارسی قبل از کلمه):\n**için** = برای: annem **için** (برای مادرم)، tatil **için** (برای تعطیلات).\n**ile** = با: ailem **ile** یا کوتاه‌شده‌اش **ailemle** (با خانواده‌ام). این را در درسِ ۲ با otobüsle و trenle دیدید.\n**gibi** = مثلِ: bir çocuk **gibi** (مثلِ یک بچه)، kar **gibi** beyaz (سفید مثلِ برف).\nبا ضمیرها، ضمیر به شکلِ **اضافه** می‌آید: **benim için**، **senin gibi**، **onun için**، **bizim gibi**، **sizin için**. با ile: **benimle**، **seninle**، **onunla**، **bizimle**، **sizinle**.\nاما **onlar** و اسم‌ها تغییر نمی‌کنند: **onlar için**، **onlar gibi**، **onlarla**، **Ali için**، **annem gibi**.\nسؤال: **Kimin için?** (برای کی؟)، **Kiminle?** (با کی؟).",
+      "table": [
+        [
+          "benim için",
+          "benimle",
+          "benim gibi"
+        ],
+        [
+          "senin için",
+          "seninle",
+          "senin gibi"
+        ],
+        [
+          "onun için",
+          "onunla",
+          "onun gibi"
+        ],
+        [
+          "bizim için",
+          "bizimle",
+          "bizim gibi"
+        ],
+        [
+          "sizin için",
+          "sizinle",
+          "sizin gibi"
+        ],
+        [
+          "onlar için",
+          "onlarla",
+          "onlar gibi"
+        ]
+      ],
+      "examples": [
+        {
+          "t": "Bu kitap senin için.",
+          "s": "این کتاب برای توست.",
+          "pr": "بو کیتاپ سِنین ایچین."
+        },
+        {
+          "t": "Tatile arkadaşlarımla gittim.",
+          "s": "با دوستانم به تعطیلات رفتم.",
+          "pr": "تاتیلِه آرکاداشلارِملا گیتّیم."
+        },
+        {
+          "t": "Bugün hava yaz gibi.",
+          "s": "امروز هوا مثلِ تابستان است.",
+          "pr": "بوگون هاوا یاز گیبی."
+        },
+        {
+          "t": "Annem için güzel bir şal aldım.",
+          "s": "برای مادرم یک شالِ قشنگ خریدم.",
+          "pr": "آنِّم ایچین گوزِل بیر شال آلدِم."
+        },
+        {
+          "t": "Onlar da bizim gibi denizi çok seviyor.",
+          "s": "آن‌ها هم مثلِ ما دریا را خیلی دوست دارند.",
+          "pr": "اُنلار دا بیزیم گیبی دِنیزی چُک سِویُر."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "choice",
+          "t": "Bu hediye ___ için.",
+          "options": [
+            "senin",
+            "sen",
+            "sana"
+          ],
+          "answer": 0,
+          "s": "این هدیه برای توست."
+        },
+        {
+          "type": "choice",
+          "t": "Tatile ___ gittim.",
+          "options": [
+            "ailemle",
+            "ailem gibi",
+            "ailemi"
+          ],
+          "answer": 0,
+          "s": "با خانواده‌ام به تعطیلات رفتم."
+        },
+        {
+          "type": "type",
+          "t": "Kardeşim ___ gibi uzun boylu.",
+          "answer": [
+            "benim"
+          ],
+          "s": "برادرم مثلِ من قدبلند است."
+        },
+        {
+          "type": "type",
+          "t": "Yarın sinemaya sen___ gelmek istiyorum.",
+          "answer": [
+            "inle"
+          ],
+          "s": "فردا می‌خواهم با تو به سینما بیایم."
+        },
+        {
+          "type": "choice",
+          "t": "Bu çiçekleri ___ için aldık.",
+          "options": [
+            "onlar",
+            "onların",
+            "onlara"
+          ],
+          "answer": 0,
+          "s": "این گل‌ها را برای آن‌ها خریدیم."
+        },
+        {
+          "type": "choice",
+          "t": "Kar ___ beyaz bir kedimiz var.",
+          "options": [
+            "gibi",
+            "için",
+            "ile"
+          ],
+          "answer": 0,
+          "s": "یک گربه‌ی سفید مثلِ برف داریم."
+        },
+        {
+          "type": "type",
+          "t": "Ben ___ gibi hızlı yüzemem.",
+          "answer": [
+            "senin"
+          ],
+          "s": "من نمی‌توانم مثلِ تو تند شنا کنم."
+        },
+        {
+          "type": "order",
+          "t": "Bu hediye senin için.",
+          "s": "این هدیه برای توست."
+        }
+      ]
+    }
+  ],
+  "reading": {
+    "title": {
+      "t": "Karadeniz tatili",
+      "s": "تعطیلات در دریای سیاه"
+    },
+    "text": [
+      {
+        "t": "Geçen ağustos ailemle Karadeniz'deydik.",
+        "s": "آگوستِ گذشته با خانواده‌ام در منطقه‌ی دریای سیاه بودیم.",
+        "pr": "گِچِن آئوستُس آئیلِملِه کارادِنیزدِیدیک."
+      },
+      {
+        "t": "Önce Trabzon'a, sonra Uzungöl'e gittik.",
+        "s": "اول به ترابزون، بعد به اوزونگول رفتیم.",
+        "pr": "اُنجِه تْرابزُنا، سُنرا اوزونگُلِه گیتّیک."
+      },
+      {
+        "t": "Uzungöl çok güzel bir yerdi: büyük bir göl, yeşil dağlar ve ormanlar vardı.",
+        "s": "اوزونگول جای خیلی قشنگی بود: یک دریاچه‌ی بزرگ، کوه‌های سبز و جنگل داشت.",
+        "pr": "اوزونگُل چُک گوزِل بیر یِردی: بویوک بیر گُل، یِشیل داالار وِه اُرمانلار واردِ."
+      },
+      {
+        "t": "Pansiyonumuz gölün hemen yanındaydı.",
+        "s": "مهمان‌پذیرمان درست کنارِ دریاچه بود.",
+        "pr": "پانسیُنوموز گُلون هِمِن یانِندایدِ."
+      },
+      {
+        "t": "Hava İstanbul gibi sıcak değildi.",
+        "s": "هوا مثلِ استانبول گرم نبود.",
+        "pr": "هاوا ایستانبول گیبی سِجاک دِییلدی."
+      },
+      {
+        "t": "Gündüz yirmi derece, gece on iki dereceydi.",
+        "s": "روزها بیست درجه و شب‌ها دوازده درجه بود.",
+        "pr": "گوندوز ییرمی دِرِجِه، گِجِه اُن ایکی دِرِجِیدی."
+      },
+      {
+        "t": "Sabahları her yer sisliydi ve sık sık yağmur yağdı.",
+        "s": "صبح‌ها همه‌جا مه‌آلود بود و مرتب باران بارید.",
+        "pr": "ساباهلارِ هِر یِر سیسلییدی وِه سِک سِک یاامور یاادِ."
+      },
+      {
+        "t": "Bu yüzden şemsiyemiz hep yanımızdaydı.",
+        "s": "برای همین چترمان همیشه همراهمان بود.",
+        "pr": "بو یوزدِن شِمسیِمیز هِپ یانِمِزدایدِ."
+      },
+      {
+        "t": "Çocuklar göldeki ördekleri çok sevdi.",
+        "s": "بچه‌ها اردک‌های دریاچه را خیلی دوست داشتند.",
+        "pr": "چُجوکلار گُلدِکی اُردِکلِری چُک سِودی."
+      },
+      {
+        "t": "Babam için de harika bir tatildi, çünkü o yağmuru çok seviyor!",
+        "s": "برای پدرم هم تعطیلاتِ فوق‌العاده‌ای بود، چون او باران را خیلی دوست دارد!",
+        "pr": "بابام ایچین دِه هاریکا بیر تاتیلدی، چونکو اُ یاامورو چُک سِویُر!"
+      }
+    ],
+    "questions": [
+      {
+        "q": {
+          "t": "Aile geçen ağustos neredeydi?",
+          "s": "خانواده آگوستِ گذشته کجا بود؟"
+        },
+        "options": [
+          "Bodrum'da",
+          "Karadeniz'de",
+          "Antalya'da"
+        ],
+        "answer": 1
+      },
+      {
+        "q": {
+          "t": "Pansiyon neredeydi?",
+          "s": "مهمان‌پذیر کجا بود؟"
+        },
+        "options": [
+          "Gölün yanında",
+          "Dağın arkasında",
+          "Ormanın içinde"
+        ],
+        "answer": 0
+      },
+      {
+        "q": {
+          "t": "Gece hava kaç dereceydi?",
+          "s": "شب هوا چند درجه بود؟"
+        },
+        "options": [
+          "Yirmi",
+          "On iki",
+          "Otuz"
+        ],
+        "answer": 1
+      },
+      {
+        "q": {
+          "t": "Kim yağmuru çok seviyor?",
+          "s": "چه کسی باران را خیلی دوست دارد؟"
+        },
+        "options": [
+          "Çocuklar",
+          "Yazarın annesi",
+          "Yazarın babası"
+        ],
+        "answer": 2
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "t": "Dün akşam hava çok serindi.",
+      "s": "دیشب هوا خیلی خنک بود.",
+      "pr": "دون آکشام هاوا چُک سِریندی."
+    },
+    {
+      "t": "Bugün hava yirmi beş derece.",
+      "s": "امروز هوا بیست و پنج درجه است.",
+      "pr": "بوگون هاوا ییرمی بِش دِرِجِه."
+    },
+    {
+      "t": "Geçen hafta Bodrum'daydık.",
+      "s": "هفته‌ی گذشته در بُدروم بودیم.",
+      "pr": "گِچِن هافتا بُدرومدایدِک."
+    },
+    {
+      "t": "Pansiyon plajın karşısındaydı.",
+      "s": "مهمان‌پذیر روبه‌روی ساحل بود.",
+      "pr": "پانسیُن پْلاژِن کارشِسِندایدِ."
+    },
+    {
+      "t": "Şemsiyeni unutma, yağmur yağıyor.",
+      "s": "چترت را فراموش نکن، باران می‌بارد.",
+      "pr": "شِمسیِنی اونوتما، یاامور یائِیُر."
+    },
+    {
+      "t": "Bu çay senin için.",
+      "s": "این چای برای توست.",
+      "pr": "بو چای سِنین ایچین."
+    },
+    {
+      "t": "Hafta sonu arkadaşlarımla göle gittik.",
+      "s": "آخرِ هفته با دوستانم به دریاچه رفتیم.",
+      "pr": "هافتا سُنو آرکاداشلارِملا گُلِه گیتّیک."
+    },
+    {
+      "t": "Deniz hamam gibi sıcaktı.",
+      "s": "آبِ دریا مثلِ حمام گرم بود.",
+      "pr": "دِنیز هامام گیبی سِجاکتِ."
+    }
+  ]
+}

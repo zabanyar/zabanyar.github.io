@@ -1,0 +1,740 @@
+{
+  "id": "u10",
+  "level": "A2",
+  "emoji": "📅",
+  "title": {
+    "t": "Freizeit und Pläne",
+    "s": "Free time and plans"
+  },
+  "goals": [
+    "Make plans for your free time, and accept, turn down or cancel an invitation",
+    "Use reflexive verbs like sich treffen, sich ausruhen, sich interessieren für",
+    "Talk about the future with the present tense or with werden + infinitive"
+  ],
+  "words": [
+    {
+      "id": "w01",
+      "t": "sich treffen (mit + D)",
+      "s": "to meet (up with)",
+      "emoji": "",
+      "ex": {
+        "t": "Am Samstag treffe ich mich mit Freunden im Park.",
+        "s": "On Saturday I'm meeting up with friends in the park."
+      }
+    },
+    {
+      "id": "w02",
+      "t": "sich verabreden (mit + D)",
+      "s": "to arrange to meet (someone)",
+      "emoji": "",
+      "ex": {
+        "t": "Ich habe mich mit Lena fürs Kino verabredet.",
+        "s": "I've arranged to go to the movies with Lena."
+      }
+    },
+    {
+      "id": "w03",
+      "t": "sich interessieren für + A",
+      "s": "to be interested in",
+      "emoji": "",
+      "ex": {
+        "t": "Ali interessiert sich sehr für Geschichte.",
+        "s": "Ali is very interested in history."
+      }
+    },
+    {
+      "id": "w04",
+      "t": "sich ausruhen",
+      "s": "to rest, to relax",
+      "emoji": "",
+      "ex": {
+        "t": "Nach der Arbeit ruhe ich mich eine Stunde aus.",
+        "s": "After work I rest for an hour."
+      }
+    },
+    {
+      "id": "w05",
+      "t": "sich langweilen",
+      "s": "to be bored",
+      "emoji": "",
+      "ex": {
+        "t": "Im Urlaub langweile ich mich nie.",
+        "s": "I'm never bored on vacation."
+      }
+    },
+    {
+      "id": "w06",
+      "t": "vorhaben (hat vor)",
+      "s": "to plan, to have plans",
+      "emoji": "",
+      "ex": {
+        "t": "Hast du heute Abend schon etwas vor?",
+        "s": "Do you have any plans tonight?"
+      }
+    },
+    {
+      "id": "w07",
+      "t": "der Plan",
+      "pl": "die Pläne",
+      "s": "plan",
+      "emoji": "",
+      "ex": {
+        "t": "Hast du schon Pläne für den Sommer?",
+        "s": "Do you have any plans for the summer yet?"
+      }
+    },
+    {
+      "id": "w08",
+      "t": "Lust haben (auf + A)",
+      "s": "to feel like (something)",
+      "emoji": "",
+      "ex": {
+        "t": "Hast du Lust auf ein Eis?",
+        "s": "Do you feel like an ice cream?"
+      }
+    },
+    {
+      "id": "w09",
+      "t": "der Ausflug",
+      "pl": "die Ausflüge",
+      "s": "trip, outing",
+      "emoji": "",
+      "ex": {
+        "t": "Am Sonntag machen wir einen Ausflug an den See.",
+        "s": "On Sunday we're going on a trip to the lake."
+      }
+    },
+    {
+      "id": "w10",
+      "t": "das Museum",
+      "pl": "die Museen",
+      "s": "museum",
+      "emoji": "🏛️",
+      "ex": {
+        "t": "Montags ist das Museum geschlossen.",
+        "s": "The museum is closed on Mondays."
+      }
+    },
+    {
+      "id": "w11",
+      "t": "das Kino",
+      "pl": "die Kinos",
+      "s": "movie theater; the movies",
+      "emoji": "🎬",
+      "ex": {
+        "t": "Gehen wir heute Abend ins Kino?",
+        "s": "Shall we go to the movies tonight?"
+      }
+    },
+    {
+      "id": "w12",
+      "t": "das Konzert",
+      "pl": "die Konzerte",
+      "s": "concert",
+      "emoji": "🎵",
+      "ex": {
+        "t": "Am Freitag gehen wir ins Konzert.",
+        "s": "On Friday we're going to a concert."
+      }
+    },
+    {
+      "id": "w13",
+      "t": "das Schwimmbad",
+      "pl": "die Schwimmbäder",
+      "s": "swimming pool (the building)",
+      "emoji": "",
+      "ex": {
+        "t": "Im Sommer gehen die Kinder oft ins Schwimmbad.",
+        "s": "In the summer the kids often go to the swimming pool."
+      }
+    },
+    {
+      "id": "w14",
+      "t": "das Theater",
+      "pl": "die Theater",
+      "s": "theater",
+      "emoji": "🎭",
+      "ex": {
+        "t": "Das Theater ist ganz in der Nähe von unserer Wohnung.",
+        "s": "The theater is very close to our apartment."
+      }
+    },
+    {
+      "id": "w15",
+      "t": "absagen (sagt ab, hat abgesagt)",
+      "s": "to cancel, to call off",
+      "emoji": "",
+      "ex": {
+        "t": "Lena hat das Treffen leider abgesagt.",
+        "s": "Unfortunately, Lena called off the get-together."
+      }
+    },
+    {
+      "id": "w16",
+      "t": "zelten",
+      "s": "to camp, to go camping",
+      "emoji": "⛺",
+      "ex": {
+        "t": "Im Sommer wollen wir am See zelten.",
+        "s": "In the summer we want to go camping by the lake."
+      }
+    }
+  ],
+  "phrases": [
+    {
+      "id": "p01",
+      "t": "Was hast du am Wochenende vor?",
+      "s": "What are you doing this weekend?"
+    },
+    {
+      "id": "p02",
+      "t": "Kommst du mit?",
+      "s": "Do you want to come along?"
+    },
+    {
+      "id": "p03",
+      "t": "Gute Idee!",
+      "s": "Good idea!"
+    },
+    {
+      "id": "p04",
+      "t": "Da kann ich leider nicht.",
+      "s": "Unfortunately, I can't make it then."
+    },
+    {
+      "id": "p05",
+      "t": "Wie wäre es mit Sonntag?",
+      "s": "How about Sunday?"
+    },
+    {
+      "id": "p06",
+      "t": "Wann und wo treffen wir uns?",
+      "s": "When and where shall we meet?"
+    },
+    {
+      "id": "p07",
+      "t": "Ich bin dabei!",
+      "s": "Count me in!"
+    },
+    {
+      "id": "p08",
+      "t": "Viel Spaß!",
+      "s": "Have fun!"
+    }
+  ],
+  "dialogue": {
+    "title": {
+      "t": "Pläne für den Sonntag",
+      "s": "Plans for Sunday"
+    },
+    "speakers": {
+      "A": {
+        "name": "Lena",
+        "voice": "f"
+      },
+      "B": {
+        "name": "Amir",
+        "voice": "m"
+      }
+    },
+    "lines": [
+      {
+        "sp": "A",
+        "t": "Hallo Amir! Was hast du am Wochenende vor?",
+        "s": "Hi, Amir! What are you doing this weekend?"
+      },
+      {
+        "sp": "B",
+        "t": "Am Samstag muss ich arbeiten, aber am Sonntag habe ich frei. Warum?",
+        "s": "I have to work on Saturday, but I'm off on Sunday. Why?"
+      },
+      {
+        "sp": "A",
+        "t": "Im Stadtmuseum gibt es eine neue Ausstellung über das alte Persien. Interessierst du dich dafür?",
+        "s": "There's a new exhibition about ancient Persia at the city museum. Are you interested in that?"
+      },
+      {
+        "sp": "B",
+        "t": "Ja, sehr! Ich interessiere mich schon lange für Geschichte.",
+        "s": "Yes, very! I've been interested in history for a long time."
+      },
+      {
+        "sp": "A",
+        "t": "Super. Das Museum öffnet am Sonntag um zehn Uhr.",
+        "s": "Great. The museum opens at ten o'clock on Sunday."
+      },
+      {
+        "sp": "B",
+        "t": "Zehn ist mir ein bisschen zu früh. Ich möchte mich am Sonntag erst mal ausruhen. Wie wäre es mit zwölf?",
+        "s": "Ten is a bit too early for me. I'd like to have a rest first on Sunday. How about twelve?"
+      },
+      {
+        "sp": "A",
+        "t": "Okay, kein Problem. Danach können wir noch im Park spazieren gehen.",
+        "s": "Okay, no problem. Afterwards we can go for a walk in the park."
+      },
+      {
+        "sp": "B",
+        "t": "Gute Idee! Ich werde meine Kamera mitnehmen.",
+        "s": "Good idea! I'll bring my camera."
+      },
+      {
+        "sp": "A",
+        "t": "Prima! Wann und wo treffen wir uns?",
+        "s": "Great! When and where shall we meet?"
+      },
+      {
+        "sp": "B",
+        "t": "Treffen wir uns um zwölf vor dem Museum?",
+        "s": "Shall we meet at twelve in front of the museum?"
+      },
+      {
+        "sp": "A",
+        "t": "Perfekt. Ich werde die Eintrittskarten online kaufen, dann müssen wir nicht warten.",
+        "s": "Perfect. I'll buy the tickets online, then we won't have to wait."
+      },
+      {
+        "sp": "B",
+        "t": "Toll, danke! Bis Sonntag, Lena!",
+        "s": "Great, thanks! See you on Sunday, Lena!"
+      }
+    ]
+  },
+  "grammar": [
+    {
+      "id": "g01",
+      "title": {
+        "t": "Ich ruhe mich aus. Wir treffen uns.",
+        "s": "Reflexive verbs"
+      },
+      "explain": "Some German verbs need a **reflexive pronoun** (like *myself, yourself* in English). In English you often don't say it: **Ich ruhe mich aus.** – *I rest.* **Wir treffen uns um acht.** – *We're meeting at eight.* You already know **sich freuen** from Unit 9.\nThe reflexive pronoun is the same as the accusative pronoun – **mich, dich, uns, euch** – except in the third person and with **Sie**: there it is always **sich**.\nThe pronoun normally comes **right after the conjugated verb**: **Ich interessiere mich für Kunst.** If the subject is a pronoun and comes after the verb (in questions, or when something else is in position 1), the reflexive pronoun follows it: **Interessierst du dich für Kunst? Am Sonntag ruhe ich mich aus.**\nSome verbs are always reflexive, e.g. **sich ausruhen** and **sich beeilen** (*to hurry*). Others are reflexive only in one meaning: **Ich interessiere mich für Kunst.** but **Kunst interessiert mich.**; **Ich freue mich.** but **Das freut mich.** With some verbs, the reflexive pronoun shows that you do it to yourself or to each other: **Ich treffe Lena.** but **Lena und ich treffen uns.**\nIn the Perfekt, reflexive verbs use **haben**: **Ich habe mich gut ausgeruht.**",
+      "table": [
+        [
+          "ich",
+          "ruhe mich aus",
+          "interessiere mich"
+        ],
+        [
+          "du",
+          "ruhst dich aus",
+          "interessierst dich"
+        ],
+        [
+          "er, sie, es",
+          "ruht sich aus",
+          "interessiert sich"
+        ],
+        [
+          "wir",
+          "ruhen uns aus",
+          "interessieren uns"
+        ],
+        [
+          "ihr",
+          "ruht euch aus",
+          "interessiert euch"
+        ],
+        [
+          "sie, Sie",
+          "ruhen sich aus",
+          "interessieren sich"
+        ]
+      ],
+      "examples": [
+        {
+          "t": "Am Wochenende ruhe ich mich aus.",
+          "s": "On the weekend I relax."
+        },
+        {
+          "t": "Wir treffen uns um acht vor dem Kino.",
+          "s": "We're meeting at eight in front of the movie theater."
+        },
+        {
+          "t": "Interessierst du dich für Kunst?",
+          "s": "Are you interested in art?"
+        },
+        {
+          "t": "Meine Eltern interessieren sich sehr für Geschichte.",
+          "s": "My parents are very interested in history."
+        },
+        {
+          "t": "Gestern haben wir uns mit Freunden im Park getroffen.",
+          "s": "Yesterday we met up with friends in the park."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "choice",
+          "t": "Ich interessiere ___ für Musik.",
+          "options": [
+            "mich",
+            "mir",
+            "sich"
+          ],
+          "answer": 0,
+          "s": "I'm interested in music."
+        },
+        {
+          "type": "choice",
+          "t": "Wann treffen wir ___?",
+          "options": [
+            "uns",
+            "euch",
+            "sich"
+          ],
+          "answer": 0,
+          "s": "When are we meeting?"
+        },
+        {
+          "type": "choice",
+          "t": "Lukas ruht ___ am Sonntag aus.",
+          "options": [
+            "sich",
+            "ihn",
+            "ihm"
+          ],
+          "answer": 0,
+          "s": "Lukas rests on Sunday."
+        },
+        {
+          "type": "choice",
+          "t": "Langweilen Sie ___?",
+          "options": [
+            "sich",
+            "Ihnen",
+            "Sie"
+          ],
+          "answer": 0,
+          "s": "Are you bored?"
+        },
+        {
+          "type": "type",
+          "t": "Interessierst du ___ für Fußball?",
+          "answer": [
+            "dich"
+          ],
+          "s": "Are you interested in soccer?"
+        },
+        {
+          "type": "type",
+          "t": "Ihr seid müde. Ruht ___ doch ein bisschen aus!",
+          "answer": [
+            "euch"
+          ],
+          "s": "You're tired. Why don't you (all) rest a little?"
+        },
+        {
+          "type": "type",
+          "t": "Gestern ___ ich mich mit Anna getroffen.",
+          "answer": [
+            "habe"
+          ],
+          "s": "Yesterday I met up with Anna."
+        },
+        {
+          "type": "order",
+          "t": "Am Sonntag ruhe ich mich aus.",
+          "s": "On Sunday I'm going to rest.",
+          "alts": [
+            "Ich ruhe mich am Sonntag aus."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "g02",
+      "title": {
+        "t": "Morgen fahre ich … Ich werde …",
+        "s": "The future: present tense or werden + infinitive"
+      },
+      "explain": "German usually talks about the future with the **present tense** + a **time expression**: **Morgen fahre ich nach Hamburg.** **Nächste Woche besuchen wir Oma.** This is very common – much more common than in English, where you'd say *I'm going to* or *I will*.\nYou can also use **werden + infinitive** (the **Futur**): **werden** is conjugated and stands in position 2, the infinitive goes to the end: **Ich werde im Sommer einen Deutschkurs machen.** It's typical for plans and promises (**Ich werde dich anrufen.**), for predictions (**Morgen wird es regnen.**) and when there is no time expression. In a subordinate clause, **werden** goes to the very end: **…, dass ich dich anrufen werde.**\n**werden**: ich werde, du **wirst**, er/sie/es **wird**, wir werden, ihr werdet, sie/Sie werden.\nCareful: **ich will** means *I want*, not *I will*! **Ich will ein Eis.** = *I want an ice cream.* And **werden** without a second verb means *to become*: **Es wird kalt.** = *It's getting cold.*",
+      "table": [
+        [
+          "ich",
+          "werde",
+          "Ich werde dich anrufen."
+        ],
+        [
+          "du",
+          "wirst",
+          "Wirst du mitkommen?"
+        ],
+        [
+          "er, sie, es",
+          "wird",
+          "Morgen wird es regnen."
+        ],
+        [
+          "wir",
+          "werden",
+          "Wir werden im Sommer zelten."
+        ],
+        [
+          "ihr",
+          "werdet",
+          "Ihr werdet sehen!"
+        ],
+        [
+          "sie, Sie",
+          "werden",
+          "Werden Sie am Montag kommen?"
+        ]
+      ],
+      "examples": [
+        {
+          "t": "Morgen gehe ich mit Lena ins Konzert.",
+          "s": "Tomorrow I'm going to a concert with Lena."
+        },
+        {
+          "t": "Nächstes Jahr werde ich einen Deutschkurs in Berlin machen.",
+          "s": "Next year I'm going to take a German course in Berlin."
+        },
+        {
+          "t": "Ich werde dich heute Abend anrufen.",
+          "s": "I'll call you tonight."
+        },
+        {
+          "t": "Am Wochenende wird es regnen.",
+          "s": "It's going to rain on the weekend."
+        },
+        {
+          "t": "Was wirst du nach dem Kurs machen?",
+          "s": "What will you do after the course?"
+        }
+      ],
+      "exercises": [
+        {
+          "type": "choice",
+          "t": "Ich ___ dich morgen anrufen.",
+          "options": [
+            "werde",
+            "wird",
+            "wirst"
+          ],
+          "answer": 0,
+          "s": "I'll call you tomorrow."
+        },
+        {
+          "type": "choice",
+          "t": "Meine Eltern ___ uns im Sommer besuchen.",
+          "options": [
+            "werden",
+            "wird",
+            "werdet"
+          ],
+          "answer": 0,
+          "s": "My parents are going to visit us in the summer."
+        },
+        {
+          "type": "choice",
+          "t": "Wir werden im Sommer am See ___.",
+          "options": [
+            "zelten",
+            "gezeltet",
+            "zeltet"
+          ],
+          "answer": 0,
+          "s": "We're going to go camping by the lake in the summer."
+        },
+        {
+          "type": "type",
+          "t": "___ du am Samstag zum Picknick kommen?",
+          "answer": [
+            "Wirst"
+          ],
+          "s": "Will you come to the picnic on Saturday?"
+        },
+        {
+          "type": "type",
+          "t": "Lena ___ im Herbst eine Reise nach Italien machen.",
+          "answer": [
+            "wird"
+          ],
+          "s": "Lena is going to take a trip to Italy in the fall."
+        },
+        {
+          "type": "type",
+          "t": "Ich ___ ein neues Handy, aber es ist zu teuer.",
+          "answer": [
+            "will",
+            "möchte",
+            "moechte"
+          ],
+          "s": "I want a new cell phone, but it's too expensive."
+        },
+        {
+          "type": "type",
+          "t": "Ihr ___ im Urlaub bestimmt viel Spaß haben!",
+          "answer": [
+            "werdet"
+          ],
+          "s": "I'm sure you'll have a lot of fun on vacation!"
+        },
+        {
+          "type": "order",
+          "t": "Wir werden im Sommer einen Ausflug machen.",
+          "s": "We're going to go on a trip in the summer.",
+          "alts": [
+            "Im Sommer werden wir einen Ausflug machen."
+          ]
+        }
+      ]
+    }
+  ],
+  "reading": {
+    "title": {
+      "t": "Eine E-Mail von Ali",
+      "s": "An email from Ali"
+    },
+    "text": [
+      {
+        "t": "Liebe Anna, vielen Dank für deine E-Mail!",
+        "s": "Dear Anna, thank you very much for your email!"
+      },
+      {
+        "t": "Bei mir ist im Moment viel los, aber ab nächster Woche habe ich endlich Urlaub.",
+        "s": "I'm very busy at the moment, but from next week I'm finally on vacation."
+      },
+      {
+        "t": "Am Montag werde ich mich erst mal richtig ausruhen.",
+        "s": "On Monday I'm going to have a really good rest first."
+      },
+      {
+        "t": "Am Mittwoch treffe ich mich mit meinem Cousin Reza, und wir gehen zusammen ins Museum.",
+        "s": "On Wednesday I'm meeting my cousin Reza, and we're going to the museum together."
+      },
+      {
+        "t": "Dort gibt es eine Ausstellung über Fotografie, und Reza interessiert sich sehr dafür.",
+        "s": "There's an exhibition about photography there, and Reza is very interested in it."
+      },
+      {
+        "t": "Am Wochenende werden wir mit der ganzen Familie einen Ausflug an den Bodensee machen.",
+        "s": "On the weekend we're going on a trip to Lake Constance with the whole family."
+      },
+      {
+        "t": "Wir werden dort zwei Nächte zelten, wenn das Wetter schön ist.",
+        "s": "We're going to camp there for two nights if the weather is nice."
+      },
+      {
+        "t": "Möchtest du mitkommen? Im Auto ist noch ein Platz frei.",
+        "s": "Would you like to come along? There's still a free seat in the car."
+      },
+      {
+        "t": "Sag mir bitte bis Freitag Bescheid!",
+        "s": "Please let me know by Friday!"
+      },
+      {
+        "t": "Viele Grüße, dein Ali",
+        "s": "Best wishes, Ali"
+      }
+    ],
+    "questions": [
+      {
+        "q": {
+          "t": "Was macht Ali am Montag?",
+          "s": "What is Ali doing on Monday?"
+        },
+        "options": [
+          "Er ruht sich aus.",
+          "Er geht ins Museum.",
+          "Er fährt an den Bodensee."
+        ],
+        "answer": 0
+      },
+      {
+        "q": {
+          "t": "Mit wem geht Ali ins Museum?",
+          "s": "Who is Ali going to the museum with?"
+        },
+        "options": [
+          "mit Anna",
+          "mit seinem Cousin Reza",
+          "mit seiner ganzen Familie"
+        ],
+        "answer": 1
+      },
+      {
+        "q": {
+          "t": "Wofür interessiert sich Reza?",
+          "s": "What is Reza interested in?"
+        },
+        "options": [
+          "für Fotografie",
+          "für Musik",
+          "für Geschichte"
+        ],
+        "answer": 0
+      },
+      {
+        "q": {
+          "t": "Wo wird die Familie zelten?",
+          "s": "Where is the family going to camp?"
+        },
+        "options": [
+          "am Bodensee",
+          "im Park",
+          "in Berlin"
+        ],
+        "answer": 0
+      },
+      {
+        "q": {
+          "t": "Bis wann soll Anna antworten?",
+          "s": "By when should Anna reply?"
+        },
+        "options": [
+          "bis Montag",
+          "bis Mittwoch",
+          "bis Freitag"
+        ],
+        "answer": 2
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "t": "Was hast du am Samstag vor?",
+      "s": "What are you doing on Saturday?"
+    },
+    {
+      "t": "Wir treffen uns um sieben vor dem Kino.",
+      "s": "We're meeting at seven in front of the movie theater.",
+      "alts": [
+        "Um sieben treffen wir uns vor dem Kino."
+      ]
+    },
+    {
+      "t": "Interessierst du dich für Musik?",
+      "s": "Are you interested in music?"
+    },
+    {
+      "t": "Nächstes Jahr werde ich nach Wien fahren.",
+      "s": "Next year I'm going to go to Vienna.",
+      "alts": [
+        "Ich werde nächstes Jahr nach Wien fahren."
+      ]
+    },
+    {
+      "t": "Hast du Lust auf ein Picknick?",
+      "s": "Do you feel like having a picnic?"
+    },
+    {
+      "t": "Am Sonntag ruhen wir uns aus.",
+      "s": "On Sunday we're going to relax.",
+      "alts": [
+        "Wir ruhen uns am Sonntag aus."
+      ]
+    },
+    {
+      "t": "Die Ausstellung war sehr interessant.",
+      "s": "The exhibition was very interesting."
+    },
+    {
+      "t": "Morgen werde ich mich mit Freunden treffen.",
+      "s": "Tomorrow I'm going to meet up with friends.",
+      "alts": [
+        "Ich werde mich morgen mit Freunden treffen."
+      ]
+    }
+  ]
+}

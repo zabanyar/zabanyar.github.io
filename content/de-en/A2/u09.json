@@ -1,0 +1,730 @@
+{
+  "id": "u09",
+  "level": "A2",
+  "emoji": "📱",
+  "title": {
+    "t": "Medien und Kommunikation",
+    "s": "Media and communication"
+  },
+  "goals": [
+    "Talk about phones, messages, apps and the news",
+    "Ask politely with indirect questions (Wissen Sie, wann …? Ich weiß nicht, ob …)",
+    "Use verbs with prepositions like warten auf, sich freuen auf, denken an",
+    "Ask and answer with worauf, woran, worüber and darauf, daran, darüber"
+  ],
+  "words": [
+    {
+      "id": "w01",
+      "t": "das Handy",
+      "pl": "die Handys",
+      "s": "cell phone",
+      "emoji": "📱",
+      "ex": {
+        "t": "Ich habe mein Handy zu Hause vergessen.",
+        "s": "I left my phone at home."
+      }
+    },
+    {
+      "id": "w02",
+      "t": "der Videoanruf",
+      "pl": "die Videoanrufe",
+      "s": "video call",
+      "emoji": "",
+      "ex": {
+        "t": "Jeden Sonntag mache ich einen Videoanruf mit meinen Eltern.",
+        "s": "Every Sunday I have a video call with my parents."
+      }
+    },
+    {
+      "id": "w03",
+      "t": "schicken",
+      "s": "to send",
+      "emoji": "",
+      "ex": {
+        "t": "Kannst du mir die Adresse schicken?",
+        "s": "Can you send me the address?"
+      }
+    },
+    {
+      "id": "w04",
+      "t": "die E-Mail",
+      "pl": "die E-Mails",
+      "s": "email",
+      "emoji": "📧",
+      "ex": {
+        "t": "Ich schreibe Herrn Wagner eine E-Mail.",
+        "s": "I'm writing Mr. Wagner an email."
+      }
+    },
+    {
+      "id": "w05",
+      "t": "der Anruf",
+      "pl": "die Anrufe",
+      "s": "(phone) call",
+      "emoji": "",
+      "ex": {
+        "t": "Danke für deinen Anruf!",
+        "s": "Thanks for your call!"
+      }
+    },
+    {
+      "id": "w06",
+      "t": "die Antwort",
+      "pl": "die Antworten",
+      "s": "answer, reply",
+      "emoji": "",
+      "ex": {
+        "t": "Danke für die schnelle Antwort!",
+        "s": "Thanks for the quick reply!"
+      }
+    },
+    {
+      "id": "w07",
+      "t": "das Internet",
+      "s": "internet",
+      "emoji": "🌐",
+      "ex": {
+        "t": "Ich lese die Nachrichten meistens im Internet.",
+        "s": "I usually read the news online."
+      }
+    },
+    {
+      "id": "w08",
+      "t": "der Computer",
+      "pl": "die Computer",
+      "s": "computer",
+      "emoji": "💻",
+      "ex": {
+        "t": "Ich arbeite jeden Tag am Computer.",
+        "s": "I work at the computer every day."
+      }
+    },
+    {
+      "id": "w09",
+      "t": "die Zeitung",
+      "pl": "die Zeitungen",
+      "s": "newspaper",
+      "emoji": "📰",
+      "ex": {
+        "t": "Mein Opa liest jeden Morgen die Zeitung.",
+        "s": "My grandpa reads the newspaper every morning."
+      }
+    },
+    {
+      "id": "w10",
+      "t": "die Sendung",
+      "pl": "die Sendungen",
+      "s": "(TV or radio) program, show",
+      "emoji": "",
+      "ex": {
+        "t": "Heute Abend kommt eine interessante Sendung über den Iran.",
+        "s": "There's an interesting program about Iran on tonight."
+      }
+    },
+    {
+      "id": "w11",
+      "t": "die App",
+      "pl": "die Apps",
+      "s": "app",
+      "emoji": "",
+      "ex": {
+        "t": "Mit dieser App lerne ich jeden Tag Deutsch.",
+        "s": "I learn German every day with this app."
+      }
+    },
+    {
+      "id": "w12",
+      "t": "das Passwort",
+      "pl": "die Passwörter",
+      "s": "password",
+      "emoji": "",
+      "ex": {
+        "t": "Ich habe mein Passwort vergessen.",
+        "s": "I've forgotten my password."
+      }
+    },
+    {
+      "id": "w13",
+      "t": "herunterladen (lädt herunter, hat heruntergeladen)",
+      "s": "to download",
+      "emoji": "",
+      "ex": {
+        "t": "Du kannst die App kostenlos herunterladen.",
+        "s": "You can download the app for free."
+      }
+    },
+    {
+      "id": "w14",
+      "t": "warten auf + A",
+      "s": "to wait for",
+      "emoji": "",
+      "ex": {
+        "t": "Wir warten schon zwanzig Minuten auf den Bus.",
+        "s": "We've been waiting for the bus for twenty minutes."
+      }
+    },
+    {
+      "id": "w15",
+      "t": "sich freuen (auf + A, über + A)",
+      "s": "to look forward to (auf); to be happy about (über)",
+      "emoji": "",
+      "ex": {
+        "t": "Ich freue mich auf das Wochenende.",
+        "s": "I'm looking forward to the weekend."
+      }
+    },
+    {
+      "id": "w16",
+      "t": "denken an + A",
+      "s": "to think of, to think about; to remember",
+      "emoji": "",
+      "ex": {
+        "t": "Denk bitte an den Termin morgen!",
+        "s": "Please remember the appointment tomorrow!"
+      }
+    }
+  ],
+  "phrases": [
+    {
+      "id": "p01",
+      "t": "Kannst du mich gut hören?",
+      "s": "Can you hear me well?"
+    },
+    {
+      "id": "p02",
+      "t": "Die Verbindung ist schlecht.",
+      "s": "The connection is bad."
+    },
+    {
+      "id": "p03",
+      "t": "Ich rufe dich später zurück.",
+      "s": "I'll call you back later."
+    },
+    {
+      "id": "p04",
+      "t": "Weißt du, wo mein Handy ist?",
+      "s": "Do you know where my phone is?"
+    },
+    {
+      "id": "p05",
+      "t": "Kannst du mir sagen, wie das funktioniert?",
+      "s": "Can you tell me how this works?"
+    },
+    {
+      "id": "p06",
+      "t": "Schreib mir einfach eine Nachricht.",
+      "s": "Just send me a message."
+    },
+    {
+      "id": "p07",
+      "t": "Mein Akku ist fast leer.",
+      "s": "My battery is almost dead."
+    },
+    {
+      "id": "p08",
+      "t": "Darauf freue ich mich!",
+      "s": "I'm looking forward to that!"
+    }
+  ],
+  "dialogue": {
+    "title": {
+      "t": "Ein Videoanruf nach Teheran",
+      "s": "A video call to Tehran"
+    },
+    "speakers": {
+      "A": {
+        "name": "Maryam",
+        "voice": "f"
+      },
+      "B": {
+        "name": "Jonas",
+        "voice": "m"
+      }
+    },
+    "lines": [
+      {
+        "sp": "A",
+        "t": "Jonas, hast du kurz Zeit? Ich habe eine Frage zu meinem Handy.",
+        "s": "Jonas, do you have a minute? I have a question about my phone."
+      },
+      {
+        "sp": "B",
+        "t": "Klar. Was ist denn los?",
+        "s": "Sure. What's up?"
+      },
+      {
+        "sp": "A",
+        "t": "Ich möchte mit meiner Schwester in Teheran einen Videoanruf machen. Weißt du, welche App gut dafür ist?",
+        "s": "I'd like to make a video call to my sister in Tehran. Do you know which app is good for that?"
+      },
+      {
+        "sp": "B",
+        "t": "Ja, ich kenne eine gute App. Ich zeige dir, wie du sie herunterladen kannst.",
+        "s": "Yes, I know a good app. I'll show you how you can download it."
+      },
+      {
+        "sp": "A",
+        "t": "Danke! Aber ich weiß nicht, ob ich dafür ein Passwort brauche.",
+        "s": "Thanks! But I don't know whether I need a password for it."
+      },
+      {
+        "sp": "B",
+        "t": "Nein, du brauchst nur deine Handynummer. So, jetzt ist die App fertig.",
+        "s": "No, you just need your cell phone number. There, the app is ready now."
+      },
+      {
+        "sp": "A",
+        "t": "Super! Und kannst du mir zeigen, wie ich meine Schwester anrufe?",
+        "s": "Great! And can you show me how I call my sister?"
+      },
+      {
+        "sp": "B",
+        "t": "Natürlich. Du tippst hier auf ihren Namen und dann auf die Kamera.",
+        "s": "Of course. You tap her name here and then the camera."
+      },
+      {
+        "sp": "A",
+        "t": "Super, danke! Heute Abend rufe ich sie an. Sie wartet bestimmt schon auf meinen Anruf.",
+        "s": "Great, thanks! I'll call her tonight. I'm sure she's already waiting for my call."
+      },
+      {
+        "sp": "B",
+        "t": "Schön! Du freust dich bestimmt sehr darauf, oder?",
+        "s": "Nice! You must be really looking forward to it, right?"
+      },
+      {
+        "sp": "A",
+        "t": "Ja, sehr! Ich denke jeden Tag an meine Familie.",
+        "s": "Yes, very much! I think of my family every day."
+      },
+      {
+        "sp": "B",
+        "t": "Dann grüß sie schön von mir! Bis später, Maryam.",
+        "s": "Then say hello to them from me! See you later, Maryam."
+      }
+    ]
+  },
+  "grammar": [
+    {
+      "id": "g01",
+      "title": {
+        "t": "Weißt du, wo …? Ich weiß nicht, ob …",
+        "s": "Indirect questions with question words and ob"
+      },
+      "explain": "A question can be 'packed' into another sentence, for example after **Weißt du, …?**, **Können Sie mir sagen, …?** or **Ich weiß nicht, …**. This is an **indirect question**. Just like after **weil, dass** and **wenn**, the conjugated verb goes to the **end**.\n**W-questions** keep their question word: **Wo ist der Bahnhof?** → **Können Sie mir sagen, wo der Bahnhof ist?**\n**Yes/no questions** use **ob** (*whether, if*): **Kommt Lena heute?** → **Ich weiß nicht, ob Lena heute kommt.**\nCareful: English uses *if* for both **ob** and **wenn** – German doesn't. If you could also say *whether* in English, use **ob**.\nIndirect questions sound more polite than direct ones, so they are very useful with strangers: **Wissen Sie, wann der Bus kommt?** The sentence ends with a question mark only if the first part is a question.",
+      "table": [
+        [
+          "Wo wohnt Lukas?",
+          "Weißt du, wo Lukas wohnt?"
+        ],
+        [
+          "Wann kommt der Bus?",
+          "Wissen Sie, wann der Bus kommt?"
+        ],
+        [
+          "Wie funktioniert die App?",
+          "Kannst du mir zeigen, wie die App funktioniert?"
+        ],
+        [
+          "Hat Anna ein Handy?",
+          "Ich weiß nicht, ob Anna ein Handy hat."
+        ],
+        [
+          "Kommst du heute?",
+          "Sag mir bitte, ob du heute kommst."
+        ]
+      ],
+      "examples": [
+        {
+          "t": "Weißt du, wo die Kinder sind?",
+          "s": "Do you know where the kids are?"
+        },
+        {
+          "t": "Können Sie mir sagen, wie spät es ist?",
+          "s": "Can you tell me what time it is?"
+        },
+        {
+          "t": "Ich weiß nicht, ob die E-Mail angekommen ist.",
+          "s": "I don't know whether the email has arrived."
+        },
+        {
+          "t": "Lena fragt, wann der Film anfängt.",
+          "s": "Lena is asking when the movie starts."
+        },
+        {
+          "t": "Weißt du, ob Reza meine Nachricht gelesen hat?",
+          "s": "Do you know if Reza has read my message?"
+        }
+      ],
+      "exercises": [
+        {
+          "type": "choice",
+          "t": "Weißt du, wo ___?",
+          "options": [
+            "der Bahnhof ist",
+            "ist der Bahnhof",
+            "der Bahnhof"
+          ],
+          "answer": 0,
+          "s": "Do you know where the station is?"
+        },
+        {
+          "type": "choice",
+          "t": "Ich weiß nicht, ___ Amir heute kommt.",
+          "options": [
+            "ob",
+            "wenn",
+            "dass"
+          ],
+          "answer": 0,
+          "s": "I don't know if Amir is coming today."
+        },
+        {
+          "type": "choice",
+          "t": "Können Sie mir sagen, wann der Zug ___?",
+          "options": [
+            "abfährt",
+            "fährt ab",
+            "abfahren"
+          ],
+          "answer": 0,
+          "s": "Can you tell me when the train leaves?"
+        },
+        {
+          "type": "type",
+          "t": "Ich möchte wissen, ___ du heute Abend Zeit hast.",
+          "answer": [
+            "ob"
+          ],
+          "s": "I'd like to know whether you have time this evening."
+        },
+        {
+          "type": "type",
+          "t": "Kannst du mir zeigen, ___ diese App funktioniert?",
+          "answer": [
+            "wie"
+          ],
+          "s": "Can you show me how this app works?"
+        },
+        {
+          "type": "type",
+          "t": "Weißt du, wann Neda nach Hause ___?",
+          "answer": [
+            "kommt"
+          ],
+          "s": "Do you know when Neda is coming home?"
+        },
+        {
+          "type": "order",
+          "t": "Weißt du, ob Lena ein Handy hat?",
+          "s": "Do you know if Lena has a cell phone?"
+        },
+        {
+          "type": "order",
+          "t": "Ich weiß nicht, wo mein Schlüssel ist.",
+          "s": "I don't know where my key is.",
+          "alts": [
+            "Wo mein Schlüssel ist, weiß ich nicht."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "g02",
+      "title": {
+        "t": "Worauf wartest du? – Ich warte darauf.",
+        "s": "Verbs with prepositions; wo(r)- and da(r)-"
+      },
+      "explain": "Many German verbs go with a **fixed preposition**. Learn the verb, the preposition and the case together: **warten auf + A** (*wait for*), **sich freuen auf + A** (*look forward to*), **sich freuen über + A** (*be happy about* something you have got or that has happened), **denken an + A** (*think of*; also *remember*), **sprechen über + A** (*talk about*), **fragen nach + D** (*ask about*). The preposition is often different from English: **Ich warte auf den Bus.** – *I'm waiting for the bus.*\n(**sich freuen** is a reflexive verb: **ich freue mich, du freust dich, er freut sich** – more about these in Unit 10.)\nTo ask about a **thing**, use **wo + preposition**: **Worauf wartest du?** – *What are you waiting for?* To refer back to a thing, use **da + preposition**: **Ich warte darauf.** – *I'm waiting for it.* If the preposition starts with a vowel, add **-r-**: **wo-r-auf, da-r-auf, wo-r-über, da-r-an**.\nFor **people**, use the preposition + a pronoun: **Auf wen wartest du? – Ich warte auf Lena. Ich warte auf sie.**",
+      "table": [
+        [
+          "warten auf + A",
+          "Worauf wartest du?",
+          "Ich warte darauf."
+        ],
+        [
+          "sich freuen auf + A",
+          "Worauf freust du dich?",
+          "Ich freue mich darauf."
+        ],
+        [
+          "sich freuen über + A",
+          "Worüber freut sie sich?",
+          "Sie freut sich darüber."
+        ],
+        [
+          "denken an + A",
+          "Woran denkst du?",
+          "Ich denke daran."
+        ],
+        [
+          "sprechen über + A",
+          "Worüber sprecht ihr?",
+          "Wir sprechen darüber."
+        ],
+        [
+          "fragen nach + D",
+          "Wonach fragt er?",
+          "Er fragt danach."
+        ]
+      ],
+      "examples": [
+        {
+          "t": "Ich warte schon seit einer Stunde auf deinen Anruf.",
+          "s": "I've been waiting for your call for an hour."
+        },
+        {
+          "t": "Wir freuen uns auf die Ferien.",
+          "s": "We're looking forward to the vacation."
+        },
+        {
+          "t": "Maryam freut sich über die Nachricht von ihrer Schwester.",
+          "s": "Maryam is happy about the message from her sister."
+        },
+        {
+          "t": "Ich denke oft an meine Familie in Isfahan.",
+          "s": "I often think of my family in Isfahan."
+        },
+        {
+          "t": "Worüber habt ihr gesprochen? – Über den neuen Film.",
+          "s": "What did you talk about? – About the new movie."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "choice",
+          "t": "Ich warte ___ den Bus.",
+          "options": [
+            "auf",
+            "für",
+            "an"
+          ],
+          "answer": 0,
+          "s": "I'm waiting for the bus."
+        },
+        {
+          "type": "choice",
+          "t": "Wir freuen uns ___ die Ferien im Sommer.",
+          "options": [
+            "auf",
+            "an",
+            "nach"
+          ],
+          "answer": 0,
+          "s": "We're looking forward to the vacation in the summer."
+        },
+        {
+          "type": "choice",
+          "t": "Lena freut sich sehr ___ das Geschenk von gestern.",
+          "options": [
+            "über",
+            "auf",
+            "an"
+          ],
+          "answer": 0,
+          "s": "Lena is very happy about yesterday's present."
+        },
+        {
+          "type": "choice",
+          "t": "Freust du dich auf den Urlaub? – Ja, ich freue mich sehr ___.",
+          "options": [
+            "darauf",
+            "worauf",
+            "dafür"
+          ],
+          "answer": 0,
+          "s": "Are you looking forward to your vacation? – Yes, I'm really looking forward to it."
+        },
+        {
+          "type": "type",
+          "t": "___ wartest du? – Auf den Bus.",
+          "answer": [
+            "Worauf"
+          ],
+          "s": "What are you waiting for? – For the bus."
+        },
+        {
+          "type": "type",
+          "t": "Denk bitte ___ deinen Schlüssel!",
+          "answer": [
+            "an"
+          ],
+          "s": "Please remember your key!"
+        },
+        {
+          "type": "type",
+          "t": "Hast du schon mit Ali ___ das Problem gesprochen?",
+          "answer": [
+            "über",
+            "ueber"
+          ],
+          "s": "Have you talked to Ali about the problem yet?"
+        },
+        {
+          "type": "order",
+          "t": "Ich freue mich über deine Nachricht.",
+          "s": "I'm happy about your message.",
+          "alts": [
+            "Über deine Nachricht freue ich mich."
+          ]
+        }
+      ]
+    }
+  ],
+  "reading": {
+    "title": {
+      "t": "Eine Familie, zwei Länder",
+      "s": "One family, two countries"
+    },
+    "text": [
+      {
+        "t": "Ich heiße Neda und wohne seit fünf Jahren in Hamburg.",
+        "s": "My name is Neda, and I've been living in Hamburg for five years."
+      },
+      {
+        "t": "Meine Eltern und mein Bruder Ali leben noch in Isfahan.",
+        "s": "My parents and my brother Ali still live in Isfahan."
+      },
+      {
+        "t": "Meine Oma erzählt oft, dass sie früher wochenlang auf einen Brief von ihrer Schwester gewartet hat.",
+        "s": "My grandma often says that in the past she waited for weeks for a letter from her sister."
+      },
+      {
+        "t": "Heute ist das ganz anders: Meine Mutter schickt mir jeden Tag Nachrichten und Fotos.",
+        "s": "Today it's completely different: my mother sends me messages and photos every day."
+      },
+      {
+        "t": "Am Freitag machen wir immer einen Videoanruf, weil dann alle Zeit haben.",
+        "s": "On Fridays we always make a video call, because everyone has time then."
+      },
+      {
+        "t": "Manchmal ist die Verbindung schlecht, und ich verstehe nicht, was mein Vater sagt.",
+        "s": "Sometimes the connection is bad, and I don't understand what my father is saying."
+      },
+      {
+        "t": "Dann rufe ich einfach noch einmal an.",
+        "s": "Then I just call again."
+      },
+      {
+        "t": "Meine Mutter ist fünfundsechzig, aber sie hat sogar eine App zum Deutschlernen heruntergeladen!",
+        "s": "My mother is sixty-five, but she has even downloaded an app for learning German!"
+      },
+      {
+        "t": "Im Sommer kommen meine Eltern zu Besuch nach Hamburg.",
+        "s": "In the summer my parents are coming to Hamburg for a visit."
+      },
+      {
+        "t": "Ich freue mich schon sehr darauf!",
+        "s": "I'm already really looking forward to it!"
+      }
+    ],
+    "questions": [
+      {
+        "q": {
+          "t": "Wo wohnen Nedas Eltern?",
+          "s": "Where do Neda's parents live?"
+        },
+        "options": [
+          "in Hamburg",
+          "in Isfahan",
+          "in Teheran"
+        ],
+        "answer": 1
+      },
+      {
+        "q": {
+          "t": "Worauf hat Nedas Oma früher oft gewartet?",
+          "s": "What did Neda's grandma often wait for in the past?"
+        },
+        "options": [
+          "auf einen Anruf",
+          "auf einen Brief",
+          "auf eine E-Mail"
+        ],
+        "answer": 1
+      },
+      {
+        "q": {
+          "t": "Wann macht die Familie einen Videoanruf?",
+          "s": "When does the family make a video call?"
+        },
+        "options": [
+          "jeden Tag",
+          "am Freitag",
+          "am Montag"
+        ],
+        "answer": 1
+      },
+      {
+        "q": {
+          "t": "Was macht Neda, wenn die Verbindung schlecht ist?",
+          "s": "What does Neda do when the connection is bad?"
+        },
+        "options": [
+          "Sie schreibt eine E-Mail.",
+          "Sie ruft noch einmal an.",
+          "Sie schickt Fotos."
+        ],
+        "answer": 1
+      },
+      {
+        "q": {
+          "t": "Worauf freut sich Neda?",
+          "s": "What is Neda looking forward to?"
+        },
+        "options": [
+          "auf den Besuch von ihren Eltern",
+          "auf eine neue App",
+          "auf eine Reise nach Isfahan"
+        ],
+        "answer": 0
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "t": "Ich habe dir gestern eine Nachricht geschickt.",
+      "s": "I sent you a message yesterday.",
+      "alts": [
+        "Gestern habe ich dir eine Nachricht geschickt."
+      ]
+    },
+    {
+      "t": "Weißt du, wann der Film anfängt?",
+      "s": "Do you know when the movie starts?"
+    },
+    {
+      "t": "Ich warte noch auf seine Antwort.",
+      "s": "I'm still waiting for his reply.",
+      "alts": [
+        "Auf seine Antwort warte ich noch."
+      ]
+    },
+    {
+      "t": "Wir haben lange über das Problem gesprochen.",
+      "s": "We talked about the problem for a long time.",
+      "alts": [
+        "Über das Problem haben wir lange gesprochen."
+      ]
+    },
+    {
+      "t": "Hast du dein Passwort vergessen?",
+      "s": "Have you forgotten your password?"
+    },
+    {
+      "t": "Ich weiß nicht, ob er zu Hause ist.",
+      "s": "I don't know if he's at home.",
+      "alts": [
+        "Ob er zu Hause ist, weiß ich nicht."
+      ]
+    },
+    {
+      "t": "Woran denkst du gerade?",
+      "s": "What are you thinking about right now?"
+    },
+    {
+      "t": "Kannst du mir die Fotos schicken?",
+      "s": "Can you send me the photos?"
+    }
+  ]
+}

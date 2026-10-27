@@ -1,0 +1,774 @@
+{
+  "id": "u01",
+  "level": "C1",
+  "emoji": "📚",
+  "title": {
+    "t": "Akademik dünya",
+    "s": "دنیای دانشگاه و پژوهش"
+  },
+  "goals": [
+    "درباره‌ی پایان‌نامه، مقاله، داوری علمی و زندگی دانشگاهی با واژگان رسمی صحبت کنم.",
+    "با کلیشه‌های ارجاعی مثل bilindiği gibi، görüldüğü üzere و belirtildiği üzere به دانسته‌ها و داده‌ها ارجاع دهم.",
+    "با ربط‌دهنده‌های علمی dolayısıyla، bununla birlikte، aksine، nitekim و zira استدلالی منسجم بسازم.",
+    "یک یادداشت تحلیلی درباره‌ی نظام دانشگاهی را بخوانم و استدلال نویسنده را دنبال کنم."
+  ],
+  "words": [
+    {
+      "id": "w01",
+      "t": "makale",
+      "pl": "makaleler",
+      "s": "مقاله",
+      "pr": "ماکالِه",
+      "emoji": "📄",
+      "ex": {
+        "t": "Makalem uluslararası bir dergide yayımlandı.",
+        "s": "مقاله‌ام در یک مجله‌ی بین‌المللی منتشر شد."
+      }
+    },
+    {
+      "id": "w02",
+      "t": "hakemli dergi",
+      "pl": "hakemli dergiler",
+      "s": "مجله‌ی داوری‌شده (علمی‌پژوهشی)",
+      "pr": "هاکِملی دِرگی",
+      "emoji": "",
+      "ex": {
+        "t": "Doçentlik için hakemli dergilerde yayın yapmak gerekiyor.",
+        "s": "برای دانشیار شدن باید در مجله‌های داوری‌شده مقاله منتشر کرد."
+      }
+    },
+    {
+      "id": "w03",
+      "t": "tez",
+      "pl": "tezler",
+      "s": "پایان‌نامه؛ رساله",
+      "pr": "تِز",
+      "emoji": "",
+      "ex": {
+        "t": "Tezimi bu dönem bitirmeyi planlıyorum.",
+        "s": "قصد دارم پایان‌نامه‌ام را این ترم تمام کنم."
+      }
+    },
+    {
+      "id": "w04",
+      "t": "tez danışmanı",
+      "pl": "tez danışmanları",
+      "s": "استاد راهنما",
+      "pr": "تِز دانِشمانِ",
+      "emoji": "",
+      "ex": {
+        "t": "Tez danışmanım her hafta taslaklarımı okuyor.",
+        "s": "استاد راهنمایم هر هفته پیش‌نویس‌هایم را می‌خواند."
+      }
+    },
+    {
+      "id": "w05",
+      "t": "kaynakça",
+      "s": "فهرست منابع؛ کتاب‌نامه",
+      "pr": "کایناکچا",
+      "emoji": "",
+      "ex": {
+        "t": "Kaynakçada bütün kaynakları alfabetik sırayla verin.",
+        "s": "در فهرست منابع، همه‌ی منابع را به ترتیب الفبایی بیاورید."
+      }
+    },
+    {
+      "id": "w06",
+      "t": "alıntı yapmak",
+      "s": "نقل‌قول کردن",
+      "pr": "آلِنتِ یاپماک",
+      "emoji": "",
+      "ex": {
+        "t": "Başka bir yazardan alıntı yaparken kaynağı mutlaka belirtin.",
+        "s": "هنگام نقل‌قول از نویسنده‌ای دیگر، حتماً منبع را ذکر کنید."
+      }
+    },
+    {
+      "id": "w07",
+      "t": "intihal",
+      "s": "سرقت علمی؛ سرقت ادبی",
+      "pr": "اینتیهال",
+      "emoji": "",
+      "ex": {
+        "t": "Üniversite, intihal tespit edilen tezleri reddediyor.",
+        "s": "دانشگاه پایان‌نامه‌هایی را که در آن‌ها سرقت علمی کشف شود رد می‌کند."
+      }
+    },
+    {
+      "id": "w08",
+      "t": "hipotez",
+      "pl": "hipotezler",
+      "s": "فرضیه",
+      "pr": "هیپُتِز",
+      "emoji": "",
+      "ex": {
+        "t": "Elde ettiğimiz veriler hipotezimizi doğruladı.",
+        "s": "داده‌هایی که به دست آوردیم فرضیه‌مان را تأیید کرد."
+      }
+    },
+    {
+      "id": "w09",
+      "t": "bulgu",
+      "pl": "bulgular",
+      "s": "یافته (پژوهش)",
+      "pr": "بولگو",
+      "emoji": "",
+      "ex": {
+        "t": "Bulgular, önceki çalışmalarla büyük ölçüde örtüşüyor.",
+        "s": "یافته‌ها تا حد زیادی با پژوهش‌های پیشین همخوانی دارد."
+      }
+    },
+    {
+      "id": "w10",
+      "t": "kuram",
+      "pl": "kuramlar",
+      "s": "نظریه",
+      "pr": "کورام",
+      "emoji": "",
+      "ex": {
+        "t": "Bu kuram yirminci yüzyılın başında ortaya atıldı.",
+        "s": "این نظریه در اوایل قرن بیستم مطرح شد."
+      }
+    },
+    {
+      "id": "w11",
+      "t": "literatür taraması",
+      "s": "مرور پیشینه‌ی پژوهش",
+      "pr": "لیتِراتور تاراماسِ",
+      "emoji": "",
+      "ex": {
+        "t": "Literatür taraması tezin en uzun bölümü oldu.",
+        "s": "مرور پیشینه طولانی‌ترین بخش پایان‌نامه شد."
+      }
+    },
+    {
+      "id": "w12",
+      "t": "doktora",
+      "s": "دکترا",
+      "pr": "دُکتُرا",
+      "emoji": "🎓",
+      "ex": {
+        "t": "Doktoramı Ankara'da tamamladım.",
+        "s": "دکترایم را در آنکارا به پایان رساندم."
+      }
+    },
+    {
+      "id": "w13",
+      "t": "doçent",
+      "pl": "doçentler",
+      "s": "دانشیار",
+      "pr": "دُچِنت",
+      "emoji": "",
+      "ex": {
+        "t": "Zeynep Hanım geçen yıl doçent oldu.",
+        "s": "زینب خانم پارسال دانشیار شد."
+      }
+    },
+    {
+      "id": "w14",
+      "t": "sempozyum",
+      "pl": "sempozyumlar",
+      "s": "همایش علمی",
+      "pr": "سِمپُزیوم",
+      "emoji": "",
+      "ex": {
+        "t": "Haziranda İzmir'de uluslararası bir sempozyuma katılacağım.",
+        "s": "ژوئن در ازمیر در یک همایش بین‌المللی شرکت خواهم کرد."
+      }
+    },
+    {
+      "id": "w15",
+      "t": "bildiri",
+      "pl": "bildiriler",
+      "s": "مقاله‌ی همایش (ارائه‌ی علمی)",
+      "pr": "بیلدیری",
+      "emoji": "",
+      "ex": {
+        "t": "Sempozyumda iklim değişikliği üzerine bir bildiri sundum.",
+        "s": "در همایش، مقاله‌ای درباره‌ی تغییرات اقلیمی ارائه کردم."
+      }
+    },
+    {
+      "id": "w16",
+      "t": "yayımlamak",
+      "s": "منتشر کردن (کتاب و مقاله؛ yayınlamak بیشتر یعنی پخش کردن برنامه)",
+      "pr": "یایِملاماک",
+      "emoji": "",
+      "ex": {
+        "t": "Dergi, makalemi bu sayıda yayımladı.",
+        "s": "مجله مقاله‌ام را در این شماره منتشر کرد."
+      }
+    }
+  ],
+  "phrases": [
+    {
+      "id": "p01",
+      "t": "Bu konuda pek çok çalışma yapılmış.",
+      "s": "درباره‌ی این موضوع پژوهش‌های زیادی انجام شده است.",
+      "pr": "بو کُنودا پِک چُک چالِشما یاپِلمِش."
+    },
+    {
+      "id": "p02",
+      "t": "Daha önce de belirttiğim gibi…",
+      "s": "همان‌طور که پیش‌تر هم اشاره کردم…",
+      "pr": "داها اُنجِه دِه بِلیرتّییم گیبی…"
+    },
+    {
+      "id": "p03",
+      "t": "Bu, tartışmaya açık bir konu.",
+      "s": "این موضوع جای بحث دارد.",
+      "pr": "بو، تارتِشمایا آچِک بیر کُنو."
+    },
+    {
+      "id": "p04",
+      "t": "Bu bilginin kaynağı nedir?",
+      "s": "منبع این اطلاعات چیست؟",
+      "pr": "بو بیلگینین کاینائِ نِدیر؟"
+    },
+    {
+      "id": "p05",
+      "t": "Bulgularımız bu görüşü destekliyor.",
+      "s": "یافته‌های ما این دیدگاه را تأیید می‌کند.",
+      "pr": "بولگولارِمِز بو گُروشو دِستِکلیُر."
+    },
+    {
+      "id": "p06",
+      "t": "Tezimi teslim etmeme iki hafta kaldı.",
+      "s": "دو هفته به تحویل پایان‌نامه‌ام مانده است.",
+      "pr": "تِزیمی تِسلیم اِتمِمِه ایکی هافتا کالدِ."
+    },
+    {
+      "id": "p07",
+      "t": "Çok yerinde bir soru, teşekkür ederim.",
+      "s": "سؤال بسیار بجایی است، ممنونم.",
+      "pr": "چُک یِریندِه بیر سُرو، تِشِکّور اِدِریم."
+    },
+    {
+      "id": "p08",
+      "t": "Bu konuyu bir sonraki bölümde ele alacağız.",
+      "s": "این موضوع را در بخش بعدی بررسی خواهیم کرد.",
+      "pr": "بو کُنویو بیر سُنراکی بُلومدِه اِلِه آلاجائِز.",
+      "alts": [
+        "Bir sonraki bölümde bu konuyu ele alacağız."
+      ]
+    }
+  ],
+  "dialogue": {
+    "title": {
+      "t": "Tez danışmanıyla görüşme",
+      "s": "دیدار با استاد راهنما"
+    },
+    "speakers": {
+      "A": {
+        "name": "Neda",
+        "voice": "f"
+      },
+      "B": {
+        "name": "Mehmet Hoca",
+        "voice": "m"
+      }
+    },
+    "lines": [
+      {
+        "sp": "A",
+        "t": "Hocam, müsaitseniz tezimin ikinci bölümü hakkında konuşmak istiyorum.",
+        "s": "استاد، اگر وقت دارید، می‌خواهم درباره‌ی فصل دوم پایان‌نامه‌ام صحبت کنم."
+      },
+      {
+        "sp": "B",
+        "t": "Tabii Neda, buyur otur. Taslağını okudum; literatür taraması oldukça kapsamlı olmuş.",
+        "s": "البته ندا، بفرما بنشین. پیش‌نویست را خواندم؛ مرور پیشینه نسبتاً جامع شده است."
+      },
+      {
+        "sp": "A",
+        "t": "Teşekkür ederim. Ama bulgular kısmında hipotezim tam olarak doğrulanmadı.",
+        "s": "ممنونم. اما در بخش یافته‌ها، فرضیه‌ام کاملاً تأیید نشد."
+      },
+      {
+        "sp": "B",
+        "t": "Bu bir sorun değil. Bilindiği gibi, olumsuz sonuçlar da bilime katkı sağlar.",
+        "s": "این مشکلی نیست. همان‌طور که می‌دانیم، نتایج منفی هم به علم کمک می‌کند."
+      },
+      {
+        "sp": "A",
+        "t": "Haklısınız. Üstelik benim bulgularım tek başına değil; nitekim son yıllarda yapılan bazı çalışmalar da benzer sonuçlara ulaşmış.",
+        "s": "حق با شماست. ضمن اینکه یافته‌های من تنها نیستند؛ چنان‌که برخی پژوهش‌های سال‌های اخیر هم به نتایج مشابهی رسیده‌اند."
+      },
+      {
+        "sp": "B",
+        "t": "O hâlde bunu tartışma bölümünde açıkça belirtmelisin. Zira okuyucu, sonuçların neden beklenenden farklı çıktığını merak edecektir.",
+        "s": "پس باید این را در بخش بحث به‌روشنی بیان کنی؛ زیرا خواننده کنجکاو خواهد بود که چرا نتایج با آنچه انتظار می‌رفت فرق کرده است."
+      },
+      {
+        "sp": "A",
+        "t": "Peki kaynakçada eski kaynaklara da yer vermeli miyim?",
+        "s": "خب، آیا در فهرست منابع باید به منابع قدیمی هم جا بدهم؟"
+      },
+      {
+        "sp": "B",
+        "t": "Kuramın temelini oluşturdukları için evet. Bununla birlikte, ağırlık son on yılın makalelerinde olmalı.",
+        "s": "چون پایه‌ی نظریه را تشکیل می‌دهند، بله. با این حال، وزن اصلی باید روی مقاله‌های ده سال اخیر باشد."
+      },
+      {
+        "sp": "A",
+        "t": "Anladım. Bir de doğrudan alıntıları azaltmamı söylemiştiniz.",
+        "s": "فهمیدم. یک نکته‌ی دیگر هم؛ گفته بودید نقل‌قول‌های مستقیم را کم کنم."
+      },
+      {
+        "sp": "B",
+        "t": "Evet. Belirttiğim üzere, kendi cümlelerinle yazman hem intihal riskini azaltır hem de tezine özgünlük katar.",
+        "s": "بله. همان‌طور که گفتم، اینکه با جمله‌های خودت بنویسی هم خطر سرقت علمی را کم می‌کند و هم به پایان‌نامه‌ات اصالت می‌دهد."
+      },
+      {
+        "sp": "A",
+        "t": "Çok teşekkürler hocam. Düzeltilmiş hâlini gelecek hafta size gönderirim.",
+        "s": "خیلی ممنون استاد. نسخه‌ی اصلاح‌شده را هفته‌ی آینده برایتان می‌فرستم."
+      }
+    ]
+  },
+  "grammar": [
+    {
+      "id": "g01",
+      "title": {
+        "t": "Bilindiği gibi… / Görüldüğü üzere…",
+        "s": "کلیشه‌های ارجاعی با -dığı و -acağı"
+      },
+      "explain": "در متن‌های علمی و رسمی، برای ارجاع به چیزی که خواننده می‌داند یا در متن آمده، از چند **کلیشه‌ی ثابت** استفاده می‌شود. ساختشان این است: فعل (اغلب **مجهول**: bil**in**-، gör**ül**-، belirt**il**-) + صفت‌فعل **-dığı** (برای گذشته و حال) یا **-acağı** (برای آینده) + **gibi** یا **üzere**. معنای همه‌شان «همان‌طور که / چنان‌که» است.\n**bilindiği gibi** = همان‌طور که می‌دانیم؛ **görüldüğü üzere / görüldüğü gibi** = همان‌طور که دیده می‌شود (برای جدول و نمودار)؛ **belirtildiği üzere** = همان‌طور که اشاره شد؛ **beklendiği gibi** = همان‌طور که انتظار می‌رفت.\nبا **-acağı** به چیزی ارجاع می‌دهیم که هنوز نیامده است: **ileride açıklanacağı üzere** = همان‌طور که در ادامه توضیح داده خواهد شد؛ **tahmin edileceği gibi** = چنان‌که می‌توان حدس زد.\nاگر گوینده خودش باشد، به‌جای مجهول پسوند ملکی می‌آید: **belirttiğim gibi** (همان‌طور که گفتم)، **gördüğümüz üzere** (همان‌طور که دیدیم).\n**üzere** در این کاربرد همان **gibi** است، فقط رسمی‌تر و نوشتاری‌تر. آن را با **-mak üzere** («در آستانه‌ی / برای اینکه») که در B2 دیدید اشتباه نگیرید.",
+      "table": [
+        [
+          "bilinmek",
+          "bilindiği gibi"
+        ],
+        [
+          "görülmek",
+          "görüldüğü üzere"
+        ],
+        [
+          "belirtilmek",
+          "belirtildiği üzere"
+        ],
+        [
+          "beklenmek",
+          "beklendiği gibi"
+        ],
+        [
+          "açıklanacak",
+          "açıklanacağı üzere"
+        ],
+        [
+          "tahmin edilecek",
+          "tahmin edileceği gibi"
+        ],
+        [
+          "belirtmek",
+          "belirttiğim gibi"
+        ]
+      ],
+      "examples": [
+        {
+          "t": "Bilindiği gibi, Türkçe sondan eklemeli bir dildir.",
+          "s": "همان‌طور که می‌دانیم، ترکی زبانی پسوندی است."
+        },
+        {
+          "t": "Tabloda görüldüğü üzere, katılımcıların yarısından fazlası kadındır.",
+          "s": "همان‌طور که در جدول دیده می‌شود، بیش از نیمی از شرکت‌کنندگان زن هستند."
+        },
+        {
+          "t": "Giriş bölümünde belirtildiği üzere, bu çalışma iki aşamadan oluşmaktadır.",
+          "s": "همان‌طور که در بخش مقدمه اشاره شد، این پژوهش از دو مرحله تشکیل شده است."
+        },
+        {
+          "t": "İleride açıklanacağı gibi, bu sonucun birkaç nedeni vardır.",
+          "s": "همان‌طور که در ادامه توضیح داده خواهد شد، این نتیجه چند دلیل دارد."
+        },
+        {
+          "t": "Beklendiği gibi, deney grubunun başarısı daha yüksek çıktı.",
+          "s": "همان‌طور که انتظار می‌رفت، موفقیت گروه آزمایش بالاتر بود."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "choice",
+          "t": "Tabloda ___ üzere, sıcaklık son yıllarda artmıştır.",
+          "options": [
+            "görmek",
+            "görüldüğü",
+            "görüldü"
+          ],
+          "answer": 1,
+          "s": "همان‌طور که در جدول دیده می‌شود، دما در سال‌های اخیر افزایش یافته است."
+        },
+        {
+          "type": "choice",
+          "t": "___ gibi, dünya nüfusu sekiz milyarı geçti.",
+          "options": [
+            "Bilindi",
+            "Bilinmek",
+            "Bilindiği"
+          ],
+          "answer": 2,
+          "s": "همان‌طور که می‌دانیم، جمعیت جهان از هشت میلیارد گذشت."
+        },
+        {
+          "type": "choice",
+          "t": "Bir sonraki bölümde ___ gibi, bu yöntemin bazı sınırlılıkları vardır.",
+          "options": [
+            "açıklanacağı",
+            "açıklandığı",
+            "açıklanan"
+          ],
+          "answer": 0,
+          "s": "همان‌طور که در بخش بعدی توضیح داده خواهد شد، این روش محدودیت‌هایی دارد."
+        },
+        {
+          "type": "type",
+          "t": "Giriş bölümünde ___ üzere, araştırma iki yıl sürmüştür.",
+          "answer": [
+            "belirtildiği",
+            "açıklandığı",
+            "söylendiği",
+            "ifade edildiği",
+            "vurgulandığı"
+          ],
+          "s": "همان‌طور که در بخش مقدمه اشاره شد، پژوهش دو سال طول کشیده است."
+        },
+        {
+          "type": "type",
+          "t": "Daha önce de ___ gibi, bu konuda yeterli veri yok.",
+          "answer": [
+            "belirttiğim",
+            "söylediğim",
+            "dediğim",
+            "ifade ettiğim"
+          ],
+          "s": "همان‌طور که (من) پیش‌تر هم گفتم، در این باره داده‌ی کافی وجود ندارد."
+        },
+        {
+          "type": "type",
+          "t": "___ gibi, sonuçlar hipotezimizi doğruladı.",
+          "answer": [
+            "beklendiği"
+          ],
+          "s": "همان‌طور که انتظار می‌رفت، نتایج فرضیه‌ی ما را تأیید کرد."
+        },
+        {
+          "type": "order",
+          "t": "Grafikte görüldüğü üzere satışlar düşmüştür.",
+          "s": "همان‌طور که در نمودار دیده می‌شود، فروش کاهش یافته است.",
+          "alts": [
+            "Satışlar grafikte görüldüğü üzere düşmüştür."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "g02",
+      "title": {
+        "t": "dolayısıyla, bununla birlikte, aksine, nitekim, zira",
+        "s": "ربط‌دهنده‌های متن علمی"
+      },
+      "explain": "این پنج کلمه رابطه‌ی منطقی دو جمله را نشان می‌دهند و در نوشتار علمی و رسمی بسیار رایج‌اند:\n**dolayısıyla** = در نتیجه / بنابراین (نتیجه): Örneklem küçüktü; **dolayısıyla** sonuçlar genellenemez. معادل غیررسمی‌تر: bu yüzden، bu nedenle.\n**bununla birlikte** = با این حال / با وجود این (تضاد): Yöntem yenidir. **Bununla birlikte**, ilk sonuçlar umut vericidir. هم‌معنای ancak و yine de.\n**aksine** = برعکس؛ بعد از یک جمله‌ی منفی، ادعای مخالف آن را می‌آورد: Bu yöntem zaman kaybı değildir; **aksine**, zaman kazandırır. با اسم هم می‌آید: beklenen**in aksine** = برخلافِ انتظار.\n**nitekim** = چنان‌که / شاهدش اینکه؛ دلیل یا نمونه‌ای می‌آورد که ادعای قبلی را **تأیید** می‌کند. مراقب باشید: nitekim به معنای «اما» نیست!\n**zira** = زیرا؛ این کلمه از همان «زیرا»ی فارسی آمده است. رسمی‌تر از **çünkü** است و جمله‌ی دلیل را بعد از جمله‌ی اصلی می‌آورد.\nمعمولاً dolayısıyla، bununla birlikte و aksine اول جمله یا بعد از «;» می‌آیند و بعدشان ویرگول می‌گذارند؛ بعد از nitekim و zira معمولاً ویرگول نمی‌آید.",
+      "table": [
+        [
+          "dolayısıyla",
+          "sonuç",
+          "bu nedenle"
+        ],
+        [
+          "bununla birlikte",
+          "karşıtlık",
+          "ancak, yine de"
+        ],
+        [
+          "aksine",
+          "tam tersi",
+          "tersine"
+        ],
+        [
+          "nitekim",
+          "doğrulayan kanıt",
+          "gerçekten de"
+        ],
+        [
+          "zira",
+          "neden",
+          "çünkü"
+        ]
+      ],
+      "examples": [
+        {
+          "t": "Katılımcı sayısı çok azdı; dolayısıyla sonuçlar genellenemez.",
+          "s": "شمار شرکت‌کنندگان بسیار کم بود؛ در نتیجه نتایج قابل تعمیم نیست."
+        },
+        {
+          "t": "Yöntem oldukça yenidir. Bununla birlikte, ilk sonuçlar umut vericidir.",
+          "s": "این روش نسبتاً جدید است. با این حال، نتایج اولیه امیدوارکننده است."
+        },
+        {
+          "t": "Uzaktan eğitim öğrencileri yalnızlaştırmadı; aksine, aralarındaki iş birliğini artırdı.",
+          "s": "آموزش از راه دور دانشجویان را منزوی نکرد؛ برعکس، همکاری میانشان را بیشتر کرد."
+        },
+        {
+          "t": "Düzenli uyku öğrenmeyi kolaylaştırır; nitekim son araştırmalar da bunu doğrulamaktadır.",
+          "s": "خواب منظم یادگیری را آسان‌تر می‌کند؛ چنان‌که پژوهش‌های اخیر هم این را تأیید می‌کنند."
+        },
+        {
+          "t": "Bu bulguları temkinle yorumlamalıyız, zira örneklem yalnızca tek bir şehirden seçilmiştir.",
+          "s": "باید این یافته‌ها را با احتیاط تفسیر کنیم، زیرا نمونه فقط از یک شهر انتخاب شده است."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "choice",
+          "t": "Deney yalnızca iki kez tekrarlandı; ___ sonuçlar kesin değildir.",
+          "options": [
+            "aksine",
+            "zira",
+            "dolayısıyla"
+          ],
+          "answer": 2,
+          "s": "آزمایش فقط دو بار تکرار شد؛ در نتیجه نتایج قطعی نیست."
+        },
+        {
+          "type": "choice",
+          "t": "Bu kuram oldukça eskidir. ___, hâlâ geçerliliğini korumaktadır.",
+          "options": [
+            "Bununla birlikte",
+            "Dolayısıyla",
+            "Nitekim"
+          ],
+          "answer": 0,
+          "s": "این نظریه نسبتاً قدیمی است. با این حال، هنوز اعتبارش را حفظ کرده است."
+        },
+        {
+          "type": "choice",
+          "t": "Beklenenin ___, kadın katılımcıların oranı erkeklerinkinden yüksek çıktı.",
+          "options": [
+            "nitekim",
+            "aksine",
+            "zira"
+          ],
+          "answer": 1,
+          "s": "برخلاف انتظار، نسبت شرکت‌کنندگان زن از مردان بالاتر بود."
+        },
+        {
+          "type": "choice",
+          "t": "Türkçe, Farsçadan pek çok kelime almıştır; ___ “pencere” ve “hafta” bunlardan yalnızca ikisidir.",
+          "options": [
+            "aksine",
+            "bununla birlikte",
+            "nitekim"
+          ],
+          "answer": 2,
+          "s": "ترکی واژه‌های بسیاری از فارسی گرفته است؛ چنان‌که «پنجره» و «هفته» تنها دو نمونه از آن‌هاست."
+        },
+        {
+          "type": "type",
+          "t": "Örneklem çok küçüktü, ___ araştırma yalnızca bir okulda yapıldı.",
+          "answer": [
+            "zira",
+            "çünkü"
+          ],
+          "s": "نمونه خیلی کوچک بود، زیرا پژوهش فقط در یک مدرسه انجام شد."
+        },
+        {
+          "type": "type",
+          "t": "Proje bütçesi çok kısıtlıydı. ___, ekip bütün hedeflerine ulaştı.",
+          "answer": [
+            "bununla birlikte",
+            "buna rağmen",
+            "buna karşın",
+            "yine de",
+            "ancak"
+          ],
+          "s": "بودجه‌ی پروژه خیلی محدود بود. با این حال، گروه به همه‌ی هدف‌هایش رسید."
+        },
+        {
+          "type": "type",
+          "t": "Sonuçlar tutarsızdı; ___ çalışmanın tekrarlanması gerekiyor.",
+          "answer": [
+            "dolayısıyla",
+            "bu nedenle",
+            "bu yüzden",
+            "bundan dolayı",
+            "bu sebeple"
+          ],
+          "s": "نتایج ناهمخوان بود؛ بنابراین لازم است پژوهش تکرار شود."
+        },
+        {
+          "type": "order",
+          "t": "Bu çalışma bir son değil, aksine bir başlangıçtır.",
+          "s": "این پژوهش پایان کار نیست، بلکه برعکس یک آغاز است."
+        }
+      ]
+    }
+  ],
+  "reading": {
+    "title": {
+      "t": "Yayımla ya da yok ol",
+      "s": "منتشر کن یا نابود شو"
+    },
+    "text": [
+      {
+        "t": "Akademik dünyada sık duyulan bir söz vardır: “Yayımla ya da yok ol.”",
+        "s": "در دنیای دانشگاهی جمله‌ای هست که زیاد شنیده می‌شود: «منتشر کن یا نابود شو.»"
+      },
+      {
+        "t": "Bilindiği gibi, bir akademisyenin başarısı çoğu zaman yayımladığı makalelerin sayısıyla ölçülmektedir.",
+        "s": "همان‌طور که می‌دانیم، موفقیت یک عضو هیئت علمی اغلب با تعداد مقاله‌هایی که منتشر کرده سنجیده می‌شود."
+      },
+      {
+        "t": "Doçent olmak isteyen bir araştırmacı, hakemli dergilerde belirli sayıda makale yayımlamak zorundadır.",
+        "s": "پژوهشگری که می‌خواهد دانشیار شود، ناچار است تعداد معینی مقاله در مجله‌های داوری‌شده منتشر کند."
+      },
+      {
+        "t": "Bu sistem ilk bakışta adil görünebilir, zira herkes aynı kurallarla değerlendirilmektedir.",
+        "s": "این نظام در نگاه اول ممکن است منصفانه به نظر برسد، زیرا همه با قواعد یکسانی ارزیابی می‌شوند."
+      },
+      {
+        "t": "Bununla birlikte, sayıya dayalı bu yaklaşımın ciddi yan etkileri olduğu da bir gerçektir.",
+        "s": "با این حال، این هم واقعیتی است که این رویکرد عددمحور عوارض جدی دارد."
+      },
+      {
+        "t": "Son yıllarda yapılan anketlerde görüldüğü üzere, genç araştırmacıların çoğu kendini sürekli baskı altında hissetmektedir.",
+        "s": "همان‌طور که در نظرسنجی‌های سال‌های اخیر دیده می‌شود، بیشتر پژوهشگران جوان خود را دائماً زیر فشار احساس می‌کنند."
+      },
+      {
+        "t": "Bu baskı, bazı durumlarda intihal gibi etik ihlallere bile yol açabilmektedir.",
+        "s": "این فشار در برخی موارد حتی می‌تواند به تخلف‌های اخلاقی مانند سرقت علمی بینجامد."
+      },
+      {
+        "t": "Nitekim geçen yıl yalnızca bizim üniversitemizde dört tez, intihal gerekçesiyle reddedildi.",
+        "s": "چنان‌که پارسال فقط در دانشگاه ما چهار پایان‌نامه به دلیل سرقت علمی رد شد."
+      },
+      {
+        "t": "Oysa bilimsel bir kuramı geliştirmek bazen yıllar alır.",
+        "s": "در حالی که پرورش یک نظریه‌ی علمی گاهی سال‌ها طول می‌کشد."
+      },
+      {
+        "t": "Çok makale yazmak, iyi bir araştırmacı olmak anlamına gelmez; aksine, aceleyle yazılan makalelerin bulguları çoğu zaman zayıf kalır.",
+        "s": "زیاد مقاله نوشتن به معنای پژوهشگر خوب بودن نیست؛ برعکس، یافته‌های مقاله‌هایی که با عجله نوشته می‌شوند اغلب ضعیف می‌مانند."
+      },
+      {
+        "t": "Bazı üniversiteler bu sorunun farkına vararak değerlendirmede makale sayısı yerine makalelerin niteliğine bakmaya başlamıştır.",
+        "s": "برخی دانشگاه‌ها با پی بردن به این مشکل، در ارزیابی به‌جای تعداد مقاله‌ها به کیفیت آن‌ها توجه می‌کنند."
+      },
+      {
+        "t": "Dolayısıyla değişim mümkündür; ancak bunun için bütün akademik kurumların ortak bir adım atması gerekir.",
+        "s": "بنابراین تغییر ممکن است؛ اما برای این کار لازم است همه‌ی نهادهای دانشگاهی گامی مشترک بردارند."
+      },
+      {
+        "t": "Unutmayalım: Bilim bir yarış değil, uzun soluklu bir yolculuktur.",
+        "s": "فراموش نکنیم: علم مسابقه نیست، سفری طولانی است."
+      }
+    ],
+    "questions": [
+      {
+        "q": {
+          "t": "Yazara göre bir akademisyenin başarısı çoğu zaman neyle ölçülüyor?",
+          "s": "به نظر نویسنده، موفقیت یک عضو هیئت علمی اغلب با چه چیزی سنجیده می‌شود؟"
+        },
+        "options": [
+          "Öğrencilerinin notlarıyla",
+          "Yayımladığı makalelerin sayısıyla",
+          "Aldığı maaşla"
+        ],
+        "answer": 1
+      },
+      {
+        "q": {
+          "t": "Anketlere göre genç araştırmacıların çoğu kendini nasıl hissediyor?",
+          "s": "طبق نظرسنجی‌ها، بیشتر پژوهشگران جوان چه احساسی دارند؟"
+        },
+        "options": [
+          "Sürekli baskı altında",
+          "Rahat ve özgür",
+          "Hiç ilgisiz"
+        ],
+        "answer": 0
+      },
+      {
+        "q": {
+          "t": "Geçen yıl yazarın üniversitesinde kaç tez reddedildi?",
+          "s": "پارسال در دانشگاه نویسنده چند پایان‌نامه رد شد؟"
+        },
+        "options": [
+          "Dört",
+          "İki",
+          "On"
+        ],
+        "answer": 0
+      },
+      {
+        "q": {
+          "t": "Bazı üniversiteler artık değerlendirmede neye bakıyor?",
+          "s": "برخی دانشگاه‌ها اکنون در ارزیابی به چه چیزی توجه می‌کنند؟"
+        },
+        "options": [
+          "Makale sayısına",
+          "Adayların yaşına",
+          "Makalelerin niteliğine"
+        ],
+        "answer": 2
+      },
+      {
+        "q": {
+          "t": "Yazar bilimi neye benzetiyor?",
+          "s": "نویسنده علم را به چه چیزی تشبیه می‌کند؟"
+        },
+        "options": [
+          "Bir yarışa",
+          "Bir sınava",
+          "Uzun soluklu bir yolculuğa"
+        ],
+        "answer": 2
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "t": "Makalem hakemli bir dergide yayımlandı.",
+      "s": "مقاله‌ام در یک مجله‌ی داوری‌شده منتشر شد."
+    },
+    {
+      "t": "Tezimi gelecek ay savunacağım.",
+      "s": "ماه آینده از پایان‌نامه‌ام دفاع می‌کنم.",
+      "alts": [
+        "Gelecek ay tezimi savunacağım."
+      ]
+    },
+    {
+      "t": "Bilindiği gibi, bilim sabır ister.",
+      "s": "همان‌طور که می‌دانیم، علم صبر می‌خواهد.",
+      "alts": [
+        "Bilim, bilindiği gibi, sabır ister."
+      ]
+    },
+    {
+      "t": "Veriler yetersizdi; dolayısıyla sonuç kesin değil.",
+      "s": "داده‌ها ناکافی بود؛ بنابراین نتیجه قطعی نیست."
+    },
+    {
+      "t": "Hipotezimiz, beklendiği gibi, doğrulandı.",
+      "s": "فرضیه‌ی ما، همان‌طور که انتظار می‌رفت، تأیید شد.",
+      "alts": [
+        "Beklendiği gibi, hipotezimiz doğrulandı."
+      ]
+    },
+    {
+      "t": "Kaynakçayı yazmayı en sona bırakma.",
+      "s": "نوشتن فهرست منابع را برای آخر کار نگذار."
+    },
+    {
+      "t": "Danışmanım bu bölümü yeniden yazmamı istedi.",
+      "s": "استاد راهنمایم از من خواست این فصل را دوباره بنویسم."
+    },
+    {
+      "t": "Sempozyumda bildirimi İngilizce sundum.",
+      "s": "در همایش، مقاله‌ام را به انگلیسی ارائه کردم.",
+      "alts": [
+        "Bildirimi sempozyumda İngilizce sundum."
+      ]
+    }
+  ]
+}

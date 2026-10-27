@@ -1,0 +1,729 @@
+{
+  "id": "u10",
+  "level": "B1",
+  "emoji": "🎉",
+  "title": {
+    "t": "Kultur, Feste und Freizeit",
+    "s": "Culture, festivals and leisure"
+  },
+  "goals": [
+    "Talk about festivals, customs and leisure activities in Germany and Iran",
+    "Invite someone, accept an invitation and make plans for an event",
+    "Use indefinite pronouns (man, jemand, niemand, etwas, nichts, einer, keiner, welche)",
+    "Understand and form compound nouns and adjectives with -ig, -lich, -los, -bar"
+  ],
+  "words": [
+    {
+      "id": "w01",
+      "t": "das Neujahrsfest",
+      "pl": "die Neujahrsfeste",
+      "s": "New Year festival",
+      "emoji": "",
+      "ex": {
+        "t": "Nouruz, das persische Neujahrsfest, beginnt am ersten Frühlingstag.",
+        "s": "Nowruz, the Persian New Year, begins on the first day of spring."
+      }
+    },
+    {
+      "id": "w02",
+      "t": "der Brauch",
+      "pl": "die Bräuche",
+      "s": "custom, tradition",
+      "emoji": "",
+      "ex": {
+        "t": "Zu Ostern gibt es in Deutschland viele alte Bräuche.",
+        "s": "There are many old Easter customs in Germany."
+      }
+    },
+    {
+      "id": "w03",
+      "t": "die Veranstaltung",
+      "pl": "die Veranstaltungen",
+      "s": "event",
+      "emoji": "",
+      "ex": {
+        "t": "Am Wochenende gibt es in der Stadt viele kostenlose Veranstaltungen.",
+        "s": "There are lots of free events in town this weekend."
+      }
+    },
+    {
+      "id": "w04",
+      "t": "der Weihnachtsmarkt",
+      "pl": "die Weihnachtsmärkte",
+      "s": "Christmas market",
+      "emoji": "",
+      "ex": {
+        "t": "Im Dezember gehen wir gern auf den Weihnachtsmarkt.",
+        "s": "In December we like going to the Christmas market."
+      }
+    },
+    {
+      "id": "w05",
+      "t": "das Feuerwerk",
+      "pl": "die Feuerwerke",
+      "s": "fireworks",
+      "emoji": "🎆",
+      "ex": {
+        "t": "An Silvester gibt es um Mitternacht ein großes Feuerwerk.",
+        "s": "On New Year's Eve there's a big fireworks display at midnight."
+      }
+    },
+    {
+      "id": "w06",
+      "t": "der Feiertag",
+      "pl": "die Feiertage",
+      "s": "public holiday",
+      "emoji": "",
+      "ex": {
+        "t": "Am Feiertag sind die meisten Geschäfte geschlossen.",
+        "s": "Most stores are closed on the public holiday."
+      }
+    },
+    {
+      "id": "w07",
+      "t": "der Eintritt",
+      "s": "admission (fee), entry",
+      "emoji": "",
+      "ex": {
+        "t": "Der Eintritt ist für Kinder frei.",
+        "s": "Admission is free for children."
+      }
+    },
+    {
+      "id": "w08",
+      "t": "das Theaterstück",
+      "pl": "die Theaterstücke",
+      "s": "play (in a theater)",
+      "emoji": "🎭",
+      "ex": {
+        "t": "Das Theaterstück hat uns sehr gut gefallen.",
+        "s": "We really liked the play."
+      }
+    },
+    {
+      "id": "w09",
+      "t": "die Freizeitbeschäftigung",
+      "pl": "die Freizeitbeschäftigungen",
+      "s": "leisure activity, hobby",
+      "emoji": "",
+      "ex": {
+        "t": "Lesen ist meine liebste Freizeitbeschäftigung.",
+        "s": "Reading is my favorite leisure activity."
+      }
+    },
+    {
+      "id": "w10",
+      "t": "sich verkleiden als + N",
+      "s": "to dress up (as), put on a costume",
+      "emoji": "",
+      "ex": {
+        "t": "An Karneval verkleiden sich viele Kinder als Piraten oder Prinzessinnen.",
+        "s": "At Carnival, many children dress up as pirates or princesses."
+      }
+    },
+    {
+      "id": "w11",
+      "t": "der Karneval",
+      "pl": "die Karnevale",
+      "s": "carnival (in southern Germany also: Fasching, Fastnacht)",
+      "emoji": "",
+      "ex": {
+        "t": "In Köln feiert man Karneval besonders laut und bunt.",
+        "s": "In Cologne, people celebrate Carnival especially loudly and colorfully."
+      }
+    },
+    {
+      "id": "w12",
+      "t": "stattfinden",
+      "s": "to take place",
+      "emoji": "",
+      "ex": {
+        "t": "Wo findet die Feier statt?",
+        "s": "Where is the party taking place?"
+      }
+    },
+    {
+      "id": "w13",
+      "t": "sich amüsieren",
+      "s": "to have fun, have a good time",
+      "emoji": "",
+      "ex": {
+        "t": "Auf der Feier haben sich alle gut amüsiert.",
+        "s": "Everyone had a good time at the party."
+      }
+    },
+    {
+      "id": "w14",
+      "t": "die Einladung",
+      "pl": "die Einladungen",
+      "s": "invitation",
+      "emoji": "",
+      "ex": {
+        "t": "Vielen Dank für die Einladung zu deinem Geburtstag!",
+        "s": "Thank you very much for the invitation to your birthday party!"
+      }
+    },
+    {
+      "id": "w15",
+      "t": "das Brettspiel",
+      "pl": "die Brettspiele",
+      "s": "board game",
+      "emoji": "🎲",
+      "ex": {
+        "t": "Zum Geburtstag hat Amir ein neues Brettspiel bekommen.",
+        "s": "Amir got a new board game for his birthday."
+      }
+    }
+  ],
+  "phrases": [
+    {
+      "id": "p01",
+      "t": "Frohes neues Jahr!",
+      "s": "Happy New Year!"
+    },
+    {
+      "id": "p02",
+      "t": "Frohe Feiertage!",
+      "s": "Happy holidays!"
+    },
+    {
+      "id": "p03",
+      "t": "Hast du Lust, mitzukommen?",
+      "s": "Do you feel like coming along?"
+    },
+    {
+      "id": "p04",
+      "t": "Ich bin dabei!",
+      "s": "Count me in!"
+    },
+    {
+      "id": "p05",
+      "t": "Wie wäre es mit …?",
+      "s": "How about …?"
+    },
+    {
+      "id": "p06",
+      "t": "Das lasse ich mir nicht entgehen.",
+      "s": "I wouldn't miss that."
+    },
+    {
+      "id": "p07",
+      "t": "Was steht heute auf dem Programm?",
+      "s": "What's on the program today?"
+    },
+    {
+      "id": "p08",
+      "t": "Das war ein gelungener Abend.",
+      "s": "That was a really nice evening."
+    }
+  ],
+  "dialogue": {
+    "title": {
+      "t": "Eine Einladung zu Nouruz",
+      "s": "An invitation to Nowruz"
+    },
+    "speakers": {
+      "A": {
+        "name": "Lena",
+        "voice": "f"
+      },
+      "B": {
+        "name": "Ali",
+        "voice": "m"
+      }
+    },
+    "lines": [
+      {
+        "sp": "A",
+        "t": "Hallo Ali! Du siehst so fröhlich aus. Gibt es etwas Neues?",
+        "s": "Hi Ali! You look so happy. Is there any news?"
+      },
+      {
+        "sp": "B",
+        "t": "Hallo Lena! Am Samstag feiern wir Nouruz, das persische Neujahrsfest. Hast du Lust, mitzukommen?",
+        "s": "Hi Lena! On Saturday we're celebrating Nowruz, the Persian New Year. Do you feel like coming along?"
+      },
+      {
+        "sp": "A",
+        "t": "Sehr gern! Aber ich kenne dort doch niemanden.",
+        "s": "I'd love to! But I don't know anybody there."
+      },
+      {
+        "sp": "B",
+        "t": "Das macht nichts. Maryam und ich sind ja da. Und man lernt dort schnell jemanden kennen.",
+        "s": "That doesn't matter. Maryam and I will be there. And you get to know people quickly there."
+      },
+      {
+        "sp": "A",
+        "t": "Was macht man denn an Nouruz?",
+        "s": "So what do people do at Nowruz?"
+      },
+      {
+        "sp": "B",
+        "t": "Man besucht die Familie und deckt einen besonderen Tisch mit sieben Dingen, die mit dem Buchstaben S beginnen.",
+        "s": "People visit their families and set a special table with seven things that begin with the letter S (in Persian)."
+      },
+      {
+        "sp": "A",
+        "t": "Wie interessant! Soll ich etwas mitbringen?",
+        "s": "How interesting! Shall I bring anything?"
+      },
+      {
+        "sp": "B",
+        "t": "Nein, du musst nichts mitbringen. Es gibt genug zu essen.",
+        "s": "No, you don't need to bring anything. There'll be plenty to eat."
+      },
+      {
+        "sp": "A",
+        "t": "Ich habe übrigens gestern Kekse gebacken. Möchtest du welche?",
+        "s": "By the way, I baked cookies yesterday. Would you like some?"
+      },
+      {
+        "sp": "B",
+        "t": "Gern, ich nehme einen. Die sind ja lecker! Bring doch am Samstag ein paar mit, dann kann jeder einen probieren.",
+        "s": "Sure, I'll take one. These are delicious! Why don't you bring a few on Saturday, then everyone can try one."
+      },
+      {
+        "sp": "A",
+        "t": "Mach ich. Um wie viel Uhr fängt die Feier an?",
+        "s": "Will do. What time does the party start?"
+      },
+      {
+        "sp": "B",
+        "t": "Um sieben Uhr. Ich schicke dir gleich die Adresse.",
+        "s": "At seven. I'll send you the address right away."
+      }
+    ]
+  },
+  "grammar": [
+    {
+      "id": "g01",
+      "title": {
+        "t": "man, jemand, niemand, etwas, nichts, einer, keiner, welche",
+        "s": "Indefinite pronouns"
+      },
+      "explain": "Indefinite pronouns refer to people or things that are not specified.\n**man** (one, you, people in general) always takes the **er, sie, es form** of the verb: **Man lernt nie aus.** (You live and learn.) It only exists in the nominative; in the accusative and dative use **einen** and **einem**: **Das macht einen müde.** Don't switch to *er* later in the sentence: **Wenn man müde ist, sollte man schlafen.**\n**jemand** (somebody, anybody) and **niemand** (nobody): accusative **jemanden, niemanden**, dative **jemandem, niemandem**. In speech the endings are often dropped: **Ich kenne hier niemand.** **Ist da jemand? Ich habe niemanden gesehen.**\n**etwas** (something, anything) and **nichts** (nothing) never change. After them, an adjective becomes a **capitalized noun with -es**: **etwas Neues, nichts Besonderes**. In speech **etwas** is often shortened to **was**: **Hast du was gesagt?**\n**einer, eine, eins** (one) and **keiner, keine, keins** (none, not one) replace a noun with **ein** or **kein**. They take the endings of **der, die, das**: **Ich brauche einen Stift. Hast du einen? – Nein, ich habe keinen.** **Keiner** can also mean *nobody*: **Keiner hat angerufen.**\n**welche** (some, any) replaces a plural noun or an uncountable noun **without an article**: **Wir brauchen Eier. Haben wir noch welche?** (Do we still have any?)",
+      "table": [
+        [
+          "Nominativ",
+          "Akkusativ",
+          "Dativ"
+        ],
+        [
+          "jemand",
+          "jemanden",
+          "jemandem"
+        ],
+        [
+          "niemand",
+          "niemanden",
+          "niemandem"
+        ],
+        [
+          "man",
+          "einen",
+          "einem"
+        ],
+        [
+          "einer, eine, eins",
+          "einen, eine, eins",
+          "einem, einer, einem"
+        ],
+        [
+          "keiner, keine, keins",
+          "keinen, keine, keins",
+          "keinem, keiner, keinem"
+        ]
+      ],
+      "examples": [
+        {
+          "t": "Hat jemand meinen Schlüssel gesehen?",
+          "s": "Has anyone seen my key?"
+        },
+        {
+          "t": "Ich habe niemandem etwas gesagt.",
+          "s": "I didn't tell anyone anything."
+        },
+        {
+          "t": "Im Fernsehen kommt heute nichts Interessantes.",
+          "s": "There's nothing interesting on TV today."
+        },
+        {
+          "t": "Ich suche einen Kugelschreiber. Hast du einen?",
+          "s": "I'm looking for a pen. Do you have one?"
+        },
+        {
+          "t": "An Feiertagen kann man in Deutschland meistens nicht einkaufen.",
+          "s": "On public holidays you usually can't go shopping in Germany."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "choice",
+          "t": "Ist ___ zu Hause? Ich höre nichts.",
+          "options": [
+            "jemand",
+            "jemanden",
+            "etwas"
+          ],
+          "answer": 0,
+          "s": "Is anyone home? I can't hear anything."
+        },
+        {
+          "type": "type",
+          "t": "Hast du heute ___ getroffen?",
+          "answer": [
+            "jemanden",
+            "jemand"
+          ],
+          "s": "Did you meet anyone today?"
+        },
+        {
+          "type": "choice",
+          "t": "Ich habe meinen Stift vergessen. Hast du ___?",
+          "options": [
+            "einen",
+            "eins",
+            "eine"
+          ],
+          "answer": 0,
+          "s": "I forgot my pen. Do you have one?"
+        },
+        {
+          "type": "choice",
+          "t": "Wir haben keine Eier mehr. Kannst du ___ kaufen?",
+          "options": [
+            "welche",
+            "keins",
+            "jemand"
+          ],
+          "answer": 0,
+          "s": "We're out of eggs. Can you buy some?"
+        },
+        {
+          "type": "type",
+          "t": "Gibt es ___ Neues?",
+          "answer": [
+            "etwas",
+            "was"
+          ],
+          "s": "Is there any news?"
+        },
+        {
+          "type": "choice",
+          "t": "Im Museum ___ man nicht fotografieren.",
+          "options": [
+            "darf",
+            "dürfen",
+            "darfst"
+          ],
+          "answer": 0,
+          "s": "You're not allowed to take photos in the museum."
+        },
+        {
+          "type": "type",
+          "t": "Hat noch jemand eine Frage? Nein, ___ hat eine Frage.",
+          "answer": [
+            "niemand",
+            "keiner"
+          ],
+          "s": "Does anyone else have a question? No, nobody has a question."
+        },
+        {
+          "type": "order",
+          "t": "Ich habe heute nichts gegessen.",
+          "s": "I haven't eaten anything today.",
+          "alts": [
+            "Heute habe ich nichts gegessen."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "g02",
+      "title": {
+        "t": "das Theaterstück, sonnig, freundlich, kostenlos, essbar",
+        "s": "Word formation: compound nouns; adjectives with -ig, -lich, -los, -bar"
+      },
+      "explain": "**Compound nouns (Komposita).** German often joins two or more words into one: **das Theater + das Stück → das Theaterstück**. The **last** word is the main word: it decides the **article** and the **plural** and gives the basic meaning; the words before it describe it more closely: **der Geburtstag + der Kuchen → der Geburtstagskuchen** (a kind of cake), **die Hand + der Schuh → der Handschuh** (a glove – a \"shoe\" for the hand). It's the same idea as English *birthday cake*, but German writes it as one word.\nOften a linking **-s-** or **-(e)n-** is added: **die Arbeit + der Platz → der Arbeitsplatz**, **die Sonne + die Brille → die Sonnenbrille**. The first part can also be a verb stem or an adjective: **schreiben → der Schreibtisch**, **groß → die Großstadt**.\n**Adjectives with suffixes.** Many adjectives are formed from nouns or verbs:\n• **-ig**: **die Sonne → sonnig, der Schmutz → schmutzig, die Lust → lustig** (funny)\n• **-lich**: **der Freund → freundlich, die Gefahr → gefährlich, der Tag → täglich** (daily) – often with an umlaut\n• **-los** = *without*, like English *-less*: **die Kosten → kostenlos** (free of charge), **die Arbeit → arbeitslos** (unemployed), **der Sinn → sinnlos** (pointless)\n• **-bar** = *can be done*, like English *-able*: **essen → essbar** (edible), **waschen → waschbar** (washable), **erreichen → erreichbar** (reachable)\nThese patterns help you understand many new words without a dictionary.",
+      "table": [
+        [
+          "das Theater + das Stück",
+          "das Theaterstück"
+        ],
+        [
+          "der Geburtstag + der Kuchen",
+          "der Geburtstagskuchen"
+        ],
+        [
+          "die Sonne + die Brille",
+          "die Sonnenbrille"
+        ],
+        [
+          "die Sonne + -ig",
+          "sonnig"
+        ],
+        [
+          "der Freund + -lich",
+          "freundlich"
+        ],
+        [
+          "die Kosten + -los",
+          "kostenlos"
+        ],
+        [
+          "essen + -bar",
+          "essbar"
+        ]
+      ],
+      "examples": [
+        {
+          "t": "Der Eintritt zum Stadtfest ist kostenlos.",
+          "s": "Admission to the city festival is free."
+        },
+        {
+          "t": "Morgen wird es sonnig und warm.",
+          "s": "Tomorrow it will be sunny and warm."
+        },
+        {
+          "t": "Wir haben Karten für ein neues Theaterstück.",
+          "s": "We have tickets for a new play."
+        },
+        {
+          "t": "Nicht alle Pilze aus dem Wald sind essbar.",
+          "s": "Not all mushrooms from the forest are edible."
+        },
+        {
+          "t": "Unsere Nachbarn sind sehr freundlich und hilfsbereit.",
+          "s": "Our neighbors are very friendly and helpful."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "choice",
+          "t": "___ Kinderzimmer ist sehr hell.",
+          "options": [
+            "Der",
+            "Die",
+            "Das"
+          ],
+          "answer": 2,
+          "s": "The children's room is very bright."
+        },
+        {
+          "type": "choice",
+          "t": "___ Haustür ist offen.",
+          "options": [
+            "Der",
+            "Die",
+            "Das"
+          ],
+          "answer": 1,
+          "s": "The front door is open."
+        },
+        {
+          "type": "choice",
+          "t": "Heute scheint die Sonne, es ist ___.",
+          "options": [
+            "sonnig",
+            "sonnlich",
+            "sonnbar"
+          ],
+          "answer": 0,
+          "s": "The sun is shining today; it's sunny."
+        },
+        {
+          "type": "choice",
+          "t": "Der Eintritt kostet nichts, er ist ___.",
+          "options": [
+            "kostbar",
+            "kostenlos",
+            "kostig"
+          ],
+          "answer": 1,
+          "s": "Admission costs nothing; it's free."
+        },
+        {
+          "type": "type",
+          "t": "Diesen Pilz kann man essen, er ist ___.",
+          "answer": [
+            "essbar"
+          ],
+          "s": "You can eat this mushroom; it's edible."
+        },
+        {
+          "type": "type",
+          "t": "Er hat keine Arbeit, er ist ___.",
+          "answer": [
+            "arbeitslos"
+          ],
+          "s": "He has no job; he's unemployed."
+        },
+        {
+          "type": "choice",
+          "t": "Ich trinke jeden Tag Tee, ich trinke ihn ___.",
+          "options": [
+            "tägig",
+            "täglich",
+            "taglos"
+          ],
+          "answer": 1,
+          "s": "I drink tea every day; I drink it daily."
+        },
+        {
+          "type": "order",
+          "t": "Das Theaterstück war sehr lustig.",
+          "s": "The play was very funny."
+        }
+      ]
+    }
+  ],
+  "reading": {
+    "title": {
+      "t": "Ein Jahr voller Feste",
+      "s": "A year full of festivals"
+    },
+    "text": [
+      {
+        "t": "Als Reza vor einem Jahr nach Köln kam, kannte er niemanden und wusste nichts über die deutschen Feste.",
+        "s": "When Reza came to Cologne a year ago, he didn't know anyone and knew nothing about German festivals."
+      },
+      {
+        "t": "Im Februar erlebte er seinen ersten Karneval.",
+        "s": "In February he experienced his first Carnival."
+      },
+      {
+        "t": "Überall auf den Straßen waren verkleidete Menschen: Clowns, Tiere und Piraten.",
+        "s": "Everywhere on the streets there were people in costume: clowns, animals and pirates."
+      },
+      {
+        "t": "Am Rosenmontag zog ein riesiger Umzug durch die Stadt, und von den Wagen flogen Süßigkeiten in die Menge.",
+        "s": "On Rose Monday a huge parade went through the city, and candy flew from the floats into the crowd."
+      },
+      {
+        "t": "Im März feierte Reza mit anderen Iranern Nouruz, und viele deutsche Freunde kamen mit.",
+        "s": "In March, Reza celebrated Nowruz with other Iranians, and many German friends came along."
+      },
+      {
+        "t": "Jemand hatte einen wunderschönen Haft-Sin-Tisch gedeckt, und es gab persische Musik und leckeres Essen.",
+        "s": "Someone had set a beautiful Haft-Sin table, and there was Persian music and delicious food."
+      },
+      {
+        "t": "Im Sommer besuchte er viele kostenlose Veranstaltungen im Park, zum Beispiel Konzerte und Theaterstücke.",
+        "s": "In the summer he went to lots of free events in the park, for example concerts and plays."
+      },
+      {
+        "t": "Am schönsten fand er aber den Weihnachtsmarkt im Dezember.",
+        "s": "But what he liked best was the Christmas market in December."
+      },
+      {
+        "t": "Die vielen Lichter, der Duft von gebrannten Mandeln und die gemütliche Stimmung haben ihm sehr gut gefallen.",
+        "s": "He really loved the many lights, the smell of roasted almonds and the cozy atmosphere."
+      },
+      {
+        "t": "An Silvester sah er um Mitternacht mit seinen Nachbarn das Feuerwerk über dem Rhein.",
+        "s": "On New Year's Eve he watched the fireworks over the Rhine at midnight with his neighbors."
+      },
+      {
+        "t": "Heute sagt Reza: „Man muss nicht alles verstehen, man muss nur mitfeiern.“",
+        "s": "Today Reza says, \"You don't have to understand everything – you just have to join in the celebrations.\""
+      }
+    ],
+    "questions": [
+      {
+        "q": {
+          "t": "Wie war Rezas Situation, als er nach Köln kam?",
+          "s": "What was Reza's situation when he came to Cologne?"
+        },
+        "options": [
+          "Er kannte niemanden.",
+          "Er hatte schon viele Freunde.",
+          "Er kannte alle deutschen Feste."
+        ],
+        "answer": 0
+      },
+      {
+        "q": {
+          "t": "Was passierte am Rosenmontag?",
+          "s": "What happened on Rose Monday?"
+        },
+        "options": [
+          "Es gab ein großes Feuerwerk.",
+          "Ein riesiger Umzug zog durch die Stadt.",
+          "Reza feierte Nouruz."
+        ],
+        "answer": 1
+      },
+      {
+        "q": {
+          "t": "Mit wem feierte Reza Nouruz?",
+          "s": "Who did Reza celebrate Nowruz with?"
+        },
+        "options": [
+          "allein",
+          "nur mit seiner Familie",
+          "mit anderen Iranern und deutschen Freunden"
+        ],
+        "answer": 2
+      },
+      {
+        "q": {
+          "t": "Was gefiel Reza am besten?",
+          "s": "What did Reza like best?"
+        },
+        "options": [
+          "der Karneval",
+          "der Weihnachtsmarkt",
+          "die Konzerte im Park"
+        ],
+        "answer": 1
+      },
+      {
+        "q": {
+          "t": "Wo sah Reza das Feuerwerk?",
+          "s": "Where did Reza see the fireworks?"
+        },
+        "options": [
+          "über dem Rhein",
+          "im Park",
+          "auf dem Weihnachtsmarkt"
+        ],
+        "answer": 0
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "t": "Das Stadtfest findet jedes Jahr im Juni statt.",
+      "s": "The city festival takes place every year in June."
+    },
+    {
+      "t": "Hat jemand Lust, heute Abend ins Kino zu gehen?",
+      "s": "Does anyone feel like going to the movies tonight?"
+    },
+    {
+      "t": "Ich habe für die Feier nichts Besonderes vorbereitet.",
+      "s": "I haven't prepared anything special for the party."
+    },
+    {
+      "t": "Sonntags ist der Eintritt ins Museum kostenlos.",
+      "s": "Admission to the museum is free on Sundays."
+    },
+    {
+      "t": "Zu Nouruz besuchen wir alle unsere Verwandten.",
+      "s": "At Nowruz we visit all our relatives."
+    },
+    {
+      "t": "Wir wünschen euch frohe Feiertage!",
+      "s": "We wish you happy holidays!"
+    },
+    {
+      "t": "Ich habe keine Karten mehr. Hast du noch welche?",
+      "s": "I don't have any tickets left. Do you still have some?"
+    },
+    {
+      "t": "Am Wochenende spielen wir oft Brettspiele mit den Kindern.",
+      "s": "On weekends we often play board games with the kids."
+    }
+  ]
+}

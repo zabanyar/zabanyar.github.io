@@ -1,0 +1,840 @@
+{
+  "id": "u07",
+  "level": "C1",
+  "emoji": "📈",
+  "title": {
+    "t": "The global economy",
+    "s": "اقتصاد جهانی",
+    "pr": "ذِ گْلُوبِل ایکانِمی"
+  },
+  "goals": [
+    "می‌توانم درباره‌ی تجارت جهانی، تورم، رکود و زنجیره‌ی تأمین با واژگان دقیق صحبت کنم.",
+    "می‌توانم گروه‌های اسمی پیچیده (با توصیف‌کننده‌های پیش و پس از اسم) را بفهمم و بسازم.",
+    "می‌توانم از همایندهای قوی مثل highly unlikely و pose a threat به‌جای ترکیب‌های غیرطبیعی استفاده کنم.",
+    "می‌توانم گزارش یا مقاله‌ای اقتصادی را بخوانم و نکات اصلی‌اش را بفهمم."
+  ],
+  "words": [
+    {
+      "id": "w01",
+      "t": "inflation",
+      "s": "تورم",
+      "pr": "اینْفْلِیشِن",
+      "emoji": "",
+      "ex": {
+        "t": "Inflation has pushed up the price of almost everything.",
+        "s": "تورم قیمت تقریباً همه‌چیز را بالا برده است.",
+        "pr": "اینْفْلِیشِن هَز پوشْت آپ ذِ پْرایْس آو آلمُوسْت اِوْری‌ثینگ."
+      }
+    },
+    {
+      "id": "w02",
+      "t": "recession",
+      "pl": "recessions",
+      "s": "رکود اقتصادی",
+      "pr": "ریسِشِن",
+      "emoji": "📉",
+      "ex": {
+        "t": "Thousands of small businesses closed during the recession.",
+        "s": "هزاران کسب‌وکار کوچک در دوران رکود تعطیل شدند.",
+        "pr": "ثاوزِنْدز آو سْمال بیزْنِسِز کْلُوزْد دورینگ ذِ ریسِشِن."
+      }
+    },
+    {
+      "id": "w03",
+      "t": "supply chain",
+      "pl": "supply chains",
+      "s": "زنجیره‌ی تأمین",
+      "pr": "سِپْلای چِین",
+      "emoji": "",
+      "ex": {
+        "t": "The pandemic showed how fragile global supply chains are.",
+        "s": "همه‌گیری کرونا نشان داد زنجیره‌های تأمین جهانی چقدر شکننده‌اند.",
+        "pr": "ذِ پَنْدِمیک شُود هاو فْرَجِل گْلُوبِل سِپْلای چِینز آر."
+      }
+    },
+    {
+      "id": "w04",
+      "t": "subsidy",
+      "pl": "subsidies",
+      "s": "یارانه",
+      "pr": "سابْسِدی",
+      "emoji": "",
+      "ex": {
+        "t": "Many governments spend billions on fuel subsidies.",
+        "s": "بسیاری از دولت‌ها میلیاردها صرف یارانه‌ی سوخت می‌کنند.",
+        "pr": "مِنی گاوِرْنْمِنْتْس سْپِنْد بیلْیِنْز آن فیوئِل سابْسِدیز."
+      }
+    },
+    {
+      "id": "w05",
+      "t": "tariff",
+      "pl": "tariffs",
+      "s": "تعرفه‌ی گمرکی",
+      "pr": "تَریف",
+      "emoji": "",
+      "ex": {
+        "t": "The government imposed a tariff on imported steel.",
+        "s": "دولت روی فولاد وارداتی تعرفه وضع کرد.",
+        "pr": "ذِ گاوِرْنْمِنت ایمْپُوزْد اِ تَریف آن ایمْپُرتِد سْتیل."
+      }
+    },
+    {
+      "id": "w06",
+      "t": "export",
+      "pl": "exports",
+      "s": "صادرات، کالای صادراتی",
+      "pr": "اِکْسْپُرت",
+      "emoji": "",
+      "ex": {
+        "t": "Pistachios are one of Iran's most important exports.",
+        "s": "پسته یکی از مهم‌ترین اقلام صادراتی ایران است.",
+        "pr": "پیسْتَشیُوز آر وان آو ایرانْز مُوسْت ایمْپُرتِنْت اِکْسْپُرتْس."
+      }
+    },
+    {
+      "id": "w07",
+      "t": "economic growth",
+      "s": "رشد اقتصادی",
+      "pr": "اِکِنامیک گْرُوث",
+      "emoji": "",
+      "ex": {
+        "t": "Economic growth slowed sharply last year.",
+        "s": "رشد اقتصادی سال گذشته به‌شدت کند شد.",
+        "pr": "اِکِنامیک گْرُوث سْلُود شارْپْلی لَسْت ییر."
+      }
+    },
+    {
+      "id": "w08",
+      "t": "purchasing power",
+      "s": "قدرت خرید",
+      "pr": "پِرْچِسینگ پاوِر",
+      "emoji": "",
+      "ex": {
+        "t": "High inflation has reduced the purchasing power of ordinary families.",
+        "s": "تورم بالا قدرت خرید خانواده‌های عادی را کاهش داده است.",
+        "pr": "های اینْفْلِیشِن هَز ریدوسْت ذِ پِرْچِسینگ پاوِر آو اُرْدِنِری فَمِلیز."
+      }
+    },
+    {
+      "id": "w09",
+      "t": "multinational",
+      "pl": "multinationals",
+      "s": "شرکت چندملیتی",
+      "pr": "مالْتی‌نَشِنِل",
+      "emoji": "",
+      "ex": {
+        "t": "Several multinationals have moved their factories to Southeast Asia.",
+        "s": "چند شرکت چندملیتی کارخانه‌هایشان را به جنوب شرق آسیا منتقل کرده‌اند.",
+        "pr": "سِوْرِل مالْتی‌نَشِنِلْز هَو مووْد ذِر فَکْتِریز تو ساوث‌ایسْت اِیژا."
+      }
+    },
+    {
+      "id": "w10",
+      "t": "interest rate",
+      "pl": "interest rates",
+      "s": "نرخ بهره، نرخ سود بانکی",
+      "pr": "اینْتْرِسْت رِیت",
+      "emoji": "",
+      "ex": {
+        "t": "The central bank raised interest rates to fight inflation.",
+        "s": "بانک مرکزی برای مقابله با تورم نرخ بهره را بالا برد.",
+        "pr": "ذِ سِنْتْرِل بَنک رِیزْد اینْتْرِسْت رِیتْس تو فایت اینْفْلِیشِن."
+      }
+    },
+    {
+      "id": "w11",
+      "t": "outsource",
+      "s": "برون‌سپاری کردن",
+      "pr": "آوتْسُرس",
+      "emoji": "",
+      "ex": {
+        "t": "Many companies outsource their customer service to other countries.",
+        "s": "خیلی از شرکت‌ها خدمات مشتریانشان را به کشورهای دیگر برون‌سپاری می‌کنند.",
+        "pr": "مِنی کامْپِنیز آوتْسُرس ذِر کاسْتِمِر سِرویس تو آذِر کانْتْریز."
+      }
+    },
+    {
+      "id": "w12",
+      "t": "trade deficit",
+      "pl": "trade deficits",
+      "s": "کسری تجاری",
+      "pr": "تْرِید دِفِسِت",
+      "emoji": "",
+      "ex": {
+        "t": "The country has a large trade deficit with China.",
+        "s": "این کشور با چین کسری تجاری بزرگی دارد.",
+        "pr": "ذِ کانْتْری هَز اِ لارج تْرِید دِفِسِت ویذ چاینا."
+      }
+    },
+    {
+      "id": "w13",
+      "t": "currency",
+      "pl": "currencies",
+      "s": "پول رایج، واحد پول",
+      "pr": "کِرِنْسی",
+      "emoji": "",
+      "ex": {
+        "t": "Travelers should check the value of the local currency before their trip.",
+        "s": "مسافران بهتر است پیش از سفر ارزش پول محلی را بررسی کنند.",
+        "pr": "تْرَوِلِرز شود چِک ذِ وَلیو آو ذِ لُوکِل کِرِنْسی بیفُر ذِر تْریپ."
+      }
+    },
+    {
+      "id": "w14",
+      "t": "boost",
+      "s": "تقویت کردن، رونق دادن",
+      "pr": "بوسْت",
+      "emoji": "",
+      "ex": {
+        "t": "Lower taxes could boost consumer spending.",
+        "s": "مالیات‌های کمتر می‌تواند هزینه‌کرد مصرف‌کنندگان را افزایش دهد.",
+        "pr": "لُوِر تَکْسِز کود بوسْت کِنْسومِر سْپِندینگ."
+      }
+    },
+    {
+      "id": "w15",
+      "t": "standard of living",
+      "s": "سطح زندگی، استاندارد زندگی",
+      "pr": "سْتَنْدِرد آو لیوینگ",
+      "emoji": "",
+      "ex": {
+        "t": "The standard of living has risen steadily over the past decade.",
+        "s": "سطح زندگی در دهه‌ی گذشته به‌طور پیوسته بالا رفته است.",
+        "pr": "ذِ سْتَنْدِرد آو لیوینگ هَز ریزِن سْتِدِلی اُوْوِر ذِ پَسْت دِکِید."
+      }
+    },
+    {
+      "id": "w16",
+      "t": "globalization",
+      "s": "جهانی‌شدن",
+      "pr": "گْلُوبِلِزِیشِن",
+      "emoji": "🌐",
+      "ex": {
+        "t": "Globalization has created both winners and losers.",
+        "s": "جهانی‌شدن هم برنده به وجود آورده و هم بازنده.",
+        "pr": "گْلُوبِلِزِیشِن هَز کْری‌اِیتِد بُوث وینِرز اَند لوزِرز."
+      }
+    }
+  ],
+  "phrases": [
+    {
+      "id": "p01",
+      "t": "The bottom line is that …",
+      "s": "نکته‌ی اصلی این است که …",
+      "pr": "ذِ باتِم لاین ایز ذَت …"
+    },
+    {
+      "id": "p02",
+      "t": "It's a vicious circle.",
+      "s": "دور باطلی است.",
+      "pr": "ایتس اِ ویشِس سِرکِل."
+    },
+    {
+      "id": "p03",
+      "t": "Prices have gone through the roof.",
+      "s": "قیمت‌ها سر به فلک کشیده‌اند.",
+      "pr": "پْرایْسِز هَو گان ثْرو ذِ روف."
+    },
+    {
+      "id": "p04",
+      "t": "We can't afford to ignore this.",
+      "s": "نمی‌توانیم این را نادیده بگیریم. (هزینه‌اش سنگین است)",
+      "pr": "وی کَنت اِفُرد تو ایگْنُر ذیس."
+    },
+    {
+      "id": "p05",
+      "t": "In the short term, …",
+      "s": "در کوتاه‌مدت، …",
+      "pr": "این ذِ شُرت تِرم، …"
+    },
+    {
+      "id": "p06",
+      "t": "There's no easy answer.",
+      "s": "پاسخ ساده‌ای وجود ندارد.",
+      "pr": "ذِرز نُو ایزی اَنْسِر."
+    },
+    {
+      "id": "p07",
+      "t": "It remains to be seen whether …",
+      "s": "باید دید که آیا … یا نه.",
+      "pr": "ایت ریمِینز تو بی سین وِذِر …"
+    },
+    {
+      "id": "p08",
+      "t": "Let's look at the figures.",
+      "s": "بیایید به آمار و ارقام نگاه کنیم.",
+      "pr": "لِتْس لوک اَت ذِ فیگْیِرز."
+    }
+  ],
+  "dialogue": {
+    "title": {
+      "t": "Prices on the rise",
+      "s": "قیمت‌های رو به افزایش",
+      "pr": "پْرایْسِز آن ذِ رایز"
+    },
+    "speakers": {
+      "A": {
+        "name": "Lisa",
+        "voice": "f"
+      },
+      "B": {
+        "name": "Reza",
+        "voice": "m"
+      }
+    },
+    "lines": [
+      {
+        "sp": "A",
+        "t": "Reza, thank you for joining us. Prices seem to have gone through the roof this year. What's behind it?",
+        "s": "رضا، ممنون که در برنامه‌ی ما هستی. به نظر می‌رسد امسال قیمت‌ها سر به فلک کشیده‌اند. علتش چیست؟",
+        "pr": "رِضا، ثَنک یو فُر جُینینگ آس. پْرایْسِز سیم تو هَو گان ثْرو ذِ روف ذیس ییر. واتْس بیهایند ایت؟"
+      },
+      {
+        "sp": "B",
+        "t": "There's no easy answer. Rising energy costs are certainly a major factor, but so are the disruptions to global supply chains.",
+        "s": "پاسخ ساده‌ای وجود ندارد. افزایش هزینه‌های انرژی قطعاً عامل مهمی است، ولی اختلال در زنجیره‌های تأمین جهانی هم همین‌طور.",
+        "pr": "ذِرز نُو ایزی اَنْسِر. رایزینگ اِنِرجی کاسْتْس آر سِرتِنْلی اِ مِیجِر فَکْتِر، بات سُو آر ذِ دیسْراپْشِنز تو گْلُوبِل سِپْلای چِینز."
+      },
+      {
+        "sp": "A",
+        "t": "Many listeners are deeply concerned about their savings. Should they be?",
+        "s": "بسیاری از شنوندگان به‌شدت نگران پس‌اندازشان هستند. باید نگران باشند؟",
+        "pr": "مِنی لیسِنِرز آر دیپْلی کِنْسِرنْد اِباوت ذِر سِیوینگز. شود ذِی بی؟"
+      },
+      {
+        "sp": "B",
+        "t": "Understandably so. When inflation is higher than the interest rate on a savings account, money in the bank slowly loses its value.",
+        "s": "نگرانی‌شان قابل‌درک است. وقتی تورم از نرخ سود حساب پس‌انداز بیشتر باشد، پولی که در بانک است کم‌کم ارزشش را از دست می‌دهد.",
+        "pr": "آندِرسْتَندِبْلی سُو. وِن اینْفْلِیشِن ایز هایِر ذَن ذی اینْتْرِسْت رِیت آن اِ سِیوینگز اِکاونت، مانی این ذِ بَنک سْلُولی لوزِز ایتس وَلیو."
+      },
+      {
+        "sp": "A",
+        "t": "The central bank has just raised interest rates again. Will that help?",
+        "s": "بانک مرکزی همین تازگی دوباره نرخ بهره را بالا برده است. این کار کمکی می‌کند؟",
+        "pr": "ذِ سِنْتْرِل بَنک هَز جاسْت رِیزْد اینْتْرِسْت رِیتْس اِگِن. ویل ذَت هِلْپ؟"
+      },
+      {
+        "sp": "B",
+        "t": "In the short term, it should slow inflation. The bottom line, however, is that higher rates also make loans more expensive for businesses.",
+        "s": "در کوتاه‌مدت قاعدتاً باید تورم را کند کند. اما نکته‌ی اصلی این است که نرخ‌های بالاتر وام را هم برای کسب‌وکارها گران‌تر می‌کنند.",
+        "pr": "این ذِ شُرت تِرم، ایت شود سْلُو اینْفْلِیشِن. ذِ باتِم لاین، هاوْاِوِر، ایز ذَت هایِر رِیتْس آلسُو مِیک لُونز مُر ایکْسْپِنْسیو فُر بیزْنِسِز."
+      },
+      {
+        "sp": "A",
+        "t": "So is there a risk of a recession?",
+        "s": "پس خطر رکود وجود دارد؟",
+        "pr": "سُو ایز ذِر اِ ریسْک آو اِ ریسِشِن؟"
+      },
+      {
+        "sp": "B",
+        "t": "A mild one, possibly. A deep recession seems highly unlikely, though. Consumer spending has remained surprisingly strong.",
+        "s": "شاید یک رکود خفیف. البته رکود عمیق بسیار بعید به نظر می‌رسد. هزینه‌کرد مصرف‌کنندگان به‌طرز شگفت‌آوری قوی مانده است.",
+        "pr": "اِ مایلْد وان، پاسِبْلی. اِ دیپ ریسِشِن سیمْز هایْلی آنلایکْلی، ذُو. کِنْسومِر سْپِندینگ هَز ریمِیند سِرپْرایزینگْلی سْتْرانگ."
+      },
+      {
+        "sp": "A",
+        "t": "And what would you advise families who are struggling with rising costs?",
+        "s": "و به خانواده‌هایی که با افزایش هزینه‌ها دست‌وپنجه نرم می‌کنند چه توصیه‌ای داری؟",
+        "pr": "اَند وات وود یو اِدْوایز فَمِلیز هو آر سْتْراگْلینگ ویذ رایزینگ کاسْتْس؟"
+      },
+      {
+        "sp": "B",
+        "t": "Keep a close eye on your spending and avoid taking on new debt. We can't afford to ignore the warning signs.",
+        "s": "هزینه‌هایتان را از نزدیک زیر نظر داشته باشید و از گرفتن بدهی تازه پرهیز کنید. نمی‌توانیم نشانه‌های هشدار را نادیده بگیریم.",
+        "pr": "کیپ اِ کْلُوس آی آن یور سْپِندینگ اَند اِوُید تِیکینگ آن نو دِت. وی کَنت اِفُرد تو ایگْنُر ذِ وُرنینگ سایْنز."
+      },
+      {
+        "sp": "A",
+        "t": "Reza, thank you very much for your time.",
+        "s": "رضا، از وقتی که گذاشتی خیلی ممنونم.",
+        "pr": "رِضا، ثَنک یو وِری ماچ فُر یور تایم."
+      },
+      {
+        "sp": "B",
+        "t": "My pleasure.",
+        "s": "خواهش می‌کنم.",
+        "pr": "مای پْلِژِر."
+      }
+    ]
+  },
+  "grammar": [
+    {
+      "id": "g01",
+      "title": {
+        "t": "Complex noun phrases",
+        "s": "گروه‌های اسمی پیچیده",
+        "pr": "کامْپْلِکْس ناون فْرِیزِز"
+      },
+      "explain": "در متن‌های اقتصادی، علمی و خبری، اطلاعات زیادی در یک **گروه اسمی** فشرده می‌شود. هسته‌ی گروه یک اسم است و توصیف‌کننده‌ها **قبل** یا **بعد** از آن می‌آیند.\n**پیش‌توصیف** (pre-modification): صفت، اسمی که نقش صفت دارد، یا صفت مرکب با خط تیره: **a rapidly growing economy**، **energy prices**، **a two-year trade agreement**. اسمی که نقش صفت دارد معمولاً **مفرد** است: **a five-year plan** (نه five-years).\n**پس‌توصیف** (post-modification): گروه حرف‌اضافه‌ای، جمله‌ی موصولی، وجه وصفی (‎-ing یا ‎-ed) یا مصدر با to: **the rise in food prices**، **companies that rely on imports**، **goods produced in China**، **the decision to raise taxes**.\nترتیب انگلیسی با فارسی فرق دارد: در فارسی همه‌ی توصیف‌ها با کسره‌ی اضافه بعد از اسم می‌آیند («افزایش سریع قیمت مواد غذایی»)، ولی در انگلیسی صفت‌ها و اسم‌های توصیفی **قبل** از هسته می‌آیند: **the rapid increase in food prices**.\nبرای مطابقت فعل، هسته را پیدا کنید: **The cost of imported goods has risen.** (فاعل cost است، نه goods)",
+      "table": [
+        [
+          "Before the noun",
+          "Head noun",
+          "After the noun"
+        ],
+        [
+          "a sharp",
+          "rise",
+          "in energy prices"
+        ],
+        [
+          "the government's",
+          "decision",
+          "to raise taxes"
+        ],
+        [
+          "small family-run",
+          "businesses",
+          "that depend on tourism"
+        ],
+        [
+          "cheap imported",
+          "goods",
+          "sold online"
+        ]
+      ],
+      "examples": [
+        {
+          "t": "The sharp rise in energy prices has hit poorer families hardest.",
+          "s": "افزایش شدید قیمت انرژی بیش از همه به خانواده‌های کم‌درآمدتر ضربه زده است.",
+          "pr": "ذِ شارپ رایز این اِنِرجی پْرایْسِز هَز هیت پورِر فَمِلیز هاردِسْت."
+        },
+        {
+          "t": "Small family-run businesses that depend on tourism are struggling.",
+          "s": "کسب‌وکارهای کوچک خانوادگی که به گردشگری وابسته‌اند در تنگنا هستند.",
+          "pr": "سْمال فَمِلی‌ران بیزْنِسِز ذَت دیپِند آن توریزِم آر سْتْراگْلینگ."
+        },
+        {
+          "t": "The government's decision to raise taxes surprised many economists.",
+          "s": "تصمیم دولت برای افزایش مالیات بسیاری از اقتصاددانان را غافلگیر کرد.",
+          "pr": "ذِ گاوِرْنْمِنْتْس دیسیژِن تو رِیز تَکْسِز سِرپْرایزْد مِنی ایکانِمیسْتْس."
+        },
+        {
+          "t": "It was a five-year trade agreement between two neighboring countries.",
+          "s": "این یک توافق تجاری پنج‌ساله میان دو کشور همسایه بود.",
+          "pr": "ایت واز اِ فایو ییر تْرِید اِگْریمِنت بیتْوین تو نِیبِرینگ کانْتْریز."
+        },
+        {
+          "t": "The cost of imported goods has risen by twenty percent.",
+          "s": "هزینه‌ی کالاهای وارداتی بیست درصد افزایش یافته است.",
+          "pr": "ذِ کاسْت آو ایمْپُرتِد گودز هَز ریزِن بای تْوِنْتی پِرسِنْت."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "choice",
+          "t": "The government announced a ___ plan to reduce unemployment.",
+          "options": [
+            "five-years",
+            "five-year",
+            "year-five"
+          ],
+          "answer": 1,
+          "s": "دولت از یک برنامه‌ی پنج‌ساله برای کاهش بیکاری خبر داد.",
+          "pr": "ذِ گاوِرْنْمِنت اِناونْسْت اِ فایو ییر پْلَن تو ریدوس آنِمْپْلُیْمِنت."
+        },
+        {
+          "type": "choice",
+          "t": "The price of fresh vegetables ___ doubled since January.",
+          "options": [
+            "has",
+            "have",
+            "are"
+          ],
+          "answer": 0,
+          "s": "قیمت سبزیجات تازه از ژانویه دو برابر شده است.",
+          "pr": "ذِ پْرایْس آو فْرِش وِجْتِبِلْز هَز دابِلْد سینْس جَنیوِری."
+        },
+        {
+          "type": "choice",
+          "t": "Many young couples are worried about ___.",
+          "options": [
+            "the rise of house in prices",
+            "the house rise in prices",
+            "the rise in house prices"
+          ],
+          "answer": 2,
+          "s": "بسیاری از زوج‌های جوان نگران افزایش قیمت مسکن هستند.",
+          "pr": "مِنی یانگ کاپِلْز آر وِرید اِباوت ذِ رایز این هاوْس پْرایْسِز."
+        },
+        {
+          "type": "choice",
+          "t": "Most of the goods ___ in this factory are exported to Europe.",
+          "options": [
+            "produced",
+            "producing",
+            "are produced"
+          ],
+          "answer": 0,
+          "s": "بیشتر کالاهایی که در این کارخانه تولید می‌شوند به اروپا صادر می‌شوند.",
+          "pr": "مُوسْت آو ذِ گودز پْرِدوسْت این ذیس فَکْتِری آر ایکْسْپُرتِد تو یورِپ."
+        },
+        {
+          "type": "type",
+          "t": "Factories ___ rely on imported parts were hit hardest.",
+          "answer": [
+            "that",
+            "which"
+          ],
+          "s": "کارخانه‌هایی که به قطعات وارداتی وابسته‌اند بیش از همه آسیب دیدند.",
+          "pr": "فَکْتِریز ذَت ریلای آن ایمْپُرتِد پارْتْس وِر هیت هاردِسْت."
+        },
+        {
+          "type": "type",
+          "t": "The decision ___ raise interest rates was criticized by business leaders.",
+          "answer": [
+            "to"
+          ],
+          "s": "تصمیم به افزایش نرخ بهره مورد انتقاد رهبران کسب‌وکار قرار گرفت.",
+          "pr": "ذِ دیسیژِن تو رِیز اینْتْرِسْت رِیتْس واز کْریتِسایزْد بای بیزْنِس لیدِرز."
+        },
+        {
+          "type": "type",
+          "t": "There has been a sharp ___ in unemployment.",
+          "answer": [
+            "rise",
+            "increase",
+            "jump"
+          ],
+          "s": "بیکاری افزایش شدیدی داشته است.",
+          "pr": "ذِر هَز بین اِ شارپ رایز این آنِمْپْلُیْمِنت."
+        },
+        {
+          "type": "order",
+          "t": "Sales of electric cars rose sharply last year.",
+          "s": "فروش خودروهای برقی سال گذشته به‌شدت افزایش یافت.",
+          "pr": "سِیلْز آو ایلِکْتْریک کارز رُوز شارْپْلی لَسْت ییر.",
+          "alts": [
+            "Last year, sales of electric cars rose sharply."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "g02",
+      "title": {
+        "t": "Strong collocations",
+        "s": "همایندهای قوی",
+        "pr": "سْتْرانگ کالِکِیشِنز"
+      },
+      "explain": "**همایند** (collocation) یعنی کلمه‌هایی که بومی‌زبان‌ها به‌طور طبیعی کنار هم به کار می‌برند. ترکیب‌های دیگر شاید از نظر دستوری ممکن باشند، ولی غیرطبیعی یا غلط به نظر می‌رسند. در سطح C1 استفاده‌ی درست از همایندها یکی از مهم‌ترین نشانه‌های تسلط است.\n**قید + صفت**: **highly unlikely** (بسیار بعید)، **deeply concerned** (عمیقاً نگران)، **fully aware** (کاملاً آگاه)، **bitterly disappointed** (به‌شدت ناامید)، **widely available** (به‌وفور در دسترس). مثلاً **very unlikely** هم درست است، ولی **strongly unlikely** غلط است.\n**فعل + اسم**: **pose a threat** (تهدید به شمار رفتن، تهدید ایجاد کردن)، **meet demand** (پاسخ‌گوی تقاضا بودن)، **take measures** (اقدام کردن)، **reach an agreement** (به توافق رسیدن)، **raise prices** (قیمت‌ها را بالا بردن).\nترجمه‌ی کلمه‌به‌کلمه از فارسی اغلب همایند غلط می‌سازد: «اقدام **کردن**» **take measures** است، نه do measures؛ «به توافق **رسیدن**» **reach an agreement** است، نه arrive an agreement. بهترین راه این است که همایندها را یک‌جا و به شکل یک تکه حفظ کنید.",
+      "table": [
+        [
+          "highly",
+          "unlikely, successful, profitable"
+        ],
+        [
+          "deeply",
+          "concerned, divided, rooted"
+        ],
+        [
+          "pose",
+          "a threat, a risk, a challenge"
+        ],
+        [
+          "meet",
+          "demand, a target, a deadline"
+        ],
+        [
+          "reach",
+          "an agreement, a decision, a peak"
+        ]
+      ],
+      "examples": [
+        {
+          "t": "A global recession seems highly unlikely this year.",
+          "s": "رکود جهانی امسال بسیار بعید به نظر می‌رسد.",
+          "pr": "اِ گْلُوبِل ریسِشِن سیمْز هایْلی آنلایکْلی ذیس ییر."
+        },
+        {
+          "t": "Economists are deeply concerned about rising levels of debt.",
+          "s": "اقتصاددانان عمیقاً نگران افزایش سطح بدهی‌ها هستند.",
+          "pr": "ایکانِمیسْتْس آر دیپْلی کِنْسِرنْد اِباوت رایزینگ لِوِلْز آو دِت."
+        },
+        {
+          "t": "Climate change poses a serious threat to global food supplies.",
+          "s": "تغییرات اقلیمی تهدیدی جدی برای تأمین مواد غذایی جهان است.",
+          "pr": "کْلایمِت چِینج پُوزِز اِ سیریِس ثْرِت تو گْلُوبِل فود سِپْلایز."
+        },
+        {
+          "t": "Farmers are struggling to meet the growing demand for rice.",
+          "s": "کشاورزان به‌سختی می‌توانند پاسخ‌گوی تقاضای رو به رشد برنج باشند.",
+          "pr": "فارْمِرز آر سْتْراگْلینگ تو میت ذِ گْرُوئینگ دیمَنْد فُر رایس."
+        },
+        {
+          "t": "After months of talks, the two countries finally reached an agreement.",
+          "s": "پس از ماه‌ها مذاکره، دو کشور سرانجام به توافق رسیدند.",
+          "pr": "اَفْتِر مانْثْس آو تاکْس، ذِ تو کانْتْریز فاینِلی ریچْت اِن اِگْریمِنت."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "choice",
+          "t": "It is ___ unlikely that prices will fall this year.",
+          "options": [
+            "highly",
+            "strongly",
+            "heavily"
+          ],
+          "answer": 0,
+          "s": "بسیار بعید است که امسال قیمت‌ها پایین بیاید.",
+          "pr": "ایت ایز هایْلی آنلایکْلی ذَت پْرایْسِز ویل فال ذیس ییر."
+        },
+        {
+          "type": "choice",
+          "t": "Rising debt ___ a serious threat to economic stability.",
+          "options": [
+            "makes",
+            "does",
+            "poses"
+          ],
+          "answer": 2,
+          "s": "افزایش بدهی تهدیدی جدی برای ثبات اقتصادی است.",
+          "pr": "رایزینگ دِت پُوزِز اِ سیریِس ثْرِت تو اِکِنامیک سْتِبیلِتی."
+        },
+        {
+          "type": "choice",
+          "t": "The company could not ___ the huge demand for its new phone.",
+          "options": [
+            "meet",
+            "reach",
+            "get"
+          ],
+          "answer": 0,
+          "s": "شرکت نتوانست پاسخ‌گوی تقاضای عظیم برای گوشی جدیدش باشد.",
+          "pr": "ذِ کامْپِنی کود نات میت ذِ هیوج دیمَنْد فُر ایتس نو فُون."
+        },
+        {
+          "type": "choice",
+          "t": "Investors are ___ concerned about the falling value of the currency.",
+          "options": [
+            "heavily",
+            "deeply",
+            "widely"
+          ],
+          "answer": 1,
+          "s": "سرمایه‌گذاران عمیقاً نگران کاهش ارزش پول ملی هستند.",
+          "pr": "اینْوِسْتِرز آر دیپْلی کِنْسِرنْد اِباوت ذِ فالینگ وَلیو آو ذِ کِرِنْسی."
+        },
+        {
+          "type": "type",
+          "t": "The two sides failed to ___ an agreement on tariffs.",
+          "answer": [
+            "reach",
+            "make",
+            "conclude"
+          ],
+          "s": "دو طرف نتوانستند درباره‌ی تعرفه‌ها به توافق برسند.",
+          "pr": "ذِ تو سایدْز فِیلْد تو ریچ اِن اِگْریمِنت آن تَریفْس."
+        },
+        {
+          "type": "type",
+          "t": "The government must ___ urgent measures to control inflation.",
+          "answer": [
+            "take",
+            "adopt",
+            "introduce",
+            "implement"
+          ],
+          "s": "دولت باید برای مهار تورم اقدامات فوری انجام دهد.",
+          "pr": "ذِ گاوِرْنْمِنت ماسْت تِیک اِرجِنت مِژِرز تو کِنْتْرُول اینْفْلِیشِن."
+        },
+        {
+          "type": "order",
+          "t": "Prices are highly unlikely to fall.",
+          "s": "بسیار بعید است قیمت‌ها پایین بیایند.",
+          "pr": "پْرایْسِز آر هایْلی آنلایکْلی تو فال."
+        },
+        {
+          "type": "order",
+          "t": "The central bank took urgent measures.",
+          "s": "بانک مرکزی اقدامات فوری انجام داد.",
+          "pr": "ذِ سِنْتْرِل بَنک توک اِرجِنت مِژِرز."
+        }
+      ]
+    }
+  ],
+  "reading": {
+    "title": {
+      "t": "The long journey of a cheap T-shirt",
+      "s": "سفر طولانی یک تی‌شرت ارزان",
+      "pr": "ذِ لانگ جِرنی آو اِ چیپ تی‌شِرت"
+    },
+    "text": [
+      {
+        "t": "The cotton T-shirt in your closet has probably traveled farther than you have.",
+        "s": "تی‌شرت نخی‌ای که در کمدتان است احتمالاً از خود شما بیشتر سفر کرده است.",
+        "pr": "ذِ کاتِن تی‌شِرت این یور کْلازِت هَز پْرابِبْلی تْرَوِلْد فارذِر ذَن یو هَو."
+      },
+      {
+        "t": "The cotton may be grown in Central Asia, spun into thread in China, and sewn in a factory in Bangladesh.",
+        "s": "ممکن است پنبه‌اش در آسیای میانه کشت شود، در چین به نخ تبدیل شود و در کارخانه‌ای در بنگلادش دوخته شود.",
+        "pr": "ذِ کاتِن مِی بی گْرُون این سِنْتْرِل اِیژا، سْپان اینتو ثْرِد این چاینا، اَند سُون این اِ فَکْتِری این بانْگْلِدِش."
+      },
+      {
+        "t": "It is then shipped thousands of miles to a store near you.",
+        "s": "بعد هزاران مایل با کشتی جابه‌جا می‌شود تا به فروشگاهی نزدیک شما برسد.",
+        "pr": "ایت ایز ذِن شیپْت ثاوزِنْدز آو مایلْز تو اِ سْتُر نیر یو."
+      },
+      {
+        "t": "This complex global supply chain keeps prices remarkably low.",
+        "s": "این زنجیره‌ی تأمین پیچیده‌ی جهانی قیمت‌ها را به‌طرز چشمگیری پایین نگه می‌دارد.",
+        "pr": "ذیس کامْپْلِکْس گْلُوبِل سِپْلای چِین کیپْس پْرایْسِز ریمارکِبْلی لُو."
+      },
+      {
+        "t": "However, it is also highly vulnerable to unexpected events.",
+        "s": "با این حال، در برابر رویدادهای غیرمنتظره هم بسیار آسیب‌پذیر است.",
+        "pr": "هاوْاِوِر، ایت ایز آلسُو هایْلی والْنِرِبِل تو آنیکْسْپِکْتِد ایوِنْتْس."
+      },
+      {
+        "t": "During the pandemic, the sudden closure of factories in Asia left stores in Europe and North America with empty shelves.",
+        "s": "در دوران همه‌گیری، تعطیلی ناگهانی کارخانه‌ها در آسیا قفسه‌های فروشگاه‌های اروپا و آمریکای شمالی را خالی کرد.",
+        "pr": "دورینگ ذِ پَنْدِمیک، ذِ سادِن کْلُوژِر آو فَکْتِریز این اِیژا لِفْت سْتُرز این یورِپ اَند نُرث اِمِریکا ویذ اِمْپْتی شِلْوْز."
+      },
+      {
+        "t": "Rising transport costs and new tariffs on imported goods have added to the pressure.",
+        "s": "افزایش هزینه‌های حمل‌ونقل و تعرفه‌های تازه بر کالاهای وارداتی هم بر این فشار افزوده‌اند.",
+        "pr": "رایزینگ تْرَنْسْپُرت کاسْتْس اَند نو تَریفْس آن ایمْپُرتِد گودز هَو اَدِد تو ذِ پْرِشِر."
+      },
+      {
+        "t": "As a result, many multinationals are now moving production closer to home.",
+        "s": "در نتیجه، بسیاری از شرکت‌های چندملیتی حالا تولید را به کشور خودشان نزدیک‌تر می‌کنند.",
+        "pr": "اَز اِ ریزالْت، مِنی مالْتی‌نَشِنِلْز آر ناو مووینگ پْرِداکْشِن کْلُوسِر تو هُوم."
+      },
+      {
+        "t": "This trend, known as reshoring, could create jobs in wealthier countries.",
+        "s": "این روند که به آن reshoring (بازگرداندن تولید) می‌گویند، می‌تواند در کشورهای ثروتمندتر شغل ایجاد کند.",
+        "pr": "ذیس تْرِند، نُون اَز ریشُرینگ، کود کْری‌اِیت جابْز این وِلْثیِر کانْتْریز."
+      },
+      {
+        "t": "It also poses a serious threat to millions of workers in developing economies.",
+        "s": "اما در عین حال تهدیدی جدی برای میلیون‌ها کارگر در اقتصادهای در حال توسعه است.",
+        "pr": "ایت آلسُو پُوزِز اِ سیریِس ثْرِت تو میلیِنز آو وِرکِرز این دیوِلِپینگ ایکانِمیز."
+      },
+      {
+        "t": "Meanwhile, consumers are becoming increasingly aware of the hidden costs of cheap clothing.",
+        "s": "در همین حال، مصرف‌کنندگان روزبه‌روز بیشتر از هزینه‌های پنهان لباس ارزان آگاه می‌شوند.",
+        "pr": "مین‌وایْل، کِنْسومِرز آر بیکامینگ اینْکْریسینگْلی اِوِر آو ذِ هیدِن کاسْتْس آو چیپ کْلُوذینگ."
+      },
+      {
+        "t": "Some are willing to pay more for clothes made locally and fairly.",
+        "s": "برخی حاضرند برای لباس‌هایی که در داخل کشور و به شیوه‌ای منصفانه تولید شده‌اند پول بیشتری بپردازند.",
+        "pr": "سام آر ویلینگ تو پِی مُر فُر کْلُوز مِید لُوکِلی اَند فِرْلی."
+      },
+      {
+        "t": "Whether that will be enough to change the industry remains to be seen.",
+        "s": "اینکه آیا همین برای تغییر این صنعت کافی خواهد بود یا نه، باید دید.",
+        "pr": "وِذِر ذَت ویل بی ایناف تو چِینج ذی ایندِسْتْری ریمِینز تو بی سین."
+      }
+    ],
+    "questions": [
+      {
+        "q": {
+          "t": "According to the article, why are T-shirts so cheap?",
+          "s": "به گفته‌ی مقاله، چرا تی‌شرت‌ها این‌قدر ارزان‌اند؟",
+          "pr": "اِکُردینگ تو ذی آرتیکِل، وای آر تی‌شِرْتْس سُو چیپ؟"
+        },
+        "options": [
+          "because of a complex global supply chain",
+          "because cotton costs nothing",
+          "because stores make no profit"
+        ],
+        "answer": 0
+      },
+      {
+        "q": {
+          "t": "What happened during the pandemic?",
+          "s": "در دوران همه‌گیری چه اتفاقی افتاد؟",
+          "pr": "وات هَپِنْد دورینگ ذِ پَنْدِمیک؟"
+        },
+        "options": [
+          "Factories in Asia produced more clothes.",
+          "Transport became cheaper.",
+          "Stores in Europe and North America had empty shelves."
+        ],
+        "answer": 2
+      },
+      {
+        "q": {
+          "t": "What is reshoring?",
+          "s": "reshoring چیست؟",
+          "pr": "وات ایز ریشُرینگ؟"
+        },
+        "options": [
+          "buying clothes online",
+          "moving production closer to home",
+          "building larger ships"
+        ],
+        "answer": 1
+      },
+      {
+        "q": {
+          "t": "Who could be hurt by reshoring?",
+          "s": "چه کسانی ممکن است از بازگرداندن تولید آسیب ببینند؟",
+          "pr": "هو کود بی هِرت بای ریشُرینگ؟"
+        },
+        "options": [
+          "workers in developing economies",
+          "consumers in wealthy countries",
+          "cotton farmers in Europe"
+        ],
+        "answer": 0
+      },
+      {
+        "q": {
+          "t": "What are some consumers willing to do?",
+          "s": "برخی مصرف‌کنندگان حاضرند چه کاری بکنند؟",
+          "pr": "وات آر سام کِنْسومِرز ویلینگ تو دو؟"
+        },
+        "options": [
+          "stop buying T-shirts",
+          "pay more for clothes made locally and fairly",
+          "make their own clothes"
+        ],
+        "answer": 1
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "t": "The sharp rise in fuel prices affected everyone.",
+      "s": "افزایش شدید قیمت سوخت روی همه اثر گذاشت.",
+      "pr": "ذِ شارپ رایز این فیوئِل پْرایْسِز اِفِکْتِد اِوْری‌وان."
+    },
+    {
+      "t": "A deep recession now seems highly unlikely.",
+      "s": "رکود عمیق حالا بسیار بعید به نظر می‌رسد.",
+      "pr": "اِ دیپ ریسِشِن ناو سیمْز هایْلی آنلایکْلی."
+    },
+    {
+      "t": "Pistachio exports rose by ten percent last year.",
+      "s": "صادرات پسته سال گذشته ده درصد افزایش یافت.",
+      "pr": "پیسْتَشیُو اِکْسْپُرتْس رُوز بای تِن پِرسِنْت لَسْت ییر."
+    },
+    {
+      "t": "Cyberattacks pose a growing threat to banks.",
+      "s": "حملات سایبری تهدیدی رو به افزایش برای بانک‌ها هستند.",
+      "pr": "سایبِراِتَکْس پُوز اِ گْرُوئینگ ثْرِت تو بَنْکْس."
+    },
+    {
+      "t": "Many young people can't afford to buy a home.",
+      "s": "بسیاری از جوانان توان خرید خانه ندارند.",
+      "pr": "مِنی یانگ پیپِل کَنت اِفُرد تو بای اِ هُوم."
+    },
+    {
+      "t": "The two countries reached a trade agreement last week.",
+      "s": "دو کشور هفته‌ی گذشته به یک توافق تجاری رسیدند.",
+      "pr": "ذِ تو کانْتْریز ریچْت اِ تْرِید اِگْریمِنت لَسْت ویک."
+    },
+    {
+      "t": "Let's look at the latest unemployment figures.",
+      "s": "بیایید به تازه‌ترین آمار بیکاری نگاه کنیم.",
+      "pr": "لِتْس لوک اَت ذِ لِیتِسْت آنِمْپْلُیْمِنت فیگْیِرز."
+    },
+    {
+      "t": "Fully aware of the risks, she invested her savings anyway.",
+      "s": "با آگاهی کامل از خطرها، باز هم پس‌اندازش را سرمایه‌گذاری کرد.",
+      "pr": "فولی اِوِر آو ذِ ریسْکْس، شی اینْوِسْتِد هِر سِیوینگز اِنی‌وِی."
+    }
+  ]
+}

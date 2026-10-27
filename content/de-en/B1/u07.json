@@ -1,0 +1,705 @@
+{
+  "id": "u07",
+  "level": "B1",
+  "emoji": "🧳",
+  "title": {
+    "t": "Urlaub und unterwegs",
+    "s": "Vacation and getting around"
+  },
+  "goals": [
+    "Plan a trip and talk about vacation activities (hikes, tours, sights)",
+    "Ask for and give directions with durch, entlang and gegenüber",
+    "Use adjective endings without an article (frisches Brot, mit großer Freude) and review all adjective endings",
+    "Show direction with hin and her (hinein, heraus, Wo kommst du her?)"
+  ],
+  "words": [
+    {
+      "id": "w01",
+      "t": "die Ferienwohnung",
+      "pl": "die Ferienwohnungen",
+      "s": "vacation rental (apartment)",
+      "emoji": "",
+      "ex": {
+        "t": "Wir haben eine Ferienwohnung an der Ostsee gemietet.",
+        "s": "We rented a vacation apartment on the Baltic Sea."
+      }
+    },
+    {
+      "id": "w02",
+      "t": "das Gepäck",
+      "s": "luggage, baggage (no plural)",
+      "emoji": "🧳",
+      "ex": {
+        "t": "Wo können wir unser Gepäck lassen?",
+        "s": "Where can we leave our luggage?"
+      }
+    },
+    {
+      "id": "w03",
+      "t": "die Sehenswürdigkeit",
+      "pl": "die Sehenswürdigkeiten",
+      "s": "sight, tourist attraction",
+      "emoji": "",
+      "ex": {
+        "t": "Der Kölner Dom ist eine der bekanntesten Sehenswürdigkeiten Deutschlands.",
+        "s": "Cologne Cathedral is one of the best-known sights in Germany."
+      }
+    },
+    {
+      "id": "w04",
+      "t": "die Aussicht",
+      "pl": "die Aussichten",
+      "s": "view (e.g. from a window or a tower)",
+      "emoji": "",
+      "ex": {
+        "t": "Unser Zimmer hat eine schöne Aussicht aufs Meer.",
+        "s": "Our room has a nice view of the sea."
+      }
+    },
+    {
+      "id": "w05",
+      "t": "die Wanderung",
+      "pl": "die Wanderungen",
+      "s": "hike",
+      "emoji": "🥾",
+      "ex": {
+        "t": "Nach der langen Wanderung waren wir sehr müde.",
+        "s": "After the long hike we were very tired."
+      }
+    },
+    {
+      "id": "w06",
+      "t": "die Jugendherberge",
+      "pl": "die Jugendherbergen",
+      "s": "youth hostel",
+      "emoji": "",
+      "ex": {
+        "t": "Die Jugendherberge liegt direkt am See.",
+        "s": "The youth hostel is right on the lake."
+      }
+    },
+    {
+      "id": "w07",
+      "t": "die Rundfahrt",
+      "pl": "die Rundfahrten",
+      "s": "sightseeing tour (by bus or boat)",
+      "emoji": "",
+      "ex": {
+        "t": "Die Rundfahrt mit dem Schiff dauert eine Stunde.",
+        "s": "The boat tour takes an hour."
+      }
+    },
+    {
+      "id": "w08",
+      "t": "die Küste",
+      "pl": "die Küsten",
+      "s": "coast",
+      "emoji": "",
+      "ex": {
+        "t": "Im Sommer fahren viele Familien an die Küste.",
+        "s": "In the summer, many families go to the coast."
+      }
+    },
+    {
+      "id": "w09",
+      "t": "das Ufer",
+      "pl": "die Ufer",
+      "s": "bank (of a river), shore (of a lake)",
+      "emoji": "",
+      "ex": {
+        "t": "Am Ufer des Sees gibt es einen schönen Weg.",
+        "s": "There's a nice path on the shore of the lake."
+      }
+    },
+    {
+      "id": "w10",
+      "t": "der Rucksack",
+      "pl": "die Rucksäcke",
+      "s": "backpack",
+      "emoji": "🎒",
+      "ex": {
+        "t": "In meinem Rucksack habe ich immer eine Flasche Wasser.",
+        "s": "I always have a bottle of water in my backpack."
+      }
+    },
+    {
+      "id": "w11",
+      "t": "sich verlaufen",
+      "s": "to get lost (on foot)",
+      "emoji": "",
+      "ex": {
+        "t": "Ohne Karte verläuft man sich in der Altstadt schnell.",
+        "s": "Without a map, it's easy to get lost in the old town."
+      }
+    },
+    {
+      "id": "w12",
+      "t": "besichtigen",
+      "s": "to visit, tour (a sight)",
+      "emoji": "",
+      "ex": {
+        "t": "Morgen besichtigen wir das Schloss.",
+        "s": "Tomorrow we're visiting the castle."
+      }
+    },
+    {
+      "id": "w13",
+      "t": "der Reiseführer",
+      "pl": "die Reiseführer",
+      "s": "guidebook; tour guide",
+      "emoji": "",
+      "ex": {
+        "t": "Im Reiseführer steht, dass das Museum montags geschlossen ist.",
+        "s": "The guidebook says that the museum is closed on Mondays."
+      }
+    },
+    {
+      "id": "w14",
+      "t": "die Hin- und Rückfahrt",
+      "s": "round trip (there and back)",
+      "emoji": "",
+      "ex": {
+        "t": "Die Hin- und Rückfahrt kostet zusammen vierzig Euro.",
+        "s": "The round trip costs forty euros in total."
+      }
+    },
+    {
+      "id": "w15",
+      "t": "übernachten",
+      "s": "to stay overnight, spend the night",
+      "emoji": "",
+      "ex": {
+        "t": "Auf dem Weg nach Italien übernachten wir in München.",
+        "s": "On the way to Italy, we're staying overnight in Munich."
+      }
+    }
+  ],
+  "phrases": [
+    {
+      "id": "p01",
+      "t": "Wie komme ich am besten zum Bahnhof?",
+      "s": "What's the best way to get to the station?"
+    },
+    {
+      "id": "p02",
+      "t": "Können Sie mir das auf der Karte zeigen?",
+      "s": "Can you show me that on the map?"
+    },
+    {
+      "id": "p03",
+      "t": "Gehen Sie geradeaus und dann über die Brücke.",
+      "s": "Go straight ahead and then across the bridge."
+    },
+    {
+      "id": "p04",
+      "t": "Ist das weit von hier?",
+      "s": "Is that far from here?"
+    },
+    {
+      "id": "p05",
+      "t": "Entschuldigung, ich kenne mich hier nicht aus.",
+      "s": "Excuse me, I don't know my way around here."
+    },
+    {
+      "id": "p06",
+      "t": "Was können Sie uns empfehlen?",
+      "s": "What can you recommend to us?"
+    },
+    {
+      "id": "p07",
+      "t": "Gibt es hier in der Nähe …?",
+      "s": "Is there … near here?"
+    },
+    {
+      "id": "p08",
+      "t": "Das lohnt sich auf jeden Fall.",
+      "s": "It's definitely worth it."
+    }
+  ],
+  "dialogue": {
+    "title": {
+      "t": "Ein Tag in Heidelberg",
+      "s": "A day in Heidelberg"
+    },
+    "speakers": {
+      "A": {
+        "name": "Maryam",
+        "voice": "f"
+      },
+      "B": {
+        "name": "Amir",
+        "voice": "m"
+      }
+    },
+    "lines": [
+      {
+        "sp": "A",
+        "t": "Guten Morgen! Ich habe frische Brötchen vom Bäcker gegenüber mitgebracht.",
+        "s": "Good morning! I brought fresh rolls from the bakery across the street."
+      },
+      {
+        "sp": "B",
+        "t": "Super, danke! Was machen wir heute? Das Wetter ist ja herrlich.",
+        "s": "Great, thanks! What shall we do today? The weather is wonderful."
+      },
+      {
+        "sp": "A",
+        "t": "Die Bäckerin hat mir einen schönen Weg empfohlen: am Neckar entlang bis zur Alten Brücke.",
+        "s": "The baker recommended a nice route to me: along the Neckar to the Old Bridge."
+      },
+      {
+        "sp": "B",
+        "t": "Und dann?",
+        "s": "And then?"
+      },
+      {
+        "sp": "A",
+        "t": "Dann gehen wir über die Brücke, durch die Altstadt und zum Schloss hinauf. Von dort hat man eine tolle Aussicht.",
+        "s": "Then we cross the bridge, walk through the old town and up to the castle. There's a great view from there."
+      },
+      {
+        "sp": "B",
+        "t": "Klingt gut. Gibt es dort oben auch etwas zu essen?",
+        "s": "Sounds good. Is there anything to eat up there too?"
+      },
+      {
+        "sp": "A",
+        "t": "Ja, es gibt ein kleines Café mit leckerem Kuchen und heißer Schokolade.",
+        "s": "Yes, there's a little café with delicious cake and hot chocolate."
+      },
+      {
+        "sp": "B",
+        "t": "Perfekt. Soll ich den großen Rucksack mitnehmen?",
+        "s": "Perfect. Shall I take the big backpack?"
+      },
+      {
+        "sp": "A",
+        "t": "Ja, bitte. Und pack zwei Flaschen kaltes Wasser ein.",
+        "s": "Yes, please. And pack two bottles of cold water."
+      },
+      {
+        "sp": "B",
+        "t": "Mach ich. Geh doch schon mal hinaus, ich komme gleich nach.",
+        "s": "Will do. Why don't you go on out? I'll be right behind you."
+      },
+      {
+        "sp": "A",
+        "t": "Okay, ich warte unten vor dem Haus.",
+        "s": "Okay, I'll wait downstairs in front of the house."
+      }
+    ]
+  },
+  "grammar": [
+    {
+      "id": "g01",
+      "title": {
+        "t": "frisches Brot, mit großer Freude",
+        "s": "Adjective endings without an article (and a review)"
+      },
+      "explain": "You already know the adjective endings after **der, die, das** and after **ein, kein, mein** (A2). When there is **no article** at all, the adjective has to show the case and gender itself, so it takes the endings of the definite article: **der → -er, das → -es, die → -e, dem → -em, den → -en**: **kalter Tee, frisches Brot, frische Milch, mit kaltem Wasser, für heißen Tee**.\nThe only exception is the genitive masculine and neuter: there the adjective ends in **-en**, because the noun already shows the case with -s: **wegen schlechten Wetters**.\nYou need these endings with uncountable nouns (**Wasser, Brot, Wetter**), with plurals without an article (**alte Freunde, mit guten Freunden**), after numbers (**zwei kleine Kinder**) and after **viel, wenig, etwas**, which don't change themselves: **viel frisches Obst, mit etwas kaltem Wasser**. They are also typical of set phrases: **Liebe Grüße! Mit großer Freude …**\n**Review – one simple rule:** the case must be shown once, either by the article or by the adjective.\n• **der, die, das, dieser …:** the article shows the case, so the adjective only ends in **-e** or **-en**: **der alte Mann, mit dem alten Mann**.\n• **ein, kein, mein …:** where the article has no ending (**ein** Mann, **ein** Haus), the adjective takes the strong ending: **ein alter Mann, ein kleines Haus**; everywhere else **-e** or **-en**: **einen alten Mann, in einem kleinen Haus**.\n• **no article:** the adjective takes the strong ending: **alter Käse, frisches Brot, mit großer Freude**.",
+      "table": [
+        [
+          "Nominativ",
+          "kalter Tee, frisches Brot",
+          "warme Milch, alte Freunde"
+        ],
+        [
+          "Akkusativ",
+          "kalten Tee, frisches Brot",
+          "warme Milch, alte Freunde"
+        ],
+        [
+          "Dativ",
+          "mit kaltem Tee, mit frischem Brot",
+          "mit warmer Milch, mit alten Freunden"
+        ]
+      ],
+      "examples": [
+        {
+          "t": "Zum Frühstück gibt es frisches Brot und heißen Tee.",
+          "s": "For breakfast there's fresh bread and hot tea."
+        },
+        {
+          "t": "Bei schönem Wetter machen wir eine Wanderung.",
+          "s": "If the weather is nice, we'll go on a hike."
+        },
+        {
+          "t": "Im Urlaub haben wir alte Freunde getroffen.",
+          "s": "On vacation we met old friends."
+        },
+        {
+          "t": "Die Ferienwohnung hat einen großen Balkon mit herrlicher Aussicht.",
+          "s": "The vacation rental has a big balcony with a wonderful view."
+        },
+        {
+          "t": "Liebe Grüße aus dem schönen Hamburg!",
+          "s": "Warm greetings from beautiful Hamburg!"
+        }
+      ],
+      "exercises": [
+        {
+          "type": "choice",
+          "t": "Ich trinke morgens gern ___ Tee.",
+          "options": [
+            "heiß",
+            "heißen",
+            "heißer"
+          ],
+          "answer": 1,
+          "s": "In the morning I like to drink hot tea."
+        },
+        {
+          "type": "choice",
+          "t": "Bei ___ Wetter bleiben wir zu Hause.",
+          "options": [
+            "schlechtem",
+            "schlechtes",
+            "schlechten"
+          ],
+          "answer": 0,
+          "s": "When the weather is bad, we stay at home."
+        },
+        {
+          "type": "choice",
+          "t": "Auf dem Markt gibt es ___ Obst aus der Region.",
+          "options": [
+            "frischer",
+            "frisches",
+            "frischen"
+          ],
+          "answer": 1,
+          "s": "At the market there's fresh local fruit."
+        },
+        {
+          "type": "type",
+          "t": "Wir haben ___ Brot gekauft.",
+          "answer": [
+            "frisches"
+          ],
+          "s": "We bought fresh bread."
+        },
+        {
+          "type": "type",
+          "t": "Das Café ist bekannt für ___ Kuchen.",
+          "answer": [
+            "leckeren",
+            "leckere"
+          ],
+          "s": "The café is known for delicious cake."
+        },
+        {
+          "type": "choice",
+          "t": "Wir wohnen in einem ___ Hotel am See.",
+          "options": [
+            "kleines",
+            "kleinen",
+            "kleinem"
+          ],
+          "answer": 1,
+          "s": "We're staying in a small hotel by the lake."
+        },
+        {
+          "type": "type",
+          "t": "Wir haben mit ___ Freunden gegessen.",
+          "answer": [
+            "guten"
+          ],
+          "s": "We ate with good friends."
+        },
+        {
+          "type": "order",
+          "t": "Bei gutem Wetter fahren wir an die Küste.",
+          "s": "When the weather is good, we drive to the coast.",
+          "alts": [
+            "Wir fahren bei gutem Wetter an die Küste."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "g02",
+      "title": {
+        "t": "hinein, heraus, durch den Park, am Fluss entlang",
+        "s": "Directions: hin and her, durch, entlang, gegenüber"
+      },
+      "explain": "**Wo?** asks about a position, **Wohin?** about a direction and **Woher?** about an origin. In speech, **wohin** and **woher** are often split: **Wo fährst du hin? Wo kommst du her?**\n**hin** means movement **away from** the speaker, **her** movement **towards** the speaker. Combined with a preposition, they form separable prefixes for directions:\n• **hinein – herein** (in), **hinaus – heraus** (out), **hinauf – herauf** (up), **hinunter – herunter** (down), **hinüber – herüber** (over, across)\n**Komm herein!** (come in – towards me) – **Ich gehe hinaus.** (I'm going out – away from here). In everyday speech, both forms are usually shortened to **r-**: **rein, raus, rauf, runter, rüber**.\nThree useful prepositions for routes and places:\n• **durch + accusative** = through: **durch den Park, durch die Altstadt**\n• **entlang** = along: usually **after** a noun in the accusative (**den Fluss entlang**) or as **an + dative … entlang** (**am Fluss entlang**). In written German you also find it before the noun with the genitive: **entlang des Flusses**.\n• **gegenüber + dative** = opposite, across from: **gegenüber dem Bahnhof**, in speech often **gegenüber vom Bahnhof**. It follows a pronoun (**mir gegenüber**) and can also stand alone: **der Bäcker gegenüber** (the bakery across the street).",
+      "table": [
+        [
+          "hin: weg vom Sprecher",
+          "Geh hinaus!",
+          "Wo gehst du hin?"
+        ],
+        [
+          "her: zum Sprecher",
+          "Komm herein!",
+          "Wo kommst du her?"
+        ],
+        [
+          "durch + Akkusativ",
+          "durch den Park",
+          "durch die Altstadt"
+        ],
+        [
+          "entlang",
+          "den Fluss entlang",
+          "am Fluss entlang"
+        ],
+        [
+          "gegenüber + Dativ",
+          "gegenüber dem Bahnhof",
+          "gegenüber vom Bahnhof"
+        ]
+      ],
+      "examples": [
+        {
+          "t": "Komm doch herein, die Tür ist offen!",
+          "s": "Come on in, the door is open!"
+        },
+        {
+          "t": "Wir sind zum Schloss hinaufgestiegen.",
+          "s": "We climbed up to the castle."
+        },
+        {
+          "t": "Der Weg führt durch einen kleinen Wald.",
+          "s": "The path leads through a small forest."
+        },
+        {
+          "t": "Am Sonntag sind wir mit dem Fahrrad den Rhein entlanggefahren.",
+          "s": "On Sunday we cycled along the Rhine."
+        },
+        {
+          "t": "Gegenüber der Kirche gibt es eine kleine Bäckerei.",
+          "s": "Across from the church there's a small bakery."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "choice",
+          "t": "Frau Wagner sitzt im Büro. Jemand klopft an die Tür. Sie ruft: „___!“",
+          "options": [
+            "Herein",
+            "Hinein",
+            "Heraus"
+          ],
+          "answer": 0,
+          "s": "Ms. Wagner is sitting in her office. Someone knocks on the door. She calls out: \"Come in!\""
+        },
+        {
+          "type": "choice",
+          "t": "Ich stehe unten an der Treppe und rufe: „Lena, komm bitte ___!“",
+          "options": [
+            "herunter",
+            "hinunter",
+            "hinauf"
+          ],
+          "answer": 0,
+          "s": "I'm standing at the bottom of the stairs and call: \"Lena, please come down!\""
+        },
+        {
+          "type": "choice",
+          "t": "Wir fahren mit dem Rad den Rhein ___.",
+          "options": [
+            "entlang",
+            "durch",
+            "gegenüber"
+          ],
+          "answer": 0,
+          "s": "We're cycling along the Rhine."
+        },
+        {
+          "type": "choice",
+          "t": "Der Weg führt ___ den Wald.",
+          "options": [
+            "durch",
+            "gegenüber",
+            "entlang"
+          ],
+          "answer": 0,
+          "s": "The path leads through the forest."
+        },
+        {
+          "type": "type",
+          "t": "Wir sind durch ___ Park gelaufen.",
+          "answer": [
+            "den"
+          ],
+          "s": "We walked through the park."
+        },
+        {
+          "type": "type",
+          "t": "Das Hotel liegt gegenüber ___ Bahnhof.",
+          "answer": [
+            "dem",
+            "vom"
+          ],
+          "s": "The hotel is across from the station."
+        },
+        {
+          "type": "order",
+          "t": "Wir laufen am Fluss entlang.",
+          "s": "We're walking along the river."
+        },
+        {
+          "type": "order",
+          "t": "Unser Hotel liegt gegenüber dem Bahnhof.",
+          "s": "Our hotel is across from the station.",
+          "alts": [
+            "Gegenüber dem Bahnhof liegt unser Hotel."
+          ]
+        }
+      ]
+    }
+  ],
+  "reading": {
+    "title": {
+      "t": "Liebe Grüße vom Bodensee",
+      "s": "Warm greetings from Lake Constance"
+    },
+    "text": [
+      {
+        "t": "Liebe Anna, viele Grüße vom Bodensee!",
+        "s": "Dear Anna, warm greetings from Lake Constance!"
+      },
+      {
+        "t": "Wir sind seit fünf Tagen hier und wohnen in einer kleinen Ferienwohnung mit großem Balkon.",
+        "s": "We've been here for five days and are staying in a small vacation apartment with a big balcony."
+      },
+      {
+        "t": "Von dort hat man eine herrliche Aussicht auf den See und die Berge.",
+        "s": "From there you have a wonderful view of the lake and the mountains."
+      },
+      {
+        "t": "Jeden Morgen holt Ali frische Brötchen beim Bäcker gegenüber.",
+        "s": "Every morning Ali gets fresh rolls from the bakery across the street."
+      },
+      {
+        "t": "Am Montag haben wir eine Rundfahrt mit dem Schiff gemacht und die Insel Mainau besichtigt.",
+        "s": "On Monday we took a boat tour and visited Mainau Island."
+      },
+      {
+        "t": "Dort gibt es wunderschöne Blumen und sogar tropische Pflanzen.",
+        "s": "There are beautiful flowers there and even tropical plants."
+      },
+      {
+        "t": "Gestern sind wir mit den Fahrrädern am Ufer entlanggefahren.",
+        "s": "Yesterday we rode our bikes along the shore."
+      },
+      {
+        "t": "Leider hat es am Nachmittag stark geregnet, und wir sind mit nasser Kleidung zurückgekommen.",
+        "s": "Unfortunately it rained heavily in the afternoon, and we came back in wet clothes."
+      },
+      {
+        "t": "Heute erholen wir uns in der Ferienwohnung und lesen.",
+        "s": "Today we're relaxing in the apartment and reading."
+      },
+      {
+        "t": "Morgen wollen wir nach Konstanz fahren und durch die schmalen Gassen der Altstadt spazieren.",
+        "s": "Tomorrow we want to go to Konstanz and stroll through the narrow lanes of the old town."
+      },
+      {
+        "t": "Am Samstag fahren wir mit dem Zug zurück nach Köln.",
+        "s": "On Saturday we're taking the train back to Cologne."
+      },
+      {
+        "t": "Bis bald und liebe Grüße, deine Neda",
+        "s": "See you soon! Love, Neda"
+      }
+    ],
+    "questions": [
+      {
+        "q": {
+          "t": "Wo macht Neda Urlaub?",
+          "s": "Where is Neda on vacation?"
+        },
+        "options": [
+          "an der Ostsee",
+          "am Bodensee",
+          "in den Bergen"
+        ],
+        "answer": 1
+      },
+      {
+        "q": {
+          "t": "Was hat die Ferienwohnung?",
+          "s": "What does the vacation apartment have?"
+        },
+        "options": [
+          "einen großen Balkon",
+          "einen großen Garten",
+          "ein Schwimmbad"
+        ],
+        "answer": 0
+      },
+      {
+        "q": {
+          "t": "Was haben Neda und Ali am Montag gemacht?",
+          "s": "What did Neda and Ali do on Monday?"
+        },
+        "options": [
+          "eine Wanderung",
+          "eine Fahrradtour",
+          "eine Rundfahrt mit dem Schiff"
+        ],
+        "answer": 2
+      },
+      {
+        "q": {
+          "t": "Warum war ihre Kleidung nass?",
+          "s": "Why were their clothes wet?"
+        },
+        "options": [
+          "Sie sind in den See gefallen.",
+          "Es hat stark geregnet.",
+          "Sie sind geschwommen."
+        ],
+        "answer": 1
+      },
+      {
+        "q": {
+          "t": "Wie fahren die beiden zurück nach Köln?",
+          "s": "How are the two of them getting back to Cologne?"
+        },
+        "options": [
+          "mit dem Auto",
+          "mit dem Zug",
+          "mit dem Bus"
+        ],
+        "answer": 1
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "t": "Am Wochenende machen wir einen Ausflug in die Berge.",
+      "s": "This weekend we're taking a trip to the mountains."
+    },
+    {
+      "t": "Bei schlechtem Wetter besuchen wir lieber ein Museum.",
+      "s": "When the weather is bad, we'd rather visit a museum."
+    },
+    {
+      "t": "Kommt doch herein, das Essen ist fertig!",
+      "s": "Come on in, the food is ready!"
+    },
+    {
+      "t": "Wir sind durch die ganze Altstadt gelaufen.",
+      "s": "We walked through the entire old town."
+    },
+    {
+      "t": "Gegenüber vom Hotel gibt es einen kleinen Supermarkt.",
+      "s": "There's a small supermarket across from the hotel."
+    },
+    {
+      "t": "Vergiss bitte deinen Rucksack nicht!",
+      "s": "Please don't forget your backpack!"
+    },
+    {
+      "t": "Im Urlaub esse ich gern frischen Fisch.",
+      "s": "On vacation I like to eat fresh fish."
+    },
+    {
+      "t": "Wir haben uns in der Altstadt verlaufen.",
+      "s": "We got lost in the old town."
+    }
+  ]
+}

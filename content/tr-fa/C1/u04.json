@@ -1,0 +1,762 @@
+{
+  "id": "u04",
+  "level": "C1",
+  "emoji": "📈",
+  "title": {
+    "t": "Ekonomi ve iş dünyası",
+    "s": "اقتصاد و دنیای کسب‌وکار"
+  },
+  "goals": [
+    "درباره‌ی بازار، بورس، رقابت و گزارش مالی شرکت‌ها با واژگان تخصصی صحبت کنم.",
+    "با زمان‌های مرکب -mıştı، -ıyordu، -acaktı و -ırdı پیشینه‌ی یک رویداد اقتصادی را روایت کنم.",
+    "با -dıkça … -er، -dığı ölçüde و oranında رابطه‌ی تناسبی میان پدیده‌ها را بیان کنم.",
+    "یک گزارش اقتصادی یا داستان موفقیت یک شرکت را بفهمم."
+  ],
+  "words": [
+    {
+      "id": "w01",
+      "t": "piyasa",
+      "pl": "piyasalar",
+      "s": "بازار (اقتصادی)",
+      "pr": "پیاسا",
+      "emoji": "",
+      "ex": {
+        "t": "Faiz kararı piyasalarda dalgalanmaya yol açtı.",
+        "s": "تصمیم مربوط به نرخ بهره در بازارها نوسان ایجاد کرد."
+      }
+    },
+    {
+      "id": "w02",
+      "t": "borsa",
+      "s": "بورس",
+      "pr": "بُرسا",
+      "emoji": "📈",
+      "ex": {
+        "t": "Borsa, haftaya yükselişle başladı.",
+        "s": "بورس هفته را با رشد آغاز کرد."
+      }
+    },
+    {
+      "id": "w03",
+      "t": "hisse senedi",
+      "pl": "hisse senetleri",
+      "s": "سهام",
+      "pr": "هیسِّه سِنِدی",
+      "emoji": "",
+      "ex": {
+        "t": "Şirketin hisse senetleri bir günde yüzde on değer kazandı.",
+        "s": "سهام شرکت در یک روز ده درصد ارزش پیدا کرد."
+      }
+    },
+    {
+      "id": "w04",
+      "t": "arz ve talep",
+      "s": "عرضه و تقاضا",
+      "pr": "آرز وِه تالِپ",
+      "emoji": "",
+      "ex": {
+        "t": "Fiyatlar, arz ve talep dengesine göre belirlenir.",
+        "s": "قیمت‌ها بر اساس تعادل عرضه و تقاضا تعیین می‌شوند."
+      }
+    },
+    {
+      "id": "w05",
+      "t": "durgunluk",
+      "s": "رکود",
+      "pr": "دورگونلوک",
+      "emoji": "📉",
+      "ex": {
+        "t": "Ekonomistler önümüzdeki yıl hafif bir durgunluk bekliyor.",
+        "s": "اقتصاددانان برای سال آینده رکودی خفیف پیش‌بینی می‌کنند."
+      }
+    },
+    {
+      "id": "w06",
+      "t": "büyüme oranı",
+      "s": "نرخ رشد",
+      "pr": "بویومِه اُرانِ",
+      "emoji": "",
+      "ex": {
+        "t": "Ülkenin büyüme oranı beklentilerin altında kaldı.",
+        "s": "نرخ رشد کشور کمتر از انتظارات بود."
+      }
+    },
+    {
+      "id": "w07",
+      "t": "rekabet",
+      "s": "رقابت",
+      "pr": "رِکابِت",
+      "emoji": "",
+      "ex": {
+        "t": "Sektördeki rekabet fiyatların düşmesini sağladı.",
+        "s": "رقابت در این بخش باعث کاهش قیمت‌ها شد."
+      }
+    },
+    {
+      "id": "w08",
+      "t": "pazar payı",
+      "s": "سهم بازار",
+      "pr": "پازار پایِ",
+      "emoji": "",
+      "ex": {
+        "t": "Şirket, Avrupa'daki pazar payını iki katına çıkardı.",
+        "s": "شرکت سهم خود از بازار اروپا را دو برابر کرد."
+      }
+    },
+    {
+      "id": "w09",
+      "t": "ciro",
+      "s": "گردش مالی؛ مجموع فروش",
+      "pr": "جیرو",
+      "emoji": "",
+      "ex": {
+        "t": "Şirketin yıllık cirosu ilk kez bir milyar lirayı aştı.",
+        "s": "گردش مالی سالانه‌ی شرکت برای نخستین بار از یک میلیارد لیر گذشت."
+      }
+    },
+    {
+      "id": "w10",
+      "t": "sermaye",
+      "s": "سرمایه",
+      "pr": "سِرمایِه",
+      "emoji": "",
+      "ex": {
+        "t": "Yeni fabrika için yabancı sermayeye ihtiyaç var.",
+        "s": "برای کارخانه‌ی جدید به سرمایه‌ی خارجی نیاز است."
+      }
+    },
+    {
+      "id": "w11",
+      "t": "ithalat",
+      "s": "واردات",
+      "pr": "ایتهالات",
+      "emoji": "",
+      "ex": {
+        "t": "Enerji ithalatı, dış ticaret açığının en büyük nedeni.",
+        "s": "واردات انرژی بزرگ‌ترین علت کسری تجارت خارجی است."
+      }
+    },
+    {
+      "id": "w12",
+      "t": "tedarik zinciri",
+      "pl": "tedarik zincirleri",
+      "s": "زنجیره‌ی تأمین",
+      "pr": "تِداریک زینجیری",
+      "emoji": "",
+      "ex": {
+        "t": "Pandemi, küresel tedarik zincirlerini derinden sarstı.",
+        "s": "همه‌گیری، زنجیره‌های تأمین جهانی را به‌شدت متزلزل کرد."
+      }
+    },
+    {
+      "id": "w13",
+      "t": "vergi",
+      "pl": "vergiler",
+      "s": "مالیات",
+      "pr": "وِرگی",
+      "emoji": "",
+      "ex": {
+        "t": "Küçük işletmeler için vergi indirimi açıklandı.",
+        "s": "کاهش مالیات برای کسب‌وکارهای کوچک اعلام شد."
+      }
+    },
+    {
+      "id": "w14",
+      "t": "işletme",
+      "pl": "işletmeler",
+      "s": "بنگاه؛ کسب‌وکار",
+      "pr": "ایشلِتمِه",
+      "emoji": "",
+      "ex": {
+        "t": "Bu bölgede çoğunlukla aile işletmeleri var.",
+        "s": "در این منطقه بیشتر کسب‌وکارهای خانوادگی وجود دارد."
+      }
+    },
+    {
+      "id": "w15",
+      "t": "hissedar",
+      "pl": "hissedarlar",
+      "s": "سهامدار",
+      "pr": "هیسِّدار",
+      "emoji": "",
+      "ex": {
+        "t": "Hissedarlar, genel kurulda yeni yönetim kurulunu seçti.",
+        "s": "سهامداران در مجمع عمومی هیئت‌مدیره‌ی جدید را انتخاب کردند."
+      }
+    },
+    {
+      "id": "w16",
+      "t": "teşvik",
+      "pl": "teşvikler",
+      "s": "مشوق اقتصادی",
+      "pr": "تِشویک",
+      "emoji": "",
+      "ex": {
+        "t": "Devlet, yenilenebilir enerjiye yatırım yapan şirketlere teşvik veriyor.",
+        "s": "دولت به شرکت‌هایی که در انرژی تجدیدپذیر سرمایه‌گذاری می‌کنند مشوق می‌دهد."
+      }
+    }
+  ],
+  "phrases": [
+    {
+      "id": "p01",
+      "t": "Piyasalar bu habere olumlu tepki verdi.",
+      "s": "بازارها به این خبر واکنش مثبت نشان دادند.",
+      "pr": "پیاسالار بو هابِرِه اُلوملو تِپکی وِردی.",
+      "alts": [
+        "Bu habere piyasalar olumlu tepki verdi."
+      ]
+    },
+    {
+      "id": "p02",
+      "t": "Rakamlar ortada.",
+      "s": "ارقام خودشان گویا هستند.",
+      "pr": "راکاملار اُرتادا."
+    },
+    {
+      "id": "p03",
+      "t": "Bu yatırım uzun vadede kendini amorti eder.",
+      "s": "این سرمایه‌گذاری در درازمدت هزینه‌ی خودش را برمی‌گرداند.",
+      "pr": "بو یاتِرِم اوزون وادِدِه کِندینی آمُرتی اِدِر."
+    },
+    {
+      "id": "p04",
+      "t": "Kâr marjımız giderek daralıyor.",
+      "s": "حاشیه‌ی سودمان مدام کمتر می‌شود.",
+      "pr": "کیار مارژِمِز گیدِرِک دارالِیُر."
+    },
+    {
+      "id": "p05",
+      "t": "İşler yolunda gidiyor.",
+      "s": "کارها روبه‌راه است.",
+      "pr": "ایشلِر یُلوندا گیدیُر."
+    },
+    {
+      "id": "p06",
+      "t": "Zarar etmeden bu işten çıkmak istiyoruz.",
+      "s": "می‌خواهیم بی‌آنکه ضرر کنیم از این کار بیرون بیاییم.",
+      "pr": "زارار اِتمِدِن بو ایشتِن چِکماک ایستیُروز.",
+      "alts": [
+        "Bu işten zarar etmeden çıkmak istiyoruz."
+      ]
+    },
+    {
+      "id": "p07",
+      "t": "Rakiplerimizin bir adım önündeyiz.",
+      "s": "یک قدم از رقبایمان جلوتریم.",
+      "pr": "راکیپلِریمیزین بیر آدِم اُنوندِییز."
+    },
+    {
+      "id": "p08",
+      "t": "Fiyatlar her geçen gün artıyor.",
+      "s": "قیمت‌ها روزبه‌روز بالاتر می‌رود.",
+      "pr": "فیاتلار هِر گِچِن گون آرتِیُر."
+    }
+  ],
+  "dialogue": {
+    "title": {
+      "t": "Yıllık rapor üzerine",
+      "s": "درباره‌ی گزارش سالانه"
+    },
+    "speakers": {
+      "A": {
+        "name": "Sara",
+        "voice": "f"
+      },
+      "B": {
+        "name": "Emre",
+        "voice": "m"
+      }
+    },
+    "lines": [
+      {
+        "sp": "A",
+        "t": "Emre, yönetim kuruluna sunacağın raporu okudum. Geçen yılın rakamları gerçekten şaşırtıcı.",
+        "s": "امره، گزارشی را که قرار است به هیئت‌مدیره ارائه بدهی خواندم. ارقام سال گذشته واقعاً شگفت‌انگیز است."
+      },
+      {
+        "sp": "B",
+        "t": "Evet. Hatırlarsan, yılın başında herkes durgunluktan bahsediyordu.",
+        "s": "بله. اگر یادت باشد، اول سال همه از رکود حرف می‌زدند."
+      },
+      {
+        "sp": "A",
+        "t": "Elbette. Biz de yeni fabrikayı açacaktık ama son anda vazgeçmiştik.",
+        "s": "البته. ما هم قرار بود کارخانه‌ی جدید را راه بیندازیم، اما در آخرین لحظه منصرف شده بودیم."
+      },
+      {
+        "sp": "B",
+        "t": "O karar bizi kurtardı. Rakiplerimiz ise yüksek faizle kredi çekmişlerdi ve zor durumda kaldılar.",
+        "s": "آن تصمیم نجاتمان داد. رقبایمان اما با بهره‌ی بالا وام گرفته بودند و به دردسر افتادند."
+      },
+      {
+        "sp": "A",
+        "t": "Peki ihracatımız nasıl bu kadar arttı?",
+        "s": "خب، صادرات ما چطور این‌قدر افزایش یافت؟"
+      },
+      {
+        "sp": "B",
+        "t": "Lira değer kaybettikçe ürünlerimiz Avrupalı müşteriler için ucuzladı. Siparişler de aynı oranda arttı.",
+        "s": "هرچه لیر بیشتر ارزش از دست داد، محصولات ما برای مشتریان اروپایی ارزان‌تر شد. سفارش‌ها هم به همان نسبت بیشتر شد."
+      },
+      {
+        "sp": "A",
+        "t": "Eskiden her ay Almanya'ya iki konteyner gönderirdik, şimdi altı konteyner gönderiyoruz.",
+        "s": "قبلاً هر ماه دو کانتینر به آلمان می‌فرستادیم، حالا شش کانتینر می‌فرستیم."
+      },
+      {
+        "sp": "B",
+        "t": "Ama dikkatli olmalıyız. Ham madde fiyatları yükseldikçe kâr marjımız daralıyor.",
+        "s": "اما باید مراقب باشیم. هرچه قیمت مواد اولیه بالاتر می‌رود، حاشیه‌ی سودمان کمتر می‌شود."
+      },
+      {
+        "sp": "A",
+        "t": "Haklısın. Maliyetleri düşürebildiğimiz ölçüde rekabet gücümüzü koruruz.",
+        "s": "حق با توست. به هر اندازه که بتوانیم هزینه‌ها را پایین بیاوریم، قدرت رقابتمان را حفظ می‌کنیم."
+      },
+      {
+        "sp": "B",
+        "t": "Raporda da bunu vurguladım: Verimlilik arttıkça birim maliyet düşer.",
+        "s": "در گزارش هم همین را تأکید کردم: هرچه بهره‌وری بالاتر برود، هزینه‌ی هر واحد پایین‌تر می‌آید."
+      },
+      {
+        "sp": "A",
+        "t": "Harika. Toplantıda bu grafiği mutlaka göster; rakamlar ortada.",
+        "s": "عالی. در جلسه حتماً این نمودار را نشان بده؛ ارقام خودشان گویا هستند."
+      }
+    ]
+  },
+  "grammar": [
+    {
+      "id": "g01",
+      "title": {
+        "t": "-mıştı, -ıyordu, -acaktı, -ırdı",
+        "s": "زمان‌های مرکب حکایی (گذشته‌ی زمان‌ها)"
+      },
+      "explain": "اگر به یک زمان پسوند **-dı** (همان **idi**) اضافه کنیم، آن زمان به گذشته منتقل می‌شود؛ درست مثل فارسی که از «رفته است» به «رفته بود» می‌رسیم:\n**-mıştı** = ماضی بعید «کرده بود»: کاری که **پیش از** کار دیگری در گذشته تمام شده بود. Biz vardığımızda toplantı **başlamıştı**. = وقتی رسیدیم، جلسه شروع شده بود.\n**-ıyordu** = ماضی استمراری «داشت … می‌کرد / می‌کرد»: کاری در جریان یا روندی در گذشته. Fiyatlar her gün **artıyordu**.\n**-acaktı** = «قرار بود / می‌خواست … کند»: برنامه‌ای در گذشته که اغلب **انجام نشد**. Fabrika **açacaktık** ama vazgeçtik. = قرار بود کارخانه باز کنیم، اما منصرف شدیم.\n**-ırdı / -mazdı** = عادت گذشته «(قدیم‌ها) … می‌کرد»: Eskiden herkes nakit **öderdi**. (همین شکل را در شرط غیرواقعی B2 هم دیدید: -saydı … -ırdı.)\nشناسه‌ها همان شناسه‌های گذشته‌اند: -dım، -dın، -dı، -dık، -dınız، -dılar (almıştım، alıyordun، alacaktık، alırdınız).\nنکته برای فارسی‌زبان‌ها: «می‌رفت» در فارسی هم کار در جریان را می‌گوید و هم عادت را؛ ترکی معمولاً برای کار در جریان **-ıyordu** و برای عادت و رفتار کلی **-ırdı** به کار می‌برد (اگرچه -ıyordu هم گاهی برای عادت می‌آید).",
+      "table": [
+        [
+          "-mıştı",
+          "almıştım",
+          "gelmiştik"
+        ],
+        [
+          "-ıyordu",
+          "alıyordum",
+          "geliyorduk"
+        ],
+        [
+          "-acaktı",
+          "alacaktım",
+          "gelecektik"
+        ],
+        [
+          "-ırdı",
+          "alırdım",
+          "gelirdik"
+        ],
+        [
+          "-mazdı",
+          "almazdım",
+          "gelmezdik"
+        ]
+      ],
+      "examples": [
+        {
+          "t": "Biz toplantıya vardığımızda yönetim kurulu kararını çoktan vermişti.",
+          "s": "وقتی به جلسه رسیدیم، هیئت‌مدیره مدت‌ها پیش تصمیمش را گرفته بود."
+        },
+        {
+          "t": "O yıllarda enflasyon her ay biraz daha yükseliyordu.",
+          "s": "در آن سال‌ها تورم هر ماه کمی بیشتر بالا می‌رفت."
+        },
+        {
+          "t": "Şirket geçen yıl halka arz edilecekti, ancak piyasa koşulları nedeniyle bu plan ertelendi.",
+          "s": "قرار بود شرکت پارسال در بورس عرضه‌ی عمومی شود، اما به دلیل شرایط بازار این برنامه به تعویق افتاد."
+        },
+        {
+          "t": "Dedem çarşıda kumaş satardı ve hesaplarını bir deftere yazardı.",
+          "s": "پدربزرگم در بازار پارچه می‌فروخت و حساب‌هایش را در دفتری می‌نوشت."
+        },
+        {
+          "t": "Eskiden insanlar kredi kartı kullanmazdı.",
+          "s": "قدیم‌ها مردم از کارت اعتباری استفاده نمی‌کردند."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "choice",
+          "t": "Ben bankaya vardığımda şube ___.",
+          "options": [
+            "kapanacak",
+            "kapanmıştı",
+            "kapanır"
+          ],
+          "answer": 1,
+          "s": "وقتی به بانک رسیدم، شعبه بسته شده بود."
+        },
+        {
+          "type": "choice",
+          "t": "Yeni ürünü mart ayında piyasaya ___ ama üretimde sorun çıktı.",
+          "options": [
+            "süreceğiz",
+            "sürüyoruz",
+            "sürecektik"
+          ],
+          "answer": 2,
+          "s": "قرار بود محصول جدید را ماه مارس به بازار عرضه کنیم، اما در تولید مشکلی پیش آمد."
+        },
+        {
+          "type": "choice",
+          "t": "Çocukken her yaz dedemin dükkânında ___.",
+          "options": [
+            "çalışırdım",
+            "çalışacaktım",
+            "çalışacağım"
+          ],
+          "answer": 0,
+          "s": "بچه که بودم، هر تابستان در مغازه‌ی پدربزرگم کار می‌کردم."
+        },
+        {
+          "type": "choice",
+          "t": "Telefon çaldığında ben raporu ___.",
+          "options": [
+            "yazardım",
+            "yazıyordum",
+            "yazacağım"
+          ],
+          "answer": 1,
+          "s": "وقتی تلفن زنگ زد، داشتم گزارش را می‌نوشتم."
+        },
+        {
+          "type": "type",
+          "t": "Toplantıya geç kaldım; herkes çoktan ___.",
+          "answer": [
+            "gitmişti",
+            "gitmişlerdi"
+          ],
+          "s": "به جلسه دیر رسیدم؛ همه مدت‌ها پیش رفته بودند."
+        },
+        {
+          "type": "type",
+          "t": "Eskiden bu mağazada her şeyi nakit ___.",
+          "answer": [
+            "öderdik",
+            "ödüyorduk"
+          ],
+          "s": "قدیم‌ها در این فروشگاه همه‌چیز را نقدی می‌پرداختیم."
+        },
+        {
+          "type": "type",
+          "t": "Size haber ___ ama telefonum kapalıydı.",
+          "answer": [
+            "verecektim"
+          ],
+          "s": "می‌خواستم به شما خبر بدهم، اما تلفنم خاموش بود."
+        },
+        {
+          "type": "order",
+          "t": "Şirket o yıl büyük zarar etmişti.",
+          "s": "شرکت آن سال ضرر بزرگی کرده بود.",
+          "alts": [
+            "O yıl şirket büyük zarar etmişti."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "g02",
+      "title": {
+        "t": "-dıkça … -er / -dığı ölçüde / oranında",
+        "s": "بیان تناسب: «هرچه…، …» و «به نسبتِ…»"
+      },
+      "explain": "**-dıkça** را از B2 می‌شناسید. در متن‌های اقتصادی و رسمی، برای بیان رابطه‌ی **تناسبی** میان دو پدیده این ساخت‌ها رایج‌اند:\n**-dıkça … -ır / -ar** = «هرچه …، …»: وقتی قاعده‌ای کلی را می‌گوییم، فعل دوم معمولاً **مضارع اخباری کلی** (geniş zaman) است: Talep **arttıkça** fiyatlar **yükselir**. برای روندی که اکنون در جریان است، -ıyor: Faizler yükseldikçe krediler **azalıyor**.\n**-dığı ölçüde** (+ پسوند ملکی) = «به همان اندازه که / به میزانی که»: Şirket yenilik **yaptığı ölçüde** büyür. واژه‌ی **ölçü** در ترکیب‌های **büyük ölçüde** (تا حد زیادی) و **belli ölçüde** (تا اندازه‌ای) هم پرکاربرد است.\n**-dığı oranda** = «به همان نسبت که»: Gelir **arttığı oranda** vergi de artar.\n**oranında** بعد از **اسم** یا **عدد** می‌آید = «به نسبتِ / به میزانِ»: Maaşlar **enflasyon oranında** artırıldı. = حقوق‌ها به نسبت تورم افزایش یافت. Satışlar **yüzde on oranında** düştü. = فروش به میزان ده درصد کاهش یافت.\nخلاصه: بعد از جمله‌ی فعلی **-dığı ölçüde / -dığı oranda**، بعد از اسم و عدد **oranında**.",
+      "table": [
+        [
+          "-dıkça … -ır",
+          "Talep arttıkça fiyatlar yükselir."
+        ],
+        [
+          "-dığı ölçüde",
+          "Verimlilik arttığı ölçüde maliyet düşer."
+        ],
+        [
+          "-dığı oranda",
+          "Gelir arttığı oranda vergi de artar."
+        ],
+        [
+          "isim + oranında",
+          "Maaşlar enflasyon oranında artırıldı."
+        ],
+        [
+          "sayı + oranında",
+          "Satışlar yüzde on oranında düştü."
+        ]
+      ],
+      "examples": [
+        {
+          "t": "Faizler yükseldikçe insanlar kredi çekmekten kaçınır.",
+          "s": "هرچه نرخ بهره بالاتر برود، مردم بیشتر از وام گرفتن پرهیز می‌کنند."
+        },
+        {
+          "t": "Bir şirket yenilik yaptığı ölçüde rakiplerinin önüne geçer.",
+          "s": "یک شرکت به همان اندازه که نوآوری کند، از رقبایش پیش می‌افتد."
+        },
+        {
+          "t": "Emekli maaşları bu yıl enflasyon oranında artırılacak.",
+          "s": "حقوق بازنشستگان امسال به نسبت تورم افزایش می‌یابد."
+        },
+        {
+          "t": "İhracat geçen yıla göre yüzde on iki oranında arttı.",
+          "s": "صادرات نسبت به سال گذشته به میزان دوازده درصد افزایش یافت."
+        },
+        {
+          "t": "Üretim arttığı oranda enerji tüketimi de artıyor.",
+          "s": "به همان نسبت که تولید بیشتر می‌شود، مصرف انرژی هم بالا می‌رود."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "choice",
+          "t": "Talep ___ fiyatlar da yükselir.",
+          "options": [
+            "artmadan",
+            "artarak",
+            "arttıkça"
+          ],
+          "answer": 2,
+          "s": "هرچه تقاضا بیشتر شود، قیمت‌ها هم بالا می‌رود."
+        },
+        {
+          "type": "choice",
+          "t": "Maaşlar enflasyon ___ artırılmalı.",
+          "options": [
+            "oranında",
+            "arttıkça",
+            "kaydıyla"
+          ],
+          "answer": 0,
+          "s": "حقوق‌ها باید به نسبت تورم افزایش یابد."
+        },
+        {
+          "type": "choice",
+          "t": "Çalışanlar kendilerini değerli ___ ölçüde verimli olur.",
+          "options": [
+            "hissetmek",
+            "hissettikleri",
+            "hissederek"
+          ],
+          "answer": 1,
+          "s": "کارکنان به همان اندازه که احساس ارزشمندی کنند، بهره‌ور می‌شوند."
+        },
+        {
+          "type": "type",
+          "t": "Satışlar yüzde yirmi ___ düştü.",
+          "answer": [
+            "oranında"
+          ],
+          "s": "فروش به میزان بیست درصد کاهش یافت."
+        },
+        {
+          "type": "type",
+          "t": "Şirket ___ daha fazla çalışana ihtiyaç duyuyor.",
+          "answer": [
+            "büyüdükçe"
+          ],
+          "s": "هرچه شرکت بزرگ‌تر می‌شود، به کارکنان بیشتری نیاز پیدا می‌کند."
+        },
+        {
+          "type": "type",
+          "t": "Ürünlerimizin kalitesine güvendiğiniz ___ bizimle çalışmaya devam edersiniz.",
+          "answer": [
+            "ölçüde",
+            "oranda",
+            "sürece"
+          ],
+          "s": "به همان اندازه که به کیفیت محصولاتمان اعتماد کنید، به همکاری با ما ادامه می‌دهید."
+        },
+        {
+          "type": "order",
+          "t": "Gelir arttıkça tasarruf da artar.",
+          "s": "هرچه درآمد بیشتر شود، پس‌انداز هم بیشتر می‌شود."
+        },
+        {
+          "type": "order",
+          "t": "Kira bu yıl enflasyon oranında arttı.",
+          "s": "اجاره امسال به نسبت تورم بالا رفت.",
+          "alts": [
+            "Bu yıl kira enflasyon oranında arttı."
+          ]
+        }
+      ]
+    }
+  ],
+  "reading": {
+    "title": {
+      "t": "Küçük bir atölyeden dünya pazarına",
+      "s": "از یک کارگاه کوچک تا بازار جهانی"
+    },
+    "text": [
+      {
+        "t": "Mehmet Yıldız'ın dedesi, altmışlı yıllarda Gaziantep'te küçük bir halı atölyesi işletiyordu.",
+        "s": "پدربزرگِ مهمت ییلدیز در دهه‌ی شصت میلادی در غازی‌عنتاب یک کارگاه کوچک قالی‌بافی را اداره می‌کرد."
+      },
+      {
+        "t": "Atölyede yalnızca beş kişi çalışırdı ve halılar sadece yerel pazarda satılırdı.",
+        "s": "در کارگاه فقط پنج نفر کار می‌کردند و قالی‌ها تنها در بازار محلی فروخته می‌شد."
+      },
+      {
+        "t": "Mehmet Bey işi devraldığında, dedesinin zamanındaki müşterilerin çoğu çoktan başka firmalara geçmişti.",
+        "s": "وقتی آقای مهمت کار را تحویل گرفت، بیشتر مشتریان زمان پدربزرگش مدت‌ها بود سراغ شرکت‌های دیگر رفته بودند."
+      },
+      {
+        "t": "Üstelik o yıllarda ucuz ithal halılar piyasayı hızla ele geçiriyordu.",
+        "s": "افزون بر این، در آن سال‌ها قالی‌های وارداتیِ ارزان به‌سرعت بازار را تسخیر می‌کردند."
+      },
+      {
+        "t": "Mehmet Bey aslında atölyeyi kapatıp bir bankada çalışacaktı.",
+        "s": "آقای مهمت در واقع قرار بود کارگاه را ببندد و در یک بانک کار کند."
+      },
+      {
+        "t": "Ancak son anda farklı bir yol denemeye karar verdi: el yapımı, doğal boyalı halılar üretip internet üzerinden yurt dışına satmak.",
+        "s": "اما در آخرین لحظه تصمیم گرفت راه دیگری را امتحان کند: تولید قالی‌های دست‌باف با رنگ‌های طبیعی و فروش آن‌ها به خارج از کشور از طریق اینترنت."
+      },
+      {
+        "t": "İlk yıllar kolay geçmedi; tedarik zincirindeki sorunlar yüzünden siparişler sık sık gecikiyordu.",
+        "s": "سال‌های اول آسان نگذشت؛ به دلیل مشکلات زنجیره‌ی تأمین، سفارش‌ها مدام دیر می‌رسید."
+      },
+      {
+        "t": "Fakat şirket tanındıkça siparişler de katlanarak çoğaldı.",
+        "s": "اما هرچه شرکت شناخته‌شده‌تر شد، سفارش‌ها هم چندبرابر شد."
+      },
+      {
+        "t": "Bugün şirketin cirosu, on yıl öncesine göre yaklaşık yüzde dört yüz oranında artmış durumda.",
+        "s": "امروز گردش مالی شرکت نسبت به ده سال پیش حدود چهارصد درصد افزایش یافته است."
+      },
+      {
+        "t": "Ürünlerin yüzde sekseni Avrupa'ya ve Kanada'ya ihraç ediliyor.",
+        "s": "هشتاد درصد محصولات به اروپا و کانادا صادر می‌شود."
+      },
+      {
+        "t": "Mehmet Bey'e göre başarının sırrı basit: “Kaliteden ödün vermediğiniz ölçüde müşteri size sadık kalır.”",
+        "s": "به گفته‌ی آقای مهمت، راز موفقیت ساده است: «به همان اندازه که از کیفیت کوتاه نیایید، مشتری به شما وفادار می‌ماند.»"
+      },
+      {
+        "t": "Şirket, önümüzdeki yıl hisselerinin bir kısmını halka arz etmeyi planlıyor.",
+        "s": "شرکت قصد دارد سال آینده بخشی از سهامش را در بورس عرضه‌ی عمومی کند."
+      },
+      {
+        "t": "Dedesi bunu görseydi kim bilir ne kadar gurur duyardı.",
+        "s": "اگر پدربزرگش این را می‌دید، کسی چه می‌داند چقدر افتخار می‌کرد."
+      }
+    ],
+    "questions": [
+      {
+        "q": {
+          "t": "Dedenin atölyesinde kaç kişi çalışırdı?",
+          "s": "در کارگاه پدربزرگ چند نفر کار می‌کردند؟"
+        },
+        "options": [
+          "On",
+          "Beş",
+          "Yirmi"
+        ],
+        "answer": 1
+      },
+      {
+        "q": {
+          "t": "Mehmet Bey işi devraldığında piyasada ne oluyordu?",
+          "s": "وقتی آقای مهمت کار را تحویل گرفت، در بازار چه اتفاقی می‌افتاد؟"
+        },
+        "options": [
+          "Ucuz ithal halılar piyasayı ele geçiriyordu",
+          "Halı fiyatları hızla yükseliyordu",
+          "Devlet halı üreticilerine teşvik veriyordu"
+        ],
+        "answer": 0
+      },
+      {
+        "q": {
+          "t": "Mehmet Bey aslında ne yapmayı planlıyordu?",
+          "s": "آقای مهمت در واقع چه برنامه‌ای داشت؟"
+        },
+        "options": [
+          "Atölyeyi kapatıp bir bankada çalışmayı",
+          "Atölyeyi büyütmeyi",
+          "Halıları Kanada'ya satmayı"
+        ],
+        "answer": 0
+      },
+      {
+        "q": {
+          "t": "İlk yıllarda siparişler neden gecikiyordu?",
+          "s": "در سال‌های اول چرا سفارش‌ها دیر می‌رسید؟"
+        },
+        "options": [
+          "Çalışanlar grev yaptığı için",
+          "İnternet sitesi çalışmadığı için",
+          "Tedarik zincirindeki sorunlar yüzünden"
+        ],
+        "answer": 2
+      },
+      {
+        "q": {
+          "t": "Mehmet Bey'e göre başarının sırrı nedir?",
+          "s": "به نظر آقای مهمت، راز موفقیت چیست؟"
+        },
+        "options": [
+          "Ucuz ürün satmak",
+          "Çok reklam yapmak",
+          "Kaliteden ödün vermemek"
+        ],
+        "answer": 2
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "t": "Toplantı başladığında rapor henüz hazır değildi.",
+      "s": "وقتی جلسه شروع شد، گزارش هنوز آماده نبود.",
+      "alts": [
+        "Rapor toplantı başladığında henüz hazır değildi."
+      ]
+    },
+    {
+      "t": "Şirket geçen yıl yeni bir fabrika açacaktı.",
+      "s": "قرار بود شرکت پارسال یک کارخانه‌ی جدید باز کند.",
+      "alts": [
+        "Geçen yıl şirket yeni bir fabrika açacaktı."
+      ]
+    },
+    {
+      "t": "Eskiden her şeyi nakit öderdik.",
+      "s": "قدیم‌ها همه‌چیز را نقدی می‌پرداختیم.",
+      "alts": [
+        "Her şeyi eskiden nakit öderdik."
+      ]
+    },
+    {
+      "t": "Talep arttıkça fiyatlar yükselir.",
+      "s": "هرچه تقاضا بیشتر شود، قیمت‌ها بالاتر می‌رود."
+    },
+    {
+      "t": "Borsa bugün sert düştü.",
+      "s": "بورس امروز به‌شدت سقوط کرد.",
+      "alts": [
+        "Bugün borsa sert düştü."
+      ]
+    },
+    {
+      "t": "Rekabet arttıkça kalite de artar.",
+      "s": "هرچه رقابت بیشتر شود، کیفیت هم بالاتر می‌رود."
+    },
+    {
+      "t": "Maaşlar enflasyon oranında artırılmadı.",
+      "s": "حقوق‌ها به نسبت تورم افزایش نیافت."
+    },
+    {
+      "t": "Küçük işletmeler vergi indirimi bekliyor.",
+      "s": "کسب‌وکارهای کوچک منتظر کاهش مالیات‌اند."
+    }
+  ]
+}

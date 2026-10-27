@@ -97,8 +97,10 @@ async function viewHome() {
         h("h3", {}, h("span", { lang: c.target }, c.name.t), " · ", c.name.s),
         h("p", {}, h("bdi", { lang: c.support }, EXPLAINED[c.support]), "  ", h("bdi", { dir: "ltr", class: "lvls" }, lvls)),
         h("div", { class: "progressbar" }, h("i", { style: { width: pct + "%", background: c.color } }))),
-      h("div", { class: "chip" }, started ? "▶" : "✨"));
+      h("div", { class: "chip" }, started ? "▶ " + (nextUp(c, p)?.level || "✓") : "✨"));
   });
+  const last = idx.courses.find(c => c.id === store.pref("lastCourse", null));
+  const resume = last && store.pref("pos:" + last.id, null) ? continueCard(last, p, true) : null;
   const L = getLang();
   app.replaceChildren(
     topbar("زبان‌یار · Zabanyar", null, h("a", { class: "iconbtn", href: "#/settings", "aria-label": "settings" }, "⚙️")),
@@ -108,48 +110,96 @@ async function viewHome() {
       h("div", { class: "stat" }, h("b", {}, "🔥 " + num(store.streak(p))), h("span", {}, t("streak"))),
       h("div", { class: "stat" }, h("b", {}, "⭐ " + num(store.totalXp(p))), h("span", {}, t("xp"))),
       h("div", { class: "stat" }, h("b", {}, "📚 " + num(Object.keys(p.srs).length)), h("span", {}, t("words")))),
+    resume,
     h("h2", {}, CHOOSE[L], ...Object.entries(CHOOSE).filter(([k]) => k !== L).map(([k, v]) => h("div", { class: "muted small", lang: k, dir: k === "fa" ? "rtl" : "ltr", style: { textAlign: "start" } }, v))),
     h("div", { class: "stack" }, cards));
 }
 
-async function viewCourse(cid) {
+// ---------- where am I? (synced with the person, so it works on every device) ----------
+function unitNo(lv, un) { return lv.units.findIndex(x => x.id === un.id) + (lv.units[0]?.id === "u00" ? 0 : 1); }
+function nextUp(c, p) {
+  const refs = allUnitRefs(c);
+  const open = from => {
+    for (let i = Math.max(0, from); i < refs.length; i++) {
+      const r = refs[i]; const l = lessonIds(r.un).find(l => !p.lessons[lkey(c.id, r.key, l)]);
+      if (l) return { ...r, lid: l };
+    }
+    return null;
+  };
+  const pos = store.pref("pos:" + c.id, null);
+  if (pos) {
+    const i = refs.findIndex(r => r.key === pos.key);
+    if (i >= 0) {
+      if (lessonIds(refs[i].un).includes(pos.lid) && !p.lessons[lkey(c.id, pos.key, pos.lid)]) return { ...refs[i], lid: pos.lid };
+      const n = open(i); if (n) return n;
+    }
+  }
+  return open(0);
+}
+function continueCard(c, p, withCourse) {
+  const n = nextUp(c, p);
+  if (!n) return h("div", { class: "card center" }, "🎉 " + t("allDone"));
+  const lv = c.levels.find(l => l.id === n.level);
+  return h("a", { class: "continue", href: `#/c/${c.id}/u/${n.key}/l/${n.lid}`, style: { "--c": c.color } },
+    h("div", { class: "ico" }, LESSON_ICONS[n.lid] || "▶"),
+    h("div", {},
+      h("div", { class: "sub" }, (withCourse ? c.name.t + " · " : "") + `${n.level} · ${t("unit")} ${num(unitNo(lv, n.un))} · ${t("L_" + n.lid)}`),
+      h("b", {}, T(n.un.title.t)), h("div", { class: "muted small" }, n.un.title.s)),
+    h("div", { class: "go" }, "▶ " + t("continue")));
+}
+function levelStats(c, lv, p) {
+  const done = lv.units.filter(un => lessonIds(un).every(l => p.lessons[lkey(c.id, keyOf(lv.id, un.id), l)])).length;
+  return { done, total: lv.units.length };
+}
+
+async function viewCourse(cid, want) {
   const idx = await index(); const c = courseMeta(cid); if (!c) return go("#/");
   useCourse(c);
+  store.setPref("lastCourse", cid);
   const p = store.progress();
   const due = store.srsDue(cid + "|").length;
-  let nextMarked = false;
-  const anyStarted = Object.keys(p.lessons).some(k => k.startsWith(cid + "/"));
-  const levels = c.levels.map(lv => {
-    if (!lv.units.length) return h("div", { class: "level soon" }, h("div", { class: "level-head" }, h("h2", {}, lv.id + " · " + lv.name), h("span", { class: "pill" }, t("soon"))), h("div", { class: "muted" }, lv.outline));
-    const first = lv.units[0]?.id === "u00" ? 0 : 1;
-    return h("div", { class: "level", id: "lv-" + lv.id },
-      h("div", { class: "level-head" }, h("h2", {}, lv.id + " · " + lv.name)),
-      h("div", { class: "unitpath" }, lv.units.map((un, k) => {
-        const key = keyOf(lv.id, un.id);
+  const next = nextUp(c, p);
+  const avail = c.levels.filter(l => l.units.length);
+  const cur = c.levels.find(l => l.id === want) || c.levels.find(l => l.id === store.pref("lv:" + cid, null) && l.units.length)
+    || c.levels.find(l => l.id === next?.level) || avail[0];
+  if (want && cur.units.length) store.setPref("lv:" + cid, cur.id);
+  // level tabs: every level at a glance with its progress; one level is shown at a time
+  const tabs = h("div", { class: "tabs levels", role: "tablist" }, c.levels.map(l => {
+    const st = l.units.length ? levelStats(c, l, p) : null;
+    return h("button", { class: (l.id === cur.id ? "on" : "") + (st ? "" : " soon"), role: "tab", "aria-selected": String(l.id === cur.id),
+      onclick: () => go(`#/c/${cid}/lv/${l.id}`) },
+      h("b", {}, l.id), h("span", { class: "small" }, st ? `${num(st.done)}/${num(st.total)}` : t("soon")));
+  }));
+  let body;
+  if (!cur.units.length) body = h("div", { class: "level soon" }, h("div", { class: "level-head" }, h("h2", {}, cur.id + " · " + cur.name), h("span", { class: "pill" }, t("soon"))), h("div", { class: "muted" }, cur.outline));
+  else {
+    const st = levelStats(c, cur, p);
+    body = h("div", { class: "level", id: "lv-" + cur.id },
+      h("div", { class: "level-head" }, h("h2", {}, cur.id + " · " + cur.name), h("span", { class: "muted" }, `${num(st.done)}/${num(st.total)} ${t("unitsDone")}`)),
+      h("div", { class: "progressbar" }, h("i", { style: { width: Math.round(100 * st.done / st.total) + "%", background: c.color } })),
+      h("div", { class: "unitpath" }, cur.units.map(un => {
+        const key = keyOf(cur.id, un.id);
         const ls = lessonIds(un);
         const doneN = ls.filter(l => p.lessons[lkey(cid, key, l)]).length;
         const best = p.lessons[lkey(cid, key, "test")]?.best || 0;
         const complete = doneN === ls.length;
-        let cls = "unit" + (complete ? " done" : "");
-        if (!complete && !nextMarked && (doneN > 0 || !anyStarted)) { cls += " next"; nextMarked = true; }
+        const cls = "unit" + (complete ? " done" : "") + (next && next.key === key ? " next" : "");
         const stars = best >= .9 ? 3 : best >= .7 ? 2 : best > 0 ? 1 : 0;
         return h("a", { class: cls, href: `#/c/${cid}/u/${key}` },
-          h("div", { class: "pic" }, un.img || un.emoji ? pic(un.img, un.emoji, "", 46) : h("b", {}, lv.id)),
-          h("div", {}, h("div", { class: "sub" }, `${lv.id} · ${t("unit")} ${num(k + first)}`), h("h3", {}, T(un.title.t)), h("div", { class: "sub" }, un.title.s)),
+          h("div", { class: "pic" }, un.img || un.emoji ? pic(un.img, un.emoji, "", 46) : h("b", {}, cur.id)),
+          h("div", {}, h("div", { class: "sub" }, `${cur.id} · ${t("unit")} ${num(unitNo(cur, un))}`), h("h3", {}, T(un.title.t)), h("div", { class: "sub" }, un.title.s)),
           h("div", { class: "stars" }, complete ? (stars ? "★".repeat(stars) : "✓") : `${num(doneN)}/${num(ls.length)}`));
       })));
-  });
-  const jump = c.levels.filter(l => l.units.length).length > 1
-    ? h("div", { class: "tabs" }, c.levels.filter(l => l.units.length).map(l => h("button", { onclick: () => document.getElementById("lv-" + l.id)?.scrollIntoView({ behavior: "smooth" }) }, l.id + " · " + l.name)))
-    : null;
+  }
   app.replaceChildren(
     topbar(`${c.name.t} · ${c.name.s}`, "#/", h("a", { class: "iconbtn", href: `#/c/${cid}/words`, "aria-label": t("wordbank") }, "📒")),
-    jump,
+    continueCard(c, p),
     h("a", { class: "lesson", href: `#/c/${cid}/review` },
       h("div", { class: "ico" }, "🔁"), h("div", {}, h("b", {}, t("review")), h("span", { class: "muted small" }, t("reviewDesc"))),
       h("div", { class: "chip" }, num(due))),
-    offlineCard(c),
-    ...levels);
+    tabs, body,
+    offlineCard(c));
+  app.querySelector(".tabs .on")?.scrollIntoView({ block: "nearest", inline: "center" });
 }
 function lessonIds(un) {
   // same logic as lessonsFor() but from the index summary
@@ -194,12 +244,17 @@ async function viewUnit(cid, key) {
   const idx = await index(); const c = courseMeta(cid); useCourse(c);
   const un = await unit(cid, key);
   const { level } = parseKey(key);
+  store.setPref("lv:" + cid, level);
   const p = store.progress();
   const L = lessonsFor(un);
   const lv = c.levels.find(l => l.id === level);
-  const k = lv.units.findIndex(x => x.id === un.id) + (lv.units[0]?.id === "u00" ? 0 : 1);
+  const k = unitNo(lv, un);
+  const firstOpen = L.find(l => !p.lessons[lkey(cid, key, l)]);
+  const refs = allUnitRefs(c); const i = refs.findIndex(r => r.key === key);
+  const nav = (r, label, cls) => r ? h("a", { class: "btn secondary " + cls, href: `#/c/${cid}/u/${r.key}` },
+    h("span", { class: "small" }, label), h("b", {}, `${r.level} · ${num(unitNo(c.levels.find(l => l.id === r.level), r.un))}`)) : h("span");
   app.replaceChildren(
-    topbar(`${level} · ${t("unit")} ${num(k)}`, `#/c/${cid}`),
+    topbar(`${c.name.t} · ${level} · ${t("unit")} ${num(k)}`, `#/c/${cid}/lv/${level}`),
     h("div", { class: "card unithero" }, un.img || un.emoji ? pic(un.img, un.emoji, "", 96) : h("div", { class: "badge", style: { fontSize: "2rem", fontWeight: 900, color: "var(--accent)" } }, level),
       h("div", {}, h("h1", {}, T(un.title.t)), un.title.pr ? h("div", { class: "pr", dir: "ltr" }, un.title.pr) : null, h("div", { class: "muted", style: { fontSize: "1.1rem" } }, un.title.s), sayBtn(un.title.a, { small: true }))),
     h("h2", {}, t("goals")),
@@ -208,11 +263,12 @@ async function viewUnit(cid, key) {
     h("div", { class: "lessons" }, L.map(l => {
       const st = p.lessons[lkey(cid, key, l)];
       const stars = st ? (st.best >= .9 ? 3 : st.best >= .7 ? 2 : 1) : 0;
-      return h("a", { class: "lesson" + (st ? " done" : ""), href: `#/c/${cid}/u/${key}/l/${l}` },
+      return h("a", { class: "lesson" + (st ? " done" : "") + (l === firstOpen ? " next" : ""), href: `#/c/${cid}/u/${key}/l/${l}` },
         h("div", { class: "ico" }, LESSON_ICONS[l]),
         h("div", {}, h("b", {}, t("L_" + l)), h("span", { class: "muted small" }, t("D_" + l))),
         h("div", { class: "stars" }, st ? "★".repeat(stars) + "☆".repeat(3 - stars) : "▶"));
-    })));
+    })),
+    h("div", { class: "unitnav" }, nav(refs[i - 1], t("prevUnit"), "prev"), nav(refs[i + 1], t("nextUnit"), "nextu")));
 }
 
 async function viewLesson(cid, key, lid) {
@@ -220,6 +276,7 @@ async function viewLesson(cid, key, lid) {
   const un = await unit(cid, key);
   const steps = buildLesson(cid, un, lid, c.target);
   const L = lessonsFor(un);
+  store.setPref("pos:" + cid, { key, lid }); store.setPref("lastCourse", cid);
   runLesson(app, steps, {
     target: c.target,
     onDone: score => { store.finishLesson(lkey(cid, key, lid), score); store.addXp(10 + Math.round(score * 10)); store.scheduleSync(300); },
@@ -309,6 +366,7 @@ async function route() {
       if (parts[2] === "words") return await viewWords(parts[1]);
       if (parts[2] === "u" && parts[4] === "l") return await viewLesson(parts[1], parts[3], parts[5]);
       if (parts[2] === "u") return await viewUnit(parts[1], parts[3]);
+      if (parts[2] === "lv") return await viewCourse(parts[1], parts[3]);
       return await viewCourse(parts[1]);
     }
     return await viewHome();

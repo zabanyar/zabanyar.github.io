@@ -1,0 +1,813 @@
+{
+  "id": "u04",
+  "level": "C1",
+  "emoji": "🤝",
+  "title": {
+    "t": "Society and social change",
+    "s": "جامعه و تغییرات اجتماعی",
+    "pr": "سِسایِتی اَند سُوشِل چِینْج"
+  },
+  "goals": [
+    "می‌توانم درباره‌ی نابرابری، مهاجرت، شهرنشینی و سالمند شدن جمعیت مستدل و دقیق بحث کنم.",
+    "می‌توانم شرطی‌های پیشرفته (Should you …، Were I to …، But for …، Provided that، Unless) را بفهمم و به کار ببرم.",
+    "می‌توانم با وجه التزامی (I suggest that he be …، It is essential that she attend …) پیشنهادها و الزام‌های رسمی را بیان کنم.",
+    "می‌توانم یک مقاله‌ی نظری درباره‌ی یک مسئله‌ی اجتماعی را دنبال کنم و درباره‌اش نظر بدهم."
+  ],
+  "words": [
+    {
+      "id": "w01",
+      "t": "inequality",
+      "pl": "inequalities",
+      "s": "نابرابری",
+      "pr": "اینیکْوالِتی",
+      "emoji": "",
+      "ex": {
+        "t": "Income inequality has grown in many countries.",
+        "s": "نابرابری درآمد در بسیاری از کشورها بیشتر شده است.",
+        "pr": "اینْکام اینیکْوالِتی هَز گْرُون این مِنی کانْتْریز."
+      }
+    },
+    {
+      "id": "w02",
+      "t": "urbanization",
+      "s": "شهرنشینی",
+      "pr": "اِرْبِنِزِیشِن",
+      "emoji": "🏙️",
+      "ex": {
+        "t": "Rapid urbanization has changed village life in Iran.",
+        "s": "شهرنشینی سریع زندگی روستایی را در ایران تغییر داده است.",
+        "pr": "رَپید اِرْبِنِزِیشِن هَز چِینْجْد ویلِج لایف این ایران."
+      }
+    },
+    {
+      "id": "w03",
+      "t": "aging population",
+      "s": "جمعیت رو به سالمندی",
+      "pr": "اِیجینگ پاپْیِلِیشِن",
+      "emoji": "",
+      "ex": {
+        "t": "Germany faces the challenges of an aging population.",
+        "s": "آلمان با چالش‌های جمعیتی رو به سالمندی روبه‌روست.",
+        "pr": "جِرْمِنی فِیْسِز ذِ چَلِنْجِز آو اِن اِیجینگ پاپْیِلِیشِن."
+      }
+    },
+    {
+      "id": "w04",
+      "t": "emigrate",
+      "s": "مهاجرت کردن (از کشور خود)",
+      "pr": "اِمِگْرِیت",
+      "emoji": "",
+      "ex": {
+        "t": "Many young graduates emigrate in search of better opportunities.",
+        "s": "بسیاری از فارغ‌التحصیلان جوان در جست‌وجوی فرصت‌های بهتر مهاجرت می‌کنند.",
+        "pr": "مِنی یانگ گْرَجوئِتْس اِمِگْرِیت این سِرْچ آو بِتِر آپِرْتونِتیز."
+      }
+    },
+    {
+      "id": "w05",
+      "t": "integrate into",
+      "s": "جذب (جامعه‌ای) شدن، ادغام شدن در",
+      "pr": "اینْتِگْرِیت اینْتو",
+      "emoji": "",
+      "ex": {
+        "t": "It took my parents years to integrate into German society.",
+        "s": "سال‌ها طول کشید تا پدر و مادرم جذب جامعه‌ی آلمان شوند.",
+        "pr": "ایت توک مای پِرِنْتْس ییرْز تو اینْتِگْرِیت اینْتو جِرْمِن سِسایِتی."
+      }
+    },
+    {
+      "id": "w06",
+      "t": "grassroots",
+      "s": "مردمی، از پایین (نه از طرف دولت)",
+      "pr": "گْرَس‌روتْس",
+      "emoji": "",
+      "ex": {
+        "t": "The campaign began as a small grassroots movement.",
+        "s": "این کارزار به‌عنوان یک جنبش کوچک مردمی شروع شد.",
+        "pr": "ذِ کَمْپِین بیگَن اَز اِ سْمال گْرَس‌روتْس موومِنت."
+      }
+    },
+    {
+      "id": "w07",
+      "t": "prejudice",
+      "s": "تعصب، پیش‌داوری",
+      "pr": "پْرِجِدِس",
+      "emoji": "",
+      "ex": {
+        "t": "Education is one of the best weapons against prejudice.",
+        "s": "آموزش یکی از بهترین سلاح‌ها در برابر تعصب است.",
+        "pr": "اِجِکِیشِن ایز وان آو ذِ بِسْت وِپِنْز اِگِنْسْت پْرِجِدِس."
+      }
+    },
+    {
+      "id": "w08",
+      "t": "welfare",
+      "s": "رفاه (اجتماعی)؛ کمک‌های تأمین اجتماعی",
+      "pr": "وِلْفِر",
+      "emoji": "",
+      "ex": {
+        "t": "The welfare system supports people who lose their jobs.",
+        "s": "نظام رفاه اجتماعی از کسانی که کارشان را از دست می‌دهند حمایت می‌کند.",
+        "pr": "ذِ وِلْفِر سیسْتِم سِپُرْتْس پیپِل هو لوز ذِر جابْز."
+      }
+    },
+    {
+      "id": "w09",
+      "t": "generation gap",
+      "s": "شکاف نسلی",
+      "pr": "جِنِرِیشِن گَپ",
+      "emoji": "",
+      "ex": {
+        "t": "The generation gap is especially visible in how we use technology.",
+        "s": "شکاف نسلی به‌ویژه در نحوه‌ی استفاده‌ی ما از فناوری دیده می‌شود.",
+        "pr": "ذِ جِنِرِیشِن گَپ ایز ایسْپِشِلی ویزِبِل این هاو وی یوز تِکْنالِجی."
+      }
+    },
+    {
+      "id": "w10",
+      "t": "social mobility",
+      "s": "تحرک اجتماعی (امکان بالا رفتن از نظر اجتماعی و اقتصادی)",
+      "pr": "سُوشِل مُوبیلِتی",
+      "emoji": "",
+      "ex": {
+        "t": "Good public schools increase social mobility.",
+        "s": "مدرسه‌های دولتی خوب تحرک اجتماعی را افزایش می‌دهند.",
+        "pr": "گود پابْلیک سْکولْز اینْکْریس سُوشِل مُوبیلِتی."
+      }
+    },
+    {
+      "id": "w11",
+      "t": "marginalized",
+      "s": "به حاشیه رانده‌شده",
+      "pr": "مارْجِنِلایْزْد",
+      "emoji": "",
+      "ex": {
+        "t": "The project gives a voice to marginalized communities.",
+        "s": "این پروژه به گروه‌های به حاشیه رانده‌شده امکان می‌دهد صدایشان شنیده شود.",
+        "pr": "ذِ پْراجِکْت گیوْز اِ وُیْس تو مارْجِنِلایْزْد کِمیونِتیز."
+      }
+    },
+    {
+      "id": "w12",
+      "t": "activist",
+      "pl": "activists",
+      "s": "فعال (اجتماعی، مدنی)",
+      "pr": "اَکْتِوِسْت",
+      "emoji": "",
+      "ex": {
+        "t": "Environmental activists organized a peaceful protest.",
+        "s": "فعالان محیط زیست یک اعتراض مسالمت‌آمیز برگزار کردند.",
+        "pr": "اِنْوایْرِنْمِنْتِل اَکْتِوِسْتْس اُرْگِنایْزْد اِ پیسْفِل پْرُوتِسْت."
+      }
+    },
+    {
+      "id": "w13",
+      "t": "bring about",
+      "s": "ایجاد کردن، به وجود آوردن (تغییر)",
+      "pr": "بْرینگ اِباوت",
+      "emoji": "",
+      "ex": {
+        "t": "Ordinary people can bring about real change.",
+        "s": "مردم عادی می‌توانند تغییر واقعی ایجاد کنند.",
+        "pr": "اُرْدِنِری پیپِل کَن بْرینگ اِباوت ریل چِینْج."
+      }
+    },
+    {
+      "id": "w14",
+      "t": "affordable housing",
+      "s": "مسکن مقرون‌به‌صرفه",
+      "pr": "اِفُرْدِبِل هاوزینگ",
+      "emoji": "🏘️",
+      "ex": {
+        "t": "Young couples are struggling to find affordable housing.",
+        "s": "زوج‌های جوان برای پیدا کردن مسکن مقرون‌به‌صرفه به زحمت افتاده‌اند.",
+        "pr": "یانگ کاپِلْز آر سْتْراگْلینگ تو فایْنْد اِفُرْدِبِل هاوزینگ."
+      }
+    },
+    {
+      "id": "w15",
+      "t": "norm",
+      "pl": "norms",
+      "s": "هنجار",
+      "pr": "نُرْم",
+      "emoji": "",
+      "ex": {
+        "t": "Social norms around marriage have changed a lot in the last fifty years.",
+        "s": "هنجارهای اجتماعی درباره‌ی ازدواج در پنجاه سال گذشته خیلی تغییر کرده‌اند.",
+        "pr": "سُوشِل نُرْمْز اِراوند مَریج هَو چِینْجْد اِ لات این ذِ لَسْت فیفْتی ییرْز."
+      }
+    }
+  ],
+  "phrases": [
+    {
+      "id": "p01",
+      "t": "It goes without saying that …",
+      "s": "ناگفته پیداست که …",
+      "pr": "ایت گُوز ویذاوت سِیینگ ذَت"
+    },
+    {
+      "id": "p02",
+      "t": "On the one hand, … On the other hand, …",
+      "s": "از یک طرف … از طرف دیگر …",
+      "pr": "آن ذِ وان هَند… آن ذی آذِر هَند"
+    },
+    {
+      "id": "p03",
+      "t": "It's a double-edged sword.",
+      "s": "شمشیری دولبه است.",
+      "pr": "ایتْس اِ دابِل اِجْد سُرْد."
+    },
+    {
+      "id": "p04",
+      "t": "It's a complex issue.",
+      "s": "موضوع پیچیده‌ای است.",
+      "pr": "ایتْس اِ کامْپْلِکْس ایشو."
+    },
+    {
+      "id": "p05",
+      "t": "Times have changed.",
+      "s": "زمانه عوض شده است.",
+      "pr": "تایْمْز هَو چِینْجْد."
+    },
+    {
+      "id": "p06",
+      "t": "As far as I'm concerned, …",
+      "s": "از نظر من، …",
+      "pr": "اَز فار اَز آیم کِنْسِرْنْد"
+    },
+    {
+      "id": "p07",
+      "t": "We can't turn back the clock.",
+      "s": "نمی‌توانیم زمان را به عقب برگردانیم.",
+      "pr": "وی کَنْت تِرْن بَک ذِ کْلاک."
+    }
+  ],
+  "dialogue": {
+    "title": {
+      "t": "The old factory",
+      "s": "کارخانه‌ی قدیمی",
+      "pr": "ذی اُولْد فَکْتِری"
+    },
+    "speakers": {
+      "A": {
+        "name": "Maryam",
+        "voice": "f"
+      },
+      "B": {
+        "name": "Ali",
+        "voice": "m"
+      }
+    },
+    "lines": [
+      {
+        "sp": "A",
+        "t": "Have you read the city council's proposal for the old textile factory?",
+        "s": "پیشنهاد شورای شهر را درباره‌ی کارخانه‌ی نساجی قدیمی خوانده‌ای؟",
+        "pr": "هَو یو رِد ذِ سیتی کاونْسِلز پْرِپُوزِل فُر ذی اُولْد تِکْسْتایْل فَکْتِری؟"
+      },
+      {
+        "sp": "B",
+        "t": "I have. They're planning to turn it into affordable housing and a community center. Should it go ahead, it would transform the neighborhood.",
+        "s": "بله. می‌خواهند آن را به مسکن مقرون‌به‌صرفه و یک مرکز محله تبدیل کنند. اگر اجرا شود، محله را متحول می‌کند.",
+        "pr": "آی هَو. ذِر پْلَنینگ تو تِرْن ایت اینْتو اِفُرْدِبِل هاوزینگ اَند اِ کِمیونِتی سِنْتِر. شود ایت گُو اِهِد، ایت وود تْرَنْسْفُرْم ذِ نِیبِرْهود."
+      },
+      {
+        "sp": "A",
+        "t": "In theory, yes. But were rents to rise around it, many local families would be pushed out.",
+        "s": "در تئوری، بله. ولی اگر اجاره‌های اطرافش بالا برود، خیلی از خانواده‌های محل مجبور به رفتن می‌شوند.",
+        "pr": "این ثیئِری، یِس. بات وِر رِنْتْس تو رایْز اِراوند ایت، مِنی لُوکِل فَمِلیز وود بی پوشْت آوت."
+      },
+      {
+        "sp": "B",
+        "t": "That's a fair concern. That's why the residents' group insists that the council publish a clear rent policy first.",
+        "s": "نگرانی به‌جایی است. برای همین گروه ساکنان اصرار دارد که شورا اول یک سیاست روشن درباره‌ی اجاره‌ها منتشر کند.",
+        "pr": "ذَتْس اِ فِر کِنْسِرْن. ذَتْس وای ذِ رِزِدِنْتْس گْروپ اینْسیسْتْس ذَت ذِ کاونْسِل پابْلیش اِ کْلیر رِنْت پالِسی فِرْسْت."
+      },
+      {
+        "sp": "A",
+        "t": "Good. And I'd suggest that at least a third of the apartments be reserved for young families.",
+        "s": "خوب است. من هم پیشنهاد می‌کنم که دست‌کم یک‌سوم آپارتمان‌ها برای خانواده‌های جوان در نظر گرفته شود.",
+        "pr": "گود. اَند آید سِگْجِسْت ذَت اَت لیسْت اِ ثِرْد آو ذی اِپارْتْمِنْتْس بی ریزِرْوْد فُر یانگ فَمِلیز."
+      },
+      {
+        "sp": "B",
+        "t": "As far as I'm concerned, that's essential. But for the grassroots campaign, the building would have become a parking lot.",
+        "s": "از نظر من، این ضروری است. اگر کارزار مردمی نبود، این ساختمان پارکینگ شده بود.",
+        "pr": "اَز فار اَز آیم کِنْسِرْنْد، ذَتْس ایسِنْشِل. بات فُر ذِ گْرَس‌روتْس کَمْپِین، ذِ بیلْدینگ وود هَو بیکام اِ پارْکینگ لات."
+      },
+      {
+        "sp": "A",
+        "t": "Really? I had no idea it was that close.",
+        "s": "جدی؟ نمی‌دانستم تا این حد به پارکینگ شدنش نزدیک بوده.",
+        "pr": "ریلی؟ آی هَد نُو آیدیا ایت واز ذَت کْلُوس."
+      },
+      {
+        "sp": "B",
+        "t": "It was. The developers had already submitted their plans.",
+        "s": "بله. سازنده‌ها حتی نقشه‌هایشان را هم تحویل داده بودند.",
+        "pr": "ایت واز. ذِ دیوِلِپِرْز هَد آلْرِدی سِبْمیتِد ذِر پْلَنْز."
+      },
+      {
+        "sp": "A",
+        "t": "Well, I'll support the project provided that residents are consulted at every stage.",
+        "s": "خب، من از این طرح حمایت می‌کنم، به شرط اینکه در هر مرحله با ساکنان مشورت شود.",
+        "pr": "وِل، آیل سِپُرْت ذِ پْراجِکْت پْرِوایدِد ذَت رِزِدِنْتْس آر کِنْسالْتِد اَت اِوْری سْتِیج."
+      },
+      {
+        "sp": "B",
+        "t": "So will I. Unless people speak up now, the decisions will be made without them.",
+        "s": "من هم همین‌طور. اگر مردم همین حالا صدایشان را بلند نکنند، تصمیم‌ها بدون آن‌ها گرفته می‌شود.",
+        "pr": "سُو ویل آی. اِنْلِس پیپِل سْپیک آپ ناو، ذِ دیسیژِنْز ویل بی مِید ویذاوت ذِم."
+      },
+      {
+        "sp": "A",
+        "t": "Then let's go to the public meeting on Thursday.",
+        "s": "پس بیا پنجشنبه به جلسه‌ی عمومی برویم.",
+        "pr": "ذِن لِتْس گُو تو ذِ پابْلیک میتینگ آن ثِرْزْدِی."
+      },
+      {
+        "sp": "B",
+        "t": "Definitely. It goes without saying that we should bring our neighbors, too.",
+        "s": "حتماً. ناگفته پیداست که همسایه‌هایمان را هم باید با خودمان ببریم.",
+        "pr": "دِفِنِتْلی. ایت گُوز ویذاوت سِیینگ ذَت وی شود بْرینگ آوِر نِیبِرْز، تو."
+      }
+    ]
+  },
+  "grammar": [
+    {
+      "id": "g01",
+      "title": {
+        "t": "Advanced conditionals: should, were to, but for, provided that, unless",
+        "s": "شرطی‌های پیشرفته",
+        "pr": "اِدْوَنْسْت کِنْدیشِنِلْز: شود، وِر تو، بات فُر، پْرِوایدِد ذَت، اِنْلِس"
+      },
+      "explain": "شرطی‌های نوع اول تا سوم و شرطی‌های مختلط را می‌شناسید. در انگلیسی رسمی چند راه دیگر هم برای بیان شرط هست:\n**Should + فاعل + فعل ساده** (به‌جای If … should): شرطی که احتمالش زیاد نیست، بسیار رایج در نامه‌ها و اطلاعیه‌های رسمی: **Should you have any questions, please contact us.** (چنانچه سؤالی داشتید، …)\n**Were + فاعل + to + فعل** (به‌جای If … were to): موقعیت فرضی و بعید: **Were the government to raise taxes, there would be protests.** بدون to هم با be می‌آید: **Were I you, I would wait.** (اگر جای تو بودم …)\n**Had + فاعل + قسمت سوم** (به‌جای If … had): **Had we known, we would have helped.**\nدر این سه ساخت وارونه دیگر **if** نمی‌آوریم، و حالت منفی‌شان بدون اختصار است: **Had we not known …** (نه Hadn't we known).\n**But for + اسم** = اگر … نبود: **But for your help, we would have failed.** (اگر کمک تو نبود، شکست می‌خوردیم.)\n**provided (that) / providing (that) / as long as** = به شرط اینکه؛ بعد از آن‌ها برای آینده زمان حال می‌آید: **I'll agree provided that everyone is consulted.**\n**unless** = مگر اینکه، اگر … نه. فعل بعد از unless مثبت است: **Unless we act now, it will be too late.** (نه Unless we don't act).",
+      "table": [
+        [
+          "Should you need help, …",
+          "If you should need help, …"
+        ],
+        [
+          "Were I to accept, …",
+          "If I were to accept, …"
+        ],
+        [
+          "Had they known, …",
+          "If they had known, …"
+        ],
+        [
+          "But for the rain, …",
+          "If it hadn't been for the rain, …"
+        ],
+        [
+          "Provided that you agree, …",
+          "On condition that you agree, …"
+        ],
+        [
+          "Unless you hurry, …",
+          "If you don't hurry, …"
+        ]
+      ],
+      "examples": [
+        {
+          "t": "Should you need any further information, please do not hesitate to contact us.",
+          "s": "چنانچه به اطلاعات بیشتری نیاز داشتید، لطفاً بی‌درنگ با ما تماس بگیرید.",
+          "pr": "شود یو نید اِنی فِرْذِر اینْفِرْمِیشِن، پْلیز دو نات هِزِتِیت تو کانْتَکْت آس."
+        },
+        {
+          "t": "Were the minimum wage to double, many small businesses would struggle.",
+          "s": "اگر حداقل دستمزد دو برابر می‌شد، بسیاری از کسب‌وکارهای کوچک به مشکل می‌خوردند.",
+          "pr": "وِر ذِ مینِمِم وِیج تو دابِل، مِنی سْمال بیزْنِسِز وود سْتْراگِل."
+        },
+        {
+          "t": "But for the support of volunteers, the shelter would have closed years ago.",
+          "s": "اگر حمایت داوطلبان نبود، این سرپناه سال‌ها پیش تعطیل شده بود.",
+          "pr": "بات فُر ذِ سِپُرْت آو والِنْتیرْز، ذِ شِلْتِر وود هَو کْلُوزْد ییرْز اِگُو."
+        },
+        {
+          "t": "You can join the program provided that you live in the city.",
+          "s": "به شرط اینکه ساکن شهر باشید، می‌توانید در این برنامه شرکت کنید.",
+          "pr": "یو کَن جُین ذِ پْرُوگْرَم پْرِوایدِد ذَت یو لیو این ذِ سیتی."
+        },
+        {
+          "t": "Unless housing becomes more affordable, young people will keep leaving.",
+          "s": "اگر مسکن ارزان‌تر نشود، جوان‌ها همچنان از اینجا می‌روند.",
+          "pr": "اِنْلِس هاوزینگ بیکامْز مُر اِفُرْدِبِل، یانگ پیپِل ویل کیپ لیوینگ."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "choice",
+          "t": "___ you require assistance, please speak to a member of staff.",
+          "options": [
+            "Should",
+            "Would",
+            "Unless"
+          ],
+          "answer": 0,
+          "s": "چنانچه به کمک نیاز داشتید، لطفاً با یکی از کارکنان صحبت کنید.",
+          "pr": "شود یو ریکْوایِر اِسیسْتِنْس، پْلیز سْپیک تو اِ مِمْبِر آو سْتَف."
+        },
+        {
+          "type": "choice",
+          "t": "___ the government to ban cars in the city center, air quality would improve.",
+          "options": [
+            "Were",
+            "Was",
+            "If"
+          ],
+          "answer": 0,
+          "s": "اگر دولت تردد خودرو را در مرکز شهر ممنوع می‌کرد، کیفیت هوا بهتر می‌شد.",
+          "pr": "وِر ذِ گاوِرْنْمِنت تو بَن کارْز این ذِ سیتی سِنْتِر، اِر کْوالِتی وود ایمْپْروو."
+        },
+        {
+          "type": "type",
+          "t": "___ for her courage, the truth would never have come out.",
+          "answer": [
+            "But"
+          ],
+          "s": "اگر شجاعت او نبود، حقیقت هرگز آشکار نمی‌شد.",
+          "pr": "بات فُر هِر کِرِج، ذِ تْروث وود نِوِر هَو کام آوت."
+        },
+        {
+          "type": "choice",
+          "t": "I'll lend you the money ___ you pay me back by the end of the month.",
+          "options": [
+            "provided that",
+            "unless",
+            "in case of"
+          ],
+          "answer": 0,
+          "s": "پول را به تو قرض می‌دهم، به شرط اینکه تا آخر ماه پس بدهی.",
+          "pr": "آیل لِند یو ذِ مانی پْرِوایدِد ذَت یو پِی میْ بَک بای ذی اِند آو ذِ مانْث."
+        },
+        {
+          "type": "type",
+          "t": "___ we act now, the problem will only get worse.",
+          "answer": [
+            "Unless"
+          ],
+          "s": "اگر همین حالا اقدام نکنیم، مشکل فقط بدتر می‌شود.",
+          "pr": "اِنْلِس وی اَکْت ناو، ذِ پْرابْلِم ویل اُونْلی گِت وِرْس."
+        },
+        {
+          "type": "order",
+          "t": "Had I known, I would have helped.",
+          "s": "اگر می‌دانستم، کمک می‌کردم.",
+          "pr": "هَد آی نُون، آی وود هَو هِلْپْت.",
+          "alts": [
+            "I would have helped had I known."
+          ]
+        },
+        {
+          "type": "choice",
+          "t": "Were I ___ the job, I would have to move to another city.",
+          "options": [
+            "to accept",
+            "accept",
+            "accepting"
+          ],
+          "answer": 0,
+          "s": "اگر این شغل را می‌پذیرفتم، مجبور بودم به شهر دیگری نقل‌مکان کنم.",
+          "pr": "وِر آی تو اِکْسِپْت ذِ جاب، آی وود هَو تو موو تو اِناذِر سیتی."
+        },
+        {
+          "type": "order",
+          "t": "Should you change your mind, call me.",
+          "s": "اگر نظرت عوض شد، به من زنگ بزن.",
+          "pr": "شود یو چِینْج یور مایْنْد، کال میْ.",
+          "alts": [
+            "Call me should you change your mind."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "g02",
+      "title": {
+        "t": "The subjunctive after suggest, insist and essential",
+        "s": "وجه التزامی (subjunctive)",
+        "pr": "ذِ سِبْجانْکْتیو اَفْتِر سِگْجِسْت، اینْسیسْت اَند ایسِنْشِل"
+      },
+      "explain": "بعد از بعضی فعل‌ها و صفت‌ها که **پیشنهاد، درخواست، اصرار، الزام یا اهمیت** را نشان می‌دهند، در بند **that** از **شکل ساده‌ی فعل** استفاده می‌کنیم: بدون to، بدون s سوم‌شخص و بدون تغییر زمان. به این **subjunctive** (وجه التزامی) می‌گویند: **I suggest that he be more careful.** (پیشنهاد می‌کنم بیشتر مراقب باشد.) نه he is یا he will be.\nفعل‌ها: **suggest, recommend, insist, demand, propose, request, ask**؛ صفت‌ها: **It is essential / vital / important / crucial / necessary that …**\nفعل بند that همان شکل ساده می‌ماند، حتی اگر جمله‌ی اصلی گذشته باشد: **They insisted that she attend the meeting.** (نه attended)\nمنفی: **not + فعل ساده** (بدون do): **We recommend that he not travel alone.**\nمجهول: **be + قسمت سوم**: **It is vital that the rules be followed.**\nاین ساخت در انگلیسی آمریکایی و در زبان رسمی بسیار رایج است؛ در انگلیسی بریتانیایی اغلب **should** هم می‌آورند: **I suggest that he should be more careful.** جالب اینکه فارسی هم اینجا التزامی به کار می‌برد: «پیشنهاد می‌کنم مراقب **باشد**»، «ضروری است همه **شرکت کنند**».",
+      "table": [
+        [
+          "I suggest that he",
+          "be more careful."
+        ],
+        [
+          "She insisted that we",
+          "stay for dinner."
+        ],
+        [
+          "It is essential that everyone",
+          "attend the meeting."
+        ],
+        [
+          "We recommend that he",
+          "not travel alone."
+        ],
+        [
+          "It is vital that the rules",
+          "be followed."
+        ]
+      ],
+      "examples": [
+        {
+          "t": "The committee recommended that the law be changed.",
+          "s": "کمیته توصیه کرد که قانون تغییر کند.",
+          "pr": "ذِ کِمیتی رِکِمِنْدِد ذَت ذِ لا بی چِینْجْد."
+        },
+        {
+          "t": "It is essential that every child have access to education.",
+          "s": "ضروری است که هر کودکی به آموزش دسترسی داشته باشد.",
+          "pr": "ایت ایز ایسِنْشِل ذَت اِوْری چایلْد هَو اَکْسِس تو اِجِکِیشِن."
+        },
+        {
+          "t": "My grandmother insisted that we stay for dinner.",
+          "s": "مادربزرگم اصرار کرد که برای شام بمانیم.",
+          "pr": "مای گْرَنْدْماذِر اینْسیسْتِد ذَت وی سْتِی فُر دینِر."
+        },
+        {
+          "t": "The residents demanded that the factory not be demolished.",
+          "s": "ساکنان خواستار آن شدند که کارخانه تخریب نشود.",
+          "pr": "ذِ رِزِدِنْتْس دیمَنْدِد ذَت ذِ فَکْتِری نات بی دیمالیشْت."
+        },
+        {
+          "t": "I'd suggest that she speak to a lawyer first.",
+          "s": "پیشنهاد می‌کنم اول با یک وکیل صحبت کند.",
+          "pr": "آید سِگْجِسْت ذَت شی سْپیک تو اِ لُیِر فِرْسْت."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "choice",
+          "t": "It is essential that the report ___ finished by Friday.",
+          "options": [
+            "be",
+            "to be",
+            "being"
+          ],
+          "answer": 0,
+          "s": "ضروری است که گزارش تا جمعه تمام شود.",
+          "pr": "ایت ایز ایسِنْشِل ذَت ذِ ریپُرْت بی فینیشْت بای فْرایدِی."
+        },
+        {
+          "type": "choice",
+          "t": "She insisted that he ___ the truth.",
+          "options": [
+            "tell",
+            "to tell",
+            "telling"
+          ],
+          "answer": 0,
+          "s": "اصرار کرد که او حقیقت را بگوید.",
+          "pr": "شی اینْسیسْتِد ذَت هی تِل ذِ تْروث."
+        },
+        {
+          "type": "type",
+          "t": "The manager demanded that the problem ___ solved immediately.",
+          "answer": [
+            "be",
+            "should be"
+          ],
+          "s": "مدیر خواست که مشکل فوراً حل شود.",
+          "pr": "ذِ مَنِجِر دیمَنْدِد ذَت ذِ پْرابْلِم بی سالْوْد ایمیدیِتْلی."
+        },
+        {
+          "type": "type",
+          "t": "It is vital that everyone ___ the safety rules.",
+          "answer": [
+            "follow",
+            "should follow",
+            "obey",
+            "should obey",
+            "observe",
+            "should observe"
+          ],
+          "s": "حیاتی است که همه از قوانین ایمنی پیروی کنند.",
+          "pr": "ایت ایز وایتِل ذَت اِوْری‌وان فالُو ذِ سِیفْتی رولْز."
+        },
+        {
+          "type": "choice",
+          "t": "We recommend that children ___ use the pool without an adult.",
+          "options": [
+            "not",
+            "no",
+            "never to"
+          ],
+          "answer": 0,
+          "s": "توصیه می‌کنیم کودکان بدون همراهی یک بزرگسال از استخر استفاده نکنند.",
+          "pr": "وی رِکِمِنْد ذَت چیلْدْرِن نات یوز ذِ پول ویذاوت اِن اِدالْت."
+        },
+        {
+          "type": "order",
+          "t": "I suggest that he be more careful.",
+          "s": "پیشنهاد می‌کنم بیشتر مراقب باشد.",
+          "pr": "آی سِگْجِسْت ذَت هی بی مُر کِرْفِل."
+        },
+        {
+          "type": "choice",
+          "t": "It is crucial that she ___ informed as soon as possible.",
+          "options": [
+            "be",
+            "been",
+            "to be"
+          ],
+          "answer": 0,
+          "s": "بسیار مهم است که هرچه زودتر به او اطلاع داده شود.",
+          "pr": "ایت ایز کْروشِل ذَت شی بی اینْفُرْمْد اَز سون اَز پاسِبِل."
+        },
+        {
+          "type": "order",
+          "t": "They insisted that we stay for lunch.",
+          "s": "اصرار کردند که برای ناهار بمانیم.",
+          "pr": "ذِی اینْسیسْتِد ذَت وی سْتِی فُر لانْچ."
+        }
+      ]
+    }
+  ],
+  "reading": {
+    "title": {
+      "t": "Who will care for our parents?",
+      "s": "چه کسی از پدر و مادرهایمان مراقبت خواهد کرد؟",
+      "pr": "هو ویل کِر فُر آوِر پِرِنْتْس؟"
+    },
+    "text": [
+      {
+        "t": "Two generations ago, many Iranian grandparents lived with their children and grandchildren under one roof.",
+        "s": "دو نسل پیش، بسیاری از پدربزرگ‌ها و مادربزرگ‌های ایرانی با فرزندان و نوه‌هایشان زیر یک سقف زندگی می‌کردند.",
+        "pr": "تو جِنِرِیشِنْز اِگُو، مِنی ایرِینیِن گْرَنْدْپِرِنْتْس لیوْد ویذ ذِر چیلْدْرِن اَند گْرَنْدْچیلْدْرِن آندِر وان روف."
+      },
+      {
+        "t": "Today, rapid urbanization, smaller apartments, and emigration have changed that picture dramatically.",
+        "s": "امروز شهرنشینی سریع، آپارتمان‌های کوچک‌تر و مهاجرت این تصویر را به‌شدت تغییر داده‌اند.",
+        "pr": "تِدِی، رَپید اِرْبِنِزِیشِن، سْمالِر اِپارْتْمِنْتْس، اَند اِمِگْرِیشِن هَو چِینْجْد ذَت پیکْچِر دْرِمَتیکْلی."
+      },
+      {
+        "t": "Many older people now live alone, while their children work in other cities or abroad.",
+        "s": "بسیاری از سالمندان حالا تنها زندگی می‌کنند، در حالی که فرزندانشان در شهرهای دیگر یا خارج از کشور کار می‌کنند.",
+        "pr": "مِنی اُولْدِر پیپِل ناو لیو اِلُون، وایل ذِر چیلْدْرِن وِرْک این آذِر سیتیز اُر اِبْراد."
+      },
+      {
+        "t": "At the same time, Iran's population is among the fastest-aging in the world.",
+        "s": "در همین حال، جمعیت ایران از جمله جمعیت‌هایی است که در جهان با بیشترین سرعت رو به سالمندی می‌روند.",
+        "pr": "اَت ذِ سِیم تایم، ایرانز پاپْیِلِیشِن ایز اِمانگ ذِ فَسْتِسْت اِیجینگ این ذِ وِرْلْد."
+      },
+      {
+        "t": "Should this trend continue, a quarter of the population could be over sixty within thirty years.",
+        "s": "اگر این روند ادامه پیدا کند، ممکن است ظرف سی سال یک‌چهارم جمعیت بالای شصت سال باشند.",
+        "pr": "شود ذیس تْرِند کِنْتینْیو، اِ کْوُرْتِر آو ذِ پاپْیِلِیشِن کود بی اُووِر سیکْسْتی ویذین ثِرْتی ییرْز."
+      },
+      {
+        "t": "Some argue that the state should take responsibility and build more care homes.",
+        "s": "بعضی استدلال می‌کنند که دولت باید مسئولیت را بپذیرد و خانه‌های سالمندان بیشتری بسازد.",
+        "pr": "سام آرْگْیو ذَت ذِ سْتِیت شود تِیک ریسْپانْسِبیلِتی اَند بیلْد مُر کِر هُومْز."
+      },
+      {
+        "t": "Others insist that families remain the main source of care, as tradition demands.",
+        "s": "دیگران اصرار دارند که خانواده‌ها، همان‌طور که سنت ایجاب می‌کند، منبع اصلی مراقبت باقی بمانند.",
+        "pr": "آذِرْز اینْسیسْت ذَت فَمِلیز ریمِین ذِ مِین سُرْس آو کِر، اَز تْرِدیشِن دیمَنْدْز."
+      },
+      {
+        "t": "As far as I am concerned, neither solution will work on its own.",
+        "s": "از نظر من، هیچ‌کدام از این دو راه‌حل به‌تنهایی جواب نمی‌دهد.",
+        "pr": "اَز فار اَز آی اَم کِنْسِرْنْد، نیذِر سِلوشِن ویل وِرْک آن ایتْس اُون."
+      },
+      {
+        "t": "Were the government simply to build more care homes, many older people would feel abandoned.",
+        "s": "اگر دولت فقط خانه‌های سالمندان بیشتری می‌ساخت، بسیاری از سالمندان احساس می‌کردند رها شده‌اند.",
+        "pr": "وِر ذِ گاوِرْنْمِنت سیمْپْلی تو بیلْد مُر کِر هُومْز، مِنی اُولْدِر پیپِل وود فیل اِبَندِند."
+      },
+      {
+        "t": "But were families to carry the whole burden, many women would have to give up their careers, since they still do most of the caring.",
+        "s": "ولی اگر خانواده‌ها کل این بار را به دوش می‌کشیدند، بسیاری از زنان مجبور می‌شدند از شغلشان دست بکشند، چون هنوز بیشتر کار مراقبت با آن‌هاست.",
+        "pr": "بات وِر فَمِلیز تو کَری ذِ هُول بِرْدِن، مِنی ویمِن وود هَو تو گیو آپ ذِر کِریرْز، سینْس ذِی سْتیل دو مُوسْت آو ذِ کِرینگ."
+      },
+      {
+        "t": "A better approach would combine home visits by trained caregivers with financial support for families.",
+        "s": "رویکرد بهتر، بازدیدهای خانگی مراقبان آموزش‌دیده را با حمایت مالی از خانواده‌ها ترکیب می‌کند.",
+        "pr": "اِ بِتِر اِپْرُوچ وود کِمْباین هُوم ویزِتْس بای تْرِینْد کِرْگیوِرْز ویذ فِنَنْشِل سِپُرْت فُر فَمِلیز."
+      },
+      {
+        "t": "It is essential that such a system be planned now, not in twenty years.",
+        "s": "ضروری است که چنین نظامی همین حالا برنامه‌ریزی شود، نه بیست سال دیگر.",
+        "pr": "ایت ایز ایسِنْشِل ذَت ساچ اِ سیسْتِم بی پْلَنْد ناو، نات این تْوِنْتی ییرْز."
+      },
+      {
+        "t": "Unless we act soon, the generation that raised us may face old age alone.",
+        "s": "اگر زود دست به کار نشویم، ممکن است نسلی که ما را بزرگ کرد، در پیری تنها بماند.",
+        "pr": "اِنْلِس وی اَکْت سون، ذِ جِنِرِیشِن ذَت رِیزْد آس مِی فِیْس اُولْد اِیج اِلُون."
+      }
+    ],
+    "questions": [
+      {
+        "q": {
+          "t": "How did many grandparents live two generations ago?",
+          "s": "دو نسل پیش بسیاری از پدربزرگ‌ها و مادربزرگ‌ها چطور زندگی می‌کردند؟",
+          "pr": "هاو دید مِنی گْرَنْدْپِرِنْتْس لیو تو جِنِرِیشِنْز اِگُو؟"
+        },
+        "options": [
+          "alone in small apartments",
+          "with their children and grandchildren",
+          "in care homes"
+        ],
+        "answer": 1
+      },
+      {
+        "q": {
+          "t": "According to the text, what could happen within thirty years?",
+          "s": "طبق متن، ظرف سی سال چه اتفاقی ممکن است بیفتد؟",
+          "pr": "اِکُردینگ تو ذِ تِکْسْت، وات کود هَپِن ویذین ثِرْتی ییرْز؟"
+        },
+        "options": [
+          "A quarter of the population could be over sixty.",
+          "Most young people could return from abroad.",
+          "Care homes could disappear."
+        ],
+        "answer": 0
+      },
+      {
+        "q": {
+          "t": "What do some people want the state to do?",
+          "s": "بعضی‌ها از دولت می‌خواهند چه کند؟",
+          "pr": "وات دو سام پیپِل وانْت ذِ سْتِیت تو دو؟"
+        },
+        "options": [
+          "build more care homes",
+          "stop emigration",
+          "pay grandparents to move"
+        ],
+        "answer": 0
+      },
+      {
+        "q": {
+          "t": "What is the writer's opinion?",
+          "s": "نظر نویسنده چیست؟",
+          "pr": "وات ایز ذِ رایتِرز اِپینْیِن؟"
+        },
+        "options": [
+          "Families should do all the caring.",
+          "The state should do all the caring.",
+          "Neither solution will work on its own."
+        ],
+        "answer": 2
+      },
+      {
+        "q": {
+          "t": "Who would suffer if families carried the whole burden?",
+          "s": "اگر خانواده‌ها کل بار را به دوش می‌کشیدند، چه کسانی آسیب می‌دیدند؟",
+          "pr": "هو وود سافِر ایف فَمِلیز کَرید ذِ هُول بِرْدِن؟"
+        },
+        "options": [
+          "many women with careers",
+          "young children",
+          "trained caregivers"
+        ],
+        "answer": 0
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "t": "Should you have any questions, please contact the city council.",
+      "s": "چنانچه سؤالی داشتید، لطفاً با شورای شهر تماس بگیرید.",
+      "pr": "شود یو هَو اِنی کْوِسْچِنْز، پْلیز کانْتَکْت ذِ سیتی کاونْسِل."
+    },
+    {
+      "t": "But for the volunteers, the library would have closed.",
+      "s": "اگر داوطلبان نبودند، کتابخانه تعطیل شده بود.",
+      "pr": "بات فُر ذِ والِنْتیرْز، ذِ لایْبْرِری وود هَو کْلُوزْد."
+    },
+    {
+      "t": "They demanded that the decision be reversed.",
+      "s": "خواستار لغو آن تصمیم شدند.",
+      "pr": "ذِی دیمَنْدِد ذَت ذِ دیسیژِن بی ریوِرْسْت."
+    },
+    {
+      "t": "Social norms often change faster than laws.",
+      "s": "هنجارهای اجتماعی اغلب سریع‌تر از قانون‌ها تغییر می‌کنند.",
+      "pr": "سُوشِل نُرْمْز آفِن چِینْج فَسْتِر ذَن لاز."
+    },
+    {
+      "t": "Were I in charge, I would invest in public transportation.",
+      "s": "اگر مسئولیت با من بود، روی حمل‌ونقل عمومی سرمایه‌گذاری می‌کردم.",
+      "pr": "وِر آی این چارْج، آی وود اینْوِسْت این پابْلیک تْرَنْسْپِرْتِیشِن."
+    },
+    {
+      "t": "It is vital that every voice be heard.",
+      "s": "حیاتی است که صدای همه شنیده شود.",
+      "pr": "ایت ایز وایتِل ذَت اِوْری وُیْس بی هِرْد."
+    },
+    {
+      "t": "Unless rents fall, young families will keep moving away.",
+      "s": "اگر اجاره‌ها پایین نیاید، خانواده‌های جوان همچنان از اینجا می‌روند.",
+      "pr": "اِنْلِس رِنْتْس فال، یانگ فَمِلیز ویل کیپ مووینگ اِوِی."
+    },
+    {
+      "t": "Prejudice is often rooted in fear.",
+      "s": "تعصب اغلب ریشه در ترس دارد.",
+      "pr": "پْرِجِدِس ایز آفِن روتِد این فیر."
+    }
+  ]
+}

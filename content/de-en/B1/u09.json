@@ -1,0 +1,726 @@
+{
+  "id": "u09",
+  "level": "B1",
+  "emoji": "🏛️",
+  "title": {
+    "t": "Behörden und Alltag in Deutschland",
+    "s": "Public offices and everyday life in Germany"
+  },
+  "goals": [
+    "Deal with public offices in Germany: register your address, make appointments, fill out forms",
+    "Understand officials and ask questions politely in official situations",
+    "Use common noun-verb combinations (einen Antrag stellen, eine Entscheidung treffen)",
+    "Put objects and adverbials in the right order (Ich gebe es ihm. TeKaMoLo)"
+  ],
+  "words": [
+    {
+      "id": "w01",
+      "t": "die Behörde",
+      "pl": "die Behörden",
+      "s": "(public) authority, government office",
+      "emoji": "",
+      "ex": {
+        "t": "Bei deutschen Behörden braucht man oft viel Geduld.",
+        "s": "Dealing with German authorities often takes a lot of patience."
+      }
+    },
+    {
+      "id": "w02",
+      "t": "das Bürgeramt",
+      "pl": "die Bürgerämter",
+      "s": "citizens' office (where you register your address, apply for an ID card, etc.)",
+      "emoji": "",
+      "ex": {
+        "t": "Ich habe morgen einen Termin beim Bürgeramt.",
+        "s": "I have an appointment at the citizens' office tomorrow."
+      }
+    },
+    {
+      "id": "w03",
+      "t": "die Anmeldung",
+      "pl": "die Anmeldungen",
+      "s": "registration (e.g. of your address)",
+      "emoji": "",
+      "ex": {
+        "t": "Die Anmeldung der neuen Wohnung hat nur zehn Minuten gedauert.",
+        "s": "Registering the new apartment only took ten minutes."
+      }
+    },
+    {
+      "id": "w04",
+      "t": "das Formular",
+      "pl": "die Formulare",
+      "s": "form",
+      "emoji": "",
+      "ex": {
+        "t": "Bitte füllen Sie das Formular vollständig aus.",
+        "s": "Please fill out the form completely."
+      }
+    },
+    {
+      "id": "w05",
+      "t": "unterschreiben",
+      "s": "to sign",
+      "emoji": "✍️",
+      "ex": {
+        "t": "Vergessen Sie nicht, den Antrag zu unterschreiben.",
+        "s": "Don't forget to sign the application."
+      }
+    },
+    {
+      "id": "w06",
+      "t": "der Antrag",
+      "pl": "die Anträge",
+      "s": "application (official request)",
+      "emoji": "",
+      "ex": {
+        "t": "Den Antrag können Sie auch online stellen.",
+        "s": "You can also submit the application online."
+      }
+    },
+    {
+      "id": "w07",
+      "t": "die Unterlagen",
+      "s": "documents, papers (plural)",
+      "emoji": "",
+      "ex": {
+        "t": "Bringen Sie bitte alle Unterlagen zum Termin mit.",
+        "s": "Please bring all your documents to the appointment."
+      }
+    },
+    {
+      "id": "w08",
+      "t": "der Ausweis",
+      "pl": "die Ausweise",
+      "s": "ID card",
+      "emoji": "🪪",
+      "ex": {
+        "t": "Mein Ausweis ist abgelaufen, ich brauche einen neuen.",
+        "s": "My ID card has expired; I need a new one."
+      }
+    },
+    {
+      "id": "w09",
+      "t": "gültig",
+      "s": "valid",
+      "emoji": "",
+      "ex": {
+        "t": "Ihr Reisepass ist nur noch drei Monate gültig.",
+        "s": "Your passport is only valid for three more months."
+      }
+    },
+    {
+      "id": "w10",
+      "t": "die Gebühr",
+      "pl": "die Gebühren",
+      "s": "fee",
+      "emoji": "",
+      "ex": {
+        "t": "Für den neuen Ausweis muss man eine Gebühr bezahlen.",
+        "s": "You have to pay a fee for the new ID card."
+      }
+    },
+    {
+      "id": "w11",
+      "t": "die Bescheinigung",
+      "pl": "die Bescheinigungen",
+      "s": "certificate, written confirmation",
+      "emoji": "",
+      "ex": {
+        "t": "Nach der Anmeldung bekommen Sie eine Bescheinigung.",
+        "s": "After registering you'll get a certificate."
+      }
+    },
+    {
+      "id": "w12",
+      "t": "die Wartenummer",
+      "pl": "die Wartenummern",
+      "s": "queue number (the ticket you take while you wait)",
+      "emoji": "",
+      "ex": {
+        "t": "Ziehen Sie bitte eine Wartenummer und warten Sie im Flur.",
+        "s": "Please take a number and wait in the hallway."
+      }
+    },
+    {
+      "id": "w13",
+      "t": "die Sprechzeiten",
+      "s": "office hours (plural)",
+      "emoji": "",
+      "ex": {
+        "t": "Die Sprechzeiten stehen auf der Internetseite des Amtes.",
+        "s": "The office hours are on the office's website."
+      }
+    },
+    {
+      "id": "w14",
+      "t": "zuständig sein für + A",
+      "s": "to be responsible for, in charge of",
+      "emoji": "",
+      "ex": {
+        "t": "Welches Amt ist für das Kindergeld zuständig?",
+        "s": "Which office is responsible for child benefit?"
+      }
+    },
+    {
+      "id": "w15",
+      "t": "die Steuererklärung",
+      "pl": "die Steuererklärungen",
+      "s": "tax return",
+      "emoji": "",
+      "ex": {
+        "t": "Meine Steuererklärung mache ich jedes Jahr online.",
+        "s": "I do my tax return online every year."
+      }
+    }
+  ],
+  "phrases": [
+    {
+      "id": "p01",
+      "t": "Ich möchte einen Termin vereinbaren.",
+      "s": "I'd like to make an appointment."
+    },
+    {
+      "id": "p02",
+      "t": "Welche Unterlagen muss ich mitbringen?",
+      "s": "Which documents do I need to bring?"
+    },
+    {
+      "id": "p03",
+      "t": "Könnten Sie das bitte noch einmal langsam erklären?",
+      "s": "Could you please explain that again slowly?"
+    },
+    {
+      "id": "p04",
+      "t": "Wo muss ich unterschreiben?",
+      "s": "Where do I need to sign?"
+    },
+    {
+      "id": "p05",
+      "t": "Wie lange dauert die Bearbeitung?",
+      "s": "How long does processing take?"
+    },
+    {
+      "id": "p06",
+      "t": "Bin ich hier richtig?",
+      "s": "Am I in the right place?"
+    },
+    {
+      "id": "p07",
+      "t": "Dafür bin ich leider nicht zuständig.",
+      "s": "I'm afraid I'm not responsible for that."
+    },
+    {
+      "id": "p08",
+      "t": "Ich hätte noch eine Frage.",
+      "s": "I have one more question."
+    }
+  ],
+  "dialogue": {
+    "title": {
+      "t": "Die Anmeldung beim Bürgeramt",
+      "s": "Registering at the citizens' office"
+    },
+    "speakers": {
+      "A": {
+        "name": "Frau Wagner",
+        "voice": "f"
+      },
+      "B": {
+        "name": "Amir",
+        "voice": "m"
+      }
+    },
+    "lines": [
+      {
+        "sp": "A",
+        "t": "Guten Tag, nehmen Sie bitte Platz. Was kann ich für Sie tun?",
+        "s": "Hello, please take a seat. What can I do for you?"
+      },
+      {
+        "sp": "B",
+        "t": "Guten Tag. Ich bin vor einer Woche nach Deutschland gekommen und möchte mich anmelden.",
+        "s": "Hello. I came to Germany a week ago and would like to register."
+      },
+      {
+        "sp": "A",
+        "t": "Gern. Haben Sie Ihren Pass und die Bestätigung Ihres Vermieters dabei?",
+        "s": "Certainly. Do you have your passport and your landlord's confirmation with you?"
+      },
+      {
+        "sp": "B",
+        "t": "Ja, hier sind sie. Muss ich noch ein Formular ausfüllen?",
+        "s": "Yes, here they are. Do I need to fill out a form as well?"
+      },
+      {
+        "sp": "A",
+        "t": "Nein, das mache ich am Computer. Wohnen Sie allein in der Wohnung?",
+        "s": "No, I'll do that on the computer. Do you live alone in the apartment?"
+      },
+      {
+        "sp": "B",
+        "t": "Nein, mit meiner Frau und meiner Tochter. Die beiden kommen aber erst nächsten Monat nach.",
+        "s": "No, with my wife and my daughter. But they won't join me until next month."
+      },
+      {
+        "sp": "A",
+        "t": "Dann müssen sie nach ihrer Ankunft auch angemeldet werden. Bitte unterschreiben Sie hier.",
+        "s": "Then they'll also have to be registered after they arrive. Please sign here."
+      },
+      {
+        "sp": "B",
+        "t": "Gern. Bekomme ich eine Bescheinigung?",
+        "s": "Sure. Do I get a certificate?"
+      },
+      {
+        "sp": "A",
+        "t": "Ja, hier ist Ihre Meldebescheinigung. Ihr Arbeitgeber braucht vielleicht eine Kopie davon.",
+        "s": "Yes, here's your registration certificate. Your employer may need a copy of it."
+      },
+      {
+        "sp": "B",
+        "t": "Vielen Dank. Ich hätte noch eine Frage: Wo kann ich einen Antrag auf Kindergeld stellen?",
+        "s": "Thank you very much. I have one more question: where can I apply for child benefit?"
+      },
+      {
+        "sp": "A",
+        "t": "Dafür sind nicht wir zuständig, sondern die Familienkasse. Ich schreibe Ihnen die Adresse auf.",
+        "s": "We're not responsible for that – the Family Benefits Office is. I'll write down the address for you."
+      },
+      {
+        "sp": "B",
+        "t": "Das ist sehr nett. Vielen Dank für Ihre Hilfe!",
+        "s": "That's very kind. Thank you very much for your help!"
+      }
+    ]
+  },
+  "grammar": [
+    {
+      "id": "g01",
+      "title": {
+        "t": "einen Antrag stellen, eine Entscheidung treffen",
+        "s": "Noun-verb combinations"
+      },
+      "explain": "Official and written German uses many **noun-verb combinations**: a fixed noun + a verb that has lost most of its own meaning. The noun carries the meaning, and you can't freely choose the verb – learn each combination as a unit, just like English *make a decision* or *take a seat*.\nOften there is a simple verb with the same meaning: **eine Entscheidung treffen = entscheiden**, **eine Frage stellen = fragen**, **einen Antrag stellen = beantragen**. The noun-verb combination sounds more formal and is typical of letters, forms and the news.\nCommon combinations:\n• **einen Antrag stellen (auf + A)** – to apply (for), submit an application\n• **eine Entscheidung treffen** – to make a decision\n• **eine Frage stellen** – to ask a question\n• **einen Termin vereinbaren** – to make an appointment\n• **Bescheid sagen** – to let someone know; **Bescheid wissen** – to know (about something)\n• **Auskunft geben** – to give information\n• **eine Rolle spielen** – to matter, play a role\n• **in Kraft treten** – to come into effect (laws, rules)\n• **Platz nehmen** – to take a seat\nThe verb is often different from English: **eine Entscheidung treffen** (literally *meet a decision*), **eine Frage stellen** (literally *put a question*).\nWord order: the conjugated verb is in position 2 as usual, and the noun part usually goes towards the **end** of the clause, a bit like a separable prefix: **Das Gesetz tritt am ersten Januar in Kraft. Sagen Sie mir bitte morgen Bescheid.**",
+      "table": [
+        [
+          "einen Antrag stellen",
+          "beantragen",
+          "Ich stelle einen Antrag auf Kindergeld."
+        ],
+        [
+          "eine Entscheidung treffen",
+          "entscheiden",
+          "Sie trifft schnell eine Entscheidung."
+        ],
+        [
+          "eine Frage stellen",
+          "fragen",
+          "Darf ich eine Frage stellen?"
+        ],
+        [
+          "Bescheid sagen",
+          "informieren",
+          "Sag mir bitte Bescheid!"
+        ],
+        [
+          "Auskunft geben",
+          "informieren",
+          "Am Schalter gibt man Auskunft."
+        ],
+        [
+          "in Kraft treten",
+          "gültig werden",
+          "Das Gesetz tritt im Januar in Kraft."
+        ],
+        [
+          "Platz nehmen",
+          "sich setzen",
+          "Nehmen Sie bitte Platz."
+        ]
+      ],
+      "examples": [
+        {
+          "t": "Wir haben beim Bürgeramt einen Antrag auf einen neuen Pass gestellt.",
+          "s": "We applied for a new passport at the citizens' office."
+        },
+        {
+          "t": "Nach langem Überlegen haben wir eine Entscheidung getroffen.",
+          "s": "After a lot of thought, we made a decision."
+        },
+        {
+          "t": "Die neue Regel tritt am ersten März in Kraft.",
+          "s": "The new rule comes into effect on March first."
+        },
+        {
+          "t": "Sagen Sie mir bitte Bescheid, wenn die Bescheinigung fertig ist.",
+          "s": "Please let me know when the certificate is ready."
+        },
+        {
+          "t": "Das Geld spielt bei dieser Entscheidung keine Rolle.",
+          "s": "Money doesn't play a role in this decision."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "choice",
+          "t": "Wir müssen bis Freitag eine Entscheidung ___.",
+          "options": [
+            "machen",
+            "treffen",
+            "stellen"
+          ],
+          "answer": 1,
+          "s": "We have to make a decision by Friday."
+        },
+        {
+          "type": "choice",
+          "t": "Darf ich Ihnen eine Frage ___?",
+          "options": [
+            "fragen",
+            "stellen",
+            "geben"
+          ],
+          "answer": 1,
+          "s": "May I ask you a question?"
+        },
+        {
+          "type": "type",
+          "t": "Ich habe einen Antrag auf Wohngeld ___.",
+          "answer": [
+            "gestellt",
+            "eingereicht"
+          ],
+          "s": "I applied for housing benefit."
+        },
+        {
+          "type": "choice",
+          "t": "Das neue Gesetz tritt im Januar in ___.",
+          "options": [
+            "Kraft",
+            "Gültigkeit",
+            "Ordnung"
+          ],
+          "answer": 0,
+          "s": "The new law comes into effect in January."
+        },
+        {
+          "type": "type",
+          "t": "Bitte sagen Sie mir ___, wenn der Ausweis fertig ist.",
+          "answer": [
+            "Bescheid"
+          ],
+          "s": "Please let me know when the ID card is ready."
+        },
+        {
+          "type": "choice",
+          "t": "Guten Tag, nehmen Sie bitte ___!",
+          "options": [
+            "Platz",
+            "Sitz",
+            "Stuhl"
+          ],
+          "answer": 0,
+          "s": "Hello, please take a seat!"
+        },
+        {
+          "type": "type",
+          "t": "Das Alter spielt keine ___.",
+          "answer": [
+            "Rolle"
+          ],
+          "s": "Age doesn't matter."
+        },
+        {
+          "type": "order",
+          "t": "Ich möchte einen Antrag stellen.",
+          "s": "I'd like to submit an application."
+        }
+      ]
+    },
+    {
+      "id": "g02",
+      "title": {
+        "t": "Ich gebe es ihm. Ich fahre morgen mit dem Bus zum Amt.",
+        "s": "Word order: dative and accusative objects, TeKaMoLo"
+      },
+      "explain": "**1. Two objects.** Many verbs – **geben, schicken, zeigen, erklären, bringen, schenken** – have a **dative object** (usually a person) and an **accusative object** (usually a thing). Their order depends on whether they are nouns or pronouns:\n• two **nouns**: **dative before accusative**: **Ich gebe der Beamtin den Antrag.**\n• one **pronoun** and one noun: the **pronoun comes first**, whatever its case: **Ich gebe ihr den Antrag. Ich gebe ihn der Beamtin.**\n• two **pronouns**: **accusative before dative**: **Ich gebe ihn ihr.**\nRule of thumb: short pronouns come early; with two nouns, the person comes before the thing.\n**2. TeKaMoLo.** When several adverbials stand in the middle of the sentence, the neutral order is **te**mporal (when?) – **ka**usal (why?) – **mo**dal (how?) – **lo**kal (where? where to?): **Ich fahre morgen wegen des Termins mit dem Bus zum Bürgeramt.** You rarely need all four, but the ones you use keep this order: **Wir gehen heute zu Fuß zum Amt.** (te – mo – lo)\nAny one of them can also move to position 1 – then the verb follows directly: **Morgen fahre ich mit dem Bus zum Amt.**\nUnlike English, German puts *time before place*: **Ich bin um acht im Büro.** (I'm at the office at eight.)",
+      "table": [
+        [
+          "Nomen + Nomen",
+          "Dativ vor Akkusativ",
+          "Ich gebe der Beamtin den Antrag."
+        ],
+        [
+          "Pronomen + Nomen",
+          "Pronomen zuerst",
+          "Ich gebe ihr den Antrag."
+        ],
+        [
+          "Nomen + Pronomen",
+          "Pronomen zuerst",
+          "Ich gebe ihn der Beamtin."
+        ],
+        [
+          "Pronomen + Pronomen",
+          "Akkusativ vor Dativ",
+          "Ich gebe ihn ihr."
+        ],
+        [
+          "TeKaMoLo",
+          "wann, warum, wie, wo",
+          "Ich fahre morgen wegen des Termins mit dem Bus zum Amt."
+        ]
+      ],
+      "examples": [
+        {
+          "t": "Können Sie mir das Formular bitte erklären?",
+          "s": "Could you please explain the form to me?"
+        },
+        {
+          "t": "Ich schicke Ihnen die Unterlagen morgen per E-Mail.",
+          "s": "I'll send you the documents by email tomorrow."
+        },
+        {
+          "t": "Ich habe deinen Ausweis gefunden und gebe ihn dir gleich.",
+          "s": "I found your ID card, and I'll give it to you in a moment."
+        },
+        {
+          "t": "Die Beamtin hat es ihm genau erklärt.",
+          "s": "The official explained it to him in detail."
+        },
+        {
+          "t": "Wir sind gestern wegen des Regens mit dem Taxi nach Hause gefahren.",
+          "s": "Yesterday we took a taxi home because of the rain."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "choice",
+          "t": "Ich gebe ___.",
+          "options": [
+            "ihm es",
+            "es ihm",
+            "es zu ihm"
+          ],
+          "answer": 1,
+          "s": "I'm giving it to him."
+        },
+        {
+          "type": "choice",
+          "t": "Hast du ___ schon gegeben?",
+          "options": [
+            "dem Beamten es",
+            "es dem Beamten",
+            "es zum Beamten"
+          ],
+          "answer": 1,
+          "s": "Have you already given it to the official?"
+        },
+        {
+          "type": "choice",
+          "t": "Bringst du ___ bitte?",
+          "options": [
+            "mir es",
+            "es mir",
+            "es mich"
+          ],
+          "answer": 1,
+          "s": "Will you bring it to me, please?"
+        },
+        {
+          "type": "type",
+          "t": "Ich habe deinen Ausweis gefunden und ___ dir auf den Tisch gelegt.",
+          "answer": [
+            "ihn"
+          ],
+          "s": "I found your ID card and put it on the table for you."
+        },
+        {
+          "type": "type",
+          "t": "Die Beamtin erklärt ___ das Formular.",
+          "answer": [
+            "uns"
+          ],
+          "s": "The official is explaining the form to us."
+        },
+        {
+          "type": "order",
+          "t": "Ich schicke es Ihnen morgen.",
+          "s": "I'll send it to you tomorrow.",
+          "alts": [
+            "Morgen schicke ich es Ihnen."
+          ]
+        },
+        {
+          "type": "order",
+          "t": "Sie hat ihm den Antrag erklärt.",
+          "s": "She explained the application to him.",
+          "alts": [
+            "Den Antrag hat sie ihm erklärt."
+          ]
+        },
+        {
+          "type": "order",
+          "t": "Wir fahren morgen mit dem Zug nach Berlin.",
+          "s": "Tomorrow we're taking the train to Berlin.",
+          "alts": [
+            "Morgen fahren wir mit dem Zug nach Berlin."
+          ]
+        }
+      ]
+    }
+  ],
+  "reading": {
+    "title": {
+      "t": "Mein erster Termin beim Bürgeramt",
+      "s": "My first appointment at the citizens' office"
+    },
+    "text": [
+      {
+        "t": "Hallo, ich heiße Neda und lebe seit drei Jahren in Leipzig.",
+        "s": "Hi, my name is Neda, and I've been living in Leipzig for three years."
+      },
+      {
+        "t": "Wer nach Deutschland zieht, muss sich innerhalb von zwei Wochen beim Bürgeramt anmelden.",
+        "s": "Anyone who moves to Germany has to register at the citizens' office within two weeks."
+      },
+      {
+        "t": "Als ich hier ankam, wusste ich das nicht.",
+        "s": "When I arrived here, I didn't know that."
+      },
+      {
+        "t": "Zum Glück hat mir eine Kollegin rechtzeitig Bescheid gesagt.",
+        "s": "Luckily, a colleague let me know in time."
+      },
+      {
+        "t": "In großen Städten bekommt man einen Termin oft erst nach einigen Wochen.",
+        "s": "In big cities you often can't get an appointment for several weeks."
+      },
+      {
+        "t": "Deshalb habe ich jeden Morgen auf der Internetseite nachgesehen, ob ein Termin frei geworden ist.",
+        "s": "So every morning I checked the website to see whether an appointment had become available."
+      },
+      {
+        "t": "Nach vier Tagen hatte ich Glück.",
+        "s": "After four days I was lucky."
+      },
+      {
+        "t": "Für die Anmeldung brauchte ich meinen Pass und eine Bestätigung meines Vermieters.",
+        "s": "For the registration I needed my passport and a confirmation from my landlord."
+      },
+      {
+        "t": "Die Mitarbeiterin war sehr freundlich und hat mir alles langsam erklärt.",
+        "s": "The clerk was very friendly and explained everything to me slowly."
+      },
+      {
+        "t": "Nach zehn Minuten hatte ich meine Meldebescheinigung in der Hand.",
+        "s": "After ten minutes I had my registration certificate in my hand."
+      },
+      {
+        "t": "Mein Tipp: Machen Sie von allen wichtigen Unterlagen Kopien und bewahren Sie sie in einem Ordner auf.",
+        "s": "My tip: make copies of all your important documents and keep them in a folder."
+      },
+      {
+        "t": "Und haben Sie keine Angst, Fragen zu stellen, denn die meisten Mitarbeiter helfen gern.",
+        "s": "And don't be afraid to ask questions – most of the staff are happy to help."
+      }
+    ],
+    "questions": [
+      {
+        "q": {
+          "t": "Bis wann muss man sich nach dem Umzug anmelden?",
+          "s": "By when do you have to register after moving?"
+        },
+        "options": [
+          "innerhalb von zwei Wochen",
+          "innerhalb von drei Monaten",
+          "innerhalb von vier Tagen"
+        ],
+        "answer": 0
+      },
+      {
+        "q": {
+          "t": "Wer hat Neda über die Anmeldung informiert?",
+          "s": "Who told Neda about registering?"
+        },
+        "options": [
+          "eine Nachbarin",
+          "eine Kollegin",
+          "ihr Vermieter"
+        ],
+        "answer": 1
+      },
+      {
+        "q": {
+          "t": "Warum hat Neda jeden Morgen auf der Internetseite nachgesehen?",
+          "s": "Why did Neda check the website every morning?"
+        },
+        "options": [
+          "Sie wollte einen freien Termin finden.",
+          "Sie suchte eine Wohnung.",
+          "Sie wollte die Sprechzeiten lesen."
+        ],
+        "answer": 0
+      },
+      {
+        "q": {
+          "t": "Was brauchte Neda für die Anmeldung?",
+          "s": "What did Neda need for the registration?"
+        },
+        "options": [
+          "ihren Pass und eine Bestätigung des Vermieters",
+          "nur ihren Pass",
+          "eine Bescheinigung ihres Arbeitgebers"
+        ],
+        "answer": 0
+      },
+      {
+        "q": {
+          "t": "Was empfiehlt Neda?",
+          "s": "What does Neda recommend?"
+        },
+        "options": [
+          "Kopien von wichtigen Unterlagen machen",
+          "keine Fragen stellen",
+          "ohne Termin zum Amt gehen"
+        ],
+        "answer": 0
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "t": "Ich muss beim Bürgeramt einen neuen Ausweis beantragen.",
+      "s": "I have to apply for a new ID card at the citizens' office."
+    },
+    {
+      "t": "Haben Sie alle Unterlagen dabei?",
+      "s": "Do you have all your documents with you?"
+    },
+    {
+      "t": "Das Formular können Sie auch online ausfüllen.",
+      "s": "You can also fill out the form online."
+    },
+    {
+      "t": "Können Sie es mir bitte zeigen?",
+      "s": "Can you show it to me, please?"
+    },
+    {
+      "t": "Ich schicke Ihnen die Bescheinigung per Post.",
+      "s": "I'll send you the certificate by mail."
+    },
+    {
+      "t": "Wir haben endlich eine Entscheidung getroffen.",
+      "s": "We've finally made a decision."
+    },
+    {
+      "t": "Mein Reisepass ist leider nicht mehr gültig.",
+      "s": "Unfortunately, my passport is no longer valid."
+    },
+    {
+      "t": "Seit wann ist das neue Gesetz in Kraft?",
+      "s": "Since when has the new law been in effect?"
+    }
+  ]
+}

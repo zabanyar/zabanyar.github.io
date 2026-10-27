@@ -136,7 +136,7 @@ export function mergeProgress(a, b) {
 // personal settings (e.g. the language of the home screen) travel with the person, too
 export function pref(name, d) { return progress().prefs?.[name]?.v ?? d; }
 export function setPref(name, v) {
-  if (!currentUser() || pref(name) === v) return;
+  if (!currentUser() || JSON.stringify(pref(name)) === JSON.stringify(v)) return;
   const p = progress(); p.prefs[name] = { v, at: Date.now() }; save(p);
 }
 

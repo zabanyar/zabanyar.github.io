@@ -1,0 +1,722 @@
+{
+  "id": "u03",
+  "level": "B1",
+  "emoji": "🩺",
+  "title": {
+    "t": "Beim Arzt und das Gesundheitssystem",
+    "s": "At the doctor's and the health system"
+  },
+  "goals": [
+    "Talk to a doctor about symptoms, treatment and sick leave",
+    "Understand how health insurance and doctors work in Germany",
+    "Use the passive in the present: Der Blutdruck wird gemessen.",
+    "Use the passive in the past: wurde operiert, ist operiert worden"
+  ],
+  "words": [
+    {
+      "id": "w01",
+      "t": "die Krankenversicherung",
+      "pl": "die Krankenversicherungen",
+      "s": "health insurance",
+      "emoji": "",
+      "ex": {
+        "t": "In Deutschland braucht jeder eine Krankenversicherung.",
+        "s": "In Germany, everyone needs health insurance."
+      }
+    },
+    {
+      "id": "w02",
+      "t": "die Praxis",
+      "pl": "die Praxen",
+      "s": "(doctor's) office, practice",
+      "emoji": "",
+      "ex": {
+        "t": "Die Praxis ist am Mittwochnachmittag geschlossen.",
+        "s": "The doctor's office is closed on Wednesday afternoon."
+      }
+    },
+    {
+      "id": "w03",
+      "t": "die Versichertenkarte",
+      "pl": "die Versichertenkarten",
+      "s": "health insurance card",
+      "emoji": "",
+      "ex": {
+        "t": "Bitte bringen Sie Ihre Versichertenkarte mit.",
+        "s": "Please bring your health insurance card."
+      }
+    },
+    {
+      "id": "w04",
+      "t": "der Krankenwagen",
+      "pl": "die Krankenwagen",
+      "s": "ambulance",
+      "emoji": "🚑",
+      "ex": {
+        "t": "Der Krankenwagen war nach zehn Minuten da.",
+        "s": "The ambulance arrived after ten minutes."
+      }
+    },
+    {
+      "id": "w05",
+      "t": "der Facharzt",
+      "pl": "die Fachärzte",
+      "s": "specialist (doctor); female: die Fachärztin",
+      "emoji": "",
+      "ex": {
+        "t": "Auf einen Termin beim Facharzt muss man oft lange warten.",
+        "s": "You often have to wait a long time for an appointment with a specialist."
+      }
+    },
+    {
+      "id": "w06",
+      "t": "das Röntgenbild",
+      "pl": "die Röntgenbilder",
+      "s": "X-ray (image)",
+      "emoji": "",
+      "ex": {
+        "t": "Auf dem Röntgenbild sieht man, dass der Arm gebrochen ist.",
+        "s": "The X-ray shows that the arm is broken."
+      }
+    },
+    {
+      "id": "w07",
+      "t": "die Untersuchung",
+      "pl": "die Untersuchungen",
+      "s": "examination, checkup",
+      "emoji": "",
+      "ex": {
+        "t": "Die Untersuchung dauert nur zehn Minuten.",
+        "s": "The examination only takes ten minutes."
+      }
+    },
+    {
+      "id": "w08",
+      "t": "das Wartezimmer",
+      "pl": "die Wartezimmer",
+      "s": "waiting room",
+      "emoji": "",
+      "ex": {
+        "t": "Bitte nehmen Sie im Wartezimmer Platz.",
+        "s": "Please take a seat in the waiting room."
+      }
+    },
+    {
+      "id": "w09",
+      "t": "der Blutdruck",
+      "s": "blood pressure; den Blutdruck messen = to take sb's blood pressure",
+      "emoji": "",
+      "ex": {
+        "t": "Die Ärztin misst meinen Blutdruck.",
+        "s": "The doctor is taking my blood pressure."
+      }
+    },
+    {
+      "id": "w10",
+      "t": "die Spritze",
+      "pl": "die Spritzen",
+      "s": "injection, shot; syringe",
+      "emoji": "💉",
+      "ex": {
+        "t": "Keine Angst, die Spritze tut nicht weh.",
+        "s": "Don't worry, the shot doesn't hurt."
+      }
+    },
+    {
+      "id": "w11",
+      "t": "die Nebenwirkung",
+      "pl": "die Nebenwirkungen",
+      "s": "side effect",
+      "emoji": "",
+      "ex": {
+        "t": "Dieses Medikament hat kaum Nebenwirkungen.",
+        "s": "This medication has hardly any side effects."
+      }
+    },
+    {
+      "id": "w12",
+      "t": "impfen",
+      "s": "to vaccinate; geimpft werden = to be vaccinated",
+      "emoji": "",
+      "ex": {
+        "t": "Unsere Ärztin impft auch Kinder.",
+        "s": "Our doctor also vaccinates children."
+      }
+    },
+    {
+      "id": "w13",
+      "t": "operieren",
+      "s": "to operate (on sb)",
+      "emoji": "",
+      "ex": {
+        "t": "Der Chirurg operiert heute drei Patienten.",
+        "s": "The surgeon is operating on three patients today."
+      }
+    },
+    {
+      "id": "w14",
+      "t": "die Notaufnahme",
+      "pl": "die Notaufnahmen",
+      "s": "emergency room",
+      "emoji": "",
+      "ex": {
+        "t": "Nach dem Unfall fuhren wir sofort in die Notaufnahme.",
+        "s": "After the accident we went straight to the emergency room."
+      }
+    },
+    {
+      "id": "w15",
+      "t": "krankgeschrieben sein",
+      "s": "to be on sick leave (with a doctor's note)",
+      "emoji": "",
+      "ex": {
+        "t": "Ich bin noch bis Freitag krankgeschrieben.",
+        "s": "I'm on sick leave until Friday."
+      }
+    },
+    {
+      "id": "w16",
+      "t": "die Behandlung",
+      "pl": "die Behandlungen",
+      "s": "treatment",
+      "emoji": "",
+      "ex": {
+        "t": "Die Behandlung hat mir sehr gut geholfen.",
+        "s": "The treatment helped me a lot."
+      }
+    }
+  ],
+  "phrases": [
+    {
+      "id": "p01",
+      "t": "Ich bin gesetzlich versichert.",
+      "s": "I have statutory health insurance."
+    },
+    {
+      "id": "p02",
+      "t": "Hier ist meine Versichertenkarte.",
+      "s": "Here is my health insurance card."
+    },
+    {
+      "id": "p03",
+      "t": "Brauche ich dafür eine Überweisung?",
+      "s": "Do I need a referral for that?"
+    },
+    {
+      "id": "p04",
+      "t": "Seit wann haben Sie die Schmerzen?",
+      "s": "How long have you had the pain?"
+    },
+    {
+      "id": "p05",
+      "t": "Die Schmerzen sind schlimmer geworden.",
+      "s": "The pain has gotten worse."
+    },
+    {
+      "id": "p06",
+      "t": "Muss ich das Medikament vor oder nach dem Essen nehmen?",
+      "s": "Do I have to take the medication before or after meals?"
+    },
+    {
+      "id": "p07",
+      "t": "Ich brauche eine Krankschreibung für meinen Arbeitgeber.",
+      "s": "I need a sick note for my employer."
+    },
+    {
+      "id": "p08",
+      "t": "Gute Besserung!",
+      "s": "Get well soon!"
+    }
+  ],
+  "dialogue": {
+    "title": {
+      "t": "In der Hausarztpraxis",
+      "s": "At the family doctor's office"
+    },
+    "speakers": {
+      "A": {
+        "name": "Maryam",
+        "voice": "f"
+      },
+      "B": {
+        "name": "Herr Wagner",
+        "voice": "m"
+      }
+    },
+    "lines": [
+      {
+        "sp": "B",
+        "t": "Guten Morgen, Frau Ahmadi. Was kann ich für Sie tun?",
+        "s": "Good morning, Ms. Ahmadi. What can I do for you?"
+      },
+      {
+        "sp": "A",
+        "t": "Guten Morgen. Ich habe seit einer Woche starke Rückenschmerzen.",
+        "s": "Good morning. I've had bad back pain for a week."
+      },
+      {
+        "sp": "B",
+        "t": "Hatten Sie einen Unfall, oder haben Sie etwas Schweres getragen?",
+        "s": "Did you have an accident, or did you carry something heavy?"
+      },
+      {
+        "sp": "A",
+        "t": "Ja, letzten Samstag sind wir umgezogen. Seitdem tut mir der Rücken weh.",
+        "s": "Yes, we moved last Saturday. My back has hurt ever since."
+      },
+      {
+        "sp": "B",
+        "t": "Dann untersuche ich Sie jetzt kurz. Tut das hier weh?",
+        "s": "Then I'll examine you quickly now. Does this hurt?"
+      },
+      {
+        "sp": "A",
+        "t": "Ja, genau da!",
+        "s": "Yes, right there!"
+      },
+      {
+        "sp": "B",
+        "t": "Das ist wahrscheinlich nur eine Verspannung. Sie bekommen ein Rezept für Schmerztabletten und eine Überweisung zum Orthopäden.",
+        "s": "It's probably just tense muscles. You'll get a prescription for painkillers and a referral to an orthopedist."
+      },
+      {
+        "sp": "A",
+        "t": "Wird die Behandlung von der Krankenkasse bezahlt?",
+        "s": "Is the treatment paid for by the health insurance fund?"
+      },
+      {
+        "sp": "B",
+        "t": "Ja, die Kosten werden übernommen. Beim Orthopäden wird dann vielleicht noch ein Röntgenbild gemacht.",
+        "s": "Yes, the costs are covered. At the orthopedist's, an X-ray may be taken as well."
+      },
+      {
+        "sp": "A",
+        "t": "Ich arbeite in einem Lager. Kann ich morgen wieder arbeiten?",
+        "s": "I work in a warehouse. Can I go back to work tomorrow?"
+      },
+      {
+        "sp": "B",
+        "t": "Nein, besser nicht. Ich schreibe Sie bis Freitag krank. Gute Besserung!",
+        "s": "No, better not. I'll put you on sick leave until Friday. Get well soon!"
+      },
+      {
+        "sp": "A",
+        "t": "Vielen Dank, Herr Doktor. Auf Wiedersehen!",
+        "s": "Thank you very much, doctor. Goodbye!"
+      }
+    ]
+  },
+  "grammar": [
+    {
+      "id": "g01",
+      "title": {
+        "t": "Der Blutdruck wird gemessen.",
+        "s": "The passive in the present"
+      },
+      "explain": "In the **passive**, the action is more important than the person who does it. German forms the passive with **werden + past participle** (Partizip II). **werden** is conjugated and stands in position 2; the participle goes to the **end**.\nActive: Die Ärztin **untersucht** meinen Vater. → Passive: Mein Vater **wird** von der Ärztin **untersucht**.\nThe accusative object of the active sentence becomes the **subject** (Nominativ) of the passive sentence: **meinen** Vater → **mein** Vater.\nTo say who does the action, use **von + Dativ**: **von** der Ärztin, **vom** Arzt. Often the person is not mentioned at all, because it is obvious or unimportant: Hier **wird** Blut **abgenommen**.\nIn a subordinate clause, **werden** goes to the very end: Ich weiß nicht, ob die Behandlung **bezahlt wird**.\nYou already know werden meaning *to become* and for the future. With a **past participle**, it forms the passive.",
+      "table": [
+        [
+          "ich",
+          "werde untersucht"
+        ],
+        [
+          "du",
+          "wirst untersucht"
+        ],
+        [
+          "er, sie, es",
+          "wird untersucht"
+        ],
+        [
+          "wir",
+          "werden untersucht"
+        ],
+        [
+          "ihr",
+          "werdet untersucht"
+        ],
+        [
+          "sie, Sie",
+          "werden untersucht"
+        ]
+      ],
+      "examples": [
+        {
+          "t": "In der Praxis wird zuerst der Blutdruck gemessen.",
+          "s": "At the doctor's office, your blood pressure is taken first."
+        },
+        {
+          "t": "Die Patienten werden der Reihe nach aufgerufen.",
+          "s": "The patients are called in one after the other."
+        },
+        {
+          "t": "Das Rezept wird vom Arzt unterschrieben.",
+          "s": "The prescription is signed by the doctor."
+        },
+        {
+          "t": "Die meisten Kosten werden von der Krankenkasse übernommen.",
+          "s": "Most of the costs are covered by the health insurance fund."
+        },
+        {
+          "t": "Ich weiß nicht, ob diese Untersuchung bezahlt wird.",
+          "s": "I don't know whether this examination is paid for."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "choice",
+          "t": "Bei jeder Untersuchung ___ der Blutdruck gemessen.",
+          "options": [
+            "wird",
+            "werden",
+            "wirst"
+          ],
+          "answer": 0,
+          "s": "Blood pressure is taken at every checkup."
+        },
+        {
+          "type": "choice",
+          "t": "Viele ältere Menschen ___ im Herbst gegen Grippe geimpft.",
+          "options": [
+            "wird",
+            "werden",
+            "worden"
+          ],
+          "answer": 1,
+          "s": "Many older people are vaccinated against the flu in the fall."
+        },
+        {
+          "type": "type",
+          "t": "In der Notaufnahme ___ Patienten rund um die Uhr behandelt.",
+          "answer": [
+            "werden"
+          ],
+          "s": "In the emergency room, patients are treated around the clock."
+        },
+        {
+          "type": "type",
+          "t": "Das Medikament wird dreimal täglich ___.",
+          "answer": [
+            "genommen",
+            "eingenommen"
+          ],
+          "s": "The medication is taken three times a day. (nehmen)"
+        },
+        {
+          "type": "choice",
+          "t": "Ich ___ morgen am Knie operiert.",
+          "options": [
+            "werde",
+            "wird",
+            "bin"
+          ],
+          "answer": 0,
+          "s": "I'm having surgery on my knee tomorrow."
+        },
+        {
+          "type": "type",
+          "t": "Keine Sorge, du ___ sofort untersucht.",
+          "answer": [
+            "wirst"
+          ],
+          "s": "Don't worry, you'll be examined right away."
+        },
+        {
+          "type": "order",
+          "t": "Die Patientin wird gerade untersucht.",
+          "s": "The patient is being examined right now.",
+          "alts": [
+            "Gerade wird die Patientin untersucht."
+          ]
+        },
+        {
+          "type": "order",
+          "t": "Hier wird Blut abgenommen.",
+          "s": "Blood is taken here.",
+          "alts": [
+            "Blut wird hier abgenommen."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "g02",
+      "title": {
+        "t": "Er wurde operiert. Er ist operiert worden.",
+        "s": "The passive in the past: Präteritum and Perfekt"
+      },
+      "explain": "For the past, the passive has two forms – again with the **past participle** at the end.\n**Präteritum**: **wurde** + participle. This is the usual form in writing and very common in speech, too: Mein Vater **wurde** gestern **operiert**.\n**Perfekt**: **sein** + participle + **worden**: Mein Vater **ist** gestern **operiert worden**. Careful: in the passive it is **worden**, not **geworden**. **geworden** is only used for *to become*: Sie ist Ärztin **geworden**.\nThe forms of wurde: ich **wurde**, du **wurdest**, er/sie/es **wurde**, wir **wurden**, ihr **wurdet**, sie/Sie **wurden**.\nIn a subordinate clause, the conjugated verb goes to the end: …, weil ich operiert **wurde**. · …, weil ich operiert worden **bin**.",
+      "table": [
+        [
+          "Präsens",
+          "Ich werde operiert."
+        ],
+        [
+          "Präteritum",
+          "Ich wurde operiert."
+        ],
+        [
+          "Perfekt",
+          "Ich bin operiert worden."
+        ],
+        [
+          "Nebensatz",
+          "Ich weiß, dass er operiert worden ist."
+        ],
+        [
+          "aber",
+          "Sie ist Ärztin geworden."
+        ]
+      ],
+      "examples": [
+        {
+          "t": "Mein Vater wurde letztes Jahr am Herzen operiert.",
+          "s": "My father had heart surgery last year."
+        },
+        {
+          "t": "Nach dem Unfall wurde ich mit dem Krankenwagen ins Krankenhaus gebracht.",
+          "s": "After the accident, I was taken to the hospital by ambulance."
+        },
+        {
+          "t": "Bist du schon gegen Tetanus geimpft worden?",
+          "s": "Have you been vaccinated against tetanus yet?"
+        },
+        {
+          "t": "Die Kosten sind von der Krankenkasse übernommen worden.",
+          "s": "The costs were covered by the health insurance fund."
+        },
+        {
+          "t": "Ich wurde für eine Woche krankgeschrieben.",
+          "s": "I was put on sick leave for a week."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "choice",
+          "t": "Gestern ___ meine Mutter am Auge operiert.",
+          "options": [
+            "wird",
+            "wurde",
+            "worden"
+          ],
+          "answer": 1,
+          "s": "My mother had eye surgery yesterday."
+        },
+        {
+          "type": "choice",
+          "t": "Der Patient ist gestern operiert ___.",
+          "options": [
+            "geworden",
+            "werden",
+            "worden"
+          ],
+          "answer": 2,
+          "s": "The patient was operated on yesterday."
+        },
+        {
+          "type": "type",
+          "t": "Nach dem Unfall ___ Ali sofort ins Krankenhaus gebracht.",
+          "answer": [
+            "wurde"
+          ],
+          "s": "After the accident, Ali was taken to the hospital immediately."
+        },
+        {
+          "type": "type",
+          "t": "Die Rechnung ist schon bezahlt ___.",
+          "answer": [
+            "worden"
+          ],
+          "s": "The bill has already been paid."
+        },
+        {
+          "type": "choice",
+          "t": "Bist du schon gegen Grippe geimpft worden? – Ja, ich ___ letzte Woche geimpft.",
+          "options": [
+            "wurde",
+            "wurdest",
+            "wurden"
+          ],
+          "answer": 0,
+          "s": "Have you been vaccinated against the flu yet? – Yes, I was vaccinated last week."
+        },
+        {
+          "type": "type",
+          "t": "Im Krankenhaus ___ wir sehr freundlich behandelt.",
+          "answer": [
+            "wurden"
+          ],
+          "s": "We were treated very kindly at the hospital."
+        },
+        {
+          "type": "order",
+          "t": "Ich bin im Krankenhaus untersucht worden.",
+          "s": "I was examined at the hospital.",
+          "alts": [
+            "Im Krankenhaus bin ich untersucht worden."
+          ]
+        },
+        {
+          "type": "order",
+          "t": "Das Kind wurde gegen Masern geimpft.",
+          "s": "The child was vaccinated against measles.",
+          "alts": [
+            "Gegen Masern wurde das Kind geimpft."
+          ]
+        }
+      ]
+    }
+  ],
+  "reading": {
+    "title": {
+      "t": "Das Gesundheitssystem in Deutschland – kurz erklärt",
+      "s": "The German health system – a quick guide"
+    },
+    "text": [
+      {
+        "t": "In Deutschland muss jeder Mensch eine Krankenversicherung haben.",
+        "s": "In Germany, everyone must have health insurance."
+      },
+      {
+        "t": "Die meisten Menschen sind gesetzlich versichert, etwa jeder Zehnte ist privat versichert.",
+        "s": "Most people have statutory health insurance; about one in ten has private insurance."
+      },
+      {
+        "t": "Bei gesetzlich versicherten Arbeitnehmern wird der Beitrag jeden Monat direkt vom Gehalt abgezogen.",
+        "s": "For employees with statutory insurance, the contribution is deducted directly from their salary every month."
+      },
+      {
+        "t": "Jeder Versicherte bekommt eine Versichertenkarte.",
+        "s": "Every insured person receives a health insurance card."
+      },
+      {
+        "t": "Beim Arztbesuch wird die Karte in der Praxis eingelesen.",
+        "s": "When you see a doctor, the card is read by a card reader at the office."
+      },
+      {
+        "t": "Wenn man krank ist, geht man normalerweise zuerst zum Hausarzt.",
+        "s": "When you are sick, you normally go to your family doctor first."
+      },
+      {
+        "t": "Dort wird man untersucht und, wenn nötig, an einen Facharzt überwiesen.",
+        "s": "There you are examined and, if necessary, referred to a specialist."
+      },
+      {
+        "t": "Wer arbeitet und krank ist, wird vom Arzt krankgeschrieben.",
+        "s": "Anyone who works and is sick is put on sick leave by the doctor."
+      },
+      {
+        "t": "Die Krankschreibung wird heute meistens elektronisch an die Krankenkasse geschickt.",
+        "s": "Today the sick note is usually sent to the health insurance fund electronically."
+      },
+      {
+        "t": "In Notfällen kann man Tag und Nacht in die Notaufnahme gehen.",
+        "s": "In emergencies, you can go to the emergency room day and night."
+      },
+      {
+        "t": "Bei Lebensgefahr wählt man sofort die Eins-Eins-Zwei.",
+        "s": "If a life is in danger, you immediately dial one-one-two."
+      },
+      {
+        "t": "Dann wird so schnell wie möglich ein Krankenwagen geschickt.",
+        "s": "Then an ambulance is sent as quickly as possible."
+      }
+    ],
+    "questions": [
+      {
+        "q": {
+          "t": "Wer muss in Deutschland eine Krankenversicherung haben?",
+          "s": "Who has to have health insurance in Germany?"
+        },
+        "options": [
+          "nur Arbeitnehmer",
+          "jeder",
+          "nur Kinder"
+        ],
+        "answer": 1
+      },
+      {
+        "q": {
+          "t": "Was passiert in der Praxis mit der Versichertenkarte?",
+          "s": "What happens to the health insurance card at the doctor's office?"
+        },
+        "options": [
+          "Sie wird eingelesen.",
+          "Sie wird an die Krankenkasse geschickt.",
+          "Sie wird neu gemacht."
+        ],
+        "answer": 0
+      },
+      {
+        "q": {
+          "t": "Zu wem geht man normalerweise zuerst, wenn man krank ist?",
+          "s": "Who do you normally go to first when you are sick?"
+        },
+        "options": [
+          "zum Facharzt",
+          "in die Notaufnahme",
+          "zum Hausarzt"
+        ],
+        "answer": 2
+      },
+      {
+        "q": {
+          "t": "Wie wird die Krankschreibung heute meistens geschickt?",
+          "s": "How is the sick note usually sent today?"
+        },
+        "options": [
+          "per Post",
+          "elektronisch",
+          "per Fax"
+        ],
+        "answer": 1
+      },
+      {
+        "q": {
+          "t": "Welche Nummer wählt man bei Lebensgefahr?",
+          "s": "Which number do you dial if a life is in danger?"
+        },
+        "options": [
+          "die Eins-Eins-Null",
+          "die Eins-Eins-Zwei",
+          "die Eins-Eins-Sechs"
+        ],
+        "answer": 1
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "t": "Ich brauche eine Überweisung zum Facharzt.",
+      "s": "I need a referral to a specialist."
+    },
+    {
+      "t": "Beim Hausarzt wird zuerst der Blutdruck gemessen.",
+      "s": "At the family doctor's, your blood pressure is taken first."
+    },
+    {
+      "t": "Mein Bruder wurde gestern am Knie operiert.",
+      "s": "My brother had knee surgery yesterday."
+    },
+    {
+      "t": "Das Medikament hat leider starke Nebenwirkungen.",
+      "s": "Unfortunately, the medication has strong side effects."
+    },
+    {
+      "t": "Bist du schon gegen Grippe geimpft worden?",
+      "s": "Have you been vaccinated against the flu yet?"
+    },
+    {
+      "t": "Der Arzt hat mich drei Tage krankgeschrieben.",
+      "s": "The doctor put me on sick leave for three days."
+    },
+    {
+      "t": "Im Wartezimmer saßen viele Patienten.",
+      "s": "Many patients were sitting in the waiting room."
+    },
+    {
+      "t": "Die Kosten werden von der Krankenkasse übernommen.",
+      "s": "The costs are covered by the health insurance fund."
+    }
+  ]
+}

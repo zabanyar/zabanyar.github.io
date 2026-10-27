@@ -1,0 +1,745 @@
+{
+  "id": "u06",
+  "level": "A2",
+  "emoji": "🛍️",
+  "title": {
+    "t": "Einkaufen und Kleidung",
+    "s": "Shopping and clothes"
+  },
+  "goals": [
+    "Talk about clothes, sizes and trying things on in a store",
+    "Describe clothes with adjectives after der, die, das (der blaue Pullover)",
+    "Compare things with the comparative and superlative (billiger als, am besten)",
+    "Ask for another size and say what fits you and what you like better"
+  ],
+  "words": [
+    {
+      "id": "w01",
+      "t": "die Kleidung",
+      "s": "clothes, clothing (no plural)",
+      "emoji": "",
+      "ex": {
+        "t": "Wo kaufst du deine Kleidung?",
+        "s": "Where do you buy your clothes?"
+      }
+    },
+    {
+      "id": "w02",
+      "t": "der Pullover",
+      "pl": "die Pullover",
+      "s": "sweater",
+      "emoji": "",
+      "ex": {
+        "t": "Der graue Pullover ist sehr warm.",
+        "s": "The gray sweater is very warm."
+      }
+    },
+    {
+      "id": "w03",
+      "t": "die Jacke",
+      "pl": "die Jacken",
+      "s": "jacket",
+      "emoji": "🧥",
+      "ex": {
+        "t": "Die Jacke ist mir zu klein.",
+        "s": "The jacket is too small for me."
+      }
+    },
+    {
+      "id": "w04",
+      "t": "das T-Shirt",
+      "pl": "die T-Shirts",
+      "s": "T-shirt",
+      "emoji": "👕",
+      "ex": {
+        "t": "Das weiße T-Shirt kostet nur zehn Euro.",
+        "s": "The white T-shirt costs only ten euros."
+      }
+    },
+    {
+      "id": "w05",
+      "t": "der Rock",
+      "pl": "die Röcke",
+      "s": "skirt",
+      "emoji": "",
+      "ex": {
+        "t": "Maryam trägt heute einen Rock und eine Bluse.",
+        "s": "Maryam is wearing a skirt and a blouse today."
+      }
+    },
+    {
+      "id": "w06",
+      "t": "der Stiefel",
+      "pl": "die Stiefel",
+      "s": "boot",
+      "emoji": "👢",
+      "ex": {
+        "t": "Die braunen Stiefel sind sehr bequem.",
+        "s": "The brown boots are very comfortable."
+      }
+    },
+    {
+      "id": "w07",
+      "t": "die Größe",
+      "pl": "die Größen",
+      "s": "size",
+      "emoji": "",
+      "ex": {
+        "t": "Welche Größe haben Sie?",
+        "s": "What size are you?"
+      }
+    },
+    {
+      "id": "w08",
+      "t": "anprobieren",
+      "s": "to try on (clothes)",
+      "emoji": "",
+      "ex": {
+        "t": "Maryam probiert drei Kleider an.",
+        "s": "Maryam is trying on three dresses."
+      }
+    },
+    {
+      "id": "w09",
+      "t": "tragen (trägt)",
+      "s": "to wear; to carry",
+      "emoji": "",
+      "ex": {
+        "t": "Im Büro trägt Reza meistens ein Hemd.",
+        "s": "At the office, Reza usually wears a shirt."
+      }
+    },
+    {
+      "id": "w10",
+      "t": "passen (+ D)",
+      "s": "to fit (someone); passen zu + D = to go with",
+      "emoji": "",
+      "ex": {
+        "t": "Die Schuhe passen mir nicht. Sie sind zu groß.",
+        "s": "The shoes don't fit me. They're too big."
+      }
+    },
+    {
+      "id": "w11",
+      "t": "die Umkleidekabine",
+      "pl": "die Umkleidekabinen",
+      "s": "fitting room",
+      "emoji": "",
+      "ex": {
+        "t": "Die Umkleidekabinen sind dort hinten links.",
+        "s": "The fitting rooms are back there on the left."
+      }
+    },
+    {
+      "id": "w12",
+      "t": "die Kasse",
+      "pl": "die Kassen",
+      "s": "checkout, cash register",
+      "emoji": "",
+      "ex": {
+        "t": "Bitte zahlen Sie vorne an der Kasse.",
+        "s": "Please pay at the checkout at the front."
+      }
+    },
+    {
+      "id": "w13",
+      "t": "reduziert",
+      "s": "reduced (in price), marked down",
+      "emoji": "",
+      "ex": {
+        "t": "Heute sind alle Stiefel um zwanzig Prozent reduziert.",
+        "s": "All boots are twenty percent off today."
+      }
+    },
+    {
+      "id": "w14",
+      "t": "bequem",
+      "s": "comfortable",
+      "emoji": "",
+      "ex": {
+        "t": "Die Schuhe sind schön, aber nicht sehr bequem.",
+        "s": "The shoes are nice, but not very comfortable."
+      }
+    },
+    {
+      "id": "w15",
+      "t": "eng",
+      "s": "tight (opposite: weit = loose)",
+      "emoji": "",
+      "ex": {
+        "t": "Die Jeans ist mir zu eng.",
+        "s": "The jeans are too tight for me."
+      }
+    },
+    {
+      "id": "w16",
+      "t": "umtauschen",
+      "s": "to exchange (something you bought)",
+      "emoji": "",
+      "ex": {
+        "t": "Kann ich den Pullover umtauschen? Er ist zu groß.",
+        "s": "Can I exchange the sweater? It's too big."
+      }
+    }
+  ],
+  "phrases": [
+    {
+      "id": "p01",
+      "t": "Kann ich Ihnen helfen?",
+      "s": "Can I help you?"
+    },
+    {
+      "id": "p02",
+      "t": "Danke, ich schaue nur.",
+      "s": "Thanks, I'm just looking."
+    },
+    {
+      "id": "p03",
+      "t": "Kann ich das anprobieren?",
+      "s": "Can I try this on?"
+    },
+    {
+      "id": "p04",
+      "t": "Haben Sie das eine Nummer größer?",
+      "s": "Do you have this one size bigger?"
+    },
+    {
+      "id": "p05",
+      "t": "Das passt perfekt!",
+      "s": "That fits perfectly!"
+    },
+    {
+      "id": "p06",
+      "t": "Das steht dir gut.",
+      "s": "That looks good on you."
+    },
+    {
+      "id": "p07",
+      "t": "Kann ich mit Karte zahlen?",
+      "s": "Can I pay by card?"
+    },
+    {
+      "id": "p08",
+      "t": "Bar oder mit Karte?",
+      "s": "Cash or card?"
+    }
+  ],
+  "dialogue": {
+    "title": {
+      "t": "Eine Jacke für den Winter",
+      "s": "A jacket for the winter"
+    },
+    "speakers": {
+      "A": {
+        "name": "Lukas",
+        "voice": "m"
+      },
+      "B": {
+        "name": "Maryam",
+        "voice": "f"
+      }
+    },
+    "lines": [
+      {
+        "sp": "A",
+        "t": "Guten Tag! Kann ich Ihnen helfen?",
+        "s": "Hello! Can I help you?"
+      },
+      {
+        "sp": "B",
+        "t": "Ja, gern. Ich suche eine Jacke für den Winter.",
+        "s": "Yes, please. I'm looking for a jacket for the winter."
+      },
+      {
+        "sp": "A",
+        "t": "Wie gefällt Ihnen die graue Jacke hier? Sie ist im Angebot.",
+        "s": "How do you like the gray jacket here? It's on sale."
+      },
+      {
+        "sp": "B",
+        "t": "Sie ist schön, aber die schwarze Jacke dort gefällt mir besser. Was kostet sie?",
+        "s": "It's nice, but I like the black jacket over there better. How much is it?"
+      },
+      {
+        "sp": "A",
+        "t": "Die schwarze kostet neunundachtzig Euro. Sie ist wärmer als die graue, aber auch teurer.",
+        "s": "The black one costs eighty-nine euros. It's warmer than the gray one, but also more expensive."
+      },
+      {
+        "sp": "B",
+        "t": "Kann ich sie anprobieren? Ich trage Größe achtunddreißig.",
+        "s": "Can I try it on? I'm a size thirty-eight."
+      },
+      {
+        "sp": "A",
+        "t": "Natürlich. Die Umkleidekabine ist dort hinten.",
+        "s": "Of course. The fitting room is back there."
+      },
+      {
+        "sp": "B",
+        "t": "Hm, die Jacke ist ein bisschen eng. Haben Sie sie eine Nummer größer?",
+        "s": "Hmm, the jacket is a bit tight. Do you have it one size bigger?"
+      },
+      {
+        "sp": "A",
+        "t": "Ja, hier ist Größe vierzig. Die passt bestimmt besser.",
+        "s": "Yes, here's a size forty. That one will definitely fit better."
+      },
+      {
+        "sp": "B",
+        "t": "Ja, sie passt perfekt und ist sehr bequem. Ich nehme sie! Kann ich mit Karte zahlen?",
+        "s": "Yes, it fits perfectly and it's very comfortable. I'll take it! Can I pay by card?"
+      },
+      {
+        "sp": "A",
+        "t": "Ja, natürlich. Die Kasse ist gleich da vorne.",
+        "s": "Yes, of course. The checkout is right up front."
+      }
+    ]
+  },
+  "grammar": [
+    {
+      "id": "g01",
+      "title": {
+        "t": "der blaue Pullover, den blauen Pullover",
+        "s": "Adjective endings after der, die, das"
+      },
+      "explain": "After **sein**, an adjective has no ending: **Der Pullover ist blau.** But when the adjective stands **before a noun**, it needs an ending: **der blaue Pullover**. (English adjectives never change – German ones do.)\nAfter the definite article **der, die, das** – and after **dieser, welcher, jeder** – there are only two endings: **-e** and **-en**.\n**-e** in the **nominative singular** (**der blaue Pullover, die blaue Jacke, das blaue Kleid**) and in the **accusative singular** of feminine and neuter nouns (**die blaue Jacke, das blaue Kleid**).\n**-en** everywhere else: the **accusative masculine** (**den blauen Pullover**), the whole **dative** (**dem blauen Pullover, der blauen Jacke**) and **all plurals** (**die blauen Schuhe**).\nThe table shows the nominative, accusative and dative.",
+      "table": [
+        [
+          "Nominativ",
+          "Akkusativ",
+          "Dativ"
+        ],
+        [
+          "der blaue Pullover",
+          "den blauen Pullover",
+          "dem blauen Pullover"
+        ],
+        [
+          "die blaue Jacke",
+          "die blaue Jacke",
+          "der blauen Jacke"
+        ],
+        [
+          "das blaue Kleid",
+          "das blaue Kleid",
+          "dem blauen Kleid"
+        ],
+        [
+          "die blauen Schuhe",
+          "die blauen Schuhe",
+          "den blauen Schuhen"
+        ]
+      ],
+      "examples": [
+        {
+          "t": "Der blaue Pullover ist schön, aber teuer.",
+          "s": "The blue sweater is nice, but expensive."
+        },
+        {
+          "t": "Ich nehme den schwarzen Rock.",
+          "s": "I'll take the black skirt."
+        },
+        {
+          "t": "Wie findest du die neue Jacke?",
+          "s": "What do you think of the new jacket?"
+        },
+        {
+          "t": "Zur Hochzeit trage ich das rote Kleid.",
+          "s": "I'm wearing the red dress to the wedding."
+        },
+        {
+          "t": "Die braunen Stiefel passen gut zur grünen Jacke.",
+          "s": "The brown boots go well with the green jacket."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "choice",
+          "t": "Wie findest du die ___ Jacke?",
+          "options": [
+            "neue",
+            "neuen",
+            "neuer"
+          ],
+          "answer": 0,
+          "s": "What do you think of the new jacket?"
+        },
+        {
+          "type": "choice",
+          "t": "Ich nehme den ___ Rock.",
+          "options": [
+            "schwarze",
+            "schwarzen",
+            "schwarzes"
+          ],
+          "answer": 1,
+          "s": "I'll take the black skirt."
+        },
+        {
+          "type": "choice",
+          "t": "Der ___ Pullover ist im Angebot.",
+          "options": [
+            "graue",
+            "grauen",
+            "grauer"
+          ],
+          "answer": 0,
+          "s": "The gray sweater is on sale."
+        },
+        {
+          "type": "choice",
+          "t": "Die Schuhe passen gut zum ___ Kleid.",
+          "options": [
+            "weiße",
+            "weißen",
+            "weißes"
+          ],
+          "answer": 1,
+          "s": "The shoes go well with the white dress."
+        },
+        {
+          "type": "type",
+          "t": "In den ___ Stiefeln kann ich gut laufen.",
+          "answer": [
+            "neuen"
+          ],
+          "s": "I can walk well in the new boots."
+        },
+        {
+          "type": "type",
+          "t": "Das ___ T-Shirt gefällt mir.",
+          "answer": [
+            "rote"
+          ],
+          "s": "I like the red T-shirt."
+        },
+        {
+          "type": "type",
+          "t": "Welche Jacke nimmst du? – Ich nehme diese ___ Jacke hier.",
+          "answer": [
+            "blaue"
+          ],
+          "s": "Which jacket are you taking? – I'm taking this blue jacket here."
+        },
+        {
+          "type": "order",
+          "t": "Ich trage heute den blauen Pullover.",
+          "s": "I'm wearing the blue sweater today.",
+          "alts": [
+            "Heute trage ich den blauen Pullover.",
+            "Den blauen Pullover trage ich heute."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "g02",
+      "title": {
+        "t": "billiger als, so teuer wie, am besten",
+        "s": "Comparative and superlative"
+      },
+      "explain": "To compare two things, add **-er** to the adjective and use **als** (*than*): **Die Jacke ist billiger als der Mantel.** German always uses **-er**, even with long adjectives – there is no word like *more*: **bequem → bequemer** (*more comfortable*). After a comparative, always use **als**, never wie.\nMany short adjectives also get an **umlaut**: **alt → älter, groß → größer, jung → jünger, kurz → kürzer, lang → länger, warm → wärmer**. With **teuer** the e drops: **teurer**.\nThe **superlative** is **am …-sten**: **am billigsten, am bequemsten**. After **-d, -t, -s, -ß, -z** add **-esten**: **am ältesten, am kürzesten** (exception: **am größten**).\nSome forms are irregular: **gut – besser – am besten, viel – mehr – am meisten, gern – lieber – am liebsten**.\nTo say two things are equal, use **so … wie** or **genauso … wie** (*as … as, just as … as*): **Der Rock ist so teuer wie die Hose.** **nicht so … wie** = *not as … as*.\nBefore a noun, comparatives and superlatives take the normal adjective endings: **der billigere Rock, das teuerste Kleid**.",
+      "table": [
+        [
+          "billig",
+          "billiger",
+          "am billigsten"
+        ],
+        [
+          "bequem",
+          "bequemer",
+          "am bequemsten"
+        ],
+        [
+          "alt",
+          "älter",
+          "am ältesten"
+        ],
+        [
+          "groß",
+          "größer",
+          "am größten"
+        ],
+        [
+          "teuer",
+          "teurer",
+          "am teuersten"
+        ],
+        [
+          "gut",
+          "besser",
+          "am besten"
+        ],
+        [
+          "viel",
+          "mehr",
+          "am meisten"
+        ],
+        [
+          "gern",
+          "lieber",
+          "am liebsten"
+        ]
+      ],
+      "examples": [
+        {
+          "t": "Die Jacke ist billiger als der Mantel.",
+          "s": "The jacket is cheaper than the coat."
+        },
+        {
+          "t": "Meine Schwester ist älter als ich.",
+          "s": "My sister is older than me."
+        },
+        {
+          "t": "Der Rock ist so teuer wie die Hose.",
+          "s": "The skirt is as expensive as the pants."
+        },
+        {
+          "t": "Diese Schuhe sind am bequemsten.",
+          "s": "These shoes are the most comfortable."
+        },
+        {
+          "t": "Ich trage lieber Jeans als Röcke.",
+          "s": "I prefer wearing jeans to skirts."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "choice",
+          "t": "Die Jacke ist billiger ___ der Mantel.",
+          "options": [
+            "als",
+            "wie",
+            "so"
+          ],
+          "answer": 0,
+          "s": "The jacket is cheaper than the coat."
+        },
+        {
+          "type": "choice",
+          "t": "Der Rock ist so lang ___ das Kleid.",
+          "options": [
+            "als",
+            "wie",
+            "am"
+          ],
+          "answer": 1,
+          "s": "The skirt is as long as the dress."
+        },
+        {
+          "type": "choice",
+          "t": "Welche Schuhe sind am ___?",
+          "options": [
+            "bequemer",
+            "bequemsten",
+            "bequem"
+          ],
+          "answer": 1,
+          "s": "Which shoes are the most comfortable?"
+        },
+        {
+          "type": "choice",
+          "t": "Das ist das ___ Kleid im Geschäft.",
+          "options": [
+            "teuerste",
+            "teuersten",
+            "teurer"
+          ],
+          "answer": 0,
+          "s": "That's the most expensive dress in the store."
+        },
+        {
+          "type": "type",
+          "t": "Dieser Pullover ist gut, aber der grüne ist noch ___.",
+          "answer": [
+            "besser"
+          ],
+          "s": "This sweater is good, but the green one is even better."
+        },
+        {
+          "type": "type",
+          "t": "Lukas ist zwanzig, Lena ist fünfundzwanzig. Lena ist ___ als Lukas.",
+          "answer": [
+            "älter",
+            "aelter"
+          ],
+          "s": "Lukas is twenty, Lena is twenty-five. Lena is older than Lukas."
+        },
+        {
+          "type": "type",
+          "t": "Ich trage gern Röcke, aber ich trage ___ Jeans.",
+          "answer": [
+            "lieber"
+          ],
+          "s": "I like wearing skirts, but I prefer wearing jeans."
+        },
+        {
+          "type": "order",
+          "t": "Mein Bruder ist größer als ich.",
+          "s": "My brother is taller than me."
+        }
+      ]
+    }
+  ],
+  "reading": {
+    "title": {
+      "t": "Neda kauft Winterjacken",
+      "s": "Neda buys winter jackets"
+    },
+    "text": [
+      {
+        "t": "Letzten Samstag war ich mit meinen Kindern im Kaufhaus.",
+        "s": "Last Saturday I was at the department store with my children."
+      },
+      {
+        "t": "Die Kinder brauchen Winterjacken, weil die alten Jacken zu klein sind.",
+        "s": "The kids need winter jackets because the old jackets are too small."
+      },
+      {
+        "t": "Meine Tochter Sara hat zuerst die rote Jacke anprobiert, aber sie war zu eng.",
+        "s": "My daughter Sara first tried on the red jacket, but it was too tight."
+      },
+      {
+        "t": "Die blaue Jacke war eine Nummer größer und hat perfekt gepasst.",
+        "s": "The blue jacket was one size bigger and fit perfectly."
+      },
+      {
+        "t": "Mein Sohn Amir wollte zuerst nur die schwarze Jacke mit dem großen Logo.",
+        "s": "At first my son Amir only wanted the black jacket with the big logo."
+      },
+      {
+        "t": "Aber sie war viel teurer als die anderen Jacken.",
+        "s": "But it was much more expensive than the other jackets."
+      },
+      {
+        "t": "Am Ende hat er die grüne Jacke genommen.",
+        "s": "In the end he took the green jacket."
+      },
+      {
+        "t": "Sie war im Angebot und genauso warm wie die schwarze Jacke.",
+        "s": "It was on sale and just as warm as the black jacket."
+      },
+      {
+        "t": "Und ich? Ich habe nichts gekauft.",
+        "s": "And me? I didn't buy anything."
+      },
+      {
+        "t": "Einkaufen mit Kindern ist anstrengender als ein Tag im Büro!",
+        "s": "Shopping with kids is more tiring than a day at the office!"
+      }
+    ],
+    "questions": [
+      {
+        "q": {
+          "t": "Warum brauchen die Kinder Winterjacken?",
+          "s": "Why do the kids need winter jackets?"
+        },
+        "options": [
+          "Weil die alten Jacken zu klein sind.",
+          "Weil die alten Jacken zu teuer waren.",
+          "Weil es heute schneit."
+        ],
+        "answer": 0
+      },
+      {
+        "q": {
+          "t": "Warum hat Sara die rote Jacke nicht genommen?",
+          "s": "Why didn't Sara take the red jacket?"
+        },
+        "options": [
+          "Sie war zu teuer.",
+          "Sie war zu eng.",
+          "Sie war nicht warm."
+        ],
+        "answer": 1
+      },
+      {
+        "q": {
+          "t": "Was war das Problem mit der schwarzen Jacke?",
+          "s": "What was the problem with the black jacket?"
+        },
+        "options": [
+          "Sie war zu groß.",
+          "Sie war viel teurer als die anderen Jacken.",
+          "Sie war nicht warm genug."
+        ],
+        "answer": 1
+      },
+      {
+        "q": {
+          "t": "Welche Jacke hat Amir genommen?",
+          "s": "Which jacket did Amir take?"
+        },
+        "options": [
+          "die schwarze",
+          "die blaue",
+          "die grüne"
+        ],
+        "answer": 2
+      },
+      {
+        "q": {
+          "t": "Was hat Neda für sich gekauft?",
+          "s": "What did Neda buy for herself?"
+        },
+        "options": [
+          "Stiefel",
+          "eine Jacke",
+          "nichts"
+        ],
+        "answer": 2
+      }
+    ]
+  },
+  "sentences": [
+    {
+      "t": "Kann ich die graue Hose anprobieren?",
+      "s": "Can I try on the gray pants?"
+    },
+    {
+      "t": "Die Jacke ist mir eine Nummer zu klein.",
+      "s": "The jacket is one size too small for me.",
+      "alts": [
+        "Mir ist die Jacke eine Nummer zu klein."
+      ]
+    },
+    {
+      "t": "Der lange Rock gefällt mir besser als der kurze.",
+      "s": "I like the long skirt better than the short one.",
+      "alts": [
+        "Mir gefällt der lange Rock besser als der kurze."
+      ]
+    },
+    {
+      "t": "Diese Stiefel sind am bequemsten.",
+      "s": "These boots are the most comfortable.",
+      "alts": [
+        "Am bequemsten sind diese Stiefel."
+      ]
+    },
+    {
+      "t": "Haben Sie das Kleid auch in Größe vierzig?",
+      "s": "Do you also have the dress in size forty?"
+    },
+    {
+      "t": "Ich möchte den Pullover umtauschen.",
+      "s": "I'd like to exchange the sweater.",
+      "alts": [
+        "Den Pullover möchte ich umtauschen."
+      ]
+    },
+    {
+      "t": "Das rote Kleid ist so teuer wie der Mantel.",
+      "s": "The red dress is as expensive as the coat."
+    },
+    {
+      "t": "Die neue Jacke steht dir sehr gut.",
+      "s": "The new jacket looks very good on you.",
+      "alts": [
+        "Dir steht die neue Jacke sehr gut."
+      ]
+    }
+  ]
+}
