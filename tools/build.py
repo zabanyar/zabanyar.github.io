@@ -267,7 +267,7 @@ def main():
     for course, meta in COURSES.items():
         sup = meta["support"]
         offline = set(); levels = []
-        for lid in LEVELS:
+        for lid in meta.get("levels", LEVELS):   # a course may use only some levels (e.g. a special-purpose course)
             LEVEL = lid
             units = []
             for fn in sorted(glob.glob(os.path.join(CONTENT, course, lid, "u*.json"))):
@@ -279,13 +279,14 @@ def main():
                 files_in(u, offline)
                 units.append({"id": u["id"], "title": u["title"], "img": u.get("img"), "emoji": u.get("emoji"), "goals": u.get("goals", []),
                               "has": {k: bool(u.get(k)) for k in ("letters", "sounds", "words", "phrases", "dialogue", "grammar", "reading")}})
-            lv = {"id": lid, "name": LEVEL_NAME[sup][lid], "units": units}
+            lv = {"id": lid, "name": meta.get("level_names", {}).get(lid, LEVEL_NAME[sup][lid]), "units": units}
             if not units:
                 lv["outline"] = LEVEL_OUTLINE[sup].get(lid, "")
             levels.append(lv)
         offline.discard(None)
         json.dump(sorted(offline), open(os.path.join(DOCS, "data", course, "files.json"), "w"), indent=0)
-        index["courses"].append({"id": course, **{k: meta[k] for k in ("target", "support", "dir", "tdir", "name", "color")}, "levels": levels})
+        index["courses"].append({"id": course, **{k: meta[k] for k in ("target", "support", "dir", "tdir", "name", "color")},
+                                 **({"badge": meta["badge"], "about": meta.get("about")} if meta.get("badge") else {}), "levels": levels})
     json.dump(index, open(os.path.join(DOCS, "data", "courses.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
     json.dump(jobs, open(os.path.join(ROOT, "tools", "tts_jobs.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=0)
     n = sum(len(l["units"]) for c in index["courses"] for l in c["levels"])

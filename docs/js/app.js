@@ -92,10 +92,10 @@ async function viewHome() {
     const pct = refs.length ? Math.round(100 * done / refs.length) : 0;
     const lvls = c.levels.filter(l => l.units.length).map(l => l.id).join(" · ");
     return h("a", { class: "course", href: `#/c/${c.id}`, style: { "--c": c.color } },
-      h("div", { class: "badge", lang: c.target }, c.target.toUpperCase()),
+      h("div", { class: "badge", lang: c.target }, c.badge || c.target.toUpperCase()),
       h("div", {},
         h("h3", {}, h("span", { lang: c.target }, c.name.t), " · ", c.name.s),
-        h("p", {}, h("bdi", { lang: c.support }, EXPLAINED[c.support]), "  ", h("bdi", { dir: "ltr", class: "lvls" }, lvls)),
+        h("p", {}, h("bdi", { lang: c.support }, c.about || EXPLAINED[c.support]), "  ", h("bdi", { dir: "ltr", class: "lvls" }, lvls)),
         h("div", { class: "progressbar" }, h("i", { style: { width: pct + "%", background: c.color } }))),
       h("div", { class: "chip" }, started ? "▶ " + (nextUp(c, p)?.level || "✓") : "✨"));
   });
@@ -164,7 +164,7 @@ async function viewCourse(cid, want) {
     || c.levels.find(l => l.id === next?.level) || avail[0];
   if (want && cur.units.length) store.setPref("lv:" + cid, cur.id);
   // level tabs: every level at a glance with its progress; one level is shown at a time
-  const tabs = h("div", { class: "tabs levels", role: "tablist" }, c.levels.map(l => {
+  const tabs = h("div", { class: "tabs levels", role: "tablist", style: { gridTemplateColumns: `repeat(${c.levels.length}, 1fr)` } }, c.levels.map(l => {
     const st = l.units.length ? levelStats(c, l, p) : null;
     return h("button", { class: (l.id === cur.id ? "on" : "") + (st ? "" : " soon"), role: "tab", "aria-selected": String(l.id === cur.id),
       onclick: () => go(`#/c/${cid}/lv/${l.id}`) },
