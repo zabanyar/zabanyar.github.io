@@ -109,7 +109,14 @@ def numbers(t, lang):
 CONJ = {"en": " or ", "de": " oder ", "tr": " veya ", "fa": " یا "}
 ABBR = {"en": [("Dr.", "Doctor"), ("Mr.", "Mister"), ("Mrs.", "Missus"), ("Si-o-se-pol", "See-oh-seh pol")],
         "de": [("Prof. Dr.", "Professor Doktor"), ("Dr.", "Doktor"), ("Prof.", "Professor"), ("z. B.", "zum Beispiel"), ("z.B.", "zum Beispiel"),
-               ("usw.", "und so weiter"), ("bzw.", "beziehungsweise"), ("CO₂", "C O zwei")],
+               ("usw.", "und so weiter"), ("bzw.", "beziehungsweise"), ("CO₂", "C O zwei"),
+               # drug names and medical terms the German voices misread (checked with espeak-ng IPA and Whisper):
+               # c before i/y is "z", stressed long -in/-em endings
+               ("Paracetamol", "Parazetamol"), ("icillin", "izillin"), ("romycin", "romyzin"), ("Doxycyclin", "Doxyzyklin"),
+               ("Acetylsalicylsäure", "Azetylsalizylsäure"), ("Cephalgie", "Zephalgie"), ("Ibuprofen", "Ibu-Profen"),
+               ("Statin", "Statihn"), ("statin", "statihn"), ("Exanthem", "Exanthehm"), ("exanthem", "exanthehm"),
+               ("Levothyroxin", "Levothyroxihn"), ("Generik", "Geneerik"),
+               ("Spacer", "Speißer"), ("Teach-back", "Tietschbäck")],
         "tr": [("Prof. Dr.", "Profesör Doktor"), ("Dr.", "Doktor"), ("Prof.", "Profesör"), ("Bedenim M.", "Bedenim em."), ("Bu L beden", "Bu el beden")],
         "fa": []}
 
