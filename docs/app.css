@@ -253,3 +253,5 @@ h2 { font-size: 1.25rem; margin: 22px 0 10px; }
 .tabs.levels button { display: flex; flex-direction: column; align-items: center; padding: 6px 2px; border-radius: 14px; min-width: 0; }
 .tabs.levels button b { font-size: 1.05rem; }
 .tabs.levels button .small { font-size: .78rem; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 100%; }
+.gaphint { color: var(--muted); font-size: .72em; font-weight: 500; white-space: nowrap; }
+.gtable th { padding: 8px 10px; border-bottom: 2px solid var(--accent); text-align: start; font-weight: 800; color: var(--accent); }

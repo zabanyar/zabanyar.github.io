@@ -2,7 +2,7 @@
 import { h, $, T, pic, play, stop, sayBtn, toast, setTarget } from "./ui.js";
 import { t, setLang, getLang, num } from "./i18n.js";
 import * as store from "./store.js";
-import { lessonsFor, buildLesson, buildReview, runLesson, LESSON_ICONS, unitKey } from "./lesson.js";
+import { lessonsFor, buildLesson, buildReview, runLesson, LESSON_ICONS, unitKey, lessonLabel } from "./lesson.js";
 
 const app = $("#app");
 let INDEX = null;
@@ -141,9 +141,9 @@ function continueCard(c, p, withCourse) {
   if (!n) return h("div", { class: "card center" }, "🎉 " + t("allDone"));
   const lv = c.levels.find(l => l.id === n.level);
   return h("a", { class: "continue", href: `#/c/${c.id}/u/${n.key}/l/${n.lid}`, style: { "--c": c.color } },
-    h("div", { class: "ico" }, LESSON_ICONS[n.lid] || "▶"),
+    h("div", { class: "ico" }, LESSON_ICONS[n.lid] || (/^g\d+$/.test(n.lid) ? "🧩" : "▶")),
     h("div", {},
-      h("div", { class: "sub" }, (withCourse ? c.name.t + " · " : "") + `${n.level} · ${t("unit")} ${num(unitNo(lv, n.un))} · ${t("L_" + n.lid)}`),
+      h("div", { class: "sub" }, (withCourse ? c.name.t + " · " : "") + `${n.level} · ${t("unit")} ${num(unitNo(lv, n.un))} · ${lessonLabel(n.un, n.lid, t)[0]}`),
       h("b", {}, T(n.un.title.t)), h("div", { class: "muted small" }, n.un.title.s)),
     h("div", { class: "go" }, "▶ " + t("continue")));
 }
@@ -203,6 +203,7 @@ async function viewCourse(cid, want) {
 }
 function lessonIds(un) {
   // same logic as lessonsFor() but from the index summary
+  if (un.kind === "grammar") return [...Array.from({ length: un.gn || 0 }, (_, i) => "g" + (i + 1)), "test"];
   const L = [];
   if (un.has.letters) L.push("letters");
   if (un.has.sounds) L.push("sounds");
@@ -264,8 +265,8 @@ async function viewUnit(cid, key) {
       const st = p.lessons[lkey(cid, key, l)];
       const stars = st ? (st.best >= .9 ? 3 : st.best >= .7 ? 2 : 1) : 0;
       return h("a", { class: "lesson" + (st ? " done" : "") + (l === firstOpen ? " next" : ""), href: `#/c/${cid}/u/${key}/l/${l}` },
-        h("div", { class: "ico" }, LESSON_ICONS[l]),
-        h("div", {}, h("b", {}, t("L_" + l)), h("span", { class: "muted small" }, t("D_" + l))),
+        h("div", { class: "ico" }, LESSON_ICONS[l] || "🧩"),
+        h("div", {}, h("b", {}, T(lessonLabel(un, l, t)[0])), h("span", { class: "muted small" }, lessonLabel(un, l, t)[1])),
         h("div", { class: "stars" }, st ? "★".repeat(stars) + "☆".repeat(3 - stars) : "▶"));
     })),
     h("div", { class: "unitnav" }, nav(refs[i - 1], t("prevUnit"), "prev"), nav(refs[i + 1], t("nextUnit"), "nextu")));

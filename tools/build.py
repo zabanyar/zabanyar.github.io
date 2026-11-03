@@ -285,7 +285,8 @@ def main():
                 offline.add(f"data/{course}/{lid}/{os.path.basename(fn)}")
                 files_in(u, offline)
                 units.append({"id": u["id"], "title": u["title"], "img": u.get("img"), "emoji": u.get("emoji"), "goals": u.get("goals", []),
-                              "has": {k: bool(u.get(k)) for k in ("letters", "sounds", "words", "phrases", "dialogue", "grammar", "reading")}})
+                              "has": {k: bool(u.get(k)) for k in ("letters", "sounds", "words", "phrases", "dialogue", "grammar", "reading")},
+                              **({"kind": "grammar", "gn": len(u["grammar"]), "gt": [g["title"]["t"] for g in u["grammar"]]} if u.get("kind") == "grammar" else {})})
             lv = {"id": lid, "name": meta.get("level_names", {}).get(lid, LEVEL_NAME[sup][lid]), "units": units}
             if not units:
                 lv["outline"] = LEVEL_OUTLINE[sup].get(lid, "")

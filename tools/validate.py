@@ -51,9 +51,14 @@ def validate(fn):
             if "ex" in l:
                 need_ts(errs, l["ex"], f"letters[{i}].ex")
                 check_emoji(errs, l["ex"].get("emoji"), f"letters[{i}].ex.emoji")
+    GU = d.get("kind") == "grammar"          # grammar unit: only grammar topics (one lesson each) + test
+    if d.get("kind") not in (None, "grammar"): err(errs, "kind", "only \"grammar\" allowed")
     W = d.get("words", [])
     lo = 6 if uid == "u00" else 10
-    if not (lo <= len(W) <= 16):
+    if GU:
+        if W or d.get("phrases") or d.get("dialogue") or d.get("reading") or d.get("sentences"):
+            err(errs, "kind", "a grammar unit has only grammar topics (no words, phrases, dialogue, reading, sentences)")
+    elif not (lo <= len(W) <= 16):
         err(errs, "words", f"need {lo}–14 words, got {len(W)}")
     ids = set()
     for i, w in enumerate(W):
@@ -66,10 +71,10 @@ def validate(fn):
         else: err(errs, p + ".ex", "example sentence missing")
     for i, ph in enumerate(d.get("phrases", [])):
         need_ts(errs, ph, f"phrases[{i}]")
-    if uid != "u00" and len(d.get("phrases", [])) < 4:
+    if uid != "u00" and not GU and len(d.get("phrases", [])) < 4:
         err(errs, "phrases", "need 4–8")
     dl = d.get("dialogue")
-    if uid != "u00" or dl:
+    if (uid != "u00" and not GU) or dl:
         if not dl: err(errs, "dialogue", "missing")
         else:
             need_ts(errs, dl.get("title"), "dialogue.title")
@@ -83,7 +88,9 @@ def validate(fn):
                 need_ts(errs, l, f"dialogue.lines[{i}]")
                 if l.get("sp") not in ("A", "B"): err(errs, f"dialogue.lines[{i}].sp", "A or B")
     G = d.get("grammar", [])
-    if uid != "u00" and not (1 <= len(G) <= 3):
+    if GU and not (4 <= len(G) <= 7):
+        err(errs, "grammar", f"a grammar unit needs 4–6 topics, got {len(G)}")
+    elif not GU and uid != "u00" and not (1 <= len(G) <= 3):
         err(errs, "grammar", "1–2 grammar points")
     for gi, g in enumerate(G):
         p = f"grammar[{gi}]"
@@ -93,10 +100,17 @@ def validate(fn):
         for i, ex in enumerate(g.get("examples", [])): need_ts(errs, ex, f"{p}.examples[{i}]")
         X = g.get("exercises", [])
         if len(X) < 4: err(errs, p + ".exercises", "need 5–8")
+        if GU:
+            if len(g.get("explain", "")) < 300: err(errs, p + ".explain", "grammar-unit explanation should be detailed (≥ 300 chars)")
+            if len(g.get("examples", [])) < 4: err(errs, p + ".examples", "need 4–6 examples")
+            if not (10 <= len(X) <= 14): err(errs, p + ".exercises", f"grammar unit: need 10–14 exercises, got {len(X)}")
+            if len({x.get("type") for x in X}) < 2: err(errs, p + ".exercises", "mix exercise types")
         for i, x in enumerate(X):
             q = f"{p}.exercises[{i}]"
             ty = x.get("type")
             need_ts(errs, x, q)
+            if "hint" in x and (not isinstance(x["hint"], str) or not x["hint"].strip() or len(x["hint"]) > 40):
+                err(errs, q + ".hint", "hint must be a short string (e.g. the infinitive)")
             if ty == "choice":
                 o = x.get("options", [])
                 if len(o) < 2: err(errs, q, "options < 2")
@@ -113,7 +127,7 @@ def validate(fn):
             else:
                 err(errs, q, f"unknown type {ty}")
     r = d.get("reading")
-    if uid != "u00" or r:
+    if (uid != "u00" and not GU) or r:
         if not r: err(errs, "reading", "missing")
         else:
             need_ts(errs, r.get("title"), "reading.title")
@@ -127,7 +141,7 @@ def validate(fn):
                 if not isinstance(a, int) or not (0 <= a < len(o)): err(errs, f"reading.questions[{i}]", "bad answer")
             if len(r.get("questions", [])) < 2: err(errs, "reading.questions", "need 3–4")
     S = d.get("sentences", [])
-    if uid != "u00" and len(S) < 5: err(errs, "sentences", "need 6–8")
+    if uid != "u00" and not GU and len(S) < 5: err(errs, "sentences", "need 6–8")
     for i, s in enumerate(S): need_ts(errs, s, f"sentences[{i}]")
     # Persian ZWNJ heuristics
     txt = json.dumps(d, ensure_ascii=False)

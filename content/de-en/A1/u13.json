@@ -1,0 +1,954 @@
+{
+  "id": "u13",
+  "level": "A1",
+  "kind": "grammar",
+  "emoji": "❓",
+  "title": {
+    "t": "Grammatik: Sätze und Fragen",
+    "s": "Grammar: sentences and questions"
+  },
+  "goals": [
+    "Put the verb in second position, also after a time or a place",
+    "Ask W-questions and yes/no questions and answer with ja, nein or doch",
+    "Build the sentence bracket with modal verbs and separable verbs",
+    "Give instructions with the imperative for du, ihr and Sie",
+    "Say when things happen with um, am, im, von … bis and ab"
+  ],
+  "grammar": [
+    {
+      "id": "g01",
+      "title": {
+        "t": "Heute arbeite ich.",
+        "s": "The verb in second position"
+      },
+      "explain": "In a German statement, the conjugated verb (the verb with the personal ending) is always in **position 2**. This is one of the most important rules of German word order.\nPosition 2 means the second *part* of the sentence, not always the second word. Position 1 is often the subject (**Ich** trinke am Morgen Kaffee.), but it can also be a time or a place. A group like **am Morgen**, **um acht Uhr** or **in Berlin** counts as one part.\nWhen something other than the subject comes first, the verb stays in position 2 and the subject moves right behind it. This is called **inversion**: **Ich arbeite heute.** → **Heute arbeite ich.** The meaning stays the same; the time or place just gets more attention. Words like **heute**, **dann**, **am Abend**, **um sieben Uhr** and **im Sommer** often start a sentence.\nThe little words **und**, **aber** and **oder** do not count. They stand before position 1, so the order after them does not change: **Ali kocht und Sara liest.**\nCareful: English says *Today I work*, but German never allows **Heute ich arbeite**. Persian puts the verb at the end, but in a German statement it must come second: **Ich wohne in Teheran**, not **Ich in Teheran wohne**.",
+      "table": [
+        [
+          "first part",
+          "verb",
+          "rest"
+        ],
+        [
+          "Ich",
+          "trinke",
+          "am Morgen Kaffee."
+        ],
+        [
+          "Am Morgen",
+          "trinke",
+          "ich Kaffee."
+        ],
+        [
+          "Heute",
+          "kocht",
+          "meine Mutter."
+        ],
+        [
+          "Um acht Uhr",
+          "fährt",
+          "der Bus."
+        ],
+        [
+          "Dann",
+          "spielen",
+          "die Kinder Fußball."
+        ]
+      ],
+      "examples": [
+        {
+          "t": "Ich trinke am Morgen Kaffee.",
+          "s": "I drink coffee in the morning."
+        },
+        {
+          "t": "Am Morgen trinke ich Kaffee.",
+          "s": "In the morning I drink coffee."
+        },
+        {
+          "t": "Heute kocht meine Mutter.",
+          "s": "Today my mother is cooking."
+        },
+        {
+          "t": "Um acht Uhr fährt der Bus.",
+          "s": "At eight o'clock the bus leaves."
+        },
+        {
+          "t": "Dann spielen die Kinder Fußball.",
+          "s": "Then the children play soccer."
+        },
+        {
+          "t": "Ali kocht und Sara liest.",
+          "s": "Ali is cooking and Sara is reading."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "choice",
+          "t": "Heute ___ in Berlin.",
+          "options": [
+            "ich arbeite",
+            "arbeite ich",
+            "ich arbeiten"
+          ],
+          "answer": 1,
+          "s": "Today I'm working in Berlin."
+        },
+        {
+          "type": "choice",
+          "t": "Um halb acht ___.",
+          "options": [
+            "Mina frühstückt",
+            "frühstückt Mina",
+            "Mina frühstücken"
+          ],
+          "answer": 1,
+          "s": "At seven thirty Mina has breakfast."
+        },
+        {
+          "type": "choice",
+          "t": "Im Sommer ___ gern.",
+          "options": [
+            "wir schwimmen",
+            "schwimmen wir",
+            "wir schwimmt"
+          ],
+          "answer": 1,
+          "s": "In the summer we like to swim."
+        },
+        {
+          "type": "choice",
+          "t": "___ trinke ich Tee.",
+          "options": [
+            "Ich",
+            "Und",
+            "Dann"
+          ],
+          "answer": 2,
+          "s": "Then I drink tea."
+        },
+        {
+          "type": "type",
+          "t": "Heute ___ ich Reis.",
+          "answer": [
+            "koche"
+          ],
+          "s": "Today I'm cooking rice.",
+          "hint": "kochen"
+        },
+        {
+          "type": "type",
+          "t": "Am Morgen ___ Maryam Kaffee.",
+          "answer": [
+            "trinkt"
+          ],
+          "s": "In the morning Maryam drinks coffee.",
+          "hint": "trinken"
+        },
+        {
+          "type": "type",
+          "t": "Heute ___ Herr Wagner nicht.",
+          "answer": [
+            "arbeitet"
+          ],
+          "s": "Mr. Wagner isn't working today.",
+          "hint": "arbeiten"
+        },
+        {
+          "type": "type",
+          "t": "Um sieben Uhr stehe ___ auf.",
+          "answer": [
+            "ich"
+          ],
+          "s": "At seven o'clock I get up."
+        },
+        {
+          "type": "order",
+          "t": "Heute kocht Ali.",
+          "s": "Today Ali is cooking.",
+          "alts": [
+            "Ali kocht heute."
+          ]
+        },
+        {
+          "type": "order",
+          "t": "In Teheran wohnt meine Oma.",
+          "s": "My grandma lives in Tehran.",
+          "alts": [
+            "Meine Oma wohnt in Teheran."
+          ]
+        },
+        {
+          "type": "order",
+          "t": "Um halb sieben stehe ich auf.",
+          "s": "At six thirty I get up.",
+          "alts": [
+            "Ich stehe um halb sieben auf."
+          ]
+        },
+        {
+          "type": "order",
+          "t": "Am Abend kaufe ich ein.",
+          "s": "In the evening I go shopping.",
+          "alts": [
+            "Ich kaufe am Abend ein."
+          ]
+        }
+      ],
+      "thead": true
+    },
+    {
+      "id": "g02",
+      "title": {
+        "t": "Wo wohnst du? Wohnst du hier?",
+        "s": "Questions; ja, nein and doch"
+      },
+      "explain": "German has two main kinds of questions. **W-questions** ask for information and start with a question word: **wer** *who*, **was** *what*, **wo** *where*, **woher** *where from*, **wann** *when*, **wie** *how*, **wie viel** *how much*, **wie alt** *how old*. The question word is in position 1, the verb in position 2, and then usually the subject: **Wo wohnst du?** **Wann kommt der Bus?** With **wer** the question word is itself the subject: **Wer kocht heute?**\n**Yes/no questions** have no question word. The verb moves to **position 1**, and the subject comes right after it: **Du wohnst in Berlin.** → **Wohnst du in Berlin?** The rest of the sentence stays where it was, and your voice goes up at the end.\nThe answer to a yes/no question is **ja** or **nein**. But if the question is negative (with **nicht** or **kein**) and you want to say *yes*, use **doch**: **Hast du keinen Hunger?** – **Doch, ich habe Hunger.** If you agree with the negative question, say **nein**: **Kommst du nicht mit?** – **Nein, ich habe keine Zeit.**\nCareful: German has no helper verb like English *do*. *Do you live here?* is simply **Wohnst du hier?** Persian often keeps the statement order and only changes the intonation, but in German the verb must move to the front. Also, **wer** looks like English *where*, but it means *who*; *where* is **wo**. And to ask for a name, say **Wie heißt du?**, not **Was heißt du?**",
+      "table": [
+        [
+          "question word",
+          "meaning",
+          "example"
+        ],
+        [
+          "wer",
+          "who",
+          "Wer kocht heute?"
+        ],
+        [
+          "was",
+          "what",
+          "Was trinkst du?"
+        ],
+        [
+          "wo",
+          "where",
+          "Wo arbeitet Anna?"
+        ],
+        [
+          "woher",
+          "where from",
+          "Woher kommt Lukas?"
+        ],
+        [
+          "wann",
+          "when",
+          "Wann fährt der Bus?"
+        ],
+        [
+          "wie",
+          "how",
+          "Wie heißt deine Schwester?"
+        ],
+        [
+          "wie viel",
+          "how much",
+          "Wie viel kostet der Schal?"
+        ],
+        [
+          "verb first",
+          "yes or no",
+          "Kochst du heute?"
+        ]
+      ],
+      "examples": [
+        {
+          "t": "Woher kommt Herr Wagner?",
+          "s": "Where does Mr. Wagner come from?"
+        },
+        {
+          "t": "Was kochst du heute?",
+          "s": "What are you cooking today?"
+        },
+        {
+          "t": "Wohnt Anna in Köln? – Ja, sie wohnt in Köln.",
+          "s": "Does Anna live in Cologne? – Yes, she lives in Cologne."
+        },
+        {
+          "t": "Spielt Reza Gitarre? – Nein, er spielt Fußball.",
+          "s": "Does Reza play the guitar? – No, he plays soccer."
+        },
+        {
+          "t": "Hast du keinen Hunger? – Doch, ich habe Hunger!",
+          "s": "Aren't you hungry? – Yes, I am hungry!"
+        },
+        {
+          "t": "Isst du keinen Reis? – Doch, ich esse gern Reis.",
+          "s": "Don't you eat rice? – Yes, I like eating rice."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "choice",
+          "t": "___ wohnst du? – In Berlin.",
+          "options": [
+            "Wer",
+            "Wo",
+            "Was"
+          ],
+          "answer": 1,
+          "s": "Where do you live? – In Berlin."
+        },
+        {
+          "type": "choice",
+          "t": "___ kocht heute? – Mama kocht.",
+          "options": [
+            "Wo",
+            "Wie",
+            "Wer"
+          ],
+          "answer": 2,
+          "s": "Who is cooking today? – Mom is cooking."
+        },
+        {
+          "type": "choice",
+          "t": "Trinkst du Tee? – ___, ich trinke gern Tee.",
+          "options": [
+            "Ja",
+            "Doch",
+            "Nein"
+          ],
+          "answer": 0,
+          "s": "Do you drink tea? – Yes, I like drinking tea."
+        },
+        {
+          "type": "choice",
+          "t": "Hast du keine Zeit? – ___, ich habe Zeit.",
+          "options": [
+            "Ja",
+            "Nein",
+            "Doch"
+          ],
+          "answer": 2,
+          "s": "Don't you have time? – Yes, I have time."
+        },
+        {
+          "type": "type",
+          "t": "___ kommst du? – Aus dem Iran.",
+          "answer": [
+            "Woher"
+          ],
+          "s": "Where do you come from? – From Iran."
+        },
+        {
+          "type": "type",
+          "t": "___ stehst du auf? – Um sieben Uhr.",
+          "answer": [
+            "Wann"
+          ],
+          "s": "When do you get up? – At seven o'clock."
+        },
+        {
+          "type": "type",
+          "t": "___ du Kaffee? – Nein, ich trinke Tee.",
+          "answer": [
+            "Trinkst"
+          ],
+          "s": "Do you drink coffee? – No, I drink tea.",
+          "hint": "trinken"
+        },
+        {
+          "type": "type",
+          "t": "Kommst du nicht mit? – ___, ich komme mit.",
+          "answer": [
+            "Doch"
+          ],
+          "s": "Aren't you coming along? – Yes, I'm coming along."
+        },
+        {
+          "type": "order",
+          "t": "Wo arbeitet deine Mutter?",
+          "s": "Where does your mother work?"
+        },
+        {
+          "type": "order",
+          "t": "Wann stehst du am Morgen auf?",
+          "s": "When do you get up in the morning?"
+        },
+        {
+          "type": "order",
+          "t": "Kommst du heute mit?",
+          "s": "Are you coming along today?"
+        },
+        {
+          "type": "order",
+          "t": "Wohnen Sie in Hamburg?",
+          "s": "Do you live in Hamburg?"
+        }
+      ],
+      "thead": true
+    },
+    {
+      "id": "g03",
+      "title": {
+        "t": "Ich muss heute arbeiten.",
+        "s": "The sentence bracket"
+      },
+      "explain": "Many German sentences have a verb in two parts. The conjugated part stays in **position 2**, and the second part goes to the very **end** of the sentence. Everything else stands between them, as if inside a **sentence bracket**.\nThere are two kinds. With a **modal verb** (**können**, **müssen**, **wollen**, **möchten**), the modal verb is in position 2 and the other verb goes to the end as an **infinitive**: **Ich muss heute arbeiten.** **Maryam kann sehr gut kochen.** With a **separable verb**, the main part is in position 2 and the prefix goes to the end: **Ich rufe meine Oma an.** **Wir kaufen im Supermarkt ein.**\nInversion does not change the bracket: **Heute muss ich arbeiten.** **Am Abend sieht Amir fern.** In a yes/no question the conjugated part is in position 1, and the end stays at the end: **Kannst du heute mitkommen?** If a separable verb comes with a modal verb, it is the infinitive, so it stays together at the end: **Ich muss um sechs Uhr aufstehen.** The word **nicht** usually comes just before the end: **Ich muss heute nicht arbeiten.**\nCareful: English keeps the verbs together (*I must work today*), so learners often say **Ich muss arbeiten heute**. That is wrong; the infinitive goes to the end. Don't give the infinitive an ending (**Ich kann schwimmen**, not **Ich kann schwimme**), and don't forget the prefix: **Ich stehe um sieben Uhr** is not complete without **auf**.",
+      "table": [
+        [
+          "first part",
+          "verb",
+          "middle",
+          "end"
+        ],
+        [
+          "Ich",
+          "muss",
+          "heute",
+          "arbeiten."
+        ],
+        [
+          "Heute",
+          "muss",
+          "ich",
+          "arbeiten."
+        ],
+        [
+          "Wir",
+          "möchten",
+          "einen Salat",
+          "essen."
+        ],
+        [
+          "Ich",
+          "rufe",
+          "meine Oma",
+          "an."
+        ],
+        [
+          "Am Abend",
+          "sieht",
+          "Amir",
+          "fern."
+        ]
+      ],
+      "examples": [
+        {
+          "t": "Ich muss heute nicht arbeiten.",
+          "s": "I don't have to work today."
+        },
+        {
+          "t": "Am Abend will Ali Fußball spielen.",
+          "s": "In the evening Ali wants to play soccer."
+        },
+        {
+          "t": "Maryam kann sehr gut kochen.",
+          "s": "Maryam can cook very well."
+        },
+        {
+          "t": "Heute ruft Reza Frau Wagner an.",
+          "s": "Today Reza is calling Ms. Wagner."
+        },
+        {
+          "t": "Um sieben Uhr kaufen wir im Supermarkt ein.",
+          "s": "At seven o'clock we go shopping at the supermarket."
+        },
+        {
+          "t": "Kannst du um sechs Uhr aufstehen?",
+          "s": "Can you get up at six o'clock?"
+        }
+      ],
+      "exercises": [
+        {
+          "type": "choice",
+          "t": "Ich muss heute ___.",
+          "options": [
+            "arbeiten",
+            "arbeite",
+            "arbeitet"
+          ],
+          "answer": 0,
+          "s": "I have to work today."
+        },
+        {
+          "type": "choice",
+          "t": "Wir wollen am Abend ___.",
+          "options": [
+            "sehen fern",
+            "fernsehen",
+            "fern sehen"
+          ],
+          "answer": 1,
+          "s": "We want to watch TV in the evening."
+        },
+        {
+          "type": "choice",
+          "t": "Ali ___ heute ein.",
+          "options": [
+            "einkauft",
+            "kaufen",
+            "kauft"
+          ],
+          "answer": 2,
+          "s": "Ali is going shopping today."
+        },
+        {
+          "type": "choice",
+          "t": "Ich möchte ___.",
+          "options": [
+            "einen Tee trinken",
+            "trinken einen Tee",
+            "einen Tee trinke"
+          ],
+          "answer": 0,
+          "s": "I'd like to drink a tea."
+        },
+        {
+          "type": "type",
+          "t": "Mina ___ heute nicht kommen.",
+          "answer": [
+            "kann"
+          ],
+          "s": "Mina can't come today.",
+          "hint": "können"
+        },
+        {
+          "type": "type",
+          "t": "Am Abend rufe ich meine Oma ___.",
+          "answer": [
+            "an"
+          ],
+          "s": "In the evening I call my grandma.",
+          "hint": "anrufen"
+        },
+        {
+          "type": "type",
+          "t": "Wir müssen um sechs Uhr ___.",
+          "answer": [
+            "aufstehen"
+          ],
+          "s": "We have to get up at six o'clock."
+        },
+        {
+          "type": "type",
+          "t": "Heute ___ wir im Supermarkt ein.",
+          "answer": [
+            "kaufen"
+          ],
+          "s": "Today we're shopping at the supermarket.",
+          "hint": "einkaufen"
+        },
+        {
+          "type": "order",
+          "t": "Ich muss heute arbeiten.",
+          "s": "I have to work today.",
+          "alts": [
+            "Heute muss ich arbeiten."
+          ]
+        },
+        {
+          "type": "order",
+          "t": "Kannst du heute mitkommen?",
+          "s": "Can you come along today?"
+        },
+        {
+          "type": "order",
+          "t": "Am Abend sieht Amir fern.",
+          "s": "In the evening Amir watches TV.",
+          "alts": [
+            "Amir sieht am Abend fern."
+          ]
+        },
+        {
+          "type": "order",
+          "t": "Wir wollen im Sommer schwimmen.",
+          "s": "We want to swim in the summer.",
+          "alts": [
+            "Im Sommer wollen wir schwimmen."
+          ]
+        }
+      ],
+      "thead": true
+    },
+    {
+      "id": "g04",
+      "title": {
+        "t": "Ruf mich an!",
+        "s": "The imperative"
+      },
+      "explain": "The imperative is the form for instructions, requests and advice: *Come!* *Please call me!* German has three forms, because there are three ways to say *you*.\nFor **Sie** (polite, one or more people), take the Sie form and put the verb first: **Sie kommen** → **Kommen Sie!** For **ihr** (two or more friends or family members), take the ihr form and leave out **ihr**: **ihr kommt** → **Kommt!** For **du**, take the du form and drop **du** and the ending **-st**: **du kommst** → **Komm!** **du trinkst** → **Trink!** If the stem ends in -s, -ß or -z, only the **-t** goes: **du liest** → **Lies!** **du isst** → **Iss!** Verbs with a stem in -t or -d keep an **e**: **Arbeite!**\nVerbs with the vowel change e → i or e → ie keep it in the du form: **Iss!** **Nimm!** **Sprich!** **Lies!** But a → ä disappears: **du fährst** → **Fahr!** **du schläfst** → **Schlaf!** With many verbs you may also add an **-e** (**Komme!**, **Schlafe!**), but this sounds formal or old-fashioned, and it is never possible with the e → i verbs.\n**sein** is irregular: **Sei!** **Seid!** **Seien Sie!** Separable verbs send the prefix to the end, as always: **Ruf mich an!** **Steh auf!** **Kauft bitte ein!** Add **bitte** to make a request polite.\nCareful: in the Sie form, **Sie** must stay: **Kommen Sie!** In the du form, leave out **du** (**Komm!**, not **Du komm!**) and drop the **-st** (**Trink!**, not **Trinkst!**). Also, **Ess!** and **Fähr!** are wrong; say **Iss!** and **Fahr!**",
+      "table": [
+        [
+          "infinitive",
+          "du",
+          "ihr",
+          "Sie"
+        ],
+        [
+          "kommen",
+          "Komm!",
+          "Kommt!",
+          "Kommen Sie!"
+        ],
+        [
+          "arbeiten",
+          "Arbeite!",
+          "Arbeitet!",
+          "Arbeiten Sie!"
+        ],
+        [
+          "essen",
+          "Iss!",
+          "Esst!",
+          "Essen Sie!"
+        ],
+        [
+          "lesen",
+          "Lies!",
+          "Lest!",
+          "Lesen Sie!"
+        ],
+        [
+          "fahren",
+          "Fahr!",
+          "Fahrt!",
+          "Fahren Sie!"
+        ],
+        [
+          "anrufen",
+          "Ruf an!",
+          "Ruft an!",
+          "Rufen Sie an!"
+        ],
+        [
+          "sein",
+          "Sei!",
+          "Seid!",
+          "Seien Sie!"
+        ]
+      ],
+      "examples": [
+        {
+          "t": "Nimm einen Apfel!",
+          "s": "Take an apple!"
+        },
+        {
+          "t": "Ruf mich am Abend an!",
+          "s": "Call me in the evening!"
+        },
+        {
+          "t": "Kinder, esst bitte den Salat!",
+          "s": "Kids, please eat the salad!"
+        },
+        {
+          "t": "Fahren Sie bitte langsam!",
+          "s": "Please drive slowly!"
+        },
+        {
+          "t": "Sei bitte um sieben Uhr hier!",
+          "s": "Please be here at seven o'clock!"
+        },
+        {
+          "t": "Steht auf, es ist spät!",
+          "s": "Get up, it's late!"
+        }
+      ],
+      "exercises": [
+        {
+          "type": "choice",
+          "t": "___ bitte langsam, Ali!",
+          "options": [
+            "Sprichst",
+            "Sprich",
+            "Sprech"
+          ],
+          "answer": 1,
+          "s": "Please speak slowly, Ali!"
+        },
+        {
+          "type": "choice",
+          "t": "Herr Wagner, ___ Sie mich bitte am Abend an!",
+          "options": [
+            "rufen",
+            "ruft",
+            "ruf"
+          ],
+          "answer": 0,
+          "s": "Mr. Wagner, please call me in the evening!"
+        },
+        {
+          "type": "choice",
+          "t": "Kinder, ___ bitte um sechs Uhr hier!",
+          "options": [
+            "sei",
+            "sind",
+            "seid"
+          ],
+          "answer": 2,
+          "s": "Kids, please be here at six o'clock!"
+        },
+        {
+          "type": "choice",
+          "t": "Lena, ___ bitte die Suppe!",
+          "options": [
+            "iss",
+            "esse",
+            "isst"
+          ],
+          "answer": 0,
+          "s": "Lena, please eat the soup!"
+        },
+        {
+          "type": "type",
+          "t": "___ bitte, Mina!",
+          "answer": [
+            "Komm",
+            "Komme"
+          ],
+          "s": "Please come, Mina!",
+          "hint": "kommen"
+        },
+        {
+          "type": "type",
+          "t": "___ bitte das Buch, Reza!",
+          "answer": [
+            "Lies"
+          ],
+          "s": "Please read the book, Reza!",
+          "hint": "lesen"
+        },
+        {
+          "type": "type",
+          "t": "Jonas, ___ bitte auf!",
+          "answer": [
+            "steh",
+            "stehe"
+          ],
+          "s": "Jonas, please get up!",
+          "hint": "aufstehen"
+        },
+        {
+          "type": "type",
+          "t": "Anna und Lukas, ___ bitte ein!",
+          "answer": [
+            "kauft"
+          ],
+          "s": "Anna and Lukas, please go shopping!",
+          "hint": "einkaufen"
+        },
+        {
+          "type": "type",
+          "t": "___ gut, Mama!",
+          "answer": [
+            "Schlaf",
+            "Schlafe"
+          ],
+          "s": "Sleep well, Mom!",
+          "hint": "schlafen"
+        },
+        {
+          "type": "order",
+          "t": "Steh bitte auf!",
+          "s": "Please get up!",
+          "alts": [
+            "Bitte steh auf!",
+            "Steh auf, bitte!"
+          ]
+        },
+        {
+          "type": "order",
+          "t": "Kommen Sie bitte mit!",
+          "s": "Please come along!",
+          "alts": [
+            "Bitte kommen Sie mit!",
+            "Kommen Sie mit, bitte!"
+          ]
+        },
+        {
+          "type": "order",
+          "t": "Fahr bitte langsam!",
+          "s": "Please drive slowly!",
+          "alts": [
+            "Bitte fahr langsam!",
+            "Fahr langsam, bitte!"
+          ]
+        }
+      ],
+      "thead": true
+    },
+    {
+      "id": "g05",
+      "title": {
+        "t": "um acht Uhr, am Abend, im Mai",
+        "s": "Time expressions: um, am, im, von … bis, ab"
+      },
+      "explain": "To say *when* something happens, German uses small prepositions. Each one goes with a certain kind of time expression, and they don't always match English.\n**um** is for clock times: **um sieben Uhr**, **um halb acht**, **um Viertel nach drei**. To ask, say **Wann?** or **Um wie viel Uhr?**\n**am** is for parts of the day and for days: **am Morgen**, **am Abend**, **am Montag**, **am Sonntag**. The days are **Montag**, **Dienstag**, **Mittwoch**, **Donnerstag**, **Freitag**, **Samstag** and **Sonntag**. One exception to remember: **in der Nacht** *at night*.\n**im** is for months and seasons: **im Mai**, **im Juli**, **im Sommer**, **im Winter**.\n**von … bis** gives a start and an end: **von acht bis vier Uhr**, **von Montag bis Freitag**. **ab** gives only the start: **ab neun Uhr** *from nine o'clock on*, **ab Montag** *starting Monday*.\nSome time words need no preposition: **heute**, **heute Abend**, **jeden Tag**. And when a time expression starts the sentence, the verb still comes second: **Am Montag arbeite ich.**\nCareful: English says *at* seven, *on* Monday, *in* the morning and *at* night, so it's easy to mix them up. German says **um sieben Uhr**, **am Montag**, **am Morgen** and **in der Nacht**, and never **in Mai** or **am Mai**. Persian often uses no preposition with clock times, but German needs **um**: **Ich komme um acht Uhr.**",
+      "table": [
+        [
+          "word",
+          "used for",
+          "examples"
+        ],
+        [
+          "um",
+          "clock times",
+          "um acht Uhr, um halb neun"
+        ],
+        [
+          "am",
+          "parts of the day, days",
+          "am Morgen, am Abend, am Montag"
+        ],
+        [
+          "im",
+          "months, seasons",
+          "im Mai, im Winter"
+        ],
+        [
+          "in der",
+          "the night",
+          "in der Nacht"
+        ],
+        [
+          "von … bis",
+          "start and end",
+          "von acht bis vier Uhr"
+        ],
+        [
+          "ab",
+          "start, no end",
+          "ab neun Uhr, ab Montag"
+        ]
+      ],
+      "examples": [
+        {
+          "t": "Lena arbeitet von neun bis fünf Uhr.",
+          "s": "Lena works from nine to five."
+        },
+        {
+          "t": "Am Sonntag frühstücken wir zusammen.",
+          "s": "On Sunday we have breakfast together."
+        },
+        {
+          "t": "Der Bus fährt um Viertel nach sieben.",
+          "s": "The bus leaves at a quarter past seven."
+        },
+        {
+          "t": "Im Winter ist es in Berlin kalt.",
+          "s": "In the winter it's cold in Berlin."
+        },
+        {
+          "t": "Ab Montag arbeite ich in Hamburg.",
+          "s": "Starting Monday, I'm working in Hamburg."
+        },
+        {
+          "t": "In der Nacht schläft das Baby.",
+          "s": "At night the baby sleeps."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "choice",
+          "t": "Ich stehe ___ Viertel nach sechs auf.",
+          "options": [
+            "um",
+            "am",
+            "im"
+          ],
+          "answer": 0,
+          "s": "I get up at a quarter past six."
+        },
+        {
+          "type": "choice",
+          "t": "___ Abend lese ich gern.",
+          "options": [
+            "Um",
+            "Am",
+            "Im"
+          ],
+          "answer": 1,
+          "s": "In the evening I like to read."
+        },
+        {
+          "type": "choice",
+          "t": "___ Sommer ist es warm.",
+          "options": [
+            "Am",
+            "Um",
+            "Im"
+          ],
+          "answer": 2,
+          "s": "In the summer it's warm."
+        },
+        {
+          "type": "choice",
+          "t": "___ der Nacht schlafen wir.",
+          "options": [
+            "Am",
+            "In",
+            "Im"
+          ],
+          "answer": 1,
+          "s": "At night we sleep."
+        },
+        {
+          "type": "choice",
+          "t": "___ sieben Uhr spielen die Kinder Fußball.",
+          "options": [
+            "Von",
+            "Im",
+            "Ab"
+          ],
+          "answer": 2,
+          "s": "From seven o'clock on, the children play soccer."
+        },
+        {
+          "type": "type",
+          "t": "Ich lerne ___ sieben bis acht Uhr Deutsch.",
+          "answer": [
+            "von"
+          ],
+          "s": "I study German from seven to eight o'clock."
+        },
+        {
+          "type": "type",
+          "t": "Mein Geburtstag ist ___ Sonntag.",
+          "answer": [
+            "am"
+          ],
+          "s": "My birthday is on Sunday."
+        },
+        {
+          "type": "type",
+          "t": "Der Bus kommt ___ halb neun.",
+          "answer": [
+            "um"
+          ],
+          "s": "The bus comes at eight thirty."
+        },
+        {
+          "type": "type",
+          "t": "Maryam hat ___ April Geburtstag.",
+          "answer": [
+            "im"
+          ],
+          "s": "Maryam's birthday is in April."
+        },
+        {
+          "type": "order",
+          "t": "Am Montag arbeite ich.",
+          "s": "I'm working on Monday.",
+          "alts": [
+            "Ich arbeite am Montag."
+          ]
+        },
+        {
+          "type": "order",
+          "t": "Um halb acht frühstücken wir.",
+          "s": "We have breakfast at seven thirty.",
+          "alts": [
+            "Wir frühstücken um halb acht."
+          ]
+        },
+        {
+          "type": "order",
+          "t": "Von Montag bis Freitag arbeitet Herr Wagner.",
+          "s": "Mr. Wagner works from Monday to Friday.",
+          "alts": [
+            "Herr Wagner arbeitet von Montag bis Freitag."
+          ]
+        }
+      ],
+      "thead": true
+    }
+  ]
+}

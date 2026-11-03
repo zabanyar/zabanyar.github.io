@@ -1,0 +1,1149 @@
+{
+  "id": "u13",
+  "level": "A2",
+  "kind": "grammar",
+  "emoji": "🔗",
+  "title": {
+    "t": "Grammatik: Sätze verbinden",
+    "s": "Grammar: linking sentences"
+  },
+  "goals": [
+    "Join main clauses with und, aber, oder, denn, sondern, deshalb, trotzdem and dann",
+    "Build subordinate clauses with weil, dass and wenn, with the verb at the end",
+    "Ask polite indirect questions with ob and question words",
+    "Use reflexive verbs and verbs with fixed prepositions",
+    "Make polite requests and talk about the future"
+  ],
+  "grammar": [
+    {
+      "id": "g01",
+      "title": {
+        "t": "und, aber, denn – deshalb, trotzdem",
+        "s": "Joining main clauses: und, aber, oder, denn, sondern – deshalb, trotzdem, dann"
+      },
+      "explain": "Two kinds of words join main clauses, and they affect the word order differently.\n**und** (*and*), **aber** (*but*), **oder** (*or*), **denn** (*because*) and **sondern** (*but rather*) stand in **position 0**. They don't count, so the clause after them keeps its normal order, with the verb in position 2: **Ich bin müde, aber ich kann nicht schlafen.** **Wir bleiben zu Hause, denn es regnet.**\n**deshalb** (*that's why, so*), **trotzdem** (*anyway, still*) and **dann** (*then*) are adverbs. They take **position 1** themselves, so the verb comes right after them and the subject follows the verb: **Es regnet, deshalb bleiben wir zu Hause.** **Es regnet, trotzdem gehen wir spazieren.** They can also stand after the verb: **Wir bleiben deshalb zu Hause.**\n**sondern** comes only after a negative (**nicht, kein**) and corrects it: **Ich trinke keinen Tee, sondern Kaffee.** If you don't correct but add a contrast, use **aber**: **Das Hotel ist nicht billig, aber sehr schön.**\nPut a comma before **aber, denn, sondern**, and before **deshalb, trotzdem, dann** when they start a new clause. Before **und** and **oder** you normally don't need one.\nCareful: in English and in Persian, the subject comes right after *so* or *therefore*. In German, *Deshalb ich bleibe* is wrong – it must be **Deshalb bleibe ich**. And **denn** is not **weil**: after **denn** the verb does not go to the end (**denn ich bin krank**).",
+      "table": [
+        [
+          "Position 0",
+          "Position 1",
+          "Verb und Rest"
+        ],
+        [
+          "und",
+          "ich",
+          "koche Reis."
+        ],
+        [
+          "aber",
+          "ich",
+          "habe keine Zeit."
+        ],
+        [
+          "oder",
+          "wir",
+          "gehen ins Kino."
+        ],
+        [
+          "denn",
+          "ich",
+          "bin krank."
+        ],
+        [
+          "sondern",
+          "ich",
+          "bleibe zu Hause."
+        ],
+        [
+          "–",
+          "deshalb",
+          "bleibe ich zu Hause."
+        ],
+        [
+          "–",
+          "trotzdem",
+          "gehe ich spazieren."
+        ],
+        [
+          "–",
+          "dann",
+          "gehen wir ins Kino."
+        ]
+      ],
+      "examples": [
+        {
+          "t": "Ich habe heute keine Zeit, aber morgen komme ich gern.",
+          "s": "I don't have time today, but I'd be happy to come tomorrow."
+        },
+        {
+          "t": "Lukas kommt heute nicht zum Kurs, denn er ist krank.",
+          "s": "Lukas isn't coming to class today because he's sick."
+        },
+        {
+          "t": "Mein Bruder wohnt nicht in Berlin, sondern in Hamburg.",
+          "s": "My brother doesn't live in Berlin but in Hamburg."
+        },
+        {
+          "t": "Der Bus hat Verspätung, deshalb komme ich zu spät.",
+          "s": "The bus is late, so I'll be late."
+        },
+        {
+          "t": "Es ist sehr kalt, trotzdem spielen die Kinder draußen.",
+          "s": "It's very cold, but the children are playing outside anyway."
+        },
+        {
+          "t": "Zuerst frühstücke ich, dann fahre ich zur Arbeit.",
+          "s": "First I have breakfast, then I go to work."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "choice",
+          "t": "Ich bin krank, deshalb ___ zu Hause.",
+          "options": [
+            "bleibe ich",
+            "ich bleibe",
+            "ich bleiben"
+          ],
+          "answer": 0,
+          "s": "I'm sick, so I'm staying at home."
+        },
+        {
+          "type": "choice",
+          "t": "Ich nehme ein Taxi, denn ___.",
+          "options": [
+            "der Bus kommt nicht",
+            "kommt der Bus nicht",
+            "der Bus nicht kommt"
+          ],
+          "answer": 0,
+          "s": "I'm taking a taxi because the bus isn't coming."
+        },
+        {
+          "type": "choice",
+          "t": "Lena kommt heute nicht, ___ sie hat keine Zeit.",
+          "options": [
+            "denn",
+            "deshalb",
+            "sondern"
+          ],
+          "answer": 0,
+          "s": "Lena isn't coming today because she doesn't have time."
+        },
+        {
+          "type": "choice",
+          "t": "Wir fahren nicht mit dem Bus, ___ mit dem Fahrrad.",
+          "options": [
+            "sondern",
+            "aber",
+            "denn"
+          ],
+          "answer": 0,
+          "s": "We're not going by bus but by bike."
+        },
+        {
+          "type": "choice",
+          "t": "Es regnet stark, ___ gehen wir spazieren.",
+          "options": [
+            "trotzdem",
+            "deshalb",
+            "aber"
+          ],
+          "answer": 0,
+          "s": "It's raining hard, but we're going for a walk anyway."
+        },
+        {
+          "type": "type",
+          "t": "Es ist schon spät, deshalb ___ wir jetzt nach Hause.",
+          "answer": [
+            "gehen"
+          ],
+          "s": "It's already late, so we're going home now.",
+          "hint": "gehen"
+        },
+        {
+          "type": "type",
+          "t": "Amir ist müde, trotzdem ___ er noch zwei Stunden.",
+          "answer": [
+            "arbeitet"
+          ],
+          "s": "Amir is tired, but he works for another two hours anyway.",
+          "hint": "arbeiten"
+        },
+        {
+          "type": "type",
+          "t": "Mina ist keine Ärztin, ___ Lehrerin.",
+          "answer": [
+            "sondern"
+          ],
+          "s": "Mina isn't a doctor but a teacher.",
+          "hint": "aber or sondern?"
+        },
+        {
+          "type": "type",
+          "t": "Zuerst kauft Ali ein, dann ___ er.",
+          "answer": [
+            "kocht"
+          ],
+          "s": "First Ali goes shopping, then he cooks.",
+          "hint": "kochen"
+        },
+        {
+          "type": "order",
+          "t": "Es regnet, deshalb nehme ich den Bus.",
+          "s": "It's raining, so I'm taking the bus.",
+          "alts": [
+            "Es regnet, ich nehme deshalb den Bus."
+          ]
+        },
+        {
+          "type": "order",
+          "t": "Ich komme nicht mit, denn ich bin müde.",
+          "s": "I'm not coming along because I'm tired."
+        },
+        {
+          "type": "order",
+          "t": "Ich war krank, trotzdem bin ich gekommen.",
+          "s": "I was sick, but I came anyway.",
+          "alts": [
+            "Ich war krank, ich bin trotzdem gekommen.",
+            "Ich war krank, gekommen bin ich trotzdem."
+          ]
+        }
+      ],
+      "thead": true
+    },
+    {
+      "id": "g02",
+      "title": {
+        "t": "Wenn ich Zeit habe, komme ich.",
+        "s": "Subordinate clauses with weil, dass and wenn"
+      },
+      "explain": "A **subordinate clause** (Nebensatz) gives extra information and can't stand alone. It starts with a connector such as **weil** (*because*), **dass** (*that*) or **wenn** (*if, when, whenever*), and its conjugated verb goes to the **very end**. A comma always separates it from the main clause.\nIch komme nicht. Ich **habe** keine Zeit. becomes Ich komme nicht, **weil** ich keine Zeit **habe**.\nWith two verbs, the conjugated one is the very last word: **…, weil ich arbeiten muss.** **…, dass er schon gegessen hat.** Separable verbs are written as one word again: **…, wenn der Film anfängt.**\nThe subordinate clause can also come **first**. Then it fills position 1 of the whole sentence, so the main clause starts with its **verb**: **Wenn ich Zeit habe, komme ich.** **Weil es regnet, bleiben wir zu Hause.**\n**weil** and **denn** both mean *because*, but only **weil** sends the verb to the end: **…, weil ich müde bin** – **…, denn ich bin müde**. Write **dass** with double s; **das** with one s is the article or the pronoun *that*: **Das ist gut.**\nCareful: in Persian the verb normally comes at the end of every clause, but in German only the subordinate clause has it there – the main clause keeps the verb in position 2. English speakers often keep the English order: *…, weil ich habe keine Zeit* is wrong. And after a subordinate clause, don't start the main clause with the subject: not *Wenn es regnet, ich nehme den Bus*, but **Wenn es regnet, nehme ich den Bus**.",
+      "table": [
+        [
+          "erster Teil",
+          "zweiter Teil"
+        ],
+        [
+          "Sie bleibt zu Hause,",
+          "weil sie arbeiten muss."
+        ],
+        [
+          "Ich weiß,",
+          "dass du keine Zeit hast."
+        ],
+        [
+          "Er sagt,",
+          "dass er schon gegessen hat."
+        ],
+        [
+          "Ich rufe dich an,",
+          "wenn ich ankomme."
+        ],
+        [
+          "Wenn es regnet,",
+          "nehme ich den Bus."
+        ],
+        [
+          "Weil ich müde bin,",
+          "gehe ich ins Bett."
+        ]
+      ],
+      "examples": [
+        {
+          "t": "Maryam geht heute früh ins Bett, weil sie morgen um fünf Uhr aufstehen muss.",
+          "s": "Maryam is going to bed early today because she has to get up at five tomorrow."
+        },
+        {
+          "t": "Ich hoffe, dass das Wetter am Wochenende schön ist.",
+          "s": "I hope that the weather is nice on the weekend."
+        },
+        {
+          "t": "Wenn du Hunger hast, ist noch Suppe in der Küche.",
+          "s": "If you're hungry, there's still some soup in the kitchen."
+        },
+        {
+          "t": "Weil der Bus nicht gekommen ist, bin ich zu Fuß gegangen.",
+          "s": "Because the bus didn't come, I walked."
+        },
+        {
+          "t": "Der Arzt sagt, dass ich viel Wasser trinken soll.",
+          "s": "The doctor says that I should drink a lot of water."
+        },
+        {
+          "t": "Ruf mich bitte an, wenn du in Berlin ankommst.",
+          "s": "Please call me when you arrive in Berlin."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "choice",
+          "t": "Wir gehen nicht in den Park, weil ___.",
+          "options": [
+            "es heute regnet",
+            "es regnet heute",
+            "heute regnet es"
+          ],
+          "answer": 0,
+          "s": "We're not going to the park because it's raining today."
+        },
+        {
+          "type": "choice",
+          "t": "Wenn ich am Samstag Zeit habe, ___.",
+          "options": [
+            "besuche ich dich",
+            "ich besuche dich",
+            "ich dich besuche"
+          ],
+          "answer": 0,
+          "s": "If I have time on Saturday, I'll visit you."
+        },
+        {
+          "type": "choice",
+          "t": "Ich weiß, ___ du viel Arbeit hast.",
+          "options": [
+            "dass",
+            "das",
+            "weil"
+          ],
+          "answer": 0,
+          "s": "I know that you have a lot of work."
+        },
+        {
+          "type": "choice",
+          "t": "Er sagt, dass er morgen ___.",
+          "options": [
+            "mitkommt",
+            "kommt mit",
+            "mitkommen"
+          ],
+          "answer": 0,
+          "s": "He says that he's coming along tomorrow."
+        },
+        {
+          "type": "choice",
+          "t": "Ich trinke einen Kaffee, ___ ich sehr müde bin.",
+          "options": [
+            "weil",
+            "denn",
+            "deshalb"
+          ],
+          "answer": 0,
+          "s": "I'm having a coffee because I'm very tired."
+        },
+        {
+          "type": "type",
+          "t": "Ali kann nicht kommen, weil er heute lange ___.",
+          "answer": [
+            "arbeitet"
+          ],
+          "s": "Ali can't come because he's working late today.",
+          "hint": "arbeiten"
+        },
+        {
+          "type": "type",
+          "t": "Ich glaube, dass der Supermarkt um acht Uhr ___.",
+          "answer": [
+            "aufmacht"
+          ],
+          "s": "I think that the supermarket opens at eight o'clock.",
+          "hint": "aufmachen"
+        },
+        {
+          "type": "type",
+          "t": "Wenn du Fieber hast, ___ du zum Arzt gehen.",
+          "answer": [
+            "musst"
+          ],
+          "s": "If you have a fever, you have to go to the doctor.",
+          "hint": "müssen"
+        },
+        {
+          "type": "type",
+          "t": "Lena ist müde, weil sie heute sehr früh aufgestanden ___.",
+          "answer": [
+            "ist"
+          ],
+          "s": "Lena is tired because she got up very early today.",
+          "hint": "sein"
+        },
+        {
+          "type": "order",
+          "t": "Ich komme nicht, weil ich arbeiten muss.",
+          "s": "I'm not coming because I have to work.",
+          "alts": [
+            "Weil ich arbeiten muss, komme ich nicht."
+          ]
+        },
+        {
+          "type": "order",
+          "t": "Wenn ich Hunger habe, koche ich.",
+          "s": "When I'm hungry, I cook.",
+          "alts": [
+            "Ich koche, wenn ich Hunger habe."
+          ]
+        },
+        {
+          "type": "order",
+          "t": "Ich glaube, dass er schon gegangen ist.",
+          "s": "I think that he has already left.",
+          "alts": [
+            "Dass er schon gegangen ist, glaube ich."
+          ]
+        }
+      ],
+      "thead": true
+    },
+    {
+      "id": "g03",
+      "title": {
+        "t": "Können Sie mir sagen, wo der Bahnhof ist?",
+        "s": "Indirect questions with question words and ob"
+      },
+      "explain": "An **indirect question** is a question inside another sentence, after phrases like **Weißt du, …?**, **Können Sie mir sagen, …?**, **Ich weiß nicht, …** or **Ich möchte wissen, …**. It sounds more polite than a direct question, so it's very useful with people you don't know.\nAn indirect question is a **subordinate clause**: the conjugated verb goes to the **end**. A **W-question** keeps its question word (**wo, wann, wie, was, wer, warum, wie viel** …) at the start of the clause: **Wo wohnt Herr Wagner?** becomes **Können Sie mir sagen, wo Herr Wagner wohnt?**\nA **yes/no question** has no question word, so you use **ob** (*whether, if*): **Kommt Mina heute?** becomes **Weißt du, ob Mina heute kommt?**\nSeparable and modal verbs work as in every subordinate clause: **Weißt du, wann der Kurs anfängt?** **Ich weiß nicht, ob ich kommen kann.**\nThe punctuation depends on the first part: **Weißt du, wo Ali ist?** is a question, but **Ich weiß nicht, wo Ali ist.** is a statement and ends with a period.\nCareful: don't keep the word order of the direct question – not *Wissen Sie, wo ist der Bahnhof?*, but **Wissen Sie, wo der Bahnhof ist?** And English *if* can be **ob** or **wenn**: if you could also say *whether*, it's **ob**. **Ich weiß nicht, ob er kommt.** – *I don't know if he's coming.* Also, **wann** is the question word *when?*; **wenn** is never a question word.",
+      "table": [
+        [
+          "direkte Frage",
+          "indirekte Frage"
+        ],
+        [
+          "Wo ist die Haltestelle?",
+          "Wissen Sie, wo die Haltestelle ist?"
+        ],
+        [
+          "Wann kommt Ali?",
+          "Weißt du, wann Ali kommt?"
+        ],
+        [
+          "Was kostet das?",
+          "Ich möchte wissen, was das kostet."
+        ],
+        [
+          "Wer ist das?",
+          "Ich weiß nicht, wer das ist."
+        ],
+        [
+          "Ist Lena zu Hause?",
+          "Weißt du, ob Lena zu Hause ist?"
+        ],
+        [
+          "Kannst du kommen?",
+          "Sag mir bitte, ob du kommen kannst."
+        ]
+      ],
+      "examples": [
+        {
+          "t": "Können Sie mir sagen, wo hier eine Apotheke ist?",
+          "s": "Can you tell me where there's a pharmacy around here?"
+        },
+        {
+          "t": "Weißt du, wann der Deutschkurs anfängt?",
+          "s": "Do you know when the German class starts?"
+        },
+        {
+          "t": "Ich weiß nicht, ob Reza heute Abend Zeit hat.",
+          "s": "I don't know if Reza has time this evening."
+        },
+        {
+          "t": "Frau Wagner fragt, wer morgen mitkommen möchte.",
+          "s": "Ms. Wagner is asking who would like to come along tomorrow."
+        },
+        {
+          "t": "Kannst du mir erklären, warum der Computer so langsam ist?",
+          "s": "Can you explain to me why the computer is so slow?"
+        },
+        {
+          "t": "Wissen Sie, wie viel eine Fahrkarte nach Hamburg kostet?",
+          "s": "Do you know how much a ticket to Hamburg costs?"
+        }
+      ],
+      "exercises": [
+        {
+          "type": "choice",
+          "t": "Können Sie mir sagen, wann ___?",
+          "options": [
+            "die Bank aufmacht",
+            "macht die Bank auf",
+            "die Bank macht auf"
+          ],
+          "answer": 0,
+          "s": "Can you tell me when the bank opens?"
+        },
+        {
+          "type": "choice",
+          "t": "Ich weiß nicht, ___ Lukas morgen Zeit hat.",
+          "options": [
+            "ob",
+            "wenn",
+            "was"
+          ],
+          "answer": 0,
+          "s": "I don't know if Lukas has time tomorrow."
+        },
+        {
+          "type": "choice",
+          "t": "Weißt du, ___ die Jacke kostet?",
+          "options": [
+            "wie viel",
+            "wer",
+            "wo"
+          ],
+          "answer": 0,
+          "s": "Do you know how much the jacket costs?"
+        },
+        {
+          "type": "choice",
+          "t": "Wissen Sie, ob ___?",
+          "options": [
+            "der Zug pünktlich ist",
+            "ist der Zug pünktlich",
+            "der Zug ist pünktlich"
+          ],
+          "answer": 0,
+          "s": "Do you know if the train is on time?"
+        },
+        {
+          "type": "choice",
+          "t": "Mina fragt, ___ wir ins Kino gehen.",
+          "options": [
+            "wann",
+            "wenn",
+            "dass"
+          ],
+          "answer": 0,
+          "s": "Mina is asking when we're going to the movies."
+        },
+        {
+          "type": "type",
+          "t": "Weißt du, wo meine Schlüssel ___?",
+          "answer": [
+            "sind"
+          ],
+          "s": "Do you know where my keys are?",
+          "hint": "sein"
+        },
+        {
+          "type": "type",
+          "t": "Ich möchte wissen, ___ du am Wochenende kommst.",
+          "answer": [
+            "ob"
+          ],
+          "s": "I'd like to know whether you're coming on the weekend."
+        },
+        {
+          "type": "type",
+          "t": "Weißt du, wann der Zug in Köln ___?",
+          "answer": [
+            "ankommt"
+          ],
+          "s": "Do you know when the train arrives in Cologne?",
+          "hint": "ankommen"
+        },
+        {
+          "type": "type",
+          "t": "Ich weiß nicht, ob ich morgen kommen ___.",
+          "answer": [
+            "kann"
+          ],
+          "s": "I don't know if I can come tomorrow.",
+          "hint": "können"
+        },
+        {
+          "type": "order",
+          "t": "Weißt du, wo Ali wohnt?",
+          "s": "Do you know where Ali lives?"
+        },
+        {
+          "type": "order",
+          "t": "Ich weiß nicht, wann der Bus kommt.",
+          "s": "I don't know when the bus is coming.",
+          "alts": [
+            "Wann der Bus kommt, weiß ich nicht."
+          ]
+        },
+        {
+          "type": "order",
+          "t": "Weißt du, ob Anna schon angerufen hat?",
+          "s": "Do you know if Anna has called yet?"
+        }
+      ],
+      "thead": true
+    },
+    {
+      "id": "g04",
+      "title": {
+        "t": "Ich wasche mich. Ich wasche mir die Hände.",
+        "s": "Reflexive verbs: mich or mir?"
+      },
+      "explain": "**Reflexive verbs** come with a pronoun that refers back to the subject: **sich freuen** (*to be happy*), **sich treffen** (*to meet*), **sich ausruhen** (*to rest*), **sich anziehen** (*to get dressed*), **sich waschen** (*to wash*), **sich beeilen** (*to hurry*). English often has no pronoun here: **Ich ziehe mich an.** – *I'm getting dressed.*\nThe reflexive pronoun is normally in the **accusative**: **mich, dich, sich, uns, euch, sich**. For **er, sie, es**, for **sie** (*they*) and for polite **Sie** it is always **sich** – with a small s.\nIf the sentence already has a **direct object** in the accusative (**die Zähne, die Hände, die Jacke**), the reflexive pronoun is in the **dative**. Only two forms change: **mich** becomes **mir**, **dich** becomes **dir**. **Ich wasche mich.** but **Ich wasche mir die Hände.** **Du ziehst dich an.** but **Du ziehst dir die Jacke an.**\nThe pronoun usually comes right after the conjugated verb, or right after a subject pronoun that follows the verb: **Morgen treffen wir uns.** **Freust du dich?** A separable prefix goes to the end: **Ich ruhe mich aus.** In the Perfekt, reflexive verbs use **haben**: **Ich habe mich beeilt.**\nCareful: with body parts and clothes, German usually says **Ich putze mir die Zähne** (*I brush my teeth*) – with **mir** and **die** instead of *my*. And **sich** is never used with **ich** or **du**: **Ich freue mich**, not *Ich freue sich*.",
+      "table": [
+        [
+          "",
+          "Akkusativ",
+          "Dativ"
+        ],
+        [
+          "ich",
+          "wasche mich",
+          "wasche mir die Hände"
+        ],
+        [
+          "du",
+          "wäschst dich",
+          "wäschst dir die Hände"
+        ],
+        [
+          "er, sie, es",
+          "wäscht sich",
+          "wäscht sich die Hände"
+        ],
+        [
+          "wir",
+          "waschen uns",
+          "waschen uns die Hände"
+        ],
+        [
+          "ihr",
+          "wascht euch",
+          "wascht euch die Hände"
+        ],
+        [
+          "sie, Sie",
+          "waschen sich",
+          "waschen sich die Hände"
+        ]
+      ],
+      "examples": [
+        {
+          "t": "Am Morgen dusche ich und ziehe mich schnell an.",
+          "s": "In the morning I take a shower and get dressed quickly."
+        },
+        {
+          "t": "Die Kinder waschen sich vor dem Essen die Hände.",
+          "s": "The children wash their hands before eating."
+        },
+        {
+          "t": "Nach der Arbeit ruhe ich mich ein bisschen aus.",
+          "s": "After work I rest a little."
+        },
+        {
+          "t": "Reza und Amir treffen sich jeden Freitag im Park.",
+          "s": "Reza and Amir meet in the park every Friday."
+        },
+        {
+          "t": "Zieh dir eine Jacke an, es ist kalt!",
+          "s": "Put on a jacket, it's cold!"
+        },
+        {
+          "t": "Hast du dir schon die Zähne geputzt?",
+          "s": "Have you brushed your teeth yet?"
+        }
+      ],
+      "exercises": [
+        {
+          "type": "choice",
+          "t": "Es ist kalt. Ich ziehe ___ warm an.",
+          "options": [
+            "mich",
+            "mir",
+            "sich"
+          ],
+          "answer": 0,
+          "s": "It's cold. I'm dressing warmly."
+        },
+        {
+          "type": "choice",
+          "t": "Ich putze ___ die Zähne.",
+          "options": [
+            "mir",
+            "mich",
+            "sich"
+          ],
+          "answer": 0,
+          "s": "I brush my teeth."
+        },
+        {
+          "type": "choice",
+          "t": "Wir treffen ___ am Samstag im Park.",
+          "options": [
+            "uns",
+            "sich",
+            "euch"
+          ],
+          "answer": 0,
+          "s": "We're meeting in the park on Saturday."
+        },
+        {
+          "type": "choice",
+          "t": "Beeilen Sie ___, der Zug fährt gleich ab!",
+          "options": [
+            "sich",
+            "Sie",
+            "Ihnen"
+          ],
+          "answer": 0,
+          "s": "Hurry, the train is about to leave!"
+        },
+        {
+          "type": "choice",
+          "t": "Du musst ___ die Hände waschen.",
+          "options": [
+            "dir",
+            "dich",
+            "du"
+          ],
+          "answer": 0,
+          "s": "You have to wash your hands."
+        },
+        {
+          "type": "type",
+          "t": "Kinder, beeilt ___ bitte!",
+          "answer": [
+            "euch"
+          ],
+          "s": "Kids, please hurry!",
+          "hint": "sich beeilen"
+        },
+        {
+          "type": "type",
+          "t": "Ich habe ___ gestern gut ausgeruht.",
+          "answer": [
+            "mich"
+          ],
+          "s": "I had a good rest yesterday.",
+          "hint": "sich ausruhen"
+        },
+        {
+          "type": "type",
+          "t": "Mein Sohn ___ sich schon allein an.",
+          "answer": [
+            "zieht"
+          ],
+          "s": "My son already gets dressed by himself.",
+          "hint": "anziehen"
+        },
+        {
+          "type": "type",
+          "t": "Wir haben uns gestern im Café ___.",
+          "answer": [
+            "getroffen"
+          ],
+          "s": "We met at the café yesterday.",
+          "hint": "treffen"
+        },
+        {
+          "type": "order",
+          "t": "Ich ziehe mir den Mantel an.",
+          "s": "I'm putting on my coat.",
+          "alts": [
+            "Den Mantel ziehe ich mir an."
+          ]
+        },
+        {
+          "type": "order",
+          "t": "Wir treffen uns morgen um acht.",
+          "s": "We're meeting tomorrow at eight.",
+          "alts": [
+            "Morgen treffen wir uns um acht.",
+            "Um acht treffen wir uns morgen.",
+            "Morgen um acht treffen wir uns."
+          ]
+        },
+        {
+          "type": "order",
+          "t": "Hast du dich schon angezogen?",
+          "s": "Have you gotten dressed yet?"
+        }
+      ],
+      "thead": true
+    },
+    {
+      "id": "g05",
+      "title": {
+        "t": "Ich denke an dich. Woran denkst du?",
+        "s": "Verbs with prepositions; wo(r)- and da(r)-"
+      },
+      "explain": "Many verbs are used with a **fixed preposition**. It is often not the one English uses, so learn verb, preposition and case together: **warten auf** (*wait for*), **sich freuen auf** (*look forward to*), **sich freuen über** (*be happy about*), **denken an** (*think of, think about*), **sprechen über** (*talk about*), **sich interessieren für** (*be interested in*) – all with the **accusative** – and **Angst haben vor** (*be afraid of*) with the **dative**: **Ich habe Angst vor dem Hund.**\n**sich freuen auf** is for something in the future, **sich freuen über** for something that is already here or has happened: **Ich freue mich auf den Urlaub.** **Ich freue mich über dein Geschenk.**\nTo ask about a **thing**, use **wo** + preposition; to refer back to a thing, use **da** + preposition. So you get **wofür, wovor** and **dafür, davor**. If the preposition starts with a vowel, add an **r**: **worauf, woran, worüber** and **darauf, daran, darüber**. In everyday speech you also hear **auf was, über was**. **Wofür interessierst du dich? – Für Musik. Ich interessiere mich sehr dafür.**\nFor **people**, use the preposition with a question word or a personal pronoun: **Auf wen wartest du? – Auf Ali. Ich warte auf ihn.** With the dative: **Vor wem hast du Angst?**\nCareful: *wait for* is **warten auf**, not *warten für*; *interested in* is **sich interessieren für**, not *in*; *afraid of* is **Angst vor**, not *von* – even though Persian uses *az* here (*az sag mitarsam* – *I'm afraid of dogs*). And for things, don't say *auf es* or *an es* – say **darauf, daran**.",
+      "table": [
+        [
+          "Verb",
+          "Frage und Antwort"
+        ],
+        [
+          "warten auf + A",
+          "Auf wen wartest du? – Auf Lena."
+        ],
+        [
+          "sich freuen auf + A",
+          "Worauf freust du dich? – Auf die Ferien."
+        ],
+        [
+          "sich freuen über + A",
+          "Worüber freut ihr euch? – Über das Geschenk."
+        ],
+        [
+          "denken an + A",
+          "Woran denkst du? – An den Urlaub."
+        ],
+        [
+          "sprechen über + A",
+          "Worüber sprechen Sie? – Über die Arbeit."
+        ],
+        [
+          "sich interessieren für + A",
+          "Wofür interessierst du dich? – Für Musik."
+        ],
+        [
+          "Angst haben vor + D",
+          "Wovor hast du Angst? – Vor dem Hund."
+        ]
+      ],
+      "examples": [
+        {
+          "t": "Wir warten schon seit zwanzig Minuten auf den Bus.",
+          "s": "We've been waiting for the bus for twenty minutes."
+        },
+        {
+          "t": "Die Kinder freuen sich schon auf die Sommerferien.",
+          "s": "The children are already looking forward to summer vacation."
+        },
+        {
+          "t": "Mein Sohn hat Angst vor großen Hunden.",
+          "s": "My son is afraid of big dogs."
+        },
+        {
+          "t": "Interessierst du dich für Fußball? – Nein, dafür interessiere ich mich nicht.",
+          "s": "Are you interested in soccer? – No, I'm not interested in it."
+        },
+        {
+          "t": "Ich denke oft an meine Großeltern im Iran.",
+          "s": "I often think of my grandparents in Iran."
+        },
+        {
+          "t": "Worüber habt ihr gestern gesprochen?",
+          "s": "What did you talk about yesterday?"
+        }
+      ],
+      "exercises": [
+        {
+          "type": "choice",
+          "t": "Meine Tochter interessiert sich ___ Bücher.",
+          "options": [
+            "für",
+            "in",
+            "über"
+          ],
+          "answer": 0,
+          "s": "My daughter is interested in books."
+        },
+        {
+          "type": "choice",
+          "t": "Mein Bruder hat Angst ___ dem Zahnarzt.",
+          "options": [
+            "vor",
+            "von",
+            "für"
+          ],
+          "answer": 0,
+          "s": "My brother is afraid of the dentist."
+        },
+        {
+          "type": "choice",
+          "t": "Ali hat gestern ein Geschenk bekommen und freut sich sehr ___.",
+          "options": [
+            "darüber",
+            "darauf",
+            "dafür"
+          ],
+          "answer": 0,
+          "s": "Ali got a present yesterday and is very happy about it."
+        },
+        {
+          "type": "choice",
+          "t": "___ denkst du? – An meine Familie.",
+          "options": [
+            "Woran",
+            "Worauf",
+            "Wofür"
+          ],
+          "answer": 0,
+          "s": "What are you thinking about? – About my family."
+        },
+        {
+          "type": "choice",
+          "t": "Auf ___ wartest du? – Auf meinen Bruder.",
+          "options": [
+            "wen",
+            "was",
+            "wem"
+          ],
+          "answer": 0,
+          "s": "Who are you waiting for? – For my brother."
+        },
+        {
+          "type": "type",
+          "t": "Wir sprechen oft ___ die Arbeit.",
+          "answer": [
+            "über",
+            "ueber"
+          ],
+          "s": "We often talk about work."
+        },
+        {
+          "type": "type",
+          "t": "Interessiert ihr euch für Kunst? – Ja, wir interessieren uns sehr ___.",
+          "answer": [
+            "dafür",
+            "dafuer"
+          ],
+          "s": "Are you interested in art? – Yes, we're very interested in it.",
+          "hint": "für"
+        },
+        {
+          "type": "type",
+          "t": "___ freust du dich? – Auf das Wochenende.",
+          "answer": [
+            "Worauf",
+            "Auf was"
+          ],
+          "s": "What are you looking forward to? – The weekend.",
+          "hint": "auf"
+        },
+        {
+          "type": "type",
+          "t": "Hast du Angst vor ___ Katze?",
+          "answer": [
+            "der"
+          ],
+          "s": "Are you afraid of the cat?",
+          "hint": "die Katze"
+        },
+        {
+          "type": "order",
+          "t": "Ich freue mich auf deinen Besuch.",
+          "s": "I'm looking forward to your visit.",
+          "alts": [
+            "Auf deinen Besuch freue ich mich."
+          ]
+        },
+        {
+          "type": "order",
+          "t": "Ich warte auf meine Schwester.",
+          "s": "I'm waiting for my sister.",
+          "alts": [
+            "Auf meine Schwester warte ich."
+          ]
+        },
+        {
+          "type": "order",
+          "t": "Wir haben über den Film gesprochen.",
+          "s": "We talked about the movie.",
+          "alts": [
+            "Über den Film haben wir gesprochen."
+          ]
+        }
+      ],
+      "thead": true
+    },
+    {
+      "id": "g06",
+      "title": {
+        "t": "Könnten Sie mir helfen? Ich werde morgen kommen.",
+        "s": "Polite requests and the future"
+      },
+      "explain": "**Polite requests.** To sound polite, German uses the **Konjunktiv II**: **könnte** (*could*), **würde** (*would*), **hätte** (*would have*) and **wäre** (*would be*). **könnte** and **würde** work like modal verbs: they stand in position 2, or at the start of a question, and the infinitive goes to the end: **Könnten Sie mir bitte den Weg zeigen?** **Würdest du mir bitte helfen?** For wishes, say **Ich hätte gern …** (*I'd like …*): **Ich hätte gern einen Kaffee.** With **wäre** you make suggestions: **Wie wäre es mit Freitag?** (*How about Friday?*) **Das wäre toll!**\nAll four verbs have the same endings: **ich könnte, du könntest, er könnte, wir könnten, ihr könntet, sie könnten** – so also **du würdest, du hättest, du wärst**.\n**The future.** Most of the time German simply uses the **present tense** with a time expression: **Morgen besuche ich meine Oma.** You can also use **werden** with an infinitive at the end, especially for plans, promises and predictions: **Ich werde dich anrufen.** **Morgen wird es schneien.** The forms are: ich werde, du **wirst**, er **wird**, wir werden, ihr werdet, sie werden. In a subordinate clause, **werden** goes to the end: **…, dass es regnen wird.**\nCareful: **ich will** means *I want*, not *I will*, and **Ich will einen Kaffee** can sound rude – say **Ich hätte gern** or **Ich möchte**. Don't mix up **würde** (*would*) and **werde** (*will*), or **konnte** (*could, was able to* in the past) and **könnte** (polite *could*).",
+      "table": [
+        [
+          "",
+          "könnte (could)",
+          "würde (would)",
+          "werden (will)"
+        ],
+        [
+          "ich",
+          "könnte",
+          "würde",
+          "werde"
+        ],
+        [
+          "du",
+          "könntest",
+          "würdest",
+          "wirst"
+        ],
+        [
+          "er, sie, es",
+          "könnte",
+          "würde",
+          "wird"
+        ],
+        [
+          "wir",
+          "könnten",
+          "würden",
+          "werden"
+        ],
+        [
+          "ihr",
+          "könntet",
+          "würdet",
+          "werdet"
+        ],
+        [
+          "sie, Sie",
+          "könnten",
+          "würden",
+          "werden"
+        ]
+      ],
+      "examples": [
+        {
+          "t": "Könnten Sie bitte etwas lauter sprechen?",
+          "s": "Could you please speak a little louder?"
+        },
+        {
+          "t": "Ich hätte gern zwei Brötchen, bitte.",
+          "s": "I'd like two rolls, please."
+        },
+        {
+          "t": "Würdest du mir bitte das Salz geben?",
+          "s": "Would you please pass me the salt?"
+        },
+        {
+          "t": "Wie wäre es mit einem Picknick am Sonntag?",
+          "s": "How about a picnic on Sunday?"
+        },
+        {
+          "t": "Nächstes Jahr werde ich in Deutschland arbeiten.",
+          "s": "Next year I'm going to work in Germany."
+        },
+        {
+          "t": "Am Wochenende besuchen wir unsere Großeltern.",
+          "s": "On the weekend we're visiting our grandparents."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "choice",
+          "t": "___ Sie bitte das Fenster aufmachen?",
+          "options": [
+            "Könnten",
+            "Konnten",
+            "Wären"
+          ],
+          "answer": 0,
+          "s": "Could you please open the window?"
+        },
+        {
+          "type": "choice",
+          "t": "Ich ___ gern einen Termin am Montag.",
+          "options": [
+            "hätte",
+            "würde",
+            "wäre"
+          ],
+          "answer": 0,
+          "s": "I'd like an appointment on Monday."
+        },
+        {
+          "type": "choice",
+          "t": "Morgen ___ es bestimmt regnen.",
+          "options": [
+            "wird",
+            "will",
+            "wirst"
+          ],
+          "answer": 0,
+          "s": "It's definitely going to rain tomorrow."
+        },
+        {
+          "type": "choice",
+          "t": "Ich ___ dir morgen das Buch bringen.",
+          "options": [
+            "werde",
+            "wird",
+            "werden"
+          ],
+          "answer": 0,
+          "s": "I'll bring you the book tomorrow."
+        },
+        {
+          "type": "choice",
+          "t": "Das ___ wirklich nett von Ihnen!",
+          "options": [
+            "wäre",
+            "hätte",
+            "würde"
+          ],
+          "answer": 0,
+          "s": "That would be really nice of you!"
+        },
+        {
+          "type": "type",
+          "t": "___ du bitte die Tür zumachen?",
+          "answer": [
+            "Würdest",
+            "Wuerdest"
+          ],
+          "s": "Would you please close the door?",
+          "hint": "werden"
+        },
+        {
+          "type": "type",
+          "t": "Wir ___ gern zwei Fahrkarten nach Hamburg.",
+          "answer": [
+            "hätten",
+            "haetten"
+          ],
+          "s": "We'd like two tickets to Hamburg.",
+          "hint": "haben"
+        },
+        {
+          "type": "type",
+          "t": "Kinder, ___ ihr bitte das Zimmer aufräumen?",
+          "answer": [
+            "könntet",
+            "koenntet"
+          ],
+          "s": "Kids, could you please clean up the room?",
+          "hint": "können"
+        },
+        {
+          "type": "type",
+          "t": "Du ___ sehen, das Wetter wird besser.",
+          "answer": [
+            "wirst"
+          ],
+          "s": "You'll see, the weather is going to get better.",
+          "hint": "werden"
+        },
+        {
+          "type": "order",
+          "t": "Ich hätte gern eine Tasse Tee.",
+          "s": "I'd like a cup of tea.",
+          "alts": [
+            "Eine Tasse Tee hätte ich gern.",
+            "Gern hätte ich eine Tasse Tee."
+          ]
+        },
+        {
+          "type": "order",
+          "t": "Wir werden im Herbst umziehen.",
+          "s": "We're going to move in the fall.",
+          "alts": [
+            "Im Herbst werden wir umziehen."
+          ]
+        },
+        {
+          "type": "order",
+          "t": "Ich glaube, dass er morgen kommen wird.",
+          "s": "I think that he'll come tomorrow.",
+          "alts": [
+            "Dass er morgen kommen wird, glaube ich."
+          ]
+        }
+      ],
+      "thead": true
+    }
+  ]
+}

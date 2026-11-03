@@ -1,0 +1,1001 @@
+{
+  "id": "u11",
+  "level": "A1",
+  "kind": "grammar",
+  "emoji": "🏃",
+  "title": {
+    "t": "Grammatik: Verben im Präsens",
+    "s": "Grammar: verbs in the present tense"
+  },
+  "goals": [
+    "Conjugate regular verbs for all persons, including stems in -t, -d, -s, -ß and -z",
+    "Use all forms of sein and haben, and know when German says haben (Ich habe Hunger)",
+    "Use verbs with a vowel change (du fährst, er liest) and the verb wissen",
+    "Put the prefix of separable verbs at the end of the sentence",
+    "Use können, müssen, wollen and möchten with an infinitive at the end"
+  ],
+  "grammar": [
+    {
+      "id": "g01",
+      "title": {
+        "t": "ich lerne, du lernst, wir lernen",
+        "s": "Regular verbs: all persons"
+      },
+      "explain": "The **present tense** (Präsens) is the tense you use most in German. One form covers *I learn*, *I am learning* and *I do learn*: **Ich lerne Deutsch.** With a time word, it can also talk about the future: **Heute Abend koche ich.**\nTo form it, take the infinitive and remove **-en**. That gives you the stem: **lernen → lern-**. Then add the ending for each person: ich lern**e**, du lern**st**, er/sie/es lern**t**, wir lern**en**, ihr lern**t**, sie/Sie lern**en**. For regular verbs, the **wir** and **sie/Sie** forms look exactly like the infinitive.\nIf the stem ends in **-t** or **-d**, add an extra **e** before **-st** and **-t** so you can pronounce it: **du arbeitest, er arbeitet, ihr arbeitet**; **finden** (*to find*): **du findest, sie findet**. **kosten** works the same way (**Das kostet zwölf Euro.**), and so does **regnen**: **Es regnet.**\nIf the stem ends in **-s**, **-ß** or **-z**, the du form only adds **-t**: **heißen → du heißt**, **tanzen** (*to dance*) **→ du tanzt**. So **du heißt** and **er heißt** are the same.\nVerbs in **-ern** like **wandern** only add **-n** for wir and sie/Sie: **wir wandern**, but **ich wandere**.\nCareful: German has no extra verb for *-ing* or *do*. Say **Ich lerne Deutsch**, never \"Ich bin lerne Deutsch\". And always say the subject: in Persian the verb ending alone can show the person, but German needs the pronoun: **Ich wohne in Köln**, not \"Wohne in Köln\".",
+      "table": [
+        [
+          "Person",
+          "lernen",
+          "arbeiten",
+          "heißen"
+        ],
+        [
+          "ich",
+          "lerne",
+          "arbeite",
+          "heiße"
+        ],
+        [
+          "du",
+          "lernst",
+          "arbeitest",
+          "heißt"
+        ],
+        [
+          "er / sie / es",
+          "lernt",
+          "arbeitet",
+          "heißt"
+        ],
+        [
+          "wir",
+          "lernen",
+          "arbeiten",
+          "heißen"
+        ],
+        [
+          "ihr",
+          "lernt",
+          "arbeitet",
+          "heißt"
+        ],
+        [
+          "sie / Sie",
+          "lernen",
+          "arbeiten",
+          "heißen"
+        ]
+      ],
+      "examples": [
+        {
+          "t": "Ich lerne jeden Tag Deutsch.",
+          "s": "I learn German every day."
+        },
+        {
+          "t": "Arbeitest du heute?",
+          "s": "Are you working today?"
+        },
+        {
+          "t": "Mina und Amir spielen im Park.",
+          "s": "Mina and Amir are playing in the park."
+        },
+        {
+          "t": "Mein Bruder heißt Reza.",
+          "s": "My brother's name is Reza."
+        },
+        {
+          "t": "Ihr kocht sehr gut!",
+          "s": "You cook very well!"
+        },
+        {
+          "t": "Der Tee kostet zwei Euro.",
+          "s": "The tea costs two euros."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "choice",
+          "t": "Wir ___ in Berlin.",
+          "options": [
+            "wohnen",
+            "wohnt",
+            "wohnst"
+          ],
+          "answer": 0,
+          "s": "We live in Berlin."
+        },
+        {
+          "type": "choice",
+          "t": "Ihr ___ Fußball.",
+          "options": [
+            "spielen",
+            "spielt",
+            "spielst"
+          ],
+          "answer": 1,
+          "s": "You play soccer."
+        },
+        {
+          "type": "choice",
+          "t": "Du ___ jeden Tag.",
+          "options": [
+            "arbeitst",
+            "arbeitest",
+            "arbeiten"
+          ],
+          "answer": 1,
+          "s": "You work every day."
+        },
+        {
+          "type": "choice",
+          "t": "Wie ___ du?",
+          "options": [
+            "heißt",
+            "heißst",
+            "heißen"
+          ],
+          "answer": 0,
+          "s": "What's your name?"
+        },
+        {
+          "type": "type",
+          "t": "Am Abend ___ ich Musik.",
+          "answer": [
+            "höre",
+            "hoere"
+          ],
+          "s": "In the evening I listen to music.",
+          "hint": "hören"
+        },
+        {
+          "type": "type",
+          "t": "Sara ___ im Krankenhaus.",
+          "answer": [
+            "arbeitet"
+          ],
+          "s": "Sara works at the hospital.",
+          "hint": "arbeiten"
+        },
+        {
+          "type": "type",
+          "t": "Das Brot ___ zwei Euro.",
+          "answer": [
+            "kostet"
+          ],
+          "s": "The bread costs two euros.",
+          "hint": "kosten"
+        },
+        {
+          "type": "type",
+          "t": "Wo ___ ihr?",
+          "answer": [
+            "wohnt"
+          ],
+          "s": "Where do you live?",
+          "hint": "wohnen"
+        },
+        {
+          "type": "type",
+          "t": "Du ___ Amir, richtig?",
+          "answer": [
+            "heißt",
+            "heisst"
+          ],
+          "s": "Your name is Amir, right?",
+          "hint": "heißen"
+        },
+        {
+          "type": "order",
+          "t": "Wir frühstücken um acht Uhr.",
+          "s": "We have breakfast at eight o'clock.",
+          "alts": [
+            "Um acht Uhr frühstücken wir."
+          ]
+        },
+        {
+          "type": "order",
+          "t": "Wo arbeitet Herr Wagner?",
+          "s": "Where does Mr. Wagner work?"
+        },
+        {
+          "type": "order",
+          "t": "Lena kocht heute Abend.",
+          "s": "Lena is cooking tonight.",
+          "alts": [
+            "Heute Abend kocht Lena."
+          ]
+        }
+      ],
+      "thead": true
+    },
+    {
+      "id": "g02",
+      "title": {
+        "t": "Ich bin müde. Ich habe Hunger.",
+        "s": "sein and haben: forms and uses"
+      },
+      "explain": "**sein** (*to be*) and **haben** (*to have*) are the two most important German verbs. They are irregular, so learn all their forms by heart.\n**sein**: ich **bin**, du **bist**, er/sie/es **ist**, wir **sind**, ihr **seid**, sie/Sie **sind**. Use it for names, origin, age, places and descriptions: **Ich bin Reza. Lena ist aus Berlin. Ich bin zehn Jahre alt. Die Kinder sind im Park. Ich bin müde** (*I'm tired*).\n**haben**: ich **habe**, du **hast**, er/sie/es **hat**, wir **haben**, ihr **habt**, sie/Sie **haben**. Use it for things and people you have: **Wir haben eine Katze. Ich habe zwei Brüder.** It is also used in fixed expressions where English uses *be*: **Ich habe Hunger** (*I'm hungry*), **Ich habe Durst** (*I'm thirsty*), **Hast du Zeit?** (*Are you free?*), **Sie hat im Mai Geburtstag** (*Her birthday is in May*).\nAfter **haben** the noun is in the accusative, so you say **Ich habe einen Bruder** and **Wir haben keinen Fernseher**.\nCareful: in Persian you can give your age with *have* (literally *I have ten years*), but German uses **sein**: **Ich bin zehn Jahre alt**, never \"Ich habe zehn Jahre\". English speakers say *I am hungry*, but the usual German is **Ich habe Hunger**. Write **ihr seid** with a **d** at the end, and say **er hat**, not \"er habt\".",
+      "table": [
+        [
+          "Person",
+          "sein",
+          "haben"
+        ],
+        [
+          "ich",
+          "bin",
+          "habe"
+        ],
+        [
+          "du",
+          "bist",
+          "hast"
+        ],
+        [
+          "er / sie / es",
+          "ist",
+          "hat"
+        ],
+        [
+          "wir",
+          "sind",
+          "haben"
+        ],
+        [
+          "ihr",
+          "seid",
+          "habt"
+        ],
+        [
+          "sie / Sie",
+          "sind",
+          "haben"
+        ]
+      ],
+      "examples": [
+        {
+          "t": "Bist du müde? – Ja, ich bin sehr müde.",
+          "s": "Are you tired? – Yes, I'm very tired."
+        },
+        {
+          "t": "Herr Wagner ist aus Deutschland.",
+          "s": "Mr. Wagner is from Germany."
+        },
+        {
+          "t": "Wir haben heute keine Zeit.",
+          "s": "We don't have time today."
+        },
+        {
+          "t": "Habt ihr Hunger?",
+          "s": "Are you hungry?"
+        },
+        {
+          "t": "Mina ist zwölf Jahre alt und hat zwei Brüder.",
+          "s": "Mina is twelve years old and has two brothers."
+        },
+        {
+          "t": "Die Kinder sind im Park.",
+          "s": "The children are in the park."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "choice",
+          "t": "Ich ___ aus dem Iran.",
+          "options": [
+            "habe",
+            "bin",
+            "ist"
+          ],
+          "answer": 1,
+          "s": "I'm from Iran."
+        },
+        {
+          "type": "choice",
+          "t": "Ali ___ Durst.",
+          "options": [
+            "ist",
+            "hat",
+            "habt"
+          ],
+          "answer": 1,
+          "s": "Ali is thirsty."
+        },
+        {
+          "type": "choice",
+          "t": "Ihr ___ heute müde.",
+          "options": [
+            "seid",
+            "sind",
+            "seit"
+          ],
+          "answer": 0,
+          "s": "You're tired today."
+        },
+        {
+          "type": "choice",
+          "t": "Mein Bruder ___ zwanzig Jahre alt.",
+          "options": [
+            "hat",
+            "ist",
+            "sind"
+          ],
+          "answer": 1,
+          "s": "My brother is twenty years old."
+        },
+        {
+          "type": "type",
+          "t": "Du ___ eine schöne Wohnung.",
+          "answer": [
+            "hast"
+          ],
+          "s": "You have a nice apartment.",
+          "hint": "haben"
+        },
+        {
+          "type": "type",
+          "t": "Wir ___ aus Deutschland.",
+          "answer": [
+            "sind"
+          ],
+          "s": "We're from Germany.",
+          "hint": "sein"
+        },
+        {
+          "type": "type",
+          "t": "___ Sie Kinder, Frau Wagner?",
+          "answer": [
+            "Haben"
+          ],
+          "s": "Do you have children, Ms. Wagner?",
+          "hint": "haben"
+        },
+        {
+          "type": "type",
+          "t": "Lena ___ im Juli Geburtstag.",
+          "answer": [
+            "hat"
+          ],
+          "s": "Lena's birthday is in July.",
+          "hint": "haben"
+        },
+        {
+          "type": "type",
+          "t": "Wo ___ du? – Ich bin in der Küche.",
+          "answer": [
+            "bist"
+          ],
+          "s": "Where are you? – I'm in the kitchen.",
+          "hint": "sein"
+        },
+        {
+          "type": "order",
+          "t": "Habt ihr heute Zeit?",
+          "s": "Do you have time today?"
+        },
+        {
+          "type": "order",
+          "t": "Wie alt ist dein Bruder?",
+          "s": "How old is your brother?"
+        },
+        {
+          "type": "order",
+          "t": "Die Kinder sind heute sehr müde.",
+          "s": "The children are very tired today.",
+          "alts": [
+            "Heute sind die Kinder sehr müde.",
+            "Sehr müde sind die Kinder heute."
+          ]
+        }
+      ],
+      "thead": true
+    },
+    {
+      "id": "g03",
+      "title": {
+        "t": "du fährst, er liest, sie weiß",
+        "s": "Verbs with a vowel change, and wissen"
+      },
+      "explain": "Some very common verbs change their stem vowel in the present tense, but **only in the du and er/sie/es forms**. The endings stay regular, and ich, wir, ihr and sie/Sie keep the vowel of the infinitive.\n**e → i**: **essen** (du **isst**, er **isst**), **nehmen** (du **nimmst**, er **nimmt**), **sprechen** (*to speak*: du **sprichst**, er **spricht**), **helfen** (*to help*: du **hilfst**, er **hilft**), **geben** (*to give*: du **gibst**, er **gibt**, and so also **es gibt**).\n**e → ie**: **lesen** (du **liest**, er **liest**), **sehen** (*to see*: du **siehst**, er **sieht**).\n**a → ä**: **fahren** (*to go by car, bus or train; to drive; to ride*: du **fährst**, er **fährt**), **schlafen** (du **schläfst**, er **schläft**). **au → äu**: **laufen** (*to run; to walk*: du **läufst**, er **läuft**).\nWatch the spelling: **nehmen** also loses its **h** and doubles the **m** (**nimmst, nimmt**). **essen** and **lesen** only add **-t** in the du form, because the stem already ends in s: **du isst, du liest**.\n**wissen** (*to know* a fact) is special: ich **weiß**, du **weißt**, er/sie/es **weiß** (no ending!), wir **wissen**, ihr **wisst**, sie/Sie **wissen**.\nCareful: the vowel never changes with **ich**, **wir** or **ihr**: **ich fahre**, **ihr fahrt**, **ihr esst**, not \"ich fähre\". Say **er weiß**, not \"er weißt\". *I don't know* is **Ich weiß es nicht** or simply **Ich weiß nicht**.",
+      "table": [
+        [
+          "Infinitiv",
+          "ich",
+          "du",
+          "er / sie / es"
+        ],
+        [
+          "essen",
+          "esse",
+          "isst",
+          "isst"
+        ],
+        [
+          "nehmen",
+          "nehme",
+          "nimmst",
+          "nimmt"
+        ],
+        [
+          "sprechen",
+          "spreche",
+          "sprichst",
+          "spricht"
+        ],
+        [
+          "helfen",
+          "helfe",
+          "hilfst",
+          "hilft"
+        ],
+        [
+          "geben",
+          "gebe",
+          "gibst",
+          "gibt"
+        ],
+        [
+          "lesen",
+          "lese",
+          "liest",
+          "liest"
+        ],
+        [
+          "sehen",
+          "sehe",
+          "siehst",
+          "sieht"
+        ],
+        [
+          "fahren",
+          "fahre",
+          "fährst",
+          "fährt"
+        ],
+        [
+          "schlafen",
+          "schlafe",
+          "schläfst",
+          "schläft"
+        ],
+        [
+          "laufen",
+          "laufe",
+          "läufst",
+          "läuft"
+        ],
+        [
+          "wissen",
+          "weiß",
+          "weißt",
+          "weiß"
+        ]
+      ],
+      "examples": [
+        {
+          "t": "Herr Wagner spricht Deutsch und Englisch.",
+          "s": "Mr. Wagner speaks German and English."
+        },
+        {
+          "t": "Was isst du gern?",
+          "s": "What do you like to eat?"
+        },
+        {
+          "t": "Mina liest jeden Abend.",
+          "s": "Mina reads every evening."
+        },
+        {
+          "t": "Fährst du heute nach Hamburg?",
+          "s": "Are you going to Hamburg today?"
+        },
+        {
+          "t": "Das Baby schläft.",
+          "s": "The baby is sleeping."
+        },
+        {
+          "t": "Wo ist Ali? – Ich weiß es nicht.",
+          "s": "Where is Ali? – I don't know."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "choice",
+          "t": "Du ___ Brot und Käse.",
+          "options": [
+            "esst",
+            "isst",
+            "ist"
+          ],
+          "answer": 1,
+          "s": "You eat bread and cheese."
+        },
+        {
+          "type": "choice",
+          "t": "Ali ___ den Bus.",
+          "options": [
+            "nehmt",
+            "nimmt",
+            "nehme"
+          ],
+          "answer": 1,
+          "s": "Ali takes the bus."
+        },
+        {
+          "type": "choice",
+          "t": "Ich ___ nach Berlin.",
+          "options": [
+            "fahre",
+            "fährst",
+            "fähre"
+          ],
+          "answer": 0,
+          "s": "I'm going to Berlin."
+        },
+        {
+          "type": "choice",
+          "t": "Lena ___ es nicht.",
+          "options": [
+            "weißt",
+            "weiß",
+            "wisst"
+          ],
+          "answer": 1,
+          "s": "Lena doesn't know."
+        },
+        {
+          "type": "type",
+          "t": "Was ___ du am Abend?",
+          "answer": [
+            "liest"
+          ],
+          "s": "What do you read in the evening?",
+          "hint": "lesen"
+        },
+        {
+          "type": "type",
+          "t": "Opa ___ im Wohnzimmer.",
+          "answer": [
+            "schläft",
+            "schlaeft"
+          ],
+          "s": "Grandpa is sleeping in the living room.",
+          "hint": "schlafen"
+        },
+        {
+          "type": "type",
+          "t": "___ du Persisch?",
+          "answer": [
+            "Sprichst"
+          ],
+          "s": "Do you speak Persian?",
+          "hint": "sprechen"
+        },
+        {
+          "type": "type",
+          "t": "Amir ___ Mina in der Küche.",
+          "answer": [
+            "hilft"
+          ],
+          "s": "Amir helps Mina in the kitchen.",
+          "hint": "helfen"
+        },
+        {
+          "type": "type",
+          "t": "Lukas ___ jeden Morgen im Park.",
+          "answer": [
+            "läuft",
+            "laeuft"
+          ],
+          "s": "Lukas runs in the park every morning.",
+          "hint": "laufen"
+        },
+        {
+          "type": "order",
+          "t": "Siehst du den Bus?",
+          "s": "Do you see the bus?"
+        },
+        {
+          "type": "order",
+          "t": "Nimmst du den Mantel?",
+          "s": "Are you taking the coat?"
+        },
+        {
+          "type": "order",
+          "t": "Mein Vater sieht am Abend fern.",
+          "s": "My father watches TV in the evening.",
+          "alts": [
+            "Am Abend sieht mein Vater fern."
+          ]
+        }
+      ],
+      "thead": true
+    },
+    {
+      "id": "g04",
+      "title": {
+        "t": "Wann kaufst du ein?",
+        "s": "Separable verbs"
+      },
+      "explain": "Many German verbs start with a small prefix such as **auf-**, **ein-**, **an-**, **fern-** or **mit-**. They are called **separable verbs**: **aufstehen** (*to get up*), **einkaufen** (*to go shopping*), **anrufen** (*to call* on the phone), **fernsehen** (*to watch TV*), **mitkommen** (*to come along*), **anfangen** (*to begin, to start*). In the infinitive they are one word, and the stress is always on the prefix: **AUFstehen**, **ANrufen**.\nIn a statement or a question, the verb part gets the normal ending and stays in its usual place, and the prefix goes to the very **end** of the sentence: **Ich stehe um sieben Uhr auf. Wann kaufst du ein? Kommst du mit?**\nThe verb part follows all the normal rules, including the vowel changes from the last topic: **fernsehen → du siehst fern, er sieht fern**; **anfangen → du fängst an, es fängt an**.\nWith a modal verb (next topic), the infinitive stays in one piece at the end: **Ich muss heute einkaufen.**\nCareful: don't keep the verb together in a normal sentence (\"Ich aufstehe um sieben Uhr\"), and don't forget the prefix at the end. **Ich rufe Sara an** means *I call Sara*, but **Ich rufe Sara** means *I call out to Sara* with your voice. Persian says literally *I ring to Sara*, but German has no preposition here: **Ich rufe Sara an**, not \"Ich rufe zu Sara an\".",
+      "table": [
+        [
+          "Infinitiv",
+          "ich",
+          "du",
+          "er / sie / es"
+        ],
+        [
+          "aufstehen",
+          "stehe … auf",
+          "stehst … auf",
+          "steht … auf"
+        ],
+        [
+          "einkaufen",
+          "kaufe … ein",
+          "kaufst … ein",
+          "kauft … ein"
+        ],
+        [
+          "anrufen",
+          "rufe … an",
+          "rufst … an",
+          "ruft … an"
+        ],
+        [
+          "fernsehen",
+          "sehe … fern",
+          "siehst … fern",
+          "sieht … fern"
+        ],
+        [
+          "mitkommen",
+          "komme … mit",
+          "kommst … mit",
+          "kommt … mit"
+        ],
+        [
+          "anfangen",
+          "fange … an",
+          "fängst … an",
+          "fängt … an"
+        ]
+      ],
+      "examples": [
+        {
+          "t": "Lena steht um halb acht auf.",
+          "s": "Lena gets up at seven thirty."
+        },
+        {
+          "t": "Heute kaufen wir im Supermarkt ein.",
+          "s": "Today we're going shopping at the supermarket."
+        },
+        {
+          "t": "Rufst du heute Abend Oma an?",
+          "s": "Are you calling Grandma tonight?"
+        },
+        {
+          "t": "Die Schule fängt um acht Uhr an.",
+          "s": "School starts at eight o'clock."
+        },
+        {
+          "t": "Ich kaufe ein. Kommst du mit?",
+          "s": "I'm going shopping. Are you coming along?"
+        },
+        {
+          "t": "Siehst du gern fern?",
+          "s": "Do you like watching TV?"
+        }
+      ],
+      "exercises": [
+        {
+          "type": "choice",
+          "t": "Wir ___ am Abend ein.",
+          "options": [
+            "einkaufen",
+            "kaufen",
+            "kauft"
+          ],
+          "answer": 1,
+          "s": "We go shopping in the evening."
+        },
+        {
+          "type": "choice",
+          "t": "Reza ruft Frau Wagner ___.",
+          "options": [
+            "an",
+            "ein",
+            "fern"
+          ],
+          "answer": 0,
+          "s": "Reza calls Ms. Wagner."
+        },
+        {
+          "type": "choice",
+          "t": "Wann ___ die Schule an?",
+          "options": [
+            "fangt",
+            "fängt",
+            "anfängt"
+          ],
+          "answer": 1,
+          "s": "When does school start?"
+        },
+        {
+          "type": "choice",
+          "t": "Am Abend ___.",
+          "options": [
+            "ich sehe fern",
+            "sehe ich fern",
+            "fernsehe ich"
+          ],
+          "answer": 1,
+          "s": "In the evening I watch TV."
+        },
+        {
+          "type": "type",
+          "t": "Du ___ um sechs Uhr auf.",
+          "answer": [
+            "stehst"
+          ],
+          "s": "You get up at six o'clock.",
+          "hint": "aufstehen"
+        },
+        {
+          "type": "type",
+          "t": "Amir sieht nicht gern ___.",
+          "answer": [
+            "fern"
+          ],
+          "s": "Amir doesn't like watching TV.",
+          "hint": "fernsehen"
+        },
+        {
+          "type": "type",
+          "t": "___ du heute mit?",
+          "answer": [
+            "Kommst"
+          ],
+          "s": "Are you coming along today?",
+          "hint": "mitkommen"
+        },
+        {
+          "type": "type",
+          "t": "Mina ___ Oma an.",
+          "answer": [
+            "ruft"
+          ],
+          "s": "Mina calls Grandma.",
+          "hint": "anrufen"
+        },
+        {
+          "type": "type",
+          "t": "Wann ___ du an?",
+          "answer": [
+            "fängst",
+            "faengst"
+          ],
+          "s": "When do you start?",
+          "hint": "anfangen"
+        },
+        {
+          "type": "order",
+          "t": "Wann kaufst du ein?",
+          "s": "When do you go shopping?"
+        },
+        {
+          "type": "order",
+          "t": "Kommst du heute Abend mit?",
+          "s": "Are you coming along tonight?"
+        },
+        {
+          "type": "order",
+          "t": "Um sieben Uhr stehen die Kinder auf.",
+          "s": "The children get up at seven o'clock.",
+          "alts": [
+            "Die Kinder stehen um sieben Uhr auf."
+          ]
+        }
+      ],
+      "thead": true
+    },
+    {
+      "id": "g05",
+      "title": {
+        "t": "Ich muss heute arbeiten.",
+        "s": "Modal verbs: können, müssen, wollen, möchten"
+      },
+      "explain": "**Modal verbs** add an attitude to another verb: **können** (*can, to be able to*), **müssen** (*must, to have to*), **wollen** (*to want to*) and **möchten** (*would like to*).\nA modal verb works as a team with a second verb. The modal verb is conjugated and stands in position two, or first in a yes/no question. The second verb goes to the **end**, in the **infinitive**: **Ich kann gut kochen. Wir müssen heute arbeiten. Willst du Fußball spielen?** A separable verb stays in one piece at the end: **Ich muss um sechs Uhr aufstehen.**\nThe forms are special: **ich** and **er/sie/es** are the same, and **er/sie/es** has **no -t**: ich **kann**, er **kann**; ich **muss**, sie **muss**; ich **will**, er **will**; ich **möchte**, sie **möchte**. **können**, **müssen** and **wollen** also have a different vowel in the singular: ich **kann**, but wir **können**. The plural is regular: wir **können**, ihr **könnt**, sie/Sie **können**.\n**möchten** is the polite way to say what you want. Like **wollen**, it can also stand without a second verb: **Ich möchte einen Tee.** **Ich will einen Tee** sounds much less polite.\nCareful: in Persian both verbs take a personal ending, but in German only the modal verb does: **Ich kann schwimmen**, not \"Ich kann schwimme\". For English speakers: **Ich will** means *I want*, not *I will*, and **Ich muss nicht** means *I don't have to*, not *I must not*.",
+      "table": [
+        [
+          "Person",
+          "können",
+          "müssen",
+          "wollen",
+          "möchten"
+        ],
+        [
+          "ich",
+          "kann",
+          "muss",
+          "will",
+          "möchte"
+        ],
+        [
+          "du",
+          "kannst",
+          "musst",
+          "willst",
+          "möchtest"
+        ],
+        [
+          "er / sie / es",
+          "kann",
+          "muss",
+          "will",
+          "möchte"
+        ],
+        [
+          "wir",
+          "können",
+          "müssen",
+          "wollen",
+          "möchten"
+        ],
+        [
+          "ihr",
+          "könnt",
+          "müsst",
+          "wollt",
+          "möchtet"
+        ],
+        [
+          "sie / Sie",
+          "können",
+          "müssen",
+          "wollen",
+          "möchten"
+        ]
+      ],
+      "examples": [
+        {
+          "t": "Lena kann heute nicht kommen.",
+          "s": "Lena can't come today."
+        },
+        {
+          "t": "Ich muss im Supermarkt einkaufen.",
+          "s": "I have to go shopping at the supermarket."
+        },
+        {
+          "t": "Wir wollen im Sommer wandern.",
+          "s": "We want to go hiking in the summer."
+        },
+        {
+          "t": "Was möchten Sie trinken?",
+          "s": "What would you like to drink?"
+        },
+        {
+          "t": "Musst du am Abend arbeiten?",
+          "s": "Do you have to work in the evening?"
+        },
+        {
+          "t": "Die Kinder wollen Fußball spielen.",
+          "s": "The children want to play soccer."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "choice",
+          "t": "Ich ___ heute arbeiten.",
+          "options": [
+            "muss",
+            "musst",
+            "müssen"
+          ],
+          "answer": 0,
+          "s": "I have to work today."
+        },
+        {
+          "type": "choice",
+          "t": "Sara kann gut ___.",
+          "options": [
+            "schwimmt",
+            "schwimmen",
+            "schwimme"
+          ],
+          "answer": 1,
+          "s": "Sara can swim well."
+        },
+        {
+          "type": "choice",
+          "t": "___ du Tee trinken?",
+          "options": [
+            "Willst",
+            "Will",
+            "Wollt"
+          ],
+          "answer": 0,
+          "s": "Do you want to drink tea?"
+        },
+        {
+          "type": "choice",
+          "t": "Er ___ einen Saft.",
+          "options": [
+            "möchtet",
+            "möchte",
+            "möchten"
+          ],
+          "answer": 1,
+          "s": "He would like a juice."
+        },
+        {
+          "type": "type",
+          "t": "Wir ___ im Park spielen.",
+          "answer": [
+            "wollen"
+          ],
+          "s": "We want to play in the park.",
+          "hint": "wollen"
+        },
+        {
+          "type": "type",
+          "t": "Lukas ___ nicht singen.",
+          "answer": [
+            "kann"
+          ],
+          "s": "Lukas can't sing.",
+          "hint": "können"
+        },
+        {
+          "type": "type",
+          "t": "Ihr ___ heute nicht kochen.",
+          "answer": [
+            "müsst",
+            "muesst"
+          ],
+          "s": "You don't have to cook today.",
+          "hint": "müssen"
+        },
+        {
+          "type": "type",
+          "t": "Was ___ du essen?",
+          "answer": [
+            "möchtest",
+            "moechtest"
+          ],
+          "s": "What would you like to eat?",
+          "hint": "möchten"
+        },
+        {
+          "type": "type",
+          "t": "Ich kann heute nicht ___.",
+          "answer": [
+            "mitkommen"
+          ],
+          "s": "I can't come along today.",
+          "hint": "mitkommen"
+        },
+        {
+          "type": "order",
+          "t": "Kannst du heute einkaufen?",
+          "s": "Can you go shopping today?"
+        },
+        {
+          "type": "order",
+          "t": "Ich muss um sechs Uhr aufstehen.",
+          "s": "I have to get up at six o'clock.",
+          "alts": [
+            "Um sechs Uhr muss ich aufstehen.",
+            "Aufstehen muss ich um sechs Uhr."
+          ]
+        },
+        {
+          "type": "order",
+          "t": "Was möchtest du heute Abend machen?",
+          "s": "What would you like to do tonight?"
+        }
+      ],
+      "thead": true
+    }
+  ]
+}

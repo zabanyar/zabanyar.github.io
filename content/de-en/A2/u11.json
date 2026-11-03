@@ -1,0 +1,1007 @@
+{
+  "id": "u11",
+  "level": "A2",
+  "kind": "grammar",
+  "emoji": "⏳",
+  "title": {
+    "t": "Grammatik: Vergangenheit",
+    "s": "Grammar: the past"
+  },
+  "goals": [
+    "Form the Perfekt with haben and regular participles like gemacht and gearbeitet",
+    "Use the most common irregular participles like gegessen, getrunken and geschrieben",
+    "Choose between haben and sein in the Perfekt",
+    "Form participles of separable verbs, verbs with be-, ver-, er-, ent- and verbs in -ieren",
+    "Talk about the past with war, hatte and the modal verbs (konnte, musste, wollte)"
+  ],
+  "grammar": [
+    {
+      "id": "g01",
+      "title": {
+        "t": "Ich habe gekocht. Wir haben gearbeitet.",
+        "s": "The Perfekt with haben: regular participles and word order"
+      },
+      "explain": "The **Perfekt** is the normal past tense of spoken German. One German form covers several English ones: **Ich habe gekocht.** means *I cooked*, *I have cooked* or *I did cook*.\nIt has two parts: a present-tense form of **haben** (ich **habe**, du **hast**, er/sie/es **hat**, wir **haben**, ihr **habt**, sie/Sie **haben**) and the **past participle** of the main verb. Most verbs take haben.\nRegular verbs make the participle with **ge- + stem + -t**: machen → **gemacht**, kaufen → **gekauft**, spielen → **gespielt**, frühstücken → **gefrühstückt**. If the stem ends in **-t** or **-d**, and with a few verbs like regnen, you add **-et**: arbeiten → **gearbeitet**, warten → **gewartet**, kosten → **gekostet**, regnen → **geregnet**.\nWord order: haben stands in **position two**, the participle goes to the **very end**, and everything else comes in between: **Ich habe gestern Reis gekocht.** **Gestern hat Sara lange gearbeitet.** In questions: **Hast du schon gefrühstückt?** **Was habt ihr gemacht?** **nicht** usually goes just before the participle: **Ich habe nicht gearbeitet.**\nCareful: English puts the participle right after *have* (*I have cooked rice*), but in German it goes to the end: **Ich habe Reis gekocht.** Persian speakers often put both verbs at the end, but haben must stay in position two. And never leave out haben.",
+      "table": [
+        [
+          "Anfang",
+          "haben",
+          "Mitte",
+          "Ende"
+        ],
+        [
+          "Ich",
+          "habe",
+          "gestern Reis",
+          "gekocht."
+        ],
+        [
+          "Du",
+          "hast",
+          "sehr viel",
+          "gearbeitet."
+        ],
+        [
+          "Gestern",
+          "hat",
+          "Ali lange",
+          "gewartet."
+        ],
+        [
+          "Am Samstag",
+          "haben",
+          "wir Fußball",
+          "gespielt."
+        ],
+        [
+          "Was",
+          "habt",
+          "ihr",
+          "gemacht?"
+        ],
+        [
+          "",
+          "Haben",
+          "Sie schon",
+          "gefrühstückt?"
+        ]
+      ],
+      "examples": [
+        {
+          "t": "Am Sonntag haben wir im Park gegrillt.",
+          "s": "We had a barbecue in the park on Sunday."
+        },
+        {
+          "t": "Ich habe heute acht Stunden gearbeitet.",
+          "s": "I worked eight hours today."
+        },
+        {
+          "t": "Wir haben gestern die ganze Wohnung geputzt.",
+          "s": "We cleaned the whole apartment yesterday."
+        },
+        {
+          "t": "Gestern hat es den ganzen Tag geregnet.",
+          "s": "It rained all day yesterday."
+        },
+        {
+          "t": "Was habt ihr gestern Abend gemacht?",
+          "s": "What did you (all) do yesterday evening?"
+        },
+        {
+          "t": "Lena hat zwanzig Minuten auf den Bus gewartet.",
+          "s": "Lena waited twenty minutes for the bus."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "choice",
+          "t": "Die Kinder haben im Park ___.",
+          "options": [
+            "gespielt",
+            "gespielen",
+            "spielt"
+          ],
+          "answer": 0,
+          "s": "The children played in the park."
+        },
+        {
+          "type": "choice",
+          "t": "Ich habe den ganzen Tag ___.",
+          "options": [
+            "gearbeit",
+            "gearbeitet",
+            "gearbeiten"
+          ],
+          "answer": 1,
+          "s": "I worked all day."
+        },
+        {
+          "type": "choice",
+          "t": "___ du schon gefrühstückt?",
+          "options": [
+            "Hast",
+            "Hat",
+            "Habt"
+          ],
+          "answer": 0,
+          "s": "Have you had breakfast yet?"
+        },
+        {
+          "type": "choice",
+          "t": "Gestern ___ Maryam und Reza lange gewartet.",
+          "options": [
+            "hat",
+            "haben",
+            "habt"
+          ],
+          "answer": 1,
+          "s": "Yesterday Maryam and Reza waited for a long time."
+        },
+        {
+          "type": "choice",
+          "t": "Ich ___.",
+          "options": [
+            "habe gestern eine Lampe gekauft",
+            "habe gekauft gestern eine Lampe",
+            "gestern eine Lampe gekauft habe"
+          ],
+          "answer": 0,
+          "s": "I bought a lamp yesterday."
+        },
+        {
+          "type": "type",
+          "t": "Habt ihr gestern Deutsch ___?",
+          "answer": [
+            "gelernt"
+          ],
+          "s": "Did you (all) study German yesterday?",
+          "hint": "lernen"
+        },
+        {
+          "type": "type",
+          "t": "Es hat am Wochenende viel ___.",
+          "answer": [
+            "geregnet"
+          ],
+          "s": "It rained a lot on the weekend.",
+          "hint": "regnen"
+        },
+        {
+          "type": "type",
+          "t": "Was ___ du gestern Abend gekocht?",
+          "answer": [
+            "hast"
+          ],
+          "s": "What did you cook yesterday evening?",
+          "hint": "haben"
+        },
+        {
+          "type": "type",
+          "t": "Wie viel hat die Jacke ___?",
+          "answer": [
+            "gekostet"
+          ],
+          "s": "How much did the jacket cost?",
+          "hint": "kosten"
+        },
+        {
+          "type": "type",
+          "t": "Herr Wagner hat seiner Frau ein Buch ___.",
+          "answer": [
+            "geschenkt"
+          ],
+          "s": "Mr. Wagner gave his wife a book as a present.",
+          "hint": "schenken"
+        },
+        {
+          "type": "order",
+          "t": "Hast du die Küche geputzt?",
+          "s": "Did you clean the kitchen?"
+        },
+        {
+          "type": "order",
+          "t": "Ich habe heute nicht gearbeitet.",
+          "s": "I didn't work today.",
+          "alts": [
+            "Heute habe ich nicht gearbeitet."
+          ]
+        }
+      ],
+      "thead": true
+    },
+    {
+      "id": "g02",
+      "title": {
+        "t": "Ich habe gegessen. Er hat geschrieben.",
+        "s": "Irregular participles: ge-…-en, often with a vowel change"
+      },
+      "explain": "Many very common verbs are **irregular**. Their participle ends in **-en** instead of -t: **ge- + stem + -en**. The Perfekt works as with regular verbs: **haben** in position two, the participle at the end: **Ich habe ein Buch gelesen.**\nSome irregular verbs keep the vowel of the infinitive: lesen → **gelesen**, sehen → **gesehen**, schlafen → **geschlafen**, waschen → **gewaschen**, geben → **gegeben**, essen → **gegessen** (with an extra g).\nOthers change the vowel, so you have to learn them by heart. A few patterns help: **i → u**: trinken → **getrunken**, finden → **gefunden**, singen → **gesungen**. **ei → ie**: schreiben → **geschrieben**, scheinen → **geschienen**. **e → o**: sprechen → **gesprochen**, helfen → **geholfen**, treffen → **getroffen**, nehmen → **genommen**.\nThe vowel change of the present tense (du **liest**, er **nimmt**) is a different thing: always start from the infinitive. A few verbs are mixed: they change the vowel but end in -t: bringen → **gebracht**, denken → **gedacht**, wissen → **gewusst**.\nCareful: do not give these verbs the regular ending. Not *gesprecht* or *getrinkt*, but **gesprochen** and **getrunken**. Learn every new verb together with its participle: **trinken – hat getrunken**.",
+      "table": [
+        [
+          "Infinitiv",
+          "Perfekt",
+          "Vokal"
+        ],
+        [
+          "lesen",
+          "hat gelesen",
+          "e – e"
+        ],
+        [
+          "schlafen",
+          "hat geschlafen",
+          "a – a"
+        ],
+        [
+          "essen",
+          "hat gegessen",
+          "e – e"
+        ],
+        [
+          "trinken",
+          "hat getrunken",
+          "i – u"
+        ],
+        [
+          "finden",
+          "hat gefunden",
+          "i – u"
+        ],
+        [
+          "schreiben",
+          "hat geschrieben",
+          "ei – ie"
+        ],
+        [
+          "sprechen",
+          "hat gesprochen",
+          "e – o"
+        ],
+        [
+          "nehmen",
+          "hat genommen",
+          "e – o"
+        ]
+      ],
+      "examples": [
+        {
+          "t": "Ich habe heute Morgen nur einen Apfel gegessen.",
+          "s": "I only ate an apple this morning."
+        },
+        {
+          "t": "Hast du die E-Mail von Frau Wagner schon gelesen?",
+          "s": "Have you read the email from Ms. Wagner yet?"
+        },
+        {
+          "t": "Wir haben auf der Reise viel Deutsch gesprochen.",
+          "s": "We spoke a lot of German on the trip."
+        },
+        {
+          "t": "Mina hat ihrer Oma einen Brief geschrieben.",
+          "s": "Mina wrote her grandma a letter."
+        },
+        {
+          "t": "Gestern haben wir Lukas und Anna in der Stadt getroffen.",
+          "s": "We met Lukas and Anna in town yesterday."
+        },
+        {
+          "t": "Am Samstag hat die Sonne geschienen.",
+          "s": "The sun was shining on Saturday."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "choice",
+          "t": "Ich habe gestern einen tollen Film ___.",
+          "options": [
+            "gesehen",
+            "geseht",
+            "gesieht"
+          ],
+          "answer": 0,
+          "s": "I saw a great movie yesterday."
+        },
+        {
+          "type": "choice",
+          "t": "Hast du genug Wasser ___?",
+          "options": [
+            "getrinkt",
+            "getrunken",
+            "getranken"
+          ],
+          "answer": 1,
+          "s": "Did you drink enough water?"
+        },
+        {
+          "type": "choice",
+          "t": "Reza hat seinen Schlüssel nicht ___.",
+          "options": [
+            "gefindet",
+            "gefunden",
+            "gefanden"
+          ],
+          "answer": 1,
+          "s": "Reza didn't find his key."
+        },
+        {
+          "type": "choice",
+          "t": "Wir haben mit dem Arzt ___.",
+          "options": [
+            "gesprochen",
+            "gesprecht",
+            "gesprachen"
+          ],
+          "answer": 0,
+          "s": "We spoke with the doctor."
+        },
+        {
+          "type": "choice",
+          "t": "Ich habe dir eine Nachricht ___.",
+          "options": [
+            "geschreibt",
+            "geschrieben",
+            "geschriben"
+          ],
+          "answer": 1,
+          "s": "I wrote you a message."
+        },
+        {
+          "type": "type",
+          "t": "Was habt ihr zum Frühstück ___?",
+          "answer": [
+            "gegessen"
+          ],
+          "s": "What did you (all) eat for breakfast?",
+          "hint": "essen"
+        },
+        {
+          "type": "type",
+          "t": "Ich habe meiner Mutter in der Küche ___.",
+          "answer": [
+            "geholfen"
+          ],
+          "s": "I helped my mother in the kitchen.",
+          "hint": "helfen"
+        },
+        {
+          "type": "type",
+          "t": "Maryam hat um acht Uhr den Bus ___.",
+          "answer": [
+            "genommen"
+          ],
+          "s": "Maryam took the bus at eight o'clock.",
+          "hint": "nehmen"
+        },
+        {
+          "type": "type",
+          "t": "Die Kinder haben ein Lied ___.",
+          "answer": [
+            "gesungen"
+          ],
+          "s": "The children sang a song.",
+          "hint": "singen"
+        },
+        {
+          "type": "type",
+          "t": "Lena hat mir ein Buch ___.",
+          "answer": [
+            "gegeben"
+          ],
+          "s": "Lena gave me a book.",
+          "hint": "geben"
+        },
+        {
+          "type": "order",
+          "t": "Hast du das Buch schon gelesen?",
+          "s": "Have you read the book yet?",
+          "alts": [
+            "Hast du schon das Buch gelesen?"
+          ]
+        },
+        {
+          "type": "order",
+          "t": "Wo habt ihr den Schlüssel gefunden?",
+          "s": "Where did you (all) find the key?"
+        }
+      ],
+      "thead": true
+    },
+    {
+      "id": "g03",
+      "title": {
+        "t": "Wir sind gefahren. Was ist passiert?",
+        "s": "The Perfekt with sein"
+      },
+      "explain": "A smaller group of verbs forms the Perfekt with **sein** instead of haben: **Ich bin nach Hause gegangen.** The word order is the same: sein in position two (ich **bin**, du **bist**, er/sie/es **ist**, wir **sind**, ihr **seid**, sie/Sie **sind**), the participle at the end.\nUse sein with verbs of **movement from one place to another**: gehen → **ist gegangen**, kommen → **ist gekommen**, fahren → **ist gefahren**, fliegen → **ist geflogen**, laufen → **ist gelaufen**, reisen → **ist gereist**. With an accusative object, fahren takes haben: **Ich habe das Auto gefahren.**\nUse sein also with verbs of **change of state**: aufwachen → **ist aufgewacht**, einschlafen → **ist eingeschlafen**, werden → **ist geworden**: **Mein Sohn ist krank geworden.**\nLearn three more by heart: **sein → ist gewesen**, **bleiben → ist geblieben**, **passieren → ist passiert**. bleiben (*to stay*) is no movement, but it takes sein: **Wir sind zu Hause geblieben.** **Was ist passiert?** *What happened?*\nMost other verbs take haben: **Ich habe gearbeitet, gekocht, geschlafen.** In southern Germany, Austria and Switzerland people also say **ich bin gesessen** or **ich bin gestanden**; this course uses **ich habe gesessen** and **ich habe gestanden**.\nCareful: English uses *have* for every verb (*I have gone*), so learners often say *Ich habe gegangen*. The correct form is **Ich bin gegangen.** Learn each verb with its auxiliary: **gehen – ist gegangen**.",
+      "table": [
+        [
+          "Infinitiv",
+          "Perfekt",
+          "Gruppe"
+        ],
+        [
+          "gehen",
+          "ist gegangen",
+          "Bewegung"
+        ],
+        [
+          "fahren",
+          "ist gefahren",
+          "Bewegung"
+        ],
+        [
+          "fliegen",
+          "ist geflogen",
+          "Bewegung"
+        ],
+        [
+          "aufwachen",
+          "ist aufgewacht",
+          "Veränderung"
+        ],
+        [
+          "werden",
+          "ist geworden",
+          "Veränderung"
+        ],
+        [
+          "sein",
+          "ist gewesen",
+          "Ausnahme"
+        ],
+        [
+          "bleiben",
+          "ist geblieben",
+          "Ausnahme"
+        ],
+        [
+          "passieren",
+          "ist passiert",
+          "Ausnahme"
+        ]
+      ],
+      "examples": [
+        {
+          "t": "Letzten Sommer sind wir nach Istanbul geflogen.",
+          "s": "Last summer we flew to Istanbul."
+        },
+        {
+          "t": "Um wie viel Uhr bist du heute aufgewacht?",
+          "s": "What time did you wake up today?"
+        },
+        {
+          "t": "Herr Wagner ist mit dem Fahrrad zur Arbeit gefahren.",
+          "s": "Mr. Wagner rode his bike to work."
+        },
+        {
+          "t": "Die Kinder sind gestern bei Oma geblieben.",
+          "s": "The children stayed at Grandma's yesterday."
+        },
+        {
+          "t": "Mein Bruder ist Ingenieur geworden.",
+          "s": "My brother became an engineer."
+        },
+        {
+          "t": "Was ist gestern im Büro passiert?",
+          "s": "What happened at the office yesterday?"
+        }
+      ],
+      "exercises": [
+        {
+          "type": "choice",
+          "t": "Wir ___ am Samstag nach Hamburg gefahren.",
+          "options": [
+            "haben",
+            "sind",
+            "seid"
+          ],
+          "answer": 1,
+          "s": "We went to Hamburg on Saturday."
+        },
+        {
+          "type": "choice",
+          "t": "Lena ___ heute sehr spät aufgewacht.",
+          "options": [
+            "hat",
+            "ist",
+            "bist"
+          ],
+          "answer": 1,
+          "s": "Lena woke up very late today."
+        },
+        {
+          "type": "choice",
+          "t": "Ich ___ gestern den ganzen Tag gearbeitet.",
+          "options": [
+            "habe",
+            "bin",
+            "ist"
+          ],
+          "answer": 0,
+          "s": "I worked all day yesterday."
+        },
+        {
+          "type": "choice",
+          "t": "Was ___ gestern im Kurs passiert?",
+          "options": [
+            "hat",
+            "ist",
+            "sind"
+          ],
+          "answer": 1,
+          "s": "What happened in class yesterday?"
+        },
+        {
+          "type": "choice",
+          "t": "Mein Opa ___ letztes Jahr achtzig Jahre alt geworden.",
+          "options": [
+            "hat",
+            "ist",
+            "habe"
+          ],
+          "answer": 1,
+          "s": "My grandpa turned eighty last year."
+        },
+        {
+          "type": "type",
+          "t": "Am Wochenende ___ ich zu Hause geblieben.",
+          "answer": [
+            "bin"
+          ],
+          "s": "I stayed at home on the weekend.",
+          "hint": "haben oder sein"
+        },
+        {
+          "type": "type",
+          "t": "Wo ___ ihr gestern Abend gewesen?",
+          "answer": [
+            "seid"
+          ],
+          "s": "Where were you (all) yesterday evening?",
+          "hint": "haben oder sein"
+        },
+        {
+          "type": "type",
+          "t": "Meine Eltern sind letzte Woche nach Teheran ___.",
+          "answer": [
+            "geflogen"
+          ],
+          "s": "My parents flew to Tehran last week.",
+          "hint": "fliegen"
+        },
+        {
+          "type": "type",
+          "t": "Ali ist schnell in den Park ___.",
+          "answer": [
+            "gelaufen"
+          ],
+          "s": "Ali ran to the park quickly.",
+          "hint": "laufen"
+        },
+        {
+          "type": "type",
+          "t": "Die Kinder ___ im Auto eingeschlafen.",
+          "answer": [
+            "sind"
+          ],
+          "s": "The children fell asleep in the car.",
+          "hint": "haben oder sein"
+        },
+        {
+          "type": "order",
+          "t": "Wohin seid ihr im Sommer gefahren?",
+          "s": "Where did you (all) go in the summer?"
+        },
+        {
+          "type": "order",
+          "t": "Gestern bin ich zu Hause geblieben.",
+          "s": "I stayed at home yesterday.",
+          "alts": [
+            "Ich bin gestern zu Hause geblieben.",
+            "Zu Hause bin ich gestern geblieben."
+          ]
+        }
+      ],
+      "thead": true
+    },
+    {
+      "id": "g04",
+      "title": {
+        "t": "Ich habe eingekauft. Hast du das verstanden?",
+        "s": "Special participles: separable verbs, be-, ver-, er-, ent- and -ieren"
+      },
+      "explain": "Three groups of verbs build the participle in a special way.\n**Separable verbs** put **-ge-** between the prefix and the verb: einkaufen → **eingekauft**, aufräumen → **aufgeräumt**, anrufen → **angerufen**, einladen → **eingeladen**, fernsehen → **ferngesehen**. Regular verbs end in -t, irregular ones in -en, and verbs of movement or change take sein: aufstehen → **ist aufgestanden**, ankommen → **ist angekommen**.\n**Inseparable verbs** begin with an unstressed prefix such as **be-, ver-, er-, ent-**. They get **no ge-**: besuchen → **besucht**, bezahlen → **bezahlt**, verkaufen → **verkauft**, erzählen → **erzählt**, entschuldigen → **entschuldigt**. Irregular ones end in -en: verstehen → **verstanden**, beginnen → **begonnen**, bekommen → **bekommen**, vergessen → **vergessen**. So the participle can look like the infinitive.\nVerbs ending in **-ieren** also get **no ge-** and end in -t: studieren → **studiert**, telefonieren → **telefoniert**, reservieren → **reserviert**, passieren → **ist passiert**. anprobieren is separable and an -ieren verb at the same time: **anprobiert**.\nCareful: listen to the stress. A stressed prefix (**ein**kaufen, **an**rufen) separates and takes -ge- in the middle. An unstressed prefix (be**su**chen, ver**ste**hen) never takes ge-. So never say *gebesucht*, *geverstanden*, *gestudiert* or *geeinkauft*.",
+      "table": [
+        [
+          "Infinitiv",
+          "Partizip",
+          "Regel"
+        ],
+        [
+          "einkaufen",
+          "eingekauft",
+          "ge in der Mitte"
+        ],
+        [
+          "anrufen",
+          "angerufen",
+          "ge in der Mitte"
+        ],
+        [
+          "aufstehen",
+          "aufgestanden",
+          "ge in der Mitte"
+        ],
+        [
+          "besuchen",
+          "besucht",
+          "ohne ge"
+        ],
+        [
+          "verstehen",
+          "verstanden",
+          "ohne ge"
+        ],
+        [
+          "erzählen",
+          "erzählt",
+          "ohne ge"
+        ],
+        [
+          "studieren",
+          "studiert",
+          "ohne ge"
+        ],
+        [
+          "telefonieren",
+          "telefoniert",
+          "ohne ge"
+        ]
+      ],
+      "examples": [
+        {
+          "t": "Ich habe am Samstag im Supermarkt eingekauft.",
+          "s": "I did the shopping at the supermarket on Saturday."
+        },
+        {
+          "t": "Anna ist heute um sechs Uhr aufgestanden.",
+          "s": "Anna got up at six o'clock today."
+        },
+        {
+          "t": "Wir haben am Sonntag unsere Großeltern besucht.",
+          "s": "We visited our grandparents on Sunday."
+        },
+        {
+          "t": "Entschuldigung, das habe ich nicht verstanden.",
+          "s": "Sorry, I didn't understand that."
+        },
+        {
+          "t": "Reza hat drei Jahre in Deutschland studiert.",
+          "s": "Reza studied in Germany for three years."
+        },
+        {
+          "t": "Habt ihr schon einen Tisch reserviert?",
+          "s": "Have you (all) already reserved a table?"
+        }
+      ],
+      "exercises": [
+        {
+          "type": "choice",
+          "t": "Wir haben am Freitag für das Picknick ___.",
+          "options": [
+            "eingekauft",
+            "geeinkauft",
+            "eingekaufen"
+          ],
+          "answer": 0,
+          "s": "We went shopping for the picnic on Friday."
+        },
+        {
+          "type": "choice",
+          "t": "Hast du die Rechnung schon ___?",
+          "options": [
+            "gebezahlt",
+            "bezahlt",
+            "bezahlen"
+          ],
+          "answer": 1,
+          "s": "Have you paid the bill yet?"
+        },
+        {
+          "type": "choice",
+          "t": "Lukas hat in Hamburg ___.",
+          "options": [
+            "gestudiert",
+            "studiert",
+            "studieren"
+          ],
+          "answer": 1,
+          "s": "Lukas studied in Hamburg."
+        },
+        {
+          "type": "choice",
+          "t": "Ich habe die Frage leider nicht ___.",
+          "options": [
+            "verstanden",
+            "verstehen",
+            "geverstanden"
+          ],
+          "answer": 0,
+          "s": "Unfortunately, I didn't understand the question."
+        },
+        {
+          "type": "choice",
+          "t": "Wann ___ du heute aufgestanden?",
+          "options": [
+            "hast",
+            "bist",
+            "ist"
+          ],
+          "answer": 1,
+          "s": "When did you get up today?"
+        },
+        {
+          "type": "type",
+          "t": "Ich habe Mina gestern Abend ___.",
+          "answer": [
+            "angerufen"
+          ],
+          "s": "I called Mina yesterday evening.",
+          "hint": "anrufen"
+        },
+        {
+          "type": "type",
+          "t": "Mein Vater hat mir eine Geschichte ___.",
+          "answer": [
+            "erzählt",
+            "erzaehlt"
+          ],
+          "s": "My father told me a story.",
+          "hint": "erzählen"
+        },
+        {
+          "type": "type",
+          "t": "Ich habe meinen Schlüssel ___.",
+          "answer": [
+            "vergessen"
+          ],
+          "s": "I forgot my key.",
+          "hint": "vergessen"
+        },
+        {
+          "type": "type",
+          "t": "Ich habe die Hose ___, aber sie war zu eng.",
+          "answer": [
+            "anprobiert"
+          ],
+          "s": "I tried on the pants, but they were too tight.",
+          "hint": "anprobieren"
+        },
+        {
+          "type": "type",
+          "t": "Der Zug ist schon ___.",
+          "answer": [
+            "abgefahren"
+          ],
+          "s": "The train has already left.",
+          "hint": "abfahren"
+        },
+        {
+          "type": "order",
+          "t": "Wann ist der Zug angekommen?",
+          "s": "When did the train arrive?"
+        },
+        {
+          "type": "order",
+          "t": "Ich habe gestern nicht ferngesehen.",
+          "s": "I didn't watch TV yesterday.",
+          "alts": [
+            "Gestern habe ich nicht ferngesehen."
+          ]
+        }
+      ],
+      "thead": true
+    },
+    {
+      "id": "g05",
+      "title": {
+        "t": "Ich war zu Hause. Ich hatte keine Zeit.",
+        "s": "The simple past of sein, haben and the modal verbs"
+      },
+      "explain": "German has a second past tense, the **Präteritum** (simple past). In everyday speech Germans use the Perfekt for most verbs, but for **sein**, **haben** and the **modal verbs** they normally use the Präteritum: **Gestern war ich müde.** **Ich hatte keine Zeit.** The Perfekt (**ich bin müde gewesen**) is also correct, but less common. In books and stories the Präteritum is used for all verbs.\n**sein → war**, **haben → hatte**. The modal verbs add **-te** to the stem and lose the umlaut if they have one: können → **konnte**, müssen → **musste**, dürfen → **durfte**, wollen → **wollte**, sollen → **sollte**. **möchte** has no past form of its own; use **wollte**: **Gestern wollte ich kommen.**\n**ich** and **er/sie/es** have the same form, without an ending: ich **war**, sie **war**, ich **konnte**, er **konnte**. hatte and the modal verbs add the endings to this form: du **hattest**, wir **hatten**, ihr **hattet**, sie **hatten**. war is a little different: du **warst**, wir **waren**, ihr **wart**, sie **waren**.\nThe verb stands in position two; with a modal verb the infinitive goes to the end: **Ich musste gestern lange arbeiten.** **sollte** often means *was supposed to*: **Ich sollte Brot kaufen.**\nCareful: not *Gestern ich bin krank*, but **Gestern war ich krank.** And do not add an umlaut: **mussten** and **konnten** are past forms, but **müssten** and **könnten** mean *would have to* and *could*, as in **Könnten Sie mir helfen?**",
+      "table": [
+        [
+          "Person",
+          "sein",
+          "haben",
+          "können",
+          "müssen"
+        ],
+        [
+          "ich",
+          "war",
+          "hatte",
+          "konnte",
+          "musste"
+        ],
+        [
+          "du",
+          "warst",
+          "hattest",
+          "konntest",
+          "musstest"
+        ],
+        [
+          "er / sie / es",
+          "war",
+          "hatte",
+          "konnte",
+          "musste"
+        ],
+        [
+          "wir",
+          "waren",
+          "hatten",
+          "konnten",
+          "mussten"
+        ],
+        [
+          "ihr",
+          "wart",
+          "hattet",
+          "konntet",
+          "musstet"
+        ],
+        [
+          "sie / Sie",
+          "waren",
+          "hatten",
+          "konnten",
+          "mussten"
+        ]
+      ],
+      "examples": [
+        {
+          "t": "Am Montag war ich beim Arzt.",
+          "s": "I was at the doctor's on Monday."
+        },
+        {
+          "t": "Die Kinder hatten gestern Fieber.",
+          "s": "The children had a fever yesterday."
+        },
+        {
+          "t": "Ich konnte gestern nicht kommen, weil ich arbeiten musste.",
+          "s": "I couldn't come yesterday because I had to work."
+        },
+        {
+          "t": "Gestern wollte ich dich anrufen, aber ich hatte keine Zeit.",
+          "s": "I wanted to call you yesterday, but I didn't have time."
+        },
+        {
+          "t": "Im Krankenhaus durfte Reza keinen Kaffee trinken.",
+          "s": "In the hospital, Reza wasn't allowed to drink coffee."
+        },
+        {
+          "t": "Ich sollte gestern Brot kaufen, aber ich habe es vergessen.",
+          "s": "I was supposed to buy bread yesterday, but I forgot."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "choice",
+          "t": "Letzte Woche ___ wir in Hamburg.",
+          "options": [
+            "waren",
+            "sind",
+            "hatten"
+          ],
+          "answer": 0,
+          "s": "We were in Hamburg last week."
+        },
+        {
+          "type": "choice",
+          "t": "Gestern ___ Maryam Kopfschmerzen.",
+          "options": [
+            "hatte",
+            "hattet",
+            "war"
+          ],
+          "answer": 0,
+          "s": "Maryam had a headache yesterday."
+        },
+        {
+          "type": "choice",
+          "t": "Ich ___ gestern nicht kommen, weil ich krank war.",
+          "options": [
+            "konnte",
+            "kann",
+            "könnte"
+          ],
+          "answer": 0,
+          "s": "I couldn't come yesterday because I was sick."
+        },
+        {
+          "type": "choice",
+          "t": "Wir ___ letzten Samstag arbeiten.",
+          "options": [
+            "mussten",
+            "musstet",
+            "müssen"
+          ],
+          "answer": 0,
+          "s": "We had to work last Saturday."
+        },
+        {
+          "type": "choice",
+          "t": "___ ihr gestern auch im Kino?",
+          "options": [
+            "Wart",
+            "Waren",
+            "Seid"
+          ],
+          "answer": 0,
+          "s": "Were you (all) at the movies yesterday too?"
+        },
+        {
+          "type": "type",
+          "t": "Wo ___ du letzten Sonntag?",
+          "answer": [
+            "warst"
+          ],
+          "s": "Where were you last Sunday?",
+          "hint": "sein"
+        },
+        {
+          "type": "type",
+          "t": "___ ihr gestern viel Arbeit?",
+          "answer": [
+            "Hattet"
+          ],
+          "s": "Did you (all) have a lot of work yesterday?",
+          "hint": "haben"
+        },
+        {
+          "type": "type",
+          "t": "Gestern ___ wir im Kurs kein Englisch sprechen.",
+          "answer": [
+            "durften"
+          ],
+          "s": "Yesterday we weren't allowed to speak any English in class.",
+          "hint": "dürfen"
+        },
+        {
+          "type": "type",
+          "t": "Lukas ___ gestern ins Kino gehen, aber er musste arbeiten.",
+          "answer": [
+            "wollte"
+          ],
+          "s": "Lukas wanted to go to the movies yesterday, but he had to work.",
+          "hint": "wollen"
+        },
+        {
+          "type": "type",
+          "t": "Wir ___ um neun Uhr in Hamburg sein, aber der Zug hatte Verspätung.",
+          "answer": [
+            "sollten"
+          ],
+          "s": "We were supposed to be in Hamburg at nine o'clock, but the train was late.",
+          "hint": "sollen"
+        },
+        {
+          "type": "order",
+          "t": "Warum warst du gestern nicht da?",
+          "s": "Why weren't you there yesterday?"
+        },
+        {
+          "type": "order",
+          "t": "Gestern konnte Mina nicht kommen.",
+          "s": "Mina couldn't come yesterday.",
+          "alts": [
+            "Mina konnte gestern nicht kommen."
+          ]
+        }
+      ],
+      "thead": true
+    }
+  ]
+}

@@ -1643,6 +1643,112 @@
         "grammar": true,
         "reading": true
        }
+      },
+      {
+       "id": "u11",
+       "title": {
+        "t": "Grammatik: Verben im Präsens",
+        "s": "Grammar: verbs in the present tense",
+        "a": "audio/de-en/62b1e93d7362.mp3"
+       },
+       "img": "img/e/1f3c3.svg",
+       "emoji": "🏃",
+       "goals": [
+        "Conjugate regular verbs for all persons, including stems in -t, -d, -s, -ß and -z",
+        "Use all forms of sein and haben, and know when German says haben (Ich habe Hunger)",
+        "Use verbs with a vowel change (du fährst, er liest) and the verb wissen",
+        "Put the prefix of separable verbs at the end of the sentence",
+        "Use können, müssen, wollen and möchten with an infinitive at the end"
+       ],
+       "has": {
+        "letters": false,
+        "sounds": false,
+        "words": false,
+        "phrases": false,
+        "dialogue": false,
+        "grammar": true,
+        "reading": false
+       },
+       "kind": "grammar",
+       "gn": 5,
+       "gt": [
+        "ich lerne, du lernst, wir lernen",
+        "Ich bin müde. Ich habe Hunger.",
+        "du fährst, er liest, sie weiß",
+        "Wann kaufst du ein?",
+        "Ich muss heute arbeiten."
+       ]
+      },
+      {
+       "id": "u12",
+       "title": {
+        "t": "Grammatik: Nomen, Artikel, Pronomen",
+        "s": "Grammar: nouns, articles, pronouns",
+        "a": "audio/de-en/30a18400bd21.mp3"
+       },
+       "img": "img/e/1f3f7.svg",
+       "emoji": "🏷️",
+       "goals": [
+        "Use der, die, das and ein, eine, and spot endings that hint at the gender",
+        "Form the plural of nouns and use die in the plural",
+        "Use the accusative after verbs like haben, brauchen, kaufen and es gibt",
+        "Choose between nicht and kein",
+        "Use possessive articles and object pronouns like mich, dich, ihn"
+       ],
+       "has": {
+        "letters": false,
+        "sounds": false,
+        "words": false,
+        "phrases": false,
+        "dialogue": false,
+        "grammar": true,
+        "reading": false
+       },
+       "kind": "grammar",
+       "gn": 6,
+       "gt": [
+        "der Tisch, die Lampe, das Bett",
+        "ein Tisch, zwei Tische",
+        "Ich brauche einen Stuhl.",
+        "nicht oder kein?",
+        "mein, dein, sein, ihr …",
+        "mich, dich, ihn …"
+       ]
+      },
+      {
+       "id": "u13",
+       "title": {
+        "t": "Grammatik: Sätze und Fragen",
+        "s": "Grammar: sentences and questions",
+        "a": "audio/de-en/72b411d08d8a.mp3"
+       },
+       "img": "img/e/2753.svg",
+       "emoji": "❓",
+       "goals": [
+        "Put the verb in second position, also after a time or a place",
+        "Ask W-questions and yes/no questions and answer with ja, nein or doch",
+        "Build the sentence bracket with modal verbs and separable verbs",
+        "Give instructions with the imperative for du, ihr and Sie",
+        "Say when things happen with um, am, im, von … bis and ab"
+       ],
+       "has": {
+        "letters": false,
+        "sounds": false,
+        "words": false,
+        "phrases": false,
+        "dialogue": false,
+        "grammar": true,
+        "reading": false
+       },
+       "kind": "grammar",
+       "gn": 5,
+       "gt": [
+        "Heute arbeite ich.",
+        "Wo wohnst du? Wohnst du hier?",
+        "Ich muss heute arbeiten.",
+        "Ruf mich an!",
+        "um acht Uhr, am Abend, im Mai"
+       ]
       }
      ]
     },
@@ -1897,6 +2003,113 @@
         "grammar": true,
         "reading": true
        }
+      },
+      {
+       "id": "u11",
+       "title": {
+        "t": "Grammatik: Vergangenheit",
+        "s": "Grammar: the past",
+        "a": "audio/de-en/5350a1932eb8.mp3"
+       },
+       "img": "img/e/23f3.svg",
+       "emoji": "⏳",
+       "goals": [
+        "Form the Perfekt with haben and regular participles like gemacht and gearbeitet",
+        "Use the most common irregular participles like gegessen, getrunken and geschrieben",
+        "Choose between haben and sein in the Perfekt",
+        "Form participles of separable verbs, verbs with be-, ver-, er-, ent- and verbs in -ieren",
+        "Talk about the past with war, hatte and the modal verbs (konnte, musste, wollte)"
+       ],
+       "has": {
+        "letters": false,
+        "sounds": false,
+        "words": false,
+        "phrases": false,
+        "dialogue": false,
+        "grammar": true,
+        "reading": false
+       },
+       "kind": "grammar",
+       "gn": 5,
+       "gt": [
+        "Ich habe gekocht. Wir haben gearbeitet.",
+        "Ich habe gegessen. Er hat geschrieben.",
+        "Wir sind gefahren. Was ist passiert?",
+        "Ich habe eingekauft. Hast du das verstanden?",
+        "Ich war zu Hause. Ich hatte keine Zeit."
+       ]
+      },
+      {
+       "id": "u12",
+       "title": {
+        "t": "Grammatik: Fälle und Präpositionen",
+        "s": "Grammar: cases and prepositions",
+        "a": "audio/de-en/058fa38b451f.mp3"
+       },
+       "img": "img/e/1f4e6.svg",
+       "emoji": "📦",
+       "goals": [
+        "Use the dative forms of articles, possessives and personal pronouns",
+        "Use verbs with the dative and put two objects in the right order",
+        "Choose the right case after prepositions, including Wo? and Wohin?",
+        "Give adjectives the right ending before a noun",
+        "Compare things with the comparative and the superlative"
+       ],
+       "has": {
+        "letters": false,
+        "sounds": false,
+        "words": false,
+        "phrases": false,
+        "dialogue": false,
+        "grammar": true,
+        "reading": false
+       },
+       "kind": "grammar",
+       "gn": 6,
+       "gt": [
+        "dem Mann, der Frau, den Kindern – mir, dir, ihm",
+        "Ich helfe dir. Ich gebe dir den Schlüssel.",
+        "mit dem Bus, zur Arbeit – für dich, ohne mich",
+        "Wo? in der Küche – Wohin? in die Küche",
+        "der neue Tisch, ein neuer Tisch",
+        "größer als, so groß wie, am größten"
+       ]
+      },
+      {
+       "id": "u13",
+       "title": {
+        "t": "Grammatik: Sätze verbinden",
+        "s": "Grammar: linking sentences",
+        "a": "audio/de-en/5a3e02a0c5d7.mp3"
+       },
+       "img": "img/e/1f517.svg",
+       "emoji": "🔗",
+       "goals": [
+        "Join main clauses with und, aber, oder, denn, sondern, deshalb, trotzdem and dann",
+        "Build subordinate clauses with weil, dass and wenn, with the verb at the end",
+        "Ask polite indirect questions with ob and question words",
+        "Use reflexive verbs and verbs with fixed prepositions",
+        "Make polite requests and talk about the future"
+       ],
+       "has": {
+        "letters": false,
+        "sounds": false,
+        "words": false,
+        "phrases": false,
+        "dialogue": false,
+        "grammar": true,
+        "reading": false
+       },
+       "kind": "grammar",
+       "gn": 6,
+       "gt": [
+        "und, aber, denn – deshalb, trotzdem",
+        "Wenn ich Zeit habe, komme ich.",
+        "Können Sie mir sagen, wo der Bahnhof ist?",
+        "Ich wasche mich. Ich wasche mir die Hände.",
+        "Ich denke an dich. Woran denkst du?",
+        "Könnten Sie mir helfen? Ich werde morgen kommen."
+       ]
       }
      ]
     },

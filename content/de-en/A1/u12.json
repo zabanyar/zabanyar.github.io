@@ -1,0 +1,1175 @@
+{
+  "id": "u12",
+  "level": "A1",
+  "kind": "grammar",
+  "emoji": "🏷️",
+  "title": {
+    "t": "Grammatik: Nomen, Artikel, Pronomen",
+    "s": "Grammar: nouns, articles, pronouns"
+  },
+  "goals": [
+    "Use der, die, das and ein, eine, and spot endings that hint at the gender",
+    "Form the plural of nouns and use die in the plural",
+    "Use the accusative after verbs like haben, brauchen, kaufen and es gibt",
+    "Choose between nicht and kein",
+    "Use possessive articles and object pronouns like mich, dich, ihn"
+  ],
+  "grammar": [
+    {
+      "id": "g01",
+      "title": {
+        "t": "der Tisch, die Lampe, das Bett",
+        "s": "Gender: der, die, das"
+      },
+      "explain": "Every German noun has a grammatical gender: **der** (masculine), **die** (feminine) or **das** (neuter). The gender belongs to the word, not to the thing: a table is **der Tisch**, a lamp is **die Lampe**, a bed is **das Bett**. So always learn a noun together with its article.\nThe word for *a* / *an* follows the gender: **ein** for der- and das-nouns, **eine** for die-nouns: **ein Tisch**, **eine Lampe**, **ein Bett**. A pronoun follows the gender too: **der Tisch → er**, **die Lampe → sie**, **das Bett → es**. So **er** and **sie** can mean *it*: Wo ist die Lampe? **Sie** ist hier. In everyday speech, **der**, **die**, **das** are also used this way: Der Mantel? **Der** ist teuer.\nSome clues help, but they are only tendencies. Nouns ending in **-ung**, **-heit** and **-keit** are nearly always die: **die Wohnung**, **die Gesundheit** (*health*). Most nouns ending in **-e** are die: **die Suppe**, **die Tasche** – but not all: **der Käse**, **der Name**. The small-making ending **-chen** always gives das: **das Hähnchen**, **das Mädchen** (*girl*). Days, months and seasons are der: **der Mai**, **der Sommer**. Words for men are usually der and words for women die (**der Vater**, **die Mutter**), but **das Kind**, **das Baby** and **das Mädchen** are das. In a compound noun, the last part decides: **das Zimmer → das Schlafzimmer**.\nCareful: Persian has no der/die/das, and English says *it* for every thing. Don't use **es** for everything: Der Tisch ist neu. **Er** ist groß. With **das Kind** the pronoun is **es**, even for a girl: Das Kind heißt Mina. **Es** ist fünf. Many people say **sie** here, too.",
+      "table": [
+        [
+          "der",
+          "die",
+          "das"
+        ],
+        [
+          "der Tisch",
+          "die Lampe",
+          "das Bett"
+        ],
+        [
+          "ein Tisch",
+          "eine Lampe",
+          "ein Bett"
+        ],
+        [
+          "er",
+          "sie",
+          "es"
+        ],
+        [
+          "der Mai, der Sommer",
+          "die Wohnung, die Suppe",
+          "das Hähnchen, das Mädchen"
+        ]
+      ],
+      "examples": [
+        {
+          "t": "Der Tisch ist neu. Er ist sehr schön.",
+          "s": "The table is new. It's very nice."
+        },
+        {
+          "t": "Wo ist die Tasche? – Sie ist im Auto.",
+          "s": "Where is the bag? – It's in the car."
+        },
+        {
+          "t": "Das Kind heißt Mina. Es ist fünf Jahre alt.",
+          "s": "The child's name is Mina. She is five years old."
+        },
+        {
+          "t": "Die Wohnung hat eine Küche und ein Bad.",
+          "s": "The apartment has a kitchen and a bathroom."
+        },
+        {
+          "t": "Der Supermarkt ist groß, aber er ist teuer.",
+          "s": "The supermarket is big, but it's expensive."
+        },
+        {
+          "t": "Im Winter ist der Park sehr schön.",
+          "s": "In winter the park is very beautiful."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "choice",
+          "t": "Das ist ___ Lampe.",
+          "options": [
+            "ein",
+            "eine",
+            "einen"
+          ],
+          "answer": 1,
+          "s": "This is a lamp."
+        },
+        {
+          "type": "choice",
+          "t": "Wo ist der Stuhl? – ___ ist in der Küche.",
+          "options": [
+            "Er",
+            "Sie",
+            "Es"
+          ],
+          "answer": 0,
+          "s": "Where is the chair? – It's in the kitchen."
+        },
+        {
+          "type": "choice",
+          "t": "___ Wohnung ist groß.",
+          "options": [
+            "Der",
+            "Die",
+            "Das"
+          ],
+          "answer": 1,
+          "s": "The apartment is big."
+        },
+        {
+          "type": "choice",
+          "t": "Das ist ___ Hähnchen.",
+          "options": [
+            "ein",
+            "eine",
+            "einen"
+          ],
+          "answer": 0,
+          "s": "This is a chicken."
+        },
+        {
+          "type": "choice",
+          "t": "Das Fenster ist groß. ___ ist im Wohnzimmer.",
+          "options": [
+            "Er",
+            "Sie",
+            "Es"
+          ],
+          "answer": 2,
+          "s": "The window is big. It's in the living room."
+        },
+        {
+          "type": "type",
+          "t": "___ Schule ist links.",
+          "answer": [
+            "Die"
+          ],
+          "s": "The school is on the left."
+        },
+        {
+          "type": "type",
+          "t": "Hier ist ___ Bad.",
+          "answer": [
+            "das"
+          ],
+          "s": "Here is the bathroom."
+        },
+        {
+          "type": "type",
+          "t": "Das ist ___ Tasche.",
+          "answer": [
+            "eine"
+          ],
+          "s": "This is a bag."
+        },
+        {
+          "type": "type",
+          "t": "Der Mantel ist schwarz. ___ ist teuer.",
+          "answer": [
+            "Er",
+            "Der"
+          ],
+          "s": "The coat is black. It's expensive."
+        },
+        {
+          "type": "order",
+          "t": "Der Stuhl ist in der Küche.",
+          "s": "The chair is in the kitchen.",
+          "alts": [
+            "In der Küche ist der Stuhl."
+          ]
+        },
+        {
+          "type": "order",
+          "t": "Wie groß ist die Küche?",
+          "s": "How big is the kitchen?"
+        },
+        {
+          "type": "order",
+          "t": "Mein Bruder hat ein Auto.",
+          "s": "My brother has a car.",
+          "alts": [
+            "Ein Auto hat mein Bruder."
+          ]
+        }
+      ],
+      "thead": true
+    },
+    {
+      "id": "g02",
+      "title": {
+        "t": "ein Tisch, zwei Tische",
+        "s": "Plural forms"
+      },
+      "explain": "German nouns have several plural endings, not just one. The good news: in the plural the article is always **die**, for der-, die- and das-nouns: **der Tisch → die Tische**, **die Lampe → die Lampen**, **das Kind → die Kinder**. **ein** has no plural: ein Apfel, but just **Äpfel**.\nThere are five main patterns. **-e**, often with an umlaut: der Tisch → Tische, der Stuhl → Stühle. **-n** or **-en**: die Lampe → Lampen, die Frau → Frauen, das Bett → Betten. **-er**, with an umlaut on a, o, u, au: das Kind → Kinder, der Mann → Männer, das Haus → Häuser. **-s**, mostly for words from other languages and words ending in -a, -i, -o, -y: das Sofa → Sofas, das Auto → Autos, das Baby → Babys. **No ending**, sometimes with an umlaut, mostly for der- and das-nouns ending in -er, -el, -en and for -chen: das Zimmer → Zimmer, der Apfel → Äpfel, der Vater → Väter.\nSome tendencies help: most die-nouns take **-n** or **-en**, and nouns ending in **-e** or **-ung** almost always do. Many der-nouns take **-e**. But there are exceptions, like **die Mutter → die Mütter** and **die Tochter → die Töchter**, so learn every noun with its plural: **der Stuhl, die Stühle**.\nCareful: In Persian you use the singular after a number (*se ketāb*), but in German you need the plural: **drei Kinder**, **zwei Zimmer**. A few words for money and measures stay singular: **zwanzig Euro**, **zwanzig Grad**. And the verb is plural too: Die Kinder **sind** hier.",
+      "table": [
+        [
+          "Endung",
+          "Singular",
+          "Plural"
+        ],
+        [
+          "-e",
+          "der Tisch",
+          "die Tische"
+        ],
+        [
+          "Umlaut + -e",
+          "der Stuhl",
+          "die Stühle"
+        ],
+        [
+          "-n, -en",
+          "die Lampe",
+          "die Lampen"
+        ],
+        [
+          "-er",
+          "das Kind",
+          "die Kinder"
+        ],
+        [
+          "Umlaut + -er",
+          "das Haus",
+          "die Häuser"
+        ],
+        [
+          "-s",
+          "das Sofa",
+          "die Sofas"
+        ],
+        [
+          "keine Endung",
+          "das Zimmer",
+          "die Zimmer"
+        ],
+        [
+          "nur Umlaut",
+          "der Vater",
+          "die Väter"
+        ]
+      ],
+      "examples": [
+        {
+          "t": "Die Stühle sind in der Küche.",
+          "s": "The chairs are in the kitchen."
+        },
+        {
+          "t": "Das Haus hat zwei Bäder.",
+          "s": "The house has two bathrooms."
+        },
+        {
+          "t": "Ich kaufe vier Bananen und sechs Eier.",
+          "s": "I'm buying four bananas and six eggs."
+        },
+        {
+          "t": "Die Kinder spielen im Park.",
+          "s": "The children are playing in the park."
+        },
+        {
+          "t": "Im Supermarkt gibt es keine Tomaten.",
+          "s": "There are no tomatoes at the supermarket."
+        },
+        {
+          "t": "Die Babys schlafen.",
+          "s": "The babies are sleeping."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "choice",
+          "t": "Ich habe zwei ___.",
+          "options": [
+            "Bruder",
+            "Brüder",
+            "Bruders"
+          ],
+          "answer": 1,
+          "s": "I have two brothers."
+        },
+        {
+          "type": "choice",
+          "t": "___ Lampen sind neu.",
+          "options": [
+            "Der",
+            "Die",
+            "Das"
+          ],
+          "answer": 1,
+          "s": "The lamps are new."
+        },
+        {
+          "type": "choice",
+          "t": "Die Kinder ___ im Park.",
+          "options": [
+            "ist",
+            "sind",
+            "bist"
+          ],
+          "answer": 1,
+          "s": "The children are in the park."
+        },
+        {
+          "type": "choice",
+          "t": "Mina hat zwei ___.",
+          "options": [
+            "Hobby",
+            "Hobbys",
+            "Hobbies"
+          ],
+          "answer": 1,
+          "s": "Mina has two hobbies."
+        },
+        {
+          "type": "type",
+          "t": "Das Haus hat drei ___.",
+          "answer": [
+            "Zimmer"
+          ],
+          "s": "The house has three rooms.",
+          "hint": "das Zimmer"
+        },
+        {
+          "type": "type",
+          "t": "Ich kaufe vier ___.",
+          "answer": [
+            "Äpfel",
+            "Aepfel"
+          ],
+          "s": "I'm buying four apples.",
+          "hint": "der Apfel"
+        },
+        {
+          "type": "type",
+          "t": "Wo sind die ___?",
+          "answer": [
+            "Taschen"
+          ],
+          "s": "Where are the bags?",
+          "hint": "die Tasche"
+        },
+        {
+          "type": "type",
+          "t": "Reza hat zwei ___.",
+          "answer": [
+            "Töchter",
+            "Toechter"
+          ],
+          "s": "Reza has two daughters.",
+          "hint": "die Tochter"
+        },
+        {
+          "type": "type",
+          "t": "Im Schrank sind fünf ___.",
+          "answer": [
+            "Kleider"
+          ],
+          "s": "There are five dresses in the closet.",
+          "hint": "das Kleid"
+        },
+        {
+          "type": "order",
+          "t": "Die Schuhe sind sehr teuer.",
+          "s": "The shoes are very expensive.",
+          "alts": [
+            "Sehr teuer sind die Schuhe."
+          ]
+        },
+        {
+          "type": "order",
+          "t": "Wo sind die Stühle?",
+          "s": "Where are the chairs?"
+        },
+        {
+          "type": "order",
+          "t": "Meine Eltern haben zwei Autos.",
+          "s": "My parents have two cars.",
+          "alts": [
+            "Zwei Autos haben meine Eltern."
+          ]
+        }
+      ],
+      "thead": true
+    },
+    {
+      "id": "g03",
+      "title": {
+        "t": "Ich brauche einen Stuhl.",
+        "s": "The accusative"
+      },
+      "explain": "In a sentence, the **subject** does the action, and the **object** is the person or thing the action goes to. In **Der Mann kauft einen Tisch**, the man is the subject (nominative) and the table is the object. The object of most verbs is in the **accusative**.\nOnly der-nouns change in the accusative: **der → den**, **ein → einen**, **kein → keinen**, **mein → meinen**. Die-nouns, das-nouns and plurals look the same as in the nominative: **die Lampe**, **das Bett**, **die Schuhe**. So: Ich habe **einen** Bruder, **eine** Schwester und **ein** Kind.\nMany everyday verbs take the accusative: **haben**, **brauchen** (*to need*), **kaufen**, **nehmen**, **sehen**, **möchten**, **suchen**, **essen**, **trinken** – and **es gibt** (*there is*, *there are*): Es gibt **einen** Park. Because the article shows the case, the object can even come first: **Den Mantel** kaufe ich. The verb stays in position two.\nCareful: **sein** never takes the accusative. After **ist** and **sind**, use the nominative: Das ist **ein** Tisch, not *einen* Tisch. Persian marks a definite object with *rā*, and English shows the object only in pronouns like *him*. In German, look at the article: when a der-noun is the object, you need **den**, **einen**, **keinen** or **meinen**.",
+      "table": [
+        [
+          "Nominativ",
+          "Akkusativ"
+        ],
+        [
+          "der Tisch",
+          "den Tisch"
+        ],
+        [
+          "ein Tisch",
+          "einen Tisch"
+        ],
+        [
+          "kein Tisch",
+          "keinen Tisch"
+        ],
+        [
+          "mein Tisch",
+          "meinen Tisch"
+        ],
+        [
+          "die Lampe, eine Lampe",
+          "die Lampe, eine Lampe"
+        ],
+        [
+          "das Bett, ein Bett",
+          "das Bett, ein Bett"
+        ],
+        [
+          "die Schuhe, keine Schuhe",
+          "die Schuhe, keine Schuhe"
+        ]
+      ],
+      "examples": [
+        {
+          "t": "Ich brauche einen Stuhl.",
+          "s": "I need a chair."
+        },
+        {
+          "t": "Lukas sucht den Bahnhof.",
+          "s": "Lukas is looking for the train station."
+        },
+        {
+          "t": "Wir nehmen das Hähnchen und den Salat.",
+          "s": "We'll have the chicken and the salad."
+        },
+        {
+          "t": "Siehst du den Bus?",
+          "s": "Do you see the bus?"
+        },
+        {
+          "t": "In der Stadt gibt es einen Supermarkt.",
+          "s": "There's a supermarket in the city."
+        },
+        {
+          "t": "Reza hat keinen Fernseher.",
+          "s": "Reza doesn't have a TV."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "choice",
+          "t": "Ich brauche ___ Tisch.",
+          "options": [
+            "ein",
+            "eine",
+            "einen"
+          ],
+          "answer": 2,
+          "s": "I need a table."
+        },
+        {
+          "type": "choice",
+          "t": "Siehst du ___ Bus?",
+          "options": [
+            "der",
+            "den",
+            "das"
+          ],
+          "answer": 1,
+          "s": "Do you see the bus?"
+        },
+        {
+          "type": "choice",
+          "t": "Wir kaufen ___ Lampe.",
+          "options": [
+            "die",
+            "den",
+            "der"
+          ],
+          "answer": 0,
+          "s": "We're buying the lamp."
+        },
+        {
+          "type": "choice",
+          "t": "Das ist ___ Mantel.",
+          "options": [
+            "ein",
+            "einen",
+            "eine"
+          ],
+          "answer": 0,
+          "s": "That's a coat."
+        },
+        {
+          "type": "choice",
+          "t": "Gibt es hier ___ Supermarkt?",
+          "options": [
+            "ein",
+            "einen",
+            "eine"
+          ],
+          "answer": 1,
+          "s": "Is there a supermarket here?"
+        },
+        {
+          "type": "type",
+          "t": "Ich nehme ___ Salat.",
+          "answer": [
+            "den"
+          ],
+          "s": "I'll have the salad.",
+          "hint": "der Salat"
+        },
+        {
+          "type": "type",
+          "t": "Hast du ___ Bruder?",
+          "answer": [
+            "einen"
+          ],
+          "s": "Do you have a brother?",
+          "hint": "der Bruder"
+        },
+        {
+          "type": "type",
+          "t": "Maryam trinkt ___ Kaffee.",
+          "answer": [
+            "keinen"
+          ],
+          "s": "Maryam doesn't drink coffee.",
+          "hint": "der Kaffee"
+        },
+        {
+          "type": "type",
+          "t": "In der Stadt gibt es ___ Krankenhaus.",
+          "answer": [
+            "ein"
+          ],
+          "s": "There's a hospital in the city.",
+          "hint": "das Krankenhaus"
+        },
+        {
+          "type": "order",
+          "t": "Wir brauchen einen Tisch.",
+          "s": "We need a table.",
+          "alts": [
+            "Einen Tisch brauchen wir."
+          ]
+        },
+        {
+          "type": "order",
+          "t": "Lena sucht den Bahnhof.",
+          "s": "Lena is looking for the train station.",
+          "alts": [
+            "Den Bahnhof sucht Lena."
+          ]
+        },
+        {
+          "type": "order",
+          "t": "Möchtest du einen Apfel?",
+          "s": "Would you like an apple?"
+        }
+      ],
+      "thead": true
+    },
+    {
+      "id": "g04",
+      "title": {
+        "t": "nicht oder kein?",
+        "s": "Negation: nicht or kein"
+      },
+      "explain": "German has two main words for *not*. **kein** means *no*, *not a* or *not any* and goes in front of a noun. **nicht** means *not* and negates everything else: a verb, an adjective, a place, a name, or a noun with **der**, **die**, **das** or **mein**.\nUse **kein** when the positive sentence has **ein** or no article: Ich habe ein Auto → Ich habe **kein** Auto. Ich habe Zeit → Ich habe **keine** Zeit. **kein** has the same endings as **ein**, and in the plural it is **keine**: Wir haben **keine** Eier. In the accusative, der-nouns take **keinen**: Ich trinke **keinen** Kaffee.\nUse **nicht** in all other cases: Ich komme **nicht**. Das ist **nicht** teuer. Das ist **nicht** mein Bruder. Ali wohnt **nicht** in Berlin.\nWhere does nicht go? In a simple sentence it often goes to the end, after the object: Ich schlafe **nicht**. Ich nehme den Mantel **nicht**. But it comes before an adjective (**nicht** kalt), before a place (**nicht** in Berlin) and before the second part of the verb: Ich kann **nicht** schwimmen. Ich stehe **nicht** auf.\nCareful: Don't say *nicht ein*: it is Ich habe **kein** Auto. Persian puts the negation on the verb (*nadāram*), so Persian speakers often put nicht right before the verb. In German the verb stays in position two and nicht comes later: Ich **arbeite** heute **nicht**.",
+      "table": [
+        [
+          "positiv",
+          "negativ"
+        ],
+        [
+          "Das ist ein Tisch.",
+          "Das ist kein Tisch."
+        ],
+        [
+          "Ich habe Zeit.",
+          "Ich habe keine Zeit."
+        ],
+        [
+          "Ich trinke einen Kaffee.",
+          "Ich trinke keinen Kaffee."
+        ],
+        [
+          "Ich komme.",
+          "Ich komme nicht."
+        ],
+        [
+          "Das ist teuer.",
+          "Das ist nicht teuer."
+        ],
+        [
+          "Das ist mein Bruder.",
+          "Das ist nicht mein Bruder."
+        ],
+        [
+          "Ich nehme den Schal.",
+          "Ich nehme den Schal nicht."
+        ]
+      ],
+      "examples": [
+        {
+          "t": "Ich habe heute keine Zeit.",
+          "s": "I don't have time today."
+        },
+        {
+          "t": "Das Wetter ist nicht schön.",
+          "s": "The weather isn't nice."
+        },
+        {
+          "t": "Im Zimmer gibt es kein Fenster.",
+          "s": "There's no window in the room."
+        },
+        {
+          "t": "Lukas kommt heute nicht.",
+          "s": "Lukas isn't coming today."
+        },
+        {
+          "t": "Das ist nicht mein Schal.",
+          "s": "That's not my scarf."
+        },
+        {
+          "t": "Mina kann nicht schwimmen.",
+          "s": "Mina can't swim."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "choice",
+          "t": "Das ist ___ Apfel, das ist eine Tomate.",
+          "options": [
+            "nicht",
+            "kein",
+            "keine"
+          ],
+          "answer": 1,
+          "s": "That's not an apple, it's a tomato."
+        },
+        {
+          "type": "choice",
+          "t": "Die Wohnung ist ___ groß.",
+          "options": [
+            "nicht",
+            "kein",
+            "keine"
+          ],
+          "answer": 0,
+          "s": "The apartment isn't big."
+        },
+        {
+          "type": "choice",
+          "t": "Wir haben ___ Milch.",
+          "options": [
+            "nicht",
+            "kein",
+            "keine"
+          ],
+          "answer": 2,
+          "s": "We don't have any milk."
+        },
+        {
+          "type": "choice",
+          "t": "Ich habe ___ Bruder.",
+          "options": [
+            "kein",
+            "keinen",
+            "keine"
+          ],
+          "answer": 1,
+          "s": "I don't have a brother."
+        },
+        {
+          "type": "choice",
+          "t": "Sara wohnt ___ in Köln.",
+          "options": [
+            "nicht",
+            "kein",
+            "keine"
+          ],
+          "answer": 0,
+          "s": "Sara doesn't live in Cologne."
+        },
+        {
+          "type": "type",
+          "t": "Ich habe ___ Auto.",
+          "answer": [
+            "kein"
+          ],
+          "s": "I don't have a car.",
+          "hint": "nicht oder kein"
+        },
+        {
+          "type": "type",
+          "t": "Der Kaffee ist ___ heiß.",
+          "answer": [
+            "nicht"
+          ],
+          "s": "The coffee isn't hot.",
+          "hint": "nicht oder kein"
+        },
+        {
+          "type": "type",
+          "t": "Am Abend sehe ich ___ fern.",
+          "answer": [
+            "nicht"
+          ],
+          "s": "I don't watch TV in the evening.",
+          "hint": "nicht oder kein"
+        },
+        {
+          "type": "type",
+          "t": "Es gibt hier ___ Supermarkt.",
+          "answer": [
+            "keinen"
+          ],
+          "s": "There's no supermarket here.",
+          "hint": "nicht oder kein"
+        },
+        {
+          "type": "order",
+          "t": "Ich nehme den Mantel nicht.",
+          "s": "I'm not taking the coat.",
+          "alts": [
+            "Den Mantel nehme ich nicht."
+          ]
+        },
+        {
+          "type": "order",
+          "t": "Hast du keine Geschwister?",
+          "s": "Don't you have any siblings?"
+        },
+        {
+          "type": "order",
+          "t": "Ist das nicht dein Schal?",
+          "s": "Isn't that your scarf?"
+        }
+      ],
+      "thead": true
+    },
+    {
+      "id": "g05",
+      "title": {
+        "t": "mein, dein, sein, ihr …",
+        "s": "Possessive articles"
+      },
+      "explain": "Possessive articles say whose something is: **mein** (*my*), **dein** (*your*, informal), **sein** (*his*), **ihr** (*her*), **unser** (*our*), **euer** (*your*, plural), **ihr** (*their*) and **Ihr** (*your*, polite, with a capital I). For things, the owner's gender counts: der Tisch or das Haus → **sein**, die Stadt → **ihr**.\nTwo questions decide the form. First: who is the owner? That gives you the word: Ali → **sein**, Sara → **ihr**. Second: which noun comes after it? That gives you the ending, exactly like **ein**: **mein** Bruder (der), **meine** Schwester (die), **mein** Kind (das), **meine** Eltern (plural). In the accusative only der-nouns change: Ich rufe **meinen** Bruder an.\n**euer** loses its second e when it gets an ending: **eure** Wohnung, **euren** Tisch. **unser** keeps it: **unsere** Wohnung, **unseren** Tisch. As a possessive, **ihr** has three meanings: *her*, *their* and, with a capital I, polite *your*: Sara und **ihr** Bruder, die Kinder und **ihre** Mutter, Wie ist **Ihr** Name?\nCareful: The ending depends on the noun, not on the owner. *Ali and his mother* is **Ali und seine Mutter** (seine because of die Mutter), and *Sara and her brother* is **Sara und ihr Bruder**. In Persian, *-ash* means both *his* and *her*, so always check the owner: a man → **sein**, a woman → **ihr**.",
+      "table": [
+        [
+          "",
+          "der Bruder",
+          "die Schwester",
+          "das Kind",
+          "die Eltern",
+          "den Bruder"
+        ],
+        [
+          "ich",
+          "mein",
+          "meine",
+          "mein",
+          "meine",
+          "meinen"
+        ],
+        [
+          "du",
+          "dein",
+          "deine",
+          "dein",
+          "deine",
+          "deinen"
+        ],
+        [
+          "er, es",
+          "sein",
+          "seine",
+          "sein",
+          "seine",
+          "seinen"
+        ],
+        [
+          "sie",
+          "ihr",
+          "ihre",
+          "ihr",
+          "ihre",
+          "ihren"
+        ],
+        [
+          "wir",
+          "unser",
+          "unsere",
+          "unser",
+          "unsere",
+          "unseren"
+        ],
+        [
+          "ihr",
+          "euer",
+          "eure",
+          "euer",
+          "eure",
+          "euren"
+        ],
+        [
+          "sie, Plural",
+          "ihr",
+          "ihre",
+          "ihr",
+          "ihre",
+          "ihren"
+        ],
+        [
+          "Sie",
+          "Ihr",
+          "Ihre",
+          "Ihr",
+          "Ihre",
+          "Ihren"
+        ]
+      ],
+      "examples": [
+        {
+          "t": "Das ist mein Vater und das ist meine Mutter.",
+          "s": "This is my father and this is my mother."
+        },
+        {
+          "t": "Ali und seine Schwester wohnen in Hamburg.",
+          "s": "Ali and his sister live in Hamburg."
+        },
+        {
+          "t": "Sara sucht ihren Schal.",
+          "s": "Sara is looking for her scarf."
+        },
+        {
+          "t": "Unsere Wohnung ist klein, aber schön.",
+          "s": "Our apartment is small but nice."
+        },
+        {
+          "t": "Wie ist Ihr Name, bitte?",
+          "s": "What is your name, please?"
+        },
+        {
+          "t": "Kinder, wo sind eure Schuhe?",
+          "s": "Kids, where are your shoes?"
+        }
+      ],
+      "exercises": [
+        {
+          "type": "choice",
+          "t": "Das ist ___ Schwester.",
+          "options": [
+            "mein",
+            "meine",
+            "meinen"
+          ],
+          "answer": 1,
+          "s": "This is my sister."
+        },
+        {
+          "type": "choice",
+          "t": "Reza und ___ Tochter kochen.",
+          "options": [
+            "seine",
+            "ihre",
+            "sein"
+          ],
+          "answer": 0,
+          "s": "Reza and his daughter are cooking."
+        },
+        {
+          "type": "choice",
+          "t": "Sara sucht ___ Mantel.",
+          "options": [
+            "ihr",
+            "ihren",
+            "seinen"
+          ],
+          "answer": 1,
+          "s": "Sara is looking for her coat."
+        },
+        {
+          "type": "choice",
+          "t": "Wo ist ___ Auto, Herr Wagner?",
+          "options": [
+            "Ihr",
+            "Ihre",
+            "Ihren"
+          ],
+          "answer": 0,
+          "s": "Where is your car, Mr. Wagner?"
+        },
+        {
+          "type": "choice",
+          "t": "Kinder, ist das ___ Ball?",
+          "options": [
+            "euer",
+            "eure",
+            "euren"
+          ],
+          "answer": 0,
+          "s": "Kids, is this your ball?"
+        },
+        {
+          "type": "type",
+          "t": "Maryam ruft ___ Bruder an.",
+          "answer": [
+            "ihren"
+          ],
+          "s": "Maryam calls her brother.",
+          "hint": "ihr"
+        },
+        {
+          "type": "type",
+          "t": "Lukas, wo ist ___ Tasche?",
+          "answer": [
+            "deine"
+          ],
+          "s": "Lukas, where is your bag?",
+          "hint": "dein"
+        },
+        {
+          "type": "type",
+          "t": "Amir sucht ___ Schuhe.",
+          "answer": [
+            "seine"
+          ],
+          "s": "Amir is looking for his shoes.",
+          "hint": "sein"
+        },
+        {
+          "type": "type",
+          "t": "Das ist ___ Wohnung.",
+          "answer": [
+            "unsere",
+            "unsre"
+          ],
+          "s": "This is our apartment.",
+          "hint": "unser"
+        },
+        {
+          "type": "order",
+          "t": "Wie heißt Ihre Tochter?",
+          "s": "What is your daughter's name?"
+        },
+        {
+          "type": "order",
+          "t": "Ich rufe meine Mutter an.",
+          "s": "I'm calling my mother.",
+          "alts": [
+            "Meine Mutter rufe ich an."
+          ]
+        },
+        {
+          "type": "order",
+          "t": "Mina mag ihren Mantel nicht.",
+          "s": "Mina doesn't like her coat.",
+          "alts": [
+            "Ihren Mantel mag Mina nicht."
+          ]
+        }
+      ],
+      "thead": true
+    },
+    {
+      "id": "g06",
+      "title": {
+        "t": "mich, dich, ihn …",
+        "s": "Personal pronouns in the accusative"
+      },
+      "explain": "Personal pronouns stand for a person or a thing. When the pronoun is the object of the verb, it is in the **accusative**: **Ich** sehe Ali. Ali sieht **mich**.\nThe forms are: ich → **mich**, du → **dich**, er → **ihn**, sie → **sie**, es → **es**, wir → **uns**, ihr → **euch**, sie → **sie**, Sie → **Sie**. In the third person only **er** changes, just like **der → den**. For things, choose the pronoun by the gender of the noun: Der Mantel ist schön. Ich nehme **ihn**. Die Tasche? Ich kaufe **sie**. Das Kleid? Ich nehme **es**. Die Schuhe? Ich nehme **sie**. In everyday speech you also hear **den**, **die**, **das** for things: Der Mantel? **Den** nehme ich.\nUse these forms after verbs that take the accusative, for example **sehen**, **anrufen**, **brauchen**, **suchen**, **mögen**, **hören**, **kaufen** and **nehmen**. An object pronoun usually comes early in the sentence, before time words and before **nicht**: Ich rufe **dich** heute an. Ich sehe **ihn** nicht.\nCareful: English *it* can be **ihn**, **sie** or **es**, so check the gender: Ich nehme **ihn** (der Mantel), not *es*. In Persian, *u rā* means both *him* and *her*; in German it is **ihn** for a man and **sie** for a woman. And don't mix up **mich** and **dich** with **mir** and **dir**: Wie geht es **dir**? uses another case, the dative, which comes in A2.",
+      "table": [
+        [
+          "Nominativ",
+          "Akkusativ",
+          "Beispiel"
+        ],
+        [
+          "ich",
+          "mich",
+          "Ali sieht mich."
+        ],
+        [
+          "du",
+          "dich",
+          "Ich rufe dich an."
+        ],
+        [
+          "er",
+          "ihn",
+          "Ich mag ihn."
+        ],
+        [
+          "sie",
+          "sie",
+          "Ich sehe sie."
+        ],
+        [
+          "es",
+          "es",
+          "Ich nehme es."
+        ],
+        [
+          "wir",
+          "uns",
+          "Sie sucht uns."
+        ],
+        [
+          "ihr",
+          "euch",
+          "Wir hören euch."
+        ],
+        [
+          "sie, Plural",
+          "sie",
+          "Ich brauche sie."
+        ],
+        [
+          "Sie",
+          "Sie",
+          "Wir sehen Sie."
+        ]
+      ],
+      "examples": [
+        {
+          "t": "Ich rufe dich heute Abend an.",
+          "s": "I'll call you tonight."
+        },
+        {
+          "t": "Der Schal ist schön. Ich kaufe ihn.",
+          "s": "The scarf is nice. I'll buy it."
+        },
+        {
+          "t": "Wo ist Mina? Ich sehe sie nicht.",
+          "s": "Where is Mina? I don't see her."
+        },
+        {
+          "t": "Oma ruft uns jeden Tag an.",
+          "s": "Grandma calls us every day."
+        },
+        {
+          "t": "Herr Wagner, wir hören Sie nicht.",
+          "s": "Mr. Wagner, we can't hear you."
+        },
+        {
+          "t": "Magst du das Buch? – Ja, ich mag es.",
+          "s": "Do you like the book? – Yes, I like it."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "choice",
+          "t": "Ali, ich sehe ___ nicht.",
+          "options": [
+            "du",
+            "dich",
+            "dir"
+          ],
+          "answer": 1,
+          "s": "Ali, I don't see you."
+        },
+        {
+          "type": "choice",
+          "t": "Der Mantel ist toll. Ich nehme ___.",
+          "options": [
+            "er",
+            "ihn",
+            "es"
+          ],
+          "answer": 1,
+          "s": "The coat is great. I'll take it."
+        },
+        {
+          "type": "choice",
+          "t": "Die Lampe ist schön. Ich kaufe ___.",
+          "options": [
+            "sie",
+            "ihn",
+            "es"
+          ],
+          "answer": 0,
+          "s": "The lamp is nice. I'll buy it."
+        },
+        {
+          "type": "choice",
+          "t": "Kannst du ___ anrufen?",
+          "options": [
+            "ich",
+            "mich",
+            "mir"
+          ],
+          "answer": 1,
+          "s": "Can you call me?"
+        },
+        {
+          "type": "choice",
+          "t": "Wo seid ihr? Wir sehen ___ nicht.",
+          "options": [
+            "ihr",
+            "euch",
+            "uns"
+          ],
+          "answer": 1,
+          "s": "Where are you? We can't see you."
+        },
+        {
+          "type": "type",
+          "t": "Das ist mein Bruder. Ich rufe ___ jeden Tag an.",
+          "answer": [
+            "ihn"
+          ],
+          "s": "This is my brother. I call him every day.",
+          "hint": "er"
+        },
+        {
+          "type": "type",
+          "t": "Das Kleid ist zu teuer. Ich nehme ___ nicht.",
+          "answer": [
+            "es",
+            "das"
+          ],
+          "s": "The dress is too expensive. I won't take it.",
+          "hint": "das Kleid"
+        },
+        {
+          "type": "type",
+          "t": "Sara ruft ___ heute an.",
+          "answer": [
+            "uns"
+          ],
+          "s": "Sara is calling us today.",
+          "hint": "wir"
+        },
+        {
+          "type": "type",
+          "t": "Wo sind die Schuhe? Ich brauche ___.",
+          "answer": [
+            "sie",
+            "die"
+          ],
+          "s": "Where are the shoes? I need them.",
+          "hint": "die Schuhe"
+        },
+        {
+          "type": "order",
+          "t": "Ich mag dich.",
+          "s": "I like you.",
+          "alts": [
+            "Dich mag ich."
+          ]
+        },
+        {
+          "type": "order",
+          "t": "Siehst du ihn?",
+          "s": "Do you see him?"
+        },
+        {
+          "type": "order",
+          "t": "Rufst du mich heute an?",
+          "s": "Will you call me today?"
+        }
+      ],
+      "thead": true
+    }
+  ]
+}

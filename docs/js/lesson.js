@@ -3,9 +3,17 @@ import { h, T, PR, tdir, pic, play, stop, sayBtn, shuffle, sample, md, normalize
 import { t, num, getLang } from "./i18n.js";
 import { srsSeen, srsAnswer } from "./store.js";
 
+export function lessonLabel(un, l, t) {
+  // name and short description of a lesson; grammar-unit lessons are named after their topic
+  const m = /^g(\d+)$/.exec(l);
+  if (m) { const i = +m[1] - 1; const g = un.grammar?.[i]; return [g?.title.t || un.gt?.[i] || t("L_grammar"), g?.title.s || t("D_grammar")]; }
+  return [t("L_" + l), t("D_" + l)];
+}
 export const LESSON_ICONS = { letters: "🔤", sounds: "👄", words: "🖼️", phrases: "💬", grammar: "🧩", reading: "📖", test: "👑", review: "🔁" };
 
 export function lessonsFor(unit) {
+  // grammar units: one lesson per grammar topic (g1, g2 …) and a unit test
+  if (unit.kind === "grammar") return [...(unit.grammar || []).map((g, i) => "g" + (i + 1)), "test"];
   const L = [];
   if (unit.letters?.length) L.push("letters");
   if (unit.sounds?.length) L.push("sounds");
@@ -57,8 +65,8 @@ function mixed(options, answer) {
   return { options: order.map(k => ({ t: options[k] })), answer: order.indexOf(answer) };
 }
 function grammarEx(x) {
-  if (x.type === "choice") return { type: "mc", label: t("q_fill"), prompt: { gap: x.t, s: x.s }, ...mixed(x.options, x.answer), a: x.a, reveal: x.full, revealPr: x.pr };
-  if (x.type === "type") return { type: "type", label: t("q_fill"), prompt: { gap: x.t, s: x.s }, answers: x.answer.map(ans => x.t.replace("___", ans)).concat(x.answer), reveal: x.full, revealPr: x.pr, a: x.a, gapMode: true };
+  if (x.type === "choice") return { type: "mc", label: t("q_fill"), prompt: { gap: x.t, s: x.s, hint: x.hint }, ...mixed(x.options, x.answer), a: x.a, reveal: x.full, revealPr: x.pr };
+  if (x.type === "type") return { type: "type", label: t("q_fill"), prompt: { gap: x.t, s: x.s, hint: x.hint }, answers: x.answer.map(ans => x.t.replace("___", ans)).concat(x.answer), reveal: x.full, revealPr: x.pr, a: x.a, gapMode: true };
   return { type: "order", t: x.t, alts: x.alts, s: x.s, a: x.a, revealPr: x.pr, label: t("q_order") };
 }
 const short = s => s.t.split(/\s+/).length <= 8;
@@ -112,6 +120,12 @@ export function buildLesson(course, unit, lid, target) {
       for (const l of sample(lines.filter(short), 2)) S.push(orderStep(l));
     }
     for (const p of sample(P.filter(short), 1)) S.push(orderStep(p));
+  } else if (/^g\d+$/.test(lid)) {
+    const g = (unit.grammar || [])[+lid.slice(1) - 1];
+    if (g) { S.push({ type: "grammar", g }); for (const x of g.exercises || []) S.push(grammarEx(x)); }
+  } else if (lid === "test" && unit.kind === "grammar") {
+    // two exercises from every topic, mixed
+    S.push(...shuffle((unit.grammar || []).flatMap(g => sample(g.exercises || [], 2).map(grammarEx))));
   } else if (lid === "grammar") {
     for (const g of unit.grammar || []) {
       S.push({ type: "grammar", g });
@@ -234,7 +248,8 @@ export function runLesson(root, steps, { target, onExit, onDone, title }) {
     }
     if (p.gap) {
       const [a, b] = p.gap.split("___");
-      parts.push(h("div", { class: "q-big", style: { fontSize: "1.45rem" } }, T(h("span", {}, a, h("span", { style: { borderBottom: "3px solid var(--accent)", padding: "0 18px" } }, " "), b))));
+      parts.push(h("div", { class: "q-big", style: { fontSize: "1.45rem" } }, T(h("span", {}, a, h("span", { style: { borderBottom: "3px solid var(--accent)", padding: "0 18px" } }, " "),
+        p.hint ? h("span", { class: "gaphint" }, " (" + p.hint + ")") : null, b))));
     }
     if (p.s) parts.push(h("div", { class: "center muted", style: { fontSize: "1.1rem" } }, p.s));
     if (p.readingRef) {
@@ -321,7 +336,7 @@ export function runLesson(root, steps, { target, onExit, onDone, title }) {
         h("h2", { style: { margin: 0 } }, "🧩 ", T(g.title.t)),
         h("div", { class: "muted" }, g.title.s),
         h("div", { class: "explain", html: md(g.explain) }),
-        g.table ? h("table", { class: "gtable", dir: tdir() }, g.table.map(r => h("tr", {}, r.map(c => h("td", {}, T(c)))))) : null,
+        g.table ? h("table", { class: "gtable", dir: tdir() }, g.table.map((r, i) => h("tr", {}, r.map(c => h(i === 0 && g.thead ? "th" : "td", {}, T(c)))))) : null,
         h("div", { class: "list" }, (g.examples || []).map(e => h("div", { class: "example" }, sayBtn(e.a, { small: true }), h("div", { class: "tx" }, h("div", {}, T(e.t)), PR(e.pr), h("div", { class: "tr" }, e.s)))))));
       continueBar(t("gotIt"));
     },
