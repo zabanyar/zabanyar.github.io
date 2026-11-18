@@ -1,7 +1,7 @@
 // Builds lessons from unit data and runs the interactive lesson player.
 import { h, T, PR, tdir, pic, play, stop, sayBtn, shuffle, sample, md, normalize } from "./ui.js";
 import { t, num, getLang } from "./i18n.js";
-import { srsSeen, srsAnswer } from "./store.js";
+import { srsSeen, srsAnswer, report } from "./store.js";
 
 export function lessonLabel(un, l, t) {
   // name and short description of a lesson; grammar-unit lessons are named after their topic
@@ -37,25 +37,47 @@ function others(list, item, n, keyFn = x => x.t) {
   for (const x of shuffle(list)) { const kk = keyFn(x); if (!seen.has(kk)) { seen.add(kk); uniq.push(x); } if (uniq.length >= n) break; }
   return uniq;
 }
+const picKey = x => x.img || x.emoji || "";
+function picPool(pool, item) {
+  // items that can stand as a picture option next to `item`: they have a picture, and not the same picture as `item`
+  const k = picKey(item);
+  return pool.filter(x => x !== item && x.t !== item.t && picKey(x) && picKey(x) !== k);
+}
 function mcFrom(item, pool, kind, srsId) {
-  // kind: pic (see word, choose picture) | word (see picture, choose word) | meaning (target → support) | reverse (support → target) | listen (hear → choose word)
-  const dis = others(pool, item, kind === "pic" ? 3 : 3, kind === "meaning" ? (x => x.s) : (x => x.t));
+  // kind: pic (hear/see word, choose picture) | word (see picture, choose word) | meaning (target → support) |
+  //       reverse (support → target) | listen (hear → choose word or picture) | listenMeaning (hear a sentence → choose what was said)
+  // A picture question needs three other pictures; otherwise it becomes a text question (never blank or mixed options).
+  if (kind === "pic" && (!picKey(item) || new Set(picPool(pool, item).map(picKey)).size < 3)) kind = "meaning";
+  if (kind === "word" && !picKey(item)) kind = "meaning";
+  // a word spelled the same in both languages (warm, das Baby) would give its own answer away: ask by ear instead
+  const bare = x => String(x || "").replace(/^(der|die|das|the|a|an|to)\s+/i, "").replace(/\s*\(.*\)$/, "").trim().toLowerCase();
+  if ((kind === "meaning" || kind === "reverse") && item.a && bare(item.t) === bare(item.s)) kind = "listen";
+  const pics = kind === "pic" || (kind === "listen" && !!picKey(item) && new Set(picPool(pool, item).map(picKey)).size >= 3);
+  const dis = pics ? others(picPool(pool, item), item, 3, picKey)
+    : kind === "word" ? others(pool.filter(x => x.t !== item.t && picKey(x) !== picKey(item)), item, 3, x => x.t)
+    : others(pool.filter(x => x.t !== item.t && x.s !== item.s), item, 3, kind === "meaning" ? (x => x.s) : (x => x.t));
   const opts = shuffle([item, ...dis]);
   const answer = opts.indexOf(item);
   const step = { type: "mc", answer, srs: srsId, a: item.a, reveal: item.t, revealPr: item.pr };
   if (kind === "pic") { step.label = t("q_pic"); step.prompt = { t: item.t, pr: item.pr, a: item.a, autoplay: true }; step.options = opts.map(o => ({ img: o.img, emoji: o.emoji })); step.pics = true; }
   if (kind === "word") { step.label = t("q_word"); step.prompt = { img: item.img, emoji: item.emoji }; step.options = opts.map(o => ({ t: o.t, pr: o.pr })); }
   if (kind === "meaning") { step.label = t("q_meaning"); step.prompt = { t: item.t, pr: item.pr, a: item.a, autoplay: true }; step.options = opts.map(o => ({ s: o.s })); step.reveal = item.s; step.revealPr = null; }
-  if (kind === "reverse") { step.label = t("q_word"); step.prompt = { s: item.s, img: item.img, emoji: item.emoji }; step.options = opts.map(o => ({ t: o.t, pr: o.pr })); }
-  if (kind === "listen") { step.label = t("q_listen"); step.prompt = { a: item.a, autoplay: true, big: true }; step.options = opts.map(o => (o.img && kind === "listen" && item.img ? { img: o.img, emoji: o.emoji } : { t: o.t, pr: o.pr })); step.pics = !!item.img && opts.every(o => o.img); }
-  if (kind === "listenMeaning") { step.label = t("q_listenMeaning"); step.prompt = { a: item.a, autoplay: true, big: true }; step.options = opts.map(o => ({ s: o.s })); step.reveal = item.t; step.revealS = item.s; }
+  if (kind === "reverse") { step.label = t("q_reverse"); step.prompt = { s: item.s, img: item.img, emoji: item.emoji }; step.options = opts.map(o => ({ t: o.t, pr: o.pr })); }
+  if (kind === "listen") { step.label = t("q_listen"); step.prompt = { a: item.a, autoplay: true, big: true }; step.options = opts.map(o => (pics ? { img: o.img, emoji: o.emoji } : { t: o.t, pr: o.pr })); step.pics = pics; }
+  // hear a sentence in the target language and pick it among sentences in the same language (the translation is shown only afterwards)
+  if (kind === "listenMeaning") { step.label = t("q_listenMeaning"); step.prompt = { a: item.a, autoplay: true, big: true }; step.options = opts.map(o => ({ t: o.t, pr: o.pr })); step.reveal = item.t; step.revealS = item.s; }
   return step;
 }
 function orderStep(item) { return { type: "order", t: item.t, alts: item.alts, s: item.s, a: item.a, revealPr: item.pr, label: t("q_order") }; }
-function typeWordStep(w, srsId) {
+function typeForms(w) {
   const base = w.t.replace(/\s*\([^)]*\)/g, "").replace(/\s*\+\s*[ADG]\b\.?/g, "").trim();
-  const answers = [w.t, base];
-  const m = base.match(/^(der|die|das)\s+(.+)$/i); if (m) answers.push(m[2]);
+  const out = [w.t, base];
+  const m = base.match(/^(der|die|das)\s+(.+)$/i); if (m) out.push(m[2]);
+  return out;
+}
+function typeWordStep(w, srsId, pool = []) {
+  // other words with exactly the same meaning are right too
+  const answers = [w, ...pool.filter(x => x !== w && x.s === w.s)].flatMap(typeForms);
   return { type: "type", label: t("q_type"), prompt: { s: w.s, img: w.img, emoji: w.emoji, a: null }, answers, reveal: w.t, revealPr: w.pr, a: w.a, srs: srsId };
 }
 function dictationStep(item) { return { type: "type", label: t("q_typeHeard"), prompt: { a: item.a, autoplay: true, big: true }, answers: [item.t], reveal: item.t, revealPr: item.pr, a: item.a }; }
@@ -106,9 +128,9 @@ export function buildLesson(course, unit, lid, target) {
         S.push(mcFrom(w, words, kinds[Math.floor(Math.random() * kinds.length)], sid(w)));
       }
     }
-    S.push({ type: "match", label: t("q_match"), pairs: sample(words, Math.min(5, words.length)) });
+    S.push({ type: "match", label: t("q_match"), pairs: others(words.filter(w => w.s), {}, 5, w => w.s).filter((w, k, a) => a.findIndex(x => x.t === w.t) === k) });
     for (const w of sample(words.filter(w => w.img), 3)) S.push(mcFrom(w, words, "listen", sid(w)));
-    for (const w of sample(words.filter(typeable), 3)) S.push(typeWordStep(w, sid(w)));
+    for (const w of sample(words.filter(typeable), 3)) S.push(typeWordStep(w, sid(w), words));
   } else if (lid === "phrases") {
     const P = unit.phrases || [];
     P.forEach(p => S.push({ type: "phrase", p }));
@@ -142,7 +164,7 @@ export function buildLesson(course, unit, lid, target) {
   } else if (lid === "test") {
     const pool = [];
     for (const w of sample(words, 4)) pool.push(mcFrom(w, words, w.img ? sample(["pic", "word", "listen"], 1)[0] : "meaning", sid(w)));
-    for (const w of sample(words.filter(typeable), 2)) pool.push(typeWordStep(w, sid(w)));
+    for (const w of sample(words.filter(typeable), 2)) pool.push(typeWordStep(w, sid(w), words));
     const G = (unit.grammar || []).flatMap(g => g.exercises || []);
     for (const x of sample(G, 3)) pool.push(grammarEx(x));
     const sents = unit.sentences || [];
@@ -172,14 +194,58 @@ export function buildReview(course, units, ids) {
 // ---------- player ----------
 const GRADED = new Set(["mc", "match", "order", "type"]);
 
-export function runLesson(root, steps, { target, onExit, onDone, title }) {
+// what a report is about: the visible content of a step, as plain data
+function stepSummary(st) {
+  if (!st) return {};
+  const out = { type: st.type, label: st.label };
+  const p = st.prompt || {};
+  for (const k of ["t", "s", "gap", "hint", "a"]) if (p[k]) out["prompt_" + k] = p[k];
+  if (st.options) { out.options = st.options.map(o => o.t ?? o.s ?? o.img ?? o.emoji ?? ""); out.answer = out.options[st.answer]; }
+  if (st.answers) out.answers = st.answers.slice(0, 8);
+  for (const k of ["t", "s", "reveal", "revealS", "a"]) if (st[k] && typeof st[k] === "string") out[k] = st[k];
+  if (st.word) out.word = { t: st.word.t, s: st.word.s, ex: st.word.ex?.t, exS: st.word.ex?.s, a: st.word.a };
+  if (st.p) out.phrase = { t: st.p.t, s: st.p.s, a: st.p.a };
+  if (st.g) out.grammar = { id: st.g.id, title: st.g.title?.t };
+  if (st.d) out.dialogue = st.d.title?.t;
+  if (st.r) out.reading = st.r.title?.t;
+  if (st.sound) out.sound = st.sound.t;
+  if (st.pairs) out.pairs = st.pairs.map(w => `${w.t} = ${w.s}`);
+  return out;
+}
+function summaryText(o) { return [o.prompt_t, o.prompt_gap, o.prompt_s, o.word?.t, o.phrase?.t, o.grammar?.title, o.dialogue, o.reading, o.t, o.sound].filter(Boolean)[0] || o.label || ""; }
+
+function openReport(ctx, st) {
+  const sum = stepSummary(st);
+  const ta = h("textarea", { class: "reporttext", rows: 4, placeholder: t("reportPh"), maxlength: 2000 });
+  const msg = h("div", { class: "muted small", role: "status" });
+  const close = () => { ov.remove(); document.removeEventListener("keydown", esc); };
+  const esc = e => { if (e.key === "Escape") close(); };
+  const sendBtn = h("button", { class: "btn", type: "button" }, t("send"));
+  sendBtn.onclick = async () => {
+    sendBtn.disabled = true;
+    const ok = await report({ ...ctx, step: sum, text: ta.value.trim(), page: location.hash, ui: getLang() });
+    msg.textContent = ok ? t("reportThanks") : t("reportQueued");
+    setTimeout(close, 1400);
+  };
+  const ov = h("div", { class: "modal", role: "dialog", "aria-modal": "true", onclick: e => { if (e.target === ov) close(); } },
+    h("div", { class: "card stack" },
+      h("h3", { style: { margin: 0 } }, "⚑ ", t("reportTitle")),
+      summaryText(sum) ? h("div", { class: "muted small" }, t("reportAbout"), " ", T(String(summaryText(sum)).slice(0, 140))) : null,
+      ta, msg,
+      h("div", { class: "row", style: { gap: "10px", justifyContent: "flex-end" } }, h("button", { class: "btn ghost", type: "button", onclick: close }, t("cancel")), sendBtn)));
+  document.body.append(ov); document.addEventListener("keydown", esc);
+  setTimeout(() => ta.focus(), 50);
+}
+
+export function runLesson(root, steps, { target, onExit, onDone, title, ctx = {} }) {
   let i = 0; let correct = 0; let gradedTotal = steps.filter(s => GRADED.has(s.type)).length;
   const queue = steps.slice(); const retried = new Set();
   let feedbackEl = null;
   const bar = h("div", { class: "progressbar" }, h("i", { style: { width: "0%" } }));
   const top = h("div", { class: "player-top" },
     h("button", { class: "iconbtn", "aria-label": "close", onclick: () => { if (i === 0 || confirm(t("quit"))) { stop(); onExit(); } } }, "✕"),
-    bar);
+    bar,
+    h("button", { class: "iconbtn reportbtn", type: "button", title: t("report"), "aria-label": t("report"), onclick: () => openReport(ctx, queue[i]) }, "⚑"));
   const stage = h("div", { class: "stepwrap" });
   root.replaceChildren(h("div", { class: "player" }, top, stage));
 

@@ -216,7 +216,30 @@ function syncUser(uid) {
 }
 
 /** fetch the current person's latest progress and upload anyone's pending changes made on this device */
+// Error reports (the ⚑ button in lessons): kept on this device until the server has them, so nothing is lost offline.
+const LS_REPORTS = LS_USER.replace(":user", ":reports");
+export async function report(r) {
+  const cur = currentUser();
+  const item = { ...r, user: cur ? cur.id : "", at: Date.now(), id: Date.now().toString(36) + Math.random().toString(36).slice(2, 8) };
+  lsSet(LS_REPORTS, [...lsGet(LS_REPORTS, []), item].slice(-100));
+  return flushReports();
+}
+export async function flushReports() {
+  const q = lsGet(LS_REPORTS, []);
+  if (!q.length) return true;
+  try {
+    const res = await api("report", { reports: q.slice(0, 20) });
+    if (res.ok) {
+      const sent = new Set(res.ids || []);
+      lsSet(LS_REPORTS, lsGet(LS_REPORTS, []).filter(x => !sent.has(x.id)));
+      return sent.size > 0;
+    }
+  } catch {}
+  return false;
+}
+
 export async function syncAll() {
+  flushReports();
   const cur = currentUser();
   const ids = [...new Set([...(cur ? [cur.id] : []), ...dirty()])];
   if (!ids.length) return "ok";

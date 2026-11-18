@@ -279,6 +279,7 @@ async function viewLesson(cid, key, lid) {
   const L = lessonsFor(un);
   store.setPref("pos:" + cid, { key, lid }); store.setPref("lastCourse", cid);
   runLesson(app, steps, {
+    ctx: { course: cid, unit: key, lesson: lid },
     target: c.target,
     onDone: score => { store.finishLesson(lkey(cid, key, lid), score); store.addXp(10 + Math.round(score * 10)); store.scheduleSync(300); },
     onExit: what => {
@@ -310,7 +311,7 @@ async function viewReview(cid) {
   const units = await Promise.all(keys.map(k => unit(cid, k)));
   ids = ids.sort(() => Math.random() - .5);
   const steps = buildReview(cid, units, ids);
-  runLesson(app, steps, { target: c.target, onDone: s => { store.addXp(5 + Math.round(s * 10)); store.scheduleSync(300); }, onExit: () => { document.querySelectorAll(".feedback").forEach(e => e.remove()); go(`#/c/${cid}`); } });
+  runLesson(app, steps, { ctx: { course: cid, lesson: "review" }, target: c.target, onDone: s => { store.addXp(5 + Math.round(s * 10)); store.scheduleSync(300); }, onExit: () => { document.querySelectorAll(".feedback").forEach(e => e.remove()); go(`#/c/${cid}`); } });
 }
 
 async function viewWords(cid) {
