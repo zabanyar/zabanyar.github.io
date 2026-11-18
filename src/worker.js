@@ -45,6 +45,8 @@ function merge(a, b) {
   return out;
 }
 
+function stepOf(st) { const j = JSON.stringify(st || {}); return j.length <= 6000 ? JSON.parse(j) : { truncated: j.slice(0, 6000) }; }
+
 async function api(req, env, path) {
   if (req.method === "OPTIONS") return new Response(null, { status: 204, headers: cors(req) });
   if (req.method !== "POST") return json(req, { ok: false, error: "method" }, 405);
@@ -67,6 +69,45 @@ async function api(req, env, path) {
     const merged = merge(stored, body.data);
     if (JSON.stringify(merged) !== JSON.stringify(stored)) await env.PROGRESS.put(keyName, JSON.stringify(merged));
     return json(req, { ok: true, data: merged, user: { id: u.id, name: u.name } });
+  }
+  if (path === "report") {
+    // error reports from the ⚑ button: only from known people, size-limited; key r:<time>:<id>
+    if (!env.PROGRESS) return json(req, { ok: false, error: "no storage" }, 503);
+    const ids = [];
+    for (const r of (Array.isArray(body.reports) ? body.reports : []).slice(0, 20)) {
+      const u = findUser(env, r && r.user);
+      const id = String((r && r.id) || "").replace(/[^a-z0-9]/gi, "").slice(0, 20);
+      if (!u || !id) continue;
+      const at = +r.at || Date.now();
+      const rec = { id, at, user: u.id, course: String(r.course || "").slice(0, 20), unit: String(r.unit || "").slice(0, 20),
+        lesson: String(r.lesson || "").slice(0, 20), page: String(r.page || "").slice(0, 120), ui: String(r.ui || "").slice(0, 4),
+        text: String(r.text || "").slice(0, 2000), step: stepOf(r.step), status: "open" };
+      await env.PROGRESS.put("r:" + new Date(at).toISOString() + ":" + id, JSON.stringify(rec));
+      ids.push(r.id);
+    }
+    return json(req, { ok: true, ids });
+  }
+  if (path === "reports" || path === "report_status") {
+    // reading and closing reports needs the secret REPORTS_KEY (Cloudflare → Workers → Settings → Variables and secrets)
+    if (!env.REPORTS_KEY || body.key !== env.REPORTS_KEY) return json(req, { ok: false, error: "forbidden" }, 403);
+    if (path === "report_status") {
+      const done = [];
+      for (const k of (Array.isArray(body.keys) ? body.keys : []).slice(0, 200)) {
+        if (!String(k).startsWith("r:")) continue;
+        const rec = await env.PROGRESS.get(k, "json");
+        if (!rec) continue;
+        rec.status = String(body.status || "fixed").slice(0, 20); rec.note = String(body.note || "").slice(0, 500); rec.closedAt = Date.now();
+        await env.PROGRESS.put(k, JSON.stringify(rec)); done.push(k);
+      }
+      return json(req, { ok: true, done });
+    }
+    const out = []; let cursor;
+    do {
+      const page = await env.PROGRESS.list({ prefix: "r:", cursor, limit: 1000 });
+      for (const k of page.keys) { const rec = await env.PROGRESS.get(k.name, "json"); if (rec && (body.all || rec.status === "open")) out.push({ key: k.name, ...rec }); }
+      cursor = page.list_complete ? null : page.cursor;
+    } while (cursor && out.length < 2000);
+    return json(req, { ok: true, reports: out });
   }
   return json(req, { ok: false, error: "not found" }, 404);
 }
