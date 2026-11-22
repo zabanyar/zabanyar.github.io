@@ -336,17 +336,22 @@
             "eine"
           ],
           "answer": 1,
-          "s": "This is a banana."
+          "s": "This is a banana.",
+          "why": "Banane is a die-noun, so a is eine."
         },
         {
           "type": "choice",
-          "t": "Das ist ___ Ei.",
+          "task": "Which reply fits?",
+          "cue": "Möchtest du ein Ei?",
+          "t": "___",
           "options": [
-            "ein",
-            "eine"
+            "Nein, danke. Ich mag keine Eier.",
+            "Nein, danke. Ich mag nicht Eier.",
+            "Nein, danke. Ich mag kein Eier."
           ],
           "answer": 0,
-          "s": "This is an egg."
+          "s": "No, thank you. I don't like eggs.",
+          "why": "Before a noun, use kein, not nicht. In the plural it is keine: keine Eier."
         },
         {
           "type": "choice",
@@ -356,7 +361,8 @@
             "keine"
           ],
           "answer": 1,
-          "s": "I have no milk."
+          "s": "I have no milk.",
+          "why": "Milch is a die-noun, so not any is keine."
         },
         {
           "type": "choice",
@@ -366,7 +372,8 @@
             "eine"
           ],
           "answer": 0,
-          "s": "This isn't tea, it's a coffee."
+          "s": "This isn't tea, it's a coffee.",
+          "why": "Kaffee is a der-noun, so a is ein: Das ist ein Kaffee."
         },
         {
           "type": "type",
@@ -374,7 +381,8 @@
           "answer": [
             "eine"
           ],
-          "s": "This is a soup."
+          "s": "This is a soup.",
+          "why": "Suppe is a die-noun, so a is eine."
         },
         {
           "type": "type",
@@ -382,12 +390,19 @@
           "answer": [
             "keine"
           ],
-          "s": "We have no eggs."
+          "s": "We have no eggs.",
+          "why": "Eier is plural, and the plural of kein is keine."
         },
         {
-          "type": "order",
-          "t": "Das ist kein Brot.",
-          "s": "This is not bread."
+          "type": "type",
+          "task": "Make it negative.",
+          "cue": "Wir haben Äpfel.",
+          "t": "Wir haben ___ Äpfel.",
+          "answer": [
+            "keine"
+          ],
+          "s": "We don't have any apples.",
+          "why": "In the plural, not any is keine: keine Äpfel."
         },
         {
           "type": "order",
@@ -462,7 +477,8 @@
             "möchten"
           ],
           "answer": 0,
-          "s": "I'd like a water, please."
+          "s": "I'd like a water, please.",
+          "why": "With ich, the form is möchte (no ending)."
         },
         {
           "type": "choice",
@@ -473,7 +489,8 @@
             "Möchten"
           ],
           "answer": 0,
-          "s": "Would you like some tea?"
+          "s": "Would you like some tea?",
+          "why": "With du the form is möchtest. In a question it comes first."
         },
         {
           "type": "choice",
@@ -484,7 +501,8 @@
             "mögen"
           ],
           "answer": 0,
-          "s": "Sara likes cheese."
+          "s": "Sara likes cheese.",
+          "why": "mögen has no -t with er/sie: Sara mag."
         },
         {
           "type": "type",
@@ -493,7 +511,8 @@
             "möchten",
             "moechten"
           ],
-          "s": "What would you like?"
+          "s": "What would you like?",
+          "why": "With polite Sie the form is möchten."
         },
         {
           "type": "type",
@@ -501,16 +520,19 @@
           "answer": [
             "mag"
           ],
-          "s": "Do you like chicken? – Yes, I like chicken."
+          "s": "Do you like chicken? – Yes, I like chicken.",
+          "why": "With ich, mögen is mag (no ending)."
         },
         {
           "type": "type",
-          "t": "Lukas ___ eine Suppe.",
+          "task": "Make it negative.",
+          "cue": "Ich mag Reis.",
+          "t": "Ich mag ___ Reis.",
           "answer": [
-            "möchte",
-            "moechte"
+            "keinen"
           ],
-          "s": "Lukas would like some soup."
+          "s": "I don't like rice.",
+          "why": "Reis is a der-noun. After mag, kein becomes keinen: Ich mag keinen Reis."
         },
         {
           "type": "order",
@@ -518,9 +540,18 @@
           "s": "I don't like bananas."
         },
         {
-          "type": "order",
-          "t": "Möchten Sie Tee?",
-          "s": "Would you like some tea? (polite)"
+          "type": "choice",
+          "task": "Which reply fits?",
+          "cue": "Was möchten Sie?",
+          "t": "___",
+          "options": [
+            "Ich möchte einen Tee, bitte.",
+            "Ich mag Tee, bitte.",
+            "Ich habe Tee, bitte."
+          ],
+          "answer": 0,
+          "s": "I'd like a tea, please.",
+          "why": "To order, use ich möchte. Ich mag means you like something in general."
         }
       ]
     }
@@ -606,6 +637,18 @@
           "Äpfel",
           "Bananen",
           "Käse"
+        ],
+        "answer": 1
+      },
+      {
+        "q": {
+          "t": "Was trinkt Amir zum Frühstück?",
+          "s": "What does Amir drink for breakfast?"
+        },
+        "options": [
+          "Milch",
+          "Saft",
+          "Kaffee"
         ],
         "answer": 1
       }

@@ -29,6 +29,7 @@
       "pl": "die Mütter",
       "s": "mother",
       "emoji": "👩",
+      "sym": true,
       "ex": {
         "t": "Meine Mutter heißt Maryam.",
         "s": "My mother's name is Maryam."
@@ -40,6 +41,7 @@
       "pl": "die Väter",
       "s": "father",
       "emoji": "👨",
+      "sym": true,
       "ex": {
         "t": "Mein Vater kommt aus Schiras.",
         "s": "My father is from Shiraz."
@@ -83,6 +85,7 @@
       "pl": "die Söhne",
       "s": "son",
       "emoji": "👦",
+      "sym": true,
       "ex": {
         "t": "Mein Sohn ist zehn Jahre alt.",
         "s": "My son is ten years old."
@@ -94,6 +97,7 @@
       "pl": "die Töchter",
       "s": "daughter",
       "emoji": "👧",
+      "sym": true,
       "ex": {
         "t": "Meine Tochter lernt Deutsch.",
         "s": "My daughter is learning German."
@@ -336,17 +340,19 @@
             "Meine"
           ],
           "answer": 1,
-          "s": "My mother's name is Maryam."
+          "s": "My mother's name is Maryam.",
+          "why": "Mutter is a die-noun, so my is meine."
         },
         {
-          "type": "choice",
-          "t": "Das ist ___ Vater.",
-          "options": [
-            "mein",
+          "type": "type",
+          "task": "Say it about your sister.",
+          "cue": "Das ist mein Bruder.",
+          "t": "Das ist ___ Schwester.",
+          "answer": [
             "meine"
           ],
-          "answer": 0,
-          "s": "This is my father."
+          "s": "This is my sister.",
+          "why": "Schwester is a die-noun, so my is meine."
         },
         {
           "type": "choice",
@@ -357,7 +363,8 @@
             "Das"
           ],
           "answer": 2,
-          "s": "The child is seven years old."
+          "s": "The child is seven years old.",
+          "why": "Kind is a das-noun: das Kind. Learn every noun with its article."
         },
         {
           "type": "choice",
@@ -368,7 +375,8 @@
             "Das"
           ],
           "answer": 1,
-          "s": "The sister lives in Cologne."
+          "s": "The sister lives in Cologne.",
+          "why": "Schwester is a die-noun: die Schwester."
         },
         {
           "type": "type",
@@ -376,7 +384,8 @@
           "answer": [
             "dein"
           ],
-          "s": "What's your brother's name, Ali?"
+          "s": "What's your brother's name, Ali?",
+          "why": "Bruder is a der-noun, so your (informal) is dein: dein Bruder."
         },
         {
           "type": "type",
@@ -384,7 +393,8 @@
           "answer": [
             "meine"
           ],
-          "s": "These are my parents."
+          "s": "These are my parents.",
+          "why": "In the plural, my is always meine: meine Eltern."
         },
         {
           "type": "order",
@@ -392,9 +402,18 @@
           "s": "This is my daughter."
         },
         {
-          "type": "order",
-          "t": "Wie heißt deine Schwester?",
-          "s": "What's your sister's name?"
+          "type": "choice",
+          "task": "Which reply fits?",
+          "cue": "Wer ist das?",
+          "t": "___",
+          "options": [
+            "Das ist meine Oma.",
+            "Das ist mein Oma.",
+            "Das sind meine Oma."
+          ],
+          "answer": 0,
+          "s": "This is my grandma.",
+          "why": "Oma is a die-noun, so my is meine. One person takes ist."
         }
       ]
     },
@@ -464,7 +483,8 @@
             "hat"
           ],
           "answer": 0,
-          "s": "I have two brothers."
+          "s": "I have two brothers.",
+          "why": "With ich, haben is habe."
         },
         {
           "type": "choice",
@@ -475,7 +495,8 @@
             "hat"
           ],
           "answer": 2,
-          "s": "Lukas has a sister."
+          "s": "Lukas has a sister.",
+          "why": "haben is special with er/sie: Lukas hat."
         },
         {
           "type": "choice",
@@ -486,7 +507,8 @@
             "Haben"
           ],
           "answer": 0,
-          "s": "Do you have children?"
+          "s": "Do you have children?",
+          "why": "haben is special with du: du hast. In a question it comes first: Hast du …?"
         },
         {
           "type": "type",
@@ -494,20 +516,33 @@
           "answer": [
             "haben"
           ],
-          "s": "We have three children."
+          "s": "We have three children.",
+          "why": "With wir, the verb looks like the infinitive: wir haben."
         },
         {
           "type": "type",
-          "t": "Frau Müller ___ zwei Töchter.",
+          "task": "Say it about Amir.",
+          "cue": "Ich habe eine Schwester.",
+          "t": "Amir ___ eine Schwester.",
           "answer": [
             "hat"
           ],
-          "s": "Ms. Müller has two daughters."
+          "s": "Amir has a sister.",
+          "why": "haben is special with er/sie: er hat."
         },
         {
-          "type": "order",
-          "t": "Haben Sie Kinder?",
-          "s": "Do you have children? (polite)"
+          "type": "choice",
+          "task": "Which reply fits?",
+          "cue": "Hast du Geschwister?",
+          "t": "___",
+          "options": [
+            "Ja, ich habe einen Bruder.",
+            "Ja, ich bin einen Bruder.",
+            "Ja, ich hat einen Bruder."
+          ],
+          "answer": 0,
+          "s": "Yes, I have a brother.",
+          "why": "Use haben for family you have: ich habe. After haben, a der-noun takes einen."
         },
         {
           "type": "order",
@@ -604,6 +639,18 @@
           "Mina"
         ],
         "answer": 0
+      },
+      {
+        "q": {
+          "t": "Wie viele Kinder haben Ali und Maryam?",
+          "s": "How many children do Ali and Maryam have?"
+        },
+        "options": [
+          "ein Kind",
+          "zwei Kinder",
+          "drei Kinder"
+        ],
+        "answer": 1
       }
     ]
   },

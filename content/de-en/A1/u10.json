@@ -49,6 +49,7 @@
       "t": "lesen",
       "s": "to read",
       "emoji": "📖",
+      "sym": true,
       "ex": {
         "t": "Maryam liest am Abend.",
         "s": "Maryam reads in the evening."
@@ -80,6 +81,7 @@
       "t": "die Musik",
       "s": "music",
       "emoji": "🎵",
+      "sym": true,
       "ex": {
         "t": "Ich mag Musik.",
         "s": "I like music."
@@ -89,7 +91,7 @@
       "id": "w08",
       "t": "hören",
       "s": "to hear; to listen to",
-      "emoji": "🎧",
+      "emoji": "👂",
       "ex": {
         "t": "Wir hören Musik.",
         "s": "We listen to music."
@@ -100,6 +102,7 @@
       "t": "kochen",
       "s": "to cook",
       "emoji": "🍲",
+      "sym": true,
       "ex": {
         "t": "Reza kocht sehr gut.",
         "s": "Reza cooks very well."
@@ -110,6 +113,7 @@
       "t": "singen",
       "s": "to sing",
       "emoji": "🎤",
+      "sym": true,
       "ex": {
         "t": "Sara singt am Morgen.",
         "s": "Sara sings in the morning."
@@ -120,6 +124,7 @@
       "t": "Rad fahren",
       "s": "to ride a bike",
       "emoji": "🚲",
+      "sym": true,
       "ex": {
         "t": "Im Sommer fahre ich Rad.",
         "s": "In summer I ride my bike."
@@ -130,6 +135,7 @@
       "t": "wandern",
       "s": "to hike",
       "emoji": "🥾",
+      "sym": true,
       "ex": {
         "t": "Im Herbst wandern wir.",
         "s": "In the fall we go hiking."
@@ -153,6 +159,28 @@
       "ex": {
         "t": "Ich kann schwimmen.",
         "s": "I can swim."
+      }
+    },
+    {
+      "id": "w15",
+      "t": "der Samstag",
+      "pl": "die Samstage",
+      "s": "Saturday",
+      "emoji": "",
+      "ex": {
+        "t": "Am Samstag spielt Ali Fußball.",
+        "s": "On Saturday Ali plays soccer."
+      }
+    },
+    {
+      "id": "w16",
+      "t": "der Sonntag",
+      "pl": "die Sonntage",
+      "s": "Sunday",
+      "emoji": "",
+      "ex": {
+        "t": "Am Sonntag wandern wir gern.",
+        "s": "On Sundays we like to go hiking."
       }
     }
   ],
@@ -321,7 +349,8 @@
             "können"
           ],
           "answer": 1,
-          "s": "I can swim."
+          "s": "I can swim.",
+          "why": "können has no ending with ich: ich kann."
         },
         {
           "type": "choice",
@@ -332,7 +361,8 @@
             "kannst"
           ],
           "answer": 2,
-          "s": "You can cook well."
+          "s": "You can cook well.",
+          "why": "With du, können is kannst."
         },
         {
           "type": "choice",
@@ -343,15 +373,19 @@
             "spiele"
           ],
           "answer": 0,
-          "s": "We can play soccer."
+          "s": "We can play soccer.",
+          "why": "After können, the second verb is an infinitive at the end: spielen."
         },
         {
           "type": "type",
-          "t": "Maryam ___ gut singen.",
+          "task": "Use können: Ich kann …",
+          "cue": "Ich schwimme gut.",
+          "t": "Ich kann gut ___.",
           "answer": [
-            "kann"
+            "schwimmen"
           ],
-          "s": "Maryam can sing well."
+          "s": "I can swim well.",
+          "why": "With können, the second verb goes to the end in the infinitive: Ich kann gut schwimmen."
         },
         {
           "type": "type",
@@ -359,12 +393,22 @@
           "answer": [
             "fahren"
           ],
-          "s": "Lukas can ride a bike well."
+          "s": "Lukas can ride a bike well.",
+          "why": "After kann, the infinitive goes to the end: Rad fahren."
         },
         {
-          "type": "order",
-          "t": "Ich kann gut kochen.",
-          "s": "I can cook well."
+          "type": "choice",
+          "task": "Which reply fits?",
+          "cue": "Kannst du Rad fahren?",
+          "t": "___",
+          "options": [
+            "Nein, leider nicht.",
+            "Nein, ich kann nicht Rad.",
+            "Ja, ich kann Rad fahre."
+          ],
+          "answer": 0,
+          "s": "No, unfortunately not.",
+          "why": "A short answer is fine: Nein, leider nicht. A full answer needs the infinitive at the end: Rad fahren."
         },
         {
           "type": "order",
@@ -426,7 +470,8 @@
             "Höre"
           ],
           "answer": 1,
-          "s": "Do you like listening to music?"
+          "s": "Do you like listening to music?",
+          "why": "In a yes/no question the verb is first, with the du ending -st: Hörst du …?"
         },
         {
           "type": "choice",
@@ -437,7 +482,8 @@
             "gern"
           ],
           "answer": 2,
-          "s": "I like cooking."
+          "s": "I like cooking.",
+          "why": "To say you like doing something, put gern after the verb: Ich koche gern."
         },
         {
           "type": "type",
@@ -445,7 +491,8 @@
           "answer": [
             "Kannst"
           ],
-          "s": "Can you swim? – Yes, I can swim."
+          "s": "Can you swim? – Yes, I can swim.",
+          "why": "With können, only kann moves to the front, in the du form: Kannst du …?"
         },
         {
           "type": "choice",
@@ -456,16 +503,22 @@
             "keine"
           ],
           "answer": 0,
-          "s": "Does Sara like reading? – No, she doesn't like reading."
+          "s": "Does Sara like reading? – No, she doesn't like reading.",
+          "why": "The opposite of gern is nicht gern. Kein is only for nouns."
         },
         {
-          "type": "type",
-          "t": "Ich ___ gern Musik.",
-          "answer": [
-            "höre",
-            "hoere"
+          "type": "choice",
+          "task": "Which reply fits?",
+          "cue": "Was machst du in der Freizeit?",
+          "t": "___",
+          "options": [
+            "Ich lese gern.",
+            "Ich gern lese.",
+            "Ja, ich lese."
           ],
-          "s": "I like listening to music."
+          "answer": 0,
+          "s": "I like reading.",
+          "why": "gern comes after the verb: Ich lese gern. A question with was needs more than ja or nein."
         },
         {
           "type": "order",
@@ -473,9 +526,15 @@
           "s": "Do you like playing soccer?"
         },
         {
-          "type": "order",
-          "t": "Wandern Sie gern?",
-          "s": "Do you like hiking?"
+          "type": "type",
+          "task": "Make it a question.",
+          "cue": "Sie wandern gern.",
+          "t": "___ gern?",
+          "answer": [
+            "Wandern Sie"
+          ],
+          "s": "Do you like hiking?",
+          "why": "For a yes/no question, put the verb first: Wandern Sie gern?"
         }
       ]
     }
@@ -563,6 +622,18 @@
           "Sie schwimmt."
         ],
         "answer": 1
+      },
+      {
+        "q": {
+          "t": "Was macht die Familie oft zusammen?",
+          "s": "What does the family often do together?"
+        },
+        "options": [
+          "Sie wandert und kocht.",
+          "Sie spielt Fußball.",
+          "Sie hört Musik."
+        ],
+        "answer": 0
       }
     ]
   },

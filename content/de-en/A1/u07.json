@@ -52,6 +52,7 @@
       "pl": "die Apotheken",
       "s": "pharmacy",
       "emoji": "💊",
+      "sym": true,
       "ex": {
         "t": "Maryam ist in der Apotheke.",
         "s": "Maryam is at the pharmacy."
@@ -96,6 +97,7 @@
       "pl": "die Parks",
       "s": "park",
       "emoji": "🌳",
+      "sym": true,
       "ex": {
         "t": "Wir sind im Park.",
         "s": "We are in the park."
@@ -329,7 +331,8 @@
             "Gehst"
           ],
           "answer": 1,
-          "s": "Go straight ahead!"
+          "s": "Go straight ahead!",
+          "why": "The Sie-imperative uses the Sie form of the verb, first in the sentence: Gehen Sie!"
         },
         {
           "type": "choice",
@@ -340,7 +343,8 @@
             "nach"
           ],
           "answer": 2,
-          "s": "Go to the left."
+          "s": "Go to the left.",
+          "why": "For a direction, say nach links or nach rechts."
         },
         {
           "type": "type",
@@ -348,7 +352,8 @@
           "answer": [
             "Sie"
           ],
-          "s": "Go straight ahead!"
+          "s": "Go straight ahead!",
+          "why": "In the polite imperative, Sie stays right after the verb: Gehen Sie!"
         },
         {
           "type": "type",
@@ -356,18 +361,19 @@
           "answer": [
             "an"
           ],
-          "s": "Please call Ms. Müller!"
+          "s": "Please call Ms. Müller!",
+          "why": "anrufen splits in the imperative too: the prefix an goes to the end."
         },
         {
-          "type": "choice",
-          "t": "Sie kommen. → ___ Sie bitte!",
-          "options": [
-            "Kommen",
-            "Kommt",
-            "Komme"
+          "type": "type",
+          "task": "Make it an instruction.",
+          "cue": "Sie gehen nach rechts.",
+          "t": "___ nach rechts!",
+          "answer": [
+            "Gehen Sie"
           ],
-          "answer": 0,
-          "s": "Please come!"
+          "s": "Go right!",
+          "why": "For the Sie-imperative, put the verb first and keep Sie: Gehen Sie …!"
         },
         {
           "type": "order",
@@ -379,9 +385,18 @@
           ]
         },
         {
-          "type": "order",
-          "t": "Gehen Sie hier nach links.",
-          "s": "Go left here."
+          "type": "choice",
+          "task": "Which reply fits?",
+          "cue": "Entschuldigung! Wo ist der Bahnhof, bitte?",
+          "t": "___",
+          "options": [
+            "Gehen Sie hier geradeaus.",
+            "Ich bin im Bahnhof.",
+            "Vielen Dank!"
+          ],
+          "answer": 0,
+          "s": "Go straight ahead here.",
+          "why": "To give directions politely, use the Sie-imperative: Gehen Sie geradeaus."
         }
       ]
     },
@@ -435,14 +450,15 @@
       "exercises": [
         {
           "type": "choice",
-          "t": "Sara ist ___ Schule.",
+          "t": "Mina ist ___ Schule.",
           "options": [
             "im",
             "in der",
             "in die"
           ],
           "answer": 1,
-          "s": "Sara is at school."
+          "s": "Mina is at school.",
+          "why": "Schule is a die-noun: die Schule → in der Schule."
         },
         {
           "type": "choice",
@@ -453,7 +469,8 @@
             "in"
           ],
           "answer": 0,
-          "s": "We are in the park."
+          "s": "We are in the park.",
+          "why": "Park is a der-noun: der Park → im Park (in dem)."
         },
         {
           "type": "type",
@@ -461,26 +478,33 @@
           "answer": [
             "im"
           ],
-          "s": "Lukas is at the supermarket."
+          "s": "Lukas is at the supermarket.",
+          "why": "Supermarkt is a der-noun: der Supermarkt → im Supermarkt."
         },
         {
           "type": "type",
-          "t": "Reza arbeitet ___ Krankenhaus.",
+          "task": "Say he is at the bank.",
+          "cue": "Ali ist im Park.",
+          "t": "Ali ist ___ Bank.",
           "answer": [
-            "im"
+            "in der"
           ],
-          "s": "Reza works at the hospital."
+          "s": "Ali is at the bank.",
+          "why": "Bank is a die-noun: die Bank → in der Bank. Im is only for der- and das-nouns."
         },
         {
           "type": "choice",
-          "t": "Frau Müller ist ___ Bank.",
+          "task": "Which reply fits?",
+          "cue": "Wo ist Maryam?",
+          "t": "___",
           "options": [
-            "im",
-            "in den",
-            "in der"
+            "Sie ist in der Apotheke.",
+            "Sie ist im Apotheke.",
+            "Sie ist in die Apotheke."
           ],
-          "answer": 2,
-          "s": "Ms. Müller is at the bank."
+          "answer": 0,
+          "s": "She's at the pharmacy.",
+          "why": "Apotheke is a die-noun, so for where? it is in der: in der Apotheke."
         },
         {
           "type": "type",
@@ -488,7 +512,8 @@
           "answer": [
             "der"
           ],
-          "s": "Maryam is at the pharmacy."
+          "s": "Maryam is at the pharmacy.",
+          "why": "Apotheke is a die-noun, so after in it is der: in der Apotheke."
         },
         {
           "type": "order",
@@ -588,6 +613,18 @@
           "in der Schule"
         ],
         "answer": 1
+      },
+      {
+        "q": {
+          "t": "Mag Frau Müller Hamburg?",
+          "s": "Does Ms. Müller like Hamburg?"
+        },
+        "options": [
+          "Ja, die Stadt ist schön.",
+          "Nein, die Stadt ist zu groß.",
+          "Nein, sie wohnt nicht gern dort."
+        ],
+        "answer": 0
       }
     ]
   },

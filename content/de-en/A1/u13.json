@@ -21,7 +21,7 @@
         "t": "Heute arbeite ich.",
         "s": "The verb in second position"
       },
-      "explain": "In a German statement, the conjugated verb (the verb with the personal ending) is always in **position 2**. This is one of the most important rules of German word order.\nPosition 2 means the second *part* of the sentence, not always the second word. Position 1 is often the subject (**Ich** trinke am Morgen Kaffee.), but it can also be a time or a place. A group like **am Morgen**, **um acht Uhr** or **in Berlin** counts as one part.\nWhen something other than the subject comes first, the verb stays in position 2 and the subject moves right behind it. This is called **inversion**: **Ich arbeite heute.** → **Heute arbeite ich.** The meaning stays the same; the time or place just gets more attention. Words like **heute**, **dann**, **am Abend**, **um sieben Uhr** and **im Sommer** often start a sentence.\nThe little words **und**, **aber** and **oder** do not count. They stand before position 1, so the order after them does not change: **Ali kocht und Sara liest.**\nCareful: English says *Today I work*, but German never allows \"Heute ich arbeite\". Persian puts the verb at the end, but in a German statement it must come second: **Ich wohne in Teheran**, not \"Ich in Teheran wohne\".",
+      "explain": "You first met this rule in Unit 6 (Um sieben Uhr frühstücken wir).\nIn a German statement, the conjugated verb (the verb with the personal ending) is always in **position 2**. This is one of the most important rules of German word order.\nPosition 2 means the second *part* of the sentence, not always the second word. Position 1 is often the subject (**Ich** trinke am Morgen Kaffee.), but it can also be a time or a place. A group like **am Morgen**, **um acht Uhr** or **in Berlin** counts as one part.\nWhen something other than the subject comes first, the verb stays in position 2 and the subject moves right behind it. This is called **inversion**: **Ich arbeite heute.** → **Heute arbeite ich.** The meaning stays the same; the time or place just gets more attention. Words like **heute**, **dann**, **am Abend**, **um sieben Uhr** and **im Sommer** often start a sentence.\nThe little words **und**, **aber** and **oder** do not count. They stand before position 1, so the order after them does not change: **Ali kocht und Sara liest.**\nCareful: English says *Today I work*, but German never allows \"Heute ich arbeite\". Persian puts the verb at the end, but in a German statement it must come second: **Ich wohne in Teheran**, not \"Ich in Teheran wohne\".",
       "table": [
         [
           "first part",
@@ -90,7 +90,8 @@
             "ich arbeiten"
           ],
           "answer": 1,
-          "s": "Today I'm working in Berlin."
+          "s": "Today I'm working in Berlin.",
+          "why": "After Heute, the verb stays in position 2 and ich follows it: Heute arbeite ich."
         },
         {
           "type": "choice",
@@ -101,7 +102,8 @@
             "Mina frühstücken"
           ],
           "answer": 1,
-          "s": "At seven thirty Mina has breakfast."
+          "s": "At seven thirty Mina has breakfast.",
+          "why": "The time is position 1, so the verb comes next, then the subject: frühstückt Mina."
         },
         {
           "type": "choice",
@@ -112,7 +114,8 @@
             "wir schwimmt"
           ],
           "answer": 1,
-          "s": "In the summer we like to swim."
+          "s": "In the summer we like to swim.",
+          "why": "After Im Sommer, the verb comes second, then the subject: schwimmen wir."
         },
         {
           "type": "choice",
@@ -123,7 +126,8 @@
             "Dann"
           ],
           "answer": 2,
-          "s": "Then I drink tea."
+          "s": "Then I drink tea.",
+          "why": "Dann fills position 1, so the verb follows it. Und doesn't count as a position, and Ich trinke ich would repeat ich."
         },
         {
           "type": "type",
@@ -132,7 +136,8 @@
             "koche"
           ],
           "s": "Today I'm cooking rice.",
-          "hint": "kochen"
+          "hint": "kochen",
+          "why": "The verb is in position 2 with the ich ending: Heute koche ich."
         },
         {
           "type": "type",
@@ -141,7 +146,8 @@
             "trinkt"
           ],
           "s": "In the morning Maryam drinks tea.",
-          "hint": "trinken"
+          "hint": "trinken",
+          "why": "The verb is in position 2 with the er/sie ending -t: trinkt."
         },
         {
           "type": "type",
@@ -150,7 +156,8 @@
             "arbeitet"
           ],
           "s": "Mr. Wagner isn't working today.",
-          "hint": "arbeiten"
+          "hint": "arbeiten",
+          "why": "Stems in -t add an e: er arbeitet. The verb stays in position 2."
         },
         {
           "type": "type",
@@ -158,7 +165,8 @@
           "answer": [
             "ich"
           ],
-          "s": "At seven o'clock I get up."
+          "s": "At seven o'clock I get up.",
+          "why": "With inversion the subject comes right after the verb: stehe ich auf."
         },
         {
           "type": "order",
@@ -191,6 +199,31 @@
           "alts": [
             "Ich kaufe am Abend ein."
           ]
+        },
+        {
+          "type": "type",
+          "task": "Start with Am Sonntag.",
+          "cue": "Wir spielen am Sonntag Fußball.",
+          "t": "Am Sonntag ___ Fußball.",
+          "answer": [
+            "spielen wir"
+          ],
+          "s": "On Sunday we play soccer.",
+          "why": "The verb stays in position 2 and the subject moves behind it: Am Sonntag spielen wir."
+        },
+        {
+          "type": "choice",
+          "task": "Which reply fits?",
+          "cue": "Was machst du heute?",
+          "t": "___",
+          "options": [
+            "Heute koche ich.",
+            "Heute ich koche.",
+            "Heute kochen ich."
+          ],
+          "answer": 0,
+          "s": "Today I'm cooking.",
+          "why": "After Heute, the verb comes second and the subject follows: Heute koche ich."
         }
       ],
       "thead": true
@@ -201,7 +234,7 @@
         "t": "Wo wohnst du? Wohnst du hier?",
         "s": "Questions; ja, nein and doch"
       },
-      "explain": "German has two main kinds of questions. **W-questions** ask for information and start with a question word: **wer** *who*, **was** *what*, **wo** *where*, **woher** *where from*, **wann** *when*, **wie** *how*, **wie viel** *how much*, **wie alt** *how old*. The question word is in position 1, the verb in position 2, and then usually the subject: **Wo wohnst du?** **Wann kommt der Bus?** With **wer** the question word is itself the subject: **Wer kocht heute?**\n**Yes/no questions** have no question word. The verb moves to **position 1**, and the subject comes right after it: **Du wohnst in Berlin.** → **Wohnst du in Berlin?** The rest of the sentence stays where it was, and your voice goes up at the end.\nThe answer to a yes/no question is **ja** or **nein**. But if the question is negative (with **nicht** or **kein**) and you want to say *yes*, use **doch**: **Hast du keinen Hunger?** – **Doch, ich habe Hunger.** If you agree with the negative question, say **nein**: **Kommst du nicht mit?** – **Nein, ich habe keine Zeit.**\nCareful: German has no helper verb like English *do*. *Do you live here?* is simply **Wohnst du hier?** Persian often keeps the statement order and only changes the intonation, but in German the verb must move to the front. Also, **wer** looks like English *where*, but it means *who*; *where* is **wo**. And to ask for a name, say **Wie heißt du?**, not \"Was heißt du?\"",
+      "explain": "You first met W-questions in Unit 1 and yes/no questions in Unit 10.\nGerman has two main kinds of questions. **W-questions** ask for information and start with a question word: **wer** *who*, **was** *what*, **wo** *where*, **woher** *where from*, **wann** *when*, **wie** *how*, **wie viel** *how much*, **wie alt** *how old*. The question word is in position 1, the verb in position 2, and then usually the subject: **Wo wohnst du?** **Wann kommt der Bus?** With **wer** the question word is itself the subject: **Wer kocht heute?**\n**Yes/no questions** have no question word. The verb moves to **position 1**, and the subject comes right after it: **Du wohnst in Berlin.** → **Wohnst du in Berlin?** The rest of the sentence stays where it was, and your voice goes up at the end.\nThe answer to a yes/no question is **ja** or **nein**. But if the question is negative (with **nicht** or **kein**) and you want to say *yes*, use **doch**: **Hast du keinen Hunger?** – **Doch, ich habe Hunger.** If you agree with the negative question, say **nein**: **Kommst du nicht mit?** – **Nein, ich habe keine Zeit.**\nCareful: German has no helper verb like English *do*. *Do you live here?* is simply **Wohnst du hier?** Persian often keeps the statement order and only changes the intonation, but in German the verb must move to the front. Also, **wer** looks like English *where*, but it means *who*; *where* is **wo**. And to ask for a name, say **Wie heißt du?**, not \"Was heißt du?\"",
       "table": [
         [
           "question word",
@@ -285,7 +318,8 @@
             "Was"
           ],
           "answer": 1,
-          "s": "Where do you live? – In Berlin."
+          "s": "Where do you live? – In Berlin.",
+          "why": "Wo asks where. Wer means who, and was means what."
         },
         {
           "type": "choice",
@@ -296,7 +330,8 @@
             "Wer"
           ],
           "answer": 2,
-          "s": "Who is cooking today? – Mom is cooking."
+          "s": "Who is cooking today? – Mom is cooking.",
+          "why": "Wer asks who: the answer is a person."
         },
         {
           "type": "choice",
@@ -307,7 +342,8 @@
             "Nein"
           ],
           "answer": 0,
-          "s": "Do you drink tea? – Yes, I like drinking tea."
+          "s": "Do you drink tea? – Yes, I like drinking tea.",
+          "why": "The question is positive, so yes is ja. Doch is only for negative questions."
         },
         {
           "type": "choice",
@@ -318,7 +354,8 @@
             "Doch"
           ],
           "answer": 2,
-          "s": "Don't you have time? – Yes, I have time."
+          "s": "Don't you have time? – Yes, I have time.",
+          "why": "To say yes to a negative question, use doch."
         },
         {
           "type": "type",
@@ -326,7 +363,8 @@
           "answer": [
             "Woher"
           ],
-          "s": "Where do you come from? – From Iran."
+          "s": "Where do you come from? – From Iran.",
+          "why": "The answer starts with aus, so the question is woher (where from)."
         },
         {
           "type": "type",
@@ -335,7 +373,8 @@
             "Wann",
             "Um wie viel Uhr"
           ],
-          "s": "When do you get up? – At seven o'clock."
+          "s": "When do you get up? – At seven o'clock.",
+          "why": "The answer is a time, so ask wann or um wie viel Uhr."
         },
         {
           "type": "type",
@@ -344,7 +383,8 @@
             "Trinkst"
           ],
           "s": "Do you drink coffee? – No, I drink tea.",
-          "hint": "trinken"
+          "hint": "trinken",
+          "why": "In a yes/no question the verb is first, with the du ending: Trinkst du …?"
         },
         {
           "type": "type",
@@ -352,7 +392,8 @@
           "answer": [
             "Doch"
           ],
-          "s": "Aren't you coming along? – Yes, I'm coming along."
+          "s": "Aren't you coming along? – Yes, I'm coming along.",
+          "why": "To say yes to a negative question, use doch."
         },
         {
           "type": "order",
@@ -373,6 +414,31 @@
           "type": "order",
           "t": "Wohnen Sie in Hamburg?",
           "s": "Do you live in Hamburg?"
+        },
+        {
+          "type": "type",
+          "task": "Make it a yes/no question.",
+          "cue": "Du wohnst in Köln.",
+          "t": "___ in Köln?",
+          "answer": [
+            "Wohnst du"
+          ],
+          "s": "Do you live in Cologne?",
+          "why": "In a yes/no question the verb moves to position 1 and the subject follows: Wohnst du …?"
+        },
+        {
+          "type": "choice",
+          "task": "Which reply fits?",
+          "cue": "Wer ist das?",
+          "t": "___",
+          "options": [
+            "Das ist mein Bruder.",
+            "Das ist in Köln.",
+            "Das ist um acht Uhr."
+          ],
+          "answer": 0,
+          "s": "That's my brother.",
+          "why": "Wer asks about a person (who). Wo asks where, and wann asks when."
         }
       ],
       "thead": true
@@ -383,7 +449,7 @@
         "t": "Ich muss heute arbeiten.",
         "s": "The sentence bracket"
       },
-      "explain": "Many German sentences have a verb in two parts. The conjugated part stays in **position 2**, and the second part goes to the very **end** of the sentence. Everything else stands between them, as if inside a **sentence bracket**.\nThere are two kinds. With a **modal verb** (**können**, **müssen**, **wollen**, **möchten**), the modal verb is in position 2 and the other verb goes to the end as an **infinitive**: **Ich muss heute arbeiten.** **Maryam kann sehr gut kochen.** With a **separable verb**, the main part is in position 2 and the prefix goes to the end: **Ich rufe meine Oma an.** **Wir kaufen im Supermarkt ein.**\nInversion does not change the bracket: **Heute muss ich arbeiten.** **Am Abend sieht Lukas fern.** In a yes/no question the conjugated part is in position 1, and the end stays at the end: **Kannst du heute mitkommen?** If a separable verb comes with a modal verb, it is the infinitive, so it stays together at the end: **Ich muss um sechs Uhr aufstehen.** The word **nicht** usually comes just before the end: **Ich muss heute nicht arbeiten.**\nCareful: English keeps the verbs together (*I must work today*), so learners often say \"Ich muss arbeiten heute\". That is wrong; the infinitive goes to the end. Don't give the infinitive an ending (**Ich kann schwimmen**, not \"Ich kann schwimme\"), and don't forget the prefix: \"Ich stehe um sieben Uhr\" is not complete without **auf**.",
+      "explain": "You first met the two parts of the verb in Unit 6 (separable verbs) and Unit 10 (können).\nMany German sentences have a verb in two parts. The conjugated part stays in **position 2**, and the second part goes to the very **end** of the sentence. Everything else stands between them, as if inside a **sentence bracket**.\nThere are two kinds. With a **modal verb** (**können**, **müssen**, **wollen**, **möchten**), the modal verb is in position 2 and the other verb goes to the end as an **infinitive**: **Ich muss heute arbeiten.** **Maryam kann sehr gut kochen.** With a **separable verb**, the main part is in position 2 and the prefix goes to the end: **Ich rufe meine Oma an.** **Wir kaufen im Supermarkt ein.**\nInversion does not change the bracket: **Heute muss ich arbeiten.** **Am Abend sieht Lukas fern.** In a yes/no question the conjugated part is in position 1, and the end stays at the end: **Kannst du heute mitkommen?** If a separable verb comes with a modal verb, it is the infinitive, so it stays together at the end: **Ich muss um sechs Uhr aufstehen.** The word **nicht** usually comes just before the end: **Ich muss heute nicht arbeiten.**\nCareful: English keeps the verbs together (*I must work today*), so learners often say \"Ich muss arbeiten heute\". That is wrong; the infinitive goes to the end. Don't give the infinitive an ending (**Ich kann schwimmen**, not \"Ich kann schwimme\"), and don't forget the prefix: \"Ich stehe um sieben Uhr\" is not complete without **auf**.",
       "table": [
         [
           "first part",
@@ -458,7 +524,8 @@
             "arbeitet"
           ],
           "answer": 0,
-          "s": "I have to work today."
+          "s": "I have to work today.",
+          "why": "After a modal verb, the second verb goes to the end as an infinitive: arbeiten."
         },
         {
           "type": "choice",
@@ -469,7 +536,8 @@
             "fern sehen"
           ],
           "answer": 1,
-          "s": "We want to watch TV in the evening."
+          "s": "We want to watch TV in the evening.",
+          "why": "After a modal verb, a separable verb stays in one word at the end: fernsehen."
         },
         {
           "type": "choice",
@@ -480,7 +548,8 @@
             "kauft"
           ],
           "answer": 2,
-          "s": "Ali is going shopping today."
+          "s": "Ali is going shopping today.",
+          "why": "Without a modal verb, einkaufen splits: kauft is in position 2 and ein goes to the end."
         },
         {
           "type": "choice",
@@ -491,7 +560,8 @@
             "einen Tee trinke"
           ],
           "answer": 0,
-          "s": "I'd like to drink a tea."
+          "s": "I'd like to drink a tea.",
+          "why": "The object stands in the middle and the infinitive at the very end: einen Tee trinken."
         },
         {
           "type": "type",
@@ -500,7 +570,8 @@
             "kann"
           ],
           "s": "Mina can't come today.",
-          "hint": "können"
+          "hint": "können",
+          "why": "The modal verb is in position 2 in the er/sie form: kann."
         },
         {
           "type": "type",
@@ -509,7 +580,8 @@
             "an"
           ],
           "s": "In the evening I call my grandma.",
-          "hint": "anrufen"
+          "hint": "anrufen",
+          "why": "anrufen splits: the prefix an closes the bracket at the end."
         },
         {
           "type": "type",
@@ -517,7 +589,8 @@
           "answer": [
             "aufstehen"
           ],
-          "s": "We have to get up at six o'clock."
+          "s": "We have to get up at six o'clock.",
+          "why": "After müssen, a separable verb stays in one word at the end: aufstehen."
         },
         {
           "type": "type",
@@ -526,7 +599,8 @@
             "kaufen"
           ],
           "s": "Today we're shopping at the supermarket.",
-          "hint": "einkaufen"
+          "hint": "einkaufen",
+          "why": "The verb part of einkaufen is in position 2: kaufen. Ein is at the end."
         },
         {
           "type": "order",
@@ -556,6 +630,31 @@
           "alts": [
             "Im Sommer wollen wir schwimmen."
           ]
+        },
+        {
+          "type": "type",
+          "task": "Add wollen: Lukas will …",
+          "cue": "Lukas sieht fern.",
+          "t": "Lukas will ___.",
+          "answer": [
+            "fernsehen"
+          ],
+          "s": "Lukas wants to watch TV.",
+          "why": "With a modal verb, a separable verb stays in one word at the end: Lukas will fernsehen."
+        },
+        {
+          "type": "choice",
+          "task": "Which reply fits?",
+          "cue": "Was machst du am Samstag?",
+          "t": "___",
+          "options": [
+            "Ich möchte meine Oma anrufen.",
+            "Ich möchte anrufen meine Oma.",
+            "Ich möchte meine Oma rufe an."
+          ],
+          "answer": 0,
+          "s": "I'd like to call my grandma.",
+          "why": "The modal verb is in position 2 and the infinitive goes to the very end: … meine Oma anrufen."
         }
       ],
       "thead": true
@@ -566,7 +665,7 @@
         "t": "Ruf mich an!",
         "s": "The imperative"
       },
-      "explain": "The imperative is the form for instructions, requests and advice: *Come!* *Please call me!* German has three forms, because there are three ways to say *you*.\nFor **Sie** (polite, one or more people), take the Sie form and put the verb first: **Sie kommen** → **Kommen Sie!** For **ihr** (two or more friends or family members), take the ihr form and leave out **ihr**: **ihr kommt** → **Kommt!** For **du**, take the du form and drop **du** and the ending **-st**: **du kommst** → **Komm!** **du trinkst** → **Trink!** If the stem ends in -s, -ß or -z, only the **-t** goes: **du liest** → **Lies!** **du isst** → **Iss!** Verbs with a stem in -t or -d keep an **e**: **Arbeite!**\nVerbs with the vowel change e → i or e → ie keep it in the du form: **Iss!** **Nimm!** **Sprich!** **Lies!** But a → ä disappears: **du fährst** → **Fahr!** **du schläfst** → **Schlaf!** With many verbs you may also add an **-e** (**Komme!**, **Schlafe!**), but this sounds formal or old-fashioned, and it is never possible with the e → i verbs.\n**sein** is irregular: **Sei!** **Seid!** **Seien Sie!** Separable verbs send the prefix to the end, as always: **Ruf mich an!** **Steh auf!** **Kauft bitte ein!** Add **bitte** to make a request polite.\nCareful: in the Sie form, **Sie** must stay: **Kommen Sie!** In the du form, leave out **du** (**Komm!**, not \"Du komm!\") and drop the **-st** (**Trink!**, not \"Trinkst!\"). Also, \"Ess!\" and \"Fähr!\" are wrong; say **Iss!** and **Fahr!**",
+      "explain": "You first met the Sie-imperative in Unit 7 (Gehen Sie geradeaus!).\nThe imperative is the form for instructions, requests and advice: *Come!* *Please call me!* German has three forms, because there are three ways to say *you*.\nFor **Sie** (polite, one or more people), take the Sie form and put the verb first: **Sie kommen** → **Kommen Sie!** For **ihr** (two or more friends or family members), take the ihr form and leave out **ihr**: **ihr kommt** → **Kommt!** For **du**, take the du form and drop **du** and the ending **-st**: **du kommst** → **Komm!** **du trinkst** → **Trink!** If the stem ends in -s, -ß or -z, only the **-t** goes: **du liest** → **Lies!** **du isst** → **Iss!** Verbs with a stem in -t or -d keep an **e**: **Arbeite!**\nVerbs with the vowel change e → i or e → ie keep it in the du form: **Iss!** **Nimm!** **Sprich!** **Lies!** But a → ä disappears: **du fährst** → **Fahr!** **du schläfst** → **Schlaf!** With many verbs you may also add an **-e** (**Komme!**, **Schlafe!**), but this sounds formal or old-fashioned, and it is never possible with the e → i verbs.\n**sein** is irregular: **Sei!** **Seid!** **Seien Sie!** Separable verbs send the prefix to the end, as always: **Ruf mich an!** **Steh auf!** **Kauft bitte ein!** Add **bitte** to make a request polite.\nCareful: in the Sie form, **Sie** must stay: **Kommen Sie!** In the du form, leave out **du** (**Komm!**, not \"Du komm!\") and drop the **-st** (**Trink!**, not \"Trinkst!\"). Also, \"Ess!\" and \"Fähr!\" are wrong; say **Iss!** and **Fahr!**",
       "table": [
         [
           "infinitive",
@@ -653,7 +752,8 @@
             "Sprech"
           ],
           "answer": 1,
-          "s": "Please speak slowly, Ali!"
+          "s": "Please speak slowly, Ali!",
+          "why": "sprechen keeps the e → i change in the du imperative, without -st: Sprich!"
         },
         {
           "type": "choice",
@@ -664,7 +764,8 @@
             "ruf"
           ],
           "answer": 0,
-          "s": "Mr. Wagner, please call me in the evening!"
+          "s": "Mr. Wagner, please call me in the evening!",
+          "why": "For Sie, use the Sie form first and keep Sie: Rufen Sie … an!"
         },
         {
           "type": "choice",
@@ -675,7 +776,8 @@
             "seid"
           ],
           "answer": 2,
-          "s": "Kids, please be here at six o'clock!"
+          "s": "Kids, please be here at six o'clock!",
+          "why": "The ihr imperative of sein is seid."
         },
         {
           "type": "choice",
@@ -686,7 +788,8 @@
             "isst"
           ],
           "answer": 0,
-          "s": "Lena, please eat the soup!"
+          "s": "Lena, please eat the soup!",
+          "why": "essen keeps the e → i change in the du imperative: Iss!"
         },
         {
           "type": "type",
@@ -696,7 +799,8 @@
             "Komme"
           ],
           "s": "Please come, Mina!",
-          "hint": "kommen"
+          "hint": "kommen",
+          "why": "For du, drop du and the ending -st: du kommst → Komm!"
         },
         {
           "type": "type",
@@ -705,7 +809,8 @@
             "Lies"
           ],
           "s": "Please read the book, Reza!",
-          "hint": "lesen"
+          "hint": "lesen",
+          "why": "lesen keeps the e → ie change, and du liest loses the -st: Lies!"
         },
         {
           "type": "type",
@@ -715,7 +820,8 @@
             "stehe"
           ],
           "s": "Jonas, please get up!",
-          "hint": "aufstehen"
+          "hint": "aufstehen",
+          "why": "For du, drop du and -st: Steh! The prefix auf goes to the end."
         },
         {
           "type": "type",
@@ -724,7 +830,8 @@
             "kauft"
           ],
           "s": "Anna and Lukas, please go shopping!",
-          "hint": "einkaufen"
+          "hint": "einkaufen",
+          "why": "For two people (ihr), use the ihr form without ihr: Kauft … ein!"
         },
         {
           "type": "type",
@@ -734,7 +841,8 @@
             "Schlafe"
           ],
           "s": "Sleep well, Mom!",
-          "hint": "schlafen"
+          "hint": "schlafen",
+          "why": "The a → ä change disappears in the du imperative: du schläfst → Schlaf!"
         },
         {
           "type": "order",
@@ -762,6 +870,32 @@
             "Bitte fahr langsam!",
             "Fahr langsam, bitte!"
           ]
+        },
+        {
+          "type": "type",
+          "task": "Make it a request to a friend.",
+          "cue": "Du rufst mich an.",
+          "t": "___ mich an!",
+          "answer": [
+            "Ruf",
+            "Rufe"
+          ],
+          "s": "Call me!",
+          "why": "For du, drop du and the ending -st: Ruf! The prefix an goes to the end."
+        },
+        {
+          "type": "choice",
+          "task": "Which reply fits?",
+          "cue": "Ich habe Hunger!",
+          "t": "___",
+          "options": [
+            "Iss doch einen Apfel!",
+            "Isst doch einen Apfel!",
+            "Esse doch einen Apfel!"
+          ],
+          "answer": 0,
+          "s": "Eat an apple, then!",
+          "why": "essen keeps the e → i change in the du imperative and loses -st: Iss!"
         }
       ],
       "thead": true
@@ -772,7 +906,7 @@
         "t": "um acht Uhr, am Abend, im Mai",
         "s": "Time expressions: um, am, im, von … bis, ab"
       },
-      "explain": "To say *when* something happens, German uses small prepositions. Each one goes with a certain kind of time expression, and they don't always match English.\n**um** is for clock times: **um sieben Uhr**, **um halb acht**, **um Viertel nach drei**. To ask, say **Wann?** or **Um wie viel Uhr?**\n**am** is for parts of the day and for days: **am Morgen**, **am Abend**, **am Montag**, **am Sonntag**. The days are **Montag**, **Dienstag**, **Mittwoch**, **Donnerstag**, **Freitag**, **Samstag** and **Sonntag**. One exception to remember: **in der Nacht** *at night*.\n**im** is for months and seasons: **im Mai**, **im Juli**, **im Sommer**, **im Winter**.\n**von … bis** gives a start and an end: **von acht bis vier Uhr**, **von Montag bis Freitag**. **ab** gives only the start: **ab neun Uhr** *from nine o'clock on*, **ab Montag** *starting Monday*.\nSome time words need no preposition: **heute**, **heute Abend**, **jeden Tag**. And when a time expression starts the sentence, the verb still comes second: **Am Montag arbeite ich.**\nCareful: English says *at* seven, *on* Monday, *in* the morning and *at* night, so it's easy to mix them up. German says **um sieben Uhr**, **am Montag**, **am Morgen** and **in der Nacht**, and never \"in Mai\" or \"am Mai\". Persian often uses no preposition with clock times, but German needs **um**: **Ich komme um acht Uhr.**",
+      "explain": "You first met um and the days in Unit 6 and im with months in Unit 9.\nTo say *when* something happens, German uses small prepositions. Each one goes with a certain kind of time expression, and they don't always match English.\n**um** is for clock times: **um sieben Uhr**, **um halb acht**, **um Viertel nach drei**. To ask, say **Wann?** or **Um wie viel Uhr?**\n**am** is for parts of the day and for days: **am Morgen**, **am Abend**, **am Montag**, **am Sonntag**. You know the days from Unit 6: **Montag**, **Dienstag**, **Mittwoch**, **Donnerstag**, **Freitag**, **Samstag** and **Sonntag**. One exception to remember: **in der Nacht** *at night*.\n**im** is for months and seasons: **im Mai**, **im Juli**, **im Sommer**, **im Winter**.\n**von … bis** gives a start and an end: **von acht bis vier Uhr**, **von Montag bis Freitag**. **ab** gives only the start: **ab neun Uhr** *from nine o'clock on*, **ab Montag** *starting Monday*.\nSome time words need no preposition: **heute**, **heute Abend**, **jeden Tag**. And when a time expression starts the sentence, the verb still comes second: **Am Montag arbeite ich.**\nCareful: English says *at* seven, *on* Monday, *in* the morning and *at* night, so it's easy to mix them up. German says **um sieben Uhr**, **am Montag**, **am Morgen** and **in der Nacht**, and never \"in Mai\" or \"am Mai\". Persian often uses no preposition with clock times, but German needs **um**: **Ich komme um acht Uhr.**",
       "table": [
         [
           "word",
@@ -846,7 +980,8 @@
             "im"
           ],
           "answer": 0,
-          "s": "I get up at a quarter past six."
+          "s": "I get up at a quarter past six.",
+          "why": "Clock times take um: um Viertel nach sechs."
         },
         {
           "type": "choice",
@@ -857,7 +992,8 @@
             "Im"
           ],
           "answer": 1,
-          "s": "In the evening I like to read."
+          "s": "In the evening I like to read.",
+          "why": "Parts of the day take am: am Abend."
         },
         {
           "type": "choice",
@@ -868,7 +1004,8 @@
             "Im"
           ],
           "answer": 2,
-          "s": "In the summer it's warm."
+          "s": "In the summer it's warm.",
+          "why": "Seasons and months take im: im Sommer."
         },
         {
           "type": "choice",
@@ -879,7 +1016,8 @@
             "Im"
           ],
           "answer": 1,
-          "s": "At night we sleep."
+          "s": "At night we sleep.",
+          "why": "The night is the exception: in der Nacht."
         },
         {
           "type": "choice",
@@ -890,7 +1028,8 @@
             "Ab"
           ],
           "answer": 2,
-          "s": "From seven o'clock on, the children play soccer."
+          "s": "From seven o'clock on, the children play soccer.",
+          "why": "Ab gives only the start: ab sieben Uhr (from seven on)."
         },
         {
           "type": "type",
@@ -898,7 +1037,8 @@
           "answer": [
             "von"
           ],
-          "s": "I study German from seven to eight o'clock."
+          "s": "I study German from seven to eight o'clock.",
+          "why": "Start and end are von … bis."
         },
         {
           "type": "type",
@@ -906,7 +1046,8 @@
           "answer": [
             "am"
           ],
-          "s": "My birthday is on Sunday."
+          "s": "My birthday is on Sunday.",
+          "why": "Days take am: am Sonntag."
         },
         {
           "type": "type",
@@ -914,7 +1055,8 @@
           "answer": [
             "um"
           ],
-          "s": "The bus comes at eight thirty."
+          "s": "The bus comes at eight thirty.",
+          "why": "Clock times take um: um halb neun."
         },
         {
           "type": "type",
@@ -922,7 +1064,8 @@
           "answer": [
             "im"
           ],
-          "s": "Maryam's birthday is in April."
+          "s": "Maryam's birthday is in April.",
+          "why": "Months take im: im April."
         },
         {
           "type": "order",
@@ -947,6 +1090,31 @@
           "alts": [
             "Herr Wagner arbeitet von Montag bis Freitag."
           ]
+        },
+        {
+          "type": "type",
+          "task": "Use am Wochenende.",
+          "cue": "Am Samstag und am Sonntag arbeite ich nicht.",
+          "t": "___ arbeite ich nicht.",
+          "answer": [
+            "Am Wochenende"
+          ],
+          "s": "I don't work on the weekend.",
+          "why": "Samstag and Sonntag are the weekend. Like the days, it takes am: am Wochenende."
+        },
+        {
+          "type": "choice",
+          "task": "Which reply fits?",
+          "cue": "Arbeitest du am Wochenende?",
+          "t": "___",
+          "options": [
+            "Nein, ich arbeite von Montag bis Freitag.",
+            "Nein, ich arbeite um Montag bis Freitag.",
+            "Nein, ich arbeite im Montag bis Freitag."
+          ],
+          "answer": 0,
+          "s": "No, I work from Monday to Friday.",
+          "why": "Start and end are von … bis: von Montag bis Freitag."
         }
       ],
       "thead": true

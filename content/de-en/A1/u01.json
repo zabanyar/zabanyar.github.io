@@ -19,6 +19,7 @@
       "pl": "die Namen",
       "s": "name",
       "emoji": "📛",
+      "sym": true,
       "ex": {
         "t": "Mein Name ist Reza.",
         "s": "My name is Reza."
@@ -141,6 +142,7 @@
       "t": "gut",
       "s": "good; well",
       "emoji": "👍",
+      "sym": true,
       "ex": {
         "t": "Danke, gut!",
         "s": "Fine, thanks!"
@@ -154,6 +156,26 @@
       "ex": {
         "t": "Ich komme auch aus dem Iran.",
         "s": "I'm from Iran, too."
+      }
+    },
+    {
+      "id": "w15",
+      "t": "sprechen",
+      "s": "to speak (du sprichst, er spricht)",
+      "emoji": "🗣️",
+      "ex": {
+        "t": "Sprechen Sie Deutsch?",
+        "s": "Do you speak German?"
+      }
+    },
+    {
+      "id": "w16",
+      "t": "Persisch",
+      "s": "Persian (the language)",
+      "emoji": "",
+      "ex": {
+        "t": "Wir sprechen Persisch.",
+        "s": "We speak Persian."
       }
     }
   ],
@@ -325,7 +347,8 @@
             "ist"
           ],
           "answer": 0,
-          "s": "I'm Sara."
+          "s": "I'm Sara.",
+          "why": "With ich, sein is always bin: ich bin."
         },
         {
           "type": "choice",
@@ -336,7 +359,8 @@
             "sind"
           ],
           "answer": 1,
-          "s": "Lukas is from Germany."
+          "s": "Lukas is from Germany.",
+          "why": "Lukas is one person (er), so the form is ist."
         },
         {
           "type": "choice",
@@ -347,15 +371,19 @@
             "bist"
           ],
           "answer": 0,
-          "s": "Ms. Müller, are you from Hamburg?"
+          "s": "Ms. Müller, are you from Hamburg?",
+          "why": "Polite Sie always takes sind: Sind Sie …?"
         },
         {
           "type": "type",
-          "t": "Du ___ Ali.",
+          "task": "Make it a question.",
+          "cue": "Du bist aus Berlin.",
+          "t": "___ aus Berlin?",
           "answer": [
-            "bist"
+            "Bist du"
           ],
-          "s": "You are Ali."
+          "s": "Are you from Berlin?",
+          "why": "In a yes/no question the verb comes first: Bist du …? With du, sein is bist."
         },
         {
           "type": "type",
@@ -363,7 +391,8 @@
           "answer": [
             "ist"
           ],
-          "s": "This is Maryam."
+          "s": "This is Maryam.",
+          "why": "Das ist … introduces a person or a thing: Das ist Maryam."
         },
         {
           "type": "order",
@@ -371,9 +400,18 @@
           "s": "I'm from Iran."
         },
         {
-          "type": "order",
-          "t": "Sind Sie Herr Schmidt?",
-          "s": "Are you Mr. Schmidt?"
+          "type": "choice",
+          "task": "Which reply fits?",
+          "cue": "Sind Sie Frau Müller?",
+          "t": "___",
+          "options": [
+            "Ja, ich bin Frau Müller.",
+            "Ja, ich ist Frau Müller.",
+            "Ja, Sie sind Frau Müller."
+          ],
+          "answer": 0,
+          "s": "Yes, I'm Ms. Müller.",
+          "why": "Answer about yourself with ich bin. Sie sind means 'you are'."
         }
       ]
     },
@@ -438,7 +476,8 @@
             "heiße"
           ],
           "answer": 0,
-          "s": "What's your name? (polite)"
+          "s": "What's your name? (polite)",
+          "why": "With polite Sie the verb ends in -en: Wie heißen Sie?"
         },
         {
           "type": "choice",
@@ -449,7 +488,8 @@
             "komme"
           ],
           "answer": 0,
-          "s": "Where are you from?"
+          "s": "Where are you from?",
+          "why": "With du the verb ends in -st: du kommst."
         },
         {
           "type": "choice",
@@ -460,7 +500,8 @@
             "kommt"
           ],
           "answer": 1,
-          "s": "Mr. Schmidt, where are you from?"
+          "s": "Mr. Schmidt, where are you from?",
+          "why": "You say Sie to Herr Schmidt, so the verb is kommen."
         },
         {
           "type": "choice",
@@ -470,7 +511,8 @@
             "Ihnen"
           ],
           "answer": 1,
-          "s": "Hello, Ms. Müller! How are you?"
+          "s": "Hello, Ms. Müller! How are you?",
+          "why": "You say Sie to Frau Müller, so use Ihnen. Dir is for friends and family."
         },
         {
           "type": "type",
@@ -479,7 +521,8 @@
             "heißt",
             "heisst"
           ],
-          "s": "What's your name?"
+          "s": "What's your name?",
+          "why": "heißen only adds -t with du, because ß already sounds like s: du heißt."
         },
         {
           "type": "type",
@@ -488,17 +531,34 @@
             "kommt",
             "ist"
           ],
-          "s": "Lukas is from Germany."
+          "s": "Lukas is from Germany.",
+          "why": "After er/sie (Lukas) the verb ends in -t: Lukas kommt. Lukas ist aus … is also right."
         },
         {
-          "type": "order",
-          "t": "Woher kommen Sie?",
-          "s": "Where are you from? (polite)"
+          "type": "type",
+          "task": "Ask the same question politely.",
+          "cue": "Wie heißt du?",
+          "t": "Wie ___?",
+          "answer": [
+            "heißen Sie",
+            "heissen Sie"
+          ],
+          "s": "What's your name? (polite)",
+          "why": "With polite Sie the verb ends in -en and Sie follows it: Wie heißen Sie?"
         },
         {
-          "type": "order",
-          "t": "Ich heiße Maryam Karimi.",
-          "s": "My name is Maryam Karimi."
+          "type": "choice",
+          "task": "Which reply fits?",
+          "cue": "Woher kommen Sie, Frau Ahmadi?",
+          "t": "___",
+          "options": [
+            "Aus dem Iran, aus Isfahan.",
+            "Ich heiße Maryam Ahmadi.",
+            "Danke, gut."
+          ],
+          "answer": 0,
+          "s": "From Iran, from Isfahan.",
+          "why": "Woher? asks where someone is from. Answer with aus: aus dem Iran."
         }
       ]
     }
@@ -578,6 +638,18 @@
           "aus Hamburg"
         ],
         "answer": 2
+      },
+      {
+        "q": {
+          "t": "Wo ist Hamburg?",
+          "s": "Where is Hamburg?"
+        },
+        "options": [
+          "in Deutschland",
+          "im Iran",
+          "in Berlin"
+        ],
+        "answer": 0
       }
     ]
   },

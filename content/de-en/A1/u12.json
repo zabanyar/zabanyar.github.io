@@ -21,7 +21,7 @@
         "t": "der Tisch, die Lampe, das Bett",
         "s": "Gender: der, die, das"
       },
-      "explain": "Every German noun has a grammatical gender: **der** (masculine), **die** (feminine) or **das** (neuter). The gender belongs to the word, not to the thing: a table is **der Tisch**, a lamp is **die Lampe**, a bed is **das Bett**. So always learn a noun together with its article.\nThe word for *a* / *an* follows the gender: **ein** for der- and das-nouns, **eine** for die-nouns: **ein Tisch**, **eine Lampe**, **ein Bett**. A pronoun follows the gender too: **der Tisch → er**, **die Lampe → sie**, **das Bett → es**. So **er** and **sie** can mean *it*: Wo ist die Lampe? **Sie** ist hier. In everyday speech, **der**, **die**, **das** are also used this way: Der Mantel? **Der** ist teuer.\nSome clues help, but they are only tendencies. Nouns ending in **-ung**, **-heit** and **-keit** are nearly always die: **die Wohnung**, **die Gesundheit** (*health*). Most nouns ending in **-e** are die: **die Suppe**, **die Tasche** – but not all: **der Käse**, **der Name**. The small-making ending **-chen** always gives das: **das Hähnchen**, **das Mädchen** (*girl*). Days, months and seasons are der: **der Mai**, **der Sommer**. Words for men are usually der and words for women die (**der Vater**, **die Mutter**), but **das Kind**, **das Baby** and **das Mädchen** are das. In a compound noun, the last part decides: **das Zimmer → das Schlafzimmer**.\nCareful: Persian has no der/die/das, and English says *it* for every thing. Don't use **es** for everything: Der Tisch ist neu. **Er** ist groß. With **das Kind** the pronoun is **es**, even for a girl: Das Kind heißt Mina. **Es** ist zwölf. Many people say **sie** here, too.",
+      "explain": "You first met der, die, das in Unit 3 and er, sie, es for things in Unit 5.\nEvery German noun has a grammatical gender: **der** (masculine), **die** (feminine) or **das** (neuter). The gender belongs to the word, not to the thing: a table is **der Tisch**, a lamp is **die Lampe**, a bed is **das Bett**. So always learn a noun together with its article.\nThe word for *a* / *an* follows the gender: **ein** for der- and das-nouns, **eine** for die-nouns: **ein Tisch**, **eine Lampe**, **ein Bett**. A pronoun follows the gender too: **der Tisch → er**, **die Lampe → sie**, **das Bett → es**. So **er** and **sie** can mean *it*: Wo ist die Lampe? **Sie** ist hier. In everyday speech, **der**, **die**, **das** are also used this way: Der Mantel? **Der** ist teuer.\nSome clues help, but they are only tendencies. Nouns ending in **-ung**, **-heit** and **-keit** are nearly always die: **die Wohnung**, **die Gesundheit** (*health*). Most nouns ending in **-e** are die: **die Suppe**, **die Tasche** – but not all: **der Käse**, **der Name**. The small-making ending **-chen** always gives das: **das Hähnchen**, **das Mädchen** (*girl*). Days, months and seasons are der: **der Mai**, **der Sommer**. Words for men are usually der and words for women die (**der Vater**, **die Mutter**), but **das Kind**, **das Baby** and **das Mädchen** are das. In a compound noun, the last part decides: **das Zimmer → das Schlafzimmer**.\nCareful: Persian has no der/die/das, and English says *it* for every thing. Don't use **es** for everything: Der Tisch ist neu. **Er** ist groß. With **das Kind** the pronoun is **es**, even for a girl: Das Kind heißt Mina. **Es** ist zwölf. Many people say **sie** here, too.",
       "table": [
         [
           "der",
@@ -85,7 +85,8 @@
             "einen"
           ],
           "answer": 1,
-          "s": "This is a lamp."
+          "s": "This is a lamp.",
+          "why": "Lampe is a die-noun, so a is eine."
         },
         {
           "type": "choice",
@@ -96,7 +97,8 @@
             "Es"
           ],
           "answer": 0,
-          "s": "Where is the chair? – It's in the kitchen."
+          "s": "Where is the chair? – It's in the kitchen.",
+          "why": "Stuhl is a der-noun, so the pronoun is er – also for things."
         },
         {
           "type": "choice",
@@ -107,7 +109,8 @@
             "Das"
           ],
           "answer": 1,
-          "s": "The apartment is big."
+          "s": "The apartment is big.",
+          "why": "Nouns ending in -ung are die-nouns: die Wohnung."
         },
         {
           "type": "choice",
@@ -118,7 +121,8 @@
             "einen"
           ],
           "answer": 0,
-          "s": "This is a chicken."
+          "s": "This is a chicken.",
+          "why": "Nouns in -chen are das-nouns, so a is ein: ein Hähnchen."
         },
         {
           "type": "choice",
@@ -129,7 +133,8 @@
             "Es"
           ],
           "answer": 2,
-          "s": "The window is big. It's in the living room."
+          "s": "The window is big. It's in the living room.",
+          "why": "Fenster is a das-noun, so the pronoun is es."
         },
         {
           "type": "type",
@@ -137,7 +142,8 @@
           "answer": [
             "Die"
           ],
-          "s": "The school is on the left."
+          "s": "The school is on the left.",
+          "why": "Schule ends in -e and is a die-noun: die Schule."
         },
         {
           "type": "type",
@@ -145,7 +151,8 @@
           "answer": [
             "das"
           ],
-          "s": "Here is the bathroom."
+          "s": "Here is the bathroom.",
+          "why": "Bad is a das-noun: das Bad."
         },
         {
           "type": "type",
@@ -153,7 +160,8 @@
           "answer": [
             "eine"
           ],
-          "s": "This is a bag."
+          "s": "This is a bag.",
+          "why": "Tasche is a die-noun, so a is eine."
         },
         {
           "type": "type",
@@ -162,7 +170,8 @@
             "Er",
             "Der"
           ],
-          "s": "The coat is black. It's expensive."
+          "s": "The coat is black. It's expensive.",
+          "why": "Mantel is a der-noun, so it is er (or der in everyday speech)."
         },
         {
           "type": "order",
@@ -184,6 +193,32 @@
           "alts": [
             "Ein Auto hat mein Bruder."
           ]
+        },
+        {
+          "type": "type",
+          "task": "Replace die Lampe with a pronoun.",
+          "cue": "Die Lampe ist neu.",
+          "t": "___ ist neu.",
+          "answer": [
+            "Sie",
+            "Die"
+          ],
+          "s": "It's new.",
+          "why": "Lampe is a die-noun, so the pronoun is sie – even for a thing."
+        },
+        {
+          "type": "choice",
+          "task": "Which reply fits?",
+          "cue": "Wo ist mein Mantel?",
+          "t": "___",
+          "options": [
+            "Er ist im Schrank.",
+            "Es ist im Schrank.",
+            "Sie ist im Schrank."
+          ],
+          "answer": 0,
+          "s": "It's in the closet.",
+          "why": "Mantel is a der-noun, so it is er."
         }
       ],
       "thead": true
@@ -194,7 +229,7 @@
         "t": "ein Tisch, zwei Tische",
         "s": "Plural forms"
       },
-      "explain": "German nouns have several plural endings, not just one. The good news: in the plural the article is always **die**, for der-, die- and das-nouns: **der Tisch → die Tische**, **die Lampe → die Lampen**, **das Kind → die Kinder**. **ein** has no plural: ein Apfel, but just **Äpfel**.\nThere are five main patterns. **-e**, often with an umlaut: der Tisch → Tische, der Stuhl → Stühle. **-n** or **-en**: die Lampe → Lampen, die Frau → Frauen, das Bett → Betten. **-er**, with an umlaut on a, o, u, au: das Kind → Kinder, der Mann → Männer, das Haus → Häuser. **-s**, mostly for words from other languages and words ending in -a, -i, -o, -y: das Sofa → Sofas, das Auto → Autos, das Baby → Babys. **No ending**, sometimes with an umlaut, mostly for der- and das-nouns ending in -er, -el, -en and for -chen: das Zimmer → Zimmer, der Apfel → Äpfel, der Vater → Väter.\nSome tendencies help: most die-nouns take **-n** or **-en**, and nouns ending in **-e** or **-ung** almost always do. Many der-nouns take **-e**. But there are exceptions, like **die Mutter → die Mütter** and **die Tochter → die Töchter**, so learn every noun with its plural: **der Stuhl, die Stühle**.\nCareful: In Persian you use the singular after a number (*se ketāb*), but in German you need the plural: **drei Kinder**, **zwei Zimmer**. A few words for money and measures stay singular: **zwanzig Euro**, **zwanzig Grad**. And the verb is plural too: Die Kinder **sind** hier.",
+      "explain": "Every noun in the word lists comes with its plural, and Unit 3 showed that the plural article is die.\nGerman nouns have several plural endings, not just one. The good news: in the plural the article is always **die**, for der-, die- and das-nouns: **der Tisch → die Tische**, **die Lampe → die Lampen**, **das Kind → die Kinder**. **ein** has no plural: ein Apfel, but just **Äpfel**.\nThere are five main patterns. **-e**, often with an umlaut: der Tisch → Tische, der Stuhl → Stühle. **-n** or **-en**: die Lampe → Lampen, die Frau → Frauen, das Bett → Betten. **-er**, with an umlaut on a, o, u, au: das Kind → Kinder, der Mann → Männer, das Haus → Häuser. **-s**, mostly for words from other languages and words ending in -a, -i, -o, -y: das Sofa → Sofas, das Auto → Autos, das Baby → Babys. **No ending**, sometimes with an umlaut, mostly for der- and das-nouns ending in -er, -el, -en and for -chen: das Zimmer → Zimmer, der Apfel → Äpfel, der Vater → Väter.\nSome tendencies help: most die-nouns take **-n** or **-en**, and nouns ending in **-e** or **-ung** almost always do. Many der-nouns take **-e**. But there are exceptions, like **die Mutter → die Mütter** and **die Tochter → die Töchter**, so learn every noun with its plural: **der Stuhl, die Stühle**.\nCareful: In Persian you use the singular after a number (*se ketāb*), but in German you need the plural: **drei Kinder**, **zwei Zimmer**. A few words for money and measures stay singular: **zwanzig Euro**, **zwanzig Grad**. And the verb is plural too: Die Kinder **sind** hier.",
       "table": [
         [
           "Endung",
@@ -278,7 +313,8 @@
             "Bruders"
           ],
           "answer": 1,
-          "s": "I have two brothers."
+          "s": "I have two brothers.",
+          "why": "Bruder only adds an umlaut in the plural: die Brüder."
         },
         {
           "type": "choice",
@@ -289,7 +325,8 @@
             "Das"
           ],
           "answer": 1,
-          "s": "The lamps are new."
+          "s": "The lamps are new.",
+          "why": "In the plural the article is always die."
         },
         {
           "type": "choice",
@@ -300,7 +337,8 @@
             "bist"
           ],
           "answer": 1,
-          "s": "The children are in the park."
+          "s": "The children are in the park.",
+          "why": "Die Kinder is plural, so the verb is plural too: sind."
         },
         {
           "type": "choice",
@@ -311,7 +349,8 @@
             "Hobbies"
           ],
           "answer": 1,
-          "s": "Mina has two hobbies."
+          "s": "Mina has two hobbies.",
+          "why": "Words ending in -y take -s: das Hobby, die Hobbys (not 'Hobbies')."
         },
         {
           "type": "type",
@@ -320,7 +359,8 @@
             "Zimmer"
           ],
           "s": "The house has three rooms.",
-          "hint": "das Zimmer"
+          "hint": "das Zimmer",
+          "why": "Das-nouns in -er have no plural ending: die Zimmer."
         },
         {
           "type": "type",
@@ -330,7 +370,8 @@
             "Aepfel"
           ],
           "s": "I'm buying four apples.",
-          "hint": "der Apfel"
+          "hint": "der Apfel",
+          "why": "Apfel only adds an umlaut in the plural: die Äpfel."
         },
         {
           "type": "type",
@@ -339,17 +380,19 @@
             "Taschen"
           ],
           "s": "Where are the bags?",
-          "hint": "die Tasche"
+          "hint": "die Tasche",
+          "why": "Most die-nouns in -e add -n: die Taschen."
         },
         {
           "type": "type",
-          "t": "Reza hat zwei ___.",
+          "t": "Jonas hat zwei ___.",
           "answer": [
             "Töchter",
             "Toechter"
           ],
-          "s": "Reza has two daughters.",
-          "hint": "die Tochter"
+          "s": "Jonas has two daughters.",
+          "hint": "die Tochter",
+          "why": "Tochter only adds an umlaut in the plural: die Töchter."
         },
         {
           "type": "type",
@@ -358,7 +401,8 @@
             "Kleider"
           ],
           "s": "There are five dresses in the closet.",
-          "hint": "das Kleid"
+          "hint": "das Kleid",
+          "why": "Kleid takes -er in the plural: die Kleider."
         },
         {
           "type": "order",
@@ -380,6 +424,31 @@
           "alts": [
             "Zwei Autos haben meine Eltern."
           ]
+        },
+        {
+          "type": "type",
+          "task": "Say you have three.",
+          "cue": "Ich habe ein Kind.",
+          "t": "Ich habe drei ___.",
+          "answer": [
+            "Kinder"
+          ],
+          "s": "I have three children.",
+          "why": "Kind takes -er in the plural: die Kinder. After a number you need the plural."
+        },
+        {
+          "type": "choice",
+          "task": "Which reply fits?",
+          "cue": "Wie viele Zimmer hat die Wohnung?",
+          "t": "___",
+          "options": [
+            "Sie hat vier Zimmer.",
+            "Sie hat vier Zimmers.",
+            "Sie hat vier Zimmern."
+          ],
+          "answer": 0,
+          "s": "It has four rooms.",
+          "why": "Nouns in -er like Zimmer have no plural ending: das Zimmer, die Zimmer."
         }
       ],
       "thead": true
@@ -390,7 +459,7 @@
         "t": "Ich brauche einen Stuhl.",
         "s": "The accusative"
       },
-      "explain": "In a sentence, the **subject** does the action, and the **object** is the person or thing the action goes to. In **Der Mann kauft einen Tisch**, the man is the subject (nominative) and the table is the object. The object of most verbs is in the **accusative**.\nOnly der-nouns change in the accusative: **der → den**, **ein → einen**, **kein → keinen**, **mein → meinen**. Die-nouns, das-nouns and plurals look the same as in the nominative: **die Lampe**, **das Bett**, **die Schuhe**. So: Ich habe **einen** Bruder, **eine** Schwester und **ein** Kind.\nMany everyday verbs take the accusative: **haben**, **brauchen** (*to need*), **kaufen**, **nehmen**, **sehen**, **möchten**, **suchen**, **essen**, **trinken** – and **es gibt** (*there is*, *there are*): Es gibt **einen** Park. Because the article shows the case, the object can even come first: **Den Mantel** kaufe ich. The verb stays in position two.\nCareful: **sein** never takes the accusative. After **ist** and **sind**, use the nominative: Das ist **ein** Tisch, not \"einen Tisch\". Persian marks a definite object with *rā*, and English shows the object only in pronouns like *him*. In German, look at the article: when a der-noun is the object, you need **den**, **einen**, **keinen** or **meinen**.",
+      "explain": "You first met the accusative in Unit 5 (Es gibt einen Tisch) and Unit 8 (Ich nehme den Mantel).\nIn a sentence, the **subject** does the action, and the **object** is the person or thing the action goes to. In **Der Mann kauft einen Tisch**, the man is the subject (nominative) and the table is the object. The object of most verbs is in the **accusative**.\nOnly der-nouns change in the accusative: **der → den**, **ein → einen**, **kein → keinen**, **mein → meinen**. Die-nouns, das-nouns and plurals look the same as in the nominative: **die Lampe**, **das Bett**, **die Schuhe**. So: Ich habe **einen** Bruder, **eine** Schwester und **ein** Kind.\nMany everyday verbs take the accusative: **haben**, **brauchen** (*to need*), **kaufen**, **nehmen**, **sehen**, **möchten**, **suchen**, **essen**, **trinken** – and **es gibt** (*there is*, *there are*): Es gibt **einen** Park. Because the article shows the case, the object can even come first: **Den Mantel** kaufe ich. The verb stays in position two.\nCareful: **sein** never takes the accusative. After **ist** and **sind**, use the nominative: Das ist **ein** Tisch, not \"einen Tisch\". Persian marks a definite object with *rā*, and English shows the object only in pronouns like *him*. In German, look at the article: when a der-noun is the object, you need **den**, **einen**, **keinen** or **meinen**.",
       "table": [
         [
           "Nominativ",
@@ -461,7 +530,8 @@
             "einen"
           ],
           "answer": 2,
-          "s": "I need a table."
+          "s": "I need a table.",
+          "why": "Tisch is a der-noun and the object of brauchen, so ein becomes einen."
         },
         {
           "type": "choice",
@@ -472,7 +542,8 @@
             "das"
           ],
           "answer": 1,
-          "s": "Do you see the bus?"
+          "s": "Do you see the bus?",
+          "why": "Bus is a der-noun and the object of sehen, so der becomes den."
         },
         {
           "type": "choice",
@@ -483,7 +554,8 @@
             "der"
           ],
           "answer": 0,
-          "s": "We're buying the lamp."
+          "s": "We're buying the lamp.",
+          "why": "Lampe is a die-noun. Die-nouns don't change in the accusative."
         },
         {
           "type": "choice",
@@ -494,7 +566,8 @@
             "eine"
           ],
           "answer": 0,
-          "s": "That's a coat."
+          "s": "That's a coat.",
+          "why": "sein never takes the accusative. After ist, use the nominative: ein Mantel."
         },
         {
           "type": "choice",
@@ -505,7 +578,8 @@
             "eine"
           ],
           "answer": 1,
-          "s": "Is there a supermarket here?"
+          "s": "Is there a supermarket here?",
+          "why": "es gibt takes the accusative: einen Supermarkt."
         },
         {
           "type": "type",
@@ -514,7 +588,8 @@
             "den"
           ],
           "s": "I'll have the salad.",
-          "hint": "der Salat"
+          "hint": "der Salat",
+          "why": "Salat is a der-noun and the object, so der becomes den."
         },
         {
           "type": "type",
@@ -523,7 +598,8 @@
             "einen"
           ],
           "s": "Do you have a brother?",
-          "hint": "der Bruder"
+          "hint": "der Bruder",
+          "why": "After haben, a der-noun takes einen."
         },
         {
           "type": "type",
@@ -532,7 +608,8 @@
             "keinen"
           ],
           "s": "Maryam doesn't drink coffee.",
-          "hint": "der Kaffee"
+          "hint": "der Kaffee",
+          "why": "Kaffee is a der-noun and the object, so kein becomes keinen."
         },
         {
           "type": "type",
@@ -541,7 +618,8 @@
             "ein"
           ],
           "s": "There's a hospital in the city.",
-          "hint": "das Krankenhaus"
+          "hint": "das Krankenhaus",
+          "why": "Krankenhaus is a das-noun. Das-nouns don't change: ein Krankenhaus."
         },
         {
           "type": "order",
@@ -563,6 +641,31 @@
           "type": "order",
           "t": "Möchtest du einen Apfel?",
           "s": "Would you like an apple?"
+        },
+        {
+          "type": "type",
+          "task": "Say you'll buy it: Ich kaufe …",
+          "cue": "Der Tisch ist schön.",
+          "t": "Ich kaufe ___ Tisch.",
+          "answer": [
+            "den"
+          ],
+          "s": "I'll buy the table.",
+          "why": "The table is now the object of kaufen, so der becomes den."
+        },
+        {
+          "type": "choice",
+          "task": "Which reply fits?",
+          "cue": "Was brauchst du?",
+          "t": "___",
+          "options": [
+            "Ich brauche einen Stuhl.",
+            "Ich brauche ein Stuhl.",
+            "Ich brauche einer Stuhl."
+          ],
+          "answer": 0,
+          "s": "I need a chair.",
+          "why": "brauchen takes the accusative. Stuhl is a der-noun, so ein becomes einen."
         }
       ],
       "thead": true
@@ -573,7 +676,7 @@
         "t": "nicht oder kein?",
         "s": "Negation: nicht or kein"
       },
-      "explain": "German has two main words for *not*. **kein** means *no*, *not a* or *not any* and goes in front of a noun. **nicht** means *not* and negates everything else: a verb, an adjective, a place, a name, or a noun with **der**, **die**, **das** or **mein**.\nUse **kein** when the positive sentence has **ein** or no article: Ich habe ein Auto → Ich habe **kein** Auto. Ich habe Zeit → Ich habe **keine** Zeit. **kein** has the same endings as **ein**, and in the plural it is **keine**: Wir haben **keine** Eier. In the accusative, der-nouns take **keinen**: Ich trinke **keinen** Kaffee.\nUse **nicht** in all other cases: Ich komme **nicht**. Das ist **nicht** teuer. Das ist **nicht** mein Bruder. Ali wohnt **nicht** in Berlin.\nWhere does nicht go? In a simple sentence it often goes to the end, after the object: Ich schlafe **nicht**. Ich nehme den Mantel **nicht**. But it comes before an adjective (**nicht** kalt), before a place (**nicht** in Berlin) and before the second part of the verb: Ich kann **nicht** schwimmen. Ich stehe **nicht** auf.\nCareful: Don't say \"nicht ein\": it is Ich habe **kein** Auto. Persian puts the negation on the verb (*nadāram*), so Persian speakers often put nicht right before the verb. In German the verb stays in position two and nicht comes later: Ich **arbeite** heute **nicht**.",
+      "explain": "You first met kein in Unit 4 and nicht gern in Unit 10.\nGerman has two main words for *not*. **kein** means *no*, *not a* or *not any* and goes in front of a noun. **nicht** means *not* and negates everything else: a verb, an adjective, a place, a name, or a noun with **der**, **die**, **das** or **mein**.\nUse **kein** when the positive sentence has **ein** or no article: Ich habe ein Auto → Ich habe **kein** Auto. Ich habe Zeit → Ich habe **keine** Zeit. **kein** has the same endings as **ein**, and in the plural it is **keine**: Wir haben **keine** Eier. In the accusative, der-nouns take **keinen**: Ich trinke **keinen** Kaffee.\nUse **nicht** in all other cases: Ich komme **nicht**. Das ist **nicht** teuer. Das ist **nicht** mein Bruder. Ali wohnt **nicht** in Berlin.\nWhere does nicht go? In a simple sentence it often goes to the end, after the object: Ich schlafe **nicht**. Ich nehme den Mantel **nicht**. But it comes before an adjective (**nicht** kalt), before a place (**nicht** in Berlin) and before the second part of the verb: Ich kann **nicht** schwimmen. Ich stehe **nicht** auf.\nCareful: Don't say \"nicht ein\": it is Ich habe **kein** Auto. Persian puts the negation on the verb (*nadāram*), so Persian speakers often put nicht right before the verb. In German the verb stays in position two and nicht comes later: Ich **arbeite** heute **nicht**.",
       "table": [
         [
           "positiv",
@@ -644,7 +747,8 @@
             "keine"
           ],
           "answer": 1,
-          "s": "That's not an apple, it's a tomato."
+          "s": "That's not an apple, it's a tomato.",
+          "why": "The positive is ein Apfel, so the negative is kein Apfel."
         },
         {
           "type": "choice",
@@ -655,7 +759,8 @@
             "keine"
           ],
           "answer": 0,
-          "s": "The apartment isn't big."
+          "s": "The apartment isn't big.",
+          "why": "To negate an adjective, use nicht: nicht groß."
         },
         {
           "type": "choice",
@@ -666,7 +771,8 @@
             "keine"
           ],
           "answer": 2,
-          "s": "We don't have any milk."
+          "s": "We don't have any milk.",
+          "why": "Milch has no article and is a die-noun, so it is keine Milch."
         },
         {
           "type": "choice",
@@ -677,18 +783,20 @@
             "keine"
           ],
           "answer": 1,
-          "s": "I don't have a brother."
+          "s": "I don't have a brother.",
+          "why": "Bruder is a der-noun and the object of haben, so it is keinen."
         },
         {
           "type": "choice",
-          "t": "Sara wohnt ___ in Köln.",
+          "t": "Anna wohnt ___ in Köln.",
           "options": [
             "nicht",
             "kein",
             "keine"
           ],
           "answer": 0,
-          "s": "Sara doesn't live in Cologne."
+          "s": "Anna doesn't live in Cologne.",
+          "why": "To negate a place, use nicht before it: nicht in Köln."
         },
         {
           "type": "type",
@@ -697,7 +805,8 @@
             "kein"
           ],
           "s": "I don't have a car.",
-          "hint": "nicht oder kein"
+          "hint": "nicht oder kein",
+          "why": "The positive is ein Auto, so the negative is kein Auto."
         },
         {
           "type": "type",
@@ -706,7 +815,8 @@
             "nicht"
           ],
           "s": "The coffee isn't hot.",
-          "hint": "nicht oder kein"
+          "hint": "nicht oder kein",
+          "why": "heiß is an adjective, so use nicht."
         },
         {
           "type": "type",
@@ -715,7 +825,8 @@
             "nicht"
           ],
           "s": "I don't watch TV in the evening.",
-          "hint": "nicht oder kein"
+          "hint": "nicht oder kein",
+          "why": "To negate a verb, use nicht. It comes before the prefix fern."
         },
         {
           "type": "type",
@@ -724,7 +835,8 @@
             "keinen"
           ],
           "s": "There's no supermarket here.",
-          "hint": "nicht oder kein"
+          "hint": "nicht oder kein",
+          "why": "Supermarkt is a der-noun after es gibt (accusative), so it is keinen."
         },
         {
           "type": "order",
@@ -743,6 +855,31 @@
           "type": "order",
           "t": "Ist das nicht dein Schal?",
           "s": "Isn't that your scarf?"
+        },
+        {
+          "type": "type",
+          "task": "Make it negative.",
+          "cue": "Ich habe Zeit.",
+          "t": "Ich habe ___ Zeit.",
+          "answer": [
+            "keine"
+          ],
+          "s": "I don't have time.",
+          "why": "A noun without an article is negated with kein. Zeit is a die-noun: keine Zeit."
+        },
+        {
+          "type": "choice",
+          "task": "Which reply fits?",
+          "cue": "Kommst du heute?",
+          "t": "___",
+          "options": [
+            "Nein, ich komme heute nicht.",
+            "Nein, ich komme heute kein.",
+            "Nein, ich nicht komme heute."
+          ],
+          "answer": 0,
+          "s": "No, I'm not coming today.",
+          "why": "To negate a verb, use nicht. Here it goes at the end; the verb stays in position 2."
         }
       ],
       "thead": true
@@ -753,7 +890,7 @@
         "t": "mein, dein, sein, ihr …",
         "s": "Possessive articles"
       },
-      "explain": "Possessive articles say whose something is: **mein** (*my*), **dein** (*your*, informal), **sein** (*his*), **ihr** (*her*), **unser** (*our*), **euer** (*your*, plural), **ihr** (*their*) and **Ihr** (*your*, polite, with a capital I). For things, the owner's gender counts: der Tisch or das Haus → **sein**, die Stadt → **ihr**.\nTwo questions decide the form. First: who is the owner? That gives you the word: Ali → **sein**, Sara → **ihr**. Second: which noun comes after it? That gives you the ending, exactly like **ein**: **mein** Bruder (der), **meine** Schwester (die), **mein** Kind (das), **meine** Eltern (plural). In the accusative only der-nouns change: Ich rufe **meinen** Bruder an.\n**euer** loses its second e when it gets an ending: **eure** Wohnung, **euren** Tisch. **unser** keeps it: **unsere** Wohnung, **unseren** Tisch. As a possessive, **ihr** has three meanings: *her*, *their* and, with a capital I, polite *your*: Sara und **ihr** Bruder, die Kinder und **ihre** Mutter, Wie ist **Ihr** Name?\nCareful: The ending depends on the noun, not on the owner. *Ali and his mother* is **Ali und seine Mutter** (seine because of die Mutter), and *Sara and her brother* is **Sara und ihr Bruder**. In Persian, *-ash* means both *his* and *her*, so always check the owner: a man → **sein**, a woman → **ihr**.",
+      "explain": "You first met mein, dein and Ihr in Unit 3.\nPossessive articles say whose something is: **mein** (*my*), **dein** (*your*, informal), **sein** (*his*), **ihr** (*her*), **unser** (*our*), **euer** (*your*, plural), **ihr** (*their*) and **Ihr** (*your*, polite, with a capital I). For things, the owner's gender counts: der Tisch or das Haus → **sein**, die Stadt → **ihr**.\nTwo questions decide the form. First: who is the owner? That gives you the word: Ali → **sein**, Sara → **ihr**. Second: which noun comes after it? That gives you the ending, exactly like **ein**: **mein** Bruder (der), **meine** Schwester (die), **mein** Kind (das), **meine** Eltern (plural). In the accusative only der-nouns change: Ich rufe **meinen** Bruder an.\n**euer** loses its second e when it gets an ending: **eure** Wohnung, **euren** Tisch. **unser** keeps it: **unsere** Wohnung, **unseren** Tisch. As a possessive, **ihr** has three meanings: *her*, *their* and, with a capital I, polite *your*: Sara und **ihr** Bruder, die Kinder und **ihre** Mutter, Wie ist **Ihr** Name?\nCareful: The ending depends on the noun, not on the owner. *Ali and his mother* is **Ali und seine Mutter** (seine because of die Mutter), and *Sara and her brother* is **Sara und ihr Bruder**. In Persian, *-ash* means both *his* and *her*, so always check the owner: a man → **sein**, a woman → **ihr**.",
       "table": [
         [
           "",
@@ -864,7 +1001,8 @@
             "meinen"
           ],
           "answer": 1,
-          "s": "This is my sister."
+          "s": "This is my sister.",
+          "why": "Schwester is a die-noun, so my is meine."
         },
         {
           "type": "choice",
@@ -875,7 +1013,8 @@
             "sein"
           ],
           "answer": 0,
-          "s": "Reza and his daughter are cooking."
+          "s": "Reza and his daughter are cooking.",
+          "why": "Reza is a man, so his is sein. Tochter is a die-noun, so it is seine."
         },
         {
           "type": "choice",
@@ -886,7 +1025,8 @@
             "seinen"
           ],
           "answer": 1,
-          "s": "Sara is looking for her coat."
+          "s": "Sara is looking for her coat.",
+          "why": "Sara is a woman, so her is ihr. Mantel is a der-noun object, so it is ihren."
         },
         {
           "type": "choice",
@@ -897,7 +1037,8 @@
             "Ihren"
           ],
           "answer": 0,
-          "s": "Where is your car, Mr. Wagner?"
+          "s": "Where is your car, Mr. Wagner?",
+          "why": "Polite your is Ihr with a capital I. Auto is a das-noun, so no ending."
         },
         {
           "type": "choice",
@@ -908,7 +1049,8 @@
             "euren"
           ],
           "answer": 0,
-          "s": "Kids, is this your ball?"
+          "s": "Kids, is this your ball?",
+          "why": "Your for ihr (two or more people) is euer. Ball is a der-noun subject, so no ending."
         },
         {
           "type": "type",
@@ -917,7 +1059,8 @@
             "ihren"
           ],
           "s": "Maryam calls her brother.",
-          "hint": "ihr"
+          "hint": "ihr",
+          "why": "Maryam is a woman (ihr). Bruder is a der-noun object, so it is ihren."
         },
         {
           "type": "type",
@@ -926,7 +1069,8 @@
             "deine"
           ],
           "s": "Lukas, where is your bag?",
-          "hint": "dein"
+          "hint": "dein",
+          "why": "Informal your is dein. Tasche is a die-noun, so it is deine."
         },
         {
           "type": "type",
@@ -935,7 +1079,8 @@
             "seine"
           ],
           "s": "Amir is looking for his shoes.",
-          "hint": "sein"
+          "hint": "sein",
+          "why": "Amir is a boy (sein). Schuhe is plural, so it is seine."
         },
         {
           "type": "type",
@@ -945,7 +1090,8 @@
             "unsre"
           ],
           "s": "This is our apartment.",
-          "hint": "unser"
+          "hint": "unser",
+          "why": "Our is unser. Wohnung is a die-noun, so it is unsere."
         },
         {
           "type": "order",
@@ -967,6 +1113,31 @@
           "alts": [
             "Ihren Mantel mag Mina nicht."
           ]
+        },
+        {
+          "type": "type",
+          "task": "Use sein or ihr.",
+          "cue": "Das ist Alis Bruder.",
+          "t": "Das ist ___ Bruder.",
+          "answer": [
+            "sein"
+          ],
+          "s": "This is his brother.",
+          "why": "Ali is a man, so his is sein. Bruder is a der-noun, so there is no ending."
+        },
+        {
+          "type": "choice",
+          "task": "Which reply fits?",
+          "cue": "Wie ist Ihr Name, bitte?",
+          "t": "___",
+          "options": [
+            "Mein Name ist Maryam Ahmadi.",
+            "Ihr Name ist Maryam Ahmadi.",
+            "Meine Name ist Maryam Ahmadi."
+          ],
+          "answer": 0,
+          "s": "My name is Maryam Ahmadi.",
+          "why": "Answer about yourself with mein. Name is a der-noun, so it is mein Name, not meine."
         }
       ],
       "thead": true
@@ -977,7 +1148,7 @@
         "t": "mich, dich, ihn …",
         "s": "Personal pronouns in the accusative"
       },
-      "explain": "Personal pronouns stand for a person or a thing. When the pronoun is the object of the verb, it is in the **accusative**: **Ich** sehe Ali. Ali sieht **mich**.\nThe forms are: ich → **mich**, du → **dich**, er → **ihn**, sie → **sie**, es → **es**, wir → **uns**, ihr → **euch**, sie → **sie**, Sie → **Sie**. In the third person only **er** changes, just like **der → den**. For things, choose the pronoun by the gender of the noun: Der Mantel ist schön. Ich nehme **ihn**. Die Tasche? Ich kaufe **sie**. Das Kleid? Ich nehme **es**. Die Schuhe? Ich nehme **sie**. In everyday speech you also hear **den**, **die**, **das** for things: Der Mantel? **Den** nehme ich.\nUse these forms after verbs that take the accusative, for example **sehen**, **anrufen**, **brauchen**, **suchen**, **mögen**, **hören**, **kaufen** and **nehmen**. An object pronoun usually comes early in the sentence, before time words and before **nicht**: Ich rufe **dich** heute an. Ich sehe **ihn** nicht.\nCareful: English *it* can be **ihn**, **sie** or **es**, so check the gender: Ich nehme **ihn** (der Mantel), not \"es\". In Persian, *u rā* means both *him* and *her*; in German it is **ihn** for a man and **sie** for a woman. And don't mix up **mich** and **dich** with **mir** and **dir**: Wie geht es **dir**? uses another case, the dative, which comes in A2.",
+      "explain": "This topic is new. It works like the accusative of Unit 8: only the masculine form changes (er → ihn).\nPersonal pronouns stand for a person or a thing. When the pronoun is the object of the verb, it is in the **accusative**: **Ich** sehe Ali. Ali sieht **mich**.\nThe forms are: ich → **mich**, du → **dich**, er → **ihn**, sie → **sie**, es → **es**, wir → **uns**, ihr → **euch**, sie → **sie**, Sie → **Sie**. In the third person only **er** changes, just like **der → den**. For things, choose the pronoun by the gender of the noun: Der Mantel ist schön. Ich nehme **ihn**. Die Tasche? Ich kaufe **sie**. Das Kleid? Ich nehme **es**. Die Schuhe? Ich nehme **sie**. In everyday speech you also hear **den**, **die**, **das** for things: Der Mantel? **Den** nehme ich.\nUse these forms after verbs that take the accusative, for example **sehen**, **anrufen**, **brauchen**, **suchen**, **mögen**, **hören**, **kaufen** and **nehmen**. An object pronoun usually comes early in the sentence, before time words and before **nicht**: Ich rufe **dich** heute an. Ich sehe **ihn** nicht.\nCareful: English *it* can be **ihn**, **sie** or **es**, so check the gender: Ich nehme **ihn** (der Mantel), not \"es\". In Persian, *u rā* means both *him* and *her*; in German it is **ihn** for a man and **sie** for a woman. And don't mix up **mich** and **dich** with **mir** and **dir**: Wie geht es **dir**? uses another case, the dative, which comes in A2.",
       "table": [
         [
           "Nominativ",
@@ -1066,7 +1237,8 @@
             "dir"
           ],
           "answer": 1,
-          "s": "Ali, I don't see you."
+          "s": "Ali, I don't see you.",
+          "why": "You (Ali) are the object of sehen, so du becomes dich."
         },
         {
           "type": "choice",
@@ -1077,7 +1249,8 @@
             "es"
           ],
           "answer": 1,
-          "s": "The coat is great. I'll take it."
+          "s": "The coat is great. I'll take it.",
+          "why": "Mantel is masculine and the object, so it is ihn."
         },
         {
           "type": "choice",
@@ -1088,7 +1261,8 @@
             "es"
           ],
           "answer": 0,
-          "s": "The lamp is nice. I'll buy it."
+          "s": "The lamp is nice. I'll buy it.",
+          "why": "Lampe is feminine. In the accusative, sie stays sie."
         },
         {
           "type": "choice",
@@ -1099,7 +1273,8 @@
             "mir"
           ],
           "answer": 1,
-          "s": "Can you call me?"
+          "s": "Can you call me?",
+          "why": "anrufen takes the accusative: ich becomes mich."
         },
         {
           "type": "choice",
@@ -1110,7 +1285,8 @@
             "uns"
           ],
           "answer": 1,
-          "s": "Where are you? We can't see you."
+          "s": "Where are you? We can't see you.",
+          "why": "The accusative of ihr is euch."
         },
         {
           "type": "type",
@@ -1119,7 +1295,8 @@
             "ihn"
           ],
           "s": "This is my brother. I call him every day.",
-          "hint": "er"
+          "hint": "er",
+          "why": "Your brother is male and the object, so er becomes ihn."
         },
         {
           "type": "type",
@@ -1129,7 +1306,8 @@
             "das"
           ],
           "s": "The dress is too expensive. I won't take it.",
-          "hint": "das Kleid"
+          "hint": "das Kleid",
+          "why": "Kleid is a das-noun, so it is es. Es stays es in the accusative."
         },
         {
           "type": "type",
@@ -1138,7 +1316,8 @@
             "uns"
           ],
           "s": "Sara is calling us today.",
-          "hint": "wir"
+          "hint": "wir",
+          "why": "The accusative of wir is uns."
         },
         {
           "type": "type",
@@ -1148,7 +1327,8 @@
             "die"
           ],
           "s": "Where are the shoes? I need them.",
-          "hint": "die Schuhe"
+          "hint": "die Schuhe",
+          "why": "Schuhe is plural, so them is sie."
         },
         {
           "type": "order",
@@ -1167,6 +1347,31 @@
           "type": "order",
           "t": "Rufst du mich heute an?",
           "s": "Will you call me today?"
+        },
+        {
+          "type": "type",
+          "task": "Replace meinen Bruder with a pronoun.",
+          "cue": "Ich rufe meinen Bruder an.",
+          "t": "Ich rufe ___ an.",
+          "answer": [
+            "ihn"
+          ],
+          "s": "I'm calling him.",
+          "why": "Bruder is masculine and the object, so the pronoun is ihn."
+        },
+        {
+          "type": "choice",
+          "task": "Which reply fits?",
+          "cue": "Magst du den Salat?",
+          "t": "___",
+          "options": [
+            "Ja, ich mag ihn sehr.",
+            "Ja, ich mag er sehr.",
+            "Ja, ich mag sie sehr."
+          ],
+          "answer": 0,
+          "s": "Yes, I like it a lot.",
+          "why": "Salat is a der-noun and the object of mögen, so it is ihn."
         }
       ],
       "thead": true

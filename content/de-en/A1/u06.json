@@ -9,8 +9,8 @@
   "goals": [
     "Ask and tell the time (full hours, half hours, quarters)",
     "Talk about your daily routine",
-    "Use separable verbs like aufstehen and einkaufen",
-    "Put the verb in second position"
+    "Use separable verbs like aufstehen and put the verb in second position",
+    "Name the days of the week and say am Montag, am Wochenende"
   ],
   "words": [
     {
@@ -30,6 +30,7 @@
       "pl": "die Morgen",
       "s": "morning",
       "emoji": "🌅",
+      "sym": true,
       "ex": {
         "t": "Guten Morgen, Mama!",
         "s": "Good morning, Mom!"
@@ -41,6 +42,7 @@
       "pl": "die Abende",
       "s": "evening",
       "emoji": "🌆",
+      "sym": true,
       "ex": {
         "t": "Guten Abend, Frau Müller!",
         "s": "Good evening, Ms. Müller!"
@@ -52,6 +54,7 @@
       "pl": "die Mittagessen",
       "s": "lunch",
       "emoji": "🍽️",
+      "sym": true,
       "ex": {
         "t": "Das Mittagessen ist um zwölf Uhr.",
         "s": "Lunch is at twelve o'clock."
@@ -72,6 +75,7 @@
       "t": "frühstücken",
       "s": "to have breakfast",
       "emoji": "🍳",
+      "sym": true,
       "ex": {
         "t": "Wir frühstücken um sieben Uhr.",
         "s": "We have breakfast at seven o'clock."
@@ -82,6 +86,7 @@
       "t": "arbeiten",
       "s": "to work",
       "emoji": "💼",
+      "sym": true,
       "ex": {
         "t": "Mein Vater arbeitet jeden Tag.",
         "s": "My father works every day."
@@ -92,6 +97,7 @@
       "t": "einkaufen",
       "s": "to go shopping",
       "emoji": "🛒",
+      "sym": true,
       "ex": {
         "t": "Am Abend kaufe ich ein.",
         "s": "In the evening I go shopping."
@@ -112,6 +118,7 @@
       "t": "fernsehen",
       "s": "to watch TV",
       "emoji": "📺",
+      "sym": true,
       "ex": {
         "t": "Am Abend sehen wir fern.",
         "s": "In the evening we watch TV."
@@ -155,6 +162,28 @@
       "ex": {
         "t": "Ich stehe auf. Dann frühstücke ich.",
         "s": "I get up. Then I have breakfast."
+      }
+    },
+    {
+      "id": "w15",
+      "t": "die Woche",
+      "pl": "die Wochen",
+      "s": "week",
+      "emoji": "",
+      "ex": {
+        "t": "Ich rufe meine Oma jede Woche an.",
+        "s": "I call my grandma every week."
+      }
+    },
+    {
+      "id": "w16",
+      "t": "das Wochenende",
+      "pl": "die Wochenenden",
+      "s": "weekend",
+      "emoji": "",
+      "ex": {
+        "t": "Am Wochenende arbeite ich nicht.",
+        "s": "I don't work on the weekend."
       }
     }
   ],
@@ -316,7 +345,8 @@
             "sieben Uhr"
           ],
           "answer": 1,
-          "s": "It's seven thirty."
+          "s": "It's seven thirty.",
+          "why": "German looks ahead to the next hour: halb acht is halfway to eight, so half past seven."
         },
         {
           "type": "choice",
@@ -327,7 +357,8 @@
             "Viertel"
           ],
           "answer": 2,
-          "s": "It's a quarter past three."
+          "s": "It's a quarter past three.",
+          "why": "A quarter past is Viertel nach: Viertel nach drei."
         },
         {
           "type": "choice",
@@ -338,7 +369,8 @@
             "es"
           ],
           "answer": 0,
-          "s": "We have breakfast at seven o'clock."
+          "s": "We have breakfast at seven o'clock.",
+          "why": "Use um for a clock time: um sieben Uhr (at seven o'clock)."
         },
         {
           "type": "type",
@@ -347,15 +379,21 @@
             "spät",
             "spaet"
           ],
-          "s": "What time is it?"
+          "s": "What time is it?",
+          "why": "The usual question for the time is Wie spät ist es? (literally: how late is it?)"
         },
         {
           "type": "type",
-          "t": "8:00 – Es ist acht ___.",
+          "task": "Say the time half an hour later.",
+          "cue": "Es ist acht Uhr.",
+          "t": "Es ist ___.",
           "answer": [
-            "Uhr"
+            "halb neun",
+            "acht Uhr dreißig",
+            "acht Uhr dreissig"
           ],
-          "s": "It's eight o'clock."
+          "s": "It's eight thirty.",
+          "why": "German looks ahead to the next hour: half past eight is halb neun, halfway to nine."
         },
         {
           "type": "choice",
@@ -366,7 +404,8 @@
             "halb fünf"
           ],
           "answer": 2,
-          "s": "It's four thirty."
+          "s": "It's four thirty.",
+          "why": "Half past four is halfway to five: halb fünf."
         },
         {
           "type": "order",
@@ -374,9 +413,18 @@
           "s": "It's eight thirty."
         },
         {
-          "type": "order",
-          "t": "Wie spät ist es?",
-          "s": "What time is it?"
+          "type": "choice",
+          "task": "Which reply fits?",
+          "cue": "Wie spät ist es?",
+          "t": "___",
+          "options": [
+            "Es ist Viertel nach zwei.",
+            "Es ist spät Uhr.",
+            "Um zwei Uhr."
+          ],
+          "answer": 0,
+          "s": "It's a quarter past two.",
+          "why": "Wie spät ist es? asks the time now: Es ist … Um zwei Uhr answers Wann? (when)."
         }
       ]
     },
@@ -445,7 +493,8 @@
             "aufstehe"
           ],
           "answer": 1,
-          "s": "I get up at six o'clock."
+          "s": "I get up at six o'clock.",
+          "why": "The prefix auf goes to the end; the verb part gets the ich ending: ich stehe … auf."
         },
         {
           "type": "choice",
@@ -456,7 +505,8 @@
             "fernsehen"
           ],
           "answer": 0,
-          "s": "In the evening we watch TV."
+          "s": "In the evening we watch TV.",
+          "why": "fernsehen splits: wir sehen … fern. The prefix fern is already at the end."
         },
         {
           "type": "type",
@@ -464,15 +514,22 @@
           "answer": [
             "an"
           ],
-          "s": "Sara calls Ali."
+          "s": "Sara calls Ali.",
+          "why": "anrufen splits: the prefix an goes to the end of the sentence."
         },
         {
-          "type": "type",
-          "t": "Ich kaufe am Abend ___.",
-          "answer": [
-            "ein"
+          "type": "choice",
+          "task": "Which reply fits?",
+          "cue": "Wann rufst du Oma an?",
+          "t": "___",
+          "options": [
+            "Ich rufe Oma am Abend an.",
+            "Ich anrufe Oma am Abend.",
+            "Ich rufe an Oma am Abend."
           ],
-          "s": "I go shopping in the evening."
+          "answer": 0,
+          "s": "I call Grandma in the evening.",
+          "why": "anrufen splits: rufe is second and the prefix an goes to the very end."
         },
         {
           "type": "choice",
@@ -483,7 +540,8 @@
             "frühstücke ich"
           ],
           "answer": 2,
-          "s": "At seven o'clock I have breakfast."
+          "s": "At seven o'clock I have breakfast.",
+          "why": "The verb comes second. After a time at the start, the subject follows the verb: frühstücke ich."
         },
         {
           "type": "type",
@@ -491,15 +549,19 @@
           "answer": [
             "stehst"
           ],
-          "s": "When do you get up?"
+          "s": "When do you get up?",
+          "why": "With du the verb part ends in -st: du stehst … auf."
         },
         {
-          "type": "order",
-          "t": "Ich stehe um sechs Uhr auf.",
-          "s": "I get up at six o'clock.",
-          "alts": [
-            "Um sechs Uhr stehe ich auf."
-          ]
+          "type": "type",
+          "task": "Start with Um sechs Uhr.",
+          "cue": "Ich stehe um sechs Uhr auf.",
+          "t": "Um sechs Uhr ___ auf.",
+          "answer": [
+            "stehe ich"
+          ],
+          "s": "At six o'clock I get up.",
+          "why": "The verb stays in position 2, so ich moves behind it. The prefix auf stays at the end."
         },
         {
           "type": "order",
@@ -507,6 +569,159 @@
           "s": "In the evening we watch TV.",
           "alts": [
             "Wir sehen am Abend fern."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "g03",
+      "title": {
+        "t": "am Montag, am Wochenende",
+        "s": "Days of the week"
+      },
+      "explain": "The days of the week are all **der**-words: **der Montag**, **der Dienstag**, **der Mittwoch**, **der Donnerstag**, **der Freitag**, **der Samstag**, **der Sonntag**. Many look like English: **Montag** – *Monday*, **Sonntag** – *Sunday*. **Mittwoch** means *mid-week*.\n**Samstag** and **Sonntag** are **das Wochenende** (*the weekend*). Seven days are **eine Woche** (*a week*).\nTo say *on* a day, use **am**: **am Montag**, **am Wochenende**. For *from … to*, use **von … bis**: **von Montag bis Freitag**.\nWith **heute ist** you need no preposition: **Heute ist Montag.** And remember the verb-second rule: **Am Sonntag stehe ich spät auf.**",
+      "table": [
+        [
+          "der Montag",
+          "am Montag"
+        ],
+        [
+          "der Dienstag",
+          "am Dienstag"
+        ],
+        [
+          "der Mittwoch",
+          "am Mittwoch"
+        ],
+        [
+          "der Donnerstag",
+          "am Donnerstag"
+        ],
+        [
+          "der Freitag",
+          "am Freitag"
+        ],
+        [
+          "der Samstag",
+          "am Samstag"
+        ],
+        [
+          "der Sonntag",
+          "am Sonntag"
+        ],
+        [
+          "das Wochenende",
+          "am Wochenende"
+        ]
+      ],
+      "examples": [
+        {
+          "t": "Heute ist Montag.",
+          "s": "Today is Monday."
+        },
+        {
+          "t": "Am Samstag kaufe ich ein.",
+          "s": "On Saturday I go shopping."
+        },
+        {
+          "t": "Von Montag bis Freitag arbeitet Reza.",
+          "s": "Reza works from Monday to Friday."
+        },
+        {
+          "t": "Am Wochenende arbeite ich nicht.",
+          "s": "I don't work on the weekend."
+        },
+        {
+          "t": "Am Sonntag rufe ich meine Oma an.",
+          "s": "On Sunday I call my grandma."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "choice",
+          "t": "Ich arbeite ___ Montag.",
+          "options": [
+            "am",
+            "um",
+            "im"
+          ],
+          "answer": 0,
+          "s": "I work on Monday.",
+          "why": "Days take am: am Montag. Um is for clock times, im for months and seasons."
+        },
+        {
+          "type": "type",
+          "t": "Montag, Dienstag, ___, Donnerstag",
+          "answer": [
+            "Mittwoch"
+          ],
+          "s": "Monday, Tuesday, Wednesday, Thursday",
+          "why": "Mittwoch means mid-week: it comes between Dienstag and Donnerstag."
+        },
+        {
+          "type": "choice",
+          "t": "Samstag und Sonntag sind das ___.",
+          "options": [
+            "Wochenende",
+            "Woche",
+            "Abend"
+          ],
+          "answer": 0,
+          "s": "Saturday and Sunday are the weekend.",
+          "why": "Saturday and Sunday together are das Wochenende (the weekend)."
+        },
+        {
+          "type": "choice",
+          "t": "Heute ist ___.",
+          "options": [
+            "Freitag",
+            "am Freitag",
+            "im Freitag"
+          ],
+          "answer": 0,
+          "s": "Today is Friday.",
+          "why": "After Heute ist, the day has no preposition: Heute ist Freitag."
+        },
+        {
+          "type": "type",
+          "t": "Ich arbeite von Montag ___ Freitag.",
+          "answer": [
+            "bis"
+          ],
+          "s": "I work from Monday to Friday.",
+          "why": "Start and end are von … bis, just like von acht bis vier Uhr."
+        },
+        {
+          "type": "type",
+          "task": "Start with Am Montag.",
+          "cue": "Ich arbeite am Montag.",
+          "t": "Am Montag ___.",
+          "answer": [
+            "arbeite ich"
+          ],
+          "s": "On Monday I work.",
+          "why": "The verb stays in position 2, so ich moves behind it: Am Montag arbeite ich."
+        },
+        {
+          "type": "choice",
+          "task": "Which reply fits?",
+          "cue": "Arbeitest du am Samstag?",
+          "t": "___",
+          "options": [
+            "Nein, am Wochenende arbeite ich nicht.",
+            "Nein, um Wochenende arbeite ich nicht.",
+            "Nein, im Wochenende arbeite ich nicht."
+          ],
+          "answer": 0,
+          "s": "No, I don't work on the weekend.",
+          "why": "Like the days, das Wochenende takes am: am Wochenende."
+        },
+        {
+          "type": "order",
+          "t": "Am Sonntag stehe ich spät auf.",
+          "s": "On Sunday I get up late.",
+          "alts": [
+            "Ich stehe am Sonntag spät auf."
           ]
         }
       ]
@@ -537,6 +752,10 @@
       {
         "t": "Dann arbeite ich von acht bis zwei Uhr.",
         "s": "Then I work from eight to two o'clock."
+      },
+      {
+        "t": "Am Wochenende arbeite ich nicht.",
+        "s": "I don't work on the weekend."
       },
       {
         "t": "Am Abend kaufe ich ein.",
@@ -597,6 +816,18 @@
           "um zwei Uhr",
           "um zehn Uhr",
           "um acht Uhr"
+        ],
+        "answer": 1
+      },
+      {
+        "q": {
+          "t": "Arbeitet Maryam am Abend?",
+          "s": "Does Maryam work in the evening?"
+        },
+        "options": [
+          "Ja, von acht bis zwei Uhr.",
+          "Nein, am Abend kauft sie ein.",
+          "Ja, jeden Abend."
         ],
         "answer": 1
       }

@@ -18,6 +18,7 @@
       "pl": "die Wohnungen",
       "s": "apartment",
       "emoji": "🏢",
+      "sym": true,
       "ex": {
         "t": "Die Wohnung ist groß.",
         "s": "The apartment is big."
@@ -40,6 +41,7 @@
       "pl": "die Küchen",
       "s": "kitchen",
       "emoji": "🍳",
+      "sym": true,
       "ex": {
         "t": "Die Küche ist klein.",
         "s": "The kitchen is small."
@@ -139,6 +141,7 @@
       "pl": "die Lampen",
       "s": "lamp",
       "emoji": "💡",
+      "sym": true,
       "ex": {
         "t": "Wo ist die Lampe?",
         "s": "Where is the lamp?"
@@ -339,7 +342,8 @@
             "einen"
           ],
           "answer": 2,
-          "s": "There is a table in the kitchen."
+          "s": "There is a table in the kitchen.",
+          "why": "Tisch is a der-noun. After es gibt, ein becomes einen."
         },
         {
           "type": "choice",
@@ -350,18 +354,19 @@
             "einen"
           ],
           "answer": 1,
-          "s": "There is a lamp in the living room."
+          "s": "There is a lamp in the living room.",
+          "why": "Lampe is a die-noun. Die-nouns don't change: eine Lampe."
         },
         {
-          "type": "choice",
-          "t": "Es gibt ___ Sofa im Wohnzimmer.",
-          "options": [
-            "ein",
-            "eine",
-            "einen"
+          "type": "type",
+          "task": "Make it negative.",
+          "cue": "Es gibt einen Tisch.",
+          "t": "Es gibt ___ Tisch.",
+          "answer": [
+            "keinen"
           ],
-          "answer": 0,
-          "s": "There is a sofa in the living room."
+          "s": "There is no table.",
+          "why": "Tisch is a der-noun. After es gibt, kein becomes keinen."
         },
         {
           "type": "choice",
@@ -372,7 +377,8 @@
             "keinen"
           ],
           "answer": 2,
-          "s": "There is no TV."
+          "s": "There is no TV.",
+          "why": "Fernseher is a der-noun. After es gibt, kein becomes keinen."
         },
         {
           "type": "type",
@@ -380,7 +386,8 @@
           "answer": [
             "einen"
           ],
-          "s": "I have a brother."
+          "s": "I have a brother.",
+          "why": "Bruder is a der-noun. After haben, ein becomes einen."
         },
         {
           "type": "type",
@@ -388,12 +395,22 @@
           "answer": [
             "gibt"
           ],
-          "s": "There are two rooms."
+          "s": "There are two rooms.",
+          "why": "es gibt never changes, even with a plural: Es gibt zwei Zimmer."
         },
         {
-          "type": "order",
-          "t": "Es gibt keinen Schrank.",
-          "s": "There is no closet."
+          "type": "choice",
+          "task": "Which reply fits?",
+          "cue": "Gibt es ein Sofa im Wohnzimmer?",
+          "t": "___",
+          "options": [
+            "Ja, es gibt ein Sofa.",
+            "Ja, es ist ein Sofa.",
+            "Ja, es gibt einen Sofa."
+          ],
+          "answer": 0,
+          "s": "Yes, there is a sofa.",
+          "why": "Answer with es gibt. Sofa is a das-noun, so ein stays ein."
         },
         {
           "type": "order",
@@ -458,7 +475,8 @@
             "sind"
           ],
           "answer": 0,
-          "s": "Where is the lamp?"
+          "s": "Where is the lamp?",
+          "why": "One thing takes ist: Wo ist …? Sind is for more than one."
         },
         {
           "type": "choice",
@@ -468,7 +486,8 @@
             "sind"
           ],
           "answer": 1,
-          "s": "Where are the chairs?"
+          "s": "Where are the chairs?",
+          "why": "Stühle is plural, so use sind: Wo sind …?"
         },
         {
           "type": "choice",
@@ -479,7 +498,8 @@
             "Es"
           ],
           "answer": 0,
-          "s": "Where is the closet? – It's in the bedroom."
+          "s": "Where is the closet? – It's in the bedroom.",
+          "why": "Schrank is a der-noun, so it is er – also for things."
         },
         {
           "type": "choice",
@@ -490,7 +510,8 @@
             "Es"
           ],
           "answer": 1,
-          "s": "Where is the kitchen? – It's here."
+          "s": "Where is the kitchen? – It's here.",
+          "why": "Küche is a die-noun, so it is sie."
         },
         {
           "type": "type",
@@ -499,15 +520,20 @@
             "es",
             "das"
           ],
-          "s": "Where is the bed? – It's in the bedroom."
+          "s": "Where is the bed? – It's in the bedroom.",
+          "why": "Bett is a das-noun, so it is es."
         },
         {
           "type": "type",
-          "t": "Wo ___ Ali? – Er ist in der Küche.",
+          "task": "Use a pronoun for der Fernseher.",
+          "cue": "Der Fernseher ist im Wohnzimmer.",
+          "t": "___ ist im Wohnzimmer.",
           "answer": [
-            "ist"
+            "Er",
+            "Der"
           ],
-          "s": "Where is Ali? – He is in the kitchen."
+          "s": "It's in the living room.",
+          "why": "Fernseher is a der-noun, so the pronoun is er – also for things."
         },
         {
           "type": "order",
@@ -518,9 +544,18 @@
           ]
         },
         {
-          "type": "order",
-          "t": "Wo sind die Kinder?",
-          "s": "Where are the children?"
+          "type": "choice",
+          "task": "Which reply fits?",
+          "cue": "Wo sind die Kinder?",
+          "t": "___",
+          "options": [
+            "Sie sind im Wohnzimmer.",
+            "Es gibt zwei Kinder.",
+            "Sie ist im Wohnzimmer."
+          ],
+          "answer": 0,
+          "s": "They're in the living room.",
+          "why": "Wo? asks for a place. For a plural, use sie with sind: Sie sind …"
         }
       ]
     }
@@ -609,6 +644,18 @@
           "in der Küche",
           "im Bett",
           "im Bad"
+        ],
+        "answer": 1
+      },
+      {
+        "q": {
+          "t": "Wo ist Minas Bett?",
+          "s": "Where is Mina's bed?"
+        },
+        "options": [
+          "im Wohnzimmer",
+          "in Minas Zimmer",
+          "in der Küche"
         ],
         "answer": 1
       }

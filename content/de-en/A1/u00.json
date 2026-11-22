@@ -414,6 +414,78 @@
           "s": "ten"
         }
       ]
+    },
+    {
+      "t": "sch / sp / st + consonant",
+      "s": "Tip for Persian speakers: don't add a vowel before these clusters. Say Schwester and Stadt in one go, not 'eSchwester' or 'eStadt'.",
+      "ex": [
+        {
+          "t": "die Schwester",
+          "s": "sister"
+        },
+        {
+          "t": "die Stadt",
+          "s": "city"
+        },
+        {
+          "t": "schlafen",
+          "s": "to sleep"
+        }
+      ]
+    },
+    {
+      "t": "b / d / g at the end",
+      "s": "At the end of a word, b, d and g sound like p, t and k: Hund sounds like 'hunt', Tag like 'tahk'. In the plural you hear the soft sound again: Hunde.",
+      "ex": [
+        {
+          "t": "der Hund",
+          "s": "dog"
+        },
+        {
+          "t": "der Tag",
+          "s": "day"
+        },
+        {
+          "t": "halb",
+          "s": "half"
+        }
+      ]
+    },
+    {
+      "t": "long and short vowels",
+      "s": "Vowel length can change the meaning. A vowel before a double consonant is short (Stadt, Bett, kommen). A vowel before h, or a doubled vowel, is long (Jahr, Staat, Tee).",
+      "ex": [
+        {
+          "t": "die Stadt",
+          "s": "city (short a)"
+        },
+        {
+          "t": "der Staat",
+          "s": "state (long a)"
+        },
+        {
+          "t": "das Bett",
+          "s": "bed (short e)"
+        }
+      ]
+    },
+    {
+      "t": "h",
+      "s": "At the start of a word or syllable, h is pronounced: haben, das Haus. After a vowel, h is silent and only makes the vowel long: gehen, das Jahr, die Uhr.",
+      "ex": [
+        {
+          "t": "haben",
+          "s": "to have"
+        },
+        {
+          "t": "gehen",
+          "s": "to go"
+        },
+        {
+          "t": "die Uhr",
+          "s": "clock"
+        }
+      ]
     }
   ],
   "words": [
@@ -432,6 +504,7 @@
       "t": "ja",
       "s": "yes",
       "emoji": "✅",
+      "sym": true,
       "ex": {
         "t": "Ja, danke!",
         "s": "Yes, thank you!"
@@ -442,6 +515,7 @@
       "t": "nein",
       "s": "no",
       "emoji": "❌",
+      "sym": true,
       "ex": {
         "t": "Nein, danke.",
         "s": "No, thank you."
@@ -452,6 +526,7 @@
       "t": "danke",
       "s": "thank you; thanks",
       "emoji": "🙏",
+      "sym": true,
       "ex": {
         "t": "Danke, Lukas!",
         "s": "Thanks, Lukas!"

@@ -18,6 +18,7 @@
       "t": "das Wetter",
       "s": "weather",
       "emoji": "⛅",
+      "sym": true,
       "ex": {
         "t": "Wie ist das Wetter?",
         "s": "What's the weather like?"
@@ -90,6 +91,7 @@
       "t": "kalt",
       "s": "cold",
       "emoji": "🥶",
+      "sym": true,
       "ex": {
         "t": "Im Winter ist es kalt.",
         "s": "It's cold in winter."
@@ -111,6 +113,7 @@
       "pl": "die Frühlinge",
       "s": "spring",
       "emoji": "🌷",
+      "sym": true,
       "ex": {
         "t": "Nouruz ist im Frühling.",
         "s": "Nowruz is in spring."
@@ -122,6 +125,7 @@
       "pl": "die Sommer",
       "s": "summer",
       "emoji": "🏖️",
+      "sym": true,
       "ex": {
         "t": "Im Sommer ist es heiß.",
         "s": "It's hot in summer."
@@ -133,6 +137,7 @@
       "pl": "die Herbste",
       "s": "fall; autumn",
       "emoji": "🍂",
+      "sym": true,
       "ex": {
         "t": "Im Herbst ist es windig.",
         "s": "It's windy in the fall."
@@ -144,6 +149,7 @@
       "pl": "die Winter",
       "s": "winter",
       "emoji": "⛄",
+      "sym": true,
       "ex": {
         "t": "Im Winter schneit es.",
         "s": "It snows in winter."
@@ -155,9 +161,33 @@
       "pl": "die Monate",
       "s": "month",
       "emoji": "📅",
+      "sym": true,
       "ex": {
         "t": "Ein Jahr hat zwölf Monate.",
         "s": "A year has twelve months."
+      }
+    },
+    {
+      "id": "w15",
+      "t": "der Tag",
+      "pl": "die Tage",
+      "s": "day",
+      "emoji": "",
+      "ex": {
+        "t": "Die Woche hat sieben Tage.",
+        "s": "A week has seven days."
+      }
+    },
+    {
+      "id": "w16",
+      "t": "die Nacht",
+      "pl": "die Nächte",
+      "s": "night",
+      "emoji": "🌙",
+      "sym": true,
+      "ex": {
+        "t": "In der Nacht ist es kalt.",
+        "s": "It's cold at night."
       }
     }
   ],
@@ -224,13 +254,13 @@
     "lines": [
       {
         "sp": "A",
-        "t": "Hallo, Reza! Wie ist das Wetter in Teheran?",
-        "s": "Hi Reza! What's the weather like in Tehran?"
+        "t": "Hallo, Reza! Du bist in Teheran, richtig? Wie ist das Wetter dort?",
+        "s": "Hi, Reza! You're in Tehran, right? What's the weather like there?"
       },
       {
         "sp": "B",
-        "t": "Hallo, Anna! Hier ist es sonnig und warm. Es ist zwanzig Grad.",
-        "s": "Hi Anna! Here it's sunny and warm. It's twenty degrees."
+        "t": "Hallo, Anna! Ja, richtig. Hier ist es sonnig und warm. Es ist zwanzig Grad.",
+        "s": "Hi, Anna! Yes, that's right. Here it's sunny and warm. It's twenty degrees."
       },
       {
         "sp": "A",
@@ -324,6 +354,10 @@
         {
           "t": "Wie ist das Wetter? – Es ist warm.",
           "s": "What's the weather like? – It's warm."
+        },
+        {
+          "t": "Am Tag ist es warm, aber in der Nacht ist es kalt.",
+          "s": "It's warm during the day, but it's cold at night."
         }
       ],
       "exercises": [
@@ -336,7 +370,8 @@
             "hat"
           ],
           "answer": 1,
-          "s": "It's sunny."
+          "s": "It's sunny.",
+          "why": "With an adjective like sonnig, use es ist: Es ist sonnig."
         },
         {
           "type": "choice",
@@ -347,7 +382,8 @@
             "regnen"
           ],
           "answer": 0,
-          "s": "It's raining today."
+          "s": "It's raining today.",
+          "why": "regnen is a verb: es regnet. After Heute the verb comes second."
         },
         {
           "type": "type",
@@ -355,7 +391,8 @@
           "answer": [
             "Es"
           ],
-          "s": "It's snowing."
+          "s": "It's snowing.",
+          "why": "Weather verbs need es as the subject: Es schneit."
         },
         {
           "type": "choice",
@@ -366,15 +403,19 @@
             "es"
           ],
           "answer": 2,
-          "s": "It's hot in summer."
+          "s": "It's hot in summer.",
+          "why": "Weather sentences always use es (it): es ist heiß."
         },
         {
           "type": "type",
-          "t": "Es ___ kalt.",
+          "task": "Start with Im Herbst.",
+          "cue": "Es regnet.",
+          "t": "Im Herbst ___.",
           "answer": [
-            "ist"
+            "regnet es"
           ],
-          "s": "It's cold."
+          "s": "It rains in the fall.",
+          "why": "After a time at the start, the verb comes second and es follows it: Im Herbst regnet es."
         },
         {
           "type": "choice",
@@ -385,7 +426,8 @@
             "schneien es"
           ],
           "answer": 1,
-          "s": "It snows in winter."
+          "s": "It snows in winter.",
+          "why": "After a time at the start, the verb comes second and es follows: Im Winter schneit es."
         },
         {
           "type": "order",
@@ -396,9 +438,18 @@
           ]
         },
         {
-          "type": "order",
-          "t": "Die Sonne scheint.",
-          "s": "The sun is shining."
+          "type": "choice",
+          "task": "Which reply fits?",
+          "cue": "Wie ist das Wetter heute?",
+          "t": "___",
+          "options": [
+            "Es ist sonnig und warm.",
+            "Es ist im Juli.",
+            "Ich habe im Mai Geburtstag."
+          ],
+          "answer": 0,
+          "s": "It's sunny and warm.",
+          "why": "Wie ist das Wetter? asks about the weather. Answer with es ist + adjective or es + a weather verb."
         }
       ]
     },
@@ -455,7 +506,8 @@
             "um"
           ],
           "answer": 1,
-          "s": "My birthday is in June."
+          "s": "My birthday is in June.",
+          "why": "Months and seasons take im (= in dem): im Juni."
         },
         {
           "type": "choice",
@@ -466,7 +518,8 @@
             "Mai"
           ],
           "answer": 2,
-          "s": "In spring: March, April and May."
+          "s": "In spring: March, April and May.",
+          "why": "The spring months are März, April and Mai."
         },
         {
           "type": "type",
@@ -475,7 +528,8 @@
             "März",
             "Maerz"
           ],
-          "s": "January, February, March, April"
+          "s": "January, February, March, April",
+          "why": "The third month is März, written with ä (or ae)."
         },
         {
           "type": "type",
@@ -484,29 +538,33 @@
             "Sommer",
             "der Sommer"
           ],
-          "s": "In June, July and August it's summer."
+          "s": "In June, July and August it's summer.",
+          "why": "June, July and August are the summer months: der Sommer."
         },
         {
           "type": "choice",
-          "t": "___ Herbst regnet es.",
+          "task": "Which reply fits?",
+          "cue": "Wann hast du Geburtstag?",
+          "t": "___",
           "options": [
-            "Im",
-            "In der",
-            "Am"
+            "Im Oktober.",
+            "Am Oktober.",
+            "Um Oktober."
           ],
           "answer": 0,
-          "s": "It rains in the fall."
+          "s": "In October.",
+          "why": "Months take im: im Oktober. Am is for days, um for clock times."
         },
         {
-          "type": "choice",
-          "t": "Dezember, Januar und Februar sind im ___.",
-          "options": [
-            "Sommer",
-            "Winter",
-            "Frühling"
+          "type": "type",
+          "task": "Start with Im Mai.",
+          "cue": "Ich habe im Mai Geburtstag.",
+          "t": "Im Mai ___ Geburtstag.",
+          "answer": [
+            "habe ich"
           ],
-          "answer": 1,
-          "s": "December, January and February are in winter."
+          "s": "My birthday is in May.",
+          "why": "The verb stays in position 2, so ich moves behind it: Im Mai habe ich Geburtstag."
         },
         {
           "type": "order",
@@ -602,6 +660,18 @@
           "den Regen"
         ],
         "answer": 1
+      },
+      {
+        "q": {
+          "t": "Wie ist das Wetter an Annas Geburtstag?",
+          "s": "What's the weather like on Anna's birthday?"
+        },
+        "options": [
+          "Es ist kalt.",
+          "Es ist heiß.",
+          "Es ist warm."
+        ],
+        "answer": 0
       }
     ]
   },

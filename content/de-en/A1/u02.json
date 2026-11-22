@@ -7,7 +7,7 @@
     "s": "Numbers and age"
   },
   "goals": [
-    "Count from 0 to 20",
+    "Count from 0 to 100",
     "Ask and say how old someone is",
     "Ask and say where someone lives",
     "Use regular verb endings: ich wohne, du wohnst, er wohnt"
@@ -153,6 +153,26 @@
         "t": "Ich wohne in Köln.",
         "s": "I live in Cologne."
       }
+    },
+    {
+      "id": "w15",
+      "t": "dreißig",
+      "s": "thirty",
+      "emoji": "",
+      "ex": {
+        "t": "Zehn plus zwanzig ist dreißig.",
+        "s": "Ten plus twenty is thirty."
+      }
+    },
+    {
+      "id": "w16",
+      "t": "hundert",
+      "s": "(one) hundred",
+      "emoji": "",
+      "ex": {
+        "t": "Fünfzig plus fünfzig ist hundert.",
+        "s": "Fifty plus fifty is a hundred."
+      }
     }
   ],
   "phrases": [
@@ -269,10 +289,10 @@
     {
       "id": "g01",
       "title": {
-        "t": "Zahlen 0–20 und Alter",
-        "s": "Numbers 0–20 and age"
+        "t": "Zahlen 0–100 und Alter",
+        "s": "Numbers 0–100 and age"
       },
-      "explain": "Learn **0–12** by heart. From 13 to 19, just say the small number and add **-zehn**: **drei + zehn = dreizehn**, **vier + zehn = vierzehn**.\nTwo small changes: **sechzehn** (no s) and **siebzehn** (no -en). Twenty is **zwanzig**.\nWhen you count, say **eins**. Before a noun, say **ein** (or **eine** – more in Unit 4): **ein Jahr**.\nTo talk about age, use **sein** + number + **Jahre alt**: **Ich bin zehn Jahre alt.** You can also just say **Ich bin zehn.**",
+      "explain": "Learn **0–12** by heart. From 13 to 19, just say the small number and add **-zehn**: **drei + zehn = dreizehn**, **vier + zehn = vierzehn**.\nTwo small changes: **sechzehn** (no s) and **siebzehn** (no -en). Twenty is **zwanzig**.\nThe tens end in **-zig**: **zwanzig, vierzig, fünfzig, achtzig, neunzig**. Three are special: **dreißig** (with ß), **sechzig** (no s) and **siebzig** (no -en). 100 is **hundert**.\nFrom 21 to 99, German says the small number first, then **und**, then the ten, all in one word: **einundzwanzig** (*one-and-twenty*), **fünfunddreißig**, **achtundneunzig**. Persian and English say the ten first (*bist-o yek*, *twenty-one*), so be careful. And it is **ein**undzwanzig, not eins.\nWhen you count, say **eins**. Before a noun, say **ein** (or **eine** – more in Unit 4): **ein Jahr**.\nTo talk about age, use **sein** + number + **Jahre alt**: **Ich bin zehn Jahre alt.** You can also just say **Ich bin zehn.**",
       "table": [
         [
           "0 null",
@@ -308,6 +328,26 @@
           "6 sechs",
           "13 dreizehn",
           "20 zwanzig"
+        ],
+        [
+          "21 einundzwanzig",
+          "30 dreißig",
+          "70 siebzig"
+        ],
+        [
+          "22 zweiundzwanzig",
+          "40 vierzig",
+          "80 achtzig"
+        ],
+        [
+          "35 fünfunddreißig",
+          "50 fünfzig",
+          "90 neunzig"
+        ],
+        [
+          "48 achtundvierzig",
+          "60 sechzig",
+          "100 hundert"
         ]
       ],
       "examples": [
@@ -316,8 +356,8 @@
           "s": "How old are you? – I'm eleven."
         },
         {
-          "t": "Sara ist sechzehn Jahre alt.",
-          "s": "Sara is sixteen years old."
+          "t": "Emma ist sechzehn Jahre alt.",
+          "s": "Emma is sixteen years old."
         },
         {
           "t": "Das Baby ist ein Jahr alt.",
@@ -326,6 +366,14 @@
         {
           "t": "Zwölf plus acht ist zwanzig.",
           "s": "Twelve plus eight is twenty."
+        },
+        {
+          "t": "Mein Opa ist siebzig Jahre alt.",
+          "s": "My grandpa is seventy years old."
+        },
+        {
+          "t": "Zwanzig plus eins ist einundzwanzig.",
+          "s": "Twenty plus one is twenty-one."
         }
       ],
       "exercises": [
@@ -338,7 +386,8 @@
             "siebzehn"
           ],
           "answer": 0,
-          "s": "Seven plus eight is fifteen."
+          "s": "Seven plus eight is fifteen.",
+          "why": "Fifteen is five + ten, said in that order: fünfzehn."
         },
         {
           "type": "choice",
@@ -349,18 +398,22 @@
             "zwei"
           ],
           "answer": 0,
-          "s": "The baby is one year old."
+          "s": "The baby is one year old.",
+          "why": "Before a noun, one is ein: ein Jahr. Eins is only for counting."
         },
         {
           "type": "choice",
-          "t": "Wie ___ bist du? – Ich bin neun.",
+          "task": "Which reply fits?",
+          "cue": "Wie alt sind Sie?",
+          "t": "___",
           "options": [
-            "alt",
-            "viel",
-            "wo"
+            "Ich bin vierzig Jahre alt.",
+            "Ich habe vierzig Jahre.",
+            "Ich wohne in Köln."
           ],
           "answer": 0,
-          "s": "How old are you? – I'm nine."
+          "s": "I'm forty years old.",
+          "why": "German gives age with sein: Ich bin … Jahre alt, never 'Ich habe … Jahre'."
         },
         {
           "type": "type",
@@ -369,17 +422,19 @@
             "sechzehn",
             "16"
           ],
-          "s": "Ten plus six is sixteen."
+          "s": "Ten plus six is sixteen.",
+          "why": "Sixteen drops the s of sechs: sechzehn."
         },
         {
           "type": "type",
-          "t": "Neun plus drei ist ___.",
+          "t": "Zwanzig plus fünf ist ___.",
           "answer": [
-            "zwölf",
-            "zwoelf",
-            "12"
+            "fünfundzwanzig",
+            "fuenfundzwanzig",
+            "25"
           ],
-          "s": "Nine plus three is twelve."
+          "s": "Twenty plus five is twenty-five.",
+          "why": "Say the small number first, then und, then the ten, in one word: fünfundzwanzig."
         },
         {
           "type": "order",
@@ -387,9 +442,17 @@
           "s": "I'm twelve years old."
         },
         {
-          "type": "order",
-          "t": "Wie alt sind Sie?",
-          "s": "How old are you? (polite)"
+          "type": "type",
+          "task": "Say you are ten years older.",
+          "cue": "Ich bin zwanzig Jahre alt.",
+          "t": "Ich bin ___ Jahre alt.",
+          "answer": [
+            "dreißig",
+            "dreissig",
+            "30"
+          ],
+          "s": "I'm thirty years old.",
+          "why": "Twenty plus ten is dreißig, written with ß (or ss)."
         }
       ]
     },
@@ -454,7 +517,8 @@
             "wohne"
           ],
           "answer": 0,
-          "s": "Where do you live?"
+          "s": "Where do you live?",
+          "why": "With du the ending is -st: du wohnst."
         },
         {
           "type": "choice",
@@ -465,7 +529,8 @@
             "wohnt"
           ],
           "answer": 2,
-          "s": "Anna lives in Berlin."
+          "s": "Anna lives in Berlin.",
+          "why": "After er/sie (Anna) the ending is -t: sie wohnt."
         },
         {
           "type": "choice",
@@ -476,15 +541,19 @@
             "kommt"
           ],
           "answer": 0,
-          "s": "I'm from Iran."
+          "s": "I'm from Iran.",
+          "why": "With ich the ending is -e: ich komme."
         },
         {
           "type": "type",
-          "t": "Ali ___ in Köln.",
+          "task": "Say it about Amir.",
+          "cue": "Ich wohne in Köln.",
+          "t": "Amir ___ in Köln.",
           "answer": [
             "wohnt"
           ],
-          "s": "Ali lives in Cologne."
+          "s": "Amir lives in Cologne.",
+          "why": "After er/sie (Amir) a regular verb ends in -t: er wohnt."
         },
         {
           "type": "type",
@@ -492,7 +561,8 @@
           "answer": [
             "lernt"
           ],
-          "s": "Sara is learning German."
+          "s": "Sara is learning German.",
+          "why": "After er/sie (Sara) the ending is -t: sie lernt."
         },
         {
           "type": "type",
@@ -500,12 +570,22 @@
           "answer": [
             "wohnst"
           ],
-          "s": "I live in Bonn. You live in Cologne."
+          "s": "I live in Bonn. You live in Cologne.",
+          "why": "With du the ending is -st: du wohnst."
         },
         {
-          "type": "order",
-          "t": "Wo wohnen Sie?",
-          "s": "Where do you live? (polite)"
+          "type": "choice",
+          "task": "Which reply fits?",
+          "cue": "Wo wohnen Sie?",
+          "t": "___",
+          "options": [
+            "Ich wohne in Hamburg.",
+            "Ich heiße Eva Müller.",
+            "Ich bin vierzig Jahre alt."
+          ],
+          "answer": 0,
+          "s": "I live in Hamburg.",
+          "why": "Wo? asks where. Answer with wohnen + in: Ich wohne in Hamburg."
         },
         {
           "type": "order",
@@ -605,6 +685,18 @@
           "aus Isfahan"
         ],
         "answer": 1
+      },
+      {
+        "q": {
+          "t": "Wo wohnen Amir und Lukas?",
+          "s": "Where do Amir and Lukas live?"
+        },
+        "options": [
+          "in Köln",
+          "in Isfahan",
+          "in Berlin"
+        ],
+        "answer": 0
       }
     ]
   },
@@ -618,10 +710,10 @@
       "s": "I'm eight years old."
     },
     {
-      "t": "Sara wohnt in Hamburg.",
-      "s": "Sara lives in Hamburg.",
+      "t": "Frau Müller wohnt in Hamburg.",
+      "s": "Ms. Müller lives in Hamburg.",
       "alts": [
-        "In Hamburg wohnt Sara."
+        "In Hamburg wohnt Frau Müller."
       ]
     },
     {

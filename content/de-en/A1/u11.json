@@ -21,7 +21,7 @@
         "t": "ich lerne, du lernst, wir lernen",
         "s": "Regular verbs: all persons"
       },
-      "explain": "The **present tense** (Präsens) is the tense you use most in German. One form covers *I learn*, *I am learning* and *I do learn*: **Ich lerne Deutsch.** With a time word, it can also talk about the future: **Heute Abend koche ich.**\nTo form it, take the infinitive and remove **-en**. That gives you the stem: **lernen → lern-**. Then add the ending for each person: ich lern**e**, du lern**st**, er/sie/es lern**t**, wir lern**en**, ihr lern**t**, sie/Sie lern**en**. For regular verbs, the **wir** and **sie/Sie** forms look exactly like the infinitive.\nIf the stem ends in **-t** or **-d**, add an extra **e** before **-st** and **-t** so you can pronounce it: **du arbeitest, er arbeitet, ihr arbeitet**; **finden** (*to find*): **du findest, sie findet**. **kosten** works the same way (**Das kostet zwölf Euro.**), and so does **regnen**: **Es regnet.**\nIf the stem ends in **-s**, **-ß** or **-z**, the du form only adds **-t**: **heißen → du heißt**, **tanzen** (*to dance*) **→ du tanzt**. So **du heißt** and **er heißt** are the same.\nVerbs in **-ern** like **wandern** only add **-n** for wir and sie/Sie: **wir wandern**, but **ich wandere**.\nCareful: German has no extra verb for *-ing* or *do*. Say **Ich lerne Deutsch**, never \"Ich bin lerne Deutsch\". And always say the subject: in Persian the verb ending alone can show the person, but German needs the pronoun: **Ich wohne in Köln**, not \"Wohne in Köln\".",
+      "explain": "You first met regular verbs in Unit 2 (ich wohne, du wohnst). This topic adds all persons and the special cases.\nThe **present tense** (Präsens) is the tense you use most in German. One form covers *I learn*, *I am learning* and *I do learn*: **Ich lerne Deutsch.** With a time word, it can also talk about the future: **Heute Abend koche ich.**\nTo form it, take the infinitive and remove **-en**. That gives you the stem: **lernen → lern-**. Then add the ending for each person: ich lern**e**, du lern**st**, er/sie/es lern**t**, wir lern**en**, ihr lern**t**, sie/Sie lern**en**. For regular verbs, the **wir** and **sie/Sie** forms look exactly like the infinitive.\nIf the stem ends in **-t** or **-d**, add an extra **e** before **-st** and **-t** so you can pronounce it: **du arbeitest, er arbeitet, ihr arbeitet**; **finden** (*to find*): **du findest, sie findet**. **kosten** works the same way (**Das kostet zwölf Euro.**). Stems that end in a consonant + **n** also add the **e**: **regnen → es regnet**, **öffnen** (*to open*) **→ du öffnest**.\nIf the stem ends in **-s**, **-ß** or **-z**, the du form only adds **-t**: **heißen → du heißt**, **tanzen** (*to dance*) **→ du tanzt**. So **du heißt** and **er heißt** are the same.\nVerbs in **-ern** like **wandern** only add **-n** for wir and sie/Sie: **wir wandern**, but **ich wandere**.\nCareful: German has no extra verb for *-ing* or *do*. Say **Ich lerne Deutsch**, never \"Ich bin lerne Deutsch\". And always say the subject: in Persian the verb ending alone can show the person, but German needs the pronoun: **Ich wohne in Köln**, not \"Wohne in Köln\".",
       "table": [
         [
           "Person",
@@ -102,7 +102,8 @@
             "wohnst"
           ],
           "answer": 0,
-          "s": "We live in Berlin."
+          "s": "We live in Berlin.",
+          "why": "With wir, a regular verb looks like the infinitive: wir wohnen."
         },
         {
           "type": "choice",
@@ -113,7 +114,8 @@
             "spielst"
           ],
           "answer": 1,
-          "s": "You play soccer."
+          "s": "You play soccer.",
+          "why": "With ihr the ending is -t: ihr spielt."
         },
         {
           "type": "choice",
@@ -124,7 +126,8 @@
             "arbeiten"
           ],
           "answer": 1,
-          "s": "You work every day."
+          "s": "You work every day.",
+          "why": "Stems in -t add an extra e before -st: du arbeitest."
         },
         {
           "type": "choice",
@@ -135,7 +138,8 @@
             "heißen"
           ],
           "answer": 0,
-          "s": "What's your name?"
+          "s": "What's your name?",
+          "why": "Stems in -ß only add -t with du: du heißt, not 'heißst'."
         },
         {
           "type": "type",
@@ -145,7 +149,8 @@
             "hoere"
           ],
           "s": "In the evening I listen to music.",
-          "hint": "hören"
+          "hint": "hören",
+          "why": "With ich the ending is -e: ich höre."
         },
         {
           "type": "type",
@@ -154,7 +159,8 @@
             "arbeitet"
           ],
           "s": "Reza works at the hospital.",
-          "hint": "arbeiten"
+          "hint": "arbeiten",
+          "why": "Stems in -t add an extra e before -t: er arbeitet."
         },
         {
           "type": "type",
@@ -163,7 +169,8 @@
             "kostet"
           ],
           "s": "The bread costs two euros.",
-          "hint": "kosten"
+          "hint": "kosten",
+          "why": "kosten has a stem in -t, so it adds an e: es kostet."
         },
         {
           "type": "type",
@@ -172,7 +179,8 @@
             "wohnt"
           ],
           "s": "Where do you live?",
-          "hint": "wohnen"
+          "hint": "wohnen",
+          "why": "With ihr the ending is -t: ihr wohnt."
         },
         {
           "type": "type",
@@ -182,7 +190,8 @@
             "heisst"
           ],
           "s": "Your name is Amir, right?",
-          "hint": "heißen"
+          "hint": "heißen",
+          "why": "Stems in -ß only add -t with du: du heißt."
         },
         {
           "type": "order",
@@ -204,6 +213,31 @@
           "alts": [
             "Heute Abend kocht Lena."
           ]
+        },
+        {
+          "type": "type",
+          "task": "Ask Lena: … du gern?",
+          "cue": "Ich tanze gern.",
+          "t": "___ du gern?",
+          "answer": [
+            "Tanzt"
+          ],
+          "s": "Do you like dancing?",
+          "why": "Stems in -z only add -t with du: du tanzt, not 'tanzst'."
+        },
+        {
+          "type": "choice",
+          "task": "Which reply fits?",
+          "cue": "Was macht ihr am Abend?",
+          "t": "___",
+          "options": [
+            "Wir kochen und hören Musik.",
+            "Wir kocht und hört Musik.",
+            "Wir kochst und hörst Musik."
+          ],
+          "answer": 0,
+          "s": "We cook and listen to music.",
+          "why": "With wir, regular verbs look like the infinitive: wir kochen, wir hören."
         }
       ],
       "thead": true
@@ -214,7 +248,7 @@
         "t": "Ich bin müde. Ich habe Hunger.",
         "s": "sein and haben: forms and uses"
       },
-      "explain": "**sein** (*to be*) and **haben** (*to have*) are the two most important German verbs. They are irregular, so learn all their forms by heart.\n**sein**: ich **bin**, du **bist**, er/sie/es **ist**, wir **sind**, ihr **seid**, sie/Sie **sind**. Use it for names, origin, age, places and descriptions: **Ich bin Reza. Lena ist aus Berlin. Ich bin zehn Jahre alt. Die Kinder sind im Park. Ich bin müde** (*I'm tired*).\n**haben**: ich **habe**, du **hast**, er/sie/es **hat**, wir **haben**, ihr **habt**, sie/Sie **haben**. Use it for things and people you have: **Wir haben eine Katze. Ich habe zwei Brüder.** It is also used in fixed expressions where English uses *be*: **Ich habe Hunger** (*I'm hungry*), **Ich habe Durst** (*I'm thirsty*), **Hast du Zeit?** (*Are you free?*), **Sie hat im Mai Geburtstag** (*Her birthday is in May*).\nAfter **haben** the noun is in the accusative, so you say **Ich habe einen Bruder** and **Wir haben keinen Fernseher**.\nCareful: in Persian you can give your age with *have* (literally *I have ten years*), but German uses **sein**: **Ich bin zehn Jahre alt**, never \"Ich habe zehn Jahre\". English speakers say *I am hungry*, but the usual German is **Ich habe Hunger**. Write **ihr seid** with a **d** at the end, and say **er hat**, not \"er habt\".",
+      "explain": "You first met sein in Unit 1 and haben in Unit 3.\n**sein** (*to be*) and **haben** (*to have*) are the two most important German verbs. They are irregular, so learn all their forms by heart.\n**sein**: ich **bin**, du **bist**, er/sie/es **ist**, wir **sind**, ihr **seid**, sie/Sie **sind**. Use it for names, origin, age, places and descriptions: **Ich bin Reza. Lena ist aus Berlin. Ich bin zehn Jahre alt. Die Kinder sind im Park. Ich bin müde** (*I'm tired*).\n**haben**: ich **habe**, du **hast**, er/sie/es **hat**, wir **haben**, ihr **habt**, sie/Sie **haben**. Use it for things and people you have: **Wir haben eine Katze. Ich habe zwei Brüder.** It is also used in fixed expressions where English uses *be*: **Ich habe Hunger** (*I'm hungry*), **Ich habe Durst** (*I'm thirsty*), **Hast du Zeit?** (*Are you free?*), **Sie hat im Mai Geburtstag** (*Her birthday is in May*).\nAfter **haben** the noun is in the accusative, so you say **Ich habe einen Bruder** and **Wir haben keinen Fernseher**.\nCareful: in Persian you can give your age with *have* (literally *I have ten years*), but German uses **sein**: **Ich bin zehn Jahre alt**, never \"Ich habe zehn Jahre\". English speakers say *I am hungry*, but the usual German is **Ich habe Hunger**. Write **ihr seid** with a **d** at the end, and say **er hat**, not \"er habt\".",
       "table": [
         [
           "Person",
@@ -288,7 +322,8 @@
             "ist"
           ],
           "answer": 1,
-          "s": "I'm from Iran."
+          "s": "I'm from Iran.",
+          "why": "Origin uses sein: Ich bin aus dem Iran."
         },
         {
           "type": "choice",
@@ -299,7 +334,8 @@
             "habt"
           ],
           "answer": 1,
-          "s": "Ali is thirsty."
+          "s": "Ali is thirsty.",
+          "why": "German says Durst haben (to have thirst): Ali hat Durst."
         },
         {
           "type": "choice",
@@ -310,7 +346,8 @@
             "seit"
           ],
           "answer": 0,
-          "s": "You're tired today."
+          "s": "You're tired today.",
+          "why": "sein with ihr is seid, written with d. Seit means 'since'."
         },
         {
           "type": "choice",
@@ -321,7 +358,8 @@
             "sind"
           ],
           "answer": 1,
-          "s": "My brother is twenty years old."
+          "s": "My brother is twenty years old.",
+          "why": "Age uses sein, not haben: Er ist zwanzig Jahre alt."
         },
         {
           "type": "type",
@@ -330,7 +368,8 @@
             "hast"
           ],
           "s": "You have a nice apartment.",
-          "hint": "haben"
+          "hint": "haben",
+          "why": "haben is irregular with du: du hast."
         },
         {
           "type": "type",
@@ -339,7 +378,8 @@
             "sind"
           ],
           "s": "We're from Germany.",
-          "hint": "sein"
+          "hint": "sein",
+          "why": "sein with wir is sind."
         },
         {
           "type": "type",
@@ -348,7 +388,8 @@
             "Haben"
           ],
           "s": "Do you have children, Ms. Wagner?",
-          "hint": "haben"
+          "hint": "haben",
+          "why": "With polite Sie the form is haben. In a yes/no question it comes first."
         },
         {
           "type": "type",
@@ -357,7 +398,8 @@
             "hat"
           ],
           "s": "Lena's birthday is in July.",
-          "hint": "haben"
+          "hint": "haben",
+          "why": "German says Geburtstag haben: Sie hat im Juli Geburtstag."
         },
         {
           "type": "type",
@@ -366,7 +408,8 @@
             "bist"
           ],
           "s": "Where are you? – I'm in the kitchen.",
-          "hint": "sein"
+          "hint": "sein",
+          "why": "sein with du is bist."
         },
         {
           "type": "order",
@@ -386,6 +429,31 @@
             "Heute sind die Kinder sehr müde.",
             "Sehr müde sind die Kinder heute."
           ]
+        },
+        {
+          "type": "type",
+          "task": "Say it about the children.",
+          "cue": "Ich bin müde.",
+          "t": "Die Kinder ___ müde.",
+          "answer": [
+            "sind"
+          ],
+          "s": "The children are tired.",
+          "why": "Die Kinder is plural (they), so sein is sind."
+        },
+        {
+          "type": "choice",
+          "task": "Which reply fits?",
+          "cue": "Möchtest du ein Wasser?",
+          "t": "___",
+          "options": [
+            "Ja, gern. Ich habe Durst.",
+            "Ja, gern. Ich bin Durst.",
+            "Ja, gern. Ich habe durstig."
+          ],
+          "answer": 0,
+          "s": "Yes, please. I'm thirsty.",
+          "why": "German says Ich habe Durst (literally: I have thirst), not 'Ich bin Durst'."
         }
       ],
       "thead": true
@@ -396,7 +464,7 @@
         "t": "du fährst, er liest, sie weiß",
         "s": "Verbs with a vowel change, and wissen"
       },
-      "explain": "Some very common verbs change their stem vowel in the present tense, but **only in the du and er/sie/es forms**. The endings stay regular, and ich, wir, ihr and sie/Sie keep the vowel of the infinitive.\n**e → i**: **essen** (du **isst**, er **isst**), **nehmen** (du **nimmst**, er **nimmt**), **sprechen** (*to speak*: du **sprichst**, er **spricht**), **helfen** (*to help*: du **hilfst**, er **hilft**), **geben** (*to give*: du **gibst**, er **gibt**, and so also **es gibt**).\n**e → ie**: **lesen** (du **liest**, er **liest**), **sehen** (*to see*: du **siehst**, er **sieht**).\n**a → ä**: **fahren** (*to go by car, bus or train; to drive; to ride*: du **fährst**, er **fährt**), **schlafen** (du **schläfst**, er **schläft**). **au → äu**: **laufen** (*to run; to walk*: du **läufst**, er **läuft**).\nWatch the spelling: **nehmen** also loses its **h** and doubles the **m** (**nimmst, nimmt**). **essen** and **lesen** only add **-t** in the du form, because the stem already ends in s: **du isst, du liest**.\n**wissen** (*to know* a fact) is special: ich **weiß**, du **weißt**, er/sie/es **weiß** (no ending!), wir **wissen**, ihr **wisst**, sie/Sie **wissen**.\nCareful: the vowel never changes with **ich**, **wir** or **ihr**: **ich fahre**, **ihr fahrt**, **ihr esst**, not \"ich fähre\". Say **er weiß**, not \"er weißt\". *I don't know* is **Ich weiß es nicht** or simply **Ich weiß nicht**.",
+      "explain": "You have already met some of these verbs: du siehst fern and sie schläft (Unit 6), du nimmst (Unit 8), du liest and du fährst (Unit 10).\nSome very common verbs change their stem vowel in the present tense, but **only in the du and er/sie/es forms**. The endings stay regular, and ich, wir, ihr and sie/Sie keep the vowel of the infinitive.\n**e → i**: **essen** (du **isst**, er **isst**), **nehmen** (du **nimmst**, er **nimmt**), **sprechen** (*to speak*: du **sprichst**, er **spricht**), **helfen** (*to help*: du **hilfst**, er **hilft**), **geben** (*to give*: du **gibst**, er **gibt**, and so also **es gibt**).\n**e → ie**: **lesen** (du **liest**, er **liest**), **sehen** (*to see*: du **siehst**, er **sieht**).\n**a → ä**: **fahren** (*to go by car, bus or train; to drive; to ride*: du **fährst**, er **fährt**), **schlafen** (du **schläfst**, er **schläft**). **au → äu**: **laufen** (*to run; to walk*: du **läufst**, er **läuft**).\nWatch the spelling: **nehmen** also loses its **h** and doubles the **m** (**nimmst, nimmt**). **essen** and **lesen** only add **-t** in the du form, because the stem already ends in s: **du isst, du liest**.\n**wissen** (*to know* a fact) is special: ich **weiß**, du **weißt**, er/sie/es **weiß** (no ending!), wir **wissen**, ihr **wisst**, sie/Sie **wissen**.\nCareful: the vowel never changes with **ich**, **wir** or **ihr**: **ich fahre**, **ihr fahrt**, **ihr esst**, not \"ich fähre\". Say **er weiß**, not \"er weißt\". *I don't know* is **Ich weiß es nicht** or simply **Ich weiß nicht**.",
       "table": [
         [
           "Infinitiv",
@@ -507,7 +575,8 @@
             "ist"
           ],
           "answer": 1,
-          "s": "You eat bread and cheese."
+          "s": "You eat bread and cheese.",
+          "why": "essen changes e to i with du and only adds -t: du isst."
         },
         {
           "type": "choice",
@@ -518,7 +587,8 @@
             "nehme"
           ],
           "answer": 1,
-          "s": "Ali takes the bus."
+          "s": "Ali takes the bus.",
+          "why": "nehmen changes with er/sie: er nimmt (no h, double m)."
         },
         {
           "type": "choice",
@@ -529,7 +599,8 @@
             "fähre"
           ],
           "answer": 0,
-          "s": "I'm going to Berlin."
+          "s": "I'm going to Berlin.",
+          "why": "The vowel never changes with ich: ich fahre."
         },
         {
           "type": "choice",
@@ -540,7 +611,8 @@
             "wisst"
           ],
           "answer": 1,
-          "s": "Lena doesn't know."
+          "s": "Lena doesn't know.",
+          "why": "wissen has no ending with er/sie: sie weiß."
         },
         {
           "type": "type",
@@ -549,7 +621,8 @@
             "liest"
           ],
           "s": "What do you read in the evening?",
-          "hint": "lesen"
+          "hint": "lesen",
+          "why": "lesen changes e to ie with du and only adds -t: du liest."
         },
         {
           "type": "type",
@@ -559,7 +632,8 @@
             "schlaeft"
           ],
           "s": "Grandpa is sleeping in the living room.",
-          "hint": "schlafen"
+          "hint": "schlafen",
+          "why": "schlafen changes a to ä with er/sie: er schläft."
         },
         {
           "type": "type",
@@ -568,7 +642,8 @@
             "Sprichst"
           ],
           "s": "Do you speak Persian?",
-          "hint": "sprechen"
+          "hint": "sprechen",
+          "why": "sprechen changes e to i with du: du sprichst."
         },
         {
           "type": "type",
@@ -577,7 +652,8 @@
             "hilft"
           ],
           "s": "Amir helps Mina in the kitchen.",
-          "hint": "helfen"
+          "hint": "helfen",
+          "why": "helfen changes e to i with er/sie: er hilft."
         },
         {
           "type": "type",
@@ -587,7 +663,8 @@
             "laeuft"
           ],
           "s": "Lukas runs in the park every morning.",
-          "hint": "laufen"
+          "hint": "laufen",
+          "why": "laufen changes au to äu with er/sie: er läuft."
         },
         {
           "type": "order",
@@ -606,6 +683,32 @@
           "alts": [
             "Am Abend sieht mein Vater fern."
           ]
+        },
+        {
+          "type": "type",
+          "task": "Say it about Lena.",
+          "cue": "Ich fahre nach Hamburg.",
+          "t": "Lena ___ nach Hamburg.",
+          "answer": [
+            "fährt",
+            "faehrt"
+          ],
+          "s": "Lena is going to Hamburg.",
+          "why": "fahren changes a to ä with er/sie: sie fährt."
+        },
+        {
+          "type": "choice",
+          "task": "Which reply fits?",
+          "cue": "Wo ist mein Schal?",
+          "t": "___",
+          "options": [
+            "Ich weiß es nicht.",
+            "Ich weißt es nicht.",
+            "Ich wisse es nicht."
+          ],
+          "answer": 0,
+          "s": "I don't know.",
+          "why": "wissen is special: ich weiß and er weiß have no ending."
         }
       ],
       "thead": true
@@ -616,7 +719,7 @@
         "t": "Wann kaufst du ein?",
         "s": "Separable verbs"
       },
-      "explain": "Many German verbs start with a small prefix such as **auf-**, **ein-**, **an-**, **fern-** or **mit-**. They are called **separable verbs**: **aufstehen** (*to get up*), **einkaufen** (*to go shopping*), **anrufen** (*to call* on the phone), **fernsehen** (*to watch TV*), **mitkommen** (*to come along*), **anfangen** (*to begin, to start*). In the infinitive they are one word, and the stress is always on the prefix: **AUFstehen**, **ANrufen**.\nIn a statement or a question, the verb part gets the normal ending and stays in its usual place, and the prefix goes to the very **end** of the sentence: **Ich stehe um sieben Uhr auf. Wann kaufst du ein? Kommst du mit?**\nThe verb part follows all the normal rules, including the vowel changes from the last topic: **fernsehen → du siehst fern, er sieht fern**; **anfangen → du fängst an, es fängt an**.\nWith a modal verb (next topic), the infinitive stays in one piece at the end: **Ich muss heute einkaufen.**\nCareful: don't keep the verb together in a normal sentence (\"Ich aufstehe um sieben Uhr\"), and don't forget the prefix at the end. **Ich rufe Sara an** means *I call Sara*, but **Ich rufe Sara** means *I call out to Sara* with your voice. Persian says literally *I ring to Sara*, but German has no preposition here: **Ich rufe Sara an**, not \"Ich rufe zu Sara an\".",
+      "explain": "You first met separable verbs in Unit 6 (Ich stehe um sechs Uhr auf).\nMany German verbs start with a small prefix such as **auf-**, **ein-**, **an-**, **fern-** or **mit-**. They are called **separable verbs**: **aufstehen** (*to get up*), **einkaufen** (*to go shopping*), **anrufen** (*to call* on the phone), **fernsehen** (*to watch TV*), **mitkommen** (*to come along*), **anfangen** (*to begin, to start*). In the infinitive they are one word, and the stress is always on the prefix: **AUFstehen**, **ANrufen**.\nIn a statement or a question, the verb part gets the normal ending and stays in its usual place, and the prefix goes to the very **end** of the sentence: **Ich stehe um sieben Uhr auf. Wann kaufst du ein? Kommst du mit?**\nThe verb part follows all the normal rules, including the vowel changes from the last topic: **fernsehen → du siehst fern, er sieht fern**; **anfangen → du fängst an, es fängt an**.\nWith a modal verb (next topic), the infinitive stays in one piece at the end: **Ich muss heute einkaufen.**\nCareful: don't keep the verb together in a normal sentence (\"Ich aufstehe um sieben Uhr\"), and don't forget the prefix at the end. **Ich rufe Sara an** means *I call Sara*, but **Ich rufe Sara** means *I call out to Sara* with your voice. Persian says literally *I ring to Sara*, but German has no preposition here: **Ich rufe Sara an**, not \"Ich rufe zu Sara an\".",
       "table": [
         [
           "Infinitiv",
@@ -697,7 +800,8 @@
             "kauft"
           ],
           "answer": 1,
-          "s": "We go shopping in the evening."
+          "s": "We go shopping in the evening.",
+          "why": "einkaufen splits: kaufen stays in position 2 and ein goes to the end."
         },
         {
           "type": "choice",
@@ -708,7 +812,8 @@
             "fern"
           ],
           "answer": 0,
-          "s": "Reza calls Ms. Wagner."
+          "s": "Reza calls Ms. Wagner.",
+          "why": "anrufen splits: the prefix an goes to the end."
         },
         {
           "type": "choice",
@@ -719,7 +824,8 @@
             "anfängt"
           ],
           "answer": 1,
-          "s": "When does school start?"
+          "s": "When does school start?",
+          "why": "anfangen splits and changes a to ä with er/sie/es: sie fängt … an."
         },
         {
           "type": "choice",
@@ -730,7 +836,8 @@
             "fernsehe ich"
           ],
           "answer": 1,
-          "s": "In the evening I watch TV."
+          "s": "In the evening I watch TV.",
+          "why": "The verb part is in position 2, the subject follows, and fern goes to the end."
         },
         {
           "type": "type",
@@ -739,7 +846,8 @@
             "stehst"
           ],
           "s": "You get up at six o'clock.",
-          "hint": "aufstehen"
+          "hint": "aufstehen",
+          "why": "aufstehen splits: du stehst … auf."
         },
         {
           "type": "type",
@@ -748,7 +856,8 @@
             "fern"
           ],
           "s": "Amir doesn't like watching TV.",
-          "hint": "fernsehen"
+          "hint": "fernsehen",
+          "why": "fernsehen splits: the prefix fern goes to the end."
         },
         {
           "type": "type",
@@ -757,7 +866,8 @@
             "Kommst"
           ],
           "s": "Are you coming along today?",
-          "hint": "mitkommen"
+          "hint": "mitkommen",
+          "why": "mitkommen splits: Kommst du … mit? In a yes/no question the verb part comes first."
         },
         {
           "type": "type",
@@ -766,7 +876,8 @@
             "ruft"
           ],
           "s": "Mina calls Grandma.",
-          "hint": "anrufen"
+          "hint": "anrufen",
+          "why": "anrufen splits: sie ruft … an."
         },
         {
           "type": "type",
@@ -776,7 +887,8 @@
             "faengst"
           ],
           "s": "When do you start?",
-          "hint": "anfangen"
+          "hint": "anfangen",
+          "why": "anfangen changes a to ä with du: du fängst … an."
         },
         {
           "type": "order",
@@ -795,6 +907,31 @@
           "alts": [
             "Die Kinder stehen um sieben Uhr auf."
           ]
+        },
+        {
+          "type": "type",
+          "task": "Start with Heute.",
+          "cue": "Wir kaufen heute ein.",
+          "t": "Heute ___ ein.",
+          "answer": [
+            "kaufen wir"
+          ],
+          "s": "Today we're going shopping.",
+          "why": "The verb part stays in position 2, the subject follows it, and ein stays at the end."
+        },
+        {
+          "type": "choice",
+          "task": "Which reply fits?",
+          "cue": "Ich kaufe im Supermarkt ein. Kommst du mit?",
+          "t": "___",
+          "options": [
+            "Ja, gern! Ich komme mit.",
+            "Ja, gern! Ich mitkomme.",
+            "Ja, gern! Ich mit komme."
+          ],
+          "answer": 0,
+          "s": "Yes, I'd love to! I'm coming along.",
+          "why": "mitkommen splits: komme is in position 2 and mit goes to the end."
         }
       ],
       "thead": true
@@ -805,7 +942,7 @@
         "t": "Ich muss heute arbeiten.",
         "s": "Modal verbs: können, müssen, wollen, möchten"
       },
-      "explain": "**Modal verbs** add an attitude to another verb: **können** (*can, to be able to*), **müssen** (*must, to have to*), **wollen** (*to want to*) and **möchten** (*would like to*).\nA modal verb works as a team with a second verb. The modal verb is conjugated and stands in position two, or first in a yes/no question. The second verb goes to the **end**, in the **infinitive**: **Ich kann gut kochen. Wir müssen heute arbeiten. Willst du Fußball spielen?** A separable verb stays in one piece at the end: **Ich muss um sechs Uhr aufstehen.**\nThe forms are special: **ich** and **er/sie/es** are the same, and **er/sie/es** has **no -t**: ich **kann**, er **kann**; ich **muss**, sie **muss**; ich **will**, er **will**; ich **möchte**, sie **möchte**. **können**, **müssen** and **wollen** also have a different vowel in the singular: ich **kann**, but wir **können**. The plural is regular: wir **können**, ihr **könnt**, sie/Sie **können**.\n**möchten** is the polite way to say what you want. Like **wollen**, it can also stand without a second verb: **Ich möchte einen Tee.** **Ich will einen Tee** sounds much less polite.\nCareful: in Persian both verbs take a personal ending, but in German only the modal verb does: **Ich kann schwimmen**, not \"Ich kann schwimme\". For English speakers: **Ich will** means *I want*, not *I will*, and **Ich muss nicht** means *I don't have to*, not *I must not*.",
+      "explain": "You first met möchte in Unit 4 and können in Unit 10.\n**Modal verbs** add an attitude to another verb: **können** (*can, to be able to*), **müssen** (*must, to have to*), **wollen** (*to want to*) and **möchten** (*would like to*).\nA modal verb works as a team with a second verb. The modal verb is conjugated and stands in position two, or first in a yes/no question. The second verb goes to the **end**, in the **infinitive**: **Ich kann gut kochen. Wir müssen heute arbeiten. Willst du Fußball spielen?** A separable verb stays in one piece at the end: **Ich muss um sechs Uhr aufstehen.**\nThe forms are special: **ich** and **er/sie/es** are the same, and **er/sie/es** has **no -t**: ich **kann**, er **kann**; ich **muss**, sie **muss**; ich **will**, er **will**; ich **möchte**, sie **möchte**. **können**, **müssen** and **wollen** also have a different vowel in the singular: ich **kann**, but wir **können**. The plural is regular: wir **können**, ihr **könnt**, sie/Sie **können**.\n**möchten** is the polite way to say what you want. Like **wollen**, it can also stand without a second verb: **Ich möchte einen Tee.** **Ich will einen Tee** sounds much less polite.\nCareful: in Persian both verbs take a personal ending, but in German only the modal verb does: **Ich kann schwimmen**, not \"Ich kann schwimme\". For English speakers: **Ich will** means *I want*, not *I will*, and **Ich muss nicht** means *I don't have to*, not *I must not*.",
       "table": [
         [
           "Person",
@@ -893,7 +1030,8 @@
             "müssen"
           ],
           "answer": 0,
-          "s": "I have to work today."
+          "s": "I have to work today.",
+          "why": "With ich, müssen is muss (no ending)."
         },
         {
           "type": "choice",
@@ -904,7 +1042,8 @@
             "schwimme"
           ],
           "answer": 1,
-          "s": "Sara can swim well."
+          "s": "Sara can swim well.",
+          "why": "After a modal verb, the second verb is an infinitive: schwimmen."
         },
         {
           "type": "choice",
@@ -915,7 +1054,8 @@
             "Wollt"
           ],
           "answer": 0,
-          "s": "Do you want to drink tea?"
+          "s": "Do you want to drink tea?",
+          "why": "With du, wollen is willst. In a yes/no question it comes first."
         },
         {
           "type": "choice",
@@ -926,16 +1066,18 @@
             "möchten"
           ],
           "answer": 1,
-          "s": "He would like a juice."
+          "s": "He would like a juice.",
+          "why": "möchten has no -t with er/sie: er möchte."
         },
         {
           "type": "type",
-          "t": "Wir ___ im Park spielen.",
+          "t": "Ihr ___ im Park spielen.",
           "answer": [
-            "wollen"
+            "wollt"
           ],
-          "s": "We want to play in the park.",
-          "hint": "wollen"
+          "s": "You (all) want to play in the park.",
+          "hint": "wollen",
+          "why": "With ihr, wollen is wollt."
         },
         {
           "type": "type",
@@ -944,7 +1086,8 @@
             "kann"
           ],
           "s": "Lukas can't sing.",
-          "hint": "können"
+          "hint": "können",
+          "why": "können has no ending with er/sie: er kann."
         },
         {
           "type": "type",
@@ -954,7 +1097,8 @@
             "muesst"
           ],
           "s": "You don't have to cook today.",
-          "hint": "müssen"
+          "hint": "müssen",
+          "why": "With ihr, müssen is müsst. Nicht müssen means 'don't have to'."
         },
         {
           "type": "type",
@@ -964,7 +1108,8 @@
             "moechtest"
           ],
           "s": "What would you like to eat?",
-          "hint": "möchten"
+          "hint": "möchten",
+          "why": "With du, möchten is möchtest."
         },
         {
           "type": "type",
@@ -973,7 +1118,8 @@
             "mitkommen"
           ],
           "s": "I can't come along today.",
-          "hint": "mitkommen"
+          "hint": "mitkommen",
+          "why": "With a modal verb, a separable verb stays in one word at the end: mitkommen."
         },
         {
           "type": "order",
@@ -993,6 +1139,31 @@
           "type": "order",
           "t": "Was möchtest du heute Abend machen?",
           "s": "What would you like to do tonight?"
+        },
+        {
+          "type": "type",
+          "task": "Add müssen: Ich muss …",
+          "cue": "Ich arbeite heute.",
+          "t": "Ich muss heute ___.",
+          "answer": [
+            "arbeiten"
+          ],
+          "s": "I have to work today.",
+          "why": "With a modal verb, the second verb goes to the end as an infinitive: Ich muss heute arbeiten."
+        },
+        {
+          "type": "choice",
+          "task": "Which reply fits?",
+          "cue": "Kommst du heute Abend mit?",
+          "t": "___",
+          "options": [
+            "Nein, ich muss arbeiten.",
+            "Nein, ich muss arbeite.",
+            "Nein, ich arbeiten muss."
+          ],
+          "answer": 0,
+          "s": "No, I have to work.",
+          "why": "The modal verb is in position 2 and the infinitive goes to the end: ich muss arbeiten."
         }
       ],
       "thead": true

@@ -145,6 +145,7 @@
       "t": "teuer",
       "s": "expensive",
       "emoji": "💰",
+      "sym": true,
       "ex": {
         "t": "Das ist zu teuer!",
         "s": "That's too expensive!"
@@ -158,6 +159,27 @@
       "ex": {
         "t": "Die Schuhe sind billig.",
         "s": "The shoes are cheap."
+      }
+    },
+    {
+      "id": "w15",
+      "t": "suchen",
+      "s": "to look for",
+      "emoji": "🔍",
+      "sym": true,
+      "ex": {
+        "t": "Sara sucht ein Kleid.",
+        "s": "Sara is looking for a dress."
+      }
+    },
+    {
+      "id": "w16",
+      "t": "brauchen",
+      "s": "to need",
+      "emoji": "",
+      "ex": {
+        "t": "Ich brauche einen Schal.",
+        "s": "I need a scarf."
       }
     }
   ],
@@ -333,18 +355,19 @@
             "das"
           ],
           "answer": 1,
-          "s": "I'll take the coat."
+          "s": "I'll take the coat.",
+          "why": "Mantel is a der-noun and the object of nehmen, so der becomes den."
         },
         {
-          "type": "choice",
-          "t": "Sara kauft ___ Schal.",
-          "options": [
-            "ein",
-            "eine",
-            "einen"
+          "type": "type",
+          "task": "Say you need one: Ich brauche …",
+          "cue": "Ich suche einen Mantel.",
+          "t": "Ich brauche ___.",
+          "answer": [
+            "einen Mantel"
           ],
-          "answer": 2,
-          "s": "Sara buys a scarf."
+          "s": "I need a coat.",
+          "why": "brauchen takes the accusative. Mantel is a der-noun, so it is einen Mantel."
         },
         {
           "type": "choice",
@@ -355,7 +378,8 @@
             "das"
           ],
           "answer": 0,
-          "s": "I'd like the pants."
+          "s": "I'd like the pants.",
+          "why": "Hose is a die-noun. Die-nouns don't change in the accusative: die Hose."
         },
         {
           "type": "type",
@@ -363,15 +387,22 @@
           "answer": [
             "keinen"
           ],
-          "s": "Lukas doesn't have a coat."
+          "s": "Lukas doesn't have a coat.",
+          "why": "Mantel is a der-noun. After haben, kein becomes keinen."
         },
         {
-          "type": "type",
-          "t": "Ich kaufe ___ Schal.",
-          "answer": [
-            "einen"
+          "type": "choice",
+          "task": "Which reply fits?",
+          "cue": "Was möchten Sie?",
+          "t": "___",
+          "options": [
+            "Ich möchte einen Schal.",
+            "Ich möchte ein Schal.",
+            "Ich möchte der Schal."
           ],
-          "s": "I'm buying a scarf."
+          "answer": 0,
+          "s": "I'd like a scarf.",
+          "why": "After möchte, a der-noun is in the accusative: einen Schal."
         },
         {
           "type": "choice",
@@ -382,7 +413,8 @@
             "der"
           ],
           "answer": 1,
-          "s": "Reza buys the shoes."
+          "s": "Reza buys the shoes.",
+          "why": "Schuhe is plural. Plurals don't change in the accusative: die Schuhe."
         },
         {
           "type": "type",
@@ -390,7 +422,8 @@
           "answer": [
             "das"
           ],
-          "s": "We'll take the shirt."
+          "s": "We'll take the shirt.",
+          "why": "Hemd is a das-noun. Das-nouns don't change in the accusative: das Hemd."
         },
         {
           "type": "order",
@@ -463,18 +496,22 @@
             "Dieses"
           ],
           "answer": 2,
-          "s": "This shirt is white."
+          "s": "This shirt is white.",
+          "why": "Hemd is a das-noun: das → dieses."
         },
         {
           "type": "choice",
-          "t": "Wie viel kostet ___ Tasche?",
+          "task": "Which reply fits?",
+          "cue": "Wie viel kostet dieser Schal?",
+          "t": "___",
           "options": [
-            "diese",
-            "dieser",
-            "dieses"
+            "Er kostet zwölf Euro.",
+            "Sie kostet zwölf Euro.",
+            "Er kosten zwölf Euro."
           ],
           "answer": 0,
-          "s": "How much is this bag?"
+          "s": "It costs twelve euros.",
+          "why": "Schal is a der-noun, so it is er. One thing takes kostet."
         },
         {
           "type": "choice",
@@ -485,7 +522,8 @@
             "dieses"
           ],
           "answer": 1,
-          "s": "I'll take this scarf."
+          "s": "I'll take this scarf.",
+          "why": "Schal is a der-noun and the object, so dieser becomes diesen, like der → den."
         },
         {
           "type": "choice",
@@ -496,7 +534,8 @@
             "kosten"
           ],
           "answer": 2,
-          "s": "How much are these shoes?"
+          "s": "How much are these shoes?",
+          "why": "Schuhe is plural, so the verb is plural too: Wie viel kosten …?"
         },
         {
           "type": "type",
@@ -504,15 +543,21 @@
           "answer": [
             "Dieser"
           ],
-          "s": "This coat is expensive."
+          "s": "This coat is expensive.",
+          "why": "Mantel is a der-noun and the subject: der → dieser."
         },
         {
           "type": "type",
-          "t": "Das Kleid ___ fünfzehn Euro.",
+          "task": "Say it costs ten euros more.",
+          "cue": "Der Mantel kostet zwanzig Euro.",
+          "t": "Der Mantel kostet ___ Euro.",
           "answer": [
-            "kostet"
+            "dreißig",
+            "dreissig",
+            "30"
           ],
-          "s": "The dress costs fifteen euros."
+          "s": "The coat costs thirty euros.",
+          "why": "Twenty plus ten is dreißig. Euro stays singular after a number."
         },
         {
           "type": "order",
@@ -609,6 +654,18 @@
           "grün und billig"
         ],
         "answer": 1
+      },
+      {
+        "q": {
+          "t": "Warum kauft Sara keine Tasche?",
+          "s": "Why doesn't Sara buy a bag?"
+        },
+        "options": [
+          "Sie ist zu teuer.",
+          "Sie ist nicht schwarz.",
+          "Sara hat schon eine Tasche."
+        ],
+        "answer": 0
       }
     ]
   },
