@@ -88,8 +88,8 @@
       "pr": "نیشانلِ",
       "emoji": "",
       "ex": {
-        "t": "Mehmet'in nişanlısı doktor.",
-        "s": "نامزد محمد پزشک است."
+        "t": "Can'ın nişanlısı doktor.",
+        "s": "نامزد جان پزشک است."
       }
     },
     {
@@ -101,7 +101,8 @@
       "ex": {
         "t": "Ablam geçen yaz evlendi.",
         "s": "خواهر بزرگم تابستان گذشته ازدواج کرد."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w09",
@@ -157,7 +158,8 @@
       "ex": {
         "t": "Kavga ettikten sonra hemen barıştılar.",
         "s": "بعد از دعوا زود آشتی کردند."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w14",
@@ -390,7 +392,8 @@
             "oynayacağım"
           ],
           "answer": 0,
-          "s": "بچه‌هایی که در حیاط بازی می‌کنند نوه‌های من هستند."
+          "s": "بچه‌هایی که در حیاط بازی می‌کنند نوه‌های من هستند.",
+          "why": "بچه‌ها خودشان بازی می‌کنند (فاعل‌اند)، پس -(y)an: oyna-yan."
         },
         {
           "type": "choice",
@@ -401,18 +404,19 @@
             "gelmez"
           ],
           "answer": 0,
-          "s": "دانش‌آموزانی که دیروز سر کلاس نیامدند از تکلیف خبر ندارند."
+          "s": "دانش‌آموزانی که دیروز سر کلاس نیامدند از تکلیف خبر ندارند.",
+          "why": "صفت فاعلی قبل از اسم جمع، خودش جمع نمی‌شود: gelmeyen öğrenciler."
         },
         {
-          "type": "choice",
-          "t": "Annemle telefonda ___ kadın teyzem.",
-          "options": [
-            "konuşan",
-            "konuşen",
-            "konuşuyor"
+          "type": "type",
+          "task": "دو جمله را با -(y)an یکی کنید.",
+          "cue": "Bir kadın gelinin yanında duruyor; o benim teyzem.",
+          "t": "Gelinin yanında ___ kadın benim teyzem.",
+          "answer": [
+            "duran"
           ],
-          "answer": 0,
-          "s": "زنی که دارد با مادرم تلفنی حرف می‌زند خاله‌ام است."
+          "why": "اسم (kadın) خودش فاعل است، پس ریشه + -an: dur-an.",
+          "s": "زنی که کنار عروس ایستاده خاله‌ی من است."
         },
         {
           "type": "type",
@@ -420,7 +424,8 @@
           "answer": [
             "bekleyen"
           ],
-          "s": "مردی که دم در منتظر است کیست؟"
+          "s": "مردی که دم در منتظر است کیست؟",
+          "why": "مرد خودش منتظر است؛ بعد از واکه y می‌آید: bekle-yen."
         },
         {
           "type": "type",
@@ -429,15 +434,22 @@
             "bilen",
             "konuşan"
           ],
-          "s": "دنبال دوستی می‌گردم که ترکی بلد باشد."
+          "s": "دنبال دوستی می‌گردم که ترکی بلد باشد.",
+          "why": "دوستی که خودش ترکی بلد است (فاعل): bil-en."
         },
         {
-          "type": "type",
-          "t": "Düğünde en çok dans ___ damadın babasıydı.",
-          "answer": [
-            "eden"
+          "type": "choice",
+          "task": "کدام جواب مناسب است؟",
+          "cue": "Düğünde en çok kim dans etti?",
+          "t": "___",
+          "options": [
+            "En çok dans eden damadın babasıydı.",
+            "En çok dans ettiği damadın babasıydı.",
+            "En çok dans edecek damadın babasıydı."
           ],
-          "s": "کسی که در عروسی از همه بیشتر رقصید پدر داماد بود."
+          "answer": 0,
+          "why": "کسی که خودش کار را کرده (فاعل) با -an گفته می‌شود: dans eden «کسی که رقصید».",
+          "s": "کسی که از همه بیشتر رقصید پدر داماد بود."
         },
         {
           "type": "order",
@@ -522,7 +534,8 @@
             "izleyeceğim"
           ],
           "answer": 0,
-          "s": "فیلمی که دیروز دیدم خیلی خوب بود."
+          "s": "فیلمی که دیروز دیدم خیلی خوب بود.",
+          "why": "فیلم مفعول است و فاعل «من»: izle-diğ-im."
         },
         {
           "type": "choice",
@@ -533,29 +546,33 @@
             "giden"
           ],
           "answer": 0,
-          "s": "جایی که فردا می‌رویم خیلی دور است؟"
+          "s": "جایی که فردا می‌رویم خیلی دور است؟",
+          "why": "برای آینده (yarın) -(y)acak + پسوند ملکی: gid-eceğ-imiz."
+        },
+        {
+          "type": "type",
+          "task": "دو جمله را با -dık یکی کنید.",
+          "cue": "Annem bir hikâye anlattı. Hikâye çok güzeldi.",
+          "t": "Annemin ___ hikâye çok güzeldi.",
+          "answer": [
+            "anlattığı"
+          ],
+          "why": "فاعل (annem) حالت ملکی می‌گیرد و فعل -dık + پسوند ملکی سوم‌شخص: anlat-tığ-ı.",
+          "s": "قصه‌ای که مادرم تعریف کرد خیلی قشنگ بود."
         },
         {
           "type": "choice",
-          "t": "Bu, babamın bana ___ saat.",
+          "task": "کدام جواب مناسب است؟",
+          "cue": "Hangi kitabı okuyorsun?",
+          "t": "___",
           "options": [
-            "aldığı",
-            "aldığım",
-            "alan"
+            "Can'ın bana önerdiği kitabı.",
+            "Can'ın bana önerdiğim kitabı.",
+            "Can bana öneren kitabı."
           ],
           "answer": 0,
-          "s": "این ساعتی است که پدرم برایم خرید."
-        },
-        {
-          "type": "choice",
-          "t": "Kuzenimin ___ şehir Ankara.",
-          "options": [
-            "yaşadığı",
-            "yaşayan",
-            "yaşadığım"
-          ],
-          "answer": 0,
-          "s": "شهری که پسرعمه‌ام در آن زندگی می‌کند آنکاراست."
+          "why": "فاعل (Can) -ın می‌گیرد و فعل -dık + پسوند سوم‌شخص: Can'ın önerdiği.",
+          "s": "کتابی را که جان به من پیشنهاد کرد."
         },
         {
           "type": "type",
@@ -564,7 +581,8 @@
             "yaptığı",
             "pişirdiği"
           ],
-          "s": "دلم برای غذاهایی که مادرم درست می‌کند خیلی تنگ شده است."
+          "s": "دلم برای غذاهایی که مادرم درست می‌کند خیلی تنگ شده است.",
+          "why": "فاعل اسم است (annemin)، پس پسوند ملکی سوم‌شخص: yap-tığ-ı."
         },
         {
           "type": "type",
@@ -572,7 +590,8 @@
           "answer": [
             "giyeceğim"
           ],
-          "s": "لباسی را که قرار است در عروسی بپوشم هنوز نخریده‌ام."
+          "s": "لباسی را که قرار است در عروسی بپوشم هنوز نخریده‌ام.",
+          "why": "لباس را در آینده می‌پوشم: giy-eceğ-im."
         },
         {
           "type": "type",
@@ -582,7 +601,8 @@
             "yaşadığımız",
             "kaldığımız"
           ],
-          "s": "خانه‌ای که پارسال در آن زندگی می‌کردیم خیلی کوچک بود."
+          "s": "خانه‌ای که پارسال در آن زندگی می‌کردیم خیلی کوچک بود.",
+          "why": "خانه مکانِ کار است و فاعل «ما»: otur-duğ-umuz."
         },
         {
           "type": "order",
@@ -691,6 +711,18 @@
           "Büyükannenin evinde"
         ],
         "answer": 1
+      },
+      {
+        "q": {
+          "t": "Yazar bu bayramı nasıl hatırlayacak?",
+          "s": "نویسنده این عید را چطور به یاد خواهد آورد؟"
+        },
+        "options": [
+          "Mutlu ve duygulu bir gün olarak.",
+          "Sıkıcı bir gün olarak.",
+          "Kavgalı bir gün olarak."
+        ],
+        "answer": 0
       }
     ]
   },
@@ -713,7 +745,10 @@
     },
     {
       "t": "Kardeşimle bazen kavga ederiz, ama hemen barışırız.",
-      "s": "من و برادرم گاهی دعوا می‌کنیم، ولی زود آشتی می‌کنیم."
+      "s": "من و برادرم گاهی دعوا می‌کنیم، ولی زود آشتی می‌کنیم.",
+      "alts": [
+        "Bazen kardeşimle kavga ederiz, ama hemen barışırız."
+      ]
     },
     {
       "t": "Uzakta yaşayan torunlarını çok özlüyor.",

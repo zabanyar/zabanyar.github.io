@@ -22,7 +22,8 @@
       "ex": {
         "t": "Seyahat etmeyi çok severim.",
         "s": "من سفر کردن را خیلی دوست دارم."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w02",
@@ -56,7 +57,8 @@
       "ex": {
         "t": "Pasaportunu unutma!",
         "s": "گذرنامه‌ات را فراموش نکن!"
-      }
+      },
+      "sym": true
     },
     {
       "id": "w05",
@@ -80,7 +82,8 @@
       "ex": {
         "t": "Havalimanına erken gitmeliyiz.",
         "s": "باید زود به فرودگاه برویم."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w07",
@@ -91,7 +94,8 @@
       "ex": {
         "t": "Bu sefer küçük bir pansiyonda konakladık.",
         "s": "این بار در یک مسافرخانه‌ی کوچک اقامت کردیم."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w08",
@@ -113,7 +117,8 @@
       "ex": {
         "t": "İstanbul'da birçok tarihî yer var.",
         "s": "در استانبول جاهای تاریخی زیادی هست."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w10",
@@ -147,7 +152,8 @@
       "ex": {
         "t": "Çarşıdan biraz hediyelik eşya aldık.",
         "s": "از بازار کمی سوغاتی خریدیم."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w13",
@@ -239,9 +245,9 @@
     },
     {
       "id": "p08",
-      "t": "İyi yolculuklar!",
-      "s": "سفر به خیر!",
-      "pr": "ای‌یی یُلجولوکلار!"
+      "t": "Bavulum kayboldu!",
+      "s": "چمدانم گم شده!",
+      "pr": "باوولوم کایبُلدو!"
     }
   ],
   "dialogue": {
@@ -251,7 +257,7 @@
     },
     "speakers": {
       "A": {
-        "name": "Zeynep",
+        "name": "Resepsiyonist",
         "voice": "f"
       },
       "B": {
@@ -283,7 +289,10 @@
       {
         "sp": "A",
         "t": "Evet, kahvaltı yedi ile on arasında, restoranda.",
-        "s": "بله، صبحانه بین ساعت هفت و ده، در رستوران سرو می‌شود."
+        "s": "بله، صبحانه بین ساعت هفت و ده، در رستوران سرو می‌شود.",
+        "alts": [
+          "Evet, kahvaltı restoranda, yedi ile on arasında."
+        ]
       },
       {
         "sp": "B",
@@ -298,7 +307,10 @@
       {
         "sp": "B",
         "t": "Harika. Kaleiçi'ne buradan yürüyerek gidebilir miyiz?",
-        "s": "عالی است. از این‌جا می‌توانیم پیاده به کاله‌ایچی برویم؟"
+        "s": "عالی است. از این‌جا می‌توانیم پیاده به کاله‌ایچی برویم؟",
+        "alts": [
+          "Harika. Buradan Kaleiçi'ne yürüyerek gidebilir miyiz?"
+        ]
       },
       {
         "sp": "A",
@@ -376,15 +388,15 @@
       ],
       "exercises": [
         {
-          "type": "choice",
-          "t": "Döviz bozdurmak ___ bankaya gittim.",
-          "options": [
-            "için",
-            "gibi",
-            "kadar"
+          "type": "type",
+          "task": "دو جمله را با -mak için یکی کنید.",
+          "cue": "Balonları görmek istedik, bu yüzden erken kalktık.",
+          "t": "Balonları ___ erken kalktık.",
+          "answer": [
+            "görmek için"
           ],
-          "answer": 0,
-          "s": "برای تبدیل ارز به بانک رفتم."
+          "why": "هدف = مصدر (-mek) + için؛ مصدر شناسه نمی‌گیرد: görmek için.",
+          "s": "برای دیدن بالن‌ها زود بیدار شدیم."
         },
         {
           "type": "choice",
@@ -395,18 +407,22 @@
             "kalmadan"
           ],
           "answer": 0,
-          "s": "برای اینکه دیر نکنیم، سوار تاکسی شدیم."
+          "s": "برای اینکه دیر نکنیم، سوار تاکسی شدیم.",
+          "why": "هدف منفی «برای اینکه … نشود» = -mamak için: kal-mamak için."
         },
         {
           "type": "choice",
-          "t": "Denizde ___ için Antalya'ya gidiyoruz.",
+          "task": "کدام جواب مناسب است؟",
+          "cue": "Neden bu kadar erken çıkıyorsun?",
+          "t": "___",
           "options": [
-            "yüzmek",
-            "yüzüyoruz",
-            "yüzdük"
+            "Toplantıya geç kalmamak için.",
+            "Toplantıya geç kalmak için.",
+            "Toplantıya geç kalmadan için."
           ],
           "answer": 0,
-          "s": "برای شنا کردن در دریا به آنتالیا می‌رویم."
+          "why": "«برای اینکه … نشود» = -mamak için: kal-mamak için.",
+          "s": "برای اینکه دیر به جلسه نرسم."
         },
         {
           "type": "type",
@@ -415,7 +431,8 @@
             "ayırtmak",
             "ayırmak"
           ],
-          "s": "برای رزرو اتاق در هتل، در اینترنت گشتم."
+          "s": "برای رزرو اتاق در هتل، در اینترنت گشتم.",
+          "why": "قبل از için مصدر کامل (-mak) می‌آید: ayırtmak için."
         },
         {
           "type": "type",
@@ -423,7 +440,8 @@
           "answer": [
             "için"
           ],
-          "s": "برای آشنا شدن با آدم‌های جدید، سفر کردن را دوست دارم."
+          "s": "برای آشنا شدن با آدم‌های جدید، سفر کردن را دوست دارم.",
+          "why": "هدف = مصدر + için: tanışmak için."
         },
         {
           "type": "type",
@@ -431,17 +449,24 @@
           "answer": [
             "unutmamak"
           ],
-          "s": "برای اینکه گذرنامه‌ام را فراموش نکنم، فوراً آن را در کیفم گذاشتم."
+          "s": "برای اینکه گذرنامه‌ام را فراموش نکنم، فوراً آن را در کیفم گذاشتم.",
+          "why": "«برای اینکه فراموش نکنم» = -mamak için: unut-mamak için."
         },
         {
           "type": "order",
           "t": "Türkçe öğrenmek için her gün çalışıyorum.",
-          "s": "برای یاد گرفتن ترکی هر روز درس می‌خوانم."
+          "s": "برای یاد گرفتن ترکی هر روز درس می‌خوانم.",
+          "alts": [
+            "Her gün Türkçe öğrenmek için çalışıyorum."
+          ]
         },
         {
           "type": "order",
           "t": "Bilet almak için havalimanına erken gittik.",
-          "s": "برای خریدن بلیت زود به فرودگاه رفتیم."
+          "s": "برای خریدن بلیت زود به فرودگاه رفتیم.",
+          "alts": [
+            "Havalimanına bilet almak için erken gittik."
+          ]
         }
       ]
     },
@@ -508,15 +533,15 @@
       ],
       "exercises": [
         {
-          "type": "choice",
-          "t": "Kahvaltı ___ sonra müzeye gittik.",
-          "options": [
-            "yaptıktan",
-            "yapdıktan",
-            "yaptıkten"
+          "type": "type",
+          "task": "با -madan önce بنویسید.",
+          "cue": "Önce bavulumu hazırladım, sonra pasaportumu kontrol ettim.",
+          "t": "Pasaportumu kontrol ___ önce bavulumu hazırladım.",
+          "answer": [
+            "etmeden"
           ],
-          "answer": 0,
-          "s": "بعد از اینکه صبحانه خوردیم، به موزه رفتیم."
+          "why": "«قبل از اینکه» = ریشه + -meden önce؛ این -me منفی نیست: et-meden önce.",
+          "s": "قبل از بررسی گذرنامه‌ام، چمدانم را آماده کردم."
         },
         {
           "type": "choice",
@@ -527,18 +552,22 @@
             "yedikten"
           ],
           "answer": 0,
-          "s": "قبل از غذا خوردن دست‌هایت را بشوی."
+          "s": "قبل از غذا خوردن دست‌هایت را بشوی.",
+          "why": "«قبل از اینکه» = -meden önce؛ این -me منفی نیست: ye-meden önce."
         },
         {
           "type": "choice",
-          "t": "Otele ___ sonra hemen uyudum.",
+          "task": "کدام جواب مناسب است؟",
+          "cue": "Müzeye ne zaman gidelim?",
+          "t": "___",
           "options": [
-            "vardıktan",
-            "vardıkten",
-            "varmadan"
+            "Kahvaltı yaptıktan sonra gidelim.",
+            "Kahvaltı yaptıktan sonra gittik.",
+            "Kahvaltı yapmadan sonra gidelim."
           ],
           "answer": 0,
-          "s": "بعد از رسیدن به هتل فوراً خوابیدم."
+          "why": "«بعد از اینکه» = -dıktan sonra؛ -madan فقط با önce می‌آید؛ پیشنهاد هم با -elim است.",
+          "s": "بعد از صبحانه برویم."
         },
         {
           "type": "type",
@@ -547,7 +576,8 @@
             "hazırladıktan",
             "topladıktan"
           ],
-          "s": "بعد از اینکه چمدان‌ها را آماده کردیم، تاکسی خبر کردیم."
+          "s": "بعد از اینکه چمدان‌ها را آماده کردیم، تاکسی خبر کردیم.",
+          "why": "«بعد از اینکه» = -dıktan sonra: hazırla-dık-tan / topla-dık-tan sonra."
         },
         {
           "type": "type",
@@ -555,7 +585,8 @@
           "answer": [
             "çıkmadan"
           ],
-          "s": "قبل از بیرون رفتن از خانه، همه‌ی چراغ‌ها را خاموش کردم."
+          "s": "قبل از بیرون رفتن از خانه، همه‌ی چراغ‌ها را خاموش کردم.",
+          "why": "«قبل از بیرون رفتن» = çık-madan önce."
         },
         {
           "type": "type",
@@ -564,7 +595,8 @@
             "gelmeden",
             "gitmeden"
           ],
-          "s": "قبل از آمدن به ترکیه کمی ترکی یاد گرفتم."
+          "s": "قبل از آمدن به ترکیه کمی ترکی یاد گرفتم.",
+          "why": "«قبل از آمدن» = gel-meden önce."
         },
         {
           "type": "order",
@@ -681,6 +713,18 @@
           "Hediyelik eşya aldılar"
         ],
         "answer": 2
+      },
+      {
+        "q": {
+          "t": "Aile balonları görmek için neden saat beşte kalktı?",
+          "s": "خانواده چرا برای دیدن بالن‌ها ساعت پنج بیدار شد؟"
+        },
+        "options": [
+          "Çünkü balonlar güneş doğmadan önce uçuyor.",
+          "Çünkü otobüsleri saat beşte kalkıyordu.",
+          "Çünkü otelin kahvaltısı çok erkendi."
+        ],
+        "answer": 0
       }
     ]
   },
@@ -699,7 +743,10 @@
     },
     {
       "t": "Yola çıkmadan önce pasaportunu kontrol et.",
-      "s": "قبل از راه افتادن گذرنامه‌ات را بررسی کن."
+      "s": "قبل از راه افتادن گذرنامه‌ات را بررسی کن.",
+      "alts": [
+        "Pasaportunu yola çıkmadan önce kontrol et."
+      ]
     },
     {
       "t": "Deniz manzaralı bir oda istiyoruz.",
@@ -711,7 +758,10 @@
     },
     {
       "t": "Bu fotoğrafı Kapadokya'da çektik.",
-      "s": "این عکس را در کاپادوکیه گرفتیم."
+      "s": "این عکس را در کاپادوکیه گرفتیم.",
+      "alts": [
+        "Kapadokya'da bu fotoğrafı çektik."
+      ]
     },
     {
       "t": "Kahvaltı yapmadan çıkmayın!",

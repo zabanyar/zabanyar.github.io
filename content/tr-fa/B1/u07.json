@@ -34,7 +34,8 @@
       "ex": {
         "t": "Telefonu şarj etmeyi unuttum.",
         "s": "یادم رفت گوشی را شارژ کنم."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w03",
@@ -54,7 +55,7 @@
       "pl": "şifreler",
       "s": "رمز",
       "pr": "شیفرِه",
-      "emoji": "🔑",
+      "emoji": "",
       "ex": {
         "t": "Bilgisayarımın şifresini unuttum.",
         "s": "رمز کامپیوترم را فراموش کردم."
@@ -70,7 +71,8 @@
       "ex": {
         "t": "Sana bir mesaj gönderdim.",
         "s": "یک پیام برایت فرستادم."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w06",
@@ -81,7 +83,8 @@
       "ex": {
         "t": "Fotoğrafları e-postayla gönderdim.",
         "s": "عکس‌ها را با ایمیل فرستادم."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w07",
@@ -92,7 +95,8 @@
       "ex": {
         "t": "Yeni bir uygulama indirdim.",
         "s": "یک اپلیکیشن جدید دانلود کردم."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w08",
@@ -116,7 +120,8 @@
       "ex": {
         "t": "İnternet bağlantısı çok yavaş.",
         "s": "اتصال اینترنت خیلی کند است."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w10",
@@ -127,7 +132,8 @@
       "ex": {
         "t": "Akşamları ailemle görüntülü arama yapıyoruz.",
         "s": "عصرها با خانواده‌ام تماس تصویری می‌گیریم."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w11",
@@ -149,7 +155,8 @@
       "ex": {
         "t": "Babam eski radyoyu tamir etti.",
         "s": "پدرم رادیوی قدیمی را تعمیر کرد."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w13",
@@ -216,7 +223,10 @@
       "id": "p05",
       "t": "Burada internet çekmiyor.",
       "s": "این‌جا اینترنت آنتن نمی‌دهد.",
-      "pr": "بورادا اینتِرنِت چِکمیُر."
+      "pr": "بورادا اینتِرنِت چِکمیُر.",
+      "alts": [
+        "İnternet burada çekmiyor."
+      ]
     },
     {
       "id": "p06",
@@ -248,7 +258,7 @@
         "voice": "f"
       },
       "B": {
-        "name": "Can",
+        "name": "Tamirci",
         "voice": "m"
       }
     },
@@ -256,7 +266,10 @@
       {
         "sp": "A",
         "t": "Merhaba. Telefonum dün yere düştü ve ekranı kırıldı.",
-        "s": "سلام. گوشی‌ام دیروز افتاد زمین و صفحه‌اش شکست."
+        "s": "سلام. گوشی‌ام دیروز افتاد زمین و صفحه‌اش شکست.",
+        "alts": [
+          "Merhaba. Dün telefonum yere düştü ve ekranı kırıldı."
+        ]
       },
       {
         "sp": "B",
@@ -275,8 +288,8 @@
       },
       {
         "sp": "A",
-        "t": "Hayır, yedekleyemedim. Fotoğraflar silinir mi?",
-        "s": "نه، نتوانستم. عکس‌ها پاک می‌شوند؟"
+        "t": "Hayır, yedekleyemedim. Eyvah, fotoğraflar silinir mi?",
+        "s": "نه، نتوانستم. ای وای، عکس‌ها پاک می‌شوند؟"
       },
       {
         "sp": "B",
@@ -291,7 +304,10 @@
       {
         "sp": "B",
         "t": "Parçayı bugün getirtiyorum; yarın öğlene kadar hazır olur.",
-        "s": "امروز سفارش می‌دهم قطعه را بیاورند؛ تا فردا ظهر آماده می‌شود."
+        "s": "امروز سفارش می‌دهم قطعه را بیاورند؛ تا فردا ظهر آماده می‌شود.",
+        "alts": [
+          "Bugün parçayı getirtiyorum; yarın öğlene kadar hazır olur."
+        ]
       },
       {
         "sp": "A",
@@ -300,13 +316,16 @@
       },
       {
         "sp": "B",
-        "t": "Üç bin beş yüz lira. Altı ay garantisi var.",
-        "s": "سه هزار و پانصد لیر. شش ماه گارانتی دارد."
+        "t": "Parçanın fiyatına bağlı; yarın size haber veririm. Altı ay garantisi var.",
+        "s": "به قیمت قطعه بستگی دارد؛ فردا به شما خبر می‌دهم. شش ماه گارانتی دارد."
       },
       {
         "sp": "A",
         "t": "Tamam, değiştirelim. Yarın eşimi gönderirim, telefonu o alır.",
-        "s": "باشه، عوضش کنیم. فردا همسرم را می‌فرستم، او گوشی را می‌گیرد."
+        "s": "باشه، عوضش کنیم. فردا همسرم را می‌فرستم، او گوشی را می‌گیرد.",
+        "alts": [
+          "Tamam, değiştirelim. Eşimi yarın gönderirim, telefonu o alır."
+        ]
       },
       {
         "sp": "B",
@@ -322,7 +341,7 @@
         "t": "Telefonumu tamir ettirdim: ettirgen çatı",
         "s": "فعل سببی: «دادم تعمیرش کنند»"
       },
-      "explain": "وقتی کاری را خودمان انجام نمی‌دهیم و **کسی دیگر را وادار می‌کنیم یا کار را به کسی می‌سپاریم**، در ترکی از فعل سببی (ettirgen) استفاده می‌کنیم. در فارسی معمولاً می‌گوییم «دادم … کنند» یا از فعل‌هایی مثل «نشاندن، خوراندن، خواباندن» استفاده می‌کنیم.\nپسوندهای اصلی (بعد از ریشه‌ی فعل):\n• **-t**: بعد از ریشه‌های چندهجایی که به واکه یا **l / r** ختم می‌شوند: oku → oku**t**mak (وادار به خواندن کردن)، bekle → bekle**t**mek (منتظر گذاشتن)، otur → otur**t**mak (نشاندن).\n• **-dır / -dir / -dur / -dür** (بعد از صامت بی‌واک: **-tır / -tir / -tur / -tür**): yap → yap**tır**mak، yaz → yaz**dır**mak (نویساندن؛ پرینت گرفتن)، tamir et → tamir et**tir**mek، değiş → değiş**tir**mek (عوض کردن).\n• **-ır / -ir / -ur / -ür** یا **-ar / -er**: فقط در چند فعل یک‌هجایی پرکاربرد: piş → piş**ir**mek (پختن)، düş → düş**ür**mek (انداختن)، bit → bit**ir**mek (تمام کردن)، çık → çık**ar**mak (بیرون آوردن).\nکسی که کار را انجام می‌دهد معمولاً پسوند **-(y)a / -(y)e** می‌گیرد: Duvarı usta**ya** boyattım = دادم استادکار دیوار را رنگ کند.",
+      "explain": "وقتی کاری را خودمان انجام نمی‌دهیم و **کسی دیگر را وادار می‌کنیم یا کار را به کسی می‌سپاریم**، در ترکی از فعل سببی (ettirgen) استفاده می‌کنیم. در فارسی معمولاً می‌گوییم «دادم … کنند» یا از فعل‌هایی مثل «نشاندن، خوراندن، خواباندن» استفاده می‌کنیم.\nپسوندهای اصلی (بعد از ریشه‌ی فعل):\n• **-t**: بعد از ریشه‌های چندهجایی که به واکه یا **l / r** ختم می‌شوند: oku → oku**t**mak (وادار به خواندن کردن)، bekle → bekle**t**mek (منتظر گذاشتن)، otur → otur**t**mak (نشاندن).\n• **-dır / -dir / -dur / -dür** (بعد از صامت بی‌واک: **-tır / -tir / -tur / -tür**): yap → yap**tır**mak، yaz → yaz**dır**mak (نویساندن؛ پرینت گرفتن)، tamir et → tamir et**tir**mek، değiş → değiş**tir**mek (عوض کردن).\n• **-ır / -ir / -ur / -ür** یا **-ar / -er**: فقط در چند فعل یک‌هجایی پرکاربرد: piş → piş**ir**mek (پختن)، düş → düş**ür**mek (انداختن)، bit → bit**ir**mek (تمام کردن)، çık → çık**ar**mak (بیرون آوردن).\nکسی که کار را انجام می‌دهد معمولاً پسوند **-(y)a / -(y)e** می‌گیرد: Duvarı usta**ya** boyattım = دادم استادکار دیوار را رنگ کند.\nدو پسوند سببی می‌توانند پشت سر هم بیایند: değiş → değiş**tir** (عوض کردن) → değiştir**t** (دادن که عوض کنند): Saatimin pilini **değiştirttim**. = دادم باتری ساعتم را عوض کنند.",
       "table": [
         [
           "yapmak",
@@ -389,18 +408,19 @@
             "boyandım"
           ],
           "answer": 0,
-          "s": "من این دیوار را رنگ نزدم، دادم استادکار رنگش کند."
+          "s": "من این دیوار را رنگ نزدم، دادم استادکار رنگش کند.",
+          "why": "کار را به استادکار سپردم: boya + -t (سببی) + -tı-m: boyattım."
         },
         {
-          "type": "choice",
-          "t": "Bilgisayarım bozuldu; yarın tamir ___.",
-          "options": [
-            "ettireceğim",
-            "edileceğim",
-            "olacağım"
+          "type": "type",
+          "task": "بگویید کار را به کسی دیگر سپرده‌اید (فعل سببی).",
+          "cue": "Tamirci telefonumu tamir etti.",
+          "t": "Telefonumu tamirciye tamir ___.",
+          "answer": [
+            "ettirdim"
           ],
-          "answer": 0,
-          "s": "کامپیوترم خراب شد؛ فردا می‌دهم تعمیرش کنند."
+          "why": "سببیِ tamir et: et + -tir → ettirdim؛ کسی که کار را می‌کند -(y)e می‌گیرد: tamirciye.",
+          "s": "دادم تعمیرکار گوشی‌ام را تعمیر کند."
         },
         {
           "type": "choice",
@@ -411,7 +431,8 @@
             "beklendi"
           ],
           "answer": 0,
-          "s": "گارسون خیلی کند بود؛ ما را نیم ساعت منتظر گذاشت."
+          "s": "گارسون خیلی کند بود؛ ما را نیم ساعت منتظر گذاشت.",
+          "why": "گارسون ما را منتظر گذاشت: bekle + -t (سببی) → bekletti."
         },
         {
           "type": "type",
@@ -419,16 +440,22 @@
           "answer": [
             "yazdırdım"
           ],
-          "s": "این جمله را من ننوشتم، دادم دخترم بنویسد."
+          "s": "این جمله را من ننوشتم، دادم دخترم بنویسد.",
+          "why": "کار را به دخترم سپردم: yaz + -dır → yazdırdım."
         },
         {
-          "type": "type",
-          "t": "Annem pilavı ___, ben de salatayı yaptım.",
-          "answer": [
-            "pişirdi",
-            "yaptı"
+          "type": "choice",
+          "task": "کدام جواب مناسب است؟",
+          "cue": "Bu güzel fotoğrafları kim çekti?",
+          "t": "___",
+          "options": [
+            "Ben çekmedim, düğünde bir fotoğrafçıya çektirdik.",
+            "Ben çekmedim, düğünde bir fotoğrafçıya çektik.",
+            "Ben çekmedim, düğünde bir fotoğrafçı çektirildi."
           ],
-          "s": "مادرم پلو را پخت، من هم سالاد را درست کردم."
+          "answer": 0,
+          "why": "کار را به عکاس سپردیم، پس فعل سببی: çek-tir-dik؛ عکاس -(y)a می‌گیرد.",
+          "s": "من نگرفتم، در عروسی دادیم یک عکاس بگیرد."
         },
         {
           "type": "type",
@@ -436,7 +463,8 @@
           "answer": [
             "düşürdüm"
           ],
-          "s": "گوشی‌ام را انداختم زمین و صفحه‌اش شکست."
+          "s": "گوشی‌ام را انداختم زمین و صفحه‌اش شکست.",
+          "why": "گوشی خودش نیفتاد، من «انداختم»: düş + -ür → düşürdüm."
         },
         {
           "type": "order",
@@ -525,29 +553,33 @@
             "bitiremiyorum"
           ],
           "answer": 0,
-          "s": "دیروز خیلی خسته بودم، نتوانستم تکلیفم را تمام کنم."
+          "s": "دیروز خیلی خسته بودم، نتوانستم تکلیفم را تمام کنم.",
+          "why": "«نتوانستم» = -eme + -di: bitir-eme-di-m؛ bitirebilmedim غلط است."
+        },
+        {
+          "type": "type",
+          "task": "جمله را منفی کنید: «نتوانستم».",
+          "cue": "Fotoğraflarımı yedekleyebildim.",
+          "t": "Fotoğraflarımı ___.",
+          "answer": [
+            "yedekleyemedim"
+          ],
+          "why": "منفیِ -ebil شکل کوتاه -eme دارد: yedekle-y-eme-di-m (نه yedekleyebilmedim).",
+          "s": "نتوانستم از عکس‌هایم نسخه‌ی پشتیبان بگیرم."
         },
         {
           "type": "choice",
-          "t": "Şifreni hatırlayabildin mi? Evet, sonunda ___.",
+          "task": "کدام جواب مناسب است؟",
+          "cue": "Dün akşamki toplantıya katılabildin mi?",
+          "t": "___",
           "options": [
-            "hatırlayabildim",
-            "hatırlayamadım",
-            "hatırlayabilmedim"
+            "Hayır, internet koptu, katılamadım.",
+            "Hayır, internet koptu, katılabilmedim.",
+            "Hayır, internet koptu, katılabildim."
           ],
           "answer": 0,
-          "s": "توانستی رمزت را به یاد بیاوری؟ بله، بالاخره توانستم."
-        },
-        {
-          "type": "choice",
-          "t": "Telefonumun şarjı bitti, o yüzden seni ___.",
-          "options": [
-            "arayamadım",
-            "arayabildim",
-            "arayabilmedim"
-          ],
-          "answer": 0,
-          "s": "شارژ گوشی‌ام تمام شد، برای همین نتوانستم به تو زنگ بزنم."
+          "why": "«نتوانستم» = -ama + -dı: katıl-ama-dı-m؛ شکل katılabilmedim غلط است.",
+          "s": "نه، اینترنت قطع شد، نتوانستم شرکت کنم."
         },
         {
           "type": "type",
@@ -555,7 +587,8 @@
           "answer": [
             "duyamadım"
           ],
-          "s": "صدا خیلی بد بود، اصلاً نتوانستم صدایت را بشنوم."
+          "s": "صدا خیلی بد بود، اصلاً نتوانستم صدایت را بشنوم.",
+          "why": "«نتوانستم بشنوم» = duy-ama-dı-m."
         },
         {
           "type": "type",
@@ -565,7 +598,8 @@
             "yollayabildim",
             "atabildim"
           ],
-          "s": "اینترنت وصل شد و بالاخره توانستم ایمیلم را بفرستم."
+          "s": "اینترنت وصل شد و بالاخره توانستم ایمیلم را بفرستم.",
+          "why": "«توانستم بفرستم» = gönder-ebil-di-m."
         },
         {
           "type": "type",
@@ -574,7 +608,8 @@
             "koşabiliyordum",
             "koşabilirdim"
           ],
-          "s": "بچه که بودم خیلی تند می‌توانستم بدوم، ولی الان نمی‌توانم."
+          "s": "بچه که بودم خیلی تند می‌توانستم بدوم، ولی الان نمی‌توانم.",
+          "why": "توانایی همیشگی در گذشته «می‌توانستم» = -abiliyordum: koş-abil-iyor-du-m."
         },
         {
           "type": "order",
@@ -694,17 +729,35 @@
           "Oğluyla görüntülü arama yapıyor"
         ],
         "answer": 0
+      },
+      {
+        "q": {
+          "t": "Telefonsuz hafta yazara ne öğretti?",
+          "s": "هفته‌ی بدون گوشی به نویسنده چه چیزی یاد داد؟"
+        },
+        "options": [
+          "Telefonu daha az kullanmanın iyi olduğunu.",
+          "Telefonsuz hiç yaşayamayacağını.",
+          "Çalar saatin gereksiz olduğunu."
+        ],
+        "answer": 0
       }
     ]
   },
   "sentences": [
     {
       "t": "Geçen hafta saatimin pilini değiştirttim.",
-      "s": "هفته‌ی پیش دادم باتری ساعتم را عوض کردند."
+      "s": "هفته‌ی پیش دادم باتری ساعتم را عوض کردند.",
+      "alts": [
+        "Saatimin pilini geçen hafta değiştirttim."
+      ]
     },
     {
       "t": "Dün seni aradım ama sana ulaşamadım.",
-      "s": "دیروز به تو زنگ زدم، ولی نتوانستم با تو تماس بگیرم."
+      "s": "دیروز به تو زنگ زدم، ولی نتوانستم با تو تماس بگیرم.",
+      "alts": [
+        "Seni dün aradım ama sana ulaşamadım."
+      ]
     },
     {
       "t": "İnternet bağlantısı koptu, toplantıya katılamadım.",
@@ -716,15 +769,24 @@
     },
     {
       "t": "Annem sonunda yeni telefonunu kullanmayı öğrenebildi.",
-      "s": "مادرم بالاخره توانست کار با گوشی جدیدش را یاد بگیرد."
+      "s": "مادرم بالاخره توانست کار با گوشی جدیدش را یاد بگیرد.",
+      "alts": [
+        "Sonunda annem yeni telefonunu kullanmayı öğrenebildi."
+      ]
     },
     {
       "t": "Öğretmen bize her hafta bir kitap okutuyor.",
-      "s": "معلم هر هفته از ما می‌خواهد یک کتاب بخوانیم."
+      "s": "معلم هر هفته از ما می‌خواهد یک کتاب بخوانیم.",
+      "alts": [
+        "Öğretmen her hafta bize bir kitap okutuyor."
+      ]
     },
     {
       "t": "Burada internet çekmiyor, sonra ararım.",
-      "s": "این‌جا اینترنت آنتن نمی‌دهد، بعداً زنگ می‌زنم."
+      "s": "این‌جا اینترنت آنتن نمی‌دهد، بعداً زنگ می‌زنم.",
+      "alts": [
+        "İnternet burada çekmiyor, sonra ararım."
+      ]
     },
     {
       "t": "Şifremi unuttum, hesabıma giremiyorum.",

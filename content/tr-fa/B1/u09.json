@@ -35,7 +35,8 @@
       "ex": {
         "t": "Ramazan Bayramı'nda çocuklara harçlık verilir.",
         "s": "در عید فطر به بچه‌ها عیدی می‌دهند."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w03",
@@ -54,7 +55,7 @@
       "t": "ikram etmek",
       "s": "تعارف کردن، پذیرایی کردن",
       "pr": "ایکرام اِتمِک",
-      "emoji": "☕",
+      "emoji": "",
       "ex": {
         "t": "Misafirlere Türk kahvesi ikram ettik.",
         "s": "از مهمان‌ها با قهوه‌ی ترک پذیرایی کردیم."
@@ -80,7 +81,8 @@
       "ex": {
         "t": "Nevruz'u ailecek kutluyoruz.",
         "s": "نوروز را خانوادگی جشن می‌گیریم."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w07",
@@ -131,12 +133,13 @@
       "id": "w11",
       "t": "giyinmek",
       "s": "لباس پوشیدن",
-      "pr": "گیینمِک",
+      "pr": "گی‌یینمِک",
       "emoji": "👔",
       "ex": {
         "t": "Bayram sabahı herkes güzelce giyinir.",
         "s": "صبح عید همه لباس‌های قشنگ می‌پوشند."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w12",
@@ -199,15 +202,15 @@
     },
     {
       "id": "p03",
-      "t": "Hoş geldiniz! — Hoş bulduk!",
-      "s": "خوش آمدید! — ممنون، خوش باشید!",
-      "pr": "هُش گِلدینیز! — هُش بولدوک!"
+      "t": "Bize de bekleriz!",
+      "s": "به ما هم سر بزنید، منتظرتان هستیم!",
+      "pr": "بیزِه دِه بِکلِریز!"
     },
     {
       "id": "p04",
-      "t": "Afiyet olsun!",
-      "s": "نوش جان!",
-      "pr": "آفیِت اُلسون!"
+      "t": "Gözünüz aydın!",
+      "s": "چشمتان روشن! (برای خبر خوش یا رسیدنِ عزیزی)",
+      "pr": "گُزونوز آیدِن!"
     },
     {
       "id": "p05",
@@ -257,8 +260,8 @@
       },
       {
         "sp": "B",
-        "t": "Teşekkürler, seninki de! Komşumuz Ayşe Hanım bizi öğle yemeğine çağırdı.",
-        "s": "ممنون، عید تو هم مبارک! همسایه‌مان عایشه خانم ما را به ناهار دعوت کرد."
+        "t": "Teşekkürler, seninki de! Komşumuz Zeynep Hanım bizi öğle yemeğine çağırdı.",
+        "s": "ممنون، عید تو هم مبارک! همسایه‌مان زینب خانم ما را به ناهار دعوت کرد."
       },
       {
         "sp": "A",
@@ -267,8 +270,8 @@
       },
       {
         "sp": "B",
-        "t": "Evet, Ayşe Hanım'ın elini öptüm; o da bana sarıldı ve harçlık verdi!",
-        "s": "بله، دست عایشه خانم را بوسیدم؛ او هم من را بغل کرد و به من عیدی داد!"
+        "t": "Evet, Zeynep Hanım'ın elini öptüm; o da bana sarıldı ve harçlık verdi!",
+        "s": "بله، دست زینب خانم را بوسیدم؛ او هم من را بغل کرد و به من عیدی داد!"
       },
       {
         "sp": "A",
@@ -283,7 +286,10 @@
       {
         "sp": "A",
         "t": "Nevruz'dan önce evler temizlenir mi?",
-        "s": "قبل از نوروز خانه‌ها را تمیز می‌کنند؟"
+        "s": "قبل از نوروز خانه‌ها را تمیز می‌کنند؟",
+        "alts": [
+          "Evler Nevruz'dan önce temizlenir mi?"
+        ]
       },
       {
         "sp": "B",
@@ -308,7 +314,10 @@
       {
         "sp": "B",
         "t": "Seve seve! Gelecek Nevruz'da seni bize davet ediyorum.",
-        "s": "با کمال میل! نوروز سال بعد تو را به خانه‌مان دعوت می‌کنم."
+        "s": "با کمال میل! نوروز سال بعد تو را به خانه‌مان دعوت می‌کنم.",
+        "alts": [
+          "Seve seve! Seni gelecek Nevruz'da bize davet ediyorum."
+        ]
       }
     ]
   },
@@ -376,15 +385,15 @@
       ],
       "exercises": [
         {
-          "type": "choice",
-          "t": "Türkiye'de çay genellikle ince belli bardaklarda ___.",
-          "options": [
-            "içilir",
-            "içer",
-            "içirir"
+          "type": "type",
+          "task": "جمله را مجهول کنید.",
+          "cue": "Türkiye'de insanlar çayı ince belli bardaklarda içer.",
+          "t": "Türkiye'de çay ince belli bardaklarda ___.",
+          "answer": [
+            "içilir"
           ],
-          "answer": 0,
-          "s": "در ترکیه چای معمولاً در استکان‌های کمرباریک نوشیده می‌شود."
+          "why": "مجهول بعد از صامت: -il + زمان گسترده: iç-il-ir.",
+          "s": "در ترکیه چای در استکان‌های کمرباریک نوشیده می‌شود."
         },
         {
           "type": "choice",
@@ -395,18 +404,22 @@
             "kutlanılır"
           ],
           "answer": 0,
-          "s": "نوروز هر سال در ماه مارس جشن گرفته می‌شود."
+          "s": "نوروز هر سال در ماه مارس جشن گرفته می‌شود.",
+          "why": "kutla به واکه ختم می‌شود، پس مجهول فقط -n: kutla-n-ır."
         },
         {
           "type": "choice",
-          "t": "Bu şarkı düğünlerde çok ___.",
+          "task": "کدام جواب مناسب است؟",
+          "cue": "Bu şarkıyı düğünlerde hep duyuyorum.",
+          "t": "___",
           "options": [
-            "söylenir",
-            "söylerler",
-            "söyletir"
+            "Evet, bu şarkı düğünlerde çok söylenir.",
+            "Evet, bu şarkı düğünlerde çok söyler.",
+            "Evet, bu şarkı düğünlerde çok söyletir."
           ],
           "answer": 0,
-          "s": "این آهنگ در عروسی‌ها زیاد خوانده می‌شود."
+          "why": "آهنگ خودش نمی‌خواند، «خوانده می‌شود»: söyle + -n + -ir (مجهول بعد از واکه).",
+          "s": "بله، این آهنگ در عروسی‌ها زیاد خوانده می‌شود."
         },
         {
           "type": "type",
@@ -415,7 +428,8 @@
             "yenir",
             "yeniyor"
           ],
-          "s": "عید شیرینی‌هایی مثل باقلوا خورده می‌شود."
+          "s": "عید شیرینی‌هایی مثل باقلوا خورده می‌شود.",
+          "why": "مجهولِ ye نامنظم است: yenir."
         },
         {
           "type": "type",
@@ -426,7 +440,8 @@
             "açıldı",
             "inşa edildi"
           ],
-          "s": "پل بسفر در سال ۱۹۷۳ ساخته شد."
+          "s": "پل بسفر در سال ۱۹۷۳ ساخته شد.",
+          "why": "پل را کسی ساخت؛ مجهول گذشته: yap-ıl-dı."
         },
         {
           "type": "type",
@@ -434,7 +449,8 @@
           "answer": [
             "çıkarılır"
           ],
-          "s": "در ترکیه موقع ورود به خانه کفش‌ها درآورده می‌شود."
+          "s": "در ترکیه موقع ورود به خانه کفش‌ها درآورده می‌شود.",
+          "why": "کفش‌ها را درمی‌آورند (مجهول): çıkar + -ıl + -ır."
         },
         {
           "type": "order",
@@ -502,8 +518,8 @@
           "s": "عید با همه‌ی فامیل دیدار کردیم."
         },
         {
-          "t": "Ayşe ile Reza üniversitede tanıştılar.",
-          "s": "عایشه و رضا در دانشگاه با هم آشنا شدند."
+          "t": "Ayşe ile Sara üniversitede tanıştılar.",
+          "s": "عایشه و سارا در دانشگاه با هم آشنا شدند."
         },
         {
           "t": "Eski arkadaşımla hâlâ e-postayla yazışıyoruz.",
@@ -512,37 +528,41 @@
       ],
       "exercises": [
         {
-          "type": "choice",
-          "t": "Çocuklar banyoda ___.",
-          "options": [
-            "yıkanıyor",
-            "yıkıyor",
-            "yıkışıyor"
+          "type": "type",
+          "task": "فعل را دوطرفه کنید: «همدیگر را دیدیم».",
+          "cue": "Bayramda akrabalarımızı gördük, onlar da bizi gördü.",
+          "t": "Bayramda akrabalarımızla ___.",
+          "answer": [
+            "görüştük"
           ],
-          "answer": 0,
-          "s": "بچه‌ها توی حمام دارند خودشان را می‌شویند."
+          "why": "کار دوطرفه: ریشه + -üş: gör-üş-tü-k؛ طرف مقابل با -la / -le می‌آید.",
+          "s": "عید با فامیل‌هایمان دیدار کردیم."
         },
         {
           "type": "choice",
-          "t": "Ali ile ben yıllardır ___.",
+          "t": "Ali ile ben yıllardır e-postayla ___.",
           "options": [
-            "tanışıyoruz",
-            "tanıyoruz",
-            "tanınıyoruz"
+            "yazışıyoruz",
+            "yazılıyoruz",
+            "yazdırıyoruz"
           ],
           "answer": 0,
-          "s": "من و علی سال‌هاست همدیگر را می‌شناسیم."
+          "s": "من و علی سال‌هاست با ایمیل با هم مکاتبه می‌کنیم.",
+          "why": "کاری دوطرفه (برای هم می‌نویسیم): yaz + -ış → yazışıyoruz."
         },
         {
           "type": "choice",
-          "t": "Hadi çabuk ___, misafirler geliyor!",
+          "task": "کدام جواب مناسب است؟",
+          "cue": "Neden hâlâ hazır değilsin? Misafirler geliyor!",
+          "t": "___",
           "options": [
-            "giyin",
-            "giy",
-            "giyiş"
+            "Bir dakika, hemen giyiniyorum.",
+            "Bir dakika, hemen giyiyorum.",
+            "Bir dakika, hemen giyişiyorum."
           ],
           "answer": 0,
-          "s": "زود باش لباس بپوش، مهمان‌ها دارند می‌آیند!"
+          "why": "لباس پوشیدنِ خودِ آدم فعل بازتابی است: giy + -in → giyiniyorum.",
+          "s": "یک دقیقه، الان لباس می‌پوشم."
         },
         {
           "type": "type",
@@ -551,7 +571,8 @@
             "görüştüm",
             "buluştum"
           ],
-          "s": "دیروز با یکی از دوستان قدیمی‌ام در کافه دیدار کردم."
+          "s": "دیروز با یکی از دوستان قدیمی‌ام در کافه دیدار کردم.",
+          "why": "دیدارِ دوطرفه؛ طرف مقابل با -la: görüş-tü-m / buluş-tu-m."
         },
         {
           "type": "type",
@@ -559,7 +580,8 @@
           "answer": [
             "hazırlandım"
           ],
-          "s": "برای رفتن به عروسی یک ساعت طول کشید تا آماده شدم."
+          "s": "برای رفتن به عروسی یک ساعت طول کشید تا آماده شدم.",
+          "why": "خودم را آماده کردم (بازتابی): hazırla + -n → hazırlandım."
         },
         {
           "type": "type",
@@ -567,12 +589,13 @@
           "answer": [
             "anlaştık"
           ],
-          "s": "درباره‌ی قیمت با فروشنده به توافق رسیدیم."
+          "s": "درباره‌ی قیمت با فروشنده به توافق رسیدیم.",
+          "why": "به توافق رسیدن کاری دوطرفه است: anla + -ş → anlaştık."
         },
         {
           "type": "order",
-          "t": "Ayşe ile Mehmet bir düğünde tanıştılar.",
-          "s": "عایشه و محمد در یک عروسی با هم آشنا شدند."
+          "t": "Zeynep ile Emre bir düğünde tanıştılar.",
+          "s": "زینب و امره در یک عروسی با هم آشنا شدند."
         },
         {
           "type": "order",
@@ -684,13 +707,28 @@
           "Süt"
         ],
         "answer": 0
+      },
+      {
+        "q": {
+          "t": "İranlı bir misafir bu gelenekleri nasıl bulur?",
+          "s": "یک مهمان ایرانی این رسم‌ها را چطور می‌یابد؟"
+        },
+        "options": [
+          "Tanıdık bulur, çünkü İran'da da misafirperverlik önemlidir.",
+          "Çok garip bulur, çünkü İran'da misafir ağırlanmaz.",
+          "Hiç ilgilenmez, çünkü kahve içmez."
+        ],
+        "answer": 0
       }
     ]
   },
   "sentences": [
     {
       "t": "Türkiye'de bayramlarda büyükler ziyaret edilir.",
-      "s": "در ترکیه عیدها به دیدن بزرگ‌ترها می‌روند."
+      "s": "در ترکیه عیدها به دیدن بزرگ‌ترها می‌روند.",
+      "alts": [
+        "Bayramlarda Türkiye'de büyükler ziyaret edilir."
+      ]
     },
     {
       "t": "Bu ev yüz yıl önce yapıldı.",
@@ -702,7 +740,10 @@
     },
     {
       "t": "Türkçede buna ne denir?",
-      "s": "به این در ترکی چه می‌گویند؟"
+      "s": "به این در ترکی چه می‌گویند؟",
+      "alts": [
+        "Buna Türkçede ne denir?"
+      ]
     },
     {
       "t": "Sabah kalktım, yıkandım ve hızlıca giyindim.",
@@ -710,11 +751,17 @@
     },
     {
       "t": "Komşumuzla her sabah merdivende selamlaşırız.",
-      "s": "با همسایه‌مان هر صبح توی راه‌پله به هم سلام می‌کنیم."
+      "s": "با همسایه‌مان هر صبح توی راه‌پله به هم سلام می‌کنیم.",
+      "alts": [
+        "Her sabah komşumuzla merdivende selamlaşırız."
+      ]
     },
     {
       "t": "Nevruz'dan önce evler baştan sona temizlenir.",
-      "s": "قبل از نوروز خانه‌ها از سر تا ته تمیز می‌شوند."
+      "s": "قبل از نوروز خانه‌ها از سر تا ته تمیز می‌شوند.",
+      "alts": [
+        "Evler Nevruz'dan önce baştan sona temizlenir."
+      ]
     },
     {
       "t": "Gelecek hafta yeniden görüşelim mi?",

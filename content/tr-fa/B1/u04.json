@@ -9,7 +9,8 @@
   "goals": [
     "علائم بیماری‌ام را توضیح دهم و با پزشک یا داروساز صحبت کنم.",
     "با -malı / -meli توصیه کنم و بگویم چه کاری باید (یا نباید) کرد.",
-    "با جمله‌ی شرطی -sa / -se درباره‌ی موقعیت‌های واقعی و نتیجه‌هایشان حرف بزنم."
+    "با جمله‌ی شرطی -sa / -se درباره‌ی موقعیت‌های واقعی و نتیجه‌هایشان حرف بزنم.",
+    "جمله‌های کلی، تابلوها و حدس‌ها را با -dır / -dir بفهمم و بسازم."
   ],
   "words": [
     {
@@ -55,7 +56,8 @@
       "ex": {
         "t": "Çocuğun ateşi var mı?",
         "s": "بچه تب دارد؟"
-      }
+      },
+      "sym": true
     },
     {
       "id": "w05",
@@ -77,7 +79,8 @@
       "ex": {
         "t": "Kış aylarında çok kişi grip olur.",
         "s": "در ماه‌های زمستان خیلی‌ها آنفلوآنزا می‌گیرند."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w07",
@@ -124,7 +127,8 @@
       "ex": {
         "t": "Diş doktorundan randevu aldım.",
         "s": "از دندان‌پزشک وقت گرفتم."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w11",
@@ -141,7 +145,7 @@
       "id": "w12",
       "t": "iyileşmek",
       "s": "خوب شدن، بهبود یافتن",
-      "pr": "اییلِشمِک",
+      "pr": "ای‌ییلِشمِک",
       "emoji": "",
       "ex": {
         "t": "Annem çok çabuk iyileşti.",
@@ -179,7 +183,8 @@
       "ex": {
         "t": "Her gün yarım saat egzersiz yapıyorum.",
         "s": "هر روز نیم ساعت ورزش می‌کنم."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w16",
@@ -196,9 +201,9 @@
   "phrases": [
     {
       "id": "p01",
-      "t": "Geçmiş olsun!",
-      "s": "بلا دور باشد! (به آدم بیمار)",
-      "pr": "گِچمیش اُلسون!"
+      "t": "Allah şifa versin!",
+      "s": "خدا شفا بدهد! (به بیمار یا خانواده‌اش)",
+      "pr": "آلّاه شیفا وِرسین!"
     },
     {
       "id": "p02",
@@ -208,9 +213,9 @@
     },
     {
       "id": "p03",
-      "t": "Kendimi iyi hissetmiyorum.",
-      "s": "حالم خوب نیست.",
-      "pr": "کِندیمی ای‌یی هیسِّتمیُروم."
+      "t": "Ateşim bir türlü düşmüyor.",
+      "s": "تبم به هیچ وجه پایین نمی‌آید.",
+      "pr": "آتِشیم بیر تورلو دوشمویُر."
     },
     {
       "id": "p04",
@@ -393,29 +398,33 @@
             "kalmalısınız"
           ],
           "answer": 0,
-          "s": "تب داری، امروز باید در خانه بمانی."
+          "s": "تب داری، امروز باید در خانه بمانی.",
+          "why": "توصیه به «تو» (ateşin var): -malı + -sın: kal-malı-sın."
+        },
+        {
+          "type": "type",
+          "task": "جمله را منفی کنید.",
+          "cue": "Bu ilacı aç karnına almalısın.",
+          "t": "Bu ilacı aç karnına ___.",
+          "answer": [
+            "almamalısın"
+          ],
+          "why": "منفیِ -malı: ریشه + -ma + -malı + شناسه: al-ma-malı-sın.",
+          "s": "نباید این دارو را ناشتا بخوری."
         },
         {
           "type": "choice",
-          "t": "Biz daha sağlıklı ___.",
+          "task": "کدام جواب مناسب است؟",
+          "cue": "Üç gündür boğazım ağrıyor.",
+          "t": "___",
           "options": [
-            "beslenmeliyiz",
-            "beslenmelıyız",
-            "beslenmeliz"
+            "Bence doktora gitmelisin.",
+            "Bence doktora gitmeliyim.",
+            "Bence doktora gitmemeliyiz."
           ],
           "answer": 0,
-          "s": "ما باید سالم‌تر غذا بخوریم."
-        },
-        {
-          "type": "choice",
-          "t": "Bu kadar çok şeker ___, dişlerin için kötü.",
-          "options": [
-            "yememelisin",
-            "yememalısın",
-            "yemmemelisin"
-          ],
-          "answer": 0,
-          "s": "نباید این‌قدر شیرینی بخوری، برای دندان‌هایت بد است."
+          "why": "توصیه به طرف مقابل: -meli + شناسه‌ی «تو»: gitmelisin.",
+          "s": "به نظرم باید پیش دکتر بروی."
         },
         {
           "type": "type",
@@ -423,7 +432,8 @@
           "answer": [
             "yapmalıyım"
           ],
-          "s": "سرم خیلی درد می‌کند. چه کار باید بکنم؟"
+          "s": "سرم خیلی درد می‌کند. چه کار باید بکنم؟",
+          "why": "با کلمه‌ی پرسشی (ne) mı لازم نیست: yap-malı-yım."
         },
         {
           "type": "type",
@@ -431,7 +441,8 @@
           "answer": [
             "miyim"
           ],
-          "s": "باید پیش دکتر بروم؟ — بله، باید فوراً بروی."
+          "s": "باید پیش دکتر بروم؟ — بله، باید فوراً بروی.",
+          "why": "سؤالی: mi بعد از -meli و قبل از شناسه؛ قبل از -im حرف y می‌آید: miyim."
         },
         {
           "type": "type",
@@ -439,7 +450,8 @@
           "answer": [
             "konuşmamalısınız"
           ],
-          "s": "وقتی رانندگی می‌کنید، نباید با تلفن صحبت کنید."
+          "s": "وقتی رانندگی می‌کنید، نباید با تلفن صحبت کنید.",
+          "why": "منفیِ -malı: -ma + -malı + شناسه‌ی siz: konuş-ma-malı-sınız."
         },
         {
           "type": "order",
@@ -522,15 +534,15 @@
       ],
       "exercises": [
         {
-          "type": "choice",
-          "t": "Bol su ___ baş ağrın geçer.",
-          "options": [
-            "içersen",
-            "içarsen",
-            "içersan"
+          "type": "type",
+          "task": "شرط را منفی کنید.",
+          "cue": "İlacı düzenli alırsan çabuk iyileşirsin.",
+          "t": "İlacı düzenli ___ iyileşmezsin.",
+          "answer": [
+            "almazsan"
           ],
-          "answer": 0,
-          "s": "اگر زیاد آب بنوشی، سردردت خوب می‌شود."
+          "why": "شرط منفی: -maz + -sa + شناسه: al-maz-sa-n.",
+          "s": "اگر دارو را منظم نخوری، خوب نمی‌شوی."
         },
         {
           "type": "choice",
@@ -541,18 +553,22 @@
             "olurse"
           ],
           "answer": 0,
-          "s": "اگر فردا هوا خوب باشد، به پیک‌نیک می‌رویم."
+          "s": "اگر فردا هوا خوب باشد، به پیک‌نیک می‌رویم.",
+          "why": "شرط = زمان گسترده + -sa: olur-sa؛ ol از فعل‌هایی است که -ur می‌گیرند."
         },
         {
           "type": "choice",
-          "t": "İlacı düzenli ___, iyileşmezsin.",
+          "task": "کدام جواب مناسب است؟",
+          "cue": "Akşam ateşim yükselirse ne yapayım?",
+          "t": "___",
           "options": [
-            "almazsan",
-            "almazsın",
-            "almazsen"
+            "Ateşin yükselirse bu ilacı al.",
+            "Ateşin yükselse bu ilacı aldın.",
+            "Ateşin yükseldi, bu ilacı alırsan."
           ],
           "answer": 0,
-          "s": "اگر دارو را منظم نخوری، خوب نمی‌شوی."
+          "why": "بند شرط -ırsa می‌گیرد و بند نتیجه امری است: …yükselirse bu ilacı al.",
+          "s": "اگر تبت بالا رفت، این دارو را بخور."
         },
         {
           "type": "type",
@@ -561,7 +577,8 @@
             "hissetmiyorsan",
             "hissetmezsen"
           ],
-          "s": "اگر حالت خوب نیست، باید پیش دکتر بروی."
+          "s": "اگر حالت خوب نیست، باید پیش دکتر بروی.",
+          "why": "شرط منفی برای «تو»: hisset-mi-yor-san یا hisset-mez-sen."
         },
         {
           "type": "type",
@@ -570,7 +587,8 @@
             "varsa",
             "olursa"
           ],
-          "s": "اگر وقت داری، امشب پیش ما بیا."
+          "s": "اگر وقت داری، امشب پیش ما بیا.",
+          "why": "با var / yok هم -sa می‌آید: vaktin varsa «اگر وقت داری»."
         },
         {
           "type": "type",
@@ -579,7 +597,8 @@
             "çıkarsan",
             "çıksan"
           ],
-          "s": "اگر زود راه بیفتی، اتوبوس را از دست نمی‌دهی."
+          "s": "اگر زود راه بیفتی، اتوبوس را از دست نمی‌دهی.",
+          "why": "شرط برای «تو»: çıkar + -sa + -n."
         },
         {
           "type": "order",
@@ -593,6 +612,151 @@
           "alts": [
             "Ateşin yükselirse doktoru hemen ara."
           ]
+        }
+      ]
+    },
+    {
+      "id": "g03",
+      "title": {
+        "t": "Sağlık her şeyden önemlidir: -dır / -dir / -dur / -dür",
+        "s": "«است»ِ رسمی و کلی با -dır / -dir"
+      },
+      "explain": "پسوند **-dır / -dir / -dur / -dür** (بعد از حروف بی‌واک **ç، f، h، k، p، s، ş، t**: **-tır / -tir / -tur / -tür**) همان «است» است. در گفت‌وگوی روزمره معمولاً لازم نیست: Ali öğretmen. = علی معلم است.\nکجا می‌آید؟ ۱. در **حقیقت‌های کلی، توصیه‌ها، تابلوها، خبر و متن‌های رسمی**: Sağlık her şeyden önemli**dir**. Kışın grip çok yaygın**dır**. Burada sigara içmek yasak**tır**.\n۲. در صحبت برای **حدس** («حتماً، لابد»): Ali şimdi işte**dir**. = علی لابد الان سرِ کار است. Çok yorgun**sundur**. = حتماً خیلی خسته‌ای.\nهماهنگی چهارتایی است، مثل -dı: önemli**dir**، yaygın**dır**، doğru**dur**، Türk**tür**. بعد از **var / yok** هم می‌آید: Bir söz var**dır**. = سخنی هست.\nاین پسوند را در A2 در **iki gündür** (دو روز است که) دیده‌اید؛ همان پسوند است.",
+      "table": [
+        [
+          "önemli",
+          "önemlidir"
+        ],
+        [
+          "yaygın",
+          "yaygındır"
+        ],
+        [
+          "doğru",
+          "doğrudur"
+        ],
+        [
+          "güzel",
+          "güzeldir"
+        ],
+        [
+          "yasak",
+          "yasaktır"
+        ],
+        [
+          "Türk",
+          "Türktür"
+        ],
+        [
+          "evde",
+          "evdedir"
+        ]
+      ],
+      "examples": [
+        {
+          "t": "Sağlık her şeyden önemlidir.",
+          "s": "سلامتی از همه‌چیز مهم‌تر است."
+        },
+        {
+          "t": "Hastanede sigara içmek yasaktır.",
+          "s": "سیگار کشیدن در بیمارستان ممنوع است."
+        },
+        {
+          "t": "Bol su içmek sağlıklıdır.",
+          "s": "زیاد آب خوردن برای سلامتی خوب است."
+        },
+        {
+          "t": "Ali şimdi iştedir, akşam gelir.",
+          "s": "علی لابد الان سرِ کار است، عصر می‌آید."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "choice",
+          "t": "Kışın grip çok yaygın___.",
+          "options": [
+            "dır",
+            "dir",
+            "tır"
+          ],
+          "answer": 0,
+          "why": "آخرین واکه ı است، پس -dır؛ n بی‌واک نیست، پس d عوض نمی‌شود.",
+          "s": "در زمستان آنفولانزا خیلی شایع است."
+        },
+        {
+          "type": "choice",
+          "t": "Hastanede sigara içmek yasak___.",
+          "options": [
+            "tır",
+            "dır",
+            "tir"
+          ],
+          "answer": 0,
+          "why": "بعد از k (بی‌واک) d به t تبدیل می‌شود و واکه‌ی آخر a است: -tır.",
+          "s": "سیگار کشیدن در بیمارستان ممنوع است."
+        },
+        {
+          "type": "type",
+          "t": "Düzenli uyumak sağlık için çok önemli___.",
+          "answer": [
+            "dir"
+          ],
+          "why": "آخرین واکه i است، پس -dir.",
+          "s": "منظم خوابیدن برای سلامتی خیلی مهم است."
+        },
+        {
+          "type": "type",
+          "t": "Bu bilgi doğru___; doktorlar da aynı şeyi söylüyor.",
+          "answer": [
+            "dur"
+          ],
+          "why": "آخرین واکه u است، پس -dur.",
+          "s": "این اطلاعات درست است؛ پزشک‌ها هم همین را می‌گویند."
+        },
+        {
+          "type": "choice",
+          "t": "Ali bütün gece çalıştı; şimdi çok yorgun___.",
+          "options": [
+            "dur",
+            "dır",
+            "tur"
+          ],
+          "answer": 0,
+          "why": "این‌جا -dur حدس است («حتماً خسته است»)؛ واکه‌ی آخر u است و n بی‌واک نیست.",
+          "s": "علی تمام شب کار کرد؛ حتماً الان خیلی خسته است."
+        },
+        {
+          "type": "order",
+          "t": "Burada park etmek yasaktır.",
+          "alts": [
+            "Park etmek burada yasaktır."
+          ],
+          "s": "پارک کردن این‌جا ممنوع است."
+        },
+        {
+          "type": "type",
+          "task": "جمله را برای یک متن رسمی با -dır بنویسید.",
+          "cue": "Düzenli egzersiz kalp için iyi.",
+          "t": "Düzenli egzersiz kalp için ___.",
+          "answer": [
+            "iyidir"
+          ],
+          "why": "در حقیقت‌های کلی و متن رسمی -dır می‌آید؛ واکه‌ی آخر i است: iyi-dir.",
+          "s": "ورزش منظم برای قلب خوب است."
+        },
+        {
+          "type": "choice",
+          "task": "کدام جواب مناسب است؟",
+          "cue": "Elif neden telefonu açmıyor?",
+          "t": "___",
+          "options": [
+            "Bilmiyorum, şimdi hastanededir.",
+            "Bilmiyorum, şimdi hastanedeydim.",
+            "Bilmiyorum, şimdi hastanedesin."
+          ],
+          "answer": 0,
+          "why": "حدس درباره‌ی حال («لابد در بیمارستان است») با -dir: hastanede-dir.",
+          "s": "نمی‌دانم، لابد الان در بیمارستان است."
         }
       ]
     }
@@ -642,6 +806,10 @@
       {
         "t": "Doktor size ilaç yazarsa, ilacı her gün aynı saatte almalısınız.",
         "s": "اگر دکتر برایتان دارو نوشت، باید آن را هر روز سر یک ساعت مشخص بخورید."
+      },
+      {
+        "t": "Antibiyotik gibi birçok ilacı eczaneden sadece reçeteyle alabilirsiniz.",
+        "s": "بسیاری از داروها، مثل آنتی‌بیوتیک، را فقط با نسخه می‌توانید از داروخانه بگیرید."
       },
       {
         "t": "Unutmayın: sağlık her şeyden önemlidir!",
@@ -696,21 +864,42 @@
           "Biraz öksürürsek"
         ],
         "answer": 0
+      },
+      {
+        "q": {
+          "t": "Doktora gitmeden eczaneden antibiyotik alabilir miyiz?",
+          "s": "بدون رفتن پیش دکتر می‌توانیم از داروخانه آنتی‌بیوتیک بگیریم؟"
+        },
+        "options": [
+          "Genellikle hayır; önce doktordan reçete almalıyız.",
+          "Evet, her eczane reçetesiz verir.",
+          "Evet, ama sadece kışın."
+        ],
+        "answer": 0
       }
     ]
   },
   "sentences": [
     {
       "t": "Üç gündür başım ağrıyor.",
-      "s": "سه روز است سرم درد می‌کند."
+      "s": "سه روز است سرم درد می‌کند.",
+      "alts": [
+        "Başım üç gündür ağrıyor."
+      ]
     },
     {
       "t": "Doktordan yarın için randevu aldım.",
-      "s": "از دکتر برای فردا وقت گرفتم."
+      "s": "از دکتر برای فردا وقت گرفتم.",
+      "alts": [
+        "Yarın için doktordan randevu aldım."
+      ]
     },
     {
       "t": "Bu ilacı günde iki kez almalısın.",
-      "s": "این دارو را باید روزی دو بار بخوری."
+      "s": "این دارو را باید روزی دو بار بخوری.",
+      "alts": [
+        "Günde iki kez bu ilacı almalısın."
+      ]
     },
     {
       "t": "Çok yorgunsan biraz dinlen.",
@@ -722,7 +911,10 @@
     },
     {
       "t": "Ateşin düşmezse tekrar doktora gideriz.",
-      "s": "اگر تبت پایین نیامد، دوباره پیش دکتر می‌رویم."
+      "s": "اگر تبت پایین نیامد، دوباره پیش دکتر می‌رویم.",
+      "alts": [
+        "Ateşin düşmezse doktora tekrar gideriz."
+      ]
     },
     {
       "t": "Geçmiş olsun, çabuk iyileş!",

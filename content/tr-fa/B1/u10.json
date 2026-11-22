@@ -23,7 +23,8 @@
       "ex": {
         "t": "En büyük hayalim dünyayı gezmek.",
         "s": "بزرگ‌ترین رؤیایم گشتن دور دنیاست."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w02",
@@ -35,7 +36,8 @@
       "ex": {
         "t": "Bu yılki hedefim Türkçemi geliştirmek.",
         "s": "هدف امسالم بهتر کردن ترکی‌ام است."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w03",
@@ -47,7 +49,8 @@
       "ex": {
         "t": "Doğum günümde bir dilek tuttum.",
         "s": "روز تولدم یک آرزو کردم."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w04",
@@ -91,7 +94,8 @@
       "ex": {
         "t": "Yeni bir araba için para biriktiriyorum.",
         "s": "برای یک ماشین نو پول پس‌انداز می‌کنم."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w08",
@@ -113,7 +117,8 @@
       "ex": {
         "t": "Oğlum yurt dışında okumak istiyor.",
         "s": "پسرم می‌خواهد در خارج از کشور درس بخواند."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w10",
@@ -136,7 +141,8 @@
       "ex": {
         "t": "Çok çalışırsan başarırsın.",
         "s": "اگر زیاد تلاش کنی، موفق می‌شوی."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w12",
@@ -180,7 +186,8 @@
       "ex": {
         "t": "Belki yazın İran'a gideriz.",
         "s": "شاید تابستان به ایران برویم."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w16",
@@ -191,7 +198,8 @@
       "ex": {
         "t": "Biraz şansla bu işi alabilirim.",
         "s": "با کمی شانس می‌توانم این کار را بگیرم."
-      }
+      },
+      "sym": true
     }
   ],
   "phrases": [
@@ -302,8 +310,8 @@
       },
       {
         "sp": "A",
-        "t": "İki yıl önce. Keşke daha sık görüşebilsek.",
-        "s": "دو سال پیش. کاش می‌توانستیم بیشتر همدیگر را ببینیم."
+        "t": "Şey… iki yıl önce. Keşke daha sık görüşebilsek.",
+        "s": "اِم… دو سال پیش. کاش می‌توانستیم بیشتر همدیگر را ببینیم."
       },
       {
         "sp": "B",
@@ -394,29 +402,33 @@
             "yağmayacak"
           ],
           "answer": 0,
-          "s": "کاش فردا باران نبارد."
+          "s": "کاش فردا باران نبارد.",
+          "why": "بعد از keşke منفی با -ma + -sa: yağ-ma-sa."
+        },
+        {
+          "type": "type",
+          "task": "آرزو را با keşke بنویسید.",
+          "cue": "Türkçeyi iyi konuşamıyorum.",
+          "t": "Keşke Türkçeyi daha iyi ___.",
+          "answer": [
+            "konuşabilsem"
+          ],
+          "why": "آرزوی «توانستن»: ریشه + -abil + -se + -m: konuş-abil-se-m.",
+          "s": "کاش می‌توانستم ترکی را بهتر صحبت کنم."
         },
         {
           "type": "choice",
-          "t": "Keşke daha büyük bir evimiz ___.",
+          "task": "کدام جواب مناسب است؟",
+          "cue": "Dün akşamki partiye neden gelmedin? Çok eğlenceliydi!",
+          "t": "___",
           "options": [
-            "olsa",
-            "var",
-            "oldu"
+            "Keşke ben de gelseydim!",
+            "Keşke ben de gelsem!",
+            "Keşke ben de geleceğim!"
           ],
           "answer": 0,
-          "s": "کاش خانه‌ی بزرگ‌تری داشتیم."
-        },
-        {
-          "type": "choice",
-          "t": "Keşke ben de sizinle ___.",
-          "options": [
-            "gelebilsem",
-            "gelebilirim",
-            "gelebildim"
-          ],
-          "answer": 0,
-          "s": "کاش من هم می‌توانستم با شما بیایم."
+          "why": "حسرت درباره‌ی گذشته: -sa + -ydı + شناسه: gel-se-ydi-m «کاش آمده بودم».",
+          "s": "کاش من هم آمده بودم!"
         },
         {
           "type": "type",
@@ -425,7 +437,8 @@
             "olsak",
             "olsaydık"
           ],
-          "s": "کاش الان در تعطیلات بودیم."
+          "s": "کاش الان در تعطیلات بودیم.",
+          "why": "keşke + -sa + شناسه‌ی «ما»: ol-sa-k."
         },
         {
           "type": "type",
@@ -434,7 +447,8 @@
             "bakmasam",
             "bakmasaydım"
           ],
-          "s": "کاش این‌قدر به گوشی نگاه نمی‌کردم."
+          "s": "کاش این‌قدر به گوشی نگاه نمی‌کردم.",
+          "why": "keşke + منفی -ma + -sa + -m: bak-ma-sa-m."
         },
         {
           "type": "type",
@@ -442,7 +456,8 @@
           "answer": [
             "gelsen"
           ],
-          "s": "کاش تو هم امشب پیش ما بیایی."
+          "s": "کاش تو هم امشب پیش ما بیایی.",
+          "why": "آرزو برای «تو»: gel-se-n."
         },
         {
           "type": "order",
@@ -514,15 +529,15 @@
       ],
       "exercises": [
         {
-          "type": "choice",
-          "t": "Erken yatarsan sabah daha kolay ___.",
-          "options": [
-            "kalkarsın",
-            "kalksan",
-            "kalkmışsın"
+          "type": "type",
+          "task": "احتمال را با -abilir بگویید.",
+          "cue": "Belki bu yıl kendi kafemi açarım.",
+          "t": "Bu yıl kendi kafemi ___.",
+          "answer": [
+            "açabilirim"
           ],
-          "answer": 0,
-          "s": "اگر زود بخوابی، صبح راحت‌تر بیدار می‌شوی."
+          "why": "احتمال یا امکان: ریشه + -abil + -ir + شناسه: aç-abil-ir-im.",
+          "s": "ممکن است امسال کافه‌ی خودم را باز کنم."
         },
         {
           "type": "choice",
@@ -533,7 +548,8 @@
             "yağabildi"
           ],
           "answer": 0,
-          "s": "هوا ابری است، ممکن است عصر باران ببارد."
+          "s": "هوا ابری است، ممکن است عصر باران ببارد.",
+          "why": "احتمال = -abilir: yağ-abilir «ممکن است ببارد»."
         },
         {
           "type": "choice",
@@ -544,18 +560,22 @@
             "gelebilse"
           ],
           "answer": 0,
-          "s": "عایشه مریض است؛ شاید امروز سر کار نیاید."
+          "s": "عایشه مریض است؛ شاید امروز سر کار نیاید.",
+          "why": "«ممکن است نیاید» = gel-me-yebilir؛ gelemez یعنی «نمی‌تواند بیاید»."
         },
         {
           "type": "choice",
-          "t": "Bu kapıdan ___ miyim?",
+          "task": "کدام جواب مناسب است؟",
+          "cue": "Bu akşam bize gelebilir misin?",
+          "t": "___",
           "options": [
-            "geçebilir",
-            "geçebilse",
-            "geçerse"
+            "Çok isterim, ama işim çok; gelemeyebilirim.",
+            "Çok isterim, ama işim çok; gelebilmeyebilirim.",
+            "Çok isterim, ama işim çok; gelmeyebilirsin."
           ],
           "answer": 0,
-          "s": "می‌توانم از این در رد شوم؟"
+          "why": "«شاید نتوانم بیایم» = gel-eme-yebil-ir-im؛ شکل -ebilmeyebil غلط است.",
+          "s": "خیلی دوست دارم، ولی کارم زیاد است؛ شاید نتوانم بیایم."
         },
         {
           "type": "type",
@@ -566,7 +586,8 @@
             "kazanırsın",
             "kazanabilirsin"
           ],
-          "s": "اگر زیاد درس بخوانی، امتحان را قبول می‌شوی."
+          "s": "اگر زیاد درس بخوانی، امتحان را قبول می‌شوی.",
+          "why": "نتیجه‌ی شرط با زمان گسترده یا -ebilir: geç-er-sin / geç-ebilir-sin."
         },
         {
           "type": "type",
@@ -575,7 +596,8 @@
             "olursa",
             "varsa"
           ],
-          "s": "اگر پول داشته باشم، در خارج از کشور درس می‌خوانم."
+          "s": "اگر پول داشته باشم، در خارج از کشور درس می‌خوانم.",
+          "why": "شرط با -sa: olur-sa یا var-sa."
         },
         {
           "type": "type",
@@ -583,7 +605,8 @@
           "answer": [
             "gelebilir"
           ],
-          "s": "می‌توانی فردا بیایی؟ به کمکت نیاز دارم."
+          "s": "می‌توانی فردا بیایی؟ به کمکت نیاز دارم.",
+          "why": "درخواست مؤدبانه با -ebilir mi: gel-ebilir misin?"
         },
         {
           "type": "order",
@@ -608,8 +631,8 @@
         "s": "الان سی‌ودو سالم است و در استانبول در یک شرکت کوچک کار می‌کنم."
       },
       {
-        "t": "Hayatımdan memnunum, ama birçok hayalim var.",
-        "s": "از زندگی‌ام راضی هستم، ولی رؤیاهای زیادی دارم."
+        "t": "İşimden ve maaşımdan memnunum, ama birçok hayalim var.",
+        "s": "از کار و حقوقم راضی هستم، ولی رؤیاهای زیادی دارم."
       },
       {
         "t": "En büyük hedefim kendi işimi kurmak; bunun için her ay biraz para biriktiriyorum.",
@@ -628,12 +651,12 @@
         "s": "کاش پدرم هم این‌جا بود و راهنمایی‌ام می‌کرد."
       },
       {
-        "t": "O her zaman “Denemezsen asla bilemezsin.” derdi.",
-        "s": "او همیشه می‌گفت: «اگر امتحان نکنی، هرگز نمی‌فهمی.»"
+        "t": "O her zaman “Denemezsen asla bilemezsin.” der.",
+        "s": "او همیشه می‌گوید: «اگر امتحان نکنی، هرگز نمی‌فهمی.»"
       },
       {
-        "t": "Bir de Türkçemi C1 seviyesine çıkarmak istiyorum.",
-        "s": "یک چیز دیگر هم این‌که می‌خواهم ترکی‌ام را به سطح C1 برسانم."
+        "t": "Bir de Türkçemi C1 seviyesine çıkarmak ve her yıl yeni bir ülkeye seyahat etmek istiyorum.",
+        "s": "یک چیز دیگر هم این‌که می‌خواهم ترکی‌ام را به سطح C1 برسانم و هر سال به یک کشور تازه سفر کنم."
       },
       {
         "t": "Eğer bu mektubu okurken kendi kafende oturuyorsan, demek ki başardın!",
@@ -687,8 +710,8 @@
       },
       {
         "q": {
-          "t": "Mina'nın babası her zaman ne derdi?",
-          "s": "پدر مینا همیشه چه می‌گفت؟"
+          "t": "Mina'nın babası her zaman ne der?",
+          "s": "پدر مینا همیشه چه می‌گوید؟"
         },
         "options": [
           "Keşke daha çok çalışsan",
@@ -696,6 +719,18 @@
           "Para her şey değildir"
         ],
         "answer": 1
+      },
+      {
+        "q": {
+          "t": "Mina bu mektubu neden yazıyor?",
+          "s": "مینا چرا این نامه را می‌نویسد؟"
+        },
+        "options": [
+          "Beş yıl sonra hayallerini ve hedeflerini hatırlamak için.",
+          "Babasından para istemek için.",
+          "Kafesi için müşteri bulmak için."
+        ],
+        "answer": 0
       }
     ]
   },
@@ -726,7 +761,10 @@
     },
     {
       "t": "Hayallerin için hiçbir zaman geç değil.",
-      "s": "برای رؤیاهایت هیچ‌وقت دیر نیست."
+      "s": "برای رؤیاهایت هیچ‌وقت دیر نیست.",
+      "alts": [
+        "Hiçbir zaman hayallerin için geç değil."
+      ]
     },
     {
       "t": "Keşke bu güzel günler hiç bitmese.",
