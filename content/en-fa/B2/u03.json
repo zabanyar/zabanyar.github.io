@@ -35,7 +35,7 @@
       "ex": {
         "t": "My doctor told me to cut back on salt and sugar.",
         "s": "دکترم گفت نمک و شکر را کم کنم.",
-        "pr": "مای داکْتِر تُولْد میْ تو کات بَک آن سالْت اَند شوگِر."
+        "pr": "مای داکْتِر تُولْد میْ تو کات بَک آن سالت اَند شوگِر."
       }
     },
     {
@@ -47,7 +47,7 @@
       "ex": {
         "t": "Processed food often contains a lot of salt.",
         "s": "غذای فرآوری‌شده اغلب نمک زیادی دارد.",
-        "pr": "پْراسِسْت فود آفِن کِنْتِینْز اِ لات آو سالْت."
+        "pr": "پْراسِسْت فود آفِن کِنْتِینْز اِ لات آو سالت."
       }
     },
     {
@@ -60,7 +60,8 @@
         "t": "Lentil soup is cheap, tasty, and very nutritious.",
         "s": "سوپ عدس ارزان، خوشمزه و خیلی مغذی است.",
         "pr": "لِنْتِل سوپ ایز چیپ، تِیسْتی، اَند وِری نوتْریشِس."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w05",
@@ -119,7 +120,7 @@
       "ex": {
         "t": "My son is allergic to nuts, so we always check the labels.",
         "s": "پسرم به آجیل حساسیت دارد، برای همین همیشه برچسب‌ها را نگاه می‌کنیم.",
-        "pr": "مای سان ایز اِلِرْجیک تو ناتْس، سُو وی آلْوِیز چِک ذِ لِیبِلْز."
+        "pr": "مای سان ایز اِلِرْجیک تو ناتْس، سُو وی آلوِیز چِک ذِ لِیبِلْز."
       }
     },
     {
@@ -169,7 +170,7 @@
       "ex": {
         "t": "It took him six weeks to recover from the operation.",
         "s": "شش هفته طول کشید تا بعد از عمل جراحی حالش خوب شود.",
-        "pr": "ایت توک هیم سیکْس ویکْس تو ریکاوِر فْرام ذی آپِرِیشِن."
+        "pr": "ایت توک هیم سیکس ویکْس تو ریکاوِر فْرام ذی آپِرِیشِن."
       }
     },
     {
@@ -194,7 +195,7 @@
       "ex": {
         "t": "Regular exercise lowers the risk of a heart attack.",
         "s": "ورزش منظم خطر حمله‌ی قلبی را کم می‌کند.",
-        "pr": "رِگْیِلِر اِکْسِرْسایز لُوئِرز ذِ ریسْک آو اِ هارت اِتَک."
+        "pr": "رِگْیِلِر اِکسِرسایز لُوئِرز ذِ ریسْک آو اِ هارت اِتَک."
       }
     }
   ],
@@ -215,7 +216,7 @@
       "id": "p03",
       "t": "It's easier said than done.",
       "s": "گفتنش آسان است، عمل کردنش سخت.",
-      "pr": "ایتْس ایزیِر سِد ذَن دان."
+      "pr": "ایتس ایزیِر سِد ذَن دان."
     },
     {
       "id": "p04",
@@ -239,7 +240,7 @@
       "id": "p07",
       "t": "It's not worth the risk.",
       "s": "ارزش ریسک کردن ندارد.",
-      "pr": "ایتْس نات وِرث ذِ ریسْک."
+      "pr": "ایتس نات وِرث ذِ ریسْک."
     },
     {
       "id": "p08",
@@ -260,22 +261,22 @@
         "voice": "f"
       },
       "B": {
-        "name": "Amir",
+        "name": "Jack",
         "voice": "m"
       }
     },
     "lines": [
       {
         "sp": "A",
-        "t": "Amir! I heard you were in the hospital last month. Are you all right now?",
-        "s": "امیر! شنیدم ماه پیش بیمارستان بودی. الان حالت خوب است؟",
-        "pr": "امیر! آی هِرد یو وِر این ذِ هاسْپیتِل لَسْت مانْث. آر یو آل رایت ناو؟"
+        "t": "Jack! I heard you were in the hospital last month. Are you all right now?",
+        "s": "جک! شنیدم ماه پیش بیمارستان بودی. الان حالت خوب است؟",
+        "pr": "جَک! آی هِرْد یو وِر این ذِ هاسپیتِل لَسْت مانْث. آر یو آل رایت ناو؟"
       },
       {
         "sp": "B",
         "t": "I'm much better, thanks. To be honest, it was a wake-up call. The doctor said I'd had a mild heart attack.",
         "s": "خیلی بهترم، ممنون. راستش زنگ خطر بود. دکتر گفت یک حمله‌ی قلبی خفیف داشته‌ام.",
-        "pr": "آیم ماچ بِتِر، ثَنْکْس. تو بی آنِسْت، ایت واز اِ وِیک آپ کال. ذِ داکْتِر سِد آید هَد اِ مایلْد هارت اِتَک."
+        "pr": "آیم ماچ بِتِر، ثَنکس. تو بی آنِسْت، ایت واز اِ وِیک آپ کال. ذِ داکْتِر سِد آید هَد اِ مایلْد هارت اِتَک."
       },
       {
         "sp": "A",
@@ -293,7 +294,7 @@
         "sp": "A",
         "t": "Well, the important thing is that you're fine now. What did the doctor say?",
         "s": "خب، مهم این است که حالا حالت خوب است. دکتر چه گفت؟",
-        "pr": "وِل، ذی ایمْپُرْتِنْت ثینگ ایز ذَت یور فاین ناو. وات دید ذِ داکْتِر سِی؟"
+        "pr": "وِل، ذی ایمْپُرتِنْت ثینگ ایز ذَت یور فاین ناو. وات دید ذِ داکْتِر سِی؟"
       },
       {
         "sp": "B",
@@ -360,7 +361,7 @@
         {
           "t": "If I had gone to bed earlier, I wouldn't have been so tired.",
           "s": "اگر زودتر خوابیده بودم، این‌قدر خسته نبودم.",
-          "pr": "ایف آی هَد گان تو بِد اِرْلیِر، آی وودِنْت هَو بین سُو تایِرْد."
+          "pr": "ایف آی هَد گان تو بِد اِرْلیِر، آی وودِنْت هَو بین سُو تایِرد."
         },
         {
           "t": "She would have won the race if she hadn't hurt her knee.",
@@ -394,7 +395,8 @@
           ],
           "answer": 0,
           "s": "اگر از ترافیک خبر داشتم، زودتر راه می‌افتادم.",
-          "pr": "ایف آی هَد نُون اِباوت ذِ تْرَفیک، آی وود هَو لِفْت اِرْلیِر."
+          "pr": "ایف آی هَد نُون اِباوت ذِ تْرَفیک، آی وود هَو لِفت اِرْلیِر.",
+          "why": "در بخش if شرطی سوم had + قسمت سوم فعل می‌آید، نه would have: had known."
         },
         {
           "type": "choice",
@@ -406,7 +408,8 @@
           ],
           "answer": 0,
           "s": "اگر داروهایش را خورده بود، زودتر خوب می‌شد.",
-          "pr": "ایف شی هَد تِیکِن هِر مِدِسِن، شی وود هَو گاتِن بِتِر سونِر."
+          "pr": "ایف شی هَد تِیکِن هِر مِدِسِن، شی وود هَو گاتِن بِتِر سونِر.",
+          "why": "نتیجه‌ی غیرواقعی در گذشته: would have + قسمت سوم فعل (would have gotten)."
         },
         {
           "type": "choice",
@@ -418,16 +421,25 @@
           ],
           "answer": 0,
           "s": "اگر نقشه برده بودیم، گم نمی‌شدیم.",
-          "pr": "وی وودِنْت هَو گاتِن لاسْت ایف وی هَد تِیکِن اِ مَپ."
+          "pr": "وی وودِنْت هَو گاتِن لاسْت ایف وی هَد تِیکِن اِ مَپ.",
+          "why": "بخش if در شرطی سوم: had + قسمت سوم فعل (had taken)، نه would."
         },
         {
           "type": "type",
-          "t": "If you had asked me, I would ___ helped you.",
+          "task": "با If I had known شروع کنید.",
+          "cue": "I didn't know you were in the hospital, so I didn't visit you.",
+          "cpr": "آی دیدِنْت نُو یو وِر این ذِ هاسپیتِل، سُو آی دیدِنْت ویزیت یو.",
+          "t": "If I had known you were in the hospital, ___ you.",
           "answer": [
-            "have"
+            "I would have visited",
+            "I'd have visited",
+            "I would've visited",
+            "I could have visited",
+            "I could've visited"
           ],
-          "s": "اگر از من خواسته بودی، کمکت می‌کردم.",
-          "pr": "ایف یو هَد اَسْکْت میْ، آی وود هَو هِلْپْت یو."
+          "s": "اگر می‌دانستم بیمارستان بودی، به دیدنت می‌آمدم.",
+          "why": "شرطی نوع سوم: If + had + قسمت سوم فعل، would have + قسمت سوم فعل (would have visited).",
+          "pr": "ایف آی هَد نُون یو وِر این ذِ هاسپیتِل، آی وود هَو ویزیتِد یو."
         },
         {
           "type": "type",
@@ -437,17 +449,24 @@
             "had not"
           ],
           "s": "اگر این‌قدر نخورده بود، حالش بد نمی‌شد.",
-          "pr": "ایف هی هَدِنْت ایتِن سُو ماچ، هی وودِنْت هَو فِلْت سیک."
+          "pr": "ایف هی هَدِنْت ایتِن سُو ماچ، هی وودِنْت هَو فِلْت سیک.",
+          "why": "شرط منفی درباره‌ی گذشته: hadn't + قسمت سوم فعل (hadn't eaten)."
         },
         {
-          "type": "type",
-          "t": "If I had trained harder, I might have ___ the race.",
-          "answer": [
-            "won",
-            "finished"
+          "type": "choice",
+          "task": "کدام جواب درست است؟",
+          "cue": "I failed my driving test because I was so nervous.",
+          "cpr": "آی فِیلْد مای دْرایوینگ تِسْت بیکاز آی واز سُو نِرْوِس.",
+          "t": "___",
+          "options": [
+            "If you'd been calmer, you would have passed.",
+            "If you would be calmer, you would pass.",
+            "If you were calmer, you will have passed."
           ],
-          "s": "اگر سخت‌تر تمرین کرده بودم، شاید مسابقه را می‌بردم.",
-          "pr": "ایف آی هَد تْرِینْد هاردِر، آی مایت هَو وان ذِ رِیس."
+          "answer": 0,
+          "s": "اگر آرام‌تر بودی، قبول می‌شدی.",
+          "why": "درباره‌ی گذشته‌ای که اتفاق نیفتاده: If + had been، would have + قسمت سوم فعل.",
+          "pr": "ایف یود بین کامِر، یو وود هَو پَسْت."
         },
         {
           "type": "order",
@@ -500,7 +519,7 @@
         {
           "t": "If I weren't allergic to cats, I would have adopted that kitten.",
           "s": "اگر به گربه حساسیت نداشتم، آن بچه‌گربه را پیش خودم آورده بودم.",
-          "pr": "ایف آی وِرنت اِلِرْجیک تو کَتْس، آی وود هَو اِداپْتِد ذَت کیتِن."
+          "pr": "ایف آی وِرنت اِلِرْجیک تو کَتس، آی وود هَو اِداپْتِد ذَت کیتِن."
         },
         {
           "t": "If you had listened to the doctor, you wouldn't be in so much pain now.",
@@ -524,7 +543,8 @@
           ],
           "answer": 0,
           "s": "اگر پول بیشتری پس‌انداز کرده بودم، الان ماشین داشتم.",
-          "pr": "ایف آی هَد سِیوْد مُر مانی، آی وود هَو اِ کار ناو."
+          "pr": "ایف آی هَد سِیوْد مُر مانی، آی وود هَو اِ کار ناو.",
+          "why": "شرط در گذشته، نتیجه در حال (now): would + شکل ساده‌ی فعل (would have = داشتن)."
         },
         {
           "type": "choice",
@@ -536,7 +556,8 @@
           ],
           "answer": 0,
           "s": "اگر این‌قدر خجالتی نبود، دیروز در جلسه حرف زده بود.",
-          "pr": "ایف شی وِرنت سُو شای، شی وود هَو سْپُوکِن اَت ذِ میتینگ یِسْتِرْدِی."
+          "pr": "ایف شی وِرنت سُو شای، شی وود هَو سْپُوکِن اَت ذِ میتینگ یِسْتِرْدِی.",
+          "why": "خجالتی بودن ویژگی همیشگی و در حال است: if + گذشته‌ی ساده؛ در شرط غیرواقعی were: weren't."
         },
         {
           "type": "choice",
@@ -548,18 +569,23 @@
           ],
           "answer": 0,
           "s": "اگر پرواز را از دست نداده بودیم، الان در استانبول بودیم.",
-          "pr": "ایف وی هَدِنْت میسْت ذِ فْلایت، وی وود بی این ایسْتَنْبول ناو."
+          "pr": "ایف وی هَدِنْت میسْت ذِ فْلایت، وی وود بی این ایسْتَنْبول ناو.",
+          "why": "نتیجه در حال است (now): would be، نه would have been."
         },
         {
           "type": "type",
-          "t": "If I hadn't stayed up so late, I wouldn't ___ so tired now.",
+          "task": "با If I had شروع کنید؛ نتیجه در حال است.",
+          "cue": "I didn't learn to drive when I was young, so I can't drive now.",
+          "cpr": "آی دیدِنْت لِرن تو دْرایو وِن آی واز یانگ، سُو آی کَنت دْرایو ناو.",
+          "t": "If I had learned to drive when I was young, ___ now.",
           "answer": [
-            "be",
-            "feel",
-            "look"
+            "I could drive",
+            "I would be able to drive",
+            "I'd be able to drive"
           ],
-          "s": "اگر این‌قدر دیر نخوابیده بودم، الان این‌قدر خسته نبودم.",
-          "pr": "ایف آی هَدِنْت سْتِید آپ سُو لِیت، آی وودِنْت بی سُو تایِرْد ناو."
+          "s": "اگر در جوانی رانندگی یاد گرفته بودم، الان می‌توانستم رانندگی کنم.",
+          "why": "شرط در گذشته، نتیجه در حال (now): would / could + شکل ساده‌ی فعل.",
+          "pr": "ایف آی هَد لِرْنْد تو دْرایو وِن آی واز یانگ، آی کود دْرایو ناو."
         },
         {
           "type": "type",
@@ -573,16 +599,24 @@
             "had not been"
           ],
           "s": "اگر از پرواز نمی‌ترسید، تابستان گذشته به دیدن ما آمده بود.",
-          "pr": "ایف هی وِرنت اِفْرِید آو فْلایینگ، هی وود هَو ویزیتِد آس لَسْت سامِر."
+          "pr": "ایف هی وِرنت اِفْرِید آو فْلایینگ، هی وود هَو ویزیتِد آس لَسْت سامِر.",
+          "why": "ترس از پرواز ویژگی همیشگی است: if + گذشته‌ی ساده (weren't / wasn't)."
         },
         {
-          "type": "type",
-          "t": "If you had taken the job in Dubai, you would ___ living there now.",
-          "answer": [
-            "be"
+          "type": "choice",
+          "task": "کدام جواب درست است؟",
+          "cue": "Do you regret not studying medicine?",
+          "cpr": "دو یو ریگْرِت نات سْتادیینگ مِدِسِن؟",
+          "t": "___",
+          "options": [
+            "A little. If I had studied it, I'd be a doctor now.",
+            "A little. If I studied it, I'd have been a doctor now.",
+            "A little. If I had studied it, I'll be a doctor now."
           ],
-          "s": "اگر آن کار در دبی را قبول کرده بودی، الان آنجا زندگی می‌کردی.",
-          "pr": "ایف یو هَد تِیکِن ذِ جاب این دوبای، یو وود بی لیوینگ ذِر ناو."
+          "answer": 0,
+          "s": "کمی. اگر پزشکی خوانده بودم، الان دکتر بودم.",
+          "why": "شرط در گذشته (had studied)، نتیجه در حال (now): would + شکل ساده (I'd be).",
+          "pr": "اِ لیتِل. ایف آی هَد سْتادید ایت، آید بی اِ داکْتِر ناو."
         },
         {
           "type": "type",
@@ -593,7 +627,8 @@
             "might"
           ],
           "s": "اگر آلمانی بلد بودم، پارسال آن کار را گرفته بودم.",
-          "pr": "ایف آی سْپُوک جِرْمِن، آی وود هَو گاتِن ذَت جاب لَسْت ییر."
+          "pr": "ایف آی سْپُوک جِرْمِن، آی وود هَو گاتِن ذَت جاب لَسْت ییر.",
+          "why": "شرط در حال، نتیجه در گذشته (last year): would + have + قسمت سوم فعل."
         },
         {
           "type": "order",
@@ -627,7 +662,7 @@
       {
         "t": "I knew my lifestyle wasn't healthy, but I always told myself that I would slow down the following year.",
         "s": "می‌دانستم سبک زندگی‌ام سالم نیست، ولی همیشه به خودم می‌گفتم سال بعد آهسته‌تر پیش می‌روم.",
-        "pr": "آی نو مای لایفْسْتایل وازِنْت هِلْثی، بات آی آلْوِیز تُولْد مایسِلْف ذَت آی وود سْلُو داون ذِ فالُوئینگ ییر."
+        "pr": "آی نو مای لایفْسْتایل وازِنت هِلْثی، بات آی آلوِیز تُولْد مایسِلْف ذَت آی وود سْلُو داون ذِ فالُوئینگ ییر."
       },
       {
         "t": "Then one morning, I simply couldn't get out of bed.",
@@ -652,7 +687,7 @@
       {
         "t": "During my recovery, I took up yoga and started cooking simple, nutritious meals.",
         "s": "در دوران بهبودی، یوگا را شروع کردم و شروع کردم به پختن غذاهای ساده و مغذی.",
-        "pr": "دورینگ مای ریکاوِری، آی توک آپ یُوگا اَند سْتارتِد کوکینگ سیمْپِل، نوتْریشِس میلْز."
+        "pr": "دورینگ مای ریکاوِری، آی توک آپ یُوگا اَند سْتارتِد کوکینگ سیمْپِل، نوتْریشِس میلز."
       },
       {
         "t": "I also learned to say no to extra work.",
@@ -685,7 +720,7 @@
         "q": {
           "t": "What was the writer's job two years ago?",
           "s": "شغل نویسنده دو سال پیش چه بود؟",
-          "pr": "وات واز ذِ رایتِرْز جاب تو ییرز اِگُو؟"
+          "pr": "وات واز ذِ رایتِرز جاب تو ییرز اِگُو؟"
         },
         "options": [
           "a doctor",
@@ -696,9 +731,9 @@
       },
       {
         "q": {
-          "t": "How long did the doctor say he needed off work?",
+          "t": "How long did the doctor say the writer needed off work?",
           "s": "دکتر گفت چه مدت باید مرخصی بگیرد؟",
-          "pr": "هاو لانگ دید ذِ داکْتِر سِی هی نیدِد آف وِرک؟"
+          "pr": "هاو لانگ دید ذِ داکْتِر سِی ذِ رایتِر نیدِد آف وِرک؟"
         },
         "options": [
           "at least three weeks",
@@ -709,9 +744,9 @@
       },
       {
         "q": {
-          "t": "According to the writer, what could he have avoided?",
+          "t": "What could the writer have avoided?",
           "s": "به گفته‌ی نویسنده، از چه چیزی می‌توانست در امان بماند؟",
-          "pr": "اِکُردینگ تو ذِ رایتِر، وات کود هی هَو اِوُیدِد؟"
+          "pr": "وات کود ذِ رایتِر هَو اِوُیدِد؟"
         },
         "options": [
           "losing his job",
@@ -722,9 +757,9 @@
       },
       {
         "q": {
-          "t": "How many days a week does he work now?",
+          "t": "How many days a week does the writer work now?",
           "s": "او الان هفته‌ای چند روز کار می‌کند؟",
-          "pr": "هاو مِنی دِیز اِ ویک داز هی وِرک ناو؟"
+          "pr": "هاو مِنی دِیز اِ ویک داز ذِ رایتِر وِرک ناو؟"
         },
         "options": [
           "three",
@@ -735,14 +770,40 @@
       },
       {
         "q": {
-          "t": "How does he feel about his life today?",
+          "t": "How does the writer feel about life today?",
           "s": "درباره‌ی زندگی امروزش چه حسی دارد؟",
-          "pr": "هاو داز هی فیل اِباوت هیز لایف تِدِی؟"
+          "pr": "هاو داز ذِ رایتِر فیل اِباوت لایف تِدِی؟"
         },
         "options": [
-          "He is happier than ever.",
-          "He misses his old job.",
-          "He wants to earn more money."
+          "happier than ever",
+          "sorry about leaving the old job",
+          "worried about earning less"
+        ],
+        "answer": 0
+      },
+      {
+        "q": {
+          "t": "What does the writer mean by \"listen to your body\"?",
+          "s": "منظور نویسنده از «به بدنت گوش کن» چیست؟",
+          "pr": "وات داز ذِ رایتِر مین بای لیسِن تو یور بادی؟"
+        },
+        "options": [
+          "Notice the warning signs of stress early.",
+          "Do more sport than other people.",
+          "Eat whatever your body wants."
+        ],
+        "answer": 0
+      },
+      {
+        "q": {
+          "t": "What would the writer probably say about working sixty hours a week?",
+          "s": "نویسنده احتمالاً درباره‌ی شصت ساعت کار در هفته چه می‌گوید؟",
+          "pr": "وات وود ذِ رایتِر پْرابِبْلی سِی اِباوت وِرکینگ سیکْسْتی آوِرز اِ ویک؟"
+        },
+        "options": [
+          "It isn't worth the damage to your health.",
+          "It is the only way to be successful.",
+          "It is fine if you drink enough coffee."
         ],
         "answer": 0
       }
@@ -772,7 +833,7 @@
     {
       "t": "We would have come to the party if we hadn't been sick.",
       "s": "اگر مریض نبودیم، به مهمانی می‌آمدیم.",
-      "pr": "وی وود هَو کام تو ذِ پارْتی ایف وی هَدِنْت بین سیک."
+      "pr": "وی وود هَو کام تو ذِ پارتی ایف وی هَدِنْت بین سیک."
     },
     {
       "t": "What are the side effects of this medicine?",
@@ -782,7 +843,7 @@
     {
       "t": "Too much screen time isn't good for your well-being.",
       "s": "زیاد پای صفحه‌نمایش بودن برای سلامت جسم و روانت خوب نیست.",
-      "pr": "تو ماچ سْکْرین تایم ایزِنْت گود فُر یور وِل بیینگ."
+      "pr": "تو ماچ سْکْرین تایم ایزِنت گود فُر یور وِل بیینگ."
     },
     {
       "t": "It took her a month to recover from the flu.",

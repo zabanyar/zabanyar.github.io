@@ -24,7 +24,8 @@
         "t": "We plan a monthly budget for food and bills.",
         "s": "برای غذا و قبض‌ها بودجه‌ی ماهانه تعیین می‌کنیم.",
         "pr": "وی پْلَن اِ مانْثْلی باجِت فُر فود اَند بیلْز."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w02",
@@ -47,7 +48,7 @@
       "ex": {
         "t": "We can't afford a bigger apartment right now.",
         "s": "فعلاً توان مالی خرید یک آپارتمان بزرگ‌تر را نداریم.",
-        "pr": "وی کَنت اِفُرد اِ بیگِر اِپارْتْمِنْت رایت ناو."
+        "pr": "وی کَنت اِفُرد اِ بیگِر اِپارتمِنت رایت ناو."
       }
     },
     {
@@ -61,7 +62,8 @@
         "t": "This coat was a real bargain. I paid half the normal price.",
         "s": "این پالتو واقعاً ارزان درآمد. نصف قیمت معمولی‌اش را دادم.",
         "pr": "ذیس کُوت واز اِ ریل بارگِن. آی پِید هَف ذِ نُرمِل پْرایس."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w05",
@@ -72,8 +74,9 @@
       "ex": {
         "t": "In the Grand Bazaar, people often haggle over prices.",
         "s": "در بازار بزرگ، مردم اغلب سر قیمت چانه می‌زنند.",
-        "pr": "این ذِ گْرَنْد بِزار، پیپِل آفِن هَگِل اُووِر پْرایسِز."
-      }
+        "pr": "این ذِ گْرَنْد بِزار، پیپِل آفِن هَگِل اُووِر پْرایْسِز."
+      },
+      "sym": true
     },
     {
       "id": "w06",
@@ -86,7 +89,8 @@
         "t": "That expensive jacket was an impulse buy. I've never worn it.",
         "s": "آن کاپشن گران یک خرید هیجانی بود. هیچ‌وقت نپوشیده‌امش.",
         "pr": "ذَت ایکْسْپِنْسیو جَکِت واز اِن ایمْپالْس بای. آیو نِوِر وُرن ایت."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w07",
@@ -112,7 +116,8 @@
         "t": "They took out a loan to buy a car.",
         "s": "برای خرید ماشین وام گرفتند.",
         "pr": "ذِی توک آوت اِ لُون تو بای اِ کار."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w09",
@@ -123,7 +128,7 @@
       "ex": {
         "t": "The bank charges high interest on credit card debt.",
         "s": "بانک برای بدهی کارت اعتباری بهره‌ی بالایی می‌گیرد.",
-        "pr": "ذِ بَنْک چارجِز های اینْتْرِسْت آن کْرِدیت کارد دِت."
+        "pr": "ذِ بَنک چارجِز های اینْتْرِسْت آن کْرِدیت کارد دِت."
       }
     },
     {
@@ -149,7 +154,7 @@
       "ex": {
         "t": "Students get a ten percent discount at this bookstore.",
         "s": "دانشجوها در این کتاب‌فروشی ده درصد تخفیف می‌گیرند.",
-        "pr": "سْتودِنْتْس گِت اِ تِن پِرسِنْت دیسْکاونْت اَت ذیس بوکْسْتُر."
+        "pr": "سْتودِنْتْس گِت اِ تِن پِرسِنْت دیسْکاونْت اَت ذیس بوکستُر."
       }
     },
     {
@@ -199,7 +204,7 @@
       "ex": {
         "t": "This restaurant is great value for money.",
         "s": "این رستوران واقعاً به‌صرفه است.",
-        "pr": "ذیس رِسْتِرانْت ایز گْرِیت وَلیو فُر مانی."
+        "pr": "ذیس رِسْتِرانت ایز گْرِیت وَلیو فُر مانی."
       }
     },
     {
@@ -238,7 +243,7 @@
       "id": "p04",
       "t": "That's a bit out of my price range.",
       "s": "کمی بالاتر از حد قیمتی من است.",
-      "pr": "ذَتس اِ بیت آوت آو مای پْرایس رِینْج."
+      "pr": "ذَتْس اِ بیت آوت آو مای پْرایس رِینْج."
     },
     {
       "id": "p05",
@@ -250,13 +255,13 @@
       "id": "p06",
       "t": "That's a steal!",
       "s": "مفت است! / خیلی ارزان است!",
-      "pr": "ذَتس اِ سْتیل!"
+      "pr": "ذَتْس اِ سْتیل!"
     },
     {
       "id": "p07",
       "t": "Money doesn't grow on trees.",
       "s": "پول که علف خرس نیست!",
-      "pr": "مانی دازِنْت گْرُو آن تْریز."
+      "pr": "مانی دازِنت گْرُو آن تْریز."
     },
     {
       "id": "p08",
@@ -292,7 +297,7 @@
         "sp": "B",
         "t": "I did! But I forgot to cancel a subscription, and they charged me again.",
         "s": "گفتم! ولی یادم رفت یک اشتراک را لغو کنم و دوباره از حسابم پول کم کردند.",
-        "pr": "آی دید! بات آی فِرگات تو کَنْسِل اِ سِبْسْکْریپْشِن، اَند ذِی چارجْد میْ اِگِن."
+        "pr": "آی دید! بات آی فِرگات تو کَنْسِل اِ سِبْسْکْریپْشِن، اَند ذِی چارجد میْ اِگِن."
       },
       {
         "sp": "A",
@@ -310,13 +315,13 @@
         "sp": "A",
         "t": "You should try writing down everything you spend. It works for me.",
         "s": "بهتر است امتحان کنی همه‌ی خرج‌هایت را یادداشت کنی. برای من جواب می‌دهد.",
-        "pr": "یو شود تْرای رایتینگ داون اِوْریثینگ یو سْپِنْد. ایت وِرکْس فُر میْ."
+        "pr": "یو شود تْرای رایتینگ داون اِوْریثینگ یو سْپِنْد. ایت وِرکس فُر میْ."
       },
       {
         "sp": "B",
-        "t": "I tried to do that last year. However, I gave up after a week.",
-        "s": "پارسال سعی کردم این کار را بکنم. با این حال، بعد از یک هفته ول کردم.",
-        "pr": "آی تْراید تو دو ذَت لَسْت ییر. هاواِوِر، آی گِیو آپ اَفْتِر اِ ویک."
+        "t": "I tried to do that last year. But I gave up after a week.",
+        "s": "پارسال سعی کردم این کار را بکنم. ولی بعد از یک هفته ول کردم.",
+        "pr": "آی تْراید تو دو ذَت لَسْت ییر. بات آی گِیو آپ اَفْتِر اِ ویک."
       },
       {
         "sp": "A",
@@ -338,21 +343,21 @@
       },
       {
         "sp": "B",
-        "t": "I'm doing it right now. Done! Nevertheless, I've already lost thirty dollars.",
-        "s": "همین الان دارم انجامش می‌دهم. تمام شد! با این حال، تا الان سی دلار از دست داده‌ام.",
-        "pr": "آیم دویینگ ایت رایت ناو. دان! نِوِرذِلِس، آیو آلْرِدی لاسْت ثِرْتی دالِرز."
+        "t": "I'm doing it right now. Done! Still, I've already lost thirty dollars.",
+        "s": "همین الان دارم انجامش می‌دهم. تمام شد! ولی خب، تا الان سی دلار از دست داده‌ام.",
+        "pr": "آیم دویینگ ایت رایت ناو. دان! سْتیل، آیو آلْرِدی لاسْت ثِرْتی دالِرز."
       },
       {
         "sp": "A",
         "t": "Think of it as a lesson. Next time, stop to check before you click “buy.”",
         "s": "به چشم یک درس نگاهش کن. دفعه‌ی بعد، قبل از اینکه روی «خرید» کلیک کنی، مکث کن و بررسی کن.",
-        "pr": "ثینک آو ایت اَز اِ لِسِن. نِکْسْت تایم، سْتاپ تو چِک بیفُر یو کْلیک «بای.»"
+        "pr": "ثینک آو ایت اَز اِ لِسِن. نِکست تایم، سْتاپ تو چِک بیفُر یو کْلیک «بای.»"
       },
       {
         "sp": "B",
         "t": "Good advice. Money doesn't grow on trees, after all!",
         "s": "توصیه‌ی خوبی است. هر چه باشد، پول که علف خرس نیست!",
-        "pr": "گود اِدْوایس. مانی دازِنْت گْرُو آن تْریز، اَفْتِر آل!"
+        "pr": "گود اِدْوایس. مانی دازِنت گْرُو آن تْریز، اَفْتِر آل!"
       }
     ]
   },
@@ -391,7 +396,7 @@
         {
           "t": "Reza stopped eating fast food to save money.",
           "s": "رضا برای پس‌انداز، دیگر فست‌فود نخورد.",
-          "pr": "رضا سْتاپْت ایتینگ فَسْت فود تو سِیو مانی."
+          "pr": "رضا سْتاپْت ایتینگ فَست فود تو سِیو مانی."
         },
         {
           "t": "On the way home, we stopped to buy some fresh bread.",
@@ -425,7 +430,8 @@
           ],
           "answer": 0,
           "s": "هیچ‌وقت دریافت اولین حقوقم را فراموش نمی‌کنم. برای مادرم یک هدیه خریدم.",
-          "pr": "آیل نِوِر فِرگِت ریسیوینگ مای فِرسْت سَلِری. آی بات مای ماذِر اِ گیفْت."
+          "pr": "آیل نِوِر فِرگِت ریسیوینگ مای فِرسْت سَلِری. آی بات مای ماذِر اِ گیفْت.",
+          "why": "خاطره‌ی کاری که در گذشته انجام شده: forget + فعل ing‌دار (never forget receiving)."
         },
         {
           "type": "choice",
@@ -437,7 +443,8 @@
           ],
           "answer": 0,
           "s": "لطفاً یادتان باشد پیش از ترک مغازه چراغ‌ها را خاموش کنید.",
-          "pr": "پْلیز ریمِمْبِر تو تِرن آف ذِ لایتْس بیفُر یو لیو ذِ شاپ."
+          "pr": "پْلیز ریمِمْبِر تو تِرن آف ذِ لایتس بیفُر یو لیو ذِ شاپ.",
+          "why": "کاری که باید بعداً انجام شود: remember + to + فعل."
         },
         {
           "type": "choice",
@@ -449,7 +456,8 @@
           ],
           "answer": 0,
           "s": "خسته بودیم، برای همین ایستادیم تا یک فنجان چای بخوریم.",
-          "pr": "وی وِر تایِرْد، سُو وی سْتاپْت تو هَو اِ کاپ آو تی."
+          "pr": "وی وِر تایِرد، سُو وی سْتاپْت تو هَو اِ کاپ آو تی.",
+          "why": "ایستادیم تا کار دیگری بکنیم (هدف): stop + to + فعل."
         },
         {
           "type": "choice",
@@ -461,34 +469,48 @@
           ],
           "answer": 0,
           "s": "پشیمانم که پارسال آن‌همه پول خرج لباس کردم.",
-          "pr": "آی ریگْرِت سْپِنْدینگ سُو ماچ مانی آن کْلُوز لَسْت ییر."
+          "pr": "آی ریگْرِت سْپِنْدینگ سُو ماچ مانی آن کْلُوز لَسْت ییر.",
+          "why": "پشیمانی از کاری در گذشته: regret + فعل ing‌دار."
         },
         {
           "type": "type",
-          "t": "If you want to spend less, try ___ for everything in cash for a month.",
+          "t": "Spending too much? Try ___ in cash for a month and see what happens.",
           "answer": [
             "paying"
           ],
-          "s": "اگر می‌خواهی کمتر خرج کنی، امتحان کن یک ماه پول همه‌چیز را نقدی بدهی.",
-          "pr": "ایف یو وانْت تو سْپِنْد لِس، تْرای پِیینگ فُر اِوْریثینگ این کَش فُر اِ مانْث."
+          "s": "زیادی خرج می‌کنی؟ امتحان کن یک ماه نقدی پول بدهی و ببین چه می‌شود.",
+          "pr": "سْپِنْدینگ تو ماچ؟ تْرای پِیینگ این کَش فُر اِ مانْث اَند سی وات هَپِنْز.",
+          "why": "امتحان کردن یک راه برای دیدن نتیجه: try + فعل ing‌دار (paying)."
         },
         {
           "type": "type",
-          "t": "I used to buy coffee every day, but I stopped ___ it to save money.",
+          "task": "با regret در یک جمله بگویید.",
+          "cue": "I bought this jacket, and now I'm sorry I bought it.",
+          "cpr": "آی بات ذیس جَکِت، اَند ناو آیم ساری آی بات ایت.",
+          "t": "I regret ___ this jacket.",
           "answer": [
-            "buying"
+            "buying",
+            "having bought"
           ],
-          "s": "قبلاً هر روز قهوه می‌خریدم، ولی برای پس‌انداز، خریدنش را کنار گذاشتم.",
-          "pr": "آی یوسْت تو بای کافی اِوْری دِی، بات آی سْتاپْت بایینگ ایت تو سِیو مانی."
+          "s": "پشیمانم که این کاپشن را خریدم.",
+          "why": "پشیمانی از کاری در گذشته: regret + فعل ing‌دار (buying).",
+          "pr": "آی ریگْرِت بایینگ ذیس جَکِت."
         },
         {
-          "type": "type",
-          "t": "Did you lock the door? Yes, I remember ___ it.",
-          "answer": [
-            "locking"
+          "type": "choice",
+          "task": "کدام جواب درست است؟",
+          "cue": "Did you call the bank about the card?",
+          "cpr": "دید یو کال ذِ بَنک اِباوت ذِ کارد؟",
+          "t": "___",
+          "options": [
+            "Oh no, I forgot to call them! I'll do it now.",
+            "Oh no, I forgot calling them! I'll do it now.",
+            "Oh no, I forgot call them! I'll do it now."
           ],
-          "s": "در را قفل کردی؟ بله، یادم هست که قفلش کردم.",
-          "pr": "دید یو لاک ذِ دُر؟ یِس، آی ریمِمْبِر لاکینگ ایت."
+          "answer": 0,
+          "s": "ای وای، یادم رفت به آن‌ها زنگ بزنم! الان زنگ می‌زنم.",
+          "why": "کاری که باید انجام می‌شد و نشد: forget + to + فعل. forget + ing یعنی خاطره‌ی کاری که انجام شده.",
+          "pr": "اُو نُو، آی فِرگات تو کال ذِم! آیل دو ایت ناو."
         },
         {
           "type": "order",
@@ -542,12 +564,12 @@
         {
           "t": "In spite of having a good salary, he is always in debt.",
           "s": "با وجود حقوق خوب، همیشه بدهکار است.",
-          "pr": "این سْپایت آو هَوینگ اِ گود سَلِری، هی ایز آلْوِیز این دِت."
+          "pr": "این سْپایت آو هَوینگ اِ گود سَلِری، هی ایز آلوِیز این دِت."
         },
         {
           "t": "My husband loves shopping malls, whereas I prefer small local shops.",
           "s": "شوهرم عاشق مراکز خرید است، در حالی که من مغازه‌های کوچک محله را ترجیح می‌دهم.",
-          "pr": "مای هازْبِنْد لاوز شاپینگ مالْز، وِرْاَز آی پْریفِر سْمال لُوکِل شاپْس."
+          "pr": "مای هازبِند لاوز شاپینگ مالْز، وِرْاَز آی پْریفِر سْمال لُوکِل شاپْس."
         },
         {
           "t": "Online shopping is convenient. Nevertheless, many people still like to see products before they buy them.",
@@ -566,7 +588,8 @@
           ],
           "answer": 0,
           "s": "با وجود باران، بازار پر از آدم بود.",
-          "pr": "دِسْپایت ذِ رِین، ذِ مارکِت واز فول آو پیپِل."
+          "pr": "دِسْپایت ذِ رِین، ذِ مارکِت واز فول آو پیپِل.",
+          "why": "بعد از Despite اسم می‌آید (the rain)؛ Although جمله‌ی کامل لازم دارد."
         },
         {
           "type": "choice",
@@ -578,7 +601,8 @@
           ],
           "answer": 0,
           "s": "با اینکه کفش‌ها حراج بودند، باز هم برای من خیلی گران بودند.",
-          "pr": "آلْذُو ذِ شوز وِر آن سِیل، ذِی وِر سْتیل تو ایکْسْپِنْسیو فُر میْ."
+          "pr": "آلْذُو ذِ شوز وِر آن سِیل، ذِی وِر سْتیل تو ایکْسْپِنْسیو فُر میْ.",
+          "why": "بعد از جای خالی جمله‌ی کامل آمده (the shoes were on sale): Although."
         },
         {
           "type": "choice",
@@ -590,7 +614,8 @@
           ],
           "answer": 0,
           "s": "خواهرم عاشق برندهای گران است، در حالی که من معمولاً لباس دست‌دوم می‌خرم.",
-          "pr": "مای سیسْتِر لاوز ایکْسْپِنْسیو بْرَنْدز، وِرْاَز آی یوژوئِلی بای سِکِنْد هَنْد کْلُوز."
+          "pr": "مای سیستِر لاوز ایکْسْپِنْسیو بْرَنْدز، وِرْاَز آی یوژوئِلی بای سِکِنْد هَنْد کْلُوز.",
+          "why": "مقایسه‌ی دو نفرِ متفاوت در یک جمله: whereas + جمله."
         },
         {
           "type": "choice",
@@ -602,16 +627,25 @@
           ],
           "answer": 0,
           "s": "لپ‌تاپ خیلی ارزان بود. با این حال، عالی کار می‌کند.",
-          "pr": "ذِ لَپْتاپ واز وِری چیپ. نِوِرذِلِس، ایت وِرکْس پِرفیکْتْلی."
+          "pr": "ذِ لَپْتاپ واز وِری چیپ. نِوِرذِلِس، ایت وِرکس پِرفیکْتْلی.",
+          "why": "بعد از نقطه، رابطِ جمله‌ی جدید با ویرگول: Nevertheless."
         },
         {
           "type": "type",
-          "t": "In spite ___ the discount, we decided not to buy the sofa.",
+          "task": "با Despite شروع کنید.",
+          "cue": "Although it was raining, we went to the bazaar.",
+          "cpr": "آلْذُو ایت واز رِینینگ، وی وِنت تو ذِ بِزار.",
+          "t": "___, we went to the bazaar.",
           "answer": [
-            "of"
+            "Despite the rain",
+            "In spite of the rain",
+            "Despite it raining",
+            "Despite the fact that it was raining",
+            "In spite of the fact that it was raining"
           ],
-          "s": "با وجود تخفیف، تصمیم گرفتیم مبل را نخریم.",
-          "pr": "این سْپایت آو ذِ دیسْکاونْت، وی دیسایدِد نات تو بای ذِ سُوفا."
+          "s": "با وجود باران، به بازار رفتیم.",
+          "why": "بعد از Despite اسم یا فعل ing‌دار می‌آید (the rain)، نه جمله‌ی کامل.",
+          "pr": "دِسْپایت ذِ رِین، وی وِنت تو ذِ بِزار."
         },
         {
           "type": "type",
@@ -621,16 +655,24 @@
             "In spite of"
           ],
           "s": "جک با وجود حقوق خوب، آخر ماه هیچ‌وقت پولی ندارد.",
-          "pr": "دِسْپایت اِرنینگ اِ گود سَلِری، جَک نِوِر هَز اِنی مانی اَت ذی اِنْد آو ذِ مانْث."
+          "pr": "دِسْپایت اِرنینگ اِ گود سَلِری، جَک نِوِر هَز اِنی مانی اَت ذی اِند آو ذِ مانْث.",
+          "why": "قبل از فعل ing‌دار Despite یا In spite of می‌آید، نه Although."
         },
         {
-          "type": "type",
-          "t": "We bought the house despite the ___ that it needed a lot of work.",
-          "answer": [
-            "fact"
+          "type": "choice",
+          "task": "کدام جواب درست است؟",
+          "cue": "Was the new phone worth the money?",
+          "cpr": "واز ذِ نو فُون وِرث ذِ مانی؟",
+          "t": "___",
+          "options": [
+            "Yes. Although it was expensive, it's very good.",
+            "Yes. Despite it was expensive, it's very good.",
+            "Yes. However it was expensive, it's very good."
           ],
-          "s": "با وجود اینکه خانه به تعمیرات زیادی نیاز داشت، آن را خریدیم.",
-          "pr": "وی بات ذِ هاوس دِسْپایت ذِ فَکْت ذَت ایت نیدِد اِ لات آو وِرک."
+          "answer": 0,
+          "s": "بله. با اینکه گران بود، خیلی خوب است.",
+          "why": "قبل از جمله‌ی کامل (it was expensive) در همان جمله Although می‌آید؛ Despite اسم لازم دارد و However جمله‌ی جدید شروع می‌کند.",
+          "pr": "یِس. آلْذُو ایت واز ایکْسْپِنْسیو، ایتس وِری گود."
         },
         {
           "type": "order",
@@ -659,7 +701,7 @@
       {
         "t": "Although I had a good job, I was always broke by the end of the month.",
         "s": "با اینکه کار خوبی داشتم، آخر ماه همیشه بی‌پول بودم.",
-        "pr": "آلْذُو آی هَد اِ گود جاب، آی واز آلْوِیز بْرُوک بای ذی اِنْد آو ذِ مانْث."
+        "pr": "آلْذُو آی هَد اِ گود جاب، آی واز آلوِیز بْرُوک بای ذی اِند آو ذِ مانْث."
       },
       {
         "t": "Most of my purchases were impulse buys: clothes I never wore, gadgets I used once, and endless online bargains.",
@@ -674,22 +716,22 @@
       {
         "t": "I'll never forget feeling so embarrassed in that shop.",
         "s": "هیچ‌وقت خجالتی را که در آن مغازه کشیدم فراموش نمی‌کنم.",
-        "pr": "آیل نِوِر فِرگِت فیلینگ سُو ایمْبَرِسْت این ذَت شاپ."
+        "pr": "آیل نِوِر فِرگِت فیلینگ سُو ایمْبَرِست این ذَت شاپ."
       },
       {
         "t": "That evening, I decided to stop buying anything except food and basic needs for a whole year.",
         "s": "همان شب تصمیم گرفتم یک سال کامل، به جز غذا و نیازهای اساسی، هیچ چیزی نخرم.",
-        "pr": "ذَت ایوْنینگ، آی دیسایدِد تو سْتاپ بایینگ اِنیثینگ ایکْسِپْت فود اَند بِیسیک نیدْز فُر اِ هُول ییر."
+        "pr": "ذَت ایوْنینگ، آی دیسایدِد تو سْتاپ بایینگ اِنی‌ثینگ ایکْسِپْت فود اَند بِیسیک نیدز فُر اِ هُول ییر."
       },
       {
         "t": "The first two months were really difficult; however, things slowly got easier.",
         "s": "دو ماه اول واقعاً سخت بود؛ با این حال، کم‌کم اوضاع آسان‌تر شد.",
-        "pr": "ذِ فِرسْت تو مانْثْس وِر ریلی دیفیکِلت؛ هاواِوِر، ثینگز سْلُولی گات ایزیِر."
+        "pr": "ذِ فِرسْت تو مانْثْس وِر ریلی دیفیکِلت؛ هاوْاِوِر، ثینگز سْلُولی گات ایزیِر."
       },
       {
         "t": "Whenever I wanted something, I tried waiting thirty days before deciding.",
         "s": "هر وقت چیزی می‌خواستم، امتحان می‌کردم سی روز صبر کنم و بعد تصمیم بگیرم.",
-        "pr": "وِنِوِر آی وانْتِد سامثینگ، آی تْراید وِیتینگ ثِرْتی دِیز بیفُر دیسایدینگ."
+        "pr": "وِنِوِر آی وانْتِد سامْثینگ، آی تْراید وِیتینگ ثِرْتی دِیز بیفُر دیسایدینگ."
       },
       {
         "t": "In most cases, I forgot about the thing completely.",
@@ -699,7 +741,7 @@
       {
         "t": "I also started buying second-hand and borrowing things from friends instead of buying new ones.",
         "s": "همچنین به جای خریدن وسایل نو، شروع کردم به خرید دست‌دوم و قرض گرفتن وسایل از دوستانم.",
-        "pr": "آی آلْسُو سْتارتِد بایینگ سِکِنْد هَنْد اَند بارُوئینگ ثینگز فْرام فْرِنْدز اینْسْتِد آو بایینگ نو وانْز."
+        "pr": "آی آلْسُو سْتارتِد بایینگ سِکِنْد هَنْد اَند بارُوئینگ ثینگز فْرام فْرِنْدز اینْسْتِد آو بایینگ نو وانز."
       },
       {
         "t": "Despite earning the same salary, I managed to save enough money to pay off my credit card debt.",
@@ -714,7 +756,7 @@
       {
         "t": "I regret wasting so much money in the past, but I don't regret a single day of that year.",
         "s": "پشیمانم که در گذشته آن‌همه پول هدر دادم، ولی از حتی یک روزِ آن سال هم پشیمان نیستم.",
-        "pr": "آی ریگْرِت وِیسْتینگ سُو ماچ مانی این ذِ پَسْت، بات آی دُونت ریگْرِت اِ سینگِل دِی آو ذَت ییر."
+        "pr": "آی ریگْرِت وِیسْتینگ سُو ماچ مانی این ذِ پَست، بات آی دُونت ریگْرِت اِ سینگِل دِی آو ذَت ییر."
       }
     ],
     "questions": [
@@ -722,12 +764,12 @@
         "q": {
           "t": "Why was the writer always broke at the end of the month?",
           "s": "چرا نویسنده آخر ماه همیشه بی‌پول بود؟",
-          "pr": "وای واز ذِ رایتِر آلْوِیز بْرُوک اَت ذی اِنْد آو ذِ مانْث؟"
+          "pr": "وای واز ذِ رایتِر آلوِیز بْرُوک اَت ذی اِند آو ذِ مانْث؟"
         },
         "options": [
-          "She didn't have a job.",
-          "She spent too much on things she didn't need.",
-          "She had to pay for her family."
+          "The writer didn't have a job.",
+          "The writer spent too much on things that weren't needed.",
+          "The writer had to support a big family."
         ],
         "answer": 1
       },
@@ -735,33 +777,33 @@
         "q": {
           "t": "What happened in the shoe shop?",
           "s": "در کفش‌فروشی چه اتفاقی افتاد؟",
-          "pr": "وات هَپِنْد این ذِ شو شاپ؟"
+          "pr": "وات هَپِند این ذِ شو شاپ؟"
         },
         "options": [
-          "Her card was declined.",
-          "She lost her wallet.",
-          "She found a great bargain."
+          "The writer's card was declined.",
+          "The writer lost a wallet.",
+          "The writer found a great bargain."
         ],
         "answer": 0
       },
       {
         "q": {
-          "t": "What did she do when she wanted to buy something?",
+          "t": "What did the writer do when something looked nice in a shop?",
           "s": "وقتی می‌خواست چیزی بخرد چه می‌کرد؟",
-          "pr": "وات دید شی دو وِن شی وانْتِد تو بای سامثینگ؟"
+          "pr": "وات دید ذِ رایتِر دو وِن سامْثینگ لوکْت نایس این اِ شاپ؟"
         },
         "options": [
-          "She asked her friends for money.",
-          "She waited thirty days.",
-          "She bought it immediately."
+          "asked friends for money",
+          "waited thirty days",
+          "bought it immediately"
         ],
         "answer": 1
       },
       {
         "q": {
-          "t": "What was she able to do by the end of the year?",
+          "t": "What was the writer able to do by the end of the year?",
           "s": "تا آخر سال توانست چه کار کند؟",
-          "pr": "وات واز شی اِیبِل تو دو بای ذی اِنْد آو ذِ ییر؟"
+          "pr": "وات واز ذِ رایتِر اِیبِل تو دو بای ذی اِند آو ذِ ییر؟"
         },
         "options": [
           "pay off her credit card debt",
@@ -772,9 +814,9 @@
       },
       {
         "q": {
-          "t": "How did she feel during the year?",
+          "t": "How did the writer feel during the year?",
           "s": "در طول آن سال چه احساسی داشت؟",
-          "pr": "هاو دید شی فیل دورینگ ذِ ییر؟"
+          "pr": "هاو دید ذِ رایتِر فیل دورینگ ذِ ییر؟"
         },
         "options": [
           "unhappy",
@@ -782,6 +824,32 @@
           "freer than ever"
         ],
         "answer": 2
+      },
+      {
+        "q": {
+          "t": "Why did waiting thirty days help the writer save money?",
+          "s": "چرا سی روز صبر کردن به نویسنده کمک کرد پول پس‌انداز کند؟",
+          "pr": "وای دید وِیتینگ ثِرْتی دِیز هِلْپ ذِ رایتِر سِیو مانی؟"
+        },
+        "options": [
+          "Most of those things weren't really needed.",
+          "Prices always went down after thirty days.",
+          "The shops were closed for thirty days."
+        ],
+        "answer": 0
+      },
+      {
+        "q": {
+          "t": "What would the writer probably tell a friend who buys a lot online?",
+          "s": "نویسنده احتمالاً به دوستی که زیاد اینترنتی خرید می‌کند چه می‌گوید؟",
+          "pr": "وات وود ذِ رایتِر پْرابِبْلی تِل اِ فْرِنْد هو بایز اِ لات آنلاین؟"
+        },
+        "options": [
+          "Wait a while before you buy anything.",
+          "Buy as much as you can when things are on sale.",
+          "Only buy things in big shopping malls."
+        ],
+        "answer": 0
       }
     ]
   },
@@ -789,12 +857,12 @@
     {
       "t": "We can't afford to eat out every weekend.",
       "s": "توان مالی‌اش را نداریم که هر آخر هفته بیرون غذا بخوریم.",
-      "pr": "وی کَنت اِفُرد تو ایت آوت اِوْری ویکِنْد."
+      "pr": "وی کَنت اِفُرد تو ایت آوت اِوْری ویکِند."
     },
     {
       "t": "Remember to keep the receipt in case you need a refund.",
       "s": "یادت باشد رسید را نگه داری، شاید لازم شد پولت را پس بگیری.",
-      "pr": "ریمِمْبِر تو کیپ ذِ ریسیت این کِیس یو نید اِ ریفانْد."
+      "pr": "ریمِمْبِر تو کیپ ذِ ریسیت این کِیس یو نید اِ ریفاند."
     },
     {
       "t": "I regret not saving more when I was younger.",
@@ -814,7 +882,7 @@
     {
       "t": "My grandfather always haggles at the bazaar.",
       "s": "پدربزرگم همیشه در بازار چانه می‌زند.",
-      "pr": "مای گْرَنْدْفاذِر آلْوِیز هَگِلْز اَت ذِ بِزار."
+      "pr": "مای گْرَنْدْفاذِر آلوِیز هَگِلْز اَت ذِ بِزار."
     },
     {
       "t": "They're paying off their car loan in monthly installments.",
