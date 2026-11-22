@@ -498,9 +498,9 @@
           "pr": "وان بُی اَند تو گِرلز."
         },
         {
-          "t": "Sara and Mina are students.",
-          "s": "سارا و مینا دانش‌آموز هستند.",
-          "pr": "سارا اَند مینا آر سْتودِنتس."
+          "t": "Emma and Mina are students.",
+          "s": "اِما و مینا دانش‌آموز هستند.",
+          "pr": "اِما اَند مینا آر سْتودِنتس."
         },
         {
           "t": "Ali and Reza are friends.",
@@ -584,12 +584,12 @@
         },
         {
           "type": "order",
-          "t": "Sara and Mina are girls.",
-          "s": "سارا و مینا دختر هستند.",
+          "t": "Emma and Mina are girls.",
+          "s": "اِما و مینا دختر هستند.",
           "alts": [
-            "Mina and Sara are girls."
+            "Mina and Emma are girls."
           ],
-          "pr": "سارا اَند مینا آر گِرلز."
+          "pr": "اِما اَند مینا آر گِرلز."
         }
       ]
     }
