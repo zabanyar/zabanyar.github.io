@@ -93,3 +93,18 @@ support language's script (Persian script for en-fa and tr-fa; omit for de-en un
 6. Emoji: single standard emoji characters only (no flags, no skin-tone modifiers, no ZWJ family sequences). Empty string if none fits.
 7. Keep it respectful and family-friendly. No alcohol, no pork; food examples suit an Iranian family.
 8. Validate: `python3 /home/claude/zabanyar/tools/validate.py <file.json>` must print OK.
+
+## Additions (pass 5, Nov 2026)
+- Words and phrases: `"sym": true` marks an emoji that is only a **symbol** for the word (brave 🦁, generous 🎁, accident 🚑).
+  The emoji is still shown on the word card, but the app never uses it in "Which picture is it?" questions.
+- Grammar exercises (`choice` and `type`) may have:
+  - `"cue"`: a complete sentence in the TARGET language shown above the gap (the sentence to rewrite, or what someone says);
+    it gets its own audio. Same text rules as `t` (no digits/symbols in German/Turkish/Persian). `"cpr"`: its pronunciation guide where the level uses `pr`.
+  - `"task"`: a short instruction in the SUPPORT language shown instead of "Fill in the gap" (e.g. "Make it negative.", «با Never شروع کنید.», "Which reply fits?").
+  - `"why"`: one short sentence in the SUPPORT language (≤ 160 chars) explaining the rule; shown after a wrong answer.
+  Production formats:
+  - Rewrite: `{"type":"type","task":"Make it a question.","cue":"You are a teacher.","t":"___ a teacher?","answer":["Are you"],"why":"…","s":"…"}`
+    (the gap may cover several words; list every correct variant in `answer`).
+  - Function / correct sentence: `{"type":"choice","task":"Which reply fits?","cue":"Thank you very much!","t":"___","options":["You're welcome.","Nice to meet you.","See you."],"answer":0,"why":"…","s":"…"}`
+    (`t` may be just `___`; options are whole sentences; exactly one fits).
+- Reading questions may test inference (the answer follows clearly from the text without being written there word for word).
