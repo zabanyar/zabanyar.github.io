@@ -751,7 +751,10 @@
     {
       "t": "Bugün hava yirmi beş derece.",
       "s": "امروز هوا بیست و پنج درجه است.",
-      "pr": "بوگون هاوا ییرمی بِش دِرِجِه."
+      "pr": "بوگون هاوا ییرمی بِش دِرِجِه.",
+      "alts": [
+        "Hava bugün yirmi beş derece."
+      ]
     },
     {
       "t": "Geçen hafta Bodrum'daydık.",

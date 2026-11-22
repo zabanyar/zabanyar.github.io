@@ -753,7 +753,10 @@
     {
       "t": "Yemekten sonra parkta yürüyoruz.",
       "s": "بعد از غذا در پارک قدم می‌زنیم.",
-      "pr": "یِمِکتِن سُنرا پارکتا یورویُروز."
+      "pr": "یِمِکتِن سُنرا پارکتا یورویُروز.",
+      "alts": [
+        "Parkta yemekten sonra yürüyoruz."
+      ]
     },
     {
       "t": "İlk sokaktan sağa dönün.",

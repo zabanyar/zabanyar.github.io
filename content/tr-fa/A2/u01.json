@@ -778,7 +778,10 @@
     {
       "t": "Bütün gün evde kaldık.",
       "s": "تمامِ روز در خانه ماندیم.",
-      "pr": "بوتون گون اِودِه کالدِک."
+      "pr": "بوتون گون اِودِه کالدِک.",
+      "alts": [
+        "Evde bütün gün kaldık."
+      ]
     },
     {
       "t": "Geçen hafta sonu çok yoruldum.",
