@@ -1,14 +1,15 @@
 // Zabanyar service worker: app shell precache + cache-first content (lessons, audio, pictures).
-const VERSION = "zy-shell-2026-11-22a";
+const VERSION = "zy-shell-2026-11-22b";
 const CONTENT = "zy-content-v1";
 const SHELL = [
   "./", "index.html", "app.css", "manifest.webmanifest",
-  "js/app.js", "js/ui.js", "js/i18n.js", "js/store.js", "js/lesson.js",
+  "js/app.js", "js/ui.js", "js/i18n.js", "js/store.js", "js/lesson.js", "js/site.js",
   "fonts/vazirmatn-arabic-wght-normal.woff2", "fonts/vazirmatn-latin-wght-normal.woff2", "fonts/vazirmatn-latin-ext-wght-normal.woff2",
   "icons/icon.svg", "icons/icon-192.png", "data/courses.json",
 ];
 self.addEventListener("install", e => {
-  e.waitUntil(caches.open(VERSION).then(c => c.addAll(SHELL)).then(() => self.skipWaiting()));
+  // cache: "reload" — never take the app files from the browser's HTTP cache, or a new version could install old files
+  e.waitUntil(caches.open(VERSION).then(c => c.addAll(SHELL.map(u => new Request(u, { cache: "reload" })))).then(() => self.skipWaiting()));
 });
 self.addEventListener("activate", e => {
   e.waitUntil(caches.keys().then(keys => Promise.all(keys.filter(k => k.startsWith("zy-shell-") && k !== VERSION).map(k => caches.delete(k)))).then(() => self.clients.claim()));
@@ -29,7 +30,7 @@ self.addEventListener("fetch", e => {
   }
   // app shell + lesson data: network first (fresh when online), cache when offline
   const isData = url.pathname.includes("/data/");
-  const net = fetch(req).then(res => {
+  const net = (req.mode === "navigate" ? fetch(req) : fetch(req, { cache: "no-cache" })).then(res => {   // revalidate with the server (cheap 304) instead of trusting the HTTP cache
     if (res.ok) { const copy = res.clone(); caches.open(isData ? CONTENT : VERSION).then(c => c.put(req, copy)); }
     return res;
   });
