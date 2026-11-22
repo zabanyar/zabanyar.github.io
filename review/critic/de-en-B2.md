@@ -163,3 +163,66 @@ New phrases: none of them occurs anywhere else in de-en as a phrase. *Vor- und N
    - relative clauses → with prepositions and genitive;
    - genitive → genitive prepositions.
    A short "Wiederholung" example from the B1 form at the start of each B2 explanation would bridge it explicitly (as u03 g02 does with *Gegenwart → Vergangenheit*).
+
+## 5. Pass 5 (Nov 2026)
+
+Brief: `review/BRIEF_FIX5.md`. Slice: `content/de-en/B2/u01–u10.json`. The course-wide pass (cast sheet `content/de-en/CAST.md`, cross-level repeats, see `de-en-A1.md` §5a) was kept as it is. `validate.py`: all 10 files OK. `audit.py`: only the 4 known adjective + noun false alarms. `repeats.py de-en`: 0 repeats.
+
+### Issues and ideas from §3 and §4
+
+| # | Item | Status | What was done / why not |
+|---|---|---|---|
+| 3.1 | No ae/oe/ue/ss tolerance in the automatic "type the word" step | not done (app) | App work for the lead (`normalize()` in `docs/js/ui.js`). In content, every grammar `type` answer list now also has the ae/oe/ue/ss spelling (16 added). |
+| 3.2 | Abstract B2 nouns in picture questions | done (content part) | 14 symbolic emoji marked `"sym": true` (see counts). The app must still skip `sym` items in the "pic" and "word" kinds. |
+| 3.3 | Order steps from phrases with `…` / `(nicht)` | no change needed | `short()` in `lesson.js` already skips `…`, `(`, `/` and `=`. |
+| 3.4 | Two readings on repair cafés (u05, u09) | done | u09 has a new reading, *Jetzt kaufen, später zahlen?* (13 sentences, buy now pay later). It uses the u09 words (Verbraucher, Angebot, Nachfrage, Inflation, Einkommen, Ausgaben, Schnäppchen, in Raten zahlen, Lebenshaltungskosten, sich leisten können), Futur II (*werden … überlegt haben*), *dürfte* and Konjunktiv I. It recycles *die Frist* (u01). There are 6 new questions: 4 literal, 1 inference, 1 richtig/falsch. |
+| 3.5 | Dialogues use few of their own Redemittel | done | u06: *Man sollte bedenken, dass …*, *Aus eigener Erfahrung kann ich sagen, dass …*, *Alles in allem …* (lines 3, 9, 10). u09: *Ich gehe davon aus, dass …*, *Ich bezweifle, dass …* (lines 3, 5). |
+| 3.6 | Herr Wagner / building city clash | resolved | The course-wide pass moved u08 to Köln, and the u09 repair-café text is gone. |
+| 3.7 | Type items that accept only one form | done | u03 g02 ex4: + *erfahren*. u09 g02 ex3: + *müsste, dürfte*. u06 g02 ex2 was replaced by a production item. u06 g02 ex3 keeps only *einer*, because the English says "within **a** week" and *dieser* would change the meaning. |
+| 3.8 | Near-synonym glosses | done | u09 *das Angebot*: "offer; supply" (was "offer, special offer; supply", which overlapped with *Schnäppchen*). u10 *der Zeitaufwand*: "time required, time spent" (overlapped with *das Engagement* "commitment"). |
+| 3.9 | Overlaps with C1 phrases | already done | Fixed in the course-wide pass. |
+| 3.10 | "ground floor" in u02 g02 example 0 | done | Now "lives on the first floor (at street level)", in line with the US floor numbering of the course. |
+| 3.11 | Voice | no change needed | Nothing new. All new text has no digits or symbols. |
+| 4.1 | Exam-strength exercises | done | 20 transformation (rewrite) items: *man kann … → lässt sich / ist zu / -bar*, *weil → wegen*, *damit → um … zu*, *Präteritum → Perfekt with a double infinitive*, two sentences → relative clause, *dessen*, *weder … noch*, *je … desto* and others. The 20 function items have distractors that are all real forms (*auf den / auf dem / auf die*, *deren / dessen*, *Wären / Hätten / Würden*). |
+| 4.2 | Harder reading questions | done | Every reading has 1 new inference question (author's attitude, what someone would advise, why someone acted). Every reading also has 1 new *richtig / falsch / steht nicht im Text* item in the Goethe/telc format. Readings now have 6–7 questions. |
+| 4.3 | Speaking output | partly (content) | 20 function items: "Which reply fits / is correct?" with a spoken cue. A "say it" step needs the app (see app requests below). |
+| 4.4 | More text types (forum post, chart description) | not done | This would mean replacing good, working readings. The new u09 text is a consumer feature, not a forum post. Suggested for a later content pass: u04 → reader's letter, u07 → chart description. |
+| 4.5 | Recycle vocabulary across units | partly | New items reuse earlier B2 words: *Frist* (u01) in u09, *Balkon* / *Wohnung* (u02) in exercises, *Handyverbot*, *Lastenrad*, *Schnäppchen*, *Inflation*. No systematic re-seeding of old readings. |
+| 4.6 | Contrastive notes | done | u02 g01: Persian *ke* vs. German relative pronouns. u02 g02: English *whose / his / her* vs. *dessen / deren*. u07 g02: *seit(dem)* + present vs. the English present perfect. |
+| 4.7 | Cultural content | done | u10 reading: Maryam's choir will sing a Persian song at Nowruz (new sentence 9). |
+| 4.8 | Bridges from B1 | done | "Review from B1" first lines in u01 g01 (passive), u02 g01 (relative clauses), u06 g02 (genitive) and u10 g01 (*um … zu / damit*). u03 g01 already had one. |
+
+### Pass-5 brief tasks
+
+- **Production practice (task 2).** Each of the 20 grammar points has 1 rewrite `type` item (`task`, `cue`, multi-word gap) and 1 function `choice` item (`task`, `cue`, `t = "___"`, 3 whole-sentence options). They replace the 2 most repetitive items, so each point still has 8 exercises. Where possible I replaced one of two near-identical `order` items or a one-word gap.
+- **`why` (task 3).** All 141 `choice` and `type` grammar items now have an item-specific rule of 160 characters or fewer.
+- **Inference (task 4).** 10 questions. A further 10 *richtig / falsch / steht nicht im Text* items were added for idea 4.2.
+- **Symbolic pictures (task 5).** 14 `sym` marks:
+  - u01 Lebenslauf 📄, u02 umziehen 📦, u03 Ernährung 🥗 and Hausarzt 🩺, u04 Nachricht 📰 and Datenschutz 🔒
+  - u05 Klimawandel 🌍, Mülltrennung ♻️ and Hitzewelle 🌡️, u06 Volkshochschule 🏫, Abschluss 🎓 and Zeugnis 📜
+  - u10 Ausstellung 🖼️ and Aufführung 🎭
+
+  Literal pictures stay unmarked (Bildschirm, Monatskarte, Bus, Hotel, Quittung, Eintrittskarte). No emoji was misleading enough to remove.
+- **Alts.** 1 alt added (u09 sentence 2: *Eigentlich müsste das Paket schon da sein.*). Pass 4 had already covered the other auto-order items. New dialogue lines with 8 words or fewer have no neutral second order.
+- **Other.** Valency notation is now one style everywhere (*sich erholen von + D*, *vorbeugen + D*, *verzichten auf + A*, *sich informieren über + A*, *berichten über + A*, *sich einsetzen für + A*). The two items with two prepositions keep their brackets, so the app's type step still accepts the bare verb.
+
+### Counts
+
+| Category | B2 |
+|---|---|
+| Production items (rewrite + function) | 40 (20 + 20) |
+| `why` added | 141 (101 on existing items, 40 on new items) |
+| Inference questions | 10 |
+| richtig / falsch / steht nicht im Text questions | 10 |
+| `sym` marks | 14 |
+| Readings replaced | 1 (u09) |
+| Dialogue lines rewritten to use the unit's Redemittel | 5 (u06, u09) |
+| Explanation additions (bridge / contrastive notes) | 7 in 6 explanations |
+| ae/oe/ue/ss answer variants | 16 |
+| Other fixes (answers 2, glosses 2, ground floor 1, Nowruz sentence 1, alts 1, valency notation 6) | 13 |
+
+### For the lead (app)
+- The app does not yet show `cue`, `task` or `why`: `grammarEx()` in `docs/js/lesson.js` ignores them. The 40 new items need the cue (with audio) and the task line, or they cannot be solved.
+- Skip `sym` words in the "pic" and "word" question kinds.
+- ae/oe/ue/ss tolerance in `normalize()` for German (issue 3.1).
+- A "say it" or shadowing step for dialogue lines (idea 4.3).

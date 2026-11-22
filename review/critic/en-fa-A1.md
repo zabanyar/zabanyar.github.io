@@ -107,3 +107,167 @@ The weaknesses are not errors:
    - It is good that Nowruz, Hafez Street, Tabriz snow and the Ahvaz heat appear, and that food stays halal.
    - Prices are only in dollars. That is fine for an English course, but one line of context would help, for example "in New York" in the u08 dialogue title or reading.
    - Iranian learners will meet "Mr./Mrs. + surname" and "Excuse me, sir/ma'am" in real life. Add these polite-address chunks to u01 or u07.
+
+## 5a. Pass 5 course-wide (Nov 2026)
+
+Course-wide work for all five en-fa levels (A1–C1), done before the level-specific pass-5 tasks (production items, `why`,
+inference questions, `sym`), which were not touched. After the edits `tools/validate.py content/en-fa/*/*.json` prints OK
+for all 51 files, and `tools/audit.py` shows only the known false alarms (A1 `pr` ×4 slash titles / phone number;
+A2 "holiday" + slash title; B1 hyphen word count, "holiday", "flat tire" ×2; B2 and C1 clean).
+
+### Cast sheet: `content/en-fa/CAST.md`
+
+Decisions (the majority of existing facts was kept, so most edits are one name or one word):
+- **Timeline:** A1 shows the family when Mina (15) and Amir (12) are teenagers; from A2 on the story is about fifteen
+  years later. This keeps A1 u02/u03 intact and explains Mina the dentist and Amir the web designer.
+- **Family in Shiraz:** Ali (teacher, from Tehran) + Maryam (nurse, from Shiraz), Mina (dentist → Tehran → Toronto),
+  Amir (student → web designer in Emma's company).
+- **Friends:** Sara (nurse, from Isfahan, later Munich) is married to **Reza** (international company, children);
+  Maryam is no longer Reza's wife.
+- **English speakers:** Emma (Tom's sister, manager at Reza's and Amir's company, marries Jack), Tom (English teacher),
+  Lisa (English teacher, the Rezas' neighbor, moves to Canada), Jack (computer office job, back pain → stress → mild heart attack).
+- **One-off roles** (shop assistants, doctors, airline staff, radio host, people in news/feature readings) got names
+  outside the cast.
+
+65 items changed (t + s + pr together), 14 speaker names, 4 reading option lists:
+
+| Level unit | Item(s) | Before → after | Why |
+|---|---|---|---|
+| A1 u02 | words[7].ex | Jack is seven → My brother is seven | Jack is an adult from A2 on |
+| A1 u03 | words[8].ex, words[9].ex | Her husband is Reza / Ali's wife is a teacher → Her husband is Ali / Ali's wife is Maryam | Reza is 14 in u02; Maryam is a nurse |
+| A1 u03 | g0 examples[2] | Reza is from Iran. His wife is from Tabriz. → Ali is from Tehran. His wife is from Shiraz. | same |
+| A1 u03 | g0 examples[3], exercises[1] | Maryam is a teacher. Her son is ten / … son is a student → Lisa is a teacher … | Maryam's son Amir is 12; she is a nurse (u07) |
+| A1 u03 | sentences[2] | Reza's wife is from Tabriz → Ali's mother is from Tabriz | Reza is 14 |
+| A1 u06 | reading (title, 8 lines, 4 questions) | Reza's day (Reza, teacher from Tehran) → Ali's day; goes to work at seven → at half past six | adult teacher = Ali; time now matches the u06 dialogue ("Dad … goes to work at half past six") |
+| A1 u06 | g0 examples[2], exercises[2] | Reza works every day / Ali goes to work at eight → Maryam … / Sara … | Reza is 14; Ali leaves at half past six |
+| A1 u08 | dialogue speaker A | Tom (shop assistant) → Ben | Tom is a teacher (u01) |
+| A2 u03 | dialogue speaker A; reading | Dr. Mina → Dr. Ahmadi; Ali (45, office, back pain) → Jack | Mina is a dentist (u04); Ali is a teacher |
+| A2 u04 | words[1].ex, words[8].ex, g0 examples[0], g0 exercises[4] | Maryam is an engineer → My aunt …; Tom works for a big company → Jack …; Reza is a (taxi) driver → My uncle …; Emma teaches English → Lisa … | jobs clashed with the cast |
+| A2 u05 | dialogue speaker A; g1 exercises[2] | Maryam (buying a sofa with Reza) → Sara; Ali is the best student in our class → Amir | Reza's wife is Sara; Ali is 45+ and a teacher |
+| A2 u07 | dialogue speaker A; reading [0], [5] | Emma (shop assistant) → Kate; Reza's wife Maryam → Sara | Emma is a manager; Reza's wife |
+| A2 u10 | reading [7] | Your brother Ali → Your brother Amir | Ali is Mina's father |
+| B1 u01 | dialogue [0]; g1 exercises[2] | Tom, have you ever been to Iran? → … to Japan?; Reza has worked for this company for five years → Jack … | Tom visits Iran in A2; Reza has been there two years in B2 u01 |
+| B1 u07 | dialogue speaker A | Lisa (airline staff) → Anna | Lisa is a teacher (u08) |
+| B1 u08 | reading [1], [3] | Maryam, a nurse from Tehran → from Shiraz; Tom, who has just retired → who is a teacher | Maryam is from Shiraz; Tom teaches in B2 |
+| B2 u01 | speaker A, lines [2], [11], words[2].ex | manager Lisa → Emma; Tom is retiring → David …; Maryam is in charge of marketing → Emma | Lisa is a teacher; Tom teaches in B2 u07; Maryam is a nurse |
+| B2 u02 | speaker B + line [0]; reading + 2 options | Tom (Sara's school friend) → Kaveh; Mina (friend in Toronto, a doctor, left Iran at 12) → Leila | Sara and Tom first meet in A1 u01; cast Mina grew up in Shiraz |
+| B2 u03 | speaker B + line [0] | Amir (heart attack; Maryam "heard you were in the hospital") → Jack | a mother would know; fits Jack's sedentary story |
+| B2 u05 | reading [4] + question | retired teacher Emma Clark → Ann Clark | Emma is a manager |
+| B2 u06 | speaker A | Mina ("When I was a child", Zayandeh Rud) → Sara | Mina is from Shiraz; Sara grew up in Isfahan |
+| B2 u07 | speaker B + line [0]; reading [7] + question | Jack, you're a teacher → Tom …; Professor Tom Hill → Daniel Hill | Jack works with computers |
+| B2 u10 | speaker B + line [0]; reading + options | Ali (Maryam invites him to "come over", "my sister") → Amir; Lisa Park → Karen Park; Maryam Ahmadi (ten-year-old son) → Parisa Ahmadi | Ali lives with Maryam; Amir is her son, Mina his sister |
+| C1 u01 | words[0].ex, g0 examples[2] | After ten years abroad, Maryam … → Sara …; Reza speaks four languages and teaches them → Tom … | Maryam lives in Shiraz; Tom is the teacher |
+| C1 u03 | speaker A; reading + options | manager Lisa → Emma; CEO Mina Karimi → Shirin Moradi | Emma manages Amir; Mina is not a CEO |
+| C1 u06 | reading [2] + question | calligrapher Maryam Karimi → Nasrin Karimi | Maryam is a nurse |
+| C1 u07 | speaker A | radio host Emma → Rachel | Emma is a manager |
+| C1 u08 | speaker B | Jack (doctor) → Dr. Rahimi | Jack works with computers |
+
+Not changed (no explicit clash): neutral one-line examples ("Tom broke his arm", "Mina has a cold"), unnamed first-person
+narrators, B1 u05 "Lisa Brown" (a volunteer, compatible with Lisa), places where two cast members talk without saying
+where they live (e.g. B2 u05 Lisa and Ali).
+
+### Cross-level repeats: `tools/en_fa_repeats.py`
+
+The script normalizes case, leading a/an/the/to, brackets, punctuation and "…" and compares every `words[].t` and
+`phrases[].t` with all lower levels (`--fuzzy` also lists plural/sb/sth near matches). A2–C1 were checked against all lower
+levels (B1 included again). Replaced in the higher level (s + pr written, headwords unique in the level and the course):
+
+| Level unit | Old (also taught in) | New |
+|---|---|---|
+| B1 u05 phrases[0] | In my opinion, … (A2 u05) | It can make a big difference. / می‌تواند تأثیر زیادی داشته باشد. |
+| B1 u10 phrases[0] | In my opinion, … (A2 u05) | Let's hope so! / امیدوارم همین‌طور باشد! (recycles the u10 dialogue) |
+| C1 u04 phrases[1] | On the one hand, … On the other hand, … (B1 u10) | In theory, … but in practice, … / در تئوری … ولی در عمل … (recycles "In theory, yes." in the u04 dialogue) |
+
+These are kept on purpose and allow-listed in the script, because they are different words: A2 u03 **a cold** (illness)
+vs A1 **cold** (adjective), and B1 u07 **book** (verb, reserve) vs A1 **book** (noun). B2 u08 **custom** vs B1 u07 **customs**
+is only a near match. No exercise, reading or sentence depended on the replaced phrases. The script now reports 0 repeats.
+
+### Pronunciation dictionary: `tools/en_fa_pr_dict.py` + `content/en-fa/PR_DICT.md`
+
+- **Method:** every `t` (exercise gaps filled with the key; `cue`/`cpr` too) is aligned word by word with its `pr` where
+  the counts match. That covers 5,118 of 5,173 objects. The rest are mostly years and numbers written out.
+- **Before:** 465 English words were written in more than one way. 27 of them differed in letters (difficult
+  دیفیکِلت/دیفِکِلْت, beautiful, museum, message, habit, officer, visitors, perfect, practice …), 3 in vowel marks only
+  (weren't, names), and the rest in sukun or ZWNJ only (last لَسْت/لَست, first, it's, online …).
+- **Choice:** the majority spelling, with ties going to the headword spelling and then to first use. Overrides follow the
+  conventions:
+  - /ɪ/ = ی: difficult دیفیکِلت, habit هَبیت, visitors ویزیتِرز (= visit ویزیت), officer آفیسِر (= office آفیس), practical پْرَکْتیکِل
+  - kw = کْو: quiet کْوایِت, quite کْوایت (the majority «کوایت» invites "ku-")
+  - me = میْ, in "Excuse me." as well
+- **Not unified:** weak forms and homographs. The dictionary gives both spellings for the ذِ/ذی, a, can کَن/کِن, have/has
+  (هَف/هَس in have/has to), use, used (یوسْت/یوزْد), read رید/رِد, live, lives and close. Only their sukun was unified.
+- **Applied:** 1,291 `pr` fields in all levels (A1 59, A2 300, B1 201, B2 328, C1 399 + 4), with 660 distinct token
+  changes. Afterwards `report` finds 0 inconsistent words outside the weak forms, and `check` reports 0 differences.
+- **PR_DICT.md:** 2,337 entries, alphabetical, covering every word used at least twice plus every word that had variants.
+  It also lists the conventions and the weak-form rules. `build` keeps existing entries and adds new words. Later
+  authors should run `check` (or `apply`).
+- **Note:** this overrides some level-internal choices from pass 4. C1's دیفِکِلْت / هَبِت now follow the course-wide
+  majority دیفیکِلت / هَبیت. A few majority choices are careful rather than casual pronunciations (comfortable
+  کامفِرتِبِل, supposed سِپُوزْد also in *supposed to*). They were kept for consistency.
+
+## 5. Pass 5 (Nov 2026)
+
+Level tasks of `review/BRIEF_FIX5.md` for A1 (u00–u10), done after the course-wide pass (5a), which was not undone.
+After the edits `tools/validate.py content/en-fa/A1/*.json` prints OK for all 11 files, `tools/audit.py` shows only the four
+known `pr` false alarms (three slash titles, the u02 phone number), `tools/repeats.py en-fa` and `tools/en_fa_repeats.py`
+report 0 repeats, and `tools/en_fa_pr_dict.py check` reports 0 differences (new words were added with `build`).
+
+### Issues and ideas from sections 3 and 4
+
+| # | Item | Status | What was done / reason |
+|---|---|---|---|
+| 3.1 | A1 does not teach what A2 assumes | done | Instead of a u11 grammar unit, each gap went into the theme unit where it fits, as a third grammar point `g03` (7–8 exercises, explanation, table, examples): **u02** numbers 20–100 (-teen vs -ty stress, forty without u); **u06** does / doesn't in questions, negatives and short answers; **u07** present continuous for "now" (Where are you going? / I'm going to the bank); **u08** object pronouns me, him, her, it, us, them; **u09** days of the week + on Monday / on Fridays (vs in May), the Iranian weekend; **u10** always / usually / sometimes / never with word order (before the verb, after be). New words: thirty, hundred (u02), week, Friday (u09), always, never (u10). New goals in u02, u06–u10. |
+| 3.2 | /w/ never taught | done | New u00 sound card **w** (round lips, no teeth on the lip, contrast with very / violin; examples we, water, window). w note added to the u02 g01 explanation (one, twelve, twenty). |
+| 3.3 | Cast unstable | done in 5a | Cast sheet and edits by the course-wide pass. All new items follow `content/en-fa/CAST.md` (Ali can't drive, Mina sings, Amir 12 goes to school, Maryam = Amir's mother). |
+| 3.4 | Choice items where only `s` excludes a 2nd answer | done | Competing options replaced by impossible forms: u05 g02 X0 [under, next, of], X1 [next to, next, to]; u07 g02 X1 [opposite, next, of]; u09 g01 X1 [raining, rain, rains], X3 [snowing, snow, snows] (now also drills the -ing form). |
+| 3.5 | u09 season table vs reading | done | Sentence added to u09 g02: the table is the English division; Iranian seasons start on 1 Farvardin, Tir, Mehr, Dey (about the 21st). |
+| 3.6 | Two goal styles | done (content) | All 11 units now use «می‌توانم …». **App:** the heading «در این درس یاد می‌گیرید» does not fit «می‌توانم …»; the lead should change it (e.g. «بعد از این درس:»). |
+| 3.7 | u08 reading Q0 presupposes Mina owns the dress | done | → "Mina would like a ___ dress." (s, pr updated; options and key unchanged). |
+| 3.8 | "half past seven" is mostly British | done | u06 g02: note + example "It's seven thirty." + table row 7:30. |
+| 3.9 | u10 g02 teaches only like + -ing | done | Note: «I like to read هم درست است و در آمریکا رایج است». |
+| 3.10 | Phrase `pr` without final period | done | 15 `pr` (phrases, sentences) got the final . / ! / ؟ of their `t`. |
+| 3.11 | Emoji repeats across units | done | month 📅 → 🗓️, park 🌳 → 🏞️; the other pairs are solved with `sym` (he/she, brother/sister, wife/husband, breakfast, watch TV, go to bed, go, read, drive, living room, free time are marked, the literal partner stays a picture question). |
+| 3.12 | th card "softer" | done | Now: voiced, «با لرزش گلو … مثل فرق «س» و «ز»». |
+| 3.13 | TTS risks (digits in tables, slashes, em dashes, Mmm/Hmm) | not done | Central build/TTS work (lead). The new u02 g03 table uses digits like the existing g01 table. |
+| 3.14 | «و» for /u/, «ی» for /ɪ/ and /i/ | partly | Convention kept (course level). The ee card now warns that ship / sheep are both «ی» in `pr` and adds the example sheep. |
+| 4.1 | Bridge to A2 | done | See 3.1. |
+| 4.2 | Adult relevance: jobs, "What do you do?" | not done | A2 u04 is the jobs unit and teaches nurse, engineer, driver, dentist and "What do you do?"; adding them to A1 would make A2 repeat A1 headwords. New A1 items use adults where possible (Tom the teacher, Ali, Maryam, grandparents). Adult dialogues for u07–u09 need new dialogues (bigger work, next pass). |
+| 4.3 | Pronunciation in explanations | done | Plural -s /s/ /z/ /ɪz/ (u02 g02), 3rd-person -s (u06 g01), w (u00, u02), ship / sheep (u00), new card **st / sp / sk** (no «اِ» before s: school, street, spring), Wednesday without d (u09 g03), -teen / -ty stress (u02 g03). |
+| 4.4 | More varied reading genres | not done | Would need new readings and questions in u06, u08, u09; lower priority than the A2 bridge. Suggestion stays for the next pass. |
+| 4.5 | Productive exercises | done | The 52 production items (below) include whole short answers ("No, I don't", "Are you …?", "There are …", "How much are …?", "When is …?") and whole-sentence choices. Longer 7-word `order` items: one new (u06 g03); not more, to keep the counts. |
+| 4.6 | Recycling of early words | done | New sentences u05 "My grandmother's chair is next to the window." and u10 "I always have bread and cheese for breakfast."; new items reuse family, food, clothes, places and times. |
+| 4.7 | Cultural fit: dollars, polite address | partly | Iranian weekend (Friday) is now taught explicitly (u09 g03). Dollar context and Mr./Mrs. / sir / ma'am chunks not added: the phrase lists are full (8 each) and the three freed slots went to grammar-linked phrases. |
+| lead | In-level duplicate phrases | done | u07 p01 "Excuse me." → **"Where are you going?"** (present continuous, u07 g03); u08 p08 "Here you are." → **"Do you have this in blue?"**; u10 p06 "Yes, I do. / No, I don't." → **"Let's play chess!"**. The old chunks stay in the dialogues as recycling. |
+
+### Brief tasks 2–6
+
+- **Production practice:** 52 items (26 grammar points × 1 rewrite + 1 function). In the 20 existing points 40 items replaced the most repetitive ones (counts kept: 7 or 8); the 6 new `g03` points have their own pair. Every item has `cue` + `cpr`, `task`, `s`, `pr`, `why`.
+- **`why`:** 155 (every `choice` and `type` grammar exercise of A1).
+- **Inference questions:** not required for A1.
+- **`sym`:** 40 marks (name, friend, student, yes, no, year, he, she, brother, sister, husband, wife, breakfast, apartment, living room, get up, lunch, dinner, work, go, watch TV, go to bed, morning, evening, night, supermarket, restaurant, pharmacy, weather, the four seasons, month, read, drive, sing, draw, speak English, free time). Literal pictures (food, clothes, colors, rooms, animals) stay unmarked.
+- **Recycling:** new items reuse earlier A1 words (family, food, rooms, places, clothes, times, days).
+
+### Counts
+
+| Category | Count |
+|---|---|
+| Production items (rewrite + function) | 52 |
+| `why` | 155 |
+| `sym` marks | 40 |
+| New grammar points (`g03`) | 6 (43 exercises, 25 examples) |
+| New words | 6 (thirty, hundred, week, Friday, always, never) |
+| Duplicate phrases replaced | 3 |
+| New / changed sound cards | 2 new (w, st / sp / sk), 2 changed (th, ee + sheep) |
+| Choice options made unambiguous | 5 |
+| Explanation additions | 9 (u01 g02, u02 g01, u02 g02, u06 g01, u06 g02, u09 g02, u10 g02, + w and st cards) |
+| Goals unified / added | 6 units prefixed, 6 new goals, 1 reworded (u00) |
+| Emoji changed | 3 (month 🗓️, park 🏞️, hundred "" because 💯 has no picture in the image set) |
+| `pr` final punctuation | 15 |
+| Other | u08 reading Q0 reworded; 2 recycling sentences; u02 g02 X4 now "We are ___." (friends) so it does not repeat the new rewrite |
+
+### For the lead (app)
+
+- Render `cue` (with audio), `task` and `why`, and skip `sym` items in "Which picture is it?" (not yet in `docs/js/lesson.js`).
+- Theme units now have 3 grammar points in u02, u06–u10; the single grammar lesson becomes long (21–23 exercises). Consider one lesson per grammar point.
+- Goals heading (see 3.6).
+- TTS of digits / slashes / em dashes in tables, titles and examples (3.13).

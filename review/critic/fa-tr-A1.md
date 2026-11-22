@@ -130,3 +130,167 @@ explanation/fact 1 · target text 0 · translation 0 · exercises 0.
 7. **Progression for the very first lessons.** u01 brings in pronouns, هستم forms, the short endings and ezafe (as «اسم من…»)
    all in one unit, while learners still cannot read. Put u01 `grammar[1]` (the short endings) after a "listen and repeat"
    block, or cut its exercises to forms the dialogue actually uses (xubam, xubi).
+
+## 5. Pass 5 (Nov 2026)
+
+I carried out BRIEF_FIX5 tasks 1–7 on all 11 units and also worked through the lead's extra requests: cast sheet, days of
+the week, numbers 30–100, and simple production items. I wrote a new cast sheet, `content/fa-tr/CAST.md`: one extended
+Iranian family (grandparents from Tabriz; Maryam's family; Amir's family with Reza as the father) plus the Turkish friends.
+Contradictions were fixed with minimal edits (renames, ages, relations), with `t`, `pr` and `s` changed together.
+
+`python3 tools/validate.py content/fa-tr/A1/*.json` → OK (11/11). `python3 tools/audit.py` → fa-tr A1
+`{'duplicate': 1, 'pr': 4}`, all known false alarms:
+- نه *na/noh* is a homograph.
+- The other four are the ZWNJ word-count drift of the audit's word splitter: u06 `grammar[0].title`, u09 `reading.text[4]`,
+  and the two new lines u06 `grammar[2].examples[2]` and u10 `reading.text[7]`.
+
+### 5.1 Status of every pass-4 issue and idea
+
+| # | Item | Status |
+|---|---|---|
+| 3.1 | Cast changes roles | **Done.** Added `content/fa-tr/CAST.md` and made 17 edits (table 5.2). Reza = Amir's father, a teacher from Shiraz. Amir's family: Mina (20), Omid (10). Maryam's family: Sara, Ali (8), Sina (6); her father is a doctor and her mother a teacher. The u07 passer-by → «Xânom»; the u08 shop assistant → «Foruşande». |
+| 3.2 | Days of the week missing | **Done.** u06: words شنبه, جمعه + new grammar point `g03` «روزهای هفته» (table of all 7 days, explanation with the çarşamba/perşembe link, 4 examples, 7 exercises). u02 `words[7].ex` «هفته هفت روز دارد.» prepares it. u10's جمعه / سه‌شنبه / دوشنبه are now taught before use. |
+| 3.3 | No colloquial Persian | **Done** as «Konuşmada:» lines in u03 G1 (-et/-eş, -e), u04 G0 (mixâm/mixây/mixâd), u06 G0 (miram/miri/mire/mixore) and u10 G0 (mitunam). No `t` changed. |
+| 3.4 | ⛄ زمستان / ❄️ برف clash | **Done** with `sym`: all four seasons (🌸 🏖️ 🍂 ⛄) are now symbols, so the app never uses them in picture questions. ❄️ برف stays literal. |
+| 3.5 | Numbers stop at 20 | **Done.** u02: words سی, صد; G0 title 0–100; explanation of the tens and of «bist-o yek» compounds; table rows 30–100 + 25; example «او هفتاد سال دارد.»; rewrite item 20 → 30. u08: word پنجاه, an explanation link, and the rewrite item «pancâh hezâr → sad hezâr». |
+| 3.6 | ğ for ق/غ | **Done**: «Okunuş hatırlatması» in u04 G1 (ğazâ, ğahve) and u05 G1 (otâğ). I kept the letter ğ: changing it would be a course-wide decision. |
+| 3.7 | آیا between friends | **Done**: u10 `dialogue.lines[5]` → «استخر نزدیک است؟». |
+| 3.8 | ۲۰ not accepted | **Done**: u02 G0 x4 accepts «۲۰». The new type items with numbers also accept digits (۳۰, ۱۰۰). |
+| 3.9 | "Beş ve beş, on eder." | **Done**: the item was replaced by a production item (u02 G0 x0). |
+| 3.10 | Goals / quote style | **Done**: u00–u05 goals now use the first person «…-ebilirim». All goals, grammar titles and explanations use «…». |
+| 3.11 | TTS-risky strings | **Checked, no change needed.** `sounds[].t` and grammar tables are not voiced (only `sounds[].ex` is). «۱۵: ___» is handled by `speakable()`. «آیا…؟» is only in a grammar title, which is not voiced. The em dashes in u05 are read as pauses. Audit: 0 voice findings. |
+| 4.1 | Familiar words / false friends | **Done**: «Tanıdık kelimeler» lines in u04, u05, u07 and u09. New u10 word خسته "yorgun (dikkat: Türkçedeki «hasta» değil!)" teaches the false friend the curriculum asks for. |
+| 4.2 | Four aunt/uncle words | **Done**: u03 words دایی, عمه + explanation line (amu/amme/dâyi/xâle = amca/hala/dayı/teyze). |
+| 4.3 | Script practice | **Not done: needs the app.** Every item must have `pr` (curriculum), so script-only practice needs an app feature, e.g. hide `pr` until the learner taps, from u06 on. |
+| 4.4 | Culture / taarof | **Done**: taarof + tea with ğand + «ğâbel nadâre» (u04 G0), şab-e yaldâ (u09 G1). |
+| 4.5 | Vary the exercises | **Done** through task 2: 21 «Hangi cevap uygun/doğru?» items that test meaning, and 21 rewrites, several of which recycle earlier units (numbers in u06/u08, u04 «dust nadâram» in u09, ezafe in u08). |
+| 4.6 | Recycle words | **Done** in part: u10 `reading.text[7]` uses xânevâde-ye xâleam; u06 `sentences[4]` uses pedar-e Maryam; new items reuse u02 numbers, u03 family words, u04 dust dâram and u05 places. The u08 reading is unchanged. |
+| 4.7 | u01 progression | **Done** in part: u01 G1 drops «xubim» (not in the dialogue) and adds the reply-fits item after «سلام، حال شما چطور است؟» and the rewrite «من خوب هستم → من خوبم». I did not reorder the grammar points: that needs an app decision. |
+
+### 5.2 Cast fixes (`t`, `pr` and `s` changed together)
+
+| Unit | Path | Before → After | Reason |
+|---|---|---|---|
+| u01 | `words[11].ex` | آیشه معلم است. → رضا معلم است. | Ayşe is a student (G0 x7); Reza is the teacher. |
+| u02 | `words[6].ex` | مریم شش سال دارد. → سینا شش سال دارد. | Maryam is a 20-year-old student; Sina is 6. |
+| u02 | `words[7].ex` | علی هفت سال دارد. → هفته هفت روز دارد. | Ali is 8 (u03); this also prepares the week. |
+| u02 | `words[9].ex` | امیر نه سال دارد. → او نه سال دارد. | Amir is an adult. |
+| u02 | `grammar[1].exercises[6]` (+alts) | مریم و علی دانشجو هستند. → مریم و مینا دانشجو هستند. | Ali is a schoolboy. |
+| u03 | `dialogue.lines[5]`, `[6]` | …اسمش رضا است / رضا چند سال دارد؟ → …اسمش امید است / امید چند سال دارد؟ | Reza is Amir's father. |
+| u03 | `reading.text[6]`, `questions[3].q` | …و رضا شش سال دارد / رضا چند سال دارد؟ → …و سینا… / سینا چند سال دارد؟ | Maryam's brothers are Ali and Sina. |
+| u06 | `words[9].ex` | سارا هر روز به مدرسه می‌رود. → علی هر روز به مدرسه می‌رود. | Sara is a university student. |
+| u06 | `sentences[2]` | امیر ساعت هشت به مدرسه می‌رود. → امید ساعت هشت به مدرسه می‌رود. | Amir is an adult. |
+| u06 | `sentences[4]` | مینا در بیمارستان کار می‌کند. → پدر مریم در بیمارستان کار می‌کند. | Mina is a student; Maryam's father is the doctor. |
+| u06 | `grammar[0].exercises[1]` | علی در یک مدرسه کار ___. → رضا در یک مدرسه کار ___. | Ali is 8. |
+| u07 | `dialogue.speakers.B.name` | Mina → Xânom | Emre's classmate cannot be a stranger he calls «xânom». |
+| u08 | `dialogue.speakers.B.name` | Amir → Foruşande | Ayşe's friend would not serve her formally. |
+| u10 | `dialogue.speakers.A.name` | Ali → Amir | An 8-year-old cannot teach Ayşe to swim. |
+| u10 | `grammar[0].exercises[7]` | رضا نمی‌تواند گیتار بزند. → علی نمی‌تواند گیتار بزند. | Contradicted e1 «رضا می‌تواند گیتار بزند». |
+
+### 5.3 New words (validator maximum 16 words per unit)
+
+| Unit | Word | `pr` | `s` | Emoji |
+|---|---|---|---|---|
+| u02 | سی | si | otuz | "" |
+| u02 | صد | sad | yüz (100) | "" (💯 has no image) |
+| u03 | دایی | dâyi | dayı | "" |
+| u03 | عمه | amme | hala | "" |
+| u06 | شنبه | şanbe | cumartesi | "" |
+| u06 | جمعه | com'e | cuma | "" |
+| u08 | پنجاه | pancâh | elli | "" |
+| u10 | خسته | xaste | yorgun (not «hasta») | 😫 |
+
+The other tens (چهل … نود) and days (یکشنبه … پنجشنبه) are taught in the grammar tables and exercises, not as words:
+u02, u03 and u06 are now at the validator's maximum of 16 words. All headwords are unique in the level.
+
+### 5.4 Production items (task 2): 42
+
+Each theme grammar point has 1 rewrite (`type` with `cue`/`cpr`/`task`) and 1 function item (`choice`, `t` = `___`, 3 whole
+sentences). They replace the 2 most repetitive exercises, mostly order items that duplicated an example or a sentence, so the
+counts stay the same. The new u06 `g03` has its own pair. All items are short (answers of 1–2 words).
+
+| Unit | Path | Replaced → New | Note |
+|---|---|---|---|
+| u01 | `grammar[0].exercises[0]` | choice: من دانشجو ___. → type (Cümleyi «mâ» (biz) için yazın.): من دانشجو هستم. → ما دانشجو ___. | rewrite (replaces a 2nd hastam/hasti choice). |
+| u01 | `grammar[0].exercises[5]` | choice: آن‌ها ترک ___. → choice (Hangi cevap uygun?): اهل کجا هستید؟ → ___ | function (replaces a repetitive choice). |
+| u01 | `grammar[1].exercises[2]` | type: ما خوب___. → choice (Hangi cevap uygun?): سلام، حال شما چطور است؟ → ___ | function (replaces «xubim», a form the dialogue never uses; pass-4 idea 7). |
+| u01 | `grammar[1].exercises[7]` | order: شما اهل کجا هستید؟ → type (Kısa biçimle yazın (hastam → -am).): من خوب هستم. → من ___. | rewrite (replaces an order item that repeated G0 x4 / sentences[5]). |
+| u02 | `grammar[0].exercises[0]` | choice: پنج و پنج می‌شود ___. → type (On yıl sonra kaç yaşında? Sayıyı yazın.): او بیست سال دارد. → او ___ سال دارد. | rewrite with the new tens (replaces the «Beş ve beş, on eder» item, pass-4 #9). |
+| u02 | `grammar[0].exercises[3]` | choice: دو ___، لطفاً. → choice (Hangi cevap uygun?): چند سال دارید؟ → ___ | function (replaces «do çây», which G1 x1 already tests). |
+| u02 | `grammar[1].exercises[4]` | choice: آن‌ها دانشجو ___. → choice (Hangi cevap doğru?): این کتاب‌ها خوب هستند؟ → ___ | function (replaces a «hastand» item that belongs to u01). |
+| u02 | `grammar[1].exercises[5]` | order: کتاب‌ها خوب هستند. → type (Çoğul yapın.): سیب خوب است. → ___ خوب هستند. | rewrite (replaces an order item identical to e0, sentences[4] and reading[6]). |
+| u03 | `grammar[0].exercises[2]` | choice: ___ علی دکتر است. → choice (Hangi cevap doğru?): این مادر توست؟ → ___ | function (replaces a weak choice with «است» as an option). |
+| u03 | `grammar[0].exercises[4]` | type: برادر ___ کوچک است. → type («Büyük bir evim var» deyin.): خانه بزرگ است. → من یک ___ دارم. | rewrite (replaces a 2nd type item with the same pattern as x3). |
+| u03 | `grammar[1].exercises[0]` | choice: من یک خواهر ___. → type (İyelik ekiyle (-am) yazın.): مادر من معلم است. → ___ معلم است. | rewrite (replaces the easiest «dâram» choice). |
+| u03 | `grammar[1].exercises[6]` | order: آن‌ها یک دختر دارند. → choice (Hangi cevap uygun?): خواهر یا برادر دارید؟ → ___ | function (replaces an order item close to words[5].ex / sentences[5]). |
+| u04 | `grammar[0].exercises[0]` | choice: من یک چای ___. → type (Olumsuz yapın.): من چای می‌خواهم. → من چای ___. | rewrite (replaces the easiest choice). |
+| u04 | `grammar[0].exercises[5]` | order: من کباب دوست دارم. → choice (Hangi cevap uygun?): چای یا قهوه؟ → ___ | function (replaces an order item repeated in the dialogue). |
+| u04 | `grammar[1].exercises[3]` | choice: غذای مادرم ___ دوست دارم. → type («Bu kebabı» deyin: in + râ.): من کباب می‌خواهم. → من این کباب ___ می‌خواهم. | rewrite (replaces a duplicate of x0). |
+| u04 | `grammar[1].exercises[5]` | order: این میوه را دوست داری؟ → choice (Hangi cevap doğru?): این کباب خیلی خوشمزه است! → ___ | function (replaces the 2nd order item). |
+| u05 | `grammar[0].exercises[2]` | choice: من دانشجو ___، معلم هستم. → type (Olumsuz yapın.): من معلم هستم. → من معلم ___. | rewrite (replaces a «nistam» choice). |
+| u05 | `grammar[0].exercises[6]` | order: حمام کوچک نیست. → choice (Hangi cevap uygun?): چای هست؟ → ___ | function (replaces an order item close to e4). |
+| u05 | `grammar[1].exercises[2]` | choice: مادرم ___ آشپزخانه است. → type (Tersini söyleyin: «üstünde» → «altında».): گربه روی میز است. → گربه ___ میز است. | rewrite (replaces a 3rd preposition choice). |
+| u05 | `grammar[1].exercises[5]` | order: کلید روی میز است. → choice (Hangi cevap uygun?): ببخشید، دستشویی کجاست؟ → ___ | function (replaces an order item identical to words[11].ex). |
+| u06 | `grammar[0].exercises[2]` | choice: ما شب ساعت ده ___. → type (Cümleyi «u» (o) için yazın.): من هر روز کار می‌کنم. → او هر روز کار ___. | rewrite (replaces a 4th person-ending choice). |
+| u06 | `grammar[0].exercises[6]` | order: من ساعت هفت بیدار می‌شوم. → choice (Hangi cevap uygun?): تو الان چه کار می‌کنی؟ → ___ | function (replaces an order item identical to words[6].ex / G1 x5). |
+| u06 | `grammar[1].exercises[4]` | type: ساعت یازده و ___ است. → type (Bir saat sonrasını yazın.): ساعت هفت است. → ساعت ___ است. | rewrite (replaces a 2nd «nim» item). |
+| u06 | `grammar[1].exercises[5]` | order: ساعت چند بیدار می‌شوی؟ → choice (Hangi cevap uygun?): ساعت چند است؟ → ___ | function (replaces an order item identical to the dialogue title). |
+| u07 | `grammar[0].exercises[4]` | type: لطفاً ___. → type («Siz» için kibarca söyleyin.): بیا! → لطفاً ___. | rewrite (replaces a type item that only copied «beneşinid» from e3). |
+| u07 | `grammar[0].exercises[7]` | order: لطفاً مستقیم بروید. → choice (Hangi cevap uygun?): ببخشید، بانک کجاست؟ → ___ | function (replaces an order item identical to x0). |
+| u07 | `grammar[1].exercises[5]` | type: ایستگاه مترو ___؟ → type (Bu yeri soran soruyu yazın.): ایستگاه مترو کنار پارک است. → ایستگاه مترو ___؟ | rewrite (the old gap item now starts from a statement). |
+| u07 | `grammar[1].exercises[6]` | order: من به بانک می‌روم. → choice (Hangi cevap uygun?): کجا می‌روی؟ → ___ | function (replaces an order item identical to e0). |
+| u08 | `grammar[0].exercises[3]` | choice: برف ___ است. → type («Kırmızı bir gömleğim var» deyin.): پیراهن قرمز است. → من یک ___ دارم. | rewrite (replaces «barf sefid», identical to words[12].ex). |
+| u08 | `grammar[0].exercises[6]` | order: این پیراهن قرمز است. → choice (Hangi cevap uygun?): چه رنگی دوست دارید؟ → ___ | function (replaces an order item identical to e0). |
+| u08 | `grammar[1].exercises[3]` | choice: این کتاب ارزان است: ___ هزار تومان. → type (Fiyat iki katına çıktı. Yeni fiyatı yazın.): قیمتش پنجاه هزار تومان است. → قیمتش ___ هزار تومان است. | rewrite; also removes a choice where «pânsad / sad hezâr» for a cheap book were arguable. |
+| u08 | `grammar[1].exercises[6]` | order: قیمتش چند است؟ → choice (Hangi cevap uygun?): قیمتش چند است؟ → ___ | function (replaces an order item identical to phrases[1]). |
+| u09 | `grammar[0].exercises[4]` | type: برف ___. → type (Olumsuz yapın.): امروز باران می‌آید. → امروز باران ___. | rewrite (replaces a duplicate of x1). |
+| u09 | `grammar[0].exercises[7]` | order: در تبریز برف می‌آید. → choice (Hangi cevap uygun?): هوا چطور است؟ → ___ | function (replaces an order item close to e1). |
+| u09 | `grammar[1].exercises[3]` | choice: دی و بهمن ماه‌های ___ هستند. → type (Olumsuz yapın.): من زمستان را دوست دارم. → من زمستان را دوست ___. | rewrite, recycles u04 (replaces a choice identical to e3). |
+| u09 | `grammar[1].exercises[6]` | order: نوروز اول فروردین است. → choice (Hangi cevap uygun?): نوروز مبارک! → ___ | function (replaces an order item identical to e0). |
+| u10 | `grammar[0].exercises[0]` | choice: من می‌توانم شنا ___. → type (Olumsuz yapın.): من می‌توانم شنا کنم. → من ___ شنا کنم. | rewrite (replaces a duplicate of x4). |
+| u10 | `grammar[0].exercises[6]` | order: من می‌توانم شنا کنم. → choice (Hangi cevap uygun?): می‌توانی گیتار بزنی؟ → ___ | function (replaces an order item identical to e0 / sentences[0]). |
+| u10 | `grammar[1].exercises[3]` | choice: آیا امیر فوتبال بازی می‌کند؟ ___، هر جمعه. → type («Severim» ile yazın: dust dâram + dilek kipi.): من کتاب می‌خوانم. → من دوست دارم کتاب ___. | rewrite (replaces a trivial bale/na choice). |
+| u10 | `grammar[1].exercises[6]` | order: آیا تو فوتبال دوست داری؟ → choice (Hangi cevap uygun?): آیا فوتبال دوست داری؟ → ___ | function (replaces an order item identical to the table row). |
+| u06 | `grammar[2].exercises[4]` | (new) → type («Cumaları» deyin): جمعه کار نمی‌کنم. → ___ کار نمی‌کنم. | rewrite in the new days point |
+| u06 | `grammar[2].exercises[5]` | (new) → choice (Hangi cevap uygun?): امروز چه روزی است؟ → ___ | function in the new days point |
+
+Spaced «نمی خواهم» variants were left out of the `answer` lists because the validator rejects them. The ZWNJ form and the
+form without a space are both accepted.
+
+### 5.5 Other changes
+
+- **`why`:** all 135 `choice`/`type` grammar exercises have one short Turkish `why` (≤ 160 chars) specific to the item.
+- **`sym`:** 40 marks. These are role pictures (👩 mother, 👨 father, 👴 👵 grandparents, 💑 spouse, 🎓 student) and symbols
+  (👍 yes/good, ❌ no, ❓ how many, 📅 year/every day/weekend, 🙏 please, 🍇 fruit, 🍳 kitchen/breakfast, 🍚 lunch, 🌅 morning, 🌙 night,
+  🍴 eat, 💼 work, 📖 read, 💊 pharmacy, 🌳 park, 🚦 crossroads, 💵 toman, 🌡️ hot, the 4 seasons, 🗓️ month, 🌱 Nowruz, 🎲 play,
+  📚 reading, 🎬 film, 🥘 cooking, 🥾 walking, 💪 can). Literal pictures stay unmarked.
+- **Explanations:** 14 added lines: colloquial ×4, Tanıdık kelimeler ×4, ğ reminder ×2, taarof, Yaldâ, aunt/uncle words,
+  and an u08 link to the tens. I also added the u06 days explanation and the u02 tens paragraph.
+- **Recycling:** u10 `reading.text[7]` «شب با خانواده‌ی خاله‌ام فیلم می‌بینیم.»; u08 `words[3].ex.s` drops the «(sad = yüz…)» note now that
+  sad is taught.
+- **Inference questions (task 4):** not applicable. The task covers A2–C1, and A1 readings stay literal for total beginners.
+
+### 5.6 Counts
+
+| Category | Count |
+|---|---|
+| Production items | 42 (21 rewrite + 21 function; 40 replacements + 2 in the new u06 g03) |
+| `why` | 135 |
+| Inference questions | 0 (A1 is out of scope) |
+| `sym` marks | 40 |
+| Cast edits | 17 (14 text items + 3 speaker labels) + `content/fa-tr/CAST.md` |
+| A1 gaps | 8 new words, 1 new grammar point (u06 g03), u02 G0 extended to 100 |
+| Other fixes | 8 goals / quote-style edits, 14 explanation additions, 1 dialogue line (âyâ), 1 reading line, 1 answer list (۲۰), 1 `s` |
+
+**Audio:** new or changed `t`/`cue` need TTS: 42 production items (+ cues), 17 cast items, 8 words + examples, the u06 g03
+examples and exercises, the u02 G0 title and example, u10 `dialogue.lines[5]` and `reading.text[7]`.
+
+### 5.7 For the lead (app)
+
+1. **Persian keyboard:** the type answers now include days (جمعه‌ها, سه‌شنبه) and numbers (سی, صد, هشت). Please check that the
+   on-screen keyboard order and the ZWNJ key work for them, and that it offers Persian digits (۲۰ / ۳۰ / ۱۰۰ are accepted).
+2. **`sym`:** 40 words in fa-tr A1 rely on the app leaving `sym` words out of "Which picture is it?".
+3. **Script practice** (4.3): an option to hide `pr` until tapped, from about u06 on.
+4. **Speaker labels:** u07 «Xânom» and u08 «Foruşande» are role labels, not names. Show them as they are.
+5. **Validator:** the brief allows up to 18 words per unit, but `tools/validate.py` stops at 16. I kept to 16. Raise the limit
+   if more days or tens should become word cards.

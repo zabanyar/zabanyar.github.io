@@ -145,3 +145,53 @@ The weaknesses are structural rather than errors:
 ## Files changed
 
 - `content/tr-fa/A2/u01.json`, `content/tr-fa/A2/u08.json`, `content/tr-fa/A2/u09.json` (one new `alts` entry each)
+
+## 5. Pass 5 (Nov 2026)
+
+Level pass for A2 (u01–u10), following `review/BRIEF_FIX5.md`. The course-wide pass (cast sheet `content/tr-fa/CAST.md`,
+cross-level repeats, `PR_DICT.md`; see `tr-fa-A1.md` §5a) was kept as is. `python3 tools/validate.py content/tr-fa/A2/*.json`
+prints OK for all 10 files, `python3 tools/audit.py` reports `tr-fa A2: {}`, `python3 tools/repeats.py tr-fa` finds
+0 repeats, and `python3 tools/pr_words.py tr-fa` finds no new word with two `pr` spellings. New `pr`/`cpr` were built
+from the course's own word list. New words were spelled by the conventions, for example *evdeydik* «اِودِیدیک» (like
+*Bodrum'daydık* «بُدرومدایدِک») and *Başkonsolosluğu* «باشکُنسُلُسلوئو».
+
+### Issues from sections 3 and 4
+
+| # | Issue | Status | What was done / reason |
+|---|---|---|---|
+| 3.1 | B1 repeats A2 material | done in 5a / not in this slice | The course-wide pass replaced the B1/B2 copies. The B1 grammar re-teach belongs to the B1 slice. |
+| 3.2 | Same people, different lives | done in 5a, plus 1 fix | One leftover fixed: the u08 dialogue passer-by was named **Kadın** with a male voice (`m`). Now **Adam** (voice `m`; the lines are gender-neutral). |
+| 3.3 | `choice` decided only by the Persian `s` | done | u08 g01 ex0 *karşısında / ~~arkasında~~ / ~~önünde~~* → *karşısında / karşısını / karşıda*. u08 g02 ex4 → *Evimiz ___ sokakta, köşede.* with *ilk / önce / sonra* (an adverb cannot stand before a noun). u09 g02 ex1 *ailem gibi* → *ailemden*. u10 g01 ex1 *miyim* → *musun*. All four now have a `why`. |
+| 3.4 | Monotonous formats | done | 7 suffix gaps became whole-word gaps (u02 g01 *evden*, u02 g02 *Annemle / Annem ile*, u04 g01 *odası*, u05 g02 *yıldır*, u06 g01 *tuzlu*, u06 g02 *Bugünkü*, u07 g01 *olacak*). 10 `choice` items became `order` items, one per grammar point in u02–u05 and u09, with alts where the order is free. These units now have 4 order items in 16 instead of 2. The 40 new production items (below) all ask for whole words or whole sentences. |
+| 3.5 | Binary reading questions | done | u01 q4 (*okudu mu?*) → *Maryam neden kitabını okumadı?* (3 options). u05 q5 (*ateşi var mı?*) → *Sara bugün evde ne yapıyor?* (3 options). Plus one inference question per reading (below). |
+| 3.6 | «میْ» in u01 | done in 5a | |
+| 3.7 | Final-o convention | done in 5a | «و» in every level. |
+| 3.8 | u05 doctor's *Geçmiş olsun!* | done | Dialogue line 10 `s` now ends «ان‌شاءالله زود خوب می‌شوید!». The phrase p01 keeps «بلا به دور!». |
+| 3.9 | Em-dash reply in voiced exercises | app | Content is fine. The lead should listen to u02 g01 ex6 and u04 g01 ex2 once the audio is built. |
+| 4.1 | Recycle earlier A2 grammar | done | 11 sentences rewritten. u05: *Bu gece hangi eczane nöbetçi?* u06: *Döviz bürosunda bugünkü kuru sordum.* (-dı, -(y)ı, -ki) and *Pazardaki domatesler marketten daha ucuz.* u07: *Teyzemin oğlu bir hastanede hemşire.* (genitive) and *Dün yeni işime başladım ve çok yoruldum.* (-dı). u08: *İran Başkonsolosluğu postanenin yanında mı?* and *Haritayı unutma, yolu bilmiyorum.* (imperative, -(y)ı, -miyor). u09: *Hava soğuktu ve bütün gün evde kaldık.* (-dı) and *Uzungöl İstanbul'dan daha serindi.* u10: *Geçen hafta sonu evde kaldık, bu hafta sonu kamp yapacağız.* and *Dün sinemaya gittik ama film çok sıkıcıydı.* The u10 reading now mixes tenses: line 2 = *Geçen hafta sonu hep evdeydik ve çok sıkıldık. Bu hafta sonu büyük bir planımız var!* |
+| 4.2 | Persian–Turkish false friends | done | `s` of *tarif* «دستورِ پخت (نه «تعریف و تمجید»!)» and *hala* «عمه (نه «خاله»!)». «کلمه‌های آشنا / دوستِ دروغین» lines in u03 g01 (*tava, tabak, tarif*) and u04 g01 (*hala ≠ خاله ≠ حالا*, *teyze*, *aile, dayı*). |
+| 4.3 | Light comparison (daha) | done | Sentences in u06 and u09 (above) and the u09 inference question (*İstanbul'dan daha serindi*). No grammar point, so B1 u06 still introduces it. |
+| 4.4 | Situations for Iranians in Turkey | partly | *nöbetçi eczane* (u05), *döviz bürosu / bugünkü kur* (u06), *İran Başkonsolosluğu* (u08), all as sentences. Not done: the Tahran–Van / Tebriz–İstanbul bus ticket in u02, which would mean rewriting the whole dialogue. |
+| 4.5 | More varied reading text types | not done | This means rewriting whole readings and their questions. That is a writing task for a separate pass, because the readings are correct now. |
+| 4.6 | A dialogue with polite disagreement | not done | Same reason. Every dialogue is already 11–12 lines, so a disagreement needs a rewrite, not an added line. |
+| 4.7 | A1 → A2 bridge lines | done | u01 g01 now starts with «در A1 زمانِ حال را با -iyor یاد گرفتید … حالا زمانِ گذشته». u05 and u07 already had bridge lines. |
+
+### Tasks 2–6 of the brief
+
+- **Production (task 2):** each of the 20 grammar points has one rewrite item (`type`: `task`, `cue` + `cpr`, multi-word answers where needed, such as *gittim, gitmedim, okuldan, otobüsle, Çorbayı, açma, annemin / benim annemin, doğum günü, içiyor mu, üç gündür, sütsüz, benimki, çalışacağım, sekize çeyrek kala, arkasında, Yemekten, evdeydim, onunla / onun ile, gelecek mi, izleyelim mi*) and one function item (3 whole sentences, exactly one fits; for example *Bu hediye kimden? → Elif'ten.*, *Ali'yi gördün mü? → Evet, onu gördüm.*, *Saat kaç? → Dokuzu çeyrek geçiyor.* rather than *geçe*, *Hafta sonu kamp yapalım mı? → … Nerede buluşalım?* rather than *buluşalım mı?*). Each pair replaced 2 of the 8 exercises, so every point still has 8.
+- **`why` (task 3):** all 122 `choice`/`type` items have one.
+- **Inference (task 4):** one per reading. u01 *Cumartesi akşamı nerede yemek yaptılar?* → Maryam's home (*Mina bize geldi*). u02 *Bursa'da nerede kaldılar?* → a hotel. u03 *Bu çorbada hangisi yok?* → meat. u04 *Arda'nın annesi nereli?* → Turkish (dayı's wife = Arda's mother). u05 *Sara bu mesajı neden yazıyor?* → she cannot come to class. u06 *Sara şalı neyle ödedi?* → cash. u07 *Emre otelde öğle yemeği pişirecek mi?* → no, breakfast. u08 *Akşamları evin karşısındaki park nasıl?* → crowded. u09 *Karadeniz'de hava nasıldı?* → cooler than İstanbul. u10 *Zeynep bu mesajı neden yazıyor?* → to invite Mina to the camp. In each, the two wrong options contradict the text.
+- **`sym` (task 5):** 11 words: evde kalmak 🏠, temizlik yapmak 🧹, piknik yapmak 🧺, eğlenmek 🎉, evli 💍, harcamak 💸, otopark 🅿️, derece 🌡️, tiyatro 🎭, kamp yapmak ⛺, parti 🎉. Body parts, vehicles, kitchen objects and buildings stay literal.
+- **Recycling (task 6):** the new items use the level's cast (Mina, Ali, Elif, Emre, Ayşe, Zeynep) and the words of earlier A2 units (*otobüs, bıçak, çorba, cüzdan, kütüphane, konser, kamp*). Later units mix in earlier grammar (*-den önce* + *-dı*, *ile* in u09, future + *-ebil* in u10).
+
+### Counts
+
+| Category | Count |
+|---|---|
+| Production items | 40 (20 rewrite + 20 function) |
+| `why` | 122 (all `choice`/`type` items) |
+| Inference questions | 10, plus 2 binary questions replaced |
+| `sym` marks | 11 |
+| Format changes | 10 choice → order, 7 suffix gap → whole-word gap |
+| `choice` ambiguity fixes | 4 |
+| Other fixes | 1 speaker name/voice, 1 dialogue `s`, 2 word `s` (false friends), 3 explanation additions (u01 bridge, u03 and u04 loanwords), 11 sentences, 1 reading line |

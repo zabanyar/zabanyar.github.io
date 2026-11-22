@@ -105,3 +105,72 @@ The main weaknesses are pedagogical rather than factual. The exercise types are 
    - u05 could mention practical items an Iranian family actually needs: MHRS appointments, *e-Nabız*, and the fact that *yabancı sağlık sigortası* is required for a residence permit.
 
    Keep factual claims hedged, as pass 3 did.
+
+## 5. Pass 5 (Nov 2026)
+
+Brief: `review/BRIEF_FIX5.md`, tasks 1–7, for `content/tr-fa/B2/u01–u10`. The course-wide pass (A1 report §5a: cast sheet,
+cross-level repeats, `pr` consistency) was not undone. After the edits `python3 tools/validate.py content/tr-fa/B2/*.json`
+prints OK for all 10 files, `python3 tools/audit.py` gives `tr-fa B2: {}`, `python3 tools/repeats.py tr-fa` finds 0 repeats,
+and `python3 tools/pr_words.py tr-fa` finds no word with two `pr` spellings outside the A1 u00 letter names.
+
+### 5.1 Issues and ideas from §3–§4
+
+| # | Issue / idea | Status | What was done / reason |
+|---|---|---|---|
+| M1 | Auto-generated `order` steps from short dialogue lines, phrases and sentences have no `alts` | done | Every item of ≤ 8 words without «…» (what `lesson.js` turns into word-order tasks) was checked; 52 alternative orders added to 50 items where Turkish has another fully natural order (e.g. u04 *Benzine bu yıl yine zam gelebilir*, u03 *Gittikçe hava soğuyor*, u06 *Hep birlikte ayrımcılığa karşı durmalıyız*). Proverbs, fixed formulas and right-dislocated orders were left without alts. |
+| M2 | `pr` convention for circumflex vowels | done (course-wide) | Settled by the course-wide pass in `PR_DICT.md` («کیا/گیا», rüzgâr «روزگیار»). B2 was already consistent; nothing to change. |
+| M3 | B1 grammar re-taught without a link | done | One opening sentence added to u01 g02 (-mış, B1 u01), u05 g01 (-saydı, B1 u10 keşke/-sa) and u08 g02 (-dığında, B1 u02 -ınca/-ken). |
+| L4 | u01 g02 X3 *Galiba yeni bir araba ___* also allows *aldı* | done | Now *Söylentilere göre Ali yeni bir araba ___.* (recycles phrase p03), `s` adjusted; only evidential *almış* fits. |
+| L5 | u01 g01 *gelemeyeceğini* | not done | Kept as pass 2 decided: the Persian «نمی‌آید» asks for *gelmeyeceğini*; *gelemeyeceğini* means "cannot come". |
+| L6 | *oysa ki* accepted in u02 g02 | not done (app) | Still accepted on purpose; app request below (show the TDK spelling *oysaki* in feedback). |
+| L7 | Loose pictures (sel 🌊, yenilenebilir enerji ☀️, keşfetmek 🔭, idioms 🔔 👃 🐪) | done | Marked `"sym": true` (task 5), so they stay on word cards but never appear in picture questions. |
+| L8 | u09 g01 table columns reversed | done | Columns swapped to pattern \| example, like every other table. |
+| L9 | Recurring names with shifting identities | done (course-wide) | `content/tr-fa/CAST.md`; two suffix slips left by the rename were fixed here (see 5.2). |
+| I1 | Text-level production (writing/speaking tasks) | partly | Sentence-level production added (40 rewrite/function items, task 2). Ungraded free writing needs an app step type → app request. |
+| I2 | Inference and vocabulary-in-context reading questions | done | 12 questions: 1 inference per reading, 2 in u03 (incl. the suggested *Yazar ezber hakkında ne düşünüyor?*), and the suggested *ayakta kalmak* vocabulary-in-context question in u04. |
+| I3 | Deliberate vocabulary recycling | partly | Every new item reuses words of its unit or earlier B2 units (dialogue and reading words, phrases such as *Söylentilere göre*, *Hesabını kitabını*). Moving u10 idioms into earlier themes would mean rewriting dialogues; not done. |
+| I4 | Contrast exercises between neighbouring structures | done | Function items that contrast -masına rağmen / -dığı için / -dığı sürece (u06 g02), -dığı için / -dığı halde / -dığı sürece (u03 g02), -(y)arak / -mayarak / -casına (u08 g01), -(y)abilir / -malıydı (u04 g01) and -saydı … -ırdı / -ırsa … -ır (u05 g01). |
+| I5 | Register: formal ↔ everyday | done | u07 g02 rewrite *değiştiriyor → değiştirmektedir* and a "which sentence does the news reader say?" item; u09 g01 rewrite and "e-mail to an official" item. Authentic document snippets (e-Devlet, MHRS) not added: they would need new reading content. |
+| I6 | Listening questions on dialogues | not done (app) | The app already makes `listenMeaning` steps from lines; a dedicated question type is app work. |
+| I7 | Cultural deepening (Rumi bayt, MHRS/e-Nabız) | not done | A Persian bayt cannot go into `t` (Turkish TTS); MHRS facts would need hedged new reading text. Left for a content pass. |
+
+### 5.2 Other fixes found in this pass
+
+| Unit | Path | Before → After | Reason |
+|---|---|---|---|
+| u04 | `reading.questions[1].q.t`, `[2].q.t` | *Ebru'in* → *Ebru'nun* | Suffix left by the cast rename (Elif'in → Ebru'in). |
+| u06 | `dialogue.lines[4].t` | *Ablam de* → *Ablam da* | Vowel harmony left by the cast rename. |
+| u01 | `grammar[1].examples[0].t` | *4,5 büyüklüğünde* → *dört buçuk büyüklüğünde* | No digits in voiced text. |
+| u03 | `words[4].ex.t` | *en az 3,0* → *en az üç* | Same. |
+| u04 | `reading.text[3].t` | *29 yaşındaki* → *yirmi dokuz yaşındaki* | Same. |
+| u07 | `words[7].ex.t`, `grammar[0].examples[0].t`, `grammar[0].exercises[3].t` | *1961'de*, *1950'lerde*, *16. yüzyılda* → *bin dokuz yüz altmış bir yılında*, *bin dokuz yüz ellili yıllarda*, *on altıncı yüzyılda* | Same. |
+| u08 | `reading.text[0].t`, `[4].t` | *1207 yılında*, *1244'te* → *bin iki yüz yedi yılında*, *Bin iki yüz kırk dört yılında* | Same. |
+| u09 | `reading.text[3].t` | *1 Eylül'de* → *eylülün birinde* | Same. |
+
+Left: *B1 / B2* in u09 reading (level names; `tools/build.py` already reads them correctly).
+
+### 5.3 Brief tasks 2–6
+
+- **Production (task 2):** in all 20 grammar points 2 of the 8 exercises were replaced (mostly a duplicate `order` item and the most
+  repetitive gap fill) with one **rewrite** (`type` with `cue`, `task`, multi-word gap where needed, all variants in `answer`) and one
+  **function** item (`choice`, `t` = `___`, 3 whole sentences, exactly one fits). Every grammar point keeps 8 exercises and at least one
+  `order` item. B2 has no `pr` on grammar items, so no `cpr`.
+- **`why` (task 3):** all 140 `choice`/`type` grammar exercises have a specific one-sentence Persian rule (≤ 160 chars).
+- **Inference (task 4):** 12 new reading questions (Turkish question, Persian `s`, one defensible option).
+- **`sym` (task 5):** 55 words marked: abstract nouns pictured by an object (ekonomi 📈, veri 📊, uzay 🚀, aile hekimi 🩺, acil servis 🚑, oturma izni 🪪, memleket 🏡…) and all 11 idioms of u10. Literal pictures (gazete 🗞️, uydu 🛰️, tablo 🖼️, aşı 💉, geri dönüşüm ♻️…) stay unmarked. No emoji was misleading enough to remove.
+- **Recycling (task 6):** new items reuse the unit's dialogue, reading and words (e.g. u01 park/belediye story, u05 Can/Maryam's father, u08 *çay demleyip*, u09 *tercüme*, u10 *pireyi deve yapmak*).
+
+### 5.4 Counts
+
+| Category | Count |
+|---|---|
+| Production items (rewrite + function) | 40 (20 + 20) |
+| `why` added | 140 (100 on existing items + 40 on new items) |
+| Inference / vocabulary-in-context questions | 12 |
+| `sym` marks | 55 |
+| `alts` on auto-order items (phrases, dialogue lines, sentences) | 52 alternative orders on 50 items |
+| Other fixes | 18 edits: 9 digits → words, 3 cast-rename suffixes, 3 B1 links in explanations, 1 exercise reworded (`t` + `s`), 1 table |
+
+### 5.5 App requests
+- Show the TDK spelling (*oysaki*) in feedback when a lenient variant (*oysa ki*) is accepted.
+- An ungraded "write / say it yourself" step for text-level production (B2 goals: formal e-mail, opinion, short review).

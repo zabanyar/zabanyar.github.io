@@ -68,3 +68,63 @@ Totals: **target text 1** (with its translation), **translation only 3**, **emoj
 5. **Exploit the Persian bridge further in u08.** Add an exercise that asks for the Turkish meaning of a "false friend" (*hâlâ* «هنوز» ≠ «حالا», *mahsus* in speech «عمداً» (only formally «مخصوصِ»), *tarif* «دستور پخت / نشانی» ≠ «تعریف», *ihtiyar* «پیر» ≠ «اختیار»). This trap matters most for Persian speakers, and u08 currently tests it only once, in the reading.
 6. **Vocabulary recycling.** Reuse 2–3 words from the previous C1 unit in each new reading or dialogue. u10 already reuses u07's *çürütmek / ikna*, and u09 reuses *tükenmiş*. Track this with a simple script (headword of unit n−1 found in the text of unit n).
 7. **Bridge from B2.** C1 builds correctly on B2 (*-dıkça, -dığı sürece, -arak, -makta, -casına, -mak üzere* are all referenced accurately). The B2 → C1 jump in text length and register is smooth. What the learner does not get is an explicit "review" moment. One short u01 phrase or example set that recycles B2's *-dığını söyledi / diye* in academic citation ("*X, … olduğunu belirtmektedir*") would make the continuity visible.
+
+## 5. Pass 5 (Nov 2026)
+
+Brief: `review/BRIEF_FIX5.md`, tasks 1–7, for `content/tr-fa/C1/u01–u10`. The course-wide pass (A1 report §5a) was not undone.
+After the edits `python3 tools/validate.py content/tr-fa/C1/*.json` prints OK for all 10 files, `python3 tools/audit.py` gives
+`tr-fa C1: {}`, `python3 tools/repeats.py tr-fa` finds 0 repeats (`--near` lists C1 u08 *Hâlâ kar yağıyor.* ⊃ A1 *Kar yağıyor.*;
+intended, it is a contrast phrase), and `python3 tools/pr_words.py tr-fa` finds no word with two `pr` spellings outside A1 u00.
+
+### 5.1 Issues and ideas from §3–§4
+
+| # | Issue / idea | Status | What was done / reason |
+|---|---|---|---|
+| H1 | u08 g02 (kâr/kar, hâlâ/hala, âlem/alem) is a pronunciation lesson without `pr` | done | Single exception to the C1 rule: `pr` on all 5 examples and all 8 exercises of u08 g02 (`cpr` on the 2 cues), following `PR_DICT.md`: kâr «کیار» / kar «کار», hâlâ «هاآلیا» / hala «هالا», âlem «آالِم», âdet «آادِت» / adet «آدِت». A last line of the explanation says why this lesson shows `pr`. Three below-level phrases replaced by contrast phrases with `pr`: *Bu işten kâr ettik.*, *Hâlâ kar yağıyor.*, *Halam hâlâ gelmedi mi?* The table has no `pr` (tables are not voiced and the schema has no field). |
+| M2 | Vocabulary and phrases below C1 | done | Words: makale → *atıf yapmak*, doktora → *etik kurul onayı* (u01); borsa → *halka arz etmek*, vergi → *vergi muafiyeti* (u04); slayt → *söz hakkı*, jüri → *sözü bağlamak* (u10). Phrases: u01 *Bu bilginin kaynağı nedir?* (near repeat of B2) → *Bu iddiayı hangi verilere dayandırıyorsunuz?*; u05 *Davayı kazandık!* → *Bu karara itiraz edip üst mahkemeye başvuracağız.*; u09 *Seni çok iyi anlıyorum.* → *Nasıl desem, içim içimi yiyor.*, *Kafana takma, geçer.* → *Kendini bu kadar paralama, herkesi memnun edemezsin.*; u10 *Hepinize hoş geldiniz demek istiyorum.* → *Değerli konuklar, sözlerime bir soruyla başlamak istiyorum.*; plus the 3 u08 phrases (H1). Kept: *tez* and *sunum* (central to their unit themes and used in many items). |
+| M3 | *-mış olmalı* taught three times | done | u03 g02 is now only *-mış olacak / -ıyor olacak*: new title, the olmalı paragraph shortened to a pointer to B2 u04 and C1 u09, the two olmalı examples replaced by future-perfect ones, the two olmalı exercises replaced by this pass's production items, goal 3 updated. Inference practice stays in u09 g02. |
+| M4 | Exercise monotony | done | 40 production items (task 2), many are register rewrites: *-sa → -dığı takdirde*, *-dığı için → -ması nedeniyle*, *Bence → -dığı kanısındayım*, *zorunda → mecburiyetindedir*, *ile ilgili → -e ilişkin*, *çünkü → nitekim*, plus an error-correction item (u01 *zira* → *dolayısıyla*). |
+| M5 | Reading questions only literal | done | 14 inference/stance questions: 2 each in u01, u02, u07 and u09 (the suggested u02 *Muhalefetin tutumu…*, u07 *Yazar tartışma programlarına karşı…*, u09 *Uzmanın … genel mesajı…*), 1 in every other unit. |
+| L6 | u01 g01 X2 distractor *açıklandığı* | done | Replaced by *açıklanmak*. |
+| L7 | u02 L8 *arttığı takdirde … geri adım attığı çok görülmüştür* | done | Now a rule-like statement: *… arttığı takdirde belediyeler çoğu zaman geri adım atar.* (+ `s`). |
+| L8 | Weak emoji on abstract nouns | done | `sym` on teknoloji bağımlılığı 📱, otomasyon 🤖, laboratuvar 🔬, gen düzenleme 🧬, sözleşme 📝, sunum 📊, süreyi aşmak ⏱️ and 10 more; the borsa 📈 card is gone with the word. |
+| L9 | Repeated model sentences | done | u04 `sentences[3]` → *Faizler düştükçe konut satışları artar.*; u06 `sentences[3]` → *Uçuş saatleri hava koşullarına bağlı olarak değişebilir.*; u02 `sentences[7]` → *Şiddetli yağış hâlinde okullar tatil edilebilir.* (each with `alts`). |
+| L10 | TTS-risky strings in titles/tables | not done (central) | Titles and tables are not voiced; *hüsn-ü kabul*, *Márquez* are for `tools/build.py`. No digits remain in voiced C1 text. |
+| L11 | Small translation choices | done / kept | u02 L10 «پنجشنبه عصر» → «پنجشنبه شب». *Can* = «جان» kept: it is the cast sheet's spelling. |
+| L12 | Names recycled across roles | done (course-wide) | `CAST.md`. |
+| I1 | Rephrase in formal register | done | See M4. |
+| I2 | Spoken C1 strand | partly | u09 *Nasıl desem, içim içimi yiyor.* (hedging + idiom); a full discourse-marker strand in dialogues would mean rewriting dialogues. |
+| I3 | Inference questions; one longer text | partly | Inference done (M5). Lengthening a reading to 18–20 sentences was not done (bigger rewrite). |
+| I4 | Practical "Iranian in Türkiye" language | partly | u05 phrase *Diplomanızın noter onaylı tercümesini getirmeniz gerekiyor.* and the u05 function item about bringing the original diploma. *ikamet izni / denklik / e-Devlet* not added. |
+| I5 | False friends in u08 | partly | New function item: *Hâlâ hazır değil misin?* = *Henüz…*, not *Şimdi…*. *tarif, mahsus, ihtiyar* not added (u08 g02 is full; would need a new item type or unit). |
+| I6 | Vocabulary recycling | done in new items | New items reuse the unit's dialogue/reading (u02 *kapı kapı dolaşarak*, u03 Hasan's letters, u04 *halka arz*, u09 Murat, u10 *ağzıyla kuş tutsa*). |
+| I7 | Bridge from B2 | done | u01 g01 explanation starts with a reminder of B2 *-dığını / -acağını* + *-mekte* in academic prose (*Yazar, sonuçların genellenemeyeceğini belirtmektedir.*). |
+
+### 5.2 Brief tasks 2–6
+
+- **Production (task 2):** in all 20 grammar points 2 exercises were replaced (the most repetitive gap fill or a duplicate of an example)
+  with one **rewrite** and one **function** item. Counts per point are unchanged (7 in u01 g01 and u03 g02, otherwise 8).
+- **`why` (task 3):** all 139 `choice`/`type` grammar exercises have one.
+- **Inference (task 4):** 14 questions (see M5).
+- **`sym` (task 5):** 17 marks (seçim 🗳️, durgunluk 📉, sözleşme 📝, el yazması 📜, kırılmak 💔, hayal kırıklığı 😞, tartışma programı 📺, köşe yazarı 📰, uzlaşmak 🤝, konuşmacı 🎤, sahne korkusu 😰 …). Literal pictures stay unmarked.
+- **`alts` on auto-order items:** C1 already had 36 sentence alts from pass 4. I checked every phrase, dialogue line and sentence of ≤ 8 words
+  and added 5 more (u02 phrase, u07 phrase, u08 phrase and sentence, u09 sentence), plus `alts` on the 3 new sentences; the rest have one natural order.
+
+### 5.3 Counts
+
+| Category | Count |
+|---|---|
+| Production items (rewrite + function) | 40 (20 + 20) |
+| `why` added | 139 (99 on existing items + 40 on new items) |
+| Inference / stance questions | 14 |
+| `sym` marks | 17 |
+| `pr` added (u08 g02 exception) | 13 (5 examples + 8 exercises) + 2 `cpr` |
+| Words replaced (level) | 6 |
+| Phrases replaced (level / contrast) | 9 |
+| `alts` added | 8 (5 on existing items, 3 on new sentences) |
+| Other fixes | 14 edits: u02 L8 `t` + `s`, u02 L10 `s`, 3 repeated sentences, u01 distractor, u01 B2 bridge, u03 g02 title + explanation + 2 examples + goal, u08 explanation note |
+
+### 5.4 App requests
+- Add **â, î, û** to the Turkish special-character keys (`SPECIAL.tr` in `docs/js/lesson.js`): u08 g02 now has a `type` item whose
+  answer is *kâr etti*, and B2/C1 have other words with şapka (*hâlâ*, *zekâ*, *dükkân*).
+- TTS for izafet hyphens (*hüsn-ü kabul*, *Divan-ı Hümayun*) and *Márquez* stays a central build issue (see §3 L10).

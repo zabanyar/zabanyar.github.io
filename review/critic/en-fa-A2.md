@@ -104,3 +104,59 @@ Totals: 1 headword replaced, 2 order alts added, 1 grammar explanation corrected
 5. **Diaspora situations.** Part of the family lives in Germany, yet every situation is in Iran or abstract. One or two dialogues abroad would add realism and motivation: booking a doctor's appointment by phone (u03), a job interview small-talk (u04), returning an item with a receipt (u07, which already has "refund").
 6. **Cast sheet**: see remaining issue 2. A stable cast (Maryam & Reza as a couple, Mina the dentist, Emma the English friend who marries Jack) would let readings build on each other across units.
 7. **Goal–content check.** u07 goal 4 promises «پس دادن جنس» (returns), but only phrase p08 ("Can I get a refund?") covers it. Add one dialogue or sentences line about returning something, or reword the goal.
+
+## 5. Pass 5 (Nov 2026)
+
+Level tasks of `review/BRIEF_FIX5.md` for A2 (u01–u10). The course-wide pass (cast sheet, cross-level repeats, `pr`
+dictionary) was kept. After the edits `tools/validate.py content/en-fa/A2/*.json` prints OK for all 10 files, `tools/audit.py`
+shows only the known slash-title `pr` false alarm (the "holiday" alarm is gone because that item was replaced), the repeat
+tools report 0, and `tools/en_fa_pr_dict.py check` reports 0 differences.
+
+### Issues and ideas from sections 3 and 4
+
+| # | Item | Status | What was done / reason |
+|---|---|---|---|
+| 3.1 | B1 re-teaches A2 headwords | not mine | B1 slice; `tools/repeats.py` and `tools/en_fa_repeats.py` now report 0 repeats. |
+| 3.2 | Cast continuity | done in 5a + 1 fix | Leftover from the cast pass: u07 reading Q3 option "Maryam paid." → "Sara paid." (Reza's wife is Sara). New items follow CAST.md (e.g. the new u04 rewrite uses Sara, not Jack, because Jack walks to work since u03). |
+| 3.3 | Symbols in spoken text | not done | Central build/TTS work (lead). No new "/" "…" "→" "+" added to spoken text except the new u08 g03 table (slashes for was / were, gone / been, like the existing tables). |
+| 3.4 | Metonymic emoji, shared pictures | done | `sym` on 41 items (see below), including the shared-picture ones (dentist, work from home, office, earn money, do the shopping, downtown). invitation 💌 → ✉️ (and `sym`). |
+| 3.5 | u04 g01 X4 accepts only "teaches" | done | → "Lisa ___ English at a school every day. She's a teacher." (`every day` rules out "is teaching"). |
+| 3.6 | Walnuts appear suddenly | done | Reading text[4]: "…some salt, some flour, some walnuts, and a little oil." |
+| 3.7 | "Shall I …?" formal / British | done | Note in u07 g01: in American English **Should I …?** / **Do you want me to …?** |
+| 3.8 | Weak forms not shown | done (note) | u01 g01: in fast speech *was* is «وِز», strong in short answers. Guides unchanged (course convention). |
+| 3.9 | «شود» / «نو» conventions | not done | Course-level convention, unchanged. |
+| 3.10 | Ezafe style | done | «ه‌ی» → «هٔ» in all support-language text of u06–u10 (59 replacements), so the level now uses «هٔ» everywhere like A1. |
+| 4.1 | Recycle grammar | done | u08 g01: note + function item "Have you ever been to Shiraz? – Yes, I have. I went there last year." (present perfect vs past). u10 g02: function item with all three futures (I'm meeting … / We're going to …). u04 g02 function item contrasts the arrangement with past forms. |
+| 4.2 | Irregular verbs need a home | done | New **u08 g03 "Irregular verbs: go, went, gone"**: explanation (regular vs irregular, the three patterns, gone vs been, American *gotten*), 20-verb table (base / past / participle), 5 examples, 8 exercises (participle choice and type items with `hint`, a rewrite and a function item). |
+| 4.3 | More varied exercises | done | 42 production items (rewrite, whole-sentence choice incl. error spotting: "should to drink", "don't have go", "opposite of"), 10 inference questions. Longer `order` items not added (counts kept). |
+| 4.4 | Pronunciation teaching | done | -s ending (u04 g01), stress in *more expensive* (u05 g01), weak *was* (u01 g01). /w/ vs /v/, s-clusters (school, store) and ship / sheep are now taught in A1 u00 where the words first appear. /æ/ vs /ɛ/ not added: it needs minimal-pair audio to be useful. |
+| 4.5 | Diaspora situations | not done | Needs new dialogues (bigger work); suggestion stays. |
+| 4.6 | Cast sheet | done in 5a | `content/en-fa/CAST.md`. |
+| 4.7 | u07 goal "returns" | done | Sentence "Do you have enough money?" → "I'd like to return this shirt. Here's the receipt." (s, pr). |
+
+### Brief tasks 2–6
+
+- **Production practice:** 42 items: in each of the 20 grammar points 2 of the most repetitive exercises were replaced by one rewrite (`type` with `cue`, `task`) and one function `choice` (counts kept: 7 or 8); the new u08 g03 has its own pair. All have `cpr`, `pr`, `s` and `why`.
+- **`why`:** 131 (every `choice` and `type` grammar exercise of A2).
+- **Inference questions:** 10, one per reading (u01 where the family was at lunchtime; u02 where Emma would like to stay; u03 why Jack walks to work; u04 why Mina moves; u05 why the Mini suits Grandma; u06 how much kuku was left; u07 how Reza felt about the brown shoes; u08 why the letters were made bigger; u09 how the writer feels about the changes; u10 how Emma feels about the wedding). Exactly one option is defensible in each.
+- **`sym`:** 41 marks (weekend, last night, picnic, movie, museum, clean the house, do the shopping, stay at home, fun, vacation, trip, airport, abroad, cough, doctor, job, driver, farmer, dentist, office, earn money, work from home, fast, slow, light, quiet, noisy, dangerous, cut, wallet, website, password, message, charge, library, bakery, downtown, celebrate, party, invitation, wedding).
+- **Recycling:** new items reuse A2 words (museum, picnic, medicine, boss, sofa, walnuts, receipt, password, Wi-Fi, bakery, wedding …) and A1 words.
+
+### Counts
+
+| Category | Count |
+|---|---|
+| Production items (rewrite + function) | 42 |
+| `why` | 131 |
+| Inference questions | 10 |
+| `sym` marks | 41 |
+| New grammar point | 1 (u08 g03, 8 exercises, 20-verb table) |
+| Explanation notes | 5 (u01 g01, u04 g01, u05 g01, u07 g01, u08 g01) |
+| Ezafe unified | 59 replacements in u06–u10 |
+| Other fixes | u04 g01 X4 (every day), u04 g02 "holiday" item replaced, u06 reading walnuts, u07 Q3 option Sara, u07 return sentence, invitation emoji ✉️, u08 "used" `pr` = «یوزْد» in the new item |
+
+### For the lead (app)
+
+- Render `cue` (with audio), `task`, `why`; skip `sym` items in picture questions; show `hint` (already supported).
+- u08 now has 3 grammar points (24 exercises in one grammar lesson); consider one lesson per grammar point.
+- TTS cleanup of "/" "…" "→" "+" and "–" speaker changes (3.3).

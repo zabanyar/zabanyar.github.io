@@ -135,3 +135,77 @@ The remaining weaknesses are not language errors:
    - A short comparison task: "Which Persian idiom matches *a blessing in disguise*?" as a choice item, with Persian options in `s`.
    - A u05/u08 reading question that asks for the writer's stance, not a fact. C1 reading exams test inference, and every current question is literal.
 7. **Make reading questions harder.** All 50 questions are literal retrieval with one obviously right option. **Suggestion:** at least one inference or attitude question per unit, e.g. "What is the writer's attitude to opt-out systems?", with options for supportive, skeptical and neutral that can be told apart only by reading closely.
+
+## 5. Pass 5 (Nov 2026)
+
+I carried out BRIEF_FIX5 tasks 1–7 on all 10 units. The course-wide pass (cast sheet, cross-level repeats, `PR_DICT`)
+was already done and was not undone: C1 now uses the course spellings دیفیکِلت / هَبیت. As the brief allows at C1,
+**3 of the 8 exercises in every grammar point are now production items** (2 rewrites + 1 function item). All new `pr`/`cpr`
+follow `content/en-fa/PR_DICT.md`.
+
+Checks:
+- `python3 tools/validate.py content/en-fa/C1/*.json`: OK for all 10 files.
+- `python3 tools/audit.py`: `en-fa C1: {}`.
+- `python3 tools/repeats.py en-fa`: 0 repeats.
+- `python3 tools/en_fa_pr_dict.py check`: 0 differences.
+
+### 5.1 Counts
+
+| Category | Count |
+|---|---|
+| Production items (task 2) | 60: 40 rewrite `type` items (`cue` + `cpr` + `task`) and 20 function `choice` items. Each grammar point has 2 + 1. They replaced one-word auxiliary or particle gaps, and in a few points the order item that repeated the rewrite. Every point still has 8 exercises. |
+| `why` (task 3) | 135: 75 added to existing items and 60 on the new items. Every `choice`/`type` grammar exercise of C1 now has one. |
+| Inference / attitude questions (task 4) | 20, two per reading. 6 of them ask about the writer's (or a person's) stance or attitude (u02, u05, u07, u08, u10). |
+| `sym` marks (task 5) | 27 |
+| Order `alts` | 5 |
+| Dialogue lines smoothed | 10, in u01, u03, u04, u05 and u08 |
+| Other fixes | 7: u04 X1 distractor; u05 P7 gloss; u09 explanation typo + picture note; u03 table row; u01 explanation bridge to B2; u10 reading sentence recycling *Should you …* |
+
+Examples of the new production items:
+- *I had never seen such chaos.* → *Never ___ such chaos.* (*had I seen*)
+- *If you need any more information, …* → *___ any more information, …* (*Should you need / Should you require*)
+- *Ali should see a doctor. That's my suggestion.* → *I suggest that Ali ___ a doctor.* (*see / should see …*)
+- *Prices rose sharply, which worried many families.* → *___ worried many families.* (*A sharp rise in prices*)
+- *We've put off the meeting until Monday.* → formal *We have ___ the meeting…* (*postponed*)
+- *I like him a lot, but I think he's wrong.* → *___, I think he's wrong.* (*Much as I like him*)
+
+### 5.2 Status of every pass-4 issue and idea
+
+| # | Item | Status |
+|---|---|---|
+| 3.1 | Phrases ending in "…" become order tiles | **App** (not content): strip "…" in `orderStep`/`normalize`, or skip such phrases (see the app requests). |
+| 3.2 | Very little production of C1 structures | **Done** (60 production items, see above). Inversion, *should / were to / but for*, the subjunctive, *much as / however much / strange as*, *whereby*, reduced relatives, nominalization, fronting, emphatic *do*, and formal vs phrasal verbs are now all transformed by the learner. |
+| 3.3 | Idioms illustrated literally | **Done.** 🔨 💧 🧂 🐈 (u09) and 🔑 *key point* (u10) are `sym`, so the app no longer asks them as picture questions. The u09 g01 explanation now says these pictures are only memory hooks. 🤒 *under the weather* shows the meaning and stays literal. |
+| 3.4 | Approximate pictures | **Done with `sym`**: ✋ interrupt, 🔭 vision, 🫂 empathy, 😰 stage fright / anxiety, 🗣️ tone of voice, 🤝 consensus, 📊 data, 🧪 laboratory, 💰 funding, 🏙️ urbanization, 🏘️ affordable housing, 🏅 reward, ✒️ calligraphy, 🖼️ portrait, 📉 recession, 🌐 globalization, 💊 placebo, 🧬 genetic testing, 🏥 healthcare, 👀 eye contact, 🙋 Q&A session. Literal pictures kept: 🗿 sculpture, 📄 handout, 💉 vaccine. |
+| 3.5 | *needn't have* from an American speaker | **Done.** u03 L4 (Emma, American) → *Well, you didn't have to stay in the office until midnight.* The g01 table gains the row *didn't have to + verb (everyday American)*. *needn't have* stays the taught point, and a rewrite item practices it. |
+| 3.6 | Same name, different people | **Done course-wide** (CAST.md: Shirin Moradi, Nasrin Karimi, Rachel, Dr. Rahimi). |
+| 3.7 | Gloss of *What makes you tick?* | **Done**: «چه چیزی به تو انگیزه می‌دهد و تو را همان آدمی می‌کند که هستی؟» |
+| 3.8 | Sukun differences | **Done course-wide** (PR_DICT). |
+| 3.9 | u04 g01 distractor *Was* | **Done**: options *Were / Had / If*. |
+| 3.10 | TTS-risky texts | **App/central**, unchanged (*C1*, *T-shirt*, the colon in u10 L0, quotation pairs). |
+| 3.11 | "in the long running" | **Done** → «نه in the long runs». |
+| 4.1 | Production and "rewrite more formally" | **Done**: nominalization (u02), formal *Should you…* (u04), subjunctive (u04), phrasal verb → Latinate verb (*put off → postpone*, *set up → establish*, u09). |
+| 4.2 | Recycle C1 grammar | **Partly.** u10 `reading.text[12]` now uses *Should you go blank, simply ask your partner a question…* (u04 structure). Some new u05/u08 function items use earlier structures. The mixed 10-item tests after u05 and u10 are **not done**: they need a `kind: "grammar"` review unit or an app test type (lead's decision). |
+| 4.3 | Recycle vocabulary | **Partly**, in the new items (e.g. *Hafez* is kept, *the replication* topic, *carpets*, *taarof*). I did not rewrite the readings. |
+| 4.4 | More voices and genres in dialogues | **Not done**: this would need new dialogues. Instead I smoothed the showcase dialogues (5.3). |
+| 4.5 | Bridge from B2 | **Done**: u01 g01 explanation line linking inversion with B2 *It was … that* clefts. |
+| 4.6 | Cultural content | **Partly**: u09 rewrite «مثل آب خوردن» → *a piece of cake*. Stance questions were added to the u05 and u08 readings (and to u02, u07, u10). |
+| 4.7 | Harder reading questions | **Done** (20 inference/attitude questions; u08 asks "skeptical / enthusiastic / completely neutral"). |
+
+### 5.3 Dialogue and text changes (`t`, `s`, `pr` together)
+
+| Unit | Line | Before → After | Why |
+|---|---|---|---|
+| u01 | L2 | *Never have I heard good work described as "not bad"!* → *I've never heard …* | four inversions in one chat |
+| u01 | L3 | *Not only is understatement very common…, but it also…* → *Understatement is very common in Britain, and it makes people sound modest.* | same; *I do understand* (emphatic do) kept |
+| u01 | L9 | *Hardly had I sat down when…* → *I'd hardly sat down when…* | same; *Only now do I realize* (L6) kept |
+| u03 | L4 | *you needn't have stayed* → *you didn't have to stay* | 3.5 |
+| u04 | L1 | *Should it go ahead, it would transform…* → *If it goes ahead, it'll transform…* | six advanced conditionals in a couple's chat |
+| u04 | L2 | *were rents to rise around it* → *if rents around it went up* | same |
+| u04 | L5 | *But for the grassroots campaign, …* → *If it hadn't been for the grassroots campaign, …* | same; subjunctive, *provided that* and *unless* kept |
+| u05 | L10 | *Having written something, you'll find it…* → *Once you've written something, it's much easier…* | participle clause in casual speech |
+| u08 | L7 | *Be that as it may, the decision isn't ours…* → *But in the end, the decision isn't ours to make.* | four concession markers in a row |
+| u08 | L9 | *Patients given time and support…* → *Patients who are given time and support…* | spoken register |
+| u10 | `reading.text[12]` | *Good luck!* → *Should you go blank, simply ask your partner a question; it gives you time to think.* | recycles u04; the reading now has 13 informative sentences |
+
+Order `alts` added: u01 L8 (2); u05 L0; u08 S3 (2: *morally and legally*).

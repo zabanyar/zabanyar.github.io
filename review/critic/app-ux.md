@@ -281,3 +281,27 @@ Measured (WCAG AA needs 4.5:1 for normal text, 3:1 for large text):
 | Result screen | `shots/11-enfa-u01-grammar-zz-result.png`, `shots/41-review-zz-result.png` |
 | Word bank | `shots/44-wordbank.png` |
 | Login bidi | `shots/62-login-bidi-crop.png` |
+
+## 5. Pass 5 (22 Nov 2026): what was done in the app (both sites, sw `*-shell-2026-11-22b`)
+
+| Item | Status |
+|---|---|
+| M3 losing a lesson | Done: an unfinished lesson is kept on the device for 3 days and offered again ("Continue where you left off?"); browser Back / swipe asks first (in-app dialog); words lessons with more than 12 words have fewer extra steps and typing is spread over the lesson. Theme units with a third grammar point get a second grammar lesson ("Grammar 2"). |
+| M6 feedback | Done: "Not quite" title, "You wrote: …", one-letter typo accepted for words ≥ 5 letters (not in grammar gaps) with the correct spelling, spelling note for ae/oe/ue/ss and other accepted forms, the exercise's `why`, a "📘 See the rule" button and "↻ comes again at the end". |
+| M8 grammar | Done: table above the explanation, 📘 rule button in the lesson top bar, Latin runs isolated without trailing spaces. |
+| M9 Persian keyboard | Done: alphabetical keys with Latin hints, "yarım boşluk" label, one row for half space / space / ⌫ / ⌨️, Persian digits, visible caret. |
+| M10 accessibility | Done: translated aria labels, focus moves to the question, number keys 1–9 choose, Enter checks/continues, picture options named "option n", dialogs labelled. |
+| M11 result screen | Done: "x of y right the first time", points earned, the missed items with audio, "Practise the mistakes"; review has its own buttons; retries count half. |
+| M12 word bank | Done: level and unit chips, search, seen / well learned counts, 3-dot strength, "new" tag, "Practise this unit's words". |
+| L1 bidi on login/home | Done (names in `<bdi>`, Latin lines ltr). |
+| L4 ✨ chip | Done ("Start ▶"). |
+| L5 I/l | Done: Verdana-style font for English tiles, options and letters. |
+| L6 review row | Done: quiet when nothing is due, first card when ≥ 10 are due. |
+| L7 settings | Done: autoplay, slower speech, larger text, theme (auto/light/dark), show pronunciation guide, platform install hints and install button. Reset of progress not added (risky). |
+| L8 autoplay blocked | Done: the 🔊 button pulses when the browser blocks sound. |
+| L9 level tabs | Done: plain buttons with aria-current. |
+| L10 error card | Done: home button. |
+| L11 native confirm | Done: in-app dialog. |
+| L12 typing at the end | Done: typing spread over the lesson, "Can't type now" skip. |
+| Content support | `cue`/`cpr`/`task`/`why` exercises, `sym` pictures excluded from picture questions, dialogue role play ("Speak B's part"), Turkish â î û keys. |
+| Updates | Pages now check for a new version when they come to the front and every 30 minutes and reload outside lessons; the service worker never installs files from the HTTP cache. |

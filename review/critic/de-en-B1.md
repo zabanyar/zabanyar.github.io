@@ -132,3 +132,103 @@ This is a strong level. The German is correct, natural and idiomatic throughout.
    These would fit well in u02 g01, u05 g01 and u07 g01.
 6. **Make the dialogues more interactive.** Most dialogues are question-answer interviews (u01, u02, u09). Add at least one negotiation or complaint at B1 level, such as returning a product in u04 or disagreeing with a landlord about Nebenkosten. The useful phrases for this (*Ich bin damit nicht einverstanden*, *Könnten wir uns darauf einigen, dass …*) are currently missing.
 7. **Practise pronunciation explicitly.** de-en has no `pr`. The level already gives stress hints in `s` (*Kredit*, *Kassenbon*, *Journalist*). Extend this to the few B1 words Persian speakers typically misstress, such as *Behörde*, *Bescheinigung* and *Formular*, or add one "sounds" note per unit.
+
+## 5. Pass 5 (Nov 2026)
+
+Brief: `review/BRIEF_FIX5.md`. All edits made with Python (json.load → change → json.dump). `tools/validate.py content/de-en/B1/*.json`: all 10 OK. `tools/audit.py`: de-en B1 shows only the known false alarm (u05 *die öffentlichen Verkehrsmittel*, adjective + noun headword). `tools/repeats.py de-en`: no B1 findings (the 2 reported repeats are duplicates inside C1, not in this slice). No headwords or phrases were added, so no new repeats are possible.
+
+### Counts
+
+| Category | Count |
+|---|---|
+| New grammar point: Plusquamperfekt (u01 g03: explanation, 8-row table, 5 examples, 8 exercises) | 1 |
+| Production items: rewrite (`type` with `task` + `cue`) | 21 (one per grammar point, incl. g03) |
+| Production items: function (`choice` with `task` + `cue`, three whole-sentence options) | 21 (one per grammar point, incl. g03) |
+| `why` on grammar `choice`/`type` exercises | 142 (every choice/type item of the level: 95 existing + 5 new in g03 + 42 production items) |
+| Inference questions in readings | 15 (2 in u01, u02, u04, u09, u10; 1 in u03, u05, u06, u07, u08) |
+| `sym` marks | 7 |
+| ae/oe/ue/ss spellings added to `answer` lists | 9 |
+| Other fixes (report items, names, B2 previews, support-language hooks, stress hints, TTS) | 19 |
+
+Each of the 20 existing grammar points still has 8 exercises: 2 were replaced (the most repetitive ones: a second item testing the same form, or a third order item). Every point now has one rewrite and one function item.
+
+### Report items
+
+| # | Issue (section 3 / 4) | Status | What I did |
+|---|---|---|---|
+| 3.1 | Recurring characters contradict each other | done before | Course-wide pass 5a (cast sheet). I kept it and followed `CAST.md` in all new items (Reza in Aachen, Mina 12, Lena journalist, Frau Fischer at the Bürgeramt, Karim the newcomer). |
+| 3.2 | Plusquamperfekt never taught | **done** | New **u01 g03** "Ich hatte gegessen, ich war gegangen". It comes after Präteritum and als/wenn in the "life stories" unit, so it is taught before the u10 reading that uses it. Explanation: *had + participle*, hatte vs war (same choice as in the Perfekt), explicit comparison of Perfekt, Präteritum and Plusquamperfekt, signals *schon, vorher, noch nie, bevor* (and a pointer to *nachdem* at B2), verb at the end in subordinate clauses. Table: the three past tenses side by side + full conjugation. 5 examples (one ties to Reza's arrival in Aachen). 8 exercises: 2 choice, 3 type, 1 order, 1 rewrite, 1 function. New u01 goal: "Say what had happened before with the Plusquamperfekt". |
+| 3.3 | Word-order checking for German is fragile | not done (app) | Needs the app; see app requests. |
+| 3.4 | u04 g02 lottery example | done | *wenn du im Lotto gewinnen würdest* → *wenn du plötzlich viel Geld hättest* (also models *hätte* in the wenn-clause, as the explanation recommends). |
+| 3.5 | Herr/Frau Wagner in too many roles | done | The course-wide pass fixed the clashing roles. The remaining Wagner one-liners that did not fit the cast sheet: u02 g01 example and exercise (colleague, head of department) → **Herr Koch**; u02 g02 example and u07 g02 X0 (office worker) → **Frau Peters**. Herr Wagner (neighbor, u06) and Frau Wagner (house rules, u05) stay. |
+| 3.6 | TTS of *dem Buchstaben S* and *Haft-Sin-Tisch* (u10) | done | Dialogue[5]: *… mit sieben Dingen. Auf Persisch beginnen ihre Namen alle mit demselben Buchstaben.* Reading[5]: *Jemand hatte einen wunderschönen Tisch mit sieben traditionellen Dingen gedeckt …* ("Haft-Sin" and "S" now only in `s`). The Plusquamperfekt of the reading is kept. |
+| 3.7 | u02 g02 X2 "work longer" | done | → "I have to work late today." |
+| 3.8 | u06 w09 ex "conversation" | done | → "published an interview with the minister". |
+| 3.9 | u10 sentences[6] "Do you still have some?" | done | → "Do you have any left?" |
+| 3.10 | u04 reading[3] "If there was" | done | → "If there were any money left …" |
+| 4.1 | Vocabulary recycling | partly | Every new item reuses earlier B1 words (Heimat, Studium, Arbeitsvertrag, Stellenanzeige, Blutdruck, Röntgenbild, Facharzt, Schulden, bar bezahlen, Heizung, Energie sparen, Praktikant, Leser, Tagebuch, Unterlagen, Eintritt …). Rewriting the readings for more recycling was not done: it would change working texts and their questions. |
+| 4.2 | Raise exercise difficulty (transformations) | done | The 21 rewrite items are exactly these transformations: Perfekt → Präteritum, two sentences → als-clause, → relative clause, → zu-infinitive, active → passive, Präteritum → Perfekt passive, imperative → advice with sollte, real → unreal condition, obwohl → trotzdem, → um … zu, von → genitive, → dative weak noun, singular → plural without article, am … entlang → den … entlang, → dative reflexive, dürfen → lassen, simple verb → noun-verb combination, nouns → two pronouns, jemanden → niemanden, two words → compound, Perfekt → Plusquamperfekt. |
+| 4.3 | Readings: inference questions, more text types | partly | 15 inference questions added (task 4). A new real-life text type (Bürgeramt letter, Hausordnung, job ad) was not added: it would replace a reading and needs a content decision. |
+| 4.4 | "Coming at B2" previews | done | u03 g02: passive with modal verbs (*Das Formular muss noch unterschrieben werden*); u04 g02: unreal conditions in the past (*Wenn ich Zeit gehabt hätte, hätte ich dich besucht*). |
+| 4.5 | Hooks for Persian and Turkish speakers | done | u02 g01 (verb at the end, like a Persian *ke*-clause), u05 g01 (obwohl ≈ Persian *bā inke*, verb at the end), u07 g01 (Turkish shows case with noun endings; German adjectives without an article do the same job). |
+| 4.6 | A negotiation or complaint dialogue | not done | It needs a new dialogue (and new phrases such as *Ich bin damit nicht einverstanden*), not a fix. Suggestion for a later content pass: u04 dialogue → returning a faulty phone, or u08 → disagreeing with a landlord about Nebenkosten. |
+| 4.7 | Stress hints | done | u09: *die Behörde* (be-HÖR-de), *das Formular* (for-moo-LAR), *die Bescheinigung* (be-SHY-nee-goong) in `s`, in the style of the existing *kre-DIT* hint. |
+
+### Production items (one rewrite + one function per grammar point)
+
+| Unit | Point | Rewrite (cue → answer) | Function (cue → correct option) |
+|---|---|---|---|
+| u01 | g01 | *Mit achtzehn hat sie ihre Heimat verlassen.* → verließ | *Was hast du nach dem Studium gemacht?* → *Ich fand …* |
+| u01 | g02 | *Ich kam in Köln an. Es regnete stark.* → *Als ich in Köln ankam* | *Wann hast du mit dem Deutschkurs angefangen?* → *Als ich nach Deutschland kam, …* |
+| u01 | g03 | *Der Unterricht hat schon angefangen.* → *Als ich ankam, hatte der Unterricht schon angefangen.* | *Warum bist du gestern so spät gekommen?* → *Ich hatte den Bus verpasst.* |
+| u02 | g01 | *Ich habe einen Kollegen. Er spricht fünf Sprachen.* → *der fünf Sprachen spricht* | *Das ist die Chefin, der ich …* |
+| u02 | g02 | *Ich will morgen meinen Arbeitsvertrag unterschreiben.* → *Ich habe vor, … zu unterschreiben* | *Es ist wichtig, die Stellenanzeige genau zu lesen.* |
+| u03 | g01 | *Die Ärztin misst meinen Blutdruck.* → *Mein Blutdruck wird …* | *Es wird zum Facharzt geschickt.* |
+| u03 | g02 | *Unser Sohn wurde … geimpft.* → *ist … geimpft worden* | *Ich bin krankgeschrieben worden.* |
+| u04 | g01 | *Mach keine Schulden!* → *Du solltest keine Schulden machen.* | *An deiner Stelle würde ich öfter bar bezahlen.* |
+| u04 | g02 | *Wenn ich genug Geld habe, fliege ich nach Isfahan.* → *Wenn ich genug Geld hätte* | *Ich würde gern mitkommen, wenn ich nicht so müde wäre.* |
+| u05 | g01 | obwohl-sentence → *trotzdem fährt mein Nachbar …* (both orders accepted) | *Ja, denn der Bus ist mir zu voll.* |
+| u05 | g02 | *… Wir wollen Energie sparen.* → *um Energie zu sparen* | *Wozu trennt ihr den Müll?* → *Damit die Umwelt sauber bleibt.* |
+| u06 | g01 | *Die Meinung von den Lesern …* → *der Leser* | *Wessen Handy ist das?* → *… meiner Schwester.* |
+| u06 | g02 | *Der Kunde wartet schon lange.* → *Ich helfe dem Kunden, …* | *Mit einem jungen Praktikanten aus Spanien.* |
+| u07 | g01 | *ein großes Zimmer* → *große Zimmer* | *Wir hatten fast immer schönes Wetter.* |
+| u07 | g02 | *am Rhein entlang* → *den Rhein entlang* | *Gleich gegenüber, auf der anderen Straßenseite.* |
+| u08 | g01 | *Mina putzt sich die Zähne.* → *Ich putze mir …* | *Ich wünsche mir ein neues Tagebuch.* |
+| u08 | g02 | *Die Kinder dürfen heute länger aufbleiben.* → *Wir lassen die Kinder …* | *… reparieren lassen.* (not gelassen) |
+| u09 | g01 | *Wir haben uns endlich entschieden.* → *eine Entscheidung getroffen* | *Nehmen Sie bitte Platz.* |
+| u09 | g02 | *Ich gebe der Beamtin den Antrag.* → *ihn ihr* | *Ja, ich habe sie ihr gestern geschickt.* |
+| u10 | g01 | *Ich habe heute jemanden getroffen.* → *niemanden* | *Nein, ich habe auch keine mehr.* |
+| u10 | g02 | *eine Karte für den Eintritt* → *Eintrittskarte* | *Ja, sie ist waschbar.* |
+
+Replaced exercises (each the more repetitive of two similar items): u01 g01 X1 (choice with a year in digits), X6 (order); g02 X4, X5 (second wenn / als choice); u02 g01 X3, X6; g02 X5 (second *zu* gap), X6 (order); u03 g01 X1, X2 (third and fourth werden form); g02 X2, X4; u04 g01 X4, X6; g02 X4, X6; u05 g01 X4 (second denn), X6 (order); g02 X0, X4; u06 g01 X3 (second *meines*), X6; g02 X0, X6 (third -en choice); u07 g01 X0, X3 (second *frisches*); g02 X3, X7 (second gegenüber); u08 g01 X4 (second *mir*), X7; g02 X4 (second Perfekt *lassen*), X7; u09 g01 X0, X5; g02 X2 (second *es mir/es ihm*), X5 (third order); u10 g01 X5, X6; g02 X1 (second article choice), X3.
+
+### Inference questions
+
+| Unit | Question | Answer (follows from) |
+|---|---|---|
+| u01 | *Warum ging Fatemeh nach Teheran?* | *Sie wollte Lehrerin werden.* (wanted to be a teacher → training in Tehran) |
+| u01 | *Wie fanden die Kinder die Geschichten aus dem Tagebuch?* | *sehr spannend* (listened for hours) |
+| u02 | *Worüber möchte Leila mit ihrer Chefin sprechen?* | *über die Überstunden* (*darüber* refers back) |
+| u02 | *Wie fühlt sich Leila nach der ersten Woche?* | *Sie ist meistens zufrieden.* |
+| u03 | *Was sollte man zu jedem Arztbesuch mitnehmen?* | *die Versichertenkarte* (it is read at every visit) |
+| u04 | *Wer braucht das Geld eigentlich nicht?* | *Herr Lorenz* (has all he needs) |
+| u04 | *Warum hat Narges ihre Familie lange nicht besucht?* | *Die Flüge sind zu teuer.* (*endlich wieder*) |
+| u05 | *Wie findet Sara das Experiment am Ende?* | *Sie ist zufrieden damit.* (15 % saved, they carry on) |
+| u06 | *Warum schreiben so viele Leser einen Kommentar?* | *Die Geschichte von Herrn Wagner gefällt ihnen.* (they want to help) |
+| u07 | *Wie gefällt Maryam der Urlaub?* | *sehr gut* |
+| u08 | *Was denkt Maryam über die Hilfe ihrer Mutter?* | *Sie ist sehr dankbar dafür.* (*ein großes Glück*, *verlassen auf*) |
+| u09 | *Wie hat sich Leila wohl gefühlt, als sie ihre Meldebescheinigung bekam?* | *froh und zufrieden* |
+| u09 | *Warum gibt Leila am Ende Tipps?* | *Sie möchte neuen Leuten in Deutschland helfen.* |
+| u10 | *Warum kamen wohl viele deutsche Freunde zur Feier mit?* | *Sie wollten das persische Neujahrsfest kennenlernen.* |
+| u10 | *Wie fühlt sich Karim heute in Köln?* | *Er fühlt sich wohl.* |
+
+### `sym` marks
+
+u04 *Geld abheben* 🏧, u05 *den Müll trennen* ♻️, u05 *der Strom* ⚡, u06 *das Interview* 🎤, u07 *die Wanderung* 🥾, u10 *das Theaterstück* 🎭, u10 *das Brettspiel* 🎲. Literal pictures (🚑, 💉, 💳, 💶, 🧾, 🗑️, 🚰, 📰, 🧳, 🎒, ✍️, 🪪, 🎆, 🏫, 📔) stay unmarked. No emoji was misleading enough to remove.
+
+### Not done / for the lead
+
+- **App:** the more tolerant German word-order check (3.3).
+- **App / lesson length:** the app puts all grammar points of a theme unit into one grammar lesson, so u01's grammar lesson now has 24 exercises. If that is too long, split it into one lesson per grammar point (as grammar units already do).
+- **CAST.md:** the new one-line names **Herr Koch** (u02, head of department) and **Frau Peters** (u02/u07, office worker) should be added to the side-character list (I only edit my slice).
+- Existing years in digits (*1948, 2009, 2015*) are left as they are: `build.speakable` turns them into words, and none of the new text contains digits.

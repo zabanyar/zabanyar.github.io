@@ -188,3 +188,83 @@ None. There is no correctness problem left that I am aware of.
   - `content/de-en/A2/u09.json`
 - Unchanged after full check: u01–u04, u06, u10–u13.
 - This report: `review/critic/de-en-A2.md`.
+
+## 5. Pass 5 (Nov 2026)
+
+I carried out BRIEF_FIX5 tasks 1–7 for all 13 A2 units. The course-wide pass (cast sheet, cross-level repeats; see 5a in `de-en-A1.md`) is kept, and new names follow `content/de-en/CAST.md`.
+
+Checks: `python3 tools/validate.py content/de-en/A2/*.json` → OK (13/13). `python3 tools/audit.py` → `de-en A2: {}`. `python3 tools/repeats.py de-en` → 0 repeats.
+
+### 5.1 Status of every pass-4 issue and idea
+
+| # | Item | Status |
+|---|---|---|
+| 3.1 | Character continuity | Done in 5a. Two more clashes fixed here. (1) u09 reading questions 4–5 still said "Sie schreibt / Sie ruft … an" and "von **ihren** Eltern" after the narrator became Ali; they now use **Er** and **seinen**. (2) u05 w12 example "Maryam arbeitet Teilzeit, weil sie zwei kleine Kinder hat" → **Sara** (Mina and Amir are 12 and 10; Sara has two small children). New items reuse the cast (Sara picks up her daughter, Anna visits Köln, Reza, Maryam, Lena). |
+| 3.2 | Grammar only practiced in u11–u13 | **Partly.** Readings: u04 "Kinder mit Fieber sind oft sehr müde, **deshalb** sollen sie zu Hause bleiben." and u07 "**Trotzdem** war es ein schöner Tag mit Felix." (questions unchanged). Production items now practice deshalb, ohne + accusative, *mir die Hände*, woran/darauf, wäre/würden. Not mine to do: the B1 u05 author should present deshalb/trotzdem/denn as review (lead). |
+| 3.3 | Dictation almost never fires | **Done** in content: a 3–4-word sentence added to u01 "Ich habe ausgeschlafen.", u03 "Der Karton ist schwer.", u05 "Der Chef ist nett.", u06 "Die Jacke ist eng.", u07 "Wir nehmen ein Taxi.", u10 "Wir gehen ins Kino." |
+| 3.4 | Production and exam task types | **Partly.** 74 production items (5.2). Not done: Schreiben/Sprechen prompts need an app format (no schema field), and authentic text types (Wohnungsanzeige, Fahrplan, Speisekarte) need a table-like reading format and would replace whole readings. |
+| 3.5 | Duplicate unit emoji | **Done.** u12 📦 → ⚖️. |
+| 3.6 | Two-option choice items | **Done.** u01 g02 x2 + "sind"; u04 g01 x1 + "darfst"; u04 g01 x2 (musst/darfst) replaced by a 3-option function item on nicht müssen vs nicht dürfen; u05 g01 x2 + "denn". |
+| 3.7 | Gap fills pinned by `s` or hint | Agree, no action. |
+| 3.8 | Ingenieur respelling | **Done**: "in-zhen-YUR, with the ö of schön". |
+| 3.9 | u07 identical examples | **Done**: w14 Fahrrad → "Am Wochenende fahren wir mit dem Fahrrad an den See." |
+| 3.10 | Table labels | **Done**: u11 g03 "Veränderung" → "Zustandswechsel", as in u01 g02. |
+| 3.11 | u02 reading question 4 | **Done**: "Wie hat Lena das persische Essen gefunden?" |
+| 3.12 | Verb headwords never typed | App (lead). |
+| 3.13 | TTS notation | Nothing to do. |
+| — | Cross-level repeat | A1 now teaches **das Wochenende** (lead's request), so A2 u01 w01 became **der See**, die Seen (*lake; die See = the sea*), example "Am Sonntag sind wir an einen See gefahren." (matches the u01 dialogue). |
+| 4.1 | One continuing story | Done in 5a; new items follow it. |
+| 4.2 | Review lesson after u13 | **Alternative done**: grammar units can't hold a reading, so each of the 17 grammar-unit topics got 2 production items that reuse the cast and theme vocabulary. A real review reading (u14) needs a format decision. |
+| 4.3 | Daily life in Germany | **Partly**: u03 p08 "Wo stehen die Mülltonnen?" (house rules/recycling). u04, u05 and u09 already have 8 phrases; new scenes would mean replacing dialogues. |
+| 4.4 | Schreiben/Sprechen per unit | App/format (lead). |
+| 4.5 | Hints, find-the-mistake, full-clause choices | **Done**: 25 hints on theme-unit `type` items where the base form is not obvious (aufräumen, anrufen, du/er/Sie, das Sofa, anziehen, dürfen, neu, gut, gern, englisch, können, werden …). The 37 function items are full-sentence choices, many of them "which sentence is correct" (e.g. "Weil ich krank bin." / "Weil ich bin krank." / "Dass ich krank bin."). |
+| 4.6 | Aussprache note per unit | Not done: there is no field for it outside u00 `sounds`. The Persian-speaker tips are now in A1 u00. Suggestion: allow `sounds` in any unit. |
+
+### 5.2 Production items (task 2): 74
+
+- Theme units u01–u10: 40, 2 per grammar point, replacing the most repetitive items (count unchanged).
+- Grammar units u11–u13: 34, 2 appended per topic (12 → 14 exercises).
+
+| Unit | Replaced (→ R = rewrite, F = function) |
+|---|---|
+| u01 | g01 "Was ___ ihr am Wochenende gemacht?" → R (Gestern ___: habe ich Reis gekocht); order "Was hast du am Wochenende gemacht?" → F. g02 "Ich ___ heute sehr früh aufgewacht." → F; "Am Samstag ___ Maryam zu Hause geblieben." → R (Anna ist nach Köln gefahren) |
+| u02 | g01 "Lena gibt ___ Oma die Blumen." → F (Wem? – Meiner Oma.); "Wie geht es ___, Frau Wagner?" → R (ihnen). g02 "Ich gratuliere ___ …" → R (Das Kleid gefällt mir); order "Das Geschenk gefällt mir sehr." → F |
+| u03 | g01 "Er ist auf ___ Balkon." → F; "unter ___ Bett" → R (legen → auf den Tisch). g02 "Der Teppich ___ vor dem Sofa." → R (stellen → steht); "Wohin hast du den Karton ___?" → F |
+| u04 | g01 "Du ___ nicht früh aufstehen." → F; "Du ___ heute nicht in die Schule gehen." → R (sollen). g02 "Schlaf doch ein bisschen!" → R (Trink!); "___ mich bitte morgen an!" → F (Nimm doch eine Tablette!) |
+| u05 | g01 "Lena sagt, ___ sie …" → R (weil … abholt); order "Ich glaube, dass sie Lehrerin ist." → F. g02 "Letzte Woche ___ ich …" → R (konnte); "Gestern ___ ich krank." → F |
+| u06 | g01 "Der ___ Pullover …" → F; "Das ___ T-Shirt …" → R (den blauen Pullover). g02 "Tim ist zwanzig …" → R (teurer als); "billiger ___ der Mantel" → F (am bequemsten) |
+| u07 | g01 "mit ___ U-Bahn" → F (nach / zu); "vom Bahnhof ___ Flughafen" → R (mit dem Zug). g02 "Wenn der Zug pünktlich ___" → R (Wenn es regnet, nehme ich …); "wenn es keinen Stau ___" → F |
+| u08 | g01 "ein ___ Restaurant" → R (eine kleine Suppe); "an einem ___ Tisch" → F (ein großes Wasser). g02 "Ich ___ Ihnen den Fisch empfehlen." → R (Könnten/Würden Sie …); "Würden Sie bitte das Fenster ___?" → F |
+| u09 | g01 order "Weißt du, ob Lena ein Handy hat?" → R (wann der Bus abfährt); "Weißt du, wann Mina nach Hause ___?" → F (ob). g02 "Wir freuen uns ___ die Ferien" → R (Woran); "Denk bitte ___ deinen Schlüssel!" → F (darauf) |
+| u10 | g01 "Lukas ruht ___ am Sonntag aus." → R (Interessierst du dich …?); "Langweilen Sie ___?" → F. g02 "Meine Eltern ___ uns … besuchen." → R; "___ du am Samstag zum Picknick kommen?" → F |
+
+### 5.3 `why` (task 3): 339
+
+Every `choice` and `type` grammar exercise in A2 has a `why` of at most 160 characters that names the rule for that item, e.g. "liegen answers Wo? (no movement), so auf takes the dative: auf dem Boden." or "With two pronouns, the accusative comes first: ihn (den Schlüssel), then ihm (Ali)." The script matched each `why` to its item by the item's text.
+
+### 5.4 Inference questions (task 4): 10
+
+One per reading, answerable but not written word for word: u01 Sara on Sunday evening (sehr müde – she fell asleep at once); u02 why Amir got money (grandparents give children money at Nowruz); u03 what Ali thinks of the apartment; u04 why hand washing matters; u05 whether Behnam is happy at work; u06 why Amir didn't take the black jacket; u07 how long Reza was on the road (8:00 → 14:00); u08 what Maryam thinks of the restaurant; u09 why Ali's mother learns German (she visits Köln in summer); u10 what the family does if it rains (camping only "wenn das Wetter schön ist").
+
+### 5.5 `sym` (task 5): 13
+
+u01 aufwachen ⏰ · u02 der Geburtstag 🎂, feiern 🎉 · u04 die Erkältung 🤧, das Fieber 🤒, der Arzt 🩺 · u05 verdienen 💶 · u08 der Nachtisch 🍰, scharf 🌶️ · u09 das Internet 🌐 · u10 das Kino 🎬, das Konzert 🎵 (also A1 Musik 🎵), das Theater 🎭.
+
+### 5.6 Counts
+
+| Category | Count |
+|---|---|
+| Production items | 74 (37 rewrite, 37 function): 40 in theme units, 34 in grammar units |
+| `why` | 339 |
+| Inference questions | 10 |
+| `sym` marks | 13 |
+| Hints added | 25 |
+| Dictation sentences / new phrase / reading seeds | 6 / 1 / 2 |
+| Other fixes | 12 (w01 der See, u09 questions ×2, u05 w12 cast, Ingenieur, u07 w14, u02 question, u11 table label, u12 emoji, 3 third options) |
+
+### 5.7 For the lead (app and other levels)
+
+- Render `cue` (own audio), `task` and `why`. Every function item has `answer: 0`; the app shuffles options.
+- B1 u05 should present deshalb/trotzdem/denn as review (they are taught in A2 u13 g01 and now appear in A2 readings).
+- Schreiben/Sprechen prompts and table-style reading texts (ads, timetables, menus) need a schema/app format first.
+- Optional: allow `sounds` (Aussprache notes) in units other than u00.

@@ -71,3 +71,126 @@ All new headwords were checked: unique within B1, and not headwords in A1, A2, B
 5. **Contrastive exercises across units.** Mix exercises that force a choice between structures the learner knows: present perfect vs past simple vs used to (u01 + u02), first vs second conditional (u03 + u07), *will / be going to / might* (u10 + A2). These are the exact areas where Persian speakers confuse forms.
 6. **Pronunciation focus box per unit.** The `pr` guides are good, but stress and weak forms aren't taught. Add one line per unit in the grammar `explain`, as u02 and u04 already do for *used to* and *mustn't*: «-ed سه تلفظ دارد: /t/ /d/ /ɪd/» (u01/u05), the weak form of *was/were* (u02), contracted *'d* = would/had (u07 vs u04).
 7. **Reading questions.** All 40 are 3-option literal recall. Add one inference or vocabulary-in-context question per reading (for example "What does *fined* mean in the text?", or "Why do Mina's friends come from many countries?"), and occasionally a 4th option.
+
+## 5. Pass 5 (Nov 2026)
+
+I did BRIEF_FIX5 tasks 1–7 for `content/en-fa/B1/u01–u10`, plus the lead's two `repeats.py` items. I kept the
+course-wide pass-5 work (CAST.md, cross-level repeats, PR_DICT spellings, see en-fa-A1.md §5a). Every new or changed
+`pr`/`cpr` was written from `content/en-fa/PR_DICT.md`. Words that are not in the dictionary yet follow their word family
+(hires هایِرْز, reviewing ریویوئینگ, subjects ساب‌جِکْتْس, passwords پَسوِردز, broadcast … live لایو).
+
+Checks after the edits:
+- `python3 tools/validate.py content/en-fa/B1/*.json` → OK (10/10).
+- `python3 tools/en_fa_pr_dict.py check` → 0 differences.
+- `python3 tools/repeats.py en-fa` → 0 repeats.
+- `python3 tools/audit.py` → en-fa B1 `{'pr': 1, 'spelling': 4}`. These are the known false alarms: the u01 w14 hyphen word count, "holiday" in u05, and "flat tire" ×3. The third "flat tire" is the new u07 wish rewrite, which recycles the headword.
+
+### 5.1 Status of every pass-4 issue and idea
+
+| # | Item | Status |
+|---|---|---|
+| 3.1 | Symbolic emojis in picture questions | **Done**: 52 `sym` marks (5.4). No emoji was misleading enough to remove. |
+| 3.2 | Weak recycling | **Done.** Before: 55 of 149 headwords appeared nowhere in their unit outside the word card (stem search, articles ignored). After: **0**. Every headword now appears at least once more in its own unit, in a production item, a reading question, a changed sentence or a dialogue line. Headwords that reappear in a later B1 unit went from 24 to 35. 16 headwords from earlier B1 units are reused in the new items (fail, memorable, go abroad, move to, work overtime, happen, drought, stressed, lose weight, forget, pass an exam, brave, give up, attend, hire …). |
+| 3.3 | Past perfect used in u06 before it is taught | **Done**: u06 g01 `explain` has a new line on **had + past participle** (with «دیده بود» and a note that B2 covers it fully). |
+| 3.4 | u06 *interview* vs u03 *job interview* | **Done**: u06 w04 → **press conference** («کنفرانس خبری», پْرِس کانْفِرِنْس, 🎤 sym, ex "The mayor answered journalists' questions at a press conference."). It is not taught at any other level. The u06 dialogue line 1 now uses it: "At a press conference, the mayor said it would open next spring." |
+| 3.5 | Exercise variety and difficulty | **Done** through task 2: 40 production items, most with multi-word answers. The 7 u06 "quote → report" items are now `cue` items (5.3). |
+| 3.6 | Present perfect continuous in u09 dialogue | **Done**: line 6 → "I'm thinking of taking a photography course…". This is u09 p01 word for word. |
+| 3.7 | u09 reading: writer's gender never stated | **Done**: text[6] → "…my grandchildren, who love correcting their grandma's pronunciation!" This also adds a love + -ing token. |
+| 3.8 | u07 dialogue line 4 ("If I took that flight…") | **Not changed.** It is natural tentative English and models the u07 grammar point (second conditional). The new u07 function item contrasts *I'd* with *I'll*. |
+| 3.9 | u10 g01 ex4: *will not* also possible | **Done**: t → "I'm not sure, but she ___ not come to the meeting. She's very busy." `s` and `pr` were updated to match. |
+| 3.10 | TTS-sensitive text | **Done for the risky part.** The u06 exercises with `"…" →` in `t` (g01 x2–x5, g02 x3–x5) became `cue` + `task` items, so the voice reads two clean sentences. The `/` and `+` in titles and tables stay. The audit reports no voice findings. |
+| 3.11 | Dated u05 statistic | **Done**: dialogue line 5 → "Did you know that millions of plastic bags are used around the world every day?" |
+| 4.1 | A2 → B1 links | **Done** as «از A2 می‌دانید: …» lines in u01 g01 (ever/never/just/already/yet), u03 g01 (will), u04 g02 (should) and u10 g01 (will / be going to). No more headwords were swapped. |
+| 4.2 | Production at the end of each unit | **Partly done** through the 20 rewrite items: reported speech (u06), passive (u05), relative clauses (u08), conditionals (u03, u07), had better / don't have to (u04), and so on. A free-writing task (complaint email, retelling) needs an app format with a model answer. |
+| 4.3 | More Iranian-family readings | **Not done.** It means rewriting whole readings with their questions, and the brief says to keep the structure. Inference questions and recycling were added to the existing readings instead. The suggestions in 4.3 still apply. |
+| 4.4 | Dialogues use more phrases | **Done** for the three weakest dialogues: u02 lines 3 and 9 (*It happened when I was…*, *I'll never forget it*), u08 line 4 (*We've known each other for years*), u09 line 6 (*I'm thinking of taking a course in…*). In u07, the new phrase *What would you do if you were me?* is in line 8, and line 9 answers with *If I were you, I'd…* (u04 p02, recycled). |
+| 4.5 | Contrastive exercises | **Done** inside the function items: past simple vs present perfect (u01), for/since vs ago (u01), used to vs use to vs be used to (u02), first vs second conditional (u03, u07), mustn't vs don't have to (u04), find out vs look for (u10). |
+| 4.6 | Pronunciation line per unit | **Done** in 7 more grammar points: u01 g01 (weak *'ve/'s*), u03 g01 (*'ll*), u05 g02 (three -ed sounds), u06 g02 (falling intonation in reported questions), u07 g01 (*'d* = would/had), u09 g01 (-ing without a hard g), u10 g01 (*it'll*, *won't* vs *want*). u02 and u04 already had one. |
+| 4.7 | Reading questions | **Done**: 20 new questions (task 4). One of them is vocabulary-in-context (u05 *fined*). I did not add 4th options. |
+| lead | `book` (B1 u07) vs A1 `book` | **Done**: u07 w09 → **to book**, «رزرو کردن (اتاق، بلیت، پرواز)», pr تو بوک. The example is unchanged ("I booked a room…"). |
+| lead | *If I were you, I'd…* in u04 and u07 | **Done**: u07 p08 → **What would you do if you were me?** «اگر جای من بودی، چه کار می‌کردی؟». It is not taught at any level and asks for advice, where u04 gives it. It is used in the dialogue (line 8). |
+
+### 5.2 Production items (task 2): 40
+
+Each of the 20 grammar points has 1 rewrite (`type` + `task`/`cue`/`cpr`) and 1 function item (`choice`, `t` = `___`, 3 whole sentences, 1 correct). They replace the 2 most repetitive exercises, so every point still has 8. Mostly these were order items that repeated an example or a sentence, or a second choice/type item with the same pattern. Every point keeps at least one `order` item except u01 g01 and u05 g02 (their units still have one in the other point).
+
+| Unit | Point | Rewrite (cue → answer) | Function (cue → correct reply) | Replaced |
+|---|---|---|---|---|
+| u01 | g01 | My brother went abroad… → **Have you ever gone / been** abroad? | Have you ever taken part in a competition? → Yes, I took part in one last year. | x3 type *saw*, x5 order |
+| u01 | g02 | Mina moved to Toronto a year ago… → Mina **has lived / has been living / has been** in Toronto for a year. | How long have you known each other? → Since we were in school. | x2 type *for*, x7 type *We've known* |
+| u02 | g01 | I was visiting my hometown. I met… → **While I was visiting** my hometown, I met… | What were you doing when the storm started? → I was reading a book in bed. | x6 choice *ran*, x7 type *was* |
+| u02 | g02 | As a child, I often failed… → I **used to fail** my math tests. | What are your happiest memories of your hometown? → We used to swim… (vs use to / are used to) | x6 order, x7 type *use* |
+| u03 | g01 | Maybe the company will hire me… → **If the company hires / If they hire** me, I'll move to Tehran. | I have a job interview tomorrow… → If you prepare well, you'll do fine. | x1 choice *will stay*, x4 choice *need* |
+| u03 | g02 | I'll get the qualification first… → **As soon as I get / have** the qualification, … | Can you work the night shift tomorrow? → I'll call you when I get to the hospital. | x1 choice *until*, x6 choice *goes* |
+| u04 | g01 | It isn't necessary to bring a prescription. → You **don't have to bring** a prescription. | Do I have to count calories to lose weight? → No, you don't have to. Just eat a balanced diet. | x4 type *must*, x6 type *mustn't* |
+| u04 | g02 | Eat less junk food… → You **had better eat** less junk food, or you'll gain weight. | I work overtime every day… → You should get more sleep. | x5 order, x6 choice *had* |
+| u05 | g01 | Factories cause a lot of pollution. → A lot of pollution **is caused** by factories. | What happens to plastic bottles…? → They're collected and recycled. | x3 type *is spoken*, x7 choice *are cleaned* |
+| u05 | g02 | People cut down hundreds of trees… → Hundreds of trees **were cut down**… | How did your town reduce air pollution? → Renewable energy was used instead of oil. | x5 order (= example), x6 type *was published* |
+| u06 | g01 | We will broadcast the final live. → The TV channel said that it **would broadcast** the final live. | What did the headline say? → It said that the drought was getting worse. | x1 choice *said*, x7 order |
+| u06 | g02 | Do you subscribe to any newspapers? → She asked me **if / whether I subscribed** to any newspapers. | The journalist asked, "Why is the bridge closed?" → The journalist asked why the bridge was closed. | x1 choice *if*, x7 order |
+| u07 | g01 | I don't have my boarding pass, so I can't check in. → If I had my boarding pass, I **could / would (be able to) check in**. | What would you do if your luggage didn't arrive? → I'd go to baggage claim and complain about it. | x4 choice *were* (= x1), x6 order (= table) |
+| u07 | g02 | We're stuck here because we have a flat tire. → I wish we **didn't have** a flat tire. | The line at customs is so long! → I know. I wish it were shorter. | x4 choice *lived* (= table), x7 order (= explain) |
+| u08 | g01 | I have a friend. She is very generous. → I have a friend **who / that is very** generous. | What's a selfish person? → Someone who only thinks about themselves. | x2 choice *that*, x7 order |
+| u08 | g02 | My cousin always helps me. She is very loyal. → My cousin, **who is very loyal**, always helps me. | My friend has only one sister… → My friend's sister, who works in a hospital, is very patient. (vs that / who she) | x5 choice (= x0), x7 order |
+| u09 | g01 | My daughter wants to attend a summer course. → My daughter **would like to attend**… | Have you finished reviewing for the exam? → Not yet. I need to review two more subjects. | x2 type *to pass*, x7 order (= sentence) |
+| u09 | g02 | He passed the exam. He didn't take any notes. → He passed the exam **without taking (any)** notes. | Why are you taking an English course? → Because I'm interested in getting a certificate. | x0 choice (= example), x4 choice *for* |
+| u10 | g01 | Hackers will probably steal… → Hackers **are likely to steal**… | Do you think search engines will disappear soon? → I doubt it. They're unlikely to disappear. | x2 choice *might* (= x0), x3 type *will* |
+| u10 | g02 | Turn off the device before you clean the screen. → **Turn it off** before you clean the screen. | My phone has run out of battery, and I can't find my charger. → Let's look for it together. | x0 choice *give*, x4 type *out* (= table) |
+
+### 5.3 Other changes
+
+- **u06 cue conversion:** g01 x2–x5 and g02 x3–x5 now have the quoted sentence as `cue` (+ `cpr`), a `task` («حرف را / سؤال را غیرمستقیم نقل کنید.»), a clean `t` without quotes or arrows, and a recomputed `pr`. The keys did not change.
+- **Recycling edits** (`t`, `s` and `pr` changed together):
+  - u01 `sentences[0]` "She has achieved a lot since she moved to Canada."
+  - u01 `sentences[2]` "Have you ever won a prize in a competition?"
+  - u01 `sentences[5]` "A trip like this happens only once in a lifetime."
+  - u01 `sentences[6]` "My son has just passed all his exams."
+  - u03 `sentences[3–5]` (unemployed / hired, work overtime, career)
+  - u05 `sentences[2]` "In my opinion, climate change is the biggest problem today."
+  - u06 `sentences[0]` "The radio reported that the roads were closed because of the snow."
+  - u08 `sentences[1]` "I fell out with my brother, but we made up a week later."
+  - u09 `sentences[7]` "My son wants to get a degree in medicine."
+  - u10 `sentences[0]` "It only takes a minute to set up an account and upload your photos."
+  - u10 `sentences[5]` "A hacker might get into your account if your password is weak."
+- **Dialogue lines** (with `pr`): u02 [3] and [9], u05 [5], u06 [1], u07 [8], u08 [4], u09 [6]. **Reading:** u09 text[6].
+- **Explanations:** 4 A2 links, 7 pronunciation lines and 1 past-perfect line (5.1).
+
+### 5.4 `sym` marks (52)
+
+u01 adventure 🗺️, go abroad ✈️, achieve 🎯, pass an exam 📝, move to 📦, brave 🦁 · u02 childhood 🧸, tell a story 📖,
+accident 🚑 · u03 job interview 🤝, résumé 📄, salary 💰, get promoted 📈, deadline ⏳ · u04 balanced diet 🥗, junk food 🍟,
+checkup 🩺, prescription 💊 · u05 environment 🌳, pollution 🏭, climate change 🌡️, cut down 🌲, endangered 🐆, solar panel ☀️,
+flood 🌊, drought 🏜️ · u06 headline 📰, article 📄, press conference 🎤, the news 📺, social media 📱, announce 📢, broadcast 📡 ·
+u07 delay ⏳, cancel ❌, boarding pass 🎫, connecting flight ✈️, traffic jam 🚗 · u08 friendship 🤝, generous 🎁 ·
+u09 degree 🎓, memorize 🧠, make progress 📈, homework 📚 · u10 device 📱, search engine 🔍, upload 📤, update 🔄,
+electric car 🚗, invention 💡, smart home 🏠, in the future 🔮.
+
+Pictures that show the word itself were left unmarked, for example win a prize 🏆, recycle ♻️, luggage 🧳, robot 🤖, charger 🔌, the face emojis, and storm ⛈️.
+
+### 5.5 Inference questions (task 4): 20
+
+Each reading has 2 new questions. Together they test 19 inferences and 1 vocabulary-in-context item (u05 "What does *fined* mean in the text?"). The inferences ask about feelings (Mina's year abroad, Maryam's memory of the storm, the u07 writer at Istanbul, the u09 writer's progress), reasons (why Mina got lost, why the lights went out, why the fish came back, why Jack joined the club, why the hotel gave toothbrushes), the audience of the u03 text, and small deductions (the 72-year-old started listening to the radio at about 22). Wrong options often reuse B1 words (jealous, selfish, lose weight, hire, go abroad), so each question also recycles vocabulary.
+
+### 5.6 Counts
+
+| Category | Count |
+|---|---|
+| Production items | 40 (20 rewrite + 20 function), all with `why`, `cue`/`cpr`, `task` |
+| `why` | 142 (every `choice`/`type` grammar exercise in B1) |
+| Inference questions | 20 (19 inference + 1 vocabulary-in-context) |
+| `sym` marks | 52 |
+| Other fixes | 7 cue conversions (u06), 1 headword replaced (interview → press conference), 1 headword re-labelled (to book), 1 phrase replaced (u07 p08), 1 key-context fix (u10 g01 x4), 8 dialogue lines, 1 reading line, 13 sentences, 12 explanation lines |
+
+**Audio:** new or changed `t`/`cue` need TTS: the 40 production items and their cues, 7 u06 cues and re-worded `t`s, u06 w04 + ex, u07 w09 (to book) and p08, 8 dialogue lines, u09 text[6], 13 sentences, 20 question stems, and u10 g01 x4.
+
+### 5.7 For the lead
+
+1. **`sym`:** 52 B1 words rely on the app leaving `sym` items out of "Which picture is it?".
+2. **PR_DICT:** the new words below are spelled consistently with their families but are not in `PR_DICT.md` yet. I did not edit that shared file. Run `python3 tools/en_fa_pr_dict.py build` once all en-fa slices are done.
+   - hires, qualification, necessary, calories, gain, soft, drinks
+   - fined, press, journalists, subscribed, channel, radio, checking, aged
+   - shorter, toothbrushes, thinks, club, forgets
+   - attend, reviewing, subjects, finding, excuses, correcting, grandma's, pronunciation
+   - tests, courses, hackers, steal, passwords, engines, disappear, device, upload, weak, inventions, competition, achieved, climbing, subway, visiting, happiest, laughing
+3. **Typed answers with contractions:** gaps that follow a subject ("You ___", "My daughter ___") accept only full forms ("had better eat", "would like to attend"). If the app could also accept "'d better eat" with the space before the apostrophe removed, contracted answers would work there too.
+4. **Free production (idea 4.2):** a "write, then compare with a model answer" format would allow short complaint emails (u07) and retellings in reported speech (u06).

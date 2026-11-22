@@ -133,3 +133,69 @@ Their reason, “C1 also uses آفِس / ویزِت”, is wrong: C1 uses آفی
 7. **Explanations.** These are already clear. Two small additions would help:
    - u06 g02: note that *If only* + would is mostly a complaint.
    - u08 g02: Persian speakers often say *"very much expensive"* or *"so much beautiful"*, so add one line on *so* + adjective vs *so much* + noun. The explanation already covers *so much / too much* with nouns, so this only needs a short warning.
+
+## 5. Pass 5 (Nov 2026)
+
+I carried out BRIEF_FIX5 tasks 1–7 on all 10 units. The course-wide pass (cast sheet, cross-level repeats, `PR_DICT`)
+was already done and was not undone. Every new `pr`/`cpr` was written from `content/en-fa/PR_DICT.md`: weak forms by
+rule, about 35 words that are not in the dictionary yet by the conventions and the spelling of related words.
+
+Checks:
+- `python3 tools/validate.py content/en-fa/B2/*.json`: OK for all 10 files.
+- `python3 tools/audit.py`: `en-fa B2: {}`.
+- `python3 tools/repeats.py en-fa`: 0 repeats.
+- `python3 tools/en_fa_pr_dict.py check`: 0 differences.
+- Every `alts` entry uses exactly the same tiles as its `t` (checked with a script).
+
+### 5.1 Counts
+
+| Category | Count |
+|---|---|
+| Production items (task 2) | 40: 20 rewrite `type` items (`cue` + `cpr` + `task`) and 20 function `choice` items (3 whole-sentence options). Each grammar point has 2, replacing its 2 most repetitive one-word gap items (mostly auxiliary gaps like *have / been / had / be / to*). There are still 8 exercises per point. |
+| `why` (task 3) | 127: 87 added to existing `choice`/`type` items and 40 on the new items. Every `choice`/`type` grammar exercise of B2 now has one. |
+| Inference questions (task 4) | 20, two per reading. They cover feelings, motives, the writer's stance and likely outcomes. Each has 3 options, and exactly one can be defended. |
+| `sym` marks (task 5) | 39 |
+| Order `alts` (sentences, dialogue lines, phrases ≤ 8 words) | 13 |
+| Dialogue lines smoothed | 10, in u05, u07, u08, u09 and u10 |
+| Reading questions reworded so they don't assume a gender | 14 (u01, u03, u08, u09). Option lists were changed where they used *she/he*. |
+| Other fixes | 7: u02 g01 X0 distractor item; u09 g01 X4 cue; u06 Q2 "NOT"; 2 explanation additions; 2 `pr` tokens (*passwords*, *neighbor's*) |
+
+### 5.2 Status of every pass-4 issue and idea
+
+| # | Item | Status |
+|---|---|---|
+| 3.1 | No pronunciation dictionary | **Done course-wide** (5a in en-fa-A1.md). All new `pr` follow PR_DICT. One old variant (*passwords* پَسْوِرْدْز → پَسوِردز, u04 g01 X2) was unified. |
+| 3.2 | Reading questions assume the writer's gender | **Done.** In u01 (Q1–Q4), u03 (Q1–Q4 + Q4 options), u08 (Q1–Q4 + options) and u09 (Q0–Q4 + options) the questions now say "the writer". The new inference questions do the same. u02 and u07 keep *she/he*, because those texts make it clear (sisters; "Dad"). |
+| 3.3 | Register in grammar-showcase dialogues | **Done.** u09: L5 *However* → *But*; L9 *Nevertheless* → *Still* (the formal linkers stay in the reading). u05: L3 *He's said to have committed…* → *The police think he's broken into…*; L7 *It's believed that…* → *They say…*. u07 L6: the participle clause in casual speech → *I watch each lecture twice and then send…*. u08 L2: *Neither … nor* → *My guidebook didn't say a word about taarof, and neither did my friends.* u10 L2 → *All I'll say is, …*; L9: the third cleft → *The director announced it herself last week.* |
+| 3.4 | Text the voice may read badly | **Partly.** u06 Q2 "NOT" → "Which of these is not mentioned as a cause…". The rest (trailing "…", "TV", digits in u06, Persian names in Latin script, typographic quotes) needs the app's TTS/order-tile handling. Lead: see the app requests. |
+| 3.5 | Distractors too easy | **Done.** u02 g01 X0 → *When I got to the station, the train ___, so I had to take a taxi* (*had left / has left / was leaving*; the Persian «رفته بود» decides). I reviewed all remaining B2 `choice` items. Most already use typical Persian-speaker errors (*am working since*, *has already started*, *mustn't* for deduction, *If I would have known*, *Despite + clause*), so they were kept. The 20 new function items test typical errors as whole sentences: *I'm answering emails since eight*, *suggested to call / suggested us to call*, *so much kind*, *Despite it was expensive*, *gave up it*, *had cut it* vs *had it cut*. |
+| 3.6 | Loose emoji | **Done with `sym`.** These are now symbols and never appear in picture questions: 🤝 negotiate/haggle, 📝 contract/enroll in, 🎯 target, 🥦 nutritious, 🚀 launch, 🔒 privacy, 🔧 repair, ⚖️ court, 🌡️ 👣 ⛽ 🪓 🦤 🥤 🧊 (u06), 🤔 🏫 💻 🧠 (u07), 😲 🍽️ 🎁 🎒 📋 😴 (u08), 📊 🏷️ 🛒 🏦 (u09), and all 8 u10 media emoji. Literal pictures stay unmarked: 🦌 wildlife, 🔥 wildfire, 🎓 graduate, 🏨 accommodation, 💱 exchange rate. |
+| 3.7 | Phrases that lean British | **Partly.** u07 L2 *statistics module* → *statistics class*. u05 L0 *at number twelve* → *at the house on the corner*. *split the bill* and *value for money* were kept: both are everyday American English, too. |
+| 3.8 | u09 g01 X4 accepts only *paying* | **Done.** New cue: *Spending too much? Try ___ in cash for a month and see what happens.*, which makes the "experiment" meaning clear. It has a `why`. |
+| 3.9 | pr word-family mismatch | **Done course-wide** (PR_DICT overrides; `report` shows no B2 variants). |
+| 3.10 | Same names in different roles | **Done course-wide** (CAST.md). New items use only neutral cast facts or no names (Sara in Munich, Reza, Ali, Tom, Lisa). |
+| 4.1 | Recycle vocabulary | **Partly.** The new items reuse each unit's words: *negotiating the contract*, *clients*, *workload* (u01); *Munich* (u02); *hospital* (u03); *repair*, *laptop* (u04); *taxi*, *Yazd*, *taarof* (u08). The u04 inference question recycles the u03 third conditional. I did not rewrite the `sentences` blocks. |
+| 4.2 | Harder, more varied exercises | **Done** through task 2: multi-word transformations (e.g. *People say that the mayor is very rich.* → *The mayor ___ very rich.* = *is said to be*) and "Which sentence is correct?" items with near-miss errors. |
+| 4.3 | Inference questions; more genres | **Inference done** (20 questions). **Genres not done**: new email, essay or story readings would mean replacing whole readings, which is beyond this pass. Suggestion for a later pass: u04 as a complaint email, u06 as an opinion essay. |
+| 4.4 | B1 review item at the start of each point | **Not done.** The exercise count is fixed at 8, and those slots now hold production items. The explanations already open with «از B1 می‌شناسید». |
+| 4.5 | Stress information | **Not done.** It needs a decision on format (`pr` cannot show stress). Possible app/schema feature: an optional `stress` note on words. |
+| 4.6 | More life in Germany | **Partly.** There is a new u02 function item (*How's your new job in Munich?*). Moving whole readings to Germany would be a rewrite. |
+| 4.7 | Explanations | **Done.** u06 g02: added a line on *If only / I wish + would* as a complaint. u08 g02: added a warning about *so much beautiful / very much expensive*. |
+
+### 5.3 Items changed outside task 2 (`t`, `s`, `pr` changed together)
+
+| Unit | Path | Before → After |
+|---|---|---|
+| u02 | `grammar[0].exercises[0]` | *When we arrived, the concert ___* (had already started / has already started / already starts) → *When I got to the station, the train ___, so I had to take a taxi.* (had left / has left / was leaving) |
+| u04 | `grammar[0].exercises[2].pr` | پَسْوِرْدْز → پَسوِردز |
+| u05 | `dialogue.lines[0]`, `[3]`, `[7]` | see 3.3 / 3.7 |
+| u06 | `reading.questions[2].q` | *…is NOT given as a cause…* → *…is not mentioned as a cause…* |
+| u06 | `grammar[1].explain` | + *If only … would* = complaint |
+| u07 | `dialogue.lines[2]`, `[6]` | *statistics module* → *class*; *Having watched each lecture twice, I send…* → *I watch each lecture twice and then send…* |
+| u08 | `dialogue.lines[2]`; `grammar[1].explain` | see 3.3; + *so much beautiful* warning |
+| u09 | `dialogue.lines[5]`, `[9]`; `grammar[0].exercises[4]` | see 3.3 / 3.8 |
+| u10 | `dialogue.lines[2]`, `[9]` | see 3.3 |
+| u01, u03, u08, u09 | `reading.questions` | "the writer" instead of *she/he* (3.2) |
+
+Order `alts` added: u01 P2, P3, S2, S3, S5; u02 L0; u04 L3, S1, S3, S4; u07 S5; u08 P0; u10 S2. These are all moved time
+adverbials, a separable phrasal verb (*push back the meeting*, *turn on the TV*), or a fronted *when*-clause.
