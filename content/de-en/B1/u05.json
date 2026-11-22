@@ -31,7 +31,8 @@
       "ex": {
         "t": "In Deutschland trennen fast alle Haushalte ihren Müll.",
         "s": "In Germany, almost every household sorts its trash."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w03",
@@ -114,7 +115,8 @@
       "ex": {
         "t": "Unser Strom ist im letzten Jahr teurer geworden.",
         "s": "Our electricity got more expensive last year."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w11",
@@ -238,7 +240,7 @@
         "voice": "f"
       },
       "B": {
-        "name": "Ali",
+        "name": "Karim",
         "voice": "m"
       }
     },
@@ -312,7 +314,7 @@
         "t": "denn, deshalb, trotzdem, obwohl",
         "s": "Linking words: reason, consequence and contrast"
       },
-      "explain": "These four words connect two ideas, but each one has its **own word order**.\n**denn** (*because*) gives a reason. Like und, aber and oder, it stands in **position 0**, so the normal word order follows: Ich trinke Leitungswasser, **denn** es **ist** billig. Compare **weil**, which sends the verb to the end: …, **weil** es billig **ist**.\n**deshalb** (*that's why, so*) gives a consequence, and **trotzdem** (*still, anyway, nevertheless*) says that something happens although you might expect the opposite. Both are adverbs: they take **position 1**, so the **verb comes right after them**: Der Strom ist teuer, **deshalb sparen** wir. Es regnet, **trotzdem fahre** ich mit dem Rad. They can also come after the verb: Ich fahre **trotzdem** mit dem Rad.\n**obwohl** (*although*) starts a subordinate clause, so the verb goes to the **end**: Ich fahre mit dem Rad, **obwohl** es **regnet**. If the obwohl-clause comes first, the main clause starts with its verb: **Obwohl** es regnet, **fahre** ich mit dem Rad.\n**obwohl** and **trotzdem** express the same idea from two sides: Obwohl es regnet, fahre ich Rad. = Es regnet, trotzdem fahre ich Rad.",
+      "explain": "These four words connect two ideas, but each one has its **own word order**.\n**denn** (*because*) gives a reason. Like und, aber and oder, it stands in **position 0**, so the normal word order follows: Ich trinke Leitungswasser, **denn** es **ist** billig. Compare **weil**, which sends the verb to the end: …, **weil** es billig **ist**.\n**deshalb** (*that's why, so*) gives a consequence, and **trotzdem** (*still, anyway, nevertheless*) says that something happens although you might expect the opposite. Both are adverbs: they take **position 1**, so the **verb comes right after them**: Der Strom ist teuer, **deshalb sparen** wir. Es regnet, **trotzdem fahre** ich mit dem Rad. They can also come after the verb: Ich fahre **trotzdem** mit dem Rad.\n**obwohl** (*although*) starts a subordinate clause, so the verb goes to the **end**: Ich fahre mit dem Rad, **obwohl** es **regnet**. If the obwohl-clause comes first, the main clause starts with its verb: **Obwohl** es regnet, **fahre** ich mit dem Rad.\n**obwohl** and **trotzdem** express the same idea from two sides: Obwohl es regnet, fahre ich Rad. = Es regnet, trotzdem fahre ich Rad.\nIf you speak Persian, obwohl will feel familiar: Persian puts the verb at the end of a clause, too (*bā inke bārān **mibārad*** = obwohl es **regnet**).",
       "table": [
         [
           "denn",
@@ -367,7 +369,8 @@
             "deshalb"
           ],
           "answer": 1,
-          "s": "I sort my trash because it's good for the environment."
+          "s": "I sort my trash because it's good for the environment.",
+          "why": "The reason follows with normal word order (das ist …), so denn; weil would need the verb at the end."
         },
         {
           "type": "choice",
@@ -378,7 +381,8 @@
             "denn"
           ],
           "answer": 0,
-          "s": "The bus was very full, so I walked."
+          "s": "The bus was very full, so I walked.",
+          "why": "The full bus is the reason, walking the consequence: deshalb, with the verb right after it."
         },
         {
           "type": "choice",
@@ -389,7 +393,8 @@
             "deshalb"
           ],
           "answer": 1,
-          "s": "I ride my bike to work although it's raining."
+          "s": "I ride my bike to work although it's raining.",
+          "why": "The verb regnet is at the end, so you need the subordinating obwohl."
         },
         {
           "type": "type",
@@ -400,15 +405,22 @@
             "allerdings",
             "jedoch"
           ],
-          "s": "Plastic bags are practical. Nevertheless, I don't use them anymore."
+          "s": "Plastic bags are practical. Nevertheless, I don't use them anymore.",
+          "why": "Practical, but I still don't use them: a contrast with the verb right after it → trotzdem."
         },
         {
           "type": "type",
-          "t": "Wir sparen Strom, ___ die Preise sind stark gestiegen.",
+          "task": "Say the same with trotzdem.",
+          "cue": "Obwohl der Bäcker gleich um die Ecke ist, fährt mein Nachbar mit dem Auto dorthin.",
+          "t": "Der Bäcker ist gleich um die Ecke, ___.",
           "answer": [
-            "denn"
+            "trotzdem fährt mein Nachbar mit dem Auto dorthin",
+            "mein Nachbar fährt trotzdem mit dem Auto dorthin",
+            "trotzdem faehrt mein Nachbar mit dem Auto dorthin",
+            "mein Nachbar faehrt trotzdem mit dem Auto dorthin"
           ],
-          "s": "We're saving electricity because prices have risen sharply."
+          "why": "trotzdem takes position one, so the verb comes right after it; or: subject, verb, trotzdem.",
+          "s": "The bakery is just around the corner, but my neighbor still drives there."
         },
         {
           "type": "type",
@@ -417,15 +429,22 @@
             "obwohl",
             "obgleich"
           ],
-          "s": "My son wants a new phone, although his old one still works well."
+          "s": "My son wants a new phone, although his old one still works well.",
+          "why": "The verb funktioniert is at the end, and the idea is a contrast → obwohl."
         },
         {
-          "type": "order",
-          "t": "Es ist kalt, trotzdem heizen wir wenig.",
-          "s": "It's cold; nevertheless, we heat very little.",
-          "alts": [
-            "Es ist kalt, wir heizen trotzdem wenig."
-          ]
+          "type": "choice",
+          "task": "Which reply fits?",
+          "cue": "Fährst du heute mit dem Rad?",
+          "t": "___",
+          "options": [
+            "Ja, denn der Bus ist mir zu voll.",
+            "Ja, denn der Bus mir zu voll ist.",
+            "Ja, deshalb der Bus ist mir zu voll."
+          ],
+          "answer": 0,
+          "why": "denn stands in position zero, so normal word order follows: der Bus ist …",
+          "s": "Yes, because the bus is too crowded for me."
         },
         {
           "type": "order",
@@ -487,14 +506,17 @@
       "exercises": [
         {
           "type": "choice",
-          "t": "Ich trinke Leitungswasser, ___ keine Plastikflaschen zu kaufen.",
+          "task": "Which reply is correct?",
+          "cue": "Wozu trennt ihr den Müll?",
+          "t": "___",
           "options": [
-            "um",
-            "damit",
-            "dass"
+            "Damit die Umwelt sauber bleibt.",
+            "Um die Umwelt sauber bleibt.",
+            "Damit die Umwelt sauber zu bleiben."
           ],
           "answer": 0,
-          "s": "I drink tap water so as not to buy plastic bottles."
+          "why": "The subject changes (die Umwelt), so use damit + verb at the end.",
+          "s": "So that the environment stays clean."
         },
         {
           "type": "choice",
@@ -505,7 +527,8 @@
             "denn"
           ],
           "answer": 1,
-          "s": "I explain trash sorting to my children so that they do it right."
+          "s": "I explain trash sorting to my children so that they do it right.",
+          "why": "Different subjects (ich – sie), so damit."
         },
         {
           "type": "type",
@@ -513,7 +536,8 @@
           "answer": [
             "um"
           ],
-          "s": "I take a cloth bag with me so that I don't have to buy a plastic bag."
+          "s": "I take a cloth bag with me so that I don't have to buy a plastic bag.",
+          "why": "Same subject, and zu + infinitive at the end: um … zu."
         },
         {
           "type": "type",
@@ -521,15 +545,19 @@
           "answer": [
             "damit"
           ],
-          "s": "Please close the window so that the heat doesn't escape."
+          "s": "Please close the window so that the heat doesn't escape.",
+          "why": "Different subjects (du – die Wärme), so damit."
         },
         {
           "type": "type",
-          "t": "Ich trenne den Müll, um die Umwelt ___ schützen.",
+          "task": "Join the sentences with um … zu.",
+          "cue": "Wir drehen die Heizung runter. Wir wollen Energie sparen.",
+          "t": "Wir drehen die Heizung runter, ___.",
           "answer": [
-            "zu"
+            "um Energie zu sparen"
           ],
-          "s": "I sort my trash to protect the environment."
+          "why": "Same subject (wir), so um … zu; wollen disappears.",
+          "s": "We turn the heating down to save energy."
         },
         {
           "type": "choice",
@@ -540,7 +568,8 @@
             "sparen"
           ],
           "answer": 1,
-          "s": "I turn off the computer in the evening to save electricity."
+          "s": "I turn off the computer in the evening to save electricity.",
+          "why": "um … zu: zu stands right before the infinitive at the end."
         },
         {
           "type": "order",
@@ -676,6 +705,18 @@
           "fünfzig Prozent"
         ],
         "answer": 1
+      },
+      {
+        "q": {
+          "t": "Wie findet Sara das Experiment am Ende?",
+          "s": "What does Sara think of the experiment in the end?"
+        },
+        "options": [
+          "Sie ist zufrieden damit.",
+          "Sie findet es zu anstrengend.",
+          "Sie will es nicht wiederholen."
+        ],
+        "answer": 0
       }
     ]
   },

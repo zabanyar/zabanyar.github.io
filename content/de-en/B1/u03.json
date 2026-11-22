@@ -227,8 +227,11 @@
     },
     {
       "id": "p08",
-      "t": "Gute Besserung!",
-      "s": "Get well soon!"
+      "t": "Ich bin allergisch gegen Penicillin.",
+      "s": "I'm allergic to penicillin.",
+      "alts": [
+        "Gegen Penicillin bin ich allergisch."
+      ]
     }
   ],
   "dialogue": {
@@ -242,7 +245,7 @@
         "voice": "f"
       },
       "B": {
-        "name": "Herr Wagner",
+        "name": "Dr. Neumann",
         "voice": "m"
       }
     },
@@ -294,8 +297,8 @@
       },
       {
         "sp": "A",
-        "t": "Ich arbeite in einem Lager. Kann ich morgen wieder arbeiten?",
-        "s": "I work in a warehouse. Can I go back to work tomorrow?"
+        "t": "Ich arbeite in einem Büro. Kann ich morgen wieder arbeiten?",
+        "s": "I work in an office. Can I go back to work tomorrow?"
       },
       {
         "sp": "B",
@@ -375,26 +378,33 @@
             "wirst"
           ],
           "answer": 0,
-          "s": "Blood pressure is taken at every checkup."
+          "s": "Blood pressure is taken at every checkup.",
+          "why": "The subject is der Blutdruck (singular), so werden → wird."
         },
         {
           "type": "choice",
-          "t": "Viele ältere Menschen ___ im Herbst gegen Grippe geimpft.",
+          "task": "Which reply is correct?",
+          "cue": "Was passiert mit dem Röntgenbild?",
+          "t": "___",
           "options": [
-            "wird",
-            "werden",
-            "worden"
+            "Es wird zum Facharzt geschickt.",
+            "Es wird zum Facharzt schickt.",
+            "Es werden zum Facharzt geschickt."
           ],
-          "answer": 1,
-          "s": "Many older people are vaccinated against the flu in the fall."
+          "answer": 0,
+          "why": "Passive = werden + past participle (geschickt); es takes wird.",
+          "s": "It is sent to the specialist."
         },
         {
           "type": "type",
-          "t": "In der Notaufnahme ___ Patienten rund um die Uhr behandelt.",
+          "task": "Make it passive.",
+          "cue": "Die Ärztin misst meinen Blutdruck.",
+          "t": "___ von der Ärztin gemessen.",
           "answer": [
-            "werden"
+            "Mein Blutdruck wird"
           ],
-          "s": "In the emergency room, patients are treated around the clock."
+          "why": "The accusative object becomes the subject (meinen → mein), and wird stands in position two.",
+          "s": "My blood pressure is taken by the doctor."
         },
         {
           "type": "type",
@@ -403,7 +413,8 @@
             "genommen",
             "eingenommen"
           ],
-          "s": "The medication is taken three times a day. (nehmen)"
+          "s": "The medication is taken three times a day. (nehmen)",
+          "why": "The passive needs the past participle: nehmen → genommen."
         },
         {
           "type": "choice",
@@ -414,7 +425,8 @@
             "bin"
           ],
           "answer": 0,
-          "s": "I'm having surgery on my knee tomorrow."
+          "s": "I'm having surgery on my knee tomorrow.",
+          "why": "The subject is ich: ich werde operiert."
         },
         {
           "type": "type",
@@ -422,7 +434,8 @@
           "answer": [
             "wirst"
           ],
-          "s": "Don't worry, you'll be examined right away."
+          "s": "Don't worry, you'll be examined right away.",
+          "why": "The subject is du: du wirst untersucht."
         },
         {
           "type": "order",
@@ -448,7 +461,7 @@
         "t": "Er wurde operiert. Er ist operiert worden.",
         "s": "The passive in the past: Präteritum and Perfekt"
       },
-      "explain": "For the past, the passive has two forms – again with the **past participle** at the end.\n**Präteritum**: **wurde** + participle. This is the usual form in writing and very common in speech, too: Mein Vater **wurde** gestern **operiert**.\n**Perfekt**: **sein** + participle + **worden**: Mein Vater **ist** gestern **operiert worden**. Careful: in the passive it is **worden**, not **geworden**. **geworden** is only used for *to become*: Sie ist Ärztin **geworden**.\nThe forms of wurde: ich **wurde**, du **wurdest**, er/sie/es **wurde**, wir **wurden**, ihr **wurdet**, sie/Sie **wurden**.\nIn a subordinate clause, the conjugated verb goes to the end: …, weil ich operiert **wurde**. · …, weil ich operiert worden **bin**.",
+      "explain": "For the past, the passive has two forms – again with the **past participle** at the end.\n**Präteritum**: **wurde** + participle. This is the usual form in writing and very common in speech, too: Mein Vater **wurde** gestern **operiert**.\n**Perfekt**: **sein** + participle + **worden**: Mein Vater **ist** gestern **operiert worden**. Careful: in the passive it is **worden**, not **geworden**. **geworden** is only used for *to become*: Sie ist Ärztin **geworden**.\nThe forms of wurde: ich **wurde**, du **wurdest**, er/sie/es **wurde**, wir **wurden**, ihr **wurdet**, sie/Sie **wurden**.\nIn a subordinate clause, the conjugated verb goes to the end: …, weil ich operiert **wurde**. · …, weil ich operiert worden **bin**.\n**Coming at B2:** the passive with modal verbs – Das Formular **muss** noch **unterschrieben werden**.",
       "table": [
         [
           "Präsens",
@@ -503,7 +516,8 @@
             "worden"
           ],
           "answer": 1,
-          "s": "My mother had eye surgery yesterday."
+          "s": "My mother had eye surgery yesterday.",
+          "why": "Gestern refers to the past: Präteritum passive with wurde."
         },
         {
           "type": "choice",
@@ -514,15 +528,19 @@
             "worden"
           ],
           "answer": 2,
-          "s": "The patient was operated on yesterday."
+          "s": "The patient was operated on yesterday.",
+          "why": "The Perfekt passive ends in worden; geworden only means 'became'."
         },
         {
           "type": "type",
-          "t": "Nach dem Unfall ___ Ali sofort ins Krankenhaus gebracht.",
+          "task": "Put it in the Perfekt.",
+          "cue": "Unser Sohn wurde gestern gegen Grippe geimpft.",
+          "t": "Unser Sohn ist gestern gegen Grippe ___.",
           "answer": [
-            "wurde"
+            "geimpft worden"
           ],
-          "s": "After the accident, Ali was taken to the hospital immediately."
+          "why": "Perfekt passive: sein + participle + worden. geworden only means 'became'.",
+          "s": "Our son was vaccinated against the flu yesterday."
         },
         {
           "type": "type",
@@ -530,18 +548,22 @@
           "answer": [
             "worden"
           ],
-          "s": "The bill has already been paid."
+          "s": "The bill has already been paid.",
+          "why": "Perfekt passive: ist + bezahlt + worden."
         },
         {
           "type": "choice",
-          "t": "Bist du schon gegen Grippe geimpft worden? – Ja, ich ___ letzte Woche geimpft.",
+          "task": "Which reply fits?",
+          "cue": "Warum warst du letzte Woche nicht bei der Arbeit?",
+          "t": "___",
           "options": [
-            "wurde",
-            "wurdest",
-            "wurden"
+            "Ich bin krankgeschrieben worden.",
+            "Ich bin krankgeschrieben geworden.",
+            "Ich habe krankgeschrieben worden."
           ],
           "answer": 0,
-          "s": "Have you been vaccinated against the flu yet? – Yes, I was vaccinated last week."
+          "why": "The Perfekt passive uses sein + participle + worden.",
+          "s": "I was put on sick leave."
         },
         {
           "type": "type",
@@ -549,7 +571,8 @@
           "answer": [
             "wurden"
           ],
-          "s": "We were treated very kindly at the hospital."
+          "s": "We were treated very kindly at the hospital.",
+          "why": "The subject is wir: wir wurden behandelt."
         },
         {
           "type": "order",
@@ -685,6 +708,18 @@
           "die Eins-Eins-Sechs"
         ],
         "answer": 1
+      },
+      {
+        "q": {
+          "t": "Was sollte man zu jedem Arztbesuch mitnehmen?",
+          "s": "What should you take with you to every doctor's appointment?"
+        },
+        "options": [
+          "die Versichertenkarte",
+          "den Kontoauszug",
+          "ein Röntgenbild"
+        ],
+        "answer": 0
       }
     ]
   },

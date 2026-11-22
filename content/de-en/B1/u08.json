@@ -236,8 +236,8 @@
     "lines": [
       {
         "sp": "A",
-        "t": "Reza, nächsten Monat ist der fünfunddreißigste Hochzeitstag von Mama und Papa. Wollen wir eine Feier organisieren?",
-        "s": "Reza, next month is Mom and Dad's thirty-fifth wedding anniversary. Shall we organize a party?"
+        "t": "Reza, nächsten Monat ist der fünfundvierzigste Hochzeitstag von Mama und Papa. Wollen wir eine Feier organisieren?",
+        "s": "Reza, next month is Mom and Dad's forty-fifth wedding anniversary. Shall we organize a party?"
       },
       {
         "sp": "B",
@@ -371,7 +371,8 @@
             "sich"
           ],
           "answer": 1,
-          "s": "I'd like a new bike."
+          "s": "I'd like a new bike.",
+          "why": "There is already an object (ein Fahrrad), so the reflexive is dative: mir."
         },
         {
           "type": "choice",
@@ -382,7 +383,8 @@
             "sich"
           ],
           "answer": 1,
-          "s": "Please comb your hair!"
+          "s": "Please comb your hair!",
+          "why": "die Haare is the object, so du takes the dative: dir."
         },
         {
           "type": "choice",
@@ -393,7 +395,8 @@
             "sich"
           ],
           "answer": 1,
-          "s": "I'm looking forward to the weekend."
+          "s": "I'm looking forward to the weekend.",
+          "why": "sich freuen has no other object, so the reflexive is accusative: mich."
         },
         {
           "type": "type",
@@ -401,15 +404,19 @@
           "answer": [
             "dir"
           ],
-          "s": "Have you washed your hands?"
+          "s": "Have you washed your hands?",
+          "why": "die Hände is the object, so du takes the dative: dir."
         },
         {
           "type": "type",
-          "t": "Das kann ich ___ gut vorstellen.",
+          "task": "Say it about yourself (ich).",
+          "cue": "Mina putzt sich die Zähne.",
+          "t": "Ich ___ die Zähne.",
           "answer": [
-            "mir"
+            "putze mir"
           ],
-          "s": "I can easily imagine that."
+          "why": "There is another object (die Zähne), so ich takes the dative: mir.",
+          "s": "I brush my teeth."
         },
         {
           "type": "type",
@@ -417,7 +424,8 @@
           "answer": [
             "sich"
           ],
-          "s": "Lena bought herself a new dress."
+          "s": "Lena bought herself a new dress.",
+          "why": "er, sie, es always takes sich, in the dative too."
         },
         {
           "type": "order",
@@ -428,9 +436,18 @@
           ]
         },
         {
-          "type": "order",
-          "t": "Ich putze mir die Zähne.",
-          "s": "I'm brushing my teeth."
+          "type": "choice",
+          "task": "Which reply fits?",
+          "cue": "Was wünschst du dir zum Geburtstag?",
+          "t": "___",
+          "options": [
+            "Ich wünsche mir ein neues Tagebuch.",
+            "Ich wünsche mich ein neues Tagebuch.",
+            "Ich wünsche dir ein neues Tagebuch."
+          ],
+          "answer": 0,
+          "why": "sich etwas wünschen: with the object ein Tagebuch, ich takes the dative mir.",
+          "s": "I'd like a new diary."
         }
       ]
     },
@@ -499,7 +516,8 @@
             "lassen"
           ],
           "answer": 0,
-          "s": "My bike is broken. I'm having it repaired."
+          "s": "My bike is broken. I'm having it repaired.",
+          "why": "ich lasse; lassen + infinitive = to have something done."
         },
         {
           "type": "choice",
@@ -510,7 +528,8 @@
             "lässt"
           ],
           "answer": 1,
-          "s": "I got a haircut."
+          "s": "I got a haircut.",
+          "why": "With another infinitive (schneiden), the Perfekt uses lassen, not gelassen."
         },
         {
           "type": "type",
@@ -519,7 +538,8 @@
             "lässt",
             "laesst"
           ],
-          "s": "You always leave your phone lying on the table."
+          "s": "You always leave your phone lying on the table.",
+          "why": "du lässt: the stem vowel changes to ä for du and er, sie, es."
         },
         {
           "type": "choice",
@@ -530,15 +550,22 @@
             "ließ"
           ],
           "answer": 0,
-          "s": "My parents don't let me travel alone."
+          "s": "My parents don't let me travel alone.",
+          "why": "The subject is meine Eltern (plural): sie lassen."
         },
         {
           "type": "type",
-          "t": "Wir haben das Essen liefern ___.",
+          "task": "Say it with lassen. Start with Wir …",
+          "cue": "Die Kinder dürfen heute länger aufbleiben.",
+          "t": "Wir ___.",
           "answer": [
-            "lassen"
+            "lassen die Kinder heute länger aufbleiben",
+            "lassen heute die Kinder länger aufbleiben",
+            "lassen die Kinder heute laenger aufbleiben",
+            "lassen heute die Kinder laenger aufbleiben"
           ],
-          "s": "We had the food delivered."
+          "why": "lassen = to let: lassen + the person (accusative) + infinitive at the end.",
+          "s": "We're letting the children stay up later today."
         },
         {
           "type": "choice",
@@ -549,7 +576,8 @@
             "lässt"
           ],
           "answer": 0,
-          "s": "Did you leave the key in the car?"
+          "s": "Did you leave the key in the car?",
+          "why": "Without another verb, lassen means to leave and has the normal participle gelassen."
         },
         {
           "type": "order",
@@ -560,9 +588,18 @@
           ]
         },
         {
-          "type": "order",
-          "t": "Sie lässt sich die Haare schneiden.",
-          "s": "She's getting her hair cut."
+          "type": "choice",
+          "task": "Which reply fits?",
+          "cue": "Ist dein Auto wieder in Ordnung?",
+          "t": "___",
+          "options": [
+            "Ja, ich habe es in der Werkstatt reparieren lassen.",
+            "Ja, ich habe es in der Werkstatt reparieren gelassen.",
+            "Ja, ich habe es in der Werkstatt repariert lassen."
+          ],
+          "answer": 0,
+          "why": "With another infinitive (reparieren), the Perfekt uses lassen, not gelassen.",
+          "s": "Yes, I had it repaired at the garage."
         }
       ]
     }
@@ -578,8 +615,8 @@
         "s": "In Maryam and Ali's apartment, three generations live under one roof."
       },
       {
-        "t": "Vor zwei Jahren ist Maryams Mutter aus Teheran nach Hamburg gezogen.",
-        "s": "Two years ago, Maryam's mother moved from Tehran to Hamburg."
+        "t": "Vor zwei Jahren ist Maryams Mutter aus Teheran nach Köln gezogen.",
+        "s": "Two years ago, Maryam's mother moved from Tehran to Cologne."
       },
       {
         "t": "Seitdem kümmert sie sich oft um die beiden Enkelkinder, wenn ihre Tochter und ihr Schwiegersohn arbeiten.",
@@ -625,8 +662,8 @@
     "questions": [
       {
         "q": {
-          "t": "Wer ist vor zwei Jahren nach Hamburg gezogen?",
-          "s": "Who moved to Hamburg two years ago?"
+          "t": "Wer ist vor zwei Jahren nach Köln gezogen?",
+          "s": "Who moved to Cologne two years ago?"
         },
         "options": [
           "Maryams Mutter",
@@ -682,6 +719,18 @@
           "sehr langweilig"
         ],
         "answer": 1
+      },
+      {
+        "q": {
+          "t": "Was denkt Maryam über die Hilfe ihrer Mutter?",
+          "s": "What does Maryam think about her mother's help?"
+        },
+        "options": [
+          "Sie ist sehr dankbar dafür.",
+          "Sie findet sie anstrengend.",
+          "Sie braucht sie eigentlich nicht."
+        ],
+        "answer": 0
       }
     ]
   },

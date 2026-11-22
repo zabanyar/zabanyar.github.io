@@ -65,7 +65,8 @@
       "ex": {
         "t": "Nach der langen Wanderung waren wir sehr müde.",
         "s": "After the long hike we were very tired."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w06",
@@ -202,8 +203,8 @@
     },
     {
       "id": "p06",
-      "t": "Was können Sie uns empfehlen?",
-      "s": "What can you recommend to us?"
+      "t": "Was gibt es hier zu sehen?",
+      "s": "What is there to see here?"
     },
     {
       "id": "p07",
@@ -299,7 +300,7 @@
         "t": "frisches Brot, mit großer Freude",
         "s": "Adjective endings without an article (and a review)"
       },
-      "explain": "You already know the adjective endings after **der, die, das** and after **ein, kein, mein** (A2). When there is **no article** at all, the adjective has to show the case and gender itself, so it takes the endings of the definite article: **der → -er, das → -es, die → -e, dem → -em, den → -en**: **kalter Tee, frisches Brot, frische Milch, mit kaltem Wasser, für heißen Tee**.\nThe only exception is the genitive masculine and neuter: there the adjective ends in **-en**, because the noun already shows the case with -s: **wegen schlechten Wetters**.\nYou need these endings with uncountable nouns (**Wasser, Brot, Wetter**), with plurals without an article (**alte Freunde, mit guten Freunden**), after numbers (**zwei kleine Kinder**) and after **viel, wenig, etwas**, which don't change themselves: **viel frisches Obst, mit etwas kaltem Wasser**. They are also typical of set phrases: **Liebe Grüße! Mit großer Freude …**\n**Review – one simple rule:** the case must be shown once, either by the article or by the adjective.\n• **der, die, das, dieser …:** the article shows the case, so the adjective only ends in **-e** or **-en**: **der alte Mann, mit dem alten Mann**.\n• **ein, kein, mein …:** where the article has no ending (**ein** Mann, **ein** Haus), the adjective takes the strong ending: **ein alter Mann, ein kleines Haus**; everywhere else **-e** or **-en**: **einen alten Mann, in einem kleinen Haus**.\n• **no article:** the adjective takes the strong ending: **alter Käse, frisches Brot, mit großer Freude**.",
+      "explain": "You already know the adjective endings after **der, die, das** and after **ein, kein, mein** (A2). When there is **no article** at all, the adjective has to show the case and gender itself, so it takes the endings of the definite article: **der → -er, das → -es, die → -e, dem → -em, den → -en**: **kalter Tee, frisches Brot, frische Milch, mit kaltem Wasser, für heißen Tee**.\nThe only exception is the genitive masculine and neuter: there the adjective ends in **-en**, because the noun already shows the case with -s: **wegen schlechten Wetters**.\nYou need these endings with uncountable nouns (**Wasser, Brot, Wetter**), with plurals without an article (**alte Freunde, mit guten Freunden**), after numbers (**zwei kleine Kinder**) and after **viel, wenig, etwas**, which don't change themselves: **viel frisches Obst, mit etwas kaltem Wasser**. They are also typical of set phrases: **Liebe Grüße! Mit großer Freude …**\n**Review – one simple rule:** the case must be shown once, either by the article or by the adjective.\n• **der, die, das, dieser …:** the article shows the case, so the adjective only ends in **-e** or **-en**: **der alte Mann, mit dem alten Mann**.\n• **ein, kein, mein …:** where the article has no ending (**ein** Mann, **ein** Haus), the adjective takes the strong ending: **ein alter Mann, ein kleines Haus**; everywhere else **-e** or **-en**: **einen alten Mann, in einem kleinen Haus**.\n• **no article:** the adjective takes the strong ending: **alter Käse, frisches Brot, mit großer Freude**.\nIf you speak Turkish: Turkish has no articles and shows the case with an ending on the noun (*evi, evde*). German adjectives without an article do a similar job – their ending shows the case.",
       "table": [
         [
           "Nominativ",
@@ -342,14 +343,17 @@
       "exercises": [
         {
           "type": "choice",
-          "t": "Ich trinke morgens gern ___ Tee.",
+          "task": "Which reply is correct?",
+          "cue": "Wie war das Wetter im Urlaub?",
+          "t": "___",
           "options": [
-            "heiß",
-            "heißen",
-            "heißer"
+            "Wir hatten fast immer schönes Wetter.",
+            "Wir hatten fast immer schöner Wetter.",
+            "Wir hatten fast immer schönem Wetter."
           ],
-          "answer": 1,
-          "s": "In the morning I like to drink hot tea."
+          "answer": 0,
+          "why": "Wetter is neuter and accusative here; with no article the adjective ends in -es, like das.",
+          "s": "We had nice weather almost all the time."
         },
         {
           "type": "choice",
@@ -360,7 +364,8 @@
             "schlechten"
           ],
           "answer": 0,
-          "s": "When the weather is bad, we stay at home."
+          "s": "When the weather is bad, we stay at home.",
+          "why": "bei takes the dative; Wetter is neuter, and with no article the adjective ends in -em, like dem."
         },
         {
           "type": "choice",
@@ -371,15 +376,20 @@
             "frischen"
           ],
           "answer": 1,
-          "s": "At the market there's fresh local fruit."
+          "s": "At the market there's fresh local fruit.",
+          "why": "Obst is neuter and accusative; with no article the adjective ends in -es, like das."
         },
         {
           "type": "type",
-          "t": "Wir haben ___ Brot gekauft.",
+          "task": "Put the room in the plural (no article).",
+          "cue": "Im Hotel gab es ein großes Zimmer mit Balkon.",
+          "t": "Im Hotel gab es ___ mit Balkon.",
           "answer": [
-            "frisches"
+            "große Zimmer",
+            "grosse Zimmer"
           ],
-          "s": "We bought fresh bread."
+          "why": "Plural without an article: the adjective takes the strong ending -e, like die.",
+          "s": "There were big rooms with balconies at the hotel."
         },
         {
           "type": "type",
@@ -388,7 +398,8 @@
             "leckeren",
             "leckere"
           ],
-          "s": "The café is known for delicious cake."
+          "s": "The café is known for delicious cake.",
+          "why": "Kuchen is masculine, accusative after für, no article: -en, like den (plural leckere also fits)."
         },
         {
           "type": "choice",
@@ -399,7 +410,8 @@
             "kleinem"
           ],
           "answer": 1,
-          "s": "We're staying in a small hotel by the lake."
+          "s": "We're staying in a small hotel by the lake.",
+          "why": "einem already shows the case, so the adjective only ends in -en."
         },
         {
           "type": "type",
@@ -407,7 +419,8 @@
           "answer": [
             "guten"
           ],
-          "s": "We ate with good friends."
+          "s": "We ate with good friends.",
+          "why": "Plural dative without an article: -en, like den Freunden."
         },
         {
           "type": "order",
@@ -479,14 +492,15 @@
       "exercises": [
         {
           "type": "choice",
-          "t": "Frau Wagner sitzt im Büro. Jemand klopft an die Tür. Sie ruft: „___!“",
+          "t": "Frau Peters sitzt im Büro. Jemand klopft an die Tür. Sie ruft: „___!“",
           "options": [
             "Herein",
             "Hinein",
             "Heraus"
           ],
           "answer": 0,
-          "s": "Ms. Wagner is sitting in her office. Someone knocks on the door. She calls out: \"Come in!\""
+          "s": "Ms. Peters is sitting in her office. Someone knocks on the door. She calls out: \"Come in!\"",
+          "why": "Someone comes toward the speaker, into the room: her + ein = herein."
         },
         {
           "type": "choice",
@@ -497,7 +511,8 @@
             "hinauf"
           ],
           "answer": 0,
-          "s": "I'm standing at the bottom of the stairs and call: \"Lena, please come down!\""
+          "s": "I'm standing at the bottom of the stairs and call: \"Lena, please come down!\"",
+          "why": "Lena comes down toward me, the speaker: her + unter = herunter."
         },
         {
           "type": "choice",
@@ -508,18 +523,22 @@
             "gegenüber"
           ],
           "answer": 0,
-          "s": "We're cycling along the Rhine."
+          "s": "We're cycling along the Rhine.",
+          "why": "Along a river: den Rhein entlang, with entlang after the noun."
         },
         {
           "type": "choice",
-          "t": "Der Weg führt ___ den Wald.",
+          "task": "Which reply fits?",
+          "cue": "Entschuldigung, wo ist hier ein Bäcker?",
+          "t": "___",
           "options": [
-            "durch",
-            "gegenüber",
-            "entlang"
+            "Gleich gegenüber, auf der anderen Straßenseite.",
+            "Gleich entlang, auf der anderen Straßenseite.",
+            "Gleich durch, auf der anderen Straßenseite."
           ],
           "answer": 0,
-          "s": "The path leads through the forest."
+          "why": "gegenüber can stand alone and means across the street; durch and entlang need a noun.",
+          "s": "Right across from here, on the other side of the street."
         },
         {
           "type": "type",
@@ -527,7 +546,8 @@
           "answer": [
             "den"
           ],
-          "s": "We walked through the park."
+          "s": "We walked through the park.",
+          "why": "durch takes the accusative: durch den Park."
         },
         {
           "type": "type",
@@ -536,7 +556,8 @@
             "dem",
             "vom"
           ],
-          "s": "The hotel is across from the station."
+          "s": "The hotel is across from the station.",
+          "why": "gegenüber takes the dative: gegenüber dem Bahnhof (in speech: vom Bahnhof)."
         },
         {
           "type": "order",
@@ -544,12 +565,15 @@
           "s": "We're walking along the river."
         },
         {
-          "type": "order",
-          "t": "Unser Hotel liegt gegenüber dem Bahnhof.",
-          "s": "Our hotel is across from the station.",
-          "alts": [
-            "Gegenüber dem Bahnhof liegt unser Hotel."
-          ]
+          "type": "type",
+          "task": "Put entlang after the noun, without am.",
+          "cue": "Wir laufen am Rhein entlang.",
+          "t": "Wir laufen ___ entlang.",
+          "answer": [
+            "den Rhein"
+          ],
+          "why": "When entlang comes after the noun, the noun is in the accusative: den Rhein entlang.",
+          "s": "We're walking along the Rhine."
         }
       ]
     }
@@ -605,15 +629,15 @@
         "s": "On Saturday we're taking the train back to Cologne."
       },
       {
-        "t": "Bis bald und liebe Grüße, deine Mina",
-        "s": "See you soon! Love, Mina"
+        "t": "Bis bald und liebe Grüße, deine Maryam",
+        "s": "See you soon! Love, Maryam"
       }
     ],
     "questions": [
       {
         "q": {
-          "t": "Wo macht Mina Urlaub?",
-          "s": "Where is Mina on vacation?"
+          "t": "Wo macht Maryam Urlaub?",
+          "s": "Where is Maryam on vacation?"
         },
         "options": [
           "an der Ostsee",
@@ -636,8 +660,8 @@
       },
       {
         "q": {
-          "t": "Was haben Mina und Ali am Montag gemacht?",
-          "s": "What did Mina and Ali do on Monday?"
+          "t": "Was haben Maryam und Ali am Montag gemacht?",
+          "s": "What did Maryam and Ali do on Monday?"
         },
         "options": [
           "eine Wanderung",
@@ -669,6 +693,18 @@
           "mit dem Bus"
         ],
         "answer": 1
+      },
+      {
+        "q": {
+          "t": "Wie gefällt Maryam der Urlaub?",
+          "s": "How does Maryam like the vacation?"
+        },
+        "options": [
+          "sehr gut",
+          "gar nicht",
+          "Sie langweilt sich."
+        ],
+        "answer": 0
       }
     ]
   },

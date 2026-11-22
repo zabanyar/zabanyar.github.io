@@ -98,7 +98,8 @@
       "ex": {
         "t": "Das Theaterstück hat uns sehr gut gefallen.",
         "s": "We really liked the play."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w09",
@@ -172,14 +173,15 @@
       "ex": {
         "t": "Zum Geburtstag hat Amir ein neues Brettspiel bekommen.",
         "s": "Amir got a new board game for his birthday."
-      }
+      },
+      "sym": true
     }
   ],
   "phrases": [
     {
       "id": "p01",
-      "t": "Frohes neues Jahr!",
-      "s": "Happy New Year!"
+      "t": "Komm gut ins neue Jahr!",
+      "s": "Have a good start to the new year! (said before New Year's)"
     },
     {
       "id": "p02",
@@ -193,13 +195,13 @@
     },
     {
       "id": "p04",
-      "t": "Ich bin dabei!",
-      "s": "Count me in!"
+      "t": "Soll ich etwas mitbringen?",
+      "s": "Should I bring anything?"
     },
     {
       "id": "p05",
-      "t": "Wie wäre es mit …?",
-      "s": "How about …?"
+      "t": "Was hältst du davon, wenn wir …?",
+      "s": "What would you say if we …?"
     },
     {
       "id": "p06",
@@ -263,8 +265,8 @@
       },
       {
         "sp": "B",
-        "t": "Man besucht die Familie und deckt einen besonderen Tisch mit sieben Dingen, die mit dem Buchstaben S beginnen.",
-        "s": "People visit their families and set a special table with seven things that begin with the letter S (in Persian)."
+        "t": "Man besucht die Familie und deckt einen besonderen Tisch mit sieben Dingen. Auf Persisch beginnen ihre Namen alle mit demselben Buchstaben.",
+        "s": "People visit their families and set a special table with seven things. In Persian, all their names begin with the same letter (S)."
       },
       {
         "sp": "A",
@@ -370,7 +372,8 @@
             "etwas"
           ],
           "answer": 0,
-          "s": "Is anyone home? I can't hear anything."
+          "s": "Is anyone home? I can't hear anything.",
+          "why": "It's the subject (nominative) and nobody specific is meant: jemand."
         },
         {
           "type": "type",
@@ -379,7 +382,8 @@
             "jemanden",
             "jemand"
           ],
-          "s": "Did you meet anyone today?"
+          "s": "Did you meet anyone today?",
+          "why": "treffen takes the accusative: jemanden (in speech also jemand)."
         },
         {
           "type": "choice",
@@ -390,7 +394,8 @@
             "eine"
           ],
           "answer": 0,
-          "s": "I forgot my pen. Do you have one?"
+          "s": "I forgot my pen. Do you have one?",
+          "why": "Stift is masculine and accusative: einen."
         },
         {
           "type": "choice",
@@ -401,7 +406,8 @@
             "jemand"
           ],
           "answer": 0,
-          "s": "We're out of eggs. Can you buy some?"
+          "s": "We're out of eggs. Can you buy some?",
+          "why": "Eier is plural without an article, so welche (some)."
         },
         {
           "type": "type",
@@ -410,27 +416,35 @@
             "etwas",
             "was"
           ],
-          "s": "Is there any news?"
+          "s": "Is there any news?",
+          "why": "etwas (in speech was) + capitalized adjective with -es: etwas Neues."
         },
         {
           "type": "choice",
-          "t": "Im Museum ___ man nicht fotografieren.",
+          "task": "Which reply fits?",
+          "cue": "Wir haben keine Kekse mehr. Hast du noch welche?",
+          "t": "___",
           "options": [
-            "darf",
-            "dürfen",
-            "darfst"
+            "Nein, ich habe auch keine mehr.",
+            "Nein, ich habe auch keiner mehr.",
+            "Nein, ich habe auch niemand mehr."
           ],
           "answer": 0,
-          "s": "You're not allowed to take photos in the museum."
+          "why": "Kekse is plural, so the pronoun takes the plural form keine, like die.",
+          "s": "No, I don't have any left either."
         },
         {
           "type": "type",
-          "t": "Hat noch jemand eine Frage? Nein, ___ hat eine Frage.",
+          "task": "Make it negative.",
+          "cue": "Ich habe heute jemanden getroffen.",
+          "t": "Ich habe heute ___ getroffen.",
           "answer": [
+            "niemanden",
             "niemand",
-            "keiner"
+            "keinen"
           ],
-          "s": "Does anyone else have a question? No, nobody has a question."
+          "why": "The opposite of jemanden is niemanden (accusative after treffen); in speech also niemand.",
+          "s": "I didn't meet anyone today."
         },
         {
           "type": "order",
@@ -511,18 +525,19 @@
             "Das"
           ],
           "answer": 2,
-          "s": "The children's room is very bright."
+          "s": "The children's room is very bright.",
+          "why": "The last word decides the gender: das Zimmer → das Kinderzimmer."
         },
         {
-          "type": "choice",
-          "t": "___ Haustür ist offen.",
-          "options": [
-            "Der",
-            "Die",
-            "Das"
+          "type": "type",
+          "task": "Make one compound noun.",
+          "cue": "Das ist eine Karte für den Eintritt.",
+          "t": "Das ist eine ___.",
+          "answer": [
+            "Eintrittskarte"
           ],
-          "answer": 1,
-          "s": "The front door is open."
+          "why": "Eintritt + linking -s- + Karte; the last word (die Karte) decides the article.",
+          "s": "That's an admission ticket."
         },
         {
           "type": "choice",
@@ -533,18 +548,22 @@
             "sonnbar"
           ],
           "answer": 0,
-          "s": "The sun is shining today; it's sunny."
+          "s": "The sun is shining today; it's sunny.",
+          "why": "die Sonne + -ig = sonnig."
         },
         {
           "type": "choice",
-          "t": "Der Eintritt kostet nichts, er ist ___.",
+          "task": "Which reply is correct?",
+          "cue": "Kann man diese Jacke in der Maschine waschen?",
+          "t": "___",
           "options": [
-            "kostbar",
-            "kostenlos",
-            "kostig"
+            "Ja, sie ist waschbar.",
+            "Ja, sie ist waschlos.",
+            "Ja, sie ist waschlich."
           ],
-          "answer": 1,
-          "s": "Admission costs nothing; it's free."
+          "answer": 0,
+          "why": "-bar means 'can be done', like English -able: waschbar = washable.",
+          "s": "Yes, it's machine washable."
         },
         {
           "type": "type",
@@ -552,7 +571,8 @@
           "answer": [
             "essbar"
           ],
-          "s": "You can eat this mushroom; it's edible."
+          "s": "You can eat this mushroom; it's edible.",
+          "why": "-bar = can be done: essen → essbar."
         },
         {
           "type": "type",
@@ -560,7 +580,8 @@
           "answer": [
             "arbeitslos"
           ],
-          "s": "He has no job; he's unemployed."
+          "s": "He has no job; he's unemployed.",
+          "why": "-los = without: ohne Arbeit = arbeitslos."
         },
         {
           "type": "choice",
@@ -571,7 +592,8 @@
             "taglos"
           ],
           "answer": 1,
-          "s": "I drink tea every day; I drink it daily."
+          "s": "I drink tea every day; I drink it daily.",
+          "why": "der Tag + -lich, with an umlaut: täglich = every day."
         },
         {
           "type": "order",
@@ -588,8 +610,8 @@
     },
     "text": [
       {
-        "t": "Als Reza vor einem Jahr nach Köln kam, kannte er niemanden und wusste nichts über die deutschen Feste.",
-        "s": "When Reza came to Cologne a year ago, he didn't know anyone and knew nothing about German festivals."
+        "t": "Als Karim vor einem Jahr nach Köln kam, kannte er niemanden und wusste nichts über die deutschen Feste.",
+        "s": "When Karim came to Cologne a year ago, he didn't know anyone and knew nothing about German festivals."
       },
       {
         "t": "Im Februar erlebte er seinen ersten Karneval.",
@@ -604,12 +626,12 @@
         "s": "On Rose Monday a huge parade went through the city, and candy flew from the floats into the crowd."
       },
       {
-        "t": "Im März feierte Reza mit anderen Iranern Nouruz, und viele deutsche Freunde kamen mit.",
-        "s": "In March, Reza celebrated Nowruz with other Iranians, and many German friends came along."
+        "t": "Im März feierte Karim mit anderen Iranern Nouruz, und viele deutsche Freunde kamen mit.",
+        "s": "In March, Karim celebrated Nowruz with other Iranians, and many German friends came along."
       },
       {
-        "t": "Jemand hatte einen wunderschönen Haft-Sin-Tisch gedeckt, und es gab persische Musik und leckeres Essen.",
-        "s": "Someone had set a beautiful Haft-Sin table, and there was Persian music and delicious food."
+        "t": "Jemand hatte einen wunderschönen Tisch mit sieben traditionellen Dingen gedeckt, und es gab persische Musik und leckeres Essen.",
+        "s": "Someone had set a beautiful table with seven traditional items (the Haft-Sin), and there was Persian music and delicious food."
       },
       {
         "t": "Im Sommer besuchte er viele kostenlose Veranstaltungen im Park, zum Beispiel Konzerte und Theaterstücke.",
@@ -628,15 +650,15 @@
         "s": "On New Year's Eve he watched the fireworks over the Rhine at midnight with his neighbors."
       },
       {
-        "t": "Heute sagt Reza: „Man muss nicht alles verstehen, man muss nur mitfeiern.“",
-        "s": "Today Reza says, \"You don't have to understand everything – you just have to join in the celebrations.\""
+        "t": "Heute sagt Karim: „Man muss nicht alles verstehen, man muss nur mitfeiern.“",
+        "s": "Today Karim says, \"You don't have to understand everything – you just have to join in the celebrations.\""
       }
     ],
     "questions": [
       {
         "q": {
-          "t": "Wie war Rezas Situation, als er nach Köln kam?",
-          "s": "What was Reza's situation when he came to Cologne?"
+          "t": "Wie war Karims Situation, als er nach Köln kam?",
+          "s": "What was Karim's situation when he came to Cologne?"
         },
         "options": [
           "Er kannte niemanden.",
@@ -653,14 +675,14 @@
         "options": [
           "Es gab ein großes Feuerwerk.",
           "Ein riesiger Umzug zog durch die Stadt.",
-          "Reza feierte Nouruz."
+          "Karim feierte Nouruz."
         ],
         "answer": 1
       },
       {
         "q": {
-          "t": "Mit wem feierte Reza Nouruz?",
-          "s": "Who did Reza celebrate Nowruz with?"
+          "t": "Mit wem feierte Karim Nouruz?",
+          "s": "Who did Karim celebrate Nowruz with?"
         },
         "options": [
           "allein",
@@ -671,8 +693,8 @@
       },
       {
         "q": {
-          "t": "Was gefiel Reza am besten?",
-          "s": "What did Reza like best?"
+          "t": "Was gefiel Karim am besten?",
+          "s": "What did Karim like best?"
         },
         "options": [
           "der Karneval",
@@ -683,13 +705,37 @@
       },
       {
         "q": {
-          "t": "Wo sah Reza das Feuerwerk?",
-          "s": "Where did Reza see the fireworks?"
+          "t": "Wo sah Karim das Feuerwerk?",
+          "s": "Where did Karim see the fireworks?"
         },
         "options": [
           "über dem Rhein",
           "im Park",
           "auf dem Weihnachtsmarkt"
+        ],
+        "answer": 0
+      },
+      {
+        "q": {
+          "t": "Warum kamen wohl viele deutsche Freunde zur Feier mit?",
+          "s": "Why did many German friends probably come along to the celebration?"
+        },
+        "options": [
+          "Sie wollten das persische Neujahrsfest kennenlernen.",
+          "Sie mussten dort arbeiten.",
+          "Nouruz ist ein deutscher Feiertag."
+        ],
+        "answer": 0
+      },
+      {
+        "q": {
+          "t": "Wie fühlt sich Karim heute in Köln?",
+          "s": "How does Karim feel in Cologne today?"
+        },
+        "options": [
+          "Er fühlt sich wohl.",
+          "Er ist immer noch allein.",
+          "Er will zurück in seine Heimat."
         ],
         "answer": 0
       }
@@ -735,7 +781,7 @@
     },
     {
       "t": "Ich habe keine Karten mehr. Hast du noch welche?",
-      "s": "I don't have any tickets left. Do you still have some?"
+      "s": "I don't have any tickets left. Do you have any left?"
     },
     {
       "t": "Am Wochenende spielen wir oft Brettspiele mit den Kindern.",

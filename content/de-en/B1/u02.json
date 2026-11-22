@@ -232,8 +232,11 @@
     },
     {
       "id": "p08",
-      "t": "Schönen Feierabend!",
-      "s": "Have a nice evening! (said when you leave work)"
+      "t": "Ich freue mich auf die Zusammenarbeit.",
+      "s": "I'm looking forward to working with you.",
+      "alts": [
+        "Auf die Zusammenarbeit freue ich mich."
+      ]
     }
   ],
   "dialogue": {
@@ -243,11 +246,11 @@
     },
     "speakers": {
       "A": {
-        "name": "Frau Wagner",
+        "name": "Frau Lange",
         "voice": "f"
       },
       "B": {
-        "name": "Amir",
+        "name": "Hamid",
         "voice": "m"
       }
     },
@@ -259,8 +262,8 @@
       },
       {
         "sp": "B",
-        "t": "Guten Tag, Frau Wagner. Vielen Dank für die Einladung.",
-        "s": "Hello, Ms. Wagner. Thank you very much for the invitation."
+        "t": "Guten Tag, Frau Lange. Vielen Dank für die Einladung.",
+        "s": "Hello, Ms. Lange. Thank you very much for the invitation."
       },
       {
         "sp": "A",
@@ -321,7 +324,7 @@
         "t": "der Kollege, der mir hilft",
         "s": "Relative clauses: der, den, dem, denen …"
       },
-      "explain": "A **relative clause** gives more information about a noun: *the colleague **who** helps me*, *the contract **that** I signed*. In German it is always separated by **commas**, and its **verb goes to the end**.\nThe **relative pronoun** looks like the definite article (der, die, das …). Two questions decide which form you need:\n1. **Gender and number** come from the noun it refers to: der Vertrag → der, den, dem · die Stelle → die, der · die Kollegen (plural) → die, denen.\n2. **The case** comes from its role **inside the relative clause**: subject → **Nominativ** (der Kollege, **der** mir hilft); direct object → **Akkusativ** (der Vertrag, **den** ich unterschreibe); with a dative verb such as helfen, danken, gefallen, gehören, antworten → **Dativ** (die Kollegin, **der** ich helfe).\nOnly one form differs from the article: the dative plural is **denen** (not den): die Leute, **denen** ich helfe. The table gives the forms in the order masculine, feminine, neuter, plural.\nUnlike English, German never leaves the pronoun out: *the job I found* = die Stelle, **die** ich gefunden habe.",
+      "explain": "A **relative clause** gives more information about a noun: *the colleague **who** helps me*, *the contract **that** I signed*. In German it is always separated by **commas**, and its **verb goes to the end**.\nThe **relative pronoun** looks like the definite article (der, die, das …). Two questions decide which form you need:\n1. **Gender and number** come from the noun it refers to: der Vertrag → der, den, dem · die Stelle → die, der · die Kollegen (plural) → die, denen.\n2. **The case** comes from its role **inside the relative clause**: subject → **Nominativ** (der Kollege, **der** mir hilft); direct object → **Akkusativ** (der Vertrag, **den** ich unterschreibe); with a dative verb such as helfen, danken, gefallen, gehören, antworten → **Dativ** (die Kollegin, **der** ich helfe).\nOnly one form differs from the article: the dative plural is **denen** (not den): die Leute, **denen** ich helfe. The table gives the forms in the order masculine, feminine, neuter, plural.\nUnlike English, German never leaves the pronoun out: *the job I found* = die Stelle, **die** ich gefunden habe.\nIf you speak Persian: as in a Persian clause with *ke*, the verb comes at the end – der Mann, der hier **arbeitet** (*mardi ke injā kār **mikonad***).",
       "table": [
         [
           "Nominativ",
@@ -345,8 +348,8 @@
           "s": "I'm looking for a job that I enjoy."
         },
         {
-          "t": "Herr Wagner ist der Kollege, der mich eingearbeitet hat.",
-          "s": "Mr. Wagner is the colleague who trained me."
+          "t": "Herr Koch ist der Kollege, der mich eingearbeitet hat.",
+          "s": "Mr. Koch is the colleague who trained me."
         },
         {
           "t": "Der Vertrag, den ich bekommen habe, gilt für zwei Jahre.",
@@ -371,7 +374,8 @@
             "den"
           ],
           "answer": 1,
-          "s": "I'm looking for a job that pays well."
+          "s": "I'm looking for a job that pays well.",
+          "why": "Stelle is feminine and the subject of the relative clause: die."
         },
         {
           "type": "choice",
@@ -382,7 +386,8 @@
             "dem"
           ],
           "answer": 1,
-          "s": "The contract I received yesterday is very long."
+          "s": "The contract I received yesterday is very long.",
+          "why": "Vertrag is masculine and the object of bekommen (Akkusativ): den."
         },
         {
           "type": "choice",
@@ -393,23 +398,29 @@
             "denen"
           ],
           "answer": 1,
-          "s": "What's the name of the colleague you helped?"
+          "s": "What's the name of the colleague you helped?",
+          "why": "helfen takes the dative, and Kollegin is feminine: der."
         },
         {
           "type": "type",
-          "t": "Die Kollegen, ___ ich jeden Tag sehe, sind sehr nett.",
+          "task": "Join the sentences with a relative clause.",
+          "cue": "Ich habe einen Kollegen. Er spricht fünf Sprachen.",
+          "t": "Ich habe einen Kollegen, ___.",
           "answer": [
-            "die"
+            "der fünf Sprachen spricht",
+            "der fuenf Sprachen spricht"
           ],
-          "s": "The colleagues I see every day are very nice."
+          "why": "Kollege is masculine and the subject of the new clause, so der; the verb goes to the end.",
+          "s": "I have a colleague who speaks five languages."
         },
         {
           "type": "type",
-          "t": "Das ist Herr Wagner, ___ unsere Abteilung leitet.",
+          "t": "Das ist Herr Koch, ___ unsere Abteilung leitet.",
           "answer": [
             "der"
           ],
-          "s": "This is Mr. Wagner, who runs our department."
+          "s": "This is Mr. Koch, who runs our department.",
+          "why": "Herr Koch is masculine and the subject of leitet: der."
         },
         {
           "type": "type",
@@ -417,18 +428,22 @@
           "answer": [
             "denen"
           ],
-          "s": "These are the interns I'm showing around the company today."
+          "s": "These are the interns I'm showing around the company today.",
+          "why": "zeigen + person in the dative; the dative plural is denen."
         },
         {
           "type": "choice",
-          "t": "Das Büro, ___ wir jetzt haben, ist viel größer.",
+          "task": "Which reply is correct?",
+          "cue": "Wer ist die Frau dort am Fenster?",
+          "t": "___",
           "options": [
-            "das",
-            "dem",
-            "der"
+            "Das ist die Chefin, der ich meine Präsentation gezeigt habe.",
+            "Das ist die Chefin, die ich meine Präsentation gezeigt habe.",
+            "Das ist die Chefin, ich meine Präsentation gezeigt habe."
           ],
           "answer": 0,
-          "s": "The office we have now is much bigger."
+          "why": "jemandem etwas zeigen: the person is dative, so die Chefin → der. German never leaves out the pronoun.",
+          "s": "That's the boss I showed my presentation to."
         },
         {
           "type": "order",
@@ -476,8 +491,8 @@
           "s": "I'm planning to apply to a bigger company."
         },
         {
-          "t": "Vergiss bitte nicht, Frau Wagner anzurufen.",
-          "s": "Please don't forget to call Ms. Wagner."
+          "t": "Vergiss bitte nicht, Frau Peters anzurufen.",
+          "s": "Please don't forget to call Ms. Peters."
         },
         {
           "t": "Hast du Lust, nach der Arbeit spazieren zu gehen?",
@@ -498,7 +513,8 @@
             "machen zu"
           ],
           "answer": 1,
-          "s": "I'm planning to take a German course next year."
+          "s": "I'm planning to take a German course next year.",
+          "why": "After vorhaben, use zu + infinitive at the end: zu machen."
         },
         {
           "type": "choice",
@@ -509,7 +525,8 @@
             "anzurufen"
           ],
           "answer": 2,
-          "s": "Please don't forget to call the boss."
+          "s": "Please don't forget to call the boss.",
+          "why": "With separable verbs, zu goes between the prefix and the verb: anzurufen."
         },
         {
           "type": "choice",
@@ -520,7 +537,8 @@
             "arbeiten zu"
           ],
           "answer": 0,
-          "s": "I have to work longer today."
+          "s": "I have to work late today.",
+          "why": "After modal verbs like müssen there is no zu."
         },
         {
           "type": "type",
@@ -528,7 +546,8 @@
           "answer": [
             "zu"
           ],
-          "s": "It isn't easy to find a good job."
+          "s": "It isn't easy to find a good job.",
+          "why": "After Es ist nicht leicht, … the infinitive at the end takes zu."
         },
         {
           "type": "type",
@@ -537,20 +556,33 @@
             "auszufüllen",
             "auszufuellen"
           ],
-          "s": "I forgot to fill out the form. (ausfüllen)"
+          "s": "I forgot to fill out the form. (ausfüllen)",
+          "why": "ausfüllen is separable, so zu goes in the middle: auszufüllen."
         },
         {
           "type": "type",
-          "t": "Es macht mir Spaß, mit Menschen ___ arbeiten.",
+          "task": "Start with: Ich habe vor, …",
+          "cue": "Ich will morgen meinen Arbeitsvertrag unterschreiben.",
+          "t": "Ich habe vor, morgen ___.",
           "answer": [
-            "zu"
+            "meinen Arbeitsvertrag zu unterschreiben"
           ],
-          "s": "I enjoy working with people."
+          "why": "After vorhaben, use zu + infinitive at the end; the modal verb will disappears.",
+          "s": "I'm planning to sign my employment contract tomorrow."
         },
         {
-          "type": "order",
-          "t": "Ich habe vor, eine Ausbildung zu machen.",
-          "s": "I'm planning to do an apprenticeship."
+          "type": "choice",
+          "task": "Which sentence is correct?",
+          "cue": "Was rätst du mir für die Bewerbung?",
+          "t": "___",
+          "options": [
+            "Es ist wichtig, die Stellenanzeige genau zu lesen.",
+            "Es ist wichtig, die Stellenanzeige genau lesen.",
+            "Es ist wichtig, zu die Stellenanzeige genau lesen."
+          ],
+          "answer": 0,
+          "why": "After Es ist wichtig, … the infinitive at the end takes zu, right before the verb.",
+          "s": "It's important to read the job ad carefully."
         },
         {
           "type": "order",
@@ -578,8 +610,8 @@
         "s": "Since Monday I've been working as an office administrator for a company that sells bicycles."
       },
       {
-        "t": "Meine Kollegin Lena, die schon zehn Jahre dort arbeitet, arbeitet mich ein.",
-        "s": "My colleague Lena, who has been working there for ten years, is training me."
+        "t": "Meine Kollegin Julia, die schon zehn Jahre dort arbeitet, arbeitet mich ein.",
+        "s": "My colleague Julia, who has been working there for ten years, is training me."
       },
       {
         "t": "Ich bin für die Bestellungen zuständig und schreibe jeden Tag viele E-Mails.",
@@ -614,15 +646,15 @@
         "s": "Would you like to celebrate my new job with me on Saturday?"
       },
       {
-        "t": "Viele Grüße, deine Mina",
-        "s": "Best wishes, Mina"
+        "t": "Viele Grüße, deine Leila",
+        "s": "Best wishes, Leila"
       }
     ],
     "questions": [
       {
         "q": {
-          "t": "Was verkauft Minas Firma?",
-          "s": "What does Mina's company sell?"
+          "t": "Was verkauft Leilas Firma?",
+          "s": "What does Leila's company sell?"
         },
         "options": [
           "Computer",
@@ -633,20 +665,20 @@
       },
       {
         "q": {
-          "t": "Wer arbeitet Mina ein?",
-          "s": "Who is training Mina?"
+          "t": "Wer arbeitet Leila ein?",
+          "s": "Who is training Leila?"
         },
         "options": [
           "ihre Chefin",
           "Anna",
-          "Lena"
+          "Julia"
         ],
         "answer": 2
       },
       {
         "q": {
-          "t": "Wann kann Mina morgens anfangen?",
-          "s": "When can Mina start in the morning?"
+          "t": "Wann kann Leila morgens anfangen?",
+          "s": "When can Leila start in the morning?"
         },
         "options": [
           "zwischen sieben und neun Uhr",
@@ -657,8 +689,8 @@
       },
       {
         "q": {
-          "t": "Was gefällt Mina nicht so gut?",
-          "s": "What doesn't Mina like so much?"
+          "t": "Was gefällt Leila nicht so gut?",
+          "s": "What doesn't Leila like so much?"
         },
         "options": [
           "die Kollegen",
@@ -669,13 +701,37 @@
       },
       {
         "q": {
-          "t": "Was hat Mina vor?",
-          "s": "What is Mina planning to do?"
+          "t": "Was hat Leila vor?",
+          "s": "What is Leila planning to do?"
         },
         "options": [
           "Sie will mit ihrer Chefin sprechen.",
           "Sie will kündigen.",
           "Sie will Urlaub machen."
+        ],
+        "answer": 0
+      },
+      {
+        "q": {
+          "t": "Worüber möchte Leila mit ihrer Chefin sprechen?",
+          "s": "What does Leila want to talk to her boss about?"
+        },
+        "options": [
+          "über die Überstunden",
+          "über ihr Gehalt",
+          "über ihre Präsentation"
+        ],
+        "answer": 0
+      },
+      {
+        "q": {
+          "t": "Wie fühlt sich Leila nach der ersten Woche?",
+          "s": "How does Leila feel after her first week?"
+        },
+        "options": [
+          "Sie ist meistens zufrieden.",
+          "Sie will die Firma schnell wieder verlassen.",
+          "Sie fühlt sich allein."
         ],
         "answer": 0
       }

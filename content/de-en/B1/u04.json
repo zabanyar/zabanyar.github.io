@@ -32,7 +32,8 @@
       "ex": {
         "t": "Ich muss noch schnell Geld am Automaten abheben.",
         "s": "I still need to quickly withdraw money from the ATM."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w03",
@@ -378,7 +379,8 @@
             "würde"
           ],
           "answer": 0,
-          "s": "I'd like to have more time for my hobbies."
+          "s": "I'd like to have more time for my hobbies.",
+          "why": "haben has its own Konjunktiv II form: ich hätte gern = I'd like to have."
         },
         {
           "type": "choice",
@@ -389,7 +391,8 @@
             "wärst"
           ],
           "answer": 1,
-          "s": "You shouldn't spend so much money on clothes."
+          "s": "You shouldn't spend so much money on clothes.",
+          "why": "Advice: sollte + infinitive; du solltest."
         },
         {
           "type": "type",
@@ -398,7 +401,8 @@
             "würde",
             "wuerde"
           ],
-          "s": "If I were you, I would compare the prices."
+          "s": "If I were you, I would compare the prices.",
+          "why": "An deiner Stelle + würde + infinitive: ich würde vergleichen."
         },
         {
           "type": "type",
@@ -409,18 +413,22 @@
             "möchten",
             "moechten"
           ],
-          "s": "We'd like to go to Italy in the summer."
+          "s": "We'd like to go to Italy in the summer.",
+          "why": "Wishes: würde + gern + infinitive; wir würden."
         },
         {
           "type": "choice",
-          "t": "Ich ___ gern Millionär.",
+          "task": "Which reply fits?",
+          "cue": "Ich gebe jeden Monat zu viel Geld aus.",
+          "t": "___",
           "options": [
-            "hätte",
-            "würde",
-            "wäre"
+            "An deiner Stelle würde ich öfter bar bezahlen.",
+            "An deiner Stelle werde ich öfter bar bezahlen.",
+            "An deiner Stelle wurde ich öfter bar bezahlen."
           ],
-          "answer": 2,
-          "s": "I'd like to be a millionaire."
+          "answer": 0,
+          "why": "An deiner Stelle (if I were you) is not real, so it takes the Konjunktiv II: würde + infinitive.",
+          "s": "If I were you, I'd pay cash more often."
         },
         {
           "type": "type",
@@ -432,15 +440,19 @@
             "müsstest",
             "muesstest"
           ],
-          "s": "You should keep a household budget book. Then you'll know what you spend your money on."
+          "s": "You should keep a household budget book. Then you'll know what you spend your money on.",
+          "why": "Advice: du solltest (or könntest) + infinitive at the end."
         },
         {
-          "type": "order",
-          "t": "An deiner Stelle würde ich mehr sparen.",
-          "s": "If I were you, I'd save more.",
-          "alts": [
-            "Ich würde an deiner Stelle mehr sparen."
-          ]
+          "type": "type",
+          "task": "Turn it into friendly advice with sollte.",
+          "cue": "Mach keine Schulden!",
+          "t": "Du ___.",
+          "answer": [
+            "solltest keine Schulden machen"
+          ],
+          "why": "Advice: du solltest + infinitive at the end.",
+          "s": "You shouldn't get into debt."
         },
         {
           "type": "order",
@@ -458,7 +470,7 @@
         "t": "Wenn ich mehr Geld hätte, …",
         "s": "Unreal conditions in the present"
       },
-      "explain": "To talk about a situation that is **not real** (or very unlikely) now, use the **Konjunktiv II in both parts** of the sentence: Wenn ich mehr Geld **hätte**, **würde** ich ein Auto **kaufen**. (*If I had more money, I would buy a car.* – But I don't have more money.)\nCompare a **real** condition: Wenn ich Zeit **habe**, **komme** ich. → unreal: Wenn ich Zeit **hätte**, **würde** ich **kommen**.\nEnglish uses the past tense in the if-clause and *would* in the main clause; German uses the Konjunktiv II in **both** clauses.\n**Word order**: wenn sends the verb to the end. If the wenn-clause comes first, the main clause starts with the verb: Wenn ich reich **wäre**, **würde** ich …\nIn the wenn-clause, use **wäre**, **hätte** and **könnte** rather than würde + infinitive. With other verbs, **würde** can be used in both clauses: Wenn du weniger online **bestellen würdest**, **hättest** du mehr Geld.\nA useful fixed phrase: **Wenn ich du wäre, …** (= An deiner Stelle …).",
+      "explain": "To talk about a situation that is **not real** (or very unlikely) now, use the **Konjunktiv II in both parts** of the sentence: Wenn ich mehr Geld **hätte**, **würde** ich ein Auto **kaufen**. (*If I had more money, I would buy a car.* – But I don't have more money.)\nCompare a **real** condition: Wenn ich Zeit **habe**, **komme** ich. → unreal: Wenn ich Zeit **hätte**, **würde** ich **kommen**.\nEnglish uses the past tense in the if-clause and *would* in the main clause; German uses the Konjunktiv II in **both** clauses.\n**Word order**: wenn sends the verb to the end. If the wenn-clause comes first, the main clause starts with the verb: Wenn ich reich **wäre**, **würde** ich …\nIn the wenn-clause, use **wäre**, **hätte** and **könnte** rather than würde + infinitive. With other verbs, **würde** can be used in both clauses: Wenn du weniger online **bestellen würdest**, **hättest** du mehr Geld.\nA useful fixed phrase: **Wenn ich du wäre, …** (= An deiner Stelle …).\n**Coming at B2:** unreal conditions in the past – Wenn ich Zeit **gehabt hätte**, **hätte** ich dich **besucht**.",
       "table": [
         [
           "real",
@@ -491,8 +503,8 @@
           "s": "If I spoke better German, I would look for a different job."
         },
         {
-          "t": "Was würdest du machen, wenn du im Lotto gewinnen würdest?",
-          "s": "What would you do if you won the lottery?"
+          "t": "Was würdest du machen, wenn du plötzlich viel Geld hättest?",
+          "s": "What would you do if you suddenly had a lot of money?"
         },
         {
           "t": "Wenn ich du wäre, würde ich das Angebot annehmen.",
@@ -509,7 +521,8 @@
             "hatte"
           ],
           "answer": 1,
-          "s": "If I had more money, I would buy an apartment."
+          "s": "If I had more money, I would buy an apartment.",
+          "why": "Unreal condition: the wenn-clause takes the Konjunktiv II too: haben → hätte."
         },
         {
           "type": "choice",
@@ -520,7 +533,8 @@
             "wurde"
           ],
           "answer": 0,
-          "s": "If the phone were cheaper, I would buy it."
+          "s": "If the phone were cheaper, I would buy it.",
+          "why": "Unreal: the main clause takes würde + infinitive (werde is the future, wurde the past)."
         },
         {
           "type": "type",
@@ -529,7 +543,8 @@
             "wäre",
             "waere"
           ],
-          "s": "If I were you, I would order less online."
+          "s": "If I were you, I would order less online.",
+          "why": "Wenn ich du wäre = If I were you: sein → wäre."
         },
         {
           "type": "type",
@@ -538,18 +553,22 @@
             "hätten",
             "haetten"
           ],
-          "s": "If we had a car, we could drive to the countryside on weekends."
+          "s": "If we had a car, we could drive to the countryside on weekends.",
+          "why": "Unreal condition with haben: wir hätten."
         },
         {
           "type": "choice",
-          "t": "Wenn ich nicht so müde ___, würde ich noch einkaufen gehen.",
+          "task": "Which reply fits?",
+          "cue": "Kommst du heute Abend mit ins Kino?",
+          "t": "___",
           "options": [
-            "bin",
-            "war",
-            "wäre"
+            "Ich würde gern mitkommen, wenn ich nicht so müde wäre.",
+            "Ich würde gern mitkommen, wenn ich nicht so müde bin.",
+            "Ich werde gern mitkommen, wenn ich nicht so müde wäre."
           ],
-          "answer": 2,
-          "s": "If I weren't so tired, I would go shopping now."
+          "answer": 0,
+          "why": "It's not real (I am tired), so both clauses take the Konjunktiv II: würde … wäre.",
+          "s": "I'd like to come along if I weren't so tired."
         },
         {
           "type": "type",
@@ -558,15 +577,20 @@
             "würdest",
             "wuerdest"
           ],
-          "s": "If you bought fewer clothes, you would have more money."
+          "s": "If you bought fewer clothes, you would have more money.",
+          "why": "With most verbs, würde + infinitive also works in the wenn-clause: du würdest kaufen."
         },
         {
-          "type": "order",
-          "t": "Wenn ich Zeit hätte, würde ich dich besuchen.",
-          "s": "If I had time, I would visit you.",
-          "alts": [
-            "Ich würde dich besuchen, wenn ich Zeit hätte."
-          ]
+          "type": "type",
+          "task": "Make it unreal: you don't have enough money.",
+          "cue": "Wenn ich genug Geld habe, fliege ich nach Isfahan.",
+          "t": "___, würde ich nach Isfahan fliegen.",
+          "answer": [
+            "Wenn ich genug Geld hätte",
+            "Wenn ich genug Geld haette"
+          ],
+          "why": "In an unreal condition the wenn-clause takes the Konjunktiv II too: habe → hätte.",
+          "s": "If I had enough money, I would fly to Isfahan."
         },
         {
           "type": "order",
@@ -590,8 +614,8 @@
         "s": "We asked passers-by in the pedestrian zone in Bonn: What would you do if you suddenly had a thousand euros?"
       },
       {
-        "t": "Anna, 24, Studentin: „Ich würde sofort meine Schulden bezahlen.“",
-        "s": "Anna, 24, student: “I would pay off my debts right away.”"
+        "t": "Laura, 24, Studentin: „Ich würde sofort meine Schulden bezahlen.“",
+        "s": "Laura, 24, student: “I would pay off my debts right away.”"
       },
       {
         "t": "„Für meinen Laptop habe ich nämlich einen Kredit aufgenommen.“",
@@ -599,27 +623,27 @@
       },
       {
         "t": "„Wenn danach noch Geld übrig wäre, würde ich es sparen.“",
-        "s": "“If there was any money left after that, I would save it.”"
+        "s": "“If there were any money left after that, I would save it.”"
       },
       {
-        "t": "Herr Wagner, 72, Rentner: „Ich hätte gern eine neue Brille, aber eigentlich habe ich alles, was ich brauche.“",
-        "s": "Mr. Wagner, 72, retiree: “I'd like new glasses, but actually I have everything I need.”"
+        "t": "Herr Lorenz, 72, Rentner: „Ich hätte gern eine neue Brille, aber eigentlich habe ich alles, was ich brauche.“",
+        "s": "Mr. Lorenz, 72, retiree: “I'd like new glasses, but actually I have everything I need.”"
       },
       {
         "t": "„Ich würde das Geld lieber meinen Enkeln geben, die für ihr Studium sparen.“",
         "s": "“I'd rather give the money to my grandchildren, who are saving for college.”"
       },
       {
-        "t": "Maryam, 41, Ärztin: „Mit tausend Euro könnte ich endlich wieder meine Familie in Isfahan besuchen.“",
-        "s": "Maryam, 41, doctor: “With a thousand euros, I could finally visit my family in Isfahan again.”"
+        "t": "Narges, 41, Ärztin: „Mit tausend Euro könnte ich endlich wieder meine Familie in Isfahan besuchen.“",
+        "s": "Narges, 41, doctor: “With a thousand euros, I could finally visit my family in Isfahan again.”"
       },
       {
         "t": "„Die Flüge sind leider sehr teuer geworden.“",
         "s": "“Unfortunately, flights have become very expensive.”"
       },
       {
-        "t": "Jonas, 35, Verkäufer: „Ehrlich gesagt würde ich einen neuen Fernseher kaufen.“",
-        "s": "Jonas, 35, salesman: “To be honest, I would buy a new TV.”"
+        "t": "Paul, 35, Verkäufer: „Ehrlich gesagt würde ich einen neuen Fernseher kaufen.“",
+        "s": "Paul, 35, salesman: “To be honest, I would buy a new TV.”"
       },
       {
         "t": "„Aber meine Frau würde bestimmt sagen: Du solltest lieber etwas für die Kinder kaufen!“",
@@ -629,8 +653,8 @@
     "questions": [
       {
         "q": {
-          "t": "Was würde Anna zuerst machen?",
-          "s": "What would Anna do first?"
+          "t": "Was würde Laura zuerst machen?",
+          "s": "What would Laura do first?"
         },
         "options": [
           "einen Laptop kaufen",
@@ -641,8 +665,8 @@
       },
       {
         "q": {
-          "t": "Wem würde Herr Wagner das Geld geben?",
-          "s": "Who would Mr. Wagner give the money to?"
+          "t": "Wem würde Herr Lorenz das Geld geben?",
+          "s": "Who would Mr. Lorenz give the money to?"
         },
         "options": [
           "seinen Enkeln",
@@ -653,8 +677,8 @@
       },
       {
         "q": {
-          "t": "Was könnte Maryam mit dem Geld machen?",
-          "s": "What could Maryam do with the money?"
+          "t": "Was könnte Narges mit dem Geld machen?",
+          "s": "What could Narges do with the money?"
         },
         "options": [
           "eine neue Brille kaufen",
@@ -665,8 +689,8 @@
       },
       {
         "q": {
-          "t": "Was würde Jonas kaufen?",
-          "s": "What would Jonas buy?"
+          "t": "Was würde Paul kaufen?",
+          "s": "What would Paul buy?"
         },
         "options": [
           "einen Fernseher",
@@ -677,8 +701,8 @@
       },
       {
         "q": {
-          "t": "Was würde Jonas' Frau sagen?",
-          "s": "What would Jonas's wife say?"
+          "t": "Was würde Pauls Frau sagen?",
+          "s": "What would Paul's wife say?"
         },
         "options": [
           "Er sollte das Geld sparen.",
@@ -686,6 +710,30 @@
           "Er sollte einen größeren Fernseher kaufen."
         ],
         "answer": 1
+      },
+      {
+        "q": {
+          "t": "Wer braucht das Geld eigentlich nicht?",
+          "s": "Who doesn't really need the money?"
+        },
+        "options": [
+          "Laura",
+          "Herr Lorenz",
+          "Narges"
+        ],
+        "answer": 1
+      },
+      {
+        "q": {
+          "t": "Warum hat Narges ihre Familie lange nicht besucht?",
+          "s": "Why hasn't Narges visited her family for a long time?"
+        },
+        "options": [
+          "Die Flüge sind zu teuer.",
+          "Sie hat keinen Urlaub.",
+          "Ihre Familie wohnt jetzt in Bonn."
+        ],
+        "answer": 0
       }
     ]
   },

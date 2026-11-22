@@ -17,7 +17,7 @@
       "id": "w01",
       "t": "die Behörde",
       "pl": "die Behörden",
-      "s": "(public) authority, government office",
+      "s": "(public) authority, government office; stress on -hör-: be-HÖR-de",
       "emoji": "",
       "ex": {
         "t": "Bei deutschen Behörden braucht man oft viel Geduld.",
@@ -50,7 +50,7 @@
       "id": "w04",
       "t": "das Formular",
       "pl": "die Formulare",
-      "s": "form",
+      "s": "form; stress on the last syllable: for-moo-LAR",
       "emoji": "",
       "ex": {
         "t": "Bitte füllen Sie das Formular vollständig aus.",
@@ -124,7 +124,7 @@
       "id": "w11",
       "t": "die Bescheinigung",
       "pl": "die Bescheinigungen",
-      "s": "certificate, written confirmation",
+      "s": "certificate, written confirmation; stress on -schei-: be-SHY-nee-goong",
       "emoji": "",
       "ex": {
         "t": "Nach der Anmeldung bekommen Sie eine Bescheinigung.",
@@ -227,11 +227,11 @@
     },
     "speakers": {
       "A": {
-        "name": "Frau Wagner",
+        "name": "Frau Fischer",
         "voice": "f"
       },
       "B": {
-        "name": "Amir",
+        "name": "Karim",
         "voice": "m"
       }
     },
@@ -367,15 +367,15 @@
       ],
       "exercises": [
         {
-          "type": "choice",
-          "t": "Wir müssen bis Freitag eine Entscheidung ___.",
-          "options": [
-            "machen",
-            "treffen",
-            "stellen"
+          "type": "type",
+          "task": "Say it more formally with a noun-verb combination.",
+          "cue": "Wir haben uns endlich entschieden.",
+          "t": "Wir haben endlich ___.",
+          "answer": [
+            "eine Entscheidung getroffen"
           ],
-          "answer": 1,
-          "s": "We have to make a decision by Friday."
+          "why": "sich entscheiden = eine Entscheidung treffen; the participle of treffen is getroffen.",
+          "s": "We finally made a decision."
         },
         {
           "type": "choice",
@@ -386,7 +386,8 @@
             "geben"
           ],
           "answer": 1,
-          "s": "May I ask you a question?"
+          "s": "May I ask you a question?",
+          "why": "eine Frage stellen: in German you 'put' a question."
         },
         {
           "type": "type",
@@ -396,7 +397,8 @@
             "eingereicht",
             "abgegeben"
           ],
-          "s": "I applied for housing benefit."
+          "s": "I applied for housing benefit.",
+          "why": "einen Antrag stellen = to apply; the participle is gestellt."
         },
         {
           "type": "choice",
@@ -407,7 +409,8 @@
             "Ordnung"
           ],
           "answer": 0,
-          "s": "The new law comes into effect in January."
+          "s": "The new law comes into effect in January.",
+          "why": "in Kraft treten = to come into effect (laws and rules)."
         },
         {
           "type": "type",
@@ -415,18 +418,22 @@
           "answer": [
             "Bescheid"
           ],
-          "s": "Please let me know when the ID card is ready."
+          "s": "Please let me know when the ID card is ready.",
+          "why": "Bescheid sagen = to let someone know."
         },
         {
           "type": "choice",
-          "t": "Guten Tag, nehmen Sie bitte ___!",
+          "task": "Which reply fits?",
+          "cue": "Guten Tag, ich habe um zehn Uhr einen Termin.",
+          "t": "___",
           "options": [
-            "Platz",
-            "Sitz",
-            "Stuhl"
+            "Guten Tag, nehmen Sie bitte Platz.",
+            "Guten Tag, nehmen Sie bitte Sitz.",
+            "Guten Tag, setzen Sie bitte Platz."
           ],
           "answer": 0,
-          "s": "Hello, please take a seat!"
+          "why": "The fixed combination is Platz nehmen (to take a seat).",
+          "s": "Hello, please take a seat."
         },
         {
           "type": "type",
@@ -434,7 +441,8 @@
           "answer": [
             "Rolle"
           ],
-          "s": "Age doesn't matter."
+          "s": "Age doesn't matter.",
+          "why": "eine Rolle spielen = to matter; keine Rolle spielen = not to matter."
         },
         {
           "type": "order",
@@ -509,7 +517,8 @@
             "es zu ihm"
           ],
           "answer": 1,
-          "s": "I'm giving it to him."
+          "s": "I'm giving it to him.",
+          "why": "Two pronouns: accusative (es) before dative (ihm), and no zu."
         },
         {
           "type": "choice",
@@ -520,18 +529,22 @@
             "es zum Beamten"
           ],
           "answer": 1,
-          "s": "Have you already given it to the official?"
+          "s": "Have you already given it to the official?",
+          "why": "A pronoun and a noun: the pronoun comes first, whatever its case."
         },
         {
           "type": "choice",
-          "t": "Bringst du ___ bitte?",
+          "task": "Which reply fits?",
+          "cue": "Haben Sie Frau Fischer die Unterlagen schon geschickt?",
+          "t": "___",
           "options": [
-            "mir es",
-            "es mir",
-            "es mich"
+            "Ja, ich habe sie ihr gestern geschickt.",
+            "Ja, ich habe ihr sie gestern geschickt.",
+            "Ja, ich habe gestern sie ihr geschickt."
           ],
-          "answer": 1,
-          "s": "Will you bring it to me, please?"
+          "answer": 0,
+          "why": "Two pronouns: the accusative (sie = die Unterlagen) comes before the dative (ihr), right after the verb.",
+          "s": "Yes, I sent them to her yesterday."
         },
         {
           "type": "type",
@@ -539,7 +552,8 @@
           "answer": [
             "ihn"
           ],
-          "s": "I found your ID card and put it on the table for you."
+          "s": "I found your ID card and put it on the table for you.",
+          "why": "Ausweis is masculine and accusative: ihn; the pronoun comes before dir."
         },
         {
           "type": "type",
@@ -547,15 +561,19 @@
           "answer": [
             "uns"
           ],
-          "s": "The official is explaining the form to us."
+          "s": "The official is explaining the form to us.",
+          "why": "erklären + person in the dative: uns; the pronoun comes before the noun das Formular."
         },
         {
-          "type": "order",
-          "t": "Ich schicke es Ihnen morgen.",
-          "s": "I'll send it to you tomorrow.",
-          "alts": [
-            "Morgen schicke ich es Ihnen."
-          ]
+          "type": "type",
+          "task": "Replace both objects with pronouns.",
+          "cue": "Ich gebe der Beamtin den Antrag.",
+          "t": "Ich gebe ___.",
+          "answer": [
+            "ihn ihr"
+          ],
+          "why": "Two pronouns: accusative before dative: ihn (den Antrag) ihr (der Beamtin).",
+          "s": "I'm giving it to her."
         },
         {
           "type": "order",
@@ -585,8 +603,8 @@
     },
     "text": [
       {
-        "t": "Hallo, ich heiße Mina und lebe seit drei Jahren in Köln.",
-        "s": "Hi, my name is Mina, and I've been living in Cologne for three years."
+        "t": "Hallo, ich heiße Leila und lebe seit drei Jahren in Köln.",
+        "s": "Hi, my name is Leila, and I've been living in Cologne for three years."
       },
       {
         "t": "Wer nach Deutschland zieht, muss sich innerhalb von zwei Wochen beim Bürgeramt anmelden.",
@@ -648,8 +666,8 @@
       },
       {
         "q": {
-          "t": "Wer hat Mina über die Anmeldung informiert?",
-          "s": "Who told Mina about registering?"
+          "t": "Wer hat Leila über die Anmeldung informiert?",
+          "s": "Who told Leila about registering?"
         },
         "options": [
           "eine Nachbarin",
@@ -660,8 +678,8 @@
       },
       {
         "q": {
-          "t": "Warum hat Mina jeden Morgen auf der Internetseite nachgesehen?",
-          "s": "Why did Mina check the website every morning?"
+          "t": "Warum hat Leila jeden Morgen auf der Internetseite nachgesehen?",
+          "s": "Why did Leila check the website every morning?"
         },
         "options": [
           "Sie wollte einen freien Termin finden.",
@@ -672,8 +690,8 @@
       },
       {
         "q": {
-          "t": "Was brauchte Mina für die Anmeldung?",
-          "s": "What did Mina need for the registration?"
+          "t": "Was brauchte Leila für die Anmeldung?",
+          "s": "What did Leila need for the registration?"
         },
         "options": [
           "ihren Pass und eine Bestätigung des Vermieters",
@@ -684,13 +702,37 @@
       },
       {
         "q": {
-          "t": "Was empfiehlt Mina?",
-          "s": "What does Mina recommend?"
+          "t": "Was empfiehlt Leila?",
+          "s": "What does Leila recommend?"
         },
         "options": [
           "Kopien von wichtigen Unterlagen machen",
           "keine Fragen stellen",
           "ohne Termin zum Amt gehen"
+        ],
+        "answer": 0
+      },
+      {
+        "q": {
+          "t": "Wie hat sich Leila wohl gefühlt, als sie ihre Meldebescheinigung bekam?",
+          "s": "How did Leila probably feel when she got her registration certificate?"
+        },
+        "options": [
+          "froh und zufrieden",
+          "enttäuscht",
+          "wütend"
+        ],
+        "answer": 0
+      },
+      {
+        "q": {
+          "t": "Warum gibt Leila am Ende Tipps?",
+          "s": "Why does Leila give tips at the end?"
+        },
+        "options": [
+          "Sie möchte neuen Leuten in Deutschland helfen.",
+          "Sie arbeitet beim Bürgeramt.",
+          "Ihre Kollegin hat sie darum gebeten."
         ],
         "answer": 0
       }

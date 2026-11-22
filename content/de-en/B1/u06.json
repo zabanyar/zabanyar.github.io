@@ -107,7 +107,7 @@
       "emoji": "",
       "ex": {
         "t": "Die Zeitung hat gestern ein Gespräch mit der Ministerin veröffentlicht.",
-        "s": "Yesterday the paper published a conversation with the minister."
+        "s": "Yesterday the paper published an interview with the minister."
       }
     },
     {
@@ -119,7 +119,8 @@
       "ex": {
         "t": "Nach dem Spiel gibt der Trainer ein Interview.",
         "s": "After the game, the coach gives an interview."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w11",
@@ -227,19 +228,19 @@
     },
     "speakers": {
       "A": {
-        "name": "Mina",
+        "name": "Maryam",
         "voice": "f"
       },
       "B": {
-        "name": "Lukas",
+        "name": "Jonas",
         "voice": "m"
       }
     },
     "lines": [
       {
         "sp": "A",
-        "t": "Lukas, hast du die Schlagzeile von heute schon gesehen? Die Stadtbibliothek soll im Sommer schließen.",
-        "s": "Lukas, have you seen today's headline yet? The city library is supposed to close in the summer."
+        "t": "Jonas, hast du die Schlagzeile von heute schon gesehen? Die Stadtbibliothek soll im Sommer schließen.",
+        "s": "Jonas, have you seen today's headline yet? The city library is supposed to close in the summer."
       },
       {
         "sp": "B",
@@ -365,7 +366,8 @@
             "meiner"
           ],
           "answer": 1,
-          "s": "That's my brother's bike."
+          "s": "That's my brother's bike.",
+          "why": "Bruder is masculine: genitive meines, and the noun adds -s."
         },
         {
           "type": "choice",
@@ -376,7 +378,8 @@
             "dem"
           ],
           "answer": 0,
-          "s": "I don't like the color of the car."
+          "s": "I don't like the color of the car.",
+          "why": "Auto is neuter: genitive des, and the noun adds -s: des Autos."
         },
         {
           "type": "choice",
@@ -387,15 +390,19 @@
             "den"
           ],
           "answer": 1,
-          "s": "The title of the show is new."
+          "s": "The title of the show is new.",
+          "why": "Sendung is feminine: genitive der."
         },
         {
           "type": "type",
-          "t": "Das ist das Auto ___ Vaters.",
+          "task": "Use the genitive instead of von.",
+          "cue": "Die Meinung von den Lesern ist uns wichtig.",
+          "t": "Die Meinung ___ ist uns wichtig.",
           "answer": [
-            "meines"
+            "der Leser"
           ],
-          "s": "That is my father's car."
+          "why": "Plural genitive: der, and the noun doesn't change: der Leser.",
+          "s": "Our readers' opinion is important to us."
         },
         {
           "type": "type",
@@ -403,7 +410,8 @@
           "answer": [
             "Annas"
           ],
-          "s": "Anna's phone is broken again."
+          "s": "Anna's phone is broken again.",
+          "why": "Names add -s without an apostrophe: Annas."
         },
         {
           "type": "choice",
@@ -414,18 +422,22 @@
             "Jonas's"
           ],
           "answer": 0,
-          "s": "Jonas's bike is in front of the door."
+          "s": "Jonas's bike is in front of the door.",
+          "why": "Names ending in -s only get an apostrophe: Jonas'."
         },
         {
           "type": "choice",
-          "t": "___ Tasche ist das?",
+          "task": "Which reply is correct?",
+          "cue": "Wessen Handy ist das?",
+          "t": "___",
           "options": [
-            "Wer",
-            "Wessen",
-            "Wem"
+            "Das ist das Handy meiner Schwester.",
+            "Das ist das Handy meines Schwester.",
+            "Das ist das Handy meiner Schwesters."
           ],
-          "answer": 1,
-          "s": "Whose bag is that?"
+          "answer": 0,
+          "why": "Schwester is feminine: genitive meiner, and the noun gets no ending.",
+          "s": "That's my sister's phone."
         },
         {
           "type": "order",
@@ -492,15 +504,15 @@
       ],
       "exercises": [
         {
-          "type": "choice",
-          "t": "Ich frage meinen ___ um Rat.",
-          "options": [
-            "Kollege",
-            "Kollegen",
-            "Kollegens"
+          "type": "type",
+          "task": "Start with: Ich helfe …",
+          "cue": "Der Kunde wartet schon lange.",
+          "t": "Ich helfe ___, der schon lange wartet.",
+          "answer": [
+            "dem Kunden"
           ],
-          "answer": 1,
-          "s": "I'm asking my colleague for advice."
+          "why": "helfen takes the dative, and Kunde is a weak noun: dem Kunden.",
+          "s": "I'm helping the customer who has been waiting for a long time."
         },
         {
           "type": "choice",
@@ -511,7 +523,8 @@
             "Journaliste"
           ],
           "answer": 1,
-          "s": "The police officer is talking to the journalist."
+          "s": "The police officer is talking to the journalist.",
+          "why": "mit takes the dative, and Journalist is a weak noun: dem Journalisten."
         },
         {
           "type": "choice",
@@ -522,7 +535,8 @@
             "Nachbaren"
           ],
           "answer": 0,
-          "s": "The neighbor lives right next to us."
+          "s": "The neighbor lives right next to us.",
+          "why": "It's the subject (nominative singular), the only form without -n."
         },
         {
           "type": "type",
@@ -530,7 +544,8 @@
           "answer": [
             "Studenten"
           ],
-          "s": "Do you already know the new student from Hamburg?"
+          "s": "Do you already know the new student from Hamburg?",
+          "why": "kennen takes the accusative, and Student is a weak noun: den Studenten."
         },
         {
           "type": "type",
@@ -538,7 +553,8 @@
           "answer": [
             "Herrn"
           ],
-          "s": "I have a question for Mr. Wagner."
+          "s": "I have a question for Mr. Wagner.",
+          "why": "an takes the accusative here, and Herr adds -n: Herrn Wagner."
         },
         {
           "type": "choice",
@@ -549,18 +565,22 @@
             "Männern"
           ],
           "answer": 0,
-          "s": "I'm helping the man with the suitcase."
+          "s": "I'm helping the man with the suitcase.",
+          "why": "Mann is not a weak noun; the dative singular is just dem Mann."
         },
         {
           "type": "choice",
-          "t": "Wir haben den ___ gestern im Fernsehen gesehen.",
+          "task": "Which reply is correct?",
+          "cue": "Mit wem hat Lena heute Morgen gesprochen?",
+          "t": "___",
           "options": [
-            "Präsident",
-            "Präsidenten",
-            "Präsidente"
+            "Mit einem jungen Praktikanten aus Spanien.",
+            "Mit einem jungen Praktikant aus Spanien.",
+            "Mit einen jungen Praktikanten aus Spanien."
           ],
-          "answer": 1,
-          "s": "We saw the president on TV yesterday."
+          "answer": 0,
+          "why": "mit takes the dative, and Praktikant is a weak noun: einem Praktikanten.",
+          "s": "With a young intern from Spain."
         },
         {
           "type": "order",
@@ -597,16 +617,16 @@
         "s": "Today Lena is writing an article about Mr. Wagner, a neighbor of her parents."
       },
       {
-        "t": "Herr Wagner ist zweiundsiebzig Jahre alt und repariert in seiner Garage kostenlos Fahrräder für Kinder.",
-        "s": "Mr. Wagner is seventy-two years old and repairs bikes for children in his garage free of charge."
+        "t": "Herr Wagner ist achtundfünfzig Jahre alt und repariert in seiner Garage kostenlos Fahrräder für Kinder.",
+        "s": "Mr. Wagner is fifty-eight years old and repairs bikes for children in his garage free of charge."
       },
       {
         "t": "Am Vormittag besucht Lena ihn und stellt ihm viele Fragen.",
         "s": "In the morning Lena visits him and asks him lots of questions."
       },
       {
-        "t": "Ein Fotograf macht Bilder von der kleinen Werkstatt des alten Herrn.",
-        "s": "A photographer takes pictures of the old gentleman's little workshop."
+        "t": "Ein Fotograf macht Bilder von der kleinen Werkstatt in der Garage.",
+        "s": "A photographer takes pictures of the little workshop in the garage."
       },
       {
         "t": "Am Nachmittag schreibt Lena den Text und sucht eine gute Schlagzeile.",
@@ -687,6 +707,18 @@
           "Sie bringen Herrn Wagner alte Fahrräder.",
           "Sie bestellen die Zeitung ab.",
           "Sie rufen den Fotografen an."
+        ],
+        "answer": 0
+      },
+      {
+        "q": {
+          "t": "Warum schreiben so viele Leser einen Kommentar?",
+          "s": "Why do so many readers write a comment?"
+        },
+        "options": [
+          "Die Geschichte von Herrn Wagner gefällt ihnen.",
+          "Sie wollen sich über den Artikel beschweren.",
+          "Lena hat sie darum gebeten."
         ],
         "answer": 0
       }

@@ -10,6 +10,7 @@
     "Tell your life story and talk about memories",
     "Use the Präteritum of regular, irregular and mixed verbs in written stories",
     "Choose correctly between als, wenn and wann",
+    "Say what had happened before with the Plusquamperfekt",
     "Understand a short biography"
   ],
   "words": [
@@ -379,18 +380,22 @@
             "arbeiten"
           ],
           "answer": 0,
-          "s": "My grandfather used to work in a factory."
+          "s": "My grandfather used to work in a factory.",
+          "why": "The stem arbeit- ends in -t, so it adds -ete; er, sie, es has no extra ending: arbeitete."
         },
         {
           "type": "choice",
-          "t": "Im Jahr 2010 ___ wir nach Deutschland.",
+          "task": "Which reply is correct?",
+          "cue": "Was hast du nach dem Studium gemacht?",
+          "t": "___",
           "options": [
-            "ziehten",
-            "zogen",
-            "zogt"
+            "Ich fand schnell eine Stelle als Lehrerin.",
+            "Ich findete schnell eine Stelle als Lehrerin.",
+            "Ich fandte schnell eine Stelle als Lehrerin."
           ],
-          "answer": 1,
-          "s": "In 2010 we moved to Germany."
+          "answer": 0,
+          "why": "finden is irregular: the Präteritum is fand, with no -te and no ending for ich.",
+          "s": "I quickly found a job as a teacher."
         },
         {
           "type": "type",
@@ -398,7 +403,8 @@
           "answer": [
             "traf"
           ],
-          "s": "Yesterday I happened to meet an old school friend. (treffen)"
+          "s": "Yesterday I happened to meet an old school friend. (treffen)",
+          "why": "treffen is irregular: the Präteritum is traf, and ich has no ending."
         },
         {
           "type": "type",
@@ -406,7 +412,8 @@
           "answer": [
             "las"
           ],
-          "s": "My mother read me a story every evening. (vorlesen)"
+          "s": "My mother read me a story every evening. (vorlesen)",
+          "why": "vorlesen is irregular (las … vor); the prefix vor goes to the end of the sentence."
         },
         {
           "type": "type",
@@ -414,7 +421,8 @@
           "answer": [
             "dachte"
           ],
-          "s": "Back then I often thought about my home country. (denken)"
+          "s": "Back then I often thought about my home country. (denken)",
+          "why": "denken is a mixed verb: a new stem plus -te: ich dachte."
         },
         {
           "type": "choice",
@@ -425,15 +433,20 @@
             "kam"
           ],
           "answer": 2,
-          "s": "The bus arrived late."
+          "s": "The bus arrived late.",
+          "why": "kommen is irregular: kam, with no -te; the prefix an goes to the end."
         },
         {
-          "type": "order",
-          "t": "Wir wohnten in einem kleinen Dorf.",
-          "s": "We lived in a small village.",
-          "alts": [
-            "In einem kleinen Dorf wohnten wir."
-          ]
+          "type": "type",
+          "task": "Put it in the Präteritum.",
+          "cue": "Mit achtzehn hat sie ihre Heimat verlassen.",
+          "t": "Mit achtzehn ___ sie ihre Heimat.",
+          "answer": [
+            "verließ",
+            "verliess"
+          ],
+          "why": "verlassen is irregular: sie verließ (no ending). The Perfekt hat … verlassen becomes one word.",
+          "s": "At eighteen, she left her home country."
         },
         {
           "type": "order",
@@ -507,7 +520,8 @@
             "Wann"
           ],
           "answer": 1,
-          "s": "When I was in Germany for the first time, I understood almost nothing."
+          "s": "When I was in Germany for the first time, I understood almost nothing.",
+          "why": "Being in Germany for the first time is one single event in the past, so als."
         },
         {
           "type": "choice",
@@ -518,7 +532,8 @@
             "wenn"
           ],
           "answer": 2,
-          "s": "Every time my aunt visited us, she brought candy."
+          "s": "Every time my aunt visited us, she brought candy.",
+          "why": "Jedes Mal, wenn (every time): repeated events in the past take wenn."
         },
         {
           "type": "type",
@@ -526,7 +541,8 @@
           "answer": [
             "wann"
           ],
-          "s": "I don't remember exactly when we moved to Cologne."
+          "s": "I don't remember exactly when we moved to Cologne.",
+          "why": "This is an indirect question after Ich weiß nicht mehr, so use the question word wann."
         },
         {
           "type": "type",
@@ -534,29 +550,38 @@
           "answer": [
             "als"
           ],
-          "s": "When I was a child, we lived in Isfahan."
+          "s": "When I was a child, we lived in Isfahan.",
+          "why": "Childhood is one period in the past, so als."
         },
         {
-          "type": "choice",
-          "t": "Immer ___ es im Winter schneite, bauten wir einen Schneemann.",
-          "options": [
-            "als",
-            "wenn",
-            "wann"
+          "type": "type",
+          "task": "Join the two sentences. Start with als.",
+          "cue": "Ich kam in Köln an. Es regnete stark.",
+          "t": "___, regnete es stark.",
+          "answer": [
+            "Als ich in Köln ankam",
+            "Als ich in Köln angekommen bin",
+            "Als ich in Köln angekommen war",
+            "Als ich in Koeln ankam",
+            "Als ich in Koeln angekommen bin",
+            "Als ich in Koeln angekommen war"
           ],
-          "answer": 1,
-          "s": "Whenever it snowed in winter, we built a snowman."
+          "why": "Arriving is one single event in the past, so als; the verb goes to the end of the als-clause.",
+          "s": "When I arrived in Cologne, it was raining hard."
         },
         {
           "type": "choice",
-          "t": "___ ich mein Diplom bekam, war die ganze Familie dabei.",
+          "task": "Which reply fits?",
+          "cue": "Wann hast du mit dem Deutschkurs angefangen?",
+          "t": "___",
           "options": [
-            "Als",
-            "Wenn",
-            "Wann"
+            "Als ich nach Deutschland kam, machte ich sofort einen Kurs.",
+            "Wenn ich nach Deutschland kam, machte ich sofort einen Kurs.",
+            "Wann ich nach Deutschland kam, machte ich sofort einen Kurs."
           ],
           "answer": 0,
-          "s": "When I got my diploma, the whole family was there."
+          "why": "Coming to Germany happened once in the past, so als; wann is only for questions.",
+          "s": "When I came to Germany, I took a course right away."
         },
         {
           "type": "order",
@@ -575,17 +600,176 @@
           ]
         }
       ]
+    },
+    {
+      "id": "g03",
+      "title": {
+        "t": "Ich hatte gegessen, ich war gegangen",
+        "s": "The Plusquamperfekt (past perfect): what had happened before"
+      },
+      "explain": "The **Plusquamperfekt** (past perfect) is the *past of the past*. It shows that something had **already happened before** another event in the past. English uses *had + past participle*: *When I arrived, the lesson **had** already **started**.*\n**Form**: the Präteritum of **haben** or **sein** + the **Partizip II** at the end: ich **hatte** gemacht, ich **war** gegangen. You choose hatte or war exactly as in the Perfekt: verbs that take **sein** there (gehen, kommen, fahren, aufwachsen, umziehen, bleiben …) take **war**; all others take **hatte**.\n**Compare the three past tenses**: the **Perfekt** (ich habe gegessen) is used in conversation and the **Präteritum** (ich aß) in written stories – both simply tell what happened. The **Plusquamperfekt** goes one step further back: **Als ich nach Hause kam, hatten die Kinder schon gegessen.** First the children ate, then I came home.\nYou only need it when the order of two past events matters. Typical signals are **schon, vorher, noch nie** and **bevor**; at B2 you will use it with **nachdem**.\nIn a subordinate clause, hatte or war goes to the very end: …, weil ich meinen Schlüssel vergessen **hatte**.",
+      "table": [
+        [
+          "Perfekt",
+          "ich habe gemacht",
+          "ich bin gegangen"
+        ],
+        [
+          "Präteritum",
+          "ich machte",
+          "ich ging"
+        ],
+        [
+          "Plusquamperfekt",
+          "ich hatte gemacht",
+          "ich war gegangen"
+        ],
+        [
+          "du",
+          "du hattest gemacht",
+          "du warst gegangen"
+        ],
+        [
+          "er, sie, es",
+          "sie hatte gemacht",
+          "sie war gegangen"
+        ],
+        [
+          "wir",
+          "wir hatten gemacht",
+          "wir waren gegangen"
+        ],
+        [
+          "ihr",
+          "ihr hattet gemacht",
+          "ihr wart gegangen"
+        ],
+        [
+          "sie, Sie",
+          "sie hatten gemacht",
+          "sie waren gegangen"
+        ]
+      ],
+      "examples": [
+        {
+          "t": "Als Reza in Aachen ankam, hatte das Semester schon angefangen.",
+          "s": "When Reza arrived in Aachen, the semester had already started."
+        },
+        {
+          "t": "Ich war vorher noch nie im Ausland gewesen.",
+          "s": "I had never been abroad before."
+        },
+        {
+          "t": "Bevor wir nach Deutschland kamen, hatten wir schon ein Jahr Deutsch gelernt.",
+          "s": "Before we came to Germany, we had already studied German for a year."
+        },
+        {
+          "t": "Meine Großmutter war in einem Dorf aufgewachsen und kannte die große Stadt nicht.",
+          "s": "My grandmother had grown up in a village and didn't know the big city."
+        },
+        {
+          "t": "Ich konnte nicht in die Wohnung, weil ich meinen Schlüssel vergessen hatte.",
+          "s": "I couldn't get into the apartment because I had forgotten my key."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "choice",
+          "t": "Als wir am Bahnhof ankamen, ___ der Zug schon abgefahren.",
+          "options": [
+            "war",
+            "hatte",
+            "ist"
+          ],
+          "answer": 0,
+          "why": "abfahren takes sein in the Perfekt (ist abgefahren), so the Plusquamperfekt is war abgefahren.",
+          "s": "When we got to the station, the train had already left."
+        },
+        {
+          "type": "choice",
+          "t": "Ich ___ meine Hausaufgaben schon gemacht, als mein Freund anrief.",
+          "options": [
+            "hatte",
+            "war",
+            "hattest"
+          ],
+          "answer": 0,
+          "why": "machen takes haben, and ich takes hatte: the homework was finished before the call.",
+          "s": "I had already done my homework when my friend called."
+        },
+        {
+          "type": "type",
+          "t": "Abends waren alle müde, denn wir ___ den ganzen Tag gewandert.",
+          "answer": [
+            "waren"
+          ],
+          "why": "wandern is a verb of movement with sein (ist gewandert), so: wir waren gewandert.",
+          "s": "In the evening everyone was tired, because we had hiked all day."
+        },
+        {
+          "type": "type",
+          "t": "Lena war traurig, weil niemand an ihren Geburtstag gedacht ___.",
+          "answer": [
+            "hatte"
+          ],
+          "why": "denken takes haben (hat gedacht); in a weil-clause hatte goes to the very end.",
+          "s": "Lena was sad because nobody had remembered her birthday."
+        },
+        {
+          "type": "type",
+          "t": "Ich erkannte das Haus sofort, denn ich war dort ___.",
+          "answer": [
+            "aufgewachsen"
+          ],
+          "why": "aufwachsen takes sein, and ge- goes between the prefix and the stem: aufgewachsen.",
+          "s": "I recognized the house immediately, because I had grown up there. (aufwachsen)"
+        },
+        {
+          "type": "order",
+          "t": "Ich hatte meinen Pass zu Hause vergessen.",
+          "s": "I had left my passport at home.",
+          "alts": [
+            "Meinen Pass hatte ich zu Hause vergessen."
+          ]
+        },
+        {
+          "type": "type",
+          "task": "Use the Plusquamperfekt: it happened before.",
+          "cue": "Der Unterricht hat schon angefangen.",
+          "t": "Als ich ankam, ___.",
+          "answer": [
+            "hatte der Unterricht schon angefangen",
+            "hatte der Unterricht bereits angefangen"
+          ],
+          "why": "The lesson started before I arrived: hatte + angefangen. After the als-clause, the main clause starts with the verb.",
+          "s": "When I arrived, the lesson had already started."
+        },
+        {
+          "type": "choice",
+          "task": "Which reply fits?",
+          "cue": "Warum bist du gestern so spät gekommen?",
+          "t": "___",
+          "options": [
+            "Ich hatte den Bus verpasst.",
+            "Ich verpasse den Bus.",
+            "Ich werde den Bus verpassen."
+          ],
+          "answer": 0,
+          "why": "Missing the bus happened before arriving late, so the Plusquamperfekt fits: hatte verpasst.",
+          "s": "I had missed the bus."
+        }
+      ]
     }
   ],
   "reading": {
     "title": {
-      "t": "Meine Großmutter Maryam",
-      "s": "My grandmother Maryam"
+      "t": "Meine Großmutter Fatemeh",
+      "s": "My grandmother Fatemeh"
     },
     "text": [
       {
-        "t": "Meine Großmutter Maryam wurde 1948 in einem kleinen Dorf bei Täbris geboren.",
-        "s": "My grandmother Maryam was born in 1948 in a small village near Tabriz."
+        "t": "Meine Großmutter Fatemeh wurde 1948 in einem kleinen Dorf bei Täbris geboren.",
+        "s": "My grandmother Fatemeh was born in 1948 in a small village near Tabriz."
       },
       {
         "t": "Ihre Familie war nicht reich, aber sie hatte eine glückliche Kindheit.",
@@ -635,8 +819,8 @@
     "questions": [
       {
         "q": {
-          "t": "Wo wurde Maryam geboren?",
-          "s": "Where was Maryam born?"
+          "t": "Wo wurde Fatemeh geboren?",
+          "s": "Where was Fatemeh born?"
         },
         "options": [
           "in Teheran",
@@ -647,8 +831,8 @@
       },
       {
         "q": {
-          "t": "Wie kam Maryam zur Schule, wenn es im Winter schneite?",
-          "s": "How did Maryam get to school when it snowed in winter?"
+          "t": "Wie kam Fatemeh zur Schule, wenn es im Winter schneite?",
+          "s": "How did Fatemeh get to school when it snowed in winter?"
         },
         "options": [
           "Sie fuhr mit dem Bus.",
@@ -659,8 +843,8 @@
       },
       {
         "q": {
-          "t": "Wo lernte Maryam ihren Mann kennen?",
-          "s": "Where did Maryam meet her husband?"
+          "t": "Wo lernte Fatemeh ihren Mann kennen?",
+          "s": "Where did Fatemeh meet her husband?"
         },
         "options": [
           "in Teheran",
@@ -690,6 +874,30 @@
           "Sie schrieb ihre Erinnerungen auf.",
           "Sie zog nach Deutschland.",
           "Sie unterrichtete an einer neuen Schule."
+        ],
+        "answer": 0
+      },
+      {
+        "q": {
+          "t": "Warum ging Fatemeh nach Teheran?",
+          "s": "Why did Fatemeh go to Tehran?"
+        },
+        "options": [
+          "Sie wollte Lehrerin werden.",
+          "Ihre Familie zog nach Teheran.",
+          "Sie wollte dort ihren Mann kennenlernen."
+        ],
+        "answer": 0
+      },
+      {
+        "q": {
+          "t": "Wie fanden die Kinder die Geschichten aus dem Tagebuch?",
+          "s": "What did the children think of the stories from the diary?"
+        },
+        "options": [
+          "sehr spannend",
+          "langweilig",
+          "zu lang"
         ],
         "answer": 0
       }
