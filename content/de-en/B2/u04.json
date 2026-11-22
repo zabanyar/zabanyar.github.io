@@ -22,11 +22,12 @@
       "ex": {
         "t": "Abends sehe ich die Nachrichten im Fernsehen.",
         "s": "In the evening I watch the news on TV."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w02",
-      "t": "sich informieren (über + A)",
+      "t": "sich informieren über + A",
       "s": "to find out (about), inform oneself",
       "emoji": "",
       "ex": {
@@ -36,7 +37,7 @@
     },
     {
       "id": "w03",
-      "t": "berichten (über + A)",
+      "t": "berichten über + A",
       "s": "to report (on)",
       "emoji": "",
       "ex": {
@@ -156,7 +157,8 @@
       "ex": {
         "t": "Beim Datenschutz sind die Regeln in der EU sehr streng.",
         "s": "When it comes to data protection, the rules in the EU are very strict."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w15",
@@ -365,7 +367,8 @@
             "werde"
           ],
           "answer": 0,
-          "s": "The spokesperson said the company had not passed on any data."
+          "s": "The spokesperson said the company had not passed on any data.",
+          "why": "weitergeben forms the perfect with haben; Konjunktiv I for das Unternehmen is habe."
         },
         {
           "type": "choice",
@@ -376,7 +379,8 @@
             "seien"
           ],
           "answer": 1,
-          "s": "The minister emphasized that she was satisfied with the result."
+          "s": "The minister emphasized that she was satisfied with the result.",
+          "why": "zufrieden sein: the Konjunktiv I of sein for sie (singular) is sei."
         },
         {
           "type": "type",
@@ -384,15 +388,21 @@
           "answer": [
             "gebe"
           ],
-          "s": "The journalist writes that there are no official figures yet."
+          "s": "The journalist writes that there are no official figures yet.",
+          "why": "es gibt in Konjunktiv I is es gebe."
         },
         {
           "type": "type",
-          "t": "Er behauptet, er ___ gestern im Büro gewesen.",
+          "task": "Put it into indirect speech.",
+          "cue": "Der Minister sagt: „Ich habe davon nichts gewusst.“",
+          "t": "Der Minister sagt, er ___.",
           "answer": [
-            "sei"
+            "habe davon nichts gewusst",
+            "hätte davon nichts gewusst",
+            "haette davon nichts gewusst"
           ],
-          "s": "He claims he was at the office yesterday."
+          "why": "Past in indirect speech: Konjunktiv I habe + participle (er habe … gewusst); ich becomes er.",
+          "s": "The minister says he didn't know anything about it."
         },
         {
           "type": "choice",
@@ -403,7 +413,8 @@
             "könne"
           ],
           "answer": 2,
-          "s": "She says she can come earlier tomorrow."
+          "s": "She says she can come earlier tomorrow.",
+          "why": "The Konjunktiv I of können for er/sie/es is könne."
         },
         {
           "type": "choice",
@@ -414,7 +425,8 @@
             "sollst"
           ],
           "answer": 0,
-          "s": "The doctor said I should rest."
+          "s": "The doctor said I should rest.",
+          "why": "Reported advice uses sollen; Konjunktiv I for ich is solle."
         },
         {
           "type": "order",
@@ -425,12 +437,18 @@
           ]
         },
         {
-          "type": "order",
-          "t": "Die Polizei meldet, niemand sei verletzt worden.",
-          "s": "The police report that nobody was injured.",
-          "alts": [
-            "Niemand sei verletzt worden, meldet die Polizei."
-          ]
+          "type": "choice",
+          "task": "Which reply is correct?",
+          "cue": "Was hat die Polizei gemeldet?",
+          "t": "___",
+          "options": [
+            "Sie hat gemeldet, niemand sei verletzt worden.",
+            "Sie hat gemeldet, niemand sei verletzt geworden.",
+            "Sie hat gemeldet, niemand seien verletzt worden."
+          ],
+          "answer": 0,
+          "why": "Passive in the past: sei + participle + worden (not geworden); niemand is singular.",
+          "s": "What did the police report? – They reported that nobody had been injured."
         }
       ]
     },
@@ -505,7 +523,8 @@
             "habe"
           ],
           "answer": 1,
-          "s": "The users say they're tired of ads."
+          "s": "The users say they're tired of ads.",
+          "why": "Konjunktiv I 'sie haben' = indicative, so use Konjunktiv II hätten (not the past tense hatten)."
         },
         {
           "type": "choice",
@@ -516,7 +535,8 @@
             "seien"
           ],
           "answer": 0,
-          "s": "The students said they had played all evening."
+          "s": "The students said they had played all evening.",
+          "why": "spielen forms the perfect with haben; plural Konjunktiv I = indicative → hätten gespielt."
         },
         {
           "type": "type",
@@ -525,16 +545,20 @@
             "würden",
             "wuerden"
           ],
-          "s": "My parents think we spend too much time on our phones."
+          "s": "My parents think we spend too much time on our phones.",
+          "why": "Konjunktiv I 'wir verbringen' = indicative and verbrächten sounds odd, so use würden + infinitive."
         },
         {
           "type": "type",
-          "t": "Die Journalisten berichten, sie ___ keine Antwort bekommen.",
+          "task": "Put it into indirect speech.",
+          "cue": "Die Nachbarn sagen: „Wir haben nichts gehört.“",
+          "t": "Die Nachbarn sagen, sie ___.",
           "answer": [
-            "hätten",
-            "haetten"
+            "hätten nichts gehört",
+            "haetten nichts gehoert"
           ],
-          "s": "The journalists report that they haven't received an answer."
+          "why": "Konjunktiv I 'sie haben' looks like the indicative, so use Konjunktiv II: hätten + participle.",
+          "s": "The neighbors say they didn't hear anything."
         },
         {
           "type": "choice",
@@ -545,7 +569,8 @@
             "würden"
           ],
           "answer": 2,
-          "s": "The companies state that they won't sell the data."
+          "s": "The companies state that they won't sell the data.",
+          "why": "Plural sie: replace the Konjunktiv I with würden + infinitive (verkaufen)."
         },
         {
           "type": "choice",
@@ -556,7 +581,8 @@
             "kamen"
           ],
           "answer": 0,
-          "s": "We said we would come later."
+          "s": "We said we would come later.",
+          "why": "Konjunktiv I 'wir kommen' = indicative, so use Konjunktiv II: kämen."
         },
         {
           "type": "order",
@@ -567,12 +593,18 @@
           ]
         },
         {
-          "type": "order",
-          "t": "Viele meinen, sie würden zu wenig schlafen.",
-          "s": "Many people say they don't get enough sleep.",
-          "alts": [
-            "Sie würden zu wenig schlafen, meinen viele."
-          ]
+          "type": "choice",
+          "task": "Which reply is correct?",
+          "cue": "Was sagen deine Kinder über das Handyverbot an der Schule?",
+          "t": "___",
+          "options": [
+            "Sie sagen, sie würden sich in den Pausen langweilen.",
+            "Sie sagen, sie langweile sich in den Pausen.",
+            "Sie sagen, sie würde sich in den Pausen langweilen."
+          ],
+          "answer": 0,
+          "why": "Plural sie: Konjunktiv I 'sie langweilen' = indicative, so use würden + infinitive.",
+          "s": "What do your children say about the cell phone ban at school? – They say they're bored during breaks."
         }
       ]
     }
@@ -692,6 +724,30 @@
           "auf Videos verzichten"
         ],
         "answer": 1
+      },
+      {
+        "q": {
+          "t": "Warum sind Filterblasen laut Text problematisch?",
+          "s": "Why are filter bubbles a problem, according to the text?"
+        },
+        "options": [
+          "Man hält die eigene Meinung leicht für die einzig richtige.",
+          "Man bekommt zu viele verschiedene Informationen.",
+          "Man muss für Nachrichten mehr bezahlen."
+        ],
+        "answer": 0
+      },
+      {
+        "q": {
+          "t": "Die Umfrage wurde von einer Zeitung durchgeführt. – Richtig, falsch oder steht das nicht im Text?",
+          "s": "The survey was carried out by a newspaper. – True, false or not in the text?"
+        },
+        "options": [
+          "richtig",
+          "falsch",
+          "steht nicht im Text"
+        ],
+        "answer": 2
       }
     ]
   },

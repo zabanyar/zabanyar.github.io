@@ -129,7 +129,8 @@
       "ex": {
         "t": "Wir sind letztes Jahr nach Köln umgezogen.",
         "s": "We moved to Cologne last year."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w12",
@@ -308,7 +309,7 @@
         "t": "die Wohnung, in der wir wohnen",
         "s": "Relative clauses with prepositions and wo(r)-"
       },
-      "explain": "If the verb or expression in a relative clause needs a preposition (**wohnen in**, **sprechen mit**, **warten auf**), the preposition comes **first**, right after the comma, followed by the relative pronoun: **die Wohnung, in der wir wohnen**.\nThe **gender and number** of the pronoun come from the noun it refers to; the **case** comes from the preposition: **der Nachbar, mit dem** (mit + D) … / **der Brief, auf den** (warten auf + A) … Remember the dative plural **denen**: **die Nachbarn, von denen ich erzählt habe**.\nUse **wo(r) + preposition** when the relative clause refers to a **whole clause** or to **das, etwas, nichts, alles, vieles**: **Das ist etwas, woran ich mich gewöhnen muss.** / **Die Miete sinkt, worüber sich alle freuen.** Add an **r** before a vowel: **worauf, woran, worüber** – but **womit, wofür, wovon**.\nFor places you can also use **wo**: **die Stadt, in der / wo ich wohne**. After names of cities and countries, use only **wo**: **Köln, wo ich studiert habe**.\nCareful: for **people** never use wo(r)-: **der Mann, an den ich denke** (not *woran*).",
+      "explain": "Review from B1: **der Mann, der / den / dem …** – now the relative pronoun comes after a preposition.\nIf the verb or expression in a relative clause needs a preposition (**wohnen in**, **sprechen mit**, **warten auf**), the preposition comes **first**, right after the comma, followed by the relative pronoun: **die Wohnung, in der wir wohnen**.\nThe **gender and number** of the pronoun come from the noun it refers to; the **case** comes from the preposition: **der Nachbar, mit dem** (mit + D) … / **der Brief, auf den** (warten auf + A) … Remember the dative plural **denen**: **die Nachbarn, von denen ich erzählt habe**.\nUse **wo(r) + preposition** when the relative clause refers to a **whole clause** or to **das, etwas, nichts, alles, vieles**: **Das ist etwas, woran ich mich gewöhnen muss.** / **Die Miete sinkt, worüber sich alle freuen.** Add an **r** before a vowel: **worauf, woran, worüber** – but **womit, wofür, wovon**.\nFor places you can also use **wo**: **die Stadt, in der / wo ich wohne**. After names of cities and countries, use only **wo**: **Köln, wo ich studiert habe**.\nCareful: for **people** never use wo(r)-: **der Mann, an den ich denke** (not *woran*).\nTip for Persian speakers: Persian *ke* never changes, but the German relative pronoun takes its gender and number from the noun and its case from the preposition.",
       "table": [
         [
           "mit + D",
@@ -363,7 +364,8 @@
             "in dem"
           ],
           "answer": 1,
-          "s": "This is the apartment we've been living in for three years."
+          "s": "This is the apartment we've been living in for three years.",
+          "why": "wohnen in + dative (where?); die Wohnung is feminine → in der."
         },
         {
           "type": "choice",
@@ -374,7 +376,8 @@
             "mit der"
           ],
           "answer": 0,
-          "s": "The neighbor I talked to yesterday is very nice."
+          "s": "The neighbor I talked to yesterday is very nice.",
+          "why": "sich unterhalten mit + dative; der Nachbar is masculine → mit dem."
         },
         {
           "type": "choice",
@@ -385,15 +388,19 @@
             "woran"
           ],
           "answer": 2,
-          "s": "That's something I still have to get used to."
+          "s": "That's something I still have to get used to.",
+          "why": "After etwas, alles or nichts, use wo(r) + preposition: sich gewöhnen an → woran."
         },
         {
           "type": "type",
-          "t": "Die Kollegin, ___ der ich zusammenarbeite, kommt aus Bremen.",
+          "task": "Join the sentences with a relative clause.",
+          "cue": "Ich warte auf den Handwerker. Er kommt erst morgen.",
+          "t": "Der Handwerker, ___, kommt erst morgen.",
           "answer": [
-            "mit"
+            "auf den ich warte"
           ],
-          "s": "The colleague I work with is from Bremen."
+          "why": "warten auf + accusative: the preposition comes first (auf den), and the verb goes to the end.",
+          "s": "The repairman I'm waiting for isn't coming until tomorrow."
         },
         {
           "type": "type",
@@ -401,7 +408,8 @@
           "answer": [
             "denen"
           ],
-          "s": "The neighbors I told you about moved out yesterday."
+          "s": "The neighbors I told you about moved out yesterday.",
+          "why": "von + dative; the plural relative pronoun in the dative is denen."
         },
         {
           "type": "type",
@@ -411,12 +419,22 @@
             "wovon",
             "worueber"
           ],
-          "s": "Everything we talked about stays between us."
+          "s": "Everything we talked about stays between us.",
+          "why": "After alles, use wo(r) + preposition: sprechen über → worüber."
         },
         {
-          "type": "order",
-          "t": "Das ist das Haus, in dem ich wohne.",
-          "s": "This is the house I live in."
+          "type": "choice",
+          "task": "Which reply is correct?",
+          "cue": "Was gefällt dir an deiner neuen Wohnung nicht?",
+          "t": "___",
+          "options": [
+            "Der Balkon, auf den ich mich so gefreut habe, ist viel zu klein.",
+            "Der Balkon, auf dem ich mich so gefreut habe, ist viel zu klein.",
+            "Der Balkon, auf die ich mich so gefreut habe, ist viel zu klein."
+          ],
+          "answer": 0,
+          "why": "sich freuen auf + accusative; der Balkon is masculine → auf den.",
+          "s": "What don't you like about your new apartment? – The balcony I was looking forward to so much is far too small."
         },
         {
           "type": "order",
@@ -431,7 +449,7 @@
         "t": "der Nachbar, dessen Auto hier steht",
         "s": "Genitive relative pronouns: dessen / deren"
       },
-      "explain": "**dessen** and **deren** are genitive relative pronouns. They mean **whose** and show possession: **der Nachbar, dessen Auto vor dem Haus steht** (the neighbor whose car …).\nThe choice depends only on the **owner** – the noun the clause refers back to: **dessen** for masculine and neuter nouns, **deren** for feminine and plural nouns. The noun that follows doesn't matter: **der Mieter, dessen Wohnung …** / **die Mieterin, deren Hund …**.\nThe noun after dessen/deren has **no article**, and an adjective in front of it takes the strong ending: **die Familie, deren neues Haus …**.\nPrepositions come first: **die Vermieterin, mit deren Sohn ich studiert habe**.\nDon't confuse **deren** (genitive, *whose*) with **denen** (dative plural, *to / with whom*).",
+      "explain": "**dessen** and **deren** are genitive relative pronouns. They mean **whose** and show possession: **der Nachbar, dessen Auto vor dem Haus steht** (the neighbor whose car …).\nThe choice depends only on the **owner** – the noun the clause refers back to: **dessen** for masculine and neuter nouns, **deren** for feminine and plural nouns. The noun that follows doesn't matter: **der Mieter, dessen Wohnung …** / **die Mieterin, deren Hund …**.\nThe noun after dessen/deren has **no article**, and an adjective in front of it takes the strong ending: **die Familie, deren neues Haus …**.\nPrepositions come first: **die Vermieterin, mit deren Sohn ich studiert habe**.\nDon't confuse **deren** (genitive, *whose*) with **denen** (dative plural, *to / with whom*).\nTip: English *whose* never changes, and *his / her* agree with the owner too – but in German the owner's gender decides between **dessen** and **deren**, never the thing owned.",
       "table": [
         [
           "der Mieter",
@@ -453,7 +471,7 @@
       "examples": [
         {
           "t": "Herr Wagner, dessen Frau Ärztin ist, wohnt im Erdgeschoss.",
-          "s": "Mr. Wagner, whose wife is a doctor, lives on the ground floor."
+          "s": "Mr. Wagner, whose wife is a doctor, lives on the first floor (at street level)."
         },
         {
           "t": "Die Mieterin, deren Hund ständig bellt, wohnt über uns.",
@@ -482,7 +500,8 @@
             "denen"
           ],
           "answer": 0,
-          "s": "The neighbor whose daughter studies in Berlin is very helpful."
+          "s": "The neighbor whose daughter studies in Berlin is very helpful.",
+          "why": "The owner der Nachbar is masculine → dessen, whatever the gender of Tochter."
         },
         {
           "type": "choice",
@@ -493,7 +512,8 @@
             "deren"
           ],
           "answer": 2,
-          "s": "The landlady whose house we rent lives in Munich."
+          "s": "The landlady whose house we rent lives in Munich.",
+          "why": "The owner die Vermieterin is feminine → deren."
         },
         {
           "type": "choice",
@@ -504,15 +524,19 @@
             "denen"
           ],
           "answer": 1,
-          "s": "The tenants whose apartments are being renovated are temporarily moving into a hotel."
+          "s": "The tenants whose apartments are being renovated are temporarily moving into a hotel.",
+          "why": "The owners die Mieter are plural → deren."
         },
         {
           "type": "type",
-          "t": "Das ist das Haus, ___ Dach im Sturm beschädigt wurde.",
+          "task": "Join the sentences with dessen or deren.",
+          "cue": "Das ist Herr Schulz. Seine Telefonnummer hängt im Treppenhaus.",
+          "t": "Das ist Herr Schulz, ___ im Treppenhaus hängt.",
           "answer": [
-            "dessen"
+            "dessen Telefonnummer"
           ],
-          "s": "That's the house whose roof was damaged in the storm."
+          "why": "The owner, Herr Schulz, is masculine, so sein → dessen; the noun after dessen has no article.",
+          "s": "That's Mr. Schulz, whose phone number is posted in the stairwell."
         },
         {
           "type": "type",
@@ -520,7 +544,8 @@
           "answer": [
             "deren"
           ],
-          "s": "Ms. Becker, whose son I went to school with, lives next door to us."
+          "s": "Ms. Becker, whose son I went to school with, lives next door to us.",
+          "why": "The owner Frau Becker is feminine → deren; mit doesn't change it (mit deren Sohn)."
         },
         {
           "type": "choice",
@@ -531,7 +556,8 @@
             "der Miete"
           ],
           "answer": 1,
-          "s": "We're looking for an apartment whose rent isn't too high."
+          "s": "We're looking for an apartment whose rent isn't too high.",
+          "why": "After dessen or deren the noun has no article: deren Miete."
         },
         {
           "type": "order",
@@ -539,9 +565,18 @@
           "s": "That's the man whose car is parked here."
         },
         {
-          "type": "order",
-          "t": "Die Familie, deren Kinder laut sind, zieht aus.",
-          "s": "The family whose children are noisy is moving out."
+          "type": "choice",
+          "task": "Which reply is correct?",
+          "cue": "Welche Wohnung habt ihr genommen?",
+          "t": "___",
+          "options": [
+            "Die Wohnung, deren Balkon nach Süden geht.",
+            "Die Wohnung, dessen Balkon nach Süden geht.",
+            "Die Wohnung, deren der Balkon nach Süden geht."
+          ],
+          "answer": 0,
+          "why": "deren refers to the feminine owner die Wohnung, and no article follows it.",
+          "s": "Which apartment did you take? – The one whose balcony faces south."
         }
       ]
     }
@@ -565,8 +600,8 @@
         "s": "That's why more and more people are moving to the country or to smaller towns, where housing is much cheaper."
       },
       {
-        "t": "Eine von ihnen ist Lena Hoffmann, deren Familie vor zwei Jahren von Frankfurt in ein Dorf im Taunus gezogen ist.",
-        "s": "One of them is Lena Hoffmann, whose family moved from Frankfurt to a village in the Taunus hills two years ago."
+        "t": "Eine von ihnen ist Katrin Vogel, deren Familie vor zwei Jahren von Frankfurt in ein Dorf im Taunus gezogen ist.",
+        "s": "One of them is Katrin Vogel, whose family moved from Frankfurt to a village in the Taunus hills two years ago."
       },
       {
         "t": "„Für das Geld, das wir früher für eine Dreizimmerwohnung bezahlt haben, wohnen wir jetzt in einem Haus mit Garten“, erzählt sie.",
@@ -585,16 +620,16 @@
         "s": "Buses often run only once an hour, and without a car it's hard to get to the supermarket or the doctor."
       },
       {
-        "t": "Lenas Mann pendelt jeden Tag eine Stunde zur Arbeit, was auf Dauer ziemlich anstrengend ist.",
-        "s": "Lena's husband commutes an hour to work every day, which is quite tiring in the long run."
+        "t": "Katrins Mann pendelt jeden Tag eine Stunde zur Arbeit, was auf Dauer ziemlich anstrengend ist.",
+        "s": "Katrin's husband commutes an hour to work every day, which is quite tiring in the long run."
       },
       {
         "t": "Außerdem fehlen kulturelle Angebote wie Kinos oder Theater, die es in der Stadt an jeder Ecke gibt.",
         "s": "In addition, there's a lack of cultural offerings such as movie theaters or playhouses, which you find on every corner in the city."
       },
       {
-        "t": "Trotzdem bereut Lena die Entscheidung nicht: „Für uns überwiegen die Vorteile ganz klar.“",
-        "s": "Nevertheless, Lena doesn't regret the decision: 'For us, the advantages clearly outweigh the disadvantages.'"
+        "t": "Trotzdem bereut Katrin die Entscheidung nicht: „Für uns überwiegen die Vorteile ganz klar.“",
+        "s": "Nevertheless, Katrin doesn't regret the decision: 'For us, the advantages clearly outweigh the disadvantages.'"
       },
       {
         "t": "Experten gehen davon aus, dass der Trend anhalten wird – auch weil viele Menschen inzwischen teilweise von zu Hause aus arbeiten.",
@@ -616,8 +651,8 @@
       },
       {
         "q": {
-          "t": "Wo wohnt Lenas Familie heute?",
-          "s": "Where does Lena's family live today?"
+          "t": "Wo wohnt Katrins Familie heute?",
+          "s": "Where does Katrin's family live today?"
         },
         "options": [
           "in einer Dreizimmerwohnung in Frankfurt",
@@ -652,8 +687,8 @@
       },
       {
         "q": {
-          "t": "Wie denkt Lena heute über den Umzug?",
-          "s": "How does Lena feel about the move today?"
+          "t": "Wie denkt Katrin heute über den Umzug?",
+          "s": "How does Katrin feel about the move today?"
         },
         "options": [
           "Sie bereut ihn.",
@@ -661,6 +696,30 @@
           "Sie möchte zurück nach Frankfurt."
         ],
         "answer": 1
+      },
+      {
+        "q": {
+          "t": "Was würde Katrin einer Familie wohl raten, die über einen Umzug aufs Land nachdenkt?",
+          "s": "What advice would Katrin probably give a family thinking about moving to the country?"
+        },
+        "options": [
+          "Sie würde eher davon abraten.",
+          "Sie würde eher dazu raten, aber auf die Nachteile hinweisen.",
+          "Sie würde ihr raten, in Frankfurt zu bleiben."
+        ],
+        "answer": 1
+      },
+      {
+        "q": {
+          "t": "Katrins Familie hat zwei Kinder. – Richtig, falsch oder steht das nicht im Text?",
+          "s": "Katrin's family has two children. – True, false or not in the text?"
+        },
+        "options": [
+          "richtig",
+          "falsch",
+          "steht nicht im Text"
+        ],
+        "answer": 2
       }
     ]
   },

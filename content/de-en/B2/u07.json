@@ -366,7 +366,8 @@
             "steigend"
           ],
           "answer": 0,
-          "s": "Because of rising fuel prices, many people ride their bikes."
+          "s": "Because of rising fuel prices, many people ride their bikes.",
+          "why": "Partizip I (steigend) for something going on; after der (genitive plural) → steigenden."
         },
         {
           "type": "choice",
@@ -377,7 +378,8 @@
             "gewarteten"
           ],
           "answer": 1,
-          "s": "The waiting passengers have been standing on the platform for an hour."
+          "s": "The waiting passengers have been standing on the platform for an hour.",
+          "why": "The passengers are waiting right now → Partizip I; plural after die → wartenden."
         },
         {
           "type": "type",
@@ -385,7 +387,8 @@
           "answer": [
             "gebuchte"
           ],
-          "s": "The hotel we had booked was right on the beach. (buchen)"
+          "s": "The hotel we had booked was right on the beach. (buchen)",
+          "why": "The hotel was booked (passive, completed) → Partizip II gebucht + -e after das."
         },
         {
           "type": "type",
@@ -393,7 +396,8 @@
           "answer": [
             "ausgefallenen"
           ],
-          "s": "Instead of the canceled train, a bus is running. (ausfallen)"
+          "s": "Instead of the canceled train, a bus is running. (ausfallen)",
+          "why": "ausfallen forms the perfect with sein: the train has been canceled → ausgefallen; after des → -en."
         },
         {
           "type": "choice",
@@ -404,15 +408,22 @@
             "beschädigte"
           ],
           "answer": 2,
-          "s": "The damaged bridge has been closed since May."
+          "s": "The damaged bridge has been closed since May.",
+          "why": "The bridge was damaged (completed) → Partizip II beschädigt + -e after die."
         },
         {
-          "type": "type",
-          "t": "Steigen Sie bitte nicht mehr in den ___ Zug ein!",
-          "answer": [
-            "abfahrenden"
+          "type": "choice",
+          "task": "Which reply is correct?",
+          "cue": "Warum kommst du erst jetzt?",
+          "t": "___",
+          "options": [
+            "Wegen eines umgestürzten Baums war die Strecke gesperrt.",
+            "Wegen eines umgestürzt Baums war die Strecke gesperrt.",
+            "Wegen eines umgestürzte Baums war die Strecke gesperrt."
           ],
-          "s": "Please do not board the departing train! (abfahren)"
+          "answer": 0,
+          "why": "A participle before a noun takes the adjective ending: eines umgestürzten Baums (genitive, -en).",
+          "s": "Why are you only getting here now? – The line was closed because of a fallen tree."
         },
         {
           "type": "order",
@@ -423,8 +434,14 @@
           ]
         },
         {
-          "type": "order",
-          "t": "Die steigenden Ticketpreise ärgern viele Pendler.",
+          "type": "type",
+          "task": "Make it one sentence with a participle.",
+          "cue": "Die Ticketpreise steigen. Das ärgert viele Pendler.",
+          "t": "Die ___ ärgern viele Pendler.",
+          "answer": [
+            "steigenden Ticketpreise"
+          ],
+          "why": "Something going on now → Partizip I (steigend) + adjective ending: die steigenden Ticketpreise.",
           "s": "The rising ticket prices annoy many commuters."
         }
       ]
@@ -435,7 +452,7 @@
         "t": "nachdem, bevor, sobald, seitdem, bis",
         "s": "Temporal connectors"
       },
-      "explain": "These connectors introduce a **subordinate clause**, so the conjugated verb goes to the **end**.\n**nachdem** (after): first A happens, then B. Watch the **tense shift**: if the main clause is in the past (Präteritum or Perfekt), the nachdem clause is in the **Plusquamperfekt**: **Nachdem der Zug angekommen war, stiegen wir aus.** If the main clause is in the present or future, use the **Perfekt**: **Nachdem ich gegessen habe, gehe ich los.**\n**bevor** (before): usually the same tense in both clauses: **Bevor wir losfahren, tanken wir.**\n**sobald** (as soon as): **Sobald ich ankomme, rufe ich dich an.** For a completed action, use the Perfekt: **Sobald ich angekommen bin, …**\n**seit / seitdem** (since): something started in the past and is still true, so use the **present tense**: **Seitdem ich pendle, lese ich mehr.**\n**bis** (until): **Wir warten, bis der Bus kommt.**\nDon't confuse the connectors with prepositions: **nach dem Essen** vs. **nachdem wir gegessen hatten**; **vor der Reise** vs. **bevor wir reisen**.",
+      "explain": "These connectors introduce a **subordinate clause**, so the conjugated verb goes to the **end**.\n**nachdem** (after): first A happens, then B. Watch the **tense shift**: if the main clause is in the past (Präteritum or Perfekt), the nachdem clause is in the **Plusquamperfekt**: **Nachdem der Zug angekommen war, stiegen wir aus.** If the main clause is in the present or future, use the **Perfekt**: **Nachdem ich gegessen habe, gehe ich los.**\n**bevor** (before): usually the same tense in both clauses: **Bevor wir losfahren, tanken wir.**\n**sobald** (as soon as): **Sobald ich ankomme, rufe ich dich an.** For a completed action, use the Perfekt: **Sobald ich angekommen bin, …**\n**seit / seitdem** (since): something started in the past and is still true, so use the **present tense**: **Seitdem ich pendle, lese ich mehr.** (English uses the present perfect here: *since I've been commuting*.)\n**bis** (until): **Wir warten, bis der Bus kommt.**\nDon't confuse the connectors with prepositions: **nach dem Essen** vs. **nachdem wir gegessen hatten**; **vor der Reise** vs. **bevor wir reisen**.",
       "table": [
         [
           "nachdem",
@@ -483,14 +500,17 @@
       "exercises": [
         {
           "type": "choice",
-          "t": "___ wir das Hotel gebucht hatten, sahen wir ein günstigeres Angebot.",
+          "task": "Which reply fits?",
+          "cue": "Wann rufst du mich an?",
+          "t": "___",
           "options": [
-            "Nachdem",
-            "Bevor",
-            "Seitdem"
+            "Sobald ich in Köln angekommen bin.",
+            "Sobald ich bin in Köln angekommen.",
+            "Seitdem ich in Köln angekommen bin."
           ],
           "answer": 0,
-          "s": "After we had booked the hotel, we saw a cheaper offer."
+          "why": "sobald = as soon as; in the subordinate clause the conjugated verb goes to the end.",
+          "s": "When will you call me? – As soon as I've arrived in Cologne."
         },
         {
           "type": "choice",
@@ -501,7 +521,8 @@
             "war"
           ],
           "answer": 1,
-          "s": "After Ali had missed his connection, he called his wife."
+          "s": "After Ali had missed his connection, he called his wife.",
+          "why": "nachdem + past perfect: verpassen forms the perfect with haben → hatte … verpasst."
         },
         {
           "type": "choice",
@@ -512,7 +533,8 @@
             "bis"
           ],
           "answer": 2,
-          "s": "We'll wait here until the rain stops."
+          "s": "We'll wait here until the rain stops.",
+          "why": "bis = until: we wait until the rain stops."
         },
         {
           "type": "type",
@@ -521,7 +543,8 @@
             "Seitdem",
             "Seit"
           ],
-          "s": "Since I've been living in Berlin, I hardly drive anymore."
+          "s": "Since I've been living in Berlin, I hardly drive anymore.",
+          "why": "seitdem/seit = since: something that started in the past and is still true (present tense)."
         },
         {
           "type": "type",
@@ -530,15 +553,19 @@
             "sobald",
             "wenn"
           ],
-          "s": "Please call me as soon as you've arrived!"
+          "s": "Please call me as soon as you've arrived!",
+          "why": "sobald = as soon as (wenn also works here)."
         },
         {
           "type": "type",
-          "t": "Nachdem wir die Koffer gepackt ___, fuhren wir zum Flughafen.",
+          "task": "Join them with nachdem (watch the tense).",
+          "cue": "Wir kamen am Bahnhof an. Danach riefen wir ein Taxi.",
+          "t": "Nachdem wir am Bahnhof ___, riefen wir ein Taxi.",
           "answer": [
-            "hatten"
+            "angekommen waren"
           ],
-          "s": "After we had packed our suitcases, we drove to the airport."
+          "why": "nachdem + past perfect for the earlier action; ankommen forms the perfect with sein → angekommen waren.",
+          "s": "After we had arrived at the station, we called a taxi."
         },
         {
           "type": "choice",
@@ -549,7 +576,8 @@
             "Seitdem"
           ],
           "answer": 0,
-          "s": "Before you set off, please check whether the route is clear."
+          "s": "Before you set off, please check whether the route is clear.",
+          "why": "bevor = before: check first, then set off."
         },
         {
           "type": "order",
@@ -573,8 +601,8 @@
         "s": "Millions of people in Germany commute to work every day – and their commutes are getting longer and longer."
       },
       {
-        "t": "Einer von ihnen ist Reza, der in einem kleinen Ort bei Darmstadt wohnt und in Frankfurt arbeitet.",
-        "s": "One of them is Reza, who lives in a small town near Darmstadt and works in Frankfurt."
+        "t": "Einer von ihnen ist Omid, der in einem kleinen Ort bei Darmstadt wohnt und in Frankfurt arbeitet.",
+        "s": "One of them is Omid, who lives in a small town near Darmstadt and works in Frankfurt."
       },
       {
         "t": "Früher fuhr er jeden Morgen mit dem Auto, doch die steigenden Spritpreise und der tägliche Stau auf der A5 haben ihn zunehmend genervt.",
@@ -593,8 +621,8 @@
         "s": "Delayed or canceled trains are part of everyday life for many commuters."
       },
       {
-        "t": "Letzte Woche stand Rezas Zug wegen einer Signalstörung fast eine Stunde auf freier Strecke.",
-        "s": "Last week Reza's train stood on the open track for almost an hour because of a signal failure."
+        "t": "Letzte Woche stand Omids Zug wegen einer Signalstörung fast eine Stunde auf freier Strecke.",
+        "s": "Last week Omid's train stood on the open track for almost an hour because of a signal failure."
       },
       {
         "t": "„Als ich endlich ankam, war das Meeting schon vorbei“, erzählt er.",
@@ -620,8 +648,8 @@
     "questions": [
       {
         "q": {
-          "t": "Wo arbeitet Reza?",
-          "s": "Where does Reza work?"
+          "t": "Wo arbeitet Omid?",
+          "s": "Where does Omid work?"
         },
         "options": [
           "in Darmstadt",
@@ -632,8 +660,8 @@
       },
       {
         "q": {
-          "t": "Warum fährt Reza nicht mehr mit dem Auto zur Arbeit?",
-          "s": "Why doesn't Reza drive to work anymore?"
+          "t": "Warum fährt Omid nicht mehr mit dem Auto zur Arbeit?",
+          "s": "Why doesn't Omid drive to work anymore?"
         },
         "options": [
           "wegen der hohen Spritpreise und des täglichen Staus",
@@ -644,8 +672,8 @@
       },
       {
         "q": {
-          "t": "Was macht Reza während der Fahrt?",
-          "s": "What does Reza do during the ride?"
+          "t": "Was macht Omid während der Fahrt?",
+          "s": "What does Omid do during the ride?"
         },
         "options": [
           "Er schläft meistens.",
@@ -660,16 +688,16 @@
           "s": "What happened last week?"
         },
         "options": [
-          "Reza hat ein Meeting verpasst.",
-          "Reza ist mit dem Auto gefahren.",
+          "Omid hat ein Meeting verpasst.",
+          "Omid ist mit dem Auto gefahren.",
           "Der Zug ist zu früh abgefahren."
         ],
         "answer": 0
       },
       {
         "q": {
-          "t": "Wie oft pendelt Reza pro Woche?",
-          "s": "How often does Reza commute per week?"
+          "t": "Wie oft pendelt Omid pro Woche?",
+          "s": "How often does Omid commute per week?"
         },
         "options": [
           "fünfmal",
@@ -677,6 +705,30 @@
           "dreimal"
         ],
         "answer": 2
+      },
+      {
+        "q": {
+          "t": "Wie steht Omid insgesamt zum Bahnfahren?",
+          "s": "What is Omid's overall attitude to traveling by train?"
+        },
+        "options": [
+          "Er sieht die Nachteile, hält die Bahn aber für die bessere Lösung.",
+          "Er ärgert sich so sehr, dass er bald wieder Auto fährt.",
+          "Er findet die Bahn absolut perfekt."
+        ],
+        "answer": 0
+      },
+      {
+        "q": {
+          "t": "Omids Arbeitgeber bezahlt das Jobticket vollständig. – Richtig, falsch oder steht das nicht im Text?",
+          "s": "Omid's employer pays for the whole job ticket. – True, false or not in the text?"
+        },
+        "options": [
+          "richtig",
+          "falsch",
+          "steht nicht im Text"
+        ],
+        "answer": 1
       }
     ]
   },

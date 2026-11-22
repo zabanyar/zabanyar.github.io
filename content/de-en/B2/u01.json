@@ -30,8 +30,8 @@
       "s": "to apply (for a job / to a company)",
       "emoji": "",
       "ex": {
-        "t": "Maryam bewirbt sich um eine Stelle bei der Stadt München.",
-        "s": "Maryam is applying for a job with the City of Munich."
+        "t": "Maryam bewirbt sich um eine Stelle bei der Stadt Köln.",
+        "s": "Maryam is applying for a job with the City of Cologne."
       }
     },
     {
@@ -54,7 +54,8 @@
       "ex": {
         "t": "In Deutschland ist ein tabellarischer Lebenslauf üblich.",
         "s": "In Germany, a résumé in table form is standard."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w05",
@@ -238,11 +239,11 @@
     },
     "speakers": {
       "A": {
-        "name": "Mina",
+        "name": "Sara",
         "voice": "f"
       },
       "B": {
-        "name": "Jonas",
+        "name": "Tobias",
         "voice": "m"
       }
     },
@@ -306,7 +307,7 @@
         "t": "Das muss erledigt werden.",
         "s": "The passive with modal verbs"
       },
-      "explain": "Use the passive with a modal verb to say what **must**, **can**, **should** or **may** be done, without saying who does it. The modal verb is conjugated and stands in position 2; at the end of the clause comes the **past participle + werden** (the passive infinitive): **Die Mail muss heute beantwortet werden.**\nIn a subordinate clause the modal verb moves to the very end: **…, weil die Mail heute beantwortet werden muss.**\nFor the past, use the Präteritum of the modal verb: **Die Mail musste beantwortet werden.** (The Perfekt – *hat beantwortet werden müssen* – is correct but rare.)\nTo name the person who does the action, use **von + dative**: **Der Vertrag muss vom Chef unterschrieben werden.** For a means or cause, **durch + accusative** is also used.\nNote: **wollen** is practically never used this way – use **sollen** instead: **Das Büro soll renoviert werden.**",
+      "explain": "Review from B1: the passive is **werden + past participle**: **Die Mail wird heute beantwortet.** Now you add a modal verb.\nUse the passive with a modal verb to say what **must**, **can**, **should** or **may** be done, without saying who does it. The modal verb is conjugated and stands in position 2; at the end of the clause comes the **past participle + werden** (the passive infinitive): **Die Mail muss heute beantwortet werden.**\nIn a subordinate clause the modal verb moves to the very end: **…, weil die Mail heute beantwortet werden muss.**\nFor the past, use the Präteritum of the modal verb: **Die Mail musste beantwortet werden.** (The Perfekt – *hat beantwortet werden müssen* – is correct but rare.)\nTo name the person who does the action, use **von + dative**: **Der Vertrag muss vom Chef unterschrieben werden.** For a means or cause, **durch + accusative** is also used.\nNote: **wollen** is practically never used this way – use **sollen** instead: **Das Büro soll renoviert werden.**",
       "table": [
         [
           "Präsens",
@@ -357,7 +358,8 @@
             "geschickt worden"
           ],
           "answer": 0,
-          "s": "The documents must be sent by Friday."
+          "s": "The documents must be sent by Friday.",
+          "why": "With a modal verb, the passive infinitive (participle + werden) goes to the end: müssen … geschickt werden."
         },
         {
           "type": "choice",
@@ -368,15 +370,19 @@
             "hat"
           ],
           "answer": 1,
-          "s": "I think the application still has to be signed."
+          "s": "I think the application still has to be signed.",
+          "why": "In a dass-clause the conjugated modal goes last; der Antrag is singular, so muss."
         },
         {
           "type": "type",
-          "t": "Diese Aufgabe kann auch im Homeoffice erledigt ___.",
+          "task": "Make it passive and keep the modal verb.",
+          "cue": "Man muss die Rechnung bis Freitag bezahlen.",
+          "t": "Die Rechnung ___.",
           "answer": [
-            "werden"
+            "muss bis Freitag bezahlt werden"
           ],
-          "s": "This task can also be done from home."
+          "why": "Passive with a modal: the modal verb is conjugated; the participle + werden go to the end.",
+          "s": "The bill must be paid by Friday."
         },
         {
           "type": "choice",
@@ -387,7 +393,8 @@
             "konnte"
           ],
           "answer": 2,
-          "s": "Fortunately, the problem could be solved quickly."
+          "s": "Fortunately, the problem could be solved quickly.",
+          "why": "In the past, the modal carries the tense: das Problem (singular) → konnte … gelöst werden."
         },
         {
           "type": "type",
@@ -395,7 +402,8 @@
           "answer": [
             "mussten"
           ],
-          "s": "In the past, all forms had to be sent by mail."
+          "s": "In the past, all forms had to be sent by mail.",
+          "why": "The modal is in the simple past and agrees with the plural subject alle Formulare: mussten."
         },
         {
           "type": "type",
@@ -404,7 +412,8 @@
             "besetzt",
             "vergeben"
           ],
-          "s": "The position is to be filled by the end of June."
+          "s": "The position is to be filled by the end of June.",
+          "why": "The passive needs the past participle before werden: besetzt werden (from besetzen)."
         },
         {
           "type": "order",
@@ -415,9 +424,18 @@
           ]
         },
         {
-          "type": "order",
-          "t": "Dieses Formular kann nicht geändert werden.",
-          "s": "This form cannot be changed."
+          "type": "choice",
+          "task": "Which reply is correct?",
+          "cue": "Können wir das Problem heute noch lösen?",
+          "t": "___",
+          "options": [
+            "Leider nicht, es kann erst morgen gelöst werden.",
+            "Leider nicht, es kann erst morgen lösen werden.",
+            "Leider nicht, es wird erst morgen gelöst können."
+          ],
+          "answer": 0,
+          "why": "Modal verb + passive infinitive: kann … gelöst werden (participle first, then werden).",
+          "s": "Can we still solve the problem today? – Unfortunately not, it can't be solved until tomorrow."
         }
       ]
     },
@@ -482,7 +500,8 @@
             "wird"
           ],
           "answer": 1,
-          "s": "The problem can be solved easily."
+          "s": "The problem can be solved easily.",
+          "why": "sich lassen + infinitive = can be done: Das Problem lässt sich lösen."
         },
         {
           "type": "choice",
@@ -493,7 +512,8 @@
             "leslich"
           ],
           "answer": 0,
-          "s": "The writing is so small that it's hardly legible."
+          "s": "The writing is so small that it's hardly legible.",
+          "why": "-bar turns a verb into an adjective meaning 'can be …-ed': lesen → lesbar."
         },
         {
           "type": "type",
@@ -505,7 +525,8 @@
             "abzuschicken",
             "einzusenden"
           ],
-          "s": "The application must be submitted by Friday."
+          "s": "The application must be submitted by Friday.",
+          "why": "sein + zu + infinitive = must be done; with a separable verb, zu goes inside: einzureichen."
         },
         {
           "type": "choice",
@@ -516,7 +537,8 @@
             "zu zahlen"
           ],
           "answer": 2,
-          "s": "The rent must be paid at the beginning of the month."
+          "s": "The rent must be paid at the beginning of the month.",
+          "why": "sein + zu + infinitive expresses an obligation: ist … zu zahlen."
         },
         {
           "type": "type",
@@ -524,18 +546,22 @@
           "answer": [
             "zu"
           ],
-          "s": "Unfortunately, the mistake can't be avoided."
+          "s": "Unfortunately, the mistake can't be avoided.",
+          "why": "sein + zu + infinitive: nicht zu vermeiden = can't be avoided."
         },
         {
-          "type": "choice",
-          "t": "Diese Aufgabe ist in zwei Stunden ___.",
-          "options": [
-            "machlich",
-            "machbar",
-            "machend"
+          "type": "type",
+          "task": "Say it without man (use sich lassen, -bar or sein + zu).",
+          "cue": "Diesen Fehler kann man leicht vermeiden.",
+          "t": "Dieser Fehler ___.",
+          "answer": [
+            "lässt sich leicht vermeiden",
+            "laesst sich leicht vermeiden",
+            "ist leicht zu vermeiden",
+            "ist leicht vermeidbar"
           ],
-          "answer": 1,
-          "s": "This task can be done in two hours."
+          "why": "sich lassen + infinitive, sein + zu + infinitive and -bar all mean 'can be done' – no man needed.",
+          "s": "This mistake can easily be avoided."
         },
         {
           "type": "order",
@@ -543,9 +569,18 @@
           "s": "The appointment can't be postponed."
         },
         {
-          "type": "order",
-          "t": "Das ist kaum zu glauben.",
-          "s": "That's hard to believe."
+          "type": "choice",
+          "task": "Which reply is correct?",
+          "cue": "Kann man das Formular auch online ausfüllen?",
+          "t": "___",
+          "options": [
+            "Ja, es lässt sich ganz einfach online ausfüllen.",
+            "Ja, es lässt ganz einfach online ausfüllen.",
+            "Ja, es lässt sich ganz einfach online ausgefüllt."
+          ],
+          "answer": 0,
+          "why": "sich lassen + infinitive means 'can be done'; it needs the reflexive sich and a plain infinitive.",
+          "s": "Can you fill in the form online, too? – Yes, it can easily be filled in online."
         }
       ]
     }
@@ -665,6 +700,30 @@
           "flexibles Arbeiten"
         ],
         "answer": 2
+      },
+      {
+        "q": {
+          "t": "Was kann man aus dem letzten Satz des Textes schließen?",
+          "s": "What can you conclude from the last sentence of the text?"
+        },
+        "options": [
+          "Firmen ohne flexible Arbeitsmodelle dürften es schwerer haben, Fachkräfte zu finden.",
+          "Fachkräfte wollen nur noch im Büro arbeiten.",
+          "Bei der Wahl des Arbeitgebers spielt flexibles Arbeiten keine Rolle."
+        ],
+        "answer": 0
+      },
+      {
+        "q": {
+          "t": "Die meisten Beschäftigten in Deutschland arbeiten komplett von zu Hause aus. – Richtig, falsch oder steht das nicht im Text?",
+          "s": "Most employees in Germany work entirely from home. – True, false or not in the text?"
+        },
+        "options": [
+          "richtig",
+          "falsch",
+          "steht nicht im Text"
+        ],
+        "answer": 1
       }
     ]
   },

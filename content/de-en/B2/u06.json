@@ -33,7 +33,8 @@
       "ex": {
         "t": "An der Volkshochschule kann man fast alles lernen – von Spanisch bis zur Steuererklärung.",
         "s": "At the adult education center you can learn almost anything – from Spanish to doing your tax return."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w03",
@@ -44,7 +45,8 @@
       "ex": {
         "t": "Ohne Abschluss ist es schwer, eine gute Stelle zu finden.",
         "s": "Without a qualification it's hard to find a good job."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w04",
@@ -55,7 +57,8 @@
       "ex": {
         "t": "Bitte legen Sie Ihrer Bewerbung alle Zeugnisse bei.",
         "s": "Please enclose all your certificates with your application."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w05",
@@ -155,8 +158,8 @@
       "s": "alongside one's job, part-time (of studies or training)",
       "emoji": "",
       "ex": {
-        "t": "Mina macht berufsbegleitend einen Master.",
-        "s": "Mina is doing a master's degree while working."
+        "t": "Nasrin macht berufsbegleitend einen Master.",
+        "s": "Nasrin is doing a master's degree while working."
       }
     },
     {
@@ -261,8 +264,8 @@
       },
       {
         "sp": "B",
-        "t": "Klingt gut. Aber ist das neben der Arbeit nicht zu anstrengend?",
-        "s": "Sounds good. But isn't that too exhausting on top of work?"
+        "t": "Klingt gut. Aber man sollte bedenken, dass das neben der Arbeit ziemlich anstrengend sein kann.",
+        "s": "Sounds good. But you should bear in mind that it can be quite exhausting on top of work."
       },
       {
         "sp": "A",
@@ -291,13 +294,13 @@
       },
       {
         "sp": "B",
-        "t": "Super. Ich habe vor zwei Jahren auch eine Fortbildung gemacht. Trotz des Stresses hat es sich wirklich gelohnt.",
-        "s": "Great. I did a training course two years ago, too. Despite the stress, it was really worth it."
+        "t": "Super. Ich habe vor zwei Jahren auch eine Fortbildung gemacht. Aus eigener Erfahrung kann ich sagen, dass sie sich trotz des Stresses wirklich lohnt.",
+        "s": "Great. I did a training course two years ago, too. From my own experience I can say that it's really worth it despite the stress."
       },
       {
         "sp": "A",
-        "t": "Das beruhigt mich. Dann melde ich mich gleich heute an.",
-        "s": "That's reassuring. Then I'll sign up today."
+        "t": "Das beruhigt mich. Alles in allem überwiegen also die Vorteile. Dann melde ich mich gleich heute an.",
+        "s": "That's reassuring. All in all, then, the advantages outweigh the disadvantages. I'll sign up today."
       },
       {
         "sp": "B",
@@ -378,7 +381,8 @@
             "Lesung"
           ],
           "answer": 1,
-          "s": "I need complete silence for reading."
+          "s": "I need complete silence for reading.",
+          "why": "An infinitive used as a noun is capitalized and neuter: zum (= zu dem) Lesen."
         },
         {
           "type": "choice",
@@ -389,7 +393,8 @@
             "Vorbereitete"
           ],
           "answer": 1,
-          "s": "Preparing for the exam took three months."
+          "s": "Preparing for the exam took three months.",
+          "why": "vorbereiten → die Vorbereitung: nouns ending in -ung are feminine."
         },
         {
           "type": "type",
@@ -397,7 +402,8 @@
           "answer": [
             "Abschluss"
           ],
-          "s": "After completing the course you get a certificate. (abschließen)"
+          "s": "After completing the course you get a certificate. (abschließen)",
+          "why": "abschließen → der Abschluss (masculine noun from the stem: nach dem Abschluss)."
         },
         {
           "type": "type",
@@ -405,7 +411,8 @@
           "answer": [
             "Anmeldung"
           ],
-          "s": "Registration for the courses starts on September 1. (anmelden)"
+          "s": "Registration for the courses starts on September 1. (anmelden)",
+          "why": "anmelden → die Anmeldung (feminine -ung noun)."
         },
         {
           "type": "choice",
@@ -416,15 +423,19 @@
             "Entscheidung"
           ],
           "answer": 2,
-          "s": "I've made an important decision."
+          "s": "I've made an important decision.",
+          "why": "The article eine and wichtige need a feminine noun: die Entscheidung (eine Entscheidung treffen)."
         },
         {
           "type": "type",
-          "t": "Der ___ des Deutschkurses ist kostenlos.",
+          "task": "Use a noun instead of the clause.",
+          "cue": "Nachdem ich die Prüfung bestanden hatte, habe ich gefeiert.",
+          "t": "Nach ___ der Prüfung habe ich gefeiert.",
           "answer": [
-            "Besuch"
+            "dem Bestehen"
           ],
-          "s": "Attending the German course is free of charge. (besuchen)"
+          "why": "A verb used as a noun is neuter: das Bestehen → nach dem Bestehen; the object becomes a genitive (der Prüfung).",
+          "s": "After passing the exam, I celebrated."
         },
         {
           "type": "order",
@@ -435,13 +446,18 @@
           ]
         },
         {
-          "type": "order",
-          "t": "Nach dem Studium möchte Mina in Berlin arbeiten.",
-          "s": "After her studies Mina would like to work in Berlin.",
-          "alts": [
-            "Mina möchte nach dem Studium in Berlin arbeiten.",
-            "In Berlin möchte Mina nach dem Studium arbeiten."
-          ]
+          "type": "choice",
+          "task": "Which reply is correct?",
+          "cue": "Was fällt dir beim Deutschlernen am schwersten?",
+          "t": "___",
+          "options": [
+            "Das Sprechen fällt mir am schwersten.",
+            "Das sprechen fällt mir am schwersten.",
+            "Die Sprechung fällt mir am schwersten."
+          ],
+          "answer": 0,
+          "why": "An infinitive used as a noun is neuter and capitalized: das Sprechen.",
+          "s": "What do you find hardest about learning German? – Speaking is the hardest for me."
         }
       ]
     },
@@ -451,7 +467,7 @@
         "t": "wegen, trotz, während, aufgrund, innerhalb",
         "s": "Prepositions with the genitive"
       },
-      "explain": "Some prepositions take the **genitive**. The most important ones at B2 are **wegen** (because of), **trotz** (despite), **während** (during), **aufgrund** (due to), **innerhalb** (within), **außerhalb** (outside of) and **statt / anstatt** (instead of).\nGenitive forms: masculine and neuter nouns take **des / eines / meines** and add **-s** or **-es** to the noun (**des Kurses, eines Jahres**). Feminine and plural nouns take **der / einer / meiner** (**der Prüfung, der Kosten**). An adjective after the article ends in **-en**: **wegen des schlechten Wetters**.\nIn everyday speech you'll often hear **wegen** and **trotz** with the dative (**wegen dem Wetter**), but in writing and in exams, use the genitive.\nWhen the genitive can't be seen (a plural noun without an article), use **von + dative**: **innerhalb von zwei Wochen**, **aufgrund von Problemen**.\nDon't confuse the preposition **trotz** with the adverb **trotzdem** (nevertheless): **Trotz des Regens gingen wir raus.** = **Es regnete. Trotzdem gingen wir raus.**",
+      "explain": "Review from B1: the genitive is **des / eines** + noun with **-s** (masculine, neuter) and **der / einer** (feminine, plural): **das Auto des Lehrers, die Tasche der Frau**.\nSome prepositions take the **genitive**. The most important ones at B2 are **wegen** (because of), **trotz** (despite), **während** (during), **aufgrund** (due to), **innerhalb** (within), **außerhalb** (outside of) and **statt / anstatt** (instead of).\nGenitive forms: masculine and neuter nouns take **des / eines / meines** and add **-s** or **-es** to the noun (**des Kurses, eines Jahres**). Feminine and plural nouns take **der / einer / meiner** (**der Prüfung, der Kosten**). An adjective after the article ends in **-en**: **wegen des schlechten Wetters**.\nIn everyday speech you'll often hear **wegen** and **trotz** with the dative (**wegen dem Wetter**), but in writing and in exams, use the genitive.\nWhen the genitive can't be seen (a plural noun without an article), use **von + dative**: **innerhalb von zwei Wochen**, **aufgrund von Problemen**.\nDon't confuse the preposition **trotz** with the adverb **trotzdem** (nevertheless): **Trotz des Regens gingen wir raus.** = **Es regnete. Trotzdem gingen wir raus.**",
       "table": [
         [
           "wegen",
@@ -488,8 +504,8 @@
           "s": "Because of the high fees, Reza chose an online course."
         },
         {
-          "t": "Trotz ihres Vollzeitjobs studiert Mina an einer Fernuniversität.",
-          "s": "Despite her full-time job, Mina is studying at a distance-learning university."
+          "t": "Trotz ihres Vollzeitjobs studiert Nasrin an einer Fernuniversität.",
+          "s": "Despite her full-time job, Nasrin is studying at a distance-learning university."
         },
         {
           "t": "Während des Praktikums hat Lena sehr viel gelernt.",
@@ -514,7 +530,8 @@
             "der"
           ],
           "answer": 1,
-          "s": "Because of the strike, classes were canceled."
+          "s": "Because of the strike, classes were canceled.",
+          "why": "wegen + genitive: der Streik → des Streiks."
         },
         {
           "type": "choice",
@@ -525,15 +542,22 @@
             "ihrem"
           ],
           "answer": 0,
-          "s": "Despite her tiredness, Maryam went to class."
+          "s": "Despite her tiredness, Maryam went to class.",
+          "why": "trotz + genitive: die Müdigkeit → trotz ihrer Müdigkeit."
         },
         {
           "type": "type",
-          "t": "Während ___ Semesters arbeitet Jonas in einem Café.",
+          "task": "Use wegen or aufgrund instead of the weil-clause.",
+          "cue": "Weil es stark geregnet hat, ist das Fest ausgefallen.",
+          "t": "___ ist das Fest ausgefallen.",
           "answer": [
-            "des"
+            "Wegen des starken Regens",
+            "Wegen starken Regens",
+            "Aufgrund des starken Regens",
+            "Aufgrund starken Regens"
           ],
-          "s": "During the semester Jonas works in a café."
+          "why": "wegen/aufgrund + genitive: der starke Regen → des starken Regens; the verb then comes second.",
+          "s": "Because of the heavy rain, the party was canceled."
         },
         {
           "type": "type",
@@ -541,7 +565,8 @@
           "answer": [
             "einer"
           ],
-          "s": "You will receive an answer within a week."
+          "s": "You will receive an answer within a week.",
+          "why": "innerhalb + genitive: eine Woche → innerhalb einer Woche."
         },
         {
           "type": "choice",
@@ -552,7 +577,8 @@
             "Trotz"
           ],
           "answer": 2,
-          "s": "It was raining heavily. Despite the rain, Ali rode his bike to campus."
+          "s": "It was raining heavily. Despite the rain, Ali rode his bike to campus.",
+          "why": "trotz = despite: Ali cycled although it was raining."
         },
         {
           "type": "choice",
@@ -563,22 +589,29 @@
             "aufgrund"
           ],
           "answer": 1,
-          "s": "The course takes place outside working hours, at seven in the evening."
+          "s": "The course takes place outside working hours, at seven in the evening.",
+          "why": "außerhalb = outside (of): seven in the evening is outside working hours."
         },
         {
-          "type": "type",
-          "t": "Wegen ___ Krankheit konnte Herr Wagner nicht an der Prüfung teilnehmen.",
-          "answer": [
-            "seiner"
+          "type": "choice",
+          "task": "Which reply is correct?",
+          "cue": "Warum hast du so lange keine Antwort bekommen?",
+          "t": "___",
+          "options": [
+            "Aufgrund eines Fehlers im System ist meine Mail nicht angekommen.",
+            "Aufgrund einem Fehler im System ist meine Mail nicht angekommen.",
+            "Aufgrund ein Fehler im System ist meine Mail nicht angekommen."
           ],
-          "s": "Because of his illness, Mr. Wagner couldn't take the exam."
+          "answer": 0,
+          "why": "aufgrund always takes the genitive: ein Fehler → eines Fehlers.",
+          "s": "Why didn't you get an answer for so long? – Due to an error in the system, my email didn't arrive."
         },
         {
           "type": "order",
-          "t": "Während des Studiums hat Mina viel gearbeitet.",
-          "s": "During her studies Mina worked a lot.",
+          "t": "Während des Studiums hat Nasrin viel gearbeitet.",
+          "s": "During her studies Nasrin worked a lot.",
           "alts": [
-            "Mina hat während des Studiums viel gearbeitet."
+            "Nasrin hat während des Studiums viel gearbeitet."
           ]
         }
       ]
@@ -611,8 +644,8 @@
         "s": "“At first, studying after work was exhausting,” he says, “but now I really enjoy it.”"
       },
       {
-        "t": "Auch Mina, eine 34-jährige Ingenieurin aus dem Iran, nutzt die Weiterbildungsangebote.",
-        "s": "Mina, a 34-year-old engineer from Iran, also takes advantage of the training on offer."
+        "t": "Auch Nasrin, eine 34-jährige Ingenieurin aus dem Iran, nutzt die Weiterbildungsangebote.",
+        "s": "Nasrin, a 34-year-old engineer from Iran, also takes advantage of the training on offer."
       },
       {
         "t": "Sie lebt seit drei Jahren in Deutschland und musste zunächst auf die Anerkennung ihres Abschlusses warten.",
@@ -666,8 +699,8 @@
       },
       {
         "q": {
-          "t": "Worauf musste Mina zuerst warten?",
-          "s": "What did Mina have to wait for first?"
+          "t": "Worauf musste Nasrin zuerst warten?",
+          "s": "What did Nasrin have to wait for first?"
         },
         "options": [
           "auf einen Platz im Deutschkurs",
@@ -678,8 +711,8 @@
       },
       {
         "q": {
-          "t": "Was macht Mina heute?",
-          "s": "What does Mina do today?"
+          "t": "Was macht Nasrin heute?",
+          "s": "What does Nasrin do today?"
         },
         "options": [
           "Sie studiert in Vollzeit.",
@@ -699,6 +732,30 @@
           "Die Kurse sind zu leicht."
         ],
         "answer": 0
+      },
+      {
+        "q": {
+          "t": "Warum hat Nasrin wohl während des Anerkennungsverfahrens einen Deutschkurs gemacht?",
+          "s": "Why did Nasrin probably take a German course while her degree was being recognized?"
+        },
+        "options": [
+          "Weil sie Deutschlehrerin werden wollte.",
+          "Weil ihr Abschluss nicht anerkannt wurde.",
+          "Um die Wartezeit sinnvoll zu nutzen und ihre Chancen auf eine Stelle zu verbessern."
+        ],
+        "answer": 2
+      },
+      {
+        "q": {
+          "t": "Herr Wagner hat seinen Kurs in Datenanalyse schon abgeschlossen. – Richtig, falsch oder steht das nicht im Text?",
+          "s": "Mr. Wagner has already completed his data analysis course. – True, false or not in the text?"
+        },
+        "options": [
+          "richtig",
+          "falsch",
+          "steht nicht im Text"
+        ],
+        "answer": 2
       }
     ]
   },

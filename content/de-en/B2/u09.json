@@ -28,7 +28,7 @@
       "id": "w02",
       "t": "das Angebot",
       "pl": "die Angebote",
-      "s": "offer, special offer; supply",
+      "s": "offer; supply",
       "emoji": "",
       "ex": {
         "t": "Im Supermarkt gibt es diese Woche viele Angebote.",
@@ -256,8 +256,8 @@
       },
       {
         "sp": "B",
-        "t": "Leider kann das durchaus sein. Vielleicht war das Ersatzteil nicht besonders gut.",
-        "s": "Unfortunately, that's quite possible. Maybe the spare part wasn't very good."
+        "t": "Leider kann das durchaus sein. Ich gehe davon aus, dass das Ersatzteil nicht besonders gut war.",
+        "s": "Unfortunately, that's quite possible. I assume the spare part wasn't very good."
       },
       {
         "sp": "A",
@@ -266,8 +266,8 @@
       },
       {
         "sp": "B",
-        "t": "Moment. Sie ist erst sechs Jahre alt. Eine Reparatur müsste deutlich günstiger sein als ein neues Gerät.",
-        "s": "Hold on. It's only six years old. A repair should be a lot cheaper than a new machine."
+        "t": "Moment. Sie ist erst sechs Jahre alt. Ich bezweifle, dass sich eine neue lohnt – eine Reparatur müsste deutlich günstiger sein.",
+        "s": "Hold on. It's only six years old. I doubt a new one is worth it – a repair should be a lot cheaper."
       },
       {
         "sp": "A",
@@ -363,7 +363,8 @@
             "worden"
           ],
           "answer": 0,
-          "s": "Next year energy prices will probably go down again."
+          "s": "Next year energy prices will probably go down again.",
+          "why": "Futur I: werden + infinitive; the plural subject die Energiepreise → werden."
         },
         {
           "type": "choice",
@@ -374,7 +375,8 @@
             "werden"
           ],
           "answer": 1,
-          "s": "Reza isn't answering the phone. He's probably still in a meeting."
+          "s": "Reza isn't answering the phone. He's probably still in a meeting.",
+          "why": "An assumption about the present: wird + wohl + infinitive."
         },
         {
           "type": "type",
@@ -382,15 +384,21 @@
           "answer": [
             "haben"
           ],
-          "s": "By tomorrow I'll have paid the bill."
+          "s": "By tomorrow I'll have paid the bill.",
+          "why": "Futur II: werden + participle + haben (bezahlen forms the perfect with haben)."
         },
         {
           "type": "type",
-          "t": "Mina ist nicht gekommen. Sie wird den Termin vergessen ___.",
+          "task": "Say the same with Futur II.",
+          "cue": "Er hat den Termin wohl vergessen.",
+          "t": "Er ___.",
           "answer": [
-            "haben"
+            "wird den Termin vergessen haben",
+            "wird den Termin wohl vergessen haben",
+            "wird wohl den Termin vergessen haben"
           ],
-          "s": "Mina didn't come. She has probably forgotten the appointment."
+          "why": "An assumption about the past: werden + participle + haben/sein (Futur II).",
+          "s": "He has probably forgotten the appointment."
         },
         {
           "type": "choice",
@@ -401,7 +409,8 @@
             "werden"
           ],
           "answer": 1,
-          "s": "The train is gone. It has probably already left."
+          "s": "The train is gone. It has probably already left.",
+          "why": "abfahren forms the perfect with sein, so Futur II is wird … abgefahren sein."
         },
         {
           "type": "choice",
@@ -412,15 +421,22 @@
             "worden"
           ],
           "answer": 0,
-          "s": "I think inflation will go down soon."
+          "s": "I think inflation will go down soon.",
+          "why": "Futur I in a dass-clause: werden goes last; die Inflation → wird."
         },
         {
-          "type": "type",
-          "t": "Bis 2030 ___ wir den Kredit abbezahlt haben.",
-          "answer": [
-            "werden"
+          "type": "choice",
+          "task": "Which reply fits?",
+          "cue": "Warum ist Reza noch nicht da?",
+          "t": "___",
+          "options": [
+            "Er wird wohl im Stau stehen.",
+            "Er wird wohl im Stau gestanden.",
+            "Er wird wohl im Stau stehen haben."
           ],
-          "s": "By 2030 we'll have paid off the loan."
+          "answer": 0,
+          "why": "An assumption about now: werden + infinitive (Futur I), often with wohl.",
+          "s": "Why isn't Reza here yet? – He's probably stuck in traffic."
         },
         {
           "type": "order",
@@ -481,8 +497,8 @@
           "s": "The repair will probably cost about 150 euros."
         },
         {
-          "t": "Mina ist nicht im Büro. Sie könnte schon nach Hause gegangen sein.",
-          "s": "Mina isn't in the office. She might have gone home already."
+          "t": "Nasrin ist nicht im Büro. Sie könnte schon nach Hause gegangen sein.",
+          "s": "Nasrin isn't in the office. She might have gone home already."
         }
       ],
       "exercises": [
@@ -495,7 +511,8 @@
             "will"
           ],
           "answer": 0,
-          "s": "It's completely dark in the store. It must have closed already."
+          "s": "It's completely dark in the store. It must have closed already.",
+          "why": "muss + perfect infinitive: an almost certain conclusion (dark store → closed)."
         },
         {
           "type": "choice",
@@ -506,7 +523,8 @@
             "müsste"
           ],
           "answer": 1,
-          "s": "A new smartphone for 20 euros? That can't be a genuine offer."
+          "s": "A new smartphone for 20 euros? That can't be a genuine offer.",
+          "why": "kann nicht = impossible – that's what fits a 20-euro smartphone."
         },
         {
           "type": "type",
@@ -518,36 +536,47 @@
             "duerfte",
             "sollte"
           ],
-          "s": "The delivery should arrive tomorrow. (very likely)"
+          "s": "The delivery should arrive tomorrow. (very likely)",
+          "why": "müsste / dürfte = very likely, based on what you know."
         },
         {
           "type": "type",
           "t": "Er hat den ganzen Tag nichts gegessen. Er ___ großen Hunger haben.",
           "answer": [
-            "muss"
+            "muss",
+            "müsste",
+            "muesste",
+            "dürfte",
+            "duerfte"
           ],
-          "s": "He hasn't eaten anything all day. He must be really hungry."
+          "s": "He hasn't eaten anything all day. He must be really hungry.",
+          "why": "muss (or müsste) = a logical conclusion from the facts (no food all day)."
         },
         {
           "type": "choice",
-          "t": "Ali ist noch nicht da. Er ___ den Bus verpasst haben.",
+          "task": "Which reply fits?",
+          "cue": "Bei Familie Wagner brennt seit Tagen kein Licht.",
+          "t": "___",
           "options": [
-            "darf",
-            "könnte",
-            "möchte"
+            "Sie dürften im Urlaub sein.",
+            "Sie dürfen im Urlaub sein.",
+            "Sie wollen im Urlaub sein."
           ],
-          "answer": 1,
-          "s": "Ali isn't here yet. He might have missed the bus."
+          "answer": 0,
+          "why": "dürfte(n) (Konjunktiv II) expresses a cautious assumption; dürfen and wollen don't.",
+          "s": "There's been no light on at the Wagners' for days. – They're probably on vacation."
         },
         {
           "type": "type",
-          "t": "Mina ist nicht gekommen. Sie ___ krank geworden sein.",
+          "task": "Say the same with könnte.",
+          "cue": "Vielleicht ist das Paket schon angekommen.",
+          "t": "Das Paket ___.",
           "answer": [
-            "könnte",
-            "koennte",
-            "kann"
+            "könnte schon angekommen sein",
+            "koennte schon angekommen sein"
           ],
-          "s": "Mina didn't come. She might have gotten sick."
+          "why": "An assumption about the past: modal + participle + sein/haben; ankommen takes sein.",
+          "s": "The package might already have arrived."
         },
         {
           "type": "choice",
@@ -558,7 +587,8 @@
             "möchte"
           ],
           "answer": 0,
-          "s": "That can't have been Maryam – she's on vacation, after all."
+          "s": "That can't have been Maryam – she's on vacation, after all.",
+          "why": "kann nicht … gewesen sein = impossible in the past."
         },
         {
           "type": "order",
@@ -570,123 +600,135 @@
   ],
   "reading": {
     "title": {
-      "t": "Reparieren liegt im Trend",
-      "s": "Repairing is trending"
+      "t": "Jetzt kaufen, später zahlen?",
+      "s": "Buy now, pay later?"
     },
     "text": [
       {
-        "t": "Ein Toaster, der nicht mehr heiß wird, ein Laptop mit schwachem Akku, eine Jacke mit kaputtem Reißverschluss – früher landeten solche Dinge oft sofort im Müll.",
-        "s": "A toaster that no longer heats up, a laptop with a weak battery, a jacket with a broken zipper – in the past, things like these often went straight into the trash."
+        "t": "„Jetzt kaufen, später zahlen“ – mit diesem Versprechen werben immer mehr Online-Shops um junge Kunden.",
+        "s": "“Buy now, pay later” – more and more online stores are trying to attract young customers with this promise."
       },
       {
-        "t": "Doch immer mehr Verbraucher in Deutschland entscheiden sich bewusst gegen einen Neukauf.",
-        "s": "But more and more consumers in Germany are making a conscious decision not to buy new."
+        "t": "Wer eine Jacke oder ein Handy bestellt, muss den Betrag erst nach dreißig Tagen überweisen oder kann bequem in Raten zahlen.",
+        "s": "Anyone who orders a jacket or a phone only has to transfer the money after thirty days, or can conveniently pay in installments."
       },
       {
-        "t": "In Repair-Cafés helfen Ehrenamtliche dabei, Geräte und Kleidung kostenlos zu reparieren.",
-        "s": "In repair cafés, volunteers help people repair appliances and clothes free of charge."
+        "t": "Besonders bei Schnäppchen und Sonderangeboten ist die Versuchung groß, sofort zuzugreifen.",
+        "s": "Especially with bargains and special offers, the temptation to grab them right away is great."
       },
       {
-        "t": "Inzwischen gibt es in Deutschland mehr als tausend solcher Initiativen.",
-        "s": "There are now more than a thousand such initiatives in Germany."
+        "t": "In Zeiten hoher Inflation und steigender Lebenshaltungskosten wirkt das Angebot auf viele Verbraucher attraktiv.",
+        "s": "At a time of high inflation and rising living costs, the offer looks attractive to many consumers."
       },
       {
-        "t": "Herr Wagner, der in einem Repair-Café in Köln mitarbeitet, ist zufrieden: „Mehr als die Hälfte der Geräte bringen wir wieder zum Laufen.“",
-        "s": "Mr. Wagner, who helps out at a repair café in Cologne, is pleased: “We get more than half of the appliances working again.”"
+        "t": "Verbraucherschützer warnen jedoch: Wer mehrere solcher Käufe gleichzeitig abschließt, verliert schnell den Überblick über seine Ausgaben.",
+        "s": "Consumer advocates warn, however: anyone who makes several such purchases at once quickly loses track of their spending."
       },
       {
-        "t": "Die Gründe für diesen Trend sind vielfältig.",
-        "s": "There are many reasons for this trend."
+        "t": "Verpasst man eine Frist, kommen oft hohe Mahngebühren hinzu.",
+        "s": "If you miss a deadline, high late fees are often added."
       },
       {
-        "t": "Wegen der gestiegenen Preise müssen viele Haushalte genauer rechnen.",
-        "s": "Because of higher prices, many households have to watch their budgets more closely."
+        "t": "Eine Schuldnerberaterin aus Köln berichtet, dass sich immer mehr junge Erwachsene bei ihr melden, die mit ihren Raten nicht mehr hinterherkommen.",
+        "s": "A debt counselor from Cologne reports that more and more young adults are contacting her because they can no longer keep up with their installments."
       },
       {
-        "t": "Gleichzeitig wächst das Bewusstsein dafür, dass die Herstellung neuer Produkte Rohstoffe und Energie verbraucht.",
-        "s": "At the same time, there is growing awareness that manufacturing new products uses up raw materials and energy."
+        "t": "„Viele werden sich beim Kauf gar nicht überlegt haben, ob sie sich das mit ihrem Einkommen überhaupt leisten können“, vermutet sie.",
+        "s": "“Many of them probably didn't even consider, when buying, whether they could actually afford it on their income,” she suspects."
       },
       {
-        "t": "Auch die Politik reagiert: Einige Bundesländer haben einen sogenannten Reparaturbonus eingeführt, der einen Teil der Reparaturkosten übernimmt.",
-        "s": "Politicians are responding, too: some federal states have introduced a so-called repair bonus that covers part of the repair costs."
+        "t": "Die Händler sehen das naturgemäß anders: Die Nachfrage sei groß, und die meisten Kunden zahlten pünktlich.",
+        "s": "Retailers naturally see it differently: they say demand is high and most customers pay on time."
       },
       {
-        "t": "Kritiker geben allerdings zu bedenken, dass viele Geräte so gebaut sind, dass man sie kaum öffnen kann.",
-        "s": "Critics point out, however, that many appliances are built in such a way that they can hardly be opened."
+        "t": "Für die Shops lohnt sich das Modell ohnehin, denn wer nicht sofort zahlen muss, kauft erfahrungsgemäß mehr.",
+        "s": "The model pays off for the stores anyway, because experience shows that people who don't have to pay right away buy more."
       },
       {
-        "t": "Außerdem sind Ersatzteile oft teuer oder gar nicht erhältlich.",
-        "s": "In addition, spare parts are often expensive or not available at all."
+        "t": "Die EU hat deshalb strengere Regeln für solche Angebote beschlossen.",
+        "s": "The EU has therefore adopted stricter rules for such offers."
       },
       {
-        "t": "Experten gehen davon aus, dass das Thema in Zukunft weiter an Bedeutung gewinnen wird.",
-        "s": "Experts assume that the issue will become even more important in the future."
+        "t": "Künftig müssen Anbieter vorher prüfen, ob sich ein Kunde den Kauf überhaupt leisten kann.",
+        "s": "In the future, providers will have to check beforehand whether a customer can actually afford the purchase."
       },
       {
-        "t": "Eine EU-Richtlinie zum „Recht auf Reparatur“ dürfte die Situation für Verbraucher in den nächsten Jahren verbessern.",
-        "s": "An EU directive on the “right to repair” is likely to improve the situation for consumers in the coming years."
+        "t": "Eine einfache Regel dürfte aber auch dann noch gelten: Was man sich heute nicht leisten kann, kann man sich in dreißig Tagen meist auch nicht leisten.",
+        "s": "But one simple rule is likely to remain true even then: what you can't afford today, you usually can't afford in thirty days either."
       }
     ],
     "questions": [
       {
         "q": {
-          "t": "Was passiert in Repair-Cafés?",
-          "s": "What happens in repair cafés?"
+          "t": "Was ist das Besondere an „Jetzt kaufen, später zahlen“?",
+          "s": "What is special about “buy now, pay later”?"
         },
         "options": [
-          "Man kauft gebrauchte Geräte.",
-          "Ehrenamtliche helfen kostenlos beim Reparieren.",
-          "Man bekommt neue Geräte zum halben Preis."
+          "Man bezahlt erst später oder in Raten.",
+          "Man bekommt dreißig Prozent Rabatt.",
+          "Man kann die Ware nicht zurückgeben."
+        ],
+        "answer": 0
+      },
+      {
+        "q": {
+          "t": "Wovor warnen Verbraucherschützer?",
+          "s": "What do consumer advocates warn about?"
+        },
+        "options": [
+          "vor zu hohen Versandkosten",
+          "davor, den Überblick über die eigenen Ausgaben zu verlieren",
+          "vor gefälschten Online-Shops"
         ],
         "answer": 1
       },
       {
         "q": {
-          "t": "Wie viele Geräte kann man laut Herrn Wagner reparieren?",
-          "s": "According to Mr. Wagner, how many appliances can be repaired?"
+          "t": "Was vermutet die Schuldnerberaterin?",
+          "s": "What does the debt counselor suspect?"
         },
         "options": [
-          "etwa ein Drittel",
-          "fast alle",
-          "mehr als die Hälfte"
+          "Die meisten Kunden zahlen pünktlich.",
+          "Junge Erwachsene verdienen heute mehr als früher.",
+          "Viele haben vor dem Kauf nicht über ihr Budget nachgedacht."
         ],
         "answer": 2
       },
       {
         "q": {
-          "t": "Welcher Grund für den Trend wird genannt?",
-          "s": "Which reason for the trend is mentioned?"
+          "t": "Was müssen Anbieter künftig tun?",
+          "s": "What will providers have to do in the future?"
         },
         "options": [
-          "die gestiegenen Preise",
-          "neue Pflichten für Hersteller",
-          "mehr Freizeit"
+          "prüfen, ob sich ein Kunde den Kauf leisten kann",
+          "alle Ratenkäufe verbieten",
+          "die Mahngebühren abschaffen"
         ],
         "answer": 0
       },
       {
         "q": {
-          "t": "Was kritisieren Kritiker?",
-          "s": "What do critics criticize?"
+          "t": "Wie steht der Autor vermutlich zu „Jetzt kaufen, später zahlen“?",
+          "s": "What is the author's attitude to “buy now, pay later”, probably?"
         },
         "options": [
-          "Repair-Cafés sind zu teuer.",
-          "Viele Geräte lassen sich schwer öffnen, und Ersatzteile fehlen oft.",
-          "Der Reparaturbonus ist zu hoch."
+          "eher kritisch",
+          "völlig begeistert",
+          "ganz gleichgültig"
+        ],
+        "answer": 0
+      },
+      {
+        "q": {
+          "t": "Die Händler halten das Modell für problematisch. – Richtig, falsch oder steht das nicht im Text?",
+          "s": "The retailers consider the model problematic. – True, false or not in the text?"
+        },
+        "options": [
+          "richtig",
+          "falsch",
+          "steht nicht im Text"
         ],
         "answer": 1
-      },
-      {
-        "q": {
-          "t": "Was erwarten Experten?",
-          "s": "What do experts expect?"
-        },
-        "options": [
-          "Das Thema wird wichtiger werden.",
-          "Das Thema wird an Bedeutung verlieren.",
-          "Repair-Cafés werden bald schließen."
-        ],
-        "answer": 0
       }
     ]
   },
@@ -707,7 +749,10 @@
     },
     {
       "t": "Das Paket müsste eigentlich schon da sein.",
-      "s": "The package should really be here by now."
+      "s": "The package should really be here by now.",
+      "alts": [
+        "Eigentlich müsste das Paket schon da sein."
+      ]
     },
     {
       "t": "Bis Dezember werden wir genug Geld gespart haben.",

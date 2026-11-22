@@ -21,7 +21,8 @@
       "ex": {
         "t": "Eine ausgewogene Ernährung ist wichtig für die Gesundheit.",
         "s": "A balanced diet is important for your health."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w02",
@@ -63,7 +64,8 @@
       "ex": {
         "t": "Mit diesen Beschwerden gehen Sie am besten zuerst zum Hausarzt.",
         "s": "With these symptoms, it's best to see your family doctor first."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w06",
@@ -131,7 +133,7 @@
     },
     {
       "id": "w12",
-      "t": "sich erholen (von + D)",
+      "t": "sich erholen von + D",
       "s": "to recover (from)",
       "emoji": "",
       "ex": {
@@ -141,7 +143,7 @@
     },
     {
       "id": "w13",
-      "t": "vorbeugen (+ D)",
+      "t": "vorbeugen + D",
       "s": "to prevent",
       "emoji": "",
       "ex": {
@@ -151,7 +153,7 @@
     },
     {
       "id": "w14",
-      "t": "verzichten (auf + A)",
+      "t": "verzichten auf + A",
       "s": "to do without, give up",
       "emoji": "",
       "ex": {
@@ -194,10 +196,10 @@
     },
     {
       "id": "p03",
-      "t": "An deiner Stelle würde ich …",
-      "s": "If I were you, I would …",
+      "t": "Ich achte auf eine ausgewogene Ernährung.",
+      "s": "I make sure I eat a balanced diet.",
       "alts": [
-        "Ich würde an deiner Stelle …"
+        "Auf eine ausgewogene Ernährung achte ich."
       ]
     },
     {
@@ -236,7 +238,7 @@
     },
     "speakers": {
       "A": {
-        "name": "Mina",
+        "name": "Sara",
         "voice": "f"
       },
       "B": {
@@ -292,8 +294,8 @@
       },
       {
         "sp": "B",
-        "t": "Das wäre super. Hier ist das Rezept für die Salbe. Danke, Mina!",
-        "s": "That would be great. Here's the prescription for the ointment. Thanks, Mina!"
+        "t": "Das wäre super. Hier ist das Rezept für die Salbe. Danke, Sara!",
+        "s": "That would be great. Here's the prescription for the ointment. Thanks, Sara!"
       },
       {
         "sp": "A",
@@ -374,7 +376,8 @@
             "würde"
           ],
           "answer": 1,
-          "s": "I would have called you yesterday, but my phone was broken."
+          "s": "I would have called you yesterday, but my phone was broken.",
+          "why": "anrufen forms the perfect with haben → hätte … angerufen."
         },
         {
           "type": "choice",
@@ -385,7 +388,8 @@
             "würde"
           ],
           "answer": 0,
-          "s": "Without the vaccination, she would have become much more seriously ill."
+          "s": "Without the vaccination, she would have become much more seriously ill.",
+          "why": "werden forms the perfect with sein → wäre … geworden."
         },
         {
           "type": "type",
@@ -394,7 +398,8 @@
             "hättest",
             "haettest"
           ],
-          "s": "You should have drunk more water."
+          "s": "You should have drunk more water.",
+          "why": "Modal in the past subjunctive: hätte + infinitive + sollen; with du → hättest."
         },
         {
           "type": "type",
@@ -403,7 +408,8 @@
             "wäre",
             "waere"
           ],
-          "s": "If he had warmed up, that wouldn't have happened."
+          "s": "If he had warmed up, that wouldn't have happened.",
+          "why": "passieren forms the perfect with sein → wäre … passiert."
         },
         {
           "type": "choice",
@@ -414,16 +420,20 @@
             "losfahren müssen"
           ],
           "answer": 2,
-          "s": "We should have set off earlier."
+          "s": "We should have set off earlier.",
+          "why": "Double infinitive: the modal stays an infinitive at the end (losfahren müssen), not gemusst."
         },
         {
           "type": "type",
-          "t": "Ich ___ gern länger geblieben, aber ich musste arbeiten.",
+          "task": "Say what you should have done (use sollen).",
+          "cue": "Wir haben die Tabletten nicht genommen. Das war ein Fehler.",
+          "t": "Wir ___.",
           "answer": [
-            "wäre",
-            "waere"
+            "hätten die Tabletten nehmen sollen",
+            "haetten die Tabletten nehmen sollen"
           ],
-          "s": "I would have liked to stay longer, but I had to work."
+          "why": "Regret with a modal: hätte + infinitive + sollen (a double infinitive, not gesollt).",
+          "s": "We should have taken the pills."
         },
         {
           "type": "order",
@@ -434,12 +444,18 @@
           ]
         },
         {
-          "type": "order",
-          "t": "Ohne Helm wäre das schlimmer gewesen.",
-          "s": "Without a helmet, it would have been worse.",
-          "alts": [
-            "Das wäre ohne Helm schlimmer gewesen."
-          ]
+          "type": "choice",
+          "task": "Which reply fits?",
+          "cue": "Ich habe den Zug verpasst, weil ich zu spät losgefahren bin.",
+          "t": "___",
+          "options": [
+            "Du hättest früher losfahren sollen.",
+            "Du hättest früher losgefahren sollen.",
+            "Du wärst früher losfahren sollen."
+          ],
+          "answer": 0,
+          "why": "With a modal in the past subjunctive, use hätte + two infinitives: hättest … losfahren sollen.",
+          "s": "I missed the train because I left too late. – You should have left earlier."
         }
       ]
     },
@@ -504,18 +520,28 @@
             "hätte"
           ],
           "answer": 2,
-          "s": "If I had more time, I would go jogging every day."
+          "s": "If I had more time, I would go jogging every day.",
+          "why": "Unreal present condition: the Konjunktiv II of haben is hätte."
         },
         {
-          "type": "choice",
-          "t": "Wenn du mich gefragt hättest, ___ ich dir geholfen.",
-          "options": [
-            "hätte",
-            "wäre",
-            "würde"
+          "type": "type",
+          "task": "Turn it into a wish about the past (start with Hätte).",
+          "cue": "Ich habe meinen Regenschirm nicht mitgenommen.",
+          "t": "___ meinen Regenschirm mitgenommen!",
+          "answer": [
+            "Hätte ich doch",
+            "Haette ich doch",
+            "Hätte ich doch nur",
+            "Haette ich doch nur",
+            "Hätte ich nur",
+            "Haette ich nur",
+            "Hätte ich bloß",
+            "Haette ich bloss",
+            "Hätte ich doch bloß",
+            "Haette ich doch bloss"
           ],
-          "answer": 0,
-          "s": "If you had asked me, I would have helped you."
+          "why": "A wish about the past: Hätte/Wäre first, then the subject and doch/nur/bloß; the participle goes to the end.",
+          "s": "If only I had taken my umbrella!"
         },
         {
           "type": "choice",
@@ -526,7 +552,8 @@
             "Würde"
           ],
           "answer": 1,
-          "s": "If only I had drunk more water!"
+          "s": "If only I had drunk more water!",
+          "why": "trinken forms the perfect with haben → Hätte ich doch … getrunken!"
         },
         {
           "type": "type",
@@ -535,15 +562,18 @@
             "wäre",
             "waere"
           ],
-          "s": "If she hadn't been ill, she would have come along."
+          "s": "If she hadn't been ill, she would have come along.",
+          "why": "Past subjunctive of sein: gewesen wäre (sein forms its perfect with sein)."
         },
         {
           "type": "type",
           "t": "Wenn ich das früher ___ hätte, hätte ich anders gehandelt.",
           "answer": [
-            "gewusst"
+            "gewusst",
+            "erfahren"
           ],
-          "s": "If I had known that earlier, I would have acted differently."
+          "s": "If I had known that earlier, I would have acted differently.",
+          "why": "Past unreal condition: participle + hätte (wissen → gewusst; erfahren also fits)."
         },
         {
           "type": "choice",
@@ -554,12 +584,22 @@
             "Wären"
           ],
           "answer": 2,
-          "s": "If we had left on time, we wouldn't have missed the train."
+          "s": "If we had left on time, we wouldn't have missed the train.",
+          "why": "losfahren forms the perfect with sein, so the verb-first condition starts with Wären."
         },
         {
-          "type": "order",
-          "t": "Hätte ich doch mehr geschlafen!",
-          "s": "If only I had slept more!"
+          "type": "choice",
+          "task": "Which reply fits?",
+          "cue": "Wir sind zu spät gekommen, und das Konzert war ausverkauft.",
+          "t": "___",
+          "options": [
+            "Wären wir doch nur früher losgegangen!",
+            "Hätten wir doch nur früher losgegangen!",
+            "Würden wir doch nur früher losgegangen!"
+          ],
+          "answer": 0,
+          "why": "losgehen forms the perfect with sein, so a wish about the past starts with Wären.",
+          "s": "We arrived too late, and the concert was sold out. – If only we had left earlier!"
         },
         {
           "type": "order",
@@ -579,8 +619,8 @@
     },
     "text": [
       {
-        "t": "Ali Karimi, 45, arbeitet als Projektleiter in einem Ingenieurbüro in Stuttgart.",
-        "s": "Ali Karimi, 45, works as a project manager at an engineering firm in Stuttgart."
+        "t": "Farid Rahmani, 45, arbeitet als Projektleiter in einem Ingenieurbüro in Stuttgart.",
+        "s": "Farid Rahmani, 45, works as a project manager at an engineering firm in Stuttgart."
       },
       {
         "t": "Jahrelang saß er zehn Stunden am Tag am Schreibtisch, aß mittags schnell ein Brötchen und hatte abends kaum noch Energie für Sport.",
@@ -603,8 +643,8 @@
         "s": "His family doctor prescribed physical therapy and strongly advised him to change his habits."
       },
       {
-        "t": "Seitdem fährt Ali mit dem Fahrrad zur Arbeit, macht jeden Morgen zehn Minuten Gymnastik und nimmt sich Zeit für ein richtiges Mittagessen.",
-        "s": "Since then, Ali has been cycling to work, doing ten minutes of exercises every morning and taking time for a proper lunch."
+        "t": "Seitdem fährt Farid mit dem Fahrrad zur Arbeit, macht jeden Morgen zehn Minuten Gymnastik und nimmt sich Zeit für ein richtiges Mittagessen.",
+        "s": "Since then, Farid has been cycling to work, doing ten minutes of exercises every morning and taking time for a proper lunch."
       },
       {
         "t": "Auch bei der Ernährung achtet er jetzt auf Ausgewogenheit: mehr Gemüse, Linsen und Vollkornprodukte, weniger Zucker.",
@@ -630,8 +670,8 @@
     "questions": [
       {
         "q": {
-          "t": "Welchen Beruf hat Ali?",
-          "s": "What is Ali's job?"
+          "t": "Welchen Beruf hat Farid?",
+          "s": "What is Farid's job?"
         },
         "options": [
           "Er ist Projektleiter.",
@@ -642,8 +682,8 @@
       },
       {
         "q": {
-          "t": "Was hat Ali lange ignoriert?",
-          "s": "What did Ali ignore for a long time?"
+          "t": "Was hat Farid lange ignoriert?",
+          "s": "What did Farid ignore for a long time?"
         },
         "options": [
           "seine Kollegen",
@@ -654,8 +694,8 @@
       },
       {
         "q": {
-          "t": "Was macht Ali heute anders?",
-          "s": "What does Ali do differently today?"
+          "t": "Was macht Farid heute anders?",
+          "s": "What does Farid do differently today?"
         },
         "options": [
           "Er fährt mit dem Auto zur Arbeit.",
@@ -666,8 +706,8 @@
       },
       {
         "q": {
-          "t": "Was bereut Ali?",
-          "s": "What does Ali regret?"
+          "t": "Was bereut Farid?",
+          "s": "What does Farid regret?"
         },
         "options": [
           "dass er nicht früher etwas geändert hat",
@@ -687,6 +727,30 @@
           "kostenloses Essen"
         ],
         "answer": 1
+      },
+      {
+        "q": {
+          "t": "Was meint Farid mit „Wartet nicht, bis der Körper die Notbremse zieht“?",
+          "s": "What does Farid mean by “Don't wait until your body pulls the emergency brake”?"
+        },
+        "options": [
+          "Man sollte lieber mit dem Zug zur Arbeit fahren.",
+          "Man sollte bei Schmerzen erst einmal abwarten.",
+          "Man sollte etwas ändern, bevor man ernsthaft krank wird."
+        ],
+        "answer": 2
+      },
+      {
+        "q": {
+          "t": "Farid hat seine Ernährung umgestellt. – Richtig, falsch oder steht das nicht im Text?",
+          "s": "Farid has changed his diet. – True, false or not in the text?"
+        },
+        "options": [
+          "richtig",
+          "falsch",
+          "steht nicht im Text"
+        ],
+        "answer": 0
       }
     ]
   },

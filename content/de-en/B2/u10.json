@@ -86,7 +86,8 @@
       "ex": {
         "t": "Die Ausstellung im Museum ist noch bis Ende März zu sehen.",
         "s": "The exhibition at the museum is on until the end of March."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w08",
@@ -97,7 +98,8 @@
       "ex": {
         "t": "Nach der Aufführung gab es minutenlangen Applaus.",
         "s": "After the performance there were minutes of applause."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w09",
@@ -144,7 +146,7 @@
     {
       "id": "w13",
       "t": "der Zeitaufwand",
-      "s": "time commitment, time required",
+      "s": "time required, time spent",
       "emoji": "",
       "ex": {
         "t": "Der Zeitaufwand beträgt etwa drei Stunden pro Woche.",
@@ -299,7 +301,7 @@
         "t": "um … zu, ohne … zu, statt … zu – damit, ohne dass, statt dass",
         "s": "Infinitive clauses vs. clauses with a conjugated verb"
       },
-      "explain": "Infinitive clauses are a compact way to express a purpose, something that doesn't happen, or an alternative:\n• **um … zu** – purpose (in order to): **Lena hilft bei der Tafel, um etwas zurückzugeben.**\n• **ohne … zu** – something doesn't happen (without …ing): **Er ging, ohne sich zu verabschieden.**\n• **(an)statt … zu** – instead of …ing: **Statt fernzusehen, singt Maryam im Chor.**\n**zu** stands directly before the infinitive at the end; with separable verbs it goes in the middle: **anzurufen, zurückzugeben**. With a modal verb: **um länger arbeiten zu können**.\nYou can only use these infinitive clauses when **both parts have the same subject**. If the subjects are **different**, use a clause with a conjugated verb: **damit**, **ohne dass**, **(an)statt dass**: **Ich spreche langsam, damit alle mich verstehen.**\nWith the same subject, **damit** is also possible, but **um … zu** sounds more natural. Tip: don't put **wollen** or **sollen** in a damit clause – the purpose is already expressed by **damit**.",
+      "explain": "Review from B1: **um … zu** and **damit** express a purpose. Now you add **ohne … zu, (an)statt … zu** and **ohne dass, (an)statt dass**.\nInfinitive clauses are a compact way to express a purpose, something that doesn't happen, or an alternative:\n• **um … zu** – purpose (in order to): **Lena hilft bei der Tafel, um etwas zurückzugeben.**\n• **ohne … zu** – something doesn't happen (without …ing): **Er ging, ohne sich zu verabschieden.**\n• **(an)statt … zu** – instead of …ing: **Statt fernzusehen, singt Maryam im Chor.**\n**zu** stands directly before the infinitive at the end; with separable verbs it goes in the middle: **anzurufen, zurückzugeben**. With a modal verb: **um länger arbeiten zu können**.\nYou can only use these infinitive clauses when **both parts have the same subject**. If the subjects are **different**, use a clause with a conjugated verb: **damit**, **ohne dass**, **(an)statt dass**: **Ich spreche langsam, damit alle mich verstehen.**\nWith the same subject, **damit** is also possible, but **um … zu** sounds more natural. Tip: don't put **wollen** or **sollen** in a damit clause – the purpose is already expressed by **damit**.",
       "table": [
         [
           "gleiches Subjekt",
@@ -354,7 +356,8 @@
             "dass"
           ],
           "answer": 0,
-          "s": "Mina is learning the guitar so that she can play in a band."
+          "s": "Mina is learning the guitar so that she can play in a band.",
+          "why": "Same subject (Mina) in both parts → um … zu."
         },
         {
           "type": "choice",
@@ -365,7 +368,8 @@
             "statt"
           ],
           "answer": 1,
-          "s": "I'll explain it once more so that everyone understands."
+          "s": "I'll explain it once more so that everyone understands.",
+          "why": "Different subjects (ich / alle) → damit + clause."
         },
         {
           "type": "choice",
@@ -376,15 +380,20 @@
             "ohne"
           ],
           "answer": 2,
-          "s": "He left without saying goodbye."
+          "s": "He left without saying goodbye.",
+          "why": "ohne … zu + infinitive when the subject is the same."
         },
         {
           "type": "type",
-          "t": "Statt am Wochenende lange ___ schlafen, hilft Reza im Verein.",
+          "task": "Use um … zu (the subject is the same).",
+          "cue": "Mina lernt jeden Tag, damit sie die Prüfung besteht.",
+          "t": "Mina lernt jeden Tag, ___.",
           "answer": [
-            "zu"
+            "um die Prüfung zu bestehen",
+            "um die Pruefung zu bestehen"
           ],
-          "s": "Instead of sleeping in on the weekend, Reza helps out at the club."
+          "why": "Same subject in both clauses → um … zu, with the infinitive at the end.",
+          "s": "Mina studies every day in order to pass the test."
         },
         {
           "type": "type",
@@ -394,15 +403,22 @@
             "sodass",
             "so dass"
           ],
-          "s": "We're leaving earlier so that we get good seats."
+          "s": "We're leaving earlier so that we get good seats.",
+          "why": "damit (or sodass) starts a clause with its own subject and the verb at the end."
         },
         {
-          "type": "type",
-          "t": "Frau Becker hat uns geholfen, ___ dass wir sie darum gebeten haben.",
-          "answer": [
-            "ohne"
+          "type": "choice",
+          "task": "Which reply is correct?",
+          "cue": "Warum fährst du so früh los?",
+          "t": "___",
+          "options": [
+            "Um einen guten Platz zu bekommen.",
+            "Um ich einen guten Platz bekomme.",
+            "Damit einen guten Platz zu bekommen."
           ],
-          "s": "Ms. Becker helped us without our asking her to."
+          "answer": 0,
+          "why": "um … zu + infinitive has no subject of its own; damit needs a subject and a conjugated verb.",
+          "s": "Why are you leaving so early? – To get a good seat."
         },
         {
           "type": "type",
@@ -410,7 +426,8 @@
           "answer": [
             "anzumelden"
           ],
-          "s": "I'm calling the club to sign up for the course. (anmelden)"
+          "s": "I'm calling the club to sign up for the course. (anmelden)",
+          "why": "Separable verb: zu goes between prefix and stem → anzumelden."
         },
         {
           "type": "order",
@@ -483,7 +500,8 @@
             "arbeiten gemusst"
           ],
           "answer": 0,
-          "s": "Ali had to work late yesterday."
+          "s": "Ali had to work late yesterday.",
+          "why": "With another verb, the modal's participle is its infinitive: hat … arbeiten müssen."
         },
         {
           "type": "choice",
@@ -494,24 +512,29 @@
             "wurden"
           ],
           "answer": 1,
-          "s": "Unfortunately, we weren't able to go to the concert."
+          "s": "Unfortunately, we weren't able to go to the concert.",
+          "why": "Modal verbs always form the perfect with haben."
         },
         {
           "type": "type",
-          "t": "Mina hat schon als Kind Klavier spielen ___.",
+          "t": "Nasrin hat schon als Kind Klavier spielen ___.",
           "answer": [
             "wollen"
           ],
-          "s": "Even as a child, Mina wanted to play the piano."
+          "s": "Even as a child, Nasrin wanted to play the piano.",
+          "why": "Double infinitive: hat … spielen wollen (not gewollt)."
         },
         {
           "type": "type",
-          "t": "Ich konnte nicht kommen, weil ich ___ arbeiten müssen.",
+          "task": "Put it into the perfect tense.",
+          "cue": "Ich musste gestern lange arbeiten.",
+          "t": "Ich ___.",
           "answer": [
-            "habe",
-            "hatte"
+            "habe gestern lange arbeiten müssen",
+            "habe gestern lange arbeiten muessen"
           ],
-          "s": "I couldn't come because I had to work."
+          "why": "Modal + another verb in the perfect: haben + infinitive + modal infinitive (double infinitive).",
+          "s": "I had to work late yesterday."
         },
         {
           "type": "choice",
@@ -522,7 +545,8 @@
             "gewollen"
           ],
           "answer": 1,
-          "s": "I'm sorry, I didn't mean to."
+          "s": "I'm sorry, I didn't mean to.",
+          "why": "Without another verb, the modal uses its normal participle: gewollt."
         },
         {
           "type": "choice",
@@ -533,7 +557,8 @@
             "hat können bekommen"
           ],
           "answer": 0,
-          "s": "She was disappointed because she hadn't been able to get a ticket."
+          "s": "She was disappointed because she hadn't been able to get a ticket.",
+          "why": "In a subordinate clause, hat comes before the double infinitive: hat bekommen können."
         },
         {
           "type": "type",
@@ -541,15 +566,22 @@
           "answer": [
             "lassen"
           ],
-          "s": "We had our bikes repaired."
+          "s": "We had our bikes repaired.",
+          "why": "lassen also forms a double infinitive: haben … reparieren lassen."
         },
         {
-          "type": "order",
-          "t": "Ich habe am Wochenende arbeiten müssen.",
-          "s": "I had to work on the weekend.",
-          "alts": [
-            "Am Wochenende habe ich arbeiten müssen."
-          ]
+          "type": "choice",
+          "task": "Which reply is correct?",
+          "cue": "Warst du gestern auf dem Konzert?",
+          "t": "___",
+          "options": [
+            "Nein, leider habe ich nicht kommen können.",
+            "Nein, leider habe ich nicht kommen gekonnt.",
+            "Nein, leider bin ich nicht kommen können."
+          ],
+          "answer": 0,
+          "why": "Perfect of a modal with another verb: always haben + double infinitive (kommen können).",
+          "s": "Were you at the concert yesterday? – No, unfortunately I couldn't come."
         }
       ]
     }
@@ -561,8 +593,8 @@
     },
     "text": [
       {
-        "t": "Liebe Mina, entschuldige bitte, dass ich mich so lange nicht gemeldet habe!",
-        "s": "Dear Mina, I'm so sorry I haven't been in touch for so long!"
+        "t": "Liebe Leila, entschuldige bitte, dass ich mich so lange nicht gemeldet habe!",
+        "s": "Dear Leila, I'm so sorry I haven't been in touch for so long!"
       },
       {
         "t": "In den letzten Wochen habe ich sehr viel arbeiten müssen, und abends war ich einfach zu müde zum Schreiben.",
@@ -591,6 +623,10 @@
       {
         "t": "Die Spenden, die wir dabei sammeln, gehen an die Tafel in unserem Stadtteil.",
         "s": "The donations we collect will go to the food bank in our neighborhood."
+      },
+      {
+        "t": "Im März, zu Nowruz, wollen wir dann sogar ein persisches Lied singen, das ich den anderen beigebracht habe.",
+        "s": "And in March, for Nowruz, we even want to sing a Persian song that I taught the others."
       },
       {
         "t": "Ali war zuerst skeptisch, weil er Angst hatte, dass mir zu wenig Zeit für die Familie bleibt.",
@@ -664,8 +700,8 @@
       },
       {
         "q": {
-          "t": "Worum bittet Maryam Mina?",
-          "s": "What does Maryam ask Mina to do?"
+          "t": "Worum bittet Maryam Leila?",
+          "s": "What does Maryam ask Leila to do?"
         },
         "options": [
           "zum Konzert zu kommen",
@@ -673,6 +709,30 @@
           "Spenden zu sammeln"
         ],
         "answer": 0
+      },
+      {
+        "q": {
+          "t": "Wie hat Maryam ihre Abende wohl verbracht, bevor sie in den Chor eintrat?",
+          "s": "How did Maryam probably spend her evenings before she joined the choir?"
+        },
+        "options": [
+          "meistens zu Hause, ohne festes Programm",
+          "jeden Abend bei Konzerten",
+          "abends ehrenamtlich bei der Tafel"
+        ],
+        "answer": 0
+      },
+      {
+        "q": {
+          "t": "Maryam singt schon seit mehreren Jahren im Chor. – Richtig, falsch oder steht das nicht im Text?",
+          "s": "Maryam has been singing in the choir for several years. – True, false or not in the text?"
+        },
+        "options": [
+          "richtig",
+          "falsch",
+          "steht nicht im Text"
+        ],
+        "answer": 1
       }
     ]
   },

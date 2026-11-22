@@ -245,8 +245,8 @@
     "lines": [
       {
         "sp": "A",
-        "t": "Herzlich willkommen, Herr Ahmadi. Sie leben seit sechs Jahren in Leipzig. Wie war der Anfang für Sie?",
-        "s": "A warm welcome, Mr. Ahmadi. You've been living in Leipzig for six years. What was it like at the beginning?"
+        "t": "Herzlich willkommen, Herr Ahmadi. Sie leben seit sechs Jahren in Köln. Wie war der Anfang für Sie?",
+        "s": "A warm welcome, Mr. Ahmadi. You've been living in Cologne for six years. What was it like at the beginning?"
       },
       {
         "sp": "B",
@@ -345,8 +345,8 @@
       ],
       "examples": [
         {
-          "t": "Mina hat sich schnell an das Leben in Hamburg gewöhnt.",
-          "s": "Mina quickly got used to life in Hamburg."
+          "t": "Nasrin hat sich schnell an das Leben in Hamburg gewöhnt.",
+          "s": "Nasrin quickly got used to life in Hamburg."
         },
         {
           "t": "Frau Becker kümmert sich um die Pflanzen im Hof.",
@@ -375,18 +375,20 @@
             "mit"
           ],
           "answer": 0,
-          "s": "I still have to get used to the dialect."
+          "s": "I still have to get used to the dialect.",
+          "why": "sich gewöhnen an + accusative."
         },
         {
           "type": "choice",
-          "t": "Maryam nimmt seit März ___ einem Integrationskurs teil.",
+          "t": "Karim nimmt seit März ___ einem Integrationskurs teil.",
           "options": [
             "bei",
             "an",
             "für"
           ],
           "answer": 1,
-          "s": "Maryam has been attending an integration course since March."
+          "s": "Karim has been attending an integration course since March.",
+          "why": "teilnehmen an + dative."
         },
         {
           "type": "type",
@@ -394,7 +396,8 @@
           "answer": [
             "um"
           ],
-          "s": "Mr. Wagner looks after the new neighbors."
+          "s": "Mr. Wagner looks after the new neighbors.",
+          "why": "sich kümmern um + accusative."
         },
         {
           "type": "type",
@@ -402,7 +405,8 @@
           "answer": [
             "auf"
           ],
-          "s": "Reza is very proud of his daughter."
+          "s": "Reza is very proud of his daughter.",
+          "why": "stolz sein auf + accusative."
         },
         {
           "type": "choice",
@@ -413,26 +417,35 @@
             "vor"
           ],
           "answer": 2,
-          "s": "Many people are afraid of change."
+          "s": "Many people are afraid of change.",
+          "why": "Angst haben vor + dative (English: afraid of)."
         },
         {
           "type": "type",
-          "t": "Wir sind ___ der Lösung sehr zufrieden.",
+          "task": "Use the noun das Interesse instead of the verb.",
+          "cue": "Viele Eltern interessieren sich für das Thema.",
+          "t": "Viele Eltern haben ___ dem Thema.",
           "answer": [
-            "mit"
+            "Interesse an",
+            "großes Interesse an",
+            "grosses Interesse an"
           ],
-          "s": "We're very satisfied with the solution."
+          "why": "sich interessieren für, but das Interesse an + dative: the noun takes a different preposition.",
+          "s": "Many parents are interested in the topic."
         },
         {
           "type": "choice",
-          "t": "Mina denkt oft ___ ihre Familie in Teheran.",
+          "task": "Which reply is correct?",
+          "cue": "Bist du mit deiner neuen Stelle zufrieden?",
+          "t": "___",
           "options": [
-            "an",
-            "auf",
-            "mit"
+            "Ja, sehr. Vor allem mit meinen Kollegen bin ich zufrieden.",
+            "Ja, sehr. Vor allem über meine Kollegen bin ich zufrieden.",
+            "Ja, sehr. Vor allem auf meine Kollegen bin ich zufrieden."
           ],
           "answer": 0,
-          "s": "Mina often thinks of her family in Tehran."
+          "why": "zufrieden sein mit + dative.",
+          "s": "Are you happy with your new job? – Yes, very. I'm especially happy with my colleagues."
         },
         {
           "type": "order",
@@ -520,7 +533,8 @@
             "auf das"
           ],
           "answer": 0,
-          "s": "I'm looking forward to your visit."
+          "s": "I'm looking forward to your visit.",
+          "why": "sich freuen auf + dass-clause: darauf points ahead to the clause."
         },
         {
           "type": "choice",
@@ -531,7 +545,8 @@
             "daran"
           ],
           "answer": 1,
-          "s": "Ali complained that it was so noisy."
+          "s": "Ali complained that it was so noisy.",
+          "why": "sich beschweren über → darüber, pointing ahead to the dass-clause."
         },
         {
           "type": "type",
@@ -540,15 +555,22 @@
             "daran",
             "dran"
           ],
-          "s": "Please remember to take out the trash!"
+          "s": "Please remember to take out the trash!",
+          "why": "denken an → daran (+ zu-infinitive)."
         },
         {
-          "type": "type",
-          "t": "Wir sind ___ einverstanden, dass das Fest im Hof stattfindet.",
-          "answer": [
-            "damit"
+          "type": "choice",
+          "task": "Which reply fits?",
+          "cue": "Freust du dich auf die Ferien?",
+          "t": "___",
+          "options": [
+            "Ja, ich freue mich schon sehr darauf.",
+            "Ja, ich freue mich schon sehr darüber.",
+            "Ja, ich freue mich schon sehr worauf."
           ],
-          "s": "We agree that the party should take place in the courtyard."
+          "answer": 0,
+          "why": "sich freuen auf = look forward to (future); sich freuen über = be glad about. For things use da(r)-: darauf.",
+          "s": "Are you looking forward to the vacation? – Yes, I'm really looking forward to it."
         },
         {
           "type": "choice",
@@ -559,7 +581,8 @@
             "Worauf"
           ],
           "answer": 0,
-          "s": "What are you afraid of?"
+          "s": "What are you afraid of?",
+          "why": "Angst haben vor; questions about things use wo(r)-: wovor."
         },
         {
           "type": "choice",
@@ -570,15 +593,20 @@
             "woran"
           ],
           "answer": 1,
-          "s": "Do you still think of Ms. Becker? – Yes, I often think of her."
+          "s": "Do you still think of Ms. Becker? – Yes, I often think of her.",
+          "why": "For people, use preposition + pronoun: an sie (not daran)."
         },
         {
           "type": "type",
-          "t": "Frau Becker kümmert sich ___, dass das Hoffest gut organisiert ist.",
+          "task": "Ask what Mina is interested in.",
+          "cue": "Mina interessiert sich für Fotografie.",
+          "t": "___ interessiert sich Mina?",
           "answer": [
-            "darum"
+            "Wofür",
+            "Wofuer"
           ],
-          "s": "Ms. Becker makes sure that the courtyard party is well organized."
+          "why": "Questions about things use wo(r) + preposition: für → wofür (for people: für wen).",
+          "s": "What is Mina interested in?"
         },
         {
           "type": "order",
@@ -595,8 +623,8 @@
     },
     "text": [
       {
-        "t": "Im Leipziger Stadtteil Grünau haben die Bewohner eines großen Wohnblocks am Samstag zum ersten Mal ein Hoffest gefeiert.",
-        "s": "On Saturday, the residents of a large apartment block in Leipzig's Grünau district celebrated a courtyard party for the first time."
+        "t": "Im Kölner Stadtteil Chorweiler haben die Bewohner eines großen Wohnblocks am Samstag zum ersten Mal ein Hoffest gefeiert.",
+        "s": "On Saturday, the residents of a large apartment block in Cologne's Chorweiler district celebrated a courtyard party for the first time."
       },
       {
         "t": "Die Idee stammte von Frau Becker, die seit über vierzig Jahren in dem Haus wohnt.",
@@ -703,6 +731,30 @@
           "kostenlose Deutschkurse"
         ],
         "answer": 0
+      },
+      {
+        "q": {
+          "t": "Was wollte Frau Becker mit dem Fest vor allem erreichen?",
+          "s": "What did Ms. Becker mainly want to achieve with the party?"
+        },
+        "options": [
+          "dass die Hausverwaltung mehr Geld ausgibt",
+          "dass die Nachbarn ihre Unsicherheit verlieren und sich kennenlernen",
+          "dass die neuen Familien Deutsch lernen"
+        ],
+        "answer": 1
+      },
+      {
+        "q": {
+          "t": "Das Hoffest fand zum ersten Mal statt. – Richtig, falsch oder steht das nicht im Text?",
+          "s": "It was the first time the courtyard party took place. – True, false or not in the text?"
+        },
+        "options": [
+          "richtig",
+          "falsch",
+          "steht nicht im Text"
+        ],
+        "answer": 0
       }
     ]
   },
@@ -724,8 +776,8 @@
       "s": "Prejudice often comes from ignorance."
     },
     {
-      "t": "Mina freut sich darauf, ihre Familie wiederzusehen.",
-      "s": "Mina is looking forward to seeing her family again."
+      "t": "Nasrin freut sich darauf, ihre Familie wiederzusehen.",
+      "s": "Nasrin is looking forward to seeing her family again."
     },
     {
       "t": "Worüber habt ihr gestern so lange gesprochen?",

@@ -21,7 +21,8 @@
       "ex": {
         "t": "Der Klimawandel betrifft uns alle.",
         "s": "Climate change affects all of us."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w02",
@@ -111,7 +112,8 @@
       "ex": {
         "t": "Bei der Mülltrennung unterscheidet man Papier, Verpackungen, Glas, Bio- und Restmüll.",
         "s": "When sorting garbage, you separate paper, packaging, glass, organic and other waste."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w11",
@@ -144,7 +146,8 @@
       "ex": {
         "t": "Während der Hitzewelle stiegen die Temperaturen auf fast 40 Grad.",
         "s": "During the heat wave, temperatures rose to almost 40 degrees Celsius."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w14",
@@ -169,7 +172,7 @@
     },
     {
       "id": "w16",
-      "t": "sich einsetzen (für + A)",
+      "t": "sich einsetzen für + A",
       "s": "to campaign for, stand up for",
       "emoji": "",
       "ex": {
@@ -234,15 +237,15 @@
         "voice": "f"
       },
       "B": {
-        "name": "Jonas",
+        "name": "Martin",
         "voice": "m"
       }
     },
     "lines": [
       {
         "sp": "A",
-        "t": "Herzlich willkommen zu unserer Sendung „Umwelt aktuell“! Heute bei mir im Studio ist der Klimaforscher Jonas Weber.",
-        "s": "Welcome to our program 'Environment Today'! In the studio with me today is the climate researcher Jonas Weber."
+        "t": "Herzlich willkommen zu unserer Sendung „Umwelt aktuell“! Heute bei mir im Studio ist der Klimaforscher Martin Weber.",
+        "s": "Welcome to our program 'Environment Today'! In the studio with me today is the climate researcher Martin Weber."
       },
       {
         "sp": "B",
@@ -366,7 +369,8 @@
             "entweder"
           ],
           "answer": 1,
-          "s": "We separate both paper and glass."
+          "s": "We separate both paper and glass.",
+          "why": "sowohl … als auch = both … and."
         },
         {
           "type": "choice",
@@ -377,7 +381,8 @@
             "aber"
           ],
           "answer": 0,
-          "s": "I have neither the time nor the desire."
+          "s": "I have neither the time nor the desire.",
+          "why": "weder … noch = neither … nor."
         },
         {
           "type": "choice",
@@ -388,7 +393,8 @@
             "aber"
           ],
           "answer": 2,
-          "s": "Electric cars are environmentally friendly, it's true, but still quite expensive."
+          "s": "Electric cars are environmentally friendly, it's true, but still quite expensive.",
+          "why": "zwar … aber: first admit a point, then contrast it."
         },
         {
           "type": "type",
@@ -396,7 +402,8 @@
           "answer": [
             "entweder"
           ],
-          "s": "You can go either by bus or by bike."
+          "s": "You can go either by bus or by bike.",
+          "why": "entweder … oder = either … or."
         },
         {
           "type": "type",
@@ -404,18 +411,19 @@
           "answer": [
             "sondern"
           ],
-          "s": "That saves not only electricity but also money."
+          "s": "That saves not only electricity but also money.",
+          "why": "nicht nur … sondern auch = not only … but also."
         },
         {
-          "type": "choice",
-          "t": "Weder mein Mann ___ ich fahren gern Auto.",
-          "options": [
-            "oder",
-            "noch",
-            "als auch"
+          "type": "type",
+          "task": "Join them with weder … noch.",
+          "cue": "Ich habe kein Auto. Ich habe auch kein Fahrrad.",
+          "t": "Ich habe ___.",
+          "answer": [
+            "weder ein Auto noch ein Fahrrad"
           ],
-          "answer": 1,
-          "s": "Neither my husband nor I like driving."
+          "why": "weder … noch already contains the negation, so kein becomes ein.",
+          "s": "I have neither a car nor a bike."
         },
         {
           "type": "order",
@@ -426,12 +434,18 @@
           ]
         },
         {
-          "type": "order",
-          "t": "Das ist zwar teuer, aber nachhaltig.",
-          "s": "It's expensive, it's true, but sustainable.",
-          "alts": [
-            "Zwar ist das teuer, aber nachhaltig."
-          ]
+          "type": "choice",
+          "task": "Which reply is correct?",
+          "cue": "Lohnt sich ein Lastenrad für eure Familie?",
+          "t": "___",
+          "options": [
+            "Es ist zwar teuer, aber im Alltag sehr praktisch.",
+            "Es ist weder teuer, aber im Alltag sehr praktisch.",
+            "Es ist sowohl teuer, aber im Alltag sehr praktisch."
+          ],
+          "answer": 0,
+          "why": "zwar … aber concedes a point and then contrasts it; weder pairs with noch, sowohl with als auch.",
+          "s": "Is a cargo bike worth it for your family? – It's expensive, it's true, but very practical in everyday life."
         }
       ]
     },
@@ -488,7 +502,8 @@
             "dann"
           ],
           "answer": 1,
-          "s": "The more trees we plant, the better the air."
+          "s": "The more trees we plant, the better the air.",
+          "why": "je + comparative …, desto + comparative … = the more …, the …"
         },
         {
           "type": "choice",
@@ -499,7 +514,8 @@
             "desto mehr Wasser wir trinken"
           ],
           "answer": 0,
-          "s": "The warmer it gets, the more water we drink."
+          "s": "The warmer it gets, the more water we drink.",
+          "why": "After desto + comparative + noun, the verb follows directly: desto mehr Wasser trinken wir."
         },
         {
           "type": "type",
@@ -508,7 +524,8 @@
             "desto",
             "umso"
           ],
-          "s": "The sooner we act, the smaller the damage."
+          "s": "The sooner we act, the smaller the damage.",
+          "why": "The second part starts with desto or umso + comparative."
         },
         {
           "type": "type",
@@ -516,7 +533,8 @@
           "answer": [
             "Je"
           ],
-          "s": "The longer I think about it, the less sure I become."
+          "s": "The longer I think about it, the less sure I become.",
+          "why": "The first part starts with je + comparative; its verb goes to the end."
         },
         {
           "type": "choice",
@@ -527,20 +545,34 @@
             "weniger"
           ],
           "answer": 2,
-          "s": "The less we drive, the cleaner the air."
+          "s": "The less we drive, the cleaner the air.",
+          "why": "je … desto always needs a comparative: weniger."
         },
         {
           "type": "type",
-          "t": "Je mehr man recycelt, desto ___ Müll entsteht.",
+          "task": "Rewrite it with je … desto.",
+          "cue": "Wenn man mehr Fleisch isst, schadet man dem Klima mehr.",
+          "t": "Je mehr Fleisch man isst, ___.",
           "answer": [
-            "weniger"
+            "desto mehr schadet man dem Klima",
+            "umso mehr schadet man dem Klima"
           ],
-          "s": "The more you recycle, the less waste is produced."
+          "why": "After desto/umso + comparative the verb comes next, then the subject: desto mehr schadet man …",
+          "s": "The more meat you eat, the more you harm the climate."
         },
         {
-          "type": "order",
-          "t": "Je früher, desto besser.",
-          "s": "The sooner, the better."
+          "type": "choice",
+          "task": "Which reply is correct?",
+          "cue": "Sollen wir die Heizung noch weiter herunterdrehen?",
+          "t": "___",
+          "options": [
+            "Lieber nicht – je kälter es in der Wohnung ist, desto eher werden die Kinder krank.",
+            "Lieber nicht – je kälter ist es in der Wohnung, desto eher werden die Kinder krank.",
+            "Lieber nicht – je kälter es in der Wohnung ist, desto eher die Kinder werden krank."
+          ],
+          "answer": 0,
+          "why": "The je-clause has its verb at the end; after desto + comparative the verb follows directly.",
+          "s": "Should we turn the heating down even more? – Better not – the colder the apartment, the sooner the children get sick."
         },
         {
           "type": "order",
@@ -573,8 +605,8 @@
         "s": "Together with the volunteers, they try to get the items working again."
       },
       {
-        "t": "„Viele Geräte sind zwar alt, aber oft fehlt nur eine Kleinigkeit“, erklärt Reza Amini, der als Elektriker arbeitet und seit drei Jahren dabei ist.",
-        "s": "'Many devices are old, it's true, but often only a small thing is missing,' explains Reza Amini, who works as an electrician and has been involved for three years."
+        "t": "„Viele Geräte sind zwar alt, aber oft fehlt nur eine Kleinigkeit“, erklärt Kaveh Amini, der als Elektriker arbeitet und seit drei Jahren dabei ist.",
+        "s": "'Many devices are old, it's true, but often only a small thing is missing,' explains Kaveh Amini, who works as an electrician and has been involved for three years."
       },
       {
         "t": "Seiner Meinung nach ist es weder sinnvoll noch nachhaltig, wegen eines kleinen Defekts gleich ein neues Gerät zu kaufen.",
@@ -601,8 +633,8 @@
         "s": "Over tea and homemade cake, people quickly get talking."
       },
       {
-        "t": "„Je mehr Leute mitmachen, umso besser“, sagt Reza und lacht.",
-        "s": "'The more people join in, the better,' says Reza with a laugh."
+        "t": "„Je mehr Leute mitmachen, umso besser“, sagt Kaveh und lacht.",
+        "s": "'The more people join in, the better,' says Kaveh with a laugh."
       }
     ],
     "questions": [
@@ -663,6 +695,30 @@
           "um die Gemeinschaft",
           "ums Einkaufen",
           "um neue Geräte"
+        ],
+        "answer": 0
+      },
+      {
+        "q": {
+          "t": "Wie ist die Stimmung im Repair-Café vermutlich?",
+          "s": "What is the atmosphere at the repair café probably like?"
+        },
+        "options": [
+          "angespannt, weil alle unter Zeitdruck stehen",
+          "gesellig und entspannt",
+          "eher förmlich und still"
+        ],
+        "answer": 1
+      },
+      {
+        "q": {
+          "t": "Kaveh Amini arbeitet beruflich als Elektriker. – Richtig, falsch oder steht das nicht im Text?",
+          "s": "Kaveh Amini works as an electrician. – True, false or not in the text?"
+        },
+        "options": [
+          "richtig",
+          "falsch",
+          "steht nicht im Text"
         ],
         "answer": 0
       }
