@@ -22,7 +22,8 @@
       "ex": {
         "t": "Bilim insanları yeni bir aşı geliştirdi.",
         "s": "دانشمندان واکسن تازه‌ای ساختند."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w02",
@@ -46,7 +47,8 @@
       "ex": {
         "t": "Deney laboratuvarda birkaç kez tekrarlandı.",
         "s": "آزمایش چند بار در آزمایشگاه تکرار شد."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w04",
@@ -58,7 +60,8 @@
       "ex": {
         "t": "Telefon, insanlık tarihinin en önemli buluşlarından biridir.",
         "s": "تلفن یکی از مهم‌ترین اختراع‌های تاریخ بشر است."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w05",
@@ -80,7 +83,8 @@
       "ex": {
         "t": "Yapay zekâ hayatımızı hızla değiştiriyor.",
         "s": "هوش مصنوعی زندگی ما را به‌سرعت تغییر می‌دهد."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w07",
@@ -92,7 +96,8 @@
       "ex": {
         "t": "Bu veriler gizli tutulmalı.",
         "s": "این داده‌ها باید محرمانه بمانند."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w08",
@@ -101,9 +106,10 @@
       "pr": "اوزای",
       "emoji": "🚀",
       "ex": {
-        "t": "Uzaya ilk insan 1961'de gönderildi.",
+        "t": "Uzaya ilk insan bin dokuz yüz altmış bir yılında gönderildi.",
         "s": "نخستین انسان در سال ۱۹۶۱ به فضا فرستاده شد."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w09",
@@ -114,7 +120,8 @@
       "ex": {
         "t": "Penisilini Alexander Fleming keşfetti.",
         "s": "پنی‌سیلین را الکساندر فلمینگ کشف کرد."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w10",
@@ -174,7 +181,8 @@
       "ex": {
         "t": "Son yıllarda tıpta büyük ilerlemeler kaydedildi.",
         "s": "در سال‌های اخیر در پزشکی پیشرفت‌های بزرگی به دست آمد."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w15",
@@ -211,7 +219,10 @@
       "id": "p04",
       "t": "Teknolojinin hem faydaları hem de riskleri var.",
       "s": "فناوری هم فایده دارد و هم خطر.",
-      "pr": "تِکنُلُژینین هِم فایدالارِ هِم دِه ریسکلِری وار."
+      "pr": "تِکنُلُژینین هِم فایدالارِ هِم دِه ریسکلِری وار.",
+      "alts": [
+        "Teknolojinin hem riskleri hem de faydaları var."
+      ]
     },
     {
       "id": "p05",
@@ -223,7 +234,10 @@
       "id": "p06",
       "t": "Gelecekte ne olacağını kimse bilemez.",
       "s": "هیچ‌کس نمی‌تواند بداند در آینده چه خواهد شد.",
-      "pr": "گِلِجِکتِه نِه اُلاجائِنِ کیمسِه بیلِمِز."
+      "pr": "گِلِجِکتِه نِه اُلاجائِنِ کیمسِه بیلِمِز.",
+      "alts": [
+        "Kimse gelecekte ne olacağını bilemez."
+      ]
     },
     {
       "id": "p07",
@@ -267,7 +281,10 @@
       {
         "sp": "A",
         "t": "Aynen. Proje bir hastane tarafından üniversiteye yaptırılmış.",
-        "s": "دقیقاً. ظاهراً یک بیمارستان ساختِ این پروژه را به دانشگاه سفارش داده است."
+        "s": "دقیقاً. ظاهراً یک بیمارستان ساختِ این پروژه را به دانشگاه سفارش داده است.",
+        "alts": [
+          "Aynen. Proje üniversiteye bir hastane tarafından yaptırılmış."
+        ]
       },
       {
         "sp": "B",
@@ -281,8 +298,8 @@
       },
       {
         "sp": "B",
-        "t": "Doğru. Peki sence robotlar ileride hemşirelerin yerini alacak mı?",
-        "s": "درست است. خب، به نظرت ربات‌ها در آینده جای پرستارها را می‌گیرند؟"
+        "t": "Doğru. Peki sizce robotlar ileride hemşirelerin yerini alacak mı?",
+        "s": "درست است. خب، به نظر شما ربات‌ها در آینده جای پرستارها را می‌گیرند؟"
       },
       {
         "sp": "A",
@@ -291,8 +308,8 @@
       },
       {
         "sp": "B",
-        "t": "Haklısın ama ağır işleri robotlara yaptırmak hemşirelerin işini kolaylaştırır.",
-        "s": "حق با توست، اما سپردن کارهای سنگین به ربات‌ها کار پرستارها را راحت‌تر می‌کند."
+        "t": "Haklısınız ama ağır işleri robotlara yaptırmak hemşirelerin işini kolaylaştırır.",
+        "s": "حق با شماست، اما سپردن کارهای سنگین به ربات‌ها کار پرستارها را راحت‌تر می‌کند."
       },
       {
         "sp": "A",
@@ -358,7 +375,7 @@
       ],
       "examples": [
         {
-          "t": "Bu bina 1950'lerde bir İtalyan mimara yaptırılmış.",
+          "t": "Bu bina bin dokuz yüz ellili yıllarda bir İtalyan mimara yaptırılmış.",
           "s": "ظاهراً ساخت این بنا در دهه‌ی ۱۹۵۰ به یک معمار ایتالیایی سپرده شده است."
         },
         {
@@ -388,7 +405,8 @@
             "yaptırdı"
           ],
           "answer": 0,
-          "s": "شهرداری ساخت پل را به یک شرکت ساختمانی سپرد."
+          "s": "شهرداری ساخت پل را به یک شرکت ساختمانی سپرد.",
+          "why": "سببیِ مجهول: yap-tır-ıl-dı («ساختش به کسی سپرده شد»)."
         },
         {
           "type": "choice",
@@ -399,7 +417,8 @@
             "tercüme edildirdi"
           ],
           "answer": 1,
-          "s": "همه‌ی مدارک به یک مترجم سپرده شد تا ترجمه شود."
+          "s": "همه‌ی مدارک به یک مترجم سپرده شد تا ترجمه شود.",
+          "why": "et ← ettir (سببی) ← ettiril (مجهول): tercüme ettirildi."
         },
         {
           "type": "choice",
@@ -410,27 +429,30 @@
             "boyatıldı"
           ],
           "answer": 2,
-          "s": "دیوارهای خانه هفته‌ی پیش (به سفارش ما) رنگ شد."
+          "s": "دیوارهای خانه هفته‌ی پیش (به سفارش ما) رنگ شد.",
+          "why": "boya-t (سببی) + ‎-ıl (مجهول): boyatıldı."
         },
         {
           "type": "type",
-          "t": "Bu cami 16. yüzyılda Mimar Sinan'a ___.",
+          "t": "Bu cami on altıncı yüzyılda Mimar Sinan'a ___.",
           "answer": [
             "yaptırıldı",
             "yaptırılmış",
             "yaptırılmıştır"
           ],
-          "s": "ساخت این مسجد در قرن شانزدهم به معمار سنان سپرده شد."
+          "s": "ساخت این مسجد در قرن شانزدهم به معمار سنان سپرده شد.",
+          "why": "کار به کسی سپرده شده و سفارش‌دهنده گفته نشده ← سببیِ مجهول: yaptırıldı."
         },
         {
           "type": "type",
-          "t": "Yazılım, uzman bir ekip tarafından ___.",
+          "task": "جمله را مجهول کنید (بدون Şirket).",
+          "cue": "Şirket, raporu bir tercümana İngilizceye çevirtti.",
+          "t": "Rapor bir tercümana İngilizceye ___.",
           "answer": [
-            "geliştirildi",
-            "geliştirilmiş",
-            "geliştirilmiştir"
+            "çevirtildi"
           ],
-          "s": "نرم‌افزار توسط یک تیم متخصص توسعه داده شد."
+          "why": "فعلِ سببیِ çevirtti در مجهول ‎-il می‌گیرد: çevir-t-il-di.",
+          "s": "ترجمه‌ی گزارش به انگلیسی به یک مترجم سپرده شد."
         },
         {
           "type": "type",
@@ -441,7 +463,8 @@
             "tamir ettirilmiş",
             "onartılmış"
           ],
-          "s": "کامپیوترهای خراب به سرویس فنی سپرده شد تا تعمیر شوند."
+          "s": "کامپیوترهای خراب به سرویس فنی سپرده شد تا تعمیر شوند.",
+          "why": "کامپیوترها را دادند تا تعمیر کنند ← سببیِ مجهول: tamir ettirildi / onartıldı."
         },
         {
           "type": "order",
@@ -449,9 +472,18 @@
           "s": "ساخت ساختمان به یک معمار مشهور سپرده شد."
         },
         {
-          "type": "order",
-          "t": "Yeni ilaç Türk bilim insanları tarafından geliştirildi.",
-          "s": "داروی تازه توسط دانشمندان ترک ساخته شد."
+          "type": "choice",
+          "task": "کدام پاسخ مناسب است؟",
+          "cue": "Arabanı kendin mi tamir ettin?",
+          "t": "___",
+          "options": [
+            "Hayır, tamirciye tamir ettirdim.",
+            "Hayır, tamirciye tamir ettirildim.",
+            "Hayır, tamirciyi tamir ettim."
+          ],
+          "answer": 0,
+          "why": "کاری که دیگری برایمان انجام داده با سببی گفته می‌شود: tamir ettirdim.",
+          "s": "نه، دادم تعمیرکار تعمیرش کند."
         }
       ]
     },
@@ -520,18 +552,22 @@
             "süriyor"
           ],
           "answer": 0,
-          "s": "خبر: ساخت خط تازه‌ی مترو هنوز ادامه دارد."
+          "s": "خبر: ساخت خط تازه‌ی مترو هنوز ادامه دارد.",
+          "why": "‎-makta + ‎-dır برای سوم شخص در زبان رسمی: sür-mekte-dir."
         },
         {
           "type": "choice",
-          "t": "Rapor: Öğrenci sayısı her yıl ___.",
+          "task": "گوینده‌ی خبر کدام جمله را می‌گوید؟",
+          "cue": "Haber spikeri yeni havalimanının inşaatı hakkında bilgi veriyor.",
+          "t": "___",
           "options": [
-            "artmaktayız",
-            "artmaktadır",
-            "artmaktasın"
+            "Yeni havalimanının inşaatı devam etmektedir.",
+            "Ya, havalimanı inşaatı hâlâ bitmedi işte.",
+            "Havalimanı inşaatı devam ediyormuş galiba."
           ],
-          "answer": 1,
-          "s": "گزارش: تعداد دانشجویان هر سال افزایش می‌یابد."
+          "answer": 0,
+          "why": "زبان رسمیِ خبر ‎-makta(dır) را به کار می‌برد؛ ‎-mış، işte و galiba گفتاری‌اند.",
+          "s": "ساخت فرودگاه جدید ادامه دارد."
         },
         {
           "type": "choice",
@@ -542,7 +578,8 @@
             "satılmaktadır"
           ],
           "answer": 2,
-          "s": "این دارو فقط با نسخه‌ی پزشک فروخته می‌شود."
+          "s": "این دارو فقط با نسخه‌ی پزشک فروخته می‌شود.",
+          "why": "دارو را می‌فروشند (مجهول) ← sat-ıl-makta-dır."
         },
         {
           "type": "type",
@@ -551,7 +588,8 @@
             "üretilmektedir",
             "üretilmekte"
           ],
-          "s": "(به سبک رسمی) در کارخانه هر روز پنج هزار خودرو تولید می‌شود."
+          "s": "(به سبک رسمی) در کارخانه هر روز پنج هزار خودرو تولید می‌شود.",
+          "why": "مجهول + ‎-mekte + ‎-dir: üret-il-mekte-dir."
         },
         {
           "type": "type",
@@ -560,7 +598,8 @@
             "vermektedir",
             "vermekte"
           ],
-          "s": "(به سبک رسمی) شرکت ما بیست سال است که در این زمینه خدمات ارائه می‌دهد."
+          "s": "(به سبک رسمی) شرکت ما بیست سال است که در این زمینه خدمات ارائه می‌دهد.",
+          "why": "کارِ ادامه‌دار در زبان رسمی: hizmet ver-mekte-dir."
         },
         {
           "type": "type",
@@ -570,12 +609,20 @@
             "belirtmektedirler",
             "belirtmekteler"
           ],
-          "s": "(به سبک رسمی) کارشناسان اعلام می‌کنند که هوش مصنوعی زندگی کاری را تغییر خواهد داد."
+          "s": "(به سبک رسمی) کارشناسان اعلام می‌کنند که هوش مصنوعی زندگی کاری را تغییر خواهد داد.",
+          "why": "فعلِ رسمیِ نقل خبر: belirt-mekte-dir (یا belirtmektedirler)."
         },
         {
-          "type": "order",
-          "t": "Dünya nüfusu hızla artmaktadır.",
-          "s": "جمعیت جهان به‌سرعت در حال افزایش است."
+          "type": "type",
+          "task": "به زبان رسمیِ خبر (‎-makta) بنویسید.",
+          "cue": "Yapay zekâ hayatımızı hızla değiştiriyor.",
+          "t": "Yapay zekâ hayatımızı hızla ___.",
+          "answer": [
+            "değiştirmektedir",
+            "değiştirmekte"
+          ],
+          "why": "در زبان رسمی ‎-(ı)yor به ‎-makta(dır) تبدیل می‌شود: değiştirmektedir.",
+          "s": "هوش مصنوعی زندگی ما را به‌سرعت تغییر می‌دهد."
         },
         {
           "type": "order",
@@ -680,6 +727,18 @@
           "On"
         ],
         "answer": 2
+      },
+      {
+        "q": {
+          "t": "Programın başarısının hastalar için en önemli sonucu ne olabilir?",
+          "s": "موفقیت این برنامه احتمالاً چه نتیجه‌ی مهمی برای بیماران دارد؟"
+        },
+        "options": [
+          "Tedaviye daha erken başlanabilmesi",
+          "Doktorların işlerini kaybetmesi",
+          "Hastane ücretlerinin artması"
+        ],
+        "answer": 0
       }
     ]
   },
@@ -690,7 +749,10 @@
     },
     {
       "t": "Evimizin çatısını geçen yaz tamir ettirdik.",
-      "s": "تابستان گذشته سقف خانه‌مان را دادیم تعمیر کنند."
+      "s": "تابستان گذشته سقف خانه‌مان را دادیم تعمیر کنند.",
+      "alts": [
+        "Geçen yaz evimizin çatısını tamir ettirdik."
+      ]
     },
     {
       "t": "Yapay zekâ hayatımızın her alanına girmektedir.",
@@ -698,11 +760,17 @@
     },
     {
       "t": "Deneyin sonuçları henüz açıklanmadı.",
-      "s": "نتایج آزمایش هنوز اعلام نشده است."
+      "s": "نتایج آزمایش هنوز اعلام نشده است.",
+      "alts": [
+        "Henüz deneyin sonuçları açıklanmadı."
+      ]
     },
     {
       "t": "Uzaya her yıl yeni uydular gönderilmektedir.",
-      "s": "هر سال ماهواره‌های تازه‌ای به فضا فرستاده می‌شود."
+      "s": "هر سال ماهواره‌های تازه‌ای به فضا فرستاده می‌شود.",
+      "alts": [
+        "Her yıl uzaya yeni uydular gönderilmektedir."
+      ]
     },
     {
       "t": "Verilerimizin güvenliği bizim için çok önemli.",

@@ -45,7 +45,8 @@
       "ex": {
         "t": "Ailesi otuz yıl önce Almanya'ya göç etmiş.",
         "s": "خانواده‌اش سی سال پیش به آلمان مهاجرت کرده است."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w04",
@@ -78,7 +79,8 @@
       "ex": {
         "t": "Oturma iznim gelecek ay bitiyor.",
         "s": "اجازه‌ی اقامتم ماه آینده تمام می‌شود."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w07",
@@ -124,7 +126,8 @@
       "ex": {
         "t": "Her yaz memleketime gidip ailemi ziyaret ediyorum.",
         "s": "هر تابستان به زادگاهم می‌روم و به خانواده‌ام سر می‌زنم."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w11",
@@ -169,7 +172,8 @@
       "ex": {
         "t": "İstanbul çok kültürlü bir şehirdir.",
         "s": "استانبول شهری چندفرهنگی است."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w15",
@@ -189,13 +193,19 @@
       "id": "p01",
       "t": "Artık kendimi buraya ait hissediyorum.",
       "s": "دیگر احساس می‌کنم به این‌جا تعلق دارم.",
-      "pr": "آرتِک کِندیمی بورایا آئیت هیسِّدیُروم."
+      "pr": "آرتِک کِندیمی بورایا آئیت هیسِّدیُروم.",
+      "alts": [
+        "Kendimi artık buraya ait hissediyorum."
+      ]
     },
     {
       "id": "p02",
       "t": "Bence bu konuda haklısın.",
       "s": "به نظرم در این مورد حق با توست.",
-      "pr": "بِنجِه بو کُنودا هاکلِسِن."
+      "pr": "بِنجِه بو کُنودا هاکلِسِن.",
+      "alts": [
+        "Bu konuda bence haklısın."
+      ]
     },
     {
       "id": "p03",
@@ -207,7 +217,10 @@
       "id": "p04",
       "t": "Açıkçası ben pek emin değilim.",
       "s": "راستش من چندان مطمئن نیستم.",
-      "pr": "آچِکچاسِ بِن پِک اِمین دِییلیم."
+      "pr": "آچِکچاسِ بِن پِک اِمین دِییلیم.",
+      "alts": [
+        "Ben açıkçası pek emin değilim."
+      ]
     },
     {
       "id": "p05",
@@ -231,7 +244,10 @@
       "id": "p08",
       "t": "Her şeye rağmen burada mutluyum.",
       "s": "با وجود همه‌چیز، این‌جا خوشحالم.",
-      "pr": "هِر شِیِه راامِن بورادا موتلویوم."
+      "pr": "هِر شِیِه راامِن بورادا موتلویوم.",
+      "alts": [
+        "Burada her şeye rağmen mutluyum."
+      ]
     }
   ],
   "dialogue": {
@@ -272,8 +288,8 @@
       },
       {
         "sp": "B",
-        "t": "Anlıyorum. Ağabeyim de on yıl önce Almanya'ya göç etti.",
-        "s": "می‌فهمم. برادر بزرگم هم ده سال پیش به آلمان مهاجرت کرد."
+        "t": "Anlıyorum. Ablam da on yıl önce Almanya'ya göç etti.",
+        "s": "می‌فهمم. خواهر بزرگم هم ده سال پیش به آلمان مهاجرت کرد."
       },
       {
         "sp": "A",
@@ -293,7 +309,10 @@
       {
         "sp": "B",
         "t": "Kesinlikle. Sen burada kendini yabancı hissediyor musun?",
-        "s": "کاملاً. تو این‌جا احساس غریبی می‌کنی؟"
+        "s": "کاملاً. تو این‌جا احساس غریبی می‌کنی؟",
+        "alts": [
+          "Kesinlikle. Sen kendini burada yabancı hissediyor musun?"
+        ]
       },
       {
         "sp": "A",
@@ -384,7 +403,8 @@
             "yürüdüm"
           ],
           "answer": 0,
-          "s": "دکتر پیشنهاد می‌کند که هر روز نیم ساعت پیاده‌روی کنم."
+          "s": "دکتر پیشنهاد می‌کند که هر روز نیم ساعت پیاده‌روی کنم.",
+          "why": "فاعلِ فعلِ دوم «من» است و öneriyor مفعول می‌خواهد: yürü-me-m-i."
         },
         {
           "type": "choice",
@@ -395,7 +415,8 @@
             "gitmek"
           ],
           "answer": 1,
-          "s": "علی تصمیم گرفت به خارج از کشور برود."
+          "s": "علی تصمیم گرفت به خارج از کشور برود.",
+          "why": "karar vermek با حالت به (‎-e) می‌آید: gitmeye karar verdi."
         },
         {
           "type": "choice",
@@ -406,15 +427,19 @@
             "ev bulmak"
           ],
           "answer": 2,
-          "s": "پیدا کردن خانه در این شهر خیلی سخت است."
+          "s": "پیدا کردن خانه در این شهر خیلی سخت است.",
+          "why": "مصدری که فاعلِ جمله است (چیزی که سخت است) پسوند حالت نمی‌گیرد: ev bulmak zor."
         },
         {
           "type": "type",
-          "t": "Babam benim doktor ___ istiyor.",
+          "task": "با ‎-ması یک جمله بسازید.",
+          "cue": "Mina erken geldi. Bu beni şaşırttı.",
+          "t": "Mina'nın ___ beni şaşırttı.",
           "answer": [
-            "olmamı"
+            "erken gelmesi"
           ],
-          "s": "پدرم می‌خواهد که من پزشک شوم."
+          "why": "فاعلِ جمله‌ی اسمی پسوند اضافه می‌گیرد (Mina'nın) و فعل ‎-ması: erken gelmesi.",
+          "s": "اینکه مینا زود آمد، مرا شگفت‌زده کرد."
         },
         {
           "type": "type",
@@ -423,7 +448,8 @@
             "gelmene",
             "gelişine"
           ],
-          "s": "خیلی خوشحال شدیم که پیش ما آمدی."
+          "s": "خیلی خوشحال شدیم که پیش ما آمدی.",
+          "why": "sevinmek حالت به (‎-e) می‌خواهد؛ فاعل «تو»: gel-me-n-e (یا gelişine)."
         },
         {
           "type": "type",
@@ -432,7 +458,8 @@
             "kalkmaya",
             "uyanmaya"
           ],
-          "s": "به زود بیدار شدن عادت ندارم."
+          "s": "به زود بیدار شدن عادت ندارم.",
+          "why": "alışkın olmak حالت به (‎-e) می‌خواهد: kalkmaya / uyanmaya alışkın."
         },
         {
           "type": "order",
@@ -440,9 +467,18 @@
           "s": "سازگار شدن با یک فرهنگ تازه زمان می‌برد."
         },
         {
-          "type": "order",
-          "t": "Annem İran'a dönmemi istiyor.",
-          "s": "مادرم می‌خواهد که به ایران برگردم."
+          "type": "choice",
+          "task": "کدام پاسخ مناسب است؟",
+          "cue": "Bu akşam sinemaya gidelim mi?",
+          "t": "___",
+          "options": [
+            "Gelmeyi çok isterdim ama yarın sınavım var.",
+            "Gelmemi çok isterdim ama yarın sınavım var.",
+            "Gelmeye çok isterdim ama yarın sınavım var."
+          ],
+          "answer": 0,
+          "why": "وقتی فاعلِ هر دو فعل یکی است، ‎-mak (gelmeyi) می‌آید؛ gelmemi برای فاعلِ دیگری است.",
+          "s": "خیلی دلم می‌خواست بیایم، ولی فردا امتحان دارم."
         }
       ]
     },
@@ -509,15 +545,15 @@
       ],
       "exercises": [
         {
-          "type": "choice",
-          "t": "Hasta ___ işe gitti.",
-          "options": [
-            "olmaya rağmen",
-            "olmasına rağmen",
-            "olması rağmen"
+          "type": "type",
+          "task": "با ‎-masına rağmen یک جمله بسازید.",
+          "cue": "Çok yorgunduk. Yine de yürüyüşe devam ettik.",
+          "t": "Çok ___ rağmen yürüyüşe devam ettik.",
+          "answer": [
+            "yorgun olmamıza"
           ],
-          "answer": 1,
-          "s": "با اینکه بیمار بود، سر کار رفت."
+          "why": "فاعل «biz» است و صفت با ol- می‌آید: yorgun olmamıza rağmen.",
+          "s": "با اینکه خیلی خسته بودیم، به پیاده‌روی ادامه دادیم."
         },
         {
           "type": "choice",
@@ -528,7 +564,8 @@
             "koştuk"
           ],
           "answer": 0,
-          "s": "با اینکه خیلی دویدیم، به اتوبوس نرسیدیم."
+          "s": "با اینکه خیلی دویدیم، به اتوبوس نرسیدیم.",
+          "why": "فاعل «biz» است: koş-ma-mız-a rağmen."
         },
         {
           "type": "choice",
@@ -539,7 +576,8 @@
             "olmasına karşın"
           ],
           "answer": 2,
-          "s": "با اینکه خانه گران بود، آن را خریدند."
+          "s": "با اینکه خانه گران بود، آن را خریدند.",
+          "why": "karşın هم مثل rağmen بعد از ‎-masına می‌آید؛ göre و için این‌جا معنا ندارند."
         },
         {
           "type": "type",
@@ -547,7 +585,8 @@
           "answer": [
             "olmana"
           ],
-          "s": "با اینکه خسته بودی، به ما کمک کردی."
+          "s": "با اینکه خسته بودی، به ما کمک کردی.",
+          "why": "فاعل «sen» است: ol-ma-n-a rağmen."
         },
         {
           "type": "type",
@@ -556,7 +595,8 @@
             "bilmemelerine",
             "bilmemesine"
           ],
-          "s": "با اینکه آن‌ها ترکی بلد نبودند، خیلی خوب با هم کنار آمدیم."
+          "s": "با اینکه آن‌ها ترکی بلد نبودند، خیلی خوب با هم کنار آمدیم.",
+          "why": "فاعل «onlar» است و فعل منفی: bil-me-me-leri-ne rağmen (bilmemesine هم درست است)."
         },
         {
           "type": "type",
@@ -565,12 +605,22 @@
             "rağmen",
             "karşın"
           ],
-          "s": "با وجود سرما، بچه‌ها بیرون بازی می‌کردند."
+          "s": "با وجود سرما، بچه‌ها بیرون بازی می‌کردند.",
+          "why": "بعد از اسم با حالت به (Soğuğa) ‎rağmen یا karşın می‌آید."
         },
         {
-          "type": "order",
-          "t": "Yağmur yağmasına rağmen parkta yürüdük.",
-          "s": "با اینکه باران می‌بارید، در پارک قدم زدیم."
+          "type": "choice",
+          "task": "کدام جمله همین معنا را درست می‌رساند؟",
+          "cue": "Ablası Almancayı iyi biliyordu ama ilk yıllarda çok zorlandı.",
+          "t": "___",
+          "options": [
+            "Almancayı iyi bilmesine rağmen ilk yıllarda çok zorlandı.",
+            "Almancayı iyi bildiği için ilk yıllarda çok zorlandı.",
+            "Almancayı iyi bildiği sürece ilk yıllarda çok zorlandı."
+          ],
+          "answer": 0,
+          "why": "«با اینکه» ← ‎-masına rağmen (یا ‎-dığı halde)؛ ‎-dığı için یعنی «چون».",
+          "s": "با اینکه آلمانی را خوب بلد بود، سال‌های اول خیلی سختی کشید."
         },
         {
           "type": "order",
@@ -590,8 +640,8 @@
     },
     "text": [
       {
-        "t": "Merhaba, ben Maryam; altı yıl önce eşim ve iki çocuğumla İzmir'e yerleştik.",
-        "s": "سلام، من مریم هستم؛ شش سال پیش با همسر و دو فرزندم در ازمیر ساکن شدیم."
+        "t": "Merhaba, ben Maryam; altı yıl önce eşim ve iki çocuğumla İstanbul'a yerleştik.",
+        "s": "سلام، من مریم هستم؛ شش سال پیش با همسر و دو فرزندم در استانبول ساکن شدیم."
       },
       {
         "t": "Göç etme kararını vermek hayatımın en zor anlarından biriydi.",
@@ -606,8 +656,8 @@
         "s": "حتی گرفتن وقت دکتر یا امضای قرارداد اجاره هم مشکل بزرگی بود."
       },
       {
-        "t": "Eşim mühendis olmasına rağmen ilk yıl bir kafede çalışmak zorunda kaldı.",
-        "s": "همسرم با اینکه مهندس است، سال اول مجبور شد در یک کافه کار کند."
+        "t": "Eşim öğretmen olmasına rağmen ilk yıl bir kafede çalışmak zorunda kaldı.",
+        "s": "همسرم با اینکه معلم است، سال اول مجبور شد در یک کافه کار کند."
       },
       {
         "t": "Çocuklarım ise okula başladıktan birkaç ay sonra Türkçeyi bizden daha iyi konuşuyordu.",
@@ -633,8 +683,8 @@
     "questions": [
       {
         "q": {
-          "t": "Maryam'ın ailesi kaç yıl önce İzmir'e yerleşti?",
-          "s": "خانواده‌ی مریم چند سال پیش در ازمیر ساکن شدند؟"
+          "t": "Maryam'ın ailesi kaç yıl önce İstanbul'a yerleşti?",
+          "s": "خانواده‌ی مریم چند سال پیش در استانبول ساکن شدند؟"
         },
         "options": [
           "Altı yıl önce",
@@ -678,6 +728,18 @@
           "Eşinin mesleği"
         ],
         "answer": 0
+      },
+      {
+        "q": {
+          "t": "Maryam'ın ailesi neden artık kendini yabancı hissetmiyor?",
+          "s": "چرا خانواده‌ی مریم دیگر احساس غریبی نمی‌کنند؟"
+        },
+        "options": [
+          "Zamanla uyum sağladıkları ve komşuları onlara yardım ettiği için",
+          "Memleketlerini hiç özlemedikleri için",
+          "Hiçbir önyargıyla karşılaşmadıkları için"
+        ],
+        "answer": 0
       }
     ]
   },
@@ -708,11 +770,17 @@
     },
     {
       "t": "Her şeye rağmen burada kendimi evimde hissediyorum.",
-      "s": "با وجود همه‌چیز، این‌جا احساس می‌کنم در خانه‌ی خودم هستم."
+      "s": "با وجود همه‌چیز، این‌جا احساس می‌کنم در خانه‌ی خودم هستم.",
+      "alts": [
+        "Burada her şeye rağmen kendimi evimde hissediyorum."
+      ]
     },
     {
       "t": "Ayrımcılığa karşı hep birlikte durmalıyız.",
-      "s": "همه باید با هم در برابر تبعیض بایستیم."
+      "s": "همه باید با هم در برابر تبعیض بایستیم.",
+      "alts": [
+        "Hep birlikte ayrımcılığa karşı durmalıyız."
+      ]
     }
   ]
 }

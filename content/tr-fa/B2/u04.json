@@ -22,7 +22,8 @@
       "ex": {
         "t": "Ülke ekonomisi bu yıl yüzde üç büyüdü.",
         "s": "اقتصاد کشور امسال سه درصد رشد کرد."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w02",
@@ -163,7 +164,8 @@
       "ex": {
         "t": "Pandemi döneminde birçok restoran zarar etti.",
         "s": "در دوران همه‌گیری بسیاری از رستوران‌ها ضرر کردند."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w14",
@@ -185,7 +187,8 @@
       "ex": {
         "t": "Türkiye'nin ihracatında otomotiv sektörü ilk sıralarda yer alıyor.",
         "s": "در صادرات ترکیه، صنعت خودروسازی جزو بخش‌های پیشتاز است."
-      }
+      },
+      "sym": true
     }
   ],
   "phrases": [
@@ -217,7 +220,10 @@
       "id": "p05",
       "t": "Bu iş bana pek mantıklı gelmiyor.",
       "s": "این کار به نظرم زیاد منطقی نمی‌آید.",
-      "pr": "بو ایش بانا پِک مانتِکلِ گِلمیُر."
+      "pr": "بو ایش بانا پِک مانتِکلِ گِلمیُر.",
+      "alts": [
+        "Bana bu iş pek mantıklı gelmiyor."
+      ]
     },
     {
       "id": "p06",
@@ -245,7 +251,7 @@
     },
     "speakers": {
       "A": {
-        "name": "Ayşe",
+        "name": "Zeynep",
         "voice": "f"
       },
       "B": {
@@ -377,7 +383,8 @@
             "yağabilir"
           ],
           "answer": 1,
-          "s": "زمین خیس است؛ حتماً دیشب باران آمده."
+          "s": "زمین خیس است؛ حتماً دیشب باران آمده.",
+          "why": "نشانه‌ی موجود (زمین خیس) ← حدسِ مطمئن درباره‌ی گذشته: ‎-mış olmalı."
         },
         {
           "type": "choice",
@@ -388,7 +395,8 @@
             "yağmamış olabilir"
           ],
           "answer": 0,
-          "s": "آسمان سیاه شده؛ انگار باران می‌آید."
+          "s": "آسمان سیاه شده؛ انگار باران می‌آید.",
+          "why": "نشانه‌ها می‌گویند به‌زودی اتفاق می‌افتد ← ‎-acak gibi («انگار می‌خواهد …»)."
         },
         {
           "type": "choice",
@@ -399,7 +407,8 @@
             "gelmeyebilir"
           ],
           "answer": 2,
-          "s": "مطمئن نیستم، ممکن است جان امروز به جلسه نیاید."
+          "s": "مطمئن نیستم، ممکن است جان امروز به جلسه نیاید.",
+          "why": "امکانِ منفی («ممکن است نیاید») ← ‎-mayabilir: gelmeyebilir."
         },
         {
           "type": "type",
@@ -407,7 +416,8 @@
           "answer": [
             "uyumamış"
           ],
-          "s": "علی خیلی خسته به نظر می‌رسد؛ حتماً دیشب اصلاً نخوابیده."
+          "s": "علی خیلی خسته به نظر می‌رسد؛ حتماً دیشب اصلاً نخوابیده.",
+          "why": "حدسِ مطمئن درباره‌ی گذشته‌ی منفی: uyu-ma-mış olmalı."
         },
         {
           "type": "type",
@@ -415,15 +425,19 @@
           "answer": [
             "kaçırabiliriz"
           ],
-          "s": "اگر عجله نکنیم، ممکن است قطار را از دست بدهیم."
+          "s": "اگر عجله نکنیم، ممکن است قطار را از دست بدهیم.",
+          "why": "امکان در آینده ← ‎-(y)abilir؛ فاعل biz است: kaçırabiliriz."
         },
         {
           "type": "type",
-          "t": "Işıklar yanıyor; Zeynep evde ___.",
+          "task": "با ‎-mış olabilir بازنویسی کنید.",
+          "cue": "Belki dükkân bu ay zarar etti.",
+          "t": "Dükkân bu ay ___.",
           "answer": [
-            "olmalı"
+            "zarar etmiş olabilir"
           ],
-          "s": "چراغ‌ها روشن است؛ زینب حتماً خانه است."
+          "why": "«شاید … کرده باشد» ← ‎-mış olabilir: zarar etmiş olabilir.",
+          "s": "شاید مغازه این ماه ضرر کرده باشد."
         },
         {
           "type": "order",
@@ -434,12 +448,18 @@
           ]
         },
         {
-          "type": "order",
-          "t": "Şirket bu yıl zarar etmiş olmalı.",
-          "s": "شرکت حتماً امسال ضرر کرده.",
-          "alts": [
-            "Bu yıl şirket zarar etmiş olmalı."
-          ]
+          "type": "choice",
+          "task": "کدام پاسخ مناسب است؟",
+          "cue": "Ali'nin kafesi bugün kapalı. Neden acaba?",
+          "t": "___",
+          "options": [
+            "Bilmiyorum, hasta olabilir.",
+            "Bilmiyorum, hasta olmalıydı.",
+            "Bilmiyorum, hasta olacağım."
+          ],
+          "answer": 0,
+          "why": "حدسِ نامطمئن درباره‌ی حال («شاید مریض باشد») ← ‎-(y)abilir: hasta olabilir.",
+          "s": "نمی‌دانم، شاید مریض باشد."
         }
       ]
     },
@@ -509,7 +529,8 @@
             "ta"
           ],
           "answer": 1,
-          "s": "با اینکه قیمت‌ها بالا می‌رود، مردم از خرید دست نمی‌کشند."
+          "s": "با اینکه قیمت‌ها بالا می‌رود، مردم از خرید دست نمی‌کشند.",
+          "why": "da/de یک کلمه‌ی جداست و از واکه‌ی آخر پیروی می‌کند: artsa ← da."
         },
         {
           "type": "choice",
@@ -520,7 +541,8 @@
             "olursa"
           ],
           "answer": 0,
-          "s": "این پیشنهاد خیلی وسوسه‌انگیز است؛ حتی اگر حقوقش کم باشد، قبول می‌کنم."
+          "s": "این پیشنهاد خیلی وسوسه‌انگیز است؛ حتی اگر حقوقش کم باشد، قبول می‌کنم.",
+          "why": "«حتی اگر» ← ‎-sa bile؛ olduğu için یعنی «چون»."
         },
         {
           "type": "choice",
@@ -531,15 +553,22 @@
             "çalıştıysa da"
           ],
           "answer": 2,
-          "s": "هرچند خیلی درس خواند، امتحان را قبول نشد."
+          "s": "هرچند خیلی درس خواند، امتحان را قبول نشد.",
+          "why": "برای گذشته‌ی واقعی («هرچند درس خواند») ‎-dıysa da: çalıştıysa da."
         },
         {
           "type": "type",
-          "t": "Yağmur ___ bile yürüyüşe çıkacağız.",
+          "task": "با ‎-sa da یا ‎-sa bile یک جمله بسازید.",
+          "cue": "Faizler yüksek. Yine de kredi çekeceğiz.",
+          "t": "Faizler ___ kredi çekeceğiz.",
           "answer": [
-            "yağsa"
+            "yüksek olsa da",
+            "yüksek olsa bile",
+            "yüksekse de",
+            "yüksekse bile"
           ],
-          "s": "حتی اگر باران ببارد، به پیاده‌روی می‌رویم."
+          "why": "«با اینکه / حتی اگر» ← olsa da / olsa bile (یا yüksekse de).",
+          "s": "با اینکه نرخ بهره بالاست، وام می‌گیریم."
         },
         {
           "type": "type",
@@ -547,7 +576,8 @@
           "answer": [
             "gelmesen"
           ],
-          "s": "حتی اگر تو نیایی، ما می‌رویم."
+          "s": "حتی اگر تو نیایی، ما می‌رویم.",
+          "why": "«حتی اگر تو نیایی» ← منفی + ‎-sa + de: gelmesen de."
         },
         {
           "type": "type",
@@ -555,7 +585,8 @@
           "answer": [
             "olsa"
           ],
-          "s": "حتی اگر گران باشد، این گوشی را می‌خرم."
+          "s": "حتی اگر گران باشد، این گوشی را می‌خرم.",
+          "why": "با صفت، olsa bile می‌آید: pahalı olsa bile («حتی اگر گران باشد»)."
         },
         {
           "type": "order",
@@ -563,9 +594,18 @@
           "s": "حتی اگر ضرر کنیم، تسلیم نمی‌شویم."
         },
         {
-          "type": "order",
-          "t": "Maaşı düşük olsa da işini seviyor.",
-          "s": "با اینکه حقوقش کم است، کارش را دوست دارد."
+          "type": "choice",
+          "task": "کدام پاسخ مناسب است؟",
+          "cue": "Yarın yağmur yağarsa piknik iptal mi?",
+          "t": "___",
+          "options": [
+            "Hayır, yağmur yağsa bile pikniğe gideceğiz.",
+            "Hayır, yağmur yağdığı için pikniğe gideceğiz.",
+            "Hayır, yağmur yağsa bile pikniği iptal edeceğiz."
+          ],
+          "answer": 0,
+          "why": "«حتی اگر ببارد، باز می‌رویم» ← ‎-sa bile؛ نتیجه برخلاف انتظار است.",
+          "s": "نه، حتی اگر باران ببارد، به پیک‌نیک می‌رویم."
         }
       ]
     }
@@ -589,20 +629,20 @@
         "s": "اما برخی کارآفرینان جوان، با اینکه شرایط سخت است، موفق می‌شوند فرصت‌های تازه‌ای خلق کنند."
       },
       {
-        "t": "Bunlardan biri, 29 yaşındaki Elif Kaya.",
-        "s": "یکی از آن‌ها الیف کایای ۲۹ ساله است."
+        "t": "Bunlardan biri, yirmi dokuz yaşındaki Ebru Kaya.",
+        "s": "یکی از آن‌ها ابرو کایای ۲۹ ساله است."
       },
       {
-        "t": "Elif, iki yıl önce bir bankadaki işinden ayrıldı ve Gaziantep'te el yapımı sabun üreten küçük bir şirket kurdu.",
-        "s": "الیف دو سال پیش از کارش در یک بانک کناره گرفت و در غازی‌آنتپ شرکت کوچکی برای تولید صابون دست‌ساز تأسیس کرد."
+        "t": "Ebru, iki yıl önce bir bankadaki işinden ayrıldı ve Gaziantep'te el yapımı sabun üreten küçük bir şirket kurdu.",
+        "s": "ابرو دو سال پیش از کارش در یک بانک کناره گرفت و در غازی‌آنتپ شرکت کوچکی برای تولید صابون دست‌ساز تأسیس کرد."
       },
       {
         "t": "Ürünlerini internet üzerinden yurt dışına satıyor; bu yüzden döviz kuru yükseldikçe kârı da artıyor.",
         "s": "محصولاتش را از طریق اینترنت به خارج می‌فروشد؛ برای همین هرچه نرخ ارز بالاتر می‌رود، سودش هم بیشتر می‌شود."
       },
       {
-        "t": "Elif, “Başlangıçta herkes bu işin tutmayacağını söyledi,” diyor.",
-        "s": "الیف می‌گوید: «اول کار همه گفتند این کار نمی‌گیرد.»"
+        "t": "Ebru, “Başlangıçta herkes bu işin tutmayacağını söyledi,” diyor.",
+        "s": "ابرو می‌گوید: «اول کار همه گفتند این کار نمی‌گیرد.»"
       },
       {
         "t": "“Kredi çekmek zorunda kaldım ve ilk yıl zarar ettim. Ama vazgeçmedim.”",
@@ -617,15 +657,15 @@
         "s": "با این حال کارشناسان هشدار می‌دهند که به دلیل نرخ بالای بهره، ممکن است سرمایه‌گذاری‌های جدید به تعویق بیفتد."
       },
       {
-        "t": "Elif ise geleceğe umutla bakıyor: “Önümüzdeki yıl Avrupa'da bir mağaza açabiliriz.”",
-        "s": "اما الیف با امید به آینده نگاه می‌کند: «شاید سال آینده در اروپا یک فروشگاه باز کنیم.»"
+        "t": "Ebru ise geleceğe umutla bakıyor: “Önümüzdeki yıl Avrupa'da bir mağaza açabiliriz.”",
+        "s": "اما ابرو با امید به آینده نگاه می‌کند: «شاید سال آینده در اروپا یک فروشگاه باز کنیم.»"
       }
     ],
     "questions": [
       {
         "q": {
-          "t": "Elif eskiden nerede çalışıyordu?",
-          "s": "الیف قبلاً کجا کار می‌کرد؟"
+          "t": "Ebru eskiden nerede çalışıyordu?",
+          "s": "ابرو قبلاً کجا کار می‌کرد؟"
         },
         "options": [
           "Bir bankada",
@@ -636,8 +676,8 @@
       },
       {
         "q": {
-          "t": "Elif'in şirketi ne üretiyor?",
-          "s": "شرکت الیف چه تولید می‌کند؟"
+          "t": "Ebru'nun şirketi ne üretiyor?",
+          "s": "شرکت ابرو چه تولید می‌کند؟"
         },
         "options": [
           "Kahve",
@@ -648,8 +688,8 @@
       },
       {
         "q": {
-          "t": "Döviz kuru yükseldikçe Elif'in kârına ne oluyor?",
-          "s": "هرچه نرخ ارز بالاتر می‌رود، سود الیف چه می‌شود؟"
+          "t": "Döviz kuru yükseldikçe Ebru'nun kârına ne oluyor?",
+          "s": "هرچه نرخ ارز بالاتر می‌رود، سود ابرو چه می‌شود؟"
         },
         "options": [
           "Azalıyor",
@@ -669,6 +709,30 @@
           "Sabun fiyatları düşebilir."
         ],
         "answer": 0
+      },
+      {
+        "q": {
+          "t": "Ebru'nun şirketi krizden neden daha az etkileniyor?",
+          "s": "چرا شرکت ابرو کمتر از بحران آسیب می‌بیند؟"
+        },
+        "options": [
+          "Ürünlerini yurt dışına sattığı için",
+          "Hiç kredi çekmediği için",
+          "Devletten destek aldığı için"
+        ],
+        "answer": 0
+      },
+      {
+        "q": {
+          "t": "Metinde “ayakta kalmak” ne anlama geliyor?",
+          "s": "در متن «ayakta kalmak» چه معنایی دارد؟"
+        },
+        "options": [
+          "İşini sürdürebilmek",
+          "Uzun süre ayakta durmak",
+          "Geceleri uyumamak"
+        ],
+        "answer": 0
       }
     ]
   },
@@ -679,7 +743,11 @@
     },
     {
       "t": "Bu yıl benzine yine zam gelebilir.",
-      "s": "ممکن است امسال باز بنزین گران شود."
+      "s": "ممکن است امسال باز بنزین گران شود.",
+      "alts": [
+        "Benzine bu yıl yine zam gelebilir.",
+        "Bu yıl yine benzine zam gelebilir."
+      ]
     },
     {
       "t": "Hava kapanıyor, kar yağacak gibi.",
@@ -687,7 +755,10 @@
     },
     {
       "t": "Anahtarlarımı ofiste unutmuş olmalıyım.",
-      "s": "حتماً کلیدهایم را در دفتر جا گذاشته‌ام."
+      "s": "حتماً کلیدهایم را در دفتر جا گذاشته‌ام.",
+      "alts": [
+        "Ofiste anahtarlarımı unutmuş olmalıyım."
+      ]
     },
     {
       "t": "Zengin olsam bile bu kadar para harcamam.",
@@ -703,7 +774,10 @@
     },
     {
       "t": "Şirket bu yıl ihracatını iki katına çıkardı.",
-      "s": "شرکت امسال صادراتش را دو برابر کرد."
+      "s": "شرکت امسال صادراتش را دو برابر کرد.",
+      "alts": [
+        "Bu yıl şirket ihracatını iki katına çıkardı."
+      ]
     }
   ]
 }

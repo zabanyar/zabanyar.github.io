@@ -35,7 +35,8 @@
       "ex": {
         "t": "Bu romanı bir solukta okudum.",
         "s": "این رمان را یک‌نفس خواندم."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w03",
@@ -71,7 +72,8 @@
       "ex": {
         "t": "En sevdiğin yazar kim?",
         "s": "نویسنده‌ی محبوبت کیست؟"
-      }
+      },
+      "sym": true
     },
     {
       "id": "w06",
@@ -83,7 +85,8 @@
       "ex": {
         "t": "Ressam bu tabloyu iki yılda bitirmiş.",
         "s": "نقاش این تابلو را در دو سال تمام کرده است."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w07",
@@ -119,7 +122,8 @@
       "ex": {
         "t": "Oyuncular sahneye çıkınca salon sessizleşti.",
         "s": "همین که بازیگران روی صحنه آمدند، سالن ساکت شد."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w10",
@@ -131,7 +135,8 @@
       "ex": {
         "t": "Nuri Bilge Ceylan ödüllü bir yönetmendir.",
         "s": "نوری بیلگه جیلان کارگردانی برنده‌ی جایزه است."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w11",
@@ -196,7 +201,10 @@
       "id": "p01",
       "t": "Bu kitabı herkese tavsiye ederim.",
       "s": "این کتاب را به همه توصیه می‌کنم.",
-      "pr": "بو کیتابِ هِرکِسِه تاوسیِه اِدِریم."
+      "pr": "بو کیتابِ هِرکِسِه تاوسیِه اِدِریم.",
+      "alts": [
+        "Herkese bu kitabı tavsiye ederim."
+      ]
     },
     {
       "id": "p02",
@@ -232,7 +240,10 @@
       "id": "p07",
       "t": "Bence oyunculuk harikaydı.",
       "s": "به نظرم بازیگری فوق‌العاده بود.",
-      "pr": "بِنجِه اُیونجولوک هاریکایدِ."
+      "pr": "بِنجِه اُیونجولوک هاریکایدِ.",
+      "alts": [
+        "Oyunculuk bence harikaydı."
+      ]
     },
     {
       "id": "p08",
@@ -265,7 +276,10 @@
       {
         "sp": "B",
         "t": "Sevindim! Hangi bölüm seni en çok etkiledi?",
-        "s": "خوشحال شدم! کدام بخش بیشتر از همه تو را تحت تأثیر قرار داد؟"
+        "s": "خوشحال شدم! کدام بخش بیشتر از همه تو را تحت تأثیر قرار داد؟",
+        "alts": [
+          "Sevindim! Seni en çok hangi bölüm etkiledi?"
+        ]
       },
       {
         "sp": "A",
@@ -275,12 +289,18 @@
       {
         "sp": "B",
         "t": "Ben de o bölümü ilk okuduğumda çok etkilenmiştim.",
-        "s": "من هم اولین بار که آن بخش را خواندم، خیلی تحت تأثیر قرار گرفته بودم."
+        "s": "من هم اولین بار که آن بخش را خواندم، خیلی تحت تأثیر قرار گرفته بودم.",
+        "alts": [
+          "O bölümü ilk okuduğumda ben de çok etkilenmiştim."
+        ]
       },
       {
         "sp": "A",
         "t": "Yazar her şeyi sanki kendisi yaşamışçasına anlatıyor.",
-        "s": "نویسنده همه‌چیز را طوری تعریف می‌کند که انگار خودش تجربه‌اش کرده است."
+        "s": "نویسنده همه‌چیز را طوری تعریف می‌کند که انگار خودش تجربه‌اش کرده است.",
+        "alts": [
+          "Yazar sanki her şeyi kendisi yaşamışçasına anlatıyor."
+        ]
       },
       {
         "sp": "B",
@@ -300,7 +320,10 @@
       {
         "sp": "A",
         "t": "Eyvah! Bence sonunu değiştirmek büyük bir hata.",
-        "s": "ای وای! به نظر من عوض کردن پایان اشتباه بزرگی است."
+        "s": "ای وای! به نظر من عوض کردن پایان اشتباه بزرگی است.",
+        "alts": [
+          "Eyvah! Sonunu değiştirmek bence büyük bir hata."
+        ]
       },
       {
         "sp": "B",
@@ -371,7 +394,8 @@
             "gülümseyarak"
           ],
           "answer": 1,
-          "s": "معلم با لبخند وارد کلاس شد."
+          "s": "معلم با لبخند وارد کلاس شد.",
+          "why": "gülümse- واکه‌ی آخرش e است، پس ‎-yerek: gülümseyerek."
         },
         {
           "type": "choice",
@@ -382,7 +406,8 @@
             "gidıp"
           ],
           "answer": 0,
-          "s": "به فروشگاه رفتم و نان خریدم."
+          "s": "به فروشگاه رفتم و نان خریدم.",
+          "why": "t آخرِ git پیش از واکه d می‌شود: gid-ip."
         },
         {
           "type": "choice",
@@ -393,7 +418,8 @@
             "biliyormuşçasına"
           ],
           "answer": 2,
-          "s": "طوری حرف می‌زند که انگار همه‌چیز را می‌داند."
+          "s": "طوری حرف می‌زند که انگار همه‌چیز را می‌داند.",
+          "why": "‎-casına بعد از ş (بی‌واک) ‎-çasına می‌شود: biliyormuş-çasına."
         },
         {
           "type": "type",
@@ -401,7 +427,8 @@
           "answer": [
             "ağlayarak"
           ],
-          "s": "این رمان را با گریه خواندم."
+          "s": "این رمان را با گریه خواندم.",
+          "why": "شیوه‌ی انجام کار («با گریه») ← ‎-(y)arak: ağla-yarak."
         },
         {
           "type": "type",
@@ -410,24 +437,33 @@
             "çalıp",
             "çalarak"
           ],
-          "s": "در زد و وارد شد."
+          "s": "در زد و وارد شد.",
+          "why": "دو کارِ پشت سر هم ← ‎-ıp: çal-ıp (یا çalarak)."
         },
         {
           "type": "type",
-          "t": "Akşam yemeğini ___ televizyon izledik.",
+          "task": "با ‎-(y)ıp دو جمله را یکی کنید.",
+          "cue": "Akşam çay demledik ve filmi izledik.",
+          "t": "Akşam çay ___ filmi izledik.",
           "answer": [
-            "yiyip",
-            "yiyerek"
+            "demleyip"
           ],
-          "s": "شام را خوردیم و تلویزیون تماشا کردیم."
+          "why": "دو کارِ پشت سر هم ← ‎-(y)ıp؛ بعد از واکه y می‌آید: demle-yip.",
+          "s": "عصر چای دم کردیم و فیلم را تماشا کردیم."
         },
         {
-          "type": "order",
-          "t": "Kitabı alıp hemen okumaya başladım.",
-          "s": "کتاب را خریدم و فوراً شروع به خواندنش کردم.",
-          "alts": [
-            "Kitabı alıp okumaya hemen başladım."
-          ]
+          "type": "choice",
+          "task": "کدام پاسخ مناسب است؟",
+          "cue": "Türkçeyi nasıl bu kadar iyi öğrendin?",
+          "t": "___",
+          "options": [
+            "Her gün Türk dizileri izleyerek öğrendim.",
+            "Her gün Türk dizileri izlemeyerek öğrendim.",
+            "Her gün Türk dizileri izlercesine öğrendim."
+          ],
+          "answer": 0,
+          "why": "وسیله یا شیوه‌ی کار («با دیدن») ← ‎-(y)arak: izleyerek.",
+          "s": "با دیدن هرروزه‌ی سریال‌های ترکی یاد گرفتم."
         },
         {
           "type": "order",
@@ -446,7 +482,7 @@
         "t": "-dığında, -(y)ınca, -dığı zaman",
         "s": "سه شکل «وقتی که»"
       },
-      "explain": "هر سه ساخت را در فارسی معمولاً «وقتی (که)…» ترجمه می‌کنیم، اما رنگ معنایی‌شان کمی فرق دارد.\n**-dığında / -dığı zaman** (ریشه + -dık + پسوند ملکی): «در زمانی که»؛ خنثی‌ترین شکل است و برای **همزمانی** دو رویداد بسیار مناسب است: Eve gel**diğimde** annem uyuyordu = وقتی به خانه رسیدم، مادرم خواب بود. پسوند ملکی فاعل را نشان می‌دهد: gel**diğimde**، gel**diğinde**، gel**diğimiz zaman**. -dığında در نوشتار رایج‌تر است و -dığı zaman کمی گفتاری‌تر. برای آینده: **-(y)acağı zaman**.\n**-(y)ınca / -(y)ince / -(y)unca / -(y)ünce**: «همین که، پس از اینکه»؛ تأکیدش بر این است که کار دوم **بعد از** کار اول یا **در نتیجه‌ی** آن رخ می‌دهد: Yağmur yağ**ınca** sokaklar boşaldı = همین که باران آمد، خیابان‌ها خالی شد. پسوند ملکی **نمی‌گیرد** و برای همه‌ی اشخاص یکسان است: Sen gel**ince** başlarız.\nبرای کارهای تکراری («هر وقت که») هر دو ممکن است: Canım sıkıl**dığında** / sıkıl**ınca** şiir okurum.",
+      "explain": "در B1 (u02) ‎-(y)ınca و ‎-ken را دیدیم؛ این‌جا ‎-dığında و ‎-dığı zaman را اضافه می‌کنیم و فرقشان را با ‎-(y)ınca می‌بینیم.\nهر سه ساخت را در فارسی معمولاً «وقتی (که)…» ترجمه می‌کنیم، اما رنگ معنایی‌شان کمی فرق دارد.\n**-dığında / -dığı zaman** (ریشه + -dık + پسوند ملکی): «در زمانی که»؛ خنثی‌ترین شکل است و برای **همزمانی** دو رویداد بسیار مناسب است: Eve gel**diğimde** annem uyuyordu = وقتی به خانه رسیدم، مادرم خواب بود. پسوند ملکی فاعل را نشان می‌دهد: gel**diğimde**، gel**diğinde**، gel**diğimiz zaman**. -dığında در نوشتار رایج‌تر است و -dığı zaman کمی گفتاری‌تر. برای آینده: **-(y)acağı zaman**.\n**-(y)ınca / -(y)ince / -(y)unca / -(y)ünce**: «همین که، پس از اینکه»؛ تأکیدش بر این است که کار دوم **بعد از** کار اول یا **در نتیجه‌ی** آن رخ می‌دهد: Yağmur yağ**ınca** sokaklar boşaldı = همین که باران آمد، خیابان‌ها خالی شد. پسوند ملکی **نمی‌گیرد** و برای همه‌ی اشخاص یکسان است: Sen gel**ince** başlarız.\nبرای کارهای تکراری («هر وقت که») هر دو ممکن است: Canım sıkıl**dığında** / sıkıl**ınca** şiir okurum.",
       "table": [
         [
           "ben",
@@ -511,7 +547,8 @@
             "gelincem"
           ],
           "answer": 1,
-          "s": "وقتی به خانه رسیدم، همه خواب بودند."
+          "s": "وقتی به خانه رسیدم، همه خواب بودند.",
+          "why": "فاعل «ben» است، پس پسوند ملکی ‎-im: geldiğimde."
         },
         {
           "type": "choice",
@@ -522,7 +559,8 @@
             "varıncamız"
           ],
           "answer": 0,
-          "s": "وقتی به سینما رسیدیم، فیلم شروع شده بود."
+          "s": "وقتی به سینما رسیدیم، فیلم شروع شده بود.",
+          "why": "فاعل «biz» است: var-dığ-ımız-da."
         },
         {
           "type": "choice",
@@ -533,17 +571,20 @@
             "bitince"
           ],
           "answer": 2,
-          "s": "همین که کنسرت تمام شد، همه بلند شدند و دست زدند."
+          "s": "همین که کنسرت تمام شد، همه بلند شدند و دست زدند.",
+          "why": "‎-(y)ınca پسوند ملکی نمی‌گیرد: bit-ince («همین که تمام شد»)."
         },
         {
           "type": "type",
-          "t": "Telefon ___ hemen açtım.",
+          "task": "با ‎-(y)ınca یک جمله بسازید.",
+          "cue": "Annem romanı bitirdi ve hemen bana verdi.",
+          "t": "Annem romanı ___ bana verdi.",
           "answer": [
-            "çalınca",
-            "çaldığında",
-            "çaldığı zaman"
+            "bitirince",
+            "bitirince hemen"
           ],
-          "s": "همین که تلفن زنگ زد، فوراً جواب دادم."
+          "why": "«همین که / پس از اینکه» ← ‎-(y)ınca؛ پسوند ملکی نمی‌گیرد: bitirince.",
+          "s": "مادرم همین که رمان را تمام کرد، آن را به من داد."
         },
         {
           "type": "type",
@@ -553,7 +594,8 @@
             "geldiğinde",
             "geldiğin zaman"
           ],
-          "s": "وقتی تو آمدی، غذا خوردن را شروع می‌کنیم."
+          "s": "وقتی تو آمدی، غذا خوردن را شروع می‌کنیم.",
+          "why": "‎-(y)ınca برای همه‌ی اشخاص یکسان است؛ با ‎-dığında برای «تو»: geldiğinde."
         },
         {
           "type": "type",
@@ -563,12 +605,22 @@
             "gelince",
             "geldikleri zaman"
           ],
-          "s": "وقتی به ترکیه آمدند، به ما خبر بدهند."
+          "s": "وقتی به ترکیه آمدند، به ما خبر بدهند.",
+          "why": "فاعل «onlar» است: gel-dik-leri-nde (یا gelince)."
         },
         {
-          "type": "order",
-          "t": "Müzeye vardığımızda kapılar kapanmıştı.",
-          "s": "وقتی به موزه رسیدیم، درها بسته شده بود."
+          "type": "choice",
+          "task": "کدام پاسخ مناسب است؟",
+          "cue": "Dün akşam neden telefonu açmadın?",
+          "t": "___",
+          "options": [
+            "Sen aradığında duştaydım.",
+            "Sen aradığımda duştaydım.",
+            "Sen arayıncan duştaydım."
+          ],
+          "answer": 0,
+          "why": "فاعلِ «زنگ زدن» «تو» است: ara-dığ-ın-da؛ ‎-(y)ınca پسوند شخص نمی‌گیرد.",
+          "s": "وقتی زنگ زدی، زیر دوش بودم."
         },
         {
           "type": "order",
@@ -585,7 +637,7 @@
     },
     "text": [
       {
-        "t": "Genel kabule göre Mevlânâ Celâleddin Rûmî, 1207 yılında Belh şehrinde doğdu.",
+        "t": "Genel kabule göre Mevlânâ Celâleddin Rûmî, bin iki yüz yedi yılında Belh şehrinde doğdu.",
         "s": "بنا بر روایت مشهور، مولانا جلال‌الدین رومی در سال ۱۲۰۷ میلادی در شهر بلخ به دنیا آمد."
       },
       {
@@ -601,7 +653,7 @@
         "s": "پس از درگذشت پدرش، مولانای جوان به جای او شروع به درس دادن کرد."
       },
       {
-        "t": "1244'te Şems-i Tebrizî ile tanıştığında hayatı tamamen değişti.",
+        "t": "Bin iki yüz kırk dört yılında Şems-i Tebrizî ile tanıştığında hayatı tamamen değişti.",
         "s": "در سال ۱۲۴۴، وقتی با شمس تبریزی آشنا شد، زندگی‌اش به‌کلی دگرگون شد."
       },
       {
@@ -673,6 +725,18 @@
           "Uzun bir yolculuğa çıktı"
         ],
         "answer": 1
+      },
+      {
+        "q": {
+          "t": "Mevlânâ'nın eserleri neden bugün hâlâ dünyanın her yerinde okunuyor olabilir?",
+          "s": "چرا آثار مولانا احتمالاً هنوز در سراسر جهان خوانده می‌شود؟"
+        },
+        "options": [
+          "Herkesi ilgilendiren insan sevgisi ve hoşgörü gibi konuları anlattığı için",
+          "Sadece Türkçe yazıldığı için",
+          "Çok kısa ve kolay olduğu için"
+        ],
+        "answer": 0
       }
     ]
   },

@@ -46,7 +46,8 @@
       "ex": {
         "t": "Önce aile hekiminize gitmeniz gerekiyor.",
         "s": "اول باید پیش پزشک خانواده‌تان بروید."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w04",
@@ -62,13 +63,13 @@
     },
     {
       "id": "w05",
-      "t": "muayene",
-      "s": "معاینه",
-      "pr": "موآیِنِه",
+      "t": "yoğun bakım",
+      "s": "بخش مراقبت‌های ویژه (آی‌سی‌یو)",
+      "pr": "یُئون باکِم",
       "emoji": "",
       "ex": {
-        "t": "Doktor muayeneden sonra bazı tahliller istedi.",
-        "s": "دکتر بعد از معاینه چند آزمایش خواست."
+        "t": "Babam ameliyattan sonra iki gün yoğun bakımda kaldı.",
+        "s": "پدرم بعد از عمل دو روز در بخش مراقبت‌های ویژه ماند."
       }
     },
     {
@@ -103,7 +104,8 @@
       "ex": {
         "t": "Gece ateşi yükselince onu acil servise götürdük.",
         "s": "شب وقتی تبش بالا رفت، او را به اورژانس بردیم."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w09",
@@ -148,7 +150,8 @@
       "ex": {
         "t": "Bazı bölümlerde bekleme süresi haftaları buluyor.",
         "s": "در بعضی بخش‌ها مدت انتظار به چند هفته می‌رسد."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w13",
@@ -189,15 +192,15 @@
   "phrases": [
     {
       "id": "p01",
-      "t": "Geçmiş olsun!",
-      "s": "بلا دور باشد! / ان‌شاءالله زود خوب شوی!",
-      "pr": "گِچمیش اُلسون!"
+      "t": "Sizi uzman doktora sevk ediyorum.",
+      "s": "شما را به پزشک متخصص ارجاع می‌دهم.",
+      "pr": "سیزی اوزمان دُکتُرا سِوک اِدیُروم."
     },
     {
       "id": "p02",
-      "t": "Randevu almak istiyorum.",
-      "s": "می‌خواهم نوبت بگیرم.",
-      "pr": "راندِوو آلماک ایستیُروم."
+      "t": "Sigortam bu tedaviyi karşılıyor mu?",
+      "s": "بیمه‌ام هزینه‌ی این درمان را پوشش می‌دهد؟",
+      "pr": "سیگُرتام بو تِداوی‌یی کارشِلِیُر مو؟"
     },
     {
       "id": "p03",
@@ -209,13 +212,19 @@
       "id": "p04",
       "t": "Üç gündür başım ağrıyor.",
       "s": "سه روز است سرم درد می‌کند.",
-      "pr": "اوچ گوندور باشِم آارِیُر."
+      "pr": "اوچ گوندور باشِم آارِیُر.",
+      "alts": [
+        "Başım üç gündür ağrıyor."
+      ]
     },
     {
       "id": "p05",
       "t": "İlacı günde iki kez, tok karnına alın.",
       "s": "دارو را روزی دو بار، بعد از غذا مصرف کنید.",
-      "pr": "ایلاجِ گوندِه ایکی کِز، تُک کارنِنا آلِن."
+      "pr": "ایلاجِ گوندِه ایکی کِز، تُک کارنِنا آلِن.",
+      "alts": [
+        "İlacı tok karnına, günde iki kez alın."
+      ]
     },
     {
       "id": "p06",
@@ -316,7 +325,7 @@
         "t": "Bilseydim söylerdim.",
         "s": "شرط غیرواقعی: -saydı و -mış olsaydı"
       },
-      "explain": "وقتی درباره‌ی چیزی حرف می‌زنیم که **واقعی نیست یا اتفاق نیفتاده**، از شرط غیرواقعی استفاده می‌کنیم. فعل جمله‌ی اصلی معمولاً با **-(ı)rdı / -(a)rdı** می‌آید: gelirdim، alırdık، olmazdı.\n**-sa … -ırdı**: فرض درباره‌ی حال یا آینده: Param **olsa** bu evi **alırdım**. = اگر پول داشتم، این خانه را می‌خریدم (ولی ندارم).\n**-saydı / -seydi** (= -sa + idi): غیرواقعی درباره‌ی **گذشته**: Erken **gelseydin** treni **kaçırmazdık**. = اگر زود آمده بودی، قطار را از دست نمی‌دادیم. در عمل **-saydı** برای حالِ غیرواقعی هم بسیار رایج است: Sigortam **olsaydı** bu kadar para ödemezdim. = اگر بیمه داشتم، این‌قدر پول نمی‌دادم.\n**-mış olsaydı**: تمام‌شدن کار در گذشته را پررنگ‌تر می‌کند و در زبان رسمی رایج است: Hastalık erken **teşhis edilmiş olsaydı** tedavi daha kolay **olurdu**. جمله‌ی اصلی هم می‌تواند **-mış olurdu** باشد: Biraz daha bekleseydik doktor **gitmiş olurdu**.\nپسوندهای شخص: gelse**ydim**، gelse**ydin**، gelse**ydi**، gelse**ydik**، gelse**ydiniz**، gelse**ydiler**.\nبا **keşke** برای حسرت هم به کار می‌رود: **Keşke** daha önce **gitseydim**. = کاش زودتر رفته بودم.\nدر فارسی این ساخت‌ها معمولاً با «اگر … بودم / کرده بودم، … می‌کردم» ترجمه می‌شوند.",
+      "explain": "در B1 (u10) آرزو با keşke + ‎-sa و شرط واقعی با ‎-sa را دیدیم؛ این‌جا شرط و حسرت درباره‌ی چیزی که نشده را با ‎-saydı و ‎-mış olsaydı می‌سازیم.\nوقتی درباره‌ی چیزی حرف می‌زنیم که **واقعی نیست یا اتفاق نیفتاده**، از شرط غیرواقعی استفاده می‌کنیم. فعل جمله‌ی اصلی معمولاً با **-(ı)rdı / -(a)rdı** می‌آید: gelirdim، alırdık، olmazdı.\n**-sa … -ırdı**: فرض درباره‌ی حال یا آینده: Param **olsa** bu evi **alırdım**. = اگر پول داشتم، این خانه را می‌خریدم (ولی ندارم).\n**-saydı / -seydi** (= -sa + idi): غیرواقعی درباره‌ی **گذشته**: Erken **gelseydin** treni **kaçırmazdık**. = اگر زود آمده بودی، قطار را از دست نمی‌دادیم. در عمل **-saydı** برای حالِ غیرواقعی هم بسیار رایج است: Sigortam **olsaydı** bu kadar para ödemezdim. = اگر بیمه داشتم، این‌قدر پول نمی‌دادم.\n**-mış olsaydı**: تمام‌شدن کار در گذشته را پررنگ‌تر می‌کند و در زبان رسمی رایج است: Hastalık erken **teşhis edilmiş olsaydı** tedavi daha kolay **olurdu**. جمله‌ی اصلی هم می‌تواند **-mış olurdu** باشد: Biraz daha bekleseydik doktor **gitmiş olurdu**.\nپسوندهای شخص: gelse**ydim**، gelse**ydin**، gelse**ydi**، gelse**ydik**، gelse**ydiniz**، gelse**ydiler**.\nبا **keşke** برای حسرت هم به کار می‌رود: **Keşke** daha önce **gitseydim**. = کاش زودتر رفته بودم.\nدر فارسی این ساخت‌ها معمولاً با «اگر … بودم / کرده بودم، … می‌کردم» ترجمه می‌شوند.",
       "table": [
         [
           "-sa … -ırdı",
@@ -371,18 +380,21 @@
             "çıkıyorduk"
           ],
           "answer": 0,
-          "s": "اگر زودتر راه افتاده بودیم، قطار را از دست نمی‌دادیم."
+          "s": "اگر زودتر راه افتاده بودیم، قطار را از دست نمی‌دادیم.",
+          "why": "شرطِ غیرواقعی درباره‌ی گذشته ← ‎-saydı؛ نتیجه با ‎-mazdı: çıksaydık … kaçırmazdık."
         },
         {
-          "type": "choice",
-          "t": "Param olsa yeni bir araba ___.",
-          "options": [
-            "alacağım",
-            "alırdım",
-            "aldım"
+          "type": "type",
+          "task": "با ‎-saydı یک جمله‌ی شرطیِ غیرواقعی بسازید.",
+          "cue": "Sigortamız yoktu, bu yüzden çok para ödedik.",
+          "t": "Sigortamız ___ bu kadar para ödemezdik.",
+          "answer": [
+            "olsaydı",
+            "olmuş olsaydı",
+            "olsa"
           ],
-          "answer": 1,
-          "s": "اگر پول داشتم، یک ماشین نو می‌خریدم."
+          "why": "برعکسِ واقعیتِ گذشته: yoktu ← olsaydı؛ نتیجه‌ی منفی با ‎-mazdı.",
+          "s": "اگر بیمه داشتیم، این‌قدر پول نمی‌دادیم."
         },
         {
           "type": "choice",
@@ -393,7 +405,8 @@
             "dinleseydim"
           ],
           "answer": 2,
-          "s": "کاش به حرف دکتر گوش داده بودم."
+          "s": "کاش به حرف دکتر گوش داده بودم.",
+          "why": "حسرت درباره‌ی گذشته ← keşke + ‎-saydı: dinleseydim."
         },
         {
           "type": "choice",
@@ -404,7 +417,8 @@
             "edildi"
           ],
           "answer": 0,
-          "s": "اگر بیماری زود تشخیص داده شده بود، درمان آسان‌تر می‌شد."
+          "s": "اگر بیماری زود تشخیص داده شده بود، درمان آسان‌تر می‌شد.",
+          "why": "‎-mış olsaydı برای مجهول در گذشته: teşhis edilmiş olsaydı («اگر تشخیص داده شده بود»)."
         },
         {
           "type": "type",
@@ -413,16 +427,22 @@
             "söylerdim",
             "derdim"
           ],
-          "s": "اگر می‌دانستم، به تو می‌گفتم."
+          "s": "اگر می‌دانستم، به تو می‌گفتم.",
+          "why": "نتیجه‌ی شرطِ غیرواقعی با ‎-ırdı می‌آید: söylerdim / derdim."
         },
         {
-          "type": "type",
-          "t": "Sigortamız ___ özel hastaneye giderdik.",
-          "answer": [
-            "olsaydı",
-            "olsa"
+          "type": "choice",
+          "task": "کدام پاسخ مناسب است؟",
+          "cue": "Toplantıya neden gelmedin? Çok önemliydi.",
+          "t": "___",
+          "options": [
+            "Bilseydim mutlaka gelirdim.",
+            "Bilirsem mutlaka gelirim.",
+            "Bildiğim için mutlaka geldim."
           ],
-          "s": "اگر بیمه داشتیم، به بیمارستان خصوصی می‌رفتیم."
+          "answer": 0,
+          "why": "حسرت درباره‌ی گذشته‌ای که نشد ← ‎-saydı … ‎-ırdı: bilseydim gelirdim.",
+          "s": "اگر می‌دانستم، حتماً می‌آمدم."
         },
         {
           "type": "type",
@@ -434,7 +454,8 @@
             "yaptırsaydın",
             "yaptırmış olsaydın"
           ],
-          "s": "اگر به‌موقع واکسن زده بودی، مریض نمی‌شدی."
+          "s": "اگر به‌موقع واکسن زده بودی، مریض نمی‌شدی.",
+          "why": "شرطِ غیرواقعی درباره‌ی گذشته با فاعل «تو»: aşı olsaydın («اگر واکسن زده بودی»)."
         },
         {
           "type": "order",
@@ -503,7 +524,8 @@
             "için"
           ],
           "answer": 1,
-          "s": "طوری از کنارم رد شد و رفت که انگار صدایم را نشنیده."
+          "s": "طوری از کنارم رد شد و رفت که انگار صدایم را نشنیده.",
+          "why": "«انگار که» ← ‎-mış + gibi: duymamış gibi."
         },
         {
           "type": "choice",
@@ -514,7 +536,8 @@
             "çalışsaymış"
           ],
           "answer": 0,
-          "s": "وانمود کرد دارد درس می‌خواند، ولی در واقع بازی می‌کرد."
+          "s": "وانمود کرد دارد درس می‌خواند، ولی در واقع بازی می‌کرد.",
+          "why": "«وانمود کرد دارد …» ← ‎-(ı)yormuş gibi yapmak: çalışıyormuş gibi."
         },
         {
           "type": "choice",
@@ -525,15 +548,20 @@
             "hastaymiş"
           ],
           "answer": 1,
-          "s": "برای اینکه سر کار نرود، خودش را به مریضی زد."
+          "s": "برای اینکه سر کار نرود، خودش را به مریضی زد.",
+          "why": "بعد از اسم یا صفتِ مختوم به واکه ‎-ymış می‌آید: hastaymış gibi."
         },
         {
           "type": "type",
-          "t": "Hiçbir şey ___ gibi davranıyor.",
+          "task": "با ‎-mış gibi بازنویسی کنید.",
+          "cue": "Babam şimdi bahçede çalışıyor; sanki hiç hasta olmamış.",
+          "t": "Babam şimdi hiç hasta ___ bahçede çalışıyor.",
           "answer": [
-            "olmamış"
+            "olmamış gibi",
+            "olmamışçasına"
           ],
-          "s": "طوری رفتار می‌کند که انگار هیچ اتفاقی نیفتاده."
+          "why": "«انگار اصلاً مریض نبوده» ← ‎-mamış gibi: olmamış gibi.",
+          "s": "پدرم حالا طوری در باغچه کار می‌کند که انگار اصلاً مریض نبوده."
         },
         {
           "type": "type",
@@ -542,7 +570,8 @@
             "tanıyormuş",
             "tanırmış"
           ],
-          "s": "طوری بغلمان کرد که انگار سال‌هاست ما را می‌شناسد."
+          "s": "طوری بغلمان کرد که انگار سال‌هاست ما را می‌شناسد.",
+          "why": "حالتِ ادامه‌دار («سال‌هاست می‌شناسد») ← ‎-(ı)yormuş gibi (یا ‎-ırmış gibi)."
         },
         {
           "type": "type",
@@ -551,7 +580,8 @@
             "anlamış",
             "anlıyormuş"
           ],
-          "s": "با اینکه هیچ نفهمیده بود، طوری سر تکان داد که انگار همه‌چیز را فهمیده."
+          "s": "با اینکه هیچ نفهمیده بود، طوری سر تکان داد که انگار همه‌چیز را فهمیده.",
+          "why": "«انگار فهمیده» ← anlamış gibi (یا anlıyormuş gibi)."
         },
         {
           "type": "order",
@@ -559,9 +589,18 @@
           "s": "طوری رفتار کرد که انگار اصلاً مرا نمی‌شناسد."
         },
         {
-          "type": "order",
-          "t": "Kendimi yeniden doğmuş gibi hissediyorum.",
-          "s": "احساس می‌کنم انگار دوباره متولد شده‌ام."
+          "type": "choice",
+          "task": "کدام پاسخ مناسب است؟",
+          "cue": "Toplantıda Can seni dinledi mi?",
+          "t": "___",
+          "options": [
+            "Hayır, dinliyormuş gibi yaptı ama telefonuyla oynuyordu.",
+            "Hayır, dinlemiş gibi dinledi.",
+            "Evet, dinlemiyormuş gibi dikkatle dinledi."
+          ],
+          "answer": 0,
+          "why": "«وانمود کرد گوش می‌دهد» ← ‎-(ı)yormuş gibi yapmak.",
+          "s": "نه، وانمود کرد گوش می‌دهد، ولی با گوشی‌اش بازی می‌کرد."
         }
       ]
     }
@@ -577,8 +616,8 @@
         "s": "من مینا هستم و دو سال است با خانواده‌ام در استانبول زندگی می‌کنم."
       },
       {
-        "t": "İstanbul'a taşındığımız ilk kış oğlum Amir ağır bir grip geçirdi.",
-        "s": "اولین زمستانی که به استانبول آمدیم، پسرم امیر آنفولانزای شدیدی گرفت."
+        "t": "İstanbul'a taşındığımız ilk kış kızım Nazanin ağır bir grip geçirdi.",
+        "s": "اولین زمستانی که به استانبول آمدیم، دخترم نازنین آنفولانزای شدیدی گرفت."
       },
       {
         "t": "Türk sağlık sistemini hiç bilmediğim için ne yapacağımı şaşırmıştım.",
@@ -589,8 +628,8 @@
         "s": "یکی از همسایه‌هایم گفت که اول باید پیش پزشک خانواده بروم."
       },
       {
-        "t": "Aile hekimimiz Amir'i dikkatle muayene etti, bir reçete yazdı ve uzman doktora gerek olmadığını söyledi.",
-        "s": "پزشک خانواده‌مان امیر را با دقت معاینه کرد، نسخه‌ای نوشت و گفت که نیازی به پزشک متخصص نیست."
+        "t": "Aile hekimimiz Nazanin'i dikkatle muayene etti, bir reçete yazdı ve uzman doktora gerek olmadığını söyledi.",
+        "s": "پزشک خانواده‌مان نازنین را با دقت معاینه کرد، نسخه‌ای نوشت و گفت که نیازی به پزشک متخصص نیست."
       },
       {
         "t": "Muayene için hiçbir ücret ödemedik, çünkü genel sağlık sigortamız vardı.",
@@ -624,8 +663,8 @@
     "questions": [
       {
         "q": {
-          "t": "Amir neden doktora gitti?",
-          "s": "امیر چرا پیش دکتر رفت؟"
+          "t": "Nazanin neden doktora gitti?",
+          "s": "نازنین چرا پیش دکتر رفت؟"
         },
         "options": [
           "Ağır bir grip geçirdiği için",
@@ -669,6 +708,18 @@
           "Yüksek ilaç fiyatları"
         ],
         "answer": 1
+      },
+      {
+        "q": {
+          "t": "Mina sonunda neden devlet hastanesinde beklemeye karar verdi?",
+          "s": "مینا چرا در نهایت تصمیم گرفت در بیمارستان دولتی منتظر بماند؟"
+        },
+        "options": [
+          "Özel hastanenin ücreti yüksek olduğu için",
+          "Göz doktorunu önceden tanıdığı için",
+          "Gözü artık hiç ağrımadığı için"
+        ],
+        "answer": 0
       }
     ]
   },
@@ -691,7 +742,10 @@
     },
     {
       "t": "Hiçbir şey olmamış gibi işine devam etti.",
-      "s": "طوری به کارش ادامه داد که انگار هیچ اتفاقی نیفتاده."
+      "s": "طوری به کارش ادامه داد که انگار هیچ اتفاقی نیفتاده.",
+      "alts": [
+        "İşine hiçbir şey olmamış gibi devam etti."
+      ]
     },
     {
       "t": "Bu ilaç sadece reçeteyle satılıyor.",

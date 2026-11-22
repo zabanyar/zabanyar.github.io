@@ -23,7 +23,8 @@
       "ex": {
         "t": "Belediyeye bir dilekçe yazmam gerekiyor.",
         "s": "باید یک درخواست‌نامه به شهرداری بنویسم."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w02",
@@ -59,7 +60,8 @@
       "ex": {
         "t": "Özgeçmişimi ekte gönderiyorum.",
         "s": "رزومه‌ام را پیوست می‌فرستم."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w05",
@@ -117,7 +119,8 @@
       "ex": {
         "t": "Kaydınız için müdürün onayı gerekiyor.",
         "s": "برای ثبت‌نام شما تأیید مدیر لازم است."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w10",
@@ -137,8 +140,8 @@
       "pr": "سایگِلارِملا",
       "emoji": "",
       "ex": {
-        "t": "Saygılarımla, Ali Ahmadi",
-        "s": "با احترام، علی احمدی"
+        "t": "Saygılarımla, Ali Karimi",
+        "s": "با احترام، علی کریمی"
       }
     },
     {
@@ -150,7 +153,8 @@
       "ex": {
         "t": "Sizden bir konuda yardım rica ediyorum.",
         "s": "در موضوعی از شما تقاضای کمک دارم."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w13",
@@ -173,7 +177,8 @@
       "ex": {
         "t": "Yaşanan gecikme için özür dileriz.",
         "s": "بابت تأخیر پیش‌آمده عذر می‌خواهیم."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w15",
@@ -204,7 +209,10 @@
       "id": "p03",
       "t": "Mümkünse yarın görüşebilir miyiz?",
       "s": "اگر امکانش هست، می‌توانیم فردا با هم صحبت کنیم؟",
-      "pr": "مومکونسِه یارِن گُروشِبیلیر مییز؟"
+      "pr": "مومکونسِه یارِن گُروشِبیلیر می‌ییز؟",
+      "alts": [
+        "Yarın mümkünse görüşebilir miyiz?"
+      ]
     },
     {
       "id": "p04",
@@ -248,7 +256,7 @@
         "voice": "f"
       },
       "B": {
-        "name": "Can",
+        "name": "Görevli",
         "voice": "m"
       }
     },
@@ -281,7 +289,10 @@
       {
         "sp": "A",
         "t": "Öyle mi? Tercümeyi bugün göndersem olur mu?",
-        "s": "واقعاً؟ اگر ترجمه را امروز بفرستم، اشکالی ندارد؟"
+        "s": "واقعاً؟ اگر ترجمه را امروز بفرستم، اشکالی ندارد؟",
+        "alts": [
+          "Öyle mi? Bugün tercümeyi göndersem olur mu?"
+        ]
       },
       {
         "sp": "B",
@@ -325,24 +336,24 @@
       "explain": "ترکی برای درخواست مؤدبانه چند ابزار دارد؛ از ساده تا خیلی رسمی:\n**-(ı)r mısınız?** (با زمان حال ساده) و **-(y)abilir misiniz?** (می‌توانید…؟): Kapıyı aç**ar mısınız?** / Kapıyı aç**abilir misiniz?** = ممکن است در را باز کنید؟ برای اجازه گرفتن: Bir soru sor**abilir miyim?**\n**-sa / -se** (شرطی) درخواست را نرم‌تر و محتاطانه‌تر می‌کند: Bana yardım ed**ebilirseniz** çok sevinirim = اگر بتوانید کمکم کنید، خیلی خوشحال می‌شوم. برای اجازه: Yarın gel**sem** olur mu? = اگر فردا بیایم، اشکالی دارد؟\n**rica etmek** (خواهش کردن) رسمی‌ترین شکل است و در نامه و ایمیل زیاد می‌آید؛ معمولاً با اسم‌مصدر **-ma + پسوند ملکی + مفعولی**: Belgeleri gönder**menizi rica ederim** = خواهشمندم مدارک را بفرستید.\nمعادل‌های فارسی: «ممکن است…؟»، «اگر لطف کنید…»، «خواهشمندم…».",
       "table": [
         [
-          "Kapıyı açar mısınız?",
-          "-(ı)r mısınız?"
+          "-(ı)r mısınız?",
+          "Kapıyı açar mısınız?"
         ],
         [
-          "Kapıyı açabilir misiniz?",
-          "-(y)abilir misiniz?"
+          "-(y)abilir misiniz?",
+          "Kapıyı açabilir misiniz?"
         ],
         [
-          "Kapıyı açabilirseniz sevinirim.",
-          "-(y)abilirseniz"
+          "-(y)abilirseniz",
+          "Kapıyı açabilirseniz sevinirim."
         ],
         [
-          "Kapıyı açmanızı rica ederim.",
-          "-manızı rica ederim"
+          "-manızı rica ederim",
+          "Kapıyı açmanızı rica ederim."
         ],
         [
-          "Kapıyı açsam olur mu?",
-          "-sam olur mu?"
+          "-sam olur mu?",
+          "Kapıyı açsam olur mu?"
         ]
       ],
       "examples": [
@@ -377,7 +388,8 @@
             "sorabilir misin miyim"
           ],
           "answer": 1,
-          "s": "ممکن است یک سؤال بپرسم؟"
+          "s": "ممکن است یک سؤال بپرسم؟",
+          "why": "اجازه‌ی مؤدبانه برای «من»: sor-abilir + miyim (ادات پرسشیِ جدا)."
         },
         {
           "type": "choice",
@@ -388,7 +400,8 @@
             "göndermeniz"
           ],
           "answer": 0,
-          "s": "خواهشمندم مدارک را تا جمعه بفرستید."
+          "s": "خواهشمندم مدارک را تا جمعه بفرستید.",
+          "why": "rica etmek مفعول با ‎-manızı می‌خواهد: gönder-me-niz-i rica ederim."
         },
         {
           "type": "choice",
@@ -399,7 +412,8 @@
             "verebilirseniz"
           ],
           "answer": 2,
-          "s": "اگر بتوانید به من اطلاعات بدهید، خیلی خوشحال می‌شوم."
+          "s": "اگر بتوانید به من اطلاعات بدهید، خیلی خوشحال می‌شوم.",
+          "why": "«اگر بتوانید … خوشحال می‌شوم» ← ‎-(y)abilirseniz: verebilirseniz."
         },
         {
           "type": "type",
@@ -407,7 +421,8 @@
           "answer": [
             "konuşur"
           ],
-          "s": "ممکن است کمی آهسته‌تر صحبت کنید؟"
+          "s": "ممکن است کمی آهسته‌تر صحبت کنید؟",
+          "why": "درخواستِ مؤدبانه با مضارع ساده: konuşur musunuz?"
         },
         {
           "type": "type",
@@ -416,15 +431,20 @@
             "gelsem",
             "kalsam"
           ],
-          "s": "اگر فردا کمی دیر بیایم، اشکالی دارد؟"
+          "s": "اگر فردا کمی دیر بیایم، اشکالی دارد؟",
+          "why": "اجازه گرفتن با ‎-sam olur mu?: gelsem / kalsam olur mu?"
         },
         {
           "type": "type",
-          "t": "Ekteki formu ___ rica ederiz.",
+          "task": "با ‎-(y)abilir misiniz مؤدبانه بپرسید.",
+          "cue": "Belgeleri yarına kadar gönderin.",
+          "t": "Belgeleri yarına kadar ___?",
           "answer": [
-            "doldurmanızı"
+            "gönderebilir misiniz",
+            "yollayabilir misiniz"
           ],
-          "s": "خواهشمندیم فرم پیوست را پر کنید."
+          "why": "درخواستِ مؤدبانه از «شما»: gönder-ebilir + misiniz.",
+          "s": "ممکن است مدارک را تا فردا بفرستید؟"
         },
         {
           "type": "order",
@@ -435,9 +455,18 @@
           ]
         },
         {
-          "type": "order",
-          "t": "Belgeleri göndermenizi rica ederim.",
-          "s": "خواهشمندم مدارک را بفرستید."
+          "type": "choice",
+          "task": "کدام جمله مناسب است؟",
+          "cue": "Üniversitedeki bir yetkiliye ilk kez e-posta yazıyorsunuz.",
+          "t": "___",
+          "options": [
+            "Kayıt tarihleri hakkında bilgi verebilirseniz çok sevinirim.",
+            "Bana hemen kayıt tarihlerini söyle.",
+            "Kayıt tarihleri ne zaman, hadi yaz bakalım."
+          ],
+          "answer": 0,
+          "why": "در نامه به یک مسئول، شکلِ مؤدبانه با «شما» لازم است: verebilirseniz sevinirim.",
+          "s": "اگر بتوانید درباره‌ی تاریخ‌های ثبت‌نام اطلاعات بدهید، بسیار خوشحال می‌شوم."
         }
       ]
     },
@@ -512,7 +541,8 @@
             "üzeri"
           ],
           "answer": 1,
-          "s": "عجله کن! اتوبوس دارد حرکت می‌کند."
+          "s": "عجله کن! اتوبوس دارد حرکت می‌کند.",
+          "why": "«در آستانه‌ی …» برای سوم شخص: kalkmak üzere."
         },
         {
           "type": "choice",
@@ -523,7 +553,8 @@
             "üzeresin"
           ],
           "answer": 0,
-          "s": "درست وقتی داشتم از خانه بیرون می‌رفتم، تلفن زنگ زد."
+          "s": "درست وقتی داشتم از خانه بیرون می‌رفتم، تلفن زنگ زد.",
+          "why": "«درست وقتی داشتم …» ← ‎-mak üzereyken."
         },
         {
           "type": "choice",
@@ -534,7 +565,8 @@
             "üzereydik"
           ],
           "answer": 2,
-          "s": "داشتیم غذا خوردن را شروع می‌کردیم که مهمان‌ها آمدند."
+          "s": "داشتیم غذا خوردن را شروع می‌کردیم که مهمان‌ها آمدند.",
+          "why": "گذشته با فاعل «biz»: başlamak üzereydik."
         },
         {
           "type": "type",
@@ -542,7 +574,8 @@
           "answer": [
             "üzere"
           ],
-          "s": "امتحان دارد تمام می‌شود، پنج دقیقه‌ی آخر!"
+          "s": "امتحان دارد تمام می‌شود، پنج دقیقه‌ی آخر!",
+          "why": "«دارد تمام می‌شود» ← bitmek üzere."
         },
         {
           "type": "type",
@@ -552,15 +585,20 @@
             "atmak",
             "göndermek"
           ],
-          "s": "من هم همین الان داشتم برایت پیام می‌نوشتم."
+          "s": "من هم همین الان داشتم برایت پیام می‌نوشتم.",
+          "why": "پیش از üzere مصدر کامل با ‎-mak می‌آید: yazmak üzereydim."
         },
         {
           "type": "type",
-          "t": "Yarın görüşmek ___!",
+          "task": "با ‎-mak üzere بازنویسی کنید.",
+          "cue": "Tren birazdan kalkacak.",
+          "t": "Tren ___.",
           "answer": [
-            "üzere"
+            "kalkmak üzere",
+            "kalkmak üzeredir"
           ],
-          "s": "به امید دیدار فردا!"
+          "why": "«به‌زودی / در آستانه‌ی» ← ‎-mak üzere: kalkmak üzere.",
+          "s": "قطار دارد حرکت می‌کند."
         },
         {
           "type": "order",
@@ -571,9 +609,18 @@
           ]
         },
         {
-          "type": "order",
-          "t": "Film başlamak üzere, lütfen yerlerinize oturun.",
-          "s": "فیلم دارد شروع می‌شود، لطفاً سر جایتان بنشینید."
+          "type": "choice",
+          "task": "کدام پاسخ مناسب است؟",
+          "cue": "Neredesin? Toplantı başlıyor!",
+          "t": "___",
+          "options": [
+            "Geldim sayılır, binaya girmek üzereyim.",
+            "Geldim sayılır, binaya girmek üzereydiniz.",
+            "Geldim sayılır, binaya girmeye üzereyim."
+          ],
+          "answer": 0,
+          "why": "«همین الان دارم … می‌کنم» برای «من» ← ‎-mak üzereyim.",
+          "s": "تقریباً رسیده‌ام؛ دارم وارد ساختمان می‌شوم."
         }
       ]
     }
@@ -593,11 +640,11 @@
         "s": "مسئول محترم،"
       },
       {
-        "t": "Ben Amir Rezaei; altı aydır Ankara'da yaşıyorum ve üniversitenizin Türkçe Öğretim Merkezindeki B2 kursuna katılmak istiyorum.",
-        "s": "من امیر رضایی هستم؛ شش ماه است که در آنکارا زندگی می‌کنم و می‌خواهم در دوره‌ی B2 مرکز آموزش زبان ترکی دانشگاه شما شرکت کنم."
+        "t": "Ben Hamid Rezaei; altı aydır Ankara'da yaşıyorum ve üniversitenizin Türkçe Öğretim Merkezindeki B2 kursuna katılmak istiyorum.",
+        "s": "من حمید رضایی هستم؛ شش ماه است که در آنکارا زندگی می‌کنم و می‌خواهم در دوره‌ی B2 مرکز آموزش زبان ترکی دانشگاه شما شرکت کنم."
       },
       {
-        "t": "İnternet sitenizde kayıtların 1 Eylül'de başlayacağını okudum.",
+        "t": "İnternet sitenizde kayıtların eylülün birinde başlayacağını okudum.",
         "s": "در وب‌سایتتان خواندم که ثبت‌نام‌ها از اول سپتامبر شروع می‌شود."
       },
       {
@@ -625,15 +672,15 @@
         "s": "پیشاپیش از توجه شما سپاس‌گزارم و منتظر پاسخ شما هستم."
       },
       {
-        "t": "Saygılarımla, Amir Rezaei",
-        "s": "با احترام، امیر رضایی"
+        "t": "Saygılarımla, Hamid Rezaei",
+        "s": "با احترام، حمید رضایی"
       }
     ],
     "questions": [
       {
         "q": {
-          "t": "Amir ne zamandır Ankara'da yaşıyor?",
-          "s": "امیر چه مدت است که در آنکارا زندگی می‌کند؟"
+          "t": "Hamid ne zamandır Ankara'da yaşıyor?",
+          "s": "حمید چه مدت است که در آنکارا زندگی می‌کند؟"
         },
         "options": [
           "Bir yıldır",
@@ -644,8 +691,8 @@
       },
       {
         "q": {
-          "t": "Amir kaydını neden e-posta yoluyla yaptırmak istiyor?",
-          "s": "چرا امیر می‌خواهد ثبت‌نامش را از طریق ایمیل انجام دهد؟"
+          "t": "Hamid kaydını neden e-posta yoluyla yaptırmak istiyor?",
+          "s": "چرا حمید می‌خواهد ثبت‌نامش را از طریق ایمیل انجام دهد؟"
         },
         "options": [
           "Yurt dışında olacağı için",
@@ -656,8 +703,8 @@
       },
       {
         "q": {
-          "t": "Amir ekte hangi belgeyi gönderiyor?",
-          "s": "امیر کدام مدرک را پیوست می‌فرستد؟"
+          "t": "Hamid ekte hangi belgeyi gönderiyor?",
+          "s": "حمید کدام مدرک را پیوست می‌فرستد؟"
         },
         "options": [
           "Diplomasını",
@@ -668,8 +715,8 @@
       },
       {
         "q": {
-          "t": "Amir seviye sınavı hakkında ne öğrenmek istiyor?",
-          "s": "امیر درباره‌ی آزمون تعیین سطح چه چیزی می‌خواهد بداند؟"
+          "t": "Hamid seviye sınavı hakkında ne öğrenmek istiyor?",
+          "s": "حمید درباره‌ی آزمون تعیین سطح چه چیزی می‌خواهد بداند؟"
         },
         "options": [
           "Sınavın saatini",
@@ -677,6 +724,18 @@
           "Sınava çevrim içi katılıp katılamayacağını"
         ],
         "answer": 2
+      },
+      {
+        "q": {
+          "t": "Hamid'in e-postasının üslubu nasıl?",
+          "s": "لحن ایمیل حمید چگونه است؟"
+        },
+        "options": [
+          "Resmî ve kibar",
+          "Samimi ve şakacı",
+          "Öfkeli ve sert"
+        ],
+        "answer": 0
       }
     ]
   },
@@ -687,7 +746,10 @@
     },
     {
       "t": "Bana bu konuda yardımcı olabilir misiniz?",
-      "s": "ممکن است در این مورد به من کمک کنید؟"
+      "s": "ممکن است در این مورد به من کمک کنید؟",
+      "alts": [
+        "Bu konuda bana yardımcı olabilir misiniz?"
+      ]
     },
     {
       "t": "Belgelerin aslını getirmenizi rica ederiz.",
@@ -699,7 +761,10 @@
     },
     {
       "t": "Tam çıkmak üzereyken e-postanız geldi.",
-      "s": "درست وقتی داشتم بیرون می‌رفتم، ایمیلتان رسید."
+      "s": "درست وقتی داشتم بیرون می‌رفتم، ایمیلتان رسید.",
+      "alts": [
+        "E-postanız tam çıkmak üzereyken geldi."
+      ]
     },
     {
       "t": "Randevumu bir gün ertelesem olur mu?",
@@ -707,7 +772,10 @@
     },
     {
       "t": "Yanıtınızı en kısa sürede bekliyorum.",
-      "s": "منتظر پاسخ هرچه زودتر شما هستم."
+      "s": "منتظر پاسخ هرچه زودتر شما هستم.",
+      "alts": [
+        "En kısa sürede yanıtınızı bekliyorum."
+      ]
     },
     {
       "t": "Sayın Mehmet Yılmaz, ilginiz için teşekkür ederim.",

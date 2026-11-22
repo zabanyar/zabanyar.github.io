@@ -22,7 +22,8 @@
       "ex": {
         "t": "Türkiye'de zorunlu eğitim on iki yıl sürüyor.",
         "s": "در ترکیه آموزش اجباری دوازده سال طول می‌کشد."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w02",
@@ -45,7 +46,8 @@
       "ex": {
         "t": "Üniversite sınavına iki ay kaldı.",
         "s": "دو ماه به کنکور مانده است."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w04",
@@ -55,8 +57,8 @@
       "pr": "بورس",
       "emoji": "",
       "ex": {
-        "t": "Maryam yüksek lisans için tam burs kazandı.",
-        "s": "مریم برای کارشناسی ارشد بورسیه‌ی کامل گرفت."
+        "t": "Ayşe yüksek lisans için tam burs kazandı.",
+        "s": "عایشه برای کارشناسی ارشد بورسیه‌ی کامل گرفت."
       }
     },
     {
@@ -66,7 +68,7 @@
       "pr": "نُت اُرتالاماسِ",
       "emoji": "",
       "ex": {
-        "t": "Bu bursa başvurmak için not ortalamanızın en az 3,0 olması gerekiyor.",
+        "t": "Bu bursa başvurmak için not ortalamanızın en az üç olması gerekiyor.",
         "s": "برای درخواست این بورسیه، معدلتان باید دست‌کم ۳٫۰ باشد."
       }
     },
@@ -113,7 +115,8 @@
       "ex": {
         "t": "Pandemi döneminde okullar uzaktan eğitime geçti.",
         "s": "در دوران همه‌گیری، مدرسه‌ها به آموزش از راه دور روی آوردند."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w10",
@@ -182,7 +185,8 @@
       "ex": {
         "t": "Sınavdan önce her gün kütüphanede ders çalışıyorum.",
         "s": "قبل از امتحان هر روز در کتابخانه درس می‌خوانم."
-      }
+      },
+      "sym": true
     }
   ],
   "phrases": [
@@ -200,15 +204,18 @@
     },
     {
       "id": "p03",
-      "t": "Kolay gelsin!",
-      "s": "خسته نباشی! (به کسی که مشغول کار است)",
-      "pr": "کُلای گِلسین!"
+      "t": "Mezun olunca ne yapmayı düşünüyorsun?",
+      "s": "وقتی فارغ‌التحصیل شدی، می‌خواهی چه کار کنی؟",
+      "pr": "مِزون اُلونجا نِه یاپمایِ دوشونویُرسون؟"
     },
     {
       "id": "p04",
       "t": "Sınavı kıl payı geçtim.",
       "s": "امتحان را به‌زور و لب‌مرز قبول شدم.",
-      "pr": "سِناوِ کِل پایِ گِچتیم."
+      "pr": "سِناوِ کِل پایِ گِچتیم.",
+      "alts": [
+        "Kıl payı sınavı geçtim."
+      ]
     },
     {
       "id": "p05",
@@ -299,12 +306,18 @@
       {
         "sp": "B",
         "t": "Çok teşekkür ederim hocam. Elimden geleni yapacağım.",
-        "s": "خیلی ممنونم استاد. هر کاری از دستم بربیاید می‌کنم."
+        "s": "خیلی ممنونم استاد. هر کاری از دستم بربیاید می‌کنم.",
+        "alts": [
+          "Hocam, çok teşekkür ederim. Elimden geleni yapacağım."
+        ]
       },
       {
         "sp": "A",
         "t": "Bol şans! Sonucu mutlaka bana da haber ver.",
-        "s": "موفق باشی! حتماً نتیجه را به من هم خبر بده."
+        "s": "موفق باشی! حتماً نتیجه را به من هم خبر بده.",
+        "alts": [
+          "Bol şans! Mutlaka sonucu bana da haber ver."
+        ]
       }
     ]
   },
@@ -378,7 +391,8 @@
             "öğrentikçe"
           ],
           "answer": 1,
-          "s": "هرچه بیشتر ترکی یاد می‌گیرم، بیشتر دوستش دارم."
+          "s": "هرچه بیشتر ترکی یاد می‌گیرم، بیشتر دوستش دارم.",
+          "why": "در öğren- واکه‌ی آخر e است و n واک‌دار، پس ‎-dikçe: öğrendikçe."
         },
         {
           "type": "choice",
@@ -389,7 +403,8 @@
             "gittiği için"
           ],
           "answer": 0,
-          "s": "هوا روزبه‌روز سردتر می‌شود؛ دیگر نمی‌توانم بدون کاپشن بیرون بروم."
+          "s": "هوا روزبه‌روز سردتر می‌شود؛ دیگر نمی‌توانم بدون کاپشن بیرون بروم.",
+          "why": "gittikçe یک قید ثابت است یعنی «روزبه‌روز / به‌تدریج»."
         },
         {
           "type": "choice",
@@ -400,7 +415,8 @@
             "anlamadıkça"
           ],
           "answer": 2,
-          "s": "تا این موضوع را نفهمی، در امتحان موفق نمی‌شوی."
+          "s": "تا این موضوع را نفهمی، در امتحان موفق نمی‌شوی.",
+          "why": "«تا وقتی که … نکنی» = ‎-madıkça؛ با a هماهنگی ‎-dıkça است، نه ‎-dıkçe."
         },
         {
           "type": "type",
@@ -408,7 +424,8 @@
           "answer": [
             "konuştukça"
           ],
-          "s": "هرچه بیشتر ترکی حرف بزنی، راحت‌تر می‌شوی."
+          "s": "هرچه بیشتر ترکی حرف بزنی، راحت‌تر می‌شوی.",
+          "why": "بعد از ş (بی‌واک) d به t تبدیل می‌شود: konuş-tukça."
         },
         {
           "type": "type",
@@ -417,15 +434,19 @@
             "dinledikçe",
             "duydukça"
           ],
-          "s": "هر بار این آهنگ را می‌شنوم، یاد مادرم می‌افتم."
+          "s": "هر بار این آهنگ را می‌شنوم، یاد مادرم می‌افتم.",
+          "why": "«هر بار که» = ‎-dıkça: dinle-dikçe / duy-dukça."
         },
         {
           "type": "type",
-          "t": "Çocuklar ___ ihtiyaçları da değişiyor.",
+          "task": "با ‎-dıkça بازنویسی کنید.",
+          "cue": "Ne kadar çok pratik yaparsan Türkçen o kadar gelişir.",
+          "t": "Pratik ___ Türkçen gelişir.",
           "answer": [
-            "büyüdükçe"
+            "yaptıkça"
           ],
-          "s": "هرچه بچه‌ها بزرگ‌تر می‌شوند، نیازهایشان هم تغییر می‌کند."
+          "why": "«ne kadar … o kadar» را با ‎-dıkça هم می‌گوییم؛ بعد از p (بی‌واک) d ← t: yaptıkça.",
+          "s": "هرچه بیشتر تمرین کنی، ترکی‌ات بهتر می‌شود."
         },
         {
           "type": "order",
@@ -433,9 +454,18 @@
           "s": "هرچه بیشتر می‌خوانم، چیزهای بیشتری یاد می‌گیرم."
         },
         {
-          "type": "order",
-          "t": "Şehir büyüdükçe trafik de artıyor.",
-          "s": "هرچه شهر بزرگ‌تر می‌شود، ترافیک هم بیشتر می‌شود."
+          "type": "choice",
+          "task": "کدام پاسخ مناسب است؟",
+          "cue": "Bu kelimeleri bir türlü aklımda tutamıyorum.",
+          "t": "___",
+          "options": [
+            "Tekrar etmedikçe unutman çok normal.",
+            "Tekrar ettikçe unutman çok normal.",
+            "Tekrar etmedikçe hatırlaman çok normal."
+          ],
+          "answer": 0,
+          "why": "«تا وقتی تکرار نکنی» = ‎-madıkça؛ پس فراموش کردن طبیعی است.",
+          "s": "تا وقتی تکرار نکنی، طبیعی است که فراموش کنی."
         }
       ]
     },
@@ -470,8 +500,8 @@
           "s": "چون بورسیه گرفته، شهریه نمی‌پردازد."
         },
         {
-          "t": "Emre çok zeki olduğu halde derslerine hiç önem vermiyor.",
-          "s": "امره با اینکه خیلی باهوش است، اصلاً به درس‌هایش اهمیت نمی‌دهد."
+          "t": "Kerem çok zeki olduğu halde derslerine hiç önem vermiyor.",
+          "s": "کرم با اینکه خیلی باهوش است، اصلاً به درس‌هایش اهمیت نمی‌دهد."
         },
         {
           "t": "Devamsızlık sınırını aşmadığın sürece sınava girebilirsin.",
@@ -496,18 +526,19 @@
             "çalıştığı sürece"
           ],
           "answer": 1,
-          "s": "با اینکه خیلی درس خوانده بود، امتحان را قبول نشد."
+          "s": "با اینکه خیلی درس خوانده بود، امتحان را قبول نشد.",
+          "why": "نتیجه برخلاف انتظار است (درس خواند ولی قبول نشد) ← ‎-dığı halde."
         },
         {
-          "type": "choice",
-          "t": "Hasta ___ okula gidemedim.",
-          "options": [
-            "olduğum için",
-            "olduğum halde",
-            "olduğum sürece"
+          "type": "type",
+          "task": "با ‎-dığı halde یک جمله بسازید.",
+          "cue": "Amir'in not ortalaması yüksek. Yine de çok endişeli.",
+          "t": "Amir'in not ortalaması ___ çok endişeli.",
+          "answer": [
+            "yüksek olduğu halde"
           ],
-          "answer": 0,
-          "s": "چون مریض بودم، نتوانستم به مدرسه بروم."
+          "why": "«با اینکه» ← ‎-dığı halde؛ برای صفت (yüksek) از olduğu استفاده می‌کنیم.",
+          "s": "با اینکه معدل امیر بالاست، خیلی نگران است."
         },
         {
           "type": "choice",
@@ -518,7 +549,8 @@
             "uyduğun sürece"
           ],
           "answer": 2,
-          "s": "تا وقتی به قوانین پایبند باشی، می‌توانی این‌جا بمانی."
+          "s": "تا وقتی به قوانین پایبند باشی، می‌توانی این‌جا بمانی.",
+          "why": "شرط و مدت («تا وقتی که») ← ‎-dığı sürece."
         },
         {
           "type": "choice",
@@ -529,25 +561,32 @@
             "kaldığınız için"
           ],
           "answer": 0,
-          "s": "چون ما دیر کردیم، جلسه بدون ما شروع شد."
+          "s": "چون ما دیر کردیم، جلسه بدون ما شروع شد.",
+          "why": "فاعل «biz» است، پس پسوند ملکی ‎-ımız: kaldığımız için."
         },
         {
           "type": "type",
-          "t": "Elif üç yıldır Almanya'da ___ halde hâlâ Almanca konuşamıyor.",
+          "t": "Behzad üç yıldır Almanya'da ___ halde hâlâ Almanca konuşamıyor.",
           "answer": [
             "yaşadığı",
             "oturduğu"
           ],
-          "s": "الیف با اینکه سه سال است در آلمان زندگی می‌کند، هنوز نمی‌تواند آلمانی حرف بزند."
+          "s": "بهزاد با اینکه سه سال است در آلمان زندگی می‌کند، هنوز نمی‌تواند آلمانی حرف بزند.",
+          "why": "«با اینکه» ← ‎-dığı halde؛ فاعل او (بهزاد) است: yaşadığı."
         },
         {
-          "type": "type",
-          "t": "Burs ___ için ailesinden para istemiyor.",
-          "answer": [
-            "aldığı",
-            "kazandığı"
+          "type": "choice",
+          "task": "کدام پاسخ مناسب است؟",
+          "cue": "Neden dün kütüphaneye gelmedin?",
+          "t": "___",
+          "options": [
+            "Başım çok ağrıdığı için evde kaldım.",
+            "Başım çok ağrıdığı halde evde kaldım.",
+            "Başım çok ağrıdığı sürece evde kaldım."
           ],
-          "s": "چون بورسیه می‌گیرد، از خانواده‌اش پول نمی‌خواهد."
+          "answer": 0,
+          "why": "دلیلِ نیامدن را می‌گوید، پس ‎-dığı için؛ halde یعنی «با اینکه».",
+          "s": "چون سرم خیلی درد می‌کرد، در خانه ماندم."
         },
         {
           "type": "type",
@@ -555,7 +594,8 @@
           "answer": [
             "çalıştığın"
           ],
-          "s": "تا وقتی مرتب درس بخوانی، موفق می‌شوی."
+          "s": "تا وقتی مرتب درس بخوانی، موفق می‌شوی.",
+          "why": "‎-dığı sürece؛ فاعل «تو» است: çalıştığın."
         },
         {
           "type": "order",
@@ -664,6 +704,30 @@
           "Öğretmenlik"
         ],
         "answer": 1
+      },
+      {
+        "q": {
+          "t": "Öğrencilerin “Neden?” sorusundan rahatsız olması neyi gösteriyor?",
+          "s": "اینکه سؤال «چرا؟» دانش‌آموزان را کلافه می‌کند، چه چیزی را نشان می‌دهد؟"
+        },
+        "options": [
+          "Konuları gerçekten anlamadıklarını",
+          "Öğretmenlerini sevmediklerini",
+          "Sınavlardan hiç korkmadıklarını"
+        ],
+        "answer": 0
+      },
+      {
+        "q": {
+          "t": "Yazar ezber hakkında ne düşünüyor?",
+          "s": "نویسنده درباره‌ی حفظ کردن چه فکر می‌کند؟"
+        },
+        "options": [
+          "Kalıcı bir öğrenme sağlamadığını",
+          "En iyi öğrenme yöntemi olduğunu",
+          "Sadece matematikte işe yaradığını"
+        ],
+        "answer": 0
       }
     ]
   },
@@ -682,7 +746,10 @@
     },
     {
       "t": "Yorgun olduğu halde ödevini bitirdi.",
-      "s": "با اینکه خسته بود، تکلیفش را تمام کرد."
+      "s": "با اینکه خسته بود، تکلیفش را تمام کرد.",
+      "alts": [
+        "Ödevini yorgun olduğu halde bitirdi."
+      ]
     },
     {
       "t": "Kurallara uyduğunuz sürece sorun yok.",
@@ -690,7 +757,10 @@
     },
     {
       "t": "Yüksek lisans için yurt dışına gitmek istiyorum.",
-      "s": "می‌خواهم برای کارشناسی ارشد به خارج از کشور بروم."
+      "s": "می‌خواهم برای کارشناسی ارشد به خارج از کشور بروم.",
+      "alts": [
+        "Yurt dışına yüksek lisans için gitmek istiyorum."
+      ]
     },
     {
       "t": "Uzaktan eğitim herkes için uygun değil.",
@@ -698,7 +768,10 @@
     },
     {
       "t": "Hava gittikçe soğuyor.",
-      "s": "هوا روزبه‌روز سردتر می‌شود."
+      "s": "هوا روزبه‌روز سردتر می‌شود.",
+      "alts": [
+        "Gittikçe hava soğuyor."
+      ]
     }
   ]
 }

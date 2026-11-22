@@ -22,7 +22,8 @@
       "ex": {
         "t": "Plastik poşetler çevreye büyük zarar veriyor.",
         "s": "کیسه‌های پلاستیکی آسیب زیادی به محیط زیست می‌زنند."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w02",
@@ -34,7 +35,8 @@
       "ex": {
         "t": "Akdeniz iklimi yazın sıcak ve kuru, kışın ılık ve yağışlıdır.",
         "s": "اقلیم مدیترانه‌ای تابستان‌ها گرم و خشک و زمستان‌ها معتدل و بارانی است."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w03",
@@ -45,7 +47,8 @@
       "ex": {
         "t": "Küresel ısınma yüzünden buzullar hızla eriyor.",
         "s": "به دلیل گرمایش جهانی، یخچال‌های طبیعی به‌سرعت آب می‌شوند."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w04",
@@ -56,7 +59,8 @@
       "ex": {
         "t": "Tahran'da kışın hava kirliliği çok artıyor.",
         "s": "در تهران زمستان‌ها آلودگی هوا خیلی زیاد می‌شود."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w05",
@@ -79,7 +83,8 @@
       "ex": {
         "t": "Türkiye'de güneş ve rüzgâr gibi yenilenebilir enerji kaynakları yaygınlaşıyor.",
         "s": "در ترکیه منابع انرژی تجدیدپذیر مثل خورشید و باد رایج‌تر می‌شوند."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w07",
@@ -102,7 +107,8 @@
       "ex": {
         "t": "Evsel atıkların büyük kısmı geri dönüştürülebilir.",
         "s": "بخش بزرگی از پسماندهای خانگی قابل بازیافت است."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w09",
@@ -113,7 +119,8 @@
       "ex": {
         "t": "Bu yıl yaşanan kuraklık çiftçileri zor durumda bıraktı.",
         "s": "خشکسالی امسال کشاورزان را در وضعیت سختی قرار داد."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w10",
@@ -125,7 +132,8 @@
       "ex": {
         "t": "Yazın Ege kıyılarında sık sık orman yangınları çıkıyor.",
         "s": "تابستان‌ها در سواحل اژه بارها آتش‌سوزی جنگل رخ می‌دهد."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w11",
@@ -137,7 +145,8 @@
       "ex": {
         "t": "Şiddetli yağmurlar Karadeniz'de sele neden oldu.",
         "s": "باران‌های شدید در منطقه‌ی دریای سیاه باعث سیل شد."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w12",
@@ -196,7 +205,10 @@
       "id": "p02",
       "t": "Bu konuda sana katılıyorum.",
       "s": "در این مورد با تو موافقم.",
-      "pr": "بو کُنودا سانا کاتِلِیُروم."
+      "pr": "بو کُنودا سانا کاتِلِیُروم.",
+      "alts": [
+        "Sana bu konuda katılıyorum."
+      ]
     },
     {
       "id": "p03",
@@ -289,7 +301,10 @@
       {
         "sp": "B",
         "t": "Ben ise bisiklete binmeyi hiç bilmiyorum!",
-        "s": "من اما اصلاً دوچرخه‌سواری بلد نیستم!"
+        "s": "من اما اصلاً دوچرخه‌سواری بلد نیستم!",
+        "alts": [
+          "Ben ise hiç bisiklete binmeyi bilmiyorum!"
+        ]
       },
       {
         "sp": "A",
@@ -361,7 +376,8 @@
             "ya"
           ],
           "answer": 1,
-          "s": "امسال نه برف بارید نه باران."
+          "s": "امسال نه برف بارید نه باران.",
+          "why": "جزء دوم «ne de» است، پس جزء اول هم ne: ne … ne de."
         },
         {
           "type": "choice",
@@ -372,7 +388,8 @@
             "atmıyorlar"
           ],
           "answer": 0,
-          "s": "نه زنگ می‌زند و نه پیام می‌دهد."
+          "s": "نه زنگ می‌زند و نه پیام می‌دهد.",
+          "why": "با ne … ne de فعل مثبت می‌آید، چون خودِ ne معنای منفی دارد."
         },
         {
           "type": "choice",
@@ -383,7 +400,8 @@
             "ya"
           ],
           "answer": 2,
-          "s": "آخر هفته یا برویم سینما یا تئاتر."
+          "s": "آخر هفته یا برویم سینما یا تئاتر.",
+          "why": "جزء دوم ya da است، پس جزء اول ya: ya … ya da = «یا … یا»."
         },
         {
           "type": "choice",
@@ -394,15 +412,20 @@
             "Ne"
           ],
           "answer": 0,
-          "s": "چه دانش‌آموزان و چه معلمان در کارزار شرکت کردند."
+          "s": "چه دانش‌آموزان و چه معلمان در کارزار شرکت کردند.",
+          "why": "gerekse جفتِ gerek است: gerek … gerekse = «چه … چه»."
         },
         {
           "type": "type",
-          "t": "Bisiklet ___ ucuz hem de sağlıklı bir ulaşım aracı.",
+          "task": "با hem … hem de یک جمله بسازید.",
+          "cue": "Bu yaz kuraklık oldu. Ayrıca orman yangınları da çıktı.",
+          "t": "Bu yaz ___ orman yangınları çıktı.",
           "answer": [
-            "hem"
+            "hem kuraklık oldu hem de",
+            "hem kuraklık oldu hem"
           ],
-          "s": "دوچرخه وسیله‌ی نقلیه‌ای هم ارزان و هم سالم است."
+          "why": "دو چیزِ هم‌زمان را با hem … hem de وصل می‌کنیم؛ hem de پیش از جزء دوم می‌آید.",
+          "s": "امسال تابستان هم خشکسالی شد و هم آتش‌سوزی‌های جنگل رخ داد."
         },
         {
           "type": "type",
@@ -410,7 +433,8 @@
           "answer": [
             "da"
           ],
-          "s": "یا همین حالا تصمیم می‌گیریم یا فرصت را از دست می‌دهیم."
+          "s": "یا همین حالا تصمیم می‌گیریم یا فرصت را از دست می‌دهیم.",
+          "why": "جزء دوم «یا … یا» در ترکی ya da است."
         },
         {
           "type": "order",
@@ -421,12 +445,18 @@
           ]
         },
         {
-          "type": "order",
-          "t": "Hem çalışıyor hem de üniversitede okuyor.",
-          "s": "هم کار می‌کند و هم در دانشگاه درس می‌خواند.",
-          "alts": [
-            "Hem üniversitede okuyor hem de çalışıyor."
-          ]
+          "type": "choice",
+          "task": "کدام پاسخ از نظر دستوری درست است؟",
+          "cue": "Çay mı içersin, kahve mi?",
+          "t": "___",
+          "options": [
+            "Ne çay ne de kahve içiyorum.",
+            "Ne çay ne de kahve içmiyorum.",
+            "Ne çay ya da kahve içiyorum."
+          ],
+          "answer": 0,
+          "why": "با ne … ne de فعل مثبت است (içiyorum) و جزء دوم ne de است، نه ya da.",
+          "s": "نه چای می‌خورم نه قهوه."
         }
       ]
     },
@@ -487,7 +517,8 @@
             "ya da"
           ],
           "answer": 0,
-          "s": "اتاق من خیلی مرتب است، اما اتاق برادرم همیشه به‌هم‌ریخته است."
+          "s": "اتاق من خیلی مرتب است، اما اتاق برادرم همیشه به‌هم‌ریخته است.",
+          "why": "برای مقایسه‌ی دو فاعل، ise بعد از فاعلِ دوم می‌آید (kardeşiminki ise)؛ oysaki اول جمله می‌آید."
         },
         {
           "type": "choice",
@@ -498,7 +529,8 @@
             "hem"
           ],
           "answer": 1,
-          "s": "اصلاً به من کمک نکرد، در حالی که من همیشه به او کمک می‌کنم."
+          "s": "اصلاً به من کمک نکرد، در حالی که من همیشه به او کمک می‌کنم.",
+          "why": "«در حالی که» برای تضاد با انتظار: oysa اولِ جمله‌ی دوم؛ ise بعد از فاعل می‌آید، نه پیش از آن."
         },
         {
           "type": "choice",
@@ -509,7 +541,8 @@
             "se"
           ],
           "answer": 2,
-          "s": "من چای را بی‌شکر می‌خورم، اما همسرم خیلی شیرین دوست دارد."
+          "s": "من چای را بی‌شکر می‌خورم، اما همسرم خیلی شیرین دوست دارد.",
+          "why": "eşim به صامت ختم می‌شود و واکه‌ی آخرش i است، پس ‎-se: eşimse."
         },
         {
           "type": "type",
@@ -520,15 +553,20 @@
             "oysaki",
             "oysa ki"
           ],
-          "s": "می‌گوید اصلاً درس نخوانده، در حالی که هر شب در کتابخانه است."
+          "s": "می‌گوید اصلاً درس نخوانده، در حالی که هر شب در کتابخانه است.",
+          "why": "برای «در حالی که» و نشان دادن تضاد با واقعیت: oysa / halbuki."
         },
         {
           "type": "type",
-          "t": "Annem kahve sever, babam ___ sadece çay içer.",
+          "task": "با ise دو جمله را یکی کنید.",
+          "cue": "Kuzeyde çok yağmur yağıyor. Güneyde kuraklık var.",
+          "t": "Kuzeyde çok yağmur yağıyor, ___ kuraklık var.",
           "answer": [
-            "ise"
+            "güneyde ise",
+            "güneydeyse"
           ],
-          "s": "مادرم قهوه دوست دارد، اما پدرم فقط چای می‌خورد."
+          "why": "ise بعد از کلمه‌ای می‌آید که با قبلی مقایسه می‌شود: güneyde ise / güneydeyse.",
+          "s": "در شمال باران زیادی می‌بارد، اما در جنوب خشکسالی است."
         },
         {
           "type": "type",
@@ -539,12 +577,22 @@
             "oysaki",
             "oysa ki"
           ],
-          "s": "چرا این‌قدر دیر کردی؟ قرار بود ساعت پنج این‌جا باشی!"
+          "s": "چرا این‌قدر دیر کردی؟ قرار بود ساعت پنج این‌جا باشی!",
+          "why": "اعتراض به چیزی که باید می‌شد ولی نشد: halbuki / oysa (قرار بود ساعت پنج این‌جا باشی)."
         },
         {
-          "type": "order",
-          "t": "Kışlar soğuk, yazlar ise çok sıcak.",
-          "s": "زمستان‌ها سرد است، اما تابستان‌ها خیلی گرم."
+          "type": "choice",
+          "task": "کدام جمله تضاد را درست نشان می‌دهد؟",
+          "cue": "Hava durumu “Bugün hava güneşli olacak” dedi.",
+          "t": "___",
+          "options": [
+            "Hava durumu güneşli olacak dedi, halbuki bütün gün yağmur yağdı.",
+            "Hava durumu güneşli olacak dedi, halbuki bütün gün güneş vardı.",
+            "Hava durumu güneşli olacak dedi, ise bütün gün yağmur yağdı."
+          ],
+          "answer": 0,
+          "why": "halbuki وقتی می‌آید که واقعیت برخلاف حرف یا انتظارِ قبلی باشد؛ ise اول جمله نمی‌آید.",
+          "s": "هواشناسی گفت هوا آفتابی است، در حالی که تمام روز باران بارید."
         },
         {
           "type": "order",
@@ -653,6 +701,18 @@
           "Hiç bulaşık yıkamamayı"
         ],
         "answer": 0
+      },
+      {
+        "q": {
+          "t": "Yazar bu yazıyı büyük olasılıkla ne amaçla yazmış?",
+          "s": "نویسنده به احتمال زیاد با چه هدفی این متن را نوشته است؟"
+        },
+        "options": [
+          "Okurları suyu korumaya çağırmak için",
+          "Damla sulama sistemleri satmak için",
+          "Barajların gereksiz olduğunu göstermek için"
+        ],
+        "answer": 0
       }
     ]
   },
@@ -671,11 +731,18 @@
     },
     {
       "t": "Gerek gençler gerekse yaşlılar kampanyayı destekledi.",
-      "s": "چه جوانان و چه سالمندان از کارزار حمایت کردند."
+      "s": "چه جوانان و چه سالمندان از کارزار حمایت کردند.",
+      "alts": [
+        "Gerek yaşlılar gerekse gençler kampanyayı destekledi.",
+        "Kampanyayı gerek gençler gerekse yaşlılar destekledi."
+      ]
     },
     {
       "t": "Kuzeyde sel var, güneyde ise kuraklık.",
-      "s": "در شمال سیل آمده، اما در جنوب خشکسالی است."
+      "s": "در شمال سیل آمده، اما در جنوب خشکسالی است.",
+      "alts": [
+        "Güneyde kuraklık var, kuzeyde ise sel."
+      ]
     },
     {
       "t": "Suyu israf ediyorsun, oysa barajlar neredeyse boş.",
@@ -687,7 +754,10 @@
     },
     {
       "t": "Halbuki bu sorunu yıllar önce çözebilirdik.",
-      "s": "حال آنکه می‌توانستیم این مشکل را سال‌ها پیش حل کنیم."
+      "s": "حال آنکه می‌توانستیم این مشکل را سال‌ها پیش حل کنیم.",
+      "alts": [
+        "Halbuki yıllar önce bu sorunu çözebilirdik."
+      ]
     }
   ]
 }

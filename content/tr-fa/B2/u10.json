@@ -21,7 +21,8 @@
       "ex": {
         "t": "Toplantıdan önce rapora kısaca göz attım.",
         "s": "پیش از جلسه نگاه کوتاهی به گزارش انداختم."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w02",
@@ -32,7 +33,8 @@
       "ex": {
         "t": "Sınavı kazandığını duyunca ağzı kulaklarına vardı.",
         "s": "وقتی شنید در آزمون قبول شده، نیشش تا بناگوش باز شد."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w03",
@@ -43,7 +45,8 @@
       "ex": {
         "t": "Büyüklerin sözüne kulak vermek gerekir.",
         "s": "باید به حرف بزرگ‌ترها گوش سپرد."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w04",
@@ -54,7 +57,8 @@
       "ex": {
         "t": "Dedem çok eli açık biriydi; kimseyi eli boş göndermezdi.",
         "s": "پدربزرگم آدم خیلی دست‌ودل‌بازی بود؛ هیچ‌کس را دست خالی برنمی‌گرداند."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w05",
@@ -65,7 +69,8 @@
       "ex": {
         "t": "Yeni müdür biraz burnu büyük ama işini iyi biliyor.",
         "s": "مدیر جدید کمی مغرور است، اما کارش را خوب بلد است."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w06",
@@ -87,7 +92,8 @@
       "ex": {
         "t": "Tatile çıkacağımızı duyunca çocukların etekleri zil çalıyor.",
         "s": "بچه‌ها از وقتی شنیده‌اند قرار است به سفر برویم، توی دلشان قند آب می‌شود."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w08",
@@ -98,7 +104,8 @@
       "ex": {
         "t": "Bu matematik problemi üzerinde saatlerce kafa patlattık.",
         "s": "ساعت‌ها با این مسئله‌ی ریاضی کلنجار رفتیم."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w09",
@@ -109,7 +116,8 @@
       "ex": {
         "t": "Annem eve vardığımızı öğrenince içi rahat etti.",
         "s": "مادرم وقتی فهمید به خانه رسیده‌ایم، خیالش راحت شد."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w10",
@@ -120,7 +128,8 @@
       "ex": {
         "t": "Sürprizi görünce dilim tutuldu.",
         "s": "سورپرایز را که دیدم، زبانم بند آمد."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w11",
@@ -153,7 +162,8 @@
       "ex": {
         "t": "Bu kadar küçük bir sorun için pireyi deve yapma!",
         "s": "برای مشکلی به این کوچکی از کاه کوه نساز!"
-      }
+      },
+      "sym": true
     },
     {
       "id": "w14",
@@ -175,7 +185,8 @@
       "ex": {
         "t": "Öğretmen küçük hatalarına göz yumdu.",
         "s": "معلم از اشتباه‌های کوچکش چشم‌پوشی کرد."
-      }
+      },
+      "sym": true
     }
   ],
   "phrases": [
@@ -235,7 +246,7 @@
     },
     "speakers": {
       "A": {
-        "name": "Ayşe",
+        "name": "Zeynep",
         "voice": "f"
       },
       "B": {
@@ -252,7 +263,10 @@
       {
         "sp": "B",
         "t": "Sorma! Aylardır kafa patlattığım projeyi sonunda bitirdim.",
-        "s": "نپرس! پروژه‌ای را که ماه‌ها با آن کلنجار می‌رفتم، بالاخره تمام کردم."
+        "s": "نپرس! پروژه‌ای را که ماه‌ها با آن کلنجار می‌رفتم، بالاخره تمام کردم.",
+        "alts": [
+          "Sorma! Sonunda aylardır kafa patlattığım projeyi bitirdim."
+        ]
       },
       {
         "sp": "A",
@@ -365,15 +379,16 @@
       ],
       "exercises": [
         {
-          "type": "choice",
-          "t": "Toplantıdan önce raporlara kısaca bir ___ attım.",
-          "options": [
-            "kulak",
-            "göz",
-            "el"
+          "type": "type",
+          "task": "با اصطلاح kulağına küpe olmak بازنویسی کنید.",
+          "cue": "Babam bana çok güzel bir öğüt verdi; onu hiç unutmayacağım.",
+          "t": "Babamın öğüdü ___.",
+          "answer": [
+            "kulağıma küpe oldu",
+            "kulağıma küpe olacak"
           ],
-          "answer": 1,
-          "s": "پیش از جلسه نگاه کوتاهی به گزارش‌ها انداختم."
+          "why": "kulağına küpe olmak برای «من» ← kulağıma küpe oldu (درسی که فراموش نمی‌شود).",
+          "s": "نصیحت پدرم آویزه‌ی گوشم شد."
         },
         {
           "type": "choice",
@@ -384,7 +399,8 @@
             "dili"
           ],
           "answer": 0,
-          "s": "وقتی شنید حقوقش زیاد شده، نیشش تا بناگوش باز شد."
+          "s": "وقتی شنید حقوقش زیاد شده، نیشش تا بناگوش باز شد.",
+          "why": "ağzı kulaklarına varmak = «نیشش تا بناگوش باز شدن»."
         },
         {
           "type": "choice",
@@ -395,18 +411,22 @@
             "pireyi"
           ],
           "answer": 2,
-          "s": "یک بحث کوچک را بزرگ نکن، از کاه کوه نساز!"
+          "s": "یک بحث کوچک را بزرگ نکن، از کاه کوه نساز!",
+          "why": "اصطلاح ثابت: pireyi deve yapmak = «از کاه کوه ساختن»."
         },
         {
           "type": "choice",
-          "t": "Ona sır verme; ağzında ___ ıslanmaz.",
+          "task": "کدام اصطلاح این وضعیت را توصیف می‌کند؟",
+          "cue": "Sadece bir tabak kırıldı ama annem bütün gün bundan bahsetti.",
+          "t": "___",
           "options": [
-            "bakla",
-            "ekmek",
-            "su"
+            "Annem pireyi deve yaptı.",
+            "Annem gözden düştü.",
+            "Annemin etekleri zil çaldı."
           ],
           "answer": 0,
-          "s": "به او راز نگو؛ دهن‌لق است."
+          "why": "چیز کوچکی را بزرگ جلوه دادن ← pireyi deve yapmak.",
+          "s": "مادرم از کاه کوه ساخت."
         },
         {
           "type": "type",
@@ -414,7 +434,8 @@
           "answer": [
             "dilim"
           ],
-          "s": "سورپرایز را که دیدم، زبانم بند آمد و نتوانستم چیزی بگویم."
+          "s": "سورپرایز را که دیدم، زبانم بند آمد و نتوانستم چیزی بگویم.",
+          "why": "dili tutulmak؛ فاعل «من» است، پس dilim tutuldu."
         },
         {
           "type": "type",
@@ -422,7 +443,8 @@
           "answer": [
             "gözünden"
           ],
-          "s": "وقتی دروغ گفت، از چشم دوستانش افتاد."
+          "s": "وقتی دروغ گفت، از چشم دوستانش افتاد.",
+          "why": "gözden düşmek؛ با مضاف‌الیه: arkadaşlarının gözünden düştü."
         },
         {
           "type": "type",
@@ -430,7 +452,8 @@
           "answer": [
             "yumdu"
           ],
-          "s": "معلم از اشتباه کوچک بچه چشم‌پوشی کرد."
+          "s": "معلم از اشتباه کوچک بچه چشم‌پوشی کرد.",
+          "why": "göz yummak = «چشم‌پوشی کردن»؛ گذشته: yumdu."
         },
         {
           "type": "order",
@@ -508,18 +531,22 @@
             "bepbeyaz"
           ],
           "answer": 1,
-          "s": "برف بارید و همه‌جا سفیدِ سفید شد."
+          "s": "برف بارید و همه‌جا سفیدِ سفید شد.",
+          "why": "پیشوند تأکیدی: هجای اول + m: be-m-beyaz."
         },
         {
           "type": "choice",
-          "t": "Deniz bugün ___.",
+          "task": "کدام پاسخ مناسب است؟",
+          "cue": "Yeni evinizi nasıl buldunuz?",
+          "t": "___",
           "options": [
-            "masmavi",
-            "mammavi",
-            "mapmavi"
+            "Harika! Ev tertemiz, bahçesi de yemyeşil.",
+            "Harika! Ev teptemiz, bahçesi de yemyeşil.",
+            "Harika! Ev tertemiz, bahçesi de yesyeşil."
           ],
           "answer": 0,
-          "s": "دریا امروز آبیِ آبی است."
+          "why": "شکل‌های درست ter-temiz و yem-yeşil است؛ این پیشوندها ثابت‌اند و باید حفظ شوند.",
+          "s": "عالی! خانه تمیزِ تمیز است و باغچه‌اش هم سبزِ سبز."
         },
         {
           "type": "choice",
@@ -530,7 +557,8 @@
             "tertemiz"
           ],
           "answer": 2,
-          "s": "اتاقت را جمع کردی؟ بله، اتاق تمیزِ تمیز شد."
+          "s": "اتاقت را جمع کردی؟ بله، اتاق تمیزِ تمیز شد.",
+          "why": "te + r + temiz: tertemiz."
         },
         {
           "type": "type",
@@ -538,7 +566,8 @@
           "answer": [
             "seve seve"
           ],
-          "s": "با کمال میل به دعوتتان می‌آیم."
+          "s": "با کمال میل به دعوتتان می‌آیم.",
+          "why": "تکرارِ ثابت: seve seve = «با کمال میل»."
         },
         {
           "type": "type",
@@ -550,7 +579,8 @@
             "günden güne",
             "gittikçe"
           ],
-          "s": "بیمار کم‌کم بهتر می‌شود."
+          "s": "بیمار کم‌کم بهتر می‌شود.",
+          "why": "تکرار برای «کم‌کم»: yavaş yavaş / azar azar."
         },
         {
           "type": "type",
@@ -558,7 +588,8 @@
           "answer": [
             "yepyeni"
           ],
-          "s": "این ماشین نوِ نو است؛ هنوز اصلاً استفاده نشده."
+          "s": "این ماشین نوِ نو است؛ هنوز اصلاً استفاده نشده.",
+          "why": "ye + p + yeni: yepyeni."
         },
         {
           "type": "order",
@@ -570,9 +601,15 @@
           ]
         },
         {
-          "type": "order",
-          "t": "Kar yağınca şehir bembeyaz oldu.",
-          "s": "برف که بارید، شهر سفیدِ سفید شد."
+          "type": "type",
+          "task": "با صفت تأکیدی بازنویسی کنید.",
+          "cue": "Sokaklar tamamen boştu.",
+          "t": "Sokaklar ___.",
+          "answer": [
+            "bomboştu"
+          ],
+          "why": "صفت تأکیدیِ boş: bo + m + boş ← bomboş؛ گذشته: bomboştu.",
+          "s": "خیابان‌ها خالیِ خالی بودند."
         }
       ]
     }
@@ -672,6 +709,18 @@
           "Deyimleri gerçek metinlerde ve konuşmalarda görmeyi"
         ],
         "answer": 2
+      },
+      {
+        "q": {
+          "t": "Yazar neden atasözlerine “ortak bir hazine” diyor?",
+          "s": "چرا نویسنده ضرب‌المثل‌ها را «گنجینه‌ای مشترک» می‌نامد؟"
+        },
+        "options": [
+          "Çünkü Türkçe ve Farsça bu deneyimleri büyük ölçüde paylaşıyor",
+          "Çünkü atasözleri çok para ediyor",
+          "Çünkü atasözlerini sadece uzmanlar biliyor"
+        ],
+        "answer": 0
       }
     ]
   },
@@ -694,7 +743,10 @@
     },
     {
       "t": "Çocuklar bahçede güle oynaya vakit geçirdi.",
-      "s": "بچه‌ها در حیاط با خنده و بازی وقت گذراندند."
+      "s": "بچه‌ها در حیاط با خنده و بازی وقت گذراندند.",
+      "alts": [
+        "Çocuklar güle oynaya bahçede vakit geçirdi."
+      ]
     },
     {
       "t": "Yaz gelince deniz masmavi olur.",
@@ -706,7 +758,10 @@
     },
     {
       "t": "Bayramı eş dostla birlikte kutladık.",
-      "s": "عید را با دوست و آشنا جشن گرفتیم."
+      "s": "عید را با دوست و آشنا جشن گرفتیم.",
+      "alts": [
+        "Eş dostla birlikte bayramı kutladık."
+      ]
     }
   ]
 }
