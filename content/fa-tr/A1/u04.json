@@ -8,10 +8,10 @@
     "s": "Yiyecek ve içecek"
   },
   "goals": [
-    "Yiyecek ve içecekleri Farsça söyleyebilmek.",
-    "Bir şey isteyip sipariş verebilmek: «Yek çây, lotfan.»",
-    "Sevdiğim ve sevmediğim şeyleri söyleyebilmek.",
-    "Belirli nesne işareti «râ» (را) ile tanışmak."
+    "Yiyecek ve içecekleri Farsça söyleyebilirim.",
+    "Bir şey isteyip sipariş verebilirim: «Yek çây, lotfan.»",
+    "Sevdiğim ve sevmediğim şeyleri söyleyebilirim.",
+    "Belirli nesne işareti «râ» (را) ile basit cümleler kurabilirim."
   ],
   "words": [
     {
@@ -122,7 +122,8 @@
         "t": "میوه دوست داری؟",
         "pr": "Mive dust dâri?",
         "s": "Meyve sever misin?"
-      }
+      },
+      "sym": true
     },
     {
       "id": "w10",
@@ -170,7 +171,8 @@
         "t": "آب، لطفاً.",
         "pr": "Âb, lotfan.",
         "s": "Su, lütfen."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w14",
@@ -322,7 +324,7 @@
         "pr": "mixâham, dust dâram",
         "s": "İstemek ve sevmek"
       },
-      "explain": "**mixâham** = istiyorum. Olumsuzu için başa **ne-** gelir: **nemixâham** = istemiyorum. Kişi ekleri yine aynı: **-am, -i, -ad, -im, -id, -and**.\nYazıda **می** ile fiil arasında yarım boşluk vardır: **می‌خواهم**. Dikkat: **خوا** 'xâ' okunur, **و** okunmaz!\n**dust dâram** = severim, hoşlanırım. Kelimesi kelimesine 'dost tutuyorum' demek: evet, Türkçedeki **dost** kelimesi! Olumsuzda sadece **dâram** değişir: **dust nadâram** = sevmem.\nKibarca bir şey istemek için Türkçedeki gibi isim + **lotfan** yeter: **Yek çây, lotfan.**",
+      "explain": "**mixâham** = istiyorum. Olumsuzu için başa **ne-** gelir: **nemixâham** = istemiyorum. Kişi ekleri yine aynı: **-am, -i, -ad, -im, -id, -and**.\nYazıda **می** ile fiil arasında yarım boşluk vardır: **می‌خواهم**. Dikkat: **خوا** 'xâ' okunur, **و** okunmaz!\n**dust dâram** = severim, hoşlanırım. Kelimesi kelimesine 'dost tutuyorum' demek: evet, Türkçedeki **dost** kelimesi! Olumsuzda sadece **dâram** değişir: **dust nadâram** = sevmem.\nKibarca bir şey istemek için Türkçedeki gibi isim + **lotfan** yeter: **Yek çây, lotfan.**\n**Konuşmada:** **mixâham → mixâm**, **mixâhi → mixây**, **mixâhad → mixâd**: *Çây mixây?* = Çay ister misin?\n**Kültür notu (taarof):** İranlı ev sahibi ikramda ısrar eder; misafir ilk teklifi kibarca geri çevirebilir (*Na, mamnun*), ev sahibi yine sunar. Çay çoğu zaman **ğand** (kesme şeker) ile içilir: şeker ağza alınır, çay üstünden yudumlanır. Esnaf bazen **ğâbel nadâre** (lafı olmaz) der: bu bir nezaket sözüdür, ödeme yine yapılır.",
       "table": [
         [
           "می‌خواهم",
@@ -379,16 +381,18 @@
       ],
       "exercises": [
         {
-          "type": "choice",
-          "t": "من یک چای ___.",
-          "options": [
-            "می‌خواهد",
-            "می‌خواهم",
-            "می‌خواهند"
+          "type": "type",
+          "task": "Olumsuz yapın.",
+          "cue": "من چای می‌خواهم.",
+          "cpr": "Man çây mixâham.",
+          "t": "من چای ___.",
+          "answer": [
+            "نمی‌خواهم",
+            "نمیخواهم"
           ],
-          "answer": 1,
-          "pr": "Man yek çây mixâham.",
-          "s": "Ben bir çay istiyorum."
+          "pr": "Man çây nemixâham.",
+          "s": "Ben çay istemiyorum.",
+          "why": "Olumsuz için mi- yerine nemi- gelir: mixâham → nemixâham."
         },
         {
           "type": "choice",
@@ -400,7 +404,8 @@
           ],
           "answer": 0,
           "pr": "U ğahve nemixâhad.",
-          "s": "O kahve istemiyor."
+          "s": "O kahve istemiyor.",
+          "why": "«u» (o) ile -ad: nemixâhad (istemiyor)."
         },
         {
           "type": "choice",
@@ -412,7 +417,8 @@
           ],
           "answer": 2,
           "pr": "To mive dust dâri?",
-          "s": "Meyve sever misin?"
+          "s": "Meyve sever misin?",
+          "why": "«to» (sen) ile dâştan: dust dâri? (sever misin?)"
         },
         {
           "type": "type",
@@ -421,7 +427,8 @@
             "ندارم"
           ],
           "pr": "Man panir dust nadâram.",
-          "s": "Ben peynir sevmem."
+          "s": "Ben peynir sevmem.",
+          "why": "«Sevmem»: dust + nadâram; sadece dâram olumsuz olur."
         },
         {
           "type": "type",
@@ -431,13 +438,24 @@
             "میخواهیم"
           ],
           "pr": "Mâ âb mixâhim.",
-          "s": "Biz su istiyoruz."
+          "s": "Biz su istiyoruz.",
+          "why": "«mâ» (biz) ile -im: mixâhim (istiyoruz)."
         },
         {
-          "type": "order",
-          "t": "من کباب دوست دارم.",
-          "pr": "Man kabâb dust dâram.",
-          "s": "Ben kebap severim."
+          "type": "choice",
+          "task": "Hangi cevap uygun?",
+          "cue": "چای یا قهوه؟",
+          "cpr": "Çây yâ ğahve?",
+          "t": "___",
+          "options": [
+            "چای، لطفاً.",
+            "نوش جان!",
+            "گرسنه‌ام."
+          ],
+          "answer": 0,
+          "pr": "Çây, lotfan.",
+          "s": "Çay, lütfen.",
+          "why": "«Çây yâ ğahve?» bir seçim sorar; cevap: seçtiğiniz şey + lotfan."
         },
         {
           "type": "order",
@@ -454,7 +472,7 @@
         "pr": "in sib râ mixâham",
         "s": "«râ»: belirli nesne işareti"
       },
-      "explain": "Türkçede belirli nesneye **-ı / -i** eki gelir: elma**yı** istiyorum. Farsçada bunun karşılığı **râ** (را) kelimesidir. Nesneden **sonra**, ayrı yazılır: **İn sib râ mixâham.** = Bu elmayı istiyorum.\nBelirsiz nesnede **râ** yoktur, tıpkı Türkçede '-ı' olmaması gibi: **Sib mixâham.** = Elma istiyorum.\nSıra Türkçedeki gibidir: özne – nesne (+ râ) – fiil.\nKonuşmada **râ** çoğu zaman **-ro / -o** gibi söylenir, ama yazıda hep **را** yazılır.",
+      "explain": "Türkçede belirli nesneye **-ı / -i** eki gelir: elma**yı** istiyorum. Farsçada bunun karşılığı **râ** (را) kelimesidir. Nesneden **sonra**, ayrı yazılır: **İn sib râ mixâham.** = Bu elmayı istiyorum.\nBelirsiz nesnede **râ** yoktur, tıpkı Türkçede '-ı' olmaması gibi: **Sib mixâham.** = Elma istiyorum.\nSıra Türkçedeki gibidir: özne – nesne (+ râ) – fiil.\nKonuşmada **râ** çoğu zaman **-ro / -o** gibi söylenir, ama yazıda hep **را** yazılır.\n**Tanıdık kelimeler:** çây (çay), şekar (şeker), panir (peynir), kabâb (kebap), mive (meyve), ğahve (kahve).\n**Okunuş hatırlatması:** **ğazâ** ve **ğahve** kelimelerindeki **ğ** (غ / ق) Türkçedeki yumuşak g gibi yutulmaz; boğazın derininden **açıkça** söylenir.",
       "examples": [
         {
           "t": "این سیب را می‌خواهم.",
@@ -488,7 +506,8 @@
           ],
           "answer": 1,
           "pr": "İn kabâb râ mixâham.",
-          "s": "Bu kebabı istiyorum."
+          "s": "Bu kebabı istiyorum.",
+          "why": "Belirli nesneden (in kabâb) sonra «râ» gelir; Türkçedeki -ı gibi."
         },
         {
           "type": "choice",
@@ -500,7 +519,8 @@
           ],
           "answer": 0,
           "pr": "Yek livân âb mixâham, lotfan.",
-          "s": "Bir bardak su istiyorum, lütfen."
+          "s": "Bir bardak su istiyorum, lütfen.",
+          "why": "Belirsiz nesnede (yek livân âb) râ yok; boşluğa fiil gelir: mixâham."
         },
         {
           "type": "type",
@@ -509,19 +529,21 @@
             "را"
           ],
           "pr": "İn ğazâ râ dust dâram.",
-          "s": "Bu yemeği seviyorum."
+          "s": "Bu yemeği seviyorum.",
+          "why": "«in ğazâ» belirli nesne, arkasına «râ» gelir: in ğazâ râ."
         },
         {
-          "type": "choice",
-          "t": "غذای مادرم ___ دوست دارم.",
-          "options": [
-            "را",
-            "است",
-            "هستم"
+          "type": "type",
+          "task": "«Bu kebabı» deyin: in + râ.",
+          "cue": "من کباب می‌خواهم.",
+          "cpr": "Man kabâb mixâham.",
+          "t": "من این کباب ___ می‌خواهم.",
+          "answer": [
+            "را"
           ],
-          "answer": 0,
-          "pr": "Ğazâ-ye mâdaram râ dust dâram.",
-          "s": "Annemin yemeğini severim."
+          "pr": "Man in kabâb râ mixâham.",
+          "s": "Ben bu kebabı istiyorum.",
+          "why": "Nesne belirli olunca (in kabâb = bu kebap) arkasına «râ» gelir."
         },
         {
           "type": "order",
@@ -530,10 +552,20 @@
           "s": "Bu peyniri istemiyorum."
         },
         {
-          "type": "order",
-          "t": "این میوه را دوست داری؟",
-          "pr": "İn mive râ dust dâri?",
-          "s": "Bu meyveyi sever misin?"
+          "type": "choice",
+          "task": "Hangi cevap doğru?",
+          "cue": "این کباب خیلی خوشمزه است!",
+          "cpr": "İn kabâb xeyli xoşmaze ast!",
+          "t": "___",
+          "options": [
+            "من این کباب را دوست دارم.",
+            "من این کباب دوست را دارم.",
+            "من را این کباب دوست دارم."
+          ],
+          "answer": 0,
+          "pr": "Man in kabâb râ dust dâram.",
+          "s": "Bu kebabı seviyorum.",
+          "why": "«râ» belirli nesnenin hemen arkasına gelir: in kabâb râ, sonra fiil."
         }
       ]
     }

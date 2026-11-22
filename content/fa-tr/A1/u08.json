@@ -10,7 +10,7 @@
   "goals": [
     "Fiyat sorabilir ve fiyatları tomanla söyleyebilirim.",
     "Renkleri söyleyip eşyaları tarif edebilirim.",
-    "\"in\" (bu) ve \"ân\" (şu/o) kelimelerini kullanabilirim."
+    "«in» (bu) ve «ân» (şu/o) kelimelerini kullanabilirim."
   ],
   "words": [
     {
@@ -50,6 +50,18 @@
       }
     },
     {
+      "id": "w15",
+      "t": "پنجاه",
+      "pr": "pancâh",
+      "s": "elli",
+      "emoji": "",
+      "ex": {
+        "t": "قیمتش پنجاه هزار تومان است.",
+        "pr": "Ğeymataş pancâh hezâr tomân ast.",
+        "s": "Fiyatı elli bin toman."
+      }
+    },
+    {
       "id": "w04",
       "t": "هزار",
       "s": "bin",
@@ -57,7 +69,7 @@
       "emoji": "",
       "ex": {
         "t": "این کتاب صد هزار تومان است.",
-        "s": "Bu kitap yüz bin toman. (sad = yüz, hezâr = bin)",
+        "s": "Bu kitap yüz bin toman.",
         "pr": "İn ketâb sad hezâr tomân ast."
       }
     },
@@ -71,7 +83,8 @@
         "t": "نان ده هزار تومان است.",
         "s": "Ekmek on bin toman.",
         "pr": "Nân dah hezâr tomân ast."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w06",
@@ -244,7 +257,7 @@
         "voice": "f"
       },
       "B": {
-        "name": "Amir",
+        "name": "Foruşande",
         "voice": "m"
       }
     },
@@ -316,7 +329,7 @@
       "id": "g01",
       "title": {
         "t": "این پیراهن قرمز",
-        "s": "\"in / ân\" ve renkler (ezafe ile)",
+        "s": "«in / ân» ve renkler (ezafe ile)",
         "pr": "in pirâhan-e ğermez"
       },
       "explain": "**in** = bu, **ân** = şu / o. Türkçedeki gibi ismin önüne gelir ve hiç değişmez: **in ketâb** (bu kitap), **in ketâbhâ** (bu kitaplar).\nRenkler (ve bütün sıfatlar) Türkçenin tersine ismin **arkasına** gelir ve araya **ezafe** (**-e**) girer: **pirâhan-e ğermez** = kırmızı gömlek. Kelime ünlüyle bitiyorsa **-ye** olur: **xâne-ye sefid** = beyaz ev. Ezafe yazıda genellikle görünmez, ama söylenir!\nSıfat yüklem olunca ezafe yoktur: **pirâhan-e ğermez** (kırmızı gömlek) ↔ **pirâhan ğermez ast** (gömlek kırmızı).\nTanıdık kelimeler: **rang** = renk (Türkçeye Farsçadan geçmiş), **ğermez** = kırmızı (aynı kökten), **âbi** = mavi (**âb** = su).",
@@ -400,7 +413,8 @@
           ],
           "answer": 0,
           "s": "Mavi bir gömlek istiyorum.",
-          "pr": "Man yek pirâhan-e âbi mixâham."
+          "pr": "Man yek pirâhan-e âbi mixâham.",
+          "why": "«Mavi» = âbi; renk ismin arkasına gelir: pirâhan-e âbi."
         },
         {
           "type": "choice",
@@ -412,7 +426,8 @@
           ],
           "answer": 0,
           "s": "Bu çanta siyah, şu çanta beyaz.",
-          "pr": "İn kif siyâh ast va ân kif sefid ast."
+          "pr": "İn kif siyâh ast va ân kif sefid ast.",
+          "why": "«Bu» = in, «şu/o» = ân: in kif … ân kif."
         },
         {
           "type": "choice",
@@ -424,19 +439,21 @@
           ],
           "answer": 1,
           "s": "Siyah bir çantam var.",
-          "pr": "Man kif-e siyâh dâram."
+          "pr": "Man kif-e siyâh dâram.",
+          "why": "Sıfat ismin arkasına gelir: kif-e siyâh. «kif-e siyâh ast» bir cümledir, burada uymaz."
         },
         {
-          "type": "choice",
-          "t": "برف ___ است.",
-          "options": [
-            "سیاه",
-            "سبز",
-            "سفید"
+          "type": "type",
+          "task": "«Kırmızı bir gömleğim var» deyin.",
+          "cue": "پیراهن قرمز است.",
+          "cpr": "Pirâhan ğermez ast.",
+          "t": "من یک ___ دارم.",
+          "answer": [
+            "پیراهن قرمز"
           ],
-          "answer": 2,
-          "s": "Kar beyaz.",
-          "pr": "Barf sefid ast."
+          "pr": "Man yek pirâhan-e ğermez dâram.",
+          "s": "Kırmızı bir gömleğim var.",
+          "why": "Sıfat ismin arkasına gelir, araya ezafe (-e) girer; ezafe yazılmaz: pirâhan-e ğermez."
         },
         {
           "type": "type",
@@ -445,7 +462,8 @@
             "آبی"
           ],
           "s": "Gökyüzü mavi.",
-          "pr": "Âsemân âbi ast."
+          "pr": "Âsemân âbi ast.",
+          "why": "«Mavi» = âbi (âb = su)."
         },
         {
           "type": "type",
@@ -454,13 +472,24 @@
             "این"
           ],
           "s": "Bu gömlek çok pahalı.",
-          "pr": "İn pirâhan xeyli gerân ast."
+          "pr": "İn pirâhan xeyli gerân ast.",
+          "why": "«Bu» = in; ismin önüne gelir ve değişmez."
         },
         {
-          "type": "order",
-          "t": "این پیراهن قرمز است.",
-          "s": "Bu gömlek kırmızı.",
-          "pr": "İn pirâhan ğermez ast."
+          "type": "choice",
+          "task": "Hangi cevap uygun?",
+          "cue": "چه رنگی دوست دارید؟",
+          "cpr": "Çe rangi dust dârid?",
+          "t": "___",
+          "options": [
+            "آبی را دوست دارم.",
+            "قیمتش چند است؟",
+            "خیلی گران است!"
+          ],
+          "answer": 0,
+          "pr": "Âbi râ dust dâram.",
+          "s": "Maviyi severim.",
+          "why": "«Çe rangi dust dârid?» bir renk sorar; cevapta renk söylenir."
         },
         {
           "type": "order",
@@ -477,7 +506,7 @@
         "s": "Fiyat sormak ve toman",
         "pr": "Ğeymataş çand ast?"
       },
-      "explain": "Fiyat sormanın en kolay yolu: **… çand ast?** = … ne kadar? **İn çand ast?** = Bu ne kadar?\nBir başka yol: **Ğeymataş çand ast?** = Fiyatı ne kadar? Sondaki **-aş** \"onun\" anlamındaki iyelik ekidir, Türkçedeki *fiyat-ı* gibi.\nİran'da fiyatlar konuşurken genellikle **toman** ile söylenir (geleneksel hesapla 1 toman = 10 riyal). Etiketlerde bazen riyal yazar, dikkat! Buradaki fiyatlar sadece örnektir; gerçek fiyatlar sık değişir.\nBüyük sayılar: **sad** = yüz, **hezâr** = bin, **milyun** = milyon. Sıralama Türkçedeki gibidir: **dah hezâr** = on bin, **sad hezâr** = yüz bin. **pânsad** (beş yüz) özel bir kelimedir.",
+      "explain": "Fiyat sormanın en kolay yolu: **… çand ast?** = … ne kadar? **İn çand ast?** = Bu ne kadar?\nBir başka yol: **Ğeymataş çand ast?** = Fiyatı ne kadar? Sondaki **-aş** «onun» anlamındaki iyelik ekidir, Türkçedeki *fiyat-ı* gibi.\nİran'da fiyatlar konuşurken genellikle **toman** ile söylenir (geleneksel hesapla 1 toman = 10 riyal). Etiketlerde bazen riyal yazar, dikkat! Buradaki fiyatlar sadece örnektir; gerçek fiyatlar sık değişir.\nBüyük sayılar: **sad** = yüz, **hezâr** = bin, **milyun** = milyon. Sıralama Türkçedeki gibidir: **dah hezâr** = on bin, **sad hezâr** = yüz bin. **pânsad** (beş yüz) özel bir kelimedir.\nOnlu sayıları (**si, çehel, pancâh** …) 2. ünitede öğrendiniz: **pancâh hezâr tomân** = elli bin toman, **sad hezâr** = yüz bin.",
       "table": [
         [
           "۱۰۰",
@@ -548,7 +577,8 @@
           ],
           "answer": 0,
           "s": "Bu gömlek ne kadar?",
-          "pr": "İn pirâhan çand ast?"
+          "pr": "İn pirâhan çand ast?",
+          "why": "Fiyat sormak: … çand ast? (ne kadar?)"
         },
         {
           "type": "choice",
@@ -560,7 +590,8 @@
           ],
           "answer": 1,
           "s": "Fiyatı yüz bin toman.",
-          "pr": "Ğeymataş sad hezâr tomân ast."
+          "pr": "Ğeymataş sad hezâr tomân ast.",
+          "why": "Sad hezâr = yüz bin; sıra Türkçedeki gibi: sayı + hezâr."
         },
         {
           "type": "choice",
@@ -572,19 +603,22 @@
           ],
           "answer": 2,
           "s": "Bu çanta çok pahalı!",
-          "pr": "İn kif xeyli gerân ast!"
+          "pr": "İn kif xeyli gerân ast!",
+          "why": "«Pahalı» = gerân; «arzân» ucuz demektir."
         },
         {
-          "type": "choice",
-          "t": "این کتاب ارزان است: ___ هزار تومان.",
-          "options": [
-            "پنج",
-            "پانصد",
-            "صد"
+          "type": "type",
+          "task": "Fiyat iki katına çıktı. Yeni fiyatı yazın.",
+          "cue": "قیمتش پنجاه هزار تومان است.",
+          "cpr": "Ğeymataş pancâh hezâr tomân ast.",
+          "t": "قیمتش ___ هزار تومان است.",
+          "answer": [
+            "صد",
+            "۱۰۰"
           ],
-          "answer": 0,
-          "s": "Bu kitap ucuz: beş bin toman.",
-          "pr": "İn ketâb arzân ast: panc hezâr tomân."
+          "pr": "Ğeymataş sad hezâr tomân ast.",
+          "s": "Fiyatı yüz bin toman.",
+          "why": "Elli (pancâh) × 2 = yüz (sad): sad hezâr = yüz bin."
         },
         {
           "type": "type",
@@ -593,7 +627,8 @@
             "چند"
           ],
           "s": "Bu ne kadar?",
-          "pr": "İn çand ast?"
+          "pr": "İn çand ast?",
+          "why": "«Bu ne kadar?» = İn çand ast?"
         },
         {
           "type": "type",
@@ -602,13 +637,24 @@
             "تومان"
           ],
           "s": "Fiyatı on bin toman.",
-          "pr": "Ğeymataş dah hezâr tomân ast."
+          "pr": "Ğeymataş dah hezâr tomân ast.",
+          "why": "Fiyatlar «tomân» ile söylenir: dah hezâr tomân."
         },
         {
-          "type": "order",
-          "t": "قیمتش چند است؟",
-          "s": "Fiyatı ne kadar?",
-          "pr": "Ğeymataş çand ast?"
+          "type": "choice",
+          "task": "Hangi cevap uygun?",
+          "cue": "قیمتش چند است؟",
+          "cpr": "Ğeymataş çand ast?",
+          "t": "___",
+          "options": [
+            "پانصد هزار تومان.",
+            "پیراهن آبی است.",
+            "بله، خیلی ارزان است."
+          ],
+          "answer": 0,
+          "pr": "Pânsad hezâr tomân.",
+          "s": "Beş yüz bin toman.",
+          "why": "«Ğeymataş çand ast?» fiyat sorar; cevap: sayı + tomân."
         },
         {
           "type": "order",

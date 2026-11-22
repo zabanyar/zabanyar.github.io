@@ -10,7 +10,7 @@
   "goals": [
     "Şehirde bir yerin nerede olduğunu sorabilirim.",
     "Basit bir yol tarifini anlayıp verebilirim.",
-    "\"be\" ile nereye gittiğimi söyleyebilirim."
+    "«be» ile nereye gittiğimi söyleyebilirim."
   ],
   "words": [
     {
@@ -71,7 +71,8 @@
         "t": "داروخانه کنار بیمارستان است.",
         "s": "Eczane hastanenin yanında.",
         "pr": "Dâruxâne kenâr-e bimârestân ast."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w06",
@@ -95,7 +96,8 @@
         "t": "بچه‌ها در پارک هستند.",
         "s": "Çocuklar parkta.",
         "pr": "Baççehâ dar pârk hastand."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w08",
@@ -107,7 +109,8 @@
         "t": "سر چهارراه به چپ بپیچید.",
         "s": "Kavşakta sola dönün.",
         "pr": "Sar-e çahârrâh be çap bepiçid."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w09",
@@ -244,7 +247,7 @@
         "voice": "m"
       },
       "B": {
-        "name": "Mina",
+        "name": "Xânom",
         "voice": "f"
       }
     },
@@ -390,7 +393,8 @@
           ],
           "answer": 0,
           "s": "Lütfen düz gidin.",
-          "pr": "Lotfan mostağim beravid."
+          "pr": "Lotfan mostağim beravid.",
+          "why": "Emir: mi- yerine be-: miravid → beravid (gidin)."
         },
         {
           "type": "choice",
@@ -402,7 +406,8 @@
           ],
           "answer": 1,
           "s": "Kavşakta sağa dönün.",
-          "pr": "Sar-e çahârrâh be râst bepiçid."
+          "pr": "Sar-e çahârrâh be râst bepiçid.",
+          "why": "Emir kipi be- + kök + -id: bepiçid (dönün). Mastar (piçidan) emir değildir."
         },
         {
           "type": "choice",
@@ -414,7 +419,8 @@
           ],
           "answer": 2,
           "s": "Maryam, gel!",
-          "pr": "Maryam, biyâ!"
+          "pr": "Maryam, biyâ!",
+          "why": "«Gel!» (sen): biyâ. âmadan düzensizdir."
         },
         {
           "type": "choice",
@@ -426,16 +432,22 @@
           ],
           "answer": 0,
           "s": "Sola dönmeyin! Banka sağda.",
-          "pr": "Be çap napiçid! Bânk samt-e râst ast."
+          "pr": "Be çap napiçid! Bânk samt-e râst ast.",
+          "why": "Olumsuz emir: be- yerine na-: napiçid (dönmeyin)."
         },
         {
           "type": "type",
+          "task": "«Siz» için kibarca söyleyin.",
+          "cue": "بیا!",
+          "cpr": "Biyâ!",
           "t": "لطفاً ___.",
           "answer": [
-            "بنشینید"
+            "بیایید",
+            "بیائید"
           ],
-          "s": "Lütfen oturun.",
-          "pr": "Lotfan beneşinid."
+          "pr": "Lotfan biyâyid.",
+          "s": "Lütfen gelin.",
+          "why": "«Siz» için emre -id eklenir; ünlüden sonra -yid: biyâ → biyâyid."
         },
         {
           "type": "type",
@@ -444,7 +456,8 @@
             "برو"
           ],
           "s": "Düz git!",
-          "pr": "Mostağim boro!"
+          "pr": "Mostağim boro!",
+          "why": "«Git!» (sen) düzensizdir: boro."
         },
         {
           "type": "order",
@@ -453,10 +466,20 @@
           "pr": "Sar-e çahârrâh be çap bepiçid."
         },
         {
-          "type": "order",
-          "t": "لطفاً مستقیم بروید.",
-          "s": "Lütfen düz gidin.",
-          "pr": "Lotfan mostağim beravid."
+          "type": "choice",
+          "task": "Hangi cevap uygun?",
+          "cue": "ببخشید، بانک کجاست؟",
+          "cpr": "Bebaxşid, bânk kocâst?",
+          "t": "___",
+          "options": [
+            "مستقیم بروید، سمت راست است.",
+            "به بانک می‌روم.",
+            "بانک خیلی بزرگ است."
+          ],
+          "answer": 0,
+          "pr": "Mostağim beravid, samt-e râst ast.",
+          "s": "Düz gidin, sağ tarafta.",
+          "why": "Yer sorulunca yol tarif edilir: emir kipi (beravid) + yön."
         }
       ]
     },
@@ -464,10 +487,10 @@
       "id": "g02",
       "title": {
         "t": "به بانک می‌روم. بانک کجاست؟",
-        "s": "\"be\" (-e/-a) ve \"kocâst?\" (nerede?)",
+        "s": "«be» (-e/-a) ve «kocâst?» (nerede?)",
         "pr": "Be bânk miravam. Bânk kocâst?"
       },
-      "explain": "Türkçede yön için isme **-e/-a** ekleriz: *bankaya*. Farsçada ise ismin **önüne** **be** edatı gelir: **be bânk** = bankaya. Ek yok, ünlü uyumu yok; her zaman **be**!\n**Be bânk miravam** = Bankaya gidiyorum. Fiil yine sonda.\nHatırlayın: **dar** = -de/-da. Yani **dar bânk** (bankada) ↔ **be bânk** (bankaya).\nBir yeri sormak için: isim + **kocâst?** (kocâ + ast): **Bânk kocâst?** = Banka nerede?\nCevapta yön: **samt-e râst** (sağ taraf), **samt-e çap** (sol taraf): Bânk **samt-e râst** ast = Banka sağda. Hareket için **be râst / be çap** (sağa / sola) ve **mostağim** (düz).",
+      "explain": "Türkçede yön için isme **-e/-a** ekleriz: *bankaya*. Farsçada ise ismin **önüne** **be** edatı gelir: **be bânk** = bankaya. Ek yok, ünlü uyumu yok; her zaman **be**!\n**Be bânk miravam** = Bankaya gidiyorum. Fiil yine sonda.\nHatırlayın: **dar** = -de/-da. Yani **dar bânk** (bankada) ↔ **be bânk** (bankaya).\nBir yeri sormak için: isim + **kocâst?** (kocâ + ast): **Bânk kocâst?** = Banka nerede?\nCevapta yön: **samt-e râst** (sağ taraf), **samt-e çap** (sol taraf): Bânk **samt-e râst** ast = Banka sağda. Hareket için **be râst / be çap** (sağa / sola) ve **mostağim** (düz).\n**Tanıdık kelimeler:** **şahr** = şehir; **bimârestân** (hastane) Osmanlıcadaki *bîmârhâne* ile akrabadır (**bimâr** = hasta); **bânk, pârk, metro, tâksi** uluslararası kelimeler.",
       "table": [
         [
           "به بانک",
@@ -533,7 +556,8 @@
           ],
           "answer": 0,
           "s": "Ben okula gidiyorum.",
-          "pr": "Man be madrese miravam."
+          "pr": "Man be madrese miravam.",
+          "why": "Yön (nereye): be + isim: be madrese (okula)."
         },
         {
           "type": "choice",
@@ -545,7 +569,8 @@
           ],
           "answer": 1,
           "s": "Annem hastanede çalışıyor.",
-          "pr": "Mâdaram dar bimârestân kâr mikonad."
+          "pr": "Mâdaram dar bimârestân kâr mikonad.",
+          "why": "Yer (nerede): dar + isim: dar bimârestân (hastanede)."
         },
         {
           "type": "choice",
@@ -557,7 +582,8 @@
           ],
           "answer": 2,
           "s": "Affedersiniz, eczane nerede?",
-          "pr": "Bebaxşid, dâruxâne kocâst?"
+          "pr": "Bebaxşid, dâruxâne kocâst?",
+          "why": "Yer sormak: … kocâst? (nerede)."
         },
         {
           "type": "choice",
@@ -569,7 +595,8 @@
           ],
           "answer": 0,
           "s": "Banka sağda.",
-          "pr": "Bânk samt-e râst ast."
+          "pr": "Bânk samt-e râst ast.",
+          "why": "«Sağda» = samt-e râst; «mostağim» bir taraf değil, «düz» demektir."
         },
         {
           "type": "type",
@@ -578,23 +605,38 @@
             "به"
           ],
           "s": "Biz parka gidiyoruz.",
-          "pr": "Mâ be pârk miravim."
+          "pr": "Mâ be pârk miravim.",
+          "why": "Gitmek fiiliyle yön: be + yer: be pârk miravim."
         },
         {
           "type": "type",
+          "task": "Bu yeri soran soruyu yazın.",
+          "cue": "ایستگاه مترو کنار پارک است.",
+          "cpr": "İstgâh-e metro kenâr-e pârk ast.",
           "t": "ایستگاه مترو ___؟",
           "answer": [
             "کجاست",
             "کجا است"
           ],
+          "pr": "İstgâh-e metro kocâst?",
           "s": "Metro istasyonu nerede?",
-          "pr": "İstgâh-e metro kocâst?"
+          "why": "Yer sorusu: isim + kocâst? (kocâ + ast = nerede)."
         },
         {
-          "type": "order",
-          "t": "من به بانک می‌روم.",
-          "s": "Ben bankaya gidiyorum.",
-          "pr": "Man be bânk miravam."
+          "type": "choice",
+          "task": "Hangi cevap uygun?",
+          "cue": "کجا می‌روی؟",
+          "cpr": "Kocâ miravi?",
+          "t": "___",
+          "options": [
+            "به داروخانه می‌روم.",
+            "در داروخانه هستم.",
+            "داروخانه کجاست؟"
+          ],
+          "answer": 0,
+          "pr": "Be dâruxâne miravam.",
+          "s": "Eczaneye gidiyorum.",
+          "why": "«Kocâ miravi?» yön sorar; cevapta «be» (-e) kullanılır, «dar» (-de) değil."
         },
         {
           "type": "order",

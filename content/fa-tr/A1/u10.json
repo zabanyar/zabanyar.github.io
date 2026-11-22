@@ -35,7 +35,8 @@
         "t": "بچه‌ها در پارک بازی می‌کنند.",
         "s": "Çocuklar parkta oynuyor.",
         "pr": "Baççehâ dar pârk bâzi mikonand."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w03",
@@ -59,7 +60,8 @@
         "t": "مادرم کتاب خواندن را دوست دارد.",
         "s": "Annem kitap okumayı sever.",
         "pr": "Mâdaram ketâb xândan râ dust dârad."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w05",
@@ -71,7 +73,8 @@
         "t": "شب با هم فیلم می‌بینیم.",
         "s": "Akşam birlikte film izliyoruz.",
         "pr": "Şab bâ ham film mibinim."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w06",
@@ -107,7 +110,8 @@
         "t": "پدرم آشپزی را دوست دارد.",
         "s": "Babam yemek yapmayı sever.",
         "pr": "Pedaram âşpazi râ dust dârad."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w09",
@@ -131,7 +135,8 @@
         "t": "ما عصر پیاده‌روی می‌کنیم.",
         "s": "Biz öğleden sonra yürüyüş yapıyoruz.",
         "pr": "Mâ asr piyâderavi mikonim."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w11",
@@ -155,7 +160,8 @@
         "t": "من می‌توانم فارسی بخوانم.",
         "s": "Farsça okuyabilirim.",
         "pr": "Man mitavânam fârsi bexânam."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w13",
@@ -167,7 +173,8 @@
         "t": "آخر هفته به پارک می‌رویم.",
         "s": "Hafta sonu parka gidiyoruz.",
         "pr": "Âxar-e hafte be pârk miravim."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w14",
@@ -179,6 +186,18 @@
         "t": "در وقت آزاد کتاب می‌خوانم.",
         "s": "Boş zamanımda kitap okurum.",
         "pr": "Dar vağt-e âzâd ketâb mixânam."
+      }
+    },
+    {
+      "id": "w15",
+      "t": "خسته",
+      "pr": "xaste",
+      "s": "yorgun (dikkat: Türkçedeki «hasta» değil!)",
+      "emoji": "😫",
+      "ex": {
+        "t": "امروز خیلی خسته هستم.",
+        "pr": "Emruz xeyli xaste hastam.",
+        "s": "Bugün çok yorgunum."
       }
     }
   ],
@@ -240,7 +259,7 @@
     },
     "speakers": {
       "A": {
-        "name": "Ali",
+        "name": "Amir",
         "voice": "m"
       },
       "B": {
@@ -281,9 +300,9 @@
       },
       {
         "sp": "B",
-        "t": "آیا استخر نزدیک است؟",
+        "t": "استخر نزدیک است؟",
         "s": "Havuz yakın mı?",
-        "pr": "Âyâ estaxr nazdik ast?"
+        "pr": "Estaxr nazdik ast?"
       },
       {
         "sp": "A",
@@ -319,7 +338,7 @@
         "s": "-ebilmek: mitavânam + dilek kipi",
         "pr": "Mitavânam şenâ konam."
       },
-      "explain": "Türkçede *yüz-ebil-irim* deriz, tek kelime. Farsçada iki fiil yan yana gelir: **mitavânam** (yapabilirim) + ikinci fiil **dilek kipinde**: **Mitavânam şenâ konam** = Yüzebilirim.\nDilek kipi kolay: **mi-** yerine **be-** gelir, şahıs ekleri aynı kalır: mixânam → **bexânam**, miravam → **beravam**. (Emir kipindeki be- ile aynı!) **kardan** ile kurulan fiillerde be- genellikle düşer: şenâ **konam**, bâzi **konam**.\nİki fiil de aynı kişiyle çekilir: **mitavâni** şenâ **koni?** = yüzebilir misin? **mitavânad bexânad** = okuyabilir.\nOlumsuzda sadece ilk fiil değişir: **nemitavânam beravam** = gidemem.",
+      "explain": "Türkçede *yüz-ebil-irim* deriz, tek kelime. Farsçada iki fiil yan yana gelir: **mitavânam** (yapabilirim) + ikinci fiil **dilek kipinde**: **Mitavânam şenâ konam** = Yüzebilirim.\nDilek kipi kolay: **mi-** yerine **be-** gelir, şahıs ekleri aynı kalır: mixânam → **bexânam**, miravam → **beravam**. (Emir kipindeki be- ile aynı!) **kardan** ile kurulan fiillerde be- genellikle düşer: şenâ **konam**, bâzi **konam**.\nİki fiil de aynı kişiyle çekilir: **mitavâni** şenâ **koni?** = yüzebilir misin? **mitavânad bexânad** = okuyabilir.\nOlumsuzda sadece ilk fiil değişir: **nemitavânam beravam** = gidemem.\n**Konuşmada:** **mitavânam → mitunam**, **nemitavânam → nemitunam**: *Mitunam şenâ konam.* = Yüzebilirim.",
       "table": [
         [
           "من",
@@ -381,16 +400,18 @@
       ],
       "exercises": [
         {
-          "type": "choice",
-          "t": "من می‌توانم شنا ___.",
-          "options": [
-            "کنم",
-            "کند",
-            "کنی"
+          "type": "type",
+          "task": "Olumsuz yapın.",
+          "cue": "من می‌توانم شنا کنم.",
+          "cpr": "Man mitavânam şenâ konam.",
+          "t": "من ___ شنا کنم.",
+          "answer": [
+            "نمی‌توانم",
+            "نمیتوانم"
           ],
-          "answer": 0,
-          "s": "Ben yüzebilirim.",
-          "pr": "Man mitavânam şenâ konam."
+          "pr": "Man nemitavânam şenâ konam.",
+          "s": "Ben yüzemem.",
+          "why": "Olumsuzda sadece ilk fiil değişir: mitavânam → nemitavânam; şenâ konam aynı kalır."
         },
         {
           "type": "choice",
@@ -402,7 +423,8 @@
           ],
           "answer": 1,
           "s": "Sara gitar çalabilir.",
-          "pr": "Sârâ mitavânad gitâr bezanad."
+          "pr": "Sârâ mitavânad gitâr bezanad.",
+          "why": "«Sârâ» üçüncü tekil kişi: mitavânad; ikinci fiil de -ad: bezanad."
         },
         {
           "type": "choice",
@@ -414,7 +436,8 @@
           ],
           "answer": 2,
           "s": "Farsça okuyabilir misin?",
-          "pr": "To mitavâni fârsi bexâni?"
+          "pr": "To mitavâni fârsi bexâni?",
+          "why": "İki fiil aynı kişiyle; ikincisi dilek kipinde: mitavâni … bexâni."
         },
         {
           "type": "choice",
@@ -426,7 +449,8 @@
           ],
           "answer": 0,
           "s": "Bugün parka gidemeyiz.",
-          "pr": "Mâ emruz nemitavânim be pârk beravim."
+          "pr": "Mâ emruz nemitavânim be pârk beravim.",
+          "why": "«mâ» (biz) + olumsuz: nemitavânim; beravim de aynı kişiyle."
         },
         {
           "type": "type",
@@ -435,7 +459,8 @@
             "کنم"
           ],
           "s": "Futbol oynayabilirim.",
-          "pr": "Man mitavânam futbâl bâzi konam."
+          "pr": "Man mitavânam futbâl bâzi konam.",
+          "why": "kardan fiillerinde dilek kipinde be- düşer: bâzi konam."
         },
         {
           "type": "type",
@@ -444,19 +469,30 @@
             "برود"
           ],
           "s": "O gidemez.",
-          "pr": "U nemitavânad beravad."
+          "pr": "U nemitavânad beravad.",
+          "why": "Dilek kipi: be- + kök + ek: beravad (gidebilir/gitsin)."
+        },
+        {
+          "type": "choice",
+          "task": "Hangi cevap uygun?",
+          "cue": "می‌توانی گیتار بزنی؟",
+          "cpr": "Mitavâni gitâr bezani?",
+          "t": "___",
+          "options": [
+            "نه، نمی‌توانم.",
+            "نه، ندارم.",
+            "نه، نیست."
+          ],
+          "answer": 0,
+          "pr": "Na, nemitavânam.",
+          "s": "Hayır, çalamam.",
+          "why": "«Mitavâni …?» (…-ebilir misin?) sorusuna «mitavânam / nemitavânam» ile cevap verilir."
         },
         {
           "type": "order",
-          "t": "من می‌توانم شنا کنم.",
-          "s": "Ben yüzebilirim.",
-          "pr": "Man mitavânam şenâ konam."
-        },
-        {
-          "type": "order",
-          "t": "رضا نمی‌تواند گیتار بزند.",
-          "s": "Reza gitar çalamaz.",
-          "pr": "Rezâ nemitavânad gitâr bezanad."
+          "t": "علی نمی‌تواند گیتار بزند.",
+          "s": "Ali gitar çalamaz.",
+          "pr": "Ali nemitavânad gitâr bezanad."
         }
       ]
     },
@@ -464,10 +500,10 @@
       "id": "g02",
       "title": {
         "t": "دوست دارم شنا کنم. آیا…؟",
-        "s": "\"dust dâram\" + fiil ve evet/hayır soruları",
+        "s": "«dust dâram» + fiil ve evet/hayır soruları",
         "pr": "Dust dâram şenâ konam. Âyâ…?"
       },
-      "explain": "**dust dâram** (severim) ile bir etkinlik söylemenin iki yolu var:\n1) Mastar + **râ**: **Şenâ kardan râ dust dâram** = Yüzmeyi severim (genel olarak).\n2) Dilek kipi: **Dust dâram şenâ konam** = Yüzmeyi severim / yüzmek isterim. **mixâham** ile de aynısı: **Mixâham beravam** = Gitmek istiyorum.\nEvet/hayır soruları çok kolay: Türkçedeki *mı/mi* eki yok! Cümle aynı kalır, sadece sonda sesinizi **yükseltirsiniz**: **Futbâl dust dâri?** ↗ = Futbolu sever misin?\nYazıda ya da resmî konuşmada başa **âyâ** eklenebilir: **Âyâ futbâl dust dâri?** Âyâ sadece \"bu bir soru\" işaretidir, anlamı değiştirmez.\nCevap: **bale** (evet) / **na** (hayır); kibar ve resmî: **xeyr** (hayır).",
+      "explain": "**dust dâram** (severim) ile bir etkinlik söylemenin iki yolu var:\n1) Mastar + **râ**: **Şenâ kardan râ dust dâram** = Yüzmeyi severim (genel olarak).\n2) Dilek kipi: **Dust dâram şenâ konam** = Yüzmeyi severim / yüzmek isterim. **mixâham** ile de aynısı: **Mixâham beravam** = Gitmek istiyorum.\nEvet/hayır soruları çok kolay: Türkçedeki *mı/mi* eki yok! Cümle aynı kalır, sadece sonda sesinizi **yükseltirsiniz**: **Futbâl dust dâri?** ↗ = Futbolu sever misin?\nYazıda ya da resmî konuşmada başa **âyâ** eklenebilir: **Âyâ futbâl dust dâri?** Âyâ sadece «bu bir soru» işaretidir, anlamı değiştirmez.\nCevap: **bale** (evet) / **na** (hayır); kibar ve resmî: **xeyr** (hayır).",
       "table": [
         [
           "شنا کردن را دوست دارم.",
@@ -533,7 +569,8 @@
           ],
           "answer": 0,
           "s": "Futbol oynamayı severim.",
-          "pr": "Man dust dâram futbâl bâzi konam."
+          "pr": "Man dust dâram futbâl bâzi konam.",
+          "why": "dust dâram + dilek kipi; «man» ile: bâzi konam."
         },
         {
           "type": "choice",
@@ -545,7 +582,8 @@
           ],
           "answer": 1,
           "s": "Yüzmeyi severim.",
-          "pr": "Man şenâ kardan râ dust dâram."
+          "pr": "Man şenâ kardan râ dust dâram.",
+          "why": "Mastar + râ: şenâ kardan râ (yüzmeyi). «konam» mastar değildir."
         },
         {
           "type": "choice",
@@ -557,19 +595,21 @@
           ],
           "answer": 2,
           "s": "Müziği sever misin?",
-          "pr": "Âyâ to musiği dust dâri?"
+          "pr": "Âyâ to musiği dust dâri?",
+          "why": "Evet/hayır sorusunun başına «âyâ» gelebilir; kocâ / çand başka sorulardır."
         },
         {
-          "type": "choice",
-          "t": "آیا امیر فوتبال بازی می‌کند؟ ___، هر جمعه.",
-          "options": [
-            "بله",
-            "نه",
-            "آیا"
+          "type": "type",
+          "task": "«Severim» ile yazın: dust dâram + dilek kipi.",
+          "cue": "من کتاب می‌خوانم.",
+          "cpr": "Man ketâb mixânam.",
+          "t": "من دوست دارم کتاب ___.",
+          "answer": [
+            "بخوانم"
           ],
-          "answer": 0,
-          "s": "Amir futbol oynar mı? Evet, her cuma.",
-          "pr": "Âyâ Amir futbâl bâzi mikonad? Bale, har com'e."
+          "pr": "Man dust dâram ketâb bexânam.",
+          "s": "Kitap okumayı severim.",
+          "why": "dust dâram'dan sonra ikinci fiil dilek kipindedir: mixânam → bexânam (mi- yerine be-)."
         },
         {
           "type": "type",
@@ -578,7 +618,8 @@
             "ببینم"
           ],
           "s": "Bu akşam film izlemek istiyorum.",
-          "pr": "Emşab mixâham film bebinam."
+          "pr": "Emşab mixâham film bebinam.",
+          "why": "mixâham + dilek kipi: film bebinam (izlemek istiyorum)."
         },
         {
           "type": "type",
@@ -588,13 +629,24 @@
             "تو"
           ],
           "s": "Bisikletin var mı?",
-          "pr": "Âyâ doçarxe dâri?"
+          "pr": "Âyâ doçarxe dâri?",
+          "why": "Soru başına «âyâ» gelir; ya da özne «to» yazılabilir."
         },
         {
-          "type": "order",
-          "t": "آیا تو فوتبال دوست داری؟",
-          "s": "Futbolu sever misin?",
-          "pr": "Âyâ to futbâl dust dâri?"
+          "type": "choice",
+          "task": "Hangi cevap uygun?",
+          "cue": "آیا فوتبال دوست داری؟",
+          "cpr": "Âyâ futbâl dust dâri?",
+          "t": "___",
+          "options": [
+            "بله، خیلی دوست دارم.",
+            "بله، فوتبال است.",
+            "بله، می‌توانی."
+          ],
+          "answer": 0,
+          "pr": "Bale, xeyli dust dâram.",
+          "s": "Evet, çok severim.",
+          "why": "Evet/hayır sorusuna «bale / na» + aynı fiil (dust dâram) ile cevap verilir."
         },
         {
           "type": "order",
@@ -648,9 +700,9 @@
         "pr": "Pedarbozorgam nemitavânad futbâl bâzi konad, vali çây mixorad va mixandad!"
       },
       {
-        "t": "شب با هم فیلم می‌بینیم.",
-        "s": "Akşam birlikte film izliyoruz.",
-        "pr": "Şab bâ ham film mibinim."
+        "t": "شب با خانواده‌ی خاله‌ام فیلم می‌بینیم.",
+        "s": "Akşam teyzemin ailesiyle film izliyoruz.",
+        "pr": "Şab bâ xânevâde-ye xâleam film mibinim."
       }
     ],
     "questions": [

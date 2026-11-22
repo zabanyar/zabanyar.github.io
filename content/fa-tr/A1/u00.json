@@ -8,10 +8,10 @@
     "s": "Fars alfabesi"
   },
   "goals": [
-    "Fars alfabesinin 32 harfini tanıyabilmek.",
-    "Farsçanın sağdan sola yazıldığını ve kısa ünlülerin yazılmadığını bilmek.",
-    "Türkçede olmayan sesleri (x, ğ/ق) doğru söyleyebilmek.",
-    "İlk basit kelimeleri okuyabilmek."
+    "Fars alfabesinin 32 harfini tanıyabilirim.",
+    "Farsçanın sağdan sola yazıldığını ve kısa ünlülerin yazılmadığını biliyorum.",
+    "Türkçede olmayan sesleri (x, ğ/ق) doğru söyleyebilirim.",
+    "İlk basit kelimeleri okuyabilirim."
   ],
   "letters": [
     {
@@ -599,7 +599,8 @@
         "t": "مادر و پدر.",
         "pr": "Mâdar va pedar.",
         "s": "Anne ve baba."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w07",
@@ -611,7 +612,8 @@
         "t": "سلام، پدر!",
         "pr": "Salâm, pedar!",
         "s": "Merhaba, baba!"
-      }
+      },
+      "sym": true
     },
     {
       "id": "w08",
@@ -635,7 +637,8 @@
         "t": "بله، این کتاب است.",
         "pr": "Bale, in ketâb ast.",
         "s": "Evet, bu bir kitap."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w10",
@@ -647,7 +650,8 @@
         "t": "نه، ممنون.",
         "pr": "Na, mamnun.",
         "s": "Hayır, teşekkürler."
-      }
+      },
+      "sym": true
     }
   ],
   "sentences": [

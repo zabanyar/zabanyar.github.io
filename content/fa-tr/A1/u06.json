@@ -10,7 +10,8 @@
   "goals": [
     "Saatin kaç olduğunu sorup söyleyebilirim.",
     "Günlük işlerimi Farsça anlatabilirim.",
-    "Fiilleri şimdiki/geniş zamanda (mi- ile) çekebilirim."
+    "Fiilleri şimdiki/geniş zamanda (mi- ile) çekebilirim.",
+    "Haftanın günlerini söyleyebilirim."
   ],
   "words": [
     {
@@ -35,7 +36,8 @@
         "t": "صبح چای می‌خورم.",
         "s": "Sabah çay içiyorum.",
         "pr": "Sobh çây mixoram."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w03",
@@ -47,7 +49,8 @@
         "t": "شب ساعت ده می‌خوابم.",
         "s": "Gece saat onda uyuyorum.",
         "pr": "Şab sâ'at-e dah mixâbam."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w04",
@@ -59,7 +62,8 @@
         "t": "صبحانه نان و پنیر می‌خورم.",
         "s": "Kahvaltıda ekmek ve peynir yiyorum.",
         "pr": "Sobhâne nân va panir mixoram."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w05",
@@ -71,7 +75,8 @@
         "t": "ساعت یک ناهار می‌خوریم.",
         "s": "Saat birde öğle yemeği yiyoruz.",
         "pr": "Sâ'at-e yek nâhâr mixorim."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w06",
@@ -119,7 +124,8 @@
         "t": "علی سیب می‌خورد.",
         "s": "Ali elma yiyor.",
         "pr": "Ali sib mixorad."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w10",
@@ -128,9 +134,9 @@
       "pr": "raftan",
       "emoji": "🚶",
       "ex": {
-        "t": "سارا هر روز به مدرسه می‌رود.",
-        "s": "Sara her gün okula gidiyor.",
-        "pr": "Sârâ har ruz be madrese miravad."
+        "t": "علی هر روز به مدرسه می‌رود.",
+        "s": "Ali her gün okula gidiyor.",
+        "pr": "Ali har ruz be madrese miravad."
       }
     },
     {
@@ -143,7 +149,8 @@
         "t": "مادرم در بیمارستان کار می‌کند.",
         "s": "Annem hastanede çalışıyor.",
         "pr": "Mâdaram dar bimârestân kâr mikonad."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w12",
@@ -155,7 +162,8 @@
         "t": "سارا کتاب می‌خواند.",
         "s": "Sara kitap okuyor.",
         "pr": "Sârâ ketâb mixânad."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w13",
@@ -179,6 +187,31 @@
         "t": "پدرم هر روز کار می‌کند.",
         "s": "Babam her gün çalışıyor.",
         "pr": "Pedaram har ruz kâr mikonad."
+      },
+      "sym": true
+    },
+    {
+      "id": "w15",
+      "t": "شنبه",
+      "pr": "şanbe",
+      "s": "cumartesi (haftanın ilk günü)",
+      "emoji": "",
+      "ex": {
+        "t": "من شنبه کار می‌کنم.",
+        "pr": "Man şanbe kâr mikonam.",
+        "s": "Cumartesi çalışıyorum."
+      }
+    },
+    {
+      "id": "w16",
+      "t": "جمعه",
+      "pr": "com'e",
+      "s": "cuma (İran'da tatil günü)",
+      "emoji": "",
+      "ex": {
+        "t": "جمعه کار نمی‌کنم.",
+        "pr": "Com'e kâr nemikonam.",
+        "s": "Cuma günü çalışmıyorum."
       }
     }
   ],
@@ -319,7 +352,7 @@
         "s": "Şimdiki / geniş zaman: mi- + kök + şahıs eki",
         "pr": "mixoram, miravam, mixâbam"
       },
-      "explain": "Farsçada **şimdiki zaman** ile **geniş zaman** aynı biçimdedir: **mixoram** hem \"yiyorum\" hem de \"yerim\" demektir.\nFormül: **mi-** + fiil kökü + şahıs eki. Ekler \"olmak\" fiilinden tanıdık: **-am, -i, -ad, -im, -id, -and**. Yalnızca üçüncü tekil kişi (o) farklı: **-ad** (mixorad = yiyor).\nMastarlar **-an** ile biter (-tan, -dan, -idan), Türkçedeki -mak/-mek gibi: xordan → kök **xor**, xâbidan → kök **xâb**. Bazı kökler düzensizdir, onları ezberleyin: raftan → **rav** (miravam), kardan → **kon** (mikonam), şodan → **şav** (mişavam).\n**kâr kardan, bidâr şodan** gibi birleşik fiillerde ilk kelime değişmez, sadece ikinci kısım çekilir: kâr **mikonam** = çalışıyorum. Türkçedeki \"yardım etmek\" gibi düşünün.\nOlumsuz için başa **ne-** gelir: **nemixoram** = yemiyorum / içmiyorum. Fiil, Türkçede olduğu gibi cümlenin sonundadır.\nİpucu: Farslar çay ve su için de genellikle **xordan** der: **çây mixoram** = çay içiyorum.",
+      "explain": "Farsçada **şimdiki zaman** ile **geniş zaman** aynı biçimdedir: **mixoram** hem «yiyorum» hem de «yerim» demektir.\nFormül: **mi-** + fiil kökü + şahıs eki. Ekler «olmak» fiilinden tanıdık: **-am, -i, -ad, -im, -id, -and**. Yalnızca üçüncü tekil kişi (o) farklı: **-ad** (mixorad = yiyor).\nMastarlar **-an** ile biter (-tan, -dan, -idan), Türkçedeki -mak/-mek gibi: xordan → kök **xor**, xâbidan → kök **xâb**. Bazı kökler düzensizdir, onları ezberleyin: raftan → **rav** (miravam), kardan → **kon** (mikonam), şodan → **şav** (mişavam).\n**kâr kardan, bidâr şodan** gibi birleşik fiillerde ilk kelime değişmez, sadece ikinci kısım çekilir: kâr **mikonam** = çalışıyorum. Türkçedeki «yardım etmek» gibi düşünün.\nOlumsuz için başa **ne-** gelir: **nemixoram** = yemiyorum / içmiyorum. Fiil, Türkçede olduğu gibi cümlenin sonundadır.\nİpucu: Farslar çay ve su için de genellikle **xordan** der: **çây mixoram** = çay içiyorum.\n**Konuşmada:** Tahran'da bu fiiller kısalır: **miravam → miram**, **miravi → miri**, **miravad → mire**, **mixorad → mixore**. Ailede *Kocâ miri?* (Nereye gidiyorsun?) diye duyabilirsiniz.",
       "table": [
         [
           "من",
@@ -390,31 +423,35 @@
           ],
           "answer": 0,
           "s": "Ben her gün saat yedide uyanıyorum.",
-          "pr": "Man har ruz sâ'at-e haft bidâr mişavam."
+          "pr": "Man har ruz sâ'at-e haft bidâr mişavam.",
+          "why": "«man» ile şahıs eki -am: bidâr mişavam (uyanıyorum)."
         },
         {
           "type": "choice",
-          "t": "علی در یک مدرسه کار ___.",
+          "t": "رضا در یک مدرسه کار ___.",
           "options": [
             "می‌کنم",
             "می‌کند",
             "می‌کنیم"
           ],
           "answer": 1,
-          "s": "Ali bir okulda çalışıyor.",
-          "pr": "Ali dar yek madrese kâr mikonad."
+          "s": "Reza bir okulda çalışıyor.",
+          "pr": "Rezâ dar yek madrese kâr mikonad.",
+          "why": "«Reza» üçüncü tekil kişi (o): -ad → kâr mikonad."
         },
         {
-          "type": "choice",
-          "t": "ما شب ساعت ده ___.",
-          "options": [
-            "می‌خوابند",
-            "می‌خوابیم",
-            "می‌خوابی"
+          "type": "type",
+          "task": "Cümleyi «u» (o) için yazın.",
+          "cue": "من هر روز کار می‌کنم.",
+          "cpr": "Man har ruz kâr mikonam.",
+          "t": "او هر روز کار ___.",
+          "answer": [
+            "می‌کند",
+            "میکند"
           ],
-          "answer": 1,
-          "s": "Biz gece saat onda uyuyoruz.",
-          "pr": "Mâ şab sâ'at-e dah mixâbim."
+          "pr": "U har ruz kâr mikonad.",
+          "s": "O her gün çalışıyor.",
+          "why": "Üçüncü tekil kişi (o) eki -ad: mikonam → mikonad."
         },
         {
           "type": "choice",
@@ -426,7 +463,8 @@
           ],
           "answer": 0,
           "s": "Çocuklar okula gidiyor.",
-          "pr": "Baççehâ be madrese miravand."
+          "pr": "Baççehâ be madrese miravand.",
+          "why": "«baççehâ» (çocuklar) çoğul: -and → miravand."
         },
         {
           "type": "type",
@@ -436,7 +474,8 @@
             "میخوری"
           ],
           "s": "Sen kahvaltıda ne yiyorsun?",
-          "pr": "To sobhâne çe mixori?"
+          "pr": "To sobhâne çe mixori?",
+          "why": "«to» (sen) ile -i: mixori (yiyorsun)."
         },
         {
           "type": "type",
@@ -446,16 +485,24 @@
             "نمیخورم"
           ],
           "s": "Ben kahve içmiyorum.",
-          "pr": "Man ğahve nemixoram."
+          "pr": "Man ğahve nemixoram.",
+          "why": "Olumsuz: mi- yerine nemi-: nemixoram (içmiyorum)."
         },
         {
-          "type": "order",
-          "t": "من ساعت هفت بیدار می‌شوم.",
-          "s": "Ben saat yedide uyanıyorum.",
-          "pr": "Man sâ'at-e haft bidâr mişavam.",
-          "alts": [
-            "ساعت هفت من بیدار می‌شوم."
-          ]
+          "type": "choice",
+          "task": "Hangi cevap uygun?",
+          "cue": "تو الان چه کار می‌کنی؟",
+          "cpr": "To alân çe kâr mikoni?",
+          "t": "___",
+          "options": [
+            "کتاب می‌خوانم.",
+            "ساعت هشت است.",
+            "خوبم، ممنون."
+          ],
+          "answer": 0,
+          "pr": "Ketâb mixânam.",
+          "s": "Kitap okuyorum.",
+          "why": "«Çe kâr mikoni?» = ne yapıyorsun; cevap bir fiille verilir: ketâb mixânam."
         },
         {
           "type": "order",
@@ -475,7 +522,7 @@
         "s": "Saat kaç? Saat kaçta?",
         "pr": "Sâ'at çand ast? Sâ'at-e çand?"
       },
-      "explain": "Saati sormak için: **Sâ'at çand ast?** = Saat kaç? Cevap: **sâ'at** + sayı + **ast**: Sâ'at haft ast = Saat yedi.\n\"Buçuk\" için **va nim** (ve yarım) deriz: Sâ'at haft va nim ast = Saat yedi buçuk. \"Çeyrek\" için **va rob'**: Sâ'at haft va rob' ast = Saat yediyi çeyrek geçiyor.\n\"Saat kaçta?\" demek için ezafe kullanırız: **Sâ'at-e çand?** Cevap: **sâ'at-e haft** = saat yedide. Türkçedeki **-de/-da** için ayrı bir edat gerekmez; saat ile sayının arasına sadece ezafe girer.\nKarşılaştırın: **Sâ'at haft ast.** = Saat yedi. ↔ **Sâ'at-e haft mixâbam.** = Saat yedide uyuyorum. Ezafe yazıda görünmez, ama söylenir.",
+      "explain": "Saati sormak için: **Sâ'at çand ast?** = Saat kaç? Cevap: **sâ'at** + sayı + **ast**: Sâ'at haft ast = Saat yedi.\n«Buçuk» için **va nim** (ve yarım) deriz: Sâ'at haft va nim ast = Saat yedi buçuk. «Çeyrek» için **va rob'**: Sâ'at haft va rob' ast = Saat yediyi çeyrek geçiyor.\n«Saat kaçta?» demek için ezafe kullanırız: **Sâ'at-e çand?** Cevap: **sâ'at-e haft** = saat yedide. Türkçedeki **-de/-da** için ayrı bir edat gerekmez; saat ile sayının arasına sadece ezafe girer.\nKarşılaştırın: **Sâ'at haft ast.** = Saat yedi. ↔ **Sâ'at-e haft mixâbam.** = Saat yedide uyuyorum. Ezafe yazıda görünmez, ama söylenir.",
       "table": [
         [
           "ساعت هفت است.",
@@ -541,7 +588,8 @@
           ],
           "answer": 1,
           "s": "Saat kaç? Saat dokuz.",
-          "pr": "Sâ'at çand ast? Sâ'at noh ast."
+          "pr": "Sâ'at çand ast? Sâ'at noh ast.",
+          "why": "Saat sorusu: «Sâ'at çand ast?» (çand = kaç)."
         },
         {
           "type": "choice",
@@ -553,7 +601,8 @@
           ],
           "answer": 0,
           "s": "Saat yedi buçuk.",
-          "pr": "Sâ'at haft va nim ast."
+          "pr": "Sâ'at haft va nim ast.",
+          "why": "«Buçuk» = va nim: haft va nim (yedi buçuk)."
         },
         {
           "type": "choice",
@@ -565,7 +614,8 @@
           ],
           "answer": 2,
           "s": "Maryam saat onda uyuyor.",
-          "pr": "Maryam sâ'at-e dah mixâbad."
+          "pr": "Maryam sâ'at-e dah mixâbad.",
+          "why": "«Maryam» üçüncü tekil kişi: -ad → mixâbad."
         },
         {
           "type": "type",
@@ -574,22 +624,37 @@
             "است"
           ],
           "s": "Saat kaç?",
-          "pr": "Sâ'at çand ast?"
+          "pr": "Sâ'at çand ast?",
+          "why": "Saat sorusu «ast» ile biter: Sâ'at çand ast?"
         },
         {
           "type": "type",
-          "t": "ساعت یازده و ___ است.",
+          "task": "Bir saat sonrasını yazın.",
+          "cue": "ساعت هفت است.",
+          "cpr": "Sâ'at haft ast.",
+          "t": "ساعت ___ است.",
           "answer": [
-            "نیم"
+            "هشت"
           ],
-          "s": "Saat on bir buçuk.",
-          "pr": "Sâ'at yâzdah va nim ast."
+          "pr": "Sâ'at haşt ast.",
+          "s": "Saat sekiz.",
+          "why": "Yedi (haft) + bir = sekiz (haşt); kalıp: sâ'at + sayı + ast."
         },
         {
-          "type": "order",
-          "t": "ساعت چند بیدار می‌شوی؟",
-          "s": "Saat kaçta uyanıyorsun?",
-          "pr": "Sâ'at-e çand bidâr mişavi?"
+          "type": "choice",
+          "task": "Hangi cevap uygun?",
+          "cue": "ساعت چند است؟",
+          "cpr": "Sâ'at çand ast?",
+          "t": "___",
+          "options": [
+            "ساعت ده است.",
+            "ساعت ده می‌خوابم.",
+            "ده سال دارم."
+          ],
+          "answer": 0,
+          "pr": "Sâ'at dah ast.",
+          "s": "Saat on.",
+          "why": "«Sâ'at çand ast?» saati sorar: «Sâ'at dah ast.» «Sâ'at-e dah» ise «saat onda» demektir."
         },
         {
           "type": "order",
@@ -599,6 +664,164 @@
           "alts": [
             "ساعت الان هشت است."
           ]
+        }
+      ]
+    },
+    {
+      "id": "g03",
+      "title": {
+        "t": "روزهای هفته",
+        "pr": "ruzhâ-ye hafte",
+        "s": "Haftanın günleri"
+      },
+      "explain": "Haftanın günleri çok kolay! Hafta **şanbe** (cumartesi) ile başlar; sonraki günler **sayı + şanbe**'dir: **yekşanbe** (pazar, 'bir-şanbe'), **doşanbe** (pazartesi), **seşanbe** (salı), **çahârşanbe** (çarşamba), **pancşanbe** (perşembe). Türkçedeki **çarşamba** ve **perşembe** de bu Farsça kelimelerden gelir!\n**com'e** (cuma) İran'da hafta sonu tatilidir; okullar ve çoğu iş yeri cuma kapalıdır.\n**hafte** = hafta, **ruz** = gün. Gün sormak için: **Emruz çe ruzi ast?** = Bugün günlerden ne? Cevap: **Emruz doşanbe ast.**\n«Pazartesi günü» demek için edat gerekmez: **Doşanbe kâr mikonam.** «Cumaları» için **-hâ** eklenir: **com'ehâ**.\nOkunuş: **şanbe** konuşmada çoğu zaman *şambe* diye söylenir. **سه‌شنبه** yazılırken **سه** ile **شنبه** arasında yarım boşluk vardır.",
+      "table": [
+        [
+          "شنبه",
+          "şanbe",
+          "cumartesi"
+        ],
+        [
+          "یکشنبه",
+          "yekşanbe",
+          "pazar"
+        ],
+        [
+          "دوشنبه",
+          "doşanbe",
+          "pazartesi"
+        ],
+        [
+          "سه‌شنبه",
+          "seşanbe",
+          "salı"
+        ],
+        [
+          "چهارشنبه",
+          "çahârşanbe",
+          "çarşamba"
+        ],
+        [
+          "پنجشنبه",
+          "pancşanbe",
+          "perşembe"
+        ],
+        [
+          "جمعه",
+          "com'e",
+          "cuma"
+        ]
+      ],
+      "examples": [
+        {
+          "t": "امروز چه روزی است؟ امروز دوشنبه است.",
+          "pr": "Emruz çe ruzi ast? Emruz doşanbe ast.",
+          "s": "Bugün günlerden ne? Bugün pazartesi."
+        },
+        {
+          "t": "من شنبه تا چهارشنبه کار می‌کنم.",
+          "pr": "Man şanbe tâ çahârşanbe kâr mikonam.",
+          "s": "Cumartesiden çarşambaya kadar çalışıyorum."
+        },
+        {
+          "t": "جمعه‌ها به خانه‌ی پدربزرگ می‌رویم.",
+          "pr": "Com'ehâ be xâne-ye pedarbozorg miravim.",
+          "s": "Cumaları büyükbabamın evine gidiyoruz."
+        },
+        {
+          "t": "پنجشنبه شب با خانواده شام می‌خوریم.",
+          "pr": "Pancşanbe şab bâ xânevâde şâm mixorim.",
+          "s": "Perşembe akşamı ailece akşam yemeği yiyoruz."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "choice",
+          "t": "شنبه، یکشنبه، ___",
+          "options": [
+            "دوشنبه",
+            "جمعه",
+            "سه‌شنبه"
+          ],
+          "answer": 0,
+          "pr": "Şanbe, yekşanbe, doşanbe",
+          "s": "Cumartesi, pazar, pazartesi",
+          "why": "Sıra: şanbe, yek-şanbe, do-şanbe… Her gün sayı bir artar."
+        },
+        {
+          "type": "choice",
+          "t": "امروز ___ است؟ امروز جمعه است.",
+          "options": [
+            "چه روزی",
+            "چند سال",
+            "کجا"
+          ],
+          "answer": 0,
+          "pr": "Emruz çe ruzi ast? Emruz com'e ast.",
+          "s": "Bugün günlerden ne? Bugün cuma.",
+          "why": "Gün sormak: «Emruz çe ruzi ast?» «Çand sâl» yaşı, «kocâ» yeri sorar."
+        },
+        {
+          "type": "type",
+          "t": "یکشنبه، دوشنبه، ___",
+          "answer": [
+            "سه‌شنبه",
+            "سه شنبه",
+            "سهشنبه"
+          ],
+          "pr": "Yekşanbe, doşanbe, seşanbe",
+          "s": "Pazar, pazartesi, salı",
+          "why": "se (3) + şanbe = seşanbe (salı). سه ile شنبه arasında yarım boşluk."
+        },
+        {
+          "type": "type",
+          "t": "پنجشنبه، ___",
+          "answer": [
+            "جمعه"
+          ],
+          "pr": "Pancşanbe, com'e",
+          "s": "Perşembe, cuma",
+          "why": "Perşembeden (pancşanbe) sonra cuma (com'e) gelir; İran'da tatil günü."
+        },
+        {
+          "type": "type",
+          "task": "«Cumaları» (her cuma) deyin.",
+          "cue": "جمعه کار نمی‌کنم.",
+          "cpr": "Com'e kâr nemikonam.",
+          "t": "___ کار نمی‌کنم.",
+          "answer": [
+            "جمعه‌ها",
+            "جمعهها",
+            "جمعه ها"
+          ],
+          "pr": "Com'ehâ kâr nemikonam.",
+          "s": "Cumaları çalışmıyorum.",
+          "why": "«Her cuma» için güne çoğul eki -hâ eklenir: com'e → com'ehâ (cumaları)."
+        },
+        {
+          "type": "choice",
+          "task": "Hangi cevap uygun?",
+          "cue": "امروز چه روزی است؟",
+          "cpr": "Emruz çe ruzi ast?",
+          "t": "___",
+          "options": [
+            "امروز سه‌شنبه است.",
+            "ساعت سه است.",
+            "سه سال دارم."
+          ],
+          "answer": 0,
+          "pr": "Emruz seşanbe ast.",
+          "s": "Bugün salı.",
+          "why": "«Çe ruzi?» günü sorar; «sâ'at» saati, «sâl» yaşı anlatır."
+        },
+        {
+          "type": "order",
+          "t": "ما جمعه کار نمی‌کنیم.",
+          "alts": [
+            "جمعه ما کار نمی‌کنیم."
+          ],
+          "pr": "Mâ com'e kâr nemikonim.",
+          "s": "Biz cuma günü çalışmıyoruz."
         }
       ]
     }
@@ -718,9 +941,9 @@
       "pr": "Mâ bâ ham şâm mixorim."
     },
     {
-      "t": "امیر ساعت هشت به مدرسه می‌رود.",
-      "s": "Amir saat sekizde okula gidiyor.",
-      "pr": "Amir sâ'at-e haşt be madrese miravad."
+      "t": "امید ساعت هشت به مدرسه می‌رود.",
+      "s": "Omid saat sekizde okula gidiyor.",
+      "pr": "Omid sâ'at-e haşt be madrese miravad."
     },
     {
       "t": "تو الان چه کار می‌کنی؟",
@@ -728,9 +951,9 @@
       "pr": "To alân çe kâr mikoni?"
     },
     {
-      "t": "مینا در بیمارستان کار می‌کند.",
-      "s": "Mina hastanede çalışıyor.",
-      "pr": "Minâ dar bimârestân kâr mikonad."
+      "t": "پدر مریم در بیمارستان کار می‌کند.",
+      "s": "Maryam'ın babası hastanede çalışıyor.",
+      "pr": "Pedar-e Maryam dar bimârestân kâr mikonad."
     },
     {
       "t": "ساعت هشت و نیم است.",

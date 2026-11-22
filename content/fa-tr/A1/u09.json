@@ -71,7 +71,8 @@
         "t": "تابستان هوا گرم است.",
         "s": "Yazın hava sıcak.",
         "pr": "Tâbestân havâ garm ast."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w06",
@@ -107,7 +108,8 @@
         "t": "بهار فصل گل است.",
         "s": "İlkbahar çiçek mevsimidir.",
         "pr": "Bahâr fasl-e gol ast."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w09",
@@ -119,7 +121,8 @@
         "t": "تابستان به دریا می‌رویم.",
         "s": "Yazın denize gidiyoruz.",
         "pr": "Tâbestân be daryâ miravim."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w10",
@@ -131,7 +134,8 @@
         "t": "پاییز برگ‌ها زرد می‌شوند.",
         "s": "Sonbaharda yapraklar sararır.",
         "pr": "Pâyiz barghâ zard mişavand."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w11",
@@ -143,7 +147,8 @@
         "t": "من زمستان را دوست دارم.",
         "s": "Kışı severim.",
         "pr": "Man zemestân râ dust dâram."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w12",
@@ -167,7 +172,8 @@
         "t": "سال دوازده ماه دارد.",
         "s": "Yılın on iki ayı var.",
         "pr": "Sâl davâzdah mâh dârad."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w14",
@@ -179,7 +185,8 @@
         "t": "نوروز جشن سال نو است.",
         "s": "Nevruz yeni yıl bayramıdır.",
         "pr": "Nowruz caşn-e sâl-e now ast."
-      }
+      },
+      "sym": true
     }
   ],
   "phrases": [
@@ -319,7 +326,7 @@
         "s": "Havayı anlatmak",
         "pr": "Havâ âftâbi ast. Bârân miâyad."
       },
-      "explain": "Havayı anlatmanın iki yolu var.\n1) **havâ** + sıfat + **ast**: Havâ **garm** ast = Hava sıcak. Havâ **sard / abri / âftâbi** ast. Türkçedeki *hava* kelimesiyle aynı!\n2) Yağmur ve kar için Farslar **\"gelmek\"** fiilini kullanır: **bârân miâyad** = yağmur yağıyor (kelimesi kelimesine: yağmur geliyor), **barf miâyad** = kar yağıyor. Olumsuz: **bârân nemiâyad** = yağmur yağmıyor.\n**-i** eki isimden sıfat yapar, Türkçedeki **-li** gibi: **âftâb** (güneş) → **âftâbi** (güneşli), **abr** (bulut) → **abri** (bulutlu).\nSoru: **Havâ çetor ast?** = Hava nasıl?",
+      "explain": "Havayı anlatmanın iki yolu var.\n1) **havâ** + sıfat + **ast**: Havâ **garm** ast = Hava sıcak. Havâ **sard / abri / âftâbi** ast. Türkçedeki *hava* kelimesiyle aynı!\n2) Yağmur ve kar için Farslar **«gelmek»** fiilini kullanır: **bârân miâyad** = yağmur yağıyor (kelimesi kelimesine: yağmur geliyor), **barf miâyad** = kar yağıyor. Olumsuz: **bârân nemiâyad** = yağmur yağmıyor.\n**-i** eki isimden sıfat yapar, Türkçedeki **-li** gibi: **âftâb** (güneş) → **âftâbi** (güneşli), **abr** (bulut) → **abri** (bulutlu).\nSoru: **Havâ çetor ast?** = Hava nasıl?\n**Tanıdık kelimeler:** **havâ** (hava), **bahâr** (bahar), **fasl** (mevsim; Türkçedeki *fasıl* ile aynı kelime), **nowruz** (Nevruz).",
       "table": [
         [
           "هوا آفتابی است.",
@@ -390,7 +397,8 @@
           ],
           "answer": 0,
           "s": "Bugün hava güneşli.",
-          "pr": "Emruz havâ âftâbi ast."
+          "pr": "Emruz havâ âftâbi ast.",
+          "why": "Sıfat lazım: âftâbi (güneşli). bârân ve barf isimdir; onlarla «miâyad» kullanılır."
         },
         {
           "type": "choice",
@@ -402,7 +410,8 @@
           ],
           "answer": 1,
           "s": "Yağmur yağıyor.",
-          "pr": "Bârân miâyad."
+          "pr": "Bârân miâyad.",
+          "why": "Yağmur için «gelmek» fiili kullanılır: bârân miâyad."
         },
         {
           "type": "choice",
@@ -414,7 +423,8 @@
           ],
           "answer": 2,
           "s": "Kışın hava soğuk.",
-          "pr": "Zemestân havâ sard ast."
+          "pr": "Zemestân havâ sard ast.",
+          "why": "Kışın (zemestân) hava soğuktur: sard."
         },
         {
           "type": "choice",
@@ -426,17 +436,22 @@
           ],
           "answer": 0,
           "s": "Hava nasıl?",
-          "pr": "Havâ çetor ast?"
+          "pr": "Havâ çetor ast?",
+          "why": "«Nasıl?» = çetor: Havâ çetor ast?"
         },
         {
           "type": "type",
-          "t": "برف ___.",
+          "task": "Olumsuz yapın.",
+          "cue": "امروز باران می‌آید.",
+          "cpr": "Emruz bârân miâyad.",
+          "t": "امروز باران ___.",
           "answer": [
-            "می‌آید",
-            "میآید"
+            "نمی‌آید",
+            "نمیآید"
           ],
-          "s": "Kar yağıyor.",
-          "pr": "Barf miâyad."
+          "pr": "Emruz bârân nemiâyad.",
+          "s": "Bugün yağmur yağmıyor.",
+          "why": "Olumsuz: mi- yerine nemi-: miâyad → nemiâyad."
         },
         {
           "type": "type",
@@ -445,7 +460,8 @@
             "ابری"
           ],
           "s": "Hava bulutlu.",
-          "pr": "Havâ abri ast."
+          "pr": "Havâ abri ast.",
+          "why": "«Bulutlu» = abri (abr = bulut + -i)."
         },
         {
           "type": "order",
@@ -457,10 +473,20 @@
           ]
         },
         {
-          "type": "order",
-          "t": "در تبریز برف می‌آید.",
-          "s": "Tebriz'de kar yağıyor.",
-          "pr": "Dar Tabriz barf miâyad."
+          "type": "choice",
+          "task": "Hangi cevap uygun?",
+          "cue": "هوا چطور است؟",
+          "cpr": "Havâ çetor ast?",
+          "t": "___",
+          "options": [
+            "هوا سرد است و برف می‌آید.",
+            "من بهار را دوست دارم.",
+            "نوروز مبارک!"
+          ],
+          "answer": 0,
+          "pr": "Havâ sard ast va barf miâyad.",
+          "s": "Hava soğuk ve kar yağıyor.",
+          "why": "«Havâ çetor ast?» havayı sorar; cevap: havâ + sıfat + ast ya da bârân/barf miâyad."
         }
       ]
     },
@@ -471,7 +497,7 @@
         "s": "Mevsimler, İran ayları ve Nevruz",
         "pr": "faslhâ va mâhhâ"
       },
-      "explain": "İran'da resmî takvim **güneş takvimi**dir. Yıl, ilkbaharın ilk günü (20–21 Mart) **Nowruz** (Nevruz) ile başlar: **avval-e farvardin** = 1 Farvardin.\nHer mevsimin üç ayı var. **Bahâr**: farvardin, ordibeheşt, xordâd. **Tâbestân**: tir, mordâd, şahrivar. **Pâyiz**: mehr, âbân, âzar. **Zemestân**: dey, bahman, esfand. İlk altı ay 31 gün, sonraki beş ay 30 gün, esfand ise 29 (artık yılda 30) gündür.\nNevruz'da aileler **haftsin** sofrası kurar: \"s\" sesiyle başlayan yedi şey (sabze, sib, sir, serke, somâğ…). Büyükler çocuklara **eydi** (bayram harçlığı) verir. 13 Farvardin'de (**sizdah bedar**) herkes pikniğe, doğaya çıkar.\n\"… ayında\" demek için **dar** kullanılır: **dar mehr** = Mehr ayında. Mevsimlerde edat çoğu zaman düşer: **zemestân barf miâyad** = kışın kar yağar.",
+      "explain": "İran'da resmî takvim **güneş takvimi**dir. Yıl, ilkbaharın ilk günü (20–21 Mart) **Nowruz** (Nevruz) ile başlar: **avval-e farvardin** = 1 Farvardin.\nHer mevsimin üç ayı var. **Bahâr**: farvardin, ordibeheşt, xordâd. **Tâbestân**: tir, mordâd, şahrivar. **Pâyiz**: mehr, âbân, âzar. **Zemestân**: dey, bahman, esfand. İlk altı ay 31 gün, sonraki beş ay 30 gün, esfand ise 29 (artık yılda 30) gündür.\nNevruz'da aileler **haftsin** sofrası kurar: «s» sesiyle başlayan yedi şey (sabze, sib, sir, serke, somâğ…). Büyükler çocuklara **eydi** (bayram harçlığı) verir. 13 Farvardin'de (**sizdah bedar**) herkes pikniğe, doğaya çıkar.\n«… ayında» demek için **dar** kullanılır: **dar mehr** = Mehr ayında. Mevsimlerde edat çoğu zaman düşer: **zemestân barf miâyad** = kışın kar yağar.\n**Şab-e yaldâ:** Yılın en uzun gecesi (âzar ayının son gecesi, 20–21 Aralık) aileler büyüklerin evinde toplanır; karpuz ve nar yenir, Hâfız'ın şiirleri okunur.",
       "table": [
         [
           "بهار",
@@ -532,7 +558,8 @@
           ],
           "answer": 0,
           "s": "Nevruz 1 Farvardin'de.",
-          "pr": "Nowruz avval-e farvardin ast."
+          "pr": "Nowruz avval-e farvardin ast.",
+          "why": "Nevruz yılın ilk günüdür: avval-e farvardin."
         },
         {
           "type": "choice",
@@ -544,7 +571,8 @@
           ],
           "answer": 1,
           "s": "Mehr ayı sonbahardadır.",
-          "pr": "Mehr dar pâyiz ast."
+          "pr": "Mehr dar pâyiz ast.",
+          "why": "Mehr, âbân, âzar sonbahar (pâyiz) aylarıdır."
         },
         {
           "type": "choice",
@@ -556,19 +584,21 @@
           ],
           "answer": 2,
           "s": "Yılın dört mevsimi var.",
-          "pr": "Sâl çahâr fasl dârad."
+          "pr": "Sâl çahâr fasl dârad.",
+          "why": "Yılın dört mevsimi (fasl), on iki ayı (mâh) var."
         },
         {
-          "type": "choice",
-          "t": "دی و بهمن ماه‌های ___ هستند.",
-          "options": [
-            "سرد",
-            "گرم",
-            "سبز"
+          "type": "type",
+          "task": "Olumsuz yapın.",
+          "cue": "من زمستان را دوست دارم.",
+          "cpr": "Man zemestân râ dust dâram.",
+          "t": "من زمستان را دوست ___.",
+          "answer": [
+            "ندارم"
           ],
-          "answer": 0,
-          "s": "Dey ve Bahman soğuk aylardır.",
-          "pr": "Dey va bahman mâhhâ-ye sard hastand."
+          "pr": "Man zemestân râ dust nadâram.",
+          "s": "Kışı sevmem.",
+          "why": "«dust dâram»ın olumsuzu: dust nadâram; sadece dâram değişir."
         },
         {
           "type": "type",
@@ -577,7 +607,8 @@
             "گرم"
           ],
           "s": "Yazın hava sıcak.",
-          "pr": "Tâbestân havâ garm ast."
+          "pr": "Tâbestân havâ garm ast.",
+          "why": "Yazın (tâbestân) hava sıcaktır: garm."
         },
         {
           "type": "type",
@@ -586,16 +617,24 @@
             "نوروز"
           ],
           "s": "Nevruzunuz kutlu olsun!",
-          "pr": "Nowruz mobârak!"
+          "pr": "Nowruz mobârak!",
+          "why": "Kalıp: … mobârak! = … kutlu olsun: Nowruz mobârak!"
         },
         {
-          "type": "order",
-          "t": "نوروز اول فروردین است.",
-          "s": "Nevruz 1 Farvardin'de.",
-          "pr": "Nowruz avval-e farvardin ast.",
-          "alts": [
-            "اول فروردین نوروز است."
-          ]
+          "type": "choice",
+          "task": "Hangi cevap uygun?",
+          "cue": "نوروز مبارک!",
+          "cpr": "Nowruz mobârak!",
+          "t": "___",
+          "options": [
+            "نوروز شما هم مبارک!",
+            "خواهش می‌کنم.",
+            "هوا ابری است."
+          ],
+          "answer": 0,
+          "pr": "Nowruz-e şomâ ham mobârak!",
+          "s": "Sizin de Nevruzunuz kutlu olsun!",
+          "why": "Bayram tebrikine aynı dilekle cevap verilir: «… şomâ ham mobârak!» (sizin de)."
         },
         {
           "type": "order",

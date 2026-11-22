@@ -8,10 +8,10 @@
     "s": "Merhaba!"
   },
   "goals": [
-    "Farsça selamlaşıp vedalaşabilmek.",
-    "Kendimi tanıtıp birinin adını sorabilmek.",
-    "Nereli olduğumu söyleyebilmek.",
-    "Şahıs zamirlerini ve «olmak» fiilini (hastam, hasti, ast…) kullanabilmek."
+    "Farsça selamlaşıp vedalaşabilirim.",
+    "Kendimi tanıtıp birinin adını sorabilirim.",
+    "Nereli olduğumu söyleyebilirim.",
+    "Şahıs zamirlerini ve «olmak» fiilini (hastam, hasti, ast…) kullanabilirim."
   ],
   "words": [
     {
@@ -154,9 +154,9 @@
       "s": "öğretmen",
       "emoji": "",
       "ex": {
-        "t": "آیشه معلم است.",
-        "pr": "Âyşe mo'allem ast.",
-        "s": "Ayşe öğretmen."
+        "t": "رضا معلم است.",
+        "pr": "Rezâ mo'allem ast.",
+        "s": "Reza öğretmen."
       }
     },
     {
@@ -170,7 +170,8 @@
         "t": "مریم دانشجو است.",
         "pr": "Maryam dâneşcu ast.",
         "s": "Maryam öğrenci."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w14",
@@ -182,7 +183,8 @@
         "t": "من خوبم.",
         "pr": "Man xubam.",
         "s": "Ben iyiyim."
-      }
+      },
+      "sym": true
     }
   ],
   "phrases": [
@@ -384,16 +386,17 @@
       ],
       "exercises": [
         {
-          "type": "choice",
-          "t": "من دانشجو ___.",
-          "options": [
-            "هستم",
-            "هستی",
-            "هستند"
+          "type": "type",
+          "task": "Cümleyi «mâ» (biz) için yazın.",
+          "cue": "من دانشجو هستم.",
+          "cpr": "Man dâneşcu hastam.",
+          "t": "ما دانشجو ___.",
+          "answer": [
+            "هستیم"
           ],
-          "answer": 0,
-          "pr": "Man dâneşcu hastam.",
-          "s": "Ben öğrenciyim."
+          "pr": "Mâ dâneşcu hastim.",
+          "s": "Biz öğrenciyiz.",
+          "why": "«mâ» (biz) ile fiil «hastim» olur, Türkçedeki -ız gibi."
         },
         {
           "type": "choice",
@@ -405,7 +408,8 @@
           ],
           "answer": 1,
           "pr": "To İrâni hasti.",
-          "s": "Sen İranlısın."
+          "s": "Sen İranlısın.",
+          "why": "«to» (sen) ile fiil «hasti» olur (-sın)."
         },
         {
           "type": "choice",
@@ -417,7 +421,8 @@
           ],
           "answer": 0,
           "pr": "Mâ mo'allem hastim.",
-          "s": "Biz öğretmeniz."
+          "s": "Biz öğretmeniz.",
+          "why": "«hastim» (-ız) sadece «mâ» (biz) ile kullanılır."
         },
         {
           "type": "type",
@@ -426,7 +431,8 @@
             "است"
           ],
           "pr": "U dâneşcu ast.",
-          "s": "O öğrenci."
+          "s": "O öğrenci.",
+          "why": "«u» (o) ile «ast» kullanılır, Türkçedeki -dır gibi."
         },
         {
           "type": "type",
@@ -435,19 +441,24 @@
             "هستید"
           ],
           "pr": "Şomâ ahl-e kocâ hastid?",
-          "s": "Siz nerelisiniz?"
+          "s": "Siz nerelisiniz?",
+          "why": "«şomâ» (siz) ile fiil «hastid» olur (-sınız)."
         },
         {
           "type": "choice",
-          "t": "آن‌ها ترک ___.",
+          "task": "Hangi cevap uygun?",
+          "cue": "اهل کجا هستید؟",
+          "cpr": "Ahl-e kocâ hastid?",
+          "t": "___",
           "options": [
-            "هستند",
-            "هستید",
-            "هستم"
+            "من اهل ترکیه هستم.",
+            "من دانشجو هستم.",
+            "خوشبختم!"
           ],
           "answer": 0,
-          "pr": "Ânhâ Tork hastand.",
-          "s": "Onlar Türk."
+          "pr": "Man ahl-e Torkiye hastam.",
+          "s": "Ben Türkiyeliyim.",
+          "why": "«Ahl-e kocâ hastid?» nereli olduğunuzu sorar; cevap «ahl-e …» ile verilir."
         },
         {
           "type": "order",
@@ -539,7 +550,8 @@
           ],
           "answer": 0,
           "pr": "Man xubam.",
-          "s": "Ben iyiyim."
+          "s": "Ben iyiyim.",
+          "why": "«man» (ben) ile kısa ek «-am» (م) gelir: xubam."
         },
         {
           "type": "choice",
@@ -551,16 +563,24 @@
           ],
           "answer": 1,
           "pr": "To xubi?",
-          "s": "Sen iyi misin?"
+          "s": "Sen iyi misin?",
+          "why": "«to» (sen) ile kısa ek «-i» (ی) gelir: xubi."
         },
         {
-          "type": "type",
-          "t": "ما خوب___.",
-          "answer": [
-            "یم"
+          "type": "choice",
+          "task": "Hangi cevap uygun?",
+          "cue": "سلام، حال شما چطور است؟",
+          "cpr": "Salâm, hâl-e şomâ çetor ast?",
+          "t": "___",
+          "options": [
+            "خوبم، ممنون.",
+            "اسم من سارا است.",
+            "خداحافظ!"
           ],
-          "pr": "Mâ xubim.",
-          "s": "Biz iyiyiz."
+          "answer": 0,
+          "pr": "Xubam, mamnun.",
+          "s": "İyiyim, teşekkürler.",
+          "why": "«Hâl-e şomâ çetor ast?» = Nasılsınız? Cevap: «Xubam, mamnun.»"
         },
         {
           "type": "choice",
@@ -572,7 +592,8 @@
           ],
           "answer": 1,
           "pr": "Esm-e man Rezâ ast.",
-          "s": "Benim adım Reza."
+          "s": "Benim adım Reza.",
+          "why": "«Esm-e man» (benim adım) üçüncü kişidir; fiil «ast» olur."
         },
         {
           "type": "choice",
@@ -584,7 +605,8 @@
           ],
           "answer": 0,
           "pr": "Şomâ ahl-e kocâ hastid?",
-          "s": "Siz nerelisiniz?"
+          "s": "Siz nerelisiniz?",
+          "why": "Nereli diye sormak için «ahl-e kocâ» denir; «kocâ» = nere."
         },
         {
           "type": "type",
@@ -593,7 +615,8 @@
             "اهل"
           ],
           "pr": "Man ahl-e Tehrân hastam.",
-          "s": "Ben Tahranlıyım."
+          "s": "Ben Tahranlıyım.",
+          "why": "Nereli olduğunu söylemek için «ahl-e» + şehir: ahl-e Tehrân."
         },
         {
           "type": "order",
@@ -602,10 +625,17 @@
           "s": "Benim adım Sara."
         },
         {
-          "type": "order",
-          "t": "شما اهل کجا هستید؟",
-          "pr": "Şomâ ahl-e kocâ hastid?",
-          "s": "Siz nerelisiniz?"
+          "type": "type",
+          "task": "Kısa biçimle yazın (hastam → -am).",
+          "cue": "من خوب هستم.",
+          "cpr": "Man xub hastam.",
+          "t": "من ___.",
+          "answer": [
+            "خوبم"
+          ],
+          "pr": "Man xubam.",
+          "s": "Ben iyiyim.",
+          "why": "Konuşmada «xub hastam» kısalır: «xubam». Ek kelimeye bitişik yazılır."
         }
       ]
     }

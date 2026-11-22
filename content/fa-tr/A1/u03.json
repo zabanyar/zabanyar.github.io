@@ -8,10 +8,10 @@
     "s": "Ailem"
   },
   "goals": [
-    "Aile üyelerini Farsça söyleyebilmek.",
-    "Ezafe (-e) ile «Ali'nin annesi, büyük ev» diyebilmek.",
-    "İyelik eklerini (-am, -at, -aş) kullanabilmek.",
-    "«dâştan» (sahip olmak) fiiliyle «…im var / yok» diyebilmek."
+    "Aile üyelerini Farsça söyleyebilirim.",
+    "Ezafe (-e) ile «Ali'nin annesi, büyük ev» diyebilirim.",
+    "İyelik eklerini (-am, -at, -aş) kullanabilirim.",
+    "«dâştan» (sahip olmak) fiiliyle «…im var / yok» diyebilirim."
   ],
   "words": [
     {
@@ -51,6 +51,32 @@
         "t": "خاله‌ی من معلم است.",
         "pr": "Xâle-ye man mo'allem ast.",
         "s": "Teyzem öğretmen."
+      }
+    },
+    {
+      "id": "w15",
+      "t": "دایی",
+      "pl": "دایی‌ها",
+      "pr": "dâyi",
+      "s": "dayı (annenin erkek kardeşi; Türkçedeki ile aynı!)",
+      "emoji": "",
+      "ex": {
+        "t": "دایی من مهربان است.",
+        "pr": "Dâyi-ye man mehrabân ast.",
+        "s": "Dayım sevecen biri."
+      }
+    },
+    {
+      "id": "w16",
+      "t": "عمه",
+      "pl": "عمه‌ها",
+      "pr": "amme",
+      "s": "hala (babanın kız kardeşi)",
+      "emoji": "",
+      "ex": {
+        "t": "عمه‌ی من یک پسر دارد.",
+        "pr": "Amme-ye man yek pesar dârad.",
+        "s": "Halamın bir oğlu var."
       }
     },
     {
@@ -128,7 +154,8 @@
         "t": "پدربزرگم اهل تبریز است.",
         "pr": "Pedarbozorgam ahl-e Tabriz ast.",
         "s": "Dedem Tebrizli."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w10",
@@ -140,7 +167,8 @@
         "t": "مادربزرگم خیلی مهربان است.",
         "pr": "Mâdarbozorgam xeyli mehrabân ast.",
         "s": "Ninem çok sevecen."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w11",
@@ -152,7 +180,8 @@
         "t": "همسرم ترک است.",
         "pr": "Hamsaram Tork ast.",
         "s": "Eşim Türk."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w12",
@@ -278,15 +307,15 @@
       },
       {
         "sp": "B",
-        "t": "بله، یک برادر کوچک دارم. اسمش رضا است.",
-        "pr": "Bale, yek barâdar-e kuçek dâram. Esmaş Rezâ ast.",
-        "s": "Evet, küçük bir erkek kardeşim var. Adı Reza."
+        "t": "بله، یک برادر کوچک دارم. اسمش امید است.",
+        "pr": "Bale, yek barâdar-e kuçek dâram. Esmaş Omid ast.",
+        "s": "Evet, küçük bir erkek kardeşim var. Adı Omid."
       },
       {
         "sp": "A",
-        "t": "رضا چند سال دارد؟",
-        "pr": "Rezâ çand sâl dârad?",
-        "s": "Reza kaç yaşında?"
+        "t": "امید چند سال دارد؟",
+        "pr": "Omid çand sâl dârad?",
+        "s": "Omid kaç yaşında?"
       },
       {
         "sp": "B",
@@ -371,7 +400,8 @@
           ],
           "answer": 1,
           "pr": "İn ketâb-e man ast.",
-          "s": "Bu benim kitabım."
+          "s": "Bu benim kitabım.",
+          "why": "Önce sahip olunan, sonra sahibi: ketâb-e man (benim kitabım)."
         },
         {
           "type": "choice",
@@ -383,19 +413,24 @@
           ],
           "answer": 0,
           "pr": "U yek dâneşcu-ye İrâni ast.",
-          "s": "O, İranlı bir öğrenci."
+          "s": "O, İranlı bir öğrenci.",
+          "why": "Sıfat ismin arkasına gelir: dâneşcu-ye İrâni. â/u ile bitince ezafe -ye (ی) olur."
         },
         {
           "type": "choice",
-          "t": "___ علی دکتر است.",
+          "task": "Hangi cevap doğru?",
+          "cue": "این مادر توست؟",
+          "cpr": "İn mâdar-e tost?",
+          "t": "___",
           "options": [
-            "پدرها",
-            "پدر",
-            "است"
+            "بله، این مادر من است.",
+            "بله، این من مادر است.",
+            "بله، مادر من هستم."
           ],
-          "answer": 1,
-          "pr": "Pedar-e Ali doktor ast.",
-          "s": "Ali'nin babası doktor."
+          "answer": 0,
+          "pr": "Bale, in mâdar-e man ast.",
+          "s": "Evet, bu benim annem.",
+          "why": "Önce sahip olunan (mâdar), sonra sahibi (man): mâdar-e man = benim annem."
         },
         {
           "type": "type",
@@ -404,16 +439,24 @@
             "ما"
           ],
           "pr": "Xâne-ye mâ bozorg ast.",
-          "s": "Bizim evimiz büyük."
+          "s": "Bizim evimiz büyük.",
+          "why": "Xâne-ye mâ = bizim evimiz; sahibi (mâ) ezafeden sonra gelir."
         },
         {
           "type": "type",
-          "t": "برادر ___ کوچک است.",
+          "task": "«Büyük bir evim var» deyin.",
+          "cue": "خانه بزرگ است.",
+          "cpr": "Xâne bozorg ast.",
+          "t": "من یک ___ دارم.",
           "answer": [
-            "من"
+            "خانه‌ی بزرگ",
+            "خانه ی بزرگ",
+            "خانهٔ بزرگ",
+            "خانه بزرگ"
           ],
-          "pr": "Barâdar-e man kuçek ast.",
-          "s": "Benim kardeşim küçük."
+          "pr": "Man yek xâne-ye bozorg dâram.",
+          "s": "Büyük bir evim var.",
+          "why": "Sıfat ismin arkasına gelir, araya ezafe girer: xâne-ye bozorg. ه'den sonra ‌ی yazılır."
         },
         {
           "type": "order",
@@ -439,7 +482,7 @@
         "pr": "mâdaram, xâhar dâram",
         "s": "İyelik ekleri ve «dâştan» (sahip olmak)"
       },
-      "explain": "Türkçedeki gibi Farsçada da iyelik bir **ek** ile söylenebilir: **-am** (benim), **-at** (senin), **-aş** (onun), **-emân** (bizim), **-etân** (sizin), **-eşân** (onların).\n**mâdar → mâdaram** (annem), **mâdarat** (annen), **mâdaraş** (annesi). Ünlü uyumu yok, ekler hep aynı! **Mâdaram** ile **mâdar-e man** aynı anlamdadır.\nTürkçe '…im **var**' der; Farsça ise **dâştan** (sahip olmak) fiilini kullanır: **Yek xâhar dâram.** = Bir kız kardeşim var. Kişi ekleri tanıdık: **dâram, dâri, dârad, dârim, dârid, dârand**.\nOlumsuz için başa **na-** gelir: **nadâram** = (bende) yok. **Barâdar nadâram.** = Erkek kardeşim yok.",
+      "explain": "Türkçedeki gibi Farsçada da iyelik bir **ek** ile söylenebilir: **-am** (benim), **-at** (senin), **-aş** (onun), **-emân** (bizim), **-etân** (sizin), **-eşân** (onların).\n**mâdar → mâdaram** (annem), **mâdarat** (annen), **mâdaraş** (annesi). Ünlü uyumu yok, ekler hep aynı! **Mâdaram** ile **mâdar-e man** aynı anlamdadır.\nTürkçe '…im **var**' der; Farsça ise **dâştan** (sahip olmak) fiilini kullanır: **Yek xâhar dâram.** = Bir kız kardeşim var. Kişi ekleri tanıdık: **dâram, dâri, dârad, dârim, dârid, dârand**.\nOlumsuz için başa **na-** gelir: **nadâram** = (bende) yok. **Barâdar nadâram.** = Erkek kardeşim yok.\n**Amca, hala, dayı, teyze:** Farsçada da Türkçedeki gibi dört ayrı kelime var: **amu** = amca, **amme** = hala, **dâyi** = dayı (aynı kelime!), **xâle** = teyze. Dikkat: **xâle** 'hala' değil, 'teyze' demektir!\n**Konuşmada:** Tahranlılar **-at, -aş** yerine çoğu zaman **-et, -eş** der (*mâdaret, mâdareş*); **ast** de **-e** olur: *Mâdaram mo'allem-e.* = Annem öğretmen. Bu kursta yazı dilini öğreniyoruz, ama ailede bu biçimleri duyacaksınız.",
       "table": [
         [
           "مادرم",
@@ -501,16 +544,17 @@
       ],
       "exercises": [
         {
-          "type": "choice",
-          "t": "من یک خواهر ___.",
-          "options": [
-            "دارم",
-            "داری",
-            "دارد"
+          "type": "type",
+          "task": "İyelik ekiyle (-am) yazın.",
+          "cue": "مادر من معلم است.",
+          "cpr": "Mâdar-e man mo'allem ast.",
+          "t": "___ معلم است.",
+          "answer": [
+            "مادرم"
           ],
-          "answer": 0,
-          "pr": "Man yek xâhar dâram.",
-          "s": "Bir kız kardeşim var."
+          "pr": "Mâdaram mo'allem ast.",
+          "s": "Annem öğretmen.",
+          "why": "mâdar-e man = mâdaram: «benim» yerine kelimeye -am (م) eklenir."
         },
         {
           "type": "choice",
@@ -522,7 +566,8 @@
           ],
           "answer": 1,
           "pr": "To barâdar dâri?",
-          "s": "Erkek kardeşin var mı?"
+          "s": "Erkek kardeşin var mı?",
+          "why": "«to» (sen) ile dâştan: dâri (-sın)."
         },
         {
           "type": "choice",
@@ -534,7 +579,8 @@
           ],
           "answer": 2,
           "pr": "Man Sârâ hastam. Esmam Sârâ ast.",
-          "s": "Ben Sara'yım. Adım Sara."
+          "s": "Ben Sara'yım. Adım Sara.",
+          "why": "«Benim adım»: esm + -am = esmam (اسمم)."
         },
         {
           "type": "type",
@@ -543,7 +589,8 @@
             "ش"
           ],
           "pr": "Pedaraş doktor ast.",
-          "s": "Babası doktor."
+          "s": "Babası doktor.",
+          "why": "«Onun babası»: pedar + -aş (ش) = pedaraş."
         },
         {
           "type": "type",
@@ -552,7 +599,8 @@
             "داریم"
           ],
           "pr": "Mâ do baççe dârim.",
-          "s": "İki çocuğumuz var."
+          "s": "İki çocuğumuz var.",
+          "why": "«mâ» (biz) ile: dârim. Do baççe dârim = iki çocuğumuz var."
         },
         {
           "type": "choice",
@@ -564,13 +612,24 @@
           ],
           "answer": 0,
           "pr": "Na, man barâdar nadâram.",
-          "s": "Hayır, erkek kardeşim yok."
+          "s": "Hayır, erkek kardeşim yok.",
+          "why": "Olumsuz: na- + dâram = nadâram (yok); «man» ile -am eki."
         },
         {
-          "type": "order",
-          "t": "آن‌ها یک دختر دارند.",
-          "pr": "Ânhâ yek doxtar dârand.",
-          "s": "Onların bir kızı var."
+          "type": "choice",
+          "task": "Hangi cevap uygun?",
+          "cue": "خواهر یا برادر دارید؟",
+          "cpr": "Xâhar yâ barâdar dârid?",
+          "t": "___",
+          "options": [
+            "بله، یک خواهر دارم.",
+            "بله، خواهرم هستم.",
+            "اسم من مریم است."
+          ],
+          "answer": 0,
+          "pr": "Bale, yek xâhar dâram.",
+          "s": "Evet, bir kız kardeşim var.",
+          "why": "«…dârid?» (var mı?) sorusuna «dâram / nadâram» ile cevap verilir."
         },
         {
           "type": "order",
@@ -619,9 +678,9 @@
         "s": "Erkek kardeşlerim küçük."
       },
       {
-        "t": "علی هشت سال دارد و رضا شش سال دارد.",
-        "pr": "Ali haşt sâl dârad va Rezâ şeş sâl dârad.",
-        "s": "Ali sekiz yaşında, Reza altı yaşında."
+        "t": "علی هشت سال دارد و سینا شش سال دارد.",
+        "pr": "Ali haşt sâl dârad va Sinâ şeş sâl dârad.",
+        "s": "Ali sekiz yaşında, Sina altı yaşında."
       },
       {
         "t": "مادربزرگم خیلی مهربان است.",
@@ -671,9 +730,9 @@
       },
       {
         "q": {
-          "t": "رضا چند سال دارد؟",
-          "pr": "Rezâ çand sâl dârad?",
-          "s": "Reza kaç yaşında?"
+          "t": "سینا چند سال دارد؟",
+          "pr": "Sinâ çand sâl dârad?",
+          "s": "Sina kaç yaşında?"
         },
         "options": [
           "هشت",

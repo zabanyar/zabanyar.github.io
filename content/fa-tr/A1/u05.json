@@ -8,10 +8,10 @@
     "s": "Evim"
   },
   "goals": [
-    "Evdeki odaları ve eşyaları söyleyebilmek.",
-    "«hast / nist» ile bir şeyin var ya da yok olduğunu söyleyebilmek.",
-    "Yer edatlarını (dar, ru-ye, zir-e, kenâr-e) kullanabilmek.",
-    "«… kocâst?» ile bir şeyin yerini sorabilmek."
+    "Evdeki odaları ve eşyaları söyleyebilirim.",
+    "«hast / nist» ile bir şeyin var ya da yok olduğunu söyleyebilirim.",
+    "Yer edatlarını (dar, ru-ye, zir-e, kenâr-e) kullanabilirim.",
+    "«… kocâst?» ile bir şeyin yerini sorabilirim."
   ],
   "words": [
     {
@@ -50,7 +50,8 @@
         "t": "مادرم در آشپزخانه است.",
         "pr": "Mâdaram dar âşpazxâne ast.",
         "s": "Annem mutfakta."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w04",
@@ -321,7 +322,7 @@
         "pr": "hast, nist",
         "s": "Var ve yok: «hast / nist»"
       },
-      "explain": "Türkçedeki **var** ve **yok** için Farsçada **hast** (var) ve **nist** (yok) kullanılır: **Dar xâne yek gorbe hast.** = Evde bir kedi var. **Şir nist.** = Süt yok.\nSoru için sadece sesi yükseltin: **Çây hast?** = Çay var mı?\n**nist** aynı zamanda **değil** demektir. «Olmak» fiilinin olumsuzu böyle çekilir: **nistam** (değilim), **nisti**, **nist**, **nistim**, **nistid**, **nistand**.\n**Man İrâni nistam, Tork hastam.** = İranlı değilim, Türküm.",
+      "explain": "Türkçedeki **var** ve **yok** için Farsçada **hast** (var) ve **nist** (yok) kullanılır: **Dar xâne yek gorbe hast.** = Evde bir kedi var. **Şir nist.** = Süt yok.\nSoru için sadece sesi yükseltin: **Çây hast?** = Çay var mı?\n**nist** aynı zamanda **değil** demektir. «Olmak» fiilinin olumsuzu böyle çekilir: **nistam** (değilim), **nisti**, **nist**, **nistim**, **nistid**, **nistand**.\n**Man İrâni nistam, Tork hastam.** = İranlı değilim, Türküm.\n**Tanıdık kelimeler:** pancere (pencere), sandali (sandalye), otâğ (oda), hammâm (hamam; burada: banyo).",
       "table": [
         [
           "هست",
@@ -397,7 +398,8 @@
           ],
           "answer": 1,
           "pr": "Dar yaxçâl şir hast.",
-          "s": "Buzdolabında süt var."
+          "s": "Buzdolabında süt var.",
+          "why": "«Var» = hast. hastam/hasti kişiler içindir; «şir» için hast."
         },
         {
           "type": "choice",
@@ -409,19 +411,21 @@
           ],
           "answer": 0,
           "pr": "Bebaxşid, ğahve nist. Çây mixâhid?",
-          "s": "Kusura bakmayın, kahve yok. Çay ister misiniz?"
+          "s": "Kusura bakmayın, kahve yok. Çay ister misiniz?",
+          "why": "«Yok» = nist; nistam/nistim kişiler içindir (değilim/değiliz)."
         },
         {
-          "type": "choice",
-          "t": "من دانشجو ___، معلم هستم.",
-          "options": [
-            "نیست",
-            "نیستند",
+          "type": "type",
+          "task": "Olumsuz yapın.",
+          "cue": "من معلم هستم.",
+          "cpr": "Man mo'allem hastam.",
+          "t": "من معلم ___.",
+          "answer": [
             "نیستم"
           ],
-          "answer": 2,
-          "pr": "Man dâneşcu nistam, mo'allem hastam.",
-          "s": "Ben öğrenci değilim, öğretmenim."
+          "pr": "Man mo'allem nistam.",
+          "s": "Ben öğretmen değilim.",
+          "why": "«hastam»ın olumsuzu «nistam»dır (değilim)."
         },
         {
           "type": "type",
@@ -430,7 +434,8 @@
             "نیست"
           ],
           "pr": "U İrâni nist.",
-          "s": "O İranlı değil."
+          "s": "O İranlı değil.",
+          "why": "«u» (o) için olumsuz: nist (değil)."
         },
         {
           "type": "type",
@@ -439,7 +444,8 @@
             "نیستیم"
           ],
           "pr": "Mâ Tork nistim.",
-          "s": "Biz Türk değiliz."
+          "s": "Biz Türk değiliz.",
+          "why": "«mâ» (biz) için olumsuz: nistim (değiliz)."
         },
         {
           "type": "order",
@@ -451,10 +457,20 @@
           ]
         },
         {
-          "type": "order",
-          "t": "حمام کوچک نیست.",
-          "pr": "Hammâm kuçek nist.",
-          "s": "Banyo küçük değil."
+          "type": "choice",
+          "task": "Hangi cevap uygun?",
+          "cue": "چای هست؟",
+          "cpr": "Çây hast?",
+          "t": "___",
+          "options": [
+            "نه، چای نیست.",
+            "نه، چای نیستم.",
+            "بله، من چای هستم."
+          ],
+          "answer": 0,
+          "pr": "Na, çây nist.",
+          "s": "Hayır, çay yok.",
+          "why": "«…hast?» = … var mı? Cevap: «hast» (var) ya da «nist» (yok); -am/-i ekleri kişiler içindir."
         }
       ]
     },
@@ -465,7 +481,7 @@
         "pr": "dar, ru-ye, zir-e, kenâr-e",
         "s": "Yer edatları: -de, üstünde, altında, yanında"
       },
-      "explain": "Türkçede yer bildirmek için kelimenin **sonuna ek** getiririz: ev**de**, masanın **üstünde**. Farsçada ise küçük bir kelime ismin **önüne** gelir: **dar xâne** = evde.\n**dar** = -de / -da, içinde · **ru-ye** = üstünde · **zir-e** = altında · **kenâr-e** = yanında.\n**ru, zir, kenâr** aslında isimdir ('üst, alt, yan'), bu yüzden arkalarından **ezafe** (-e / -ye) gelir: **zir-e miz** = masanın altı(nda).\nYer sormak için: **… kocâst?** = … nerede? (kocâ + ast). Cevap: **incâst** (burada), **âncâst** (orada).\nDikkat: **در** hem 'dar' = -de, hem de 'dar' = kapı demektir!",
+      "explain": "Türkçede yer bildirmek için kelimenin **sonuna ek** getiririz: ev**de**, masanın **üstünde**. Farsçada ise küçük bir kelime ismin **önüne** gelir: **dar xâne** = evde.\n**dar** = -de / -da, içinde · **ru-ye** = üstünde · **zir-e** = altında · **kenâr-e** = yanında.\n**ru, zir, kenâr** aslında isimdir ('üst, alt, yan'), bu yüzden arkalarından **ezafe** (-e / -ye) gelir: **zir-e miz** = masanın altı(nda).\nYer sormak için: **… kocâst?** = … nerede? (kocâ + ast). Cevap: **incâst** (burada), **âncâst** (orada).\nDikkat: **در** hem 'dar' = -de, hem de 'dar' = kapı demektir!\n**Okunuş hatırlatması:** **otâğ** (oda) kelimesinin sonundaki **ğ** (ق) de açıkça duyulur: *otâğ-e man* = benim odam.",
       "table": [
         [
           "در اتاق",
@@ -521,7 +537,8 @@
           ],
           "answer": 1,
           "pr": "Ketâb ru-ye miz ast.",
-          "s": "Kitap masanın üstünde."
+          "s": "Kitap masanın üstünde.",
+          "why": "«Üstünde» = ru-ye: ketâb ru-ye miz ast."
         },
         {
           "type": "choice",
@@ -533,19 +550,21 @@
           ],
           "answer": 0,
           "pr": "Gorbe zir-e sandali ast.",
-          "s": "Kedi sandalyenin altında."
+          "s": "Kedi sandalyenin altında.",
+          "why": "«Altında» = zir-e: gorbe zir-e sandali ast."
         },
         {
-          "type": "choice",
-          "t": "مادرم ___ آشپزخانه است.",
-          "options": [
-            "روی",
-            "زیر",
-            "در"
+          "type": "type",
+          "task": "Tersini söyleyin: «üstünde» → «altında».",
+          "cue": "گربه روی میز است.",
+          "cpr": "Gorbe ru-ye miz ast.",
+          "t": "گربه ___ میز است.",
+          "answer": [
+            "زیر"
           ],
-          "answer": 2,
-          "pr": "Mâdaram dar âşpazxâne ast.",
-          "s": "Annem mutfakta."
+          "pr": "Gorbe zir-e miz ast.",
+          "s": "Kedi masanın altında.",
+          "why": "ru-ye = üstünde, zir-e = altında; ikisinden sonra da ezafe gelir."
         },
         {
           "type": "type",
@@ -555,7 +574,8 @@
             "کجا است"
           ],
           "pr": "Kelid kocâst?",
-          "s": "Anahtar nerede?"
+          "s": "Anahtar nerede?",
+          "why": "Yer sormak: … kocâst? (kocâ + ast = nerede)."
         },
         {
           "type": "type",
@@ -564,13 +584,24 @@
             "کنار"
           ],
           "pr": "Miz kenâr-e pancere ast.",
-          "s": "Masa pencerenin yanında."
+          "s": "Masa pencerenin yanında.",
+          "why": "«Yanında» = kenâr-e: kenâr-e pancere."
         },
         {
-          "type": "order",
-          "t": "کلید روی میز است.",
-          "pr": "Kelid ru-ye miz ast.",
-          "s": "Anahtar masanın üstünde."
+          "type": "choice",
+          "task": "Hangi cevap uygun?",
+          "cue": "ببخشید، دستشویی کجاست؟",
+          "cpr": "Bebaxşid, dastşuyi kocâst?",
+          "t": "___",
+          "options": [
+            "آنجاست، کنار آشپزخانه.",
+            "خوش آمدید!",
+            "در یخچال شیر نیست."
+          ],
+          "answer": 0,
+          "pr": "Âncâst, kenâr-e âşpazxâne.",
+          "s": "Şurada, mutfağın yanında.",
+          "why": "«… kocâst?» yer sorar; cevap bir yer söyler: âncâst, kenâr-e …"
         },
         {
           "type": "order",

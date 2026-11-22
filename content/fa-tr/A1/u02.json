@@ -8,10 +8,10 @@
     "s": "Sayılar ve yaş"
   },
   "goals": [
-    "0'dan 20'ye kadar sayabilmek.",
-    "Fars rakamlarını (۰–۹) okuyabilmek.",
-    "Yaş sorup söyleyebilmek.",
-    "Çoğul eklerini (-hâ / -ân) kullanabilmek."
+    "0'dan 100'e kadar sayabilirim.",
+    "Fars rakamlarını (۰–۹) okuyabilirim.",
+    "Yaş sorup söyleyebilirim.",
+    "Çoğul eklerini (-hâ / -ân) kullanabilirim."
   ],
   "words": [
     {
@@ -93,9 +93,9 @@
       "s": "altı",
       "emoji": "",
       "ex": {
-        "t": "مریم شش سال دارد.",
-        "pr": "Maryam şeş sâl dârad.",
-        "s": "Maryam altı yaşında."
+        "t": "سینا شش سال دارد.",
+        "pr": "Sinâ şeş sâl dârad.",
+        "s": "Sina altı yaşında."
       }
     },
     {
@@ -105,9 +105,9 @@
       "s": "yedi",
       "emoji": "",
       "ex": {
-        "t": "علی هفت سال دارد.",
-        "pr": "Ali haft sâl dârad.",
-        "s": "Ali yedi yaşında."
+        "t": "هفته هفت روز دارد.",
+        "pr": "Hafte haft ruz dârad.",
+        "s": "Haftada yedi gün var."
       }
     },
     {
@@ -129,9 +129,9 @@
       "s": "dokuz",
       "emoji": "",
       "ex": {
-        "t": "امیر نه سال دارد.",
-        "pr": "Amir noh sâl dârad.",
-        "s": "Amir dokuz yaşında."
+        "t": "او نه سال دارد.",
+        "pr": "U noh sâl dârad.",
+        "s": "O dokuz yaşında."
       }
     },
     {
@@ -159,6 +159,30 @@
       }
     },
     {
+      "id": "w15",
+      "t": "سی",
+      "pr": "si",
+      "s": "otuz",
+      "emoji": "",
+      "ex": {
+        "t": "من سی سال دارم.",
+        "pr": "Man si sâl dâram.",
+        "s": "Ben otuz yaşındayım."
+      }
+    },
+    {
+      "id": "w16",
+      "t": "صد",
+      "pr": "sad",
+      "s": "yüz (100)",
+      "emoji": "",
+      "ex": {
+        "t": "کلاس ما صد کتاب دارد.",
+        "pr": "Kelâs-e mâ sad ketâb dârad.",
+        "s": "Sınıfımızda yüz kitap var."
+      }
+    },
+    {
       "id": "w13",
       "t": "سال",
       "pl": "سال‌ها",
@@ -169,7 +193,8 @@
         "t": "شما چند سال دارید؟",
         "pr": "Şomâ çand sâl dârid?",
         "s": "Kaç yaşındasınız?"
-      }
+      },
+      "sym": true
     },
     {
       "id": "w14",
@@ -181,7 +206,8 @@
         "t": "چند سیب؟",
         "pr": "Çand sib?",
         "s": "Kaç elma?"
-      }
+      },
+      "sym": true
     }
   ],
   "phrases": [
@@ -311,11 +337,11 @@
     {
       "id": "g01",
       "title": {
-        "t": "عددها از صفر تا بیست",
-        "pr": "adadhâ az sefr tâ bist",
-        "s": "0–20 arası sayılar ve yaş"
+        "t": "عددها از صفر تا صد",
+        "pr": "adadhâ az sefr tâ sad",
+        "s": "0–100 arası sayılar ve yaş"
       },
-      "explain": "Farsçada rakamların kendi şekilleri vardır: **۰ ۱ ۲ ۳ ۴ ۵ ۶ ۷ ۸ ۹**. Dikkat: **۰** (sıfır) küçük bir nokta, **۵** (beş) ise sıfıra benzer! Sayılar, yazı sağdan sola olsa bile **soldan sağa** yazılır: **۲۰** = 20.\n11–19 arası sayılar **-dah** ile biter: **yâzdah** (11), **davâzdah** (12) … **nuzdah** (19).\nTıpkı Türkçedeki gibi sayıdan sonra isim **tekil** kalır: **do sib** = iki elma (iki elmalar değil!). Türkçedeki 'tane' gibi **tâ** da eklenebilir: **se tâ çây** = üç tane çay.\nYaş söylerken Farsçada kelimesi kelimesine '… yılım var' denir: **Bist sâl dâram.** = Yirmi yaşındayım. Soru: **Çand sâl dârid?** = Kaç yaşındasınız?\nDikkat: **نه** hem **noh** (dokuz) hem **na** (hayır) olabilir; **سن** (sen) ise Farsçada 'yaş' demektir!",
+      "explain": "Farsçada rakamların kendi şekilleri vardır: **۰ ۱ ۲ ۳ ۴ ۵ ۶ ۷ ۸ ۹**. Dikkat: **۰** (sıfır) küçük bir nokta, **۵** (beş) ise sıfıra benzer! Sayılar, yazı sağdan sola olsa bile **soldan sağa** yazılır: **۲۰** = 20.\n11–19 arası sayılar **-dah** ile biter: **yâzdah** (11), **davâzdah** (12) … **nuzdah** (19).\nOnlar: **si** (30), **çehel** (40), **pancâh** (50), **şast** (60), **haftâd** (70), **haştâd** (80), **navad** (90), **sad** (100). Aradaki sayılar Türkçedeki gibi kurulur, sadece araya **va** (و, ve) girer; konuşurken **-o** diye söylenir: **bist-o yek** (21), **si-yo panc** (35), **çehel-o haft** (47).\nTıpkı Türkçedeki gibi sayıdan sonra isim **tekil** kalır: **do sib** = iki elma (iki elmalar değil!). Türkçedeki 'tane' gibi **tâ** da eklenebilir: **se tâ çây** = üç tane çay.\nYaş söylerken Farsçada kelimesi kelimesine '… yılım var' denir: **Bist sâl dâram.** = Yirmi yaşındayım. Soru: **Çand sâl dârid?** = Kaç yaşındasınız?\nDikkat: **نه** hem **noh** (dokuz) hem **na** (hayır) olabilir; **سن** (sen) ise Farsçada 'yaş' demektir!",
       "table": [
         [
           "۱۱ یازده",
@@ -366,6 +392,51 @@
           "۲۰ بیست",
           "bist",
           "yirmi"
+        ],
+        [
+          "۳۰ سی",
+          "si",
+          "otuz"
+        ],
+        [
+          "۴۰ چهل",
+          "çehel",
+          "kırk"
+        ],
+        [
+          "۵۰ پنجاه",
+          "pancâh",
+          "elli"
+        ],
+        [
+          "۶۰ شصت",
+          "şast",
+          "altmış"
+        ],
+        [
+          "۷۰ هفتاد",
+          "haftâd",
+          "yetmiş"
+        ],
+        [
+          "۸۰ هشتاد",
+          "haştâd",
+          "seksen"
+        ],
+        [
+          "۹۰ نود",
+          "navad",
+          "doksan"
+        ],
+        [
+          "۱۰۰ صد",
+          "sad",
+          "yüz"
+        ],
+        [
+          "۲۵ بیست و پنج",
+          "bist-o panc",
+          "yirmi beş"
         ]
       ],
       "examples": [
@@ -393,20 +464,27 @@
           "t": "هفده، هجده، نوزده، بیست!",
           "pr": "Hefdah, hecdah, nuzdah, bist!",
           "s": "On yedi, on sekiz, on dokuz, yirmi!"
+        },
+        {
+          "t": "او هفتاد سال دارد.",
+          "pr": "U haftâd sâl dârad.",
+          "s": "O yetmiş yaşında."
         }
       ],
       "exercises": [
         {
-          "type": "choice",
-          "t": "پنج و پنج می‌شود ___.",
-          "options": [
-            "ده",
-            "نه",
-            "هشت"
+          "type": "type",
+          "task": "On yıl sonra kaç yaşında? Sayıyı yazın.",
+          "cue": "او بیست سال دارد.",
+          "cpr": "U bist sâl dârad.",
+          "t": "او ___ سال دارد.",
+          "answer": [
+            "سی",
+            "۳۰"
           ],
-          "answer": 0,
-          "pr": "Panc va panc mişavad dah.",
-          "s": "Beş ve beş, on eder."
+          "pr": "U si sâl dârad.",
+          "s": "O otuz yaşında.",
+          "why": "Yirmi artı on otuz eder: bist → si (سی)."
         },
         {
           "type": "choice",
@@ -418,7 +496,8 @@
           ],
           "answer": 1,
           "pr": "Yâzdah, davâzdah, sizdah",
-          "s": "On bir, on iki, on üç"
+          "s": "On bir, on iki, on üç",
+          "why": "11–19 arası sayılar -dah ile biter: yâzdah, davâzdah, sizdah."
         },
         {
           "type": "type",
@@ -427,28 +506,35 @@
             "نه"
           ],
           "pr": "Haft, haşt, noh, dah",
-          "s": "Yedi, sekiz, dokuz, on"
+          "s": "Yedi, sekiz, dokuz, on",
+          "why": "Sırayla: haft (7), haşt (8), noh (9), dah (10)."
         },
         {
           "type": "choice",
-          "t": "دو ___، لطفاً.",
+          "task": "Hangi cevap uygun?",
+          "cue": "چند سال دارید؟",
+          "cpr": "Çand sâl dârid?",
+          "t": "___",
           "options": [
-            "چای",
-            "چای‌ها",
-            "چایان"
+            "سی سال دارم.",
+            "یک چای، لطفاً.",
+            "اهل ترکیه هستم."
           ],
           "answer": 0,
-          "pr": "Do çây, lotfan.",
-          "s": "İki çay, lütfen."
+          "pr": "Si sâl dâram.",
+          "s": "Otuz yaşındayım.",
+          "why": "«Çand sâl dârid?» yaşı sorar; cevap: sayı + «sâl dâram»."
         },
         {
           "type": "type",
           "t": "من ___ سال دارم.",
           "answer": [
-            "بیست"
+            "بیست",
+            "۲۰"
           ],
           "pr": "Man bist sâl dâram.",
-          "s": "Ben yirmi yaşındayım."
+          "s": "Ben yirmi yaşındayım.",
+          "why": "Yirmi = bist. Yaş: sayı + sâl dâram."
         },
         {
           "type": "choice",
@@ -460,7 +546,8 @@
           ],
           "answer": 1,
           "pr": "Pânzdah",
-          "s": "15 = on beş"
+          "s": "15 = on beş",
+          "why": "۱۵ = pânzdah (on beş). panc = 5, pancâh = 50."
         },
         {
           "type": "order",
@@ -538,7 +625,8 @@
           ],
           "answer": 0,
           "pr": "İn ketâbhâ xub hastand.",
-          "s": "Bu kitaplar iyi."
+          "s": "Bu kitaplar iyi.",
+          "why": "Birden fazla kitap: ketâb + -hâ = ketâbhâ. «-ân» cansız şeylere gelmez."
         },
         {
           "type": "choice",
@@ -550,7 +638,8 @@
           ],
           "answer": 1,
           "pr": "Se sib, lotfan.",
-          "s": "Üç elma, lütfen."
+          "s": "Üç elma, lütfen.",
+          "why": "Sayıdan sonra isim tekil kalır: se sib (üç elma)."
         },
         {
           "type": "type",
@@ -560,7 +649,8 @@
             "دانشجویان"
           ],
           "pr": "İn dâneşcuhâ İrâni hastand.",
-          "s": "Bu öğrenciler İranlı."
+          "s": "Bu öğrenciler İranlı.",
+          "why": "İnsanlar için -hâ ya da -ân: dâneşcuhâ / dâneşcuyân."
         },
         {
           "type": "type",
@@ -571,33 +661,47 @@
             "معلمان"
           ],
           "pr": "Mo'allemhâ Tork hastand.",
-          "s": "Öğretmenler Türk."
+          "s": "Öğretmenler Türk.",
+          "why": "Öğretmenler: mo'allemhâ ya da mo'allemân; sayı yoksa çoğul eki gerekir."
         },
         {
           "type": "choice",
-          "t": "آن‌ها دانشجو ___.",
+          "task": "Hangi cevap doğru?",
+          "cue": "این کتاب‌ها خوب هستند؟",
+          "cpr": "İn ketâbhâ xub hastand?",
+          "t": "___",
           "options": [
-            "هستیم",
-            "است",
-            "هستند"
+            "بله، کتاب‌ها خوب هستند.",
+            "بله، سه کتاب‌ها دارم.",
+            "بله، من بیست سال دارم."
           ],
-          "answer": 2,
-          "pr": "Ânhâ dâneşcu hastand.",
-          "s": "Onlar öğrenci."
+          "answer": 0,
+          "pr": "Bale, ketâbhâ xub hastand.",
+          "s": "Evet, kitaplar iyi.",
+          "why": "Sayıdan sonra çoğul eki gelmez (se ketâb); «ketâbhâ xub hastand» doğrudur."
+        },
+        {
+          "type": "type",
+          "task": "Çoğul yapın.",
+          "cue": "سیب خوب است.",
+          "cpr": "Sib xub ast.",
+          "t": "___ خوب هستند.",
+          "answer": [
+            "سیب‌ها",
+            "سیبها",
+            "سیب ها"
+          ],
+          "pr": "Sibhâ xub hastand.",
+          "s": "Elmalar iyi.",
+          "why": "Çoğul eki -hâ her kelimeye aynen eklenir: sib → sibhâ; fiil de çoğul: hastand."
         },
         {
           "type": "order",
-          "t": "کتاب‌ها خوب هستند.",
-          "pr": "Ketâbhâ xub hastand.",
-          "s": "Kitaplar iyi."
-        },
-        {
-          "type": "order",
-          "t": "مریم و علی دانشجو هستند.",
-          "pr": "Maryam va Ali dâneşcu hastand.",
-          "s": "Maryam ve Ali öğrenci.",
+          "t": "مریم و مینا دانشجو هستند.",
+          "pr": "Maryam va Minâ dâneşcu hastand.",
+          "s": "Maryam ve Mina öğrenci.",
           "alts": [
-            "علی و مریم دانشجو هستند."
+            "مینا و مریم دانشجو هستند."
           ]
         }
       ]
