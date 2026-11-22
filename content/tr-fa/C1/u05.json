@@ -105,7 +105,8 @@
       "ex": {
         "t": "Kira sözleşmesini imzalamadan önce iyice okuyun.",
         "s": "پیش از امضای قرارداد اجاره، آن را به‌دقت بخوانید."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w09",
@@ -216,9 +217,9 @@
     },
     {
       "id": "p03",
-      "t": "Kanun herkes için geçerlidir.",
-      "s": "قانون برای همه معتبر است.",
-      "pr": "کانون هِرکِس ایچین گِچِرلیدیر."
+      "t": "Diplomanızın noter onaylı tercümesini getirmeniz gerekiyor.",
+      "s": "باید ترجمه‌ی مدرک تحصیلی‌تان را با تأیید دفتر اسناد رسمی بیاورید.",
+      "pr": "دیپلُمانِزِن نُتِر اُنایلِ تِرجومِسینی گِتیرمِنیز گِرِکیُر."
     },
     {
       "id": "p04",
@@ -249,9 +250,9 @@
     },
     {
       "id": "p08",
-      "t": "Davayı kazandık!",
-      "s": "دعوا را بردیم!",
-      "pr": "داوایِ کازاندِک!"
+      "t": "Bu karara itiraz edip üst mahkemeye başvuracağız.",
+      "s": "به این رأی اعتراض می‌کنیم و به دادگاه بالاتر مراجعه می‌کنیم.",
+      "pr": "بو کارارا ایتیراز اِدیپ اوست ماهکِمِیِه باشووراجائِز."
     }
   ],
   "dialogue": {
@@ -387,7 +388,8 @@
             "kalmak zorunda kaldık"
           ],
           "answer": 2,
-          "s": "دیروز وقتی پروازمان لغو شد، مجبور شدیم یک شب دیگر در هتل بمانیم."
+          "s": "دیروز وقتی پروازمان لغو شد، مجبور شدیم یک شب دیگر در هتل بمانیم.",
+          "why": "اجباری که پیش آمد («مجبور شدیم») ← ‎-mak zorunda kaldık."
         },
         {
           "type": "choice",
@@ -398,7 +400,8 @@
             "durumunda"
           ],
           "answer": 0,
-          "s": "برای درخواست، لازم است دو قطعه عکس بیاورید."
+          "s": "برای درخواست، لازم است دو قطعه عکس بیاورید.",
+          "why": "اسم‌مصدر ‎-mesi + şart = «لازم است»؛ zorunda و durumunda بعد از ‎-mak می‌آیند."
         },
         {
           "type": "choice",
@@ -409,7 +412,8 @@
             "zorundalar"
           ],
           "answer": 1,
-          "s": "مستأجر مکلف است خانه را همان‌طور که تحویل گرفته پس بدهد."
+          "s": "مستأجر مکلف است خانه را همان‌طور که تحویل گرفته پس بدهد.",
+          "why": "‎-mek mecburiyetindedir = «مکلف است» (رسمی)؛ şartıdır بعد از ‎-mak نمی‌آید."
         },
         {
           "type": "choice",
@@ -420,17 +424,22 @@
             "zorunda değilsiniz"
           ],
           "answer": 2,
-          "s": "مجبور نیستید این فرم را پر کنید؛ اگر بخواهید می‌توانید خالی بگذارید."
+          "s": "مجبور نیستید این فرم را پر کنید؛ اگر بخواهید می‌توانید خالی بگذارید.",
+          "why": "«مجبور نیستید» ← ‎-mak zorunda değilsiniz؛ ادامه‌ی جمله اختیار را نشان می‌دهد."
         },
         {
-          "type": "type",
-          "t": "Ekonomik kriz yüzünden şirket bazı şubelerini kapatmak ___ kaldı.",
-          "answer": [
-            "zorunda",
-            "durumunda",
-            "mecburiyetinde"
+          "type": "choice",
+          "task": "کدام پاسخ مناسب است؟",
+          "cue": "Başvuru için diplomanın aslını da getirmem gerekiyor mu?",
+          "t": "___",
+          "options": [
+            "Hayır, getirmek zorunda değilsiniz; fotokopisi yeterli.",
+            "Hayır, getirmeniz şart; fotokopisi yeterli.",
+            "Hayır, getirmek zorunda kaldınız; fotokopisi yeterli."
           ],
-          "s": "به خاطر بحران اقتصادی، شرکت ناچار شد برخی شعبه‌هایش را ببندد."
+          "answer": 0,
+          "why": "«لازم نیست» ← ‎-mak zorunda değilsiniz؛ şart یعنی «لازم است».",
+          "s": "نه، مجبور نیستید بیاورید؛ کپی‌اش کافی است."
         },
         {
           "type": "type",
@@ -446,15 +455,20 @@
             "zorunlu",
             "zorunludur"
           ],
-          "s": "برای اینکه قرارداد معتبر باشد، لازم است هر دو طرف آن را امضا کنند."
+          "s": "برای اینکه قرارداد معتبر باشد، لازم است هر دو طرف آن را امضا کنند.",
+          "why": "اسم‌مصدر ‎-ması + şart / gerekir / lazım = «لازم است»."
         },
         {
           "type": "type",
-          "t": "Mahkemeye bizzat gitmek zorunda ___; avukatınız gidebilir.",
+          "task": "با ‎-mek mecburiyetindedir رسمی‌تر کنید.",
+          "cue": "Kiracı kirayı her ay ödemek zorunda.",
+          "t": "Kiracı kirayı her ay ___.",
           "answer": [
-            "değilsiniz"
+            "ödemek mecburiyetindedir",
+            "ödemek mecburiyetinde"
           ],
-          "s": "مجبور نیستید شخصاً به دادگاه بروید؛ وکیلتان می‌تواند برود."
+          "why": "در زبان رسمیِ حقوقی «مجبور است» ← ‎-mek mecburiyetindedir.",
+          "s": "مستأجر مکلف است اجاره را هر ماه بپردازد."
         },
         {
           "type": "order",
@@ -524,7 +538,8 @@
             "görerek"
           ],
           "answer": 0,
-          "s": "برای اینکه همه ببینند، اطلاعیه را روی تابلو زدیم."
+          "s": "برای اینکه همه ببینند، اطلاعیه را روی تابلو زدیم.",
+          "why": "هدف با فاعلِ دیگر («همه») ← ‎-ması için: görmesi için."
         },
         {
           "type": "choice",
@@ -535,7 +550,8 @@
             "kaydıyla"
           ],
           "answer": 1,
-          "s": "به علت بیمار شدن قاضی، جلسه‌ی دادرسی به تعویق افتاد."
+          "s": "به علت بیمار شدن قاضی، جلسه‌ی دادرسی به تعویق افتاد.",
+          "why": "علت ← ‎-mesi nedeniyle؛ için این‌جا معنای هدف می‌دهد."
         },
         {
           "type": "choice",
@@ -546,26 +562,35 @@
             "olmasından"
           ],
           "answer": 2,
-          "s": "به دلیل ناقص بودن مدارک، درخواستم رد شد."
+          "s": "به دلیل ناقص بودن مدارک، درخواستم رد شد.",
+          "why": "dolayı حالت ازی (‎-dan) می‌خواهد: olmasından dolayı."
         },
         {
           "type": "type",
-          "t": "Çocukların güvende ___ için yasa değiştirildi.",
+          "task": "با ‎-mesi nedeniyle یا ‎-masından dolayı بازنویسی کنید.",
+          "cue": "Avukat hastalandığı için toplantı iptal edildi.",
+          "t": "Avukatın ___ toplantı iptal edildi.",
           "answer": [
-            "olması"
+            "hastalanması nedeniyle",
+            "hastalanmasından dolayı",
+            "hastalanması sebebiyle"
           ],
-          "s": "برای اینکه بچه‌ها در امان باشند، قانون تغییر داده شد."
+          "why": "‎-dığı için در زبان رسمی ← ‎-ması nedeniyle / ‎-masından dolayı؛ فاعل پسوند اضافه می‌گیرد.",
+          "s": "به علت بیمار شدن وکیل، جلسه لغو شد."
         },
         {
-          "type": "type",
-          "t": "Yoğun kar ___ uçuşlar iptal edildi.",
-          "answer": [
-            "nedeniyle",
-            "sebebiyle",
-            "yüzünden",
-            "dolayısıyla"
+          "type": "choice",
+          "task": "کدام پاسخ مناسب است؟",
+          "cue": "Bu metinde neden bu kadar sade bir dil kullandınız?",
+          "t": "___",
+          "options": [
+            "Herkesin kolayca anlaması için.",
+            "Herkesin kolayca anlamasından dolayı.",
+            "Herkesin kolayca anlaması nedeniyle."
           ],
-          "s": "به علت بارش شدید برف، پروازها لغو شد."
+          "answer": 0,
+          "why": "هدف را می‌پرسد («برای اینکه …») ← ‎-ması için؛ dolayı و nedeniyle علت را می‌گویند.",
+          "s": "برای اینکه همه به‌راحتی بفهمند."
         },
         {
           "type": "type",
@@ -574,7 +599,8 @@
             "ödenmesi",
             "yatırılması"
           ],
-          "s": "به علت دیر پرداخت شدن اجاره، صاحبخانه اخطار فرستاد."
+          "s": "به علت دیر پرداخت شدن اجاره، صاحبخانه اخطار فرستاد.",
+          "why": "علت با اسم‌مصدر مجهول: kiranın geç ödenmesi nedeniyle."
         },
         {
           "type": "type",
@@ -583,7 +609,8 @@
             "anlamanız",
             "anlayabilmeniz"
           ],
-          "s": "برای اینکه بهتر متوجه شوید، مثالی بزنم."
+          "s": "برای اینکه بهتر متوجه شوید، مثالی بزنم.",
+          "why": "هدف با فاعل «شما» ← anlamanız için."
         },
         {
           "type": "order",
@@ -713,6 +740,18 @@
           "Bir arabulucuya başvurmak",
           "Ev sahibine dekont göndermek",
           "Evi boşaltmak"
+        ],
+        "answer": 0
+      },
+      {
+        "q": {
+          "t": "Metne göre bir kiracı için en akıllıca davranış hangisidir?",
+          "s": "طبق متن، عاقلانه‌ترین کار برای یک مستأجر کدام است؟"
+        },
+        "options": [
+          "Kirayı bankadan ödeyip dekontları saklamak ve haklarını öğrenmek",
+          "Kirayı elden ödemek ve sözleşme yapmamak",
+          "Her anlaşmazlıkta hemen dava açmak"
         ],
         "answer": 0
       }

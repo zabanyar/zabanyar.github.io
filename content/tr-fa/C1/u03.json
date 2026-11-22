@@ -9,7 +9,7 @@
   "goals": [
     "درباره‌ی رمان، داستان کوتاه، شخصیت‌ها و سبک نویسنده با واژگان ادبی صحبت کنم.",
     "با öyle … ki، sanki و meğer(se) شدت، تشبیه و کشف ناگهانی را در روایت بیان کنم.",
-    "با زمان‌های مرکب -mış olacak، -ıyor olacak و -mış olmalı درباره‌ی آینده‌ی کامل، آینده‌ی استمراری و حدس صحبت کنم.",
+    "با زمان‌های مرکب ‎-mış olacak و ‎-ıyor olacak درباره‌ی کاری که در آینده تمام شده یا در جریان است صحبت کنم.",
     "یک داستان کوتاه را بخوانم و روایت و لحن آن را تحلیل کنم."
   ],
   "words": [
@@ -392,7 +392,8 @@
             "meğer"
           ],
           "answer": 0,
-          "s": "داستان چنان تأثیرگذار بود که همه گریه کردند."
+          "s": "داستان چنان تأثیرگذار بود که همه گریه کردند.",
+          "why": "«چنان … که» ← öyle + صفت … ki."
         },
         {
           "type": "choice",
@@ -403,7 +404,8 @@
             "sanki"
           ],
           "answer": 1,
-          "s": "همه فکر می‌کردند معلم است؛ نگو نویسنده‌ای مشهور بوده."
+          "s": "همه فکر می‌کردند معلم است؛ نگو نویسنده‌ای مشهور بوده.",
+          "why": "حقیقتی که تازه فهمیده شده («نگو …») ← meğer + ‎-mış."
         },
         {
           "type": "choice",
@@ -414,7 +416,8 @@
             "sanki"
           ],
           "answer": 2,
-          "s": "وقتی مرا دید، طوری رفتار کرد که انگار هرگز با هم آشنا نشده‌ایم."
+          "s": "وقتی مرا دید، طوری رفتار کرد که انگار هرگز با هم آشنا نشده‌ایم.",
+          "why": "«انگار» ← sanki … ‎-mış gibi."
         },
         {
           "type": "choice",
@@ -425,7 +428,8 @@
             "cebimde olacak"
           ],
           "answer": 0,
-          "s": "تمام روز دنبال کلیدم گشتم؛ نگو توی جیبم بوده."
+          "s": "تمام روز دنبال کلیدم گشتم؛ نگو توی جیبم بوده.",
+          "why": "بعد از meğer فعل ‎-mış می‌گیرد: cebimde-ymiş."
         },
         {
           "type": "type",
@@ -435,24 +439,35 @@
             "o kadar",
             "öylesine"
           ],
-          "s": "کتاب آن‌قدر کسل‌کننده بود که نیمه‌کاره رهایش کردم."
+          "s": "کتاب آن‌قدر کسل‌کننده بود که نیمه‌کاره رهایش کردم.",
+          "why": "«آن‌قدر … که» ← öyle / o kadar / öylesine … ki."
         },
         {
           "type": "type",
-          "t": "Yazar, ___ o olayları kendisi yaşamış gibi anlatıyor.",
+          "task": "با öyle … ki یک جمله بسازید.",
+          "cue": "Hasan'ın mektupları çok etkileyiciydi. Hepsini bir oturuşta okudum.",
+          "t": "Hasan'ın mektupları ___ hepsini bir oturuşta okudum.",
           "answer": [
-            "sanki"
+            "öyle etkileyiciydi ki",
+            "o kadar etkileyiciydi ki",
+            "öylesine etkileyiciydi ki"
           ],
-          "s": "نویسنده آن رویدادها را طوری روایت می‌کند که انگار خودش آن‌ها را از سر گذرانده است."
+          "why": "«چنان … که» ← öyle + صفت + ki؛ ki جدا نوشته می‌شود.",
+          "s": "نامه‌های حسن چنان تأثیرگذار بودند که همه‌شان را یک‌نفس خواندم."
         },
         {
-          "type": "type",
-          "t": "Herkes onun yabancı olduğunu düşünüyordu; ___ İstanbul doğumluymuş.",
-          "answer": [
-            "meğer",
-            "meğerse"
+          "type": "choice",
+          "task": "کدام پاسخ مناسب است؟",
+          "cue": "Yeni komşunu tanıdın mı?",
+          "t": "___",
+          "options": [
+            "Evet, onu yabancı sanıyordum; meğer Tebrizliymiş.",
+            "Evet, onu yabancı sanıyordum; sanki Tebrizliymiş.",
+            "Evet, onu yabancı sanıyordum; öyle Tebrizliymiş ki."
           ],
-          "s": "همه فکر می‌کردند خارجی است؛ نگو متولد استانبول بوده."
+          "answer": 0,
+          "why": "کشفِ ناگهانیِ حقیقت («نگو …») ← meğer + ‎-mış؛ sanki یعنی «انگار».",
+          "s": "بله، فکر می‌کردم خارجی است؛ نگو تبریزی بوده."
         },
         {
           "type": "order",
@@ -464,10 +479,10 @@
     {
       "id": "g02",
       "title": {
-        "t": "-mış olacak, -ıyor olacak, -mış olmalı",
-        "s": "زمان‌های مرکب با olmak"
+        "t": "-mış olacak, -ıyor olacak",
+        "s": "آینده‌ی کامل و آینده‌ی استمراری با olmak"
       },
-      "explain": "در این ساخت‌ها فعل اصلی با **-mış** یا **-ıyor** می‌آید و زمان و شخص روی **olmak** می‌نشیند:\n**-mış olacak** = آینده‌ی کامل: کاری که تا لحظه‌ای در آینده **تمام شده** است. Gelecek yıl tezimi **bitirmiş olacağım**. = سال آینده پایان‌نامه‌ام را تمام کرده‌ام. اغلب با **-e kadar، o zamana kadar، -dığında** می‌آید. فارسی معمولاً این را با ماضی نقلی می‌گوید: «تا آن موقع تمامش کرده‌ام».\n**-ıyor olacak** = آینده‌ی استمراری: کاری که در لحظه‌ای از آینده **در جریان** است. Yarın bu saatte uçakta kitap **okuyor olacağım**. = فردا همین ساعت در هواپیما دارم کتاب می‌خوانم.\n**-mış olmalı** = «باید … کرده باشد / لابد … کرده»: حدس منطقی درباره‌ی گذشته (در B2 دیدید). برای حال: **-ıyor olmalı** = لابد دارد … می‌کند: Işıklar yanıyor; Elif hâlâ **çalışıyor olmalı**.\nمنفی: bitir**memiş** olacağım / oku**muyor** olacağım؛ سؤال: bitirmiş olacak **mısın**?\nدر گفتار، **-mış olacak** گاهی برای حدس هم به کار می‌رود (Şimdiye kadar eve varmış olacak = لابد تا حالا رسیده)، اما در این درس معنای آینده‌ی کامل را تمرین می‌کنیم.",
+      "explain": "در این ساخت‌ها فعل اصلی با **-mış** یا **-ıyor** می‌آید و زمان و شخص روی **olmak** می‌نشیند:\n**-mış olacak** = آینده‌ی کامل: کاری که تا لحظه‌ای در آینده **تمام شده** است. Gelecek yıl tezimi **bitirmiş olacağım**. = سال آینده پایان‌نامه‌ام را تمام کرده‌ام. اغلب با **-e kadar، o zamana kadar، -dığında** می‌آید. فارسی معمولاً این را با ماضی نقلی می‌گوید: «تا آن موقع تمامش کرده‌ام».\n**-ıyor olacak** = آینده‌ی استمراری: کاری که در لحظه‌ای از آینده **در جریان** است. Yarın bu saatte uçakta kitap **okuyor olacağım**. = فردا همین ساعت در هواپیما دارم کتاب می‌خوانم.\n**-mış olmalı** («لابد … کرده») را در B2 (u04) دیدید و در u09 همین سطح با ‎-ıyor olmalı و ‎-acak gibi görünmek کامل می‌کنیم؛ این درس فقط آینده را می‌سازد.\nمنفی: bitir**memiş** olacağım / oku**muyor** olacağım؛ سؤال: bitirmiş olacak **mısın**?\nدر گفتار، **-mış olacak** گاهی برای حدس هم به کار می‌رود (Şimdiye kadar eve varmış olacak = لابد تا حالا رسیده)، اما در این درس معنای آینده‌ی کامل را تمرین می‌کنیم.",
       "table": [
         [
           "ben",
@@ -514,12 +529,12 @@
           "s": "فردا همین ساعت در نمایشگاه کتاب داریم با خوانندگان گفت‌وگو می‌کنیم."
         },
         {
-          "t": "Yazar bu romanı yazmadan önce uzun bir araştırma yapmış olmalı.",
-          "s": "نویسنده باید پیش از نوشتن این رمان پژوهشی طولانی کرده باشد."
+          "t": "Siz İstanbul'a geldiğinizde biz yeni evimize taşınmış olacağız.",
+          "s": "وقتی شما به استانبول بیایید، ما به خانه‌ی جدیدمان اسباب‌کشی کرده‌ایم."
         },
         {
-          "t": "Işıklar yanıyor; Elif hâlâ çalışıyor olmalı.",
-          "s": "چراغ‌ها روشن است؛ الیف لابد هنوز دارد کار می‌کند."
+          "t": "Ay sonuna kadar çeviriyi bitirmiş olacak mısın?",
+          "s": "تا آخر ماه ترجمه را تمام کرده‌ای؟"
         }
       ],
       "exercises": [
@@ -532,7 +547,8 @@
             "hazırladım"
           ],
           "answer": 1,
-          "s": "فردا وقتی به خانه برگردی، من غذا را آماده کرده‌ام."
+          "s": "فردا وقتی به خانه برگردی، من غذا را آماده کرده‌ام.",
+          "why": "کاری که تا لحظه‌ای در آینده تمام شده («وقتی برگردی») ← ‎-mış olacak: hazırlamış olacağım."
         },
         {
           "type": "choice",
@@ -543,18 +559,22 @@
             "biniyor olacağız"
           ],
           "answer": 2,
-          "s": "هفته‌ی آینده همین ساعت در کاپادوکیه داریم بالن‌سواری می‌کنیم."
+          "s": "هفته‌ی آینده همین ساعت در کاپادوکیه داریم بالن‌سواری می‌کنیم.",
+          "why": "کاری که در لحظه‌ای از آینده در جریان است ← ‎-ıyor olacak: biniyor olacağız."
         },
         {
           "type": "choice",
-          "t": "Kapı kilitli; komşular tatile ___.",
+          "task": "کدام پاسخ مناسب است؟",
+          "cue": "Yarın öğlen seni arasam uygun olur mu?",
+          "t": "___",
           "options": [
-            "gitmiş olmalı",
-            "gidecek miydi",
-            "gidiyor muydu"
+            "Maalesef, yarın öğlen toplantıda sunum yapıyor olacağım.",
+            "Maalesef, yarın öğlen toplantıda sunum yapmış olmalıyım.",
+            "Maalesef, yarın öğlen toplantıda sunum yapıyordum."
           ],
           "answer": 0,
-          "s": "در قفل است؛ همسایه‌ها لابد به تعطیلات رفته‌اند."
+          "why": "کاری که در لحظه‌ای از آینده در جریان است ← ‎-ıyor olacak: yapıyor olacağım.",
+          "s": "متأسفانه فردا ظهر در جلسه دارم ارائه می‌دهم."
         },
         {
           "type": "type",
@@ -562,7 +582,8 @@
           "answer": [
             "olmuş"
           ],
-          "s": "دو سال دیگر از دانشگاه فارغ‌التحصیل شده‌ام."
+          "s": "دو سال دیگر از دانشگاه فارغ‌التحصیل شده‌ام.",
+          "why": "آینده‌ی کامل: mezun olmuş olacağım («فارغ‌التحصیل شده‌ام»)."
         },
         {
           "type": "type",
@@ -570,15 +591,19 @@
           "answer": [
             "uyuyor"
           ],
-          "s": "فردا شب همین ساعت در هواپیما دارم می‌خوابم."
+          "s": "فردا شب همین ساعت در هواپیما دارم می‌خوابم.",
+          "why": "کارِ در جریان در لحظه‌ای از آینده ← uyuyor olacağım."
         },
         {
           "type": "type",
-          "t": "Zeynep'in gözleri kıpkırmızı; bütün gece ___ olmalı.",
+          "task": "با ‎-mış olacak یک جمله بسازید.",
+          "cue": "Saat altıda işim bitecek. Sen yedide geleceksin.",
+          "t": "Sen yedide geldiğinde ben işimi ___.",
           "answer": [
-            "ağlamış"
+            "bitirmiş olacağım"
           ],
-          "s": "چشم‌های زینب سرخِ سرخ است؛ لابد تمام شب گریه کرده."
+          "why": "کاری که تا لحظه‌ای در آینده تمام شده ← ‎-mış olacak: bitirmiş olacağım.",
+          "s": "وقتی تو ساعت هفت بیایی، من کارم را تمام کرده‌ام."
         },
         {
           "type": "order",
@@ -710,6 +735,18 @@
           "Mektupları bir müzeye vermeye"
         ],
         "answer": 1
+      },
+      {
+        "q": {
+          "t": "Ailede kimsenin Hasan'ı tanımaması neyi gösteriyor?",
+          "s": "اینکه هیچ‌کس در خانواده حسن را نمی‌شناخت، چه چیزی را نشان می‌دهد؟"
+        },
+        "options": [
+          "Babaannenin ağabeyinden ailesine hiç söz etmediğini",
+          "Hasan'ın ünlü bir yazar olduğunu",
+          "Mektupların sahte olduğunu"
+        ],
+        "answer": 0
       }
     ]
   },

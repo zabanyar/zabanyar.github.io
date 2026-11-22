@@ -23,7 +23,8 @@
       "ex": {
         "t": "Yarınki sunumuma hâlâ hazırlanıyorum.",
         "s": "هنوز دارم برای ارائه‌ی فردایم آماده می‌شوم."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w02",
@@ -47,7 +48,8 @@
       "ex": {
         "t": "Konuşmacı sözlerine küçük bir hikâyeyle başladı.",
         "s": "سخنران حرف‌هایش را با یک داستان کوتاه شروع کرد."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w04",
@@ -63,14 +65,13 @@
     },
     {
       "id": "w05",
-      "t": "slayt",
-      "pl": "slaytlar",
-      "s": "اسلاید",
-      "pr": "سْلایت",
+      "t": "söz hakkı",
+      "s": "نوبت سخن؛ حق صحبت",
+      "pr": "سُز هاکِّ",
       "emoji": "",
       "ex": {
-        "t": "Slaytlarınıza çok fazla yazı koymayın.",
-        "s": "روی اسلایدهایتان بیش از حد متن نگذارید."
+        "t": "Moderatör, söz hakkı almadan konuşan katılımcıyı uyardı.",
+        "s": "مجری به شرکت‌کننده‌ای که بی‌نوبت حرف می‌زد تذکر داد."
       }
     },
     {
@@ -87,13 +88,13 @@
     },
     {
       "id": "w07",
-      "t": "jüri",
-      "s": "هیئت داوران",
-      "pr": "ژوری",
+      "t": "sözü bağlamak",
+      "s": "سخن را جمع‌بندی کردن و به پایان بردن",
+      "pr": "سُزو باالاماک",
       "emoji": "",
       "ex": {
-        "t": "Jüri, en ikna edici konuşmayı yapan takımı seçti.",
-        "s": "هیئت داوران تیمی را انتخاب کرد که قانع‌کننده‌ترین سخنرانی را داشت."
+        "t": "Konuşmacı sözü güzel bir atasözüyle bağladı.",
+        "s": "سخنران سخنش را با ضرب‌المثلی زیبا به پایان برد."
       }
     },
     {
@@ -116,7 +117,8 @@
       "ex": {
         "t": "Sahne korkusunu yenmek için çok pratik yaptı.",
         "s": "برای غلبه بر ترس از صحنه، خیلی تمرین کرد."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w10",
@@ -171,7 +173,8 @@
       "ex": {
         "t": "Konuşmacı süreyi aştığı için sözü kesildi.",
         "s": "چون سخنران از وقتش فراتر رفت، حرفش را قطع کردند."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w15",
@@ -188,9 +191,9 @@
   "phrases": [
     {
       "id": "p01",
-      "t": "Hepinize hoş geldiniz demek istiyorum.",
-      "s": "می‌خواهم به همه‌ی شما خوشامد بگویم.",
-      "pr": "هِپینیزِه هُش گِلدینیز دِمِک ایستیُروم."
+      "t": "Değerli konuklar, sözlerime bir soruyla başlamak istiyorum.",
+      "s": "مهمانان گرامی، می‌خواهم سخنم را با یک پرسش آغاز کنم.",
+      "pr": "دِیِرلی کُنوکلار، سُزلِریمِه بیر سُرویلا باشلاماک ایستیُروم."
     },
     {
       "id": "p02",
@@ -384,7 +387,8 @@
             "Kısacası"
           ],
           "answer": 0,
-          "s": "پیش از هر چیز، قبل از شروع ارائه می‌خواهم از همه‌ی شما تشکر کنم."
+          "s": "پیش از هر چیز، قبل از شروع ارائه می‌خواهم از همه‌ی شما تشکر کنم.",
+          "why": "شروع ارائه ← Öncelikle («پیش از هر چیز»)."
         },
         {
           "type": "choice",
@@ -395,7 +399,8 @@
             "İkinci olarak"
           ],
           "answer": 0,
-          "s": "به‌طور خلاصه، امروز سه موضوع اصلی را بررسی کردیم: هزینه، زمان و کیفیت."
+          "s": "به‌طور خلاصه، امروز سه موضوع اصلی را بررسی کردیم: هزینه، زمان و کیفیت.",
+          "why": "جمع‌بندیِ آنچه گفته شد ← Özetlemek gerekirse."
         },
         {
           "type": "choice",
@@ -406,7 +411,8 @@
             "Zamanda"
           ],
           "answer": 0,
-          "s": "و اما زمان؛ می‌توانیم پروژه را در دو ماه تمام کنیم."
+          "s": "و اما زمان؛ می‌توانیم پروژه را در دو ماه تمام کنیم.",
+          "why": "gelince حالت به (‎-e) می‌خواهد: zamana gelince («و اما زمان»)."
         },
         {
           "type": "choice",
@@ -417,7 +423,8 @@
             "özetlemek gerekirse"
           ],
           "answer": 0,
-          "s": "اول مشکل را تعریف می‌کنم، دوم راه‌حل‌های پیشنهادی‌ام را ارائه می‌دهم."
+          "s": "اول مشکل را تعریف می‌کنم، دوم راه‌حل‌های پیشنهادی‌ام را ارائه می‌دهم.",
+          "why": "بعد از «İlk olarak» قدم دوم ← ikinci olarak."
         },
         {
           "type": "type",
@@ -425,23 +432,33 @@
           "answer": [
             "gerekirse"
           ],
-          "s": "اگر بخواهم مثالی بزنم، پارسال فروش ما بیست درصد افزایش یافت."
+          "s": "اگر بخواهم مثالی بزنم، پارسال فروش ما بیست درصد افزایش یافت.",
+          "why": "عبارت ثابت: bir örnek vermek gerekirse («اگر بخواهم مثالی بزنم»)."
         },
         {
           "type": "type",
-          "t": "Son ___, sorularınızı almak istiyorum.",
+          "task": "با ‎-e gelince بازنویسی کنید.",
+          "cue": "Kalite konusuna geçersek, ürünlerimiz Avrupa standartlarında.",
+          "t": "___, ürünlerimiz Avrupa standartlarında.",
           "answer": [
-            "olarak"
+            "Kaliteye gelince"
           ],
-          "s": "در آخر، می‌خواهم به سؤال‌هایتان پاسخ دهم."
+          "why": "«و اما …» برای رفتن به موضوع بعدی ← اسم + ‎-e gelince: kaliteye gelince.",
+          "s": "و اما کیفیت؛ محصولات ما در سطح استانداردهای اروپایی است."
         },
         {
-          "type": "type",
-          "t": "Bunun yanı ___, projenin çevreye de faydası var.",
-          "answer": [
-            "sıra"
+          "type": "choice",
+          "task": "کدام جمله مناسب است؟",
+          "cue": "Sunumunuzun sonuna geldiniz ve ana fikri bir kez daha söylemek istiyorsunuz.",
+          "t": "___",
+          "options": [
+            "Kısacası, bu yöntem hem ucuz hem de etkili.",
+            "Öncelikle, bu yöntem hem ucuz hem de etkili.",
+            "İkinci olarak, bu yöntem hem ucuz hem de etkili."
           ],
-          "s": "علاوه بر این، پروژه برای محیط زیست هم مفید است."
+          "answer": 0,
+          "why": "جمع‌بندی در پایان ← Kısacası / Özetlemek gerekirse؛ Öncelikle برای شروع است.",
+          "s": "خلاصه اینکه، این روش هم ارزان است و هم مؤثر."
         },
         {
           "type": "order",
@@ -515,7 +532,8 @@
             "gedikte"
           ],
           "answer": 0,
-          "s": "در بحث جوابی کاملاً به‌جا داد؛ به معنای واقعی کلمه حرف را درست به هدف زد."
+          "s": "در بحث جوابی کاملاً به‌جا داد؛ به معنای واقعی کلمه حرف را درست به هدف زد.",
+          "why": "اصطلاح ثابت با حالت به: taşı gediğine koymak."
         },
         {
           "type": "choice",
@@ -526,7 +544,8 @@
             "ağzınla"
           ],
           "answer": 0,
-          "s": "من هر کاری هم بکنم، نمی‌توانم قانعش کنم."
+          "s": "من هر کاری هم بکنم، نمی‌توانم قانعش کنم.",
+          "why": "فاعل «ben» ← ağz-ım-la kuş tutsam."
         },
         {
           "type": "choice",
@@ -537,7 +556,8 @@
             "sadede geliyor"
           ],
           "answer": 0,
-          "s": "سخنران بیست دقیقه است که حاشیه می‌رود؛ هنوز به موضوع اصلی نرسیده."
+          "s": "سخنران بیست دقیقه است که حاشیه می‌رود؛ هنوز به موضوع اصلی نرسیده.",
+          "why": "lafı dolandırmak = «حاشیه رفتن»؛ با «هنوز به اصل موضوع نرسیده» جور است."
         },
         {
           "type": "choice",
@@ -548,23 +568,33 @@
             "lafı dolandırdı"
           ],
           "answer": 0,
-          "s": "دو ساعت تمام قرارداد را تا ویرگولش بررسی کرد؛ واقعاً مو را از ماست کشید."
+          "s": "دو ساعت تمام قرارداد را تا ویرگولش بررسی کرد؛ واقعاً مو را از ماست کشید.",
+          "why": "kılı kırk yarmak = «مو را از ماست کشیدن» (دقتِ بیش از حد)."
         },
         {
           "type": "type",
-          "t": "Lafı dolandırma, ___ gel!",
+          "task": "با اصطلاح ağzıyla kuş tutsa بازنویسی کنید.",
+          "cue": "Ne yaparsa yapsın, jüriyi ikna edemez.",
+          "t": "___ jüriyi ikna edemez.",
           "answer": [
-            "sadede"
+            "Ağzıyla kuş tutsa"
           ],
-          "s": "حاشیه نرو، برو سر اصل مطلب!"
+          "why": "«هر کاری هم بکند» ← ağzıyla kuş tutsa (برای سوم شخص).",
+          "s": "هر کاری هم بکند، نمی‌تواند داوران را قانع کند."
         },
         {
-          "type": "type",
-          "t": "Söz gümüşse sükût ___.",
-          "answer": [
-            "altındır"
+          "type": "choice",
+          "task": "کدام ضرب‌المثل مناسب است؟",
+          "cue": "Arkadaşınız aylardır iş kuracağını söylüyor ama hiçbir şey yapmıyor.",
+          "t": "___",
+          "options": [
+            "Lafla peynir gemisi yürümez.",
+            "Taşı gediğine koydun.",
+            "Söz gümüşse sükût altındır."
           ],
-          "s": "سخن اگر نقره است، سکوت طلاست."
+          "answer": 0,
+          "why": "«با حرف کاری پیش نمی‌رود» ← Lafla peynir gemisi yürümez.",
+          "s": "به حلوا حلوا گفتن دهان شیرین نمی‌شود."
         },
         {
           "type": "type",
@@ -572,7 +602,8 @@
           "answer": [
             "paçaları"
           ],
-          "s": "هنوز پیشنهاد کاری نرسیده می‌خواهی استعفا بدهی؟ آب ندیده موزه نکش!"
+          "s": "هنوز پیشنهاد کاری نرسیده می‌خواهی استعفا بدهی؟ آب ندیده موزه نکش!",
+          "why": "ضرب‌المثل ثابت: dereyi görmeden paçaları sıvamak = «آب ندیده موزه کشیدن»."
         },
         {
           "type": "order",
@@ -701,6 +732,18 @@
           "Sunumlarda slayt kullanılmamasını"
         ],
         "answer": 1
+      },
+      {
+        "q": {
+          "t": "Konuşmacı kendi ilk sunumundaki hatayı neden anlatıyor?",
+          "s": "چرا سخنران اشتباه اولین ارائه‌ی خودش را تعریف می‌کند؟"
+        },
+        "options": [
+          "Korkunun pratikle yenilebileceğini göstermek için",
+          "Öğretmenini eleştirmek için",
+          "Sunum yapmanın gereksiz olduğunu kanıtlamak için"
+        ],
+        "answer": 0
       }
     ]
   },

@@ -27,13 +27,13 @@
     },
     {
       "id": "w02",
-      "t": "borsa",
-      "s": "بورس",
-      "pr": "بُرسا",
-      "emoji": "📈",
+      "t": "halka arz etmek",
+      "s": "عرضه‌ی عمومی سهام (در بورس)",
+      "pr": "هالکا آرز اِتمِک",
+      "emoji": "",
       "ex": {
-        "t": "Borsa, haftaya yükselişle başladı.",
-        "s": "بورس هفته را با رشد آغاز کرد."
+        "t": "Şirket, hisselerinin yüzde yirmisini halka arz etmeyi planlıyor.",
+        "s": "شرکت قصد دارد بیست درصد سهامش را در بورس عرضه‌ی عمومی کند."
       }
     },
     {
@@ -68,7 +68,8 @@
       "ex": {
         "t": "Ekonomistler önümüzdeki yıl hafif bir durgunluk bekliyor.",
         "s": "اقتصاددانان برای سال آینده رکودی خفیف پیش‌بینی می‌کنند."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w06",
@@ -150,14 +151,13 @@
     },
     {
       "id": "w13",
-      "t": "vergi",
-      "pl": "vergiler",
-      "s": "مالیات",
-      "pr": "وِرگی",
+      "t": "vergi muafiyeti",
+      "s": "معافیت مالیاتی",
+      "pr": "وِرگی موآفیِتی",
       "emoji": "",
       "ex": {
-        "t": "Küçük işletmeler için vergi indirimi açıklandı.",
-        "s": "کاهش مالیات برای کسب‌وکارهای کوچک اعلام شد."
+        "t": "Bazı ülkelerde yeni kurulan işletmeler ilk yıllarda vergi muafiyetinden yararlanabiliyor.",
+        "s": "در برخی کشورها کسب‌وکارهای تازه‌تأسیس در سال‌های اول می‌توانند از معافیت مالیاتی برخوردار شوند."
       }
     },
     {
@@ -266,19 +266,19 @@
     },
     "speakers": {
       "A": {
-        "name": "Sara",
+        "name": "Derya",
         "voice": "f"
       },
       "B": {
-        "name": "Emre",
+        "name": "Kaan",
         "voice": "m"
       }
     },
     "lines": [
       {
         "sp": "A",
-        "t": "Emre, yönetim kuruluna sunacağın raporu okudum. Geçen yılın rakamları gerçekten şaşırtıcı.",
-        "s": "امره، گزارشی را که قرار است به هیئت‌مدیره ارائه بدهی خواندم. ارقام سال گذشته واقعاً شگفت‌انگیز است."
+        "t": "Kaan, yönetim kuruluna sunacağın raporu okudum. Geçen yılın rakamları gerçekten şaşırtıcı.",
+        "s": "کان، گزارشی را که قرار است به هیئت‌مدیره ارائه بدهی خواندم. ارقام سال گذشته واقعاً شگفت‌انگیز است."
       },
       {
         "sp": "B",
@@ -411,7 +411,8 @@
             "kapanır"
           ],
           "answer": 1,
-          "s": "وقتی به بانک رسیدم، شعبه بسته شده بود."
+          "s": "وقتی به بانک رسیدم، شعبه بسته شده بود.",
+          "why": "کاری که پیش از لحظه‌ای در گذشته تمام شده بود ← ‎-mıştı: kapanmıştı."
         },
         {
           "type": "choice",
@@ -422,7 +423,8 @@
             "sürecektik"
           ],
           "answer": 2,
-          "s": "قرار بود محصول جدید را ماه مارس به بازار عرضه کنیم، اما در تولید مشکلی پیش آمد."
+          "s": "قرار بود محصول جدید را ماه مارس به بازار عرضه کنیم، اما در تولید مشکلی پیش آمد.",
+          "why": "برنامه‌ای در گذشته که انجام نشد («قرار بود») ← ‎-acaktı: sürecektik."
         },
         {
           "type": "choice",
@@ -433,7 +435,8 @@
             "çalışacağım"
           ],
           "answer": 0,
-          "s": "بچه که بودم، هر تابستان در مغازه‌ی پدربزرگم کار می‌کردم."
+          "s": "بچه که بودم، هر تابستان در مغازه‌ی پدربزرگم کار می‌کردم.",
+          "why": "عادت در گذشته («هر تابستان») ← ‎-ırdı: çalışırdım."
         },
         {
           "type": "choice",
@@ -444,25 +447,33 @@
             "yazacağım"
           ],
           "answer": 1,
-          "s": "وقتی تلفن زنگ زد، داشتم گزارش را می‌نوشتم."
+          "s": "وقتی تلفن زنگ زد، داشتم گزارش را می‌نوشتم.",
+          "why": "کارِ در جریان، وقتی کار دیگری پیش آمد ← ‎-ıyordu: yazıyordum."
         },
         {
           "type": "type",
-          "t": "Toplantıya geç kaldım; herkes çoktan ___.",
+          "task": "با ‎-acaktı بازنویسی کنید.",
+          "cue": "Yeni şubeyi mayısta açmayı planlamıştık ama açamadık.",
+          "t": "Yeni şubeyi mayısta ___ ama açamadık.",
           "answer": [
-            "gitmişti",
-            "gitmişlerdi"
+            "açacaktık"
           ],
-          "s": "به جلسه دیر رسیدم؛ همه مدت‌ها پیش رفته بودند."
+          "why": "برنامه‌ای در گذشته که انجام نشد ← ‎-acaktı: açacaktık.",
+          "s": "قرار بود شعبه‌ی جدید را در ماه مه باز کنیم، اما نتوانستیم."
         },
         {
-          "type": "type",
-          "t": "Eskiden bu mağazada her şeyi nakit ___.",
-          "answer": [
-            "öderdik",
-            "ödüyorduk"
+          "type": "choice",
+          "task": "کدام پاسخ مناسب است؟",
+          "cue": "Dün akşam seni aradım, neden açmadın?",
+          "t": "___",
+          "options": [
+            "Kusura bakma, o sırada yemek yapıyordum.",
+            "Kusura bakma, o sırada yemek yapardım.",
+            "Kusura bakma, o sırada yemek yapacaktım."
           ],
-          "s": "قدیم‌ها در این فروشگاه همه‌چیز را نقدی می‌پرداختیم."
+          "answer": 0,
+          "why": "کاری که در آن لحظه در جریان بود ← ‎-ıyordu: yapıyordum؛ ‎-ırdı برای عادت است.",
+          "s": "ببخشید، آن موقع داشتم غذا درست می‌کردم."
         },
         {
           "type": "type",
@@ -470,7 +481,8 @@
           "answer": [
             "verecektim"
           ],
-          "s": "می‌خواستم به شما خبر بدهم، اما تلفنم خاموش بود."
+          "s": "می‌خواستم به شما خبر بدهم، اما تلفنم خاموش بود.",
+          "why": "قصدی در گذشته که انجام نشد («می‌خواستم») ← ‎-acaktı: verecektim."
         },
         {
           "type": "order",
@@ -543,7 +555,8 @@
             "arttıkça"
           ],
           "answer": 2,
-          "s": "هرچه تقاضا بیشتر شود، قیمت‌ها هم بالا می‌رود."
+          "s": "هرچه تقاضا بیشتر شود، قیمت‌ها هم بالا می‌رود.",
+          "why": "«هرچه … بیشتر» ← ‎-dıkça: arttıkça."
         },
         {
           "type": "choice",
@@ -554,7 +567,8 @@
             "kaydıyla"
           ],
           "answer": 0,
-          "s": "حقوق‌ها باید به نسبت تورم افزایش یابد."
+          "s": "حقوق‌ها باید به نسبت تورم افزایش یابد.",
+          "why": "بعد از اسم (enflasyon) ← oranında («به نسبتِ»)."
         },
         {
           "type": "choice",
@@ -565,15 +579,22 @@
             "hissederek"
           ],
           "answer": 1,
-          "s": "کارکنان به همان اندازه که احساس ارزشمندی کنند، بهره‌ور می‌شوند."
+          "s": "کارکنان به همان اندازه که احساس ارزشمندی کنند، بهره‌ور می‌شوند.",
+          "why": "پیش از ölçüde صفت‌فعل ‎-dığı با پسوند شخص می‌آید: hissettikleri ölçüde."
         },
         {
-          "type": "type",
-          "t": "Satışlar yüzde yirmi ___ düştü.",
-          "answer": [
-            "oranında"
+          "type": "choice",
+          "task": "کدام پاسخ مناسب است؟",
+          "cue": "Bu yıl kiranız ne kadar arttı?",
+          "t": "___",
+          "options": [
+            "Tam enflasyon oranında arttı.",
+            "Tam enflasyon oranda arttı.",
+            "Tam enflasyon ölçüde arttı."
           ],
-          "s": "فروش به میزان بیست درصد کاهش یافت."
+          "answer": 0,
+          "why": "بعد از اسم «به نسبتِ» ← oranında (با پسوند ‎-ı)؛ ölçüde بعد از ‎-dığı می‌آید.",
+          "s": "دقیقاً به نسبت تورم بالا رفت."
         },
         {
           "type": "type",
@@ -581,7 +602,8 @@
           "answer": [
             "büyüdükçe"
           ],
-          "s": "هرچه شرکت بزرگ‌تر می‌شود، به کارکنان بیشتری نیاز پیدا می‌کند."
+          "s": "هرچه شرکت بزرگ‌تر می‌شود، به کارکنان بیشتری نیاز پیدا می‌کند.",
+          "why": "«هرچه بزرگ‌تر …» ← büyü-dükçe."
         },
         {
           "type": "type",
@@ -591,12 +613,19 @@
             "oranda",
             "sürece"
           ],
-          "s": "به همان اندازه که به کیفیت محصولاتمان اعتماد کنید، به همکاری با ما ادامه می‌دهید."
+          "s": "به همان اندازه که به کیفیت محصولاتمان اعتماد کنید، به همکاری با ما ادامه می‌دهید.",
+          "why": "‎-dığınız + ölçüde / oranda = «به همان اندازه که» (sürece هم ممکن است)."
         },
         {
-          "type": "order",
-          "t": "Gelir arttıkça tasarruf da artar.",
-          "s": "هرچه درآمد بیشتر شود، پس‌انداز هم بیشتر می‌شود."
+          "type": "type",
+          "task": "با ‎-dığı ölçüde بازنویسی کنید.",
+          "cue": "Şirket ne kadar çok yatırım yaparsa o kadar büyür.",
+          "t": "Şirket yatırım ___ büyür.",
+          "answer": [
+            "yaptığı ölçüde"
+          ],
+          "why": "«به همان اندازه که» ← ‎-dığı ölçüde: yaptığı ölçüde.",
+          "s": "شرکت به همان اندازه که سرمایه‌گذاری کند، بزرگ می‌شود."
         },
         {
           "type": "order",
@@ -616,24 +645,24 @@
     },
     "text": [
       {
-        "t": "Mehmet Yıldız'ın dedesi, altmışlı yıllarda Gaziantep'te küçük bir halı atölyesi işletiyordu.",
-        "s": "پدربزرگِ مهمت ییلدیز در دهه‌ی شصت میلادی در غازی‌عنتاب یک کارگاه کوچک قالی‌بافی را اداره می‌کرد."
+        "t": "Kemal Yıldız'ın dedesi, altmışlı yıllarda Gaziantep'te küçük bir halı atölyesi işletiyordu.",
+        "s": "پدربزرگِ کمال ییلدیز در دهه‌ی شصت میلادی در غازی‌عنتاب یک کارگاه کوچک قالی‌بافی را اداره می‌کرد."
       },
       {
         "t": "Atölyede yalnızca beş kişi çalışırdı ve halılar sadece yerel pazarda satılırdı.",
         "s": "در کارگاه فقط پنج نفر کار می‌کردند و قالی‌ها تنها در بازار محلی فروخته می‌شد."
       },
       {
-        "t": "Mehmet Bey işi devraldığında, dedesinin zamanındaki müşterilerin çoğu çoktan başka firmalara geçmişti.",
-        "s": "وقتی آقای مهمت کار را تحویل گرفت، بیشتر مشتریان زمان پدربزرگش مدت‌ها بود سراغ شرکت‌های دیگر رفته بودند."
+        "t": "Kemal Bey işi devraldığında, dedesinin zamanındaki müşterilerin çoğu çoktan başka firmalara geçmişti.",
+        "s": "وقتی آقای کمال کار را تحویل گرفت، بیشتر مشتریان زمان پدربزرگش مدت‌ها بود سراغ شرکت‌های دیگر رفته بودند."
       },
       {
         "t": "Üstelik o yıllarda ucuz ithal halılar piyasayı hızla ele geçiriyordu.",
         "s": "افزون بر این، در آن سال‌ها قالی‌های وارداتیِ ارزان به‌سرعت بازار را تسخیر می‌کردند."
       },
       {
-        "t": "Mehmet Bey aslında atölyeyi kapatıp bir bankada çalışacaktı.",
-        "s": "آقای مهمت در واقع قرار بود کارگاه را ببندد و در یک بانک کار کند."
+        "t": "Kemal Bey aslında atölyeyi kapatıp bir bankada çalışacaktı.",
+        "s": "آقای کمال در واقع قرار بود کارگاه را ببندد و در یک بانک کار کند."
       },
       {
         "t": "Ancak son anda farklı bir yol denemeye karar verdi: el yapımı, doğal boyalı halılar üretip internet üzerinden yurt dışına satmak.",
@@ -656,8 +685,8 @@
         "s": "هشتاد درصد محصولات به اروپا و کانادا صادر می‌شود."
       },
       {
-        "t": "Mehmet Bey'e göre başarının sırrı basit: “Kaliteden ödün vermediğiniz ölçüde müşteri size sadık kalır.”",
-        "s": "به گفته‌ی آقای مهمت، راز موفقیت ساده است: «به همان اندازه که از کیفیت کوتاه نیایید، مشتری به شما وفادار می‌ماند.»"
+        "t": "Kemal Bey'e göre başarının sırrı basit: “Kaliteden ödün vermediğiniz ölçüde müşteri size sadık kalır.”",
+        "s": "به گفته‌ی آقای کمال، راز موفقیت ساده است: «به همان اندازه که از کیفیت کوتاه نیایید، مشتری به شما وفادار می‌ماند.»"
       },
       {
         "t": "Şirket, önümüzdeki yıl hisselerinin bir kısmını halka arz etmeyi planlıyor.",
@@ -683,8 +712,8 @@
       },
       {
         "q": {
-          "t": "Mehmet Bey işi devraldığında piyasada ne oluyordu?",
-          "s": "وقتی آقای مهمت کار را تحویل گرفت، در بازار چه اتفاقی می‌افتاد؟"
+          "t": "Kemal Bey işi devraldığında piyasada ne oluyordu?",
+          "s": "وقتی آقای کمال کار را تحویل گرفت، در بازار چه اتفاقی می‌افتاد؟"
         },
         "options": [
           "Ucuz ithal halılar piyasayı ele geçiriyordu",
@@ -695,8 +724,8 @@
       },
       {
         "q": {
-          "t": "Mehmet Bey aslında ne yapmayı planlıyordu?",
-          "s": "آقای مهمت در واقع چه برنامه‌ای داشت؟"
+          "t": "Kemal Bey aslında ne yapmayı planlıyordu?",
+          "s": "آقای کمال در واقع چه برنامه‌ای داشت؟"
         },
         "options": [
           "Atölyeyi kapatıp bir bankada çalışmayı",
@@ -719,8 +748,8 @@
       },
       {
         "q": {
-          "t": "Mehmet Bey'e göre başarının sırrı nedir?",
-          "s": "به نظر آقای مهمت، راز موفقیت چیست؟"
+          "t": "Kemal Bey'e göre başarının sırrı nedir?",
+          "s": "به نظر آقای کمال، راز موفقیت چیست؟"
         },
         "options": [
           "Ucuz ürün satmak",
@@ -728,6 +757,18 @@
           "Kaliteden ödün vermemek"
         ],
         "answer": 2
+      },
+      {
+        "q": {
+          "t": "Kemal Bey'in başarısında en belirleyici karar hangisiydi?",
+          "s": "کدام تصمیم در موفقیت آقای کمال از همه تعیین‌کننده‌تر بود؟"
+        },
+        "options": [
+          "Atölyeyi kapatmak yerine ürünleri internetten yurt dışına satmaya karar vermesi",
+          "Bir bankada çalışmaya başlaması",
+          "Ucuz ithal halı satmaya başlaması"
+        ],
+        "answer": 0
       }
     ]
   },
@@ -754,10 +795,10 @@
       ]
     },
     {
-      "t": "Talep arttıkça fiyatlar yükselir.",
-      "s": "هرچه تقاضا بیشتر شود، قیمت‌ها بالاتر می‌رود.",
+      "t": "Faizler düştükçe konut satışları artar.",
+      "s": "هرچه نرخ بهره پایین‌تر بیاید، فروش مسکن بیشتر می‌شود.",
       "alts": [
-        "Fiyatlar talep arttıkça yükselir."
+        "Konut satışları faizler düştükçe artar."
       ]
     },
     {

@@ -110,7 +110,8 @@
       "ex": {
         "t": "Doğum günümü unuttuğu için ona çok kırıldım.",
         "s": "چون تولدم را فراموش کرد، خیلی از دستش دلخور شدم."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w10",
@@ -177,15 +178,16 @@
       "ex": {
         "t": "Sınav sonucu ailesinde büyük bir hayal kırıklığı yarattı.",
         "s": "نتیجه‌ی امتحان خانواده‌اش را بسیار ناامید کرد."
-      }
+      },
+      "sym": true
     }
   ],
   "phrases": [
     {
       "id": "p01",
-      "t": "Seni çok iyi anlıyorum.",
-      "s": "خیلی خوب درکت می‌کنم.",
-      "pr": "سِنی چُک ای‌یی آنلِیُروم."
+      "t": "Nasıl desem, içim içimi yiyor.",
+      "s": "چطور بگویم، دلم مثل سیر و سرکه می‌جوشد.",
+      "pr": "ناسِل دِسِم، ایچیم ایچیمی ییُر."
     },
     {
       "id": "p02",
@@ -216,9 +218,9 @@
     },
     {
       "id": "p06",
-      "t": "Kafana takma, geçer.",
-      "s": "فکرش را نکن، می‌گذرد.",
-      "pr": "کافانا تاکما، گِچِر."
+      "t": "Kendini bu kadar paralama, herkesi memnun edemezsin.",
+      "s": "این‌قدر خودت را به آب و آتش نزن؛ نمی‌توانی همه را راضی کنی.",
+      "pr": "کِندینی بو کادار پارالاما، هِرکِسی مِمنون اِدِمِزسین."
     },
     {
       "id": "p07",
@@ -247,15 +249,15 @@
         "voice": "f"
       },
       "B": {
-        "name": "Emre",
+        "name": "Murat",
         "voice": "m"
       }
     },
     "lines": [
       {
         "sp": "A",
-        "t": "Emre, iyi misin? Yüzün bembeyaz; dün gece hiç uyumamış olmalısın.",
-        "s": "امره، خوبی؟ رنگت پریده؛ حتماً دیشب اصلاً نخوابیده‌ای."
+        "t": "Murat, iyi misin? Yüzün bembeyaz; dün gece hiç uyumamış olmalısın.",
+        "s": "مراد، خوبی؟ رنگت پریده؛ حتماً دیشب اصلاً نخوابیده‌ای."
       },
       {
         "sp": "B",
@@ -376,7 +378,8 @@
             "biter bitmeden"
           ],
           "answer": 0,
-          "s": "به محض اینکه جلسه تمام شد، همه بیرون رفتند."
+          "s": "به محض اینکه جلسه تمام شد، همه بیرون رفتند.",
+          "why": "‎-ır … -maz: biter bitmez («به محض اینکه تمام شد»)."
         },
         {
           "type": "choice",
@@ -387,7 +390,8 @@
             "açınca"
           ],
           "answer": 0,
-          "s": "همان لحظه که در را باز کردم، تلفن زنگ زد."
+          "s": "همان لحظه که در را باز کردم، تلفن زنگ زد.",
+          "why": "پیش از an صفت‌فعل ‎-dığı با پسوند شخص می‌آید: açtığım an."
         },
         {
           "type": "choice",
@@ -398,7 +402,8 @@
             "öğrenecek öğrenmeyecek"
           ],
           "answer": 0,
-          "s": "به محض اینکه نتیجه‌ها را فهمیدی، فوراً به ما خبر بده."
+          "s": "به محض اینکه نتیجه‌ها را فهمیدی، فوراً به ما خبر بده.",
+          "why": "مضارعِ مثبت + منفیِ همان فعل: öğrenir öğrenmez."
         },
         {
           "type": "choice",
@@ -409,23 +414,35 @@
             "görür görmüz"
           ],
           "answer": 0,
-          "s": "بچه به محض دیدن مادرش، دیگر گریه نکرد."
+          "s": "بچه به محض دیدن مادرش، دیگر گریه نکرد.",
+          "why": "مضارعِ gör- ← görür (نه görer)؛ منفی: görmez."
         },
         {
           "type": "type",
-          "t": "Eve ___ gelmez duş aldım.",
+          "task": "با ‎-ır … -maz یا ‎-dığım gibi بازنویسی کنید.",
+          "cue": "Mektubunu okudum ve hemen seni aradım.",
+          "t": "Mektubunu ___ seni aradım.",
           "answer": [
-            "gelir"
+            "okur okumaz",
+            "okuduğum gibi",
+            "okuduğum an"
           ],
-          "s": "به محض اینکه به خانه رسیدم، دوش گرفتم."
+          "why": "«به محض اینکه» ← okur okumaz / okuduğum gibi / okuduğum an.",
+          "s": "به محض اینکه نامه‌ات را خواندم، به تو زنگ زدم."
         },
         {
-          "type": "type",
-          "t": "Uçak ___ kalkmaz kulaklarım ağrımaya başladı.",
-          "answer": [
-            "kalkar"
+          "type": "choice",
+          "task": "کدام پاسخ مناسب است؟",
+          "cue": "Sonuçları ne zaman haber vereceksin?",
+          "t": "___",
+          "options": [
+            "Sonuçlar açıklanır açıklanmaz haber veririm.",
+            "Sonuçlar açıklanmaz açıklanır haber veririm.",
+            "Sonuçlar açıklanır açıklanmadan haber veririm."
           ],
-          "s": "به محض اینکه هواپیما بلند شد، گوش‌هایم شروع به درد کرد."
+          "answer": 0,
+          "why": "در ‎-ır … -maz اول شکل مثبت می‌آید و بعد منفی: açıklanır açıklanmaz.",
+          "s": "به محض اینکه نتایج اعلام شود، خبر می‌دهم."
         },
         {
           "type": "type",
@@ -435,7 +452,8 @@
             "öğrendiğimiz",
             "aldığımız"
           ],
-          "s": "همین که خبر را شنیدیم، راه افتادیم."
+          "s": "همین که خبر را شنیدیم، راه افتادیم.",
+          "why": "‎-dığı gibi = «همین که»؛ فاعل «biz»: duyduğumuz gibi."
         },
         {
           "type": "order",
@@ -497,15 +515,15 @@
       ],
       "exercises": [
         {
-          "type": "choice",
-          "t": "Yerler ıslak; dün gece yağmur ___.",
-          "options": [
-            "yağmış olmalı",
-            "yağıyor olmalı",
-            "yağmalı"
+          "type": "type",
+          "task": "با ‎-mış olmalı بازنویسی کنید.",
+          "cue": "Murat'ın masası boş ve bilgisayarı kapalı. Bence bugün işe gelmedi.",
+          "t": "Murat bugün işe ___.",
+          "answer": [
+            "gelmemiş olmalı"
           ],
-          "answer": 0,
-          "s": "زمین خیس است؛ حتماً دیشب باران آمده."
+          "why": "نتیجه‌گیری از نشانه‌ها درباره‌ی گذشته‌ی منفی ← gelmemiş olmalı.",
+          "s": "مراد حتماً امروز سر کار نیامده."
         },
         {
           "type": "choice",
@@ -516,7 +534,8 @@
             "dinlemeli"
           ],
           "answer": 0,
-          "s": "در را باز نمی‌کند؛ حتماً دارد با هدفون موسیقی گوش می‌دهد."
+          "s": "در را باز نمی‌کند؛ حتماً دارد با هدفون موسیقی گوش می‌دهد.",
+          "why": "حدس درباره‌ی کاری که الان در جریان است ← ‎-(ı)yor olmalı: dinliyor olmalı."
         },
         {
           "type": "choice",
@@ -527,7 +546,8 @@
             "çıkıyor olmalı"
           ],
           "answer": 0,
-          "s": "هوا تاریک می‌شود و باد هم شدیدتر شده؛ به نظر می‌رسد طوفان شود."
+          "s": "هوا تاریک می‌شود و باد هم شدیدتر شده؛ به نظر می‌رسد طوفان شود.",
+          "why": "نشانه‌ها می‌گویند به‌زودی رخ می‌دهد ← ‎-acak gibi görünüyor."
         },
         {
           "type": "choice",
@@ -538,7 +558,8 @@
             "çalışmış olmalı"
           ],
           "answer": 0,
-          "s": "علی باید پیش از امتحان بیشتر درس بخواند؛ وگرنه قبول نمی‌شود."
+          "s": "علی باید پیش از امتحان بیشتر درس بخواند؛ وگرنه قبول نمی‌شود.",
+          "why": "این‌جا الزام است، نه حدس: «باید درس بخواند» ← çalışmalı."
         },
         {
           "type": "type",
@@ -547,7 +568,8 @@
             "unutmuş",
             "bırakmış"
           ],
-          "s": "جواب پیامم را نداد؛ حتماً گوشی‌اش را در خانه جا گذاشته."
+          "s": "جواب پیامم را نداد؛ حتماً گوشی‌اش را در خانه جا گذاشته.",
+          "why": "حدس درباره‌ی گذشته ← unutmuş / bırakmış olmalı."
         },
         {
           "type": "type",
@@ -557,16 +579,22 @@
             "pişiriyor",
             "hazırlıyor"
           ],
-          "s": "بوی خوبی از آشپزخانه می‌آید؛ حتماً مادرم دارد غذا درست می‌کند."
+          "s": "بوی خوبی از آشپزخانه می‌آید؛ حتماً مادرم دارد غذا درست می‌کند.",
+          "why": "کارِ در جریان ← yapıyor olmalı («حتماً دارد درست می‌کند»)."
         },
         {
-          "type": "type",
-          "t": "Gözlerin kızarmış; dün gece hiç ___ olmalısın.",
-          "answer": [
-            "uyumamış",
-            "uyuyamamış"
+          "type": "choice",
+          "task": "کدام نتیجه‌گیری درست است؟",
+          "cue": "Zeynep'in evinin ışıkları yanıyor ve içeriden müzik sesi geliyor.",
+          "t": "___",
+          "options": [
+            "Evde misafir ağırlıyor olmalı.",
+            "Evde misafir ağırlamış olmalıydı.",
+            "Evde misafir ağırlamalı."
           ],
-          "s": "چشم‌هایت سرخ شده؛ حتماً دیشب اصلاً نخوابیده‌ای."
+          "answer": 0,
+          "why": "حدس درباره‌ی کاری که همین حالا در جریان است ← ‎-(ı)yor olmalı؛ ‎-malı به‌تنهایی یعنی «باید».",
+          "s": "حتماً در خانه دارد از مهمان پذیرایی می‌کند."
         },
         {
           "type": "order",
@@ -691,6 +719,30 @@
           "Hayal kırıklığının"
         ],
         "answer": 1
+      },
+      {
+        "q": {
+          "t": "Uzmanın Mina Hanım'a genel mesajı nedir?",
+          "s": "پیام کلی کارشناس به مینا خانم چیست؟"
+        },
+        "options": [
+          "Kendi ihtiyaçlarını da önemsemesi ve sınır koymaktan korkmaması",
+          "Arkadaşlarıyla görüşmeyi tamamen kesmesi",
+          "Her isteğe hemen evet demeye devam etmesi"
+        ],
+        "answer": 0
+      },
+      {
+        "q": {
+          "t": "Mina Hanım'ın mektubundan onun nasıl biri olduğu anlaşılıyor?",
+          "s": "از نامه‌ی مینا خانم چه برمی‌آید که او چه‌جور آدمی است؟"
+        },
+        "options": [
+          "Yardımsever ama kendini ihmal eden biri",
+          "Bencil ve kaba biri",
+          "Hiç arkadaşı olmayan biri"
+        ],
+        "answer": 0
       }
     ]
   },
@@ -704,7 +756,10 @@
     },
     {
       "t": "Onu gördüğüm an ne olduğunu anladım.",
-      "s": "همان لحظه که دیدمش، فهمیدم چه شده."
+      "s": "همان لحظه که دیدمش، فهمیدم چه شده.",
+      "alts": [
+        "Ne olduğunu onu gördüğüm an anladım."
+      ]
     },
     {
       "t": "Çok yorgun görünüyorsun; iyi uyuyamamış olmalısın.",

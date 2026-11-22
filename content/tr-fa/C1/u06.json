@@ -23,7 +23,8 @@
       "ex": {
         "t": "Deneyler üniversitenin yeni laboratuvarında yapılıyor.",
         "s": "آزمایش‌ها در آزمایشگاه جدید دانشگاه انجام می‌شود."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w02",
@@ -69,7 +70,8 @@
       "ex": {
         "t": "Gen düzenleme, bazı kalıtsal hastalıkların tedavisinde umut veriyor.",
         "s": "ویرایش ژن در درمان برخی بیماری‌های ارثی امیدبخش است."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w06",
@@ -92,7 +94,8 @@
       "ex": {
         "t": "Otomasyon yüzünden bazı meslekler ortadan kalkabilir.",
         "s": "به‌خاطر خودکارسازی ممکن است برخی شغل‌ها از بین بروند."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w08",
@@ -184,7 +187,8 @@
       "ex": {
         "t": "Çocuklarda teknoloji bağımlılığı giderek artıyor.",
         "s": "وابستگی به فناوری در میان کودکان روزبه‌روز بیشتر می‌شود."
-      }
+      },
+      "sym": true
     }
   ],
   "phrases": [
@@ -250,7 +254,7 @@
     },
     "speakers": {
       "A": {
-        "name": "Elif",
+        "name": "Muhabir",
         "voice": "f"
       },
       "B": {
@@ -382,15 +386,15 @@
       ],
       "exercises": [
         {
-          "type": "choice",
-          "t": "Kayıp dosyalar bir virüs tarafından ___.",
-          "options": [
-            "silinmiş olabilir",
-            "silinebilmektedir",
-            "silineceği düşünülmektedir"
+          "type": "type",
+          "task": "با ‎-mış olabileceği düşünülmektedir رسمی کنید.",
+          "cue": "Belki saldırganlar şifreleri çaldı.",
+          "t": "Saldırganların şifreleri ___ düşünülmektedir.",
+          "answer": [
+            "çalmış olabileceği"
           ],
-          "answer": 0,
-          "s": "ممکن است فایل‌های گمشده توسط یک ویروس پاک شده باشند."
+          "why": "حدسِ رسمی درباره‌ی گذشته ← ‎-mış olabileceği düşünülmektedir.",
+          "s": "گمان می‌رود مهاجمان رمزها را دزدیده باشند."
         },
         {
           "type": "choice",
@@ -401,7 +405,8 @@
             "yaygınlaşmış olabilir"
           ],
           "answer": 1,
-          "s": "به گفته‌ی کارشناسان، گمان می‌رود این فناوری بتواند ظرف ده سال فراگیر شود."
+          "s": "به گفته‌ی کارشناسان، گمان می‌رود این فناوری بتواند ظرف ده سال فراگیر شود.",
+          "why": "پیش از düşünülmektedir صفت‌فعل ‎-abileceği می‌آید: yaygınlaşabileceği."
         },
         {
           "type": "choice",
@@ -412,7 +417,8 @@
             "kullanılmış olabileceği"
           ],
           "answer": 0,
-          "s": "این ماده‌ی جدید را می‌توان هم در پزشکی و هم در صنعت ساختمان به کار برد."
+          "s": "این ماده‌ی جدید را می‌توان هم در پزشکی و هم در صنعت ساختمان به کار برد.",
+          "why": "امکانِ کلی در زبان رسمی ← ‎-abilmektedir: kullanılabilmektedir."
         },
         {
           "type": "choice",
@@ -423,7 +429,8 @@
             "kaldırmış olabilir"
           ],
           "answer": 0,
-          "s": "ممکن است سامانه نتواند این‌همه ترافیک را تحمل کند؛ پس یک سرور پشتیبان آماده کنیم."
+          "s": "ممکن است سامانه نتواند این‌همه ترافیک را تحمل کند؛ پس یک سرور پشتیبان آماده کنیم.",
+          "why": "«ممکن است نتواند» ← ‎-(y)amayabilir: kaldıramayabilir."
         },
         {
           "type": "type",
@@ -432,7 +439,8 @@
             "gitmiş",
             "gönderilmiş"
           ],
-          "s": "گزارش هنوز نرسیده؛ ممکن است ایمیل به نشانی اشتباهی رفته باشد."
+          "s": "گزارش هنوز نرسیده؛ ممکن است ایمیل به نشانی اشتباهی رفته باشد.",
+          "why": "حدس درباره‌ی گذشته ← ‎-mış olabilir: gitmiş / gönderilmiş olabilir."
         },
         {
           "type": "type",
@@ -440,15 +448,22 @@
           "answer": [
             "açabileceği"
           ],
-          "s": "گمان می‌رود این دارو در درازمدت بتواند به برخی عوارض جانبی منجر شود."
+          "s": "گمان می‌رود این دارو در درازمدت بتواند به برخی عوارض جانبی منجر شود.",
+          "why": "yol açmak + ‎-abileceği + düşünülmektedir: yol açabileceği."
         },
         {
-          "type": "order",
-          "t": "Sistem bu yükü kaldıramayabilir.",
-          "s": "ممکن است سامانه نتواند این بار را تحمل کند.",
-          "alts": [
-            "Bu yükü sistem kaldıramayabilir."
-          ]
+          "type": "choice",
+          "task": "کدام جمله محتاطانه، رسمی و درست است؟",
+          "cue": "Bir bilim insanı gazeteciye yeni ilaç hakkında temkinli bir açıklama yapıyor.",
+          "t": "___",
+          "options": [
+            "İlacın bazı hastalarda işe yarayabileceği düşünülmektedir.",
+            "İlaç bütün hastaları kesinlikle iyileştirecek.",
+            "İlacın bazı hastalarda işe yarayabilir düşünülmektedir."
+          ],
+          "answer": 0,
+          "why": "حدسِ محتاطانه و رسمی ← ‎-abileceği düşünülmektedir؛ پیش از düşünülmektedir صفت‌فعل لازم است.",
+          "s": "گمان می‌رود این دارو در برخی بیماران مؤثر باشد."
         },
         {
           "type": "order",
@@ -509,15 +524,16 @@
       ],
       "exercises": [
         {
-          "type": "choice",
-          "t": "Bilet fiyatları mesafeye ___ değişiyor.",
-          "options": [
-            "bağlı olarak",
-            "itibaren",
-            "dair"
+          "type": "type",
+          "task": "با ‎-e ilişkin رسمی‌تر کنید.",
+          "cue": "Bu konuyla ilgili bir rapor hazırladık.",
+          "t": "Bu ___ bir rapor hazırladık.",
+          "answer": [
+            "konuya ilişkin",
+            "konuya dair"
           ],
-          "answer": 0,
-          "s": "قیمت بلیت‌ها بسته به مسافت تغییر می‌کند."
+          "why": "«مربوط به» در زبان رسمی ← ‎-e ilişkin / ‎-e dair؛ اسم حالت به می‌گیرد: konuya.",
+          "s": "گزارشی درباره‌ی این موضوع آماده کردیم."
         },
         {
           "type": "choice",
@@ -528,7 +544,8 @@
             "bağlı olarak"
           ],
           "answer": 0,
-          "s": "از ماه آینده همه‌ی درخواست‌ها به‌صورت آنلاین انجام می‌شود."
+          "s": "از ماه آینده همه‌ی درخواست‌ها به‌صورت آنلاین انجام می‌شود.",
+          "why": "‎-den itibaren = «از … به بعد»: aydan itibaren."
         },
         {
           "type": "choice",
@@ -539,7 +556,8 @@
             "beri"
           ],
           "answer": 0,
-          "s": "هیچ توضیح مفصلی درباره‌ی تصادف داده نشد."
+          "s": "هیچ توضیح مفصلی درباره‌ی تصادف داده نشد.",
+          "why": "‎-e ilişkin = «مربوط به / درباره‌ی»: kazaya ilişkin."
         },
         {
           "type": "choice",
@@ -550,7 +568,8 @@
             "konuda"
           ],
           "answer": 0,
-          "s": "هیچ مدرکی درباره‌ی این موضوع وجود ندارد."
+          "s": "هیچ مدرکی درباره‌ی این موضوع وجود ندارد.",
+          "why": "dair حالت به (‎-e) می‌خواهد: konuya dair."
         },
         {
           "type": "choice",
@@ -561,7 +580,8 @@
             "yarında"
           ],
           "answer": 1,
-          "s": "سامانه از فردا از کار خارج می‌شود."
+          "s": "سامانه از فردا از کار خارج می‌شود.",
+          "why": "itibaren حالت ازی (‎-den) می‌خواهد: yarından itibaren."
         },
         {
           "type": "type",
@@ -570,7 +590,8 @@
             "kuruna",
             "kurlarına"
           ],
-          "s": "قیمت کالا ممکن است بسته به نرخ ارز بالا برود."
+          "s": "قیمت کالا ممکن است بسته به نرخ ارز بالا برود.",
+          "why": "bağlı olarak حالت به می‌خواهد: döviz kuruna."
         },
         {
           "type": "type",
@@ -579,15 +600,22 @@
             "ilişkin",
             "dair"
           ],
-          "s": "همه‌ی مدارک مربوط به پروژه با ایمیل فرستاده شد."
+          "s": "همه‌ی مدارک مربوط به پروژه با ایمیل فرستاده شد.",
+          "why": "‎-e ilişkin / ‎-e dair = «مربوط به»: projeye ilişkin."
         },
         {
-          "type": "order",
-          "t": "Fiyatlar talebe bağlı olarak değişir.",
-          "s": "قیمت‌ها بسته به تقاضا تغییر می‌کند.",
-          "alts": [
-            "Talebe bağlı olarak fiyatlar değişir."
-          ]
+          "type": "choice",
+          "task": "کدام پاسخ مناسب است؟",
+          "cue": "Yeni kurallar ne zaman geçerli olacak?",
+          "t": "___",
+          "options": [
+            "Gelecek aydan itibaren geçerli olacak.",
+            "Gelecek aya itibaren geçerli olacak.",
+            "Gelecek aya bağlı olarak geçerli olacak."
+          ],
+          "answer": 0,
+          "why": "‎-den itibaren = «از … به بعد»؛ itibaren حالت ازی می‌خواهد: aydan.",
+          "s": "از ماه آینده اجرا می‌شود."
         }
       ]
     }
@@ -707,6 +735,18 @@
           "Çok yüksek sıcaklıklarda çalışmaları"
         ],
         "answer": 1
+      },
+      {
+        "q": {
+          "t": "Yazar kuantum bilgisayarlarına karşı nasıl bir tutum içinde?",
+          "s": "نویسنده چه نگرشی به رایانه‌های کوانتومی دارد؟"
+        },
+        "options": [
+          "Hem umutlu hem temkinli",
+          "Tamamen karşı",
+          "Konuyla hiç ilgilenmiyor"
+        ],
+        "answer": 0
       }
     ]
   },
@@ -724,10 +764,10 @@
       "s": "این دارو ممکن است در برخی بیماران عوارض جانبی ایجاد کند."
     },
     {
-      "t": "Fiyatlar talebe bağlı olarak değişmektedir.",
-      "s": "قیمت‌ها بسته به تقاضا تغییر می‌کند.",
+      "t": "Uçuş saatleri hava koşullarına bağlı olarak değişebilir.",
+      "s": "ساعت پروازها ممکن است بسته به شرایط جوی تغییر کند.",
       "alts": [
-        "Talebe bağlı olarak fiyatlar değişmektedir."
+        "Hava koşullarına bağlı olarak uçuş saatleri değişebilir."
       ]
     },
     {

@@ -23,7 +23,8 @@
       "ex": {
         "t": "Yerel seçimler gelecek mart ayında yapılacak.",
         "s": "انتخابات محلی ماه مارس آینده برگزار می‌شود."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w02",
@@ -217,7 +218,10 @@
       "id": "p03",
       "t": "Seçim sonuçları henüz kesinleşmedi.",
       "s": "نتایج انتخابات هنوز قطعی نشده است.",
-      "pr": "سِچیم سُنوچلارِ هِنوز کِسینلِشمِدی."
+      "pr": "سِچیم سُنوچلارِ هِنوز کِسینلِشمِدی.",
+      "alts": [
+        "Henüz seçim sonuçları kesinleşmedi."
+      ]
     },
     {
       "id": "p04",
@@ -260,7 +264,7 @@
     },
     "speakers": {
       "A": {
-        "name": "Elif",
+        "name": "Gönüllü",
         "voice": "f"
       },
       "B": {
@@ -311,8 +315,8 @@
       },
       {
         "sp": "A",
-        "t": "Yerinde bir soru. Ama kamuoyu baskısı arttığı takdirde belediyelerin geri adım attığı çok görülmüştür.",
-        "s": "سؤال بجایی است. اما بارها دیده شده که وقتی فشار افکار عمومی بیشتر شود، شهرداری‌ها عقب‌نشینی کرده‌اند."
+        "t": "Yerinde bir soru. Ama kamuoyu baskısı arttığı takdirde belediyeler çoğu zaman geri adım atar.",
+        "s": "سؤال بجایی است. اما در صورتی که فشار افکار عمومی بیشتر شود، شهرداری‌ها اغلب عقب‌نشینی می‌کنند."
       },
       {
         "sp": "B",
@@ -322,7 +326,7 @@
       {
         "sp": "A",
         "t": "Perşembe akşamı muhtarlıkta. Komşularınızı da getirmeniz hâlinde çok seviniriz.",
-        "s": "پنجشنبه عصر در دفتر مختار محله. اگر همسایه‌هایتان را هم بیاورید، خیلی خوشحال می‌شویم."
+        "s": "پنجشنبه شب در دفتر مختار محله. اگر همسایه‌هایتان را هم بیاورید، خیلی خوشحال می‌شویم."
       }
     ]
   },
@@ -392,7 +396,8 @@
             "ödenmediği"
           ],
           "answer": 2,
-          "s": "در صورتی که مالیات‌ها به‌موقع پرداخت نشوند، جریمه اعمال خواهد شد."
+          "s": "در صورتی که مالیات‌ها به‌موقع پرداخت نشوند، جریمه اعمال خواهد شد.",
+          "why": "‎-dığı takdirde: فعلِ مجهولِ منفی + ‎-dığı: öden-me-diği takdirde."
         },
         {
           "type": "choice",
@@ -403,7 +408,8 @@
             "belirtilmek"
           ],
           "answer": 0,
-          "s": "مگر آنکه خلاف آن اعلام شود، این قاعده برای همه معتبر است."
+          "s": "مگر آنکه خلاف آن اعلام شود، این قاعده برای همه معتبر است.",
+          "why": "عبارت ثابت: Aksi belirtilmediği sürece = «مگر آنکه خلافش اعلام شود»."
         },
         {
           "type": "choice",
@@ -414,7 +420,8 @@
             "sürece"
           ],
           "answer": 1,
-          "s": "در صورت زلزله فوراً ساختمان را ترک کنید."
+          "s": "در صورت زلزله فوراً ساختمان را ترک کنید.",
+          "why": "بعد از اسم (Deprem) فقط hâlinde می‌آید: deprem hâlinde."
         },
         {
           "type": "choice",
@@ -425,7 +432,8 @@
             "almak"
           ],
           "answer": 2,
-          "s": "به شرط گرفتن وقت قبلی، همه می‌توانند در جلسه شرکت کنند."
+          "s": "به شرط گرفتن وقت قبلی، همه می‌توانند در جلسه شرکت کنند.",
+          "why": "پیش از kaydıyla مصدر با ‎-mak می‌آید: randevu almak kaydıyla."
         },
         {
           "type": "type",
@@ -433,23 +441,33 @@
           "answer": [
             "gecikmesi"
           ],
-          "s": "در صورت تأخیر در پرداخت، قرارداد لغو می‌شود."
+          "s": "در صورت تأخیر در پرداخت، قرارداد لغو می‌شود.",
+          "why": "پیش از hâlinde اسم‌مصدر با ‎-ması می‌آید: ödemenin gecikmesi hâlinde."
         },
         {
           "type": "type",
-          "t": "Belgeleriniz eksik ___ takdirde başvurunuz kabul edilmez.",
+          "task": "با ‎-dığı takdirde رسمی‌تر کنید.",
+          "cue": "Belgeleriniz eksikse başvurunuz kabul edilmez.",
+          "t": "Belgeleriniz ___ başvurunuz kabul edilmez.",
           "answer": [
-            "olduğu"
+            "eksik olduğu takdirde"
           ],
+          "why": "شرطِ ‎-sa در زبان رسمی ← ‎-dığı takdirde؛ با صفت: eksik olduğu takdirde.",
           "s": "در صورتی که مدارکتان ناقص باشد، درخواستتان پذیرفته نمی‌شود."
         },
         {
-          "type": "type",
-          "t": "Yağmur ___ sürece tören bahçede yapılacak.",
-          "answer": [
-            "yağmadığı"
+          "type": "choice",
+          "task": "کدام جمله همین قاعده را به زبان رسمی می‌گوید؟",
+          "cue": "Kütüphane: “Kitabı on beş gün içinde iade ederseniz ceza ödemezsiniz.”",
+          "t": "___",
+          "options": [
+            "Kitabın on beş gün içinde iade edilmesi kaydıyla ceza uygulanmaz.",
+            "Kitabın on beş gün içinde iade edilmesi kaydıyla ceza uygulanır.",
+            "Kitap on beş gün içinde iade edilmediği sürece ceza uygulanmaz."
           ],
-          "s": "تا وقتی باران نبارد، مراسم در باغ برگزار می‌شود."
+          "answer": 0,
+          "why": "«به شرط اینکه پس داده شود» ← ‎-mesi kaydıyla؛ ‎-mediği sürece معنا را برعکس می‌کند.",
+          "s": "به شرط بازگرداندن کتاب در پانزده روز، جریمه‌ای اعمال نمی‌شود."
         },
         {
           "type": "order",
@@ -527,7 +545,8 @@
             "vermesi hâlinde"
           ],
           "answer": 0,
-          "s": "جلسه بدون هیچ وقفه‌ای چهار ساعت طول کشید."
+          "s": "جلسه بدون هیچ وقفه‌ای چهار ساعت طول کشید.",
+          "why": "«بدون وقفه» ← ara vermeksizin (‎-maksızın = «بدون …»)."
         },
         {
           "type": "choice",
@@ -538,18 +557,22 @@
             "söylemesi kaydıyla"
           ],
           "answer": 1,
-          "s": "بی‌آنکه به کسی بگوید، از خانه بیرون رفت."
+          "s": "بی‌آنکه به کسی بگوید، از خانه بیرون رفت.",
+          "why": "«بی‌آنکه بگوید» ← söyle-meden."
         },
         {
           "type": "choice",
-          "t": "Bu sorunu ancak birlikte ___ çözebiliriz.",
+          "task": "کدام پاسخ مناسب است؟",
+          "cue": "Gönüllüler imzaları nasıl topladı?",
+          "t": "___",
           "options": [
-            "çalışmadan",
-            "çalışmaksızın",
-            "çalışarak"
+            "Kapı kapı dolaşarak topladılar.",
+            "Kapı kapı dolaşmaksızın topladılar.",
+            "Kapı kapı dolaşmadan önce topladılar."
           ],
-          "answer": 2,
-          "s": "این مشکل را فقط با همکاری می‌توانیم حل کنیم."
+          "answer": 0,
+          "why": "شیوه‌ی کار را می‌پرسد («چطور؟») ← ‎-arak: dolaşarak.",
+          "s": "با گشتن خانه به خانه جمع کردند."
         },
         {
           "type": "type",
@@ -558,7 +581,8 @@
             "düşünmeden",
             "düşünmeksizin"
           ],
-          "s": "بی‌آنکه اصلاً فکر کند «بله» گفت؛ بعد پشیمان شد."
+          "s": "بی‌آنکه اصلاً فکر کند «بله» گفت؛ بعد پشیمان شد.",
+          "why": "«بی‌آنکه فکر کند» ← düşün-meden (یا düşünmeksizin)."
         },
         {
           "type": "type",
@@ -573,7 +597,8 @@
             "yapmaksızın",
             "yapılmaksızın"
           ],
-          "s": "کمک‌ها بدون هیچ تبعیضی توزیع شد."
+          "s": "کمک‌ها بدون هیچ تبعیضی توزیع شد.",
+          "why": "عبارت ثابت: ayrım gözetmeksizin = «بدون تبعیض»."
         },
         {
           "type": "type",
@@ -582,7 +607,8 @@
             "yaparak",
             "düzenleyerek"
           ],
-          "s": "شهروندان با راهپیمایی در خیابان واکنششان را بیان کردند."
+          "s": "شهروندان با راهپیمایی در خیابان واکنششان را بیان کردند.",
+          "why": "شیوه‌ی بیان اعتراض («با راهپیمایی») ← yürüyüş yaparak."
         },
         {
           "type": "order",
@@ -593,9 +619,15 @@
           ]
         },
         {
-          "type": "order",
-          "t": "Gönüllüler kapı kapı dolaşarak imza topladı.",
-          "s": "داوطلبان خانه به خانه گشتند و امضا جمع کردند."
+          "type": "type",
+          "task": "با ‎-maksızın یک جمله بسازید.",
+          "cue": "Belediye karar aldı ve kimseye danışmadı.",
+          "t": "Belediye kimseye ___ karar aldı.",
+          "answer": [
+            "danışmaksızın"
+          ],
+          "why": "«بدون اینکه مشورت کند» در زبان رسمی ← danış-maksızın.",
+          "s": "شهرداری بدون مشورت با کسی تصمیم گرفت."
         }
       ]
     }
@@ -715,6 +747,30 @@
           "Sonuçları yayımlayacak"
         ],
         "answer": 0
+      },
+      {
+        "q": {
+          "t": "Muhalefetin uygulamaya karşı tutumu nasıl özetlenebilir?",
+          "s": "موضع اپوزیسیون در برابر این طرح را چگونه می‌توان خلاصه کرد؟"
+        },
+        "options": [
+          "Uygulamayı destekliyor ama yetersiz buluyor",
+          "Uygulamaya tamamen karşı çıkıyor",
+          "Uygulamayla hiç ilgilenmiyor"
+        ],
+        "answer": 0
+      },
+      {
+        "q": {
+          "t": "Yardım masaları neden muhtarlıklarda kurulacak olabilir?",
+          "s": "چرا میزهای کمک احتمالاً در دفترهای مختار محله برپا می‌شود؟"
+        },
+        "options": [
+          "Muhtarlıklar mahalle sakinlerine, özellikle yaşlılara yakın olduğu için",
+          "Belediye binası kapalı olacağı için",
+          "Oylama yalnızca muhtarlıklarda yapılacağı için"
+        ],
+        "answer": 0
       }
     ]
   },
@@ -766,10 +822,10 @@
       ]
     },
     {
-      "t": "Deprem hâlinde asansörü kullanmayın.",
-      "s": "در صورت زلزله از آسانسور استفاده نکنید.",
+      "t": "Şiddetli yağış hâlinde okullar tatil edilebilir.",
+      "s": "در صورت بارش شدید، ممکن است مدارس تعطیل شوند.",
       "alts": [
-        "Asansörü deprem hâlinde kullanmayın."
+        "Okullar şiddetli yağış hâlinde tatil edilebilir."
       ]
     }
   ]

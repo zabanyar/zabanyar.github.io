@@ -15,14 +15,13 @@
   "words": [
     {
       "id": "w01",
-      "t": "makale",
-      "pl": "makaleler",
-      "s": "مقاله",
-      "pr": "ماکالِه",
-      "emoji": "📄",
+      "t": "atıf yapmak",
+      "s": "ارجاع دادن (به منبع یا پژوهش دیگر)",
+      "pr": "آتِف یاپماک",
+      "emoji": "",
       "ex": {
-        "t": "Makalem uluslararası bir dergide yayımlandı.",
-        "s": "مقاله‌ام در یک مجله‌ی بین‌المللی منتشر شد."
+        "t": "Tezinde bu kurama sık sık atıf yapıyorsun; kaynakçaya da eklemelisin.",
+        "s": "در پایان‌نامه‌ات مدام به این نظریه ارجاع می‌دهی؛ باید آن را به فهرست منابع هم اضافه کنی."
       }
     },
     {
@@ -143,13 +142,13 @@
     },
     {
       "id": "w12",
-      "t": "doktora",
-      "s": "دکترا",
-      "pr": "دُکتُرا",
-      "emoji": "🎓",
+      "t": "etik kurul onayı",
+      "s": "مجوز کمیته‌ی اخلاق (در پژوهش)",
+      "pr": "اِتیک کورول اُنایِ",
+      "emoji": "",
       "ex": {
-        "t": "Doktoramı Ankara'da tamamladım.",
-        "s": "دکترایم را در آنکارا به پایان رساندم."
+        "t": "Anket çalışmasına başlamadan önce etik kurul onayı almanız gerekiyor.",
+        "s": "پیش از شروع پژوهش پیمایشی باید مجوز کمیته‌ی اخلاق بگیرید."
       }
     },
     {
@@ -160,8 +159,8 @@
       "pr": "دُچِنت",
       "emoji": "",
       "ex": {
-        "t": "Zeynep Hanım geçen yıl doçent oldu.",
-        "s": "زینب خانم پارسال دانشیار شد."
+        "t": "Mehmet Hoca geçen yıl doçent oldu.",
+        "s": "استاد مهمت پارسال دانشیار شد."
       }
     },
     {
@@ -221,9 +220,9 @@
     },
     {
       "id": "p04",
-      "t": "Bu bilginin kaynağı nedir?",
-      "s": "منبع این اطلاعات چیست؟",
-      "pr": "بو بیلگینین کاینائِ نِدیر؟"
+      "t": "Bu iddiayı hangi verilere dayandırıyorsunuz?",
+      "s": "این ادعا را بر اساس کدام داده‌ها مطرح می‌کنید؟",
+      "pr": "بو ایدّیایِ هانگی وِریلِرِه دایاندِرِیُرسونوز؟"
     },
     {
       "id": "p05",
@@ -339,7 +338,7 @@
         "t": "Bilindiği gibi… / Görüldüğü üzere…",
         "s": "کلیشه‌های ارجاعی با -dığı و -acağı"
       },
-      "explain": "در متن‌های علمی و رسمی، برای ارجاع به چیزی که خواننده می‌داند یا در متن آمده، از چند **کلیشه‌ی ثابت** استفاده می‌شود. ساختشان این است: فعل (اغلب **مجهول**: bil**in**-، gör**ül**-، belirt**il**-) + صفت‌فعل **-dığı** (برای گذشته و حال) یا **-acağı** (برای آینده) + **gibi** یا **üzere**. معنای همه‌شان «همان‌طور که / چنان‌که» است.\n**bilindiği gibi** = همان‌طور که می‌دانیم؛ **görüldüğü üzere / görüldüğü gibi** = همان‌طور که دیده می‌شود (برای جدول و نمودار)؛ **belirtildiği üzere** = همان‌طور که اشاره شد؛ **beklendiği gibi** = همان‌طور که انتظار می‌رفت.\nبا **-acağı** به چیزی ارجاع می‌دهیم که هنوز نیامده است: **ileride açıklanacağı üzere** = همان‌طور که در ادامه توضیح داده خواهد شد؛ **tahmin edileceği gibi** = چنان‌که می‌توان حدس زد.\nاگر گوینده خودش باشد، به‌جای مجهول پسوند ملکی می‌آید: **belirttiğim gibi** (همان‌طور که گفتم)، **gördüğümüz üzere** (همان‌طور که دیدیم).\n**üzere** در این کاربرد همان **gibi** است، فقط رسمی‌تر و نوشتاری‌تر. آن را با **-mak üzere** («در آستانه‌ی / برای اینکه») که در B2 دیدید اشتباه نگیرید.",
+      "explain": "یادآوری از B2 (u01 و u07): نقل قول غیرمستقیم با ‎-dığını / ‎-acağını و فعل‌های رسمی با ‎-mekte در متن علمی بسیار رایج است: Yazar, sonuçların genellenemeyeceğini belirtmektedir. این درس کلیشه‌های ارجاعیِ همین سبک را اضافه می‌کند.\nدر متن‌های علمی و رسمی، برای ارجاع به چیزی که خواننده می‌داند یا در متن آمده، از چند **کلیشه‌ی ثابت** استفاده می‌شود. ساختشان این است: فعل (اغلب **مجهول**: bil**in**-، gör**ül**-، belirt**il**-) + صفت‌فعل **-dığı** (برای گذشته و حال) یا **-acağı** (برای آینده) + **gibi** یا **üzere**. معنای همه‌شان «همان‌طور که / چنان‌که» است.\n**bilindiği gibi** = همان‌طور که می‌دانیم؛ **görüldüğü üzere / görüldüğü gibi** = همان‌طور که دیده می‌شود (برای جدول و نمودار)؛ **belirtildiği üzere** = همان‌طور که اشاره شد؛ **beklendiği gibi** = همان‌طور که انتظار می‌رفت.\nبا **-acağı** به چیزی ارجاع می‌دهیم که هنوز نیامده است: **ileride açıklanacağı üzere** = همان‌طور که در ادامه توضیح داده خواهد شد؛ **tahmin edileceği gibi** = چنان‌که می‌توان حدس زد.\nاگر گوینده خودش باشد، به‌جای مجهول پسوند ملکی می‌آید: **belirttiğim gibi** (همان‌طور که گفتم)، **gördüğümüz üzere** (همان‌طور که دیدیم).\n**üzere** در این کاربرد همان **gibi** است، فقط رسمی‌تر و نوشتاری‌تر. آن را با **-mak üzere** («در آستانه‌ی / برای اینکه») که در B2 دیدید اشتباه نگیرید.",
       "table": [
         [
           "bilinmek",
@@ -402,29 +401,34 @@
             "görüldü"
           ],
           "answer": 1,
-          "s": "همان‌طور که در جدول دیده می‌شود، دما در سال‌های اخیر افزایش یافته است."
+          "s": "همان‌طور که در جدول دیده می‌شود، دما در سال‌های اخیر افزایش یافته است.",
+          "why": "کلیشه‌ی ارجاعی: فعل مجهول + ‎-dığı + üzere: görüldüğü üzere."
         },
         {
           "type": "choice",
-          "t": "___ gibi, dünya nüfusu sekiz milyarı geçti.",
+          "task": "کدام جمله برای متن علمی مناسب است؟",
+          "cue": "Tezinizin giriş bölümüne genel bir bilgiyle başlamak istiyorsunuz.",
+          "t": "___",
           "options": [
-            "Bilindi",
-            "Bilinmek",
-            "Bilindiği"
+            "Bilindiği gibi, iklim değişikliği tarımı doğrudan etkilemektedir.",
+            "Bildiğim gibi, iklim değişikliği tarımı doğrudan etkiliyor ya.",
+            "Bilindi gibi, iklim değişikliği tarımı doğrudan etkilemektedir."
           ],
-          "answer": 2,
-          "s": "همان‌طور که می‌دانیم، جمعیت جهان از هشت میلیارد گذشت."
+          "answer": 0,
+          "why": "دانسته‌ی همگانی در متن علمی با مجهولِ bilindiği gibi می‌آید؛ «Bilindi gibi» نادرست و «ya» گفتاری است.",
+          "s": "همان‌طور که می‌دانیم، تغییرات اقلیمی مستقیماً بر کشاورزی اثر می‌گذارد."
         },
         {
           "type": "choice",
           "t": "Bir sonraki bölümde ___ gibi, bu yöntemin bazı sınırlılıkları vardır.",
           "options": [
             "açıklanacağı",
-            "açıklandığı",
+            "açıklanmak",
             "açıklanan"
           ],
           "answer": 0,
-          "s": "همان‌طور که در بخش بعدی توضیح داده خواهد شد، این روش محدودیت‌هایی دارد."
+          "s": "همان‌طور که در بخش بعدی توضیح داده خواهد شد، این روش محدودیت‌هایی دارد.",
+          "why": "به بخشی در ادامه‌ی متن ارجاع می‌دهد («توضیح داده خواهد شد») ← ‎-acağı gibi: açıklanacağı."
         },
         {
           "type": "type",
@@ -436,7 +440,8 @@
             "ifade edildiği",
             "vurgulandığı"
           ],
-          "s": "همان‌طور که در بخش مقدمه اشاره شد، پژوهش دو سال طول کشیده است."
+          "s": "همان‌طور که در بخش مقدمه اشاره شد، پژوهش دو سال طول کشیده است.",
+          "why": "ارجاع به بخشی که پیش‌تر آمده، با مجهول: belirtildiği üzere."
         },
         {
           "type": "type",
@@ -447,17 +452,20 @@
             "dediğim",
             "ifade ettiğim"
           ],
-          "s": "همان‌طور که (من) پیش‌تر هم گفتم، در این باره داده‌ی کافی وجود ندارد."
+          "s": "همان‌طور که (من) پیش‌تر هم گفتم، در این باره داده‌ی کافی وجود ندارد.",
+          "why": "گوینده خودش گفته («من») ← ‎-dığım gibi: belirttiğim / söylediğim."
         },
         {
           "type": "type",
-          "t": "___ gibi, sonuçlar hipotezimizi doğruladı.",
+          "task": "با ‎-dığı üzere بازنویسی کنید.",
+          "cue": "Önceki bölümde açıklandı: anket iki aşamada yapıldı.",
+          "t": "Önceki bölümde ___, anket iki aşamada yapılmıştır.",
           "answer": [
-            "beklendiği",
-            "tahmin edildiği",
-            "öngörüldüğü"
+            "açıklandığı üzere",
+            "açıklandığı gibi"
           ],
-          "s": "همان‌طور که انتظار می‌رفت، نتایج فرضیه‌ی ما را تأیید کرد."
+          "why": "ارجاع به بخشی که پیش‌تر آمده، با مجهول: açıklandığı üzere / gibi.",
+          "s": "همان‌طور که در بخش قبل توضیح داده شد، پیمایش در دو مرحله انجام شده است."
         },
         {
           "type": "order",
@@ -535,7 +543,8 @@
             "dolayısıyla"
           ],
           "answer": 2,
-          "s": "آزمایش فقط دو بار تکرار شد؛ در نتیجه نتایج قطعی نیست."
+          "s": "آزمایش فقط دو بار تکرار شد؛ در نتیجه نتایج قطعی نیست.",
+          "why": "جمله‌ی دوم نتیجه‌ی جمله‌ی اول است ← dolayısıyla («در نتیجه»)."
         },
         {
           "type": "choice",
@@ -546,7 +555,8 @@
             "Nitekim"
           ],
           "answer": 0,
-          "s": "این نظریه نسبتاً قدیمی است. با این حال، هنوز اعتبارش را حفظ کرده است."
+          "s": "این نظریه نسبتاً قدیمی است. با این حال، هنوز اعتبارش را حفظ کرده است.",
+          "why": "تضاد («قدیمی است، با این حال معتبر است») ← bununla birlikte."
         },
         {
           "type": "choice",
@@ -557,7 +567,8 @@
             "zira"
           ],
           "answer": 1,
-          "s": "برخلاف انتظار، نسبت شرکت‌کنندگان زن از مردان بالاتر بود."
+          "s": "برخلاف انتظار، نسبت شرکت‌کنندگان زن از مردان بالاتر بود.",
+          "why": "‎-in aksine = «برخلافِ»: Beklenenin aksine."
         },
         {
           "type": "choice",
@@ -568,7 +579,8 @@
             "nitekim"
           ],
           "answer": 2,
-          "s": "ترکی واژه‌های بسیاری از فارسی گرفته است؛ چنان‌که «پنجره» و «هفته» تنها دو نمونه از آن‌هاست."
+          "s": "ترکی واژه‌های بسیاری از فارسی گرفته است؛ چنان‌که «پنجره» و «هفته» تنها دو نمونه از آن‌هاست.",
+          "why": "مثال یا شاهدی که حرف قبل را تأیید می‌کند ← nitekim («چنان‌که»)."
         },
         {
           "type": "type",
@@ -577,31 +589,34 @@
             "zira",
             "çünkü"
           ],
-          "s": "نمونه خیلی کوچک بود، زیرا پژوهش فقط در یک مدرسه انجام شد."
+          "s": "نمونه خیلی کوچک بود، زیرا پژوهش فقط در یک مدرسه انجام شد.",
+          "why": "جمله‌ی دوم دلیل را می‌آورد ← zira (= çünkü)."
         },
         {
           "type": "type",
-          "t": "Proje bütçesi çok kısıtlıydı. ___, ekip bütün hedeflerine ulaştı.",
+          "task": "با nitekim بازنویسی کنید.",
+          "cue": "Bu sonuç şaşırtıcı değil, çünkü önceki çalışmalar da aynı şeyi göstermişti.",
+          "t": "Bu sonuç şaşırtıcı değil; ___ aynı şeyi göstermişti.",
           "answer": [
-            "bununla birlikte",
-            "buna rağmen",
-            "buna karşın",
-            "yine de",
-            "ancak"
+            "nitekim önceki çalışmalar da",
+            "nitekim önceki çalışmalar"
           ],
-          "s": "بودجه‌ی پروژه خیلی محدود بود. با این حال، گروه به همه‌ی هدف‌هایش رسید."
+          "why": "شاهدی که حرف قبل را تأیید می‌کند با nitekim می‌آید.",
+          "s": "این نتیجه شگفت‌آور نیست؛ چنان‌که پژوهش‌های پیشین هم همین را نشان داده بودند."
         },
         {
-          "type": "type",
-          "t": "Sonuçlar tutarsızdı; ___ çalışmanın tekrarlanması gerekiyor.",
-          "answer": [
-            "dolayısıyla",
-            "bu nedenle",
-            "bu yüzden",
-            "bundan dolayı",
-            "bu sebeple"
+          "type": "choice",
+          "task": "کدام اصلاح درست است؟",
+          "cue": "Bir öğrenci makalesine şunu yazmış: “Katılımcılar azdı; zira sonuçlar kesin değildir.”",
+          "t": "___",
+          "options": [
+            "Katılımcılar azdı; dolayısıyla sonuçlar kesin değildir.",
+            "Katılımcılar azdı; aksine sonuçlar kesin değildir.",
+            "Katılımcılar azdı; bununla birlikte sonuçlar kesin değildir."
           ],
-          "s": "نتایج ناهمخوان بود؛ بنابراین لازم است پژوهش تکرار شود."
+          "answer": 0,
+          "why": "جمله‌ی دوم نتیجه‌ی اولی است، پس dolayısıyla؛ zira دلیل را می‌آورد، نه نتیجه را.",
+          "s": "شرکت‌کنندگان کم بودند؛ در نتیجه نتایج قطعی نیست."
         },
         {
           "type": "order",
@@ -730,6 +745,30 @@
           "Uzun soluklu bir yolculuğa"
         ],
         "answer": 2
+      },
+      {
+        "q": {
+          "t": "Yazarın makale sayısına dayalı değerlendirme sistemine karşı tutumu nedir?",
+          "s": "موضع نویسنده درباره‌ی نظام ارزیابیِ مبتنی بر تعداد مقاله چیست؟"
+        },
+        "options": [
+          "Eleştirel; niteliğin daha önemli olduğunu düşünüyor",
+          "Sistemi tamamen destekliyor",
+          "Konu hakkında hiçbir görüş bildirmiyor"
+        ],
+        "answer": 0
+      },
+      {
+        "q": {
+          "t": "Genç bir araştırmacı bu yazıdan hangi sonucu çıkarabilir?",
+          "s": "یک پژوهشگر جوان از این نوشته چه نتیجه‌ای می‌تواند بگیرد؟"
+        },
+        "options": [
+          "Az ama nitelikli makale yazmanın daha değerli olduğunu",
+          "Her yıl mümkün olduğunca çok makale yayımlaması gerektiğini",
+          "Akademiden hemen ayrılması gerektiğini"
+        ],
+        "answer": 0
       }
     ]
   },

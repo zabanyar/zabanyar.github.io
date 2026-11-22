@@ -45,7 +45,8 @@
       "ex": {
         "t": "Dün akşamki tartışma programında konuklar birbirinin sözünü kesip durdu.",
         "s": "در برنامه‌ی گفت‌وگوی دیشب، مهمان‌ها مدام حرف همدیگر را قطع می‌کردند."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w04",
@@ -57,7 +58,8 @@
       "ex": {
         "t": "Köşe yazarı bu hafta eğitim sistemini eleştirdi.",
         "s": "ستون‌نویس این هفته نظام آموزشی را نقد کرد."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w05",
@@ -180,7 +182,8 @@
       "ex": {
         "t": "Uzun bir tartışmadan sonra iki taraf sonunda uzlaştı.",
         "s": "پس از بحثی طولانی، دو طرف سرانجام به توافق رسیدند."
-      }
+      },
+      "sym": true
     }
   ],
   "phrases": [
@@ -194,7 +197,10 @@
       "id": "p02",
       "t": "Lütfen cümlemi bitirmeme izin verin.",
       "s": "لطفاً اجازه بدهید جمله‌ام را تمام کنم.",
-      "pr": "لوتفِن جوملِ‌می بیتیرمِمِه ایزین وِرین."
+      "pr": "لوتفِن جوملِ‌می بیتیرمِمِه ایزین وِرین.",
+      "alts": [
+        "Cümlemi bitirmeme izin verin lütfen."
+      ]
     },
     {
       "id": "p03",
@@ -249,7 +255,7 @@
     },
     "speakers": {
       "A": {
-        "name": "Zeynep",
+        "name": "Sunucu",
         "voice": "f"
       },
       "B": {
@@ -375,7 +381,8 @@
             "olduğuna"
           ],
           "answer": 0,
-          "s": "فکر می‌کنم این تصمیم اشتباه است."
+          "s": "فکر می‌کنم این تصمیم اشتباه است.",
+          "why": "düşünmek مفعول با ‎-dığını می‌خواهد: olduğunu düşünmekteyim."
         },
         {
           "type": "choice",
@@ -386,7 +393,8 @@
             "bana kalırsa"
           ],
           "answer": 0,
-          "s": "بر این عقیده‌ام که سانسور راه‌حل نیست."
+          "s": "بر این عقیده‌ام که سانسور راه‌حل نیست.",
+          "why": "بعد از ‎-dığı (بدون پسوند حالت) ← kanısındayım («بر این عقیده‌ام»)."
         },
         {
           "type": "choice",
@@ -397,26 +405,33 @@
             "kanısındayım"
           ],
           "answer": 0,
-          "s": "معتقدم که رسانه‌ها باید بی‌طرف باشند."
+          "s": "معتقدم که رسانه‌ها باید بی‌طرف باشند.",
+          "why": "inanmak حالت به (‎-e) می‌خواهد: gerektiğine inanıyorum؛ düşünmek با ‎-i می‌آید."
         },
         {
           "type": "choice",
-          "t": "___ bu dizi gereksiz yere uzadı.",
+          "task": "کدام جمله هم رسمی و هم درست است؟",
+          "cue": "Bir televizyon programında uzman olarak görüşünüzü söylüyorsunuz.",
+          "t": "___",
           "options": [
-            "Bana kalırsa",
-            "Kanısındayım",
-            "Olduğunu düşünüyorum"
+            "Bu yasanın basın özgürlüğünü kısıtlayacağı görüşündeyim.",
+            "Bana kalırsa bu yasa basın özgürlüğünü kısıtlar ya.",
+            "Bu yasanın basın özgürlüğünü kısıtlayacağını görüşündeyim."
           ],
           "answer": 0,
-          "s": "اگر از من بپرسی، این سریال بی‌خودی طولانی شد."
+          "why": "سبک رسمی ← ‎-acağı görüşündeyim (بدون ‎-nı)؛ «Bana kalırsa … ya» گفتاری است.",
+          "s": "بر این نظرم که این قانون آزادی مطبوعات را محدود خواهد کرد."
         },
         {
           "type": "type",
-          "t": "Bu programın izleyiciyi ___ düşünmekteyim.",
+          "task": "با ‎-dığı kanısındayım رسمی کنید.",
+          "cue": "Bence bu haber kamuoyunu yanıltıyor.",
+          "t": "Bu haberin kamuoyunu ___.",
           "answer": [
-            "yanılttığını"
+            "yanılttığı kanısındayım"
           ],
-          "s": "فکر می‌کنم این برنامه بیننده را گمراه می‌کند."
+          "why": "«Bence …» در سبک رسمی ← ‎-dığı kanısındayım؛ فاعل پسوند اضافه می‌گیرد: haberin.",
+          "s": "بر این عقیده‌ام که این خبر افکار عمومی را گمراه می‌کند."
         },
         {
           "type": "type",
@@ -425,7 +440,8 @@
             "olduğu",
             "oldukları"
           ],
-          "s": "بر این عقیده‌ام که جوان‌ها در این مورد حق دارند."
+          "s": "بر این عقیده‌ام که جوان‌ها در این مورد حق دارند.",
+          "why": "پیش از kanısındayım صفت‌فعل ‎-dığı بدون پسوند حالت می‌آید: haklı oldukları / olduğu."
         },
         {
           "type": "type",
@@ -437,7 +453,8 @@
             "Bana kalırsa",
             "Bana göre"
           ],
-          "s": "به عقیده‌ی من، این قانون باید از نو تنظیم شود."
+          "s": "به عقیده‌ی من، این قانون باید از نو تنظیم شود.",
+          "why": "اول جمله برای بیان نظر ← Kanımca / Bence / Bana göre."
         },
         {
           "type": "order",
@@ -503,7 +520,8 @@
             "görüşte"
           ],
           "answer": 0,
-          "s": "ضمن موافقت با این دیدگاه، فکر می‌کنم کاستی‌هایی دارد."
+          "s": "ضمن موافقت با این دیدگاه، فکر می‌کنم کاستی‌هایی دارد.",
+          "why": "katılmak حالت به (‎-e) می‌خواهد: bu görüşe katılmakla birlikte."
         },
         {
           "type": "choice",
@@ -514,7 +532,8 @@
             "beğenerek"
           ],
           "answer": 0,
-          "s": "با اینکه پیشنهاد را می‌پسندم، بودجه‌اش را واقع‌بینانه نمی‌دانم."
+          "s": "با اینکه پیشنهاد را می‌پسندم، بودجه‌اش را واقع‌بینانه نمی‌دانم.",
+          "why": "‎-mekle birlikte = «با اینکه / ضمنِ …»: beğenmekle birlikte."
         },
         {
           "type": "choice",
@@ -525,7 +544,8 @@
             "çünkü"
           ],
           "answer": 0,
-          "s": "از یک سو خبر گرفتن سریع خوب است، از سوی دیگر خبر نادرست هم خیلی سریع پخش می‌شود."
+          "s": "از یک سو خبر گرفتن سریع خوب است، از سوی دیگر خبر نادرست هم خیلی سریع پخش می‌شود.",
+          "why": "بعد از «Bir yandan» جزء دوم öte yandan می‌آید."
         },
         {
           "type": "choice",
@@ -536,23 +556,33 @@
             "Öte yandan"
           ],
           "answer": 0,
-          "s": "حق با شماست، اما در این مورد داده‌ی کافی در دست نداریم."
+          "s": "حق با شماست، اما در این مورد داده‌ی کافی در دست نداریم.",
+          "why": "پیش از «ama» برای مخالفت مؤدبانه: Haklısınız ama …"
         },
         {
           "type": "type",
-          "t": "Size ___ birlikte, bir konuda farklı düşünüyorum.",
+          "task": "با ‎-makla birlikte یک جمله بسازید.",
+          "cue": "Bu görüşe katılıyorum. Ama bazı çekincelerim var.",
+          "t": "Bu ___ bazı çekincelerim var.",
           "answer": [
-            "katılmakla"
+            "görüşe katılmakla birlikte"
           ],
-          "s": "ضمن موافقت با شما، در یک مورد نظر دیگری دارم."
+          "why": "موافقت + ملاحظه ← ‎-makla birlikte؛ katılmak حالت به می‌خواهد: görüşe.",
+          "s": "ضمن موافقت با این دیدگاه، چند ملاحظه دارم."
         },
         {
-          "type": "type",
-          "t": "Bir ___ ifade özgürlüğü önemli, öte yandan nefret söylemi de ciddi bir sorun.",
-          "answer": [
-            "yandan"
+          "type": "choice",
+          "task": "کدام پاسخ مخالفتی مؤدبانه است؟",
+          "cue": "Sosyal medya çocuklar için tamamen zararlı; bence hepsi yasaklanmalı!",
+          "t": "___",
+          "options": [
+            "Bir noktada haklısınız, ancak yasak tek başına bir çözüm değil.",
+            "Saçmalamayın, hiçbir şey bilmiyorsunuz.",
+            "Haklısınız, ancak size tamamen katılıyorum."
           ],
-          "s": "از یک سو آزادی بیان مهم است، از سوی دیگر سخنان نفرت‌پراکن هم مشکلی جدی است."
+          "answer": 0,
+          "why": "مخالفت مؤدبانه: اول بخشی از حرف را می‌پذیریم (Bir noktada haklısınız) و بعد با ancak نظرمان را می‌گوییم.",
+          "s": "از یک جهت حق با شماست، اما ممنوعیت به‌تنهایی راه‌حل نیست."
         },
         {
           "type": "type",
@@ -561,7 +591,8 @@
             "olabilirsiniz",
             "olabilirsin"
           ],
-          "s": "شاید از یک جهت حق با شما باشد، اما نباید تعمیم داد."
+          "s": "شاید از یک جهت حق با شما باشد، اما نباید تعمیم داد.",
+          "why": "نرم کردن نقد با احتمال: haklı olabilirsiniz («شاید حق با شما باشد»)."
         },
         {
           "type": "order",
@@ -688,6 +719,30 @@
           "Okullardan",
           "Televizyon kanallarından",
           "Sosyal medya şirketlerinden"
+        ],
+        "answer": 0
+      },
+      {
+        "q": {
+          "t": "Yazar tartışma programlarına karşı nasıl bir tutum içinde?",
+          "s": "نویسنده چه نگرشی به برنامه‌های گفت‌وگو دارد؟"
+        },
+        "options": [
+          "Eleştirel; konukların birbirini dinlememesinden rahatsız",
+          "Bu programları çok öğretici buluyor",
+          "Bu programları hiç izlemiyor"
+        ],
+        "answer": 0
+      },
+      {
+        "q": {
+          "t": "Yazar son cümleyle okurlarından ne bekliyor?",
+          "s": "نویسنده با جمله‌ی آخر از خوانندگانش چه انتظاری دارد؟"
+        },
+        "options": [
+          "Karşısındakini gerçekten dinleyip sözlerini düşünmelerini",
+          "Televizyonu tamamen kapatmalarını",
+          "Sosyal medyada daha çok paylaşım yapmalarını"
         ],
         "answer": 0
       }
