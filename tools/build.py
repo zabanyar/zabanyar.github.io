@@ -16,9 +16,9 @@ COURSES = {
     "en-fa": {"target": "en", "support": "fa", "dir": "rtl", "tdir": "ltr",
               "name": {"t": "English", "s": "انگلیسی"}, "voices": {"f": "en_f", "m": "en_m"}, "vv": "2", "default": "f", "color": "#2f6fdb"},
     "de-en": {"target": "de", "support": "en", "dir": "ltr", "tdir": "ltr",
-              "name": {"t": "Deutsch", "s": "German"}, "voices": {"f": "de_f", "m": "de_m"}, "default": "m", "color": "#d9822b"},
+              "name": {"t": "Deutsch", "s": "German"}, "voices": {"f": "de_f", "m": "de_m"}, "default": "m", "color": "#b4610f"},
     "tr-fa": {"target": "tr", "support": "fa", "dir": "rtl", "tdir": "ltr",
-              "name": {"t": "Türkçe", "s": "ترکی"}, "voices": {"f": "tr_f", "m": "tr_m"}, "default": "f", "color": "#c2334d"},
+              "name": {"t": "Türkçe", "s": "ترکی"}, "voices": {"f": "tr_f", "m": "tr_m"}, "default": "f", "color": "#8b3a6b"},
     "fa-tr": {"target": "fa", "support": "tr", "dir": "ltr", "tdir": "rtl",
               "name": {"t": "فارسی", "s": "Farsça"}, "voices": {"f": "fa_f", "m": "fa_m"}, "vv": "2", "default": "m", "color": "#7a4fc4"},
 }
@@ -292,8 +292,9 @@ def main():
                 lv["outline"] = LEVEL_OUTLINE[sup].get(lid, "")
             levels.append(lv)
         offline.discard(None)
+        meta["mb"] = round(sum(os.path.getsize(os.path.join(DOCS, x)) for x in offline if os.path.exists(os.path.join(DOCS, x))) / 1e6)
         json.dump(sorted(offline), open(os.path.join(DOCS, "data", course, "files.json"), "w"), indent=0)
-        index["courses"].append({"id": course, **{k: meta[k] for k in ("target", "support", "dir", "tdir", "name", "color")},
+        index["courses"].append({"id": course, **{k: meta[k] for k in ("target", "support", "dir", "tdir", "name", "color", "mb")},
                                  **({"badge": meta["badge"], "about": meta.get("about")} if meta.get("badge") else {}), "levels": levels})
     json.dump(index, open(os.path.join(DOCS, "data", "courses.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
     json.dump(jobs, open(os.path.join(ROOT, "tools", "tts_jobs.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=0)
