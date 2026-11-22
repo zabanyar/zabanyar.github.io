@@ -31,7 +31,7 @@
       "pl": "fiyatlar",
       "s": "قیمت",
       "pr": "فیات",
-      "emoji": "💰",
+      "emoji": "",
       "ex": {
         "t": "Fiyatlar geçen yıldan daha yüksek.",
         "s": "قیمت‌ها از پارسال بالاترند."
@@ -101,7 +101,7 @@
       "pl": "bedenler",
       "s": "سایز لباس",
       "pr": "بِدِن",
-      "emoji": "👕",
+      "emoji": "",
       "ex": {
         "t": "Bu gömleğin bir büyük bedeni var mı?",
         "s": "از این پیراهن یک سایز بزرگ‌تر دارید؟"
@@ -589,7 +589,10 @@
         {
           "type": "order",
           "t": "Bence bu ceket daha şık.",
-          "s": "به نظر من این کت شیک‌تر است."
+          "s": "به نظر من این کت شیک‌تر است.",
+          "alts": [
+            "Bu ceket bence daha şık."
+          ]
         }
       ]
     }

@@ -579,12 +579,18 @@
         {
           "type": "order",
           "t": "Dün akşam annemi arayamadım.",
-          "s": "دیشب نتوانستم به مادرم زنگ بزنم."
+          "s": "دیشب نتوانستم به مادرم زنگ بزنم.",
+          "alts": [
+            "Annemi dün akşam arayamadım."
+          ]
         },
         {
           "type": "order",
           "t": "Sonunda yeni uygulamayı indirebildik.",
-          "s": "بالاخره توانستیم اپلیکیشن جدید را دانلود کنیم."
+          "s": "بالاخره توانستیم اپلیکیشن جدید را دانلود کنیم.",
+          "alts": [
+            "Yeni uygulamayı sonunda indirebildik."
+          ]
         }
       ]
     }

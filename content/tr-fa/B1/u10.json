@@ -431,7 +431,8 @@
           "type": "type",
           "t": "Keşke bu kadar çok telefona ___.",
           "answer": [
-            "bakmasam"
+            "bakmasam",
+            "bakmasaydım"
           ],
           "s": "کاش این‌قدر به گوشی نگاه نمی‌کردم."
         },

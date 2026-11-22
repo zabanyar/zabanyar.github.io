@@ -439,7 +439,10 @@
         {
           "type": "order",
           "t": "Bu yemek her bayramda pişirilir.",
-          "s": "این غذا هر عید پخته می‌شود."
+          "s": "این غذا هر عید پخته می‌شود.",
+          "alts": [
+            "Her bayramda bu yemek pişirilir."
+          ]
         },
         {
           "type": "order",
@@ -574,7 +577,10 @@
         {
           "type": "order",
           "t": "Bayramda bütün komşularla görüşüyoruz.",
-          "s": "عید با همه‌ی همسایه‌ها دیدار می‌کنیم."
+          "s": "عید با همه‌ی همسایه‌ها دیدار می‌کنیم.",
+          "alts": [
+            "Bütün komşularla bayramda görüşüyoruz."
+          ]
         }
       ]
     }

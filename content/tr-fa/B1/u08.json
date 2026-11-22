@@ -27,48 +27,47 @@
     },
     {
       "id": "w02",
-      "t": "kuzen",
-      "pl": "kuzenler",
-      "s": "فرزندِ عمو، دایی، خاله یا عمه",
-      "pr": "کوزِن",
-      "emoji": "",
+      "t": "damat",
+      "pl": "damatlar",
+      "s": "داماد",
+      "pr": "دامات",
+      "emoji": "🤵",
       "ex": {
-        "t": "Kuzenim Ankara'da üniversitede okuyor.",
-        "s": "پسرعمه‌ام در آنکارا دانشجوست."
+        "t": "Damadımız ailemizle çok iyi geçiniyor.",
+        "s": "دامادمان با خانواده‌ی ما خیلی خوب کنار می‌آید."
       }
     },
     {
       "id": "w03",
-      "t": "teyze",
-      "s": "خاله",
-      "pr": "تِیزِه",
+      "t": "kayınpeder",
+      "s": "پدرشوهر، پدرزن",
+      "pr": "کایِنپِدِر",
       "emoji": "",
       "ex": {
-        "t": "Teyzem annemden iki yaş küçük.",
-        "s": "خاله‌ام دو سال از مادرم کوچک‌تر است."
+        "t": "Kayınpederim her sabah parkta yürüyüş yapar.",
+        "s": "پدرشوهرم هر صبح در پارک پیاده‌روی می‌کند."
       }
     },
     {
       "id": "w04",
-      "t": "hala",
-      "s": "عمه",
-      "pr": "هالا",
+      "t": "bekâr",
+      "s": "مجرد",
+      "pr": "بِکیار",
       "emoji": "",
       "ex": {
-        "t": "Halam bize sık sık gelir.",
-        "s": "عمه‌ام زیاد به خانه‌ی ما می‌آید."
+        "t": "Kuzenim otuz yaşında ama hâlâ bekâr.",
+        "s": "پسرخاله‌ام سی سالش است، ولی هنوز مجرد است."
       }
     },
     {
       "id": "w05",
-      "t": "torun",
-      "pl": "torunlar",
-      "s": "نوه",
-      "pr": "تُرون",
+      "t": "saygı",
+      "s": "احترام",
+      "pr": "سایگِ",
       "emoji": "",
       "ex": {
-        "t": "Dedemin altı torunu var.",
-        "s": "پدربزرگم شش نوه دارد."
+        "t": "Ailemizde büyüklere saygı çok önemlidir.",
+        "s": "در خانواده‌ی ما احترام به بزرگ‌ترها خیلی مهم است."
       }
     },
     {
@@ -580,7 +579,8 @@
           "t": "Geçen yıl ___ ev çok küçüktü.",
           "answer": [
             "oturduğumuz",
-            "yaşadığımız"
+            "yaşadığımız",
+            "kaldığımız"
           ],
           "s": "خانه‌ای که پارسال در آن زندگی می‌کردیم خیلی کوچک بود."
         },

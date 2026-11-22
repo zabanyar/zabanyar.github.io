@@ -60,14 +60,14 @@
     },
     {
       "id": "w05",
-      "t": "uçak",
-      "pl": "uçaklar",
-      "s": "هواپیما",
-      "pr": "اوچاک",
-      "emoji": "✈️",
+      "t": "uçuş",
+      "pl": "uçuşlar",
+      "s": "پرواز",
+      "pr": "اوچوش",
+      "emoji": "",
       "ex": {
-        "t": "Uçağımız iki saat rötar yaptı.",
-        "s": "پرواز ما دو ساعت تأخیر داشت."
+        "t": "Uçuşumuz iki saat rötar yaptı.",
+        "s": "پروازمان دو ساعت تأخیر داشت."
       }
     },
     {
@@ -544,7 +544,8 @@
           "type": "type",
           "t": "Bavulları ___ sonra taksi çağırdık.",
           "answer": [
-            "hazırladıktan"
+            "hazırladıktan",
+            "topladıktan"
           ],
           "s": "بعد از اینکه چمدان‌ها را آماده کردیم، تاکسی خبر کردیم."
         },
@@ -573,7 +574,10 @@
         {
           "type": "order",
           "t": "Yola çıkmadan önce bavulları kontrol et.",
-          "s": "قبل از راه افتادن، چمدان‌ها را بررسی کن."
+          "s": "قبل از راه افتادن، چمدان‌ها را بررسی کن.",
+          "alts": [
+            "Bavulları yola çıkmadan önce kontrol et."
+          ]
         }
       ]
     }

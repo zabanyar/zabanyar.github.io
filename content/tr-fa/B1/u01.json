@@ -132,7 +132,7 @@
       "pl": "köyler",
       "s": "روستا",
       "pr": "کُی",
-      "emoji": "🏡",
+      "emoji": "",
       "ex": {
         "t": "Dedemin evi bir köyde.",
         "s": "خانه‌ی پدربزرگم در یک روستاست."
@@ -426,7 +426,10 @@
         {
           "type": "order",
           "t": "Geçen yaz dedemi ziyaret ettik.",
-          "s": "تابستان گذشته به دیدن پدربزرگم رفتیم."
+          "s": "تابستان گذشته به دیدن پدربزرگم رفتیم.",
+          "alts": [
+            "Dedemi geçen yaz ziyaret ettik."
+          ]
         },
         {
           "type": "order",
@@ -434,7 +437,8 @@
           "s": "دیشب چرا تلفن را جواب ندادی؟",
           "alts": [
             "Dün akşam telefonu neden açmadın?",
-            "Telefonu dün akşam neden açmadın?"
+            "Telefonu dün akşam neden açmadın?",
+            "Neden dün akşam telefonu açmadın?"
           ]
         }
       ]

@@ -186,12 +186,12 @@
     {
       "id": "w16",
       "t": "yorucu",
-      "s": "خسته‌کننده",
+      "s": "خستگی‌آور، طاقت‌فرسا",
       "pr": "یُروجو",
       "emoji": "",
       "ex": {
         "t": "Bu hafta çok yorucuydu.",
-        "s": "این هفته خیلی خسته‌کننده بود."
+        "s": "این هفته خیلی خستگی‌آور بود."
       }
     }
   ],
@@ -450,12 +450,18 @@
         {
           "type": "order",
           "t": "Babam akşamları haberleri izler.",
-          "s": "پدرم عصرها اخبار تماشا می‌کند."
+          "s": "پدرم عصرها اخبار تماشا می‌کند.",
+          "alts": [
+            "Akşamları babam haberleri izler."
+          ]
         },
         {
           "type": "order",
           "t": "Genelde öğle yemeğini ofiste yerim.",
-          "s": "معمولاً ناهار را در دفتر می‌خورم."
+          "s": "معمولاً ناهار را در دفتر می‌خورم.",
+          "alts": [
+            "Öğle yemeğini genelde ofiste yerim."
+          ]
         }
       ]
     },
@@ -584,12 +590,18 @@
         {
           "type": "order",
           "t": "Pazartesi toplantıya katılmak zorundayız.",
-          "s": "دوشنبه مجبوریم در جلسه شرکت کنیم."
+          "s": "دوشنبه مجبوریم در جلسه شرکت کنیم.",
+          "alts": [
+            "Toplantıya pazartesi katılmak zorundayız."
+          ]
         },
         {
           "type": "order",
           "t": "Müdüre hemen bir e-posta göndermem gerekiyor.",
-          "s": "باید فوراً برای مدیر یک ایمیل بفرستم."
+          "s": "باید فوراً برای مدیر یک ایمیل بفرستم.",
+          "alts": [
+            "Hemen müdüre bir e-posta göndermem gerekiyor."
+          ]
         }
       ]
     }
@@ -622,7 +634,7 @@
       },
       {
         "t": "Reza işini çok sever, ama iş bazen çok yorucu olur.",
-        "s": "رضا کارش را خیلی دوست دارد، اما کار گاهی خیلی خسته‌کننده می‌شود."
+        "s": "رضا کارش را خیلی دوست دارد، اما کار گاهی خیلی خستگی‌آور می‌شود."
       },
       {
         "t": "Projenin teslim tarihi yaklaşınca mesaiye kalmak zorunda kalır.",

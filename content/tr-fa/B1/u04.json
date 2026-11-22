@@ -164,7 +164,7 @@
       "t": "sağlıklı",
       "s": "سالم",
       "pr": "ساالِکلِ",
-      "emoji": "🥗",
+      "emoji": "",
       "ex": {
         "t": "Sağlıklı beslenmek çok önemli.",
         "s": "تغذیه‌ی سالم خیلی مهم است."
@@ -444,12 +444,18 @@
         {
           "type": "order",
           "t": "Daha çok sebze ve meyve yemeliyiz.",
-          "s": "باید سبزی و میوه‌ی بیشتری بخوریم."
+          "s": "باید سبزی و میوه‌ی بیشتری بخوریم.",
+          "alts": [
+            "Daha çok meyve ve sebze yemeliyiz."
+          ]
         },
         {
           "type": "order",
           "t": "Bu ilacı yemekten sonra almalısın.",
-          "s": "این دارو را باید بعد از غذا بخوری."
+          "s": "این دارو را باید بعد از غذا بخوری.",
+          "alts": [
+            "Yemekten sonra bu ilacı almalısın."
+          ]
         }
       ]
     },
@@ -583,7 +589,10 @@
         {
           "type": "order",
           "t": "Ateşin yükselirse hemen doktoru ara.",
-          "s": "اگر تبت بالا رفت، فوراً به دکتر زنگ بزن."
+          "s": "اگر تبت بالا رفت، فوراً به دکتر زنگ بزن.",
+          "alts": [
+            "Ateşin yükselirse doktoru hemen ara."
+          ]
         }
       ]
     }
