@@ -12,6 +12,7 @@
     "s": "انگلیسی"
    },
    "color": "#2f6fdb",
+   "mb": 76,
    "levels": [
     {
      "id": "A1",
@@ -1365,7 +1366,8 @@
     "t": "Deutsch",
     "s": "German"
    },
-   "color": "#d9822b",
+   "color": "#b4610f",
+   "mb": 79,
    "levels": [
     {
      "id": "A1",
@@ -2893,7 +2895,8 @@
     "t": "Türkçe",
     "s": "ترکی"
    },
-   "color": "#c2334d",
+   "color": "#8b3a6b",
+   "mb": 77,
    "levels": [
     {
      "id": "A1",
@@ -4201,6 +4204,7 @@
     "s": "Farsça"
    },
    "color": "#7a4fc4",
+   "mb": 10,
    "levels": [
     {
      "id": "A1",
