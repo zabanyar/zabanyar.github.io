@@ -259,3 +259,25 @@ h2 { font-size: 1.25rem; margin: 22px 0 10px; }
 .modal { position: fixed; inset: 0; background: rgba(0,0,0,.45); z-index: 50; display: grid; place-items: center; padding: 16px; }
 .modal .card { width: min(480px, 100%); }
 .reporttext { width: 100%; box-sizing: border-box; font: inherit; font-size: 1rem; padding: 10px 12px; border-radius: var(--r-sm); border: 1px solid var(--line); background: var(--surface); color: var(--ink); resize: vertical; }
+/* --- pass 4 (Nov 2026): readability and accessibility --- */
+html, body { overflow-x: hidden; }
+.wordcard .t, .q-big, .opt, .tile, .wordrow b, .example .tx, .dl .t { overflow-wrap: anywhere; hyphens: auto; }
+.wordcard .t { font-size: clamp(1.35rem, 7vw, 2.1rem); }
+.match { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); }
+.opt { min-width: 0; }
+.pr.rtl { font-style: normal; text-align: start; }
+.stars { color: #8a5d00; }
+.lesson.again .ico { background: var(--surface-2); }
+.lesson.again .stars { color: var(--warn); font-weight: 800; }
+a.iconbtn, .iconbtn { text-decoration: none; }
+.say.sm, .reportbtn { width: 44px; height: 44px; min-width: 44px; }
+.linkbtn { min-height: 44px; }
+details > summary { min-height: 44px; display: flex; align-items: center; }
+.gaphint { color: var(--muted); }
+.btn { color: var(--accent-ink, var(--brand-ink)); }
+@media (prefers-color-scheme: dark) {
+  :root { --brand-ink: #10181a; }
+  .feedback.ok .btn { background: #23845a; color: #fff; }
+  .feedback.bad .btn { background: #b8435a; color: #fff; }
+  .stars { color: #f2c14e; }
+}
