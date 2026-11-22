@@ -71,7 +71,7 @@
       "id": "w06",
       "t": "der Nachweis",
       "pl": "die Nachweise",
-      "s": "proof, certificate (e.g. of language skills)",
+      "s": "proof, evidence (e.g. of language skills)",
       "emoji": "",
       "ex": {
         "t": "Für die Anmeldung brauchen Sie einen Nachweis über Ihre Deutschkenntnisse.",
@@ -92,7 +92,7 @@
       "id": "w08",
       "t": "die Fähigkeit",
       "pl": "die Fähigkeiten",
-      "s": "ability, skill",
+      "s": "ability, capability",
       "emoji": "",
       "ex": {
         "t": "Die Fähigkeit, selbstständig zu lernen, wird immer wichtiger.",
@@ -183,8 +183,8 @@
   "phrases": [
     {
       "id": "p01",
-      "t": "Meiner Meinung nach …",
-      "s": "In my opinion …"
+      "t": "Aus meiner Sicht …",
+      "s": "From my point of view …"
     },
     {
       "id": "p02",
@@ -193,18 +193,21 @@
     },
     {
       "id": "p03",
-      "t": "Dagegen spricht, dass …",
-      "s": "An argument against this is that …"
+      "t": "Man sollte bedenken, dass …",
+      "s": "You should bear in mind that …"
     },
     {
       "id": "p04",
       "t": "Ich bin da anderer Meinung.",
-      "s": "I see that differently."
+      "s": "I see that differently.",
+      "alts": [
+        "Da bin ich anderer Meinung."
+      ]
     },
     {
       "id": "p05",
-      "t": "Das hängt davon ab, ob …",
-      "s": "That depends on whether …"
+      "t": "Was mich betrifft, …",
+      "s": "As far as I'm concerned, …"
     },
     {
       "id": "p06",
@@ -214,12 +217,15 @@
     {
       "id": "p07",
       "t": "Da hast du völlig recht.",
-      "s": "You're absolutely right about that."
+      "s": "You're absolutely right about that.",
+      "alts": [
+        "Du hast da völlig recht."
+      ]
     },
     {
       "id": "p08",
-      "t": "Zusammenfassend lässt sich sagen, dass …",
-      "s": "To sum up, one can say that …"
+      "t": "Alles in allem …",
+      "s": "All in all …"
     }
   ],
   "dialogue": {
@@ -703,11 +709,18 @@
     },
     {
       "t": "Wegen des Streiks fällt der Unterricht heute aus.",
-      "s": "Because of the strike, there are no classes today."
+      "s": "Because of the strike, there are no classes today.",
+      "alts": [
+        "Der Unterricht fällt heute wegen des Streiks aus.",
+        "Heute fällt der Unterricht wegen des Streiks aus."
+      ]
     },
     {
       "t": "Beim Lernen hilft mir eine feste Routine.",
-      "s": "A fixed routine helps me when I study."
+      "s": "A fixed routine helps me when I study.",
+      "alts": [
+        "Eine feste Routine hilft mir beim Lernen."
+      ]
     },
     {
       "t": "Ich möchte meine Englischkenntnisse auffrischen.",
@@ -715,11 +728,17 @@
     },
     {
       "t": "Innerhalb eines Jahres hat Ali die B2-Prüfung bestanden.",
-      "s": "Within a year Ali passed the B2 exam."
+      "s": "Within a year Ali passed the B2 exam.",
+      "alts": [
+        "Ali hat innerhalb eines Jahres die B2-Prüfung bestanden."
+      ]
     },
     {
       "t": "Während der Elternzeit hat Maryam einen Online-Kurs gemacht.",
-      "s": "During her parental leave Maryam took an online course."
+      "s": "During her parental leave Maryam took an online course.",
+      "alts": [
+        "Maryam hat während der Elternzeit einen Online-Kurs gemacht."
+      ]
     },
     {
       "t": "Nach dem Abschluss ihres Studiums hat Lena noch eine Ausbildung gemacht.",
@@ -727,7 +746,10 @@
     },
     {
       "t": "Lebenslanges Lernen ist heute wichtiger denn je.",
-      "s": "Lifelong learning is more important today than ever."
+      "s": "Lifelong learning is more important today than ever.",
+      "alts": [
+        "Heute ist lebenslanges Lernen wichtiger denn je."
+      ]
     }
   ]
 }

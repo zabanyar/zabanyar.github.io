@@ -202,7 +202,10 @@
     {
       "id": "p05",
       "t": "Da gebe ich dir recht.",
-      "s": "I agree with you on that."
+      "s": "I agree with you on that.",
+      "alts": [
+        "Ich gebe dir da recht."
+      ]
     },
     {
       "id": "p06",
@@ -289,7 +292,10 @@
       {
         "sp": "A",
         "t": "Herr Weber, vielen Dank für das Gespräch!",
-        "s": "Mr. Weber, thank you very much for talking to us!"
+        "s": "Mr. Weber, thank you very much for talking to us!",
+        "alts": [
+          "Vielen Dank für das Gespräch, Herr Weber!"
+        ]
       },
       {
         "sp": "B",
@@ -665,7 +671,10 @@
   "sentences": [
     {
       "t": "Wir müssen dringend etwas gegen den Klimawandel tun.",
-      "s": "We urgently need to do something about climate change."
+      "s": "We urgently need to do something about climate change.",
+      "alts": [
+        "Gegen den Klimawandel müssen wir dringend etwas tun."
+      ]
     },
     {
       "t": "Ich fahre sowohl im Sommer als auch im Winter mit dem Rad.",
@@ -681,11 +690,17 @@
     },
     {
       "t": "In Deutschland wird der Müll sorgfältig getrennt.",
-      "s": "In Germany, garbage is carefully sorted."
+      "s": "In Germany, garbage is carefully sorted.",
+      "alts": [
+        "Der Müll wird in Deutschland sorgfältig getrennt."
+      ]
     },
     {
       "t": "Bio ist zwar teurer, aber es lohnt sich.",
-      "s": "Organic food is more expensive, it's true, but it's worth it."
+      "s": "Organic food is more expensive, it's true, but it's worth it.",
+      "alts": [
+        "Zwar ist Bio teurer, aber es lohnt sich."
+      ]
     },
     {
       "t": "Die Folgen der Hitzewelle waren deutlich spürbar.",

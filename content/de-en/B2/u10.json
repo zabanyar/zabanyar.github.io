@@ -210,8 +210,8 @@
     },
     {
       "id": "p08",
-      "t": "Abschließend möchte ich sagen, dass …",
-      "s": "Finally, I'd like to say that …"
+      "t": "Es würde mich freuen, wenn du dabei wärst.",
+      "s": "I'd be really glad if you could be there."
     }
   ],
   "dialogue": {
@@ -683,11 +683,17 @@
     },
     {
       "t": "Ich habe die Ausstellung leider nicht besuchen können.",
-      "s": "Unfortunately, I wasn't able to visit the exhibition."
+      "s": "Unfortunately, I wasn't able to visit the exhibition.",
+      "alts": [
+        "Leider habe ich die Ausstellung nicht besuchen können."
+      ]
     },
     {
       "t": "Um Karten zu bekommen, muss man früh buchen.",
-      "s": "To get tickets, you have to book early."
+      "s": "To get tickets, you have to book early.",
+      "alts": [
+        "Man muss früh buchen, um Karten zu bekommen."
+      ]
     },
     {
       "t": "Das Publikum war von der Aufführung begeistert.",

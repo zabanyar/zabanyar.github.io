@@ -198,12 +198,18 @@
     {
       "id": "p04",
       "t": "Da muss ich dir widersprechen.",
-      "s": "I have to disagree with you there."
+      "s": "I have to disagree with you there.",
+      "alts": [
+        "Ich muss dir da widersprechen."
+      ]
     },
     {
       "id": "p05",
       "t": "Das sehe ich genauso.",
-      "s": "I see it exactly the same way."
+      "s": "I see it exactly the same way.",
+      "alts": [
+        "Ich sehe das genauso."
+      ]
     },
     {
       "id": "p06",
@@ -212,8 +218,8 @@
     },
     {
       "id": "p07",
-      "t": "Man darf nicht vergessen, dass …",
-      "s": "We must not forget that …"
+      "t": "Man sollte nicht unterschätzen, wie …",
+      "s": "You shouldn't underestimate how …"
     },
     {
       "id": "p08",

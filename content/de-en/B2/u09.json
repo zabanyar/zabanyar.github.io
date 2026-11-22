@@ -80,7 +80,7 @@
       "id": "w07",
       "t": "sparen",
       "s": "to save (money)",
-      "emoji": "💰",
+      "emoji": "",
       "ex": {
         "t": "Wir sparen jeden Monat 200 Euro für den Urlaub.",
         "s": "We save 200 euros a month for our vacation."
@@ -693,11 +693,17 @@
   "sentences": [
     {
       "t": "Viele Verbraucher achten heute stärker auf Nachhaltigkeit.",
-      "s": "Many consumers pay more attention to sustainability today."
+      "s": "Many consumers pay more attention to sustainability today.",
+      "alts": [
+        "Heute achten viele Verbraucher stärker auf Nachhaltigkeit."
+      ]
     },
     {
       "t": "Ein Urlaub ist dieses Jahr leider nicht drin.",
-      "s": "Unfortunately, a vacation isn't in the budget this year."
+      "s": "Unfortunately, a vacation isn't in the budget this year.",
+      "alts": [
+        "Dieses Jahr ist ein Urlaub leider nicht drin."
+      ]
     },
     {
       "t": "Das Paket müsste eigentlich schon da sein.",
@@ -705,7 +711,10 @@
     },
     {
       "t": "Bis Dezember werden wir genug Geld gespart haben.",
-      "s": "By December we'll have saved enough money."
+      "s": "By December we'll have saved enough money.",
+      "alts": [
+        "Wir werden bis Dezember genug Geld gespart haben."
+      ]
     },
     {
       "t": "Das Angebot klingt zu gut, um wahr zu sein.",
@@ -713,7 +722,10 @@
     },
     {
       "t": "Bitte heben Sie die Quittung gut auf.",
-      "s": "Please keep the receipt in a safe place."
+      "s": "Please keep the receipt in a safe place.",
+      "alts": [
+        "Heben Sie bitte die Quittung gut auf."
+      ]
     },
     {
       "t": "Die Nachfrage bestimmt den Preis.",

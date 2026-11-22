@@ -27,7 +27,7 @@
     {
       "id": "w02",
       "t": "die Nebenkosten",
-      "s": "utility costs, service charges (plural only)",
+      "s": "utilities, additional housing costs (plural only)",
       "emoji": "",
       "ex": {
         "t": "Sind die Nebenkosten in der Miete enthalten?",
@@ -222,7 +222,10 @@
     {
       "id": "p08",
       "t": "Für mich kommt das nicht infrage.",
-      "s": "For me that's out of the question."
+      "s": "For me that's out of the question.",
+      "alts": [
+        "Das kommt für mich nicht infrage."
+      ]
     }
   ],
   "dialogue": {
@@ -668,7 +671,10 @@
     },
     {
       "t": "Die Nebenkosten sind in der Miete nicht enthalten.",
-      "s": "The utility costs are not included in the rent."
+      "s": "The utility costs are not included in the rent.",
+      "alts": [
+        "In der Miete sind die Nebenkosten nicht enthalten."
+      ]
     },
     {
       "t": "Der Vermieter, mit dem wir gesprochen haben, war sehr freundlich.",
@@ -676,7 +682,10 @@
     },
     {
       "t": "Laut Hausordnung ist ab 22 Uhr Nachtruhe.",
-      "s": "According to the house rules, quiet hours begin at 10 p.m."
+      "s": "According to the house rules, quiet hours begin at 10 p.m.",
+      "alts": [
+        "Ab 22 Uhr ist laut Hausordnung Nachtruhe."
+      ]
     },
     {
       "t": "Ich habe mich bei der Hausverwaltung über den Lärm beschwert.",
@@ -684,7 +693,11 @@
     },
     {
       "t": "Die Kaution bekommt man nach dem Auszug zurück.",
-      "s": "You get the deposit back after you move out."
+      "s": "You get the deposit back after you move out.",
+      "alts": [
+        "Man bekommt die Kaution nach dem Auszug zurück.",
+        "Nach dem Auszug bekommt man die Kaution zurück."
+      ]
     },
     {
       "t": "Das ist die Nachbarin, deren Katze ständig bei uns ist.",

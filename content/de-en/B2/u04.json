@@ -209,7 +209,10 @@
     {
       "id": "p06",
       "t": "Das halte ich für übertrieben.",
-      "s": "I think that's exaggerated."
+      "s": "I think that's exaggerated.",
+      "alts": [
+        "Ich halte das für übertrieben."
+      ]
     },
     {
       "id": "p07",
@@ -695,7 +698,10 @@
   "sentences": [
     {
       "t": "Ich lese die Nachrichten meistens auf dem Handy.",
-      "s": "I usually read the news on my phone."
+      "s": "I usually read the news on my phone.",
+      "alts": [
+        "Meistens lese ich die Nachrichten auf dem Handy."
+      ]
     },
     {
       "t": "Woher stammt diese Information?",
@@ -707,11 +713,17 @@
     },
     {
       "t": "Sie sagte, sie habe den Artikel nicht gelesen.",
-      "s": "She said she hadn't read the article."
+      "s": "She said she hadn't read the article.",
+      "alts": [
+        "Sie habe den Artikel nicht gelesen, sagte sie."
+      ]
     },
     {
       "t": "Die Firma behauptet, die Daten seien sicher.",
-      "s": "The company claims the data is secure."
+      "s": "The company claims the data is secure.",
+      "alts": [
+        "Die Daten seien sicher, behauptet die Firma."
+      ]
     },
     {
       "t": "Viele Menschen verbringen zu viel Zeit vor dem Bildschirm.",

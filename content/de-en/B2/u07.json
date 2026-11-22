@@ -176,8 +176,8 @@
   "phrases": [
     {
       "id": "p01",
-      "t": "Ich möchte mich über … beschweren.",
-      "s": "I'd like to complain about …"
+      "t": "Welche Möglichkeiten habe ich jetzt?",
+      "s": "What are my options now?"
     },
     {
       "id": "p02",
@@ -191,13 +191,16 @@
     },
     {
       "id": "p04",
-      "t": "Einerseits …, andererseits …",
-      "s": "On the one hand …, on the other hand …"
+      "t": "Das hat Vor- und Nachteile.",
+      "s": "That has its pros and cons."
     },
     {
       "id": "p05",
       "t": "Im Vergleich zum Auto ist die Bahn …",
-      "s": "Compared with the car, the train is …"
+      "s": "Compared with the car, the train is …",
+      "alts": [
+        "Die Bahn ist im Vergleich zum Auto …"
+      ]
     },
     {
       "id": "p06",
@@ -207,7 +210,10 @@
     {
       "id": "p07",
       "t": "Das kann ich gut nachvollziehen.",
-      "s": "I can understand that very well."
+      "s": "I can understand that very well.",
+      "alts": [
+        "Ich kann das gut nachvollziehen."
+      ]
     },
     {
       "id": "p08",
@@ -677,15 +683,25 @@
   "sentences": [
     {
       "t": "Der Zug nach Hamburg fällt heute leider aus.",
-      "s": "Unfortunately, the train to Hamburg is canceled today."
+      "s": "Unfortunately, the train to Hamburg is canceled today.",
+      "alts": [
+        "Heute fällt der Zug nach Hamburg leider aus.",
+        "Leider fällt der Zug nach Hamburg heute aus."
+      ]
     },
     {
       "t": "In Hannover müssen Sie umsteigen.",
-      "s": "You have to change trains in Hanover."
+      "s": "You have to change trains in Hanover.",
+      "alts": [
+        "Sie müssen in Hannover umsteigen."
+      ]
     },
     {
       "t": "Wegen einer Baustelle gibt es eine Umleitung.",
-      "s": "There's a detour because of a construction site."
+      "s": "There's a detour because of a construction site.",
+      "alts": [
+        "Es gibt wegen einer Baustelle eine Umleitung."
+      ]
     },
     {
       "t": "Die wartenden Fahrgäste bekamen kostenlos Wasser.",
@@ -693,7 +709,10 @@
     },
     {
       "t": "Nachdem wir angekommen waren, suchten wir unsere Unterkunft.",
-      "s": "After we had arrived, we looked for our accommodation."
+      "s": "After we had arrived, we looked for our accommodation.",
+      "alts": [
+        "Wir suchten unsere Unterkunft, nachdem wir angekommen waren."
+      ]
     },
     {
       "t": "Sobald ich im Zug sitze, schicke ich dir eine Nachricht.",

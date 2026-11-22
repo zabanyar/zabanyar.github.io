@@ -49,11 +49,11 @@
       "id": "w04",
       "t": "der Lebenslauf",
       "pl": "die Lebensläufe",
-      "s": "CV, résumé",
+      "s": "résumé, CV",
       "emoji": "📄",
       "ex": {
         "t": "In Deutschland ist ein tabellarischer Lebenslauf üblich.",
-        "s": "In Germany, a CV in table form is standard."
+        "s": "In Germany, a résumé in table form is standard."
       }
     },
     {
@@ -207,12 +207,18 @@
     {
       "id": "p05",
       "t": "Da stimme ich dir zu.",
-      "s": "I agree with you there."
+      "s": "I agree with you there.",
+      "alts": [
+        "Ich stimme dir da zu."
+      ]
     },
     {
       "id": "p06",
       "t": "Das sehe ich etwas anders.",
-      "s": "I see that a little differently."
+      "s": "I see that a little differently.",
+      "alts": [
+        "Ich sehe das etwas anders."
+      ]
     },
     {
       "id": "p07",
@@ -673,7 +679,10 @@
     },
     {
       "t": "Im Vorstellungsgespräch wurde ich nach meinen Stärken gefragt.",
-      "s": "In the interview I was asked about my strengths."
+      "s": "In the interview I was asked about my strengths.",
+      "alts": [
+        "Ich wurde im Vorstellungsgespräch nach meinen Stärken gefragt."
+      ]
     },
     {
       "t": "Viele Aufgaben lassen sich auch von zu Hause aus erledigen.",
@@ -685,11 +694,17 @@
     },
     {
       "t": "Herr Wagner hat letzte Woche gekündigt.",
-      "s": "Mr. Wagner handed in his notice last week."
+      "s": "Mr. Wagner handed in his notice last week.",
+      "alts": [
+        "Letzte Woche hat Herr Wagner gekündigt."
+      ]
     },
     {
       "t": "Durch die Weiterbildung konnte Reza wertvolle Erfahrungen sammeln.",
-      "s": "Through the training course, Reza was able to gain valuable experience."
+      "s": "Through the training course, Reza was able to gain valuable experience.",
+      "alts": [
+        "Reza konnte durch die Weiterbildung wertvolle Erfahrungen sammeln."
+      ]
     },
     {
       "t": "Ein Nachteil besteht darin, dass man weniger Kontakt zu Kollegen hat.",

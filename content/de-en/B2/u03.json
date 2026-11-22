@@ -112,7 +112,7 @@
       "id": "w10",
       "t": "sich krankmelden",
       "s": "to call in sick; krankgeschrieben sein = to be on sick leave",
-      "emoji": "🤒",
+      "emoji": "",
       "ex": {
         "t": "Mit Fieber sollten Sie sich krankmelden und zu Hause bleiben.",
         "s": "If you have a fever, you should call in sick and stay at home."
@@ -195,7 +195,10 @@
     {
       "id": "p03",
       "t": "An deiner Stelle würde ich …",
-      "s": "If I were you, I would …"
+      "s": "If I were you, I would …",
+      "alts": [
+        "Ich würde an deiner Stelle …"
+      ]
     },
     {
       "id": "p04",
@@ -210,7 +213,10 @@
     {
       "id": "p06",
       "t": "Im Nachhinein ist man immer klüger.",
-      "s": "Hindsight is always 20/20."
+      "s": "Hindsight is always 20/20.",
+      "alts": [
+        "Man ist im Nachhinein immer klüger."
+      ]
     },
     {
       "id": "p07",
@@ -219,8 +225,8 @@
     },
     {
       "id": "p08",
-      "t": "Gute Besserung!",
-      "s": "Get well soon!"
+      "t": "Das hätte ins Auge gehen können.",
+      "s": "That could have gone badly wrong."
     }
   ],
   "dialogue": {
@@ -691,11 +697,17 @@
     },
     {
       "t": "Seit drei Tagen habe ich starke Kopfschmerzen.",
-      "s": "I've had a bad headache for three days."
+      "s": "I've had a bad headache for three days.",
+      "alts": [
+        "Ich habe seit drei Tagen starke Kopfschmerzen."
+      ]
     },
     {
       "t": "Bringen Sie bitte Ihre Gesundheitskarte mit.",
-      "s": "Please bring your health insurance card."
+      "s": "Please bring your health insurance card.",
+      "alts": [
+        "Bitte bringen Sie Ihre Gesundheitskarte mit."
+      ]
     },
     {
       "t": "Sie sollten sich ein paar Tage ausruhen.",
@@ -711,7 +723,10 @@
     },
     {
       "t": "Ich verzichte seit einem Monat auf Fast Food.",
-      "s": "I haven't eaten any fast food for a month."
+      "s": "I haven't eaten any fast food for a month.",
+      "alts": [
+        "Seit einem Monat verzichte ich auf Fast Food."
+      ]
     },
     {
       "t": "Zu viel Zucker schadet den Zähnen.",
