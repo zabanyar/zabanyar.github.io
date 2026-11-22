@@ -347,7 +347,10 @@
         "sp": "A",
         "t": "Ali, thank you very much for your time.",
         "s": "علی، از وقتی که گذاشتی خیلی ممنونم.",
-        "pr": "علی، ثَنک یو وِری ماچ فُر یور تایم."
+        "pr": "علی، ثَنک یو وِری ماچ فُر یور تایم.",
+        "alts": [
+          "Thank you very much for your time, Ali."
+        ]
       },
       {
         "sp": "B",
@@ -494,7 +497,9 @@
           "answer": [
             "rise",
             "increase",
-            "jump"
+            "jump",
+            "spike",
+            "surge"
           ],
           "s": "بیکاری افزایش شدیدی داشته است.",
           "pr": "ذِر هَز بین اِ شارپ رایز این آنِمْپْلُیْمِنت."
@@ -622,7 +627,8 @@
           "answer": [
             "reach",
             "make",
-            "conclude"
+            "conclude",
+            "strike"
           ],
           "s": "دو طرف نتوانستند درباره‌ی تعرفه‌ها به توافق برسند.",
           "pr": "ذِ تو سایدْز فِیلْد تو ریچ اِن اِگْریمِنت آن تَریفْس."
@@ -804,12 +810,19 @@
     {
       "t": "A deep recession now seems highly unlikely.",
       "s": "رکود عمیق حالا بسیار بعید به نظر می‌رسد.",
-      "pr": "اِ دیپ ریسِشِن ناو سیمْز هایْلی آنلایکْلی."
+      "pr": "اِ دیپ ریسِشِن ناو سیمْز هایْلی آنلایکْلی.",
+      "alts": [
+        "A deep recession seems highly unlikely now.",
+        "Now a deep recession seems highly unlikely."
+      ]
     },
     {
       "t": "Pistachio exports rose by ten percent last year.",
       "s": "صادرات پسته سال گذشته ده درصد افزایش یافت.",
-      "pr": "پیسْتَشیُو اِکْسْپُرتْس رُوز بای تِن پِرسِنْت لَسْت ییر."
+      "pr": "پیسْتَشیُو اِکْسْپُرتْس رُوز بای تِن پِرسِنْت لَسْت ییر.",
+      "alts": [
+        "Last year, pistachio exports rose by ten percent."
+      ]
     },
     {
       "t": "Cyberattacks pose a growing threat to banks.",

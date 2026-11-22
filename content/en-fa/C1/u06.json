@@ -684,7 +684,7 @@
       {
         "t": "Perhaps creativity is less a gift than a habit, and one that anyone can develop.",
         "s": "شاید خلاقیت بیش از آنکه موهبتی ذاتی باشد، یک عادت است؛ عادتی که هر کسی می‌تواند در خود پرورش دهد.",
-        "pr": "پِرهَپْس کْری‌اِیتیوِتی ایز لِس اِ گیفْت ذَن اِ هَبیت، اَند وان ذَت اِنی‌وان کَن دیوِلِپ."
+        "pr": "پِرهَپْس کْری‌اِیتیوِتی ایز لِس اِ گیفْت ذَن اِ هَبِت، اَند وان ذَت اِنی‌وان کَن دیوِلِپ."
       }
     ],
     "questions": [
@@ -759,7 +759,10 @@
     {
       "t": "Admittedly, abstract art isn't to everyone's taste.",
       "s": "قبول دارم که هنر انتزاعی به مذاق همه خوش نمی‌آید.",
-      "pr": "اِدْمیتِدْلی، اَبْسْتْرَکت آرت ایزِنت تو اِوْری‌وانز تِیسْت."
+      "pr": "اِدْمیتِدْلی، اَبْسْتْرَکت آرت ایزِنت تو اِوْری‌وانز تِیسْت.",
+      "alts": [
+        "Abstract art isn't to everyone's taste, admittedly."
+      ]
     },
     {
       "t": "The exhibition was thought-provoking, if a little too long.",

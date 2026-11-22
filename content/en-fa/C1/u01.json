@@ -783,7 +783,10 @@
     {
       "t": "Never have I heard Persian spoken so beautifully.",
       "s": "هرگز نشنیده‌ام کسی این‌قدر زیبا فارسی صحبت کند.",
-      "pr": "نِوِر هَو آی هِرْد پِرْژِن سْپُوکِن سُو بیوتِفْلی."
+      "pr": "نِوِر هَو آی هِرْد پِرْژِن سْپُوکِن سُو بیوتِفْلی.",
+      "alts": [
+        "Never have I heard Persian so beautifully spoken."
+      ]
     },
     {
       "t": "Her body language told me she was nervous.",
@@ -793,7 +796,10 @@
     {
       "t": "I do try to speak slowly with beginners.",
       "s": "من واقعاً سعی می‌کنم با مبتدی‌ها آهسته صحبت کنم.",
-      "pr": "آی دو تْرای تو سْپیک سْلُولی ویذ بیگینِرْز."
+      "pr": "آی دو تْرای تو سْپیک سْلُولی ویذ بیگینِرْز.",
+      "alts": [
+        "With beginners, I do try to speak slowly."
+      ]
     },
     {
       "t": "Rarely does a translation capture every nuance.",
@@ -818,7 +824,10 @@
     {
       "t": "That joke I didn't understand at all.",
       "s": "آن شوخی را که اصلاً نفهمیدم.",
-      "pr": "ذَت جُوک آی دیدِنْت آندِرْسْتَند اَت آل."
+      "pr": "ذَت جُوک آی دیدِنْت آندِرْسْتَند اَت آل.",
+      "alts": [
+        "I didn't understand that joke at all."
+      ]
     }
   ]
 }

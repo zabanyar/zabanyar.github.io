@@ -83,7 +83,7 @@
       "ex": {
         "t": "Resilience is the ability to recover from difficult experiences.",
         "s": "تاب‌آوری یعنی توانایی بازیابی خود پس از تجربه‌های سخت.",
-        "pr": "ریزیلْیِنْس ایز ذی اِبیلِتی تو ریکاوِر فْرام دیفیکِلت ایکْسْپیریِنْسِز."
+        "pr": "ریزیلْیِنْس ایز ذی اِبیلِتی تو ریکاوِر فْرام دیفِکِلْت ایکْسْپیریِنْسِز."
       }
     },
     {
@@ -638,7 +638,7 @@
       {
         "t": "Behavioral scientists, however, have shown that our choices are shaped by instinct, habit, and countless hidden biases.",
         "s": "ولی دانشمندان علوم رفتاری نشان داده‌اند که انتخاب‌های ما را غریزه، عادت و سوگیری‌های پنهان بی‌شمار شکل می‌دهند.",
-        "pr": "بیهِیْویِرِل سایِنْتِسْتْس، هاوْاِوِر، هَو شُون ذَت آوِر چُیسِز آر شِیپْت بای اینْسْتینْکْت، هَبیت، اَند کاونْتْلِس هیدِن بایِسِز."
+        "pr": "بیهِیْویِرِل سایِنْتِسْتْس، هاوْاِوِر، هَو شُون ذَت آوِر چُیسِز آر شِیپْت بای اینْسْتینْکْت، هَبِت، اَند کاونْتْلِس هیدِن بایِسِز."
       },
       {
         "t": "This insight led to the idea of the “nudge”: a small change in the environment that gets people to behave differently without forcing them.",
@@ -768,7 +768,10 @@
     {
       "t": "I hate being interrupted when I'm concentrating.",
       "s": "متنفرم از اینکه وقتی تمرکز کرده‌ام، حرفم را قطع کنند.",
-      "pr": "آی هِیت بیینگ اینْتِراپْتِد وِن آیم کانْسِنْتْرِیتینگ."
+      "pr": "آی هِیت بیینگ اینْتِراپْتِد وِن آیم کانْسِنْتْرِیتینگ.",
+      "alts": [
+        "When I'm concentrating, I hate being interrupted."
+      ]
     },
     {
       "t": "He seems to have come to terms with the situation.",

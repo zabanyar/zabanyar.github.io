@@ -41,7 +41,7 @@
     {
       "id": "w03",
       "t": "the last straw",
-      "s": "تیر خلاص، چیزی که کاسه‌ی صبر را لبریز می‌کند",
+      "s": "قطره‌ای که کاسه‌ی صبر را لبریز می‌کند",
       "pr": "ذِ لَسْت سْتْرا",
       "emoji": "",
       "ex": {
@@ -763,7 +763,10 @@
     {
       "t": "Don't worry, you'll get the hang of it.",
       "s": "نگران نباش، دستت می‌آید.",
-      "pr": "دُونت وِری، یول گِت ذِ هَنگ آو ایت."
+      "pr": "دُونت وِری، یول گِت ذِ هَنگ آو ایت.",
+      "alts": [
+        "You'll get the hang of it, don't worry."
+      ]
     },
     {
       "t": "Let's sleep on it and decide tomorrow.",
@@ -788,7 +791,10 @@
     {
       "t": "Don't get me wrong, I love my job.",
       "s": "سوءتفاهم نشود، من کارم را دوست دارم.",
-      "pr": "دُونت گِت میْ رانگ، آی لاو مای جاب."
+      "pr": "دُونت گِت میْ رانگ، آی لاو مای جاب.",
+      "alts": [
+        "I love my job, don't get me wrong."
+      ]
     },
     {
       "t": "Are we all on the same page?",

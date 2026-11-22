@@ -795,7 +795,14 @@
     {
       "t": "Her argument was clear, logical, and persuasive.",
       "s": "استدلالش روشن، منطقی و متقاعدکننده بود.",
-      "pr": "هِر آرگْیِمِنت واز کْلیر، لاجیکِل، اَند پِرسْوِیسیو."
+      "pr": "هِر آرگْیِمِنت واز کْلیر، لاجیکِل، اَند پِرسْوِیسیو.",
+      "alts": [
+        "Her argument was clear, persuasive, and logical.",
+        "Her argument was logical, clear, and persuasive.",
+        "Her argument was logical, persuasive, and clear.",
+        "Her argument was persuasive, clear, and logical.",
+        "Her argument was persuasive, logical, and clear."
+      ]
     },
     {
       "t": "Are there any questions?",

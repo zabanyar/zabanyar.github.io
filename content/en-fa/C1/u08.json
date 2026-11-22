@@ -32,7 +32,7 @@
       "pl": "clinical trials",
       "s": "کارآزمایی بالینی",
       "pr": "کْلینیکِل تْرایِل",
-      "emoji": "🧪",
+      "emoji": "",
       "ex": {
         "t": "Volunteers in the clinical trial were paid for their time.",
         "s": "به داوطلبان کارآزمایی بالینی بابت وقتشان پول پرداخت شد.",
@@ -161,7 +161,7 @@
       "ex": {
         "t": "The doctors faced a difficult moral dilemma.",
         "s": "پزشکان با یک دوراهی اخلاقی دشوار روبه‌رو شدند.",
-        "pr": "ذِ داکْتِرز فِیسْت اِ دیفیکِلْت مُرِل دِلِما."
+        "pr": "ذِ داکْتِرز فِیسْت اِ دیفِکِلْت مُرِل دِلِما."
       }
     },
     {
@@ -790,7 +790,10 @@
     {
       "t": "It's a gray area, legally and morally.",
       "s": "این موضوع، هم از نظر قانونی و هم از نظر اخلاقی، مرز روشنی ندارد.",
-      "pr": "ایتس اِ گْرِی اِریا، لیگِلی اَند مُرِلی."
+      "pr": "ایتس اِ گْرِی اِریا، لیگِلی اَند مُرِلی.",
+      "alts": [
+        "Legally and morally, it's a gray area."
+      ]
     },
     {
       "t": "The patient may refuse treatment, in which case we must respect her decision.",

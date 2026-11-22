@@ -245,7 +245,7 @@
     "title": {
       "t": "A difficult week",
       "s": "یک هفته‌ی سخت",
-      "pr": "اِ دیفیکِلت ویک"
+      "pr": "اِ دیفِکِلْت ویک"
     },
     "speakers": {
       "A": {
@@ -426,7 +426,8 @@
           "answer": [
             "bound",
             "sure",
-            "certain"
+            "certain",
+            "doomed"
           ],
           "s": "بدون یک برنامه‌ی روشن، پروژه حتماً شکست می‌خورد.",
           "pr": "ویذاوت اِ کْلیر پْلَن، ذِ پْراجِکْت ایز باوند تو فِیل."
@@ -789,7 +790,10 @@
     {
       "t": "We were supposed to meet the client yesterday.",
       "s": "قرار بود دیروز با مشتری دیدار کنیم.",
-      "pr": "وی وِر سِپُوزْد تو میت ذِ کْلایِنت یِسْتِرْدِی."
+      "pr": "وی وِر سِپُوزْد تو میت ذِ کْلایِنت یِسْتِرْدِی.",
+      "alts": [
+        "Yesterday, we were supposed to meet the client."
+      ]
     },
     {
       "t": "She promised she would give us honest feedback.",
