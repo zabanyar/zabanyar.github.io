@@ -1,6 +1,6 @@
 // Zabanyar — app shell, routing and screens.
-import { h, $, T, pic, play, stop, sayBtn, toast, setTarget } from "./ui.js";
-import { t, setLang, getLang, num } from "./i18n.js";
+import { h, $, T, PR, pic, play, stop, sayBtn, toast, setTarget } from "./ui.js";
+import { t, setLang, getLang, num, frac } from "./i18n.js";
 import * as store from "./store.js";
 import { lessonsFor, buildLesson, buildReview, runLesson, LESSON_ICONS, unitKey, lessonLabel } from "./lesson.js";
 
@@ -26,9 +26,13 @@ async function unit(course, key) {
 function courseMeta(id) { return INDEX.courses.find(c => c.id === id); }
 function allUnitRefs(c) { return c.levels.flatMap(lv => lv.units.map(un => ({ level: lv.id, un, key: keyOf(lv.id, un.id) }))); }
 const lkey = (cid, key, lid) => { const { level, uid } = parseKey(key); return `${cid}/${level}/${uid}/${lid}`; };
+const PASS = 0.6;   // a lesson counts as learned from 60 % right answers; below that it is offered again
+const passed = (p, cid, key, l) => (p.lessons[lkey(cid, key, l)]?.best ?? -1) >= PASS;
+const starsOf = best => best >= .9 ? 3 : best >= .7 ? 2 : best >= PASS ? 1 : 0;
+const unitDone = (p, cid, r) => lessonIds(r.un).every(l => passed(p, cid, r.key, l));
 
 // home-screen language: each person's own (synced with their progress); before login, the device's last one
-function uiLang() { let d = "fa"; try { d = localStorage.getItem("zy:ui") || "fa"; } catch {} return store.currentUser() ? store.pref("ui", "fa") : d; }
+function uiLang() { let d = "fa"; try { d = localStorage.getItem("zy:ui") || "fa"; } catch {} return store.currentUser() ? store.pref("homeUi", null) || store.pref("ui", "fa") : d; }
 function useCourse(c) {
   const lang = c ? c.support : uiLang();
   if (c) { try { localStorage.setItem("zy:ui", c.support); } catch {} store.setPref("ui", c.support); }
@@ -36,6 +40,7 @@ function useCourse(c) {
   document.documentElement.lang = lang;
   document.documentElement.dir = lang === "fa" ? "rtl" : "ltr";
   document.documentElement.style.setProperty("--accent", c ? c.color : "var(--brand)");
+  document.documentElement.style.setProperty("--accent-ink", c ? "#fff" : "var(--brand-ink)");
   if (c) setTarget(c.target, c.tdir || "ltr");
 }
 
@@ -87,7 +92,7 @@ async function viewHome() {
   const p = store.progress();
   const cards = idx.courses.map(c => {
     const refs = allUnitRefs(c);
-    const done = refs.filter(r => (p.lessons[lkey(c.id, r.key, "test")]?.best || 0) >= .7 || (r.un.id === "u00" && p.lessons[lkey(c.id, r.key, "words")])).length;
+    const done = refs.filter(r => unitDone(p, c.id, r)).length;
     const started = Object.keys(p.lessons).some(k => k.startsWith(c.id + "/"));
     const pct = refs.length ? Math.round(100 * done / refs.length) : 0;
     const lvls = c.levels.filter(l => l.units.length).map(l => l.id).join(" · ");
@@ -121,7 +126,7 @@ function nextUp(c, p) {
   const refs = allUnitRefs(c);
   const open = from => {
     for (let i = Math.max(0, from); i < refs.length; i++) {
-      const r = refs[i]; const l = lessonIds(r.un).find(l => !p.lessons[lkey(c.id, r.key, l)]);
+      const r = refs[i]; const l = lessonIds(r.un).find(l => !passed(p, c.id, r.key, l));
       if (l) return { ...r, lid: l };
     }
     return null;
@@ -130,7 +135,7 @@ function nextUp(c, p) {
   if (pos) {
     const i = refs.findIndex(r => r.key === pos.key);
     if (i >= 0) {
-      if (lessonIds(refs[i].un).includes(pos.lid) && !p.lessons[lkey(c.id, pos.key, pos.lid)]) return { ...refs[i], lid: pos.lid };
+      if (lessonIds(refs[i].un).includes(pos.lid) && !passed(p, c.id, pos.key, pos.lid)) return { ...refs[i], lid: pos.lid };
       const n = open(i); if (n) return n;
     }
   }
@@ -148,7 +153,7 @@ function continueCard(c, p, withCourse) {
     h("div", { class: "go" }, "▶ " + t("continue")));
 }
 function levelStats(c, lv, p) {
-  const done = lv.units.filter(un => lessonIds(un).every(l => p.lessons[lkey(c.id, keyOf(lv.id, un.id), l)])).length;
+  const done = lv.units.filter(un => unitDone(p, c.id, { un, key: keyOf(lv.id, un.id) })).length;
   return { done, total: lv.units.length };
 }
 
@@ -168,27 +173,27 @@ async function viewCourse(cid, want) {
     const st = l.units.length ? levelStats(c, l, p) : null;
     return h("button", { class: (l.id === cur.id ? "on" : "") + (st ? "" : " soon"), role: "tab", "aria-selected": String(l.id === cur.id),
       onclick: () => go(`#/c/${cid}/lv/${l.id}`) },
-      h("b", {}, l.id), h("span", { class: "small" }, st ? `${num(st.done)}/${num(st.total)}` : t("soon")));
+      h("b", {}, l.id), h("span", { class: "small" }, st ? frac(st.done, st.total) : t("soon")));
   }));
   let body;
   if (!cur.units.length) body = h("div", { class: "level soon" }, h("div", { class: "level-head" }, h("h2", {}, cur.id + " · " + cur.name), h("span", { class: "pill" }, t("soon"))), h("div", { class: "muted" }, cur.outline));
   else {
     const st = levelStats(c, cur, p);
     body = h("div", { class: "level", id: "lv-" + cur.id },
-      h("div", { class: "level-head" }, h("h2", {}, cur.id + " · " + cur.name), h("span", { class: "muted" }, `${num(st.done)}/${num(st.total)} ${t("unitsDone")}`)),
+      h("div", { class: "level-head" }, h("h2", {}, cur.id + " · " + cur.name), h("span", { class: "muted" }, `${frac(st.done, st.total)} ${t("unitsDone")}`)),
       h("div", { class: "progressbar" }, h("i", { style: { width: Math.round(100 * st.done / st.total) + "%", background: c.color } })),
       h("div", { class: "unitpath" }, cur.units.map(un => {
         const key = keyOf(cur.id, un.id);
         const ls = lessonIds(un);
-        const doneN = ls.filter(l => p.lessons[lkey(cid, key, l)]).length;
+        const doneN = ls.filter(l => passed(p, cid, key, l)).length;
         const best = p.lessons[lkey(cid, key, "test")]?.best || 0;
         const complete = doneN === ls.length;
         const cls = "unit" + (complete ? " done" : "") + (next && next.key === key ? " next" : "");
-        const stars = best >= .9 ? 3 : best >= .7 ? 2 : best > 0 ? 1 : 0;
+        const stars = starsOf(best);
         return h("a", { class: cls, href: `#/c/${cid}/u/${key}` },
           h("div", { class: "pic" }, un.img || un.emoji ? pic(un.img, un.emoji, "", 46) : h("b", {}, cur.id)),
           h("div", {}, h("div", { class: "sub" }, `${cur.id} · ${t("unit")} ${num(unitNo(cur, un))}`), h("h3", {}, T(un.title.t)), h("div", { class: "sub" }, un.title.s)),
-          h("div", { class: "stars" }, complete ? (stars ? "★".repeat(stars) : "✓") : `${num(doneN)}/${num(ls.length)}`));
+          h("div", { class: "stars" }, complete ? (stars ? "★".repeat(stars) : "✓") : frac(doneN, ls.length)));
       })));
   }
   app.replaceChildren(
@@ -227,18 +232,21 @@ function offlineCard(c) {
       const files = await getJSON(`data/${c.id}/files.json`);
       const all = ["data/courses.json", ...files];
       const cache = await caches.open("zy-content-v1");
-      let n = 0;
-      for (let i = 0; i < all.length; i += 8) {
-        await Promise.all(all.slice(i, i + 8).map(async f => { try { if (!(await cache.match(f))) await cache.add(f); } catch {} n++; }));
+      try { await navigator.storage?.persist?.(); } catch {}
+      let n = 0, failed = 0;
+      for (let i = 0; i < all.length; i += 16) {
+        await Promise.all(all.slice(i, i + 16).map(async f => { try { if (!(await cache.match(f))) await cache.add(f); } catch { failed++; } n++; }));
         bar.firstChild.style.width = Math.round(100 * n / all.length) + "%";
+        st.textContent = `${t("downloading")} ${num(Math.round(100 * n / all.length))}%`;
       }
+      if (failed) { st.textContent = "⚠️ " + t("offlineFailed").replace("{n}", num(failed)); btn.disabled = false; btn.textContent = "↻ " + t("tryAgain"); return; }
       try { localStorage.setItem(key, String(Date.now())); } catch {}
       st.textContent = t("downloaded"); btn.textContent = t("downloaded");
     } catch { st.textContent = "⚠️"; btn.disabled = false; }
   } }, saved ? t("downloaded") : "⬇️ " + t("download"));
   return h("details", { class: "card", style: { marginTop: "12px" } },
     h("summary", { style: { fontWeight: 800 } }, "📶 " + t("offline")),
-    h("p", { class: "muted small" }, t("offlineDesc")), h("div", { class: "stack" }, btn, bar, st));
+    h("p", { class: "muted small" }, t("offlineDesc"), c.mb ? ` (≈ ${num(c.mb)} MB)` : ""), h("div", { class: "stack" }, btn, bar, st));
 }
 
 async function viewUnit(cid, key) {
@@ -250,24 +258,25 @@ async function viewUnit(cid, key) {
   const L = lessonsFor(un);
   const lv = c.levels.find(l => l.id === level);
   const k = unitNo(lv, un);
-  const firstOpen = L.find(l => !p.lessons[lkey(cid, key, l)]);
+  const firstOpen = L.find(l => !passed(p, cid, key, l));
   const refs = allUnitRefs(c); const i = refs.findIndex(r => r.key === key);
   const nav = (r, label, cls) => r ? h("a", { class: "btn secondary " + cls, href: `#/c/${cid}/u/${r.key}` },
     h("span", { class: "small" }, label), h("b", {}, `${r.level} · ${num(unitNo(c.levels.find(l => l.id === r.level), r.un))}`)) : h("span");
   app.replaceChildren(
     topbar(`${c.name.t} · ${level} · ${t("unit")} ${num(k)}`, `#/c/${cid}/lv/${level}`),
     h("div", { class: "card unithero" }, un.img || un.emoji ? pic(un.img, un.emoji, "", 96) : h("div", { class: "badge", style: { fontSize: "2rem", fontWeight: 900, color: "var(--accent)" } }, level),
-      h("div", {}, h("h1", {}, T(un.title.t)), un.title.pr ? h("div", { class: "pr", dir: "ltr" }, un.title.pr) : null, h("div", { class: "muted", style: { fontSize: "1.1rem" } }, un.title.s), sayBtn(un.title.a, { small: true }))),
+      h("div", {}, h("h1", {}, T(un.title.t)), PR(un.title.pr), h("div", { class: "muted", style: { fontSize: "1.1rem" } }, un.title.s), sayBtn(un.title.a, { small: true }))),
     h("h2", {}, t("goals")),
     h("ul", { class: "goals card" }, un.goals.map(g => h("li", {}, g))),
     h("h2", {}, t("lessons")),
     h("div", { class: "lessons" }, L.map(l => {
       const st = p.lessons[lkey(cid, key, l)];
-      const stars = st ? (st.best >= .9 ? 3 : st.best >= .7 ? 2 : 1) : 0;
-      return h("a", { class: "lesson" + (st ? " done" : "") + (l === firstOpen ? " next" : ""), href: `#/c/${cid}/u/${key}/l/${l}` },
+      const stars = st ? starsOf(st.best) : 0;
+      const ok = passed(p, cid, key, l);
+      return h("a", { class: "lesson" + (ok ? " done" : st ? " again" : "") + (l === firstOpen ? " next" : ""), href: `#/c/${cid}/u/${key}/l/${l}` },
         h("div", { class: "ico" }, LESSON_ICONS[l] || "🧩"),
         h("div", {}, h("b", {}, T(lessonLabel(un, l, t)[0])), h("span", { class: "muted small" }, lessonLabel(un, l, t)[1])),
-        h("div", { class: "stars" }, st ? "★".repeat(stars) + "☆".repeat(3 - stars) : "▶"));
+        h("div", { class: "stars" }, ok ? "★".repeat(stars) + "☆".repeat(3 - stars) : st ? "↻ " + t("again") : "▶"));
     })),
     h("div", { class: "unitnav" }, nav(refs[i - 1], t("prevUnit"), "prev"), nav(refs[i + 1], t("nextUnit"), "nextu")));
 }
@@ -336,10 +345,15 @@ async function viewWords(cid) {
 function viewSettings() {
   useCourse(null);
   const u = store.currentUser();
+  const cur = getLang();
+  const langBtn = (code, label) => h("button", { class: "btn " + (cur === code ? "" : "secondary"), lang: code, dir: code === "fa" ? "rtl" : "ltr",
+    onclick: () => { store.setPref("homeUi", code); try { localStorage.setItem("zy:ui", code); } catch {} viewSettings(); } }, label);
   app.replaceChildren(topbar(t("settings"), "#/"),
     h("div", { class: "card stack" },
       h("div", {}, "👤 ", h("b", {}, u.name)),
       h("button", { class: "btn secondary block", onclick: () => { store.logout(); go("#/login"); } }, t("switchUser"))),
+    h("h2", {}, "🌐 " + t("homeLang")),
+    h("div", { class: "card row", style: { gap: "8px", flexWrap: "wrap" } }, langBtn("fa", "فارسی"), langBtn("en", "English"), langBtn("tr", "Türkçe")),
     h("h2", {}, "📱 " + t("install")),
     h("div", { class: "card muted" }, t("installHint")),
     h("h2", {}, "ℹ️ " + t("credits")),

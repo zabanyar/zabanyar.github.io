@@ -1,6 +1,6 @@
 // Builds lessons from unit data and runs the interactive lesson player.
 import { h, T, PR, tdir, pic, play, stop, sayBtn, shuffle, sample, md, normalize } from "./ui.js";
-import { t, num, getLang } from "./i18n.js";
+import { t, num, getLang, langName } from "./i18n.js";
 import { srsSeen, srsAnswer, report } from "./store.js";
 
 export function lessonLabel(un, l, t) {
@@ -59,13 +59,13 @@ function mcFrom(item, pool, kind, srsId) {
   const opts = shuffle([item, ...dis]);
   const answer = opts.indexOf(item);
   const step = { type: "mc", answer, srs: srsId, a: item.a, reveal: item.t, revealPr: item.pr };
-  if (kind === "pic") { step.label = t("q_pic"); step.prompt = { t: item.t, pr: item.pr, a: item.a, autoplay: true }; step.options = opts.map(o => ({ img: o.img, emoji: o.emoji })); step.pics = true; }
+  if (kind === "pic") { step.label = t("q_pic"); step.prompt = { t: item.t, pr: item.pr, a: item.a, autoplay: true }; step.options = opts.map(o => ({ img: o.img, emoji: o.emoji, label: o.t })); step.pics = true; }
   if (kind === "word") { step.label = t("q_word"); step.prompt = { img: item.img, emoji: item.emoji }; step.options = opts.map(o => ({ t: o.t, pr: o.pr })); }
   if (kind === "meaning") { step.label = t("q_meaning"); step.prompt = { t: item.t, pr: item.pr, a: item.a, autoplay: true }; step.options = opts.map(o => ({ s: o.s })); step.reveal = item.s; step.revealPr = null; }
   if (kind === "reverse") { step.label = t("q_reverse"); step.prompt = { s: item.s, img: item.img, emoji: item.emoji }; step.options = opts.map(o => ({ t: o.t, pr: o.pr })); }
-  if (kind === "listen") { step.label = t("q_listen"); step.prompt = { a: item.a, autoplay: true, big: true }; step.options = opts.map(o => (pics ? { img: o.img, emoji: o.emoji } : { t: o.t, pr: o.pr })); step.pics = pics; }
+  if (kind === "listen") { step.label = t("q_listen"); step.prompt = { a: item.a, autoplay: true, big: true }; step.options = opts.map(o => (pics ? { img: o.img, emoji: o.emoji, label: o.t } : { t: o.t })); step.pics = pics; }
   // hear a sentence in the target language and pick it among sentences in the same language (the translation is shown only afterwards)
-  if (kind === "listenMeaning") { step.label = t("q_listenMeaning"); step.prompt = { a: item.a, autoplay: true, big: true }; step.options = opts.map(o => ({ t: o.t, pr: o.pr })); step.reveal = item.t; step.revealS = item.s; }
+  if (kind === "listenMeaning") { step.label = t("q_listenMeaning"); step.prompt = { a: item.a, autoplay: true, big: true }; step.options = opts.map(o => ({ t: o.t })); step.reveal = item.t; step.revealS = item.s; }
   return step;
 }
 function orderStep(item) { return { type: "order", t: item.t, alts: item.alts, s: item.s, a: item.a, revealPr: item.pr, label: t("q_order") }; }
@@ -78,7 +78,7 @@ function typeForms(w) {
 function typeWordStep(w, srsId, pool = []) {
   // other words with exactly the same meaning are right too
   const answers = [w, ...pool.filter(x => x !== w && x.s === w.s)].flatMap(typeForms);
-  return { type: "type", label: t("q_type"), prompt: { s: w.s, img: w.img, emoji: w.emoji, a: null }, answers, reveal: w.t, revealPr: w.pr, a: w.a, srs: srsId };
+  return { type: "type", label: t("q_type") + " · " + langName(currentTarget), prompt: { s: w.s, img: w.img, emoji: w.emoji, a: null }, answers, reveal: w.t, revealPr: w.pr, a: w.a, srs: srsId };
 }
 function dictationStep(item) { return { type: "type", label: t("q_typeHeard"), prompt: { a: item.a, autoplay: true, big: true }, answers: [item.t], reveal: item.t, revealPr: item.pr, a: item.a }; }
 // multiple-choice options are shown in random order (in the content the right answer is often listed first)
@@ -91,10 +91,12 @@ function grammarEx(x) {
   if (x.type === "type") return { type: "type", label: t("q_fill"), prompt: { gap: x.t, s: x.s, hint: x.hint }, answers: x.answer.map(ans => x.t.replace("___", ans)).concat(x.answer), reveal: x.full, revealPr: x.pr, a: x.a, gapMode: true };
   return { type: "order", t: x.t, alts: x.alts, s: x.s, a: x.a, revealPr: x.pr, label: t("q_order") };
 }
-const short = s => s.t.split(/\s+/).length <= 8;
+const short = s => s.t.split(/\s+/).length <= 8 && !/[…()\/=]|\.\.\./.test(s.t);
 const typeable = w => w.t.length <= 16 && !/[()+\/…]/.test(w.t);
 
+let currentTarget = "en";   // language being learned, for labels like "Write it in German"
 export function buildLesson(course, unit, lid, target) {
+  currentTarget = target || course.split("-")[0];
   const sid = w => `${course}|${unitKey(unit)}|${w.id}`;
   const words = (unit.words || []).filter(w => w.t);
   const S = [];
@@ -128,7 +130,9 @@ export function buildLesson(course, unit, lid, target) {
         S.push(mcFrom(w, words, kinds[Math.floor(Math.random() * kinds.length)], sid(w)));
       }
     }
-    S.push({ type: "match", label: t("q_match"), pairs: others(words.filter(w => w.s), {}, 5, w => w.s).filter((w, k, a) => a.findIndex(x => x.t === w.t) === k) });
+    const gloss = w => (w.s || "").split(/\s[·;(]|;|\(/)[0].trim();
+    const bareT = w => w.t.replace(/^(der|die|das|the|a|an|to)\s+/i, "").toLowerCase();
+    S.push({ type: "match", label: t("q_match"), pairs: others(words.filter(w => gloss(w) && !gloss(w).toLowerCase().includes(bareT(w))).map(w => ({ ...w, s: gloss(w) })), {}, 5, w => w.s).filter((w, k, a) => a.findIndex(x => x.t === w.t) === k) });
     for (const w of sample(words.filter(w => w.img), 3)) S.push(mcFrom(w, words, "listen", sid(w)));
     for (const w of sample(words.filter(typeable), 3)) S.push(typeWordStep(w, sid(w), words));
   } else if (lid === "phrases") {
@@ -177,6 +181,7 @@ export function buildLesson(course, unit, lid, target) {
 }
 
 export function buildReview(course, units, ids) {
+  currentTarget = course === "de-fsp" ? "de" : course.split("-")[0];
   // ids: "course|uid|wid"
   const byId = {};
   for (const u of units) for (const w of u.words || []) byId[`${course}|${unitKey(u)}|${w.id}`] = { w, u };
@@ -261,7 +266,7 @@ export function runLesson(root, steps, { target, onExit, onDone, title, ctx = {}
   function finish() {
     const score = gradedTotal ? correct / gradedTotal : 1;
     onDone && onDone(score);
-    const stars = score >= .9 ? 3 : score >= .7 ? 2 : score > 0 ? 1 : 0;
+    const stars = score >= .9 ? 3 : score >= .7 ? 2 : score >= .6 ? 1 : 0;
     stage.replaceChildren(h("div", { class: "result" },
       h("div", { class: "trophy" }, score >= .7 ? "🏆" : "💪"),
       h("h2", {}, t("lessonDone")),
@@ -275,7 +280,7 @@ export function runLesson(root, steps, { target, onExit, onDone, title, ctx = {}
 
   function feedback(ok, step, extra) {
     const reveal = step.reveal;
-    if (GRADED.has(step.type) && !retried.has(step)) { if (ok) correct++; }
+    if (GRADED.has(step.type) && !retried.has(step)) { if (ok && !step.noCredit) correct++; }
     if (!ok && GRADED.has(step.type) && !retried.has(step)) { retried.add(step); queue.push(step); }
     if (step.srs) srsAnswer(step.srs, ok);
     if (step.a) play(step.a);
@@ -421,7 +426,14 @@ export function runLesson(root, steps, { target, onExit, onDone, title, ctx = {}
       const playAll = async () => {
         if (playing) { playing = false; stop(); return; }
         playing = true;
-        for (const x of lines) { if (!playing) break; x.row.classList.add("active"); x.row.scrollIntoView({ block: "nearest", behavior: "smooth" }); await play(x.l.a); x.row.classList.remove("active"); await new Promise(r => setTimeout(r, 250)); }
+        for (const x of lines) {
+          if (!playing) break;
+          x.row.classList.add("active"); x.row.scrollIntoView({ block: "nearest", behavior: "smooth" });
+          const finished = await play(x.l.a); x.row.classList.remove("active");
+          if (finished === false) break;   // another sound was started (the learner tapped a line): stop the sequence
+          await new Promise(r => setTimeout(r, 250));
+        }
+        lines.forEach(x => x.row.classList.remove("active"));
         playing = false;
       };
       const trBtn = h("button", { class: "btn secondary", onclick: () => { box.classList.toggle("hide-tr"); trBtn.textContent = box.classList.contains("hide-tr") ? t("showTr") : t("hideTr"); } }, t("hideTr"));
@@ -437,7 +449,13 @@ export function runLesson(root, steps, { target, onExit, onDone, title, ctx = {}
         return row;
       }));
       box.classList.add("hide-tr");
-      const playAll = async () => { for (const s of r.text) await play(s.a); };
+      let readingOn = false;
+      const playAll = async () => {
+        if (readingOn) { readingOn = false; stop(); return; }
+        readingOn = true;
+        for (const s of r.text) { if (!readingOn || (await play(s.a)) === false) break; }
+        readingOn = false;
+      };
       const trBtn = h("button", { class: "btn secondary", onclick: () => { box.classList.toggle("hide-tr"); trBtn.textContent = box.classList.contains("hide-tr") ? t("showTr") : t("hideTr"); } }, t("showTr"));
       el.append(h("div", { class: "prompt" }, "📖 ", T(r.title.t), h("span", { class: "muted" }, " — " + r.title.s)),
         h("div", { class: "row" }, h("button", { class: "btn", onclick: playAll }, "▶ " + t("playAll")), trBtn), box);
@@ -449,7 +467,7 @@ export function runLesson(root, steps, { target, onExit, onDone, title, ctx = {}
       let sel = -1;
       const cb = checkBar();
       const btns = step.options.map((o, k) => {
-        const b = h("button", { class: "opt" + (o.img || o.emoji && !o.t && !o.s ? " pic" : ""), type: "button" },
+        const b = h("button", { class: "opt" + (o.img || o.emoji && !o.t && !o.s ? " pic" : ""), type: "button", "aria-label": o.label || null },
           o.img || (o.emoji && !o.t && !o.s) ? pic(o.img, o.emoji, "", 72) : h("span", { class: "k" }, num(k + 1)),
           o.t ? h("span", {}, T(o.t), o.pr ? h("span", { class: "muted small", dir: "ltr" }, "  " + o.pr) : null) : null, o.s ? h("span", {}, o.s) : null);
         b.addEventListener("click", () => { sel = k; btns.forEach(x => x.classList.remove("sel")); b.classList.add("sel"); cb.enable(); });
@@ -478,7 +496,7 @@ export function runLesson(root, steps, { target, onExit, onDone, title, ctx = {}
         if (a.w === b.w) {
           a.b.classList.add("right"); b.b.classList.add("right");
           setTimeout(() => { a.b.classList.add("gone"); b.b.classList.add("gone"); }, 350);
-          if (++done === left.length) setTimeout(() => { step.reveal = null; feedback(mistakes <= 1, step); }, 450);
+          if (++done === left.length) setTimeout(() => { step.reveal = null; step.noCredit = mistakes > 1; feedback(true, step); }, 450);
         } else {
           mistakes++; a.b.classList.add("wrong"); b.b.classList.add("wrong");
           setTimeout(() => { a.b.classList.remove("wrong", "sel"); b.b.classList.remove("wrong", "sel"); }, 500);
@@ -487,17 +505,18 @@ export function runLesson(root, steps, { target, onExit, onDone, title, ctx = {}
     },
     order(el, step) {
       el.append(h("div", { class: "prompt" }, step.label),
-        h("div", { class: "row" }, sayBtn(step.a, { small: true }), h("div", { style: { fontSize: "1.2rem", fontWeight: 700, flex: 1 } }, step.s)));
+        h("div", { class: "row" }, h("div", { style: { fontSize: "1.2rem", fontWeight: 700, flex: 1 } }, step.s)));
       const words = step.t.split(/\s+/);
       const ans = h("div", { class: "tiles answer", dir: tdir() });
       const bank = h("div", { class: "tiles", dir: tdir() });
       const picked = [];
       const cb = checkBar();
       shuffle(words.map((w, k) => ({ w, k }))).forEach(o => {
-        const tile = h("button", { class: "tile", type: "button", lang: target }, o.w);
+        const lab = o.w.replace(/[.,!?;:؟،؛]+$/, "") || o.w;
+        const tile = h("button", { class: "tile", type: "button", lang: target }, lab);
         tile.onclick = () => {
           tile.classList.add("used");
-          const at = h("button", { class: "tile", type: "button", lang: target }, o.w);
+          const at = h("button", { class: "tile", type: "button", lang: target }, lab);
           at.onclick = () => { at.remove(); tile.classList.remove("used"); picked.splice(picked.indexOf(o), 1); cb.enable(picked.length > 0); };
           ans.append(at); picked.push(o); cb.enable(true);
         };

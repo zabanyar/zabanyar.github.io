@@ -28,7 +28,7 @@ const S = {
     listen: "گوش کنید", slow: "آهسته",
     q_pic: "کدام تصویر است؟", q_word: "این چیست؟", q_meaning: "معنی‌اش چیست؟", q_listen: "گوش کنید و انتخاب کنید",
     q_match: "جفت‌ها را پیدا کنید", q_order: "جمله را بسازید", q_type: "بنویسید", q_fill: "جای خالی را پر کنید",
-    q_read: "به این پرسش پاسخ دهید", q_listenMeaning: "چه شنیدید؟", q_reverse: "این را چطور می‌گویند؟", report: "گزارش اشکال", reportTitle: "گزارش اشکال در این بخش", reportPh: "اشکال چیست؟ (اختیاری)", reportAbout: "دربارهٔ:", send: "ارسال", cancel: "انصراف", reportThanks: "ممنون! گزارش شما ثبت شد.", reportQueued: "ممنون! گزارش ذخیره شد و وقتی اینترنت وصل شود ارسال می‌شود.", q_typeHeard: "آنچه می‌شنوید را بنویسید",
+    q_read: "به این پرسش پاسخ دهید", q_listenMeaning: "چه شنیدید؟", q_reverse: "این را چطور می‌گویند؟", homeLang: "زبان صفحه‌ی اصلی", offlineFailed: "{n} فایل ذخیره نشد. دوباره امتحان کنید.", tryAgain: "دوباره امتحان کنید", report: "گزارش اشکال", reportTitle: "گزارش اشکال در این بخش", reportPh: "اشکال چیست؟ (اختیاری)", reportAbout: "دربارهٔ:", send: "ارسال", cancel: "انصراف", reportThanks: "ممنون! گزارش شما ثبت شد.", reportQueued: "ممنون! گزارش ذخیره شد و وقتی اینترنت وصل شود ارسال می‌شود.", q_typeHeard: "آنچه می‌شنوید را بنویسید",
     tapToHear: "برای شنیدن روی هر جمله بزنید", showTr: "نمایش ترجمه", hideTr: "پنهان کردن ترجمه", playAll: "پخش همه",
     lessonDone: "این بخش تمام شد!", score: "امتیاز شما", again: "دوباره", backToUnit: "بازگشت به درس", nextLesson: "بخش بعدی",
     review: "مرور واژه‌ها", reviewDesc: "واژه‌هایی که باید مرور شوند", nothingToReview: "فعلاً چیزی برای مرور نیست. آفرین! 🌟",
@@ -70,7 +70,7 @@ const S = {
     listen: "Listen", slow: "Slow",
     q_pic: "Which picture is it?", q_word: "What is this?", q_meaning: "What does it mean?", q_listen: "Listen and choose",
     q_match: "Find the pairs", q_order: "Build the sentence", q_type: "Write it", q_fill: "Fill in the gap",
-    q_read: "Answer the question", q_listenMeaning: "What did you hear?", q_reverse: "How do you say this?", report: "Report a problem", reportTitle: "Report a problem with this step", reportPh: "What is wrong? (optional)", reportAbout: "About:", send: "Send", cancel: "Cancel", reportThanks: "Thank you! Your report was sent.", reportQueued: "Thank you! Your report is saved and will be sent when you are online.", q_typeHeard: "Type what you hear",
+    q_read: "Answer the question", q_listenMeaning: "What did you hear?", q_reverse: "How do you say this?", homeLang: "Language of the home screen", offlineFailed: "{n} files could not be saved. Please try again.", tryAgain: "Try again", report: "Report a problem", reportTitle: "Report a problem with this step", reportPh: "What is wrong? (optional)", reportAbout: "About:", send: "Send", cancel: "Cancel", reportThanks: "Thank you! Your report was sent.", reportQueued: "Thank you! Your report is saved and will be sent when you are online.", q_typeHeard: "Type what you hear",
     tapToHear: "Tap any sentence to hear it", showTr: "Show translation", hideTr: "Hide translation", playAll: "Play all",
     lessonDone: "Lesson complete!", score: "Your score", again: "Try again", backToUnit: "Back to unit", nextLesson: "Next lesson",
     review: "Review words", reviewDesc: "Words that are due for review", nothingToReview: "Nothing to review right now. Well done! 🌟",
@@ -112,7 +112,7 @@ const S = {
     listen: "Dinleyin", slow: "Yavaş",
     q_pic: "Hangi resim?", q_word: "Bu nedir?", q_meaning: "Anlamı ne?", q_listen: "Dinleyin ve seçin",
     q_match: "Eşleri bulun", q_order: "Cümleyi kurun", q_type: "Yazın", q_fill: "Boşluğu doldurun",
-    q_read: "Soruyu cevaplayın", q_listenMeaning: "Ne duydunuz?", q_reverse: "Bunu nasıl söylersiniz?", report: "Hata bildir", reportTitle: "Bu adımdaki bir hatayı bildirin", reportPh: "Sorun nedir? (isteğe bağlı)", reportAbout: "Konu:", send: "Gönder", cancel: "Vazgeç", reportThanks: "Teşekkürler! Bildiriminiz gönderildi.", reportQueued: "Teşekkürler! Bildiriminiz kaydedildi, internete bağlanınca gönderilecek.", q_typeHeard: "Duyduğunuzu yazın",
+    q_read: "Soruyu cevaplayın", q_listenMeaning: "Ne duydunuz?", q_reverse: "Bunu nasıl söylersiniz?", homeLang: "Ana sayfanın dili", offlineFailed: "{n} dosya kaydedilemedi. Lütfen tekrar deneyin.", tryAgain: "Tekrar dene", report: "Hata bildir", reportTitle: "Bu adımdaki bir hatayı bildirin", reportPh: "Sorun nedir? (isteğe bağlı)", reportAbout: "Konu:", send: "Gönder", cancel: "Vazgeç", reportThanks: "Teşekkürler! Bildiriminiz gönderildi.", reportQueued: "Teşekkürler! Bildiriminiz kaydedildi, internete bağlanınca gönderilecek.", q_typeHeard: "Duyduğunuzu yazın",
     tapToHear: "Dinlemek için bir cümleye dokunun", showTr: "Çeviriyi göster", hideTr: "Çeviriyi gizle", playAll: "Hepsini çal",
     lessonDone: "Ders tamamlandı!", score: "Puanınız", again: "Tekrar", backToUnit: "Üniteye dön", nextLesson: "Sonraki ders",
     review: "Kelime tekrarı", reviewDesc: "Tekrar zamanı gelen kelimeler", nothingToReview: "Şu an tekrar edilecek bir şey yok. Aferin! 🌟",
@@ -133,4 +133,9 @@ export function getLang() { return lang; }
 export function t(key) { return (S[lang] && S[lang][key]) || S.en[key] || key; }
 export function both(key) { return `${S.fa[key]} · ${S.en[key]} · ${S.tr[key]}`; }
 export function all3(key) { return [S.fa[key], S.en[key], S.tr[key]]; }
+const LANG_NAMES = { fa: { en: "انگلیسی", de: "آلمانی", tr: "ترکی", fa: "فارسی" }, en: { en: "English", de: "German", tr: "Turkish", fa: "Persian" },
+  tr: { en: "İngilizce", de: "Almanca", tr: "Türkçe", fa: "Farsça" } };
+export function langName(code) { return (LANG_NAMES[lang] || LANG_NAMES.en)[code] || code; }
+// "3 of 5" — in Persian a slash between digits reads as a decimal point (۱/۵ = 1.5)
+export function frac(a, b) { return lang === "fa" ? `${num(a)} از ${num(b)}` : `${num(a)}/${num(b)}`; }
 export function num(n) { return lang === "fa" ? new Intl.NumberFormat("fa-IR").format(n) : String(n); }

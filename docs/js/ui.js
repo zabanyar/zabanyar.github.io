@@ -23,7 +23,9 @@ export function tdir() { return ctx.tdir; }
 // Text in the language being learned: isolated, in its own direction, correct lang for fonts & screen readers.
 export function T(text, cls = "") { return h("span", { class: "tgt " + cls, lang: ctx.target, dir: ctx.tdir }, text); }
 // Transliteration / pronunciation hint
-export function PR(text) { return text ? h("div", { class: "pr", dir: "ltr" }, text) : null; }
+// Persian-script hints (en-fa, tr-fa) run right-to-left and are not slanted; Latin hints (fa-tr) stay left-to-right.
+export const isArabicScript = s => /[\u0600-\u06FF]/.test(s || "");
+export function PR(text) { return text ? h("div", { class: "pr" + (isArabicScript(text) ? " rtl" : ""), dir: isArabicScript(text) ? "rtl" : "ltr" }, text) : null; }
 
 export function pic(src, emoji, cls = "pic", size) {
   if (src) return h("img", { class: cls, src, alt: "", loading: "lazy", width: size, height: size, draggable: "false" });
@@ -35,9 +37,12 @@ export function pic(src, emoji, cls = "pic", size) {
 const player = new Audio();
 player.preload = "auto";
 let currentBtn = null;
+let pending = null;   // resolver of the sound that is playing now: an interrupted sound must still finish its promise
 export function play(src, { rate = 1, btn = null } = {}) {
+  if (pending) { const p = pending; pending = null; p(false); }
   return new Promise(resolve => {
-    if (!src) return resolve();
+    if (!src) return resolve(true);
+    pending = resolve;
     try {
       if (currentBtn) currentBtn.classList.remove("playing");
       player.pause();
@@ -45,16 +50,16 @@ export function play(src, { rate = 1, btn = null } = {}) {
       player.playbackRate = rate;
       player.preservesPitch = true;
       currentBtn = btn; if (btn) btn.classList.add("playing");
-      const done = () => { if (btn) btn.classList.remove("playing"); player.onended = player.onerror = null; resolve(); };
+      const done = () => { if (btn) btn.classList.remove("playing"); player.onended = player.onerror = null; if (pending === resolve) pending = null; resolve(true); };
       player.onended = done; player.onerror = done;
       const p = player.play(); if (p && p.catch) p.catch(done);
-    } catch { resolve(); }
+    } catch { pending = null; resolve(true); }
   });
 }
-export function stop() { try { player.pause(); } catch {} if (currentBtn) currentBtn.classList.remove("playing"); }
+export function stop() { try { player.pause(); } catch {} if (currentBtn) currentBtn.classList.remove("playing"); if (pending) { const p = pending; pending = null; p(false); } }
 export function sayBtn(src, { small = false, slow = false, label = "▶" } = {}) {
   if (!src) return null;
-  const b = h("button", { class: "say" + (small ? " sm" : "") + (slow ? " slow" : ""), "aria-label": slow ? "slow" : "play", type: "button" }, slow ? "🐢" : "🔊");
+  const b = h("button", { class: "say" + (small ? " sm" : "") + (slow ? " slow" : ""), "aria-label": label === "▶" ? (slow ? "🐢" : "🔊") : label, type: "button" }, slow ? "🐢" : "🔊");
   b.addEventListener("click", e => { e.stopPropagation(); play(src, { rate: slow ? 0.7 : 1, btn: b }); });
   return b;
 }
@@ -71,7 +76,12 @@ export function sample(a, n) { return shuffle(a).slice(0, n); }
 // tiny markdown: **bold**, \n paragraphs
 export function md(text) {
   const esc = s => s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
-  return esc(text).split(/\n+/).map(p => "<p>" + p.replace(/\*\*(.+?)\*\*/g, "<b><bdi>$1</bdi></b>").replace(/(^|[^*])\*([^*\n]+?)\*(?!\*)/g, "$1<i>$2</i>") + "</p>").join("");
+  // In a Persian paragraph every run of Latin-script text (with its **bold** marks and punctuation) is isolated,
+  // so "She is **a** teacher." stays in reading order inside right-to-left text.
+  const LAT = /[A-Za-zÀ-ɏ*][A-Za-zÀ-ɏ0-9'’\- *]*(?:[.,!?;:]+(?=\s|$)|[A-Za-zÀ-ɏ0-9'’*])?/g;
+  const iso = p => /[\u0600-\u06FF]/.test(p) ? p.replace(LAT, m => /[A-Za-zÀ-ɏ]/.test(m) ? "\u0001" + m + "\u0002" : m) : p;
+  return esc(text).split(/\n+/).map(p => "<p>" + iso(p).replace(/\*\*(.+?)\*\*/g, "<b><bdi>$1</bdi></b>").replace(/(^|[^*])\*([^*\n]+?)\*(?!\*)/g, "$1<i>$2</i>")
+    .replace(/\u0001/g, '<bdi dir="ltr">').replace(/\u0002/g, "</bdi>") + "</p>").join("");
 }
 
 export function normalize(s, lang) {
@@ -82,5 +92,7 @@ export function normalize(s, lang) {
     return x;
   }
   x = lang === "tr" ? x.toLocaleLowerCase("tr") : lang === "de" ? x.toLocaleLowerCase("de") : x.toLowerCase();
+  // German typed on a keyboard without umlauts: ä = ae, ö = oe, ü = ue, ß = ss
+  if (lang === "de") x = x.replace(/ä/g, "ae").replace(/ö/g, "oe").replace(/ü/g, "ue").replace(/ß/g, "ss");
   return x;
 }
