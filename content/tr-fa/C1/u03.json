@@ -543,7 +543,7 @@
             "biniyor olacağız"
           ],
           "answer": 2,
-          "s": "هفته‌ی آینده همین ساعت در کاپادوکیه داریم سوار بالن می‌شویم."
+          "s": "هفته‌ی آینده همین ساعت در کاپادوکیه داریم بالن‌سواری می‌کنیم."
         },
         {
           "type": "choice",
@@ -618,8 +618,8 @@
         "s": "در خانواده هیچ‌کس کسی به نام حسن را نمی‌شناخت."
       },
       {
-        "t": "Annem, “Bunlar babaannemin bir yakınından gelmiş olmalı,” dedi.",
-        "s": "مادرم گفت: «این‌ها باید از طرف یکی از نزدیکان مادربزرگم آمده باشد.»"
+        "t": "Annem, “Bunlar babaannenin bir yakınından gelmiş olmalı,” dedi.",
+        "s": "مادرم گفت: «این‌ها باید از طرف یکی از نزدیکان مادربزرگت آمده باشد.»"
       },
       {
         "t": "Mektupları okudukça babaannemin hiç anlatmadığı bir hayatı keşfettik.",

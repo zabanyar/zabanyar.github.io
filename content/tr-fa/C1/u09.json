@@ -724,7 +724,10 @@
     },
     {
       "t": "Duygularını bastırmak uzun vadede zarar verir.",
-      "s": "سرکوب احساسات در درازمدت آسیب می‌زند."
+      "s": "سرکوب احساسات در درازمدت آسیب می‌زند.",
+      "alts": [
+        "Uzun vadede duygularını bastırmak zarar verir."
+      ]
     },
     {
       "t": "Sağlıklı ilişkilerde herkes sınırlarını bilir.",

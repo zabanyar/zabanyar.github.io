@@ -219,7 +219,7 @@
     {
       "id": "p05",
       "t": "Sorularınızı sunumun sonunda alabilirim.",
-      "s": "سؤال‌هایتان را می‌توانم در پایان ارائه پاسخ دهم.",
+      "s": "می‌توانم در پایان ارائه به سؤال‌هایتان پاسخ دهم.",
       "pr": "سُرولارِنِزِ سونومون سُنوندا آلابیلیریم.",
       "alts": [
         "Sunumun sonunda sorularınızı alabilirim."
@@ -726,7 +726,10 @@
     },
     {
       "t": "Konuşmacı süreyi aşınca sunucu sözünü kesti.",
-      "s": "وقتی سخنران از وقتش فراتر رفت، مجری حرفش را قطع کرد."
+      "s": "وقتی سخنران از وقتش فراتر رفت، مجری حرفش را قطع کرد.",
+      "alts": [
+        "Sunucu, konuşmacı süreyi aşınca sözünü kesti."
+      ]
     },
     {
       "t": "Beden diliniz kendinize güvendiğinizi göstermeli.",
