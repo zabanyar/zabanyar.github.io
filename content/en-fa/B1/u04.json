@@ -90,7 +90,7 @@
       "t": "lose weight",
       "s": "وزن کم کردن",
       "pr": "لوز وِیت",
-      "emoji": "⚖️",
+      "emoji": "",
       "ex": {
         "t": "My doctor says I should lose some weight.",
         "s": "دکترم می‌گوید بهتر است کمی وزن کم کنم.",
@@ -160,14 +160,15 @@
     },
     {
       "id": "w13",
-      "t": "sugar",
-      "s": "شکر، قند",
-      "pr": "شوگِر",
+      "t": "calorie",
+      "pl": "calories",
+      "s": "کالری",
+      "pr": "کَلِری",
       "emoji": "",
       "ex": {
-        "t": "Try to eat less sugar and salt.",
-        "s": "سعی کن شکر و نمک کمتری بخوری.",
-        "pr": "تْرای تو ایت لِس شوگِر اَند سالْت."
+        "t": "This cake is delicious, but it has a lot of calories.",
+        "s": "این کیک خوشمزه است، ولی کالری زیادی دارد.",
+        "pr": "ذیس کِیک ایز دیلیشِس، بات ایت هَز اِ لات آو کَلِریز."
       }
     },
     {
@@ -586,7 +587,8 @@
           "answer": [
             "shouldn't",
             "should not",
-            "ought not to"
+            "ought not to",
+            "had better not"
           ],
           "s": "بهتر است این‌قدر شکر نخوری. برای دندان‌هایت بد است.",
           "pr": "یو شودِنت ایت سُو ماچ شوگِر. ایتس بَد فُر یور تیث."
