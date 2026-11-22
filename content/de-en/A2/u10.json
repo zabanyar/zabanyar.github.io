@@ -121,6 +121,7 @@
       "pl": "die Kinos",
       "s": "movie theater; the movies",
       "emoji": "🎬",
+      "sym": true,
       "ex": {
         "t": "Gehen wir heute Abend ins Kino?",
         "s": "Shall we go to the movies tonight?"
@@ -132,6 +133,7 @@
       "pl": "die Konzerte",
       "s": "concert",
       "emoji": "🎵",
+      "sym": true,
       "ex": {
         "t": "Am Freitag gehen wir ins Konzert.",
         "s": "On Friday we're going to a concert."
@@ -154,6 +156,7 @@
       "pl": "die Theater",
       "s": "theater",
       "emoji": "🎭",
+      "sym": true,
       "ex": {
         "t": "Das Theater ist ganz in der Nähe von unserer Wohnung.",
         "s": "The theater is very close to our apartment."
@@ -236,15 +239,15 @@
         "voice": "f"
       },
       "B": {
-        "name": "Amir",
+        "name": "Reza",
         "voice": "m"
       }
     },
     "lines": [
       {
         "sp": "A",
-        "t": "Hallo Amir! Was hast du am Wochenende vor?",
-        "s": "Hi, Amir! What are you doing this weekend?"
+        "t": "Hallo Reza! Was hast du am Wochenende vor?",
+        "s": "Hi, Reza! What are you doing this weekend?"
       },
       {
         "sp": "B",
@@ -375,7 +378,8 @@
             "sich"
           ],
           "answer": 0,
-          "s": "I'm interested in music."
+          "s": "I'm interested in music.",
+          "why": "The reflexive pronoun for ich is mich."
         },
         {
           "type": "choice",
@@ -386,29 +390,33 @@
             "sich"
           ],
           "answer": 0,
-          "s": "When are we meeting?"
+          "s": "When are we meeting?",
+          "why": "The reflexive pronoun for wir is uns."
+        },
+        {
+          "type": "type",
+          "task": "Ask Reza: … du …?",
+          "cue": "Ich interessiere mich für Musik.",
+          "t": "___ für Musik?",
+          "answer": [
+            "Interessierst du dich"
+          ],
+          "s": "Are you interested in music?",
+          "why": "In a question the verb comes first. The reflexive pronoun for du is dich: Interessierst du dich …?"
         },
         {
           "type": "choice",
-          "t": "Lukas ruht ___ am Sonntag aus.",
+          "task": "Which reply fits?",
+          "cue": "Was machst du nach der Arbeit?",
+          "t": "___",
           "options": [
-            "sich",
-            "ihn",
-            "ihm"
+            "Ich ruhe mich eine Stunde aus.",
+            "Ich ruhe mir eine Stunde aus.",
+            "Ich ruhe eine Stunde aus."
           ],
           "answer": 0,
-          "s": "Lukas rests on Sunday."
-        },
-        {
-          "type": "choice",
-          "t": "Langweilen Sie ___?",
-          "options": [
-            "sich",
-            "Ihnen",
-            "Sie"
-          ],
-          "answer": 0,
-          "s": "Are you bored?"
+          "s": "I rest for an hour.",
+          "why": "sich ausruhen needs the reflexive pronoun. With ich it is mich."
         },
         {
           "type": "type",
@@ -416,7 +424,8 @@
           "answer": [
             "dich"
           ],
-          "s": "Are you interested in soccer?"
+          "s": "Are you interested in soccer?",
+          "why": "The reflexive pronoun for du is dich."
         },
         {
           "type": "type",
@@ -424,7 +433,8 @@
           "answer": [
             "euch"
           ],
-          "s": "You're tired. Why don't you (all) rest a little?"
+          "s": "You're tired. Why don't you (all) rest a little?",
+          "why": "The reflexive pronoun for ihr is euch."
         },
         {
           "type": "type",
@@ -432,7 +442,8 @@
           "answer": [
             "habe"
           ],
-          "s": "Yesterday I met up with Anna."
+          "s": "Yesterday I met up with Anna.",
+          "why": "Reflexive verbs form the Perfekt with haben: ich habe mich getroffen."
         },
         {
           "type": "order",
@@ -515,18 +526,19 @@
             "wirst"
           ],
           "answer": 0,
-          "s": "I'll call you tomorrow."
+          "s": "I'll call you tomorrow.",
+          "why": "werden with ich is werde. The infinitive anrufen goes to the end."
         },
         {
-          "type": "choice",
-          "t": "Meine Eltern ___ uns im Sommer besuchen.",
-          "options": [
-            "werden",
-            "wird",
-            "werdet"
+          "type": "type",
+          "task": "Say it with werden.",
+          "cue": "Wir besuchen im Sommer Oma.",
+          "t": "Wir werden im Sommer Oma ___.",
+          "answer": [
+            "besuchen"
           ],
-          "answer": 0,
-          "s": "My parents are going to visit us in the summer."
+          "s": "We're going to visit Grandma in the summer.",
+          "why": "With werden, the main verb goes to the end as an infinitive: … besuchen."
         },
         {
           "type": "choice",
@@ -537,15 +549,22 @@
             "zeltet"
           ],
           "answer": 0,
-          "s": "We're going to go camping by the lake in the summer."
+          "s": "We're going to go camping by the lake in the summer.",
+          "why": "After werden, the main verb is an infinitive at the end: zelten."
         },
         {
-          "type": "type",
-          "t": "___ du am Samstag zum Picknick kommen?",
-          "answer": [
-            "Wirst"
+          "type": "choice",
+          "task": "Which reply fits?",
+          "cue": "Hast du schon Pläne für den Sommer?",
+          "t": "___",
+          "options": [
+            "Ja, ich werde nach Teheran fliegen.",
+            "Ja, ich werde nach Teheran geflogen.",
+            "Ja, ich wird nach Teheran fliegen."
           ],
-          "s": "Will you come to the picnic on Saturday?"
+          "answer": 0,
+          "s": "Yes, I'm going to fly to Tehran.",
+          "why": "Future: werden in position 2 and the infinitive at the end. With ich it is werde."
         },
         {
           "type": "type",
@@ -553,7 +572,9 @@
           "answer": [
             "wird"
           ],
-          "s": "Lena is going to take a trip to Italy in the fall."
+          "hint": "werden",
+          "s": "Lena is going to take a trip to Italy in the fall.",
+          "why": "werden with er/sie is wird."
         },
         {
           "type": "type",
@@ -563,7 +584,8 @@
             "möchte",
             "moechte"
           ],
-          "s": "I want a new cell phone, but it's too expensive."
+          "s": "I want a new cell phone, but it's too expensive.",
+          "why": "To want something is wollen (will) or möchten. Ich werde means 'I will' (future)."
         },
         {
           "type": "type",
@@ -571,7 +593,9 @@
           "answer": [
             "werdet"
           ],
-          "s": "I'm sure you'll have a lot of fun on vacation!"
+          "hint": "werden",
+          "s": "I'm sure you'll have a lot of fun on vacation!",
+          "why": "werden with ihr is werdet."
         },
         {
           "type": "order",
@@ -691,6 +715,18 @@
           "bis Freitag"
         ],
         "answer": 2
+      },
+      {
+        "q": {
+          "t": "Was macht die Familie vielleicht, wenn es am Wochenende regnet?",
+          "s": "What will the family maybe do if it rains on the weekend?"
+        },
+        "options": [
+          "Sie zelten nicht.",
+          "Sie zelten drei Nächte.",
+          "Sie fahren nach Berlin."
+        ],
+        "answer": 0
       }
     ]
   },
@@ -738,6 +774,10 @@
       "alts": [
         "Ich werde mich morgen mit Freunden treffen."
       ]
+    },
+    {
+      "t": "Wir gehen ins Kino.",
+      "s": "We're going to the movies."
     }
   ]
 }

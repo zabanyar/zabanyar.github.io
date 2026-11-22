@@ -2,7 +2,7 @@
   "id": "u12",
   "level": "A2",
   "kind": "grammar",
-  "emoji": "📦",
+  "emoji": "⚖️",
   "title": {
     "t": "Grammatik: Fälle und Präpositionen",
     "s": "Grammar: cases and prepositions"
@@ -112,7 +112,8 @@
             "dem"
           ],
           "answer": 2,
-          "s": "I'm giving the man the key."
+          "s": "I'm giving the man the key.",
+          "why": "The man receives the key, so he is in the dative: dem Mann."
         },
         {
           "type": "choice",
@@ -123,7 +124,8 @@
             "dem"
           ],
           "answer": 1,
-          "s": "Ali is talking to the teacher."
+          "s": "Ali is talking to the teacher.",
+          "why": "mit always takes the dative. Feminine die becomes der."
         },
         {
           "type": "choice",
@@ -134,7 +136,8 @@
             "dem"
           ],
           "answer": 1,
-          "s": "We're buying the children new shoes."
+          "s": "We're buying the children new shoes.",
+          "why": "Dative plural: den + noun + -n: den Kindern."
         },
         {
           "type": "choice",
@@ -145,7 +148,8 @@
             "ihm"
           ],
           "answer": 1,
-          "s": "This is my grandma. I'm writing her a card."
+          "s": "This is my grandma. I'm writing her a card.",
+          "why": "Grandma receives the card, so sie becomes ihr (dative)."
         },
         {
           "type": "choice",
@@ -156,7 +160,8 @@
             "ihr"
           ],
           "answer": 1,
-          "s": "Mina and Amir are coming tomorrow. I'll show them the city."
+          "s": "Mina and Amir are coming tomorrow. I'll show them the city.",
+          "why": "Mina and Amir receive something, so sie (they) becomes ihnen (dative)."
         },
         {
           "type": "type",
@@ -165,7 +170,8 @@
             "meinem"
           ],
           "s": "I'm giving my brother a bike.",
-          "hint": "mein"
+          "hint": "mein",
+          "why": "Your brother receives the bike, so mein becomes meinem (masculine dative)."
         },
         {
           "type": "type",
@@ -174,7 +180,8 @@
             "mir"
           ],
           "s": "Can you send me the email?",
-          "hint": "ich"
+          "hint": "ich",
+          "why": "You receive the email, so ich becomes mir (dative)."
         },
         {
           "type": "type",
@@ -185,7 +192,8 @@
             "unsren"
           ],
           "s": "We're bringing our parents flowers.",
-          "hint": "unser"
+          "hint": "unser",
+          "why": "In the dative plural, unsere becomes unseren."
         },
         {
           "type": "type",
@@ -194,7 +202,8 @@
             "dir"
           ],
           "s": "Lukas, I'll give you the key tomorrow.",
-          "hint": "du"
+          "hint": "du",
+          "why": "Lukas receives the key, so du becomes dir (dative)."
         },
         {
           "type": "type",
@@ -203,7 +212,8 @@
             "Kindern"
           ],
           "s": "The teacher gives the children the books.",
-          "hint": "die Kinder"
+          "hint": "die Kinder",
+          "why": "Dative plural nouns add -n: den Kindern."
         },
         {
           "type": "order",
@@ -218,6 +228,31 @@
           "type": "order",
           "t": "Wie geht es deinen Eltern?",
           "s": "How are your parents?"
+        },
+        {
+          "type": "type",
+          "task": "Replace der Frau with a pronoun.",
+          "cue": "Ich zeige der Frau den Bahnhof.",
+          "t": "Ich zeige ___ den Bahnhof.",
+          "answer": [
+            "ihr"
+          ],
+          "s": "I'm showing her the station.",
+          "why": "die Frau receives something, so she is in the dative. The dative of sie (she) is ihr."
+        },
+        {
+          "type": "choice",
+          "task": "Which reply fits?",
+          "cue": "Wie geht es deinen Eltern?",
+          "t": "___",
+          "options": [
+            "Danke, es geht ihnen gut.",
+            "Danke, es geht sie gut.",
+            "Danke, es geht ihr gut."
+          ],
+          "answer": 0,
+          "s": "Thanks, they're doing well.",
+          "why": "Es geht takes the dative. For the parents (sie, plural) it is ihnen."
         }
       ],
       "thead": true
@@ -303,7 +338,8 @@
             "du"
           ],
           "answer": 1,
-          "s": "I'll help you in the kitchen."
+          "s": "I'll help you in the kitchen.",
+          "why": "helfen takes the dative: dir, not dich."
         },
         {
           "type": "choice",
@@ -314,7 +350,8 @@
             "gefalle"
           ],
           "answer": 1,
-          "s": "I like the shoes very much."
+          "s": "I like the shoes very much.",
+          "why": "The subject is die Schuhe (plural), so the verb is plural: gefallen."
         },
         {
           "type": "choice",
@@ -325,7 +362,8 @@
             "den"
           ],
           "answer": 1,
-          "s": "Who does the bike belong to? – It belongs to the teacher."
+          "s": "Who does the bike belong to? – It belongs to the teacher.",
+          "why": "gehören takes the dative. Feminine die becomes der."
         },
         {
           "type": "choice",
@@ -336,7 +374,8 @@
             "Ihr"
           ],
           "answer": 1,
-          "s": "We thank you for your help, Ms. Wagner."
+          "s": "We thank you for your help, Ms. Wagner.",
+          "why": "danken takes the dative. Polite Sie becomes Ihnen."
         },
         {
           "type": "choice",
@@ -347,7 +386,8 @@
             "ihn ihm"
           ],
           "answer": 0,
-          "s": "The book is for Ali. I'll give it to him tomorrow."
+          "s": "The book is for Ali. I'll give it to him tomorrow.",
+          "why": "When both objects are pronouns, the accusative comes first: es ihm."
         },
         {
           "type": "type",
@@ -356,7 +396,8 @@
             "dir"
           ],
           "s": "Do you like the tea, Mina?",
-          "hint": "du"
+          "hint": "du",
+          "why": "schmecken takes the dative: Schmeckt dir …?"
         },
         {
           "type": "type",
@@ -365,7 +406,8 @@
             "ihm"
           ],
           "s": "Amir's jacket is too small. It doesn't fit him anymore.",
-          "hint": "er"
+          "hint": "er",
+          "why": "passen takes the dative. For Amir (er) it is ihm."
         },
         {
           "type": "type",
@@ -375,7 +417,8 @@
             "gefaellt"
           ],
           "s": "How do you like the new apartment?",
-          "hint": "gefallen"
+          "hint": "gefallen",
+          "why": "The subject is die Wohnung (singular), so the verb is gefällt."
         },
         {
           "type": "type",
@@ -384,7 +427,8 @@
             "dem"
           ],
           "s": "I'm showing the guest the room.",
-          "hint": "der Gast"
+          "hint": "der Gast",
+          "why": "The guest receives something, so he is in the dative: dem Gast."
         },
         {
           "type": "type",
@@ -395,7 +439,8 @@
             "unsren"
           ],
           "s": "We're helping our grandparents in the garden.",
-          "hint": "unser"
+          "hint": "unser",
+          "why": "helfen takes the dative. In the plural, unsere becomes unseren."
         },
         {
           "type": "order",
@@ -410,6 +455,31 @@
             "Eine Tasche habe ich ihr geschenkt.",
             "Ihr habe ich eine Tasche geschenkt."
           ]
+        },
+        {
+          "type": "type",
+          "task": "Replace both objects with pronouns.",
+          "cue": "Ich gebe Ali den Schlüssel.",
+          "t": "Ich gebe ___.",
+          "answer": [
+            "ihn ihm"
+          ],
+          "s": "I'm giving it to him.",
+          "why": "With two pronouns, the accusative comes first: ihn (den Schlüssel), then ihm (Ali)."
+        },
+        {
+          "type": "choice",
+          "task": "Which reply fits?",
+          "cue": "Wem gehört diese Jacke?",
+          "t": "___",
+          "options": [
+            "Sie gehört meinem Bruder.",
+            "Sie gehört meinen Bruder.",
+            "Sie gehört mein Bruder."
+          ],
+          "answer": 0,
+          "s": "It belongs to my brother.",
+          "why": "gehören takes the dative: meinem Bruder."
         }
       ],
       "thead": true
@@ -524,7 +594,8 @@
             "der"
           ],
           "answer": 1,
-          "s": "I take the bus every day."
+          "s": "I take the bus every day.",
+          "why": "mit always takes the dative: mit dem Bus."
         },
         {
           "type": "choice",
@@ -535,7 +606,8 @@
             "mein"
           ],
           "answer": 1,
-          "s": "The present is for my father."
+          "s": "The present is for my father.",
+          "why": "für always takes the accusative: für meinen Vater."
         },
         {
           "type": "choice",
@@ -546,7 +618,8 @@
             "nach"
           ],
           "answer": 0,
-          "s": "In the afternoon I'm going to the pharmacy."
+          "s": "In the afternoon I'm going to the pharmacy.",
+          "why": "zu + der = zur, for feminine places: zur Apotheke."
         },
         {
           "type": "choice",
@@ -557,7 +630,8 @@
             "bei"
           ],
           "answer": 0,
-          "s": "My colleague is from Turkey."
+          "s": "My colleague is from Turkey.",
+          "why": "aus gives the country someone comes from: aus der Türkei."
         },
         {
           "type": "choice",
@@ -568,7 +642,8 @@
             "bei"
           ],
           "answer": 0,
-          "s": "We're walking through the park to the station."
+          "s": "We're walking through the park to the station.",
+          "why": "durch means 'through' and takes the accusative: durch den Park."
         },
         {
           "type": "type",
@@ -578,7 +653,8 @@
             "von dem"
           ],
           "s": "I'm just coming from the doctor's.",
-          "hint": "von"
+          "hint": "von",
+          "why": "von + dem = vom: vom Arzt."
         },
         {
           "type": "type",
@@ -587,7 +663,8 @@
             "einer"
           ],
           "s": "I've had a cough for a week.",
-          "hint": "eine"
+          "hint": "eine",
+          "why": "seit takes the dative: seit einer Woche."
         },
         {
           "type": "type",
@@ -598,7 +675,8 @@
             "unsren"
           ],
           "s": "We're buying a present for our uncle.",
-          "hint": "unser"
+          "hint": "unser",
+          "why": "für takes the accusative, so masculine unser becomes unseren."
         },
         {
           "type": "type",
@@ -606,7 +684,8 @@
           "answer": [
             "mit"
           ],
-          "s": "Are you coming to the movies with us?"
+          "s": "Are you coming to the movies with us?",
+          "why": "Coming along with someone is mit + dative: mit uns."
         },
         {
           "type": "type",
@@ -615,14 +694,15 @@
             "meinen"
           ],
           "s": "Without my coat it's too cold for me.",
-          "hint": "mein"
+          "hint": "mein",
+          "why": "ohne takes the accusative, so masculine mein becomes meinen."
         },
         {
           "type": "order",
-          "t": "Mina wohnt bei ihrer Tante.",
-          "s": "Mina lives with her aunt.",
+          "t": "Lena wohnt bei ihrer Tante.",
+          "s": "Lena lives with her aunt.",
           "alts": [
-            "Bei ihrer Tante wohnt Mina."
+            "Bei ihrer Tante wohnt Lena."
           ]
         },
         {
@@ -634,6 +714,31 @@
             "Für dich habe ich ein Geschenk gekauft.",
             "Ein Geschenk habe ich für dich gekauft."
           ]
+        },
+        {
+          "type": "type",
+          "task": "Say you're going without him: Ich fahre ohne …",
+          "cue": "Ich fahre mit meinem Bruder.",
+          "t": "Ich fahre ohne ___ Bruder.",
+          "answer": [
+            "meinen"
+          ],
+          "s": "I'm going without my brother.",
+          "why": "mit takes the dative, ohne the accusative: mit meinem Bruder, but ohne meinen Bruder."
+        },
+        {
+          "type": "choice",
+          "task": "Which reply fits?",
+          "cue": "Seit wann wohnst du in Köln?",
+          "t": "___",
+          "options": [
+            "Seit fünf Jahren.",
+            "Seit fünf Jahre.",
+            "Für fünf Jahre."
+          ],
+          "answer": 0,
+          "s": "For five years.",
+          "why": "seit takes the dative, and dative plural nouns add -n: seit fünf Jahren."
         }
       ],
       "thead": true
@@ -733,7 +838,8 @@
             "das"
           ],
           "answer": 1,
-          "s": "The phone is on the desk."
+          "s": "The phone is on the desk.",
+          "why": "liegen answers Wo?, so auf takes the dative: auf dem Schreibtisch."
         },
         {
           "type": "choice",
@@ -744,7 +850,8 @@
             "der"
           ],
           "answer": 0,
-          "s": "I'm hanging the jacket in the closet."
+          "s": "I'm hanging the jacket in the closet.",
+          "why": "Here hängen is an action (Wohin?), so in takes the accusative: in den Schrank."
         },
         {
           "type": "choice",
@@ -755,7 +862,8 @@
             "liege"
           ],
           "answer": 0,
-          "s": "I'm putting the bottle on the table."
+          "s": "I'm putting the bottle on the table.",
+          "why": "Putting something upright in a place is stellen, an action with the accusative."
         },
         {
           "type": "choice",
@@ -766,7 +874,8 @@
             "in"
           ],
           "answer": 1,
-          "s": "The children are going to the swimming pool today."
+          "s": "The children are going to the swimming pool today.",
+          "why": "gehen is movement (Wohin?), so in + das = ins Schwimmbad."
         },
         {
           "type": "choice",
@@ -777,7 +886,8 @@
             "am"
           ],
           "answer": 0,
-          "s": "We're waiting at the bus stop."
+          "s": "We're waiting at the bus stop.",
+          "why": "Waiting is no movement (Wo?), so an takes the dative: an der Haltestelle."
         },
         {
           "type": "type",
@@ -786,7 +896,8 @@
             "dem"
           ],
           "s": "The lamp is next to the bed.",
-          "hint": "das Bett"
+          "hint": "das Bett",
+          "why": "stehen answers Wo?, so neben takes the dative: neben dem Bett."
         },
         {
           "type": "type",
@@ -795,7 +906,8 @@
             "das"
           ],
           "s": "I'm putting the newspaper on the sofa.",
-          "hint": "das Sofa"
+          "hint": "das Sofa",
+          "why": "legen answers Wohin?, so auf takes the accusative: auf das Sofa."
         },
         {
           "type": "type",
@@ -804,7 +916,8 @@
             "steht"
           ],
           "s": "My bike is in the basement.",
-          "hint": "stehen or stellen?"
+          "hint": "stehen or stellen?",
+          "why": "A position (Wo?) is stehen: Mein Fahrrad steht im Keller."
         },
         {
           "type": "type",
@@ -813,7 +926,8 @@
             "die"
           ],
           "s": "We're putting the box in the corner.",
-          "hint": "die Ecke"
+          "hint": "die Ecke",
+          "why": "stellen is an action (Wohin?), so in takes the accusative: in die Ecke."
         },
         {
           "type": "type",
@@ -823,7 +937,8 @@
             "in das"
           ],
           "s": "Lena goes into the bathroom.",
-          "hint": "in"
+          "hint": "in",
+          "why": "gehen is movement into a room, so in + das = ins Bad."
         },
         {
           "type": "order",
@@ -841,6 +956,31 @@
             "Das Buch habe ich in die Tasche gelegt.",
             "In die Tasche habe ich das Buch gelegt."
           ]
+        },
+        {
+          "type": "type",
+          "task": "Say where it is now: Das Bild hängt …",
+          "cue": "Ich hänge das Bild an die Wand.",
+          "t": "Das Bild hängt an ___ Wand.",
+          "answer": [
+            "der"
+          ],
+          "s": "The picture is hanging on the wall.",
+          "why": "Now it is a position (Wo?), so an takes the dative: an der Wand."
+        },
+        {
+          "type": "choice",
+          "task": "Which reply fits?",
+          "cue": "Wohin gehst du?",
+          "t": "___",
+          "options": [
+            "In die Küche.",
+            "In der Küche.",
+            "Im Küche."
+          ],
+          "answer": 0,
+          "s": "Into the kitchen.",
+          "why": "Wohin? asks for a direction, so in takes the accusative: in die Küche."
         }
       ],
       "thead": true
@@ -935,7 +1075,8 @@
             "neuer"
           ],
           "answer": 0,
-          "s": "That's a new car."
+          "s": "That's a new car.",
+          "why": "After ein with a neuter noun, the adjective ends in -es: ein neues Auto."
         },
         {
           "type": "choice",
@@ -946,7 +1087,8 @@
             "junger"
           ],
           "answer": 0,
-          "s": "The young waiter is very nice."
+          "s": "The young waiter is very nice.",
+          "why": "After der in the nominative, the ending is -e: der junge Kellner."
         },
         {
           "type": "choice",
@@ -957,7 +1099,8 @@
             "rote"
           ],
           "answer": 0,
-          "s": "We're looking for a red rug."
+          "s": "We're looking for a red rug.",
+          "why": "After einen (masculine accusative) the ending is -en: einen roten Teppich."
         },
         {
           "type": "choice",
@@ -968,7 +1111,8 @@
             "neues"
           ],
           "answer": 1,
-          "s": "I ride the new bike to work."
+          "s": "I ride the new bike to work.",
+          "why": "After dem (dative) the ending is always -en: dem neuen Fahrrad."
         },
         {
           "type": "choice",
@@ -979,7 +1123,8 @@
             "kleiner"
           ],
           "answer": 0,
-          "s": "My little sister lives in Cologne."
+          "s": "My little sister lives in Cologne.",
+          "why": "After meine with a feminine noun in the nominative, the ending is -e."
         },
         {
           "type": "type",
@@ -989,7 +1134,8 @@
             "schoene"
           ],
           "s": "We found a nice apartment.",
-          "hint": "schön"
+          "hint": "schön",
+          "why": "After eine (feminine accusative) the ending is -e: eine schöne Wohnung."
         },
         {
           "type": "type",
@@ -998,7 +1144,8 @@
             "kleinen"
           ],
           "s": "The present is for my little brother.",
-          "hint": "klein"
+          "hint": "klein",
+          "why": "After meinen (masculine accusative) the ending is -en: meinen kleinen Bruder."
         },
         {
           "type": "type",
@@ -1007,7 +1154,8 @@
             "alten"
           ],
           "s": "I live in an old house.",
-          "hint": "alt"
+          "hint": "alt",
+          "why": "After einem (dative) the ending is -en: in einem alten Haus."
         },
         {
           "type": "type",
@@ -1016,7 +1164,8 @@
             "teures"
           ],
           "s": "My father bought an expensive car.",
-          "hint": "teuer"
+          "hint": "teuer",
+          "why": "After ein with a neuter noun the ending is -es, and teuer drops an e: teures."
         },
         {
           "type": "type",
@@ -1025,7 +1174,8 @@
             "neuen"
           ],
           "s": "The new shoes don't fit me.",
-          "hint": "neu"
+          "hint": "neu",
+          "why": "After die in the plural the ending is -en: die neuen Schuhe."
         },
         {
           "type": "order",
@@ -1043,6 +1193,31 @@
             "Meiner Mutter habe ich einen warmen Schal geschenkt.",
             "Einen warmen Schal habe ich meiner Mutter geschenkt."
           ]
+        },
+        {
+          "type": "type",
+          "task": "Say you're looking for one: Wir suchen einen …",
+          "cue": "Der Tisch ist neu.",
+          "t": "Wir suchen einen ___ Tisch.",
+          "answer": [
+            "neuen"
+          ],
+          "s": "We're looking for a new table.",
+          "why": "After einen (masculine accusative) the adjective ends in -en: einen neuen Tisch."
+        },
+        {
+          "type": "choice",
+          "task": "Which reply fits?",
+          "cue": "Wie ist eure neue Wohnung?",
+          "t": "___",
+          "options": [
+            "Wir haben eine große Küche und einen kleinen Balkon.",
+            "Wir haben eine großen Küche und einen kleiner Balkon.",
+            "Wir haben ein große Küche und ein kleinen Balkon."
+          ],
+          "answer": 0,
+          "s": "We have a big kitchen and a small balcony.",
+          "why": "After eine (feminine) the ending is -e; after einen (masculine accusative) it is -en."
         }
       ],
       "thead": true
@@ -1142,18 +1317,20 @@
             "von"
           ],
           "answer": 0,
-          "s": "The train is faster than the car."
+          "s": "The train is faster than the car.",
+          "why": "After a comparative (schneller), 'than' is als."
         },
         {
           "type": "choice",
-          "t": "Lena ist so alt ___ Lukas.",
+          "t": "Lena ist so alt ___ Jonas.",
           "options": [
             "als",
             "wie",
             "so"
           ],
           "answer": 1,
-          "s": "Lena is as old as Lukas."
+          "s": "Lena is as old as Jonas.",
+          "why": "For equal things, use so … wie."
         },
         {
           "type": "choice",
@@ -1164,7 +1341,8 @@
             "mehr kalt"
           ],
           "answer": 0,
-          "s": "In winter it's colder here than in the fall."
+          "s": "In winter it's colder here than in the fall.",
+          "why": "Short adjectives with a, o or u often add an umlaut: kalt – kälter."
         },
         {
           "type": "choice",
@@ -1175,7 +1353,8 @@
             "gernsten"
           ],
           "answer": 0,
-          "s": "What do you like to eat most?"
+          "s": "What do you like to eat most?",
+          "why": "gern is irregular: gern – lieber – am liebsten."
         },
         {
           "type": "choice",
@@ -1186,7 +1365,8 @@
             "bester"
           ],
           "answer": 0,
-          "s": "That's the best restaurant in town."
+          "s": "That's the best restaurant in town.",
+          "why": "gut is irregular: gut – besser – am besten. Before a noun: das beste Restaurant."
         },
         {
           "type": "type",
@@ -1196,7 +1376,8 @@
             "juenger"
           ],
           "s": "My brother is two years younger than me.",
-          "hint": "jung"
+          "hint": "jung",
+          "why": "jung adds an umlaut in the comparative: jünger."
         },
         {
           "type": "type",
@@ -1205,7 +1386,8 @@
             "besser"
           ],
           "s": "The weather is better today than yesterday.",
-          "hint": "gut"
+          "hint": "gut",
+          "why": "gut is irregular: gut – besser."
         },
         {
           "type": "type",
@@ -1216,7 +1398,8 @@
             "grössten"
           ],
           "s": "Which room is the biggest?",
-          "hint": "groß"
+          "hint": "groß",
+          "why": "groß adds an umlaut: am größten (after ß only -ten, not -esten)."
         },
         {
           "type": "type",
@@ -1225,7 +1408,8 @@
             "mehr"
           ],
           "s": "I have more work today than yesterday.",
-          "hint": "viel"
+          "hint": "viel",
+          "why": "viel is irregular: viel – mehr – am meisten."
         },
         {
           "type": "type",
@@ -1234,7 +1418,8 @@
             "teurer"
           ],
           "s": "The coat is more expensive than the jacket.",
-          "hint": "teuer"
+          "hint": "teuer",
+          "why": "teuer loses its e in the comparative: teurer."
         },
         {
           "type": "order",
@@ -1250,6 +1435,33 @@
             "Reis mit Gemüse esse ich am liebsten.",
             "Ich esse Reis mit Gemüse am liebsten."
           ]
+        },
+        {
+          "type": "type",
+          "task": "Say they are equal: … so … wie …",
+          "cue": "Der Zug ist schnell. Das Auto ist auch schnell.",
+          "t": "Der Zug ist ___ das Auto.",
+          "answer": [
+            "so schnell wie",
+            "genauso schnell wie",
+            "ebenso schnell wie"
+          ],
+          "s": "The train is as fast as the car.",
+          "why": "For equal things, use so + adjective + wie."
+        },
+        {
+          "type": "choice",
+          "task": "Which reply fits?",
+          "cue": "Was trinkst du lieber, Tee oder Kaffee?",
+          "t": "___",
+          "options": [
+            "Ich trinke lieber Tee.",
+            "Ich trinke gerner Tee.",
+            "Ich trinke mehr gern Tee."
+          ],
+          "answer": 0,
+          "s": "I prefer tea.",
+          "why": "gern is irregular: gern – lieber – am liebsten."
         }
       ],
       "thead": true

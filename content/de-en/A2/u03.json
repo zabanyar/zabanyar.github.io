@@ -213,6 +213,11 @@
       "id": "p07",
       "t": "Viel Glück in der neuen Wohnung!",
       "s": "Good luck in your new apartment!"
+    },
+    {
+      "id": "p08",
+      "t": "Wo stehen die Mülltonnen?",
+      "s": "Where are the garbage cans?"
     }
   ],
   "dialogue": {
@@ -222,7 +227,7 @@
     },
     "speakers": {
       "A": {
-        "name": "Lukas",
+        "name": "Reza",
         "voice": "m"
       },
       "B": {
@@ -291,8 +296,8 @@
       },
       {
         "sp": "B",
-        "t": "Vielen Dank für deine Hilfe, Lukas!",
-        "s": "Thanks so much for your help, Lukas!"
+        "t": "Vielen Dank für deine Hilfe, Reza!",
+        "s": "Thanks so much for your help, Reza!"
       }
     ]
   },
@@ -363,7 +368,8 @@
             "der"
           ],
           "answer": 1,
-          "s": "The books are lying on the floor."
+          "s": "The books are lying on the floor.",
+          "why": "liegen answers Wo? (no movement), so auf takes the dative: auf dem Boden."
         },
         {
           "type": "choice",
@@ -374,7 +380,8 @@
             "den"
           ],
           "answer": 0,
-          "s": "I'm putting the lamp next to the sofa."
+          "s": "I'm putting the lamp next to the sofa.",
+          "why": "stellen answers Wohin? (movement), so neben takes the accusative: neben das Sofa."
         },
         {
           "type": "choice",
@@ -385,18 +392,22 @@
             "dem"
           ],
           "answer": 1,
-          "s": "Where are you going? – Into the kitchen."
+          "s": "Where are you going? – Into the kitchen.",
+          "why": "Wohin? asks for a direction, so in takes the accusative: in die Küche."
         },
         {
           "type": "choice",
-          "t": "Wo ist Ali? – Er ist auf ___ Balkon.",
+          "task": "Which reply fits?",
+          "cue": "Wo ist die Katze?",
+          "t": "___",
           "options": [
-            "den",
-            "dem",
-            "das"
+            "Sie schläft unter dem Bett.",
+            "Sie schläft unter das Bett.",
+            "Sie schläft unter den Bett."
           ],
-          "answer": 1,
-          "s": "Where is Ali? – He's on the balcony."
+          "answer": 0,
+          "s": "It's sleeping under the bed.",
+          "why": "Wo? asks for a place, so unter takes the dative: unter dem Bett."
         },
         {
           "type": "type",
@@ -404,7 +415,9 @@
           "answer": [
             "dem"
           ],
-          "s": "The rug is in front of the sofa."
+          "hint": "das Sofa",
+          "s": "The rug is in front of the sofa.",
+          "why": "liegen answers Wo?, so vor takes the dative: vor dem Sofa."
         },
         {
           "type": "type",
@@ -412,15 +425,20 @@
           "answer": [
             "die"
           ],
-          "s": "We're hanging the picture on the wall."
+          "hint": "die Wand",
+          "s": "We're hanging the picture on the wall.",
+          "why": "You move the picture to a place (Wohin?), so an takes the accusative: an die Wand."
         },
         {
           "type": "type",
-          "t": "Die Katze schläft unter ___ Bett.",
+          "task": "Say where you put it: Ich lege das Buch …",
+          "cue": "Das Buch liegt auf dem Tisch.",
+          "t": "Ich lege das Buch auf ___ Tisch.",
           "answer": [
-            "dem"
+            "den"
           ],
-          "s": "The cat is sleeping under the bed."
+          "s": "I'm putting the book on the table.",
+          "why": "legen answers Wohin? (movement to a place), so auf takes the accusative: auf den Tisch."
         },
         {
           "type": "order",
@@ -498,7 +516,8 @@
             "legt"
           ],
           "answer": 1,
-          "s": "The bookcase is standing against the wall."
+          "s": "The bookcase is standing against the wall.",
+          "why": "stehen describes a position (Wo? + dative). Stellen is the action of putting it there."
         },
         {
           "type": "choice",
@@ -509,18 +528,19 @@
             "stehe"
           ],
           "answer": 1,
-          "s": "I'm putting the book on the desk."
+          "s": "I'm putting the book on the desk.",
+          "why": "legen is the action of putting something down (Wohin? + accusative): ich lege."
         },
         {
-          "type": "choice",
-          "t": "Der Teppich ___ vor dem Sofa.",
-          "options": [
-            "legt",
-            "liegt",
-            "stellt"
+          "type": "type",
+          "task": "Say where it is now: Die Lampe …",
+          "cue": "Ich stelle die Lampe in die Ecke.",
+          "t": "Die Lampe ___ in der Ecke.",
+          "answer": [
+            "steht"
           ],
-          "answer": 1,
-          "s": "The rug is lying in front of the sofa."
+          "s": "The lamp is in the corner.",
+          "why": "stellen is the action (Wohin? + accusative); stehen is the result (Wo? + dative): Die Lampe steht in der Ecke."
         },
         {
           "type": "choice",
@@ -531,7 +551,8 @@
             "sitzen"
           ],
           "answer": 1,
-          "s": "Grandma is sitting on the balcony."
+          "s": "Grandma is sitting on the balcony.",
+          "why": "sitzen describes a position (Wo? + dative): sie sitzt. Setzen is the action."
         },
         {
           "type": "type",
@@ -540,7 +561,9 @@
             "hängt",
             "haengt"
           ],
-          "s": "The picture is hanging on the wall."
+          "hint": "hängen",
+          "s": "The picture is hanging on the wall.",
+          "why": "For the position, hängen is regular: das Bild hängt an der Wand (Wo? + dative)."
         },
         {
           "type": "type",
@@ -548,18 +571,22 @@
           "answer": [
             "mich"
           ],
-          "s": "I'm sitting down on the sofa."
+          "s": "I'm sitting down on the sofa.",
+          "why": "sich setzen is reflexive: ich setze mich."
         },
         {
-          "type": "type",
-          "t": "Wohin hast du den Karton ___?",
-          "answer": [
-            "gestellt",
-            "gelegt",
-            "gebracht",
-            "getragen"
+          "type": "choice",
+          "task": "Which reply fits?",
+          "cue": "Wo ist mein Handy?",
+          "t": "___",
+          "options": [
+            "Es liegt auf dem Schreibtisch.",
+            "Es legt auf dem Schreibtisch.",
+            "Es liegt auf den Schreibtisch."
           ],
-          "s": "Where did you put the box?"
+          "answer": 0,
+          "s": "It's on the desk.",
+          "why": "liegen describes where something is (Wo? + dative). Legen is the action of putting it down."
         },
         {
           "type": "order",
@@ -588,12 +615,12 @@
         "s": "The new apartment is bright and has a balcony."
       },
       {
-        "t": "Die Miete ist ziemlich hoch, aber wir haben jetzt vier Zimmer.",
-        "s": "The rent is quite high, but now we have four rooms."
+        "t": "Die Miete ist ziemlich hoch, aber wir haben jetzt fünf Zimmer.",
+        "s": "The rent is quite high, but now we have five rooms."
       },
       {
-        "t": "Am Samstag haben uns Lukas und Lena beim Umzug geholfen.",
-        "s": "On Saturday Lukas and Lena helped us with the move."
+        "t": "Am Samstag haben uns Reza und Lena beim Umzug geholfen.",
+        "s": "On Saturday Reza and Lena helped us with the move."
       },
       {
         "t": "Wir haben alle Kartons in die Wohnung getragen – das war viel Arbeit!",
@@ -604,8 +631,8 @@
         "s": "Now the sofa is in the living room in front of the window."
       },
       {
-        "t": "Den Teppich von meiner Oma haben wir in den Flur gelegt.",
-        "s": "We put the rug from my grandma in the hallway."
+        "t": "Den Teppich von Maryams Oma haben wir in den Flur gelegt.",
+        "s": "We put the rug from Maryam's grandma in the hallway."
       },
       {
         "t": "Meine Bücher liegen noch in den Kartons – ich brauche ein Regal.",
@@ -640,7 +667,7 @@
         },
         "options": [
           "Jonas",
-          "Lukas und Lena",
+          "Reza und Lena",
           "die Nachbarn"
         ],
         "answer": 1
@@ -680,6 +707,18 @@
           "ein Regal"
         ],
         "answer": 2
+      },
+      {
+        "q": {
+          "t": "Wie findet Ali die neue Wohnung?",
+          "s": "What does Ali think of the new apartment?"
+        },
+        "options": [
+          "Er mag sie, aber die Miete ist hoch.",
+          "Er findet sie zu klein.",
+          "Er mag sie nicht, weil sie dunkel ist."
+        ],
+        "answer": 0
       }
     ]
   },
@@ -731,6 +770,10 @@
     {
       "t": "Opa setzt sich aufs Sofa.",
       "s": "Grandpa sits down on the sofa."
+    },
+    {
+      "t": "Der Karton ist schwer.",
+      "s": "The box is heavy."
     }
   ]
 }

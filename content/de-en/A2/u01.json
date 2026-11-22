@@ -15,13 +15,13 @@
   "words": [
     {
       "id": "w01",
-      "t": "das Wochenende",
-      "pl": "die Wochenenden",
-      "s": "weekend",
+      "t": "der See",
+      "pl": "die Seen",
+      "s": "lake (die See = the sea)",
       "emoji": "",
       "ex": {
-        "t": "Was machst du am Wochenende?",
-        "s": "What are you doing on the weekend?"
+        "t": "Am Sonntag sind wir an einen See gefahren.",
+        "s": "On Sunday we went to a lake."
       }
     },
     {
@@ -131,6 +131,7 @@
       "t": "aufwachen (ist aufgewacht)",
       "s": "to wake up",
       "emoji": "⏰",
+      "sym": true,
       "ex": {
         "t": "Ich bin um neun Uhr aufgewacht.",
         "s": "I woke up at nine o'clock."
@@ -220,15 +221,15 @@
         "voice": "m"
       },
       "B": {
-        "name": "Mina",
+        "name": "Maryam",
         "voice": "f"
       }
     },
     "lines": [
       {
         "sp": "A",
-        "t": "Guten Morgen, Mina! Wie war dein Wochenende?",
-        "s": "Good morning, Mina! How was your weekend?"
+        "t": "Guten Morgen, Maryam! Wie war dein Wochenende?",
+        "s": "Good morning, Maryam! How was your weekend?"
       },
       {
         "sp": "B",
@@ -242,8 +243,8 @@
       },
       {
         "sp": "B",
-        "t": "Am Sonntag sind wir an den Wannsee gefahren und haben ein Picknick gemacht. Das Wetter war toll!",
-        "s": "On Sunday we went to Lake Wannsee and had a picnic. The weather was great!"
+        "t": "Am Sonntag sind wir an einen See gefahren und haben ein Picknick gemacht. Das Wetter war toll!",
+        "s": "On Sunday we went to a lake and had a picnic. The weather was great!"
       },
       {
         "sp": "A",
@@ -359,7 +360,8 @@
             "schlafen"
           ],
           "answer": 1,
-          "s": "On Saturday I slept for a long time."
+          "s": "On Saturday I slept for a long time.",
+          "why": "schlafen is irregular: the participle ends in -en, geschlafen."
         },
         {
           "type": "choice",
@@ -370,7 +372,8 @@
             "telefonieren"
           ],
           "answer": 0,
-          "s": "Reza talked to his mother on the phone."
+          "s": "Reza talked to his mother on the phone.",
+          "why": "Verbs in -ieren take no ge-: telefoniert."
         },
         {
           "type": "choice",
@@ -381,7 +384,8 @@
             "besuchen"
           ],
           "answer": 1,
-          "s": "We visited Grandma yesterday."
+          "s": "We visited Grandma yesterday.",
+          "why": "Verbs with be- take no ge-: besucht."
         },
         {
           "type": "type",
@@ -390,15 +394,20 @@
             "aufgeräumt",
             "aufgeraeumt"
           ],
-          "s": "Have you tidied up your room?"
+          "hint": "aufräumen",
+          "s": "Have you tidied up your room?",
+          "why": "In a separable verb, ge- goes between the prefix and the verb: aufgeräumt."
         },
         {
           "type": "type",
-          "t": "Was ___ ihr am Wochenende gemacht?",
+          "task": "Say it happened yesterday: Gestern …",
+          "cue": "Ich koche heute Reis.",
+          "t": "Gestern ___.",
           "answer": [
-            "habt"
+            "habe ich Reis gekocht"
           ],
-          "s": "What did you (all) do on the weekend?"
+          "s": "Yesterday I cooked rice.",
+          "why": "Perfekt: haben in position 2, the participle gekocht at the end. After Gestern, ich follows the verb."
         },
         {
           "type": "type",
@@ -406,12 +415,23 @@
           "answer": [
             "angerufen"
           ],
-          "s": "I called Lukas, but he wasn't at home."
+          "hint": "anrufen",
+          "s": "I called Lukas, but he wasn't at home.",
+          "why": "anrufen is separable and irregular: an + ge + rufen = angerufen."
         },
         {
-          "type": "order",
-          "t": "Was hast du am Wochenende gemacht?",
-          "s": "What did you do on the weekend?"
+          "type": "choice",
+          "task": "Which reply fits?",
+          "cue": "Was hast du am Wochenende gemacht?",
+          "t": "___",
+          "options": [
+            "Ich habe lange geschlafen und gelesen.",
+            "Ich werde lange schlafen und lesen.",
+            "Ich habe lange geschlaft und gelest."
+          ],
+          "answer": 0,
+          "s": "I slept for a long time and read.",
+          "why": "The question is in the Perfekt, so answer in the Perfekt. Irregular participles end in -en: geschlafen, gelesen."
         },
         {
           "type": "order",
@@ -496,28 +516,34 @@
             "seid"
           ],
           "answer": 1,
-          "s": "We went to the park on Sunday."
+          "s": "We went to the park on Sunday.",
+          "why": "gehen is movement from one place to another, so it takes sein: wir sind gegangen."
         },
         {
           "type": "choice",
-          "t": "Ich ___ heute sehr früh aufgewacht.",
+          "task": "Which reply fits?",
+          "cue": "Warum bist du so müde?",
+          "t": "___",
           "options": [
-            "habe",
-            "bin",
-            "ist"
+            "Ich bin um fünf Uhr aufgewacht.",
+            "Ich habe um fünf Uhr aufgewacht.",
+            "Ich bin um fünf Uhr aufgewachen."
           ],
-          "answer": 1,
-          "s": "I woke up very early today."
+          "answer": 0,
+          "s": "I woke up at five o'clock.",
+          "why": "aufwachen is a change of state, so it takes sein. It is regular: aufgewacht."
         },
         {
           "type": "choice",
           "t": "Lukas ___ am Wochenende viel gelesen.",
           "options": [
             "hat",
-            "ist"
+            "ist",
+            "sind"
           ],
           "answer": 0,
-          "s": "Lukas read a lot on the weekend."
+          "s": "Lukas read a lot on the weekend.",
+          "why": "lesen is no movement or change of state, so it takes haben: Lukas hat gelesen."
         },
         {
           "type": "choice",
@@ -528,15 +554,19 @@
             "einschlafen"
           ],
           "answer": 0,
-          "s": "The child fell asleep right away."
+          "s": "The child fell asleep right away.",
+          "why": "einschlafen is separable, so ge- goes after the prefix: eingeschlafen."
         },
         {
           "type": "type",
-          "t": "Am Samstag ___ Maryam zu Hause geblieben.",
+          "task": "Say it in the Perfekt: Anna ist …",
+          "cue": "Anna fährt nach Köln.",
+          "t": "Anna ist nach Köln ___.",
           "answer": [
-            "ist"
+            "gefahren"
           ],
-          "s": "On Saturday Maryam stayed at home."
+          "s": "Anna went to Cologne.",
+          "why": "fahren is movement, so the Perfekt uses sein. The participle is irregular: gefahren."
         },
         {
           "type": "type",
@@ -544,7 +574,8 @@
           "answer": [
             "Bist"
           ],
-          "s": "Have you ever been to Hamburg?"
+          "s": "Have you ever been to Hamburg?",
+          "why": "sein itself takes sein in the Perfekt: Bist du … gewesen?"
         },
         {
           "type": "type",
@@ -557,7 +588,8 @@
             "zurueckgekommen",
             "gelaufen"
           ],
-          "s": "When did you (all) get home yesterday?"
+          "s": "When did you (all) get home yesterday?",
+          "why": "seid shows a verb of movement: gekommen, gefahren or gegangen."
         },
         {
           "type": "order",
@@ -586,8 +618,8 @@
         "s": "On Saturday I woke up late and had a long breakfast."
       },
       {
-        "t": "Dann haben Ali und ich die Wohnung aufgeräumt und die Wäsche gewaschen.",
-        "s": "Then Ali and I tidied up the apartment and did the laundry."
+        "t": "Dann haben Hamid und ich die Wohnung aufgeräumt und die Wäsche gewaschen.",
+        "s": "Then Hamid and I tidied up the apartment and did the laundry."
       },
       {
         "t": "Am Nachmittag sind wir auf den Flohmarkt gegangen.",
@@ -598,8 +630,8 @@
         "s": "There I bought an old lamp for five euros."
       },
       {
-        "t": "Am Sonntag haben wir Alis Eltern besucht.",
-        "s": "On Sunday we visited Ali's parents."
+        "t": "Am Sonntag haben wir Hamids Eltern besucht.",
+        "s": "On Sunday we visited Hamid's parents."
       },
       {
         "t": "Seine Mutter hat Reis mit Hähnchen gekocht – sehr lecker!",
@@ -641,20 +673,20 @@
       },
       {
         "q": {
-          "t": "Wen haben Sara und Ali am Sonntag besucht?",
-          "s": "Who did Sara and Ali visit on Sunday?"
+          "t": "Wen haben Sara und Hamid am Sonntag besucht?",
+          "s": "Who did Sara and Hamid visit on Sunday?"
         },
         "options": [
           "Saras Schwester",
-          "Alis Eltern",
+          "Hamids Eltern",
           "Anna"
         ],
         "answer": 1
       },
       {
         "q": {
-          "t": "Was hat Alis Mutter gekocht?",
-          "s": "What did Ali's mother cook?"
+          "t": "Was hat Hamids Mutter gekocht?",
+          "s": "What did Hamid's mother cook?"
         },
         "options": [
           "Suppe",
@@ -674,6 +706,18 @@
           "Sie hat ein Buch gelesen."
         ],
         "answer": 1
+      },
+      {
+        "q": {
+          "t": "Wie war Sara am Sonntagabend?",
+          "s": "How was Sara on Sunday evening?"
+        },
+        "options": [
+          "sehr müde",
+          "krank",
+          "traurig"
+        ],
+        "answer": 0
       }
     ]
   },
@@ -730,6 +774,10 @@
     {
       "t": "Habt ihr am Wochenende Freunde getroffen?",
       "s": "Did you (all) meet friends on the weekend?"
+    },
+    {
+      "t": "Ich habe ausgeschlafen.",
+      "s": "I slept in."
     }
   ]
 }

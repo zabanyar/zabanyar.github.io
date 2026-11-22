@@ -62,6 +62,7 @@
       "pl": "die Nachtische",
       "s": "dessert",
       "emoji": "🍰",
+      "sym": true,
       "ex": {
         "t": "Zum Nachtisch essen wir gern Obst.",
         "s": "We like to have fruit for dessert."
@@ -166,6 +167,7 @@
       "t": "scharf",
       "s": "spicy, hot",
       "emoji": "🌶️",
+      "sym": true,
       "ex": {
         "t": "Das Curry ist mir zu scharf.",
         "s": "The curry is too spicy for me."
@@ -237,11 +239,11 @@
     },
     "speakers": {
       "A": {
-        "name": "Lena",
+        "name": "Kellnerin",
         "voice": "f"
       },
       "B": {
-        "name": "Amir",
+        "name": "Ali",
         "voice": "m"
       }
     },
@@ -375,18 +377,19 @@
             "großer"
           ],
           "answer": 1,
-          "s": "I'll have a large salad."
+          "s": "I'll have a large salad.",
+          "why": "After einen (masculine accusative) the ending is -en: einen großen Salat."
         },
         {
-          "type": "choice",
-          "t": "Das ist ein ___ Restaurant.",
-          "options": [
-            "gutes",
-            "gute",
-            "guten"
+          "type": "type",
+          "task": "Order it: Ich hätte gern eine …",
+          "cue": "Die Suppe ist klein.",
+          "t": "Ich hätte gern eine ___ Suppe.",
+          "answer": [
+            "kleine"
           ],
-          "answer": 0,
-          "s": "That's a good restaurant."
+          "s": "I'd like a small soup.",
+          "why": "After eine (feminine, accusative) the adjective ends in -e: eine kleine Suppe."
         },
         {
           "type": "choice",
@@ -397,18 +400,22 @@
             "älterer"
           ],
           "answer": 2,
-          "s": "My older brother cooks very well."
+          "s": "My older brother cooks very well.",
+          "why": "mein has no ending here, so the adjective shows the masculine gender: -er."
         },
         {
           "type": "choice",
-          "t": "Wir sitzen an einem ___ Tisch.",
+          "task": "Which reply fits?",
+          "cue": "Was möchten Sie trinken?",
+          "t": "___",
           "options": [
-            "kleinen",
-            "kleiner",
-            "kleines"
+            "Ein großes Wasser, bitte.",
+            "Ein großer Wasser, bitte.",
+            "Ein großen Wasser, bitte."
           ],
           "answer": 0,
-          "s": "We're sitting at a small table."
+          "s": "A large water, please.",
+          "why": "Wasser is neuter. After ein, a neuter noun's adjective takes -es: ein großes Wasser."
         },
         {
           "type": "type",
@@ -416,7 +423,9 @@
           "answer": [
             "englische"
           ],
-          "s": "Do you have an English menu?"
+          "hint": "englisch",
+          "s": "Do you have an English menu?",
+          "why": "After eine (feminine) the ending is -e: eine englische Speisekarte."
         },
         {
           "type": "type",
@@ -424,7 +433,9 @@
           "answer": [
             "scharfes"
           ],
-          "s": "That isn't a spicy dish. It's not spicy at all."
+          "hint": "scharf",
+          "s": "That isn't a spicy dish. It's not spicy at all.",
+          "why": "Gericht is neuter. After kein (no ending), the adjective takes -es: kein scharfes Gericht."
         },
         {
           "type": "type",
@@ -432,7 +443,9 @@
           "answer": [
             "vegetarischen"
           ],
-          "s": "Unfortunately, there are no vegetarian dishes here."
+          "hint": "vegetarisch",
+          "s": "Unfortunately, there are no vegetarian dishes here.",
+          "why": "After keine in the plural, the ending is -en: keine vegetarischen Gerichte."
         },
         {
           "type": "order",
@@ -512,7 +525,8 @@
             "Hätten"
           ],
           "answer": 0,
-          "s": "Could you bring me the menu, please?"
+          "s": "Could you bring me the menu, please?",
+          "why": "Könnten (with umlaut) is the polite form. Konnten (no umlaut) is the past: 'were able to'."
         },
         {
           "type": "choice",
@@ -523,7 +537,8 @@
             "könnte"
           ],
           "answer": 0,
-          "s": "I'd like an apple juice."
+          "s": "I'd like an apple juice.",
+          "why": "Ich hätte gern … is the polite way to order something."
         },
         {
           "type": "choice",
@@ -534,18 +549,22 @@
             "Wären"
           ],
           "answer": 0,
-          "s": "Would you speak a little more slowly, please?"
+          "s": "Would you speak a little more slowly, please?",
+          "why": "Würden Sie + infinitive makes a polite request."
         },
         {
-          "type": "choice",
-          "t": "Ich ___ Ihnen den Fisch empfehlen.",
-          "options": [
-            "könnte",
-            "hätte",
-            "wäre"
+          "type": "type",
+          "task": "Make it more polite.",
+          "cue": "Bringen Sie mir die Rechnung!",
+          "t": "___ mir die Rechnung bringen?",
+          "answer": [
+            "Könnten Sie",
+            "Koennten Sie",
+            "Würden Sie",
+            "Wuerden Sie"
           ],
-          "answer": 0,
-          "s": "I could recommend the fish to you."
+          "s": "Could you bring me the check?",
+          "why": "Polite requests use Könnten Sie or Würden Sie, with the infinitive at the end."
         },
         {
           "type": "type",
@@ -556,7 +575,8 @@
             "möchten",
             "moechten"
           ],
-          "s": "We'd like a table for four."
+          "s": "We'd like a table for four.",
+          "why": "A polite wish with wir: wir hätten gern (or wir möchten)."
         },
         {
           "type": "type",
@@ -565,17 +585,23 @@
             "Könntest",
             "Koenntest"
           ],
-          "s": "Could you help me, please?"
+          "hint": "können",
+          "s": "Could you help me, please?",
+          "why": "The polite form of können with du is könntest."
         },
         {
-          "type": "type",
-          "t": "Würden Sie bitte das Fenster ___?",
-          "answer": [
-            "schließen",
-            "schliessen",
-            "zumachen"
+          "type": "choice",
+          "task": "Which reply fits?",
+          "cue": "Haben Sie schon gewählt?",
+          "t": "___",
+          "options": [
+            "Ja, ich hätte gern den Fisch.",
+            "Ja, ich hatte gern den Fisch.",
+            "Ja, ich würde gern den Fisch."
           ],
-          "s": "Would you close the window, please?"
+          "answer": 0,
+          "s": "Yes, I'd like the fish.",
+          "why": "To order politely, say Ich hätte gern … Hatte (no umlaut) is the past, and würde needs a second verb."
         },
         {
           "type": "order",
@@ -692,6 +718,18 @@
           "mit Karte bezahlen"
         ],
         "answer": 1
+      },
+      {
+        "q": {
+          "t": "Was denkt Maryam über das Restaurant?",
+          "s": "What does Maryam think of the restaurant?"
+        },
+        "options": [
+          "Es ist gut und nicht teuer.",
+          "Es ist zu teuer.",
+          "Das Essen ist nicht frisch."
+        ],
+        "answer": 0
       }
     ]
   },

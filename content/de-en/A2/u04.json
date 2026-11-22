@@ -117,6 +117,7 @@
       "pl": "die Erkältungen",
       "s": "cold (illness)",
       "emoji": "🤧",
+      "sym": true,
       "ex": {
         "t": "Ich habe eine Erkältung.",
         "s": "I have a cold."
@@ -127,6 +128,7 @@
       "t": "das Fieber",
       "s": "fever, temperature",
       "emoji": "🤒",
+      "sym": true,
       "ex": {
         "t": "Hat das Kind Fieber?",
         "s": "Does the child have a fever?"
@@ -159,6 +161,7 @@
       "pl": "die Ärzte",
       "s": "doctor (male); female: die Ärztin",
       "emoji": "🩺",
+      "sym": true,
       "ex": {
         "t": "Ich muss heute zum Arzt.",
         "s": "I have to go to the doctor today."
@@ -245,15 +248,15 @@
         "voice": "f"
       },
       "B": {
-        "name": "Amir",
+        "name": "Reza",
         "voice": "m"
       }
     },
     "lines": [
       {
         "sp": "A",
-        "t": "Guten Tag, Herr Karimi. Was fehlt Ihnen denn?",
-        "s": "Hello, Mr. Karimi. So, what's wrong?"
+        "t": "Guten Tag, Herr Ahmadi. Was fehlt Ihnen denn?",
+        "s": "Hello, Mr. Ahmadi. So, what's wrong?"
       },
       {
         "sp": "B",
@@ -302,8 +305,8 @@
       },
       {
         "sp": "A",
-        "t": "Trinken Sie viel Tee mit Honig und machen Sie diese Woche keinen Sport. Gute Besserung, Herr Karimi!",
-        "s": "Drink lots of tea with honey, and don't do any sports this week. Get well soon, Mr. Karimi!"
+        "t": "Trinken Sie viel Tee mit Honig und machen Sie diese Woche keinen Sport. Gute Besserung, Herr Ahmadi!",
+        "s": "Drink lots of tea with honey, and don't do any sports this week. Get well soon, Mr. Ahmadi!"
       },
       {
         "sp": "B",
@@ -384,27 +387,34 @@
             "musst"
           ],
           "answer": 0,
-          "s": "I have a fever. I have to go to the doctor."
+          "s": "I have a fever. I have to go to the doctor.",
+          "why": "With ich, müssen is muss (no ending)."
         },
         {
           "type": "choice",
           "t": "Hier ___ man nicht parken.",
           "options": [
             "muss",
-            "darf"
+            "darf",
+            "darfst"
           ],
           "answer": 1,
-          "s": "You're not allowed to park here."
+          "s": "You're not allowed to park here.",
+          "why": "nicht dürfen means 'not allowed'. Man takes the er/sie form: darf."
         },
         {
           "type": "choice",
-          "t": "Morgen ist Sonntag. Du ___ nicht früh aufstehen.",
+          "task": "Which reply fits?",
+          "cue": "Morgen ist Sonntag. Muss ich früh aufstehen?",
+          "t": "___",
           "options": [
-            "musst",
-            "darfst"
+            "Nein, du musst nicht früh aufstehen.",
+            "Nein, du darfst nicht früh aufstehen.",
+            "Ja, du musst nicht früh aufstehen."
           ],
           "answer": 0,
-          "s": "Tomorrow is Sunday. You don't have to get up early."
+          "s": "No, you don't have to get up early.",
+          "why": "nicht müssen means 'not necessary'. Nicht dürfen means 'not allowed', which doesn't fit here."
         },
         {
           "type": "choice",
@@ -415,7 +425,8 @@
             "sollen"
           ],
           "answer": 0,
-          "s": "The doctor says I should go for a walk every day."
+          "s": "The doctor says I should go for a walk every day.",
+          "why": "sollen reports advice from someone else. With ich: soll."
         },
         {
           "type": "type",
@@ -424,15 +435,19 @@
             "Darf",
             "Kann"
           ],
-          "s": "May I open the window? It's so warm in here."
+          "s": "May I open the window? It's so warm in here.",
+          "why": "To ask for permission, use dürfen (or, less formally, können): Darf ich …?"
         },
         {
           "type": "type",
-          "t": "Du hast Fieber. Du ___ heute nicht in die Schule gehen.",
+          "task": "Report it with sollen: Ich …",
+          "cue": "Die Ärztin sagt: Trinken Sie viel Tee!",
+          "t": "Ich ___ viel Tee trinken.",
           "answer": [
-            "darfst"
+            "soll"
           ],
-          "s": "You have a fever. You're not allowed to go to school today."
+          "s": "I'm supposed to drink a lot of tea.",
+          "why": "sollen reports what someone else tells you to do: ich soll viel Tee trinken."
         },
         {
           "type": "type",
@@ -441,7 +456,9 @@
             "müssen",
             "muessen"
           ],
-          "s": "We have the day off tomorrow. We don't have to work."
+          "hint": "müssen",
+          "s": "We have the day off tomorrow. We don't have to work.",
+          "why": "nicht müssen means 'it isn't necessary': wir müssen nicht arbeiten."
         },
         {
           "type": "order",
@@ -516,7 +533,8 @@
             "Bleiben"
           ],
           "answer": 0,
-          "s": "You have a fever. Stay in bed today!"
+          "s": "You have a fever. Stay in bed today!",
+          "why": "For du, drop du and the ending -st: du bleibst → Bleib!"
         },
         {
           "type": "choice",
@@ -527,7 +545,8 @@
             "nehmen"
           ],
           "answer": 2,
-          "s": "Mr. Karimi, take these pills!"
+          "s": "Mr. Karimi, take these pills!",
+          "why": "For Sie, use the Sie form and keep Sie: Nehmen Sie …!"
         },
         {
           "type": "choice",
@@ -538,7 +557,8 @@
             "esst"
           ],
           "answer": 1,
-          "s": "Lena, don't eat so much chocolate!"
+          "s": "Lena, don't eat so much chocolate!",
+          "why": "essen keeps the e → i change in the du imperative: Iss!"
         },
         {
           "type": "type",
@@ -546,7 +566,9 @@
           "answer": [
             "zieht"
           ],
-          "s": "Kids, put your jackets on! It's cold."
+          "hint": "anziehen",
+          "s": "Kids, put your jackets on! It's cold.",
+          "why": "For ihr, use the ihr form without ihr: Zieht … an! The prefix an goes to the end."
         },
         {
           "type": "type",
@@ -554,25 +576,35 @@
           "answer": [
             "sei"
           ],
-          "s": "Ali, please be quiet, the baby is sleeping!"
+          "hint": "sein",
+          "s": "Ali, please be quiet, the baby is sleeping!",
+          "why": "The du imperative of sein is irregular: Sei!"
         },
         {
           "type": "type",
-          "t": "Du bist so müde. ___ doch ein bisschen!",
+          "task": "Make it advice to a friend.",
+          "cue": "Du trinkst viel Wasser.",
+          "t": "___ viel Wasser!",
           "answer": [
-            "Schlaf",
-            "Schlafe"
+            "Trink",
+            "Trinke"
           ],
-          "s": "You're so tired. Why don't you sleep a little?"
+          "s": "Drink a lot of water!",
+          "why": "For du, drop du and the ending -st: du trinkst → Trink!"
         },
         {
-          "type": "type",
-          "t": "___ mich bitte morgen an!",
-          "answer": [
-            "Ruf",
-            "Rufe"
+          "type": "choice",
+          "task": "Which advice fits?",
+          "cue": "Ich habe Kopfschmerzen.",
+          "t": "___",
+          "options": [
+            "Nimm doch eine Tablette!",
+            "Nimmst doch eine Tablette!",
+            "Nehm doch eine Tablette!"
           ],
-          "s": "Please call me tomorrow! (to a friend)"
+          "answer": 0,
+          "s": "Why don't you take a pill?",
+          "why": "nehmen keeps the e → i change in the du imperative: Nimm! No -st and no du."
         },
         {
           "type": "order",
@@ -620,8 +652,8 @@
         "s": "But do you have a fever over thirty-nine degrees (Celsius)? Then please go to the doctor."
       },
       {
-        "t": "Kinder mit Fieber sollen zu Hause bleiben.",
-        "s": "Children with a fever should stay at home."
+        "t": "Kinder mit Fieber sind oft sehr müde, deshalb sollen sie zu Hause bleiben.",
+        "s": "Children with a fever are often very tired, so they should stay at home."
       },
       {
         "t": "Sie sind krank und können nicht arbeiten? Dann müssen Sie sofort Ihren Arbeitgeber informieren.",
@@ -692,6 +724,18 @@
           "Sport machen"
         ],
         "answer": 1
+      },
+      {
+        "q": {
+          "t": "Warum ist Händewaschen wichtig?",
+          "s": "Why is washing your hands important?"
+        },
+        "options": [
+          "Dann werden andere Menschen nicht so schnell krank.",
+          "Dann ist das Fieber sofort weg.",
+          "Dann muss man keinen Tee trinken."
+        ],
+        "answer": 0
       }
     ]
   },

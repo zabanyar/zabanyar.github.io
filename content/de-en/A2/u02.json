@@ -19,6 +19,7 @@
       "pl": "die Geburtstage",
       "s": "birthday",
       "emoji": "🎂",
+      "sym": true,
       "ex": {
         "t": "Wann hast du Geburtstag?",
         "s": "When is your birthday?"
@@ -50,6 +51,7 @@
       "t": "feiern",
       "s": "to celebrate",
       "emoji": "🎉",
+      "sym": true,
       "ex": {
         "t": "Wir feiern am Samstag Nouruz.",
         "s": "We're celebrating Nowruz on Saturday."
@@ -210,8 +212,8 @@
     },
     {
       "id": "p07",
-      "t": "Frohes neues Jahr!",
-      "s": "Happy New Year!"
+      "t": "Kommst du zu meiner Party?",
+      "s": "Are you coming to my party?"
     },
     {
       "id": "p08",
@@ -362,18 +364,22 @@
             "meinem"
           ],
           "answer": 2,
-          "s": "I'm giving my father a watch."
+          "s": "I'm giving my father a watch.",
+          "why": "Your father receives the watch, so he is in the dative: mein → meinem."
         },
         {
           "type": "choice",
-          "t": "Lena gibt ___ Oma die Blumen.",
+          "task": "Which reply fits?",
+          "cue": "Wem schenkst du die Blumen?",
+          "t": "___",
           "options": [
-            "der",
-            "die",
-            "dem"
+            "Meiner Oma.",
+            "Meine Oma.",
+            "Meinen Oma."
           ],
           "answer": 0,
-          "s": "Lena is giving the flowers to Grandma."
+          "s": "To my grandma.",
+          "why": "Wem? asks for the dative. Oma is feminine, so mein becomes meiner."
         },
         {
           "type": "choice",
@@ -384,7 +390,8 @@
             "dem"
           ],
           "answer": 1,
-          "s": "We're showing the guests the apartment."
+          "s": "We're showing the guests the apartment.",
+          "why": "In the dative plural the article is den, and the noun adds -n: den Gästen."
         },
         {
           "type": "choice",
@@ -395,7 +402,8 @@
             "unser"
           ],
           "answer": 1,
-          "s": "The present is from us."
+          "s": "The present is from us.",
+          "why": "von always takes the dative. The dative of wir is uns."
         },
         {
           "type": "type",
@@ -403,7 +411,9 @@
           "answer": [
             "dir"
           ],
-          "s": "I'll bring you the book tomorrow, Ali."
+          "hint": "du",
+          "s": "I'll bring you the book tomorrow, Ali.",
+          "why": "Ali receives the book, so du becomes dir (dative)."
         },
         {
           "type": "type",
@@ -411,15 +421,20 @@
           "answer": [
             "ihm"
           ],
-          "s": "This is Mr. Wagner. I'm giving him the invitation."
+          "hint": "er",
+          "s": "This is Mr. Wagner. I'm giving him the invitation.",
+          "why": "Herr Wagner receives the invitation, so er becomes ihm (dative)."
         },
         {
           "type": "type",
-          "t": "Wie geht es ___, Frau Wagner?",
+          "task": "Replace den Gästen with a pronoun.",
+          "cue": "Wir zeigen den Gästen die Wohnung.",
+          "t": "Wir zeigen ___ die Wohnung.",
           "answer": [
-            "Ihnen"
+            "ihnen"
           ],
-          "s": "How are you, Ms. Wagner?"
+          "s": "We're showing them the apartment.",
+          "why": "The guests receive something, so they are in the dative. The dative of sie (they) is ihnen."
         },
         {
           "type": "order",
@@ -483,8 +498,8 @@
           "s": "We thank you (all) for the invitation."
         },
         {
-          "t": "Lukas schenkt seiner Frau eine Uhr.",
-          "s": "Lukas is giving his wife a watch."
+          "t": "Jonas schenkt seiner Frau eine Uhr.",
+          "s": "Jonas is giving his wife a watch."
         }
       ],
       "exercises": [
@@ -497,7 +512,8 @@
             "mir"
           ],
           "answer": 2,
-          "s": "I really like the cake."
+          "s": "I really like the cake.",
+          "why": "schmecken takes the dative: the cake tastes good to me – mir."
         },
         {
           "type": "choice",
@@ -508,7 +524,8 @@
             "ich"
           ],
           "answer": 1,
-          "s": "Can you help me, please?"
+          "s": "Can you help me, please?",
+          "why": "helfen takes the dative: mir, not mich."
         },
         {
           "type": "choice",
@@ -519,7 +536,8 @@
             "gefallt"
           ],
           "answer": 1,
-          "s": "The children really like the presents."
+          "s": "The children really like the presents.",
+          "why": "The subject is die Geschenke (plural), so the verb is plural: gefallen."
         },
         {
           "type": "choice",
@@ -530,7 +548,8 @@
             "mein Bruder"
           ],
           "answer": 0,
-          "s": "I'm giving my brother a scarf."
+          "s": "I'm giving my brother a scarf.",
+          "why": "The person who receives is in the dative (meinem Bruder); the thing is in the accusative."
         },
         {
           "type": "type",
@@ -539,15 +558,20 @@
             "der",
             "dieser"
           ],
-          "s": "Whose bag is this? – It belongs to the woman over there."
+          "s": "Whose bag is this? – It belongs to the woman over there.",
+          "why": "gehören takes the dative. Frau is feminine: der Frau."
         },
         {
           "type": "type",
-          "t": "Ich gratuliere ___ zum Geburtstag, Reza!",
+          "task": "Say it with gefallen.",
+          "cue": "Ich mag das Kleid.",
+          "t": "Das Kleid ___.",
           "answer": [
-            "dir"
+            "gefällt mir",
+            "gefaellt mir"
           ],
-          "s": "Happy birthday, Reza! (I congratulate you on your birthday.)"
+          "s": "I like the dress.",
+          "why": "With gefallen, the thing you like is the subject and the person is in the dative: Das Kleid gefällt mir."
         },
         {
           "type": "type",
@@ -555,28 +579,36 @@
           "answer": [
             "Ihnen"
           ],
-          "s": "Thank you for the present, Mr. Wagner."
+          "hint": "Sie",
+          "s": "Thank you for the present, Mr. Wagner.",
+          "why": "danken takes the dative. Polite Sie becomes Ihnen."
         },
         {
-          "type": "order",
-          "t": "Das Geschenk gefällt mir sehr.",
-          "s": "I like the present very much.",
-          "alts": [
-            "Mir gefällt das Geschenk sehr."
-          ]
+          "type": "choice",
+          "task": "Which reply fits?",
+          "cue": "Kannst du mir beim Kochen helfen?",
+          "t": "___",
+          "options": [
+            "Ja, klar, ich helfe dir gern.",
+            "Ja, klar, ich helfe dich gern.",
+            "Ja, klar, ich helfe du gern."
+          ],
+          "answer": 0,
+          "s": "Sure, I'm happy to help you.",
+          "why": "helfen takes the dative: ich helfe dir, not dich."
         }
       ]
     }
   ],
   "reading": {
     "title": {
-      "t": "Nouruz in Hamburg",
-      "s": "Nowruz in Hamburg"
+      "t": "Nouruz in Köln",
+      "s": "Nowruz in Cologne"
     },
     "text": [
       {
-        "t": "Ich heiße Mina und wohne seit fünf Jahren in Hamburg.",
-        "s": "My name is Mina, and I've been living in Hamburg for five years."
+        "t": "Ich heiße Maryam und wohne seit fünf Jahren in Köln.",
+        "s": "My name is Maryam, and I've been living in Cologne for five years."
       },
       {
         "t": "Im März haben wir Nouruz gefeiert, das persische Neujahrsfest.",
@@ -595,8 +627,8 @@
         "s": "Traditionally, grandparents give the children money for Nowruz."
       },
       {
-        "t": "Mein Sohn Amir hat von seinem Opa zwanzig Euro bekommen.",
-        "s": "My son Amir got twenty euros from his grandpa."
+        "t": "Mein Sohn Amir hat von seiner Oma zwanzig Euro bekommen.",
+        "s": "My son Amir got twenty euros from his grandma."
       },
       {
         "t": "Unsere Nachbarin Lena hat uns auch besucht.",
@@ -618,8 +650,8 @@
     "questions": [
       {
         "q": {
-          "t": "Was hat Minas Familie im März gefeiert?",
-          "s": "What did Mina's family celebrate in March?"
+          "t": "Was hat Maryams Familie im März gefeiert?",
+          "s": "What did Maryam's family celebrate in March?"
         },
         "options": [
           "Weihnachten",
@@ -642,8 +674,8 @@
       },
       {
         "q": {
-          "t": "Was hat Amir von seinem Opa bekommen?",
-          "s": "What did Amir get from his grandpa?"
+          "t": "Was hat Amir von seiner Oma bekommen?",
+          "s": "What did Amir get from his grandma?"
         },
         "options": [
           "ein Buch",
@@ -654,8 +686,8 @@
       },
       {
         "q": {
-          "t": "Was hat Lena Mina geschenkt?",
-          "s": "What did Lena give Mina?"
+          "t": "Was hat Lena Maryam geschenkt?",
+          "s": "What did Lena give Maryam?"
         },
         "options": [
           "eine Pflanze",
@@ -666,13 +698,25 @@
       },
       {
         "q": {
-          "t": "Wie hat das Essen Lena geschmeckt?",
-          "s": "How did Lena like the food?"
+          "t": "Wie hat Lena das persische Essen gefunden?",
+          "s": "What did Lena think of the Persian food?"
         },
         "options": [
           "sehr gut",
           "nicht so gut",
           "Sie hat nichts gegessen."
+        ],
+        "answer": 0
+      },
+      {
+        "q": {
+          "t": "Warum hat Amir Geld bekommen?",
+          "s": "Why did Amir get money?"
+        },
+        "options": [
+          "Die Großeltern schenken den Kindern zu Nouruz Geld.",
+          "Amir hatte Geburtstag.",
+          "Amir hat seiner Mutter geholfen."
         ],
         "answer": 0
       }

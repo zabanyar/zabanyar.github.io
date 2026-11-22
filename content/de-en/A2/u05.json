@@ -73,6 +73,7 @@
       "t": "verdienen",
       "s": "to earn",
       "emoji": "💶",
+      "sym": true,
       "ex": {
         "t": "Er verdient nicht viel, aber die Arbeit macht ihm Spaß.",
         "s": "He doesn't earn much, but he enjoys the work."
@@ -137,19 +138,19 @@
       "s": "to work part-time (opposite: Vollzeit = full-time)",
       "emoji": "",
       "ex": {
-        "t": "Maryam arbeitet Teilzeit, weil sie zwei kleine Kinder hat.",
-        "s": "Maryam works part-time because she has two small children."
+        "t": "Sara arbeitet Teilzeit, weil sie zwei kleine Kinder hat.",
+        "s": "Sara works part-time because she has two small children."
       }
     },
     {
       "id": "w13",
       "t": "der Ingenieur",
       "pl": "die Ingenieure",
-      "s": "engineer (male; French-style ending: in-zhen-YÖR); female: die Ingenieurin",
+      "s": "engineer (male; French-style ending: in-zhen-YUR, with the ö of schön); female: die Ingenieurin",
       "emoji": "",
       "ex": {
-        "t": "Reza arbeitet als Ingenieur in Stuttgart.",
-        "s": "Reza works as an engineer in Stuttgart."
+        "t": "Reza arbeitet als Ingenieur in Köln.",
+        "s": "Reza works as an engineer in Cologne."
       }
     },
     {
@@ -363,7 +364,8 @@
             "hat sie zwei Kinder"
           ],
           "answer": 1,
-          "s": "Sara works part-time because she has two children."
+          "s": "Sara works part-time because she has two children.",
+          "why": "In a weil-clause the conjugated verb goes to the end: weil sie zwei Kinder hat."
         },
         {
           "type": "choice",
@@ -374,17 +376,20 @@
             "das"
           ],
           "answer": 0,
-          "s": "I think that the boss isn't coming today."
+          "s": "I think that the boss isn't coming today.",
+          "why": "After glauben, what you think is a dass-clause. Das (one s) is an article or a pronoun."
         },
         {
           "type": "choice",
           "t": "Er kommt nicht zur Arbeit, ___ er krank ist.",
           "options": [
             "dass",
-            "weil"
+            "weil",
+            "denn"
           ],
           "answer": 1,
-          "s": "He isn't coming to work because he's sick."
+          "s": "He isn't coming to work because he's sick.",
+          "why": "It gives a reason and the verb is at the end, so it is weil. Denn needs normal word order."
         },
         {
           "type": "type",
@@ -392,7 +397,8 @@
           "answer": [
             "bin"
           ],
-          "s": "I'm staying at home because I'm sick."
+          "s": "I'm staying at home because I'm sick.",
+          "why": "In a weil-clause the verb goes to the end: weil ich krank bin."
         },
         {
           "type": "type",
@@ -402,15 +408,20 @@
             "anfaengt",
             "beginnt"
           ],
-          "s": "We know that the break starts at twelve o'clock."
+          "hint": "anfangen",
+          "s": "We know that the break starts at twelve o'clock.",
+          "why": "In a dass-clause a separable verb goes to the end in one word: anfängt."
         },
         {
           "type": "type",
-          "t": "Lena sagt, ___ sie heute Überstunden machen muss.",
+          "task": "Join with weil.",
+          "cue": "Sara arbeitet Teilzeit. Sie holt nachmittags ihre Tochter ab.",
+          "t": "Sara arbeitet Teilzeit, weil sie nachmittags ihre Tochter ___.",
           "answer": [
-            "dass"
+            "abholt"
           ],
-          "s": "Lena says that she has to work overtime today."
+          "s": "Sara works part-time because she picks up her daughter in the afternoons.",
+          "why": "In a weil-clause the verb goes to the end, and a separable verb joins up again: abholt."
         },
         {
           "type": "order",
@@ -421,12 +432,18 @@
           ]
         },
         {
-          "type": "order",
-          "t": "Ich glaube, dass sie Lehrerin ist.",
-          "s": "I think that she's a teacher.",
-          "alts": [
-            "Dass sie Lehrerin ist, glaube ich."
-          ]
+          "type": "choice",
+          "task": "Which reply fits?",
+          "cue": "Warum kommst du heute nicht ins Büro?",
+          "t": "___",
+          "options": [
+            "Weil ich krank bin.",
+            "Weil ich bin krank.",
+            "Dass ich krank bin."
+          ],
+          "answer": 0,
+          "s": "Because I'm sick.",
+          "why": "Warum? is answered with weil, and the verb goes to the end: weil ich krank bin."
         }
       ]
     },
@@ -494,14 +511,17 @@
       "exercises": [
         {
           "type": "choice",
-          "t": "Gestern ___ ich krank.",
+          "task": "Which reply fits?",
+          "cue": "Warum warst du gestern nicht im Büro?",
+          "t": "___",
           "options": [
-            "war",
-            "bin",
-            "hatte"
+            "Ich war krank und musste zu Hause bleiben.",
+            "Ich hatte krank und musste zu Hause bleiben.",
+            "Ich war krank und muss gestern zu Hause bleiben."
           ],
           "answer": 0,
-          "s": "I was sick yesterday."
+          "s": "I was sick and had to stay at home.",
+          "why": "krank goes with sein, so the past is ich war krank. Gestern needs the past: musste."
         },
         {
           "type": "choice",
@@ -512,7 +532,8 @@
             "Warst"
           ],
           "answer": 0,
-          "s": "Did you have time on the weekend?"
+          "s": "Did you have time on the weekend?",
+          "why": "Zeit haben uses haben. The past of haben with du is hattest."
         },
         {
           "type": "choice",
@@ -523,15 +544,19 @@
             "müssen"
           ],
           "answer": 1,
-          "s": "We had to work late yesterday."
+          "s": "We had to work late yesterday.",
+          "why": "The past of müssen with wir is mussten (no umlaut)."
         },
         {
           "type": "type",
-          "t": "Letzte Woche ___ ich leider nicht kommen.",
+          "task": "Say it about yesterday.",
+          "cue": "Ich kann heute nicht kommen.",
+          "t": "Gestern ___ ich nicht kommen.",
           "answer": [
             "konnte"
           ],
-          "s": "Unfortunately, I couldn't come last week."
+          "s": "Yesterday I couldn't come.",
+          "why": "The past of können drops the umlaut and adds -te: ich konnte."
         },
         {
           "type": "type",
@@ -539,7 +564,9 @@
           "answer": [
             "durften"
           ],
-          "s": "In the past, the children weren't allowed to go to the park alone."
+          "hint": "dürfen",
+          "s": "In the past, the children weren't allowed to go to the park alone.",
+          "why": "The past of dürfen with sie (plural) is durften (no umlaut)."
         },
         {
           "type": "type",
@@ -547,7 +574,9 @@
           "answer": [
             "wart"
           ],
-          "s": "Where were you (all) on Monday?"
+          "hint": "sein",
+          "s": "Where were you (all) on Monday?",
+          "why": "The past of sein with ihr is wart."
         },
         {
           "type": "type",
@@ -555,7 +584,9 @@
           "answer": [
             "wollte"
           ],
-          "s": "My brother wanted to become a doctor, but now he's a teacher."
+          "hint": "wollen",
+          "s": "My brother wanted to become a doctor, but now he's a teacher.",
+          "why": "The past of wollen with er/sie is wollte, with no extra ending."
         },
         {
           "type": "order",
@@ -570,13 +601,13 @@
   ],
   "reading": {
     "title": {
-      "t": "Reza erzählt von seiner Arbeit",
-      "s": "Reza talks about his work"
+      "t": "Behnam erzählt von seiner Arbeit",
+      "s": "Behnam talks about his work"
     },
     "text": [
       {
-        "t": "Ich heiße Reza und bin Ingenieur von Beruf.",
-        "s": "My name is Reza, and I'm an engineer by profession."
+        "t": "Ich heiße Behnam und bin Ingenieur von Beruf.",
+        "s": "My name is Behnam, and I'm an engineer by profession."
       },
       {
         "t": "Im Iran hatte ich eine gute Stelle in Teheran.",
@@ -618,8 +649,8 @@
     "questions": [
       {
         "q": {
-          "t": "Was ist Reza von Beruf?",
-          "s": "What does Reza do for a living?"
+          "t": "Was ist Behnam von Beruf?",
+          "s": "What does Behnam do for a living?"
         },
         "options": [
           "Lehrer",
@@ -642,8 +673,8 @@
       },
       {
         "q": {
-          "t": "Was musste Reza zuerst machen?",
-          "s": "What did Reza have to do first?"
+          "t": "Was musste Behnam zuerst machen?",
+          "s": "What did Behnam have to do first?"
         },
         "options": [
           "einen Deutschkurs",
@@ -654,8 +685,8 @@
       },
       {
         "q": {
-          "t": "Wo hat Reza ein Praktikum gemacht?",
-          "s": "Where did Reza do an internship?"
+          "t": "Wo hat Behnam ein Praktikum gemacht?",
+          "s": "Where did Behnam do an internship?"
         },
         "options": [
           "in Teheran",
@@ -666,13 +697,25 @@
       },
       {
         "q": {
-          "t": "Warum vermisst Reza seine Eltern?",
-          "s": "Why does Reza miss his parents?"
+          "t": "Warum vermisst Behnam seine Eltern?",
+          "s": "Why does Behnam miss his parents?"
         },
         "options": [
           "Weil sie noch in Teheran wohnen.",
           "Weil sie krank sind.",
           "Weil er viel arbeiten muss."
+        ],
+        "answer": 0
+      },
+      {
+        "q": {
+          "t": "Ist Behnam heute mit seiner Arbeit zufrieden?",
+          "s": "Is Behnam happy with his job today?"
+        },
+        "options": [
+          "Ja, er verdient gut und mag seine Kollegen.",
+          "Nein, er verdient nicht genug.",
+          "Nein, er möchte wieder nach Teheran."
         ],
         "answer": 0
       }
@@ -691,10 +734,10 @@
       "s": "Today I have to stay at the office until six o'clock."
     },
     {
-      "t": "Mina studiert, weil sie Lehrerin werden möchte.",
-      "s": "Mina is studying at university because she'd like to become a teacher.",
+      "t": "Anna studiert, weil sie Lehrerin werden möchte.",
+      "s": "Anna is studying at university because she'd like to become a teacher.",
       "alts": [
-        "Weil sie Lehrerin werden möchte, studiert Mina."
+        "Weil sie Lehrerin werden möchte, studiert Anna."
       ]
     },
     {
@@ -728,6 +771,10 @@
       "alts": [
         "Bis morgen und schönen Feierabend!"
       ]
+    },
+    {
+      "t": "Der Chef ist nett.",
+      "s": "The boss is nice."
     }
   ]
 }

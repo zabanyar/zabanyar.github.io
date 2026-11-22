@@ -231,7 +231,7 @@
     },
     "speakers": {
       "A": {
-        "name": "Lukas",
+        "name": "Verkäufer",
         "voice": "m"
       },
       "B": {
@@ -370,7 +370,8 @@
             "neuer"
           ],
           "answer": 0,
-          "s": "What do you think of the new jacket?"
+          "s": "What do you think of the new jacket?",
+          "why": "After die with a feminine noun, the ending is -e: die neue Jacke."
         },
         {
           "type": "choice",
@@ -381,18 +382,22 @@
             "schwarzes"
           ],
           "answer": 1,
-          "s": "I'll take the black skirt."
+          "s": "I'll take the black skirt.",
+          "why": "After den (masculine accusative) the ending is -en: den schwarzen Rock."
         },
         {
           "type": "choice",
-          "t": "Der ___ Pullover ist im Angebot.",
+          "task": "Which reply fits?",
+          "cue": "Welche Jacke gefällt dir besser?",
+          "t": "___",
           "options": [
-            "graue",
-            "grauen",
-            "grauer"
+            "Die schwarze Jacke gefällt mir besser.",
+            "Die schwarzen Jacke gefällt mir besser.",
+            "Die schwarzer Jacke gefällt mir besser."
           ],
           "answer": 0,
-          "s": "The gray sweater is on sale."
+          "s": "I like the black jacket better.",
+          "why": "After die (feminine, nominative) the adjective ends in -e: die schwarze Jacke."
         },
         {
           "type": "choice",
@@ -403,7 +408,8 @@
             "weißes"
           ],
           "answer": 1,
-          "s": "The shoes go well with the white dress."
+          "s": "The shoes go well with the white dress.",
+          "why": "zum = zu dem, which is dative. After dem the ending is -en: zum weißen Kleid."
         },
         {
           "type": "type",
@@ -411,15 +417,20 @@
           "answer": [
             "neuen"
           ],
-          "s": "I can walk well in the new boots."
+          "hint": "neu",
+          "s": "I can walk well in the new boots.",
+          "why": "In the dative plural (den … Stiefeln) the ending is -en: den neuen Stiefeln."
         },
         {
           "type": "type",
-          "t": "Das ___ T-Shirt gefällt mir.",
+          "task": "Say you'll take it: Ich nehme den …",
+          "cue": "Der Pullover ist blau.",
+          "t": "Ich nehme den ___ Pullover.",
           "answer": [
-            "rote"
+            "blauen"
           ],
-          "s": "I like the red T-shirt."
+          "s": "I'll take the blue sweater.",
+          "why": "After den (masculine accusative) the adjective ends in -en: den blauen Pullover."
         },
         {
           "type": "type",
@@ -427,7 +438,9 @@
           "answer": [
             "blaue"
           ],
-          "s": "Which jacket are you taking? – I'm taking this blue jacket here."
+          "hint": "blau",
+          "s": "Which jacket are you taking? – I'm taking this blue jacket here.",
+          "why": "diese works like die. With a feminine noun the ending is -e: diese blaue Jacke."
         },
         {
           "type": "order",
@@ -514,14 +527,17 @@
       "exercises": [
         {
           "type": "choice",
-          "t": "Die Jacke ist billiger ___ der Mantel.",
+          "task": "Which reply fits?",
+          "cue": "Welche Stiefel nehmen Sie?",
+          "t": "___",
           "options": [
-            "als",
-            "wie",
-            "so"
+            "Die braunen. Sie sind am bequemsten.",
+            "Die braunen. Sie sind am bequemer.",
+            "Die braunen. Sie sind die bequem."
           ],
           "answer": 0,
-          "s": "The jacket is cheaper than the coat."
+          "s": "The brown ones. They're the most comfortable.",
+          "why": "The superlative after sein is am + -sten: am bequemsten."
         },
         {
           "type": "choice",
@@ -532,7 +548,8 @@
             "am"
           ],
           "answer": 1,
-          "s": "The skirt is as long as the dress."
+          "s": "The skirt is as long as the dress.",
+          "why": "Equal things: so … wie. Als is only for the comparative (länger als)."
         },
         {
           "type": "choice",
@@ -543,7 +560,8 @@
             "bequem"
           ],
           "answer": 1,
-          "s": "Which shoes are the most comfortable?"
+          "s": "Which shoes are the most comfortable?",
+          "why": "After am, the superlative ends in -sten: am bequemsten."
         },
         {
           "type": "choice",
@@ -554,7 +572,8 @@
             "teurer"
           ],
           "answer": 0,
-          "s": "That's the most expensive dress in the store."
+          "s": "That's the most expensive dress in the store.",
+          "why": "Before a noun the superlative takes an adjective ending: das teuerste Kleid."
         },
         {
           "type": "type",
@@ -562,16 +581,20 @@
           "answer": [
             "besser"
           ],
-          "s": "This sweater is good, but the green one is even better."
+          "hint": "gut",
+          "s": "This sweater is good, but the green one is even better.",
+          "why": "gut is irregular: gut – besser – am besten."
         },
         {
           "type": "type",
-          "t": "Lukas ist zwanzig, Lena ist fünfundzwanzig. Lena ist ___ als Lukas.",
+          "task": "Compare: Der Mantel ist … als die Jacke.",
+          "cue": "Der Mantel ist teuer. Die Jacke ist nicht so teuer.",
+          "t": "Der Mantel ist ___ als die Jacke.",
           "answer": [
-            "älter",
-            "aelter"
+            "teurer"
           ],
-          "s": "Lukas is twenty, Lena is twenty-five. Lena is older than Lukas."
+          "s": "The coat is more expensive than the jacket.",
+          "why": "teuer loses its e in the comparative: teurer. Than is als."
         },
         {
           "type": "type",
@@ -579,7 +602,9 @@
           "answer": [
             "lieber"
           ],
-          "s": "I like wearing skirts, but I prefer wearing jeans."
+          "hint": "gern",
+          "s": "I like wearing skirts, but I prefer wearing jeans.",
+          "why": "gern is irregular: gern – lieber – am liebsten."
         },
         {
           "type": "order",
@@ -591,8 +616,8 @@
   ],
   "reading": {
     "title": {
-      "t": "Mina kauft Winterjacken",
-      "s": "Mina buys winter jackets"
+      "t": "Maryam kauft Winterjacken",
+      "s": "Maryam buys winter jackets"
     },
     "text": [
       {
@@ -604,8 +629,8 @@
         "s": "The kids need winter jackets because the old jackets are too small."
       },
       {
-        "t": "Meine Tochter Sara hat zuerst die rote Jacke anprobiert, aber sie war zu eng.",
-        "s": "My daughter Sara first tried on the red jacket, but it was too tight."
+        "t": "Meine Tochter Mina hat zuerst die rote Jacke anprobiert, aber sie war zu eng.",
+        "s": "My daughter Mina first tried on the red jacket, but it was too tight."
       },
       {
         "t": "Die blaue Jacke war eine Nummer größer und hat perfekt gepasst.",
@@ -651,8 +676,8 @@
       },
       {
         "q": {
-          "t": "Warum hat Sara die rote Jacke nicht genommen?",
-          "s": "Why didn't Sara take the red jacket?"
+          "t": "Warum hat Mina die rote Jacke nicht genommen?",
+          "s": "Why didn't Mina take the red jacket?"
         },
         "options": [
           "Sie war zu teuer.",
@@ -687,8 +712,8 @@
       },
       {
         "q": {
-          "t": "Was hat Mina für sich gekauft?",
-          "s": "What did Mina buy for herself?"
+          "t": "Was hat Maryam für sich gekauft?",
+          "s": "What did Maryam buy for herself?"
         },
         "options": [
           "Stiefel",
@@ -696,6 +721,18 @@
           "nichts"
         ],
         "answer": 2
+      },
+      {
+        "q": {
+          "t": "Warum hat Amir die schwarze Jacke nicht genommen?",
+          "s": "Why didn't Amir take the black jacket?"
+        },
+        "options": [
+          "Sie war zu teuer.",
+          "Sie war zu eng.",
+          "Sie war nicht warm."
+        ],
+        "answer": 0
       }
     ]
   },
@@ -746,6 +783,10 @@
       "alts": [
         "Dir steht die neue Jacke sehr gut."
       ]
+    },
+    {
+      "t": "Die Jacke ist eng.",
+      "s": "The jacket is tight."
     }
   ]
 }

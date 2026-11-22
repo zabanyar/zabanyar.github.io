@@ -83,6 +83,7 @@
       "t": "das Internet",
       "s": "internet",
       "emoji": "🌐",
+      "sym": true,
       "ex": {
         "t": "Ich lese die Nachrichten meistens im Internet.",
         "s": "I usually read the news online."
@@ -372,7 +373,8 @@
             "der Bahnhof"
           ],
           "answer": 0,
-          "s": "Do you know where the station is?"
+          "s": "Do you know where the station is?",
+          "why": "In an indirect question the verb goes to the end: wo der Bahnhof ist."
         },
         {
           "type": "choice",
@@ -383,7 +385,8 @@
             "dass"
           ],
           "answer": 0,
-          "s": "I don't know if Amir is coming today."
+          "s": "I don't know if Amir is coming today.",
+          "why": "An indirect yes/no question starts with ob (whether, if)."
         },
         {
           "type": "choice",
@@ -394,7 +397,8 @@
             "abfahren"
           ],
           "answer": 0,
-          "s": "Can you tell me when the train leaves?"
+          "s": "Can you tell me when the train leaves?",
+          "why": "The verb goes to the end, and a separable verb joins up: abfährt."
         },
         {
           "type": "type",
@@ -402,7 +406,8 @@
           "answer": [
             "ob"
           ],
-          "s": "I'd like to know whether you have time this evening."
+          "s": "I'd like to know whether you have time this evening.",
+          "why": "An indirect yes/no question starts with ob."
         },
         {
           "type": "type",
@@ -410,20 +415,33 @@
           "answer": [
             "wie"
           ],
-          "s": "Can you show me how this app works?"
+          "s": "Can you show me how this app works?",
+          "why": "The direct question is Wie funktioniert …?, so the indirect question starts with wie."
+        },
+        {
+          "type": "choice",
+          "task": "Which reply fits?",
+          "cue": "Kommt Mina heute zum Abendessen?",
+          "t": "___",
+          "options": [
+            "Ich weiß nicht, ob sie kommt.",
+            "Ich weiß nicht, ob kommt sie.",
+            "Ich weiß nicht, wenn sie kommt."
+          ],
+          "answer": 0,
+          "s": "I don't know if she's coming.",
+          "why": "A yes/no question becomes an ob-clause with the verb at the end: ob sie kommt."
         },
         {
           "type": "type",
-          "t": "Weißt du, wann Mina nach Hause ___?",
+          "task": "Ask politely: Können Sie mir sagen, …?",
+          "cue": "Wann fährt der Bus ab?",
+          "t": "Können Sie mir sagen, wann ___?",
           "answer": [
-            "kommt"
+            "der Bus abfährt"
           ],
-          "s": "Do you know when Mina is coming home?"
-        },
-        {
-          "type": "order",
-          "t": "Weißt du, ob Lena ein Handy hat?",
-          "s": "Do you know if Lena has a cell phone?"
+          "s": "Can you tell me when the bus leaves?",
+          "why": "In an indirect question the verb goes to the end, and a separable verb joins up: wann der Bus abfährt."
         },
         {
           "type": "order",
@@ -506,18 +524,20 @@
             "an"
           ],
           "answer": 0,
-          "s": "I'm waiting for the bus."
+          "s": "I'm waiting for the bus.",
+          "why": "warten always goes with auf + accusative: auf den Bus."
         },
         {
-          "type": "choice",
-          "t": "Wir freuen uns ___ die Ferien im Sommer.",
-          "options": [
-            "auf",
-            "an",
-            "nach"
+          "type": "type",
+          "task": "Ask what about: Woran …?",
+          "cue": "Ich denke oft an meine Familie.",
+          "t": "___ denkst du oft?",
+          "answer": [
+            "Woran",
+            "An was"
           ],
-          "answer": 0,
-          "s": "We're looking forward to the vacation in the summer."
+          "s": "What do you often think about?",
+          "why": "For a thing, an + was becomes woran (wo + r + an)."
         },
         {
           "type": "choice",
@@ -528,7 +548,8 @@
             "an"
           ],
           "answer": 0,
-          "s": "Lena is very happy about yesterday's present."
+          "s": "Lena is very happy about yesterday's present.",
+          "why": "To be happy about something you already have is sich freuen über."
         },
         {
           "type": "choice",
@@ -539,7 +560,8 @@
             "dafür"
           ],
           "answer": 0,
-          "s": "Are you looking forward to your vacation? – Yes, I'm really looking forward to it."
+          "s": "Are you looking forward to your vacation? – Yes, I'm really looking forward to it.",
+          "why": "sich freuen auf + a thing becomes darauf."
         },
         {
           "type": "type",
@@ -548,15 +570,22 @@
             "Worauf",
             "Auf was"
           ],
-          "s": "What are you waiting for? – For the bus."
+          "s": "What are you waiting for? – For the bus.",
+          "why": "For a thing, auf + was becomes worauf. In speech you also hear auf was."
         },
         {
-          "type": "type",
-          "t": "Denk bitte ___ deinen Schlüssel!",
-          "answer": [
-            "an"
+          "type": "choice",
+          "task": "Which reply fits?",
+          "cue": "Freust du dich auf die Ferien?",
+          "t": "___",
+          "options": [
+            "Ja, ich freue mich sehr darauf.",
+            "Ja, ich freue mich sehr dafür.",
+            "Ja, ich freue sehr darauf."
           ],
-          "s": "Please remember your key!"
+          "answer": 0,
+          "s": "Yes, I'm really looking forward to them.",
+          "why": "sich freuen auf becomes darauf. And sich freuen needs the reflexive pronoun: ich freue mich."
         },
         {
           "type": "type",
@@ -565,7 +594,8 @@
             "über",
             "ueber"
           ],
-          "s": "Have you talked to Ali about the problem yet?"
+          "s": "Have you talked to Ali about the problem yet?",
+          "why": "sprechen über + accusative means 'to talk about'."
         },
         {
           "type": "order",
@@ -585,12 +615,12 @@
     },
     "text": [
       {
-        "t": "Ich heiße Mina und wohne seit fünf Jahren in Hamburg.",
-        "s": "My name is Mina, and I've been living in Hamburg for five years."
+        "t": "Ich heiße Ali und wohne seit fünf Jahren in Köln.",
+        "s": "My name is Ali, and I've been living in Cologne for five years."
       },
       {
-        "t": "Meine Eltern und mein Bruder Ali leben noch in Isfahan.",
-        "s": "My parents and my brother Ali still live in Isfahan."
+        "t": "Meine Eltern und mein Bruder leben noch in Teheran.",
+        "s": "My parents and my brother still live in Tehran."
       },
       {
         "t": "Meine Oma erzählt oft, dass sie früher wochenlang auf einen Brief von ihrer Schwester gewartet hat.",
@@ -617,8 +647,8 @@
         "s": "My mother is sixty-five, but she has even downloaded an app for learning German!"
       },
       {
-        "t": "Im Sommer kommen meine Eltern zu Besuch nach Hamburg.",
-        "s": "In the summer my parents are coming to Hamburg for a visit."
+        "t": "Im Sommer kommen meine Eltern zu Besuch nach Köln.",
+        "s": "In the summer my parents are coming to Cologne for a visit."
       },
       {
         "t": "Ich freue mich schon sehr darauf!",
@@ -628,20 +658,20 @@
     "questions": [
       {
         "q": {
-          "t": "Wo wohnen Minas Eltern?",
-          "s": "Where do Mina's parents live?"
+          "t": "Wo wohnen Alis Eltern?",
+          "s": "Where do Ali's parents live?"
         },
         "options": [
-          "in Hamburg",
+          "in Köln",
           "in Isfahan",
           "in Teheran"
         ],
-        "answer": 1
+        "answer": 2
       },
       {
         "q": {
-          "t": "Worauf hat Minas Oma früher oft gewartet?",
-          "s": "What did Mina's grandma often wait for in the past?"
+          "t": "Worauf hat Alis Oma früher oft gewartet?",
+          "s": "What did Ali's grandma often wait for in the past?"
         },
         "options": [
           "auf einen Anruf",
@@ -664,25 +694,37 @@
       },
       {
         "q": {
-          "t": "Was macht Mina, wenn die Verbindung schlecht ist?",
-          "s": "What does Mina do when the connection is bad?"
+          "t": "Was macht Ali, wenn die Verbindung schlecht ist?",
+          "s": "What does Ali do when the connection is bad?"
         },
         "options": [
-          "Sie schreibt eine E-Mail.",
-          "Sie ruft noch einmal an.",
-          "Sie schickt Fotos."
+          "Er schreibt eine E-Mail.",
+          "Er ruft noch einmal an.",
+          "Er schickt Fotos."
         ],
         "answer": 1
       },
       {
         "q": {
-          "t": "Worauf freut sich Mina?",
-          "s": "What is Mina looking forward to?"
+          "t": "Worauf freut sich Ali?",
+          "s": "What is Ali looking forward to?"
         },
         "options": [
-          "auf den Besuch von ihren Eltern",
+          "auf den Besuch von seinen Eltern",
           "auf eine neue App",
           "auf eine Reise nach Isfahan"
+        ],
+        "answer": 0
+      },
+      {
+        "q": {
+          "t": "Warum lernt Alis Mutter Deutsch?",
+          "s": "Why is Ali's mother learning German?"
+        },
+        "options": [
+          "Sie kommt im Sommer nach Köln.",
+          "Sie arbeitet in Deutschland.",
+          "Sie ist Deutschlehrerin."
         ],
         "answer": 0
       }

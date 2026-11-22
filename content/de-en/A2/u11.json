@@ -102,7 +102,8 @@
             "spielt"
           ],
           "answer": 0,
-          "s": "The children played in the park."
+          "s": "The children played in the park.",
+          "why": "Regular verbs form the participle with ge- + stem + -t: gespielt."
         },
         {
           "type": "choice",
@@ -113,7 +114,8 @@
             "gearbeiten"
           ],
           "answer": 1,
-          "s": "I worked all day."
+          "s": "I worked all day.",
+          "why": "Stems in -t add an e before the final -t: gearbeitet."
         },
         {
           "type": "choice",
@@ -124,7 +126,8 @@
             "Habt"
           ],
           "answer": 0,
-          "s": "Have you had breakfast yet?"
+          "s": "Have you had breakfast yet?",
+          "why": "haben with du is hast. In a yes/no question it comes first."
         },
         {
           "type": "choice",
@@ -135,7 +138,8 @@
             "habt"
           ],
           "answer": 1,
-          "s": "Yesterday Maryam and Reza waited for a long time."
+          "s": "Yesterday Maryam and Reza waited for a long time.",
+          "why": "Maryam und Reza is plural (sie), so the form is haben."
         },
         {
           "type": "choice",
@@ -146,7 +150,8 @@
             "gestern eine Lampe gekauft habe"
           ],
           "answer": 0,
-          "s": "I bought a lamp yesterday."
+          "s": "I bought a lamp yesterday.",
+          "why": "haben is in position 2 and the participle goes to the very end: … eine Lampe gekauft."
         },
         {
           "type": "type",
@@ -155,7 +160,8 @@
             "gelernt"
           ],
           "s": "Did you (all) study German yesterday?",
-          "hint": "lernen"
+          "hint": "lernen",
+          "why": "lernen is regular: ge- + lern + -t = gelernt."
         },
         {
           "type": "type",
@@ -164,7 +170,8 @@
             "geregnet"
           ],
           "s": "It rained a lot on the weekend.",
-          "hint": "regnen"
+          "hint": "regnen",
+          "why": "regnen adds an e before the -t, just like es regnet: geregnet."
         },
         {
           "type": "type",
@@ -173,7 +180,8 @@
             "hast"
           ],
           "s": "What did you cook yesterday evening?",
-          "hint": "haben"
+          "hint": "haben",
+          "why": "haben with du is hast."
         },
         {
           "type": "type",
@@ -182,7 +190,8 @@
             "gekostet"
           ],
           "s": "How much did the jacket cost?",
-          "hint": "kosten"
+          "hint": "kosten",
+          "why": "Stems in -t add an e: gekostet."
         },
         {
           "type": "type",
@@ -191,7 +200,8 @@
             "geschenkt"
           ],
           "s": "Mr. Wagner gave his wife a book as a present.",
-          "hint": "schenken"
+          "hint": "schenken",
+          "why": "schenken is regular: ge- + schenk + -t = geschenkt."
         },
         {
           "type": "order",
@@ -205,6 +215,31 @@
           "alts": [
             "Heute habe ich nicht gearbeitet."
           ]
+        },
+        {
+          "type": "type",
+          "task": "Say it happened yesterday: Gestern …",
+          "cue": "Maryam kauft heute Brot.",
+          "t": "Gestern ___.",
+          "answer": [
+            "hat Maryam Brot gekauft"
+          ],
+          "s": "Yesterday Maryam bought bread.",
+          "why": "After Gestern, haben stays in position 2, the subject follows, and the participle goes to the end."
+        },
+        {
+          "type": "choice",
+          "task": "Which reply fits?",
+          "cue": "Hast du die Wohnung schon geputzt?",
+          "t": "___",
+          "options": [
+            "Ja, ich habe sie gestern geputzt.",
+            "Ja, ich habe sie gestern geputzen.",
+            "Ja, ich habe geputzt sie gestern."
+          ],
+          "answer": 0,
+          "s": "Yes, I cleaned it yesterday.",
+          "why": "putzen is regular: geputzt. The participle goes to the very end of the sentence."
         }
       ],
       "thead": true
@@ -299,7 +334,8 @@
             "gesieht"
           ],
           "answer": 0,
-          "s": "I saw a great movie yesterday."
+          "s": "I saw a great movie yesterday.",
+          "why": "sehen is irregular: ge- + sehen = gesehen, with no vowel change."
         },
         {
           "type": "choice",
@@ -310,7 +346,8 @@
             "getranken"
           ],
           "answer": 1,
-          "s": "Did you drink enough water?"
+          "s": "Did you drink enough water?",
+          "why": "trinken changes i to u in the participle: getrunken."
         },
         {
           "type": "choice",
@@ -321,7 +358,8 @@
             "gefanden"
           ],
           "answer": 1,
-          "s": "Reza didn't find his key."
+          "s": "Reza didn't find his key.",
+          "why": "finden changes i to u: gefunden."
         },
         {
           "type": "choice",
@@ -332,7 +370,8 @@
             "gesprachen"
           ],
           "answer": 0,
-          "s": "We spoke with the doctor."
+          "s": "We spoke with the doctor.",
+          "why": "sprechen changes e to o: gesprochen."
         },
         {
           "type": "choice",
@@ -343,7 +382,8 @@
             "geschriben"
           ],
           "answer": 1,
-          "s": "I wrote you a message."
+          "s": "I wrote you a message.",
+          "why": "schreiben changes ei to ie: geschrieben."
         },
         {
           "type": "type",
@@ -352,7 +392,8 @@
             "gegessen"
           ],
           "s": "What did you (all) eat for breakfast?",
-          "hint": "essen"
+          "hint": "essen",
+          "why": "essen gets an extra g in the participle: gegessen."
         },
         {
           "type": "type",
@@ -361,7 +402,8 @@
             "geholfen"
           ],
           "s": "I helped my mother in the kitchen.",
-          "hint": "helfen"
+          "hint": "helfen",
+          "why": "helfen changes e to o: geholfen."
         },
         {
           "type": "type",
@@ -370,7 +412,8 @@
             "genommen"
           ],
           "s": "Maryam took the bus at eight o'clock.",
-          "hint": "nehmen"
+          "hint": "nehmen",
+          "why": "nehmen changes to genommen, with o and a double m."
         },
         {
           "type": "type",
@@ -379,7 +422,8 @@
             "gesungen"
           ],
           "s": "The children sang a song.",
-          "hint": "singen"
+          "hint": "singen",
+          "why": "singen changes i to u: gesungen."
         },
         {
           "type": "type",
@@ -388,7 +432,8 @@
             "gegeben"
           ],
           "s": "Lena gave me a book.",
-          "hint": "geben"
+          "hint": "geben",
+          "why": "geben is irregular but keeps its vowel: gegeben."
         },
         {
           "type": "order",
@@ -402,6 +447,31 @@
           "type": "order",
           "t": "Wo habt ihr den Schlüssel gefunden?",
           "s": "Where did you (all) find the key?"
+        },
+        {
+          "type": "type",
+          "task": "Say it in the Perfekt.",
+          "cue": "Ich lese ein Buch.",
+          "t": "Ich habe ein Buch ___.",
+          "answer": [
+            "gelesen"
+          ],
+          "s": "I read a book.",
+          "why": "lesen is irregular: the participle ends in -en, gelesen."
+        },
+        {
+          "type": "choice",
+          "task": "Which reply fits?",
+          "cue": "Was hast du zum Frühstück getrunken?",
+          "t": "___",
+          "options": [
+            "Ich habe einen Tee getrunken.",
+            "Ich habe einen Tee getrinkt.",
+            "Ich habe einen Tee getrunkt."
+          ],
+          "answer": 0,
+          "s": "I drank a tea.",
+          "why": "trinken is irregular: getrunken, with u and the ending -en."
         }
       ],
       "thead": true
@@ -437,12 +507,12 @@
         [
           "aufwachen",
           "ist aufgewacht",
-          "Veränderung"
+          "Zustandswechsel"
         ],
         [
           "werden",
           "ist geworden",
-          "Veränderung"
+          "Zustandswechsel"
         ],
         [
           "sein",
@@ -496,7 +566,8 @@
             "seid"
           ],
           "answer": 1,
-          "s": "We went to Hamburg on Saturday."
+          "s": "We went to Hamburg on Saturday.",
+          "why": "fahren is movement from one place to another, so it takes sein: wir sind gefahren."
         },
         {
           "type": "choice",
@@ -507,7 +578,8 @@
             "bist"
           ],
           "answer": 1,
-          "s": "Lena woke up very late today."
+          "s": "Lena woke up very late today.",
+          "why": "aufwachen is a change of state, so it takes sein: sie ist aufgewacht."
         },
         {
           "type": "choice",
@@ -518,7 +590,8 @@
             "ist"
           ],
           "answer": 0,
-          "s": "I worked all day yesterday."
+          "s": "I worked all day yesterday.",
+          "why": "arbeiten is no movement or change of state, so it takes haben."
         },
         {
           "type": "choice",
@@ -529,7 +602,8 @@
             "sind"
           ],
           "answer": 1,
-          "s": "What happened in class yesterday?"
+          "s": "What happened in class yesterday?",
+          "why": "passieren always takes sein: Was ist passiert?"
         },
         {
           "type": "choice",
@@ -540,7 +614,8 @@
             "habe"
           ],
           "answer": 1,
-          "s": "My grandpa turned eighty last year."
+          "s": "My grandpa turned eighty last year.",
+          "why": "werden is a change of state, so it takes sein: er ist geworden."
         },
         {
           "type": "type",
@@ -549,7 +624,8 @@
             "bin"
           ],
           "s": "I stayed at home on the weekend.",
-          "hint": "haben oder sein"
+          "hint": "haben oder sein",
+          "why": "bleiben takes sein, although it is no movement: ich bin geblieben."
         },
         {
           "type": "type",
@@ -558,7 +634,8 @@
             "seid"
           ],
           "s": "Where were you (all) yesterday evening?",
-          "hint": "haben oder sein"
+          "hint": "haben oder sein",
+          "why": "sein itself takes sein in the Perfekt. With ihr: seid gewesen."
         },
         {
           "type": "type",
@@ -567,7 +644,8 @@
             "geflogen"
           ],
           "s": "My parents flew to Tehran last week.",
-          "hint": "fliegen"
+          "hint": "fliegen",
+          "why": "fliegen is irregular: geflogen. As a movement it takes sein."
         },
         {
           "type": "type",
@@ -576,7 +654,8 @@
             "gelaufen"
           ],
           "s": "Ali ran to the park quickly.",
-          "hint": "laufen"
+          "hint": "laufen",
+          "why": "laufen is irregular: gelaufen, with no vowel change."
         },
         {
           "type": "type",
@@ -585,7 +664,8 @@
             "sind"
           ],
           "s": "The children fell asleep in the car.",
-          "hint": "haben oder sein"
+          "hint": "haben oder sein",
+          "why": "einschlafen is a change of state, so it takes sein: sie sind eingeschlafen."
         },
         {
           "type": "order",
@@ -600,6 +680,31 @@
             "Ich bin gestern zu Hause geblieben.",
             "Zu Hause bin ich gestern geblieben."
           ]
+        },
+        {
+          "type": "type",
+          "task": "Say it in the Perfekt.",
+          "cue": "Ich komme um acht Uhr nach Hause.",
+          "t": "Ich ___ um acht Uhr nach Hause gekommen.",
+          "answer": [
+            "bin"
+          ],
+          "s": "I came home at eight o'clock.",
+          "why": "kommen is movement, so the Perfekt uses sein: ich bin gekommen."
+        },
+        {
+          "type": "choice",
+          "task": "Which reply fits?",
+          "cue": "Was hast du am Sonntag gemacht?",
+          "t": "___",
+          "options": [
+            "Ich bin zu Hause geblieben.",
+            "Ich habe zu Hause geblieben.",
+            "Ich bin zu Hause gebleibt."
+          ],
+          "answer": 0,
+          "s": "I stayed at home.",
+          "why": "bleiben takes sein, and its participle is irregular: ich bin geblieben."
         }
       ],
       "thead": true
@@ -694,7 +799,8 @@
             "eingekaufen"
           ],
           "answer": 0,
-          "s": "We went shopping for the picnic on Friday."
+          "s": "We went shopping for the picnic on Friday.",
+          "why": "In separable verbs, ge- goes between the prefix and the verb: eingekauft."
         },
         {
           "type": "choice",
@@ -705,18 +811,20 @@
             "bezahlen"
           ],
           "answer": 1,
-          "s": "Have you paid the bill yet?"
+          "s": "Have you paid the bill yet?",
+          "why": "Verbs with be- take no ge-: bezahlt."
         },
         {
           "type": "choice",
-          "t": "Lukas hat in Hamburg ___.",
+          "t": "Jonas hat in Hamburg ___.",
           "options": [
             "gestudiert",
             "studiert",
             "studieren"
           ],
           "answer": 1,
-          "s": "Lukas studied in Hamburg."
+          "s": "Jonas studied in Hamburg.",
+          "why": "Verbs in -ieren take no ge-: studiert."
         },
         {
           "type": "choice",
@@ -727,7 +835,8 @@
             "geverstanden"
           ],
           "answer": 0,
-          "s": "Unfortunately, I didn't understand the question."
+          "s": "Unfortunately, I didn't understand the question.",
+          "why": "Verbs with ver- take no ge-: verstanden."
         },
         {
           "type": "choice",
@@ -738,7 +847,8 @@
             "ist"
           ],
           "answer": 1,
-          "s": "When did you get up today?"
+          "s": "When did you get up today?",
+          "why": "aufstehen is a change of state, so it takes sein: du bist aufgestanden."
         },
         {
           "type": "type",
@@ -747,7 +857,8 @@
             "angerufen"
           ],
           "s": "I called Mina yesterday evening.",
-          "hint": "anrufen"
+          "hint": "anrufen",
+          "why": "anrufen: an + ge + rufen = angerufen."
         },
         {
           "type": "type",
@@ -757,7 +868,8 @@
             "erzaehlt"
           ],
           "s": "My father told me a story.",
-          "hint": "erzählen"
+          "hint": "erzählen",
+          "why": "Verbs with er- take no ge-: erzählt."
         },
         {
           "type": "type",
@@ -766,7 +878,8 @@
             "vergessen"
           ],
           "s": "I forgot my key.",
-          "hint": "vergessen"
+          "hint": "vergessen",
+          "why": "vergessen starts with ver-, so it takes no ge-: the participle is vergessen."
         },
         {
           "type": "type",
@@ -775,7 +888,8 @@
             "anprobiert"
           ],
           "s": "I tried on the pants, but they were too tight.",
-          "hint": "anprobieren"
+          "hint": "anprobieren",
+          "why": "anprobieren is separable and ends in -ieren, so there is no ge-: anprobiert."
         },
         {
           "type": "type",
@@ -784,7 +898,8 @@
             "abgefahren"
           ],
           "s": "The train has already left.",
-          "hint": "abfahren"
+          "hint": "abfahren",
+          "why": "abfahren: ab + ge + fahren = abgefahren."
         },
         {
           "type": "order",
@@ -798,6 +913,31 @@
           "alts": [
             "Gestern habe ich nicht ferngesehen."
           ]
+        },
+        {
+          "type": "type",
+          "task": "Say it in the Perfekt.",
+          "cue": "Wir besuchen Oma.",
+          "t": "Wir haben Oma ___.",
+          "answer": [
+            "besucht"
+          ],
+          "s": "We visited Grandma.",
+          "why": "Verbs with be- take no ge-: besucht."
+        },
+        {
+          "type": "choice",
+          "task": "Which reply fits?",
+          "cue": "Wann ist der Zug angekommen?",
+          "t": "___",
+          "options": [
+            "Er ist um zehn Uhr angekommen.",
+            "Er hat um zehn Uhr angekommen.",
+            "Er ist um zehn Uhr geankommen."
+          ],
+          "answer": 0,
+          "s": "It arrived at ten o'clock.",
+          "why": "ankommen is movement, so it takes sein, and ge- goes after the prefix: angekommen."
         }
       ],
       "thead": true
@@ -896,7 +1036,8 @@
             "hatten"
           ],
           "answer": 0,
-          "s": "We were in Hamburg last week."
+          "s": "We were in Hamburg last week.",
+          "why": "The past of sein with wir is waren."
         },
         {
           "type": "choice",
@@ -907,7 +1048,8 @@
             "war"
           ],
           "answer": 0,
-          "s": "Maryam had a headache yesterday."
+          "s": "Maryam had a headache yesterday.",
+          "why": "Kopfschmerzen haben uses haben. With er/sie the past is hatte."
         },
         {
           "type": "choice",
@@ -918,7 +1060,8 @@
             "könnte"
           ],
           "answer": 0,
-          "s": "I couldn't come yesterday because I was sick."
+          "s": "I couldn't come yesterday because I was sick.",
+          "why": "Gestern needs the past: ich konnte. Könnte (with umlaut) means 'could' as a polite or possible form."
         },
         {
           "type": "choice",
@@ -929,7 +1072,8 @@
             "müssen"
           ],
           "answer": 0,
-          "s": "We had to work last Saturday."
+          "s": "We had to work last Saturday.",
+          "why": "The past of müssen with wir is mussten (no umlaut)."
         },
         {
           "type": "choice",
@@ -940,7 +1084,8 @@
             "Seid"
           ],
           "answer": 0,
-          "s": "Were you (all) at the movies yesterday too?"
+          "s": "Were you (all) at the movies yesterday too?",
+          "why": "The past of sein with ihr is wart."
         },
         {
           "type": "type",
@@ -949,7 +1094,8 @@
             "warst"
           ],
           "s": "Where were you last Sunday?",
-          "hint": "sein"
+          "hint": "sein",
+          "why": "The past of sein with du is warst."
         },
         {
           "type": "type",
@@ -958,7 +1104,8 @@
             "Hattet"
           ],
           "s": "Did you (all) have a lot of work yesterday?",
-          "hint": "haben"
+          "hint": "haben",
+          "why": "The past of haben with ihr is hattet."
         },
         {
           "type": "type",
@@ -967,16 +1114,18 @@
             "durften"
           ],
           "s": "Yesterday we weren't allowed to speak any English in class.",
-          "hint": "dürfen"
+          "hint": "dürfen",
+          "why": "The past of dürfen with wir is durften (no umlaut)."
         },
         {
           "type": "type",
-          "t": "Lukas ___ gestern ins Kino gehen, aber er musste arbeiten.",
+          "t": "Jonas ___ gestern ins Kino gehen, aber er musste arbeiten.",
           "answer": [
             "wollte"
           ],
-          "s": "Lukas wanted to go to the movies yesterday, but he had to work.",
-          "hint": "wollen"
+          "s": "Jonas wanted to go to the movies yesterday, but he had to work.",
+          "hint": "wollen",
+          "why": "The past of wollen with er/sie is wollte."
         },
         {
           "type": "type",
@@ -985,7 +1134,8 @@
             "sollten"
           ],
           "s": "We were supposed to be in Hamburg at nine o'clock, but the train was late.",
-          "hint": "sollen"
+          "hint": "sollen",
+          "why": "The past of sollen with wir is sollten."
         },
         {
           "type": "order",
@@ -999,6 +1149,31 @@
           "alts": [
             "Mina konnte gestern nicht kommen."
           ]
+        },
+        {
+          "type": "type",
+          "task": "Say it about yesterday: Gestern …",
+          "cue": "Ich habe keine Zeit.",
+          "t": "Gestern ___ ich keine Zeit.",
+          "answer": [
+            "hatte"
+          ],
+          "s": "Yesterday I didn't have time.",
+          "why": "With haben and sein, German usually uses the simple past: ich hatte, ich war."
+        },
+        {
+          "type": "choice",
+          "task": "Which reply fits?",
+          "cue": "Wo warst du gestern?",
+          "t": "___",
+          "options": [
+            "Ich war bei meiner Tante.",
+            "Ich bin bei meiner Tante.",
+            "Ich hatte bei meiner Tante."
+          ],
+          "answer": 0,
+          "s": "I was at my aunt's.",
+          "why": "The question is about the past, so answer with war. Hatte is the past of haben, not sein."
         }
       ],
       "thead": true

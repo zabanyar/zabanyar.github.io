@@ -105,7 +105,8 @@
             "ich bleiben"
           ],
           "answer": 0,
-          "s": "I'm sick, so I'm staying at home."
+          "s": "I'm sick, so I'm staying at home.",
+          "why": "deshalb takes position 1, so the verb follows it directly: deshalb bleibe ich."
         },
         {
           "type": "choice",
@@ -116,7 +117,8 @@
             "der Bus nicht kommt"
           ],
           "answer": 0,
-          "s": "I'm taking a taxi because the bus isn't coming."
+          "s": "I'm taking a taxi because the bus isn't coming.",
+          "why": "denn is in position 0, so normal word order follows: der Bus kommt nicht."
         },
         {
           "type": "choice",
@@ -127,7 +129,8 @@
             "sondern"
           ],
           "answer": 0,
-          "s": "Lena isn't coming today because she doesn't have time."
+          "s": "Lena isn't coming today because she doesn't have time.",
+          "why": "The clause gives a reason with normal word order, so it is denn."
         },
         {
           "type": "choice",
@@ -138,7 +141,8 @@
             "denn"
           ],
           "answer": 0,
-          "s": "We're not going by bus but by bike."
+          "s": "We're not going by bus but by bike.",
+          "why": "After a negation (nicht mit dem Bus), 'but instead' is sondern."
         },
         {
           "type": "choice",
@@ -149,7 +153,8 @@
             "aber"
           ],
           "answer": 0,
-          "s": "It's raining hard, but we're going for a walk anyway."
+          "s": "It's raining hard, but we're going for a walk anyway.",
+          "why": "You do it anyway: trotzdem. The verb follows it directly; aber would need normal order."
         },
         {
           "type": "type",
@@ -158,7 +163,8 @@
             "gehen"
           ],
           "s": "It's already late, so we're going home now.",
-          "hint": "gehen"
+          "hint": "gehen",
+          "why": "After deshalb (position 1), the verb comes next: deshalb gehen wir."
         },
         {
           "type": "type",
@@ -167,16 +173,18 @@
             "arbeitet"
           ],
           "s": "Amir is tired, but he works for another two hours anyway.",
-          "hint": "arbeiten"
+          "hint": "arbeiten",
+          "why": "After trotzdem (position 1), the verb comes next: trotzdem arbeitet er."
         },
         {
           "type": "type",
-          "t": "Mina ist keine Ärztin, ___ Lehrerin.",
+          "t": "Lena ist keine Ärztin, ___ Journalistin.",
           "answer": [
             "sondern"
           ],
-          "s": "Mina isn't a doctor but a teacher.",
-          "hint": "aber or sondern?"
+          "s": "Lena isn't a doctor but a journalist.",
+          "hint": "aber or sondern?",
+          "why": "After a negation (keine Ärztin), the correction uses sondern, not aber."
         },
         {
           "type": "type",
@@ -185,7 +193,8 @@
             "kocht"
           ],
           "s": "First Ali goes shopping, then he cooks.",
-          "hint": "kochen"
+          "hint": "kochen",
+          "why": "dann takes position 1, so the verb follows it: dann kocht er."
         },
         {
           "type": "order",
@@ -208,6 +217,31 @@
             "Ich war krank, ich bin trotzdem gekommen.",
             "Ich war krank, gekommen bin ich trotzdem."
           ]
+        },
+        {
+          "type": "type",
+          "task": "Join with deshalb.",
+          "cue": "Es regnet. Wir bleiben zu Hause.",
+          "t": "Es regnet, deshalb ___.",
+          "answer": [
+            "bleiben wir zu Hause"
+          ],
+          "s": "It's raining, so we're staying at home.",
+          "why": "deshalb takes position 1, so the verb comes right after it, then the subject."
+        },
+        {
+          "type": "choice",
+          "task": "Which reply fits?",
+          "cue": "Warum kommt Lena heute nicht?",
+          "t": "___",
+          "options": [
+            "Sie ist krank, deshalb bleibt sie zu Hause.",
+            "Sie ist krank, deshalb sie bleibt zu Hause.",
+            "Sie ist krank, trotzdem bleibt sie zu Hause."
+          ],
+          "answer": 0,
+          "s": "She's sick, so she's staying at home.",
+          "why": "deshalb gives a result, and the verb follows it. Trotzdem would mean 'in spite of that'."
         }
       ],
       "thead": true
@@ -285,7 +319,8 @@
             "heute regnet es"
           ],
           "answer": 0,
-          "s": "We're not going to the park because it's raining today."
+          "s": "We're not going to the park because it's raining today.",
+          "why": "In a weil-clause the verb goes to the end: weil es heute regnet."
         },
         {
           "type": "choice",
@@ -296,7 +331,8 @@
             "ich dich besuche"
           ],
           "answer": 0,
-          "s": "If I have time on Saturday, I'll visit you."
+          "s": "If I have time on Saturday, I'll visit you.",
+          "why": "The wenn-clause is position 1, so the main clause starts with the verb: besuche ich dich."
         },
         {
           "type": "choice",
@@ -307,7 +343,8 @@
             "weil"
           ],
           "answer": 0,
-          "s": "I know that you have a lot of work."
+          "s": "I know that you have a lot of work.",
+          "why": "After wissen, what you know is a dass-clause. Das (one s) is an article or a pronoun."
         },
         {
           "type": "choice",
@@ -318,7 +355,8 @@
             "mitkommen"
           ],
           "answer": 0,
-          "s": "He says that he's coming along tomorrow."
+          "s": "He says that he's coming along tomorrow.",
+          "why": "In a dass-clause the verb goes to the end, and a separable verb joins up: mitkommt."
         },
         {
           "type": "choice",
@@ -329,7 +367,8 @@
             "deshalb"
           ],
           "answer": 0,
-          "s": "I'm having a coffee because I'm very tired."
+          "s": "I'm having a coffee because I'm very tired.",
+          "why": "The verb (bin) is at the end, so you need weil. Denn and deshalb don't move the verb."
         },
         {
           "type": "type",
@@ -338,7 +377,8 @@
             "arbeitet"
           ],
           "s": "Ali can't come because he's working late today.",
-          "hint": "arbeiten"
+          "hint": "arbeiten",
+          "why": "In a weil-clause the conjugated verb goes to the end: weil er lange arbeitet."
         },
         {
           "type": "type",
@@ -347,7 +387,8 @@
             "aufmacht"
           ],
           "s": "I think that the supermarket opens at eight o'clock.",
-          "hint": "aufmachen"
+          "hint": "aufmachen",
+          "why": "In a dass-clause a separable verb joins up at the end: aufmacht."
         },
         {
           "type": "type",
@@ -356,7 +397,8 @@
             "musst"
           ],
           "s": "If you have a fever, you have to go to the doctor.",
-          "hint": "müssen"
+          "hint": "müssen",
+          "why": "The wenn-clause comes first, so the main clause starts with the verb: musst du."
         },
         {
           "type": "type",
@@ -365,7 +407,8 @@
             "ist"
           ],
           "s": "Lena is tired because she got up very early today.",
-          "hint": "sein"
+          "hint": "sein",
+          "why": "aufstehen takes sein, and in the weil-clause the auxiliary goes to the very end: aufgestanden ist."
         },
         {
           "type": "order",
@@ -390,6 +433,31 @@
           "alts": [
             "Dass er schon gegangen ist, glaube ich."
           ]
+        },
+        {
+          "type": "type",
+          "task": "Join with wenn: Wenn ich …",
+          "cue": "Ich habe Zeit. Dann komme ich mit.",
+          "t": "Wenn ich Zeit habe, ___ mit.",
+          "answer": [
+            "komme ich"
+          ],
+          "s": "If I have time, I'll come along.",
+          "why": "The wenn-clause is position 1, so the main verb follows directly: komme ich."
+        },
+        {
+          "type": "choice",
+          "task": "Which reply fits?",
+          "cue": "Warum lernst du Deutsch?",
+          "t": "___",
+          "options": [
+            "Weil ich in Köln arbeiten möchte.",
+            "Weil ich möchte in Köln arbeiten.",
+            "Weil ich in Köln möchte arbeiten."
+          ],
+          "answer": 0,
+          "s": "Because I'd like to work in Cologne.",
+          "why": "In a weil-clause the modal verb goes to the very end, after the infinitive: arbeiten möchte."
         }
       ],
       "thead": true
@@ -467,7 +535,8 @@
             "die Bank macht auf"
           ],
           "answer": 0,
-          "s": "Can you tell me when the bank opens?"
+          "s": "Can you tell me when the bank opens?",
+          "why": "In an indirect question the verb goes to the end: wann die Bank aufmacht."
         },
         {
           "type": "choice",
@@ -478,7 +547,8 @@
             "was"
           ],
           "answer": 0,
-          "s": "I don't know if Lukas has time tomorrow."
+          "s": "I don't know if Lukas has time tomorrow.",
+          "why": "An indirect yes/no question starts with ob."
         },
         {
           "type": "choice",
@@ -489,7 +559,8 @@
             "wo"
           ],
           "answer": 0,
-          "s": "Do you know how much the jacket costs?"
+          "s": "Do you know how much the jacket costs?",
+          "why": "The question is about a price, so use wie viel."
         },
         {
           "type": "choice",
@@ -500,7 +571,8 @@
             "der Zug ist pünktlich"
           ],
           "answer": 0,
-          "s": "Do you know if the train is on time?"
+          "s": "Do you know if the train is on time?",
+          "why": "After ob the verb goes to the end: ob der Zug pünktlich ist."
         },
         {
           "type": "choice",
@@ -511,7 +583,8 @@
             "dass"
           ],
           "answer": 0,
-          "s": "Mina is asking when we're going to the movies."
+          "s": "Mina is asking when we're going to the movies.",
+          "why": "The question word stays in the indirect question: wann. Wenn is not a question word."
         },
         {
           "type": "type",
@@ -520,7 +593,8 @@
             "sind"
           ],
           "s": "Do you know where my keys are?",
-          "hint": "sein"
+          "hint": "sein",
+          "why": "The verb goes to the end. Meine Schlüssel is plural, so it is sind."
         },
         {
           "type": "type",
@@ -528,7 +602,8 @@
           "answer": [
             "ob"
           ],
-          "s": "I'd like to know whether you're coming on the weekend."
+          "s": "I'd like to know whether you're coming on the weekend.",
+          "why": "Kommst du? has no question word, so the indirect question starts with ob."
         },
         {
           "type": "type",
@@ -537,7 +612,8 @@
             "ankommt"
           ],
           "s": "Do you know when the train arrives in Cologne?",
-          "hint": "ankommen"
+          "hint": "ankommen",
+          "why": "The verb goes to the end, and a separable verb joins up: ankommt."
         },
         {
           "type": "type",
@@ -546,7 +622,8 @@
             "kann"
           ],
           "s": "I don't know if I can come tomorrow.",
-          "hint": "können"
+          "hint": "können",
+          "why": "In an ob-clause the modal verb goes to the very end: kommen kann."
         },
         {
           "type": "order",
@@ -565,6 +642,31 @@
           "type": "order",
           "t": "Weißt du, ob Anna schon angerufen hat?",
           "s": "Do you know if Anna has called yet?"
+        },
+        {
+          "type": "type",
+          "task": "Ask politely: Können Sie mir sagen, …?",
+          "cue": "Wo ist die Toilette?",
+          "t": "Können Sie mir sagen, wo ___?",
+          "answer": [
+            "die Toilette ist"
+          ],
+          "s": "Can you tell me where the toilet is?",
+          "why": "In an indirect question the verb goes to the end: wo die Toilette ist."
+        },
+        {
+          "type": "choice",
+          "task": "Which reply fits?",
+          "cue": "Hat Lukas morgen Zeit?",
+          "t": "___",
+          "options": [
+            "Ich weiß nicht, ob er morgen Zeit hat.",
+            "Ich weiß nicht, ob hat er morgen Zeit.",
+            "Ich weiß nicht, dass er morgen Zeit hat."
+          ],
+          "answer": 0,
+          "s": "I don't know if he has time tomorrow.",
+          "why": "A yes/no question becomes an ob-clause with the verb at the end."
         }
       ],
       "thead": true
@@ -649,7 +751,8 @@
             "sich"
           ],
           "answer": 0,
-          "s": "It's cold. I'm dressing warmly."
+          "s": "It's cold. I'm dressing warmly.",
+          "why": "anziehen with no other object: the reflexive is accusative, mich."
         },
         {
           "type": "choice",
@@ -660,7 +763,8 @@
             "sich"
           ],
           "answer": 0,
-          "s": "I brush my teeth."
+          "s": "I brush my teeth.",
+          "why": "With another object (die Zähne), the reflexive is dative: mir."
         },
         {
           "type": "choice",
@@ -671,7 +775,8 @@
             "euch"
           ],
           "answer": 0,
-          "s": "We're meeting in the park on Saturday."
+          "s": "We're meeting in the park on Saturday.",
+          "why": "The reflexive pronoun for wir is uns."
         },
         {
           "type": "choice",
@@ -682,7 +787,8 @@
             "Ihnen"
           ],
           "answer": 0,
-          "s": "Hurry, the train is about to leave!"
+          "s": "Hurry, the train is about to leave!",
+          "why": "For polite Sie, the reflexive pronoun is sich (small s)."
         },
         {
           "type": "choice",
@@ -693,7 +799,8 @@
             "du"
           ],
           "answer": 0,
-          "s": "You have to wash your hands."
+          "s": "You have to wash your hands.",
+          "why": "With another object (die Hände), the reflexive for du is dative: dir."
         },
         {
           "type": "type",
@@ -702,7 +809,8 @@
             "euch"
           ],
           "s": "Kids, please hurry!",
-          "hint": "sich beeilen"
+          "hint": "sich beeilen",
+          "why": "The reflexive pronoun for ihr is euch."
         },
         {
           "type": "type",
@@ -711,7 +819,8 @@
             "mich"
           ],
           "s": "I had a good rest yesterday.",
-          "hint": "sich ausruhen"
+          "hint": "sich ausruhen",
+          "why": "sich ausruhen has no other object, so with ich it is mich."
         },
         {
           "type": "type",
@@ -720,7 +829,8 @@
             "zieht"
           ],
           "s": "My son already gets dressed by himself.",
-          "hint": "anziehen"
+          "hint": "anziehen",
+          "why": "anziehen splits: er zieht sich … an."
         },
         {
           "type": "type",
@@ -729,7 +839,8 @@
             "getroffen"
           ],
           "s": "We met at the café yesterday.",
-          "hint": "treffen"
+          "hint": "treffen",
+          "why": "treffen is irregular: getroffen. Reflexive verbs take haben in the Perfekt."
         },
         {
           "type": "order",
@@ -753,6 +864,31 @@
           "type": "order",
           "t": "Hast du dich schon angezogen?",
           "s": "Have you gotten dressed yet?"
+        },
+        {
+          "type": "type",
+          "task": "Say you wash your hands: Ich wasche … die Hände.",
+          "cue": "Ich wasche mich.",
+          "t": "Ich wasche ___ die Hände.",
+          "answer": [
+            "mir"
+          ],
+          "s": "I'm washing my hands.",
+          "why": "When there is another object (die Hände), the reflexive pronoun is dative: mir."
+        },
+        {
+          "type": "choice",
+          "task": "Which reply fits?",
+          "cue": "Beeil dich, der Bus kommt!",
+          "t": "___",
+          "options": [
+            "Ich ziehe mir nur schnell die Jacke an.",
+            "Ich ziehe mich nur schnell die Jacke an.",
+            "Ich ziehe mir nur schnell an die Jacke."
+          ],
+          "answer": 0,
+          "s": "I'm just quickly putting on my jacket.",
+          "why": "With another object (die Jacke), the reflexive is dative: mir. The prefix an goes to the end."
         }
       ],
       "thead": true
@@ -834,7 +970,8 @@
             "über"
           ],
           "answer": 0,
-          "s": "My daughter is interested in books."
+          "s": "My daughter is interested in books.",
+          "why": "sich interessieren always goes with für + accusative."
         },
         {
           "type": "choice",
@@ -845,7 +982,8 @@
             "für"
           ],
           "answer": 0,
-          "s": "My brother is afraid of the dentist."
+          "s": "My brother is afraid of the dentist.",
+          "why": "Angst haben goes with vor + dative: vor dem Zahnarzt."
         },
         {
           "type": "choice",
@@ -856,7 +994,8 @@
             "dafür"
           ],
           "answer": 0,
-          "s": "Ali got a present yesterday and is very happy about it."
+          "s": "Ali got a present yesterday and is very happy about it.",
+          "why": "To be happy about something you got is sich freuen über, so it becomes darüber."
         },
         {
           "type": "choice",
@@ -867,7 +1006,8 @@
             "Wofür"
           ],
           "answer": 0,
-          "s": "What are you thinking about? – About my family."
+          "s": "What are you thinking about? – About my family.",
+          "why": "denken goes with an, so the question about a thing is woran."
         },
         {
           "type": "choice",
@@ -878,7 +1018,8 @@
             "wem"
           ],
           "answer": 0,
-          "s": "Who are you waiting for? – For my brother."
+          "s": "Who are you waiting for? – For my brother.",
+          "why": "For a person, use auf + wen (accusative). Worauf is only for things."
         },
         {
           "type": "type",
@@ -887,7 +1028,8 @@
             "über",
             "ueber"
           ],
-          "s": "We often talk about work."
+          "s": "We often talk about work.",
+          "why": "sprechen über + accusative means 'to talk about'."
         },
         {
           "type": "type",
@@ -897,7 +1039,8 @@
             "dafuer"
           ],
           "s": "Are you interested in art? – Yes, we're very interested in it.",
-          "hint": "für"
+          "hint": "für",
+          "why": "sich interessieren für + a thing becomes dafür."
         },
         {
           "type": "type",
@@ -907,7 +1050,8 @@
             "Auf was"
           ],
           "s": "What are you looking forward to? – The weekend.",
-          "hint": "auf"
+          "hint": "auf",
+          "why": "sich freuen auf becomes worauf. In speech you also hear auf was."
         },
         {
           "type": "type",
@@ -916,7 +1060,8 @@
             "der"
           ],
           "s": "Are you afraid of the cat?",
-          "hint": "die Katze"
+          "hint": "die Katze",
+          "why": "vor takes the dative here: vor der Katze."
         },
         {
           "type": "order",
@@ -941,6 +1086,31 @@
           "alts": [
             "Über den Film haben wir gesprochen."
           ]
+        },
+        {
+          "type": "type",
+          "task": "Replace auf den Bus with a da-word.",
+          "cue": "Ich warte auf den Bus.",
+          "t": "Ich warte ___.",
+          "answer": [
+            "darauf"
+          ],
+          "s": "I'm waiting for it.",
+          "why": "For a thing, auf + it becomes darauf (da + r + auf)."
+        },
+        {
+          "type": "choice",
+          "task": "Which reply fits?",
+          "cue": "Woran denkst du?",
+          "t": "___",
+          "options": [
+            "An meinen Urlaub.",
+            "Auf meinen Urlaub.",
+            "Für meinen Urlaub."
+          ],
+          "answer": 0,
+          "s": "About my vacation.",
+          "why": "denken goes with an: Woran? – An meinen Urlaub."
         }
       ],
       "thead": true
@@ -1032,7 +1202,8 @@
             "Wären"
           ],
           "answer": 0,
-          "s": "Could you please open the window?"
+          "s": "Could you please open the window?",
+          "why": "Könnten (with umlaut) is the polite form. Konnten is the past tense."
         },
         {
           "type": "choice",
@@ -1043,7 +1214,8 @@
             "wäre"
           ],
           "answer": 0,
-          "s": "I'd like an appointment on Monday."
+          "s": "I'd like an appointment on Monday.",
+          "why": "Ich hätte gern … is the polite way to ask for something."
         },
         {
           "type": "choice",
@@ -1054,7 +1226,8 @@
             "wirst"
           ],
           "answer": 0,
-          "s": "It's definitely going to rain tomorrow."
+          "s": "It's definitely going to rain tomorrow.",
+          "why": "Future: werden + infinitive. With es the form is wird."
         },
         {
           "type": "choice",
@@ -1065,7 +1238,8 @@
             "werden"
           ],
           "answer": 0,
-          "s": "I'll bring you the book tomorrow."
+          "s": "I'll bring you the book tomorrow.",
+          "why": "werden with ich is werde."
         },
         {
           "type": "choice",
@@ -1076,7 +1250,8 @@
             "würde"
           ],
           "answer": 0,
-          "s": "That would be really nice of you!"
+          "s": "That would be really nice of you!",
+          "why": "Das wäre … means 'that would be …': the polite form of sein."
         },
         {
           "type": "type",
@@ -1086,7 +1261,8 @@
             "Wuerdest"
           ],
           "s": "Would you please close the door?",
-          "hint": "werden"
+          "hint": "werden",
+          "why": "Würdest du + infinitive makes a polite request to a friend."
         },
         {
           "type": "type",
@@ -1096,7 +1272,8 @@
             "haetten"
           ],
           "s": "We'd like two tickets to Hamburg.",
-          "hint": "haben"
+          "hint": "haben",
+          "why": "A polite wish with wir: wir hätten gern."
         },
         {
           "type": "type",
@@ -1106,7 +1283,8 @@
             "koenntet"
           ],
           "s": "Kids, could you please clean up the room?",
-          "hint": "können"
+          "hint": "können",
+          "why": "The polite form of können with ihr is könntet."
         },
         {
           "type": "type",
@@ -1115,7 +1293,8 @@
             "wirst"
           ],
           "s": "You'll see, the weather is going to get better.",
-          "hint": "werden"
+          "hint": "werden",
+          "why": "werden with du is wirst."
         },
         {
           "type": "order",
@@ -1141,6 +1320,31 @@
           "alts": [
             "Dass er morgen kommen wird, glaube ich."
           ]
+        },
+        {
+          "type": "type",
+          "task": "Say it with werden.",
+          "cue": "Ich besuche dich morgen.",
+          "t": "Ich werde dich morgen ___.",
+          "answer": [
+            "besuchen"
+          ],
+          "s": "I'll visit you tomorrow.",
+          "why": "werden is in position 2 and the infinitive goes to the end: … besuchen."
+        },
+        {
+          "type": "choice",
+          "task": "Which polite request fits?",
+          "cue": "Ich verstehe Sie nicht gut.",
+          "t": "___",
+          "options": [
+            "Würden Sie bitte langsamer sprechen?",
+            "Würden Sie bitte langsamer sprechen werden?",
+            "Wurden Sie bitte langsamer sprechen?"
+          ],
+          "answer": 0,
+          "s": "Would you please speak more slowly?",
+          "why": "Würden Sie + infinitive at the end is a polite request. Wurden (no umlaut) is the past of werden."
         }
       ],
       "thead": true
