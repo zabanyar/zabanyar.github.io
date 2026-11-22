@@ -18,7 +18,7 @@
       "t": "هوا",
       "s": "hava",
       "pr": "havâ",
-      "emoji": "🌤️",
+      "emoji": "",
       "ex": {
         "t": "امروز هوا خوب است.",
         "s": "Bugün hava güzel.",
@@ -471,7 +471,7 @@
         "s": "Mevsimler, İran ayları ve Nevruz",
         "pr": "faslhâ va mâhhâ"
       },
-      "explain": "İran'da resmî takvim **güneş takvimi**dir. Yıl, ilkbaharın ilk günü (20–21 Mart) **Nowruz** (Nevruz) ile başlar: **avval-e farvardin** = 1 Farvardin.\nHer mevsimin üç ayı var. **Bahâr**: farvardin, ordibeheşt, xordâd. **Tâbestân**: tir, mordâd, şahrivar. **Pâyiz**: mehr, âbân, âzar. **Zemestân**: dey, bahman, esfand. İlk altı ay 31 gün, sonraki beş ay 30 gün, esfand ise 29 (artık yılda 30) gündür.\nNevruz'da aileler **haftsin** sofrası kurar: \"s\" sesiyle başlayan yedi şey (sabze, sib, sir, sekke, sonbol…). Büyükler çocuklara **eydi** (bayram harçlığı) verir. 13 Farvardin'de (**sizdah bedar**) herkes pikniğe, doğaya çıkar.\n\"… ayında\" demek için **dar** kullanılır: **dar mehr** = Mehr ayında. Mevsimlerde edat çoğu zaman düşer: **zemestân barf miâyad** = kışın kar yağar.",
+      "explain": "İran'da resmî takvim **güneş takvimi**dir. Yıl, ilkbaharın ilk günü (20–21 Mart) **Nowruz** (Nevruz) ile başlar: **avval-e farvardin** = 1 Farvardin.\nHer mevsimin üç ayı var. **Bahâr**: farvardin, ordibeheşt, xordâd. **Tâbestân**: tir, mordâd, şahrivar. **Pâyiz**: mehr, âbân, âzar. **Zemestân**: dey, bahman, esfand. İlk altı ay 31 gün, sonraki beş ay 30 gün, esfand ise 29 (artık yılda 30) gündür.\nNevruz'da aileler **haftsin** sofrası kurar: \"s\" sesiyle başlayan yedi şey (sabze, sib, sir, serke, somâğ…). Büyükler çocuklara **eydi** (bayram harçlığı) verir. 13 Farvardin'de (**sizdah bedar**) herkes pikniğe, doğaya çıkar.\n\"… ayında\" demek için **dar** kullanılır: **dar mehr** = Mehr ayında. Mevsimlerde edat çoğu zaman düşer: **zemestân barf miâyad** = kışın kar yağar.",
       "table": [
         [
           "بهار",

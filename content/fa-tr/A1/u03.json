@@ -59,7 +59,7 @@
       "pl": "برادرها",
       "pr": "barâdar",
       "s": "erkek kardeş, ağabey",
-      "emoji": "👦",
+      "emoji": "",
       "ex": {
         "t": "من یک برادر دارم.",
         "pr": "Man yek barâdar dâram.",
@@ -72,7 +72,7 @@
       "pl": "خواهرها",
       "pr": "xâhar",
       "s": "kız kardeş, abla",
-      "emoji": "👧",
+      "emoji": "",
       "ex": {
         "t": "خواهرم دانشجو است.",
         "pr": "Xâharam dâneşcu ast.",
@@ -85,7 +85,7 @@
       "pl": "پسرها",
       "pr": "pesar",
       "s": "oğul; erkek çocuk",
-      "emoji": "",
+      "emoji": "👦",
       "ex": {
         "t": "آن‌ها یک پسر دارند.",
         "pr": "Ânhâ yek pesar dârand.",
@@ -98,7 +98,7 @@
       "pl": "دخترها",
       "pr": "doxtar",
       "s": "kız; kız evlat",
-      "emoji": "",
+      "emoji": "👧",
       "ex": {
         "t": "دختر من هشت سال دارد.",
         "pr": "Doxtar-e man haşt sâl dârad.",
@@ -169,12 +169,12 @@
     {
       "id": "w13",
       "t": "کوچک",
-      "pr": "kuçak",
+      "pr": "kuçek",
       "s": "küçük",
       "emoji": "",
       "ex": {
         "t": "برادرم کوچک است.",
-        "pr": "Barâdaram kuçak ast.",
+        "pr": "Barâdaram kuçek ast.",
         "s": "Erkek kardeşim küçük."
       }
     },
@@ -279,7 +279,7 @@
       {
         "sp": "B",
         "t": "بله، یک برادر کوچک دارم. اسمش رضا است.",
-        "pr": "Bale, yek barâdar-e kuçak dâram. Esmaş Rezâ ast.",
+        "pr": "Bale, yek barâdar-e kuçek dâram. Esmaş Rezâ ast.",
         "s": "Evet, küçük bir erkek kardeşim var. Adı Reza."
       },
       {
@@ -334,7 +334,7 @@
         ],
         [
           "برادر کوچک من",
-          "barâdar-e kuçak-e man",
+          "barâdar-e kuçek-e man",
           "benim küçük kardeşim"
         ]
       ],
@@ -412,7 +412,7 @@
           "answer": [
             "من"
           ],
-          "pr": "Barâdar-e man kuçak ast.",
+          "pr": "Barâdar-e man kuçek ast.",
           "s": "Benim kardeşim küçük."
         },
         {
@@ -615,7 +615,7 @@
       },
       {
         "t": "برادرهایم کوچک هستند.",
-        "pr": "Barâdarhâyam kuçak hastand.",
+        "pr": "Barâdarhâyam kuçek hastand.",
         "s": "Erkek kardeşlerim küçük."
       },
       {

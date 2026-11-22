@@ -382,7 +382,7 @@
         },
         {
           "t": "آشپزخانه کوچک نیست.",
-          "pr": "Âşpazxâne kuçak nist.",
+          "pr": "Âşpazxâne kuçek nist.",
           "s": "Mutfak küçük değil."
         }
       ],
@@ -453,7 +453,7 @@
         {
           "type": "order",
           "t": "حمام کوچک نیست.",
-          "pr": "Hammâm kuçak nist.",
+          "pr": "Hammâm kuçek nist.",
           "s": "Banyo küçük değil."
         }
       ]
@@ -595,7 +595,7 @@
       },
       {
         "t": "خانه‌ی او کوچک است، ولی خیلی قشنگ است.",
-        "pr": "Xâne-ye u kuçak ast, vali xeyli ğaşang ast.",
+        "pr": "Xâne-ye u kuçek ast, vali xeyli ğaşang ast.",
         "s": "Onun evi küçük ama çok güzel."
       },
       {
@@ -687,7 +687,7 @@
   "sentences": [
     {
       "t": "خانه‌ی ما کوچک است.",
-      "pr": "Xâne-ye mâ kuçak ast.",
+      "pr": "Xâne-ye mâ kuçek ast.",
       "s": "Bizim evimiz küçük."
     },
     {

@@ -78,7 +78,7 @@
       "t": "شام",
       "s": "akşam yemeği",
       "pr": "şâm",
-      "emoji": "🍽️",
+      "emoji": "",
       "ex": {
         "t": "ما ساعت هشت شام می‌خوریم.",
         "s": "Biz saat sekizde akşam yemeği yiyoruz.",
@@ -90,7 +90,7 @@
       "t": "بیدار شدن",
       "s": "uyanmak",
       "pr": "bidâr şodan",
-      "emoji": "⏰",
+      "emoji": "",
       "ex": {
         "t": "من ساعت هفت بیدار می‌شوم.",
         "s": "Ben saat yedide uyanıyorum.",
