@@ -571,12 +571,18 @@
     {
       "t": "Anne ve baba.",
       "s": "مادر و پدر.",
-      "pr": "آنِّه وِه بابا."
+      "pr": "آنِّه وِه بابا.",
+      "alts": [
+        "Baba ve anne."
+      ]
     },
     {
       "t": "Ekmek ve peynir.",
       "s": "نان و پنیر.",
-      "pr": "اِکمِک وِه پِینیر."
+      "pr": "اِکمِک وِه پِینیر.",
+      "alts": [
+        "Peynir ve ekmek."
+      ]
     },
     {
       "t": "Evet, bu bir kitap.",
