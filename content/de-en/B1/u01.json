@@ -192,12 +192,18 @@
     {
       "id": "p03",
       "t": "Damals war alles ganz anders.",
-      "s": "Back then everything was completely different."
+      "s": "Back then everything was completely different.",
+      "alts": [
+        "Alles war damals ganz anders."
+      ]
     },
     {
       "id": "p04",
       "t": "Daran erinnere ich mich noch gut.",
-      "s": "I still remember that well."
+      "s": "I still remember that well.",
+      "alts": [
+        "Ich erinnere mich noch gut daran."
+      ]
     },
     {
       "id": "p05",
@@ -207,7 +213,10 @@
     {
       "id": "p06",
       "t": "Mit achtzehn bin ich nach Deutschland gekommen.",
-      "s": "I came to Germany when I was eighteen."
+      "s": "I came to Germany when I was eighteen.",
+      "alts": [
+        "Ich bin mit achtzehn nach Deutschland gekommen."
+      ]
     },
     {
       "id": "p07",
@@ -689,15 +698,24 @@
   "sentences": [
     {
       "t": "Ich bin in einer kleinen Stadt aufgewachsen.",
-      "s": "I grew up in a small town."
+      "s": "I grew up in a small town.",
+      "alts": [
+        "In einer kleinen Stadt bin ich aufgewachsen."
+      ]
     },
     {
       "t": "Als Kind spielte ich oft im Garten.",
-      "s": "As a child I often played in the yard."
+      "s": "As a child I often played in the yard.",
+      "alts": [
+        "Ich spielte als Kind oft im Garten."
+      ]
     },
     {
       "t": "Im Jahr 2012 zogen wir nach Deutschland.",
-      "s": "In 2012 we moved to Germany."
+      "s": "In 2012 we moved to Germany.",
+      "alts": [
+        "Wir zogen im Jahr 2012 nach Deutschland."
+      ]
     },
     {
       "t": "Meine Eltern arbeiteten beide als Lehrer.",
@@ -705,7 +723,10 @@
     },
     {
       "t": "Als ich zwanzig war, verließ ich meine Heimat.",
-      "s": "When I was twenty, I left my home country."
+      "s": "When I was twenty, I left my home country.",
+      "alts": [
+        "Ich verließ meine Heimat, als ich zwanzig war."
+      ]
     },
     {
       "t": "Wenn ich krank war, kochte meine Mutter Suppe für mich.",
@@ -717,7 +738,10 @@
     },
     {
       "t": "Damals hatten wir noch kein Handy.",
-      "s": "Back then we didn't have a cell phone yet."
+      "s": "Back then we didn't have a cell phone yet.",
+      "alts": [
+        "Wir hatten damals noch kein Handy."
+      ]
     }
   ]
 }

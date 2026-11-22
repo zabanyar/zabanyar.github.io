@@ -220,7 +220,10 @@
     {
       "id": "p07",
       "t": "Ich brauche eine Krankschreibung für meinen Arbeitgeber.",
-      "s": "I need a sick note for my employer."
+      "s": "I need a sick note for my employer.",
+      "alts": [
+        "Für meinen Arbeitgeber brauche ich eine Krankschreibung."
+      ]
     },
     {
       "id": "p08",
@@ -692,15 +695,25 @@
     },
     {
       "t": "Beim Hausarzt wird zuerst der Blutdruck gemessen.",
-      "s": "At the family doctor's, your blood pressure is taken first."
+      "s": "At the family doctor's, your blood pressure is taken first.",
+      "alts": [
+        "Zuerst wird beim Hausarzt der Blutdruck gemessen.",
+        "Der Blutdruck wird beim Hausarzt zuerst gemessen."
+      ]
     },
     {
       "t": "Mein Bruder wurde gestern am Knie operiert.",
-      "s": "My brother had knee surgery yesterday."
+      "s": "My brother had knee surgery yesterday.",
+      "alts": [
+        "Gestern wurde mein Bruder am Knie operiert."
+      ]
     },
     {
       "t": "Das Medikament hat leider starke Nebenwirkungen.",
-      "s": "Unfortunately, the medication has strong side effects."
+      "s": "Unfortunately, the medication has strong side effects.",
+      "alts": [
+        "Leider hat das Medikament starke Nebenwirkungen."
+      ]
     },
     {
       "t": "Bist du schon gegen Grippe geimpft worden?",
@@ -712,11 +725,17 @@
     },
     {
       "t": "Im Wartezimmer saßen viele Patienten.",
-      "s": "Many patients were sitting in the waiting room."
+      "s": "Many patients were sitting in the waiting room.",
+      "alts": [
+        "Viele Patienten saßen im Wartezimmer."
+      ]
     },
     {
       "t": "Die Kosten werden von der Krankenkasse übernommen.",
-      "s": "The costs are covered by the health insurance fund."
+      "s": "The costs are covered by the health insurance fund.",
+      "alts": [
+        "Von der Krankenkasse werden die Kosten übernommen."
+      ]
     }
   ]
 }

@@ -204,7 +204,10 @@
     {
       "id": "p06",
       "t": "Das kann ich kaum glauben.",
-      "s": "I can hardly believe that."
+      "s": "I can hardly believe that.",
+      "alts": [
+        "Ich kann das kaum glauben."
+      ]
     },
     {
       "id": "p07",
@@ -437,7 +440,7 @@
         "t": "den Kollegen, dem Kunden, des Menschen",
         "s": "Weak masculine nouns (n-declension)"
       },
-      "explain": "Most masculine nouns only change in the genitive (**des Vaters**). A small group – the **n-declension** or *weak nouns* – adds **-n** or **-en** in **every case except the nominative singular**: **der Kollege → den Kollegen, dem Kollegen, des Kollegen**. The plural also ends in -n or -en: **die Kollegen**.\nWhich nouns belong to this group? They are masculine, and most of them refer to people or animals:\n• masculine nouns ending in **-e**: **der Kollege, der Kunde, der Junge, der Neffe, der Löwe**, and nationalities like **der Franzose, der Türke**\n• foreign words ending in **-ent, -ant, -ist, -at, -oge**: **der Student, der Präsident, der Praktikant, der Journalist, der Kandidat, der Biologe**\n• a few short nouns: **der Mensch, der Nachbar, der Herr, der Bär** (**der Nachbar → den Nachbarn**, **der Herr → den Herrn**, plural **die Herren**)\nCareful: not every masculine noun in -e is weak – **der Käse** is normal. With **Herr**: **Sehr geehrter Herr Wagner** (greeting in a letter, nominative), but **ein Brief an Herrn Wagner**.\nA few weak nouns add **-s** in the genitive as well: **der Name → des Namens**. In casual speech people sometimes drop the -n (*mit dem Nachbar*), but in writing this counts as a mistake.",
+      "explain": "Most masculine nouns only change in the genitive (**des Vaters**). A small group – the **n-declension** or *weak nouns* – adds **-n** or **-en** in **every case except the nominative singular**: **der Kollege → den Kollegen, dem Kollegen, des Kollegen**. The plural also ends in -n or -en: **die Kollegen**.\nWhich nouns belong to this group? They are masculine, and most of them refer to people or animals:\n• masculine nouns ending in **-e**: **der Kollege, der Kunde, der Junge, der Neffe, der Löwe**, and nationalities like **der Franzose, der Türke**\n• foreign words for **people** ending in **-ent, -ant, -ist, -at, -oge**: **der Student, der Präsident, der Praktikant, der Journalist, der Kandidat, der Biologe**\n• a few short nouns: **der Mensch, der Nachbar, der Herr, der Bär** (**der Nachbar → den Nachbarn**, **der Herr → den Herrn**, plural **die Herren**)\nCareful: not every masculine noun in -e is weak – **der Käse** is normal. With **Herr**: **Sehr geehrter Herr Wagner** (greeting in a letter, nominative), but **ein Brief an Herrn Wagner**.\nA few weak nouns add **-s** in the genitive as well: **der Name → des Namens**. In casual speech people sometimes drop the -n (*mit dem Nachbar*), but in writing this counts as a mistake.",
       "table": [
         [
           "Nominativ",
@@ -564,7 +567,8 @@
           "t": "Ich kenne den Kunden schon lange.",
           "s": "I've known the customer for a long time.",
           "alts": [
-            "Den Kunden kenne ich schon lange."
+            "Den Kunden kenne ich schon lange.",
+            "Schon lange kenne ich den Kunden."
           ]
         }
       ]
@@ -691,11 +695,18 @@
   "sentences": [
     {
       "t": "Ich lese die Nachrichten meistens auf dem Handy.",
-      "s": "I usually read the news on my phone."
+      "s": "I usually read the news on my phone.",
+      "alts": [
+        "Die Nachrichten lese ich meistens auf dem Handy.",
+        "Meistens lese ich die Nachrichten auf dem Handy."
+      ]
     },
     {
       "t": "Die Wettervorhersage für morgen ist leider schlecht.",
-      "s": "Unfortunately, the weather forecast for tomorrow is bad."
+      "s": "Unfortunately, the weather forecast for tomorrow is bad.",
+      "alts": [
+        "Leider ist die Wettervorhersage für morgen schlecht."
+      ]
     },
     {
       "t": "Hast du den Artikel meines Bruders schon gelesen?",
@@ -703,7 +714,10 @@
     },
     {
       "t": "Der Journalist hat den Präsidenten interviewt.",
-      "s": "The journalist interviewed the president."
+      "s": "The journalist interviewed the president.",
+      "alts": [
+        "Den Präsidenten hat der Journalist interviewt."
+      ]
     },
     {
       "t": "Meine Eltern haben eine Tageszeitung abonniert.",
@@ -711,11 +725,17 @@
     },
     {
       "t": "Wir sprechen beim Essen oft über aktuelle Themen.",
-      "s": "We often talk about current issues during meals."
+      "s": "We often talk about current issues during meals.",
+      "alts": [
+        "Beim Essen sprechen wir oft über aktuelle Themen."
+      ]
     },
     {
       "t": "Der Name des Kollegen fällt mir nicht ein.",
-      "s": "I can't think of the colleague's name."
+      "s": "I can't think of the colleague's name.",
+      "alts": [
+        "Mir fällt der Name des Kollegen nicht ein."
+      ]
     },
     {
       "t": "Die Werbung vor dem Film war sehr lang.",

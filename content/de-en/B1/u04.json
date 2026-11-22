@@ -48,7 +48,7 @@
       "id": "w04",
       "t": "bar bezahlen",
       "s": "to pay (in) cash",
-      "emoji": "💶",
+      "emoji": "",
       "ex": {
         "t": "In kleinen Läden bezahlen viele Leute noch bar.",
         "s": "In small stores, many people still pay cash."
@@ -110,7 +110,7 @@
       "id": "w10",
       "t": "das Bargeld",
       "s": "cash",
-      "emoji": "💵",
+      "emoji": "💶",
       "ex": {
         "t": "Hast du Bargeld dabei? Ich habe nur meine Karte.",
         "s": "Do you have any cash on you? I only have my card."
@@ -175,7 +175,10 @@
     {
       "id": "p01",
       "t": "Das kann ich mir nicht leisten.",
-      "s": "I can't afford that."
+      "s": "I can't afford that.",
+      "alts": [
+        "Ich kann mir das nicht leisten."
+      ]
     },
     {
       "id": "p02",
@@ -190,22 +193,34 @@
     {
       "id": "p04",
       "t": "Ich würde diese Jacke gern umtauschen.",
-      "s": "I'd like to exchange this jacket."
+      "s": "I'd like to exchange this jacket.",
+      "alts": [
+        "Diese Jacke würde ich gern umtauschen."
+      ]
     },
     {
       "id": "p05",
       "t": "Haben Sie den Kassenbon noch?",
-      "s": "Do you still have the receipt?"
+      "s": "Do you still have the receipt?",
+      "alts": [
+        "Haben Sie noch den Kassenbon?"
+      ]
     },
     {
       "id": "p06",
       "t": "Das ist mir zu teuer.",
-      "s": "That's too expensive for me."
+      "s": "That's too expensive for me.",
+      "alts": [
+        "Mir ist das zu teuer."
+      ]
     },
     {
       "id": "p07",
       "t": "An deiner Stelle würde ich noch warten.",
-      "s": "If I were you, I'd wait a little longer."
+      "s": "If I were you, I'd wait a little longer.",
+      "alts": [
+        "Ich würde an deiner Stelle noch warten."
+      ]
     },
     {
       "id": "p08",
@@ -430,7 +445,10 @@
         {
           "type": "order",
           "t": "Du solltest nicht so viel Geld ausgeben.",
-          "s": "You shouldn't spend so much money."
+          "s": "You shouldn't spend so much money.",
+          "alts": [
+            "So viel Geld solltest du nicht ausgeben."
+          ]
         }
       ]
     },
@@ -674,7 +692,11 @@
   "sentences": [
     {
       "t": "Ich hebe am Automaten Geld ab.",
-      "s": "I'm withdrawing money from the ATM."
+      "s": "I'm withdrawing money from the ATM.",
+      "alts": [
+        "Ich hebe Geld am Automaten ab.",
+        "Am Automaten hebe ich Geld ab."
+      ]
     },
     {
       "t": "Kann ich hier bar bezahlen?",
@@ -682,7 +704,10 @@
     },
     {
       "t": "Wir sparen für ein neues Auto.",
-      "s": "We're saving for a new car."
+      "s": "We're saving for a new car.",
+      "alts": [
+        "Für ein neues Auto sparen wir."
+      ]
     },
     {
       "t": "Wenn ich mehr Zeit hätte, würde ich öfter kochen.",

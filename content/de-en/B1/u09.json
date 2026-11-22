@@ -208,7 +208,11 @@
     {
       "id": "p07",
       "t": "Dafür bin ich leider nicht zuständig.",
-      "s": "I'm afraid I'm not responsible for that."
+      "s": "I'm afraid I'm not responsible for that.",
+      "alts": [
+        "Ich bin dafür leider nicht zuständig.",
+        "Leider bin ich dafür nicht zuständig."
+      ]
     },
     {
       "id": "p08",
@@ -566,7 +570,9 @@
           "t": "Wir fahren morgen mit dem Zug nach Berlin.",
           "s": "Tomorrow we're taking the train to Berlin.",
           "alts": [
-            "Morgen fahren wir mit dem Zug nach Berlin."
+            "Morgen fahren wir mit dem Zug nach Berlin.",
+            "Mit dem Zug fahren wir morgen nach Berlin.",
+            "Nach Berlin fahren wir morgen mit dem Zug."
           ]
         }
       ]
@@ -693,7 +699,10 @@
   "sentences": [
     {
       "t": "Ich muss beim Bürgeramt einen neuen Ausweis beantragen.",
-      "s": "I have to apply for a new ID card at the citizens' office."
+      "s": "I have to apply for a new ID card at the citizens' office.",
+      "alts": [
+        "Beim Bürgeramt muss ich einen neuen Ausweis beantragen."
+      ]
     },
     {
       "t": "Haben Sie alle Unterlagen dabei?",
@@ -701,7 +710,10 @@
     },
     {
       "t": "Das Formular können Sie auch online ausfüllen.",
-      "s": "You can also fill out the form online."
+      "s": "You can also fill out the form online.",
+      "alts": [
+        "Sie können das Formular auch online ausfüllen."
+      ]
     },
     {
       "t": "Können Sie es mir bitte zeigen?",
@@ -709,15 +721,24 @@
     },
     {
       "t": "Ich schicke Ihnen die Bescheinigung per Post.",
-      "s": "I'll send you the certificate by mail."
+      "s": "I'll send you the certificate by mail.",
+      "alts": [
+        "Die Bescheinigung schicke ich Ihnen per Post."
+      ]
     },
     {
       "t": "Wir haben endlich eine Entscheidung getroffen.",
-      "s": "We've finally made a decision."
+      "s": "We've finally made a decision.",
+      "alts": [
+        "Endlich haben wir eine Entscheidung getroffen."
+      ]
     },
     {
       "t": "Mein Reisepass ist leider nicht mehr gültig.",
-      "s": "Unfortunately, my passport is no longer valid."
+      "s": "Unfortunately, my passport is no longer valid.",
+      "alts": [
+        "Leider ist mein Reisepass nicht mehr gültig."
+      ]
     },
     {
       "t": "Seit wann ist das neue Gesetz in Kraft?",

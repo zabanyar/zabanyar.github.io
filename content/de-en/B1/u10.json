@@ -204,7 +204,10 @@
     {
       "id": "p06",
       "t": "Das lasse ich mir nicht entgehen.",
-      "s": "I wouldn't miss that."
+      "s": "I wouldn't miss that.",
+      "alts": [
+        "Ich lasse mir das nicht entgehen."
+      ]
     },
     {
       "id": "p07",
@@ -695,7 +698,11 @@
   "sentences": [
     {
       "t": "Das Stadtfest findet jedes Jahr im Juni statt.",
-      "s": "The city festival takes place every year in June."
+      "s": "The city festival takes place every year in June.",
+      "alts": [
+        "Jedes Jahr findet das Stadtfest im Juni statt.",
+        "Im Juni findet das Stadtfest jedes Jahr statt."
+      ]
     },
     {
       "t": "Hat jemand Lust, heute Abend ins Kino zu gehen?",
@@ -703,15 +710,24 @@
     },
     {
       "t": "Ich habe für die Feier nichts Besonderes vorbereitet.",
-      "s": "I haven't prepared anything special for the party."
+      "s": "I haven't prepared anything special for the party.",
+      "alts": [
+        "Für die Feier habe ich nichts Besonderes vorbereitet."
+      ]
     },
     {
       "t": "Sonntags ist der Eintritt ins Museum kostenlos.",
-      "s": "Admission to the museum is free on Sundays."
+      "s": "Admission to the museum is free on Sundays.",
+      "alts": [
+        "Der Eintritt ins Museum ist sonntags kostenlos."
+      ]
     },
     {
       "t": "Zu Nouruz besuchen wir alle unsere Verwandten.",
-      "s": "At Nowruz we visit all our relatives."
+      "s": "At Nowruz we visit all our relatives.",
+      "alts": [
+        "Wir besuchen zu Nouruz alle unsere Verwandten."
+      ]
     },
     {
       "t": "Wir wünschen euch frohe Feiertage!",

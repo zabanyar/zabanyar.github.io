@@ -197,12 +197,18 @@
     {
       "id": "p02",
       "t": "Ich habe drei Jahre Berufserfahrung in diesem Bereich.",
-      "s": "I have three years of work experience in this field."
+      "s": "I have three years of work experience in this field.",
+      "alts": [
+        "In diesem Bereich habe ich drei Jahre Berufserfahrung."
+      ]
     },
     {
       "id": "p03",
       "t": "Ich arbeite gern im Team.",
-      "s": "I like working in a team."
+      "s": "I like working in a team.",
+      "alts": [
+        "Im Team arbeite ich gern."
+      ]
     },
     {
       "id": "p04",
@@ -678,7 +684,11 @@
   "sentences": [
     {
       "t": "Ich habe die Stellenanzeige im Internet gefunden.",
-      "s": "I found the job ad online."
+      "s": "I found the job ad online.",
+      "alts": [
+        "Die Stellenanzeige habe ich im Internet gefunden.",
+        "Im Internet habe ich die Stellenanzeige gefunden."
+      ]
     },
     {
       "t": "Wie heißt der Kollege, der neben dir sitzt?",
@@ -690,7 +700,10 @@
     },
     {
       "t": "Ich bin für die Bestellungen zuständig.",
-      "s": "I'm responsible for the orders."
+      "s": "I'm responsible for the orders.",
+      "alts": [
+        "Für die Bestellungen bin ich zuständig."
+      ]
     },
     {
       "t": "Es ist mir wichtig, im Team zu arbeiten.",
@@ -698,15 +711,24 @@
     },
     {
       "t": "Ich habe heute keine Zeit, Überstunden zu machen.",
-      "s": "I don't have time to work overtime today."
+      "s": "I don't have time to work overtime today.",
+      "alts": [
+        "Heute habe ich keine Zeit, Überstunden zu machen."
+      ]
     },
     {
       "t": "Morgen habe ich um neun Uhr eine Besprechung.",
-      "s": "Tomorrow I have a meeting at nine o'clock."
+      "s": "Tomorrow I have a meeting at nine o'clock.",
+      "alts": [
+        "Ich habe morgen um neun Uhr eine Besprechung."
+      ]
     },
     {
       "t": "Ich mache heute früher Feierabend.",
-      "s": "I'm finishing work earlier today."
+      "s": "I'm finishing work earlier today.",
+      "alts": [
+        "Heute mache ich früher Feierabend."
+      ]
     }
   ]
 }

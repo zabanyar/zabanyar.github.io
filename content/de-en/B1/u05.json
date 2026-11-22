@@ -192,7 +192,11 @@
     {
       "id": "p03",
       "t": "Mach bitte das Licht aus!",
-      "s": "Please turn off the light!"
+      "s": "Please turn off the light!",
+      "alts": [
+        "Mach das Licht bitte aus!",
+        "Bitte mach das Licht aus!"
+      ]
     },
     {
       "id": "p04",
@@ -202,7 +206,10 @@
     {
       "id": "p05",
       "t": "Ich bringe die Pfandflaschen zurück.",
-      "s": "I'm taking the deposit bottles back."
+      "s": "I'm taking the deposit bottles back.",
+      "alts": [
+        "Die Pfandflaschen bringe ich zurück."
+      ]
     },
     {
       "id": "p06",
@@ -679,7 +686,11 @@
     },
     {
       "t": "Bitte schalte das Licht aus!",
-      "s": "Please turn off the light!"
+      "s": "Please turn off the light!",
+      "alts": [
+        "Schalte bitte das Licht aus!",
+        "Schalte das Licht bitte aus!"
+      ]
     },
     {
       "t": "Ich trinke Leitungswasser, denn es ist billig und gut.",
@@ -699,7 +710,10 @@
     },
     {
       "t": "Die Pfandflaschen bringe ich in den Supermarkt zurück.",
-      "s": "I take the deposit bottles back to the supermarket."
+      "s": "I take the deposit bottles back to the supermarket.",
+      "alts": [
+        "Ich bringe die Pfandflaschen in den Supermarkt zurück."
+      ]
     },
     {
       "t": "Der Bus ist umweltfreundlicher als das Auto.",

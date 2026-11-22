@@ -179,7 +179,10 @@
     {
       "id": "p02",
       "t": "Grüß deine Eltern von mir!",
-      "s": "Say hi to your parents for me!"
+      "s": "Say hi to your parents for me!",
+      "alts": [
+        "Grüß von mir deine Eltern!"
+      ]
     },
     {
       "id": "p03",
@@ -199,7 +202,10 @@
     {
       "id": "p06",
       "t": "Lass uns in Ruhe darüber reden.",
-      "s": "Let's talk about it calmly."
+      "s": "Let's talk about it calmly.",
+      "alts": [
+        "Lass uns darüber in Ruhe reden."
+      ]
     },
     {
       "id": "p07",
@@ -286,7 +292,10 @@
       {
         "sp": "B",
         "t": "Keine Sorge, von mir erfährt sie nichts.",
-        "s": "Don't worry, she won't hear a thing from me."
+        "s": "Don't worry, she won't hear a thing from me.",
+        "alts": [
+          "Keine Sorge, sie erfährt nichts von mir."
+        ]
       }
     ]
   },
@@ -679,7 +688,10 @@
   "sentences": [
     {
       "t": "Ich verstehe mich sehr gut mit meiner Schwiegermutter.",
-      "s": "I get along very well with my mother-in-law."
+      "s": "I get along very well with my mother-in-law.",
+      "alts": [
+        "Mit meiner Schwiegermutter verstehe ich mich sehr gut."
+      ]
     },
     {
       "t": "Was wünscht ihr euch zur Hochzeit?",

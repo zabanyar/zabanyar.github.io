@@ -213,7 +213,10 @@
     {
       "id": "p08",
       "t": "Das lohnt sich auf jeden Fall.",
-      "s": "It's definitely worth it."
+      "s": "It's definitely worth it.",
+      "alts": [
+        "Auf jeden Fall lohnt sich das."
+      ]
     }
   ],
   "dialogue": {
@@ -411,7 +414,8 @@
           "t": "Bei gutem Wetter fahren wir an die Küste.",
           "s": "When the weather is good, we drive to the coast.",
           "alts": [
-            "Wir fahren bei gutem Wetter an die Küste."
+            "Wir fahren bei gutem Wetter an die Küste.",
+            "An die Küste fahren wir bei gutem Wetter."
           ]
         }
       ]
@@ -675,7 +679,10 @@
     },
     {
       "t": "Bei schlechtem Wetter besuchen wir lieber ein Museum.",
-      "s": "When the weather is bad, we'd rather visit a museum."
+      "s": "When the weather is bad, we'd rather visit a museum.",
+      "alts": [
+        "Wir besuchen bei schlechtem Wetter lieber ein Museum."
+      ]
     },
     {
       "t": "Kommt doch herein, das Essen ist fertig!",
@@ -683,11 +690,17 @@
     },
     {
       "t": "Wir sind durch die ganze Altstadt gelaufen.",
-      "s": "We walked through the entire old town."
+      "s": "We walked through the entire old town.",
+      "alts": [
+        "Durch die ganze Altstadt sind wir gelaufen."
+      ]
     },
     {
       "t": "Gegenüber vom Hotel gibt es einen kleinen Supermarkt.",
-      "s": "There's a small supermarket across from the hotel."
+      "s": "There's a small supermarket across from the hotel.",
+      "alts": [
+        "Es gibt gegenüber vom Hotel einen kleinen Supermarkt."
+      ]
     },
     {
       "t": "Vergiss bitte deinen Rucksack nicht!",
@@ -695,11 +708,17 @@
     },
     {
       "t": "Im Urlaub esse ich gern frischen Fisch.",
-      "s": "On vacation I like to eat fresh fish."
+      "s": "On vacation I like to eat fresh fish.",
+      "alts": [
+        "Ich esse im Urlaub gern frischen Fisch."
+      ]
     },
     {
       "t": "Wir haben uns in der Altstadt verlaufen.",
-      "s": "We got lost in the old town."
+      "s": "We got lost in the old town.",
+      "alts": [
+        "In der Altstadt haben wir uns verlaufen."
+      ]
     }
   ]
 }
