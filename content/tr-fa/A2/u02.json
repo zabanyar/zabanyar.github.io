@@ -263,7 +263,7 @@
         "voice": "m"
       },
       "B": {
-        "name": "Ayşe",
+        "name": "Gişe görevlisi",
         "voice": "f"
       }
     },
@@ -419,7 +419,8 @@
             "ten"
           ],
           "answer": 0,
-          "s": "من از ازمیر می‌آیم."
+          "s": "من از ازمیر می‌آیم.",
+          "why": "آخرین واکه‌ی İzmir حرفِ i است و r در Fıstıkçı Şahap نیست، پس -den: İzmir'den."
         },
         {
           "type": "choice",
@@ -430,42 +431,52 @@
             "tan"
           ],
           "answer": 0,
-          "s": "از اتوبوس پیاده شدیم."
+          "s": "از اتوبوس پیاده شدیم.",
+          "why": "otobüs با s تمام می‌شود، پس d به t تبدیل می‌شود؛ آخرین واکه ü است: otobüsten."
+        },
+        {
+          "type": "order",
+          "t": "Annem Tebriz'den geliyor.",
+          "s": "مادرم از تبریز می‌آید.",
+          "alts": [
+            "Tebriz'den annem geliyor."
+          ]
+        },
+        {
+          "type": "type",
+          "t": "Okul ___ çok uzak.",
+          "answer": [
+            "evden"
+          ],
+          "s": "مدرسه از خانه خیلی دور است.",
+          "why": "«از خانه» = ev + den؛ آخرین واکه e است: evden."
+        },
+        {
+          "type": "type",
+          "task": "بگویید «علی از مدرسه می‌آید».",
+          "cue": "Ali okulda.",
+          "cpr": "علی اُکولدا.",
+          "t": "Ali ___ geliyor.",
+          "answer": [
+            "okuldan"
+          ],
+          "why": "«از مدرسه» = okul + dan (آخرین واکه u است).",
+          "s": "علی از مدرسه می‌آید."
         },
         {
           "type": "choice",
-          "t": "Tren Ankara'___ saat dokuzda kalktı.",
+          "task": "کدام جواب درست است؟",
+          "cue": "Bu hediye kimden?",
+          "cpr": "بو هِدیِه کیمدِن؟",
+          "t": "___",
           "options": [
-            "dan",
-            "den",
-            "tan"
+            "Elif'ten.",
+            "Elif'te.",
+            "Elif'e."
           ],
           "answer": 0,
-          "s": "قطار ساعتِ نه از آنکارا حرکت کرد."
-        },
-        {
-          "type": "type",
-          "t": "Okul ev___ çok uzak.",
-          "answer": [
-            "den"
-          ],
-          "s": "مدرسه از خانه خیلی دور است."
-        },
-        {
-          "type": "type",
-          "t": "Saat beşte iş___ çıktım.",
-          "answer": [
-            "ten"
-          ],
-          "s": "ساعتِ پنج از سرِ کار بیرون آمدم."
-        },
-        {
-          "type": "type",
-          "t": "Bu çiçekler Ayşe'___.",
-          "answer": [
-            "den"
-          ],
-          "s": "این گل‌ها از طرفِ آیشه است."
+          "why": "«از طرفِ چه کسی؟» = kimden؛ بعد از f حرفِ d به t تبدیل می‌شود: Elif'ten.",
+          "s": "از طرفِ الیف."
         },
         {
           "type": "choice",
@@ -476,7 +487,8 @@
             "Nereye"
           ],
           "answer": 0,
-          "s": "از کجا می‌آیید؟ — از تبریز."
+          "s": "از کجا می‌آیید؟ — از تبریز.",
+          "why": "برای «از کجا؟» می‌گوییم nereden؛ nerede یعنی «کجا» و nereye «به کجا»."
         },
         {
           "type": "order",
@@ -555,29 +567,28 @@
             "için"
           ],
           "answer": 0,
-          "s": "از صبح تا عصر باران بارید."
+          "s": "از صبح تا عصر باران بارید.",
+          "why": "-den … -e kadar یعنی «از … تا …»: sabahtan akşama kadar."
         },
         {
-          "type": "choice",
-          "t": "Okula bisiklet___ gidiyorum.",
-          "options": [
-            "le",
-            "la",
-            "yle"
-          ],
-          "answer": 0,
-          "s": "با دوچرخه به مدرسه می‌روم."
+          "type": "order",
+          "t": "Köye arabayla gittik.",
+          "s": "با ماشین به روستا رفتیم.",
+          "alts": [
+            "Arabayla köye gittik."
+          ]
         },
         {
-          "type": "choice",
-          "t": "Havalimanına taksi___ gittik.",
-          "options": [
-            "yle",
-            "le",
-            "yla"
+          "type": "type",
+          "task": "ile را به پسوند تبدیل کنید.",
+          "cue": "Okula otobüs ile gidiyorum.",
+          "cpr": "اُکولا اُتُبوس ایلِه گیدیُروم.",
+          "t": "Okula ___ gidiyorum.",
+          "answer": [
+            "otobüsle"
           ],
-          "answer": 0,
-          "s": "با تاکسی به فرودگاه رفتیم."
+          "why": "ile بعد از حرفِ بی‌صدا -le/-la می‌شود؛ آخرین واکه ü است: otobüsle.",
+          "s": "با اتوبوس به مدرسه می‌روم."
         },
         {
           "type": "type",
@@ -585,23 +596,33 @@
           "answer": [
             "e"
           ],
-          "s": "از آنکارا تا ازمیر با اتوبوس رفتیم."
+          "s": "از آنکارا تا ازمیر با اتوبوس رفتیم.",
+          "why": "kadar در معنیِ «تا» بعد از پسوندِ «به» می‌آید: İzmir'e kadar."
         },
         {
           "type": "type",
-          "t": "Annem___ alışverişe gittim.",
+          "t": "___ alışverişe gittim.",
           "answer": [
-            "le"
+            "Annemle",
+            "Annem ile"
           ],
-          "s": "با مادرم به خرید رفتم."
+          "s": "با مادرم به خرید رفتم.",
+          "why": "«با مادرم» = annem + le (آخرین واکه e است): annemle."
         },
         {
-          "type": "type",
-          "t": "Köye araba___ gittik.",
-          "answer": [
-            "yla"
+          "type": "choice",
+          "task": "کدام جواب درست است؟",
+          "cue": "İstanbul'a neyle gittiniz?",
+          "cpr": "ایستانبولا نِیلِه گیتّینیز؟",
+          "t": "___",
+          "options": [
+            "Trenle gittik.",
+            "Trende gittik.",
+            "Trene gittik."
           ],
-          "s": "با ماشین به روستا رفتیم."
+          "answer": 0,
+          "why": "به Neyle? (با چه؟) با -le/-la جواب می‌دهیم: trenle.",
+          "s": "با قطار رفتیم."
         },
         {
           "type": "choice",
@@ -612,7 +633,8 @@
             "da"
           ],
           "answer": 0,
-          "s": "تا ساعتِ نه منتظر ماندیم."
+          "s": "تا ساعتِ نه منتظر ماندیم.",
+          "why": "kadar در معنیِ «تا» بعد از پسوندِ -a/-e می‌آید: dokuza kadar."
         },
         {
           "type": "order",
@@ -632,9 +654,9 @@
     },
     "text": [
       {
-        "t": "Merhaba, ben Amir. Geçen ay ailemle Tahran'dan Bursa'ya gittik.",
-        "s": "سلام، من امیر هستم. ماهِ گذشته با خانواده‌ام از تهران به بورسا رفتیم.",
-        "pr": "مِرحابا، بِن امیر. گِچِن آی آئیلِملِه تاهراندان بورسایا گیتّیک."
+        "t": "Merhaba, ben Kaveh. Geçen ay ailemle Tahran'dan Bursa'ya gittik.",
+        "s": "سلام، من کاوه هستم. ماهِ گذشته با خانواده‌ام از تهران به بورسا رفتیم.",
+        "pr": "مِرحابا، بِن کاوه. گِچِن آی آئیلِملِه تاهراندان بورسایا گیتّیک."
       },
       {
         "t": "Önce Tahran'dan İstanbul'a uçakla gittik.",
@@ -685,8 +707,8 @@
     "questions": [
       {
         "q": {
-          "t": "Amir ve ailesi Tahran'dan İstanbul'a neyle gittiler?",
-          "s": "امیر و خانواده‌اش با چه وسیله‌ای از تهران به استانبول رفتند؟"
+          "t": "Kaveh ve ailesi Tahran'dan İstanbul'a neyle gittiler?",
+          "s": "کاوه و خانواده‌اش با چه وسیله‌ای از تهران به استانبول رفتند؟"
         },
         "options": [
           "Uçakla",
@@ -742,6 +764,18 @@
           "Bir hafta"
         ],
         "answer": 1
+      },
+      {
+        "q": {
+          "t": "Kaveh ve ailesi Bursa'da nerede kaldılar?",
+          "s": "کاوه و خانواده‌اش در بورسا کجا ماندند؟"
+        },
+        "options": [
+          "Bir otelde",
+          "Bir arkadaşın evinde",
+          "Otogarda"
+        ],
+        "answer": 0
       }
     ]
   },

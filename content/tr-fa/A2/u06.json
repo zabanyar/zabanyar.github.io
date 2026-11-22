@@ -113,7 +113,8 @@
         "t": "Bu ay çok para harcadım.",
         "s": "این ماه خیلی پول خرج کردم.",
         "pr": "بو آی چُک پارا هارجادِم."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w09",
@@ -263,7 +264,7 @@
         "voice": "f"
       },
       "B": {
-        "name": "Mehmet",
+        "name": "Satıcı",
         "voice": "m"
       }
     },
@@ -414,18 +415,23 @@
             "şekersizli"
           ],
           "answer": 0,
-          "s": "چای‌تان با شکر باشد یا بی‌شکر؟"
+          "s": "چای‌تان با شکر باشد یا بی‌شکر؟",
+          "why": "-li یعنی «با…»: şekerli (با شکر)، در برابرِ şekersiz (بی‌شکر)."
         },
         {
           "type": "choice",
-          "t": "Ben kahvemi süt___ içiyorum.",
+          "task": "کدام جواب درست است؟",
+          "cue": "Çayınız nasıl olsun?",
+          "cpr": "چایِنِز ناسِل اُلسون؟",
+          "t": "___",
           "options": [
-            "süz",
-            "sız",
-            "lık"
+            "Şekersiz, lütfen.",
+            "Şekerlik, lütfen.",
+            "Şekersizli, lütfen."
           ],
           "answer": 0,
-          "s": "من قهوه‌ام را بدونِ شیر می‌خورم."
+          "why": "«بی‌شکر» = şeker + siz (آخرین واکه e است): şekersiz.",
+          "s": "بی‌شکر، لطفاً."
         },
         {
           "type": "choice",
@@ -436,23 +442,29 @@
             "acılık"
           ],
           "answer": 0,
-          "s": "این فلفل‌ها تند نیستند، اصلاً تندی ندارند."
+          "s": "این فلفل‌ها تند نیستند، اصلاً تندی ندارند.",
+          "why": "«hiç acı değil» یعنی تندی ندارد، پس -sız: acısız."
         },
         {
           "type": "type",
-          "t": "Bu çorba çok tuz___.",
+          "t": "Bu çorba çok ___.",
           "answer": [
-            "lu"
+            "tuzlu"
           ],
-          "s": "این سوپ خیلی شور است."
+          "s": "این سوپ خیلی شور است.",
+          "why": "«شور» = tuz + lu (آخرین واکه u است): tuzlu."
         },
         {
           "type": "type",
-          "t": "Müzeye giriş ücret___, para vermiyoruz.",
+          "task": "با -siz / -süz بگویید.",
+          "cue": "Bu kahvede süt yok.",
+          "cpr": "بو کاهوِدِه سوت یُک.",
+          "t": "Bu kahve ___.",
           "answer": [
-            "siz"
+            "sütsüz"
           ],
-          "s": "ورود به موزه رایگان است، پول نمی‌دهیم."
+          "why": "«بی‌…» = -süz؛ آخرین واکه‌ی süt حرفِ ü است: sütsüz.",
+          "s": "این قهوه بی‌شیر است."
         },
         {
           "type": "type",
@@ -460,7 +472,8 @@
           "answer": [
             "kiralık"
           ],
-          "s": "این خانه اجاره‌ای است. ماهی پانزده هزار لیر."
+          "s": "این خانه اجاره‌ای است. ماهی پانزده هزار لیر.",
+          "why": "kira + lık = kiralık (برای اجاره)."
         },
         {
           "type": "order",
@@ -553,7 +566,8 @@
             "Masaki"
           ],
           "answer": 0,
-          "s": "کتابِ روی میز مالِ توست؟"
+          "s": "کتابِ روی میز مالِ توست؟",
+          "why": "«کتابِ روی میز» = masada + ki ← masadaki kitap."
         },
         {
           "type": "choice",
@@ -564,23 +578,29 @@
             "sende"
           ],
           "answer": 0,
-          "s": "گوشیِ من کهنه است، مالِ تو نو است."
+          "s": "گوشیِ من کهنه است، مالِ تو نو است.",
+          "why": "«مالِ تو» به‌تنهایی = seninki."
         },
         {
           "type": "type",
-          "t": "Bugün___ gazete nerede?",
+          "t": "___ gazete nerede?",
           "answer": [
-            "kü"
+            "Bugünkü"
           ],
-          "s": "روزنامه‌ی امروز کجاست؟"
+          "s": "روزنامه‌ی امروز کجاست؟",
+          "why": "«…ِ امروز» = bugün + kü (با ü، استثنا): bugünkü."
         },
         {
           "type": "type",
-          "t": "Bu çanta benim değil, Elif'in___.",
+          "task": "با -ki کوتاه کنید.",
+          "cue": "Bu çanta benim çantam.",
+          "cpr": "بو چانتا بِنیم چانتام.",
+          "t": "Bu çanta ___.",
           "answer": [
-            "ki"
+            "benimki"
           ],
-          "s": "این کیف مالِ من نیست، مالِ الیف است."
+          "why": "به‌جای benim çantam می‌گوییم benimki (مالِ من).",
+          "s": "این کیف مالِ من است."
         },
         {
           "type": "choice",
@@ -591,15 +611,23 @@
             "de"
           ],
           "answer": 0,
-          "s": "گربه‌ای که در حیاط است گربه‌ی ماست."
+          "s": "گربه‌ای که در حیاط است گربه‌ی ماست.",
+          "why": "bahçede + ki؛ -ki عوض نمی‌شود: bahçedeki."
         },
         {
-          "type": "type",
-          "t": "Dün___ ekmek biraz bayat.",
-          "answer": [
-            "kü"
+          "type": "choice",
+          "task": "کدام جواب درست است؟",
+          "cue": "Bu cüzdan senin mi?",
+          "cpr": "بو جوزدان سِنین می؟",
+          "t": "___",
+          "options": [
+            "Hayır, benimki siyah.",
+            "Hayır, benim siyah.",
+            "Hayır, benimde siyah."
           ],
-          "s": "نانِ دیروز کمی بیات است."
+          "answer": 0,
+          "why": "«مالِ من» بدونِ اسم = benimki؛ benim به‌تنهایی کامل نیست.",
+          "s": "نه، مالِ من مشکی است."
         },
         {
           "type": "order",
@@ -719,6 +747,18 @@
           "Pazarda her şey ücretsiz."
         ],
         "answer": 0
+      },
+      {
+        "q": {
+          "t": "Sara şalı neyle ödedi?",
+          "s": "سارا پولِ شال را با چه پرداخت؟"
+        },
+        "options": [
+          "Nakit parayla",
+          "Kartla",
+          "Hiç ödemedi"
+        ],
+        "answer": 0
       }
     ]
   },
@@ -747,14 +787,14 @@
       "pr": "ماساداکی جوزدان بِنیمکی دِییل."
     },
     {
-      "t": "Kasada uzun bir sıra var.",
-      "s": "سرِ صندوق صفِ درازی هست.",
-      "pr": "کاسادا اوزون بیر سِرا وار."
+      "t": "Döviz bürosunda bugünkü kuru sordum.",
+      "s": "در صرافی نرخِ امروزِ ارز را پرسیدم.",
+      "pr": "دُویز بوروسوندا بوگونکو کورو سُردوم."
     },
     {
-      "t": "Bozuk paranız var mı?",
-      "s": "پولِ خرد دارید؟",
-      "pr": "بُزوک پارانِز وار مِ؟"
+      "t": "Pazardaki domatesler marketten daha ucuz.",
+      "s": "گوجه‌های بازارِ روز از سوپرمارکت ارزان‌ترند.",
+      "pr": "پازارداکی دُماتِسلِر مارکِتِّن داها اوجوز."
     },
     {
       "t": "Pazarda biraz pazarlık ettik.",

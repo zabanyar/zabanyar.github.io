@@ -24,7 +24,8 @@
         "t": "Bugün hava otuz derece.",
         "s": "امروز هوا سی درجه است.",
         "pr": "بوگون هاوا اُتوز دِرِجِه."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w02",
@@ -259,7 +260,7 @@
     },
     "speakers": {
       "A": {
-        "name": "Ayşe",
+        "name": "Zeynep",
         "voice": "f"
       },
       "B": {
@@ -276,9 +277,9 @@
       },
       {
         "sp": "B",
-        "t": "Merhaba Ayşe! Harika bir tatildi. Bir hafta Bodrum'daydık.",
-        "s": "سلام آیشه! تعطیلاتِ فوق‌العاده‌ای بود. یک هفته در بُدروم بودیم.",
-        "pr": "مِرحابا آیشِه! هاریکا بیر تاتیلدی. بیر هافتا بُدرومدایدِک."
+        "t": "Merhaba Zeynep! Harika bir tatildi. Bir hafta Bodrum'daydık.",
+        "s": "سلام زینب! تعطیلاتِ فوق‌العاده‌ای بود. یک هفته در بُدروم بودیم.",
+        "pr": "مِرحابا زِینِپ! هاریکا بیر تاتیلدی. بیر هافتا بُدرومدایدِک."
       },
       {
         "sp": "A",
@@ -419,18 +420,16 @@
             "du"
           ],
           "answer": 0,
-          "s": "دیروز هوا خیلی خوب بود."
+          "s": "دیروز هوا خیلی خوب بود.",
+          "why": "آخرین واکه‌ی güzel حرفِ e است، پس -di: güzeldi."
         },
         {
-          "type": "choice",
-          "t": "Geçen yaz biz Antalya'___.",
-          "options": [
-            "daydık",
-            "dayız",
-            "daydılar"
-          ],
-          "answer": 0,
-          "s": "تابستانِ گذشته ما در آنتالیا بودیم."
+          "type": "order",
+          "t": "Geçen yaz biz Antalya'daydık.",
+          "s": "تابستانِ گذشته ما در آنتالیا بودیم.",
+          "alts": [
+            "Biz geçen yaz Antalya'daydık."
+          ]
         },
         {
           "type": "type",
@@ -438,7 +437,8 @@
           "answer": [
             "dum"
           ],
-          "s": "من دیروز خیلی خسته بودم."
+          "s": "من دیروز خیلی خسته بودم.",
+          "why": "آخرین واکه‌ی yorgun حرفِ u است: -du + m = yorgundum."
         },
         {
           "type": "type",
@@ -446,7 +446,8 @@
           "answer": [
             "tu"
           ],
-          "s": "هتل استخر نداشت."
+          "s": "هتل استخر نداشت.",
+          "why": "yok + du؛ بعد از k حرفِ d به t تبدیل می‌شود: yoktu."
         },
         {
           "type": "choice",
@@ -457,26 +458,35 @@
             "müydü"
           ],
           "answer": 0,
-          "s": "دریا سرد بود؟ نه، نبود."
+          "s": "دریا سرد بود؟ نه، نبود.",
+          "why": "آخرین واکه‌ی soğuk حرفِ u است، پس muydu (جدا نوشته می‌شود)."
         },
         {
           "type": "type",
-          "t": "Hava sıcak___ ama nemli değildi.",
+          "task": "با dün بنویسید (گذشته).",
+          "cue": "Bugün evdeyim.",
+          "cpr": "بوگون اِودِییم.",
+          "t": "Dün de ___.",
           "answer": [
-            "tı"
+            "evdeydim"
           ],
-          "s": "هوا گرم بود، اما شرجی نبود."
+          "why": "بعد از واکه y می‌آید: evde + y + di + m = evdeydim.",
+          "s": "دیروز هم خانه بودم."
         },
         {
           "type": "choice",
-          "t": "Dün akşam biz evde___.",
+          "task": "کدام جواب درست است؟",
+          "cue": "Tatilin nasıldı?",
+          "cpr": "تاتیلین ناسِلدِ؟",
+          "t": "___",
           "options": [
-            "ydik",
-            "dik",
-            "ydiniz"
+            "Harika bir tatildi!",
+            "Harika bir tatildim!",
+            "Harika bir tatil miydi!"
           ],
           "answer": 0,
-          "s": "دیشب ما خانه بودیم."
+          "why": "درباره‌ی تعطیلات (سوم‌شخص) حرف می‌زنیم: tatil + di = tatildi؛ tatildim یعنی «من تعطیلات بودم».",
+          "s": "تعطیلاتِ فوق‌العاده‌ای بود!"
         },
         {
           "type": "order",
@@ -564,18 +574,20 @@
             "sana"
           ],
           "answer": 0,
-          "s": "این هدیه برای توست."
+          "s": "این هدیه برای توست.",
+          "why": "با ضمیرها için بعد از شکلِ اضافه می‌آید: senin için."
         },
         {
           "type": "choice",
           "t": "Tatile ___ gittim.",
           "options": [
             "ailemle",
-            "ailem gibi",
+            "ailemden",
             "ailemi"
           ],
           "answer": 0,
-          "s": "با خانواده‌ام به تعطیلات رفتم."
+          "s": "با خانواده‌ام به تعطیلات رفتم.",
+          "why": "«با خانواده‌ام» = ailem + le: ailemle."
         },
         {
           "type": "type",
@@ -583,15 +595,21 @@
           "answer": [
             "benim"
           ],
-          "s": "برادرم مثلِ من قدبلند است."
+          "s": "برادرم مثلِ من قدبلند است.",
+          "why": "با ضمیرها gibi بعد از شکلِ اضافه می‌آید: benim gibi."
         },
         {
           "type": "type",
-          "t": "Yarın sinemaya sen___ gelmek istiyorum.",
+          "task": "به‌جای annem «او» بگذارید.",
+          "cue": "Ben annemle sinemaya gittim.",
+          "cpr": "بِن آنِّملِه سینِمایا گیتّیم.",
+          "t": "Ben ___ sinemaya gittim.",
           "answer": [
-            "inle"
+            "onunla",
+            "onun ile"
           ],
-          "s": "فردا می‌خواهم با تو به سینما بیایم."
+          "why": "ile با ضمیرِ o می‌شود onunla (با او).",
+          "s": "من با او به سینما رفتم."
         },
         {
           "type": "choice",
@@ -602,26 +620,28 @@
             "onlara"
           ],
           "answer": 0,
-          "s": "این گل‌ها را برای آن‌ها خریدیم."
+          "s": "این گل‌ها را برای آن‌ها خریدیم.",
+          "why": "onlar با için تغییر نمی‌کند: onlar için."
         },
         {
-          "type": "choice",
-          "t": "Kar ___ beyaz bir kedimiz var.",
-          "options": [
-            "gibi",
-            "için",
-            "ile"
-          ],
-          "answer": 0,
+          "type": "order",
+          "t": "Kar gibi beyaz bir kedimiz var.",
           "s": "یک گربه‌ی سفید مثلِ برف داریم."
         },
         {
-          "type": "type",
-          "t": "Ben ___ gibi hızlı yüzemem.",
-          "answer": [
-            "senin"
+          "type": "choice",
+          "task": "کدام جواب درست است؟",
+          "cue": "Tatile kiminle gittin?",
+          "cpr": "تاتیلِه کیمینلِه گیتّین؟",
+          "t": "___",
+          "options": [
+            "Arkadaşlarımla.",
+            "Arkadaşlarım gibi.",
+            "Arkadaşlarım için."
           ],
-          "s": "من نمی‌توانم مثلِ تو تند شنا کنم."
+          "answer": 0,
+          "why": "به Kiminle? (با کی؟) با -le/-la جواب می‌دهیم: arkadaşlarımla.",
+          "s": "با دوستانم."
         },
         {
           "type": "order",
@@ -736,17 +756,26 @@
           "Yazarın babası"
         ],
         "answer": 2
+      },
+      {
+        "q": {
+          "t": "Karadeniz'de hava nasıldı?",
+          "s": "هوا در منطقه‌ی دریای سیاه چطور بود؟"
+        },
+        "options": [
+          "İstanbul'dan daha serindi.",
+          "İstanbul'dan daha sıcaktı.",
+          "Her gün çok güneşliydi."
+        ],
+        "answer": 0
       }
     ]
   },
   "sentences": [
     {
-      "t": "Dün akşam hava çok serindi.",
-      "s": "دیشب هوا خیلی خنک بود.",
-      "pr": "دون آکشام هاوا چُک سِریندی.",
-      "alts": [
-        "Hava dün akşam çok serindi."
-      ]
+      "t": "Uzungöl İstanbul'dan daha serindi.",
+      "s": "اوزونگول از استانبول خنک‌تر بود.",
+      "pr": "اوزونگُل ایستانبولدان داها سِریندی."
     },
     {
       "t": "Bugün hava yirmi beş derece.",
@@ -772,9 +801,12 @@
       "pr": "شِمسیِنی اونوتما، یاامور یائِیُر."
     },
     {
-      "t": "Bu çay senin için.",
-      "s": "این چای برای توست.",
-      "pr": "بو چای سِنین ایچین."
+      "t": "Hava soğuktu ve bütün gün evde kaldık.",
+      "s": "هوا سرد بود و تمامِ روز در خانه ماندیم.",
+      "pr": "هاوا سُئوکتو وِه بوتون گون اِودِه کالدِک.",
+      "alts": [
+        "Hava soğuktu ve evde bütün gün kaldık."
+      ]
     },
     {
       "t": "Hafta sonu arkadaşlarımla göle gittik.",

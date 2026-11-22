@@ -127,7 +127,8 @@
         "t": "Otopark dolu, arabayı sokağa park ediyorum.",
         "s": "پارکینگ پر است، ماشین را در کوچه پارک می‌کنم.",
         "pr": "اُتُپارک دُلو، آرابایِ سُکاآ پارک اِدیُروم."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w10",
@@ -266,7 +267,7 @@
         "voice": "f"
       },
       "B": {
-        "name": "Amir",
+        "name": "Adam",
         "voice": "m"
       }
     },
@@ -418,30 +419,39 @@
           "t": "Market okulun ___.",
           "options": [
             "karşısında",
-            "arkasında",
-            "önünde"
+            "karşısını",
+            "karşıda"
           ],
           "answer": 0,
-          "s": "سوپرمارکت روبه‌روی مدرسه است."
-        },
-        {
-          "type": "choice",
-          "t": "Kedi kanepenin ___ uyuyor.",
-          "options": [
-            "arkasında",
-            "arasında",
-            "yanına"
-          ],
-          "answer": 0,
-          "s": "گربه پشتِ مبل خوابیده است."
+          "s": "سوپرمارکت روبه‌روی مدرسه است.",
+          "why": "ساختار: اسم + -ın + کلمه‌ی مکان + -sı + -nda: okulun karşısında."
         },
         {
           "type": "type",
-          "t": "Otopark müze___ arkasında.",
+          "task": "بگویید «پشتِ ساختمان».",
+          "cue": "Otopark binanın önünde.",
+          "cpr": "اُتُپارک بینانِن اُنوندِه.",
+          "t": "Otopark binanın ___.",
           "answer": [
-            "nin"
+            "arkasında"
           ],
-          "s": "پارکینگ پشتِ موزه است."
+          "why": "arka + sı + nda: «پشتِ …» = arkasında.",
+          "s": "پارکینگ پشتِ ساختمان است."
+        },
+        {
+          "type": "choice",
+          "task": "کدام جواب درست است؟",
+          "cue": "Affedersiniz, postane nerede?",
+          "cpr": "آفِّدِرسینیز، پُستانِه نِرِدِه؟",
+          "t": "___",
+          "options": [
+            "Bankanın yanında.",
+            "Bankanın yanda.",
+            "Bankada yanında."
+          ],
+          "answer": 0,
+          "why": "اسمِ اول حالتِ اضافه (-nın) و کلمه‌ی مکان -ı + -nda می‌گیرد: bankanın yanında.",
+          "s": "کنارِ بانک."
         },
         {
           "type": "type",
@@ -449,7 +459,8 @@
           "answer": [
             "ünde"
           ],
-          "s": "جلوی سینما منتظرت هستم."
+          "s": "جلوی سینما منتظرت هستم.",
+          "why": "ön + ü + nde: «جلوی …» = önünde (آخرین واکه ö است)."
         },
         {
           "type": "choice",
@@ -460,7 +471,8 @@
             "önü"
           ],
           "answer": 0,
-          "s": "بچه‌ها جلوی خانه بازی می‌کنند."
+          "s": "بچه‌ها جلوی خانه بازی می‌کنند.",
+          "why": "«در جلوی …» (مکان) با -de: önünde؛ önüne یعنی «به جلوی …»."
         },
         {
           "type": "choice",
@@ -471,7 +483,8 @@
             "üstünde"
           ],
           "answer": 0,
-          "s": "مسجد بینِ پارک و مدرسه است."
+          "s": "مسجد بینِ پارک و مدرسه است.",
+          "why": "برای «بینِ دو چیز» می‌گوییم: X-la Y-nin arasında."
         },
         {
           "type": "order",
@@ -556,7 +569,8 @@
             "e"
           ],
           "answer": 0,
-          "s": "بعد از ساعتِ پنج خانه هستم."
+          "s": "بعد از ساعتِ پنج خانه هستم.",
+          "why": "با sonra پسوندِ «از» می‌آید و بعد از ş حرفِ d به t تبدیل می‌شود: beşten sonra."
         },
         {
           "type": "type",
@@ -564,7 +578,8 @@
           "answer": [
             "dan"
           ],
-          "s": "قبل از صبحانه پیاده‌روی می‌کنم."
+          "s": "قبل از صبحانه پیاده‌روی می‌کنم.",
+          "why": "با önce پسوندِ «از» می‌آید (آخرین واکه ı): kahvaltıdan önce."
         },
         {
           "type": "choice",
@@ -575,34 +590,47 @@
             "ilk"
           ],
           "answer": 0,
-          "s": "سه روز پیش به استانبول آمدیم."
-        },
-        {
-          "type": "type",
-          "t": "Önce düz gidin, ___ sağa dönün.",
-          "answer": [
-            "sonra"
-          ],
-          "s": "اول مستقیم بروید، بعد به راست بپیچید."
+          "s": "سه روز پیش به استانبول آمدیم.",
+          "why": "بعد از مدتِ زمان -den نمی‌آید: üç gün önce = سه روز پیش."
         },
         {
           "type": "choice",
-          "t": "___ sokaktan sola dönün.",
+          "task": "کدام جواب درست است؟",
+          "cue": "Kütüphaneye ne zaman gidiyorsun?",
+          "cpr": "کوتوپهانِیِه نِه زامان گیدیُرسون؟",
+          "t": "___",
           "options": [
-            "İlk",
-            "Önce",
-            "Son"
+            "Dersten önce.",
+            "Ders önce.",
+            "Derste önce."
           ],
           "answer": 0,
-          "s": "از کوچه‌ی اول به چپ بپیچید."
+          "why": "önce قبل از خودش پسوندِ «از» می‌خواهد: dersten önce.",
+          "s": "قبل از کلاس."
+        },
+        {
+          "type": "choice",
+          "t": "Evimiz ___ sokakta, köşede.",
+          "options": [
+            "ilk",
+            "önce",
+            "sonra"
+          ],
+          "answer": 0,
+          "s": "خانه‌ی ما در کوچه‌ی اول است، سرِ نبش.",
+          "why": "ilk صفت است و قبل از اسم می‌آید (ilk sokak)؛ önce و sonra قیدند و قبل از اسم نمی‌آیند."
         },
         {
           "type": "type",
-          "t": "Film___ sonra eve döndük.",
+          "task": "با -den sonra یک جمله کنید.",
+          "cue": "Önce yemek yiyoruz, sonra çay içiyoruz.",
+          "cpr": "اُنجِه یِمِک ییُروز، سُنرا چای ایچیُروز.",
+          "t": "___ sonra çay içiyoruz.",
           "answer": [
-            "den"
+            "Yemekten"
           ],
-          "s": "بعد از فیلم به خانه برگشتیم."
+          "why": "sonra با پسوندِ «از» می‌آید؛ بعد از k حرفِ d به t تبدیل می‌شود: yemekten sonra.",
+          "s": "بعد از غذا چای می‌خوریم."
         },
         {
           "type": "choice",
@@ -613,7 +641,8 @@
             "önce"
           ],
           "answer": 0,
-          "s": "اول خرید کردیم، بعد غذا خوردیم، در آخر به خانه برگشتیم."
+          "s": "اول خرید کردیم، بعد غذا خوردیم، در آخر به خانه برگشتیم.",
+          "why": "برای آخرین کار در یک ترتیب می‌گوییم en son."
         },
         {
           "type": "order",
@@ -731,19 +760,31 @@
           "Saat altıdan sonra"
         ],
         "answer": 1
+      },
+      {
+        "q": {
+          "t": "Akşamları evin karşısındaki park nasıl?",
+          "s": "عصرها پارکِ روبه‌روی خانه چطور است؟"
+        },
+        "options": [
+          "Çok kalabalık",
+          "Çok sessiz",
+          "Kapalı"
+        ],
+        "answer": 0
       }
     ]
   },
   "sentences": [
     {
-      "t": "Eczane bankanın karşısında.",
-      "s": "داروخانه روبه‌روی بانک است.",
-      "pr": "اِجزانِه بانکانِن کارشِسِندا."
+      "t": "İran Başkonsolosluğu postanenin yanında mı?",
+      "s": "سرکنسولگریِ ایران کنارِ اداره‌ی پست است؟",
+      "pr": "ایران باشکُنسُلُسلوئو پُستانِنین یانِندا مِ؟"
     },
     {
-      "t": "Otopark binanın arkasında.",
-      "s": "پارکینگ پشتِ ساختمان است.",
-      "pr": "اُتُپارک بینانِن آرکاسِندا."
+      "t": "Haritayı unutma, yolu bilmiyorum.",
+      "s": "نقشه را فراموش نکن، راه را نمی‌دانم.",
+      "pr": "هاریتایِ اونوتما، یُلو بیلمیُروم."
     },
     {
       "t": "Müze, kütüphaneyle postanenin arasında.",

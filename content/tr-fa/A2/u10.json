@@ -37,7 +37,8 @@
         "t": "Tiyatroda çok güzel bir oyun izledik.",
         "s": "در تئاتر یک نمایشِ خیلی قشنگ دیدیم.",
         "pr": "تیاترُدا چُک گوزِل بیر اُیون ایزلِدیک."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w03",
@@ -75,7 +76,8 @@
         "t": "Yazın gölün yanında kamp yaptık.",
         "s": "تابستان کنارِ دریاچه کمپ زدیم.",
         "pr": "یازِن گُلون یانِندا کامپ یاپتِک."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w06",
@@ -88,7 +90,8 @@
         "t": "Doğum günü partisine bütün sınıfı davet etti.",
         "s": "همه‌ی کلاس را به جشنِ تولدش دعوت کرد.",
         "pr": "دُئوم گونو پارتیسینِه بوتون سِنِفِ داوِت اِتّی."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w07",
@@ -293,7 +296,7 @@
         "sp": "B",
         "t": "Akşam sekizde. Önce bir yerde yemek yiyelim mi?",
         "s": "ساعتِ هشتِ شب. اول یک جایی غذا بخوریم؟",
-        "pr": "آکشام سِکیزدِه. اُنجِه بیر یِردِه یِمِک یی‌یِلیم می؟"
+        "pr": "آکشام سِکیزدِه. اُنجِه بیر یِردِه یِمِک ییِلیم می؟"
       },
       {
         "sp": "A",
@@ -416,7 +419,8 @@
             "gitmeyecek"
           ],
           "answer": 0,
-          "s": "من فردا سرِ کار نمی‌روم. مریضم."
+          "s": "من فردا سرِ کار نمی‌روم. مریضم.",
+          "why": "منفیِ آینده با «من»: git + me + yeceğ + im = gitmeyeceğim."
         },
         {
           "type": "choice",
@@ -424,10 +428,11 @@
           "options": [
             "misin",
             "mısın",
-            "miyim"
+            "musun"
           ],
           "answer": 0,
-          "s": "شنبه به مهمانی می‌آیی؟"
+          "s": "شنبه به مهمانی می‌آیی؟",
+          "why": "آخرین واکه‌ی gelecek حرفِ e است، پس mi؛ شناسه‌ی «تو» به آن می‌چسبد: misin."
         },
         {
           "type": "type",
@@ -436,15 +441,20 @@
             "meyecekler",
             "meyecek"
           ],
-          "s": "آن‌ها امسال تابستان به تعطیلات نمی‌روند."
+          "s": "آن‌ها امسال تابستان به تعطیلات نمی‌روند.",
+          "why": "منفی: me + yecek؛ برای «آن‌ها» -ler (یا بدونِ آن): gitmeyecekler."
         },
         {
           "type": "type",
-          "t": "Biz yarın evde olacak ___?",
+          "task": "سؤالی کنید.",
+          "cue": "Emre partiye gelecek.",
+          "cpr": "اِمرِه پارتیِه گِلِجِک.",
+          "t": "Emre partiye ___?",
           "answer": [
-            "mıyız"
+            "gelecek mi"
           ],
-          "s": "ما فردا خانه خواهیم بود؟"
+          "why": "سؤال: mi جدا بعد از فعل می‌آید؛ برای «او» شناسه‌ای نیست: gelecek mi?",
+          "s": "امره به مهمانی می‌آید؟"
         },
         {
           "type": "choice",
@@ -455,18 +465,23 @@
             "başlamayacak mı"
           ],
           "answer": 0,
-          "s": "کنسرت ساعتِ چند شروع می‌شود؟"
+          "s": "کنسرت ساعتِ چند شروع می‌شود؟",
+          "why": "با کلمه‌ی پرسشی (kaçta) دیگر mi نمی‌آید: Saat kaçta başlayacak?"
         },
         {
           "type": "choice",
-          "t": "Elif sinemaya gelmeyecek ___?",
+          "task": "کدام جواب درست است؟",
+          "cue": "Yarın konsere gelecek misin?",
+          "cpr": "یارِن کُنسِرِه گِلِجِک میسین؟",
+          "t": "___",
           "options": [
-            "mi",
-            "mı",
-            "misin"
+            "Maalesef gelemeyeceğim.",
+            "Maalesef gelmeyecek misin.",
+            "Maalesef gelemedim."
           ],
           "answer": 0,
-          "s": "الیف به سینما نمی‌آید؟"
+          "why": "سؤال درباره‌ی فرداست؛ جوابِ منفی با آینده و «من»: gelemeyeceğim.",
+          "s": "متأسفانه نمی‌توانم بیایم."
         },
         {
           "type": "order",
@@ -554,7 +569,8 @@
             "gidiyorlar"
           ],
           "answer": 0,
-          "s": "بیا، برویم سینما!"
+          "s": "بیا، برویم سینما!",
+          "why": "در gitmek حرفِ t قبل از واکه d می‌شود: gidelim."
         },
         {
           "type": "type",
@@ -562,15 +578,20 @@
           "answer": [
             "yiyelim"
           ],
-          "s": "امشب بیرون غذا بخوریم؟"
+          "s": "امشب بیرون غذا بخوریم؟",
+          "why": "yemek در این ساخت yiyelim می‌شود (مثلِ yiyorum)."
         },
         {
           "type": "type",
-          "t": "Parkta futbol oyna___!",
+          "task": "پیشنهاد بدهید (ببینیم؟).",
+          "cue": "Bu akşam film izliyoruz.",
+          "cpr": "بو آکشام فیلم ایزلیُروز.",
+          "t": "Bu akşam film ___?",
           "answer": [
-            "yalım"
+            "izleyelim mi"
           ],
-          "s": "در پارک فوتبال بازی کنیم!"
+          "why": "izle با واکه تمام می‌شود، پس y می‌آید: izleyelim؛ برای پرسیدن mi: izleyelim mi?",
+          "s": "امشب فیلم ببینیم؟"
         },
         {
           "type": "choice",
@@ -581,7 +602,8 @@
             "çıkmayalım mı"
           ],
           "answer": 0,
-          "s": "هوا خیلی بد است، امروز بیرون نرویم."
+          "s": "هوا خیلی بد است، امروز بیرون نرویم.",
+          "why": "هوا بد است، پس پیشنهادِ منفی: çık + mayalım = çıkmayalım."
         },
         {
           "type": "choice",
@@ -592,15 +614,23 @@
             "buluşmayalım mı"
           ],
           "answer": 0,
-          "s": "ساعتِ چند هم‌دیگر را ببینیم؟"
+          "s": "ساعتِ چند هم‌دیگر را ببینیم؟",
+          "why": "با kaçta دیگر mi نمی‌آید: Saat kaçta buluşalım?"
         },
         {
-          "type": "type",
-          "t": "Arkadaşları da davet ___ mi?",
-          "answer": [
-            "edelim"
+          "type": "choice",
+          "task": "کدام جواب درست است؟",
+          "cue": "Hafta sonu kamp yapalım mı?",
+          "cpr": "هافتا سُنو کامپ یاپالِم مِ؟",
+          "t": "___",
+          "options": [
+            "Harika fikir! Nerede buluşalım?",
+            "Harika fikir! Nerede buluşalım mı?",
+            "Harika fikir! Kamp yaptık mı?"
           ],
-          "s": "دوستان را هم دعوت کنیم؟"
+          "answer": 0,
+          "why": "با کلمه‌ی پرسشی (nerede) دیگر mi نمی‌آید: Nerede buluşalım?",
+          "s": "فکرِ خیلی خوبی است! کجا همدیگر را ببینیم؟"
         },
         {
           "type": "order",
@@ -627,9 +657,9 @@
         "pr": "مِرحابا مینا، ناسِلسِن؟"
       },
       {
-        "t": "Bu hafta sonu büyük bir planımız var!",
-        "s": "این آخرِ هفته یک برنامه‌ی بزرگ داریم!",
-        "pr": "بو هافتا سُنو بویوک بیر پْلانِمِز وار!"
+        "t": "Geçen hafta sonu hep evdeydik ve çok sıkıldık. Bu hafta sonu büyük bir planımız var!",
+        "s": "آخرِ هفته‌ی گذشته همه‌اش خانه بودیم و خیلی حوصله‌مان سر رفت. این آخرِ هفته یک برنامه‌ی بزرگ داریم!",
+        "pr": "گِچِن هافتا سُنو هِپ اِودِیدیک وِه چُک سِکِلدِک. بو هافتا سُنو بویوک بیر پْلانِمِز وار!"
       },
       {
         "t": "Cumartesi sabahı Emre ile bir göl kenarına gideceğiz ve orada kamp yapacağız.",
@@ -720,6 +750,18 @@
           "Bir parti"
         ],
         "answer": 1
+      },
+      {
+        "q": {
+          "t": "Zeynep bu mesajı neden yazıyor?",
+          "s": "زینب چرا این پیام را می‌نویسد؟"
+        },
+        "options": [
+          "Mina'yı kampa davet etmek için",
+          "Konser biletini satmak için",
+          "Kedisini Mina'ya bırakmak için"
+        ],
+        "answer": 0
       }
     ]
   },
@@ -743,9 +785,9 @@
       "pr": "هایِر، گِلمِیِجِییم، چُک ایشیم وار."
     },
     {
-      "t": "Hadi, sinemaya gidelim!",
-      "s": "بیا، برویم سینما!",
-      "pr": "هادی، سینِمایا گیدِلیم!"
+      "t": "Dün sinemaya gittik ama film çok sıkıcıydı.",
+      "s": "دیروز به سینما رفتیم، ولی فیلم خیلی خسته‌کننده بود.",
+      "pr": "دون سینِمایا گیتّیک آما فیلم چُک سِکِجِیدِ."
     },
     {
       "t": "Kafenin önünde buluşalım mı?",
@@ -760,12 +802,12 @@
     {
       "t": "Partiyi gelecek haftaya erteleyelim.",
       "s": "مهمانی را به هفته‌ی بعد بیندازیم.",
-      "pr": "پارتیی گِلِجِک هافتایا اِرتِلِیِلیم."
+      "pr": "پارتی‌یی گِلِجِک هافتایا اِرتِلِیِلیم."
     },
     {
-      "t": "Bu film hiç eğlenceli değil, çok sıkıcı.",
-      "s": "این فیلم اصلاً سرگرم‌کننده نیست، خیلی خسته‌کننده است.",
-      "pr": "بو فیلم هیچ اِیلِنجِلی دِییل، چُک سِکِجِ."
+      "t": "Geçen hafta sonu evde kaldık, bu hafta sonu kamp yapacağız.",
+      "s": "آخرِ هفته‌ی گذشته خانه ماندیم، این آخرِ هفته کمپ می‌زنیم.",
+      "pr": "گِچِن هافتا سُنو اِودِه کالدِک، بو هافتا سُنو کامپ یاپاجائِز."
     }
   ]
 }

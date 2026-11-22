@@ -271,7 +271,7 @@
     },
     "speakers": {
       "A": {
-        "name": "Zeynep",
+        "name": "Doktor",
         "voice": "f"
       },
       "B": {
@@ -343,14 +343,14 @@
       {
         "sp": "A",
         "t": "Hayır, gerekmiyor. Bu bir nezle. Bol su için ve evde dinlenin. Geçmiş olsun!",
-        "s": "نه، لازم نیست. این یک سرماخوردگی است. زیاد آب بنوشید و در خانه استراحت کنید. بلا به دور!",
+        "s": "نه، لازم نیست. این یک سرماخوردگی است. زیاد آب بنوشید و در خانه استراحت کنید. ان‌شاءالله زود خوب می‌شوید!",
         "pr": "هایِر، گِرِکمیُر. بو بیر نِزلِه. بُل سو ایچین وِه اِودِه دینلِنین. گِچمیش اُلسون!"
       },
       {
         "sp": "B",
-        "t": "Çok teşekkür ederim, Zeynep Hanım.",
-        "s": "خیلی ممنون، زینب خانم.",
-        "pr": "چُک تِشِکّور اِدِریم، زِینِپ هانِم."
+        "t": "Çok teşekkür ederim, Doktor Hanım.",
+        "s": "خیلی ممنون، خانم دکتر.",
+        "pr": "چُک تِشِکّور اِدِریم، دُکتُر هانِم."
       }
     ]
   },
@@ -431,18 +431,23 @@
             "hissetmıyorum"
           ],
           "answer": 0,
-          "s": "امروز حالم خوب نیست."
+          "s": "امروز حالم خوب نیست.",
+          "why": "منفی: ریشه + mi + yor؛ آخرین واکه‌ی hisset حرفِ e است، پس mi: hissetmiyorum."
         },
         {
           "type": "choice",
-          "t": "Kolun ağrıyor ___?",
+          "task": "کدام جواب درست است؟",
+          "cue": "Başın ağrıyor mu?",
+          "cpr": "باشِن آارِیُر مو؟",
+          "t": "___",
           "options": [
-            "mu",
-            "mi",
-            "mı"
+            "Hayır, ağrımıyor.",
+            "Hayır, ağrımadı mı.",
+            "Hayır, ağrıyor."
           ],
           "answer": 0,
-          "s": "بازویت درد می‌کند؟"
+          "why": "جوابِ منفی: ریشه + mı + yor: ağrı + mı + yor = ağrımıyor.",
+          "s": "نه، درد نمی‌کند."
         },
         {
           "type": "choice",
@@ -453,7 +458,8 @@
             "musun"
           ],
           "answer": 0,
-          "s": "شما هر روز ورزش می‌کنید؟"
+          "s": "شما هر روز ورزش می‌کنید؟",
+          "why": "بعد از -yor همیشه mu می‌آید و شناسه‌ی «شما» به آن می‌چسبد: musunuz."
         },
         {
           "type": "type",
@@ -461,15 +467,20 @@
           "answer": [
             "içmiyorum"
           ],
-          "s": "من قهوه نمی‌خورم، معده‌ام درد می‌کند."
+          "s": "من قهوه نمی‌خورم، معده‌ام درد می‌کند.",
+          "why": "منفی با «من»: iç + mi + yor + um = içmiyorum."
         },
         {
           "type": "type",
-          "t": "Ali bugün okula ___.",
+          "task": "سؤالی کنید.",
+          "cue": "Mina kahve içiyor.",
+          "cpr": "مینا کاهوِه ایچیُر.",
+          "t": "Mina kahve ___?",
           "answer": [
-            "gitmiyor"
+            "içiyor mu"
           ],
-          "s": "علی امروز به مدرسه نمی‌رود."
+          "why": "سؤالِ -iyor: بعد از فعل mu می‌آید (آخرین واکه o است): içiyor mu?",
+          "s": "مینا قهوه می‌خورد؟"
         },
         {
           "type": "type",
@@ -478,17 +489,12 @@
             "uyumuyorsun",
             "yatmıyorsun"
           ],
-          "s": "چرا نمی‌خوابی؟ ساعت دوازده است!"
+          "s": "چرا نمی‌خوابی؟ ساعت دوازده است!",
+          "why": "منفی با «تو»: uyu + mu + yor + sun؛ آخرین واکه u است، پس mu."
         },
         {
-          "type": "choice",
-          "t": "Çocuklar televizyon izliyorlar ___?",
-          "options": [
-            "mı",
-            "mi",
-            "mu"
-          ],
-          "answer": 0,
+          "type": "order",
+          "t": "Çocuklar televizyon izliyorlar mı?",
           "s": "بچه‌ها تلویزیون تماشا می‌کنند؟"
         },
         {
@@ -575,17 +581,12 @@
             "den"
           ],
           "answer": 0,
-          "s": "سه روز است که تب دارم."
+          "s": "سه روز است که تب دارم.",
+          "why": "مدت + -dır؛ آخرین واکه‌ی gün حرفِ ü است: gündür."
         },
         {
-          "type": "choice",
-          "t": "Sabah___ beri öksürüyorum.",
-          "options": [
-            "tan",
-            "dan",
-            "tır"
-          ],
-          "answer": 0,
+          "type": "order",
+          "t": "Sabahtan beri öksürüyorum.",
           "s": "از صبح سرفه می‌کنم."
         },
         {
@@ -597,15 +598,17 @@
             "zaman"
           ],
           "answer": 0,
-          "s": "از کی این‌جا کار می‌کنید؟"
+          "s": "از کی این‌جا کار می‌کنید؟",
+          "why": "با beri پسوندِ -den می‌آید: ne zamandan beri."
         },
         {
           "type": "type",
-          "t": "İki yıl___ Türkçe öğreniyorum.",
+          "t": "İki ___ Türkçe öğreniyorum.",
           "answer": [
-            "dır"
+            "yıldır"
           ],
-          "s": "دو سال است که ترکی یاد می‌گیرم."
+          "s": "دو سال است که ترکی یاد می‌گیرم.",
+          "why": "مدت + -dır: yıl + dır = yıldır (آخرین واکه ı)."
         },
         {
           "type": "type",
@@ -613,23 +616,35 @@
           "answer": [
             "den"
           ],
-          "s": "از دیروز دندانم درد می‌کند."
+          "s": "از دیروز دندانم درد می‌کند.",
+          "why": "نقطه‌ی شروع + -den beri: dünden beri."
         },
         {
           "type": "type",
-          "t": "Bir hafta___ spor yapmıyorum.",
+          "task": "با -dır بگویید: «سه روز است».",
+          "cue": "Mina pazartesiden beri işe gitmiyor.",
+          "cpr": "مینا پازارتِسیدِن بِری ایشِه گیتمیُر.",
+          "t": "Mina ___ işe gitmiyor.",
           "answer": [
-            "dır"
+            "üç gündür"
           ],
-          "s": "یک هفته است که ورزش نمی‌کنم."
+          "why": "مدتِ زمان + -dür (آخرین واکه ü است): üç gün + dür = üç gündür.",
+          "s": "سه روز است که مینا سرِ کار نمی‌رود."
         },
         {
-          "type": "type",
-          "t": "Pazartesi___ beri hastayım.",
-          "answer": [
-            "den"
+          "type": "choice",
+          "task": "کدام جواب درست است؟",
+          "cue": "Ne zamandan beri öksürüyorsun?",
+          "cpr": "نِه زاماندان بِری اُکسورویُرسون؟",
+          "t": "___",
+          "options": [
+            "Pazartesiden beri.",
+            "Pazartesidir.",
+            "Pazartesiye kadar."
           ],
-          "s": "از دوشنبه مریضم."
+          "answer": 0,
+          "why": "Ne zamandan beri? نقطه‌ی شروع را می‌پرسد: -den beri (pazartesiden beri).",
+          "s": "از دوشنبه."
         },
         {
           "type": "order",
@@ -750,14 +765,27 @@
       },
       {
         "q": {
-          "t": "Sara'nın bugün ateşi var mı?",
-          "s": "سارا امروز تب دارد؟"
+          "t": "Sara bugün evde ne yapıyor?",
+          "s": "سارا امروز در خانه چه کار می‌کند؟"
         },
         "options": [
-          "Evet, var.",
-          "Hayır, yok."
+          "Ödevlerini yapıyor.",
+          "Televizyon izliyor.",
+          "Yemek pişiriyor."
         ],
-        "answer": 1
+        "answer": 0
+      },
+      {
+        "q": {
+          "t": "Sara bu mesajı neden yazıyor?",
+          "s": "سارا چرا این پیام را می‌نویسد؟"
+        },
+        "options": [
+          "Derslere gelemiyor.",
+          "Ödevini bitirdi.",
+          "Yeni bir doktor arıyor."
+        ],
+        "answer": 0
       }
     ]
   },
@@ -779,9 +807,9 @@
       ]
     },
     {
-      "t": "Ateşin var mı?",
-      "s": "تب داری؟",
-      "pr": "آتِشین وار مِ؟"
+      "t": "Bu gece hangi eczane nöbetçi?",
+      "s": "امشب کدام داروخانه کشیک است؟",
+      "pr": "بو گِجِه هانگی اِجزانِه نُبِتچی؟"
     },
     {
       "t": "Ali bugün okula gitmiyor.",
