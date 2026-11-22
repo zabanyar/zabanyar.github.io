@@ -9,7 +9,7 @@
   "goals": [
     "بگویم در وقت آزادم چه کاری را دوست دارم.",
     "بگویم چه کاری را می‌توانم یا نمی‌توانم انجام بدهم.",
-    "سؤال بله/نه را با mi بپرسم."
+    "با misin / musun از کسی سؤالِ بله/نه بپرسم (Yüzebilir misin?)."
   ],
   "words": [
     {
@@ -70,7 +70,8 @@
         "t": "Çocuklar parkta oynuyor.",
         "s": "بچه‌ها در پارک بازی می‌کنند.",
         "pr": "چُجوکلار پارکتا اُینویُر."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w06",
@@ -82,7 +83,8 @@
         "t": "Elif resim yapıyor.",
         "s": "الیف نقاشی می‌کشد.",
         "pr": "اِلیف رِسیم یاپِیُر."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w07",
@@ -94,7 +96,8 @@
         "t": "Akşam müzik dinliyorum.",
         "s": "عصر موسیقی گوش می‌دهم.",
         "pr": "آکشام موزیک دینلیُروم."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w08",
@@ -106,7 +109,8 @@
         "t": "Lütfen dinleyin!",
         "s": "لطفاً گوش کنید!",
         "pr": "لوتفِن دینلِیین!"
-      }
+      },
+      "sym": true
     },
     {
       "id": "w09",
@@ -118,7 +122,8 @@
         "t": "Sara çok güzel şarkı söylüyor.",
         "s": "سارا خیلی قشنگ آواز می‌خواند.",
         "pr": "سارا چُک گوزِل شارکِ سُیلویُر."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w10",
@@ -156,7 +161,8 @@
         "t": "Akşam yürüyüş yapıyoruz.",
         "s": "عصر پیاده‌روی می‌کنیم.",
         "pr": "آکشام یورویوش یاپِیُروز."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w13",
@@ -168,7 +174,8 @@
         "t": "Sinema çok yakın.",
         "s": "سینما خیلی نزدیک است.",
         "pr": "سینِما چُک یاکِن."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w14",
@@ -244,16 +251,16 @@
         "voice": "f"
       },
       "B": {
-        "name": "Ali",
+        "name": "Amir",
         "voice": "m"
       }
     },
     "lines": [
       {
         "sp": "A",
-        "t": "Ali, boş zamanında ne yapıyorsun?",
-        "s": "علی، در وقت آزادت چه کار می‌کنی؟",
-        "pr": "علی، بُش زامانِندا نِه یاپِیُرسون؟"
+        "t": "Amir, boş zamanında ne yapıyorsun?",
+        "s": "امیر، در وقت آزادت چه کار می‌کنی؟",
+        "pr": "امیر، بُش زامانِندا نِه یاپِیُرسون؟"
       },
       {
         "sp": "B",
@@ -293,9 +300,9 @@
       },
       {
         "sp": "B",
-        "t": "Ben de! Akşam birlikte oynayalım mı?",
-        "s": "من هم! عصر با هم بازی کنیم؟",
-        "pr": "بِن دِه! آکشام بیرلیکتِه اُینایالِم مِ؟"
+        "t": "Ben de! Akşam birlikte oynayabiliriz!",
+        "s": "من هم! عصر می‌توانیم با هم بازی کنیم!",
+        "pr": "بِن دِه! آکشام بیرلیکتِه اُینایابیلیریز!"
       },
       {
         "sp": "A",
@@ -318,7 +325,7 @@
         "t": "Yüzebilirim / Yüzemem",
         "s": "می‌توانم / نمی‌توانم: ebil / abil"
       },
-      "explain": "برای گفتن «می‌توانم» در ترکی به ریشه‌ی فعل **ebil** یا **abil** و بعد شناسه اضافه می‌کنیم: yüz → **yüzebilirim** (می‌توانم شنا کنم).\nهماهنگی دوتایی: بعد از e، i، ö، ü → **ebil**؛ بعد از a، ı، o، u → **abil**. مثال: koş → **koşabilirim**، çal → **çalabilirim**.\nاگر ریشه به واکه ختم شود، یک **y** وسط می‌آید: oku → **okuyabilirim**، oyna → **oynayabilirim**، söyle → **söyleyebilirim**.\nبرای «نمی‌توانم» از **eme / ama** استفاده می‌کنیم: **yüzemem** (نمی‌توانم شنا کنم)، **koşamam**. شکل منفی برای بقیه‌ی شخص‌ها کمی فرق دارد؛ جدول را ببینید.\nحالا می‌فهمید چرا در درس خرید گفتیم **Bunu alabilir miyim?** = می‌توانم این را بخرم؟",
+      "explain": "برای گفتن «می‌توانم» در ترکی به ریشه‌ی فعل **ebil** یا **abil** و بعد شناسه اضافه می‌کنیم: yüz → **yüzebilirim** (می‌توانم شنا کنم).\nهماهنگی دوتایی: بعد از e، i، ö، ü → **ebil**؛ بعد از a، ı، o، u → **abil**. مثال: koş → **koşabilirim**، çal → **çalabilirim**.\nاگر ریشه به واکه ختم شود، یک **y** وسط می‌آید: oku → **okuyabilirim**، oyna → **oynayabilirim**، söyle → **söyleyebilirim**.\nبرای «نمی‌توانم» از **eme / ama** استفاده می‌کنیم: **yüzemem** (نمی‌توانم شنا کنم)، **koşamam**. شکل منفی برای بقیه‌ی شخص‌ها کمی فرق دارد؛ جدول را ببینید.\nحالا می‌فهمید چرا در درس خرید گفتیم **Bunu alabilir miyim?** = می‌توانم این را بخرم؟\nاگر ترکی آذربایجانی می‌دانید: «می‌توانم شنا کنم» در آذربایجانی دو کلمه است (**üzə bilirəm**)، در ترکیه یک کلمه: **yüzebilirim**. منفی هم فرق دارد: **üzə bilmirəm** ← **yüzemem**.",
       "table": [
         [
           "ben",
@@ -381,14 +388,18 @@
       "exercises": [
         {
           "type": "choice",
-          "t": "Ben çok iyi ___.",
+          "task": "کدام جواب درست است؟",
+          "cue": "Gitar çalabilir misin?",
+          "cpr": "گیتار چالابیلیر میسین؟",
+          "t": "___",
           "options": [
-            "yüzabilirim",
-            "yüzebilirim",
-            "yüzebilir"
+            "Hayır, çalamam.",
+            "Hayır, çalabilirim.",
+            "Hayır, çalamaz."
           ],
-          "answer": 1,
-          "s": "من می‌توانم خیلی خوب شنا کنم."
+          "answer": 0,
+          "why": "جوابِ منفی با «من»: ریشه + ama + m = çalamam. çalamaz برای «او» است.",
+          "s": "نه، نمی‌توانم."
         },
         {
           "type": "choice",
@@ -399,7 +410,8 @@
             "oynayebilir"
           ],
           "answer": 0,
-          "s": "علی می‌تواند شطرنج بازی کند."
+          "s": "علی می‌تواند شطرنج بازی کند.",
+          "why": "oyna با واکه تمام می‌شود، پس y می‌آید؛ آخرین واکه a است: oynayabilir."
         },
         {
           "type": "choice",
@@ -410,7 +422,8 @@
             "çalamam"
           ],
           "answer": 2,
-          "s": "من نمی‌توانم گیتار بزنم."
+          "s": "من نمی‌توانم گیتار بزنم.",
+          "why": "منفی برای «من»: çal + ama + m = çalamam."
         },
         {
           "type": "type",
@@ -418,15 +431,20 @@
           "answer": [
             "koşabilirsin"
           ],
-          "s": "تو هم می‌توانی بدوی."
+          "s": "تو هم می‌توانی بدوی.",
+          "why": "koş + abil + ir + sin: بعد از o پسوندِ abil می‌آید و برای «تو» -sin."
         },
         {
           "type": "type",
-          "t": "Annem çok güzel resim ___.",
+          "task": "منفی کنید.",
+          "cue": "Ben yüzebilirim.",
+          "cpr": "بِن یوزِبیلیریم.",
+          "t": "Ben ___.",
           "answer": [
-            "yapabilir"
+            "yüzemem"
           ],
-          "s": "مادرم می‌تواند خیلی قشنگ نقاشی بکشد."
+          "why": "منفیِ -ebil برای «من»: yüz + eme + m = yüzemem.",
+          "s": "من نمی‌توانم شنا کنم."
         },
         {
           "type": "type",
@@ -434,7 +452,8 @@
           "answer": [
             "söyleyemem"
           ],
-          "s": "من نمی‌توانم آواز بخوانم."
+          "s": "من نمی‌توانم آواز بخوانم.",
+          "why": "söyle با واکه تمام می‌شود، پس y می‌آید: söyle + y + eme + m = söyleyemem."
         },
         {
           "type": "order",
@@ -443,38 +462,41 @@
         },
         {
           "type": "order",
-          "t": "Ali yüzemez ama koşabilir.",
-          "s": "علی نمی‌تواند شنا کند ولی می‌تواند بدود."
+          "t": "Amir futbol oynayabilir ama yüzemez.",
+          "s": "امیر می‌تواند فوتبال بازی کند، ولی نمی‌تواند شنا کند.",
+          "alts": [
+            "Amir yüzemez ama futbol oynayabilir."
+          ]
         }
       ]
     },
     {
       "id": "g02",
       "title": {
-        "t": "Okumayı severim + mi?",
-        "s": "«… را دوست دارم» و سؤال با mi"
+        "t": "Okumayı severim + misin?",
+        "s": "«… را دوست دارم» و سؤال با misin"
       },
-      "explain": "برای گفتن «… کردن را دوست دارم» (به طور کلی) مصدر فعل را با **yi / yı** می‌آوریم و بعد **severim**: okumak → **okumayı severim** (خواندن را دوست دارم)، yüzmek → **yüzmeyi severim**.\nفقط دو شکل داریم: mek → **meyi** و mak → **mayı**.\nصرف sevmek در این حالت: **severim، seversin، sever، severiz، seversiniz، severler**. منفی: **sevmem** (دوست ندارم).\nسؤال بله/نه: کلمه‌ی کوچک **mi** را **جدا** می‌نویسیم و آخر جمله می‌آوریم. با هماهنگی چهارتایی: **mi / mı / mu / mü**. شناسه به mi می‌چسبد: Sever **misin**? (دوست داری؟)، Yüzebilir **misin**? (می‌توانی شنا کنی؟)، Çay istiyor **musun**? (چای می‌خواهی؟)",
+      "explain": "برای گفتن «… کردن را دوست دارم» (به طور کلی) مصدر فعل را با **yi / yı** می‌آوریم و بعد **severim**: okumak → **okumayı severim** (خواندن را دوست دارم)، yüzmek → **yüzmeyi severim**.\nفقط دو شکل داریم: mek → **meyi** و mak → **mayı**.\nصرف sevmek در این حالت: **severim، seversin، sever، severiz، seversiniz، severler**. منفی: **sevmem** (دوست ندارم).\nسؤال بله/نه: **mi** را از درسِ ۳ می‌شناسید (Annen öğretmen mi?). نکته‌ی تازه: با «من، تو، ما، شما» **شناسه به mi می‌چسبد**، نه به فعل: Sever **misin**? (دوست داری؟)، Yüzebilir **misin**? (می‌توانی شنا کنی؟)، Çay istiyor **musun**? (چای می‌خواهی؟)، Bunu alabilir **miyim**? (می‌توانم این را بخرم؟)\nکلمه‌ی آشنا: **satranç** = شطرنج.",
       "table": [
         [
-          "e / i",
-          "mi",
-          "Güzel mi?"
+          "ben",
+          "Yüzebilir miyim?"
         ],
         [
-          "a / ı",
-          "mı",
-          "Var mı?"
+          "sen",
+          "Yüzebilir misin?"
         ],
         [
-          "o / u",
-          "mu",
-          "Soğuk mu?"
+          "o",
+          "Yüzebilir mi?"
         ],
         [
-          "ö / ü",
-          "mü",
-          "Büyük mü?"
+          "biz",
+          "Yüzebilir miyiz?"
+        ],
+        [
+          "siz",
+          "Yüzebilir misiniz?"
         ]
       ],
       "examples": [
@@ -514,7 +536,8 @@
             "dinlemayı"
           ],
           "answer": 1,
-          "s": "من موسیقی گوش دادن را دوست دارم."
+          "s": "من موسیقی گوش دادن را دوست دارم.",
+          "why": "با severim مصدر -(y)i می‌گیرد: dinlemek ← dinlemeyi (mek ← meyi)."
         },
         {
           "type": "choice",
@@ -525,7 +548,8 @@
             "musun"
           ],
           "answer": 0,
-          "s": "شنا کردن را دوست داری؟"
+          "s": "شنا کردن را دوست داری؟",
+          "why": "آخرین واکه‌ی sever حرفِ e است، پس mi؛ برای «تو» شناسه به آن می‌چسبد: misin."
         },
         {
           "type": "choice",
@@ -536,26 +560,35 @@
             "musun"
           ],
           "answer": 2,
-          "s": "چای می‌خواهی؟"
-        },
-        {
-          "type": "choice",
-          "t": "Hava soğuk ___?",
-          "options": [
-            "mu",
-            "mı",
-            "mi"
-          ],
-          "answer": 0,
-          "s": "هوا سرد است؟"
+          "s": "چای می‌خواهی؟",
+          "why": "آخرین واکه‌ی istiyor حرفِ o است، پس mu؛ با «تو»: musun."
         },
         {
           "type": "type",
-          "t": "Satranç oynayabilir ___?",
+          "task": "سؤالی کنید.",
+          "cue": "Sen gitar çalabilirsin.",
+          "cpr": "سِن گیتار چالابیلیرسین.",
+          "t": "Sen gitar ___?",
           "answer": [
-            "misin"
+            "çalabilir misin"
           ],
-          "s": "می‌توانی شطرنج بازی کنی؟"
+          "why": "در سؤال شناسه‌ی «تو» از فعل جدا می‌شود و به mi می‌چسبد: çalabilir misin?",
+          "s": "تو می‌توانی گیتار بزنی؟"
+        },
+        {
+          "type": "choice",
+          "task": "کدام جواب درست است؟",
+          "cue": "Yüzmeyi sever misin?",
+          "cpr": "یوزمِیی سِوِر میسین؟",
+          "t": "___",
+          "options": [
+            "Evet, çok severim.",
+            "Evet, çok seversin.",
+            "Evet, yüzmek severim."
+          ],
+          "answer": 0,
+          "why": "جواب با «من» است: severim. yüzmek بدونِ -yi با sevmek نمی‌آید.",
+          "s": "بله، خیلی دوست دارم."
         },
         {
           "type": "type",
@@ -563,7 +596,8 @@
           "answer": [
             "yapmayı"
           ],
-          "s": "مادرم آشپزی کردن را دوست دارد."
+          "s": "مادرم آشپزی کردن را دوست دارد.",
+          "why": "مصدرِ yapmak با sevmek -yı می‌گیرد: yapmayı."
         },
         {
           "type": "order",
@@ -590,9 +624,9 @@
         "pr": "اِشیم علی ساترانچ اُینامایِ چُک سِوِر."
       },
       {
-        "t": "Kızım Elif resim yapabilir; resimleri çok güzel.",
-        "s": "دخترم الیف می‌تواند نقاشی بکشد؛ نقاشی‌هایش خیلی قشنگ است.",
-        "pr": "کِزِم اِلیف رِسیم یاپابیلیر؛ رِسیملِری چُک گوزِل."
+        "t": "Kızım Sara resim yapabilir; resimleri çok güzel.",
+        "s": "دخترم سارا می‌تواند نقاشی بکشد؛ نقاشی‌هایش خیلی قشنگ است.",
+        "pr": "کِزِم سارا رِسیم یاپابیلیر؛ رِسیملِری چُک گوزِل."
       },
       {
         "t": "Oğlum Amir futbol oynamayı sever ama yüzemez.",
@@ -675,7 +709,10 @@
     {
       "t": "Ben yüzebilirim ama gitar çalamam.",
       "s": "من می‌توانم شنا کنم، ولی نمی‌توانم گیتار بزنم.",
-      "pr": "بِن یوزِبیلیریم آما گیتار چالامام."
+      "pr": "بِن یوزِبیلیریم آما گیتار چالامام.",
+      "alts": [
+        "Ben gitar çalamam ama yüzebilirim."
+      ]
     },
     {
       "t": "Kitap okumayı severim.",
