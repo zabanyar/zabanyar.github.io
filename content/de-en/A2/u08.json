@@ -201,7 +201,10 @@
     {
       "id": "p04",
       "t": "Für mich bitte den Fisch.",
-      "s": "The fish for me, please."
+      "s": "The fish for me, please.",
+      "alts": [
+        "Für mich den Fisch, bitte."
+      ]
     },
     {
       "id": "p05",
@@ -211,7 +214,10 @@
     {
       "id": "p06",
       "t": "Wir möchten bitte bezahlen.",
-      "s": "We'd like to pay, please."
+      "s": "We'd like to pay, please.",
+      "alts": [
+        "Wir möchten bezahlen, bitte."
+      ]
     },
     {
       "id": "p07",

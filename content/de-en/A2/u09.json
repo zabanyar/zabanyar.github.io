@@ -545,7 +545,8 @@
           "type": "type",
           "t": "___ wartest du? – Auf den Bus.",
           "answer": [
-            "Worauf"
+            "Worauf",
+            "Auf was"
           ],
           "s": "What are you waiting for? – For the bus."
         },

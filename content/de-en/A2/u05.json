@@ -692,7 +692,10 @@
     },
     {
       "t": "Mina studiert, weil sie Lehrerin werden möchte.",
-      "s": "Mina is studying at university because she'd like to become a teacher."
+      "s": "Mina is studying at university because she'd like to become a teacher.",
+      "alts": [
+        "Weil sie Lehrerin werden möchte, studiert Mina."
+      ]
     },
     {
       "t": "Ich hoffe, dass ich die Stelle bekomme.",

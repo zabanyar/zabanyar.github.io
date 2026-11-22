@@ -189,7 +189,10 @@
     {
       "id": "p01",
       "t": "Einmal nach Hamburg, bitte.",
-      "s": "One ticket to Hamburg, please."
+      "s": "One ticket to Hamburg, please.",
+      "alts": [
+        "Bitte einmal nach Hamburg."
+      ]
     },
     {
       "id": "p02",
