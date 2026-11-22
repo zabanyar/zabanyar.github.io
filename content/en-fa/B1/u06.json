@@ -25,7 +25,8 @@
         "t": "The headline on the front page was about the new metro line.",
         "s": "تیتر صفحه‌ی اول درباره‌ی خط جدید مترو بود.",
         "pr": "ذِ هِدلاین آن ذِ فْرانت پِیج واز اِباوت ذِ نو مِتْرُو لاین."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w02",
@@ -38,7 +39,8 @@
         "t": "I read an interesting article about sleep and health.",
         "s": "یک مقاله‌ی جالب درباره‌ی خواب و سلامتی خواندم.",
         "pr": "آی رِد اِن اینْتْرِسْتینگ آرتیکِل اِباوت سْلیپ اَند هِلْث."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w03",
@@ -55,15 +57,16 @@
     },
     {
       "id": "w04",
-      "t": "interview",
-      "pl": "interviews",
-      "s": "مصاحبه؛ مصاحبه کردن",
-      "pr": "اینتِرویو",
-      "emoji": "🎙️",
+      "t": "press conference",
+      "pl": "press conferences",
+      "s": "کنفرانس خبری",
+      "pr": "پْرِس کانْفِرِنْس",
+      "emoji": "🎤",
+      "sym": true,
       "ex": {
-        "t": "The singer gave a long interview on the radio.",
-        "s": "آن خواننده در رادیو یک مصاحبه‌ی طولانی انجام داد.",
-        "pr": "ذِ سینگِر گِیو اِ لانگ اینتِرویو آن ذِ رِیدیُو."
+        "t": "The mayor answered journalists' questions at a press conference.",
+        "s": "شهردار در یک کنفرانس خبری به سؤال‌های روزنامه‌نگارها جواب داد.",
+        "pr": "ذِ مِیِر اَنْسِرْد جِرْنِلیسْتْس کْوِسْچِنْز اَت اِ پْرِس کانْفِرِنْس."
       }
     },
     {
@@ -76,7 +79,8 @@
         "t": "The news is on at nine o'clock every night.",
         "s": "اخبار هر شب ساعت نه پخش می‌شود.",
         "pr": "ذِ نوز ایز آن اَت ناین اِکْلاک اِوْری نایت."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w06",
@@ -88,7 +92,8 @@
         "t": "Many young people get their news from social media.",
         "s": "بسیاری از جوانان اخبار را از شبکه‌های اجتماعی می‌گیرند.",
         "pr": "مِنی یانگ پیپِل گِت ذِر نوز فْرام سُوشِل میدیا."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w07",
@@ -99,7 +104,7 @@
       "ex": {
         "t": "Fake news spreads very quickly online.",
         "s": "خبرهای جعلی خیلی سریع در اینترنت پخش می‌شوند.",
-        "pr": "فِیک نوز سْپْرِدْز وِری کْویکْلی آن‌لاین."
+        "pr": "فِیک نوز سْپْرِدْز وِری کْویکْلی آنلاین."
       }
     },
     {
@@ -124,7 +129,7 @@
       "ex": {
         "t": "My grandfather only reads reliable newspapers.",
         "s": "پدربزرگم فقط روزنامه‌های معتبر می‌خواند.",
-        "pr": "مای گْرَنْدْفاذِر اُونلی ریدْز ریلایِبِل نوزْپِیپِرز."
+        "pr": "مای گْرَنْدْفاذِر اُونلی ریدز ریلایِبِل نوزْپِیپِرز."
       }
     },
     {
@@ -137,7 +142,8 @@
         "t": "The government announced a new law yesterday.",
         "s": "دولت دیروز یک قانون جدید را اعلام کرد.",
         "pr": "ذِ گاوِرْنْمِنت اِناونْسْت اِ نو لا یِسْتِرْدِی."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w11",
@@ -161,7 +167,8 @@
         "t": "The final was broadcast live on TV.",
         "s": "بازی فینال به‌طور زنده از تلویزیون پخش شد.",
         "pr": "ذِ فاینِل واز بْرادکَست لایو آن تی‌وی."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w13",
@@ -197,7 +204,7 @@
       "ex": {
         "t": "Her cooking video went viral in two days.",
         "s": "ویدیوی آشپزی‌اش ظرف دو روز وایرال شد.",
-        "pr": "هِر کوکینگ ویدیُو وِنْت وایرِل این تو دِیز."
+        "pr": "هِر کوکینگ ویدیُو وِنت وایرِل این تو دِیز."
       }
     }
   ],
@@ -276,15 +283,15 @@
       },
       {
         "sp": "B",
-        "t": "Yes, I saw it on TV this morning. The mayor said it would open next spring.",
-        "s": "آره، امروز صبح در تلویزیون دیدم. شهردار گفت که بهار آینده افتتاح می‌شود.",
-        "pr": "یِس، آی سا ایت آن تی‌وی ذیس مُرنینگ. ذِ مِیِر سِد ایت وود اُوپِن نِکست سْپْرینگ."
+        "t": "Yes, I saw it on TV this morning. At a press conference, the mayor said it would open next spring.",
+        "s": "آره، امروز صبح در تلویزیون دیدم. شهردار در یک کنفرانس خبری گفت که بهار آینده افتتاح می‌شود.",
+        "pr": "یِس، آی سا ایت آن تی‌وی ذیس مُرنینگ. اَت اِ پْرِس کانْفِرِنْس، ذِ مِیِر سِد ایت وود اُوپِن نِکست سْپْرینگ."
       },
       {
         "sp": "A",
         "t": "Really? I read somewhere that it wasn't ready yet.",
         "s": "واقعاً؟ یک جایی خواندم که هنوز آماده نیست.",
-        "pr": "ریلی؟ آی رِد سام‌وِر ذَت ایت وازِنْت رِدی یِت."
+        "pr": "ریلی؟ آی رِد سام‌وِر ذَت ایت وازِنت رِدی یِت."
       },
       {
         "sp": "B",
@@ -302,13 +309,13 @@
         "sp": "B",
         "t": "Hmm, I'm not sure that's a reliable source. A lot of fake news goes viral these days.",
         "s": "هوم، مطمئن نیستم منبع قابل‌اعتمادی باشد. این روزها خبرهای جعلی زیادی وایرال می‌شوند.",
-        "pr": "هِمم، آیم نات شور ذَتس اِ ریلایِبِل سُرس. اِ لات آو فِیک نوز گُوز وایرِل ذیز دِیز."
+        "pr": "هِم، آیم نات شور ذَتْس اِ ریلایِبِل سُرس. اِ لات آو فِیک نوز گُوز وایرِل ذیز دِیز."
       },
       {
         "sp": "A",
         "t": "You're right. Did anyone ask him about the price of tickets?",
         "s": "حق با توست. کسی درباره‌ی قیمت بلیت از او سؤال کرد؟",
-        "pr": "یور رایت. دید اِنی‌وان اَسْک هیم اِباوت ذِ پْرایس آو تیکِتْس؟"
+        "pr": "یور رایت. دید اِنیوان اَسْک هیم اِباوت ذِ پْرایس آو تیکِتس؟"
       },
       {
         "sp": "B",
@@ -326,7 +333,7 @@
         "sp": "B",
         "t": "He told her that the price wouldn't change. But let me check the news website to be sure.",
         "s": "به او گفت که قیمت تغییر نمی‌کند. ولی بگذار سایت خبری را نگاه کنم تا مطمئن شوم.",
-        "pr": "هی تُولْد هِر ذَت ذِ پْرایس وودِنْت چِینج. بات لِت میْ چِک ذِ نوز وِبسایت تو بی شور."
+        "pr": "هی تُولْد هِر ذَت ذِ پْرایس وودِنْت چِینْج. بات لِت میْ چِک ذِ نوز وِبسایت تو بی شور."
       }
     ]
   },
@@ -338,7 +345,7 @@
         "s": "نقل قول غیرمستقیم: said و told",
         "pr": "ریپُرتِد سْپیچ: سِد، تُولْد"
       },
-      "explain": "وقتی حرفِ کسی را **غیرمستقیم** نقل می‌کنیم، معمولاً زمان فعل را **یک قدم به گذشته** می‌بریم: **am / is → was**، **like → liked**، **am doing → was doing**، **will → would**، **can → could**، **did / have done → had done**.\n«I'm tired.» → **She said (that) she was tired.**\nدر فارسی می‌گوییم «گفت که خسته **است**» و زمان عوض نمی‌شود؛ اما در انگلیسی بعد از **said / told** معمولاً زمان عقب می‌رود. کلمه‌ی **that** اختیاری است.\n**say** مفعولِ شخص نمی‌گیرد: **He said that…**؛ اما بعد از **tell** حتماً شخص می‌آید: **He told me that…** (نه He said me).\nضمیرها و قیدهای زمان هم عوض می‌شوند: **I → he / she**، **today → that day**، **tomorrow → the next day**، **yesterday → the day before**.\nاگر حرف هنوز هم درست باشد، می‌توان زمان را تغییر نداد: **He said he lives in Tehran.**",
+      "explain": "وقتی حرفِ کسی را **غیرمستقیم** نقل می‌کنیم، معمولاً زمان فعل را **یک قدم به گذشته** می‌بریم: **am / is → was**، **like → liked**، **am doing → was doing**، **will → would**، **can → could**، **did / have done → had done**.\n«I'm tired.» → **She said (that) she was tired.**\nدر فارسی می‌گوییم «گفت که خسته **است**» و زمان عوض نمی‌شود؛ اما در انگلیسی بعد از **said / told** معمولاً زمان عقب می‌رود. کلمه‌ی **that** اختیاری است.\n**say** مفعولِ شخص نمی‌گیرد: **He said that…**؛ اما بعد از **tell** حتماً شخص می‌آید: **He told me that…** (نه He said me).\nضمیرها و قیدهای زمان هم عوض می‌شوند: **I → he / she**، **today → that day**، **tomorrow → the next day**، **yesterday → the day before**.\nاگر حرف هنوز هم درست باشد، می‌توان زمان را تغییر نداد: **He said he lives in Tehran.**\n**had + قسمت سوم فعل** (گذشته‌ی کامل؛ در B2 کامل‌تر یاد می‌گیرید) یعنی کاری که **قبل از** زمان دیگری در گذشته انجام شده بود، مثل «دیده بود»: **She said she had seen the news.**",
       "table": [
         [
           "Direct speech",
@@ -389,7 +396,7 @@
         {
           "t": "The minister said that prices were going to fall.",
           "s": "وزیر گفت که قیمت‌ها پایین خواهند آمد.",
-          "pr": "ذِ مینیسْتِر سِد ذَت پْرایسِز وِر گُوئینگ تو فال."
+          "pr": "ذِ مینیسْتِر سِد ذَت پْرایْسِز وِر گُوئینگ تو فال."
         }
       ],
       "exercises": [
@@ -403,41 +410,57 @@
           ],
           "answer": 1,
           "s": "او به من گفت که سرش شلوغ است.",
-          "pr": "شی تُولْد میْ ذَت شی واز بیزی."
+          "pr": "شی تُولْد میْ ذَت شی واز بیزی.",
+          "why": "بعد از told حتماً شخص (me) می‌آید؛ said بدون شخص به کار می‌رود."
         },
         {
           "type": "choice",
-          "t": "He ___ that the news was true.",
+          "task": "کدام جواب درست است؟",
+          "cue": "What did the headline say?",
+          "cpr": "وات دید ذِ هِدلاین سِی؟",
+          "t": "___",
           "options": [
-            "told",
-            "said",
-            "tell"
+            "It said that the drought was getting worse.",
+            "It told that the drought was getting worse.",
+            "It said me that the drought was getting worse."
           ],
-          "answer": 1,
-          "s": "او گفت که آن خبر درست است.",
-          "pr": "هی سِد ذَت ذِ نوز واز تْرو."
+          "answer": 0,
+          "why": "say مفعولِ شخص نمی‌گیرد (نه said me) و tell بدون شخص نمی‌آید؛ پس said that.",
+          "s": "می‌گفت که خشکسالی دارد بدتر می‌شود.",
+          "pr": "ایت سِد ذَت ذِ دْراوت واز گِتینگ وِرس."
         },
         {
           "type": "type",
-          "t": "\"I'm hungry.\" → Yesterday, Lisa said she ___ hungry.",
+          "task": "حرف را غیرمستقیم نقل کنید.",
+          "cue": "I'm hungry.",
+          "cpr": "آیم هانْگْری.",
+          "t": "Yesterday, Lisa said she ___ hungry.",
           "answer": [
             "was"
           ],
           "s": "دیروز لیزا گفت که گرسنه است.",
-          "pr": "«آیم هانْگْری.» یِسْتِرْدِی، لیسا سِد شی واز هانْگْری."
+          "pr": "یِسْتِرْدِی، لیسا سِد شی واز هانْگْری.",
+          "why": "در نقل قول غیرمستقیم زمان یک قدم عقب می‌رود: am → was."
         },
         {
           "type": "type",
-          "t": "\"We will win.\" → Before the match, they said they ___ win.",
+          "task": "حرف را غیرمستقیم نقل کنید.",
+          "cue": "We will win.",
+          "cpr": "وی ویل وین.",
+          "t": "Before the match, they said they ___ win.",
           "answer": [
             "would"
           ],
           "s": "قبل از مسابقه، گفتند که می‌برند.",
-          "pr": "«وی ویل وین.» بیفُر ذِ مَچ، ذِی سِد ذِی وود وین."
+          "pr": "بیفُر ذِ مَچ، ذِی سِد ذِی وود وین.",
+          "why": "will در نقل قول غیرمستقیم would می‌شود."
         },
         {
           "type": "choice",
-          "t": "\"I can't come tomorrow.\" → On Monday, Reza said he ___ come the next day.",
+          "task": "حرف را غیرمستقیم نقل کنید.",
+          "cue": "I can't come tomorrow.",
+          "cpr": "آی کَنت کام تِمارُو.",
+          "t": "On Monday, Reza said he ___ come the next day.",
           "options": [
             "couldn't",
             "can't",
@@ -445,16 +468,21 @@
           ],
           "answer": 0,
           "s": "دوشنبه رضا گفت که فردایش نمی‌تواند بیاید.",
-          "pr": "«آی کَنت کام تِمارُو.» آن مانْدِی، رضا سِد هی کودِنْت کام ذِ نِکست دِی."
+          "pr": "آن ماندِی، رضا سِد هی کودِنْت کام ذِ نِکست دِی.",
+          "why": "can't در نقل قول غیرمستقیم couldn't می‌شود."
         },
         {
           "type": "type",
-          "t": "\"I've lost my keys.\" → Last week, Tom said he ___ lost his keys.",
+          "task": "حرف را غیرمستقیم نقل کنید.",
+          "cue": "I've lost my keys.",
+          "cpr": "آیو لاسْت مای کیز.",
+          "t": "Last week, Tom said he ___ lost his keys.",
           "answer": [
             "had"
           ],
           "s": "هفته‌ی پیش تام گفت که کلیدهایش را گم کرده است.",
-          "pr": "«آیو لاست مای کیز.» لَسْت ویک، تام سِد هی هَد لاست هیز کیز."
+          "pr": "لَسْت ویک، تام سِد هی هَد لاسْت هیز کیز.",
+          "why": "حال کامل (have lost) در نقل قول غیرمستقیم گذشته‌ی کامل می‌شود: had lost."
         },
         {
           "type": "order",
@@ -463,10 +491,17 @@
           "pr": "شی تُولْد میْ شی واز وِری بیزی."
         },
         {
-          "type": "order",
-          "t": "The reporter said the bridge was closed.",
-          "s": "خبرنگار گفت که پل بسته است.",
-          "pr": "ذِ ریپُرتِر سِد ذِ بْریج واز کْلُوزْد."
+          "type": "type",
+          "task": "نقل کنید: The TV channel said …",
+          "cue": "We will broadcast the final live.",
+          "cpr": "وی ویل بْرادکَست ذِ فاینِل لایو.",
+          "t": "The TV channel said that it ___ the final live.",
+          "answer": [
+            "would broadcast"
+          ],
+          "why": "will در نقل قول غیرمستقیم would می‌شود و بعد از آن فعل ساده می‌آید (broadcast).",
+          "s": "آن شبکه‌ی تلویزیونی گفت که فینال را زنده پخش می‌کند.",
+          "pr": "ذِ تی‌وی چَنِل سِد ذَت ایت وود بْرادکَست ذِ فاینِل لایو."
         }
       ]
     },
@@ -477,7 +512,7 @@
         "s": "نقل غیرمستقیم سؤال‌ها",
         "pr": "ریپُرتِد کْوِسْچِنْز: اَسْکْت ایف، اَسْکْت وِر"
       },
-      "explain": "برای نقل غیرمستقیم سؤال از فعل **ask** استفاده می‌کنیم: **He asked (me)…**\nمهم‌ترین نکته: در سؤال غیرمستقیم، ترتیب کلمات مثل **جمله‌ی خبری** است: اول **فاعل**، بعد **فعل**. **do / does / did** و علامت سؤال هم حذف می‌شوند.\n«Where do you live?» → **She asked me where I lived.** (نه where did I live)\nبرای سؤال‌های بله/خیر از **if** یا **whether** استفاده می‌کنیم؛ مثل «که آیا ... یا نه» در فارسی:\n«Are you hungry?» → **He asked if I was hungry.**\nمثل جمله‌های خبری، زمان فعل اینجا هم یک قدم به گذشته می‌رود.",
+      "explain": "برای نقل غیرمستقیم سؤال از فعل **ask** استفاده می‌کنیم: **He asked (me)…**\nمهم‌ترین نکته: در سؤال غیرمستقیم، ترتیب کلمات مثل **جمله‌ی خبری** است: اول **فاعل**، بعد **فعل**. **do / does / did** و علامت سؤال هم حذف می‌شوند.\n«Where do you live?» → **She asked me where I lived.** (نه where did I live)\nبرای سؤال‌های بله/خیر از **if** یا **whether** استفاده می‌کنیم؛ مثل «که آیا ... یا نه» در فارسی:\n«Are you hungry?» → **He asked if I was hungry.**\nمثل جمله‌های خبری، زمان فعل اینجا هم یک قدم به گذشته می‌رود.\nتلفظ: سؤال غیرمستقیم دیگر سؤال نیست؛ پس صدا در آخر جمله مثل جمله‌ی خبری **پایین** می‌آید، نه بالا: **She asked where I lived.**",
       "table": [
         [
           "Direct question",
@@ -519,7 +554,7 @@
         {
           "t": "They asked us whether we wanted to join them.",
           "s": "از ما پرسیدند که آیا می‌خواهیم همراهشان برویم.",
-          "pr": "ذِی اَسْکْت آس وِذِر وی وانتِد تو جُین ذِم."
+          "pr": "ذِی اَسْکْت آس وِذِر وی وانْتِد تو جُین ذِم."
         },
         {
           "t": "I asked him how much the ticket cost.",
@@ -538,19 +573,24 @@
           ],
           "answer": 0,
           "s": "از من پرسید کجا زندگی می‌کنم.",
-          "pr": "شی اَسْکْت میْ وِر آی لیوْد."
+          "pr": "شی اَسْکْت میْ وِر آی لیوْد.",
+          "why": "در سؤال غیرمستقیم ترتیب مثل جمله‌ی خبری است (فاعل + فعل) و did حذف می‌شود."
         },
         {
           "type": "choice",
-          "t": "\"Are you ready?\" → He asked ___ I was ready.",
+          "task": "کدام نقل غیرمستقیم درست است؟",
+          "cue": "The journalist asked, \"Why is the bridge closed?\"",
+          "cpr": "ذِ جِرنِلیست اَسْکْت، «وای ایز ذِ بْریج کْلُوزْد؟»",
+          "t": "___",
           "options": [
-            "that",
-            "if",
-            "what"
+            "The journalist asked why the bridge was closed.",
+            "The journalist asked why was the bridge closed.",
+            "The journalist asked why did the bridge close."
           ],
-          "answer": 1,
-          "s": "او پرسید که آیا آماده‌ام.",
-          "pr": "«آر یو رِدی؟» هی اَسْکْت ایف آی واز رِدی."
+          "answer": 0,
+          "why": "در سؤال غیرمستقیم ترتیب مثل جمله‌ی خبری است: فاعل (the bridge) + فعل (was).",
+          "s": "روزنامه‌نگار پرسید چرا پل بسته است.",
+          "pr": "ذِ جِرنِلیست اَسْکْت وای ذِ بْریج واز کْلُوزْد."
         },
         {
           "type": "choice",
@@ -562,36 +602,49 @@
           ],
           "answer": 0,
           "s": "خبرنگار از وزیر پرسید که چه کاری می‌خواهد انجام دهد.",
-          "pr": "ذِ ریپُرتِر اَسْکْت ذِ مینیسْتِر وات هی واز گُوئینگ تو دو."
+          "pr": "ذِ ریپُرتِر اَسْکْت ذِ مینیسْتِر وات هی واز گُوئینگ تو دو.",
+          "why": "در سؤال غیرمستقیم اول فاعل (he) می‌آید، بعد فعل (was going)."
         },
         {
           "type": "type",
-          "t": "\"Do you like your job?\" → Ali asked me ___ I liked my job.",
+          "task": "سؤال را غیرمستقیم نقل کنید.",
+          "cue": "Do you like your job?",
+          "cpr": "دو یو لایک یور جاب؟",
+          "t": "Ali asked me ___ I liked my job.",
           "answer": [
             "if",
             "whether"
           ],
           "s": "علی از من پرسید که آیا کارم را دوست دارم.",
-          "pr": "«دو یو لایک یور جاب؟» علی اَسْکْت میْ ایف آی لایکْت مای جاب."
+          "pr": "علی اَسْکْت میْ ایف آی لایکْت مای جاب.",
+          "why": "سؤال بله/خیر را با if یا whether نقل می‌کنیم."
         },
         {
           "type": "type",
-          "t": "\"Why are you late?\" → My boss asked me why I ___ late.",
+          "task": "سؤال را غیرمستقیم نقل کنید.",
+          "cue": "Why are you late?",
+          "cpr": "وای آر یو لِیت؟",
+          "t": "My boss asked me why I ___ late.",
           "answer": [
             "was"
           ],
           "s": "رئیسم از من پرسید چرا دیر کرده‌ام.",
-          "pr": "«وای آر یو لِیت؟» مای باس اَسْکْت میْ وای آی واز لِیت."
+          "pr": "مای باس اَسْکْت میْ وای آی واز لِیت.",
+          "why": "are در سؤال غیرمستقیم یک قدم عقب می‌رود و was می‌شود."
         },
         {
           "type": "type",
-          "t": "\"What did you buy?\" → Sara asked me what I ___.",
+          "task": "سؤال را غیرمستقیم نقل کنید.",
+          "cue": "What did you buy?",
+          "cpr": "وات دید یو بای؟",
+          "t": "Sara asked me what I ___.",
           "answer": [
             "had bought",
             "bought"
           ],
           "s": "سارا از من پرسید چه خریده‌ام.",
-          "pr": "«وات دید یو بای؟» سارا اَسْکْت میْ وات آی هَد بات."
+          "pr": "سارا اَسْکْت میْ وات آی هَد بات.",
+          "why": "did buy در نقل غیرمستقیم had bought می‌شود (bought هم درست است)؛ did حذف می‌شود."
         },
         {
           "type": "order",
@@ -600,10 +653,18 @@
           "pr": "شی اَسْکْت میْ ایف آی واز هانْگْری."
         },
         {
-          "type": "order",
-          "t": "He asked where the bus station was.",
-          "s": "او پرسید ایستگاه اتوبوس کجاست.",
-          "pr": "هی اَسْکْت وِر ذِ باس سْتِیشِن واز."
+          "type": "type",
+          "task": "نقل کنید: She asked me …",
+          "cue": "Do you subscribe to any newspapers?",
+          "cpr": "دو یو سِبسْکْرایب تو اِنی نوزْپِیپِرز؟",
+          "t": "She asked me ___ to any newspapers.",
+          "answer": [
+            "if I subscribed",
+            "whether I subscribed"
+          ],
+          "why": "سؤال بله/خیر با if یا whether نقل می‌شود، do حذف می‌شود و زمان یک قدم عقب می‌رود.",
+          "s": "از من پرسید که آیا مشترک روزنامه‌ای هستم.",
+          "pr": "شی اَسْکْت میْ ایف آی سِبسْکْرایبْد تو اِنی نوزْپِیپِرز."
         }
       ]
     }
@@ -628,7 +689,7 @@
       {
         "t": "Only fifteen percent said they still bought a printed newspaper.",
         "s": "فقط پانزده درصد گفتند که هنوز روزنامه‌ی کاغذی می‌خرند.",
-        "pr": "اُونلی فیفْتین پِرسِنْت سِد ذِی سْتیل بات اِ پْرینْتِد نوزْپِیپِر."
+        "pr": "اُونلی فیفتین پِرسِنْت سِد ذِی سْتیل بات اِ پْرینْتِد نوزْپِیپِر."
       },
       {
         "t": "Many young people told the reporters that social media was their main source of news.",
@@ -718,14 +779,40 @@
           "Stop using social media."
         ],
         "answer": 1
+      },
+      {
+        "q": {
+          "t": "Why did the journalist give advice about checking the source?",
+          "s": "چرا روزنامه‌نگار درباره‌ی بررسی منبع خبر توصیه کرد؟",
+          "pr": "وای دید ذِ جِرنِلیست گیو اِدْوایس اِباوت چِکینگ ذِ سُرس؟"
+        },
+        "options": [
+          "Many people share stories without checking them.",
+          "Printed newspapers are too expensive.",
+          "The radio isn't a reliable source."
+        ],
+        "answer": 0
+      },
+      {
+        "q": {
+          "t": "When did the man aged 72 probably start listening to the radio every morning?",
+          "s": "آن مرد هفتادودوساله احتمالاً از چه زمانی هر روز صبح رادیو گوش می‌دهد؟",
+          "pr": "وِن دید ذِ مَن اِیجْد سِوِنْتی تو پْرابِبْلی سْتارت لیسِنینگ تو ذِ رِیدیُو اِوْری مُرنینگ؟"
+        },
+        "options": [
+          "when he was about twenty-two",
+          "when he retired",
+          "last year"
+        ],
+        "answer": 0
       }
     ]
   },
   "sentences": [
     {
-      "t": "He said he would call me later.",
-      "s": "او گفت که بعداً به من زنگ می‌زند.",
-      "pr": "هی سِد هی وود کال میْ لِیتِر."
+      "t": "The radio reported that the roads were closed because of the snow.",
+      "s": "رادیو گزارش داد که جاده‌ها به خاطر برف بسته شده‌اند.",
+      "pr": "ذِ رِیدیُو ریپُرتِد ذَت ذِ رُودز وِر کْلُوزْد بیکاز آو ذِ سْنُو."
     },
     {
       "t": "She told me the news was on at nine.",
@@ -735,7 +822,7 @@
     {
       "t": "The video went viral overnight.",
       "s": "آن ویدیو یک‌شبه وایرال شد.",
-      "pr": "ذِ ویدیُو وِنْت وایرِل اُوِرْنایت."
+      "pr": "ذِ ویدیُو وِنت وایرِل اُوِرْنایت."
     },
     {
       "t": "I asked her if she had read the article.",
@@ -760,7 +847,7 @@
     {
       "t": "Don't believe everything you read online.",
       "s": "هر چیزی را که در اینترنت می‌خوانی باور نکن.",
-      "pr": "دُونت بیلیو اِوْریثینگ یو رید آن‌لاین."
+      "pr": "دُونت بیلیو اِوْریثینگ یو رید آنلاین."
     }
   ]
 }
