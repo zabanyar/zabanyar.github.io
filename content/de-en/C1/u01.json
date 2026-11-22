@@ -22,7 +22,8 @@
       "ex": {
         "t": "Die Studie liefert neue Erkenntnisse über das Schlafverhalten von Jugendlichen.",
         "s": "The study provides new insights into the sleep behavior of adolescents."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w02",
@@ -54,7 +55,8 @@
       "ex": {
         "t": "Das Institut hat bei der DFG Fördermittel für drei Jahre beantragt.",
         "s": "The institute has applied to the German Research Foundation (DFG) for three years of funding."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w05",
@@ -128,7 +130,8 @@
       "ex": {
         "t": "Ihre jüngste Veröffentlichung ist in einer renommierten Fachzeitschrift erschienen.",
         "s": "Her most recent publication appeared in a renowned academic journal."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w12",
@@ -159,7 +162,8 @@
       "ex": {
         "t": "Der Versuchsaufbau muss so dokumentiert werden, dass andere ihn nachbauen können.",
         "s": "The experimental setup must be documented in such a way that others can replicate it."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w15",
@@ -191,12 +195,18 @@
     {
       "id": "p04",
       "t": "Das lässt sich nicht ohne Weiteres verallgemeinern.",
-      "s": "That cannot simply be generalized."
+      "s": "That cannot simply be generalized.",
+      "alts": [
+        "Ohne Weiteres lässt sich das nicht verallgemeinern."
+      ]
     },
     {
       "id": "p05",
       "t": "Hier ist Vorsicht geboten.",
-      "s": "Caution is called for here."
+      "s": "Caution is called for here.",
+      "alts": [
+        "Vorsicht ist hier geboten."
+      ]
     },
     {
       "id": "p06",
@@ -221,11 +231,11 @@
     },
     "speakers": {
       "A": {
-        "name": "Lukas Brandt",
+        "name": "Markus Brandt",
         "voice": "m"
       },
       "B": {
-        "name": "Dr. Mina Karimi",
+        "name": "Dr. Laleh Karimi",
         "voice": "f"
       }
     },
@@ -273,7 +283,10 @@
       {
         "sp": "A",
         "t": "Was müsste sich Ihrer Ansicht nach ändern?",
-        "s": "In your view, what would have to change?"
+        "s": "In your view, what would have to change?",
+        "alts": [
+          "Was müsste sich nach Ihrer Ansicht ändern?"
+        ]
       },
       {
         "sp": "B",
@@ -283,7 +296,10 @@
       {
         "sp": "A",
         "t": "Frau Dr. Karimi, vielen Dank für das Gespräch.",
-        "s": "Dr. Karimi, thank you very much for talking to us."
+        "s": "Dr. Karimi, thank you very much for talking to us.",
+        "alts": [
+          "Vielen Dank für das Gespräch, Frau Dr. Karimi."
+        ]
       }
     ]
   },
@@ -291,10 +307,10 @@
     {
       "id": "g01",
       "title": {
-        "t": "Nominalstil ↔ Verbalstil",
+        "t": "Nominalstil und Verbalstil",
         "s": "Nominal style vs. verbal style"
       },
-      "explain": "Academic, administrative and press German often prefers the **nominal style**: information that would normally be a subordinate clause is packed into a noun phrase introduced by a preposition. At C1 you need to convert in both directions.\nThe key pairs: **weil/da → wegen, aufgrund + G** · **obwohl → trotz + G** · **wenn/falls/als → bei + D** · **nachdem → nach + D**, **bevor → vor + D** · **um … zu / damit → zu + D (zum/zur), für + A** · **indem → durch + A**.\nWhat happens to the parts of the clause: the verb becomes a noun (**auswerten → die Auswertung**, **erheben → die Erhebung**, **steigen → der Anstieg**); its object becomes a genitive (**die Daten auswerten → die Auswertung der Daten**); the agent becomes **durch + A** (**die Auswertung der Daten durch das Team**); adverbs become adjectives (**schnell reagieren → die schnelle Reaktion**).\nStyle: the nominal style is compact and precise, but heavy. In presentations and conversation, unpack it into verbs – your listeners will thank you.",
+      "explain": "**In short:** clause ↔ preposition + noun (weil → wegen, obwohl → trotz, wenn → bei, nachdem → nach); the verb becomes a noun and its object a genitive.\nAcademic, administrative and press German often prefers the **nominal style**: information that would normally be a subordinate clause is packed into a noun phrase introduced by a preposition. At C1 you need to convert in both directions.\nThe key pairs: **weil/da → wegen, aufgrund + G** · **obwohl → trotz + G** · **wenn/falls/als → bei + D** · **nachdem → nach + D**, **bevor → vor + D** · **um … zu / damit → zu + D (zum/zur), für + A** · **indem → durch + A**.\nWhat happens to the parts of the clause: the verb becomes a noun (**auswerten → die Auswertung**, **erheben → die Erhebung**, **steigen → der Anstieg**); its object becomes a genitive (**die Daten auswerten → die Auswertung der Daten**); the agent becomes **durch + A** (**die Auswertung der Daten durch das Team**); adverbs become adjectives (**schnell reagieren → die schnelle Reaktion**).\nStyle: the nominal style is compact and precise, but heavy. In presentations and conversation, unpack it into verbs – your listeners will thank you.",
       "table": [
         [
           "weil / da",
@@ -359,7 +375,8 @@
             "Während"
           ],
           "answer": 0,
-          "s": "Because costs had risen, the project was postponed."
+          "s": "Because costs had risen, the project was postponed.",
+          "why": "aufgrund + genitive gives a reason (= weil); trotz would mean 'although'."
         },
         {
           "type": "choice",
@@ -370,7 +387,8 @@
             "Nach"
           ],
           "answer": 1,
-          "s": "Although the results were clear, some experts remained skeptical."
+          "s": "Although the results were clear, some experts remained skeptical.",
+          "why": "trotz + genitive = obwohl: the experts stayed skeptical despite the clear results."
         },
         {
           "type": "type",
@@ -381,26 +399,33 @@
             "Fuer die",
             "Zwecks"
           ],
-          "s": "In order to test the hypothesis, the team conducted a second study."
+          "s": "In order to test the hypothesis, the team conducted a second study.",
+          "why": "A purpose (um … zu) becomes zur or zwecks + noun: zur Überprüfung."
         },
         {
           "type": "choice",
-          "t": "Bei der ___ der Daten muss man sorgfältig sein.",
+          "task": "Which reply corrects the claim politely?",
+          "cue": "Ihre Studie beweist also, dass soziale Medien depressiv machen?",
+          "t": "___",
           "options": [
-            "Auswertung",
-            "Auswerten",
-            "Auswertungen"
+            "Das wäre zu kurz gegriffen: Aus den Daten geht lediglich ein Zusammenhang hervor, keine Ursache.",
+            "Ja, das lässt sich ohne Weiteres verallgemeinern.",
+            "So ein Unsinn, das habe ich nie behauptet!"
           ],
           "answer": 0,
-          "s": "When analyzing the data, you have to be careful."
+          "why": "'Das wäre zu kurz gegriffen' corrects politely; 'Aus den Daten geht … hervor' reports the finding without overstating it.",
+          "s": "So your study proves that social media make people depressed? – That would be too simplistic: the data only show a correlation, not a cause."
         },
         {
           "type": "type",
           "t": "___ Abschluss der Studie wurden die Ergebnisse veröffentlicht.",
           "answer": [
-            "Nach"
+            "Nach",
+            "Mit",
+            "Bei"
           ],
-          "s": "After the study had been completed, the results were published."
+          "s": "After the study had been completed, the results were published.",
+          "why": "nachdem-clause → nach + noun: nach Abschluss (mit / bei Abschluss = upon completion)."
         },
         {
           "type": "choice",
@@ -411,23 +436,34 @@
             "mit"
           ],
           "answer": 0,
-          "s": "the analysis of the data by the researchers (= Die Forscherinnen werten die Daten aus.)"
+          "s": "the analysis of the data by the researchers (= Die Forscherinnen werten die Daten aus.)",
+          "why": "In nominal style, the agent of the action is introduced with durch."
         },
         {
-          "type": "order",
-          "t": "Aufgrund fehlender Daten ist die Studie kaum aussagekräftig.",
-          "s": "Due to missing data, the study is hardly conclusive.",
-          "alts": [
-            "Die Studie ist aufgrund fehlender Daten kaum aussagekräftig."
-          ]
+          "type": "type",
+          "task": "Rewrite it in nominal style.",
+          "cue": "Nachdem die Daten ausgewertet worden waren, wurde die Studie veröffentlicht.",
+          "t": "___ wurde die Studie veröffentlicht.",
+          "answer": [
+            "Nach der Auswertung der Daten",
+            "Nach Auswertung der Daten"
+          ],
+          "why": "nachdem-clause → nach + noun; the verb becomes a noun (die Auswertung) and its object a genitive (der Daten).",
+          "s": "After the data had been analyzed, the study was published."
         },
         {
-          "type": "order",
-          "t": "Trotz intensiver Forschung bleibt die Ursache unbekannt.",
-          "s": "Despite intensive research, the cause remains unknown.",
-          "alts": [
-            "Die Ursache bleibt trotz intensiver Forschung unbekannt."
-          ]
+          "type": "type",
+          "task": "Rewrite it in verbal style with als.",
+          "cue": "Bei der Durchführung des Experiments traten unerwartete Probleme auf.",
+          "t": "Als ___, traten unerwartete Probleme auf.",
+          "answer": [
+            "das Experiment durchgeführt wurde",
+            "das Experiment durchgefuehrt wurde",
+            "man das Experiment durchführte",
+            "man das Experiment durchfuehrte"
+          ],
+          "why": "bei + noun (at the time of) → als-clause; the genitive des Experiments becomes the subject of a passive (or the object after man).",
+          "s": "When the experiment was carried out, unexpected problems arose."
         }
       ]
     },
@@ -437,7 +473,7 @@
         "t": "Funktionsverbgefüge",
         "s": "Noun–verb collocations (support verb constructions)"
       },
-      "explain": "A **Funktionsverbgefüge** is a fixed combination of a noun (often derived from a verb) and a 'light' verb such as **bringen, kommen, stehen, stellen, nehmen, treffen, üben, finden, ziehen**. The verb has largely lost its own meaning – the noun carries it. Many have a simple verb equivalent: **eine Entscheidung treffen = entscheiden**, **Kritik üben an + D = kritisieren**, **in Frage stellen = bezweifeln**.\nWhy use them? (1) **Register**: they sound more formal and are typical of academic, administrative and press language. (2) **Nuance**: they can express a state (**zur Verfügung stehen** = be available), a causation (**zur Verfügung stellen** = make available), a beginning (**in Gang kommen**, **in Bewegung geraten**) or a passive meaning (**Anwendung finden** = angewendet werden, **auf Kritik stoßen**).\nThe combinations are **fixed**: you cannot swap the verb (*eine Entscheidung machen* is wrong) or freely add an article (**in Frage stellen**, not *in die Frage*). Both spellings **in Frage stellen** and **infrage stellen** are correct. Negation: prepositional types usually take **nicht** (**Das kommt nicht in Frage.**), types with a bare accusative noun often take **kein** (**keine Rücksicht nehmen**).",
+      "explain": "**In short:** a fixed noun + 'light' verb with one meaning (eine Entscheidung treffen = entscheiden); learn them as units and never swap the verb.\nA **Funktionsverbgefüge** is a fixed combination of a noun (often derived from a verb) and a 'light' verb such as **bringen, kommen, stehen, stellen, nehmen, treffen, üben, finden, ziehen**. The verb has largely lost its own meaning – the noun carries it. Many have a simple verb equivalent: **eine Entscheidung treffen = entscheiden**, **Kritik üben an + D = kritisieren**, **in Frage stellen = bezweifeln**.\nWhy use them? (1) **Register**: they sound more formal and are typical of academic, administrative and press language. (2) **Nuance**: they can express a state (**zur Verfügung stehen** = be available), a causation (**zur Verfügung stellen** = make available), a beginning (**in Gang kommen**, **in Bewegung geraten**) or a passive meaning (**Anwendung finden** = angewendet werden, **auf Kritik stoßen**).\nThe combinations are **fixed**: you cannot swap the verb (*eine Entscheidung machen* is wrong) or freely add an article (**in Frage stellen**, not *in die Frage*). Both spellings **in Frage stellen** and **infrage stellen** are correct. Negation: prepositional types usually take **nicht** (**Das kommt nicht in Frage.**), types with a bare accusative noun often take **kein** (**keine Rücksicht nehmen**).",
       "table": [
         [
           "eine Entscheidung treffen",
@@ -504,7 +540,8 @@
             "stellen"
           ],
           "answer": 1,
-          "s": "The commission will make a decision in the fall."
+          "s": "The commission will make a decision in the fall.",
+          "why": "eine Entscheidung treffen is the fixed collocation (not machen)."
         },
         {
           "type": "choice",
@@ -515,7 +552,8 @@
             "bringt"
           ],
           "answer": 1,
-          "s": "The university provides the researchers with a modern laboratory."
+          "s": "The university provides the researchers with a modern laboratory.",
+          "why": "zur Verfügung stellen = provide (active); zur Verfügung stehen = be available."
         },
         {
           "type": "type",
@@ -526,7 +564,8 @@
             "ueben",
             "aeussern"
           ],
-          "s": "Many experts criticize the new study."
+          "s": "Many experts criticize the new study.",
+          "why": "Kritik üben (or äußern) an + dative = criticize."
         },
         {
           "type": "choice",
@@ -537,7 +576,8 @@
             "legen"
           ],
           "answer": 0,
-          "s": "The findings call the previous theory into question."
+          "s": "The findings call the previous theory into question.",
+          "why": "in Frage stellen = call into question."
         },
         {
           "type": "type",
@@ -546,26 +586,36 @@
             "Anwendung",
             "Verwendung"
           ],
-          "s": "This method is used in many laboratories today."
+          "s": "This method is used in many laboratories today.",
+          "why": "Anwendung finden = be used, be applied (a passive meaning)."
         },
         {
           "type": "choice",
-          "t": "Eine Verschiebung des Projekts kommt für uns nicht in ___.",
+          "task": "Which reply rejects the idea politely but firmly?",
+          "cue": "Wir könnten die Studie doch einfach ohne Kontrollgruppe durchführen.",
+          "t": "___",
           "options": [
-            "Frage",
-            "Sprache",
-            "Kraft"
+            "Das kommt leider nicht in Frage – ohne Kontrollgruppe wären die Ergebnisse kaum aussagekräftig.",
+            "Gute Idee, dann treffen wir gleich eine Entscheidung.",
+            "Das stellt doch niemand in Frage."
           ],
           "answer": 0,
-          "s": "Postponing the project is out of the question for us."
+          "why": "nicht in Frage kommen = be out of the question; giving a reason after it keeps the refusal polite.",
+          "s": "We could simply run the study without a control group. – I'm afraid that's out of the question – without a control group the results would hardly be meaningful."
         },
         {
-          "type": "order",
-          "t": "Neue Befunde stellen diese Theorie in Frage.",
-          "s": "New findings call this theory into question.",
-          "alts": [
-            "Diese Theorie stellen neue Befunde in Frage."
-          ]
+          "type": "type",
+          "task": "Use a Funktionsverbgefüge with Kritik.",
+          "cue": "Die Forscher kritisieren die Methode scharf.",
+          "t": "Die Forscher ___.",
+          "answer": [
+            "üben scharfe Kritik an der Methode",
+            "ueben scharfe Kritik an der Methode",
+            "äußern scharfe Kritik an der Methode",
+            "aeussern scharfe Kritik an der Methode"
+          ],
+          "why": "kritisieren → Kritik üben an + dative; the adverb scharf becomes an adjective: scharfe Kritik.",
+          "s": "The researchers sharply criticize the method."
         },
         {
           "type": "order",
@@ -693,6 +743,18 @@
           "das Vertrauen der Öffentlichkeit"
         ],
         "answer": 2
+      },
+      {
+        "q": {
+          "t": "Warum veröffentlichen junge Forschende vermutlich selten Replikationen oder negative Ergebnisse?",
+          "s": "Why do young researchers probably rarely publish replications or negative results?"
+        },
+        "options": [
+          "Weil Replikationen gesetzlich verboten sind.",
+          "Weil sie mit befristeten Verträgen unter Druck stehen, schnell spektakuläre Ergebnisse zu liefern.",
+          "Weil sie kein Interesse an verlässlichen Befunden haben."
+        ],
+        "answer": 1
       }
     ]
   },
@@ -703,7 +765,10 @@
     },
     {
       "t": "Nach derzeitigem Forschungsstand ist ein Zusammenhang nicht belegt.",
-      "s": "According to the current state of research, a connection has not been proven."
+      "s": "According to the current state of research, a connection has not been proven.",
+      "alts": [
+        "Ein Zusammenhang ist nach derzeitigem Forschungsstand nicht belegt."
+      ]
     },
     {
       "t": "Die Ergebnisse sollten mit Vorsicht interpretiert werden.",
@@ -719,15 +784,24 @@
     },
     {
       "t": "Wir müssen unsere Methodik noch einmal kritisch hinterfragen.",
-      "s": "We need to critically scrutinize our methodology once more."
+      "s": "We need to critically scrutinize our methodology once more.",
+      "alts": [
+        "Wir müssen noch einmal unsere Methodik kritisch hinterfragen."
+      ]
     },
     {
       "t": "Die Daten werden derzeit noch ausgewertet.",
-      "s": "The data are still being analyzed."
+      "s": "The data are still being analyzed.",
+      "alts": [
+        "Derzeit werden die Daten noch ausgewertet."
+      ]
     },
     {
       "t": "Der Antrag muss bis Ende März eingereicht werden.",
-      "s": "The application must be submitted by the end of March."
+      "s": "The application must be submitted by the end of March.",
+      "alts": [
+        "Bis Ende März muss der Antrag eingereicht werden."
+      ]
     }
   ]
 }

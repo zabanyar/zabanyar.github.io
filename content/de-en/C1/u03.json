@@ -184,7 +184,10 @@
     {
       "id": "p03",
       "t": "So war das nicht gemeint.",
-      "s": "That's not how it was meant."
+      "s": "That's not how it was meant.",
+      "alts": [
+        "Das war so nicht gemeint."
+      ]
     },
     {
       "id": "p04",
@@ -199,7 +202,10 @@
     {
       "id": "p06",
       "t": "Da muss ich Ihnen widersprechen.",
-      "s": "I have to disagree with you there."
+      "s": "I have to disagree with you there.",
+      "alts": [
+        "Ich muss Ihnen da widersprechen."
+      ]
     },
     {
       "id": "p07",
@@ -240,8 +246,8 @@
       },
       {
         "sp": "A",
-        "t": "Das weiß ich ja. Aber bei uns würde man so etwas viel diplomatischer formulieren, eher zwischen den Zeilen.",
-        "s": "I know that. But back home people would put something like that much more diplomatically, more between the lines."
+        "t": "Das weiß ich ja. Aber bei uns würde man so etwas viel diplomatischer formulieren, eher zwischen den Zeilen – Stichwort Taarof.",
+        "s": "I know that. But back home people would put something like that much more diplomatically, more between the lines – think taarof."
       },
       {
         "sp": "B",
@@ -271,7 +277,11 @@
       {
         "sp": "A",
         "t": "Daran muss ich mich wohl erst noch gewöhnen.",
-        "s": "I'll probably still have to get used to that."
+        "s": "I'll probably still have to get used to that.",
+        "alts": [
+          "Ich muss mich wohl erst noch daran gewöhnen.",
+          "Ich muss mich daran wohl erst noch gewöhnen."
+        ]
       },
       {
         "sp": "B",
@@ -287,7 +297,7 @@
         "t": "Modalpartikeln: ja, doch, eben, halt, wohl, mal",
         "s": "Modal particles"
       },
-      "explain": "Modal particles are small, **unstressed** words that do not change the factual content of a sentence but signal the speaker's attitude: shared knowledge, surprise, impatience, resignation, a softened request. They are typical of spoken German – using them well is one of the clearest signs of C1-level fluency.\n**Position:** never in position 1; they stand in the middle field after the finite verb, usually after unstressed pronouns and before the new information: **Ich habe es dir doch gestern gesagt.**\n**ja** – 'as we both know': **Das weiß ich ja.** Also surprise: **Das ist ja interessant!**\n**doch** – reminder or mild reproach: **Das habe ich dir doch gesagt!** In imperatives, an encouraging or impatient push: **Komm doch mit!**\n**eben / halt** – resignation, 'that's just the way it is': **So ist das eben.** **halt** is more colloquial and more common in southern Germany and Austria. **Eben!** on its own means 'Exactly!'.\n**wohl** – assumption, 'probably': **Er ist wohl krank.** In questions it expresses wondering: **Ob sie wohl kommt?**\n**mal** – softens requests (from **einmal**): **Kannst du mal kurz helfen?** It often combines with doch: **Ruf sie doch mal an!**\nCareful: a **stressed** DOCH answering a negative question (**Doch, ich komme!**) is not a modal particle; a stressed JA in an imperative is a warning: **Komm JA nicht zu spät!**",
+      "explain": "**In short:** small unstressed words in the middle field that show attitude: ja (shared knowledge), doch (reminder), eben/halt (resignation), wohl (guess), mal (softener).\nModal particles are small, **unstressed** words that do not change the factual content of a sentence but signal the speaker's attitude: shared knowledge, surprise, impatience, resignation, a softened request. They are typical of spoken German – using them well is one of the clearest signs of C1-level fluency.\n**Position:** never in position 1; they stand in the middle field after the finite verb, usually after unstressed pronouns and before the new information: **Ich habe es dir doch gestern gesagt.**\n**ja** – 'as we both know': **Das weiß ich ja.** Also surprise: **Das ist ja interessant!**\n**doch** – reminder or mild reproach: **Das habe ich dir doch gesagt!** In imperatives, an encouraging or impatient push: **Komm doch mit!**\n**eben / halt** – resignation, 'that's just the way it is': **So ist das eben.** **halt** is more colloquial and more common in southern Germany and Austria. **Eben!** on its own means 'Exactly!'.\n**wohl** – assumption, 'probably': **Er ist wohl krank.** In questions it expresses wondering: **Ob sie wohl kommt?**\n**mal** – softens requests (from **einmal**): **Kannst du mal kurz helfen?** It often combines with doch: **Ruf sie doch mal an!**\nCareful: a **stressed** DOCH answering a negative question (**Doch, ich komme!**) is not a modal particle; a stressed JA in an imperative is a warning: **Komm JA nicht zu spät!**",
       "table": [
         [
           "ja",
@@ -347,7 +357,8 @@
             "eben"
           ],
           "answer": 0,
-          "s": "Do come in, the door is open!"
+          "s": "Do come in, the door is open!",
+          "why": "doch in a request makes it an encouraging invitation: do come in."
         },
         {
           "type": "choice",
@@ -358,7 +369,8 @@
             "denn"
           ],
           "answer": 1,
-          "s": "He isn't answering the phone. He's probably already on vacation."
+          "s": "He isn't answering the phone. He's probably already on vacation.",
+          "why": "wohl = probably: the speaker is guessing."
         },
         {
           "type": "type",
@@ -367,7 +379,8 @@
             "mal",
             "eben"
           ],
-          "s": "Could you just close the window for a moment, please?"
+          "s": "Could you just close the window for a moment, please?",
+          "why": "mal (or eben) softens a request: just, for a moment."
         },
         {
           "type": "choice",
@@ -378,7 +391,8 @@
             "denn"
           ],
           "answer": 0,
-          "s": "We missed the train. Nothing to be done – that's just the way it is."
+          "s": "We missed the train. Nothing to be done – that's just the way it is.",
+          "why": "halt / eben = that's just how it is (resignation)."
         },
         {
           "type": "choice",
@@ -389,27 +403,34 @@
             "denn"
           ],
           "answer": 1,
-          "s": "You know that I always work late on Mondays, after all."
+          "s": "You know that I always work late on Mondays, after all.",
+          "why": "ja = as you know (shared knowledge)."
+        },
+        {
+          "type": "choice",
+          "task": "Which reply comforts in a natural, spoken way?",
+          "cue": "Ich habe die Prüfung schon wieder nicht bestanden.",
+          "t": "___",
+          "options": [
+            "Kopf hoch, das passiert halt mal. Beim nächsten Mal klappt es bestimmt.",
+            "Das ist ja interessant!",
+            "Das hättest du halt vorher wissen müssen."
+          ],
+          "answer": 0,
+          "why": "halt / eben (+ mal) accept what can't be changed – a typical comforting tone; 'ja interessant' and a reproach don't comfort.",
+          "s": "I failed the exam again. – Chin up, these things happen. You'll make it next time for sure."
         },
         {
           "type": "type",
-          "t": "Ein Fauxpas? – ___! Genau das meine ich.",
+          "task": "Say the same with a modal particle instead of wie du weißt.",
+          "cue": "Wie du weißt, ist meine Mutter gerade bei uns.",
+          "t": "Meine Mutter ist ___ gerade bei uns.",
           "answer": [
-            "Eben",
-            "Genau",
-            "Richtig",
-            "Stimmt",
-            "Exakt",
-            "Allerdings",
-            "Ja",
-            "Ganz genau"
+            "ja",
+            "doch"
           ],
-          "s": "A faux pas? – Exactly! That's precisely what I mean."
-        },
-        {
-          "type": "order",
-          "t": "Ruf sie doch mal an!",
-          "s": "Why don't you give her a call!"
+          "why": "ja signals shared knowledge ('as you know'); doch adds a reminder. Both replace 'wie du weißt'.",
+          "s": "My mother is staying with us at the moment, as you know."
         },
         {
           "type": "order",
@@ -427,7 +448,7 @@
         "t": "Argumentative Konnektoren: folglich, demzufolge, hingegen, indessen",
         "s": "Connectors for argumentation"
       },
-      "explain": "Connecting adverbs link two main clauses logically and are typical of written argumentation. Unlike conjunctions such as **aber, denn, und** (position 0, no inversion), they are **sentence elements**: in position 1 they trigger inversion – **Folglich muss die Methode überprüft werden.** They can also stand in the middle field: **Die Methode muss folglich überprüft werden.**\n**Consequence:** **folglich, demzufolge, somit, infolgedessen** – more formal than **deshalb, daher, also**. (Note: German **also** means 'so, therefore', not 'also'!) **demnach** means 'accordingly' or 'according to this'.\n**Contrast:** **hingegen, dagegen, demgegenüber** compare two things or people. **hingegen** often follows the element being contrasted: **Die Älteren lesen Zeitung, die Jüngeren hingegen informieren sich online.**\n**Restriction:** **allerdings, jedoch** ('however'); **indessen / indes** is very formal and means either 'however' or 'meanwhile'. **jedoch** is special: like **aber**, it can also link words and phrases (**einfach, jedoch wirkungsvoll**); between clauses it normally triggers inversion (**…, jedoch fehlen die Mittel.**).\nRegister: in conversation, **deshalb, also, dagegen, aber** sound natural; **folglich, demzufolge, indessen** belong to presentations, essays and the C1 writing exam.",
+      "explain": "**In short:** connecting adverbs (folglich, hingegen, allerdings …) are sentence elements: in position one, the verb follows them directly.\nConnecting adverbs link two main clauses logically and are typical of written argumentation. Unlike conjunctions such as **aber, denn, und** (position 0, no inversion), they are **sentence elements**: in position 1 they trigger inversion – **Folglich muss die Methode überprüft werden.** They can also stand in the middle field: **Die Methode muss folglich überprüft werden.**\n**Consequence:** **folglich, demzufolge, somit, infolgedessen** – more formal than **deshalb, daher, also**. (Note: German **also** means 'so, therefore', not 'also'!) **demnach** means 'accordingly' or 'according to this'.\n**Contrast:** **hingegen, dagegen, demgegenüber** compare two things or people. **hingegen** often follows the element being contrasted: **Die Älteren lesen Zeitung, die Jüngeren hingegen informieren sich online.**\n**Restriction:** **allerdings, jedoch** ('however'); **indessen / indes** is very formal and means either 'however' or 'meanwhile'. **jedoch** is special: like **aber**, it can also link words and phrases (**einfach, jedoch wirkungsvoll**); between clauses it normally triggers inversion (**…, jedoch fehlen die Mittel.**).\nRegister: in conversation, **deshalb, also, dagegen, aber** sound natural; **folglich, demzufolge, indessen** belong to presentations, essays and the C1 writing exam.",
       "table": [
         [
           "Folge",
@@ -477,7 +498,8 @@
             "Obwohl"
           ],
           "answer": 0,
-          "s": "The data were incomplete. Consequently, the study had to be repeated."
+          "s": "The data were incomplete. Consequently, the study had to be repeated.",
+          "why": "folglich = consequently: the repetition is the result of the incomplete data."
         },
         {
           "type": "choice",
@@ -488,7 +510,8 @@
             "weil"
           ],
           "answer": 1,
-          "s": "Older people prefer phoning; younger people, by contrast, send messages."
+          "s": "Older people prefer phoning; younger people, by contrast, send messages.",
+          "why": "hingegen = by contrast; it can follow the subject it contrasts (Jüngere hingegen)."
         },
         {
           "type": "choice",
@@ -499,7 +522,8 @@
             "wir sind gekommen"
           ],
           "answer": 0,
-          "s": "The train was canceled. Consequently, we were late."
+          "s": "The train was canceled. Consequently, we were late.",
+          "why": "Folglich takes position one, so the verb comes next: Folglich kamen wir."
         },
         {
           "type": "type",
@@ -515,7 +539,8 @@
             "demgegenueber",
             "indes"
           ],
-          "s": "He speaks four languages; his sister, on the other hand, speaks only German."
+          "s": "He speaks four languages; his sister, on the other hand, speaks only German.",
+          "why": "A contrast: hingegen, dagegen, jedoch … can follow the subject."
         },
         {
           "type": "choice",
@@ -526,7 +551,8 @@
             "obwohl"
           ],
           "answer": 1,
-          "s": "The offer is good; however, it is only valid for a limited time."
+          "s": "The offer is good; however, it is only valid for a limited time.",
+          "why": "allerdings counts as position one, so the verb follows (allerdings ist es); aber would need 'aber es ist'."
         },
         {
           "type": "type",
@@ -544,25 +570,34 @@
             "Also",
             "Dementsprechend"
           ],
-          "s": "The deadline has passed. Consequently, your application can no longer be considered."
+          "s": "The deadline has passed. Consequently, your application can no longer be considered.",
+          "why": "A consequence: folglich, demzufolge, somit, deshalb … followed directly by the verb."
         },
         {
-          "type": "order",
-          "t": "Folglich müssen wir die Methode überdenken.",
-          "s": "Consequently, we need to rethink the method.",
-          "alts": [
-            "Wir müssen folglich die Methode überdenken.",
-            "Wir müssen die Methode folglich überdenken.",
-            "Die Methode müssen wir folglich überdenken."
-          ]
+          "type": "type",
+          "task": "Make two sentences; start the second with folglich.",
+          "cue": "Der Zug hatte Verspätung, deshalb haben wir den Anschluss verpasst.",
+          "t": "Der Zug hatte Verspätung. ___.",
+          "answer": [
+            "Folglich haben wir den Anschluss verpasst",
+            "Folglich verpassten wir den Anschluss"
+          ],
+          "why": "folglich is an adverb: in position one it is followed directly by the verb (Folglich haben wir …).",
+          "s": "The train was late. Consequently, we missed our connection."
         },
         {
-          "type": "order",
-          "t": "Die Kosten sind somit deutlich gestiegen.",
-          "s": "Costs have thus risen significantly.",
-          "alts": [
-            "Somit sind die Kosten deutlich gestiegen."
-          ]
+          "type": "choice",
+          "task": "Which reply adds a contrast?",
+          "cue": "In Deutschland sagt man doch immer direkt, was man denkt.",
+          "t": "___",
+          "options": [
+            "Das mag für viele gelten; in anderen Kulturen hingegen formuliert man eher indirekt.",
+            "Das mag für viele gelten; folglich formuliert man in anderen Kulturen eher indirekt.",
+            "Das mag für viele gelten; somit formuliert man in anderen Kulturen eher indirekt."
+          ],
+          "answer": 0,
+          "why": "hingegen marks a contrast; folglich and somit would wrongly present it as a consequence.",
+          "s": "In Germany people always say directly what they think. – That may be true for many; in other cultures, by contrast, people tend to put things indirectly."
         }
       ]
     }
@@ -686,6 +721,18 @@
           "wenn er aus dem Englischen stammt"
         ],
         "answer": 1
+      },
+      {
+        "q": {
+          "t": "Wie würden die Sprachwissenschaftler den Satz am Anfang des Textes vermutlich beurteilen?",
+          "s": "How would the linguists probably judge the sentence at the beginning of the text?"
+        },
+        "options": [
+          "als normales Beispiel für Sprachkontakt, nicht als Bedrohung",
+          "als Beweis für den Verfall der deutschen Sprache",
+          "als grammatisch falsch"
+        ],
+        "answer": 0
       }
     ]
   },
@@ -712,15 +759,25 @@
     },
     {
       "t": "Das hat sie bestimmt nicht böse gemeint.",
-      "s": "I'm sure she didn't mean any harm."
+      "s": "I'm sure she didn't mean any harm.",
+      "alts": [
+        "Sie hat das bestimmt nicht böse gemeint."
+      ]
     },
     {
       "t": "Missverständnisse lassen sich durch Nachfragen oft vermeiden.",
-      "s": "Misunderstandings can often be avoided by asking."
+      "s": "Misunderstandings can often be avoided by asking.",
+      "alts": [
+        "Durch Nachfragen lassen sich Missverständnisse oft vermeiden.",
+        "Missverständnisse lassen sich oft durch Nachfragen vermeiden."
+      ]
     },
     {
       "t": "Na ja, so ist das halt.",
-      "s": "Oh well, that's just the way it is."
+      "s": "Oh well, that's just the way it is.",
+      "alts": [
+        "Na ja, das ist halt so."
+      ]
     }
   ]
 }

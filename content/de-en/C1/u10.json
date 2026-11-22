@@ -22,7 +22,8 @@
       "ex": {
         "t": "Im ersten Teil der Prüfung halten Sie einen kurzen Vortrag.",
         "s": "In the first part of the exam you give a short presentation."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w02",
@@ -112,7 +113,7 @@
     },
     {
       "id": "w10",
-      "t": "auf etw. (Akk.) eingehen",
+      "t": "eingehen auf + A",
       "s": "to address sth., to go into sth.",
       "emoji": "",
       "ex": {
@@ -195,7 +196,10 @@
     {
       "id": "p03",
       "t": "Damit komme ich zum nächsten Punkt.",
-      "s": "That brings me to the next point."
+      "s": "That brings me to the next point.",
+      "alts": [
+        "Ich komme damit zum nächsten Punkt."
+      ]
     },
     {
       "id": "p04",
@@ -204,8 +208,8 @@
     },
     {
       "id": "p05",
-      "t": "Ich vertrete die Auffassung, dass …",
-      "s": "I take the view that …"
+      "t": "Könnten wir uns darauf verständigen, dass …?",
+      "s": "Could we agree that …?"
     },
     {
       "id": "p06",
@@ -214,8 +218,11 @@
     },
     {
       "id": "p07",
-      "t": "Wenn ich Sie richtig verstanden habe, …",
-      "s": "If I've understood you correctly, …"
+      "t": "Da würde ich gern einhaken.",
+      "s": "I'd like to come in on that point.",
+      "alts": [
+        "Ich würde da gern einhaken."
+      ]
     },
     {
       "id": "p08",
@@ -230,7 +237,7 @@
     },
     "speakers": {
       "A": {
-        "name": "Anna",
+        "name": "Elena",
         "voice": "f"
       },
       "B": {
@@ -298,7 +305,7 @@
         "t": "Dem ist entgegenzuhalten, dass …",
         "s": "Redemittel for presentations, position statements and counterarguments"
       },
-      "explain": "In C1 oral exams (e.g. Goethe or telc) you typically give a short **presentation** and then **discuss** a topic with a partner; written exams often ask for an argumentative text such as a **Stellungnahme**. Examiners reward a clear structure and a varied range of Redemittel.\nA good presentation has three parts: **Einleitung** (topic, relevance, outline), **Hauptteil** (arguments, examples, clear transitions) and **Schluss** (summary, own position, thanks).\nMany of these Redemittel share grammatical patterns worth mastering:\n• **sich lassen + infinitive** (= *can be done*): *Dies **lässt sich** an einem Beispiel **veranschaulichen**.*\n• **sein / bleiben + zu + infinitive** (= *must / can be done*): *Dem **ist entgegenzuhalten**, dass … / Es **bleibt festzuhalten**, dass …*\n• **Dem** (dative demonstrative) at the start points back to the previous statement: ***Dem** stimme ich zu. / **Dem** kann ich nur bedingt folgen.*\n• fixed genitive phrases: **meines Erachtens, meines Wissens**.\nAvoid starting every argument with *Ich denke …* – alternate between personal (*Ich vertrete die Auffassung, dass …*) and impersonal formulations (*Dafür spricht, dass …*).",
+      "explain": "**In short:** structure your talk (Einleitung – Hauptteil – Schluss), vary personal and impersonal Redemittel, and know their grammar (sich lassen, sein + zu, Dem …).\nIn C1 oral exams (e.g. Goethe or telc) you typically give a short **presentation** and then **discuss** a topic with a partner; written exams often ask for an argumentative text such as a **Stellungnahme**. Examiners reward a clear structure and a varied range of Redemittel.\nA good presentation has three parts: **Einleitung** (topic, relevance, outline), **Hauptteil** (arguments, examples, clear transitions) and **Schluss** (summary, own position, thanks).\nMany of these Redemittel share grammatical patterns worth mastering:\n• **sich lassen + infinitive** (= *can be done*): *Dies **lässt sich** an einem Beispiel **veranschaulichen**.*\n• **sein / bleiben + zu + infinitive** (= *must / can be done*): *Dem **ist entgegenzuhalten**, dass … / Es **bleibt festzuhalten**, dass …*\n• **Dem** (dative demonstrative) at the start points back to the previous statement: ***Dem** stimme ich zu. / **Dem** kann ich nur bedingt folgen.*\n• fixed genitive phrases: **meines Erachtens, meines Wissens**.\nAvoid starting every argument with *Ich denke …* – alternate between personal (*Ich vertrete die Auffassung, dass …*) and impersonal formulations (*Dafür spricht, dass …*).",
       "table": [
         [
           "Einleitung",
@@ -361,7 +368,8 @@
             "handelt"
           ],
           "answer": 1,
-          "s": "My presentation is divided into three parts."
+          "s": "My presentation is divided into three parts.",
+          "why": "sich gliedern in + accusative = be divided into."
         },
         {
           "type": "choice",
@@ -372,7 +380,8 @@
             "Dem"
           ],
           "answer": 2,
-          "s": "Against this it must be said that the costs would be enormous."
+          "s": "Against this it must be said that the costs would be enormous.",
+          "why": "Dem (dative) points back to the previous statement: entgegenhalten + dative."
         },
         {
           "type": "choice",
@@ -383,7 +392,8 @@
             "Meiner"
           ],
           "answer": 0,
-          "s": "In my view, the problem can certainly be solved."
+          "s": "In my view, the problem can certainly be solved.",
+          "why": "A fixed genitive phrase: meines Erachtens."
         },
         {
           "type": "choice",
@@ -394,23 +404,36 @@
             "veranschaulichen"
           ],
           "answer": 2,
-          "s": "This can be illustrated with an example."
+          "s": "This can be illustrated with an example.",
+          "why": "sich lassen + bare infinitive: lässt sich veranschaulichen."
         },
         {
-          "type": "type",
-          "t": "Damit ___ ich zum letzten Punkt meines Vortrags.",
-          "answer": [
-            "komme"
+          "type": "choice",
+          "task": "Which reply concedes a point and then counters it?",
+          "cue": "Homeoffice macht einsam, deshalb sollte man es ganz abschaffen.",
+          "t": "___",
+          "options": [
+            "Ich räume ein, dass sich manche isoliert fühlen. Dem ist jedoch entgegenzuhalten, dass viele Familien davon profitieren.",
+            "Dem stimme ich voll und ganz zu, das sollte man sofort abschaffen.",
+            "Dem ist entgegenzuhalten, dass Sie völlig recht haben."
           ],
-          "s": "That brings me to the last point of my presentation."
+          "answer": 0,
+          "why": "A concession (Ich räume ein, dass …) followed by a counterargument (Dem ist entgegenzuhalten, dass …).",
+          "s": "Working from home makes people lonely, so it should be abolished. – I concede that some people feel isolated. Against this, however, many families benefit from it."
         },
         {
-          "type": "type",
-          "t": "Auf diese Frage gehe ich später noch ___.",
-          "answer": [
-            "ein"
+          "type": "choice",
+          "task": "Which reply moves the discussion toward an agreement?",
+          "cue": "Ich finde, man sollte die Vier-Tage-Woche erst einmal in einzelnen Branchen testen.",
+          "t": "___",
+          "options": [
+            "Damit wäre ich einverstanden. Könnten wir uns darauf verständigen, mit Pilotprojekten zu beginnen?",
+            "Da möchte ich Ihnen widersprechen: Das finde ich auch.",
+            "Damit komme ich zum nächsten Punkt meines Vortrags."
           ],
-          "s": "I'll address this question later."
+          "answer": 0,
+          "why": "In the exam discussion you must reach an agreement: 'Könnten wir uns darauf verständigen, …?' proposes a joint solution.",
+          "s": "I think the four-day week should first be tested in individual sectors. – I'd be fine with that. Could we agree to start with pilot projects?"
         },
         {
           "type": "order",
@@ -421,12 +444,17 @@
           ]
         },
         {
-          "type": "order",
-          "t": "Damit komme ich zum nächsten Punkt.",
-          "s": "That brings me to the next point.",
-          "alts": [
-            "Ich komme damit zum nächsten Punkt."
-          ]
+          "type": "type",
+          "task": "Make it more formal with vertreten.",
+          "cue": "Ich bin der Meinung, dass das Modell zu teuer ist.",
+          "t": "Ich ___, dass das Modell zu teuer ist.",
+          "answer": [
+            "vertrete die Auffassung",
+            "vertrete die Ansicht",
+            "vertrete den Standpunkt"
+          ],
+          "why": "Formal Redemittel: die Auffassung / den Standpunkt vertreten, dass … (with vertreten, not haben).",
+          "s": "I take the view that the model is too expensive."
         }
       ]
     },
@@ -436,7 +464,7 @@
         "t": "Da wäre ich mir nicht so sicher.",
         "s": "Konjunktiv II for politeness, hypothesis and distance"
       },
-      "explain": "In discussions, the **Konjunktiv II** is one of your most powerful tools. It has three main functions:\n**1. Politeness and diplomacy.** It softens requests, interruptions and above all disagreement: **Könnten Sie das näher erläutern? · Dürfte ich kurz einhaken? · Da wäre ich mir nicht so sicher. · Ich würde das etwas anders sehen.** A blunt *Das ist falsch.* sounds rude in a C1 discussion.\n**2. Hypothesis.** Thought experiments make arguments vivid: **Was wäre, wenn …? · Angenommen, …, dann würde … · Wenn man das Modell einführen würde, müssten …** For the past, use **hätte/wäre + Partizip II**: *Hätte man früher gehandelt, wäre die Krise vermeidbar gewesen.* (*wenn* can be dropped by putting the verb first.)\n**3. Distance and caution.** It signals that you are not making an absolute claim: **Man könnte einwenden, dass … · Das dürfte schwierig werden.** (*dürfte* = probably) **· Es wäre zu prüfen, ob …**\nForm: use the one-word forms for **sein, haben**, the **modal verbs** and some frequent verbs (**wäre, hätte, könnte, müsste, dürfte, käme, ginge, gäbe, wüsste, ließe**); for most other verbs use **würde + infinitive**. Avoid *würde sein* / *würde haben* in formal speech.",
+      "explain": "**In short:** the Konjunktiv II softens (Könnten Sie …?), builds hypotheses (Was wäre, wenn …?) and creates distance (Das dürfte schwierig werden).\nIn discussions, the **Konjunktiv II** is one of your most powerful tools. It has three main functions:\n**1. Politeness and diplomacy.** It softens requests, interruptions and above all disagreement: **Könnten Sie das näher erläutern? · Dürfte ich kurz einhaken? · Da wäre ich mir nicht so sicher. · Ich würde das etwas anders sehen.** A blunt *Das ist falsch.* sounds rude in a C1 discussion.\n**2. Hypothesis.** Thought experiments make arguments vivid: **Was wäre, wenn …? · Angenommen, …, dann würde … · Wenn man das Modell einführen würde, müssten …** For the past, use **hätte/wäre + Partizip II**: *Hätte man früher gehandelt, wäre die Krise vermeidbar gewesen.* (*wenn* can be dropped by putting the verb first.)\n**3. Distance and caution.** It signals that you are not making an absolute claim: **Man könnte einwenden, dass … · Das dürfte schwierig werden.** (*dürfte* = probably) **· Es wäre zu prüfen, ob …**\nForm: use the one-word forms for **sein, haben**, the **modal verbs** and some frequent verbs (**wäre, hätte, könnte, müsste, dürfte, käme, ginge, gäbe, wüsste, ließe**); for most other verbs use **würde + infinitive**. Avoid *würde sein* / *würde haben* in formal speech.",
       "table": [
         [
           "Höflichkeit",
@@ -491,7 +519,8 @@
             "Können würden"
           ],
           "answer": 1,
-          "s": "Could you please explain that again?"
+          "s": "Could you please explain that again?",
+          "why": "A polite request: Konjunktiv II könnten (the Sie form)."
         },
         {
           "type": "choice",
@@ -502,7 +531,8 @@
             "hätte"
           ],
           "answer": 0,
-          "s": "I wouldn't be so sure about that."
+          "s": "I wouldn't be so sure about that.",
+          "why": "Distance and doubt: Da wäre ich mir nicht so sicher."
         },
         {
           "type": "choice",
@@ -513,7 +543,8 @@
             "würde"
           ],
           "answer": 1,
-          "s": "If action had been taken earlier, the crisis would have been avoidable."
+          "s": "If action had been taken earlier, the crisis would have been avoidable.",
+          "why": "vermeidbar sein → wäre … gewesen (past unreal with sein)."
         },
         {
           "type": "choice",
@@ -524,7 +555,8 @@
             "hätte"
           ],
           "answer": 2,
-          "s": "If I had more time, I would explore the topic in more depth."
+          "s": "If I had more time, I would explore the topic in more depth.",
+          "why": "An unreal condition in the present: Wenn ich mehr Zeit hätte …"
         },
         {
           "type": "type",
@@ -533,16 +565,22 @@
             "hätte",
             "haette"
           ],
-          "s": "Without your support I would never have managed it."
+          "s": "Without your support I would never have managed it.",
+          "why": "schaffen forms the perfect with haben: hätte … geschafft."
         },
         {
           "type": "type",
-          "t": "Wenn wir früher gehandelt ___, wäre das nicht passiert.",
+          "task": "Make it more polite with the Konjunktiv II.",
+          "cue": "Ich will Ihnen eine Frage stellen.",
+          "t": "Ich ___ Ihnen gern eine Frage stellen.",
           "answer": [
-            "hätten",
-            "haetten"
+            "würde",
+            "wuerde",
+            "möchte",
+            "moechte"
           ],
-          "s": "If we had acted earlier, that wouldn't have happened."
+          "why": "The Konjunktiv II softens a wish: ich würde gern / ich möchte instead of ich will.",
+          "s": "I'd like to ask you a question."
         },
         {
           "type": "order",
@@ -553,9 +591,18 @@
           ]
         },
         {
-          "type": "order",
-          "t": "Könnten Sie das näher erläutern?",
-          "s": "Could you explain that in more detail?"
+          "type": "choice",
+          "task": "Which reply answers the hypothetical question correctly?",
+          "cue": "Was würden Sie tun, wenn Sie Bildungsministerin wären?",
+          "t": "___",
+          "options": [
+            "Ich würde zuerst in die Ausstattung der Schulen investieren.",
+            "Ich werde zuerst in die Ausstattung der Schulen investiert.",
+            "Ich hätte zuerst in die Ausstattung der Schulen investieren."
+          ],
+          "answer": 0,
+          "why": "A hypothetical answer needs the Konjunktiv II: würde + infinitive.",
+          "s": "What would you do if you were minister of education? – I would first invest in equipping the schools."
         }
       ]
     }
@@ -683,17 +730,35 @@
           "voneinander unabhängig sein"
         ],
         "answer": 0
+      },
+      {
+        "q": {
+          "t": "Welche Haltung hat der Verfasser zu rein englischsprachigen Masterstudiengängen?",
+          "s": "What is the writer's attitude to master's programs taught only in English?"
+        },
+        "options": [
+          "Er sieht ihre Vorteile, hält sie allein aber nicht für ausreichend.",
+          "Er lehnt sie grundsätzlich ab.",
+          "Er möchte, dass alle Studiengänge nur noch auf Englisch angeboten werden."
+        ],
+        "answer": 0
       }
     ]
   },
   "sentences": [
     {
       "t": "Ich möchte zunächst die Ausgangslage skizzieren.",
-      "s": "I'd first like to outline the initial situation."
+      "s": "I'd first like to outline the initial situation.",
+      "alts": [
+        "Zunächst möchte ich die Ausgangslage skizzieren."
+      ]
     },
     {
       "t": "Damit komme ich zum zweiten Teil meines Vortrags.",
-      "s": "That brings me to the second part of my presentation."
+      "s": "That brings me to the second part of my presentation.",
+      "alts": [
+        "Ich komme damit zum zweiten Teil meines Vortrags."
+      ]
     },
     {
       "t": "Dieses Argument ist zwar nachvollziehbar, greift aber zu kurz.",
@@ -709,11 +774,17 @@
     },
     {
       "t": "Ich komme nun zum Schluss meines Vortrags.",
-      "s": "I'm now coming to the end of my presentation."
+      "s": "I'm now coming to the end of my presentation.",
+      "alts": [
+        "Nun komme ich zum Schluss meines Vortrags."
+      ]
     },
     {
       "t": "Ich danke Ihnen für Ihre Aufmerksamkeit.",
-      "s": "Thank you for your attention."
+      "s": "Thank you for your attention.",
+      "alts": [
+        "Für Ihre Aufmerksamkeit danke ich Ihnen."
+      ]
     },
     {
       "t": "Haben Sie noch Fragen oder Anmerkungen?",

@@ -21,7 +21,8 @@
       "ex": {
         "t": "Künstliche Intelligenz durchdringt inzwischen nahezu alle Lebensbereiche.",
         "s": "Artificial intelligence now permeates almost every area of life."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w02",
@@ -52,7 +53,8 @@
       "ex": {
         "t": "Kritiker befürchten, dass Gesichtserkennung im öffentlichen Raum zu einer flächendeckenden Überwachung führt.",
         "s": "Critics fear that facial recognition in public spaces will lead to blanket surveillance."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w05",
@@ -227,11 +229,11 @@
     },
     "speakers": {
       "A": {
-        "name": "Lukas Brandt",
+        "name": "Markus Brandt",
         "voice": "m"
       },
       "B": {
-        "name": "Dr. Sara Rahimi",
+        "name": "Dr. Parisa Rahimi",
         "voice": "f"
       }
     },
@@ -289,7 +291,10 @@
       {
         "sp": "A",
         "t": "Frau Dr. Rahimi, herzlichen Dank für das Gespräch.",
-        "s": "Dr. Rahimi, thank you very much for the interview."
+        "s": "Dr. Rahimi, thank you very much for the interview.",
+        "alts": [
+          "Herzlichen Dank für das Gespräch, Frau Dr. Rahimi."
+        ]
       }
     ]
   },
@@ -300,7 +305,7 @@
         "t": "Er sagte, er habe das nicht gewusst.",
         "s": "Konjunktiv in reported speech (present, past, future)"
       },
-      "explain": "In news, reports and academic writing, German marks reported speech with the **Konjunktiv I**. It signals: *this is what someone else said – I am not vouching for it.*\nForm: infinitive stem + **-e, -est, -e, -en, -et, -en**. In practice you mostly need the 3rd person singular: **er habe, sie sei, man könne, es werde, es gebe**. **sein** is irregular: **ich sei, du sei(e)st, er sei, wir seien, ihr seiet, sie seien**.\nIf the Konjunktiv I looks exactly like the indicative (e.g. **sie haben, wir können**), switch to the **Konjunktiv II** (**sie hätten, wir könnten**). If that form is also ambiguous or sounds old-fashioned (**sie arbeiteten**), use **würde + infinitive**.\n**Past:** **habe/sei + Partizip II** (*Er sagte, er **habe** die Daten **geprüft**. / Sie sagte, sie **sei** nach Wien **gereist**.*); replacement form: **hätte/wäre + Partizip II**. **Future:** **werde + infinitive**. Reported questions use **ob** or a question word; reported commands use **sollen** (demand) or **mögen** (polite request).\nRegister: in everyday speech people mostly use the Konjunktiv II, **würde** or simply the indicative (*Er sagt, dass er keine Zeit hat.*). Choosing the Konjunktiv II where a distinct Konjunktiv I exists (*er hätte* instead of *er habe*) can signal doubt about the claim.",
+      "explain": "**In short:** Konjunktiv I for reported speech (er habe, sie sei); if it looks like the indicative, use Konjunktiv II or würde. Past: habe/sei + participle.\nAlready known from B2 (unit 4): Konjunktiv I and its replacement forms. New at C1: the past and future forms and Konjunktiv II as a signal of doubt.\nIn news, reports and academic writing, German marks reported speech with the **Konjunktiv I**. It signals: *this is what someone else said – I am not vouching for it.*\nForm: infinitive stem + **-e, -est, -e, -en, -et, -en**. In practice you mostly need the 3rd person singular: **er habe, sie sei, man könne, es werde, es gebe**. **sein** is irregular: **ich sei, du sei(e)st, er sei, wir seien, ihr seiet, sie seien**.\nIf the Konjunktiv I looks exactly like the indicative (e.g. **sie haben, wir können**), switch to the **Konjunktiv II** (**sie hätten, wir könnten**). If that form is also ambiguous or sounds old-fashioned (**sie arbeiteten**), use **würde + infinitive**.\n**Past:** **habe/sei + Partizip II** (*Er sagte, er **habe** die Daten **geprüft**. / Sie sagte, sie **sei** nach Wien **gereist**.*); replacement form: **hätte/wäre + Partizip II**. **Future:** **werde + infinitive**. Reported questions use **ob** or a question word; reported commands use **sollen** (demand) or **mögen** (polite request).\nRegister: in everyday speech people mostly use the Konjunktiv II, **würde** or simply the indicative (*Er sagt, dass er keine Zeit hat.*). Choosing the Konjunktiv II where a distinct Konjunktiv I exists (*er hätte* instead of *er habe*) can signal doubt about the claim.",
       "table": [
         [
           "„Ich habe keine Zeit.“",
@@ -363,7 +368,8 @@
             "seid"
           ],
           "answer": 1,
-          "s": "The head of the study stressed that the results were preliminary."
+          "s": "The head of the study stressed that the results were preliminary.",
+          "why": "Plural die Ergebnisse: Konjunktiv I seien."
         },
         {
           "type": "choice",
@@ -374,7 +380,8 @@
             "hätten"
           ],
           "answer": 2,
-          "s": "The companies stated that they had not passed on any customer data. (Konj. I „haben“ = indicative → Konj. II „hätten“)"
+          "s": "The companies stated that they had not passed on any customer data.",
+          "why": "Konjunktiv I 'sie haben' = indicative, so use Konjunktiv II: hätten."
         },
         {
           "type": "choice",
@@ -385,7 +392,8 @@
             "werde"
           ],
           "answer": 0,
-          "s": "The spokesperson said the security gap had since been closed."
+          "s": "The spokesperson said the security gap had since been closed.",
+          "why": "Past in reported speech: habe + participle (schließen forms the perfect with haben)."
         },
         {
           "type": "choice",
@@ -396,17 +404,22 @@
             "sei"
           ],
           "answer": 2,
-          "s": "She reported that she had traveled to Vienna especially for the conference."
+          "s": "She reported that she had traveled to Vienna especially for the conference.",
+          "why": "reisen (to a place) forms the perfect with sein: sei … gereist."
         },
         {
-          "type": "type",
-          "t": "Er behauptet, er ___ von dem Fehler nichts gewusst.",
-          "answer": [
-            "habe",
-            "hätte",
-            "haette"
+          "type": "choice",
+          "task": "Which reply reports her statement correctly?",
+          "cue": "Was hat die Ministerin zur KI-Verordnung gesagt?",
+          "t": "___",
+          "options": [
+            "Sie sagte, die Verordnung werde kleine Firmen entlasten.",
+            "Sie sagte, die Verordnung würden kleine Firmen entlasten.",
+            "Sie sagte, die Verordnung werden kleine Firmen entlasten."
           ],
-          "s": "He claims he knew nothing about the error."
+          "answer": 0,
+          "why": "The future in reported speech: werde + infinitive (Konjunktiv I of werden, singular: die Verordnung).",
+          "s": "What did the minister say about the AI regulation? – She said the regulation would relieve small companies."
         },
         {
           "type": "type",
@@ -416,7 +429,8 @@
             "würde",
             "wuerde"
           ],
-          "s": "The minister announced that she would campaign for stricter rules."
+          "s": "The minister announced that she would campaign for stricter rules.",
+          "why": "The future in reported speech: werde + infinitive (würde is the common replacement)."
         },
         {
           "type": "order",
@@ -427,12 +441,16 @@
           ]
         },
         {
-          "type": "order",
-          "t": "Der Hersteller versichert, die Daten seien sicher.",
-          "s": "The manufacturer gives assurances that the data are secure.",
-          "alts": [
-            "Die Daten seien sicher, versichert der Hersteller."
-          ]
+          "type": "type",
+          "task": "Put it into reported speech.",
+          "cue": "Die Entwickler sagten: „Wir haben das Problem unterschätzt.“",
+          "t": "Die Entwickler sagten, sie ___.",
+          "answer": [
+            "hätten das Problem unterschätzt",
+            "haetten das Problem unterschaetzt"
+          ],
+          "why": "Konjunktiv I 'sie haben' = indicative, so switch to Konjunktiv II: hätten + participle.",
+          "s": "The developers said they had underestimated the problem."
         }
       ]
     },
@@ -442,7 +460,7 @@
         "t": "Es klingt, als wäre es sich sicher.",
         "s": "Unreal comparisons: als ob, als wenn, als + verb"
       },
-      "explain": "An **irrealer Vergleichssatz** describes how something appears or seems – while implying that it is *not* (or not necessarily) so. It typically follows verbs such as **so tun, aussehen, klingen, wirken, scheinen, sich anfühlen** or **es kommt mir vor**.\nThere are three patterns: **als ob** or **als wenn** + verb at the end (*…, als ob er alles wüsste*), or **als** + finite verb immediately after it (*…, als wüsste er alles*). The **als** + verb pattern is the most elegant in writing.\nThe mood is normally the **Konjunktiv II**; in formal writing the **Konjunktiv I** also occurs (*als habe er …*), and in speech **würde + infinitive** is common. For something that happened earlier, use **hätte/wäre + Partizip II**: *Sie sieht aus, als **hätte** sie die Nacht **durchgearbeitet**.*\nNuance: if the comparison is probably true, colloquial German often uses the indicative: *Es sieht so aus, als ob es gleich regnet.*\nAs an exclamation, **Als ob …!** rejects an idea with irony or indignation: **Als ob ich das nicht wüsste!** (= Of course I know that!)",
+      "explain": "**In short:** als ob / als wenn + verb at the end, or als + verb straight after it; usually Konjunktiv II.\nAn **irrealer Vergleichssatz** describes how something appears or seems – while implying that it is *not* (or not necessarily) so. It typically follows verbs such as **so tun, aussehen, klingen, wirken, scheinen, sich anfühlen** or **es kommt mir vor**.\nThere are three patterns: **als ob** or **als wenn** + verb at the end (*…, als ob er alles wüsste*), or **als** + finite verb immediately after it (*…, als wüsste er alles*). The **als** + verb pattern is the most elegant in writing.\nThe mood is normally the **Konjunktiv II**; in formal writing the **Konjunktiv I** also occurs (*als habe er …*), and in speech **würde + infinitive** is common. For something that happened earlier, use **hätte/wäre + Partizip II**: *Sie sieht aus, als **hätte** sie die Nacht **durchgearbeitet**.*\nNuance: if the comparison is probably true, colloquial German often uses the indicative: *Es sieht so aus, als ob es gleich regnet.*\nAs an exclamation, **Als ob …!** rejects an idea with irony or indignation: **Als ob ich das nicht wüsste!** (= Of course I know that!)",
       "table": [
         [
           "als ob … + Verb",
@@ -493,7 +511,8 @@
             "wie"
           ],
           "answer": 1,
-          "s": "The picture looks as if it had been painted by a human."
+          "s": "The picture looks as if it had been painted by a human.",
+          "why": "als ob introduces the unreal comparison; its verb goes to the end."
         },
         {
           "type": "choice",
@@ -504,7 +523,8 @@
             "wäre"
           ],
           "answer": 0,
-          "s": "He acts as if he had read the study."
+          "s": "He acts as if he had read the study.",
+          "why": "lesen forms the perfect with haben: als hätte er … gelesen."
         },
         {
           "type": "choice",
@@ -515,7 +535,8 @@
             "würde"
           ],
           "answer": 1,
-          "s": "She looks as if she hadn't slept for days."
+          "s": "She looks as if she hadn't slept for days.",
+          "why": "schlafen forms the perfect with haben: als ob … geschlafen hätte."
         },
         {
           "type": "choice",
@@ -526,7 +547,8 @@
             "Als"
           ],
           "answer": 2,
-          "s": "As if I didn't already know that!"
+          "s": "As if I didn't already know that!",
+          "why": "Als ob …! as an exclamation = as if (rejecting an idea)."
         },
         {
           "type": "type",
@@ -536,17 +558,20 @@
             "sei",
             "waere"
           ],
-          "s": "The robot moves as if it were alive."
+          "s": "The robot moves as if it were alive.",
+          "why": "als + verb: the verb comes right after als (als wäre er)."
         },
         {
           "type": "type",
-          "t": "Er tut so, als ___ er von dem Datenleck nichts gewusst.",
+          "task": "Rewrite it with als + verb (without ob).",
+          "cue": "Er tut so, als ob er alles wüsste.",
+          "t": "Er tut so, ___.",
           "answer": [
-            "hätte",
-            "habe",
-            "haette"
+            "als wüsste er alles",
+            "als wuesste er alles"
           ],
-          "s": "He acts as if he had known nothing about the data leak."
+          "why": "als + verb: the conjugated verb comes right after als, then the subject.",
+          "s": "He acts as if he knew everything."
         },
         {
           "type": "order",
@@ -554,9 +579,18 @@
           "s": "He acts as if nothing had happened."
         },
         {
-          "type": "order",
-          "t": "Das klingt, als hätte sie recht.",
-          "s": "That sounds as if she were right."
+          "type": "choice",
+          "task": "Which reply fits?",
+          "cue": "Der Chatbot hat mir eine Quelle genannt, die es gar nicht gibt.",
+          "t": "___",
+          "options": [
+            "Typisch – das klingt oft, als wäre sich das System völlig sicher.",
+            "Typisch – das klingt oft, als ob ist sich das System völlig sicher.",
+            "Typisch – das klingt oft, als das System wäre sich völlig sicher."
+          ],
+          "answer": 0,
+          "why": "als + verb puts the verb straight after als (als wäre …); after als ob the verb goes to the end.",
+          "s": "The chatbot gave me a source that doesn't even exist. – Typical – it often sounds as if the system were completely sure of itself."
         }
       ]
     }
@@ -584,8 +618,8 @@
         "s": "According to a survey at a Berlin university, more than half of the students regularly use AI tools for their term papers."
       },
       {
-        "t": "Die Informatikerin Dr. Sara Rahimi warnt jedoch, man dürfe flüssige Texte nicht mit Wissen verwechseln.",
-        "s": "However, computer scientist Dr. Sara Rahimi warns that fluent texts must not be confused with knowledge."
+        "t": "Die Informatikerin Dr. Parisa Rahimi warnt jedoch, man dürfe flüssige Texte nicht mit Wissen verwechseln.",
+        "s": "However, computer scientist Dr. Parisa Rahimi warns that fluent texts must not be confused with knowledge."
       },
       {
         "t": "Ein Sprachmodell berechne lediglich, welches Wort mit hoher Wahrscheinlichkeit als Nächstes folge.",
@@ -680,6 +714,18 @@
           "KI wird den Menschen bald vollständig ersetzen."
         ],
         "answer": 1
+      },
+      {
+        "q": {
+          "t": "Warum betont Dr. Rahimi, ein Sprachmodell berechne „lediglich“ Wahrscheinlichkeiten?",
+          "s": "Why does Dr. Rahimi stress that a language model “merely” calculates probabilities?"
+        },
+        "options": [
+          "Um deutlich zu machen, dass überzeugende Texte kein echtes Verständnis beweisen.",
+          "Um zu zeigen, wie schnell moderne Computer rechnen.",
+          "Um Studierende zu ermutigen, KI häufiger zu nutzen."
+        ],
+        "answer": 0
       }
     ]
   },
@@ -714,7 +760,10 @@
     },
     {
       "t": "Routineaufgaben lassen sich zunehmend automatisieren.",
-      "s": "Routine tasks can increasingly be automated."
+      "s": "Routine tasks can increasingly be automated.",
+      "alts": [
+        "Zunehmend lassen sich Routineaufgaben automatisieren."
+      ]
     }
   ]
 }

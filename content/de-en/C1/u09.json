@@ -37,7 +37,7 @@
     },
     {
       "id": "w03",
-      "t": "die Abhängigkeit (von + D)",
+      "t": "die Abhängigkeit von + D",
       "pl": "die Abhängigkeiten",
       "s": "dependence (on)",
       "emoji": "",
@@ -97,7 +97,8 @@
       "ex": {
         "t": "Das Wirtschaftswachstum fiel schwächer aus als prognostiziert.",
         "s": "Economic growth turned out weaker than forecast."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w09",
@@ -143,7 +144,7 @@
     },
     {
       "id": "w13",
-      "t": "von etw. (D) profitieren",
+      "t": "profitieren von + D",
       "s": "to benefit from sth.",
       "emoji": "",
       "ex": {
@@ -153,7 +154,7 @@
     },
     {
       "id": "w14",
-      "t": "sich auf etw. (Akk.) auswirken",
+      "t": "sich auswirken auf + A",
       "s": "to have an effect on sth.",
       "emoji": "",
       "ex": {
@@ -235,7 +236,7 @@
         "voice": "f"
       },
       "B": {
-        "name": "Jonas Berger",
+        "name": "Thomas Berger",
         "voice": "m"
       }
     },
@@ -273,7 +274,10 @@
       {
         "sp": "A",
         "t": "Und welche Rolle spielt die Politik dabei?",
-        "s": "And what role do politicians play in this?"
+        "s": "And what role do politicians play in this?",
+        "alts": [
+          "Und welche Rolle spielt dabei die Politik?"
+        ]
       },
       {
         "sp": "B",
@@ -293,7 +297,10 @@
       {
         "sp": "A",
         "t": "Herr Berger, vielen Dank für Ihre Einschätzung.",
-        "s": "Mr. Berger, thank you very much for your assessment."
+        "s": "Mr. Berger, thank you very much for your assessment.",
+        "alts": [
+          "Vielen Dank für Ihre Einschätzung, Herr Berger."
+        ]
       }
     ]
   },
@@ -304,7 +311,7 @@
         "t": "angesichts, infolge, hinsichtlich …",
         "s": "Formal prepositions with the genitive"
       },
-      "explain": "Formal written German (news, reports, academic texts) uses a set of **prepositions with the genitive** that sound precise and compact. Most of them are too stiff for everyday conversation, but they are essential for C1 reading, writing and presentations.\n**angesichts** (in view of), **aufgrund** (due to), **infolge** (as a result of), **hinsichtlich / bezüglich** (with regard to), **zwecks** (for the purpose of – bureaucratic, usually with a noun without article: *zwecks Prüfung*), **mittels / mithilfe** (by means of), **seitens** (on the part of), **anlässlich** (on the occasion of), **ungeachtet** (regardless of), **zugunsten / zulasten** (in favor of / at the expense of).\nIf the genitive is not visible – typically a plural noun without article or adjective – use **von + dative** instead: *infolge **von** Unwettern*.\nDon't confuse **infolge** (+ genitive, *as a result of*) with **zufolge** (+ dative, usually placed **after** the noun: *dem Bericht zufolge* = *according to the report*).\nIn conversation, simpler alternatives usually sound more natural: **wegen** instead of *aufgrund/infolge*, **durch** or **mit** instead of *mittels*, **was … betrifft** instead of *hinsichtlich*.",
+      "explain": "**In short:** formal prepositions + genitive: angesichts, infolge, hinsichtlich, zwecks, mittels, seitens; zufolge follows the noun and takes the dative.\nFormal written German (news, reports, academic texts) uses a set of **prepositions with the genitive** that sound precise and compact. Most of them are too stiff for everyday conversation, but they are essential for C1 reading, writing and presentations.\n**angesichts** (in view of), **aufgrund** (due to), **infolge** (as a result of), **hinsichtlich / bezüglich** (with regard to), **zwecks** (for the purpose of – bureaucratic, usually with a noun without article: *zwecks Prüfung*), **mittels / mithilfe** (by means of), **seitens** (on the part of), **anlässlich** (on the occasion of), **ungeachtet** (regardless of), **zugunsten / zulasten** (in favor of / at the expense of).\nIf the genitive is not visible – typically a plural noun without article or adjective – use **von + dative** instead: *infolge **von** Unwettern*.\nDon't confuse **infolge** (+ genitive, *as a result of*) with **zufolge** (+ dative, usually placed **after** the noun: *dem Bericht zufolge* = *according to the report*).\nIn conversation, simpler alternatives usually sound more natural: **wegen** instead of *aufgrund/infolge*, **durch** or **mit** instead of *mittels*, **was … betrifft** instead of *hinsichtlich*.",
       "table": [
         [
           "angesichts",
@@ -363,7 +370,8 @@
             "Seitens"
           ],
           "answer": 1,
-          "s": "In view of the tense situation, the group postponed its investments."
+          "s": "In view of the tense situation, the group postponed its investments.",
+          "why": "angesichts + genitive = in view of."
         },
         {
           "type": "choice",
@@ -374,7 +382,8 @@
             "der höheren"
           ],
           "answer": 2,
-          "s": "As a result of the higher tariffs, prices for imported goods rose."
+          "s": "As a result of the higher tariffs, prices for imported goods rose.",
+          "why": "infolge + genitive: plural die höheren Zölle → der höheren Zölle."
         },
         {
           "type": "choice",
@@ -385,7 +394,8 @@
             "angesichts"
           ],
           "answer": 0,
-          "s": "The application is forwarded to the competent authority for examination."
+          "s": "The application is forwarded to the competent authority for examination.",
+          "why": "zwecks + a noun without article = for the purpose of."
         },
         {
           "type": "choice",
@@ -396,7 +406,8 @@
             "mittels"
           ],
           "answer": 2,
-          "s": "The machines are controlled by means of an app."
+          "s": "The machines are controlled by means of an app.",
+          "why": "mittels + genitive = by means of."
         },
         {
           "type": "type",
@@ -404,7 +415,8 @@
           "answer": [
             "des"
           ],
-          "s": "There was no statement from the company."
+          "s": "There was no statement from the company.",
+          "why": "seitens + genitive: das Unternehmen → des Unternehmens."
         },
         {
           "type": "type",
@@ -415,57 +427,68 @@
             "gemäß",
             "gemaess"
           ],
-          "s": "According to the report, the export ratio has fallen."
+          "s": "According to the report, the export ratio has fallen.",
+          "why": "zufolge follows the noun and takes the dative: dem Bericht zufolge."
         },
         {
-          "type": "order",
-          "t": "Angesichts der Krise sparen viele Haushalte.",
-          "s": "In view of the crisis, many households are saving.",
-          "alts": [
-            "Viele Haushalte sparen angesichts der Krise."
-          ]
+          "type": "choice",
+          "task": "Which reply objects with a factual argument?",
+          "cue": "Die Preise steigen doch nur, weil die Firmen gierig sind.",
+          "t": "___",
+          "options": [
+            "Das greift zu kurz: Angesichts der gestiegenen Energiekosten haben viele Firmen kaum eine Wahl.",
+            "Die Zahlen sprechen für sich: Die Firmen sind einfach gierig.",
+            "Wir sitzen alle im selben Boot, also ist das egal."
+          ],
+          "answer": 0,
+          "why": "'Das greift zu kurz' rejects an oversimplified claim; angesichts + genitive brings in the factual reason.",
+          "s": "Prices are only rising because companies are greedy. – That's too simplistic: in view of the increased energy costs, many companies have hardly any choice."
         },
         {
-          "type": "order",
-          "t": "Infolge des Streiks fielen viele Züge aus.",
-          "s": "As a result of the strike, many trains were canceled.",
-          "alts": [
-            "Viele Züge fielen infolge des Streiks aus."
-          ]
+          "type": "type",
+          "task": "Use infolge instead of the weil-clause.",
+          "cue": "Weil die Nachfrage gesunken ist, wurde die Produktion gedrosselt.",
+          "t": "___ wurde die Produktion gedrosselt.",
+          "answer": [
+            "Infolge der gesunkenen Nachfrage",
+            "Infolge gesunkener Nachfrage"
+          ],
+          "why": "infolge + genitive: die gesunkene Nachfrage → der gesunkenen Nachfrage (without an article: gesunkener).",
+          "s": "As a result of falling demand, production was cut back."
         }
       ]
     },
     {
       "id": "g02",
       "title": {
-        "t": "Weil die Preise steigen → wegen steigender Preise",
-        "s": "Nominal prepositional phrases ↔ subordinate clauses"
+        "t": "Bei Nichtbeachtung der Regeln …",
+        "s": "Nominal phrases and clauses (part 2)"
       },
-      "explain": "Formal written German often compresses a subordinate clause into a **prepositional phrase with a noun** (Nominalstil); spoken German prefers the clause (Verbalstil). At C1 you should be able to switch in both directions.\nTypical pairs: **weil/da → wegen, aufgrund** · **obwohl → trotz** · **wenn/falls → bei** (negative: *wenn … nicht* → **ohne**) · **nachdem → nach** · **bevor → vor** · **während → während** · **seit(dem) → seit** · **indem / dadurch, dass → durch** · **um … zu / damit → zu(r/m), für**.\nHow to transform: the verb becomes a noun (often **-ung** or a nominalized infinitive: *senken → die Senkung*); the subject becomes a **genitive** or a **durch-/von-phrase**; the object becomes a **genitive attribute**; adverbs become **adjectives**: *Die Regierung senkt die Steuern schnell.* → ***die schnelle Senkung der Steuern durch die Regierung***.\nWatch the adjective endings: after a preposition without article, the adjective takes the strong ending: **bei sinkender Nachfrage, trotz intensiver Verhandlungen, wegen steigender Preise**.",
+      "explain": "**In short:** part 2 of the nominal style from unit 1 – now with **ohne, während, seit, bis zu** and **durch**, and with what happens to subjects and objects.\nThe basic pairs (**weil → wegen**, **obwohl → trotz**, **wenn → bei**, **nachdem → nach**, **um … zu → zur**) are in unit 1. These are new:\n• **wenn … nicht → ohne + A**: *Wenn die Zölle nicht gesenkt werden, … → **Ohne Senkung der Zölle** …* Formal texts also use nouns with **Nicht-**: *Wenn man die Regeln nicht beachtet, … → **Bei Nichtbeachtung der Regeln** …*\n• **während → während + G**: *Während die Verhandlungen liefen, … → **Während der Verhandlungen** …*\n• **seit(dem) → seit + D**: *Seit das Abkommen gilt, … → **Seit Inkrafttreten des Abkommens** …*\n• **bis → bis zu + D**: *Bis der Vertrag unterzeichnet ist, … → **Bis zur Unterzeichnung des Vertrags** …*\n• **indem / dadurch, dass → durch + A**: *Indem man die Produktion verlagert, … → **Durch die Verlagerung der Produktion** …*\nWhat happens to the people and things: the object of the verb becomes a **genitive**, the person who acts becomes **durch + A**: *Die Regierung senkt die Steuern. → **die Senkung der Steuern durch die Regierung***. With verbs without an object, the subject becomes the genitive: *Die Preise steigen. → **der Anstieg der Preise***.\nAdjective endings: after a preposition without an article, the adjective takes the strong ending: **bei sinkender Nachfrage, trotz intensiver Verhandlungen**.\nGoing back from the noun to a clause, you must choose a subject – often **man** or the **passive**: *Ohne Senkung der Zölle → Wenn man die Zölle nicht senkt / Wenn die Zölle nicht gesenkt werden*.",
       "table": [
         [
-          "Weil die Kosten steigen, …",
-          "Wegen der steigenden Kosten …"
+          "Wenn die Zölle nicht gesenkt werden, …",
+          "Ohne Senkung der Zölle …"
         ],
         [
-          "Obwohl die Lage unsicher ist, …",
-          "Trotz der unsicheren Lage …"
+          "Wenn man die Regeln nicht beachtet, …",
+          "Bei Nichtbeachtung der Regeln …"
         ],
         [
-          "Wenn die Nachfrage sinkt, …",
-          "Bei sinkender Nachfrage …"
+          "Während die Verhandlungen liefen, …",
+          "Während der Verhandlungen …"
         ],
         [
-          "Nachdem der Vertrag unterzeichnet worden war, …",
-          "Nach der Unterzeichnung des Vertrags …"
+          "Seit das Abkommen gilt, …",
+          "Seit Inkrafttreten des Abkommens …"
         ],
         [
-          "Indem man die Produktion verlagert, …",
-          "Durch die Verlagerung der Produktion …"
+          "Bis der Vertrag unterzeichnet ist, …",
+          "Bis zur Unterzeichnung des Vertrags …"
         ],
         [
-          "Damit die Versorgung gesichert wird, …",
-          "Zur Sicherung der Versorgung …"
+          "Die Preise steigen.",
+          "der Anstieg der Preise"
         ]
       ],
       "examples": [
@@ -478,16 +501,16 @@
           "s": "Despite intensive negotiations, no agreement was reached."
         },
         {
-          "t": "Nach Abschluss der Gespräche gaben beide Seiten eine Erklärung ab.",
-          "s": "After the talks had ended, both sides issued a statement."
+          "t": "Bei Nichtbeachtung der Vorschriften drohen hohe Strafen.",
+          "s": "If the regulations are not observed, heavy penalties may be imposed."
         },
         {
           "t": "Durch die Senkung der Energiepreise soll die Industrie entlastet werden.",
           "s": "By lowering energy prices, the aim is to relieve the burden on industry."
         },
         {
-          "t": "Zur Stärkung der heimischen Produktion wurden Milliarden investiert.",
-          "s": "Billions were invested to strengthen domestic production."
+          "t": "Seit Inkrafttreten des Abkommens ist der Handel deutlich gewachsen.",
+          "s": "Since the agreement came into force, trade has grown considerably."
         }
       ],
       "exercises": [
@@ -500,7 +523,8 @@
             "sinkende"
           ],
           "answer": 1,
-          "s": "When demand falls, prices come under pressure."
+          "s": "When demand falls, prices come under pressure.",
+          "why": "bei + noun = wenn-clause; without an article the adjective takes the strong ending: bei sinkender Nachfrage."
         },
         {
           "type": "choice",
@@ -511,29 +535,38 @@
             "Seit"
           ],
           "answer": 0,
-          "s": "Although the protests were large, the agreement was signed."
+          "s": "Although the protests were large, the agreement was signed.",
+          "why": "trotz + genitive = an obwohl-clause."
         },
         {
-          "type": "choice",
-          "t": "___ eine Senkung der Steuern soll die Wirtschaft angekurbelt werden.",
-          "options": [
-            "Mit",
-            "Durch",
-            "Bei"
+          "type": "type",
+          "task": "Use a nominal phrase with während.",
+          "cue": "Während die Verhandlungen liefen, stiegen die Aktienkurse.",
+          "t": "___ stiegen die Aktienkurse.",
+          "answer": [
+            "Während der Verhandlungen",
+            "Waehrend der Verhandlungen"
           ],
-          "answer": 1,
-          "s": "The economy is to be boosted by lowering taxes."
+          "why": "während-clause → während + genitive noun: während der Verhandlungen.",
+          "s": "During the negotiations, share prices rose."
         },
         {
-          "type": "choice",
-          "t": "___ der Unterzeichnung des Vertrags begann die Produktion.",
-          "options": [
-            "Bis",
-            "Ohne",
-            "Nach"
+          "type": "type",
+          "task": "Rewrite it with a clause (wenn … nicht).",
+          "cue": "Ohne Senkung der Zölle wird der Handel weiter schrumpfen.",
+          "t": "___, wird der Handel weiter schrumpfen.",
+          "answer": [
+            "Wenn die Zölle nicht gesenkt werden",
+            "Wenn die Zoelle nicht gesenkt werden",
+            "Wenn man die Zölle nicht senkt",
+            "Wenn man die Zoelle nicht senkt",
+            "Falls die Zölle nicht gesenkt werden",
+            "Falls die Zoelle nicht gesenkt werden",
+            "Falls man die Zölle nicht senkt",
+            "Falls man die Zoelle nicht senkt"
           ],
-          "answer": 2,
-          "s": "After the contract had been signed, production began."
+          "why": "ohne + noun (a condition) → wenn … nicht; the genitive der Zölle becomes the subject of a passive (or the object after man).",
+          "s": "If tariffs are not lowered, trade will continue to shrink."
         },
         {
           "type": "type",
@@ -544,7 +577,8 @@
             "fuer die",
             "zwecks"
           ],
-          "s": "In order to secure supplies, the state is building up reserves."
+          "s": "In order to secure supplies, the state is building up reserves.",
+          "why": "A purpose (um … zu / damit) → zur (= zu der) + noun, or zwecks."
         },
         {
           "type": "type",
@@ -556,7 +590,8 @@
             "höheren",
             "hoeheren"
           ],
-          "s": "Because energy prices have risen, many firms are producing less."
+          "s": "Because energy prices have risen, many firms are producing less.",
+          "why": "Partizip II gestiegen (prices have risen) as an adjective after der → -en."
         },
         {
           "type": "order",
@@ -564,12 +599,18 @@
           "s": "When demand rises, prices rise too."
         },
         {
-          "type": "order",
-          "t": "Trotz aller Bemühungen scheiterten die Verhandlungen.",
-          "s": "Despite all efforts, the negotiations failed.",
-          "alts": [
-            "Die Verhandlungen scheiterten trotz aller Bemühungen."
-          ]
+          "type": "choice",
+          "task": "Which reply weighs the proposal?",
+          "cue": "Unsere Firma sollte die gesamte Produktion zurück nach Deutschland holen.",
+          "t": "___",
+          "options": [
+            "Das ist eine Gratwanderung – bei einer kompletten Rückverlagerung würden die Kosten erheblich steigen.",
+            "Die Zahlen sprechen für sich, das machen wir sofort.",
+            "Wir sitzen alle im selben Boot, also ist das egal."
+          ],
+          "answer": 0,
+          "why": "'Das ist eine Gratwanderung' weighs the risks; bei + noun (= wenn-clause) names the condition.",
+          "s": "Our company should bring all its production back to Germany. – That's a fine balancing act – if production were moved back completely, costs would rise considerably."
         }
       ]
     }
@@ -693,6 +734,18 @@
           "Der Welthandel ist stark eingebrochen."
         ],
         "answer": 1
+      },
+      {
+        "q": {
+          "t": "Warum halten Konzerne heute wichtige Vorprodukte in größerer Menge vor?",
+          "s": "Why do companies now keep larger stocks of important intermediate products?"
+        },
+        "options": [
+          "um von steigenden Preisen zu profitieren",
+          "um bei Lieferengpässen weiter produzieren zu können",
+          "um ärmere Länder zu unterstützen"
+        ],
+        "answer": 1
       }
     ]
   },
@@ -703,7 +756,10 @@
     },
     {
       "t": "Infolge der Zölle sind viele Waren teurer geworden.",
-      "s": "As a result of the tariffs, many goods have become more expensive."
+      "s": "As a result of the tariffs, many goods have become more expensive.",
+      "alts": [
+        "Viele Waren sind infolge der Zölle teurer geworden."
+      ]
     },
     {
       "t": "Die Globalisierung hat Gewinner und Verlierer hervorgebracht.",
@@ -711,23 +767,38 @@
     },
     {
       "t": "Bei sinkender Nachfrage drohen Entlassungen.",
-      "s": "If demand falls, there is a risk of layoffs."
+      "s": "If demand falls, there is a risk of layoffs.",
+      "alts": [
+        "Entlassungen drohen bei sinkender Nachfrage."
+      ]
     },
     {
       "t": "Unterm Strich hat sich die Investition gelohnt.",
-      "s": "On balance, the investment paid off."
+      "s": "On balance, the investment paid off.",
+      "alts": [
+        "Die Investition hat sich unterm Strich gelohnt."
+      ]
     },
     {
       "t": "Europa will unabhängiger von einzelnen Lieferanten werden.",
-      "s": "Europe wants to become less dependent on individual suppliers."
+      "s": "Europe wants to become less dependent on individual suppliers.",
+      "alts": [
+        "Europa will von einzelnen Lieferanten unabhängiger werden."
+      ]
     },
     {
       "t": "Zur Sicherung der Versorgung wurden Reserven angelegt.",
-      "s": "Reserves were built up to secure supplies."
+      "s": "Reserves were built up to secure supplies.",
+      "alts": [
+        "Reserven wurden zur Sicherung der Versorgung angelegt."
+      ]
     },
     {
       "t": "Hinsichtlich der Folgen herrscht unter Ökonomen Uneinigkeit.",
-      "s": "Economists disagree about the consequences."
+      "s": "Economists disagree about the consequences.",
+      "alts": [
+        "Unter Ökonomen herrscht hinsichtlich der Folgen Uneinigkeit."
+      ]
     }
   ]
 }

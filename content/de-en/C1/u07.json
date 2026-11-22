@@ -64,7 +64,8 @@
       "ex": {
         "t": "Die Wartezeiten auf einen Facharzttermin betragen teils mehrere Monate.",
         "s": "Waiting times for an appointment with a specialist are sometimes several months."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w06",
@@ -136,7 +137,8 @@
       "ex": {
         "t": "Ärzte müssen Nutzen und Risiken einer Therapie sorgfältig gegeneinander abwägen.",
         "s": "Doctors have to weigh the benefits and risks of a therapy carefully against each other."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w13",
@@ -150,7 +152,7 @@
     },
     {
       "id": "w14",
-      "t": "auf jdn./etw. angewiesen sein",
+      "t": "angewiesen sein auf + A",
       "s": "to be dependent on sb./sth.",
       "emoji": "",
       "ex": {
@@ -219,7 +221,10 @@
     {
       "id": "p08",
       "t": "Hier stehen sich zwei Grundwerte gegenüber.",
-      "s": "Two fundamental values are in conflict here."
+      "s": "Two fundamental values are in conflict here.",
+      "alts": [
+        "Zwei Grundwerte stehen sich hier gegenüber."
+      ]
     }
   ],
   "dialogue": {
@@ -229,19 +234,19 @@
     },
     "speakers": {
       "A": {
-        "name": "Dr. Maryam Ahmadi",
+        "name": "Dr. Narges Rostami",
         "voice": "f"
       },
       "B": {
-        "name": "Prof. Wagner",
+        "name": "Prof. Brenner",
         "voice": "m"
       }
     },
     "lines": [
       {
         "sp": "A",
-        "t": "Herr Wagner, jedes Jahr sterben Menschen auf der Warteliste, obwohl die meisten Deutschen der Organspende positiv gegenüberstehen. Wäre die Widerspruchslösung nicht der logische Schritt?",
-        "s": "Mr. Wagner, every year people die on the waiting list, although most Germans have a positive attitude toward organ donation. Wouldn't the opt-out system be the logical step?"
+        "t": "Herr Brenner, jedes Jahr sterben Menschen auf der Warteliste, obwohl die meisten Deutschen der Organspende positiv gegenüberstehen. Wäre die Widerspruchslösung nicht der logische Schritt?",
+        "s": "Mr. Brenner, every year people die on the waiting list, although most Germans have a positive attitude toward organ donation. Wouldn't the opt-out system be the logical step?"
       },
       {
         "sp": "B",
@@ -297,7 +302,7 @@
         "t": "Zwar teuer, aber notwendig",
         "s": "Concessive connectors"
       },
-      "explain": "Concessive connectors admit a fact or argument and then show that it does **not** change the outcome. At C1 you should vary them and know their word order and register.\n**Subordinating (verb at the end):** **obwohl** (neutral), **obgleich, obschon, wenngleich** (formal, written). **selbst wenn / auch wenn** is concessive-conditional (*even if*): it often introduces a hypothetical case and then takes the Konjunktiv II.\n**Adverbs (in position 1 → inversion, or in the middle field):** **trotzdem** (neutral), **dennoch** (more formal), **nichtsdestotrotz** (formal, emphatic), **gleichwohl** (very formal).\n**Two-part:** **zwar …, aber / doch / jedoch** – first concede, then counter. Concessive *zwar* always needs a counterpart such as *aber*, *doch* or *jedoch*.\n**Prepositions + genitive:** **trotz**, **ungeachtet** (formal; may also follow the noun: *der Kritik ungeachtet*).\nIn adjective phrases, **wenn auch** creates an elegant short form: *eine wichtige, **wenn auch** späte Entscheidung*.",
+      "explain": "**In short:** concede, then counter: obwohl/obgleich (verb last), trotzdem/dennoch (adverbs), zwar … aber, selbst wenn (hypothetical), trotz + genitive.\nConcessive connectors admit a fact or argument and then show that it does **not** change the outcome. At C1 you should vary them and know their word order and register.\n**Subordinating (verb at the end):** **obwohl** (neutral), **obgleich, obschon, wenngleich** (formal, written). **selbst wenn / auch wenn** is concessive-conditional (*even if*): it often introduces a hypothetical case and then takes the Konjunktiv II.\n**Adverbs (in position 1 → inversion, or in the middle field):** **trotzdem** (neutral), **dennoch** (more formal), **nichtsdestotrotz** (formal, emphatic), **gleichwohl** (very formal).\n**Two-part:** **zwar …, aber / doch / jedoch** – first concede, then counter. Concessive *zwar* always needs a counterpart such as *aber*, *doch* or *jedoch*.\n**Prepositions + genitive:** **trotz**, **ungeachtet** (formal; may also follow the noun: *der Kritik ungeachtet*).\nIn adjective phrases, **wenn auch** creates an elegant short form: *eine wichtige, **wenn auch** späte Entscheidung*.",
       "table": [
         [
           "obwohl / obgleich / wenngleich",
@@ -352,7 +357,8 @@
             "Zwar"
           ],
           "answer": 1,
-          "s": "Although waiting times are long, care is good overall."
+          "s": "Although waiting times are long, care is good overall.",
+          "why": "obgleich = obwohl: a subordinate clause with the verb at the end."
         },
         {
           "type": "choice",
@@ -363,7 +369,8 @@
             "Dennoch"
           ],
           "answer": 2,
-          "s": "The treatment is expensive. Nevertheless, the insurer covers the costs."
+          "s": "The treatment is expensive. Nevertheless, the insurer covers the costs.",
+          "why": "dennoch is an adverb in position one, so the verb follows it (Dennoch übernimmt …)."
         },
         {
           "type": "choice",
@@ -374,7 +381,8 @@
             "trotz"
           ],
           "answer": 0,
-          "s": "The method is effective, but not without risks."
+          "s": "The method is effective, but not without risks.",
+          "why": "zwar … aber: concede first, then contrast."
         },
         {
           "type": "choice",
@@ -385,7 +393,8 @@
             "Selbst wenn"
           ],
           "answer": 2,
-          "s": "Even if all hospitals were better equipped, the staff shortage would remain."
+          "s": "Even if all hospitals were better equipped, the staff shortage would remain.",
+          "why": "selbst wenn + Konjunktiv II = even if (a hypothetical case)."
         },
         {
           "type": "type",
@@ -394,7 +403,8 @@
             "trotz",
             "ungeachtet"
           ],
-          "s": "He stuck to his plan despite the fierce criticism."
+          "s": "He stuck to his plan despite the fierce criticism.",
+          "why": "trotz / ungeachtet + genitive = despite."
         },
         {
           "type": "type",
@@ -402,24 +412,36 @@
           "answer": [
             "auch"
           ],
-          "s": "That was a courageous, if controversial, decision."
+          "s": "That was a courageous, if controversial, decision.",
+          "why": "wenn auch = if (concessive short form): eine mutige, wenn auch umstrittene Entscheidung."
         },
         {
-          "type": "order",
-          "t": "Nichtsdestotrotz halten wir an der Reform fest.",
-          "s": "Nevertheless, we are sticking to the reform.",
-          "alts": [
-            "Wir halten nichtsdestotrotz an der Reform fest.",
-            "An der Reform halten wir nichtsdestotrotz fest."
-          ]
+          "type": "type",
+          "task": "Join them with obwohl or obgleich.",
+          "cue": "Die Wartezeiten sind lang. Trotzdem sind die meisten Patienten zufrieden.",
+          "t": "___, sind die meisten Patienten zufrieden.",
+          "answer": [
+            "Obwohl die Wartezeiten lang sind",
+            "Obgleich die Wartezeiten lang sind",
+            "Wenngleich die Wartezeiten lang sind",
+            "Obschon die Wartezeiten lang sind"
+          ],
+          "why": "obwohl / obgleich start a subordinate clause (verb at the end); the main clause then begins with its verb.",
+          "s": "Although waiting times are long, most patients are satisfied."
         },
         {
-          "type": "order",
-          "t": "Obgleich er krank war, ging er arbeiten.",
-          "s": "Although he was ill, he went to work.",
-          "alts": [
-            "Er ging arbeiten, obgleich er krank war."
-          ]
+          "type": "choice",
+          "task": "Which reply concedes the point but disagrees?",
+          "cue": "Die Widerspruchslösung würde doch Leben retten.",
+          "t": "___",
+          "options": [
+            "Das mag zwar sein, aber der Staat darf nicht über den Körper seiner Bürger verfügen.",
+            "Das mag zwar sein, deshalb bin ich voll und ganz dafür.",
+            "Da haben Sie völlig recht, das ist die ganze Wahrheit."
+          ],
+          "answer": 0,
+          "why": "'Das mag zwar sein, aber …' first concedes, then contradicts – the classic concessive Redemittel.",
+          "s": "The opt-out system would save lives. – That may well be, but the state must not dispose of its citizens' bodies."
         }
       ]
     },
@@ -429,7 +451,7 @@
         "t": "insofern … als, während, wohingegen",
         "s": "Restrictive and adversative connectors"
       },
-      "explain": "**Restrictive** connectors limit the validity of a statement: it is true only *to a certain extent* or *under a certain condition*.\n**insofern …, als** (also **insoweit …, als**) = *insofar as, in that*. **insofern** stands in the main clause, **als** introduces the subordinate clause: *Sie haben **insofern** recht, **als** die Kosten gestiegen sind.* Very useful for partial agreement in discussions.\n**soweit** = *as far as* (*Soweit ich weiß, …*); **sofern** = *provided that* – a condition (*Sofern die Kasse zustimmt, …*).\n**Adversative** connectors set two facts against each other: **während** (*whereas* – beware: also temporal *while*), **wohingegen** (formal, only adversative, verb at the end). The adverbs **hingegen / dagegen** stand in a main clause, often directly after the element they contrast: *Die Stadt ist gut versorgt; auf dem Land **hingegen** fehlen Ärzte.*",
+      "explain": "**In short:** insofern … als limits a statement to one respect; während / wohingegen and hingegen set two facts against each other.\n**Restrictive** connectors limit the validity of a statement: it is true only *to a certain extent* or *under a certain condition*.\n**insofern …, als** (also **insoweit …, als**) = *insofar as, in that*. **insofern** stands in the main clause, **als** introduces the subordinate clause: *Sie haben **insofern** recht, **als** die Kosten gestiegen sind.* Very useful for partial agreement in discussions.\n**soweit** = *as far as* (*Soweit ich weiß, …*); **sofern** = *provided that* – a condition (*Sofern die Kasse zustimmt, …*).\n**Adversative** connectors set two facts against each other: **während** (*whereas* – beware: also temporal *while*), **wohingegen** (formal, only adversative, verb at the end). The adverbs **hingegen / dagegen** stand in a main clause, often directly after the element they contrast: *Die Stadt ist gut versorgt; auf dem Land **hingegen** fehlen Ärzte.*",
       "table": [
         [
           "insofern …, als",
@@ -480,7 +502,8 @@
             "wie"
           ],
           "answer": 1,
-          "s": "I agree with you insofar as costs have indeed risen."
+          "s": "I agree with you insofar as costs have indeed risen.",
+          "why": "insofern … als: the second part is als, not dass."
         },
         {
           "type": "choice",
@@ -491,7 +514,8 @@
             "trotzdem"
           ],
           "answer": 0,
-          "s": "Older patients prefer the practice, whereas younger ones tend to use video consultations."
+          "s": "Older patients prefer the practice, whereas younger ones tend to use video consultations.",
+          "why": "wohingegen is a conjunction (verb at the end); hingegen is an adverb."
         },
         {
           "type": "choice",
@@ -502,7 +526,8 @@
             "sofern"
           ],
           "answer": 1,
-          "s": "The first finding was unremarkable; the second, however, gave cause for concern."
+          "s": "The first finding was unremarkable; the second, however, gave cause for concern.",
+          "why": "hingegen is an adverb: it can follow the subject (der zweite hingegen gab …)."
         },
         {
           "type": "choice",
@@ -513,7 +538,8 @@
             "Soweit"
           ],
           "answer": 2,
-          "s": "As far as I know, the decision has not yet been made."
+          "s": "As far as I know, the decision has not yet been made.",
+          "why": "soweit = as far as (knowledge): Soweit ich informiert bin …"
         },
         {
           "type": "type",
@@ -522,7 +548,8 @@
             "insofern",
             "insoweit"
           ],
-          "s": "The reform is problematic in that it shifts the costs onto the insured."
+          "s": "The reform is problematic in that it shifts the costs onto the insured.",
+          "why": "insofern … als restricts the statement to one respect."
         },
         {
           "type": "type",
@@ -533,23 +560,33 @@
             "wogegen",
             "waehrend"
           ],
-          "s": "There are enough doctors in the city, whereas many practices are closing in the countryside."
+          "s": "There are enough doctors in the city, whereas many practices are closing in the countryside.",
+          "why": "während / wohingegen contrast two facts; the verb goes to the end."
         },
         {
-          "type": "order",
-          "t": "Sofern die Kasse zustimmt, beginnt die Therapie.",
-          "s": "Provided the insurer agrees, the therapy will begin.",
-          "alts": [
-            "Die Therapie beginnt, sofern die Kasse zustimmt."
-          ]
+          "type": "choice",
+          "task": "Which reply agrees only in part?",
+          "cue": "Das Gesundheitssystem in Deutschland ist doch hervorragend!",
+          "t": "___",
+          "options": [
+            "Ich gebe Ihnen insofern recht, als im Notfall jeder behandelt wird.",
+            "Ich gebe Ihnen insofern recht, dass im Notfall jeder behandelt wird.",
+            "Ich gebe Ihnen recht, wohingegen im Notfall jeder behandelt wird."
+          ],
+          "answer": 0,
+          "why": "insofern … als (not dass) restricts the agreement to one respect.",
+          "s": "The healthcare system in Germany is excellent! – I agree with you insofar as everyone is treated in an emergency."
         },
         {
-          "type": "order",
-          "t": "Insofern hat er durchaus recht.",
-          "s": "In that respect he is quite right.",
-          "alts": [
-            "Er hat insofern durchaus recht."
-          ]
+          "type": "type",
+          "task": "Restrict your agreement with insofern … als.",
+          "cue": "Sie haben recht, aber nur in einem Punkt: Die Kosten sind gestiegen.",
+          "t": "Sie haben insofern recht, ___.",
+          "answer": [
+            "als die Kosten gestiegen sind"
+          ],
+          "why": "insofern … als limits a statement: the als-clause names the exact respect, with the verb at the end.",
+          "s": "You're right insofar as costs have risen."
         }
       ]
     }
@@ -667,6 +704,18 @@
           "Die Qualität der Versorgung sollte vom Einkommen abhängen.",
           "Trotz aller Probleme gibt es Anlass zur Hoffnung.",
           "Reformen sind grundsätzlich zum Scheitern verurteilt."
+        ],
+        "answer": 1
+      },
+      {
+        "q": {
+          "t": "Was dürfte der Autor davon halten, nur mehr Pflegekräfte einzustellen?",
+          "s": "What would the author probably think of just hiring more nurses?"
+        },
+        "options": [
+          "Er hielte es für die Lösung aller Probleme.",
+          "Er hielte es für notwendig, aber nicht für ausreichend.",
+          "Er hielte es für völlig überflüssig."
         ],
         "answer": 1
       }

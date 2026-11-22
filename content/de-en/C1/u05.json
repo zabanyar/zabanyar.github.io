@@ -62,7 +62,8 @@
       "ex": {
         "t": "Achtsamkeit bedeutet, bewusst im Hier und Jetzt zu leben.",
         "s": "Mindfulness means living consciously in the here and now."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w06",
@@ -92,7 +93,8 @@
       "ex": {
         "t": "Nach Wochen voller Überstunden litt sie unter völliger Erschöpfung.",
         "s": "After weeks of overtime she was suffering from complete exhaustion."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w09",
@@ -163,7 +165,8 @@
       "ex": {
         "t": "Chronischer Schlafmangel beeinträchtigt die Konzentration.",
         "s": "Chronic lack of sleep impairs concentration."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w16",
@@ -173,7 +176,8 @@
       "ex": {
         "t": "Zufriedenheit hängt weniger vom Einkommen ab, als viele glauben.",
         "s": "Contentment depends less on income than many people think."
-      }
+      },
+      "sym": true
     }
   ],
   "phrases": [
@@ -199,13 +203,13 @@
     },
     {
       "id": "p05",
-      "t": "Das kann ich gut nachvollziehen.",
-      "s": "I can really understand that."
+      "t": "Ich kann mich gut in Ihre Lage versetzen.",
+      "s": "I can easily put myself in your position."
     },
     {
       "id": "p06",
-      "t": "Es spricht einiges dafür, dass …",
-      "s": "There is a good deal to suggest that …"
+      "t": "Vieles deutet darauf hin, dass …",
+      "s": "There are many indications that …"
     },
     {
       "id": "p07",
@@ -215,74 +219,82 @@
     {
       "id": "p08",
       "t": "Mir ist alles über den Kopf gewachsen.",
-      "s": "Everything got on top of me."
+      "s": "Everything got on top of me.",
+      "alts": [
+        "Alles ist mir über den Kopf gewachsen."
+      ]
     }
   ],
   "dialogue": {
     "title": {
-      "t": "Radiosprechstunde: Wenn der Akku leer ist",
-      "s": "Radio advice hour: when your battery is empty"
+      "t": "In der Hausarztpraxis: Wenn der Akku leer ist",
+      "s": "At the family doctor's: when your battery is empty"
     },
     "speakers": {
       "A": {
-        "name": "Lena Hoffmann",
+        "name": "Frau Dr. Wagner",
         "voice": "f"
       },
       "B": {
-        "name": "Dr. Amir Sadeghi",
+        "name": "Reza",
         "voice": "m"
       }
     },
     "lines": [
       {
         "sp": "A",
-        "t": "Herr Dr. Sadeghi, Burn-out soll inzwischen eine regelrechte Volkskrankheit sein. Stimmt das?",
-        "s": "Dr. Sadeghi, burnout is said to have become a real widespread disease. Is that true?"
+        "t": "Herr Ahmadi, was führt Sie zu mir? Sie sehen, ehrlich gesagt, ziemlich erschöpft aus.",
+        "s": "Mr. Ahmadi, what brings you here? To be honest, you look rather exhausted."
       },
       {
         "sp": "B",
-        "t": "Der Begriff wird zweifellos inflationär verwendet. Medizinisch gesehen ist Burn-out übrigens keine eigenständige Krankheit, sondern ein Syndrom, das auf chronischen Stress am Arbeitsplatz zurückgeführt wird.",
-        "s": "The term is undoubtedly overused. Medically speaking, by the way, burnout is not a disease in its own right but a syndrome attributed to chronic stress at work."
+        "t": "Das bin ich auch. In den letzten Monaten ist mir einfach alles über den Kopf gewachsen: das neue Projekt in der Klinik, Überstunden, ständiger Leistungsdruck.",
+        "s": "I am. Over the last few months everything has simply gotten on top of me: the new project at the hospital, overtime, constant pressure to perform."
       },
       {
         "sp": "A",
-        "t": "Trotzdem melden die Krankenkassen immer mehr Fehltage wegen psychischer Erkrankungen.",
-        "s": "Nevertheless, health insurers are reporting more and more sick days due to mental illness."
+        "t": "Und wie schlafen Sie?",
+        "s": "And how are you sleeping?"
       },
       {
         "sp": "B",
-        "t": "Das dürfte mehrere Ursachen haben. Zum einen ist die Arbeitsverdichtung real, zum anderen sprechen Menschen heute offener über ihre Probleme – und das ist ja durchaus eine gute Nachricht.",
-        "s": "That probably has several causes. On the one hand, work intensification is real; on the other, people talk more openly about their problems today – which is actually good news."
+        "t": "Schlecht. Ich liege nachts wach und grübele. Ein Kollege meint, das müsse ein Burn-out sein – das soll ja inzwischen jeder Dritte haben.",
+        "s": "Badly. I lie awake at night brooding. A colleague says it must be burnout – supposedly one in three people has it these days."
       },
       {
         "sp": "A",
-        "t": "Ein Hörer schreibt uns, er habe bereits alles versucht: Yoga, Meditation, Achtsamkeits-Apps. Geholfen habe nichts.",
-        "s": "A listener writes to us that he has already tried everything: yoga, meditation, mindfulness apps. Nothing has helped."
+        "t": "Ich wage zu bezweifeln, dass diese Zahl stimmt. Und mit einer Diagnose sollten wir vorsichtig sein. Allem Anschein nach leiden Sie aber unter Dauerstress und Schlafmangel.",
+        "s": "I venture to doubt that this figure is correct. And we should be careful with a diagnosis. To all appearances, though, you're suffering from constant stress and lack of sleep."
       },
       {
         "sp": "B",
-        "t": "Das kann ich gut nachvollziehen. Solche Methoden können durchaus entlasten, aber sie müssen scheitern, wenn die eigentliche Ursache in den Arbeitsbedingungen liegt.",
-        "s": "I can really understand that. Methods like these can certainly bring relief, but they are bound to fail if the real cause lies in the working conditions."
+        "t": "Ich habe schon alles Mögliche ausprobiert: Achtsamkeits-Apps, Joggen am Wochenende. Aber ich kann einfach nicht mehr abschalten.",
+        "s": "I've already tried all kinds of things: mindfulness apps, jogging on the weekend. But I just can't switch off anymore."
       },
       {
         "sp": "A",
-        "t": "Woran erkenne ich denn, dass ich professionelle Hilfe brauche?",
-        "s": "So how do I know that I need professional help?"
+        "t": "Ich kann mich gut in Ihre Lage versetzen. Solche Methoden können zweifellos helfen, aber sie müssen scheitern, wenn die Ursache in der Arbeitsbelastung liegt.",
+        "s": "I can easily put myself in your position. Methods like these can undoubtedly help, but they're bound to fail if the cause lies in your workload."
       },
       {
         "sp": "B",
-        "t": "Wenn Schlafstörungen, Grübeln und Erschöpfung über Wochen anhalten und selbst der Urlaub keine Erholung mehr bringt, sollte man das keinesfalls auf die leichte Schulter nehmen.",
-        "s": "If sleep problems, brooding and exhaustion last for weeks and even a vacation no longer brings any recovery, you should by no means take it lightly."
+        "t": "Sie meinen, ich sollte kürzertreten? Das dürfte in meinem Team schwierig werden.",
+        "s": "You mean I should take things easier? That'll probably be difficult in my team."
       },
       {
         "sp": "A",
-        "t": "Und dann? Auf einen Therapieplatz wartet man angeblich monatelang.",
-        "s": "And then? Supposedly you have to wait months for a place in therapy."
+        "t": "Ihre Gesundheit geht vor. Vieles deutet darauf hin, dass Sie dringend eine Pause brauchen. Ich schreibe Sie zunächst für zwei Wochen krank.",
+        "s": "Your health comes first. There are many indications that you urgently need a break. I'll put you on sick leave for two weeks for now."
       },
       {
         "sp": "B",
-        "t": "Leider ist das oft so. Ein guter erster Schritt ist aber in jedem Fall der Weg zur Hausärztin oder zum Hausarzt – dort lässt sich einschätzen, wie dringend die Lage ist.",
-        "s": "Unfortunately, that's often the case. But a good first step is always to see your family doctor – they can assess how urgent the situation is."
+        "t": "Und wenn es danach nicht besser wird?",
+        "s": "And if it isn't better after that?"
+      },
+      {
+        "sp": "A",
+        "t": "Dann sprechen wir über eine Psychotherapie. Das sollte man keinesfalls auf die leichte Schulter nehmen – es steht außer Frage, dass Erschöpfung krank machen kann.",
+        "s": "Then we'll talk about psychotherapy. You should by no means take this lightly – it's beyond question that exhaustion can make you ill."
       }
     ]
   },
@@ -293,7 +305,7 @@
         "t": "Subjektiver Gebrauch der Modalverben",
         "s": "Modal verbs used subjectively"
       },
-      "explain": "Modal verbs have an **objective** meaning (ability, obligation, permission, wish) and a **subjective** one: the speaker comments on how likely a statement is, or reports someone else's claim.\n**muss** – near-certain conclusion: **Er muss krank sein.** (I'm almost sure.)\n**dürfte** (Konjunktiv II) – cautious, well-founded assumption, 'probably': **Das dürfte stimmen.**\n**kann / könnte** – possibility: **Das könnte stimmen.** **kann nicht** – impossibility: **Das kann nicht sein.**\n**soll** – hearsay, the claim comes from others: **Der Film soll gut sein.** (= people say / it is reported)\n**will** – the subject claims something about him- or herself, and the speaker has doubts: **Er will nichts gewusst haben.** (= he claims he knew nothing)\n**Past:** the modal verb stays in the present; the main verb takes the **perfect infinitive** (Partizip II + **haben/sein**): **Sie soll lange in Teheran gelebt haben.** · **Er muss den Zug verpasst haben.** Compare the objective past: **Sie hat lange arbeiten müssen.** (She had to work for a long time.)\nScale of certainty: **muss > dürfte > kann / könnte**; **kann nicht** = impossible.",
+      "explain": "**In short:** muss (almost sure) > dürfte (probably) > kann/könnte (possible); soll = people say, will = he claims. Past: modal + participle + haben/sein.\nAlready known from B2 (unit 9): müsste, dürfte, könnte and kann nicht for assumptions. New at C1: soll and will for claims, and the past forms.\nModal verbs have an **objective** meaning (ability, obligation, permission, wish) and a **subjective** one: the speaker comments on how likely a statement is, or reports someone else's claim.\n**muss** – near-certain conclusion: **Er muss krank sein.** (I'm almost sure.)\n**dürfte** (Konjunktiv II) – cautious, well-founded assumption, 'probably': **Das dürfte stimmen.**\n**kann / könnte** – possibility: **Das könnte stimmen.** **kann nicht** – impossibility: **Das kann nicht sein.**\n**soll** – hearsay, the claim comes from others: **Der Film soll gut sein.** (= people say / it is reported)\n**will** – the subject claims something about him- or herself, and the speaker has doubts: **Er will nichts gewusst haben.** (= he claims he knew nothing)\n**Past:** the modal verb stays in the present; the main verb takes the **perfect infinitive** (Partizip II + **haben/sein**): **Sie soll lange in Teheran gelebt haben.** · **Er muss den Zug verpasst haben.** Compare the objective past: **Sie hat lange arbeiten müssen.** (She had to work for a long time.)\nScale of certainty: **muss > dürfte > kann / könnte**; **kann nicht** = impossible.",
       "table": [
         [
           "muss",
@@ -358,7 +370,8 @@
             "darf"
           ],
           "answer": 0,
-          "s": "I haven't seen it myself, but the film is said to be very good."
+          "s": "I haven't seen it myself, but the film is said to be very good.",
+          "why": "sollen = it is said (hearsay): I haven't seen it myself."
         },
         {
           "type": "choice",
@@ -369,7 +382,8 @@
             "dürfte"
           ],
           "answer": 1,
-          "s": "He claims not to have known anything about the mistake, but nobody believes him."
+          "s": "He claims not to have known anything about the mistake, but nobody believes him.",
+          "why": "wollen = he claims this about himself (and nobody believes him)."
         },
         {
           "type": "choice",
@@ -380,16 +394,19 @@
             "muss"
           ],
           "answer": 2,
-          "s": "Her light is still on, so she must be at home."
+          "s": "Her light is still on, so she must be at home.",
+          "why": "müssen = an almost certain conclusion from evidence (the light is on)."
         },
         {
           "type": "type",
-          "t": "Sie soll früher in Teheran ___ haben.",
+          "task": "Pass on the rumor with sollen.",
+          "cue": "Man sagt, dass der neue Chef sehr streng ist.",
+          "t": "Der neue Chef ___.",
           "answer": [
-            "gelebt",
-            "gewohnt"
+            "soll sehr streng sein"
           ],
-          "s": "She is said to have lived in Tehran in the past."
+          "why": "sollen = 'is said to': you pass on what others say, not your own claim.",
+          "s": "The new boss is said to be very strict."
         },
         {
           "type": "choice",
@@ -400,15 +417,22 @@
             "dürfte"
           ],
           "answer": 0,
-          "s": "That can't be – I locked the door!"
+          "s": "That can't be – I locked the door!",
+          "why": "kann nicht = impossible."
         },
         {
-          "type": "type",
-          "t": "Er will den Bericht schon gestern abgeschickt ___.",
-          "answer": [
-            "haben"
+          "type": "choice",
+          "task": "Which reply expresses doubt about his claim?",
+          "cue": "Mein Kollege behauptet, er habe noch nie einen Fehler gemacht.",
+          "t": "___",
+          "options": [
+            "Er will noch nie einen Fehler gemacht haben? Das wage ich zu bezweifeln.",
+            "Er soll noch nie einen Fehler gemacht haben? Das steht außer Frage.",
+            "Er muss noch nie einen Fehler gemacht haben."
           ],
-          "s": "He claims to have sent the report yesterday."
+          "answer": 0,
+          "why": "wollen = the subject claims it about himself; 'Ich wage zu bezweifeln' adds polite doubt.",
+          "s": "My colleague claims he has never made a mistake. – He claims never to have made a mistake? I venture to doubt that."
         },
         {
           "type": "choice",
@@ -419,7 +443,8 @@
             "muss"
           ],
           "answer": 1,
-          "s": "The study has probably been published by now, but I'm not completely sure."
+          "s": "The study has probably been published by now, but I'm not completely sure.",
+          "why": "dürfte = probably (a cautious assumption)."
         },
         {
           "type": "order",
@@ -434,7 +459,7 @@
         "t": "Gewissheit und Vermutung: zweifellos, vermutlich, angeblich",
         "s": "Expressing certainty, probability and distance"
       },
-      "explain": "Besides modal verbs, German uses **modal adverbs** to rate how probable a statement is. They stand in position 1 or in the middle field: **Vermutlich ist er krank.** / **Er ist vermutlich krank.**\n**Certain:** **zweifellos, zweifelsohne, ohne Frage, unbestreitbar**. Note: **bestimmt, sicher, sicherlich** sound certain but express the speaker's strong *conviction*, not proven fact: **Er hat das sicher vergessen.** ≈ I'm pretty sure he forgot.\n**Probable:** **wahrscheinlich, vermutlich, wohl, aller Wahrscheinlichkeit nach**.\n**Possible:** **vielleicht, möglicherweise, eventuell, unter Umständen**.\n**Unlikely:** **kaum, wohl kaum, schwerlich**.\n**Distance / hearsay:** **angeblich** = allegedly (someone claims it, the truth is open); **vermeintlich** = supposedly, usually implying it is *false*: **der vermeintliche Experte** (who isn't one); **mutmaßlich** = suspected (official, police and legal language): **der mutmaßliche Täter**.\nEquivalents: **Er ist vermutlich krank. ≈ Er dürfte krank sein.** · **Er ist angeblich reich. ≈ Er soll reich sein.**\nNominal and verbal alternatives for formal speech: **Es besteht kein Zweifel daran, dass …** · **Es ist anzunehmen, dass …** · **Ich gehe davon aus, dass …**",
+      "explain": "**In short:** modal adverbs rate a statement: zweifellos (certain), vermutlich (probable), vielleicht (possible), kaum (unlikely), angeblich / vermeintlich (distance).\nBesides modal verbs, German uses **modal adverbs** to rate how probable a statement is. They stand in position 1 or in the middle field: **Vermutlich ist er krank.** / **Er ist vermutlich krank.**\n**Certain:** **zweifellos, zweifelsohne, ohne Frage, unbestreitbar**. Note: **bestimmt, sicher, sicherlich** sound certain but express the speaker's strong *conviction*, not proven fact: **Er hat das sicher vergessen.** ≈ I'm pretty sure he forgot.\n**Probable:** **wahrscheinlich, vermutlich, wohl, aller Wahrscheinlichkeit nach**.\n**Possible:** **vielleicht, möglicherweise, eventuell, unter Umständen**.\n**Unlikely:** **kaum, wohl kaum, schwerlich**.\n**Distance / hearsay:** **angeblich** = allegedly (someone claims it, the truth is open); **vermeintlich** = supposedly, usually implying it is *false*: **der vermeintliche Experte** (who isn't one); **mutmaßlich** = suspected (official, police and legal language): **der mutmaßliche Täter**.\nEquivalents: **Er ist vermutlich krank. ≈ Er dürfte krank sein.** · **Er ist angeblich reich. ≈ Er soll reich sein.**\nNominal and verbal alternatives for formal speech: **Es besteht kein Zweifel daran, dass …** · **Es ist anzunehmen, dass …** · **Ich gehe davon aus, dass …**",
       "table": [
         [
           "sicher",
@@ -489,7 +514,8 @@
             "vermutlich"
           ],
           "answer": 0,
-          "s": "The suspected perpetrator was arrested yesterday."
+          "s": "The suspected perpetrator was arrested yesterday.",
+          "why": "mutmaßlich = suspected (legal language): an arrest doesn't prove guilt."
         },
         {
           "type": "choice",
@@ -500,7 +526,8 @@
             "zweifellose"
           ],
           "answer": 1,
-          "s": "The supposed miracle healer turned out to be a fraud."
+          "s": "The supposed miracle healer turned out to be a fraud.",
+          "why": "vermeintlich = supposed, but in fact false: he turned out to be a fraud."
         },
         {
           "type": "type",
@@ -509,18 +536,22 @@
             "angeblich",
             "vorgeblich"
           ],
-          "s": "He is allegedly ill – at least that's what he claims."
+          "s": "He is allegedly ill – at least that's what he claims.",
+          "why": "angeblich = allegedly: the speaker only repeats his claim."
         },
         {
           "type": "choice",
-          "t": "Er dürfte schon zu Hause sein. = Er ist ___ schon zu Hause.",
+          "task": "Which adverb expresses the same degree of certainty?",
+          "cue": "Er dürfte schon zu Hause sein.",
+          "t": "Er ist ___ schon zu Hause.",
           "options": [
             "angeblich",
             "kaum",
             "vermutlich"
           ],
           "answer": 2,
-          "s": "He's probably already home."
+          "s": "He's probably already home.",
+          "why": "dürfte = vermutlich (probably)."
         },
         {
           "type": "choice",
@@ -531,7 +562,8 @@
             "bestimmt"
           ],
           "answer": 1,
-          "s": "In this weather the concert will hardly go ahead – the stage is under water."
+          "s": "In this weather the concert will hardly go ahead – the stage is under water.",
+          "why": "kaum = hardly: with the stage flooded, the concert is unlikely."
         },
         {
           "type": "type",
@@ -539,24 +571,33 @@
           "answer": [
             "Zweifel"
           ],
-          "s": "There is no doubt that sleep is important for health."
+          "s": "There is no doubt that sleep is important for health.",
+          "why": "A fixed phrase: Es besteht kein Zweifel daran, dass …"
         },
         {
-          "type": "order",
-          "t": "Vermutlich hängt das mit dem Stress zusammen.",
-          "s": "That's probably connected with the stress.",
-          "alts": [
-            "Das hängt vermutlich mit dem Stress zusammen.",
-            "Mit dem Stress hängt das vermutlich zusammen."
-          ]
+          "type": "choice",
+          "task": "Which reply shows empathy?",
+          "cue": "Mir ist in letzter Zeit alles über den Kopf gewachsen.",
+          "t": "___",
+          "options": [
+            "Ich kann mich gut in deine Lage versetzen. Das solltest du nicht auf die leichte Schulter nehmen.",
+            "Das ist angeblich ganz normal, also stell dich nicht so an.",
+            "Zweifellos bist du selbst schuld."
+          ],
+          "answer": 0,
+          "why": "Empathy first ('Ich kann mich gut in deine Lage versetzen'), then a cautious warning – no blame, no doubt.",
+          "s": "Everything has gotten on top of me lately. – I can easily put myself in your position. You shouldn't take that lightly."
         },
         {
-          "type": "order",
-          "t": "Der Bericht ist angeblich schon fertig.",
-          "s": "The report is supposedly finished already.",
-          "alts": [
-            "Angeblich ist der Bericht schon fertig."
-          ]
+          "type": "type",
+          "task": "Say it with zweifellos instead of 'Ich bin mir sicher'.",
+          "cue": "Ich bin mir sicher, dass Bewegung gegen Stress hilft.",
+          "t": "Bewegung ___ gegen Stress.",
+          "answer": [
+            "hilft zweifellos"
+          ],
+          "why": "zweifellos = without doubt; as an adverb in the middle field it follows the conjugated verb.",
+          "s": "Exercise undoubtedly helps against stress."
         }
       ]
     }
@@ -676,13 +717,28 @@
           "gleichgültig"
         ],
         "answer": 1
+      },
+      {
+        "q": {
+          "t": "Was würden die Forscher der Harvard-Studie wohl jemandem raten, der sich einsam fühlt?",
+          "s": "What would the researchers of the Harvard study probably advise someone who feels lonely?"
+        },
+        "options": [
+          "vor allem mehr Geld zu verdienen",
+          "eine Glücks-App herunterzuladen",
+          "Beziehungen zu pflegen und Kontakte zu suchen"
+        ],
+        "answer": 2
       }
     ]
   },
   "sentences": [
     {
       "t": "Ich bin in letzter Zeit ziemlich gestresst.",
-      "s": "I've been pretty stressed lately."
+      "s": "I've been pretty stressed lately.",
+      "alts": [
+        "In letzter Zeit bin ich ziemlich gestresst."
+      ]
     },
     {
       "t": "Du solltest dir unbedingt eine Auszeit gönnen.",
@@ -706,11 +762,17 @@
     },
     {
       "t": "Zweifellos ist ausreichender Schlaf die beste Medizin.",
-      "s": "Without doubt, enough sleep is the best medicine."
+      "s": "Without doubt, enough sleep is the best medicine.",
+      "alts": [
+        "Ausreichender Schlaf ist zweifellos die beste Medizin."
+      ]
     },
     {
       "t": "Nach dem Urlaub fühle ich mich wie neugeboren.",
-      "s": "After the vacation I feel like a new person."
+      "s": "After the vacation I feel like a new person.",
+      "alts": [
+        "Ich fühle mich nach dem Urlaub wie neugeboren."
+      ]
     }
   ]
 }

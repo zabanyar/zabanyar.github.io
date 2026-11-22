@@ -10,7 +10,7 @@
     "Discuss political institutions, elections, participation and social cohesion",
     "Use the Zustandspassiv and passive alternatives such as erfolgen, gelten als, auf Kritik stoßen",
     "Form subjectless passive sentences and impersonal constructions (Es wird diskutiert …)",
-    "Take a position and hold your ground in a political debate"
+    "Take a position and hold your ground in a debate, e.g. at a parents' evening"
   ],
   "words": [
     {
@@ -21,7 +21,8 @@
       "ex": {
         "t": "Die Wahlbeteiligung lag bei knapp 77 Prozent.",
         "s": "Voter turnout was just under 77 percent."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w02",
@@ -64,7 +65,8 @@
       "ex": {
         "t": "In einem Rechtsstaat sind alle vor dem Gesetz gleich.",
         "s": "Under the rule of law, everyone is equal before the law."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w06",
@@ -136,7 +138,8 @@
       "ex": {
         "t": "Zu der Kundgebung vor dem Kanzleramt kamen mehrere Tausend Menschen.",
         "s": "Several thousand people came to the rally in front of the Chancellery."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w13",
@@ -189,7 +192,10 @@
     {
       "id": "p02",
       "t": "Das greift meines Erachtens zu kurz.",
-      "s": "In my opinion, that falls short / is too simplistic."
+      "s": "In my opinion, that falls short / is too simplistic.",
+      "alts": [
+        "Meines Erachtens greift das zu kurz."
+      ]
     },
     {
       "id": "p03",
@@ -214,7 +220,10 @@
     {
       "id": "p07",
       "t": "Lassen Sie mich bitte ausreden.",
-      "s": "Please let me finish."
+      "s": "Please let me finish.",
+      "alts": [
+        "Bitte lassen Sie mich ausreden."
+      ]
     },
     {
       "id": "p08",
@@ -224,69 +233,74 @@
   ],
   "dialogue": {
     "title": {
-      "t": "Wahlrecht ab 16 – ja oder nein?",
-      "s": "Voting at 16 – yes or no?"
+      "t": "Elternabend: Juniorwahl in der siebten Klasse?",
+      "s": "Parents' evening: a mock election in seventh grade?"
     },
     "speakers": {
       "A": {
-        "name": "Prof. Wagner",
-        "voice": "m"
+        "name": "Frau Koch",
+        "voice": "f"
       },
       "B": {
-        "name": "Lena Hoffmann",
-        "voice": "f"
+        "name": "Ali",
+        "voice": "m"
       }
     },
     "lines": [
       {
         "sp": "A",
-        "t": "Frau Hoffmann, bei der Europawahl 2024 durften in Deutschland erstmals Sechzehnjährige wählen. Ich halte das nach wie vor für einen Fehler.",
-        "s": "Ms. Hoffmann, in the 2024 European elections, sixteen-year-olds in Germany were allowed to vote in a European election for the first time. I still consider that a mistake."
+        "t": "Zum letzten Punkt der Tagesordnung: Vor der Bundestagswahl findet an unserer Schule eine Juniorwahl statt. Die Teilnahme der siebten Klassen ist von der Schulkonferenz bereits beschlossen.",
+        "s": "On to the last item on the agenda: before the federal election, our school is holding a mock election. The school conference has already approved the participation of the seventh grades."
       },
       {
         "sp": "B",
-        "t": "Das überrascht mich, Herr Professor Wagner. Mit sechzehn kann man eine Ausbildung machen, Steuern zahlen und Verantwortung übernehmen – warum sollte man dann nicht mitbestimmen dürfen?",
-        "s": "That surprises me, Professor Wagner. At sixteen you can start vocational training, pay taxes and take on responsibility – so why shouldn't you be allowed to have a say?"
+        "t": "Darf ich dazu etwas sagen? Ich vertrete die Auffassung, dass politische Bildung wichtig ist. Aber ist die siebte Klasse dafür nicht noch zu früh? Die Kinder sind gerade mal zwölf.",
+        "s": "May I say something about that? I take the view that civic education is important. But isn't seventh grade still too early for it? The children are only twelve."
       },
       {
         "sp": "A",
-        "t": "Weil das Wahlalter an die Volljährigkeit gekoppelt sein sollte. Rechte und Pflichten gehören zusammen.",
-        "s": "Because the voting age should be tied to the age of majority. Rights and obligations go together."
+        "t": "Die Juniorwahl gilt als eines der erfolgreichsten Projekte der politischen Bildung. Die Stimmabgabe erfolgt wie bei einer echten Wahl: mit Wahlzetteln, Wahlurne und Wahlgeheimnis.",
+        "s": "The mock election is considered one of the most successful civic education projects. Voting is carried out as in a real election: with ballot papers, a ballot box and a secret ballot."
       },
       {
         "sp": "B",
-        "t": "Dem ist entgegenzuhalten, dass junge Menschen von den heutigen Entscheidungen am längsten betroffen sind – denken Sie nur an die Klimapolitik oder die Rente.",
-        "s": "Against that, it should be pointed out that young people will be affected by today's decisions the longest – just think of climate policy or pensions."
+        "t": "Man darf aber nicht außer Acht lassen, dass manche Eltern eine Beeinflussung durch die Schule befürchten. In unserer Elterngruppe wird darüber schon heftig diskutiert.",
+        "s": "But one must not overlook the fact that some parents are afraid the school will influence their children. There's already heated discussion about it in our parents' group."
       },
       {
         "sp": "A",
-        "t": "Das bestreitet niemand. Aber es wird oft unterstellt, dass ein früheres Wahlrecht automatisch zu mehr Beteiligung führt. Die Daten sprechen eine andere Sprache.",
-        "s": "Nobody disputes that. But it is often assumed that voting at an earlier age automatically leads to more participation. The data tell a different story."
+        "t": "Davon kann keine Rede sein. Im Unterricht werden die Programme aller großen Parteien vorgestellt, und –",
+        "s": "That's simply not the case. In class, the programs of all the major parties are presented, and –"
       },
       {
         "sp": "B",
-        "t": "Lassen Sie mich bitte ausreden. Es gibt durchaus Hinweise darauf, dass frühes Wählen zur Gewohnheit wird. Entscheidend ist aber, dass an den Schulen mehr politische Bildung stattfindet.",
-        "s": "Please let me finish. There are certainly indications that voting early becomes a habit. What's crucial, though, is that there is more civic education in schools."
+        "t": "Aber wer garantiert denn, dass das neutral geschieht?",
+        "s": "But who guarantees that this is done neutrally?"
       },
       {
         "sp": "A",
-        "t": "Da stimme ich Ihnen insofern zu, als die politische Bildung bislang sträflich vernachlässigt worden ist.",
-        "s": "I agree with you insofar as civic education has so far been shamefully neglected."
+        "t": "Lassen Sie mich bitte ausreden. Es wird ausdrücklich keine Wahlempfehlung gegeben. Es gilt, die Kinder zu einem eigenen Urteil zu befähigen, nicht, sie zu überreden.",
+        "s": "Please let me finish. Explicitly, no recommendation on how to vote is given. The point is to enable the children to form their own judgment, not to persuade them."
       },
       {
         "sp": "B",
-        "t": "Na also. Dann sind wir uns ja doch in einem Punkt einig.",
-        "s": "There you go. So we do agree on one point after all."
+        "t": "Gut, ich stimme Ihnen insofern zu, als die Kinder dabei lernen, wie eine Wahl funktioniert. Aber eine einzige Wahl im Klassenzimmer – greift das nicht zu kurz?",
+        "s": "All right, I agree with you insofar as the children learn how an election works. But a single election in the classroom – isn't that too simplistic?"
       },
       {
         "sp": "A",
-        "t": "In einem Punkt, ja. Über das Wahlalter wird aber sicher noch lange gestritten werden.",
-        "s": "On one point, yes. But there will certainly be arguments about the voting age for a long time to come."
+        "t": "Die Erfahrungen anderer Schulen sprechen eine andere Sprache: Viele Kinder diskutieren danach zu Hause mit ihren Eltern über Politik – manchmal zum ersten Mal.",
+        "s": "The experience of other schools tells a different story: many children discuss politics with their parents at home afterwards – sometimes for the first time."
       },
       {
         "sp": "B",
-        "t": "Und das ist auch gut so – genau davon lebt eine Demokratie.",
-        "s": "And that's a good thing – that's exactly what a democracy thrives on."
+        "t": "Das ist ein starkes Argument. Letztlich geht es hier ja um die Frage, ob wir unseren Kindern eine eigene Meinung zutrauen.",
+        "s": "That's a strong argument. Ultimately, the question here is whether we trust our children to have their own opinion."
+      },
+      {
+        "sp": "A",
+        "t": "Genau. Und gerade in Zeiten zunehmender Spaltung ist das wichtiger denn je.",
+        "s": "Exactly. And especially at a time of growing polarization, that's more important than ever."
       }
     ]
   },
@@ -297,7 +311,7 @@
         "t": "Zustandspassiv und Passivvarianten",
         "s": "Statal passive and passive alternatives"
       },
-      "explain": "The **Vorgangspassiv** (**werden + Partizip II**) describes a process: **Das Gesetz wird heute verabschiedet.** The **Zustandspassiv** (**sein + Partizip II**) describes the state that results from it: **Das Gesetz ist verabschiedet.** (= it has been passed and that is now the situation). Compare: **Die Tür wird geschlossen** (someone is closing it) – **Die Tür ist geschlossen** (it is closed). The Zustandspassiv only works with verbs whose action produces a lasting result: **ist beschlossen, ist geregelt, ist geöffnet, ist abgeschlossen**.\nFormal German also has several **passive alternatives** – active in form, passive in meaning. They avoid monotonous chains of 'wird … wird …' and are typical of news and official language:\n**erfolgen + verbal noun**: **Die Auszahlung erfolgt im März.** (= wird ausgezahlt)\n**gelten als + N/Adj.**: **Sie gilt als kompromissbereit.** (= wird als … angesehen)\n**bekommen / erhalten + Partizip II** (recipient passive): **Er bekommt den Preis verliehen.** (= Ihm wird der Preis verliehen.)\n**Funktionsverbgefüge**: **auf Kritik / Widerstand stoßen**, **Zustimmung finden**, **in die Kritik geraten**.\nAlready known from B2: **sich lassen + Infinitiv**, **sein + zu + Infinitiv**, adjectives in **-bar**.",
+      "explain": "**In short:** werden + participle = a process, sein + participle = the resulting state; erfolgen, gelten als and bekommen + participle replace the passive.\nThe **Vorgangspassiv** (**werden + Partizip II**) describes a process: **Das Gesetz wird heute verabschiedet.** The **Zustandspassiv** (**sein + Partizip II**) describes the state that results from it: **Das Gesetz ist verabschiedet.** (= it has been passed and that is now the situation). Compare: **Die Tür wird geschlossen** (someone is closing it) – **Die Tür ist geschlossen** (it is closed). The Zustandspassiv only works with verbs whose action produces a lasting result: **ist beschlossen, ist geregelt, ist geöffnet, ist abgeschlossen**.\nFormal German also has several **passive alternatives** – active in form, passive in meaning. They avoid monotonous chains of 'wird … wird …' and are typical of news and official language:\n**erfolgen + verbal noun**: **Die Auszahlung erfolgt im März.** (= wird ausgezahlt)\n**gelten als + N/Adj.**: **Sie gilt als kompromissbereit.** (= wird als … angesehen)\n**bekommen / erhalten + Partizip II** (recipient passive): **Er bekommt den Preis verliehen.** (= Ihm wird der Preis verliehen.)\n**Funktionsverbgefüge**: **auf Kritik / Widerstand stoßen**, **Zustimmung finden**, **in die Kritik geraten**.\nAlready known from B2: **sich lassen + Infinitiv**, **sein + zu + Infinitiv**, adjectives in **-bar**.",
       "table": [
         [
           "Vorgangspassiv",
@@ -356,7 +370,8 @@
             "hat"
           ],
           "answer": 0,
-          "s": "Since yesterday the border has been open again."
+          "s": "Since yesterday the border has been open again.",
+          "why": "The result of an action (the border has been opened) → Zustandspassiv: sein + participle."
         },
         {
           "type": "choice",
@@ -367,7 +382,8 @@
             "bekommt"
           ],
           "answer": 1,
-          "s": "The vote is held by secret ballot."
+          "s": "The vote is held by secret ballot.",
+          "why": "erfolgen = take place (a formal passive alternative): Die Abstimmung erfolgt …"
         },
         {
           "type": "type",
@@ -375,7 +391,8 @@
           "answer": [
             "gilt"
           ],
-          "s": "The politician is considered the favorite for the office."
+          "s": "The politician is considered the favorite for the office.",
+          "why": "gelten als + nominative = be considered."
         },
         {
           "type": "choice",
@@ -386,7 +403,8 @@
             "Kritik"
           ],
           "answer": 2,
-          "s": "The proposal met with criticism from the associations."
+          "s": "The proposal met with criticism from the associations.",
+          "why": "auf Kritik stoßen = meet with criticism."
         },
         {
           "type": "type",
@@ -398,7 +416,8 @@
             "erhielt",
             "erhaelt"
           ],
-          "s": "He is awarded the Federal Cross of Merit."
+          "s": "He is awarded the Federal Cross of Merit.",
+          "why": "Recipient passive: the person is the subject of bekommen/erhalten + participle."
         },
         {
           "type": "choice",
@@ -409,23 +428,34 @@
             "hat"
           ],
           "answer": 0,
-          "s": "At the moment the bill is being debated in the Bundestag."
+          "s": "At the moment the bill is being debated in the Bundestag.",
+          "why": "An ongoing process → Vorgangspassiv: werden + participle."
         },
         {
-          "type": "order",
-          "t": "Die Auszahlung erfolgt Ende des Monats.",
-          "s": "Payment is made at the end of the month.",
-          "alts": [
-            "Ende des Monats erfolgt die Auszahlung."
-          ]
+          "type": "choice",
+          "task": "Which reply rejects the claim by pointing to evidence?",
+          "cue": "Junge Leute interessieren sich doch sowieso nicht für Politik.",
+          "t": "___",
+          "options": [
+            "Das sehe ich anders – die Daten sprechen eine andere Sprache.",
+            "Da stimme ich Ihnen voll und ganz zu.",
+            "Lassen Sie mich bitte ausreden."
+          ],
+          "answer": 0,
+          "why": "'Die Daten sprechen eine andere Sprache' rejects a claim by pointing to evidence; nobody has interrupted, so 'ausreden' doesn't fit.",
+          "s": "Young people aren't interested in politics anyway. – I see it differently – the data tell a different story."
         },
         {
-          "type": "order",
-          "t": "Der Haushalt ist seit gestern beschlossen.",
-          "s": "The budget has been approved since yesterday.",
-          "alts": [
-            "Seit gestern ist der Haushalt beschlossen."
-          ]
+          "type": "type",
+          "task": "Describe today's result with the statal passive (sein).",
+          "cue": "Der Bundestag hat das Gesetz gestern verabschiedet.",
+          "t": "Das Gesetz ___.",
+          "answer": [
+            "ist verabschiedet",
+            "ist seit gestern verabschiedet"
+          ],
+          "why": "The state that results from an action: sein + Partizip II (Zustandspassiv).",
+          "s": "The law has been passed."
         }
       ]
     },
@@ -435,7 +465,7 @@
         "t": "Subjektlose Passivsätze und unpersönliche Konstruktionen",
         "s": "Subjectless passives and impersonal constructions"
       },
-      "explain": "Unlike English, German can form a passive from **intransitive verbs** (verbs without an accusative object): **Im Bundestag wurde bis spät in die Nacht debattiert.** Such sentences have **no subject** – the focus is on the activity itself, not on who performs it. English usually needs 'there was …' or 'people …': 'There was debate late into the night.'\nIf nothing else stands in position 1, the placeholder **es** fills it: **Es wurde bis spät in die Nacht debattiert.** This **es** disappears as soon as another element takes position 1 (**Gestern wurde lange debattiert.**) and in subordinate clauses (**…, dass lange debattiert wurde**). The verb is always **singular**.\nVerbs with a **dative** object keep the dative – it never becomes a subject: **Den Opfern muss geholfen werden.** (never *Die Opfer werden geholfen*).\nThe subjectless passive is also used for brisk commands: **Jetzt wird nicht mehr diskutiert!**\nOther impersonal constructions you will meet in political language: **man** (**Man diskutiert seit Jahren darüber.**), **es heißt, …** (it is said that), **es gilt, … zu + Infinitiv** (it is necessary to …, the task is to …), **es geht um + A** (it is about …).",
+      "explain": "**In short:** German can make a passive without a subject (Es wird diskutiert); es only fills position one, the verb is always singular, datives stay dative.\nUnlike English, German can form a passive from **intransitive verbs** (verbs without an accusative object): **Im Bundestag wurde bis spät in die Nacht debattiert.** Such sentences have **no subject** – the focus is on the activity itself, not on who performs it. English usually needs 'there was …' or 'people …': 'There was debate late into the night.'\nIf nothing else stands in position 1, the placeholder **es** fills it: **Es wurde bis spät in die Nacht debattiert.** This **es** disappears as soon as another element takes position 1 (**Gestern wurde lange debattiert.**) and in subordinate clauses (**…, dass lange debattiert wurde**). The verb is always **singular**.\nVerbs with a **dative** object keep the dative – it never becomes a subject: **Den Opfern muss geholfen werden.** (never *Die Opfer werden geholfen*).\nThe subjectless passive is also used for brisk commands: **Jetzt wird nicht mehr diskutiert!**\nOther impersonal constructions you will meet in political language: **man** (**Man diskutiert seit Jahren darüber.**), **es heißt, …** (it is said that), **es gilt, … zu + Infinitiv** (it is necessary to …, the task is to …), **es geht um + A** (it is about …).",
       "table": [
         [
           "Es wird diskutiert.",
@@ -486,7 +516,8 @@
             "Sie"
           ],
           "answer": 1,
-          "s": "There was a long argument about the budget."
+          "s": "There was a long argument about the budget.",
+          "why": "Subjectless passive with nothing else in position one: es fills the first position."
         },
         {
           "type": "choice",
@@ -497,7 +528,8 @@
             "wurden"
           ],
           "answer": 1,
-          "s": "Yesterday there was a long discussion in the committee."
+          "s": "Yesterday there was a long discussion in the committee.",
+          "why": "When another element (gestern) is in position one, es disappears; the verb stays singular."
         },
         {
           "type": "choice",
@@ -508,7 +540,8 @@
             "Den Opfern"
           ],
           "answer": 2,
-          "s": "The victims must finally be helped."
+          "s": "The victims must finally be helped.",
+          "why": "helfen takes the dative, and the dative stays in the passive: den Opfern."
         },
         {
           "type": "type",
@@ -518,15 +551,22 @@
             "worden ist",
             "worden war"
           ],
-          "s": "I know that there were long negotiations yesterday."
+          "s": "I know that there were long negotiations yesterday.",
+          "why": "In a dass-clause there is no es, and the passive verb goes last: verhandelt wurde."
         },
         {
-          "type": "type",
-          "t": "Jetzt ___ nicht mehr diskutiert, jetzt wird entschieden!",
-          "answer": [
-            "wird"
+          "type": "choice",
+          "task": "Which reply urges a decision?",
+          "cue": "Im Elternrat wird schon seit Monaten über das Handyverbot geredet.",
+          "t": "___",
+          "options": [
+            "Dann wird es höchste Zeit, dass endlich entschieden wird.",
+            "Dann wird es höchste Zeit, dass endlich entschieden werden.",
+            "Darüber kann man ruhig noch ein paar Jahre reden."
           ],
-          "s": "No more discussion now – now it's time to decide!"
+          "answer": 0,
+          "why": "A subjectless passive has no es inside the clause, and its verb is always singular: dass … entschieden wird.",
+          "s": "The parents' council has been talking about the cell phone ban for months. – Then it's high time a decision was made."
         },
         {
           "type": "choice",
@@ -537,7 +577,8 @@
             "steht"
           ],
           "answer": 0,
-          "s": "The task is to overcome the divisions in society."
+          "s": "The task is to overcome the divisions in society.",
+          "why": "Es gilt + zu-infinitive = the task is to …"
         },
         {
           "type": "order",
@@ -545,12 +586,16 @@
           "s": "Negotiations went on late into the night."
         },
         {
-          "type": "order",
-          "t": "Den Betroffenen muss schnell geholfen werden.",
-          "s": "Those affected must be helped quickly.",
-          "alts": [
-            "Schnell muss den Betroffenen geholfen werden."
-          ]
+          "type": "type",
+          "task": "Make it a passive without man, starting with Über die Reform.",
+          "cue": "Man hat lange über die Reform diskutiert.",
+          "t": "Über die Reform ___.",
+          "answer": [
+            "wurde lange diskutiert",
+            "ist lange diskutiert worden"
+          ],
+          "why": "Subjectless passive: no es when another element is in position one, and the verb stays singular.",
+          "s": "The reform was debated for a long time."
         }
       ]
     }
@@ -670,6 +715,18 @@
           "dass das Parlament aufgelöst wird"
         ],
         "answer": 1
+      },
+      {
+        "q": {
+          "t": "Welche Position vertritt der Autor am Ende des Textes?",
+          "s": "What position does the author take at the end of the text?"
+        },
+        "options": [
+          "Er hält Bürgerräte für undemokratisch und überflüssig.",
+          "Er sieht in Bürgerräten trotz offener Fragen ein Mittel gegen die Polarisierung.",
+          "Er fordert, dass Bürgerräte das Parlament ersetzen."
+        ],
+        "answer": 1
       }
     ]
   },
@@ -684,11 +741,17 @@
     },
     {
       "t": "Über diesen Antrag wird morgen abgestimmt.",
-      "s": "This motion will be voted on tomorrow."
+      "s": "This motion will be voted on tomorrow.",
+      "alts": [
+        "Morgen wird über diesen Antrag abgestimmt."
+      ]
     },
     {
       "t": "Die Verhandlungen sind vorerst gescheitert.",
-      "s": "The negotiations have failed for the time being."
+      "s": "The negotiations have failed for the time being.",
+      "alts": [
+        "Vorerst sind die Verhandlungen gescheitert."
+      ]
     },
     {
       "t": "Viele Menschen fühlen sich von der Politik nicht mehr vertreten.",
@@ -700,7 +763,10 @@
     },
     {
       "t": "Das Gesetz tritt Anfang nächsten Jahres in Kraft.",
-      "s": "The law comes into force at the beginning of next year."
+      "s": "The law comes into force at the beginning of next year.",
+      "alts": [
+        "Anfang nächsten Jahres tritt das Gesetz in Kraft."
+      ]
     },
     {
       "t": "Es muss endlich gehandelt werden.",

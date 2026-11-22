@@ -21,7 +21,8 @@
       "ex": {
         "t": "Die Digitalisierung verändert nahezu alle Berufsfelder.",
         "s": "Digitalization is changing almost every occupational field."
-      }
+      },
+      "sym": true
     },
     {
       "id": "w02",
@@ -180,14 +181,18 @@
       "ex": {
         "t": "Auf die Gehaltsverhandlung sollte man sich gründlich vorbereiten.",
         "s": "You should prepare thoroughly for the salary negotiation."
-      }
+      },
+      "sym": true
     }
   ],
   "phrases": [
     {
       "id": "p01",
-      "t": "Einerseits …, andererseits …",
-      "s": "On the one hand …, on the other hand …"
+      "t": "Das lässt sich nicht pauschal beantworten.",
+      "s": "There's no one-size-fits-all answer to that.",
+      "alts": [
+        "Pauschal lässt sich das nicht beantworten."
+      ]
     },
     {
       "id": "p02",
@@ -197,7 +202,10 @@
     {
       "id": "p03",
       "t": "Das hat zweifellos Vorteile, birgt aber auch Risiken.",
-      "s": "That undoubtedly has advantages, but it also carries risks."
+      "s": "That undoubtedly has advantages, but it also carries risks.",
+      "alts": [
+        "Zweifellos hat das Vorteile, birgt aber auch Risiken."
+      ]
     },
     {
       "id": "p04",
@@ -206,13 +214,16 @@
     },
     {
       "id": "p05",
-      "t": "Unterm Strich …",
-      "s": "All things considered … / The bottom line is …"
+      "t": "Letzten Endes …",
+      "s": "Ultimately … / In the end …"
     },
     {
       "id": "p06",
       "t": "Ich sehe das etwas differenzierter.",
-      "s": "I take a somewhat more nuanced view."
+      "s": "I take a somewhat more nuanced view.",
+      "alts": [
+        "Das sehe ich etwas differenzierter."
+      ]
     },
     {
       "id": "p07",
@@ -236,7 +247,7 @@
         "voice": "f"
       },
       "B": {
-        "name": "Jonas Berger",
+        "name": "Thomas Berger",
         "voice": "m"
       }
     },
@@ -300,7 +311,7 @@
         "t": "Erweiterte Partizipialattribute",
         "s": "Extended participial attributes"
       },
-      "explain": "In formal written German, a whole relative clause can be squeezed **between the article and the noun**: **die im letzten Jahr eingeführte Regel** = the rule (that was) introduced last year. Structure: **article + extensions + participle with adjective ending + noun**.\n**Partizip I** (infinitive + **-d**) is active and simultaneous: **die ständig steigenden Preise** = prices that are constantly rising.\n**Partizip II** of transitive verbs is passive: **die eingeführte Regel** = the rule that was introduced. With verbs that form the perfect with **sein**, it is active and completed: **der gestern angekommene Zug** = the train that arrived yesterday.\n**zu + Partizip I** expresses necessity or possibility (like **sein + zu + Infinitiv**): **die noch zu klärenden Fragen** = the questions that still have to be clarified.\nReading strategy: if an article is followed by something that is not the noun, jump ahead to the noun, then read the participle, then the extensions: **die [im letzten Jahr] eingeführte → Regel**.\nStyle: typical of the press, academic and legal texts. In speech, use relative clauses instead, and avoid more than one long attribute per sentence.",
+      "explain": "**In short:** article + extensions + participle + noun: die im Mai eingeführte Regel. Partizip I = active and ongoing; Partizip II = passive or completed.\nIn formal written German, a whole relative clause can be squeezed **between the article and the noun**: **die im letzten Jahr eingeführte Regel** = the rule (that was) introduced last year. Structure: **article + extensions + participle with adjective ending + noun**.\n**Partizip I** (infinitive + **-d**) is active and simultaneous: **die ständig steigenden Preise** = prices that are constantly rising.\n**Partizip II** of transitive verbs is passive: **die eingeführte Regel** = the rule that was introduced. With verbs that form the perfect with **sein**, it is active and completed: **der gestern angekommene Zug** = the train that arrived yesterday.\n**zu + Partizip I** expresses necessity or possibility (like **sein + zu + Infinitiv**): **die noch zu klärenden Fragen** = the questions that still have to be clarified.\nReading strategy: if an article is followed by something that is not the noun, jump ahead to the noun, then read the participle, then the extensions: **die [im letzten Jahr] eingeführte → Regel**.\nStyle: typical of the press, academic and legal texts. In speech, use relative clauses instead, and avoid more than one long attribute per sentence.",
       "table": [
         [
           "Partizip I",
@@ -348,14 +359,17 @@
       "exercises": [
         {
           "type": "choice",
-          "t": "Die ständig ___ Preise belasten viele Haushalte.",
+          "task": "Which reply gives a balanced view?",
+          "cue": "Was halten Sie von der neuen Homeoffice-Regel?",
+          "t": "___",
           "options": [
-            "steigenden",
-            "steigende",
-            "steigend"
+            "Die im Frühjahr eingeführte Regel hat zweifellos Vorteile, birgt aber auch Risiken.",
+            "Die im Frühjahr eingeführte Regel ist einfach super, da gibt es nichts zu diskutieren.",
+            "Die im Frühjahr eingeführte Regel? Keine Ahnung, das ist mir egal."
           ],
           "answer": 0,
-          "s": "The constantly rising prices are a burden on many households."
+          "why": "'Das hat zweifellos Vorteile, birgt aber auch Risiken' weighs both sides – that's the balanced view.",
+          "s": "What do you think of the new home office rule? – The rule introduced in the spring undoubtedly has advantages, but it also carries risks."
         },
         {
           "type": "choice",
@@ -366,7 +380,8 @@
             "eingeführten"
           ],
           "answer": 1,
-          "s": "The regulation introduced in May applies to all departments."
+          "s": "The regulation introduced in May applies to all departments.",
+          "why": "Passive meaning (the rule was introduced) → Partizip II; after die + singular noun → -e."
         },
         {
           "type": "type",
@@ -375,7 +390,8 @@
             "angekommene",
             "eingetroffene"
           ],
-          "s": "The train that arrived yesterday was three hours late."
+          "s": "The train that arrived yesterday was three hours late.",
+          "why": "The train has arrived → Partizip II of a sein-verb; after der → -e."
         },
         {
           "type": "type",
@@ -384,18 +400,22 @@
             "klärenden",
             "klaerenden"
           ],
-          "s": "We'll discuss the questions that still need to be clarified tomorrow."
+          "s": "We'll discuss the questions that still need to be clarified tomorrow.",
+          "why": "zu + Partizip I = must be done: die noch zu klärenden Fragen."
         },
         {
           "type": "choice",
-          "t": "die zu prüfenden Unterlagen = die Unterlagen, die ___",
+          "task": "Which relative clause means the same?",
+          "cue": "Die zu prüfenden Unterlagen liegen auf dem Tisch.",
+          "t": "Die Unterlagen, die ___, liegen auf dem Tisch.",
           "options": [
             "geprüft werden müssen",
             "geprüft worden sind",
             "gerade prüfen"
           ],
           "answer": 0,
-          "s": "the documents to be checked = the documents that must be checked"
+          "s": "The documents that have to be checked are on the table.",
+          "why": "zu + Partizip I expresses necessity: = die … geprüft werden müssen."
         },
         {
           "type": "choice",
@@ -406,7 +426,8 @@
             "kritisierte"
           ],
           "answer": 2,
-          "s": "The proposal criticized by everyone was eventually rejected."
+          "s": "The proposal criticized by everyone was eventually rejected.",
+          "why": "The proposal was criticized (passive) → Partizip II; after der → -e."
         },
         {
           "type": "order",
@@ -417,8 +438,15 @@
           ]
         },
         {
-          "type": "order",
-          "t": "Die ständig steigenden Mieten belasten viele Familien.",
+          "type": "type",
+          "task": "Make it one sentence with a participial attribute.",
+          "cue": "Die Mieten steigen ständig. Das belastet viele Familien.",
+          "t": "Die ___ belasten viele Familien.",
+          "answer": [
+            "ständig steigenden Mieten",
+            "staendig steigenden Mieten"
+          ],
+          "why": "An ongoing action → Partizip I + ending; its adverb (ständig) stands before the participle.",
           "s": "The constantly rising rents are a burden on many families."
         }
       ]
@@ -426,10 +454,10 @@
     {
       "id": "g02",
       "title": {
-        "t": "Partizipialattribut ↔ Relativsatz",
+        "t": "Partizipialattribut oder Relativsatz",
         "s": "Converting participial attributes and relative clauses"
       },
-      "explain": "**Attribute → relative clause:**\n1. The noun becomes the antecedent; the relative pronoun agrees with it in gender and number and takes its case from its function in the clause.\n2. **Partizip I** → active verb (simultaneous): **die steigenden Preise → die Preise, die steigen**.\n3. **Partizip II** of a transitive verb → passive: **die eingeführte Regel → die Regel, die eingeführt wurde / worden ist**. With **sein**-verbs → active perfect: **der angekommene Zug → der Zug, der angekommen ist**.\n4. **zu + Partizip I** → passive with **müssen / können** or **sein + zu + Infinitiv**: **die zu lösende Aufgabe → die Aufgabe, die gelöst werden muss / die zu lösen ist**.\n5. All extensions move into the relative clause in the same order; the verb goes to the end.\n**Relative clause → attribute:** delete the relative pronoun and the auxiliary, put the participle with the correct adjective ending directly before the noun, and place everything else between the article and the participle. A passive agent stays **von + D**: **der Vorschlag, der von allen kritisiert wurde → der von allen kritisierte Vorschlag**.\nNote: only relative clauses built around a verb with a usable participle can be converted – **die Firma, deren Chef …** cannot.",
+      "explain": "**In short:** Partizip I → active verb; Partizip II → passive (or perfect with sein-verbs); zu + Partizip I → muss/kann … werden.\n**Attribute → relative clause:**\n1. The noun becomes the antecedent; the relative pronoun agrees with it in gender and number and takes its case from its function in the clause.\n2. **Partizip I** → active verb (simultaneous): **die steigenden Preise → die Preise, die steigen**.\n3. **Partizip II** of a transitive verb → passive: **die eingeführte Regel → die Regel, die eingeführt wurde / worden ist**. With **sein**-verbs → active perfect: **der angekommene Zug → der Zug, der angekommen ist**.\n4. **zu + Partizip I** → passive with **müssen / können** or **sein + zu + Infinitiv**: **die zu lösende Aufgabe → die Aufgabe, die gelöst werden muss / die zu lösen ist**.\n5. All extensions move into the relative clause in the same order; the verb goes to the end.\n**Relative clause → attribute:** delete the relative pronoun and the auxiliary, put the participle with the correct adjective ending directly before the noun, and place everything else between the article and the participle. A passive agent stays **von + D**: **der Vorschlag, der von allen kritisiert wurde → der von allen kritisierte Vorschlag**.\nNote: only relative clauses built around a verb with a usable participle can be converted – **die Firma, deren Chef …** cannot.",
       "table": [
         [
           "die von der Firma angebotene Weiterbildung",
@@ -469,42 +497,58 @@
       "exercises": [
         {
           "type": "choice",
-          "t": "die vor Kurzem gegründete Firma = die Firma, die vor Kurzem ___",
+          "task": "Which relative clause means the same?",
+          "cue": "Die vor Kurzem gegründete Firma sucht neue Mitarbeitende.",
+          "t": "Die Firma, die vor Kurzem ___, sucht neue Mitarbeitende.",
           "options": [
             "gegründet worden ist",
             "gegründet hat",
             "gründet"
           ],
           "answer": 0,
-          "s": "the recently founded company = the company that was founded recently"
+          "s": "The company that was founded recently is looking for new employees.",
+          "why": "Partizip II of a transitive verb = passive: die Firma ist gegründet worden."
         },
         {
           "type": "choice",
-          "t": "der seit Jahren wachsende Markt = der Markt, der seit Jahren ___",
+          "task": "Which relative clause means the same?",
+          "cue": "Der seit Jahren wachsende Markt lockt viele Firmen an.",
+          "t": "Der Markt, der seit Jahren ___, lockt viele Firmen an.",
           "options": [
             "gewachsen wird",
             "wächst",
             "gewachsen worden ist"
           ],
           "answer": 1,
-          "s": "the market that has been growing for years"
+          "s": "The market that has been growing for years attracts many companies.",
+          "why": "Partizip I = an ongoing active action: der Markt wächst."
         },
         {
           "type": "type",
-          "t": "die Aufgabe, die gelöst werden muss = die zu ___ Aufgabe",
+          "task": "Turn the participial attribute into a relative clause.",
+          "cue": "Der seit Jahren geplante Umzug der Firma wurde abgesagt.",
+          "t": "Der Umzug der Firma, ___, wurde abgesagt.",
           "answer": [
-            "lösende",
-            "loesende"
+            "der seit Jahren geplant wurde",
+            "der seit Jahren geplant war",
+            "der seit Jahren geplant worden war",
+            "der seit Jahren geplant worden ist",
+            "den man seit Jahren geplant hatte",
+            "den man seit Jahren geplant hat"
           ],
-          "s": "the task that has to be solved = the task to be solved"
+          "why": "Partizip II with a passive meaning → passive relative clause: der … geplant wurde (or: den man … geplant hatte).",
+          "s": "The company's move, which had been planned for years, was called off."
         },
         {
           "type": "type",
-          "t": "die Kollegin, die gestern eingestellt wurde = die gestern ___ Kollegin",
+          "task": "Turn the relative clause into a participial attribute.",
+          "cue": "Die Anträge, die bis Freitag bearbeitet werden müssen, liegen auf meinem Schreibtisch.",
+          "t": "Die ___ Anträge liegen auf meinem Schreibtisch.",
           "answer": [
-            "eingestellte"
+            "bis Freitag zu bearbeitenden"
           ],
-          "s": "the colleague who was hired yesterday"
+          "why": "'die … bearbeitet werden müssen' → zu + Partizip I + ending: die bis Freitag zu bearbeitenden Anträge.",
+          "s": "The applications that have to be processed by Friday are on my desk."
         },
         {
           "type": "choice",
@@ -515,7 +559,8 @@
             "dem"
           ],
           "answer": 1,
-          "s": "The applicant whom we invited has canceled. (= der von uns eingeladene Bewerber)"
+          "s": "The applicant whom we invited has canceled. (= der von uns eingeladene Bewerber)",
+          "why": "In the relative clause the pronoun is the object of einladen → accusative den."
         },
         {
           "type": "choice",
@@ -526,7 +571,8 @@
             "betroffenen"
           ],
           "answer": 2,
-          "s": "the employees affected by the restructuring (= die Mitarbeitenden, die von der Umstrukturierung betroffen sind)"
+          "s": "the employees affected by the restructuring (= die Mitarbeitenden, die von der Umstrukturierung betroffen sind)",
+          "why": "betroffen is Partizip II; after die (plural) → -en: die betroffenen Mitarbeitenden."
         },
         {
           "type": "order",
@@ -534,9 +580,18 @@
           "s": "The contract she signed is fixed-term."
         },
         {
-          "type": "order",
-          "t": "Das von uns entwickelte Programm spart viel Zeit.",
-          "s": "The program we developed saves a lot of time."
+          "type": "choice",
+          "task": "Which reply partly agrees and adds a condition?",
+          "cue": "Die gestern beschlossene Vier-Tage-Woche löst doch alle unsere Probleme!",
+          "t": "___",
+          "options": [
+            "Ein gewichtiges Argument dafür ist die höhere Zufriedenheit – aber alles steht und fällt mit der Arbeitsorganisation.",
+            "Da haben Sie völlig recht, jetzt ist alles gelöst.",
+            "Das ist doch völliger Unsinn."
+          ],
+          "answer": 0,
+          "why": "Concede with 'Ein gewichtiges Argument dafür ist …', then limit it with 'Das steht und fällt mit …'.",
+          "s": "The four-day week decided yesterday solves all our problems! – A weighty argument in its favor is greater satisfaction – but everything stands or falls with how work is organized."
         }
       ]
     }
@@ -656,6 +711,18 @@
           "pünktlich ankommen"
         ],
         "answer": 1
+      },
+      {
+        "q": {
+          "t": "Welche Haltung nimmt der Autor zur Arbeitswelt von morgen ein?",
+          "s": "What is the author's attitude to the working world of tomorrow?"
+        },
+        "options": [
+          "Er ist uneingeschränkt begeistert.",
+          "Er lehnt Homeoffice und Automatisierung grundsätzlich ab.",
+          "Er sieht Chancen, warnt aber davor, dass manche Beschäftigte zurückbleiben."
+        ],
+        "answer": 2
       }
     ]
   },
