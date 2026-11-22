@@ -12,7 +12,7 @@
     "s": "انگلیسی"
    },
    "color": "#2f6fdb",
-   "mb": 76,
+   "mb": 71,
    "levels": [
     {
      "id": "A1",
@@ -29,10 +29,10 @@
        "img": "img/e/1f524.svg",
        "emoji": "🔤",
        "goals": [
-        "۲۶ حرف الفبای انگلیسی را بشناسم.",
-        "اسم هر حرف را درست بگویم.",
-        "صداهای مهمی مثل sh، ch و th را بشناسم.",
-        "چند کلمهٔ ساده را بخوانم و بگویم."
+        "می‌توانم ۲۶ حرف الفبای انگلیسی را بشناسم.",
+        "می‌توانم اسم هر حرف را درست بگویم.",
+        "می‌توانم صداهای مهمی مثل sh، ch، th و w را بشناسم.",
+        "می‌توانم چند کلمهٔ ساده را بخوانم و بگویم."
        ],
        "has": {
         "letters": true,
@@ -55,10 +55,10 @@
        "img": "img/e/1f44b.svg",
        "emoji": "👋",
        "goals": [
-        "سلام و خداحافظی کنم.",
-        "خودم را معرفی کنم و اسم کسی را بپرسم.",
-        "بگویم اهل کجا هستم.",
-        "am، is و are را درست به‌کار ببرم."
+        "می‌توانم سلام و خداحافظی کنم.",
+        "می‌توانم خودم را معرفی کنم و اسم کسی را بپرسم.",
+        "می‌توانم بگویم اهل کجا هستم.",
+        "می‌توانم am، is و are را درست به‌کار ببرم."
        ],
        "has": {
         "letters": false,
@@ -81,9 +81,10 @@
        "img": "img/e/1f522.svg",
        "emoji": "🔢",
        "goals": [
-        "عددهای ۰ تا ۲۰ را بشمارم.",
-        "سن کسی را بپرسم و سن خودم را بگویم.",
-        "اسم‌ها را جمع ببندم، مثل cats و books."
+        "می‌توانم عددهای ۰ تا ۲۰ را بشمارم.",
+        "می‌توانم سن کسی را بپرسم و سن خودم را بگویم.",
+        "می‌توانم اسم‌ها را جمع ببندم، مثل cats و books.",
+        "می‌توانم عددهای ۲۰ تا ۱۰۰ را بگویم."
        ],
        "has": {
         "letters": false,
@@ -93,7 +94,13 @@
         "dialogue": true,
         "grammar": true,
         "reading": true
-       }
+       },
+       "gn": 3,
+       "gs": [
+        "عددهای ۱۱ تا ۲۰ و گفتن سن",
+        "جمع بستن اسم با -s",
+        "عددهای ۲۰ تا ۱۰۰"
+       ]
       },
       {
        "id": "u03",
@@ -106,10 +113,10 @@
        "img": "img/e/1f46a.svg",
        "emoji": "👪",
        "goals": [
-        "اعضای خانواده را نام ببرم.",
-        "با my، your، his، her، our و their بگویم چیزی مال کیست.",
-        "با 's مالکیت را نشان بدهم، مثل Sara's brother.",
-        "با have و has بگویم چه کسانی را دارم."
+        "می‌توانم اعضای خانواده را نام ببرم.",
+        "می‌توانم با my، your، his، her، our و their بگویم چیزی مال کیست.",
+        "می‌توانم با 's مالکیت را نشان بدهم، مثل Sara's brother.",
+        "می‌توانم با have و has بگویم چه کسانی را دارم."
        ],
        "has": {
         "letters": false,
@@ -132,10 +139,10 @@
        "img": "img/e/1f37d.svg",
        "emoji": "🍽️",
        "goals": [
-        "اسم چند غذا و نوشیدنی را بگویم.",
-        "a، an و some را درست به‌کار ببرم.",
-        "بگویم چه چیزی را دوست دارم و چه چیزی را دوست ندارم.",
-        "مؤدبانه چیزی بخواهم: I'd like …, please."
+        "می‌توانم اسم چند غذا و نوشیدنی را بگویم.",
+        "می‌توانم a، an و some را درست به‌کار ببرم.",
+        "می‌توانم بگویم چه چیزی را دوست دارم و چه چیزی را دوست ندارم.",
+        "می‌توانم مؤدبانه چیزی بخواهم: I'd like …, please."
        ],
        "has": {
         "letters": false,
@@ -158,9 +165,9 @@
        "img": "img/e/1f3e0.svg",
        "emoji": "🏠",
        "goals": [
-        "اتاق‌ها و وسایل خانه را نام ببرم.",
-        "با there is و there are بگویم در خانه چه چیزهایی هست.",
-        "با in، on، under و next to بگویم هر چیز کجاست."
+        "می‌توانم اتاق‌ها و وسایل خانه را نام ببرم.",
+        "می‌توانم با there is و there are بگویم در خانه چه چیزهایی هست.",
+        "می‌توانم با in، on، under و next to بگویم هر چیز کجاست."
        ],
        "has": {
         "letters": false,
@@ -185,7 +192,8 @@
        "goals": [
         "می‌توانم کارهای روزانه‌ام را بگویم.",
         "می‌توانم ساعت را بپرسم و بگویم.",
-        "می‌توانم بگویم دیگران هر روز چه کار می‌کنند."
+        "می‌توانم بگویم دیگران هر روز چه کار می‌کنند.",
+        "می‌توانم با does و doesn't سؤال و جملهٔ منفی بسازم."
        ],
        "has": {
         "letters": false,
@@ -195,7 +203,13 @@
         "dialogue": true,
         "grammar": true,
         "reading": true
-       }
+       },
+       "gn": 3,
+       "gs": [
+        "زمان حال ساده",
+        "ساعت چند است؟",
+        "سؤال و منفی با does و doesn't"
+       ]
       },
       {
        "id": "u07",
@@ -210,7 +224,8 @@
        "goals": [
         "می‌توانم مکان‌های شهر را نام ببرم.",
         "می‌توانم بپرسم یک جا کجاست.",
-        "می‌توانم آدرس ساده بدهم: مستقیم بروید، به چپ بپیچید."
+        "می‌توانم آدرس ساده بدهم: مستقیم بروید، به چپ بپیچید.",
+        "می‌توانم بگویم الان کجا می‌روم و چه کار می‌کنم."
        ],
        "has": {
         "letters": false,
@@ -220,7 +235,13 @@
         "dialogue": true,
         "grammar": true,
         "reading": true
-       }
+       },
+       "gn": 3,
+       "gs": [
+        "فعل امری (راهنمایی کردن)",
+        "… کجاست؟ نزدیکِ / روبه‌رویِ",
+        "حال استمراری: الان دارم … می‌کنم"
+       ]
       },
       {
        "id": "u08",
@@ -235,7 +256,8 @@
        "goals": [
         "می‌توانم لباس‌ها و رنگ‌ها را نام ببرم.",
         "می‌توانم قیمت چیزی را بپرسم.",
-        "می‌توانم با this / that / these / those به چیزها اشاره کنم."
+        "می‌توانم با this / that / these / those به چیزها اشاره کنم.",
+        "می‌توانم me، him، her، it، us و them را در جمله به‌کار ببرم."
        ],
        "has": {
         "letters": false,
@@ -245,7 +267,13 @@
         "dialogue": true,
         "grammar": true,
         "reading": true
-       }
+       },
+       "gn": 3,
+       "gs": [
+        "این / آن / این‌ها / آن‌ها",
+        "پرسیدن قیمت و جای رنگ در جمله",
+        "ضمیرهای مفعولی: من را، او را، آن‌ها را"
+       ]
       },
       {
        "id": "u09",
@@ -260,7 +288,8 @@
        "goals": [
         "می‌توانم دربارهٔ هوا بپرسم و جواب بدهم.",
         "می‌توانم ماه‌ها و فصل‌ها را بگویم.",
-        "می‌توانم بگویم تولدم در چه ماهی است."
+        "می‌توانم بگویم تولدم در چه ماهی است.",
+        "می‌توانم روزهای هفته را بگویم."
        ],
        "has": {
         "letters": false,
@@ -270,7 +299,13 @@
         "dialogue": true,
         "grammar": true,
         "reading": true
-       }
+       },
+       "gn": 3,
+       "gs": [
+        "حرف زدن دربارهٔ هوا",
+        "ماه‌ها و فصل‌ها با in",
+        "روزهای هفته و on"
+       ]
       },
       {
        "id": "u10",
@@ -285,7 +320,8 @@
        "goals": [
         "می‌توانم بگویم چه کارهایی بلدم و چه کارهایی بلد نیستم.",
         "می‌توانم دربارهٔ سرگرمی‌هایم حرف بزنم.",
-        "می‌توانم سؤال‌های ساده با Can you …? و Do you …? بپرسم."
+        "می‌توانم سؤال‌های ساده با Can you …? و Do you …? بپرسم.",
+        "می‌توانم با always، usually و never بگویم کاری را چقدر انجام می‌دهم."
        ],
        "has": {
         "letters": false,
@@ -295,7 +331,13 @@
         "dialogue": true,
         "grammar": true,
         "reading": true
-       }
+       },
+       "gn": 3,
+       "gs": [
+        "توانستن و بلد بودن",
+        "like + ing و سؤال با Do",
+        "همیشه، معمولاً، هرگز"
+       ]
       }
      ]
     },
@@ -360,7 +402,7 @@
        "title": {
         "t": "Health and the body",
         "s": "سلامتی و بدن",
-        "pr": "هِلث اَند ذِ بادی",
+        "pr": "هِلْث اَند ذِ بادی",
         "a": "audio/en-fa/632ce7bd768d.mp3"
        },
        "img": "img/e/1fa7a.svg",
@@ -386,7 +428,7 @@
        "title": {
         "t": "Jobs and work",
         "s": "شغل و کار",
-        "pr": "جابز اَند وِرک",
+        "pr": "جابْز اَند وِرک",
         "a": "audio/en-fa/dd73c11af847.mp3"
        },
        "img": "img/e/1f4bc.svg",
@@ -442,9 +484,9 @@
        "img": "img/e/1f958.svg",
        "emoji": "🥘",
        "goals": [
-        "می‌توانم درباره‌ی مواد غذایی و آشپزی صحبت کنم.",
+        "می‌توانم دربارهٔ مواد غذایی و آشپزی صحبت کنم.",
         "می‌توانم اسم‌های قابل‌شمارش و غیرقابل‌شمارش را با some و any به کار ببرم.",
-        "می‌توانم با How much و How many درباره‌ی مقدار و تعداد سؤال کنم.",
+        "می‌توانم با How much و How many دربارهٔ مقدار و تعداد سؤال کنم.",
         "می‌توانم یک دستور پخت ساده را بفهمم و توضیح بدهم."
        ],
        "has": {
@@ -471,7 +513,7 @@
         "می‌توانم در فروشگاه چیزی بخرم، قیمت بپرسم و پرداخت کنم.",
         "می‌توانم با will پیشنهاد کمک بدهم و همان لحظه تصمیم بگیرم.",
         "می‌توانم با too و enough بگویم چیزی مناسب نیست.",
-        "می‌توانم درباره‌ی سایز، پرو کردن و پس دادن جنس صحبت کنم."
+        "می‌توانم دربارهٔ سایز، پرو کردن و پس دادن جنس صحبت کنم."
        ],
        "has": {
         "letters": false,
@@ -488,16 +530,16 @@
        "title": {
         "t": "Phones and the internet",
         "s": "گوشی و اینترنت",
-        "pr": "فُونز اَند ذی اینتِرنِت",
+        "pr": "فُونْز اَند ذی اینتِرنِت",
         "a": "audio/en-fa/be22be5a80d7.mp3"
        },
        "img": "img/e/1f4f1.svg",
        "emoji": "📱",
        "goals": [
-        "می‌توانم درباره‌ی گوشی، اپلیکیشن‌ها و اینترنت صحبت کنم.",
-        "می‌توانم با present perfect و ever / never درباره‌ی تجربه‌هایم سؤال کنم و جواب بدهم.",
+        "می‌توانم دربارهٔ گوشی، اپلیکیشن‌ها و اینترنت صحبت کنم.",
+        "می‌توانم با present perfect و ever / never دربارهٔ تجربه‌هایم سؤال کنم و جواب بدهم.",
         "می‌توانم با just / already / yet بگویم چه کاری انجام شده یا هنوز انجام نشده است.",
-        "می‌توانم مشکل‌های ساده‌ی گوشی و اینترنت را توضیح بدهم."
+        "می‌توانم مشکل‌های سادهٔ گوشی و اینترنت را توضیح بدهم."
        ],
        "has": {
         "letters": false,
@@ -507,13 +549,19 @@
         "dialogue": true,
         "grammar": true,
         "reading": true
-       }
+       },
+       "gn": 3,
+       "gs": [
+        "حال کامل با ever (تا حالا) و never (هرگز)",
+        "حال کامل با just و already و yet",
+        "فعل‌های بی‌قاعده: سه شکل فعل"
+       ]
       },
       {
        "id": "u09",
        "title": {
         "t": "My neighborhood",
-        "s": "محله‌ی من",
+        "s": "محلهٔ من",
         "pr": "مای نِیبِرهود",
         "a": "audio/en-fa/d4bec1a268b7.mp3"
        },
@@ -547,9 +595,9 @@
        "emoji": "🎉",
        "goals": [
         "می‌توانم کسی را دعوت کنم و دعوت را بپذیرم یا مؤدبانه رد کنم.",
-        "می‌توانم درباره‌ی جشن‌ها و مناسبت‌هایی مثل نوروز، تولد و عروسی صحبت کنم.",
+        "می‌توانم دربارهٔ جشن‌ها و مناسبت‌هایی مثل نوروز، تولد و عروسی صحبت کنم.",
         "می‌توانم تفاوت will و be going to را برای آینده بفهمم و درست به کار ببرم.",
-        "می‌توانم یک دعوت‌نامه‌ی ساده را بخوانم و بفهمم."
+        "می‌توانم یک دعوت‌نامهٔ ساده را بخوانم و بفهمم."
        ],
        "has": {
         "letters": false,
@@ -862,7 +910,7 @@
        "title": {
         "t": "Relationships and the past",
         "s": "روابط و گذشته",
-        "pr": "ریلِیشِنْشیپْس اَند ذِ پَسْت",
+        "pr": "ریلِیشِنْشیپْس اَند ذِ پَست",
         "a": "audio/en-fa/82bae2b8d79f.mp3"
        },
        "img": "img/e/1f46a.svg",
@@ -1149,7 +1197,7 @@
        "title": {
         "t": "Leadership and work",
         "s": "رهبری و کار",
-        "pr": "لیدِرْشیپ اَند وِرْک",
+        "pr": "لیدِرْشیپ اَند وِرک",
         "a": "audio/en-fa/4cf7accc6174.mp3"
        },
        "img": "img/e/1f9ed.svg",
@@ -1367,7 +1415,7 @@
     "s": "German"
    },
    "color": "#b4610f",
-   "mb": 79,
+   "mb": 72,
    "levels": [
     {
      "id": "A1",
@@ -1433,7 +1481,7 @@
        "img": "img/e/1f522.svg",
        "emoji": "🔢",
        "goals": [
-        "Count from 0 to 20",
+        "Count from 0 to 100",
         "Ask and say how old someone is",
         "Ask and say where someone lives",
         "Use regular verb endings: ich wohne, du wohnst, er wohnt"
@@ -1533,8 +1581,8 @@
        "goals": [
         "Ask and tell the time (full hours, half hours, quarters)",
         "Talk about your daily routine",
-        "Use separable verbs like aufstehen and einkaufen",
-        "Put the verb in second position"
+        "Use separable verbs like aufstehen and put the verb in second position",
+        "Name the days of the week and say am Montag, am Wochenende"
        ],
        "has": {
         "letters": false,
@@ -1544,7 +1592,13 @@
         "dialogue": true,
         "grammar": true,
         "reading": true
-       }
+       },
+       "gn": 3,
+       "gs": [
+        "Telling the time",
+        "Separable verbs & the verb in 2nd position",
+        "Days of the week"
+       ]
       },
       {
        "id": "u07",
@@ -2048,8 +2102,8 @@
         "s": "Grammar: cases and prepositions",
         "a": "audio/de-en/058fa38b451f.mp3"
        },
-       "img": "img/e/1f4e6.svg",
-       "emoji": "📦",
+       "img": "img/e/2696.svg",
+       "emoji": "⚖️",
        "goals": [
         "Use the dative forms of articles, possessives and personal pronouns",
         "Use verbs with the dative and put two objects in the right order",
@@ -2132,6 +2186,7 @@
         "Tell your life story and talk about memories",
         "Use the Präteritum of regular, irregular and mixed verbs in written stories",
         "Choose correctly between als, wenn and wann",
+        "Say what had happened before with the Plusquamperfekt",
         "Understand a short biography"
        ],
        "has": {
@@ -2142,7 +2197,13 @@
         "dialogue": true,
         "grammar": true,
         "reading": true
-       }
+       },
+       "gn": 3,
+       "gs": [
+        "The Präteritum (simple past) of regular and irregular verbs",
+        "Three German words for \"when\"",
+        "The Plusquamperfekt (past perfect): what had happened before"
+       ]
       },
       {
        "id": "u02",
@@ -2719,7 +2780,7 @@
         "Discuss political institutions, elections, participation and social cohesion",
         "Use the Zustandspassiv and passive alternatives such as erfolgen, gelten als, auf Kritik stoßen",
         "Form subjectless passive sentences and impersonal constructions (Es wird diskutiert …)",
-        "Take a position and hold your ground in a political debate"
+        "Take a position and hold your ground in a debate, e.g. at a parents' evening"
        ],
        "has": {
         "letters": false,
@@ -2819,7 +2880,7 @@
         "Describe, interpret and evaluate works of art, literature and theater",
         "Link sentences elegantly with dies, jener, Letzterer, derartig and pronominal adverbs",
         "Emphasize information through word order, the Vorfeld, the Nachfeld and cleft sentences",
-        "Understand a culture-radio interview and a literary review"
+        "Discuss a theater production with a neighbor and understand a literary review"
        ],
        "has": {
         "letters": false,
@@ -2896,7 +2957,7 @@
     "s": "ترکی"
    },
    "color": "#8b3a6b",
-   "mb": 77,
+   "mb": 71,
    "levels": [
     {
      "id": "A1",
@@ -2987,8 +3048,8 @@
        "emoji": "👪",
        "goals": [
         "اعضای خانواده را به ترکی نام ببرم.",
-        "با پسوندهای مالکیت بگویم «مادرم، مادرت، مادرش» (annem، annen، annesi).",
-        "از benim / senin / onun برای «مالِ من، مالِ تو، مالِ او» استفاده کنم.",
+        "با پسوندهای مالکیت و benim / senin / onun بگویم «مادرم، مادرت، مادرش» (annem، annen، annesi).",
+        "با mi سؤالِ بله/نه بپرسم (Annen öğretmen mi?).",
         "خانواده‌ام را به ترکی معرفی کنم."
        ],
        "has": {
@@ -2999,7 +3060,13 @@
         "dialogue": true,
         "grammar": true,
         "reading": true
-       }
+       },
+       "gn": 3,
+       "gs": [
+        "پسوندهای مالکیت: مادرم، مادرت، مادرش",
+        "مالِ من، مالِ تو، مالِ او",
+        "سؤالِ بله / نه با mi"
+       ]
       },
       {
        "id": "u04",
@@ -3159,7 +3226,7 @@
        "goals": [
         "بگویم در وقت آزادم چه کاری را دوست دارم.",
         "بگویم چه کاری را می‌توانم یا نمی‌توانم انجام بدهم.",
-        "سؤال بله/نه را با mi بپرسم."
+        "با misin / musun از کسی سؤالِ بله/نه بپرسم (Yüzebilir misin?)."
        ],
        "has": {
         "letters": false,
@@ -3444,7 +3511,7 @@
        "emoji": "🕰️",
        "goals": [
         "درباره‌ی کودکی، خاطرات و اتفاق‌های گذشته‌ام صحبت کنم.",
-        "با گذشته‌ی ساده‌ی -dı جمله‌ی مثبت، منفی و سؤالی بسازم.",
+        "با گذشته‌ی ساده‌ی -dı جمله‌ی مثبت، منفی و سؤالی بسازم و با -ıyordu از عادت‌ها و کارهای در جریانِ گذشته بگویم.",
         "با -mış خبری را که شنیده‌ام یا چیزی را که تازه فهمیده‌ام بیان کنم."
        ],
        "has": {
@@ -3517,7 +3584,8 @@
        "goals": [
         "علائم بیماری‌ام را توضیح دهم و با پزشک یا داروساز صحبت کنم.",
         "با -malı / -meli توصیه کنم و بگویم چه کاری باید (یا نباید) کرد.",
-        "با جمله‌ی شرطی -sa / -se درباره‌ی موقعیت‌های واقعی و نتیجه‌هایشان حرف بزنم."
+        "با جمله‌ی شرطی -sa / -se درباره‌ی موقعیت‌های واقعی و نتیجه‌هایشان حرف بزنم.",
+        "جمله‌های کلی، تابلوها و حدس‌ها را با -dır / -dir بفهمم و بسازم."
        ],
        "has": {
         "letters": false,
@@ -3527,7 +3595,13 @@
         "dialogue": true,
         "grammar": true,
         "reading": true
-       }
+       },
+       "gn": 3,
+       "gs": [
+        "«باید»: توصیه و ضرورت با -malı / -meli",
+        "جمله‌ی شرطی واقعی: -sa / -se",
+        "«است»ِ رسمی و کلی با -dır / -dir"
+       ]
       },
       {
        "id": "u05",
@@ -4001,7 +4075,7 @@
        "goals": [
         "درباره‌ی رمان، داستان کوتاه، شخصیت‌ها و سبک نویسنده با واژگان ادبی صحبت کنم.",
         "با öyle … ki، sanki و meğer(se) شدت، تشبیه و کشف ناگهانی را در روایت بیان کنم.",
-        "با زمان‌های مرکب -mış olacak، -ıyor olacak و -mış olmalı درباره‌ی آینده‌ی کامل، آینده‌ی استمراری و حدس صحبت کنم.",
+        "با زمان‌های مرکب ‎-mış olacak و ‎-ıyor olacak درباره‌ی کاری که در آینده تمام شده یا در جریان است صحبت کنم.",
         "یک داستان کوتاه را بخوانم و روایت و لحن آن را تحلیل کنم."
        ],
        "has": {
@@ -4204,7 +4278,7 @@
     "s": "Farsça"
    },
    "color": "#7a4fc4",
-   "mb": 10,
+   "mb": 9,
    "levels": [
     {
      "id": "A1",
@@ -4221,10 +4295,10 @@
        "img": "img/e/1f524.svg",
        "emoji": "🔤",
        "goals": [
-        "Fars alfabesinin 32 harfini tanıyabilmek.",
-        "Farsçanın sağdan sola yazıldığını ve kısa ünlülerin yazılmadığını bilmek.",
-        "Türkçede olmayan sesleri (x, ğ/ق) doğru söyleyebilmek.",
-        "İlk basit kelimeleri okuyabilmek."
+        "Fars alfabesinin 32 harfini tanıyabilirim.",
+        "Farsçanın sağdan sola yazıldığını ve kısa ünlülerin yazılmadığını biliyorum.",
+        "Türkçede olmayan sesleri (x, ğ/ق) doğru söyleyebilirim.",
+        "İlk basit kelimeleri okuyabilirim."
        ],
        "has": {
         "letters": true,
@@ -4247,10 +4321,10 @@
        "img": "img/e/1f44b.svg",
        "emoji": "👋",
        "goals": [
-        "Farsça selamlaşıp vedalaşabilmek.",
-        "Kendimi tanıtıp birinin adını sorabilmek.",
-        "Nereli olduğumu söyleyebilmek.",
-        "Şahıs zamirlerini ve «olmak» fiilini (hastam, hasti, ast…) kullanabilmek."
+        "Farsça selamlaşıp vedalaşabilirim.",
+        "Kendimi tanıtıp birinin adını sorabilirim.",
+        "Nereli olduğumu söyleyebilirim.",
+        "Şahıs zamirlerini ve «olmak» fiilini (hastam, hasti, ast…) kullanabilirim."
        ],
        "has": {
         "letters": false,
@@ -4273,10 +4347,10 @@
        "img": "img/e/1f522.svg",
        "emoji": "🔢",
        "goals": [
-        "0'dan 20'ye kadar sayabilmek.",
-        "Fars rakamlarını (۰–۹) okuyabilmek.",
-        "Yaş sorup söyleyebilmek.",
-        "Çoğul eklerini (-hâ / -ân) kullanabilmek."
+        "0'dan 100'e kadar sayabilirim.",
+        "Fars rakamlarını (۰–۹) okuyabilirim.",
+        "Yaş sorup söyleyebilirim.",
+        "Çoğul eklerini (-hâ / -ân) kullanabilirim."
        ],
        "has": {
         "letters": false,
@@ -4299,10 +4373,10 @@
        "img": "img/e/1f46a.svg",
        "emoji": "👪",
        "goals": [
-        "Aile üyelerini Farsça söyleyebilmek.",
-        "Ezafe (-e) ile «Ali'nin annesi, büyük ev» diyebilmek.",
-        "İyelik eklerini (-am, -at, -aş) kullanabilmek.",
-        "«dâştan» (sahip olmak) fiiliyle «…im var / yok» diyebilmek."
+        "Aile üyelerini Farsça söyleyebilirim.",
+        "Ezafe (-e) ile «Ali'nin annesi, büyük ev» diyebilirim.",
+        "İyelik eklerini (-am, -at, -aş) kullanabilirim.",
+        "«dâştan» (sahip olmak) fiiliyle «…im var / yok» diyebilirim."
        ],
        "has": {
         "letters": false,
@@ -4325,10 +4399,10 @@
        "img": "img/e/1f37d.svg",
        "emoji": "🍽️",
        "goals": [
-        "Yiyecek ve içecekleri Farsça söyleyebilmek.",
-        "Bir şey isteyip sipariş verebilmek: «Yek çây, lotfan.»",
-        "Sevdiğim ve sevmediğim şeyleri söyleyebilmek.",
-        "Belirli nesne işareti «râ» (را) ile tanışmak."
+        "Yiyecek ve içecekleri Farsça söyleyebilirim.",
+        "Bir şey isteyip sipariş verebilirim: «Yek çây, lotfan.»",
+        "Sevdiğim ve sevmediğim şeyleri söyleyebilirim.",
+        "Belirli nesne işareti «râ» (را) ile basit cümleler kurabilirim."
        ],
        "has": {
         "letters": false,
@@ -4351,10 +4425,10 @@
        "img": "img/e/1f3e0.svg",
        "emoji": "🏠",
        "goals": [
-        "Evdeki odaları ve eşyaları söyleyebilmek.",
-        "«hast / nist» ile bir şeyin var ya da yok olduğunu söyleyebilmek.",
-        "Yer edatlarını (dar, ru-ye, zir-e, kenâr-e) kullanabilmek.",
-        "«… kocâst?» ile bir şeyin yerini sorabilmek."
+        "Evdeki odaları ve eşyaları söyleyebilirim.",
+        "«hast / nist» ile bir şeyin var ya da yok olduğunu söyleyebilirim.",
+        "Yer edatlarını (dar, ru-ye, zir-e, kenâr-e) kullanabilirim.",
+        "«… kocâst?» ile bir şeyin yerini sorabilirim."
        ],
        "has": {
         "letters": false,
@@ -4379,7 +4453,8 @@
        "goals": [
         "Saatin kaç olduğunu sorup söyleyebilirim.",
         "Günlük işlerimi Farsça anlatabilirim.",
-        "Fiilleri şimdiki/geniş zamanda (mi- ile) çekebilirim."
+        "Fiilleri şimdiki/geniş zamanda (mi- ile) çekebilirim.",
+        "Haftanın günlerini söyleyebilirim."
        ],
        "has": {
         "letters": false,
@@ -4389,7 +4464,13 @@
         "dialogue": true,
         "grammar": true,
         "reading": true
-       }
+       },
+       "gn": 3,
+       "gs": [
+        "Şimdiki / geniş zaman: mi- + kök + şahıs eki",
+        "Saat kaç? Saat kaçta?",
+        "Haftanın günleri"
+       ]
       },
       {
        "id": "u07",
@@ -4404,7 +4485,7 @@
        "goals": [
         "Şehirde bir yerin nerede olduğunu sorabilirim.",
         "Basit bir yol tarifini anlayıp verebilirim.",
-        "\"be\" ile nereye gittiğimi söyleyebilirim."
+        "«be» ile nereye gittiğimi söyleyebilirim."
        ],
        "has": {
         "letters": false,
@@ -4429,7 +4510,7 @@
        "goals": [
         "Fiyat sorabilir ve fiyatları tomanla söyleyebilirim.",
         "Renkleri söyleyip eşyaları tarif edebilirim.",
-        "\"in\" (bu) ve \"ân\" (şu/o) kelimelerini kullanabilirim."
+        "«in» (bu) ve «ân» (şu/o) kelimelerini kullanabilirim."
        ],
        "has": {
         "letters": false,
