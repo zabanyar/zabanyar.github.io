@@ -21,7 +21,7 @@
         "t": "der Tisch, die Lampe, das Bett",
         "s": "Gender: der, die, das"
       },
-      "explain": "Every German noun has a grammatical gender: **der** (masculine), **die** (feminine) or **das** (neuter). The gender belongs to the word, not to the thing: a table is **der Tisch**, a lamp is **die Lampe**, a bed is **das Bett**. So always learn a noun together with its article.\nThe word for *a* / *an* follows the gender: **ein** for der- and das-nouns, **eine** for die-nouns: **ein Tisch**, **eine Lampe**, **ein Bett**. A pronoun follows the gender too: **der Tisch → er**, **die Lampe → sie**, **das Bett → es**. So **er** and **sie** can mean *it*: Wo ist die Lampe? **Sie** ist hier. In everyday speech, **der**, **die**, **das** are also used this way: Der Mantel? **Der** ist teuer.\nSome clues help, but they are only tendencies. Nouns ending in **-ung**, **-heit** and **-keit** are nearly always die: **die Wohnung**, **die Gesundheit** (*health*). Most nouns ending in **-e** are die: **die Suppe**, **die Tasche** – but not all: **der Käse**, **der Name**. The small-making ending **-chen** always gives das: **das Hähnchen**, **das Mädchen** (*girl*). Days, months and seasons are der: **der Mai**, **der Sommer**. Words for men are usually der and words for women die (**der Vater**, **die Mutter**), but **das Kind**, **das Baby** and **das Mädchen** are das. In a compound noun, the last part decides: **das Zimmer → das Schlafzimmer**.\nCareful: Persian has no der/die/das, and English says *it* for every thing. Don't use **es** for everything: Der Tisch ist neu. **Er** ist groß. With **das Kind** the pronoun is **es**, even for a girl: Das Kind heißt Mina. **Es** ist fünf. Many people say **sie** here, too.",
+      "explain": "Every German noun has a grammatical gender: **der** (masculine), **die** (feminine) or **das** (neuter). The gender belongs to the word, not to the thing: a table is **der Tisch**, a lamp is **die Lampe**, a bed is **das Bett**. So always learn a noun together with its article.\nThe word for *a* / *an* follows the gender: **ein** for der- and das-nouns, **eine** for die-nouns: **ein Tisch**, **eine Lampe**, **ein Bett**. A pronoun follows the gender too: **der Tisch → er**, **die Lampe → sie**, **das Bett → es**. So **er** and **sie** can mean *it*: Wo ist die Lampe? **Sie** ist hier. In everyday speech, **der**, **die**, **das** are also used this way: Der Mantel? **Der** ist teuer.\nSome clues help, but they are only tendencies. Nouns ending in **-ung**, **-heit** and **-keit** are nearly always die: **die Wohnung**, **die Gesundheit** (*health*). Most nouns ending in **-e** are die: **die Suppe**, **die Tasche** – but not all: **der Käse**, **der Name**. The small-making ending **-chen** always gives das: **das Hähnchen**, **das Mädchen** (*girl*). Days, months and seasons are der: **der Mai**, **der Sommer**. Words for men are usually der and words for women die (**der Vater**, **die Mutter**), but **das Kind**, **das Baby** and **das Mädchen** are das. In a compound noun, the last part decides: **das Zimmer → das Schlafzimmer**.\nCareful: Persian has no der/die/das, and English says *it* for every thing. Don't use **es** for everything: Der Tisch ist neu. **Er** ist groß. With **das Kind** the pronoun is **es**, even for a girl: Das Kind heißt Mina. **Es** ist zwölf. Many people say **sie** here, too.",
       "table": [
         [
           "der",
@@ -59,8 +59,8 @@
           "s": "Where is the bag? – It's in the car."
         },
         {
-          "t": "Das Kind heißt Mina. Es ist fünf Jahre alt.",
-          "s": "The child's name is Mina. She is five years old."
+          "t": "Das Kind heißt Mina. Es ist zwölf Jahre alt.",
+          "s": "The child's name is Mina. She is twelve years old."
         },
         {
           "t": "Die Wohnung hat eine Küche und ein Bad.",
@@ -390,7 +390,7 @@
         "t": "Ich brauche einen Stuhl.",
         "s": "The accusative"
       },
-      "explain": "In a sentence, the **subject** does the action, and the **object** is the person or thing the action goes to. In **Der Mann kauft einen Tisch**, the man is the subject (nominative) and the table is the object. The object of most verbs is in the **accusative**.\nOnly der-nouns change in the accusative: **der → den**, **ein → einen**, **kein → keinen**, **mein → meinen**. Die-nouns, das-nouns and plurals look the same as in the nominative: **die Lampe**, **das Bett**, **die Schuhe**. So: Ich habe **einen** Bruder, **eine** Schwester und **ein** Kind.\nMany everyday verbs take the accusative: **haben**, **brauchen** (*to need*), **kaufen**, **nehmen**, **sehen**, **möchten**, **suchen**, **essen**, **trinken** – and **es gibt** (*there is*, *there are*): Es gibt **einen** Park. Because the article shows the case, the object can even come first: **Den Mantel** kaufe ich. The verb stays in position two.\nCareful: **sein** never takes the accusative. After **ist** and **sind**, use the nominative: Das ist **ein** Tisch, not *einen* Tisch. Persian marks a definite object with *rā*, and English shows the object only in pronouns like *him*. In German, look at the article: when a der-noun is the object, you need **den**, **einen**, **keinen** or **meinen**.",
+      "explain": "In a sentence, the **subject** does the action, and the **object** is the person or thing the action goes to. In **Der Mann kauft einen Tisch**, the man is the subject (nominative) and the table is the object. The object of most verbs is in the **accusative**.\nOnly der-nouns change in the accusative: **der → den**, **ein → einen**, **kein → keinen**, **mein → meinen**. Die-nouns, das-nouns and plurals look the same as in the nominative: **die Lampe**, **das Bett**, **die Schuhe**. So: Ich habe **einen** Bruder, **eine** Schwester und **ein** Kind.\nMany everyday verbs take the accusative: **haben**, **brauchen** (*to need*), **kaufen**, **nehmen**, **sehen**, **möchten**, **suchen**, **essen**, **trinken** – and **es gibt** (*there is*, *there are*): Es gibt **einen** Park. Because the article shows the case, the object can even come first: **Den Mantel** kaufe ich. The verb stays in position two.\nCareful: **sein** never takes the accusative. After **ist** and **sind**, use the nominative: Das ist **ein** Tisch, not \"einen Tisch\". Persian marks a definite object with *rā*, and English shows the object only in pronouns like *him*. In German, look at the article: when a der-noun is the object, you need **den**, **einen**, **keinen** or **meinen**.",
       "table": [
         [
           "Nominativ",
@@ -447,8 +447,8 @@
           "s": "There's a supermarket in the city."
         },
         {
-          "t": "Reza hat keinen Fernseher.",
-          "s": "Reza doesn't have a TV."
+          "t": "Ali hat keinen Fernseher.",
+          "s": "Ali doesn't have a TV."
         }
       ],
       "exercises": [
@@ -573,7 +573,7 @@
         "t": "nicht oder kein?",
         "s": "Negation: nicht or kein"
       },
-      "explain": "German has two main words for *not*. **kein** means *no*, *not a* or *not any* and goes in front of a noun. **nicht** means *not* and negates everything else: a verb, an adjective, a place, a name, or a noun with **der**, **die**, **das** or **mein**.\nUse **kein** when the positive sentence has **ein** or no article: Ich habe ein Auto → Ich habe **kein** Auto. Ich habe Zeit → Ich habe **keine** Zeit. **kein** has the same endings as **ein**, and in the plural it is **keine**: Wir haben **keine** Eier. In the accusative, der-nouns take **keinen**: Ich trinke **keinen** Kaffee.\nUse **nicht** in all other cases: Ich komme **nicht**. Das ist **nicht** teuer. Das ist **nicht** mein Bruder. Ali wohnt **nicht** in Berlin.\nWhere does nicht go? In a simple sentence it often goes to the end, after the object: Ich schlafe **nicht**. Ich nehme den Mantel **nicht**. But it comes before an adjective (**nicht** kalt), before a place (**nicht** in Berlin) and before the second part of the verb: Ich kann **nicht** schwimmen. Ich stehe **nicht** auf.\nCareful: Don't say *nicht ein*: it is Ich habe **kein** Auto. Persian puts the negation on the verb (*nadāram*), so Persian speakers often put nicht right before the verb. In German the verb stays in position two and nicht comes later: Ich **arbeite** heute **nicht**.",
+      "explain": "German has two main words for *not*. **kein** means *no*, *not a* or *not any* and goes in front of a noun. **nicht** means *not* and negates everything else: a verb, an adjective, a place, a name, or a noun with **der**, **die**, **das** or **mein**.\nUse **kein** when the positive sentence has **ein** or no article: Ich habe ein Auto → Ich habe **kein** Auto. Ich habe Zeit → Ich habe **keine** Zeit. **kein** has the same endings as **ein**, and in the plural it is **keine**: Wir haben **keine** Eier. In the accusative, der-nouns take **keinen**: Ich trinke **keinen** Kaffee.\nUse **nicht** in all other cases: Ich komme **nicht**. Das ist **nicht** teuer. Das ist **nicht** mein Bruder. Ali wohnt **nicht** in Berlin.\nWhere does nicht go? In a simple sentence it often goes to the end, after the object: Ich schlafe **nicht**. Ich nehme den Mantel **nicht**. But it comes before an adjective (**nicht** kalt), before a place (**nicht** in Berlin) and before the second part of the verb: Ich kann **nicht** schwimmen. Ich stehe **nicht** auf.\nCareful: Don't say \"nicht ein\": it is Ich habe **kein** Auto. Persian puts the negation on the verb (*nadāram*), so Persian speakers often put nicht right before the verb. In German the verb stays in position two and nicht comes later: Ich **arbeite** heute **nicht**.",
       "table": [
         [
           "positiv",
@@ -630,8 +630,8 @@
           "s": "That's not my scarf."
         },
         {
-          "t": "Mina kann nicht schwimmen.",
-          "s": "Mina can't swim."
+          "t": "Amir kann nicht schwimmen.",
+          "s": "Amir can't swim."
         }
       ],
       "exercises": [
@@ -834,8 +834,8 @@
           "s": "This is my father and this is my mother."
         },
         {
-          "t": "Ali und seine Schwester wohnen in Hamburg.",
-          "s": "Ali and his sister live in Hamburg."
+          "t": "Ali und seine Frau wohnen in Köln.",
+          "s": "Ali and his wife live in Cologne."
         },
         {
           "t": "Sara sucht ihren Schal.",
@@ -977,7 +977,7 @@
         "t": "mich, dich, ihn …",
         "s": "Personal pronouns in the accusative"
       },
-      "explain": "Personal pronouns stand for a person or a thing. When the pronoun is the object of the verb, it is in the **accusative**: **Ich** sehe Ali. Ali sieht **mich**.\nThe forms are: ich → **mich**, du → **dich**, er → **ihn**, sie → **sie**, es → **es**, wir → **uns**, ihr → **euch**, sie → **sie**, Sie → **Sie**. In the third person only **er** changes, just like **der → den**. For things, choose the pronoun by the gender of the noun: Der Mantel ist schön. Ich nehme **ihn**. Die Tasche? Ich kaufe **sie**. Das Kleid? Ich nehme **es**. Die Schuhe? Ich nehme **sie**. In everyday speech you also hear **den**, **die**, **das** for things: Der Mantel? **Den** nehme ich.\nUse these forms after verbs that take the accusative, for example **sehen**, **anrufen**, **brauchen**, **suchen**, **mögen**, **hören**, **kaufen** and **nehmen**. An object pronoun usually comes early in the sentence, before time words and before **nicht**: Ich rufe **dich** heute an. Ich sehe **ihn** nicht.\nCareful: English *it* can be **ihn**, **sie** or **es**, so check the gender: Ich nehme **ihn** (der Mantel), not *es*. In Persian, *u rā* means both *him* and *her*; in German it is **ihn** for a man and **sie** for a woman. And don't mix up **mich** and **dich** with **mir** and **dir**: Wie geht es **dir**? uses another case, the dative, which comes in A2.",
+      "explain": "Personal pronouns stand for a person or a thing. When the pronoun is the object of the verb, it is in the **accusative**: **Ich** sehe Ali. Ali sieht **mich**.\nThe forms are: ich → **mich**, du → **dich**, er → **ihn**, sie → **sie**, es → **es**, wir → **uns**, ihr → **euch**, sie → **sie**, Sie → **Sie**. In the third person only **er** changes, just like **der → den**. For things, choose the pronoun by the gender of the noun: Der Mantel ist schön. Ich nehme **ihn**. Die Tasche? Ich kaufe **sie**. Das Kleid? Ich nehme **es**. Die Schuhe? Ich nehme **sie**. In everyday speech you also hear **den**, **die**, **das** for things: Der Mantel? **Den** nehme ich.\nUse these forms after verbs that take the accusative, for example **sehen**, **anrufen**, **brauchen**, **suchen**, **mögen**, **hören**, **kaufen** and **nehmen**. An object pronoun usually comes early in the sentence, before time words and before **nicht**: Ich rufe **dich** heute an. Ich sehe **ihn** nicht.\nCareful: English *it* can be **ihn**, **sie** or **es**, so check the gender: Ich nehme **ihn** (der Mantel), not \"es\". In Persian, *u rā* means both *him* and *her*; in German it is **ihn** for a man and **sie** for a woman. And don't mix up **mich** and **dich** with **mir** and **dir**: Wie geht es **dir**? uses another case, the dative, which comes in A2.",
       "table": [
         [
           "Nominativ",

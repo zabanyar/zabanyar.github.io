@@ -480,11 +480,11 @@
         },
         {
           "type": "type",
-          "t": "Ali ___ in Hamburg.",
+          "t": "Ali ___ in Köln.",
           "answer": [
             "wohnt"
           ],
-          "s": "Ali lives in Hamburg."
+          "s": "Ali lives in Cologne."
         },
         {
           "type": "type",

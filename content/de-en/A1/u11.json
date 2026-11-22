@@ -149,11 +149,11 @@
         },
         {
           "type": "type",
-          "t": "Sara ___ im Krankenhaus.",
+          "t": "Reza ___ im Krankenhaus.",
           "answer": [
             "arbeitet"
           ],
-          "s": "Sara works at the hospital.",
+          "s": "Reza works at the hospital.",
           "hint": "arbeiten"
         },
         {
@@ -270,8 +270,8 @@
           "s": "Are you hungry?"
         },
         {
-          "t": "Mina ist zwölf Jahre alt und hat zwei Brüder.",
-          "s": "Mina is twelve years old and has two brothers."
+          "t": "Mina ist zwölf Jahre alt und hat einen Bruder.",
+          "s": "Mina is twelve years old and has a brother."
         },
         {
           "t": "Die Kinder sind im Park.",

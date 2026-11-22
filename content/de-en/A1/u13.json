@@ -21,7 +21,7 @@
         "t": "Heute arbeite ich.",
         "s": "The verb in second position"
       },
-      "explain": "In a German statement, the conjugated verb (the verb with the personal ending) is always in **position 2**. This is one of the most important rules of German word order.\nPosition 2 means the second *part* of the sentence, not always the second word. Position 1 is often the subject (**Ich** trinke am Morgen Kaffee.), but it can also be a time or a place. A group like **am Morgen**, **um acht Uhr** or **in Berlin** counts as one part.\nWhen something other than the subject comes first, the verb stays in position 2 and the subject moves right behind it. This is called **inversion**: **Ich arbeite heute.** → **Heute arbeite ich.** The meaning stays the same; the time or place just gets more attention. Words like **heute**, **dann**, **am Abend**, **um sieben Uhr** and **im Sommer** often start a sentence.\nThe little words **und**, **aber** and **oder** do not count. They stand before position 1, so the order after them does not change: **Ali kocht und Sara liest.**\nCareful: English says *Today I work*, but German never allows **Heute ich arbeite**. Persian puts the verb at the end, but in a German statement it must come second: **Ich wohne in Teheran**, not **Ich in Teheran wohne**.",
+      "explain": "In a German statement, the conjugated verb (the verb with the personal ending) is always in **position 2**. This is one of the most important rules of German word order.\nPosition 2 means the second *part* of the sentence, not always the second word. Position 1 is often the subject (**Ich** trinke am Morgen Kaffee.), but it can also be a time or a place. A group like **am Morgen**, **um acht Uhr** or **in Berlin** counts as one part.\nWhen something other than the subject comes first, the verb stays in position 2 and the subject moves right behind it. This is called **inversion**: **Ich arbeite heute.** → **Heute arbeite ich.** The meaning stays the same; the time or place just gets more attention. Words like **heute**, **dann**, **am Abend**, **um sieben Uhr** and **im Sommer** often start a sentence.\nThe little words **und**, **aber** and **oder** do not count. They stand before position 1, so the order after them does not change: **Ali kocht und Sara liest.**\nCareful: English says *Today I work*, but German never allows \"Heute ich arbeite\". Persian puts the verb at the end, but in a German statement it must come second: **Ich wohne in Teheran**, not \"Ich in Teheran wohne\".",
       "table": [
         [
           "first part",
@@ -136,11 +136,11 @@
         },
         {
           "type": "type",
-          "t": "Am Morgen ___ Maryam Kaffee.",
+          "t": "Am Morgen ___ Maryam Tee.",
           "answer": [
             "trinkt"
           ],
-          "s": "In the morning Maryam drinks coffee.",
+          "s": "In the morning Maryam drinks tea.",
           "hint": "trinken"
         },
         {
@@ -201,7 +201,7 @@
         "t": "Wo wohnst du? Wohnst du hier?",
         "s": "Questions; ja, nein and doch"
       },
-      "explain": "German has two main kinds of questions. **W-questions** ask for information and start with a question word: **wer** *who*, **was** *what*, **wo** *where*, **woher** *where from*, **wann** *when*, **wie** *how*, **wie viel** *how much*, **wie alt** *how old*. The question word is in position 1, the verb in position 2, and then usually the subject: **Wo wohnst du?** **Wann kommt der Bus?** With **wer** the question word is itself the subject: **Wer kocht heute?**\n**Yes/no questions** have no question word. The verb moves to **position 1**, and the subject comes right after it: **Du wohnst in Berlin.** → **Wohnst du in Berlin?** The rest of the sentence stays where it was, and your voice goes up at the end.\nThe answer to a yes/no question is **ja** or **nein**. But if the question is negative (with **nicht** or **kein**) and you want to say *yes*, use **doch**: **Hast du keinen Hunger?** – **Doch, ich habe Hunger.** If you agree with the negative question, say **nein**: **Kommst du nicht mit?** – **Nein, ich habe keine Zeit.**\nCareful: German has no helper verb like English *do*. *Do you live here?* is simply **Wohnst du hier?** Persian often keeps the statement order and only changes the intonation, but in German the verb must move to the front. Also, **wer** looks like English *where*, but it means *who*; *where* is **wo**. And to ask for a name, say **Wie heißt du?**, not **Was heißt du?**",
+      "explain": "German has two main kinds of questions. **W-questions** ask for information and start with a question word: **wer** *who*, **was** *what*, **wo** *where*, **woher** *where from*, **wann** *when*, **wie** *how*, **wie viel** *how much*, **wie alt** *how old*. The question word is in position 1, the verb in position 2, and then usually the subject: **Wo wohnst du?** **Wann kommt der Bus?** With **wer** the question word is itself the subject: **Wer kocht heute?**\n**Yes/no questions** have no question word. The verb moves to **position 1**, and the subject comes right after it: **Du wohnst in Berlin.** → **Wohnst du in Berlin?** The rest of the sentence stays where it was, and your voice goes up at the end.\nThe answer to a yes/no question is **ja** or **nein**. But if the question is negative (with **nicht** or **kein**) and you want to say *yes*, use **doch**: **Hast du keinen Hunger?** – **Doch, ich habe Hunger.** If you agree with the negative question, say **nein**: **Kommst du nicht mit?** – **Nein, ich habe keine Zeit.**\nCareful: German has no helper verb like English *do*. *Do you live here?* is simply **Wohnst du hier?** Persian often keeps the statement order and only changes the intonation, but in German the verb must move to the front. Also, **wer** looks like English *where*, but it means *who*; *where* is **wo**. And to ask for a name, say **Wie heißt du?**, not \"Was heißt du?\"",
       "table": [
         [
           "question word",
@@ -259,8 +259,8 @@
           "s": "What are you cooking today?"
         },
         {
-          "t": "Wohnt Anna in Köln? – Ja, sie wohnt in Köln.",
-          "s": "Does Anna live in Cologne? – Yes, she lives in Cologne."
+          "t": "Wohnt Anna in Berlin? – Ja, sie wohnt in Berlin.",
+          "s": "Does Anna live in Berlin? – Yes, she lives in Berlin."
         },
         {
           "t": "Spielt Reza Gitarre? – Nein, er spielt Fußball.",
@@ -332,7 +332,8 @@
           "type": "type",
           "t": "___ stehst du auf? – Um sieben Uhr.",
           "answer": [
-            "Wann"
+            "Wann",
+            "Um wie viel Uhr"
           ],
           "s": "When do you get up? – At seven o'clock."
         },
@@ -382,7 +383,7 @@
         "t": "Ich muss heute arbeiten.",
         "s": "The sentence bracket"
       },
-      "explain": "Many German sentences have a verb in two parts. The conjugated part stays in **position 2**, and the second part goes to the very **end** of the sentence. Everything else stands between them, as if inside a **sentence bracket**.\nThere are two kinds. With a **modal verb** (**können**, **müssen**, **wollen**, **möchten**), the modal verb is in position 2 and the other verb goes to the end as an **infinitive**: **Ich muss heute arbeiten.** **Maryam kann sehr gut kochen.** With a **separable verb**, the main part is in position 2 and the prefix goes to the end: **Ich rufe meine Oma an.** **Wir kaufen im Supermarkt ein.**\nInversion does not change the bracket: **Heute muss ich arbeiten.** **Am Abend sieht Amir fern.** In a yes/no question the conjugated part is in position 1, and the end stays at the end: **Kannst du heute mitkommen?** If a separable verb comes with a modal verb, it is the infinitive, so it stays together at the end: **Ich muss um sechs Uhr aufstehen.** The word **nicht** usually comes just before the end: **Ich muss heute nicht arbeiten.**\nCareful: English keeps the verbs together (*I must work today*), so learners often say **Ich muss arbeiten heute**. That is wrong; the infinitive goes to the end. Don't give the infinitive an ending (**Ich kann schwimmen**, not **Ich kann schwimme**), and don't forget the prefix: **Ich stehe um sieben Uhr** is not complete without **auf**.",
+      "explain": "Many German sentences have a verb in two parts. The conjugated part stays in **position 2**, and the second part goes to the very **end** of the sentence. Everything else stands between them, as if inside a **sentence bracket**.\nThere are two kinds. With a **modal verb** (**können**, **müssen**, **wollen**, **möchten**), the modal verb is in position 2 and the other verb goes to the end as an **infinitive**: **Ich muss heute arbeiten.** **Maryam kann sehr gut kochen.** With a **separable verb**, the main part is in position 2 and the prefix goes to the end: **Ich rufe meine Oma an.** **Wir kaufen im Supermarkt ein.**\nInversion does not change the bracket: **Heute muss ich arbeiten.** **Am Abend sieht Lukas fern.** In a yes/no question the conjugated part is in position 1, and the end stays at the end: **Kannst du heute mitkommen?** If a separable verb comes with a modal verb, it is the infinitive, so it stays together at the end: **Ich muss um sechs Uhr aufstehen.** The word **nicht** usually comes just before the end: **Ich muss heute nicht arbeiten.**\nCareful: English keeps the verbs together (*I must work today*), so learners often say \"Ich muss arbeiten heute\". That is wrong; the infinitive goes to the end. Don't give the infinitive an ending (**Ich kann schwimmen**, not \"Ich kann schwimme\"), and don't forget the prefix: \"Ich stehe um sieben Uhr\" is not complete without **auf**.",
       "table": [
         [
           "first part",
@@ -417,7 +418,7 @@
         [
           "Am Abend",
           "sieht",
-          "Amir",
+          "Lukas",
           "fern."
         ]
       ],
@@ -542,10 +543,10 @@
         },
         {
           "type": "order",
-          "t": "Am Abend sieht Amir fern.",
-          "s": "In the evening Amir watches TV.",
+          "t": "Am Abend sieht Lukas fern.",
+          "s": "In the evening Lukas watches TV.",
           "alts": [
-            "Amir sieht am Abend fern."
+            "Lukas sieht am Abend fern."
           ]
         },
         {
@@ -565,7 +566,7 @@
         "t": "Ruf mich an!",
         "s": "The imperative"
       },
-      "explain": "The imperative is the form for instructions, requests and advice: *Come!* *Please call me!* German has three forms, because there are three ways to say *you*.\nFor **Sie** (polite, one or more people), take the Sie form and put the verb first: **Sie kommen** → **Kommen Sie!** For **ihr** (two or more friends or family members), take the ihr form and leave out **ihr**: **ihr kommt** → **Kommt!** For **du**, take the du form and drop **du** and the ending **-st**: **du kommst** → **Komm!** **du trinkst** → **Trink!** If the stem ends in -s, -ß or -z, only the **-t** goes: **du liest** → **Lies!** **du isst** → **Iss!** Verbs with a stem in -t or -d keep an **e**: **Arbeite!**\nVerbs with the vowel change e → i or e → ie keep it in the du form: **Iss!** **Nimm!** **Sprich!** **Lies!** But a → ä disappears: **du fährst** → **Fahr!** **du schläfst** → **Schlaf!** With many verbs you may also add an **-e** (**Komme!**, **Schlafe!**), but this sounds formal or old-fashioned, and it is never possible with the e → i verbs.\n**sein** is irregular: **Sei!** **Seid!** **Seien Sie!** Separable verbs send the prefix to the end, as always: **Ruf mich an!** **Steh auf!** **Kauft bitte ein!** Add **bitte** to make a request polite.\nCareful: in the Sie form, **Sie** must stay: **Kommen Sie!** In the du form, leave out **du** (**Komm!**, not **Du komm!**) and drop the **-st** (**Trink!**, not **Trinkst!**). Also, **Ess!** and **Fähr!** are wrong; say **Iss!** and **Fahr!**",
+      "explain": "The imperative is the form for instructions, requests and advice: *Come!* *Please call me!* German has three forms, because there are three ways to say *you*.\nFor **Sie** (polite, one or more people), take the Sie form and put the verb first: **Sie kommen** → **Kommen Sie!** For **ihr** (two or more friends or family members), take the ihr form and leave out **ihr**: **ihr kommt** → **Kommt!** For **du**, take the du form and drop **du** and the ending **-st**: **du kommst** → **Komm!** **du trinkst** → **Trink!** If the stem ends in -s, -ß or -z, only the **-t** goes: **du liest** → **Lies!** **du isst** → **Iss!** Verbs with a stem in -t or -d keep an **e**: **Arbeite!**\nVerbs with the vowel change e → i or e → ie keep it in the du form: **Iss!** **Nimm!** **Sprich!** **Lies!** But a → ä disappears: **du fährst** → **Fahr!** **du schläfst** → **Schlaf!** With many verbs you may also add an **-e** (**Komme!**, **Schlafe!**), but this sounds formal or old-fashioned, and it is never possible with the e → i verbs.\n**sein** is irregular: **Sei!** **Seid!** **Seien Sie!** Separable verbs send the prefix to the end, as always: **Ruf mich an!** **Steh auf!** **Kauft bitte ein!** Add **bitte** to make a request polite.\nCareful: in the Sie form, **Sie** must stay: **Kommen Sie!** In the du form, leave out **du** (**Komm!**, not \"Du komm!\") and drop the **-st** (**Trink!**, not \"Trinkst!\"). Also, \"Ess!\" and \"Fähr!\" are wrong; say **Iss!** and **Fahr!**",
       "table": [
         [
           "infinitive",
@@ -771,7 +772,7 @@
         "t": "um acht Uhr, am Abend, im Mai",
         "s": "Time expressions: um, am, im, von … bis, ab"
       },
-      "explain": "To say *when* something happens, German uses small prepositions. Each one goes with a certain kind of time expression, and they don't always match English.\n**um** is for clock times: **um sieben Uhr**, **um halb acht**, **um Viertel nach drei**. To ask, say **Wann?** or **Um wie viel Uhr?**\n**am** is for parts of the day and for days: **am Morgen**, **am Abend**, **am Montag**, **am Sonntag**. The days are **Montag**, **Dienstag**, **Mittwoch**, **Donnerstag**, **Freitag**, **Samstag** and **Sonntag**. One exception to remember: **in der Nacht** *at night*.\n**im** is for months and seasons: **im Mai**, **im Juli**, **im Sommer**, **im Winter**.\n**von … bis** gives a start and an end: **von acht bis vier Uhr**, **von Montag bis Freitag**. **ab** gives only the start: **ab neun Uhr** *from nine o'clock on*, **ab Montag** *starting Monday*.\nSome time words need no preposition: **heute**, **heute Abend**, **jeden Tag**. And when a time expression starts the sentence, the verb still comes second: **Am Montag arbeite ich.**\nCareful: English says *at* seven, *on* Monday, *in* the morning and *at* night, so it's easy to mix them up. German says **um sieben Uhr**, **am Montag**, **am Morgen** and **in der Nacht**, and never **in Mai** or **am Mai**. Persian often uses no preposition with clock times, but German needs **um**: **Ich komme um acht Uhr.**",
+      "explain": "To say *when* something happens, German uses small prepositions. Each one goes with a certain kind of time expression, and they don't always match English.\n**um** is for clock times: **um sieben Uhr**, **um halb acht**, **um Viertel nach drei**. To ask, say **Wann?** or **Um wie viel Uhr?**\n**am** is for parts of the day and for days: **am Morgen**, **am Abend**, **am Montag**, **am Sonntag**. The days are **Montag**, **Dienstag**, **Mittwoch**, **Donnerstag**, **Freitag**, **Samstag** and **Sonntag**. One exception to remember: **in der Nacht** *at night*.\n**im** is for months and seasons: **im Mai**, **im Juli**, **im Sommer**, **im Winter**.\n**von … bis** gives a start and an end: **von acht bis vier Uhr**, **von Montag bis Freitag**. **ab** gives only the start: **ab neun Uhr** *from nine o'clock on*, **ab Montag** *starting Monday*.\nSome time words need no preposition: **heute**, **heute Abend**, **jeden Tag**. And when a time expression starts the sentence, the verb still comes second: **Am Montag arbeite ich.**\nCareful: English says *at* seven, *on* Monday, *in* the morning and *at* night, so it's easy to mix them up. German says **um sieben Uhr**, **am Montag**, **am Morgen** and **in der Nacht**, and never \"in Mai\" or \"am Mai\". Persian often uses no preposition with clock times, but German needs **um**: **Ich komme um acht Uhr.**",
       "table": [
         [
           "word",

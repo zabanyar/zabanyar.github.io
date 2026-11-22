@@ -69,7 +69,7 @@
       "id": "w06",
       "t": "sonnig",
       "s": "sunny",
-      "emoji": "🌞",
+      "emoji": "",
       "ex": {
         "t": "Heute ist es sonnig.",
         "s": "It's sunny today."
@@ -99,7 +99,7 @@
       "id": "w09",
       "t": "regnen",
       "s": "to rain",
-      "emoji": "☔",
+      "emoji": "",
       "ex": {
         "t": "Es regnet.",
         "s": "It's raining."

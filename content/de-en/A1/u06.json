@@ -61,7 +61,7 @@
       "id": "w05",
       "t": "aufstehen",
       "s": "to get up",
-      "emoji": "⏰",
+      "emoji": "",
       "ex": {
         "t": "Ich stehe um sechs Uhr auf.",
         "s": "I get up at six o'clock."
@@ -131,7 +131,7 @@
       "id": "w12",
       "t": "halb",
       "s": "half (halb acht = 7:30)",
-      "emoji": "🕢",
+      "emoji": "",
       "ex": {
         "t": "Es ist halb acht.",
         "s": "It's seven thirty."

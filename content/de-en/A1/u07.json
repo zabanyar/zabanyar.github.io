@@ -616,11 +616,17 @@
     },
     {
       "t": "Ali ist in der Bank.",
-      "s": "Ali is at the bank."
+      "s": "Ali is at the bank.",
+      "alts": [
+        "In der Bank ist Ali."
+      ]
     },
     {
       "t": "Wir essen im Restaurant.",
-      "s": "We eat at the restaurant."
+      "s": "We eat at the restaurant.",
+      "alts": [
+        "Im Restaurant essen wir."
+      ]
     },
     {
       "t": "Die Haltestelle ist nicht weit.",
