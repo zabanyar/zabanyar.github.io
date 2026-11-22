@@ -378,7 +378,8 @@
           "answer": [
             "Zur",
             "Für die",
-            "Fuer die"
+            "Fuer die",
+            "Zwecks"
           ],
           "s": "In order to test the hypothesis, the team conducted a second study."
         },
@@ -561,7 +562,10 @@
         {
           "type": "order",
           "t": "Neue Befunde stellen diese Theorie in Frage.",
-          "s": "New findings call this theory into question."
+          "s": "New findings call this theory into question.",
+          "alts": [
+            "Diese Theorie stellen neue Befunde in Frage."
+          ]
         },
         {
           "type": "order",

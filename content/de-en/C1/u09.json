@@ -541,7 +541,8 @@
           "answer": [
             "zur",
             "für die",
-            "fuer die"
+            "fuer die",
+            "zwecks"
           ],
           "s": "In order to secure supplies, the state is building up reserves."
         },
@@ -710,7 +711,7 @@
     },
     {
       "t": "Bei sinkender Nachfrage drohen Entlassungen.",
-      "s": "If demand falls, there is a risk of redundancies."
+      "s": "If demand falls, there is a risk of layoffs."
     },
     {
       "t": "Unterm Strich hat sich die Investition gelohnt.",

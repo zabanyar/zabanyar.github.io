@@ -399,7 +399,10 @@
             "Genau",
             "Richtig",
             "Stimmt",
-            "Exakt"
+            "Exakt",
+            "Allerdings",
+            "Ja",
+            "Ganz genau"
           ],
           "s": "A faux pas? – Exactly! That's precisely what I mean."
         },
@@ -509,7 +512,8 @@
             "aber",
             "allerdings",
             "indessen",
-            "demgegenueber"
+            "demgegenueber",
+            "indes"
           ],
           "s": "He speaks four languages; his sister, on the other hand, speaks only German."
         },
@@ -537,7 +541,8 @@
             "Deswegen",
             "Daher",
             "Darum",
-            "Also"
+            "Also",
+            "Dementsprechend"
           ],
           "s": "The deadline has passed. Consequently, your application can no longer be considered."
         },
