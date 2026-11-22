@@ -184,7 +184,7 @@
       "t": "edebiyat",
       "s": "ادبیات",
       "pr": "اِدِبیات",
-      "emoji": "📚",
+      "emoji": "",
       "ex": {
         "t": "Fars edebiyatı bütün dünyada tanınıyor.",
         "s": "ادبیات فارسی در سراسر جهان شناخته‌شده است."
@@ -424,7 +424,10 @@
         {
           "type": "order",
           "t": "Kitabı alıp hemen okumaya başladım.",
-          "s": "کتاب را خریدم و فوراً شروع به خواندنش کردم."
+          "s": "کتاب را خریدم و فوراً شروع به خواندنش کردم.",
+          "alts": [
+            "Kitabı alıp okumaya hemen başladım."
+          ]
         },
         {
           "type": "order",

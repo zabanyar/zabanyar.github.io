@@ -429,7 +429,8 @@
           "type": "type",
           "t": "Sabah erken ___ alışkın değilim.",
           "answer": [
-            "kalkmaya"
+            "kalkmaya",
+            "uyanmaya"
           ],
           "s": "به زود بیدار شدن عادت ندارم."
         },
@@ -550,7 +551,7 @@
         },
         {
           "type": "type",
-          "t": "Onlar Türkçe ___ rağmen çok iyi anlaştık.",
+          "t": "Onların Türkçe ___ rağmen çok iyi anlaştık.",
           "answer": [
             "bilmemelerine",
             "bilmemesine"

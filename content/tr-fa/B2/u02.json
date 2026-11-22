@@ -415,7 +415,10 @@
         {
           "type": "order",
           "t": "Ne elektrik var ne de su.",
-          "s": "نه برق هست نه آب."
+          "s": "نه برق هست نه آب.",
+          "alts": [
+            "Ne su var ne de elektrik."
+          ]
         },
         {
           "type": "order",

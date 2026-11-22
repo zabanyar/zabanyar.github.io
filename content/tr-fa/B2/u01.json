@@ -19,7 +19,7 @@
       "pl": "haberler",
       "s": "خبر",
       "pr": "هابِر",
-      "emoji": "📰",
+      "emoji": "",
       "ex": {
         "t": "Bu haberi sabah gazetede okudum.",
         "s": "این خبر را صبح در روزنامه خواندم."
@@ -55,7 +55,7 @@
       "pl": "muhabirler",
       "s": "خبرنگار",
       "pr": "موهابیر",
-      "emoji": "🎙️",
+      "emoji": "",
       "ex": {
         "t": "Muhabirimiz olay yerinden bildiriyor.",
         "s": "خبرنگار ما از محل حادثه گزارش می‌دهد."
