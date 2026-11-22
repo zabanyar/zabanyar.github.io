@@ -1,4 +1,5 @@
-// Small DOM helpers, audio player, pictures.
+// Small DOM helpers, audio player, pictures, dialogs.
+import { t } from "./i18n.js";
 export function h(tag, attrs = {}, ...kids) {
   const el = document.createElement(tag);
   for (const [k, v] of Object.entries(attrs || {})) {
@@ -36,6 +37,10 @@ export function pic(src, emoji, cls = "pic", size) {
 // ---------- audio ----------
 const player = new Audio();
 player.preload = "auto";
+// per-person audio settings: slower speech and automatic playback (set from the settings screen)
+const audioPrefs = { slow: false, autoplay: true };
+export function setAudioPrefs(p) { Object.assign(audioPrefs, p); }
+export function autoplayOn() { return audioPrefs.autoplay; }
 let currentBtn = null;
 let pending = null;   // resolver of the sound that is playing now: an interrupted sound must still finish its promise
 export function play(src, { rate = 1, btn = null } = {}) {
@@ -47,19 +52,20 @@ export function play(src, { rate = 1, btn = null } = {}) {
       if (currentBtn) currentBtn.classList.remove("playing");
       player.pause();
       player.src = src;
-      player.playbackRate = rate;
+      player.playbackRate = rate * (audioPrefs.slow ? 0.85 : 1);
       player.preservesPitch = true;
       currentBtn = btn; if (btn) btn.classList.add("playing");
       const done = () => { if (btn) btn.classList.remove("playing"); player.onended = player.onerror = null; if (pending === resolve) pending = null; resolve(true); };
       player.onended = done; player.onerror = done;
-      const p = player.play(); if (p && p.catch) p.catch(done);
+      // a browser that blocks sound until the first tap (iOS after a cold start): tell the page, so it can point at the 🔊 button
+      const p = player.play(); if (p && p.catch) p.catch(e => { if (e && e.name === "NotAllowedError") document.dispatchEvent(new CustomEvent("audioblocked")); done(); });
     } catch { pending = null; resolve(true); }
   });
 }
 export function stop() { try { player.pause(); } catch {} if (currentBtn) currentBtn.classList.remove("playing"); if (pending) { const p = pending; pending = null; p(false); } }
 export function sayBtn(src, { small = false, slow = false, label = "▶" } = {}) {
   if (!src) return null;
-  const b = h("button", { class: "say" + (small ? " sm" : "") + (slow ? " slow" : ""), "aria-label": label === "▶" ? (slow ? "🐢" : "🔊") : label, type: "button" }, slow ? "🐢" : "🔊");
+  const b = h("button", { class: "say" + (small ? " sm" : "") + (slow ? " slow" : ""), "aria-label": label === "▶" ? (slow ? t("slow") : t("listen")) : label, type: "button" }, slow ? "🐢" : "🔊");
   b.addEventListener("click", e => { e.stopPropagation(); play(src, { rate: slow ? 0.7 : 1, btn: b }); });
   return b;
 }
@@ -68,6 +74,31 @@ export function toast(msg, ms = 2600) {
   const t = h("div", { class: "toast", role: "status" }, msg);
   document.body.append(t);
   setTimeout(() => t.remove(), ms);
+}
+
+// a small in-app dialog with big buttons (instead of the browser's confirm(), which looks like a warning)
+export function ask(text, yes, no) {
+  return new Promise(res => {
+    const prev = document.activeElement;
+    const close = v => { ov.remove(); document.removeEventListener("keydown", key); prev?.focus?.(); res(v); };
+    const key = e => { if (e.key === "Escape") close(false); };
+    const yb = h("button", { class: "btn", type: "button", onclick: () => close(true) }, yes);
+    const nb = h("button", { class: "btn secondary", type: "button", onclick: () => close(false) }, no);
+    const ov = h("div", { class: "modal", role: "dialog", "aria-modal": "true", "aria-labelledby": "askq", onclick: e => { if (e.target === ov) close(false); } },
+      h("div", { class: "card stack" }, h("h3", { id: "askq", style: { margin: 0 } }, text), h("div", { class: "row askrow" }, nb, yb)));
+    document.body.append(ov); document.addEventListener("keydown", key); setTimeout(() => nb.focus(), 30);
+  });
+}
+// edit distance (for "almost right: mind the spelling")
+export function editDistance(a, b) {
+  if (Math.abs(a.length - b.length) > 2) return 9;
+  let prev = Array.from({ length: b.length + 1 }, (_, j) => j);
+  for (let i = 1; i <= a.length; i++) {
+    const cur = [i];
+    for (let j = 1; j <= b.length; j++) cur[j] = Math.min(prev[j] + 1, cur[j - 1] + 1, prev[j - 1] + (a[i - 1] === b[j - 1] ? 0 : 1));
+    prev = cur;
+  }
+  return prev[b.length];
 }
 
 export function shuffle(a) { a = a.slice(); for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; }
@@ -79,7 +110,7 @@ export function md(text) {
   // In a Persian paragraph every run of Latin-script text (with its **bold** marks and punctuation) is isolated,
   // so "She is **a** teacher." stays in reading order inside right-to-left text.
   const LAT = /[A-Za-zÀ-ɏ*][A-Za-zÀ-ɏ0-9'’\- *]*(?:[.,!?;:]+(?=\s|$)|[A-Za-zÀ-ɏ0-9'’*])?/g;
-  const iso = p => /[\u0600-\u06FF]/.test(p) ? p.replace(LAT, m => /[A-Za-zÀ-ɏ]/.test(m) ? "\u0001" + m + "\u0002" : m) : p;
+  const iso = p => /[\u0600-\u06FF]/.test(p) ? p.replace(LAT, m => /[A-Za-zÀ-ɏ]/.test(m) ? "\u0001" + m.trimEnd() + "\u0002" + m.slice(m.trimEnd().length) : m) : p;
   return esc(text).split(/\n+/).map(p => "<p>" + iso(p).replace(/\*\*(.+?)\*\*/g, "<b><bdi>$1</bdi></b>").replace(/(^|[^*])\*([^*\n]+?)\*(?!\*)/g, "$1<i>$2</i>")
     .replace(/\u0001/g, '<bdi dir="ltr">').replace(/\u0002/g, "</bdi>") + "</p>").join("");
 }

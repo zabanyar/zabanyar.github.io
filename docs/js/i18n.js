@@ -19,7 +19,7 @@ const S = {
     unit: "درس",
     soon: "به‌زودی", allDone: "همهٔ بخش‌های این زبان تمام شد! آفرین!", unitsDone: "درس تمام‌شده", prevUnit: "درس قبلی", nextUnit: "درس بعدی",
     lessons: "بخش‌ها",
-    goals: "در این درس یاد می‌گیرید",
+    goals: "بعد از این درس:",
     L_letters: "حروف الفبا", L_sounds: "صداها", L_words: "واژه‌ها", L_phrases: "جمله‌ها و گفت‌وگو",
     L_grammar: "دستور زبان", L_reading: "خواندن و شنیدن", L_test: "آزمون درس",
     D_letters: "حروف و تلفظ آن‌ها", D_sounds: "صداهای مهم", D_words: "واژه‌های تازه با تصویر و صدا", D_phrases: "عبارت‌های کاربردی و یک گفت‌وگو",
@@ -41,6 +41,7 @@ const S = {
     plural: "جمع", example: "مثال", skip: "رد کردن", listenAgain: "دوباره گوش کنید",
     learned: "یاد گرفته‌اید", of: "از", unitsDone: "درس کامل شده",
     home: "خانه", cantListen: "الان نمی‌توانم گوش کنم", explainedIn: "توضیحات به فارسی", tapLetter: "برای شنیدن روی هر حرف بزنید", f_iso: "تنها", f_ini: "اول", f_med: "وسط", f_fin: "آخر", keyboard: "صفحه‌کلید",
+    whoLearning: "کی هستید؟", orTypeName: "یا اسمتان را بنویسید", notQuite: "نه کاملاً", youWrote: "شما نوشتید:", comesAgain: "↻ این تمرین در پایان دوباره می‌آید.", typoOk: "تقریباً درست — به املا دقت کنید:", spelling: "املای درست:", mainAnswer: "پاسخ اصلی:", showRule: "📘 دیدن قاعده", rule: "قاعده", rolePlay: "🎙 جای {b} حرف بزنید", yourTurn: "نوبت شماست — بلند بگویید", stopBtn: "⏹ توقف", firstTry: "{a} از {b} بار اول درست", missed: "این‌ها را دوباره نگاه کنید:", practiseMistakes: "تمرین اشتباه‌ها", reviewMore: "مرور بیشتر", backToCourse: "بازگشت به دوره", resumeQ: "از همان جایی که ماندید ادامه می‌دهید؟", startOver: "از اول", cantType: "الان نمی‌توانم بنویسم", search: "جستجو…", seen: "دیده‌شده", strong: "خوب یادگرفته", newWord: "تازه", practiseThese: "تمرین واژه‌های این درس", allLevels: "همه", nothingDue: "امروز چیزی برای مرور نیست", back: "بازگشت", halfSpace: "نیم‌فاصله", space: "فاصله", option: "گزینه", audioSet: "صدا", autoplay: "پخش خودکار صدا", slowerSpeech: "صدای آهسته‌تر", display: "نمایش", bigText: "متن بزرگ‌تر", theme: "رنگ صفحه", themeAuto: "خودکار", themeLight: "روشن", themeDark: "تیره", showPr: "نمایش راهنمای تلفظ", on: "روشن", off: "خاموش", installIOS: "آیفون: در Safari دکمهٔ اشتراک‌گذاری ⬆️ و بعد «Add to Home Screen» را بزنید.", installAndroid: "اندروید: در Chrome منوی ⋮ و بعد «Install app» یا «Add to Home screen» را بزنید.", installNow: "نصب برنامه", updated: "نسخهٔ تازهٔ برنامه آماده است", reload: "به‌روزرسانی", leave: "خروج", stay: "ماندن", grammar2: "دستور زبان ۲", xpEarned: "+{n} امتیاز", tapToSay: "بزنید تا بشنوید", reading: "متن", close: "بستن",
   },
   en: {
     appName: "Zabanyar",
@@ -83,6 +84,7 @@ const S = {
     plural: "plural", example: "Example", skip: "Skip", listenAgain: "Listen again",
     learned: "learned", of: "of", unitsDone: "units done",
     home: "Home", cantListen: "Can't listen now", explainedIn: "Explained in English", tapLetter: "Tap a letter to hear it", f_iso: "alone", f_ini: "start", f_med: "middle", f_fin: "end", keyboard: "Keyboard",
+    whoLearning: "Who is learning?", orTypeName: "Or type your name", notQuite: "Not quite", youWrote: "You wrote:", comesAgain: "↻ This one comes again at the end.", typoOk: "Almost — mind the spelling:", spelling: "Spelled:", mainAnswer: "Main answer:", showRule: "📘 See the rule", rule: "Rule", rolePlay: "🎙 Speak {b}'s part", yourTurn: "Your turn — say it aloud", stopBtn: "⏹ Stop", firstTry: "{a} of {b} right the first time", missed: "Have another look at these:", practiseMistakes: "Practise the mistakes", reviewMore: "Review more", backToCourse: "Back to course", resumeQ: "Continue where you left off?", startOver: "Start over", cantType: "Can't type now", search: "Search…", seen: "seen", strong: "well learned", newWord: "new", practiseThese: "Practise this unit's words", allLevels: "All", nothingDue: "Nothing due today", back: "Back", halfSpace: "half space", space: "space", option: "option", audioSet: "Sound", autoplay: "Play sound automatically", slowerSpeech: "Slower speech", display: "Display", bigText: "Larger text", theme: "Theme", themeAuto: "Automatic", themeLight: "Light", themeDark: "Dark", showPr: "Show pronunciation guide", on: "On", off: "Off", installIOS: "iPhone: in Safari tap Share ⬆️, then “Add to Home Screen”.", installAndroid: "Android: in Chrome tap ⋮, then “Install app” or “Add to Home screen”.", installNow: "Install the app", updated: "A new version is ready", reload: "Update", leave: "Leave", stay: "Stay", grammar2: "Grammar 2", xpEarned: "+{n} points", tapToSay: "Tap to hear", reading: "Text", close: "Close",
   },
   tr: {
     appName: "Zabanyar",
@@ -125,11 +127,15 @@ const S = {
     plural: "çoğul", example: "Örnek", skip: "Geç", listenAgain: "Tekrar dinle",
     learned: "öğrenildi", of: "/", unitsDone: "ünite tamamlandı",
     home: "Ana sayfa", cantListen: "Şu an dinleyemiyorum", explainedIn: "Türkçe açıklamalı", tapLetter: "Dinlemek için bir harfe dokunun", f_iso: "tek", f_ini: "başta", f_med: "ortada", f_fin: "sonda", keyboard: "Klavye",
+    whoLearning: "Kim öğreniyor?", orTypeName: "Ya da adınızı yazın", notQuite: "Tam değil", youWrote: "Sizin cevabınız:", comesAgain: "↻ Bu soru sonda tekrar gelecek.", typoOk: "Neredeyse — yazılışa dikkat:", spelling: "Yazılışı:", mainAnswer: "Asıl cevap:", showRule: "📘 Kuralı gör", rule: "Kural", rolePlay: "🎙 {b} rolünü konuşun", yourTurn: "Sıra sizde — yüksek sesle söyleyin", stopBtn: "⏹ Durdur", firstTry: "{b} sorudan {a} tanesi ilk seferde doğru", missed: "Bunlara tekrar bakın:", practiseMistakes: "Hataları çalış", reviewMore: "Daha fazla tekrar", backToCourse: "Kursa dön", resumeQ: "Kaldığınız yerden devam edilsin mi?", startOver: "Baştan başla", cantType: "Şu an yazamıyorum", search: "Ara…", seen: "görüldü", strong: "iyi öğrenildi", newWord: "yeni", practiseThese: "Bu ünitenin kelimelerini çalış", allLevels: "Tümü", nothingDue: "Bugün tekrar yok", back: "Geri", halfSpace: "yarım boşluk", space: "boşluk", option: "seçenek", audioSet: "Ses", autoplay: "Sesi otomatik çal", slowerSpeech: "Daha yavaş konuşma", display: "Görünüm", bigText: "Daha büyük yazı", theme: "Tema", themeAuto: "Otomatik", themeLight: "Açık", themeDark: "Koyu", showPr: "Okunuş rehberini göster", on: "Açık", off: "Kapalı", installIOS: "iPhone: Safari'de Paylaş ⬆️, sonra «Ana Ekrana Ekle».", installAndroid: "Android: Chrome'da ⋮, sonra «Uygulamayı yükle» veya «Ana ekrana ekle».", installNow: "Uygulamayı yükle", updated: "Yeni sürüm hazır", reload: "Güncelle", leave: "Çık", stay: "Kal", grammar2: "Dilbilgisi 2", xpEarned: "+{n} puan", tapToSay: "Dinlemek için dokunun", reading: "Metin", close: "Kapat",
   },
 };
-let lang = "fa";
-export function setLang(l) { lang = S[l] ? l : "fa"; }
+import { SITE } from "./site.js";
+for (const l of Object.keys(SITE.strings)) Object.assign(S[l], SITE.strings[l]);   // site name, tagline …
+let lang = SITE.defaultUi;
+export function setLang(l) { lang = S[l] ? l : SITE.defaultUi; }
 export function getLang() { return lang; }
+export function tf(key, vars) { return t(key).replace(/\{(\w+)\}/g, (_, k) => vars[k] ?? ""); }
 export function t(key) { return (S[lang] && S[lang][key]) || S.en[key] || key; }
 export function both(key) { return `${S.fa[key]} · ${S.en[key]} · ${S.tr[key]}`; }
 export function all3(key) { return [S.fa[key], S.en[key], S.tr[key]]; }
