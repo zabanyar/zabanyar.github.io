@@ -29,6 +29,12 @@ def check_emoji(errs, e, path):
     if len(base) != 1:
         err(errs, path, f"must be ONE emoji, got {e!r}")
 
+def check_sym(errs, d):
+    for k in ("words", "phrases"):
+        for i, w in enumerate(d.get(k, [])):
+            if "sym" in w and (w["sym"] is not True or not w.get("emoji")):
+                err(errs, f"{k}[{i}].sym", "sym must be true and only on items with an emoji")
+
 def validate(fn):
     errs = []
     try:
@@ -103,7 +109,7 @@ def validate(fn):
         if GU:
             if len(g.get("explain", "")) < 300: err(errs, p + ".explain", "grammar-unit explanation should be detailed (≥ 300 chars)")
             if len(g.get("examples", [])) < 4: err(errs, p + ".examples", "need 4–6 examples")
-            if not (10 <= len(X) <= 14): err(errs, p + ".exercises", f"grammar unit: need 10–14 exercises, got {len(X)}")
+            if not (10 <= len(X) <= 16): err(errs, p + ".exercises", f"grammar unit: need 10–16 exercises, got {len(X)}")
             if len({x.get("type") for x in X}) < 2: err(errs, p + ".exercises", "mix exercise types")
         for i, x in enumerate(X):
             q = f"{p}.exercises[{i}]"
@@ -111,6 +117,13 @@ def validate(fn):
             need_ts(errs, x, q)
             if "hint" in x and (not isinstance(x["hint"], str) or not x["hint"].strip() or len(x["hint"]) > 40):
                 err(errs, q + ".hint", "hint must be a short string (e.g. the infinitive)")
+            if "cue" in x and (not isinstance(x["cue"], str) or not x["cue"].strip() or len(x["cue"]) > 200):
+                err(errs, q + ".cue", "cue must be a target-language sentence (string, ≤ 200 chars)")
+            if "task" in x and (not isinstance(x["task"], str) or not x["task"].strip() or len(x["task"]) > 90):
+                err(errs, q + ".task", "task must be a short instruction in the explanation language (≤ 90 chars)")
+            if "cpr" in x and not x.get("cue"): err(errs, q + ".cpr", "cpr only together with cue")
+            if "why" in x and (not isinstance(x["why"], str) or not x["why"].strip() or len(x["why"]) > 160):
+                err(errs, q + ".why", "why must be a short reason (≤ 160 chars)")
             if ty == "choice":
                 o = x.get("options", [])
                 if len(o) < 2: err(errs, q, "options < 2")
@@ -126,6 +139,7 @@ def validate(fn):
                 if not (2 <= n <= 9): err(errs, q, f"order sentence should be 3–7 words, got {n}")
             else:
                 err(errs, q, f"unknown type {ty}")
+    check_sym(errs, d)
     r = d.get("reading")
     if (uid != "u00" and not GU) or r:
         if not r: err(errs, "reading", "missing")
@@ -143,8 +157,12 @@ def validate(fn):
     S = d.get("sentences", [])
     if uid != "u00" and not GU and len(S) < 5: err(errs, "sentences", "need 6–8")
     for i, s in enumerate(S): need_ts(errs, s, f"sentences[{i}]")
-    # Persian ZWNJ heuristics
-    txt = json.dumps(d, ensure_ascii=False)
+    # Persian ZWNJ heuristics (not on pronunciation guides: «آنِّمی زیارِت» is Turkish "annemi", not the prefix می)
+    def no_pr(o):
+        if isinstance(o, dict): return {k: no_pr(v) for k, v in o.items() if k not in ("pr", "cpr")}
+        if isinstance(o, list): return [no_pr(v) for v in o]
+        return o
+    txt = json.dumps(no_pr(d), ensure_ascii=False)
     for bad in re.findall(r"(?<![\w‌])(می|نمی) (?=[؀-ۿ])", txt):
         err(errs, "persian", "use ZWNJ after می/نمی (e.g. می‌خواهم), found a plain space"); break
     return [f"{fn}: {e}" for e in errs]

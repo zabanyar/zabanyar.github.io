@@ -116,7 +116,7 @@ ABBR = {"en": [("Dr.", "Doctor"), ("Mr.", "Mister"), ("Mrs.", "Missus"), ("Si-o-
                ("Acetylsalicylsäure", "Azetylsalizylsäure"), ("Cephalgie", "Zephalgie"), ("Ibuprofen", "Ibu-Profen"),
                ("Statin", "Statihn"), ("statin", "statihn"), ("Exanthem", "Exanthehm"), ("exanthem", "exanthehm"),
                ("Levothyroxin", "Levothyroxihn"), ("Generik", "Geneerik"),
-               ("Spacer", "Speißer"), ("Teach-back", "Tietschbäck")],
+               ("Spacer", "Speißer"), ("Teach-back", "Tietschbäck"), ("INR-Wert", "I-N-R-Wert"), ("INR", "I N R")],
         "tr": [("Prof. Dr.", "Profesör Doktor"), ("Dr.", "Doktor"), ("Prof.", "Profesör"), ("Bedenim M.", "Bedenim em."), ("Bu L beden", "Bu el beden")],
         "fa": []}
 
@@ -128,6 +128,8 @@ def speakable(text, lang="en"):
     t = t.replace("jdn.", "jemanden").replace("jdm.", "jemandem").replace("etw.", "etwas").replace("sth.", "something")
     for a, b in ABBR.get(lang, []):
         t = t.replace(a, b)
+    if lang == "de":
+        t = re.sub(r"\bKI\b", "Ka-I", t)                    # künstliche Intelligenz, spoken letter by letter
     # "18 = eighteen", "۱۵: پانزده": the word after a bare number is what should be heard
     m = re.fullmatch(r"\s*[\d۰-۹]+\s*(?:=|:(?![\d۰-۹]))\s*(.+)", t)
     if m: t = m.group(1)
@@ -244,6 +246,8 @@ def process_unit(course, u):
         for x in g.get("exercises", []):
             x["full"] = fill_gap(x)
             add_audio(course, x, text=x["full"])
+            if x.get("cue"):
+                add_audio(course, x, text=x["cue"], key="ca")
     r = u.get("reading")
     if r:
         add_audio(course, r["title"])
@@ -286,7 +290,8 @@ def main():
                 files_in(u, offline)
                 units.append({"id": u["id"], "title": u["title"], "img": u.get("img"), "emoji": u.get("emoji"), "goals": u.get("goals", []),
                               "has": {k: bool(u.get(k)) for k in ("letters", "sounds", "words", "phrases", "dialogue", "grammar", "reading")},
-                              **({"kind": "grammar", "gn": len(u["grammar"]), "gt": [g["title"]["t"] for g in u["grammar"]]} if u.get("kind") == "grammar" else {})})
+                              **({"kind": "grammar", "gn": len(u["grammar"]), "gt": [g["title"]["t"] for g in u["grammar"]]} if u.get("kind") == "grammar" else
+                                 {"gn": len(u["grammar"]), "gs": [g["title"]["s"] for g in u["grammar"]]} if len(u.get("grammar", [])) > 2 else {})})
             lv = {"id": lid, "name": meta.get("level_names", {}).get(lid, LEVEL_NAME[sup][lid]), "units": units}
             if not units:
                 lv["outline"] = LEVEL_OUTLINE[sup].get(lid, "")
