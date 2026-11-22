@@ -90,7 +90,7 @@
       "t": "comfortable",
       "s": "راحت",
       "pr": "کامفِرتِبِل",
-      "emoji": "🛋️",
+      "emoji": "",
       "ex": {
         "t": "These shoes are very comfortable.",
         "s": "این کفش‌ها خیلی راحت‌اند.",
@@ -474,7 +474,7 @@
         "s": "صفت عالی (ـترین)",
         "pr": "سوپِرلِتیوز: ذِ بیگِست، ذِ مُوست پاپیولِر"
       },
-      "explain": "برای مقایسهٔ یک چیز با **همهٔ** چیزهای یک گروه از **صفت عالی** استفاده می‌کنیم؛ مثل «ـترین» در فارسی. قبل از صفت عالی همیشه **the** می‌آید.\n**صفت‌های کوتاه**: **the + صفت + est**: **cheap → the cheapest**، **big → the biggest**، **heavy → the heaviest**.\n**صفت‌های بلند**: **the most + صفت**: **the most expensive**، **the most popular**.\n**بی‌قاعده‌ها**: **good → the best**، **bad → the worst**.\nبرای گفتن «در یک جا یا گروه» معمولاً از **in** استفاده می‌کنیم: **the biggest city in Iran** (بزرگ‌ترین شهر ایران).\nمثل فارسی، صفت عالی **قبل از اسم** می‌آید: **the best student** (بهترین دانش‌آموز).",
+      "explain": "برای مقایسهٔ یک چیز با **همهٔ** چیزهای یک گروه از **صفت عالی** استفاده می‌کنیم؛ مثل «ـترین» در فارسی. قبل از صفت عالی معمولاً **the** می‌آید (یا یک صفت ملکی مثل **my**: **my best friend**).\n**صفت‌های کوتاه**: **the + صفت + est**: **cheap → the cheapest**، **big → the biggest**، **heavy → the heaviest**.\n**صفت‌های بلند**: **the most + صفت**: **the most expensive**، **the most popular**.\n**بی‌قاعده‌ها**: **good → the best**، **bad → the worst**.\nبرای گفتن «در یک جا یا گروه» معمولاً از **in** استفاده می‌کنیم: **the biggest city in Iran** (بزرگ‌ترین شهر ایران).\nمثل فارسی، صفت عالی **قبل از اسم** می‌آید: **the best student** (بهترین دانش‌آموز).",
       "table": [
         [
           "cheap",
@@ -609,7 +609,10 @@
           "type": "order",
           "t": "Which is the most expensive car?",
           "s": "گران‌ترین ماشین کدام است؟",
-          "pr": "ویچ ایز ذِ مُوست ایکسْپِنسیو کار؟"
+          "pr": "ویچ ایز ذِ مُوست ایکسْپِنسیو کار؟",
+          "alts": [
+            "Which car is the most expensive?"
+          ]
         }
       ]
     }
